@@ -1,0 +1,30 @@
+# Lista de Tarefas para o Projeto de Scraping com IA
+
+- [x] Solicitar confirmação e perguntas ao usuário
+- [x] Analisar respostas e confirmar requisitos
+- [x] Analisar o arquivo medicos.csv
+  - [x] Verificar existência do arquivo
+  - [x] Verificar estrutura e conteúdo do arquivo
+  - [x] Implementar tratamento de erro caso o arquivo não exista
+- [x] Integrar com Ollama para entendimento do contexto
+  - [x] Desenvolver prompt eficiente para a IA
+  - [x] Implementar comunicação com a API do Ollama
+  - [x] Testar interpretação do contexto baseado nas colunas
+- [x] Implementar scraper para Bing e SearXNG com Selenium
+  - [x] Configurar o Selenium com ChromeDriver
+  - [x] Implementar busca no Bing
+  - [x] Implementar busca no SearXNG
+  - [x] Combinar resultados de ambas as fontes
+- [x] Validar os dados encontrados com a IA
+  - [x] Implementar validação rigorosa com IA
+  - [x] Usar regex para validação de padrões específicos
+  - [x] Garantir que apenas os dados solicitados sejam retornados
+- [x] Salvar resultados em medicos-output.csv
+  - [x] Manter a mesma estrutura do arquivo original
+  - [x] Garantir que cada linha corresponda à mesma linha do arquivo original
+- [x] Validar integridade dos dados e arquivo final
+  - [x] Verificar se todos os dados foram preenchidos corretamente
+  - [x] Garantir que o formato do arquivo esteja correto
+- [ ] Reportar progresso e entregar arquivo ao usuário
+  - [ ] Fazer commit das alterações no repositório
+  - [ ] Informar ao usuário que o trabalho foi concluído
