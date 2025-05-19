@@ -16,7 +16,7 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
 # Configurações
 SEARX_URL = "http://124.81.6.163:8092/search"
-SEARX_JSON_URL = "https://search.piattino.com.br/search?q={}&format=json"
+SEARX_JSON_URL = "http://124.81.6.163:8092/search?q={}&format=json"
 OLLAMA_URL = "http://124.81.6.163:11434/api/generate"
 OLLAMA_MODEL = "llama3.1:8b"
 CSV_INPUT = "medicos.csv"
