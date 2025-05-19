@@ -21,6 +21,7 @@ OLLAMA_URL = "http://124.81.6.163:11434/api/generate"
 OLLAMA_MODEL = "llama3.1:8b"
 CSV_INPUT = "medicos.csv"
 CSV_OUTPUT = "medicos-output.csv"
+DATA_DIR = "data"
 MAX_RETRIES = 3
 WAIT_TIME = 10
 
@@ -166,11 +167,58 @@ def create_validation_prompt(headers, row, search_results, field_to_find):
     
     return prompt.format(context=context_str, results=search_results, field_to_find=field_to_find)
 
-def search_bing(driver, query):
+def get_doctor_filename(row, headers):
+    """Gera um nome de arquivo para o médico baseado no nome."""
+    # Tenta encontrar os índices dos campos de nome
+    first_name_idx = -1
+    last_name_idx = -1
+    
+    for i, header in enumerate(headers):
+        if "primeiro nome" in header.lower():
+            first_name_idx = i
+        elif "ultimo nome" in header.lower():
+            last_name_idx = i
+    
+    # Se encontrou os campos de nome, usa-os para gerar o nome do arquivo
+    if first_name_idx >= 0 and last_name_idx >= 0 and first_name_idx < len(row) and last_name_idx < len(row):
+        first_name = row[first_name_idx].strip()
+        last_name = row[last_name_idx].strip()
+        
+        if first_name and last_name:
+            # Normaliza o nome para usar como nome de arquivo
+            full_name = f"{first_name} {last_name}"
+            normalized_name = re.sub(r'[^a-zA-Z0-9]', '-', full_name.lower())
+            return normalized_name
+    
+    # Fallback: usa o CRM se disponível
+    if len(row) > 0 and row[0]:
+        return f"medico-{row[0]}"
+    
+    # Último recurso: usa um timestamp
+    return f"medico-{int(time.time())}"
+
+def save_search_result(doctor_filename, url, source, extracted_data, field):
+    """Salva o resultado da busca em um arquivo txt para o médico."""
+    # Cria o diretório data se não existir
+    if not os.path.exists(DATA_DIR):
+        os.makedirs(DATA_DIR)
+    
+    file_path = os.path.join(DATA_DIR, f"{doctor_filename}.txt")
+    
+    # Formata a entrada conforme solicitado
+    entry = f"URL : {url} [ {source} ]\n"
+    entry += f"--Informação extraida e alocada no csv: {extracted_data if extracted_data else 'Nenhuma informação extraída'}\n\n"
+    
+    # Salva a entrada no arquivo (append)
+    with open(file_path, 'a', encoding='utf-8') as f:
+        f.write(entry)
+
+def search_bing(driver, query, doctor_filename, field):
     """Realiza uma busca no Bing e retorna os resultados."""
     results = []
     try:
-        driver.get(f"https://www.bing.com/search?q={query}")
+        url = f"https://www.bing.com/search?q={query}"
+        driver.get(url)
         WebDriverWait(driver, WAIT_TIME).until(
             EC.presence_of_element_located((By.ID, "b_results"))
         )
@@ -181,7 +229,16 @@ def search_bing(driver, query):
             try:
                 title = result.find_element(By.CSS_SELECTOR, "h2").text
                 snippet = result.find_element(By.CSS_SELECTOR, ".b_caption p").text
-                results.append({"title": title, "snippet": snippet})
+                
+                # Tenta encontrar o link
+                link_element = result.find_element(By.CSS_SELECTOR, "h2 a")
+                link = link_element.get_attribute("href")
+                
+                results.append({
+                    "title": title,
+                    "snippet": snippet,
+                    "url": link
+                })
             except NoSuchElementException:
                 continue
         
@@ -190,33 +247,38 @@ def search_bing(driver, query):
         print(f"Erro ao buscar no Bing: {str(e)}")
         return []
 
-def search_searx(query):
+def search_searx(query, doctor_filename, field):
     """Realiza uma busca no SearXNG e retorna os resultados."""
     results = []
     try:
         # Tenta primeiro a API JSON
-        response = requests.get(SEARX_JSON_URL.format(query))
+        url = SEARX_JSON_URL.format(query)
+        response = requests.get(url)
         if response.status_code == 200:
             data = response.json()
             for result in data.get('results', [])[:5]:
                 results.append({
                     "title": result.get('title', ''),
-                    "snippet": result.get('content', '')
+                    "snippet": result.get('content', ''),
+                    "url": result.get('url', '')
                 })
         else:
             # Fallback para a versão não-JSON
-            response = requests.get(f"{SEARX_URL}?q={query}")
+            url = f"{SEARX_URL}?q={query}"
+            response = requests.get(url)
             if response.status_code == 200:
                 # Extrai resultados do HTML (simplificado)
                 content = response.text
                 # Implementação simplificada - em produção, usar BeautifulSoup
                 snippets = re.findall(r'<p class="content">(.*?)</p>', content)
                 titles = re.findall(r'<h4>(.*?)</h4>', content)
+                urls = re.findall(r'<a href="([^"]+)" class="url_link"', content)
                 
-                for i in range(min(len(titles), len(snippets), 5)):
+                for i in range(min(len(titles), len(snippets), len(urls), 5)):
                     results.append({
                         "title": titles[i],
-                        "snippet": snippets[i]
+                        "snippet": snippets[i],
+                        "url": urls[i]
                     })
     except Exception as e:
         print(f"Erro ao buscar no SearXNG: {str(e)}")
@@ -274,6 +336,18 @@ def process_csv():
                 while len(row) < len(headers):
                     row.append("")
                 
+                # Gera o nome do arquivo para o médico
+                doctor_filename = get_doctor_filename(row, headers)
+                
+                # Cria o diretório data se não existir
+                if not os.path.exists(DATA_DIR):
+                    os.makedirs(DATA_DIR)
+                
+                # Limpa o arquivo anterior se existir
+                file_path = os.path.join(DATA_DIR, f"{doctor_filename}.txt")
+                with open(file_path, 'w', encoding='utf-8') as f:
+                    f.write(f"Arquivo de busca para: {doctor_filename}\n\n")
+                
                 # Identifica campos vazios que precisam ser preenchidos
                 empty_fields = []
                 for i, value in enumerate(row):
@@ -303,11 +377,31 @@ def process_csv():
                 search_query = " ".join([v for v in row if v])
                 
                 # Realiza buscas no Bing e SearXNG
-                bing_results = search_bing(driver, search_query)
-                searx_results = search_searx(search_query)
+                bing_results = search_bing(driver, search_query, doctor_filename, fields_to_search)
+                searx_results = search_searx(search_query, doctor_filename, fields_to_search)
                 
-                # Combina os resultados
-                all_results = bing_results + searx_results
+                # Combina os resultados para processamento
+                all_results = []
+                
+                # Adiciona resultados do Bing
+                for result in bing_results:
+                    all_results.append({
+                        "title": result.get("title", ""),
+                        "snippet": result.get("snippet", ""),
+                        "url": result.get("url", ""),
+                        "source": "BING"
+                    })
+                
+                # Adiciona resultados do SearXNG
+                for result in searx_results:
+                    all_results.append({
+                        "title": result.get("title", ""),
+                        "snippet": result.get("snippet", ""),
+                        "url": result.get("url", ""),
+                        "source": "SearXNG"
+                    })
+                
+                # Prepara o texto para análise
                 results_text = "\n\n".join([
                     f"Título: {result['title']}\nConteúdo: {result['snippet']}"
                     for result in all_results
@@ -316,6 +410,7 @@ def process_csv():
                 # Para cada campo vazio, tenta extrair o dado específico
                 for field in fields_to_search:
                     field_index = headers.index(field)
+                    extracted_data = None
                     
                     # Primeiro tenta extrair com regex para tipos de dados conhecidos
                     extracted_data = extract_specific_data(results_text, field)
@@ -334,6 +429,29 @@ def process_csv():
                     # Atualiza o valor no registro
                     if extracted_data:
                         row[field_index] = extracted_data
+                        
+                        # Salva a informação para cada resultado que contribuiu
+                        for result in all_results:
+                            # Verifica se este resultado contribuiu para a extração
+                            result_text = f"{result['title']} {result['snippet']}"
+                            if extracted_data in result_text:
+                                save_search_result(
+                                    doctor_filename,
+                                    result['url'],
+                                    result['source'],
+                                    f"{field}: {extracted_data}",
+                                    field
+                                )
+                    else:
+                        # Mesmo sem extração, registra as tentativas
+                        for result in all_results:
+                            save_search_result(
+                                doctor_filename,
+                                result['url'],
+                                result['source'],
+                                "Nenhuma informação extraída para este campo",
+                                field
+                            )
                 
                 # Escreve a linha atualizada no arquivo de saída
                 writer.writerow(row)
@@ -342,6 +460,7 @@ def process_csv():
                 time.sleep(1)
         
         print(f"Processamento concluído. Resultados salvos em {CSV_OUTPUT}")
+        print(f"Detalhes das buscas salvos na pasta {DATA_DIR}/")
     
     except Exception as e:
         print(f"Erro durante o processamento: {str(e)}")

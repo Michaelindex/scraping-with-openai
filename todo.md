@@ -2,6 +2,7 @@
 
 - [x] Solicitar confirmação e perguntas ao usuário
 - [x] Analisar respostas e confirmar requisitos
+- [x] Realizar git pull para atualizar cabeçalho do CSV
 - [x] Analisar o arquivo medicos.csv
   - [x] Verificar existência do arquivo
   - [x] Verificar estrutura e conteúdo do arquivo
@@ -15,6 +16,10 @@
   - [x] Implementar busca no Bing
   - [x] Implementar busca no SearXNG
   - [x] Combinar resultados de ambas as fontes
+- [x] Para cada site acessado, salvar em txt por médico
+  - [x] Criar pasta data se não existir
+  - [x] Gerar nome de arquivo baseado no nome do médico
+  - [x] Salvar URL, fonte e informação extraída no formato solicitado
 - [x] Validar os dados encontrados com a IA
   - [x] Implementar validação rigorosa com IA
   - [x] Usar regex para validação de padrões específicos
