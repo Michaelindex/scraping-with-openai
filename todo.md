@@ -20,6 +20,14 @@
   - [x] Criar pasta data se não existir
   - [x] Gerar nome de arquivo baseado no nome do médico
   - [x] Salvar URL, fonte e informação extraída no formato solicitado
+- [x] Registrar log detalhado de todas as operações
+  - [x] Implementar sistema de logging para todas as ações
+  - [x] Registrar tentativas de acesso, erros e respostas
+  - [x] Salvar logs em arquivo separado para depuração
+- [x] Salvar informações captadas em TXT com estrutura personalizada
+  - [x] Modificar formato para incluir todas as informações captadas
+  - [x] Separar informações com "///"
+  - [x] Implementar tratamento especial para sites bloqueados
 - [x] Validar os dados encontrados com a IA
   - [x] Implementar validação rigorosa com IA
   - [x] Usar regex para validação de padrões específicos
