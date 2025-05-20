@@ -6,6 +6,7 @@ import csv
 import json
 import time
 import re
+import random
 import requests
 import logging
 import datetime
@@ -13,10 +14,13 @@ import urllib.parse
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.keys import Keys
 
 # Configurações
 SEARX_URL = "http://124.81.6.163:8092/search"
@@ -30,9 +34,23 @@ RAW_DATA_DIR = "raw_data"
 CANDIDATES_DIR = "candidates"
 LOG_DIR = "logs"
 LOG_FILE = "scraping_log.txt"
+COOKIES_DIR = "cookies"
 MAX_RETRIES = 3
-WAIT_TIME = 10
+WAIT_TIME = 15
 EXCLUDED_EXTENSIONS = ['.pdf', '.xlsx', '.xls', '.doc', '.docx', '.ppt', '.pptx', '.txt', '.csv']
+
+# Lista de user agents realistas
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78",
+    "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+    "Mozilla/5.0 (iPad; CPU OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
+]
 
 # Configuração do sistema de log
 def setup_logging():
@@ -117,26 +135,200 @@ def check_csv_exists():
     logging.info(f"Arquivo {CSV_INPUT} verificado com sucesso.")
     return True
 
-def setup_selenium():
-    """Configura e retorna uma instância do Selenium WebDriver."""
-    logging.info("Configurando Selenium WebDriver")
+def setup_selenium_stealth():
+    """Configura e retorna uma instância do Selenium WebDriver com técnicas stealth."""
+    logging.info("Configurando Selenium WebDriver com técnicas stealth")
+    
+    # Cria o diretório de cookies se não existir
+    if not os.path.exists(COOKIES_DIR):
+        os.makedirs(COOKIES_DIR)
+    
+    # Seleciona um user agent aleatório
+    user_agent = random.choice(USER_AGENTS)
+    logging.info(f"User agent selecionado: {user_agent}")
     
     chrome_options = Options()
-    chrome_options.add_argument("--headless")
-    chrome_options.add_argument("--no-sandbox")
+    
+    # Configurações para evitar detecção de automação
+    chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+    chrome_options.add_argument(f"--user-agent={user_agent}")
     chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--window-size=1920,1080")
-    chrome_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+    chrome_options.add_argument("--start-maximized")
+    chrome_options.add_argument("--disable-infobars")
+    chrome_options.add_argument("--disable-extensions")
+    
+    # Configurações experimentais para evitar detecção
+    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    chrome_options.add_experimental_option("useAutomationExtension", False)
+    
+    # Preferências para evitar detecção
+    prefs = {
+        "profile.default_content_setting_values.notifications": 2,
+        "credentials_enable_service": False,
+        "profile.password_manager_enabled": False,
+        "profile.managed_default_content_settings.images": 2  # Desabilita imagens para acelerar
+    }
+    chrome_options.add_experimental_option("prefs", prefs)
     
     try:
         driver = webdriver.Chrome(options=chrome_options)
-        logging.info("Selenium WebDriver inicializado com sucesso")
+        
+        # Executa JavaScript para evitar detecção
+        driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+        driver.execute_script("window.navigator.chrome = {runtime: {}}")
+        driver.execute_script("Object.defineProperty(navigator, 'languages', {get: () => ['pt-BR', 'pt', 'en-US', 'en']})")
+        driver.execute_script("Object.defineProperty(navigator, 'plugins', {get: () => [1, 2, 3, 4, 5]})")
+        
+        logging.info("Selenium WebDriver inicializado com técnicas stealth")
         return driver
     except Exception as e:
         logging.error(f"Erro ao inicializar o Selenium: {str(e)}")
         print(f"Erro ao inicializar o Selenium: {str(e)}")
         return None
+
+def random_delay(min_seconds=1, max_seconds=5):
+    """Adiciona um delay aleatório para simular comportamento humano."""
+    delay = random.uniform(min_seconds, max_seconds)
+    logging.debug(f"Adicionando delay aleatório de {delay:.2f} segundos")
+    time.sleep(delay)
+
+def simulate_human_behavior(driver):
+    """Simula comportamento humano no navegador."""
+    logging.debug("Simulando comportamento humano")
+    
+    try:
+        # Simula movimentos aleatórios do mouse
+        actions = ActionChains(driver)
+        
+        # Move para posições aleatórias
+        for _ in range(random.randint(2, 5)):
+            x = random.randint(100, 800)
+            y = random.randint(100, 600)
+            actions.move_by_offset(x, y).perform()
+            random_delay(0.1, 0.5)
+            actions.move_by_offset(-x, -y).perform()
+        
+        # Simula scroll aleatório
+        for _ in range(random.randint(1, 3)):
+            driver.execute_script(f"window.scrollBy(0, {random.randint(-300, 300)})")
+            random_delay(0.2, 1.0)
+        
+        logging.debug("Comportamento humano simulado com sucesso")
+    except Exception as e:
+        logging.warning(f"Erro ao simular comportamento humano: {str(e)}")
+
+def save_cookies(driver, domain, filename):
+    """Salva os cookies do domínio em um arquivo."""
+    try:
+        cookies = driver.get_cookies()
+        if cookies:
+            cookie_file = os.path.join(COOKIES_DIR, f"{filename}.json")
+            with open(cookie_file, 'w') as f:
+                json.dump(cookies, f)
+            logging.info(f"Cookies salvos para {domain} em {cookie_file}")
+            return True
+        else:
+            logging.warning(f"Nenhum cookie disponível para {domain}")
+            return False
+    except Exception as e:
+        logging.error(f"Erro ao salvar cookies para {domain}: {str(e)}")
+        return False
+
+def load_cookies(driver, domain, filename):
+    """Carrega cookies de um arquivo para o domínio especificado."""
+    cookie_file = os.path.join(COOKIES_DIR, f"{filename}.json")
+    if os.path.exists(cookie_file):
+        try:
+            with open(cookie_file, 'r') as f:
+                cookies = json.load(f)
+            
+            # Navega para o domínio antes de adicionar cookies
+            driver.get(f"https://{domain}")
+            random_delay(1, 2)
+            
+            for cookie in cookies:
+                try:
+                    driver.add_cookie(cookie)
+                except Exception as e:
+                    logging.warning(f"Erro ao adicionar cookie: {str(e)}")
+            
+            logging.info(f"Cookies carregados para {domain} de {cookie_file}")
+            return True
+        except Exception as e:
+            logging.error(f"Erro ao carregar cookies para {domain}: {str(e)}")
+            return False
+    else:
+        logging.warning(f"Arquivo de cookies não encontrado para {domain}")
+        return False
+
+def bypass_cloudflare(driver, url):
+    """Tenta contornar a proteção do Cloudflare."""
+    logging.info(f"Tentando contornar proteção Cloudflare para: {url}")
+    
+    try:
+        # Extrai o domínio da URL
+        domain = urllib.parse.urlparse(url).netloc
+        
+        # Tenta carregar cookies existentes
+        cookies_loaded = load_cookies(driver, domain, domain.replace('.', '_'))
+        
+        # Navega para a URL
+        driver.get(url)
+        
+        # Verifica se há desafio do Cloudflare
+        cloudflare_detected = False
+        try:
+            # Procura por elementos típicos do Cloudflare
+            cloudflare_elements = driver.find_elements(By.CSS_SELECTOR, 
+                                                     "#challenge-running, .cf-browser-verification, #cf-please-wait")
+            if cloudflare_elements:
+                cloudflare_detected = True
+                logging.info("Desafio Cloudflare detectado, aguardando...")
+                
+                # Aguarda mais tempo para o desafio ser resolvido
+                time.sleep(random.uniform(5, 8))
+                
+                # Simula comportamento humano
+                simulate_human_behavior(driver)
+                
+                # Aguarda mais um pouco
+                time.sleep(random.uniform(3, 5))
+        except:
+            pass
+        
+        # Verifica se conseguimos passar pelo Cloudflare
+        if cloudflare_detected:
+            # Verifica se o conteúdo da página foi carregado
+            try:
+                WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.TAG_NAME, "body"))
+                )
+                body_text = driver.find_element(By.TAG_NAME, "body").text
+                if "challenge" not in body_text.lower() and "cloudflare" not in body_text.lower():
+                    logging.info("Desafio Cloudflare superado com sucesso")
+                    
+                    # Salva os cookies para uso futuro
+                    save_cookies(driver, domain, domain.replace('.', '_'))
+                    return True
+                else:
+                    logging.warning("Não foi possível superar o desafio Cloudflare")
+                    return False
+            except:
+                logging.warning("Timeout ao verificar se o desafio Cloudflare foi superado")
+                return False
+        else:
+            logging.info("Nenhum desafio Cloudflare detectado ou já superado")
+            
+            # Salva os cookies para uso futuro
+            save_cookies(driver, domain, domain.replace('.', '_'))
+            return True
+            
+    except Exception as e:
+        logging.error(f"Erro ao tentar contornar Cloudflare: {str(e)}")
+        return False
 
 def query_ollama(prompt, model=OLLAMA_MODEL):
     """Envia um prompt para a API do Ollama e retorna a resposta."""
@@ -226,6 +418,7 @@ def create_selection_prompt(field, candidates):
     4. Você NÃO deve inventar ou modificar os dados, apenas selecionar entre os candidatos fornecidos
     5. Priorize dados que correspondam exatamente ao tipo de campo solicitado
     6. Ignore candidatos que claramente não correspondam ao tipo de campo (ex: um título de página para um campo de endereço)
+    7. Ignore candidatos que contenham mensagens de erro, verificação de humanos ou textos de interface
 
     Campo a ser preenchido: {field}
 
@@ -364,8 +557,38 @@ def is_html_url(url):
     
     return True
 
+def is_bot_detection_page(content):
+    """Verifica se a página contém elementos de detecção de bot."""
+    bot_detection_phrases = [
+        "verificando se você é humano",
+        "checking if you're human",
+        "verificação de segurança",
+        "security check",
+        "captcha",
+        "cloudflare",
+        "desafio de segurança",
+        "security challenge",
+        "robot check",
+        "verificação de robô",
+        "please wait",
+        "por favor, aguarde",
+        "access denied",
+        "acesso negado",
+        "ddos protection",
+        "proteção contra ddos",
+        "javascript and cookies",
+        "javascript e cookies"
+    ]
+    
+    content_lower = content.lower()
+    for phrase in bot_detection_phrases:
+        if phrase in content_lower:
+            return True
+    
+    return False
+
 def extract_page_content(driver, url):
-    """Extrai o conteúdo completo de uma página web."""
+    """Extrai o conteúdo completo de uma página web com técnicas anti-bot."""
     logging.info(f"Extraindo conteúdo da página: {url}")
     
     # Verifica se a URL é de uma página HTML
@@ -374,9 +597,25 @@ def extract_page_content(driver, url):
         return "URL ignorada (não é HTML)"
     
     try:
+        # Extrai o domínio da URL
+        domain = urllib.parse.urlparse(url).netloc
+        
+        # Tenta carregar cookies existentes
+        load_cookies(driver, domain, domain.replace('.', '_'))
+        
         # Tenta acessar a URL
         logging.debug(f"Navegando para {url}")
         driver.get(url)
+        
+        # Adiciona delay aleatório para simular comportamento humano
+        random_delay(2, 5)
+        
+        # Tenta contornar proteção Cloudflare
+        if "cloudflare" in driver.page_source.lower() or "challenge" in driver.page_source.lower():
+            bypass_cloudflare(driver, url)
+        
+        # Simula comportamento humano
+        simulate_human_behavior(driver)
         
         # Espera a página carregar
         try:
@@ -386,6 +625,38 @@ def extract_page_content(driver, url):
             logging.info("Página carregada com sucesso")
         except TimeoutException:
             logging.warning("Timeout ao esperar carregamento da página")
+        
+        # Verifica se estamos em uma página de detecção de bot
+        if is_bot_detection_page(driver.page_source):
+            logging.warning(f"Página de detecção de bot detectada: {url}")
+            
+            # Tenta algumas ações para contornar
+            try:
+                # Tenta clicar em botões comuns de "continuar" ou "prosseguir"
+                for button_text in ["continue", "continuar", "prosseguir", "next", "proceed", "i'm human", "sou humano"]:
+                    try:
+                        buttons = driver.find_elements(By.XPATH, f"//button[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{button_text}')]")
+                        if buttons:
+                            buttons[0].click()
+                            logging.info(f"Clicou em botão '{button_text}'")
+                            time.sleep(3)
+                            break
+                    except:
+                        pass
+                
+                # Aguarda mais tempo
+                time.sleep(5)
+                
+                # Verifica novamente
+                if is_bot_detection_page(driver.page_source):
+                    logging.warning("Ainda na página de detecção de bot após tentativas")
+                    return "Página de detecção de bot - acesso bloqueado"
+            except Exception as e:
+                logging.error(f"Erro ao tentar contornar página de detecção: {str(e)}")
+                return "Erro ao contornar detecção de bot"
+        
+        # Salva cookies para uso futuro
+        save_cookies(driver, domain, domain.replace('.', '_'))
         
         # Tenta extrair o conteúdo da página
         try:
@@ -404,10 +675,18 @@ def extract_page_content(driver, url):
             for h_tag in ["h1", "h2", "h3", "h4", "h5", "h6"]:
                 headings.extend([h.text for h in driver.find_elements(By.TAG_NAME, h_tag)])
             
+            # Tenta obter elementos específicos que podem conter informações relevantes
+            specific_elements = []
+            for selector in [".address", ".contact", ".info", ".profile", ".details", ".doctor-info"]:
+                elements = driver.find_elements(By.CSS_SELECTOR, selector)
+                specific_elements.extend([e.text for e in elements if e.text.strip()])
+            
             # Combina todos os textos extraídos
             all_content = f"Título: {title} /// "
             all_content += f"Cabeçalhos: {' /// '.join(headings)} /// "
             all_content += f"Parágrafos: {' /// '.join(paragraphs)} /// "
+            if specific_elements:
+                all_content += f"Elementos específicos: {' /// '.join(specific_elements)} /// "
             all_content += f"Texto completo: {body_text}"
             
             logging.info("Conteúdo da página extraído com sucesso")
@@ -424,6 +703,11 @@ def extract_page_content(driver, url):
 def extract_candidates_from_content(content, field):
     """Extrai candidatos para um campo específico a partir do conteúdo da página."""
     logging.info(f"Extraindo candidatos para o campo {field} do conteúdo")
+    
+    # Verifica se o conteúdo contém mensagens de detecção de bot
+    if is_bot_detection_page(content):
+        logging.warning("Conteúdo contém mensagens de detecção de bot, ignorando")
+        return []
     
     candidates = []
     
@@ -521,9 +805,27 @@ def extract_candidates_from_content(content, field):
             if re.search(r'\b' + re.escape(specialty) + r'\b', content, re.IGNORECASE):
                 candidates.append(specialty)
     
+    # Filtra candidatos que contêm mensagens de erro ou verificação
+    filtered_candidates = []
+    error_phrases = [
+        "verificando", "checking", "verificação", "security", "captcha", "cloudflare", 
+        "desafio", "challenge", "robot", "please wait", "aguarde", "access denied", 
+        "acesso negado", "ddos", "javascript", "cookies", "ray id", "esperando", "enable"
+    ]
+    
+    for candidate in candidates:
+        is_error = False
+        for phrase in error_phrases:
+            if phrase.lower() in candidate.lower():
+                is_error = True
+                break
+        
+        if not is_error:
+            filtered_candidates.append(candidate)
+    
     # Remove duplicatas e mantém a ordem
     unique_candidates = []
-    for candidate in candidates:
+    for candidate in filtered_candidates:
         normalized = candidate.lower().strip()
         if normalized not in [c.lower().strip() for c in unique_candidates]:
             unique_candidates.append(candidate)
@@ -541,8 +843,24 @@ def extract_candidates_from_html(driver, url, field):
         return []
     
     try:
-        # Acessa a URL
+        # Extrai o domínio da URL
+        domain = urllib.parse.urlparse(url).netloc
+        
+        # Tenta carregar cookies existentes
+        load_cookies(driver, domain, domain.replace('.', '_'))
+        
+        # Acessa a URL com técnicas anti-bot
         driver.get(url)
+        
+        # Adiciona delay aleatório
+        random_delay(2, 5)
+        
+        # Tenta contornar proteção Cloudflare
+        if "cloudflare" in driver.page_source.lower() or "challenge" in driver.page_source.lower():
+            bypass_cloudflare(driver, url)
+        
+        # Simula comportamento humano
+        simulate_human_behavior(driver)
         
         # Espera a página carregar
         try:
@@ -551,6 +869,14 @@ def extract_candidates_from_html(driver, url, field):
             )
         except TimeoutException:
             logging.warning(f"Timeout ao carregar a página: {url}")
+        
+        # Verifica se estamos em uma página de detecção de bot
+        if is_bot_detection_page(driver.page_source):
+            logging.warning(f"Página de detecção de bot detectada: {url}")
+            return []
+        
+        # Salva cookies para uso futuro
+        save_cookies(driver, domain, domain.replace('.', '_'))
         
         # Obtém o HTML da página
         html = driver.page_source
@@ -646,9 +972,27 @@ def extract_candidates_from_html(driver, url, field):
         # Combina todos os candidatos
         all_candidates = candidates + content_candidates
         
+        # Filtra candidatos que contêm mensagens de erro ou verificação
+        filtered_candidates = []
+        error_phrases = [
+            "verificando", "checking", "verificação", "security", "captcha", "cloudflare", 
+            "desafio", "challenge", "robot", "please wait", "aguarde", "access denied", 
+            "acesso negado", "ddos", "javascript", "cookies", "ray id", "esperando", "enable"
+        ]
+        
+        for candidate in all_candidates:
+            is_error = False
+            for phrase in error_phrases:
+                if phrase.lower() in candidate.lower():
+                    is_error = True
+                    break
+            
+            if not is_error:
+                filtered_candidates.append(candidate)
+        
         # Remove duplicatas e mantém a ordem
         unique_candidates = []
-        for candidate in all_candidates:
+        for candidate in filtered_candidates:
             normalized = candidate.lower().strip()
             if normalized not in [c.lower().strip() for c in unique_candidates]:
                 unique_candidates.append(candidate)
@@ -669,7 +1013,15 @@ def search_bing(driver, query, doctor_filename, fields):
         url = f"https://www.bing.com/search?q={query}"
         logging.debug(f"URL de busca: {url}")
         
+        # Acessa a URL com técnicas anti-bot
         driver.get(url)
+        
+        # Adiciona delay aleatório
+        random_delay(2, 4)
+        
+        # Simula comportamento humano
+        simulate_human_behavior(driver)
+        
         try:
             WebDriverWait(driver, WAIT_TIME).until(
                 EC.presence_of_element_located((By.ID, "b_results"))
@@ -730,7 +1082,16 @@ def search_searx(driver, query, doctor_filename, fields):
         logging.debug(f"URL de busca JSON: {url}")
         
         try:
-            response = requests.get(url)
+            # Usa um user agent aleatório para a requisição
+            headers = {
+                "User-Agent": random.choice(USER_AGENTS),
+                "Accept": "application/json",
+                "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+                "Referer": "https://www.google.com/",
+                "DNT": "1"
+            }
+            
+            response = requests.get(url, headers=headers)
             logging.debug(f"Status da resposta: {response.status_code}")
             
             if response.status_code == 200:
@@ -765,36 +1126,58 @@ def search_searx(driver, query, doctor_filename, fields):
                 url = f"{SEARX_URL}?q={query}"
                 logging.debug(f"URL de busca HTML: {url}")
                 
-                response = requests.get(url)
-                if response.status_code == 200:
-                    content = response.text
-                    logging.debug(f"Tamanho da resposta HTML: {len(content)} caracteres")
-                    
-                    # Implementação simplificada - em produção, usar BeautifulSoup
-                    snippets = re.findall(r'<p class="content">(.*?)</p>', content)
-                    titles = re.findall(r'<h4>(.*?)</h4>', content)
-                    urls = re.findall(r'<a href="([^"]+)" class="url_link"', content)
-                    
-                    logging.info(f"Encontrados {min(len(titles), len(snippets), len(urls))} resultados no SearXNG (HTML)")
-                    
-                    for i in range(min(len(titles), len(snippets), len(urls), 5)):
-                        # Verifica se a URL é de uma página HTML
-                        if is_html_url(urls[i]):
-                            logging.debug(f"Resultado {i+1}: {titles[i]} - {urls[i]}")
+                # Acessa a URL com técnicas anti-bot
+                driver.get(url)
+                
+                # Adiciona delay aleatório
+                random_delay(2, 4)
+                
+                # Simula comportamento humano
+                simulate_human_behavior(driver)
+                
+                # Espera a página carregar
+                try:
+                    WebDriverWait(driver, WAIT_TIME).until(
+                        EC.presence_of_element_located((By.TAG_NAME, "body"))
+                    )
+                except TimeoutException:
+                    logging.warning(f"Timeout ao carregar a página: {url}")
+                
+                # Usa BeautifulSoup para extrair os resultados
+                soup = BeautifulSoup(driver.page_source, 'html.parser')
+                
+                # Procura por resultados
+                result_elements = soup.select(".result")
+                logging.info(f"Encontrados {len(result_elements)} resultados no SearXNG (HTML)")
+                
+                for i, result_element in enumerate(result_elements[:5]):
+                    try:
+                        title_element = result_element.select_one(".result-title")
+                        title = title_element.get_text() if title_element else ""
+                        
+                        snippet_element = result_element.select_one(".result-content")
+                        snippet = snippet_element.get_text() if snippet_element else ""
+                        
+                        url_element = result_element.select_one(".result-url")
+                        result_url = url_element.get("href") if url_element else ""
+                        
+                        if result_url and is_html_url(result_url):
+                            logging.debug(f"Resultado {i+1}: {title} - {result_url}")
                             
                             results.append({
-                                "title": titles[i],
-                                "snippet": snippets[i],
-                                "url": urls[i]
+                                "title": title,
+                                "snippet": snippet,
+                                "url": result_url
                             })
                             
                             # Extrai o conteúdo completo da página
-                            all_content = extract_page_content(driver, urls[i])
-                            save_raw_search_data(doctor_filename, urls[i], "SearXNG", all_content)
+                            all_content = extract_page_content(driver, result_url)
+                            save_raw_search_data(doctor_filename, result_url, "SearXNG", all_content)
                         else:
-                            logging.warning(f"URL ignorada (não é HTML): {urls[i]}")
-                else:
-                    logging.error(f"Erro na versão HTML do SearXNG: {response.status_code}")
+                            logging.warning(f"URL ignorada (não é HTML): {result_url}")
+                    except Exception as e:
+                        logging.error(f"Erro ao processar resultado {i+1}: {str(e)}")
+                        continue
         except requests.exceptions.RequestException as e:
             logging.error(f"Erro de conexão com SearXNG: {str(e)}")
         except json.JSONDecodeError as e:
@@ -826,9 +1209,27 @@ def collect_candidates(driver, all_results, field):
             snippet_candidates = extract_candidates_from_content(snippet, field)
             all_candidates.extend(snippet_candidates)
     
+    # Filtra candidatos que contêm mensagens de erro ou verificação
+    filtered_candidates = []
+    error_phrases = [
+        "verificando", "checking", "verificação", "security", "captcha", "cloudflare", 
+        "desafio", "challenge", "robot", "please wait", "aguarde", "access denied", 
+        "acesso negado", "ddos", "javascript", "cookies", "ray id", "esperando", "enable"
+    ]
+    
+    for candidate in all_candidates:
+        is_error = False
+        for phrase in error_phrases:
+            if phrase.lower() in candidate.lower():
+                is_error = True
+                break
+        
+        if not is_error:
+            filtered_candidates.append(candidate)
+    
     # Remove duplicatas e mantém a ordem
     unique_candidates = []
-    for candidate in all_candidates:
+    for candidate in filtered_candidates:
         normalized = candidate.lower().strip()
         if normalized not in [c.lower().strip() for c in unique_candidates]:
             unique_candidates.append(candidate)
@@ -866,7 +1267,7 @@ def process_csv():
     if not check_csv_exists():
         return
     
-    driver = setup_selenium()
+    driver = setup_selenium_stealth()
     if not driver:
         return
     
@@ -898,7 +1299,7 @@ def process_csv():
                 doctor_filename = get_doctor_filename(row, headers)
                 
                 # Cria os diretórios se não existirem
-                for directory in [DATA_DIR, RAW_DATA_DIR, CANDIDATES_DIR]:
+                for directory in [DATA_DIR, RAW_DATA_DIR, CANDIDATES_DIR, COOKIES_DIR]:
                     if not os.path.exists(directory):
                         os.makedirs(directory)
                         logging.info(f"Diretório {directory} criado")
@@ -947,6 +1348,10 @@ def process_csv():
                 
                 # Realiza buscas no Bing e SearXNG
                 bing_results = search_bing(driver, search_query, doctor_filename, fields_to_search)
+                
+                # Adiciona delay entre as buscas para evitar detecção
+                random_delay(3, 7)
+                
                 searx_results = search_searx(driver, search_query, doctor_filename, fields_to_search)
                 
                 logging.info(f"Resultados obtidos: {len(bing_results)} do Bing, {len(searx_results)} do SearXNG")
@@ -1010,7 +1415,7 @@ def process_csv():
                 logging.info(f"Registro {row_index + 1} processado e salvo no arquivo de saída")
                 
                 # Pausa para não sobrecarregar as APIs
-                time.sleep(1)
+                random_delay(2, 5)
         
         logging.info(f"Processamento concluído. Resultados salvos em {CSV_OUTPUT}")
         logging.info(f"Detalhes das buscas salvos nas pastas {DATA_DIR}/, {RAW_DATA_DIR}/ e {CANDIDATES_DIR}/")
