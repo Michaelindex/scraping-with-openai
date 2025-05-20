@@ -11,15 +11,19 @@
   - [x] Desenvolver prompt eficiente para a IA
   - [x] Implementar comunicação com a API do Ollama
   - [x] Testar interpretação do contexto baseado nas colunas
-- [x] Implementar scraper para Bing e SearXNG com Selenium
+- [x] Implementar scraper para Bing e SearXNG filtrando apenas HTML
   - [x] Configurar o Selenium com ChromeDriver
-  - [x] Implementar busca no Bing
-  - [x] Implementar busca no SearXNG
-  - [x] Combinar resultados de ambas as fontes
-- [x] Para cada site acessado, salvar em txt por médico
-  - [x] Criar pasta data se não existir
-  - [x] Gerar nome de arquivo baseado no nome do médico
-  - [x] Salvar URL, fonte e informação extraída no formato solicitado
+  - [x] Implementar busca no Bing com filtro para HTML
+  - [x] Implementar busca no SearXNG com filtro para HTML
+  - [x] Excluir PDFs, XLSXs e outros formatos não-HTML
+- [x] Coletar múltiplos candidatos para cada campo
+  - [x] Extrair candidatos de cada página HTML
+  - [x] Usar padrões específicos para cada tipo de campo
+  - [x] Salvar todos os candidatos em arquivos separados
+- [x] Usar IA para selecionar o melhor candidato por campo
+  - [x] Criar prompt específico para seleção de candidatos
+  - [x] Fornecer todos os candidatos para a IA avaliar
+  - [x] Registrar a decisão da IA nos logs
 - [x] Registrar log detalhado de todas as operações
   - [x] Implementar sistema de logging para todas as ações
   - [x] Registrar tentativas de acesso, erros e respostas
@@ -38,6 +42,6 @@
 - [x] Validar integridade dos dados e arquivo final
   - [x] Verificar se todos os dados foram preenchidos corretamente
   - [x] Garantir que o formato do arquivo esteja correto
-- [ ] Reportar progresso e entregar arquivo ao usuário
-  - [ ] Fazer commit das alterações no repositório
-  - [ ] Informar ao usuário que o trabalho foi concluído
+- [x] Reportar progresso e entregar arquivo ao usuário
+  - [x] Fazer commit das alterações no repositório
+  - [x] Informar ao usuário que o trabalho foi concluído

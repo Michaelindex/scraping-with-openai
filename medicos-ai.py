@@ -9,6 +9,8 @@ import re
 import requests
 import logging
 import datetime
+import urllib.parse
+from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -25,10 +27,12 @@ CSV_INPUT = "medicos.csv"
 CSV_OUTPUT = "medicos-output.csv"
 DATA_DIR = "data"
 RAW_DATA_DIR = "raw_data"
+CANDIDATES_DIR = "candidates"
 LOG_DIR = "logs"
 LOG_FILE = "scraping_log.txt"
 MAX_RETRIES = 3
 WAIT_TIME = 10
+EXCLUDED_EXTENSIONS = ['.pdf', '.xlsx', '.xls', '.doc', '.docx', '.ppt', '.pptx', '.txt', '.csv']
 
 # Configuração do sistema de log
 def setup_logging():
@@ -208,46 +212,34 @@ def create_context_prompt(headers, row):
     
     return final_prompt
 
-def create_validation_prompt(headers, row, search_results, field_to_find):
-    """Cria um prompt para a IA validar e extrair dados específicos dos resultados de busca."""
-    logging.info(f"Criando prompt de validação para o campo: {field_to_find}")
+def create_selection_prompt(field, candidates):
+    """Cria um prompt para a IA selecionar o melhor candidato para um campo."""
+    logging.info(f"Criando prompt de seleção para o campo: {field}")
     
     prompt = """
-    Você é um assistente especializado em extração de dados precisos. Sua tarefa é analisar os resultados de busca e extrair APENAS o dado específico solicitado.
+    Você é um assistente especializado em seleção de dados precisos. Sua tarefa é analisar múltiplos candidatos para um campo específico e selecionar o mais adequado.
 
     Regras importantes:
-    1. Você deve retornar APENAS o dado solicitado, sem texto adicional, explicações ou formatação
-    2. Se o dado não for encontrado nos resultados, responda apenas com "NÃO ENCONTRADO"
-    3. Você deve ser extremamente preciso e específico
-    4. Você NÃO deve inventar ou supor dados que não estão explicitamente mencionados nos resultados
-    5. Você deve retornar o dado exatamente como aparece, sem adicionar ou remover informações
-    6. Se houver múltiplas opções, escolha a mais relevante e precisa
+    1. Você deve selecionar APENAS UM candidato que melhor corresponda ao campo solicitado
+    2. Você deve retornar APENAS o valor selecionado, sem explicações ou formatação adicional
+    3. Se nenhum candidato for adequado, responda "NÃO ENCONTRADO"
+    4. Você NÃO deve inventar ou modificar os dados, apenas selecionar entre os candidatos fornecidos
+    5. Priorize dados que correspondam exatamente ao tipo de campo solicitado
+    6. Ignore candidatos que claramente não correspondam ao tipo de campo (ex: um título de página para um campo de endereço)
 
-    Contexto do registro:
-    {context}
+    Campo a ser preenchido: {field}
 
-    Resultados da busca:
-    {results}
+    Candidatos disponíveis:
+    {candidates_list}
 
-    Dado específico a ser extraído:
-    {field_to_find}
-
-    Responda APENAS com o dado solicitado ou "NÃO ENCONTRADO".
+    Responda APENAS com o candidato selecionado ou "NÃO ENCONTRADO".
     """
     
-    # Cria um dicionário com os cabeçalhos e valores da linha
-    context_dict = {}
-    for i, header in enumerate(headers):
-        if i < len(row):
-            context_dict[header] = row[i]
-        else:
-            context_dict[header] = ""
+    # Formata a lista de candidatos
+    candidates_list = "\n".join([f"{i+1}. {candidate}" for i, candidate in enumerate(candidates)])
     
-    # Formata os dados para o prompt
-    context_str = "\n".join([f"{k}: {v}" for k, v in context_dict.items() if v])
-    
-    final_prompt = prompt.format(context=context_str, results=search_results, field_to_find=field_to_find)
-    logging.debug(f"Prompt de validação criado para {field_to_find}")
+    final_prompt = prompt.format(field=field, candidates_list=candidates_list)
+    logging.debug(f"Prompt de seleção criado para {field}")
     
     return final_prompt
 
@@ -334,9 +326,52 @@ def save_raw_search_data(doctor_filename, url, source, all_content):
     except Exception as e:
         logging.error(f"Erro ao salvar dados brutos em {file_path}: {str(e)}")
 
+def save_candidates(doctor_filename, field, candidates):
+    """Salva os candidatos para cada campo em um arquivo txt separado."""
+    logging.info(f"Salvando candidatos para o campo {field} do médico {doctor_filename}")
+    
+    # Cria o diretório candidates se não existir
+    if not os.path.exists(CANDIDATES_DIR):
+        os.makedirs(CANDIDATES_DIR)
+        logging.info(f"Diretório {CANDIDATES_DIR} criado")
+    
+    file_path = os.path.join(CANDIDATES_DIR, f"{doctor_filename}.txt")
+    
+    # Formata a entrada
+    entry = f"CAMPO: {field}\n"
+    entry += "CANDIDATOS:\n"
+    for i, candidate in enumerate(candidates):
+        entry += f"{i+1}. {candidate}\n"
+    entry += "\n"
+    
+    # Salva a entrada no arquivo (append)
+    try:
+        with open(file_path, 'a', encoding='utf-8') as f:
+            f.write(entry)
+        logging.info(f"Candidatos salvos em {file_path}")
+    except Exception as e:
+        logging.error(f"Erro ao salvar candidatos em {file_path}: {str(e)}")
+
+def is_html_url(url):
+    """Verifica se a URL é de uma página HTML (não PDF, XLSX, etc.)."""
+    parsed_url = urllib.parse.urlparse(url)
+    path = parsed_url.path.lower()
+    
+    # Verifica se a URL termina com uma extensão excluída
+    for ext in EXCLUDED_EXTENSIONS:
+        if path.endswith(ext):
+            return False
+    
+    return True
+
 def extract_page_content(driver, url):
     """Extrai o conteúdo completo de uma página web."""
     logging.info(f"Extraindo conteúdo da página: {url}")
+    
+    # Verifica se a URL é de uma página HTML
+    if not is_html_url(url):
+        logging.warning(f"URL ignorada (não é HTML): {url}")
+        return "URL ignorada (não é HTML)"
     
     try:
         # Tenta acessar a URL
@@ -386,7 +421,246 @@ def extract_page_content(driver, url):
         logging.error(f"Erro ao acessar a URL {url}: {str(e)}")
         return f"Erro no acesso: {str(e)}"
 
-def search_bing(driver, query, doctor_filename, field):
+def extract_candidates_from_content(content, field):
+    """Extrai candidatos para um campo específico a partir do conteúdo da página."""
+    logging.info(f"Extraindo candidatos para o campo {field} do conteúdo")
+    
+    candidates = []
+    
+    # Divide o conteúdo em partes usando o separador
+    parts = content.split("///")
+    
+    # Padrões específicos para cada tipo de campo
+    field_patterns = {
+        "Especialidade médica": [
+            r'(?:especialidade|especialista|área|atua em|médico)\s*(?:em|de)?\s*([A-Za-zÀ-ú\s]+?)(?:\.|,|\s{2}|$)',
+            r'([A-Za-zÀ-ú]+(?:logia|iatria))',
+            r'([A-Za-zÀ-ú]+ista)'
+        ],
+        "Endereço de Atendimento": [
+            r'(?:endereço|localizado|atende na|consultório na|clínica na)\s*(?:em|na|no)?\s*([A-Za-zÀ-ú\s\.,0-9]+?)(?:\s*(?:,|\.|\n|$))',
+            r'(?:Rua|Avenida|Av\.|R\.|Alameda|Al\.|Travessa|Praça|Estrada)\s+([A-Za-zÀ-ú\s\.,0-9]+?)(?:\s*(?:,|\.|\n|$))'
+        ],
+        "Número do Local de atendimento": [
+            r'(?:n[úu]mero|nº|n°|num|número)\s*(?::|\.|\s)?\s*(\d+)',
+            r'(?:,\s*|\s+)(\d+)(?:\s*(?:,|\.|\n|$))'
+        ],
+        "Cidade": [
+            r'(?:cidade|município|localidade)\s*(?:de|:)?\s*([A-Za-zÀ-ú\s]+?)(?:\s*(?:,|\.|\n|-|\(|$))',
+            r'(?:em|na cidade de)\s+([A-Za-zÀ-ú\s]+?)(?:\s*(?:,|\.|\n|-|\(|$))',
+            r'([A-Za-zÀ-ú\s]+?)\s*\([A-Z]{2}\)'
+        ],
+        "Estado": [
+            r'(?:estado|UF)\s*(?:de|do|:)?\s*([A-Za-zÀ-ú\s]+?)(?:\s*(?:,|\.|\n|$))',
+            r'\(([A-Z]{2})\)',
+            r'(?:AC|AL|AP|AM|BA|CE|DF|ES|GO|MA|MT|MS|MG|PA|PB|PR|PE|PI|RJ|RN|RS|RO|RR|SC|SP|SE|TO)'
+        ],
+        "Telefone de contato": [
+            r'(?:telefone|tel|fone|contato)\s*(?::|\.)?\s*(\(\d{2}\)\s*\d{4,5}-\d{4})',
+            r'(\(\d{2}\)\s*\d{4,5}-\d{4})'
+        ],
+        "Celular de contato": [
+            r'(?:celular|cel|whatsapp|móvel)\s*(?::|\.)?\s*(\(\d{2}\)\s*9\d{4}-\d{4})',
+            r'(\(\d{2}\)\s*9\d{4}-\d{4})'
+        ],
+        "E-Mail de contato": [
+            r'(?:e-mail|email|correio eletrônico|contato)\s*(?::|\.)?\s*([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})',
+            r'([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})'
+        ]
+    }
+    
+    # Padrões genéricos para qualquer campo
+    generic_patterns = [
+        r'(?:{field})\s*(?::|\.)?\s*([^,\.\n]+)',
+        r'(?:{field})[^\n:]*?:\s*([^,\.\n]+)'
+    ]
+    
+    # Substitui o nome do campo nos padrões genéricos
+    field_name = field.lower().replace(" de ", " ").replace(" do ", " ").replace(" da ", " ")
+    specific_generic_patterns = [p.format(field=field_name) for p in generic_patterns]
+    
+    # Adiciona padrões específicos para o campo, se existirem
+    all_patterns = specific_generic_patterns
+    if field in field_patterns:
+        all_patterns.extend(field_patterns[field])
+    
+    # Procura por candidatos usando os padrões
+    for pattern in all_patterns:
+        for part in parts:
+            matches = re.findall(pattern, part, re.IGNORECASE)
+            for match in matches:
+                if isinstance(match, tuple):  # Para grupos de captura múltiplos
+                    for m in match:
+                        if m and len(m.strip()) > 1:  # Ignora matches vazios ou muito curtos
+                            candidates.append(m.strip())
+                elif match and len(match.strip()) > 1:  # Ignora matches vazios ou muito curtos
+                    candidates.append(match.strip())
+    
+    # Extrai candidatos específicos para endereço
+    if "endereço" in field.lower():
+        # Procura por padrões de endereço no texto completo
+        address_patterns = [
+            r'(?:Rua|Avenida|Av\.|R\.|Alameda|Al\.|Travessa|Praça|Estrada)\s+[A-Za-zÀ-ú\s]+(?:,\s*n°\s*\d+)?',
+            r'(?:Endereço|Localizado em|Atende em)[^,\.\n]*'
+        ]
+        for pattern in address_patterns:
+            matches = re.findall(pattern, content, re.IGNORECASE)
+            candidates.extend([m.strip() for m in matches if m and len(m.strip()) > 5])
+    
+    # Extrai candidatos específicos para especialidade
+    if "especialidade" in field.lower():
+        specialties = [
+            "Cardiologia", "Dermatologia", "Ginecologia", "Obstetrícia", "Ortopedia", 
+            "Pediatria", "Psiquiatria", "Neurologia", "Oftalmologia", "Otorrinolaringologia",
+            "Urologia", "Endocrinologia", "Gastroenterologia", "Geriatria", "Oncologia",
+            "Anestesiologia", "Cirurgia Geral", "Clínica Médica", "Medicina de Família",
+            "Reumatologia", "Infectologia", "Nefrologia", "Pneumologia", "Radiologia",
+            "Hematologia", "Nutrologia", "Medicina do Trabalho", "Medicina Esportiva"
+        ]
+        for specialty in specialties:
+            if re.search(r'\b' + re.escape(specialty) + r'\b', content, re.IGNORECASE):
+                candidates.append(specialty)
+    
+    # Remove duplicatas e mantém a ordem
+    unique_candidates = []
+    for candidate in candidates:
+        normalized = candidate.lower().strip()
+        if normalized not in [c.lower().strip() for c in unique_candidates]:
+            unique_candidates.append(candidate)
+    
+    logging.info(f"Extraídos {len(unique_candidates)} candidatos únicos para o campo {field}")
+    return unique_candidates
+
+def extract_candidates_from_html(driver, url, field):
+    """Extrai candidatos para um campo específico a partir de uma página HTML."""
+    logging.info(f"Extraindo candidatos para o campo {field} da URL: {url}")
+    
+    # Verifica se a URL é de uma página HTML
+    if not is_html_url(url):
+        logging.warning(f"URL ignorada (não é HTML): {url}")
+        return []
+    
+    try:
+        # Acessa a URL
+        driver.get(url)
+        
+        # Espera a página carregar
+        try:
+            WebDriverWait(driver, WAIT_TIME).until(
+                EC.presence_of_element_located((By.TAG_NAME, "body"))
+            )
+        except TimeoutException:
+            logging.warning(f"Timeout ao carregar a página: {url}")
+        
+        # Obtém o HTML da página
+        html = driver.page_source
+        
+        # Usa BeautifulSoup para analisar o HTML
+        soup = BeautifulSoup(html, 'html.parser')
+        
+        candidates = []
+        
+        # Estratégias específicas para cada tipo de campo
+        if "especialidade" in field.lower():
+            # Procura por elementos que possam conter a especialidade
+            for tag in soup.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'span', 'div']):
+                text = tag.get_text().strip()
+                if re.search(r'(?:especialidade|especialista|área|atua em|médico)', text, re.IGNORECASE):
+                    candidates.append(text)
+                
+                # Procura por especialidades médicas comuns
+                specialties = [
+                    "Cardiologia", "Dermatologia", "Ginecologia", "Obstetrícia", "Ortopedia", 
+                    "Pediatria", "Psiquiatria", "Neurologia", "Oftalmologia", "Otorrinolaringologia"
+                ]
+                for specialty in specialties:
+                    if re.search(r'\b' + re.escape(specialty) + r'\b', text, re.IGNORECASE):
+                        candidates.append(specialty)
+        
+        elif "endereço" in field.lower():
+            # Procura por elementos que possam conter o endereço
+            for tag in soup.find_all(['p', 'span', 'div', 'address']):
+                text = tag.get_text().strip()
+                if re.search(r'(?:endereço|localizado|atende na|consultório|clínica)', text, re.IGNORECASE):
+                    candidates.append(text)
+                
+                # Procura por padrões de endereço
+                if re.search(r'(?:Rua|Avenida|Av\.|R\.|Alameda|Al\.|Travessa|Praça|Estrada)', text, re.IGNORECASE):
+                    candidates.append(text)
+        
+        elif "número" in field.lower():
+            # Procura por elementos que possam conter o número
+            for tag in soup.find_all(['p', 'span', 'div', 'address']):
+                text = tag.get_text().strip()
+                if re.search(r'(?:número|nº|n°|num)', text, re.IGNORECASE):
+                    candidates.append(text)
+        
+        elif "cidade" in field.lower():
+            # Procura por elementos que possam conter a cidade
+            for tag in soup.find_all(['p', 'span', 'div', 'address']):
+                text = tag.get_text().strip()
+                if re.search(r'(?:cidade|município|localidade)', text, re.IGNORECASE):
+                    candidates.append(text)
+                
+                # Procura por padrões de cidade/estado
+                if re.search(r'[A-Za-zÀ-ú\s]+\s*\([A-Z]{2}\)', text):
+                    candidates.append(text)
+        
+        elif "estado" in field.lower():
+            # Procura por elementos que possam conter o estado
+            for tag in soup.find_all(['p', 'span', 'div', 'address']):
+                text = tag.get_text().strip()
+                if re.search(r'(?:estado|UF)', text, re.IGNORECASE):
+                    candidates.append(text)
+                
+                # Procura por siglas de estados
+                if re.search(r'\([A-Z]{2}\)', text):
+                    candidates.append(text)
+        
+        elif "telefone" in field.lower() or "celular" in field.lower():
+            # Procura por elementos que possam conter telefones
+            for tag in soup.find_all(['p', 'span', 'div', 'a']):
+                text = tag.get_text().strip()
+                if re.search(r'(?:telefone|tel|fone|contato|celular|whatsapp)', text, re.IGNORECASE):
+                    candidates.append(text)
+                
+                # Procura por padrões de telefone
+                if re.search(r'\(\d{2}\)\s*\d{4,5}-\d{4}', text):
+                    candidates.append(text)
+        
+        elif "e-mail" in field.lower() or "email" in field.lower():
+            # Procura por elementos que possam conter e-mails
+            for tag in soup.find_all(['p', 'span', 'div', 'a']):
+                text = tag.get_text().strip()
+                if re.search(r'(?:e-mail|email|correio eletrônico)', text, re.IGNORECASE):
+                    candidates.append(text)
+                
+                # Procura por padrões de e-mail
+                if re.search(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}', text):
+                    candidates.append(text)
+        
+        # Extrai o conteúdo completo da página para processamento adicional
+        content = extract_page_content(driver, url)
+        content_candidates = extract_candidates_from_content(content, field)
+        
+        # Combina todos os candidatos
+        all_candidates = candidates + content_candidates
+        
+        # Remove duplicatas e mantém a ordem
+        unique_candidates = []
+        for candidate in all_candidates:
+            normalized = candidate.lower().strip()
+            if normalized not in [c.lower().strip() for c in unique_candidates]:
+                unique_candidates.append(candidate)
+        
+        logging.info(f"Extraídos {len(unique_candidates)} candidatos únicos para o campo {field} da URL {url}")
+        return unique_candidates
+    
+    except Exception as e:
+        logging.error(f"Erro ao extrair candidatos da URL {url}: {str(e)}")
+        return []
+
+def search_bing(driver, query, doctor_filename, fields):
     """Realiza uma busca no Bing e retorna os resultados."""
     logging.info(f"Realizando busca no Bing: {query}")
     
@@ -419,19 +693,19 @@ def search_bing(driver, query, doctor_filename, field):
                 
                 logging.debug(f"Resultado {i+1}: {title} - {link}")
                 
-                results.append({
-                    "title": title,
-                    "snippet": snippet,
-                    "url": link
-                })
-                
-                # Tenta acessar a página e extrair o conteúdo completo
-                try:
+                # Verifica se a URL é de uma página HTML
+                if is_html_url(link):
+                    results.append({
+                        "title": title,
+                        "snippet": snippet,
+                        "url": link
+                    })
+                    
+                    # Extrai o conteúdo completo da página
                     all_content = extract_page_content(driver, link)
                     save_raw_search_data(doctor_filename, link, "BING", all_content)
-                except Exception as e:
-                    logging.error(f"Erro ao extrair conteúdo da página {link}: {str(e)}")
-                    save_raw_search_data(doctor_filename, link, "BING", f"Erro na extração: {str(e)}")
+                else:
+                    logging.warning(f"URL ignorada (não é HTML): {link}")
                 
             except NoSuchElementException as e:
                 logging.warning(f"Elemento não encontrado no resultado {i+1}: {str(e)}")
@@ -445,7 +719,7 @@ def search_bing(driver, query, doctor_filename, field):
         logging.error(f"Erro ao buscar no Bing: {str(e)}")
         return []
 
-def search_searx(query, doctor_filename, field):
+def search_searx(driver, query, doctor_filename, fields):
     """Realiza uma busca no SearXNG e retorna os resultados."""
     logging.info(f"Realizando busca no SearXNG: {query}")
     
@@ -468,29 +742,21 @@ def search_searx(query, doctor_filename, field):
                     snippet = result.get('content', '')
                     result_url = result.get('url', '')
                     
-                    logging.debug(f"Resultado {i+1}: {title} - {result_url}")
-                    
-                    results.append({
-                        "title": title,
-                        "snippet": snippet,
-                        "url": result_url
-                    })
-                    
-                    # Para cada resultado, tenta acessar a página e extrair o conteúdo
-                    try:
-                        # Cria uma sessão temporária do Selenium para acessar a página
-                        temp_options = Options()
-                        temp_options.add_argument("--headless")
-                        temp_options.add_argument("--no-sandbox")
-                        temp_options.add_argument("--disable-dev-shm-usage")
-                        temp_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+                    # Verifica se a URL é de uma página HTML
+                    if is_html_url(result_url):
+                        logging.debug(f"Resultado {i+1}: {title} - {result_url}")
                         
-                        with webdriver.Chrome(options=temp_options) as temp_driver:
-                            all_content = extract_page_content(temp_driver, result_url)
-                            save_raw_search_data(doctor_filename, result_url, "SearXNG", all_content)
-                    except Exception as e:
-                        logging.error(f"Erro ao extrair conteúdo da página {result_url}: {str(e)}")
-                        save_raw_search_data(doctor_filename, result_url, "SearXNG", f"Erro na extração: {str(e)}")
+                        results.append({
+                            "title": title,
+                            "snippet": snippet,
+                            "url": result_url
+                        })
+                        
+                        # Extrai o conteúdo completo da página
+                        all_content = extract_page_content(driver, result_url)
+                        save_raw_search_data(doctor_filename, result_url, "SearXNG", all_content)
+                    else:
+                        logging.warning(f"URL ignorada (não é HTML): {result_url}")
             else:
                 logging.warning(f"Erro na API JSON do SearXNG: {response.status_code}")
                 logging.debug(f"Resposta de erro: {response.text}")
@@ -512,29 +778,21 @@ def search_searx(query, doctor_filename, field):
                     logging.info(f"Encontrados {min(len(titles), len(snippets), len(urls))} resultados no SearXNG (HTML)")
                     
                     for i in range(min(len(titles), len(snippets), len(urls), 5)):
-                        logging.debug(f"Resultado {i+1}: {titles[i]} - {urls[i]}")
-                        
-                        results.append({
-                            "title": titles[i],
-                            "snippet": snippets[i],
-                            "url": urls[i]
-                        })
-                        
-                        # Para cada resultado, tenta acessar a página e extrair o conteúdo
-                        try:
-                            # Cria uma sessão temporária do Selenium para acessar a página
-                            temp_options = Options()
-                            temp_options.add_argument("--headless")
-                            temp_options.add_argument("--no-sandbox")
-                            temp_options.add_argument("--disable-dev-shm-usage")
-                            temp_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+                        # Verifica se a URL é de uma página HTML
+                        if is_html_url(urls[i]):
+                            logging.debug(f"Resultado {i+1}: {titles[i]} - {urls[i]}")
                             
-                            with webdriver.Chrome(options=temp_options) as temp_driver:
-                                all_content = extract_page_content(temp_driver, urls[i])
-                                save_raw_search_data(doctor_filename, urls[i], "SearXNG", all_content)
-                        except Exception as e:
-                            logging.error(f"Erro ao extrair conteúdo da página {urls[i]}: {str(e)}")
-                            save_raw_search_data(doctor_filename, urls[i], "SearXNG", f"Erro na extração: {str(e)}")
+                            results.append({
+                                "title": titles[i],
+                                "snippet": snippets[i],
+                                "url": urls[i]
+                            })
+                            
+                            # Extrai o conteúdo completo da página
+                            all_content = extract_page_content(driver, urls[i])
+                            save_raw_search_data(doctor_filename, urls[i], "SearXNG", all_content)
+                        else:
+                            logging.warning(f"URL ignorada (não é HTML): {urls[i]}")
                 else:
                     logging.error(f"Erro na versão HTML do SearXNG: {response.status_code}")
         except requests.exceptions.RequestException as e:
@@ -548,35 +806,57 @@ def search_searx(query, doctor_filename, field):
     
     return results
 
-def extract_specific_data(text, field):
-    """Usa regex para extrair dados específicos com base no tipo de campo."""
-    logging.info(f"Extraindo dados específicos para o campo: {field}")
+def collect_candidates(driver, all_results, field):
+    """Coleta candidatos para um campo específico a partir de todos os resultados."""
+    logging.info(f"Coletando candidatos para o campo: {field}")
     
-    # Padrões de regex para tipos comuns de dados
-    patterns = {
-        "CRM": r'\b[0-9]{5,8}\b',
-        "CPF": r'\b\d{3}\.\d{3}\.\d{3}-\d{2}\b',
-        "CNPJ": r'\b\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}\b',
-        "CEP": r'\b\d{5}-\d{3}\b',
-        "E-Mail": r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b',
-        "Telephone": r'\b\(\d{2}\)\s*\d{4,5}-\d{4}\b',
-        "Celphone": r'\b\(\d{2}\)\s*9\d{4}-\d{4}\b',
-        "Endereço": r'\b[Rr]ua\s+[\w\s]+,?\s+\d+|\b[Aa]venida\s+[\w\s]+,?\s+\d+|\b[Aa]lameda\s+[\w\s]+,?\s+\d+|\b[Ee]strada\s+[\w\s]+,?\s+\d+',
-        "Cidade": r'\b[A-Z][a-zÀ-ú]{2,}(?:\s+[A-Z][a-zÀ-ú]{2,})*\b',
-        "Estado": r'\b(?:AC|AL|AP|AM|BA|CE|DF|ES|GO|MA|MT|MS|MG|PA|PB|PR|PE|PI|RJ|RN|RS|RO|RR|SC|SP|SE|TO)\b'
-    }
+    all_candidates = []
     
-    # Verifica se o campo corresponde a algum dos padrões conhecidos
-    for pattern_name, pattern in patterns.items():
-        if pattern_name.lower() in field.lower():
-            logging.debug(f"Usando padrão regex para {pattern_name}: {pattern}")
-            matches = re.findall(pattern, text)
-            if matches:
-                logging.info(f"Dado extraído com regex: {matches[0]}")
-                return matches[0]
+    for result in all_results:
+        url = result.get("url", "")
+        
+        # Verifica se a URL é de uma página HTML
+        if is_html_url(url):
+            # Extrai candidatos da página
+            candidates = extract_candidates_from_html(driver, url, field)
+            all_candidates.extend(candidates)
+            
+            # Também extrai candidatos do snippet
+            snippet = result.get("snippet", "")
+            snippet_candidates = extract_candidates_from_content(snippet, field)
+            all_candidates.extend(snippet_candidates)
     
-    logging.info("Nenhum dado extraído com regex")
-    return None
+    # Remove duplicatas e mantém a ordem
+    unique_candidates = []
+    for candidate in all_candidates:
+        normalized = candidate.lower().strip()
+        if normalized not in [c.lower().strip() for c in unique_candidates]:
+            unique_candidates.append(candidate)
+    
+    logging.info(f"Coletados {len(unique_candidates)} candidatos únicos para o campo {field}")
+    return unique_candidates
+
+def select_best_candidate(field, candidates):
+    """Seleciona o melhor candidato para um campo específico usando a IA."""
+    logging.info(f"Selecionando o melhor candidato para o campo: {field}")
+    
+    if not candidates:
+        logging.warning(f"Nenhum candidato disponível para o campo {field}")
+        return ""
+    
+    # Cria um prompt para a IA selecionar o melhor candidato
+    prompt = create_selection_prompt(field, candidates)
+    
+    # Envia o prompt para a IA
+    response = query_ollama(prompt)
+    
+    # Verifica se a resposta é válida
+    if "NÃO ENCONTRADO" in response.upper():
+        logging.warning(f"IA não encontrou candidato adequado para o campo {field}")
+        return ""
+    
+    logging.info(f"Candidato selecionado para o campo {field}: {response}")
+    return response.strip()
 
 def process_csv():
     """Processa o arquivo CSV, busca os dados faltantes e salva no arquivo de saída."""
@@ -618,13 +898,13 @@ def process_csv():
                 doctor_filename = get_doctor_filename(row, headers)
                 
                 # Cria os diretórios se não existirem
-                for directory in [DATA_DIR, RAW_DATA_DIR]:
+                for directory in [DATA_DIR, RAW_DATA_DIR, CANDIDATES_DIR]:
                     if not os.path.exists(directory):
                         os.makedirs(directory)
                         logging.info(f"Diretório {directory} criado")
                 
                 # Limpa os arquivos anteriores se existirem
-                for directory in [DATA_DIR, RAW_DATA_DIR]:
+                for directory in [DATA_DIR, RAW_DATA_DIR, CANDIDATES_DIR]:
                     file_path = os.path.join(directory, f"{doctor_filename}.txt")
                     with open(file_path, 'w', encoding='utf-8') as f:
                         f.write(f"Arquivo de busca para: {doctor_filename}\n\n")
@@ -667,7 +947,7 @@ def process_csv():
                 
                 # Realiza buscas no Bing e SearXNG
                 bing_results = search_bing(driver, search_query, doctor_filename, fields_to_search)
-                searx_results = search_searx(search_query, doctor_filename, fields_to_search)
+                searx_results = search_searx(driver, search_query, doctor_filename, fields_to_search)
                 
                 logging.info(f"Resultados obtidos: {len(bing_results)} do Bing, {len(searx_results)} do SearXNG")
                 
@@ -692,65 +972,38 @@ def process_csv():
                         "source": "SearXNG"
                     })
                 
-                # Prepara o texto para análise
-                results_text = "\n\n".join([
-                    f"Título: {result['title']}\nConteúdo: {result['snippet']}"
-                    for result in all_results
-                ])
-                
-                # Para cada campo vazio, tenta extrair o dado específico
+                # Para cada campo vazio, coleta candidatos e seleciona o melhor
                 for field in fields_to_search:
                     field_index = headers.index(field)
-                    extracted_data = None
                     
                     logging.info(f"Processando campo: {field}")
                     
-                    # Primeiro tenta extrair com regex para tipos de dados conhecidos
-                    extracted_data = extract_specific_data(results_text, field)
+                    # Coleta candidatos para o campo
+                    candidates = collect_candidates(driver, all_results, field)
                     
-                    # Se não conseguiu com regex, usa a IA para extrair
-                    if not extracted_data:
-                        logging.info(f"Regex não encontrou dados para {field}, tentando com IA")
-                        validation_prompt = create_validation_prompt(
-                            headers, row, results_text, field
-                        )
-                        extracted_data = query_ollama(validation_prompt)
-                        
-                        # Limpa a resposta da IA
-                        if "NÃO ENCONTRADO" in extracted_data.upper():
-                            logging.info(f"IA não encontrou dados para {field}")
-                            extracted_data = ""
-                        else:
-                            logging.info(f"IA extraiu dados para {field}: {extracted_data}")
+                    # Salva os candidatos para referência
+                    save_candidates(doctor_filename, field, candidates)
+                    
+                    # Seleciona o melhor candidato
+                    selected_value = select_best_candidate(field, candidates)
                     
                     # Atualiza o valor no registro
-                    if extracted_data:
-                        row[field_index] = extracted_data
-                        logging.info(f"Campo {field} atualizado com: {extracted_data}")
+                    if selected_value:
+                        row[field_index] = selected_value
+                        logging.info(f"Campo {field} atualizado com: {selected_value}")
                         
-                        # Salva a informação para cada resultado que contribuiu
+                        # Salva a informação no arquivo de resultados
                         for result in all_results:
-                            # Verifica se este resultado contribuiu para a extração
-                            result_text = f"{result['title']} {result['snippet']}"
-                            if extracted_data in result_text:
+                            if is_html_url(result['url']):
                                 save_search_result(
                                     doctor_filename,
                                     result['url'],
                                     result['source'],
-                                    f"{field}: {extracted_data}",
+                                    f"{field}: {selected_value}",
                                     field
                                 )
                     else:
-                        logging.warning(f"Nenhum dado extraído para o campo {field}")
-                        # Mesmo sem extração, registra as tentativas
-                        for result in all_results:
-                            save_search_result(
-                                doctor_filename,
-                                result['url'],
-                                result['source'],
-                                "Nenhuma informação extraída para este campo",
-                                field
-                            )
+                        logging.warning(f"Nenhum valor selecionado para o campo {field}")
                 
                 # Escreve a linha atualizada no arquivo de saída
                 writer.writerow(row)
@@ -760,9 +1013,9 @@ def process_csv():
                 time.sleep(1)
         
         logging.info(f"Processamento concluído. Resultados salvos em {CSV_OUTPUT}")
-        logging.info(f"Detalhes das buscas salvos nas pastas {DATA_DIR}/ e {RAW_DATA_DIR}/")
+        logging.info(f"Detalhes das buscas salvos nas pastas {DATA_DIR}/, {RAW_DATA_DIR}/ e {CANDIDATES_DIR}/")
         print(f"Processamento concluído. Resultados salvos em {CSV_OUTPUT}")
-        print(f"Detalhes das buscas salvos nas pastas {DATA_DIR}/ e {RAW_DATA_DIR}/")
+        print(f"Detalhes das buscas salvos nas pastas {DATA_DIR}/, {RAW_DATA_DIR}/ e {CANDIDATES_DIR}/")
     
     except Exception as e:
         logging.critical(f"Erro durante o processamento: {str(e)}")
