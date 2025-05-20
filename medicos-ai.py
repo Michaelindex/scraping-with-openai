@@ -25,6 +25,7 @@ CSV_INPUT = "medicos.csv"
 CSV_OUTPUT = "medicos-output.csv"
 DATA_DIR = "data"
 RAW_DATA_DIR = "raw_data"
+EXAMPLES_DIR = "examples"
 MAX_SITES = 10
 WAIT_TIME = 10
 EXCLUDED_EXTENSIONS = ['.pdf', '.xlsx', '.xls', '.doc', '.docx', '.ppt', '.pptx', '.txt', '.csv']
@@ -309,9 +310,79 @@ def search_top_sites(driver, query):
     # Limita aos primeiros MAX_SITES resultados
     return all_results[:MAX_SITES]
 
+def generate_field_examples(field_name):
+    """Gera exemplos fictícios para um campo específico usando a IA."""
+    print(f"Gerando exemplos para o campo: {field_name}")
+    
+    # Cria um prompt para a IA gerar exemplos
+    prompt = f"""
+    Você é um assistente especializado em gerar exemplos de dados precisos. Sua tarefa é gerar 10 exemplos fictícios para o campo "{field_name}" de um médico.
+
+    Regras importantes:
+    1. Gere APENAS 10 exemplos, um por linha
+    2. Os exemplos devem ser curtos, diretos e realistas
+    3. Não inclua explicações, apenas os exemplos
+    4. Não numere os exemplos
+    5. Não use aspas ou formatação especial
+    6. Cada exemplo deve ser apenas o dado puro, sem rótulos ou descrições
+
+    Por exemplo, se o campo for "Endereço de Atendimento", os exemplos devem ser como:
+    Rua das Flores, 123
+    Avenida Paulista, 1000
+    Praça da Liberdade, 50
+    
+    Gere 10 exemplos para o campo "{field_name}":
+    """
+    
+    # Envia o prompt para a IA
+    examples_text = query_ollama(prompt)
+    
+    # Processa a resposta para extrair apenas os exemplos
+    examples = []
+    for line in examples_text.strip().split('\n'):
+        line = line.strip()
+        if line and not line.startswith('#') and not line.startswith('-'):
+            # Remove numeração se houver
+            line = re.sub(r'^\d+[\.\)]\s*', '', line)
+            # Remove aspas se houver
+            line = line.strip('"\'')
+            if line:
+                examples.append(line)
+    
+    # Limita a 10 exemplos
+    examples = examples[:10]
+    
+    # Cria o diretório de exemplos se não existir
+    if not os.path.exists(EXAMPLES_DIR):
+        os.makedirs(EXAMPLES_DIR)
+    
+    # Salva os exemplos em um arquivo
+    examples_file = os.path.join(EXAMPLES_DIR, f"{field_name.replace(' ', '_')}.txt")
+    with open(examples_file, 'w', encoding='utf-8') as f:
+        for example in examples:
+            f.write(f"{example}\n")
+    
+    print(f"Gerados {len(examples)} exemplos para o campo {field_name}")
+    return examples
+
+def get_field_examples(field_name):
+    """Obtém exemplos para um campo específico, gerando-os se necessário."""
+    examples_file = os.path.join(EXAMPLES_DIR, f"{field_name.replace(' ', '_')}.txt")
+    
+    if os.path.exists(examples_file):
+        with open(examples_file, 'r', encoding='utf-8') as f:
+            examples = [line.strip() for line in f.readlines() if line.strip()]
+        return examples
+    else:
+        return generate_field_examples(field_name)
+
 def extract_info_from_site(driver, url, field_name, doctor_filename, source):
-    """Extrai informações específicas de um site para um campo."""
+    """Extrai informações específicas de um site para um campo usando exemplos."""
     print(f"Extraindo informações para {field_name} de {url}")
+    
+    # Obtém exemplos para o campo
+    examples = get_field_examples(field_name)
+    examples_text = "\n".join(examples)
     
     # Extrai o conteúdo da página
     content = extract_page_content(driver, url)
@@ -319,34 +390,60 @@ def extract_info_from_site(driver, url, field_name, doctor_filename, source):
     # Salva o conteúdo bruto
     save_raw_search_data(doctor_filename, url, source, content)
     
-    # Cria um prompt para a IA extrair a informação específica
+    # Cria um prompt para a IA extrair a informação específica usando os exemplos
     prompt = f"""
-    Você é um assistente especializado em extração de dados precisos. Analise o conteúdo abaixo e extraia APENAS a informação relacionada ao campo "{field_name}".
+    Você é um assistente especializado em extração de dados precisos. Sua tarefa é extrair APENAS a informação relacionada ao campo "{field_name}" do conteúdo fornecido.
 
     Regras importantes:
     1. Retorne APENAS a informação solicitada, sem texto adicional
     2. Se a informação não for encontrada, responda apenas "NÃO ENCONTRADO"
     3. Não invente ou suponha dados que não estão explicitamente mencionados
     4. Seja extremamente preciso e específico
-    5. Ignore mensagens de erro, verificação de humanos ou textos de interface
+    5. Não inclua explicações, apenas o dado extraído
+    6. Não use aspas ou formatação especial
+    7. Não inclua o nome do campo na resposta
+    8. Não numere a resposta
+    9. Não inclua observações ou notas
+    10. Retorne apenas o texto puro, sem formatação
+
+    Exemplos do formato esperado para o campo "{field_name}":
+    {examples_text}
 
     Conteúdo da página:
     {content}
 
     Informação a extrair: {field_name}
 
-    Responda APENAS com a informação solicitada ou "NÃO ENCONTRADO".
+    Responda APENAS com a informação extraída no formato dos exemplos ou "NÃO ENCONTRADO".
     """
     
     # Envia o prompt para a IA
     extracted_info = query_ollama(prompt)
     
+    # Limpa a resposta
+    extracted_info = extracted_info.strip()
+    
+    # Remove frases comuns que indicam explicações
+    explanations = [
+        "Aqui está", "Baseado no", "De acordo com", "Com base no", 
+        "Extraído do", "Encontrei", "A informação", "O campo", 
+        "Não foi possível", "Não encontrei", "Não há", "Não existe",
+        "Observação:", "Nota:", "Importante:"
+    ]
+    
+    for exp in explanations:
+        if extracted_info.startswith(exp):
+            # Tenta encontrar o primeiro ponto e remove tudo antes dele
+            dot_pos = extracted_info.find('.')
+            if dot_pos > 0:
+                extracted_info = extracted_info[dot_pos+1:].strip()
+    
+    # Remove aspas se houver
+    extracted_info = extracted_info.strip('"\'')
+    
     # Verifica se a resposta é válida
     if "NÃO ENCONTRADO" in extracted_info.upper():
         return None
-    
-    # Limpa a resposta
-    extracted_info = extracted_info.strip()
     
     # Salva a informação extraída
     if extracted_info:
@@ -373,6 +470,15 @@ def process_csv():
             rows = list(reader)
         
         print(f"Leitura do arquivo {CSV_INPUT} concluída: {len(rows)} registros encontrados")
+        
+        # Cria o diretório de exemplos se não existir
+        if not os.path.exists(EXAMPLES_DIR):
+            os.makedirs(EXAMPLES_DIR)
+        
+        # Gera exemplos para todos os campos
+        print("Gerando exemplos para todos os campos...")
+        for header in headers[1:]:  # Ignora o campo CRM
+            get_field_examples(header)
         
         # Prepara o arquivo CSV de saída
         with open(CSV_OUTPUT, 'w', encoding='utf-8', newline='') as f_out:
@@ -432,7 +538,7 @@ def process_csv():
                     for field in list(empty_fields):  # Cria uma cópia para poder modificar durante o loop
                         field_index = headers.index(field)
                         
-                        # Extrai a informação
+                        # Extrai a informação usando exemplos
                         info = extract_info_from_site(driver, url, field, doctor_filename, source)
                         
                         # Se encontrou informação, atualiza o registro e remove o campo da lista de vazios
@@ -455,6 +561,7 @@ def process_csv():
         
         print(f"Processamento concluído. Resultados salvos em {CSV_OUTPUT}")
         print(f"Detalhes das buscas salvos nas pastas {DATA_DIR}/ e {RAW_DATA_DIR}/")
+        print(f"Exemplos para os campos salvos na pasta {EXAMPLES_DIR}/")
     
     except Exception as e:
         print(f"Erro durante o processamento: {str(e)}")
