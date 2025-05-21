@@ -1,0 +1,857 @@
+<html lang="pt-br" data-coreui-theme="dark" class="bg-body-tertiary d-flex flex-column min-vh-100"><head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="
+    
+        Consultar CRM-PA de um Médico no Consultar.io
+    
+">
+            <meta name="keywords" content="
+    
+        Consultar, Exportar, Em Lote, Em Massa, Consultar CRM PA, Consultar Médico, Consultar CFM, Conselho Regional de Medicina, Conselho Federal de Medicina, Exportar CRM, Exportar Médico, Exportar Conselho Regional de Medicina, Exportar Conselho Federal de Medicina, Exportar CRM PA em Lote, Exportar CRM PA em Massa, Exportar Médico em Lote, Exportar Médico em Massa
+    
+">
+            <meta name="apple-mobile-web-app-title" content="Consultar.io">
+            <meta name="format-detection" content="telephone=no">
+            <meta property="og:title" content="
+    
+        Consulta CRM-PA (Médico)
+    
+">
+            <meta property="og:description" content="
+    
+        Consultar CRM-PA de um Médico no Consultar.io
+    
+">
+            <meta property="og:url" content="https://consultar.io/crm/pa/">
+            <meta property="og:type" content="website">
+            <meta property="og:site_name" content="Consultar.io">
+            
+                  <meta property="og:image" content="https://consultar.io/static/img/consultar-io/web-app-manifest-512x512.png">
+                  <meta property="article:publisher" content="https://www.facebook.com/consultar.io">
+                  <meta name="twitter:site" content="@consultar_io_">
+                  <meta name="twitter:creator" content="@consultar_io_">
+                  <meta name="twitter:card" content="summary_large_image">
+            
+            
+            
+            
+            
+                  <link rel="icon" type="image/png" href="/static/img/consultar-io/favicon.png" sizes="48x48">
+                  <link rel="icon" type="image/png" href="/static/img/consultar-io/favicon-96x96.png" sizes="96x96">
+                  <link rel="icon" type="image/svg+xml" href="/static/img/consultar-io/favicon.svg">
+                  <link rel="shortcut icon" href="/static/img/consultar-io/favicon.ico">
+                  <link rel="apple-touch-icon" sizes="180x180" href="/static/img/consultar-io/apple-touch-icon.png">
+                  <link rel="manifest" href="/static/manifest/consultar-io/manifest.json">
+            
+            <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+            <link rel="canonical" href="https://consultar.io/crm/pa/">
+            
+                  <meta name="theme-color" content="#2a303d">
+            
+            
+            
+            <title>
+                  
+    
+        Consulta CRM-PA (Médico)
+    
+
+            </title>
+            <link rel="preconnect" href="https://cdn.jsdelivr.net">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.31.0/dist/tabler-icons.min.css" integrity="sha256-1jovyqRJqacEmeYS5e6KFPtAc/EYcu3MaOfUd82biwc=" crossorigin="anonymous">
+            <link href="https://cdn.jsdelivr.net/npm/@coreui/coreui@5.3.1/dist/css/coreui.min.css" rel="stylesheet" integrity="sha384-PDUiPu3vDllMfrUHnurV430Qg8chPZTNhY8RUpq89lq22R3PzypXQifBpcpE1eoB" crossorigin="anonymous">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+            <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&amp;family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap" rel="stylesheet">
+            <style>
+            body {
+                font-family: 'Geist', sans-serif;
+            }
+            .navbar {
+                -webkit-app-region: drag;
+            }
+            .nav-item {
+                -webkit-app-region: no-drag;
+            }
+            .btn {
+                -webkit-app-region: no-drag;
+            }
+            </style>
+            
+            
+            
+            
+      </head>
+      <body class="d-flex flex-column min-vh-100">
+            <div class="sticky-top">
+                  
+
+                  
+
+                  
+                        <nav class="navbar navbar-expand-lg bg-body-tertiary py-4 border-bottom">
+    <div class="container">
+        
+            <a class="navbar-brand" href="/"><i class="ti ti-zoom-scan me-2"></i>Consultar.io</a>
+        
+        <button class="navbar-toggler" type="button" data-coreui-toggle="collapse" data-coreui-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="/consultas/"><i class="ti ti-search me-1"></i>Consultas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/api/"><i class="ti ti-code me-1"></i>API</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/preco/"><i class="ti ti-coin me-1"></i>Preço</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://consultar.dev/" target="_blank"><i class="ti ti-book me-1"></i>Documentação</a>
+                    </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/contato/"><i class="ti ti-message-circle me-1"></i>Contato</a>
+                </li>
+            </ul>
+            <div class="d-flex mt-lg-0 mt-2 gap-2">
+                
+                    
+                        <a class="btn btn-secondary w-100 text-nowrap" href="/login/">Entrar</a>
+                        <a class="btn btn-primary w-100 text-nowrap" href="/cadastrar/">Teste grátis<i class="ti ti-arrow-right ms-1"></i></a>
+                    
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+                  
+            </div>
+            
+            
+            
+            
+            <main class="container my-4 flex-grow-1">
+                  
+
+                  
+    <div class="container-fluid g-0">
+        <nav aria-label="breadcrumb" class="mb-4">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="/" class="text-decoration-none text-body">Consultar.io</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="/consultas/" class="text-decoration-none text-body">Dados Disponíveis</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="/cfm/" class="text-decoration-none text-body">CFM</a>
+                </li>
+                
+                    <li class="breadcrumb-item">
+                        <a href="/crm/" class="text-decoration-none text-body">CRM</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">CRM-PA</li>
+                
+            </ol>
+        </nav>
+        <div class="row mb-4">
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h1 class="card-title h3 mb-4">
+                            
+                                <i class="ti ti-stethoscope me-1"></i>CRM-PA (Médico)
+                            
+                        </h1>
+                        
+                            <p class="card-text">
+                                Os médicos do <strong>CRM-PA</strong> estão disponíveis para consulta no <strong>Consultar.io</strong>
+                            </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h3 class="card-title h3">
+                            <i class="ti ti-search me-1"></i>Consultar e Exportar
+                        </h3>
+                        <p class="card-text">Consulte e exporte pelo CRM todos os dados disponíveis de um médico</p>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 offset-md-3">
+                                <table class="table table-bordered table-striped mt-auto">
+                                    <tbody><tr>
+                                        <td>
+                                            <i class="ti ti-circle-check text-success me-1"></i>Número do CRM
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <i class="ti ti-circle-check text-success me-1"></i>Nome Completo
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <i class="ti ti-circle-check text-success me-1"></i>Categoria
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <i class="ti ti-circle-check text-success me-1"></i>Especialidades
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <i class="ti ti-circle-check text-success me-1"></i>Situação no CRM
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h3 class="card-title h3">
+                            <i class="ti ti-file-spreadsheet me-1"></i>Exportar
+                        </h3>
+                        <p class="card-text">Exporte em massa os dados de multiplos CRMs para um arquivo Excel</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h2 class="card-title h3 mb-4">
+                            <i class="ti ti-map-pin me-1"></i>Conselhos Regionais de Medicina
+                        </h2>
+                        <p class="card-text mb-4">
+                            Veja os <strong>Conselhos Regionais de Medicina</strong> disponíveis para consulta no <strong>Consultar.io:</strong>
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 offset-md-3">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped">
+                                        <tbody>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/ac/" class="text-decoration-none text-light">Conselho Regional de Medicina do Acre (CRM-AC)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/al/" class="text-decoration-none text-light">Conselho Regional de Medicina de Alagoas (CRM-AL)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/ap/" class="text-decoration-none text-light">Conselho Regional de Medicina do Amapá (CRM-AP)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/am/" class="text-decoration-none text-light">Conselho Regional de Medicina do Amazonas (CRM-AM)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/ba/" class="text-decoration-none text-light">Conselho Regional de Medicina da Bahia (CRM-BA)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/ce/" class="text-decoration-none text-light">Conselho Regional de Medicina do Ceará (CRM-CE)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/df/" class="text-decoration-none text-light">Conselho Regional de Medicina do Distrito Federal (CRM-DF)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/es/" class="text-decoration-none text-light">Conselho Regional de Medicina do Espírito Santo (CRM-ES)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/go/" class="text-decoration-none text-light">Conselho Regional de Medicina de Goiás (CRM-GO)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/ma/" class="text-decoration-none text-light">Conselho Regional de Medicina do Maranhão (CRM-MA)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/mt/" class="text-decoration-none text-light">Conselho Regional de Medicina de Mato Grosso (CRM-MT)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/ms/" class="text-decoration-none text-light">Conselho Regional de Medicina de Mato Grosso do Sul (CRM-MS)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/mg/" class="text-decoration-none text-light">Conselho Regional de Medicina de Minas Gerais (CRM-MG)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/pr/" class="text-decoration-none text-light">Conselho Regional de Medicina do Paraná (CRM-PR)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/pb/" class="text-decoration-none text-light">Conselho Regional de Medicina da Paraíba (CRM-PB)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/pa/" class="text-decoration-none text-light">Conselho Regional de Medicina do Pará (CRM-PA)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/pe/" class="text-decoration-none text-light">Conselho Regional de Medicina de Pernambuco (CRM-PE)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/pi/" class="text-decoration-none text-light">Conselho Regional de Medicina do Piauí (CRM-PI)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/rn/" class="text-decoration-none text-light">Conselho Regional de Medicina do Rio Grande do Norte (CRM-RN)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/rs/" class="text-decoration-none text-light">Conselho Regional de Medicina do Rio Grande do Sul (CRM-RS)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/rj/" class="text-decoration-none text-light">Conselho Regional de Medicina do Rio de Janeiro (CRM-RJ)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/ro/" class="text-decoration-none text-light">Conselho Regional de Medicina de Rondônia (CRM-RO)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/rr/" class="text-decoration-none text-light">Conselho Regional de Medicina de Roraima (CRM-RR)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/sc/" class="text-decoration-none text-light">Conselho Regional de Medicina de Santa Catarina (CRM-SC)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/se/" class="text-decoration-none text-light">Conselho Regional de Medicina de Sergipe (CRM-SE)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/sp/" class="text-decoration-none text-light">Conselho Regional de Medicina de São Paulo (CRM-SP)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                    <td class="text-center text-nowrap">
+                                                        <i class="ti ti-circle-check text-success me-1"></i><a href="/crm/to/" class="text-decoration-none text-light">Conselho Regional de Medicina do Tocantins (CRM-TO)</a>
+                                                    </td>
+                                                </tr>
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h2 class="card-title h3">
+                            <i class="ti ti-carambola-filled me-1"></i>Teste grátis
+                        </h2>
+                        <p class="card-text">
+                            Faça seu cadastro e receba <span class="badge bg-success">R$ 5,00</span> em créditos válidos por 1 ano para você consultar no <strong>Consultar.io</strong>
+                        </p>
+                        <a href="/cadastrar/" class="btn btn-secondary">
+                            Teste grátis<i class="ti ti-arrow-right ms-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h2 class="card-title h3">
+                            <i class="ti ti-plug-connected me-1"></i>Consultas por API
+                        </h2>
+                        <p class="card-text">
+                            Integre seu sistema com a <strong>API REST</strong> do <strong>Consultar.io</strong>
+                        </p>
+                        <a href="/api/" class="btn btn-secondary">
+                            Saiba mais<i class="ti ti-arrow-right ms-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            </main>
+            
+                  <footer class="mt-auto">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
+    <div class="container d-flex justify-content-center">
+      <ul class="navbar-nav">
+        <li class="nav-item text-center text-nowrap">
+          <small>
+            <a href="/termos/" class="nav-link" target="_blank"><i class="ti ti-file-description me-1"></i>Termos de Uso</a>
+          </small>
+        </li>
+        <li class="nav-item text-center text-nowrap">
+          <small>
+            <a href="/privacidade/" class="nav-link" target="_blank"><i class="ti ti-shield me-1"></i>Política de Privacidade</a>
+          </small>
+        </li>
+        <li class="nav-item text-center text-nowrap">
+          <small>
+            <a href="#" class="nav-link" onclick="openCookieSettings(true); return false;"><i class="ti ti-toggle-right-filled me-1"></i>Preferências de Privacidade</a>
+          </small>
+        </li>
+        
+          <li class="nav-item text-center text-nowrap">
+            <small>
+              <a href="https://www.linkedin.com/showcase/consultar-io/" class="nav-link" target="_blank"><i class="ti ti-brand-linkedin me-1"></i>LinkedIn</a>
+            </small>
+          </li>
+          <li class="nav-item text-center text-nowrap">
+            <small>
+              <a href="https://www.instagram.com/consultar_io/" class="nav-link" target="_blank"><i class="ti ti-brand-instagram me-1"></i>Instagram</a>
+            </small>
+          </li>
+        
+        
+          <li class="nav-item text-center text-nowrap">
+            <small>
+              <a href="/nossos-sites/" class="nav-link"><i class="ti ti-external-link me-1"></i>Nossos Sites</a>
+            </small>
+          </li>
+        
+        <li class="nav-item text-center text-nowrap">
+          <small>
+            <a href="https://expanda.com.br/" class="nav-link" target="_blank"><i class="ti ti-external-link me-1"></i>Conheça a Expanda</a>
+          </small>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="bg-body-tertiary text-center py-3">
+    <small class="text-muted">
+      <a href="https://expanda.com.br" target="_blank" class="text-decoration-none text-muted">
+        <span class="text-nowrap">Expanda Tecnologia da Informação LTDA.</span> <span class="text-nowrap">(CNPJ 42.515.236/0001-00)</span>
+      </a>
+    </small>
+  </div>
+</footer>
+
+            
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@coreui/coreui@5.3.1/dist/js/coreui.min.js" integrity="sha384-Rj9po7KQz8y0hVoeRgl1LRoQcxYkHxszkpKUdatY+9b5o35FsiENOwOWwxzWfAfF" crossorigin="anonymous"></script>
+            <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async="" defer=""></script>
+            
+                  <div class="modal fade" id="consentNotice" data-coreui-backdrop="static" data-coreui-keyboard="false" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Preferências de Privacidade</h5>
+            </div>
+            <div class="modal-body">
+                <p class="mb-0">
+                    Utilizamos cookies e tecnologias de rastreamento semelhantes para auxiliar a navegação em nosso site, melhorar nossos serviços e analisar nosso tráfego. Caso clique em <strong>Aceitar todos</strong>, você concordará com a utilização acima mencionada. Caso clique em <strong>Rejeitar todos</strong>, você rejeitará todos os cookies não necessários. Para mais opções clique em <strong>Personalizar</strong>. Consulte nossa <strong><a href="/privacidade/" class="text-decoration-none text-body" target="_blank">Política de Privacidade</a></strong> para mais informações.
+                </p>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <div class="d-flex flex-column flex-md-row w-100 gap-2">
+                    <button class="btn btn-secondary w-100 w-md-auto" onclick="openCookieSettings()">
+                        <i class="ti ti-settings me-1"></i>Personalizar
+                    </button>
+                    <button class="btn btn-primary w-100 w-md-auto" onclick="rejectAllCookies()">
+                        <i class="ti ti-circle-x me-1"></i>Rejeitar todos
+                    </button>
+                    <button class="btn btn-primary w-100 w-md-auto" onclick="acceptAllCookies()">
+                        <i class="ti ti-circle-check me-1"></i>Aceitar todos
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="consentModal" data-coreui-backdrop="static" data-coreui-keyboard="false" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Preferências de Privacidade</h5>
+                <button type="button" class="btn-close" data-coreui-dismiss="modal" id="consentModalCloseBtn"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Utilizamos cookies e tecnologias de rastreamento semelhantes para auxiliar a navegação em nosso site, melhorar nossos serviços e analisar nosso tráfego. Caso clique em <strong>Aceitar todos</strong>, você concordará com a utilização acima mencionada. Caso clique em <strong>Rejeitar todos</strong>, você rejeitará todos os cookies não necessários. Caso clique em <strong>Salvar</strong>, você estará salvando suas preferências.
+                </p>
+                <div class="form-check form-switch mb-3">
+                    <input class="form-check-input" type="checkbox" id="essentialCookies" checked="" disabled="">
+                    <label class="form-check-label" for="essentialCookies">
+                        <i class="ti ti-cookie me-1"></i>Tecnologias de Rastreamento Essenciais
+                        <small class="d-block text-muted">Cookies e outras tecnologias de rastreamento essenciais são necessárias para autenticação, segurança e funcionalidades básicas do site.</small>
+                    </label>
+                </div>
+                <div class="form-check form-switch mb-3">
+                    <input class="form-check-input" type="checkbox" id="analyticsCookies">
+                    <label class="form-check-label" for="analyticsCookies">
+                        <i class="ti ti-chart-bar me-1"></i>Tecnologias de Rastreamento Analíticas
+                        <small class="d-block text-muted">Cookies e outras tecnologias de rastreamento analíticas são usadas para entender como os visitantes interagem com o site. Esses cookies e outras tecnologias ajudam a fornecer informações sobre métricas como o número de visitantes, taxa de rejeição, fonte de tráfego.</small>
+                    </label>
+                </div>
+                <p class="mb-0">
+                    Consulte nossa <strong><a href="/privacidade/" class="text-decoration-none text-body" target="_blank">Política de Privacidade</a></strong> para mais informações.
+                </p>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <div class="d-flex flex-column flex-md-row w-100 gap-2">
+                    <button type="button" class="btn btn-secondary w-100 w-md-auto" onclick="saveCookiePreferences()">
+                        <i class="ti ti-device-floppy me-1"></i>Salvar
+                    </button>
+                    <button type="button" class="btn btn-primary w-100 w-md-auto" onclick="rejectAllCookies()">
+                        <i class="ti ti-circle-x me-1"></i>Rejeitar todos
+                    </button>
+                    <button type="button" class="btn btn-primary w-100 w-md-auto" onclick="acceptAllCookies()">
+                        <i class="ti ti-circle-check me-1"></i>Aceitar todos
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+
+                gtag("consent", "default", {
+                    analytics_storage: "denied",
+                    ad_storage: "denied",
+                    ad_user_data: "denied",
+                    ad_personalization: "denied",
+                    functionality_storage: "granted",
+                    personalization_storage: "denied",
+                    security_storage: "granted",
+                });
+</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2XHSVQWBP5"></script>
+<script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+
+                gtag('js', new Date());
+                gtag('config', 'G-2XHSVQWBP5');
+</script>
+<script>
+                function setCookie(name, value, days) {
+                    const date = new Date();
+                    date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+                    document.cookie = name + "=" + value + "; expires=" + date.toUTCString() + "; path=/; SameSite=Lax";
+                }
+
+                function getCookie(name) {
+                    const value = `; ${document.cookie}`;
+                    const parts = value.split(`; ${name}=`);
+                    if (parts.length === 2) return parts.pop().split(";").shift();
+                }
+
+                function showCookieBanner() {
+                    const consent = getCookie("cookieConsent");
+                    const currentUrl = window.location.href;
+
+                    if (!currentUrl.includes("termos") && !currentUrl.includes("privacidade")) {
+                        if (!consent || (consent !== "accepted" && consent !== "rejected" && consent !== "custom")) {
+                            setTimeout(() => {
+                                const consentModal = new coreui.Modal(document.getElementById("consentNotice"));
+                                consentModal.show();
+                            }, 3000);
+                        }
+                    }
+                }
+
+                function hideCookieBanner() {
+                    const consentModal = coreui.Modal.getInstance(document.getElementById("consentNotice"));
+                    if (consentModal) {
+                        consentModal.hide();
+                    }
+                }
+
+                function acceptAllCookies() {
+                    gtag("consent", "update", {
+                        analytics_storage: "granted"
+                    });
+
+                    setCookie("cookieConsent", "accepted", 365);
+                    setCookie("analyticsCookies", "granted", 365);
+
+                    hideCookieBanner();
+                    const consentModal = coreui.Modal.getInstance(document.getElementById("consentModal"));
+                    if (consentModal) {
+                        consentModal.hide();
+                    }
+                }
+
+                function openCookieSettings(fromFooter = false) {
+                    hideCookieBanner();
+                    const modal = new coreui.Modal(document.getElementById("consentModal"));
+                    const closeBtn = document.getElementById("consentModalCloseBtn");
+
+                    // Show close button only if opened from footer
+                    closeBtn.style.display = fromFooter ? "block" : "none";
+
+                    // Update modal attributes based on how it was opened
+                    const modalElement = document.getElementById("consentModal");
+                    if (fromFooter) {
+                        modalElement.setAttribute("data-coreui-backdrop", "true");
+                        modalElement.setAttribute("data-coreui-keyboard", "true");
+                    } else {
+                        modalElement.setAttribute("data-coreui-backdrop", "static");
+                        modalElement.setAttribute("data-coreui-keyboard", "false");
+                    }
+
+                    const analyticsCookie = getCookie("analyticsCookies");
+
+                    if (analyticsCookie) {
+                        document.getElementById("analyticsCookies").checked = analyticsCookie === "granted";
+                    }
+
+                    modal.show();
+                }
+
+                function saveCookiePreferences() {
+                    const analytics = document.getElementById("analyticsCookies").checked;
+
+                    gtag("consent", "update", {
+                        analytics_storage: analytics ? "granted" : "denied"
+                    });
+
+                    setCookie("cookieConsent", "custom", 365);
+                    setCookie("analyticsCookies", analytics ? "granted" : "denied", 365);
+
+                    const consentModal = coreui.Modal.getInstance(document.getElementById("consentModal"));
+                    if (consentModal) {
+                        consentModal.hide();
+                    }
+                }
+
+                function rejectAllCookies() {
+                    setCookie("cookieConsent", "rejected", 365);
+                    setCookie("analyticsCookies", "denied", 365);
+
+                    hideCookieBanner();
+                    const consentModal = coreui.Modal.getInstance(document.getElementById("consentModal"));
+                    if (consentModal) {
+                        consentModal.hide();
+                    }
+                }
+
+                if (document.readyState === "loading") {
+                    document.addEventListener("DOMContentLoaded", showCookieBanner);
+                } else {
+                    showCookieBanner();
+                }
+
+                function applyStoredPreferences() {
+                    const analyticsCookie = getCookie("analyticsCookies");
+
+                    if (analyticsCookie) {
+                        gtag("consent", "update", {
+                            analytics_storage: analyticsCookie === "granted" ? "granted" : "denied"
+                        });
+
+                        if (analyticsCookie === "granted") {
+                            loadAhrefs();
+                        }
+                    }
+                }
+
+                function loadAhrefs() {
+                    if (!document.getElementById('ahrefs-web-analytics')) {
+                        const script = document.createElement('script');
+                        script.src = 'https://analytics.ahrefs.com/analytics.js';
+                        script.setAttribute('data-key', 'Zqyb/aIetHEXKmGFroGbRw');
+                        script.id = 'ahrefs-web-analytics';
+                        script.async = true;
+                        document.head.appendChild(script);
+                    }
+                }
+
+                function unloadAhrefs() {
+                    const script = document.getElementById('ahrefs-web-analytics');
+                    if (script) {
+                        script.remove();
+                    }
+                }
+
+                function loadPostHog() {
+                    if (!window.posthog) {
+                        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug getPageViewId captureTraceFeedback captureTraceMetric".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+                        posthog.init('phc_Q7stlDDd5WU2m3lf8F1oiYyd5XPf3ggtnSYT6up6VlA', {
+                            api_host: 'https://p.consultar.io',
+                            person_profiles: 'identified_only',
+                        });
+                    }
+                    
+                }
+
+                function unloadPostHog() {
+                    if (window.posthog) {
+                        window.posthog.opt_out_capturing();
+                    }
+                }
+
+                const originalAcceptAllCookies = acceptAllCookies;
+                acceptAllCookies = function() {
+                    originalAcceptAllCookies();
+                    loadAhrefs();
+                    loadPostHog();
+                };
+
+                const originalSaveCookiePreferences = saveCookiePreferences;
+                saveCookiePreferences = function() {
+                    const analytics = document.getElementById("analyticsCookies").checked;
+                    originalSaveCookiePreferences();
+                    if (analytics) {
+                        loadAhrefs();
+                        loadPostHog();
+                    }
+                    else {
+                        unloadAhrefs();
+                        unloadPostHog();
+                    }
+                };
+
+                function applyStoredPreferences() {
+                    const analyticsCookie = getCookie("analyticsCookies");
+
+                    if (analyticsCookie) {
+                        gtag("consent", "update", {
+                            analytics_storage: analyticsCookie === "granted" ? "granted" : "denied"
+                        });
+
+                        if (analyticsCookie === "granted") {
+                            loadAhrefs();
+                            loadPostHog();
+                        } else {
+                            unloadPostHog();
+                        }
+                    }
+                }
+
+                if (document.readyState === "loading") {
+                    document.addEventListener("DOMContentLoaded", applyStoredPreferences);
+                } else {
+                    applyStoredPreferences();
+                }
+</script>
+
+            
+            
+            
+            
+            
+            
+                  <script>
+                  // Form submission handler with spinner
+                  function handleFormSubmit(form) {
+                      const submitButton = form.querySelector('button[type="submit"]');
+                      if (submitButton) {
+                          // Disable the button
+                          submitButton.disabled = true;
+                          
+                          // Add spinner
+                          const originalText = submitButton.innerHTML;
+                          submitButton.innerHTML = `
+                              <span class="spinner-border spinner-border-sm me-1" role="status" aria-hidden="true"></span>
+                              <span role="status">Aguarde...</span>
+                          `;
+                      }
+                  }
+  
+                  // Add submit handler to all forms
+                  document.addEventListener('DOMContentLoaded', function() {
+                      const forms = document.querySelectorAll('form');
+                      forms.forEach(form => {
+                          form.addEventListener('submit', function(e) {
+                              if (form.checkValidity()) {
+                                  handleFormSubmit(form);
+                              }
+                          });
+                      });
+                  });
+                  </script>
+            
+      <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;943678a4289f7ff0&quot;,&quot;version&quot;:&quot;2025.4.0-1-g37f21b1&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;e7a80c62f690415aa1c7eb8c4f0f69c1&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}}}" crossorigin="anonymous"></script>
+
+
+</body></html>

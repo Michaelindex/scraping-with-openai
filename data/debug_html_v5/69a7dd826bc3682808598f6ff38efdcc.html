@@ -1,0 +1,555 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+        <base href="https://transparencia.mpf.mp.br/transparencia/"><!--[if lt IE 7]></base><![endif]-->
+    
+
+    
+        
+
+  
+    <link rel="stylesheet" type="text/css" media="screen" href="https://transparencia.mpf.mp.br/transparencia/portal_css/Sunburst%20Theme/reset-cachekey-ad79176ee21485584995b7ea8e837183.css">
+    <link rel="stylesheet" type="text/css" href="https://transparencia.mpf.mp.br/transparencia/portal_css/Sunburst%20Theme/base-cachekey-1fec905abdd2e12902f2fccd022eb7ba.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://transparencia.mpf.mp.br/transparencia/portal_css/Sunburst%20Theme/resourceplone.app.jquerytools.overlays-cachekey-df287ab2b453be8dad0f34667b2fd75a.css">
+    <style type="text/css" media="screen">@import url(https://transparencia.mpf.mp.br/transparencia/portal_css/Sunburst%20Theme/resourceplone.app.jquerytools.dateinput-cachekey-ea7b4cc42f4f6dbe29cd9e101ba046ca.css);</style>
+        <!--[if lt IE 8]>    
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="https://transparencia.mpf.mp.br/transparencia/portal_css/Sunburst%20Theme/IEFixes-cachekey-13dd653ca1a43a2f095a42b478d56e55.css" />
+        <![endif]-->
+    
+    <style type="text/css" media="screen">@import url(https://transparencia.mpf.mp.br/transparencia/portal_css/Sunburst%20Theme/bootstrap.min-cachekey-a666733953992a8ba27ebec030de2293.css);</style>
+    <style type="text/css" media="all">@import url(https://transparencia.mpf.mp.br/transparencia/portal_css/Sunburst%20Theme/menu/stylesheets/swipenavigation.css);</style>
+    <link rel="stylesheet" type="text/css" media="all" href="https://transparencia.mpf.mp.br/transparencia/portal_css/Sunburst%20Theme/ploneCustom-cachekey-32e17eb71236e489a61aa41c7f83763f.css">
+
+  
+  
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-VMC86MZ0TW&amp;cx=c&amp;_slc=1"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="https://transparencia.mpf.mp.br/transparencia/portal_javascripts/Sunburst%20Theme/resourceplone.app.jquery-cachekey-b48f20b67a89f6cb3e783932a3a69797.js"></script>
+    <script type="text/javascript" src="https://transparencia.mpf.mp.br/transparencia/portal_javascripts/Sunburst%20Theme/resourcedrop_down-cachekey-111325d495e54332ba0f804a5dcd2b80.js"></script>
+    <script type="text/javascript">
+/* - scripts.js - */
+$(document).ready(function() {
+
+       /* ---------- Alto contraste do site ---------- */
+	$(".contraste").click(function(event) {
+		$("body").toggleClass('alto-contraste');
+
+                var contr=getCookie("contraste");
+                if (contr=='vazio') {
+                    setCookie('contraste', 'true', 7);
+                } else if (contr== 'true'){
+                   setCookie('contraste', 'false', 7);
+                } else if (contr== 'false'){
+                   setCookie('contraste', 'true', 7);
+                }
+	});
+	// Carrega dados gravados no cookie caso exista
+        var contr=getCookie("contraste");
+        if (contr == 'true') { $("body").addClass('alto-contraste'); };               
+
+
+
+	/*---------- Aumentar e diminuir fontes ---------- */
+	var para_aumentar = [$("h1"), $("h2"), $("h3"), $("h4"), $("h5"), $("p"), $("a"), $("li")];
+        var fontSize=getCookie("fontSize");
+
+
+	if (fontSize != 'vazio') {
+		var contador_font = parseInt(fontSize);
+	}else{ 
+		var contador_font = 0;
+	};
+
+
+	$(".font-mais").click(function(event) {
+		//Define um limite de aumento em ate 3x
+		if (contador_font < 3) {
+			contador_font += 1;
+			aumenta_ou_diminui_font("aumentar", para_aumentar);
+                        setCookie('fontSize', contador_font, 7);
+		};
+	});
+
+
+	$(".font-menos").click(function(event) {
+		//Define um limite de reducao
+		if (contador_font > 0) {
+			aumenta_ou_diminui_font("diminuir", para_aumentar);
+			contador_font -= 1;
+                        setCookie('fontSize', contador_font, 7);
+
+		};
+	});
+
+
+        // Carrega dados gravados no cookie caso exista
+	if (contador_font > 0) {
+	   var cont = contador_font;
+	   while(cont > 0){
+	      aumenta_ou_diminui_font("aumentar", para_aumentar);
+	      cont -= 1
+	   }
+	};
+
+
+
+
+       /* ---------- Funcoes ---------- */
+        function setCookie(cname, cvalue, exdays) {
+           var d = new Date();
+           d.setTime(d.getTime() + (exdays*24*60*60*1000));
+           var expires = "expires="+d.toUTCString();
+           document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+
+        function getCookie(cname) {
+           var name = cname + "=";
+           var ca = document.cookie.split(';');
+           for(var i = 0; i <ca.length; i++) {
+              var c = ca[i];
+              while (c.charAt(0)==' ') {
+                 c = c.substring(1);
+              }
+              if (c.indexOf(name) == 0) {
+                 return c.substring(name.length,c.length);
+              }
+           }
+           return "vazio";
+        } 
+
+        function aumenta_ou_diminui_font(tipo, para_aumentar){
+	   for(var i = 0; i < para_aumentar.length; i++){
+		para_aumentar[i].each(function(index, elem) {
+			var font_size = $(elem).css('font-size').replace(/[a-z]/g,'');
+			font_size = parseInt(font_size);
+			if (tipo == "aumentar") {
+				font_size += 1;
+			}else{
+				font_size -= 1;
+			};
+			font_size = String(font_size)+"px"
+			$(elem).css('font-size', font_size);
+		});
+	}
+}
+
+
+});
+
+
+</script>
+    <script type="text/javascript" src="https://transparencia.mpf.mp.br/transparencia/portal_javascripts/Sunburst%20Theme/aceite_cookie-cachekey-47c6a50d2c893ff5c2b686cfa73a368c.js"></script>
+
+
+<title>Portal da Transparência do MPF</title>
+        
+    <link rel="canonical" href="https://transparencia.mpf.mp.br/transparencia">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://transparencia.mpf.mp.br/transparencia/favicon.ico">
+    <link rel="apple-touch-icon" href="https://transparencia.mpf.mp.br/transparencia/touch_icon.png">
+
+
+
+
+
+    <link rel="alternate" href="https://transparencia.mpf.mp.br/transparencia/RSS" title="Portal da Transparência do MPF - RSS 1.0" type="application/rss+xml">
+
+    <link rel="alternate" href="https://transparencia.mpf.mp.br/transparencia/rss.xml" title="Portal da Transparência do MPF - RSS 2.0" type="application/rss+xml">
+
+    <link rel="alternate" href="https://transparencia.mpf.mp.br/transparencia/atom.xml" title="Portal da Transparência do MPF - Atom" type="application/rss+xml">
+
+
+    <link rel="search" href="https://transparencia.mpf.mp.br/transparencia/@@search" title="Buscar neste site">
+
+
+
+        
+        
+        
+        
+        
+
+        <meta name="viewport" content="width=device-width, initial-scale=0.6666, maximum-scale=1.0, minimum-scale=0.6666">
+        <meta name="generator" content="Plone - http://plone.org">
+    
+
+
+<!-- link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" -->
+<link href="portal_skins/custom/menu/stylesheets/swipenavigation.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700,900,600" rel="stylesheet" type="text/css">
+<style>
+body {
+  font-family: 'Titillium Web', sans-serif;  }
+
+.topbar {
+  height: 125px;
+  background-color: white;
+  text-align: left; }
+h1 { margin-top:150px; text-align:center; margin-bottom:50px;}
+  </style>
+
+
+<style>[vw] [vw-access-button]{display:none;flex-direction:row-reverse;width:40px;height:40px;cursor:pointer;overflow:hidden;position:absolute;border-radius:8px;transition:all .5s ease;right:0;left:auto}[vw] [vw-access-button] img{max-height:40px;transition:all .5s ease;border-radius:8px;opacity:1 !important;visibility:visible !important}[vw] [vw-access-button] .access-button{width:40px;height:40px;z-index:1}[vw] [vw-access-button] .pop-up{position:absolute;height:40px;min-width:150px;z-index:0;left:0;right:auto}[vw] [vw-access-button]:hover{width:200px}[vw] [vw-access-button].isLeft{flex-direction:row;left:0;right:auto}[vw] [vw-access-button].isLeft .pop-up{left:auto;right:0}[vw] [vw-access-button].isTopOrBottom:hover{bottom:-20px;top:0;margin-right:-80px}[vw] [vw-access-button].active{display:flex}
+</style><style>[vw].left [vw-plugin-wrapper]{float:left}[vw] [vw-plugin-wrapper]{position:relative;display:none;width:300px;height:100%;float:right;background:white;-webkit-box-shadow:0px 0px 15px rgba(0,0,0,0.2);-moz-box-shadow:0px 0px 15px rgba(0,0,0,0.2);box-shadow:0px 0px 15px rgba(0,0,0,0.2);border-radius:12px;-moz-border-radius:12px;-webkit-border-radius:12px}[vw] [vw-plugin-wrapper].active{display:-webkit-flex;display:flex;flex-direction:column;-webkit-flex-direction:column;height:450px;max-width:100%;min-height:100%}
+</style><style>div[vw]{position:fixed;max-width:95vw;min-height:40px;min-width:40px;right:0;top:50%;transform:translateY(-50%);z-index:2147483647 !important;display:none;margin:10px !important}div[vw].enabled{display:block}div[vw].active{margin-top:-285px}div[vw].left{left:0;right:initial}
+</style></head>
+<body class="template-default_error_message portaltype-plone-site site-transparencia icons-on userrole-anonymous" dir="ltr" data-portal-url="https://transparencia.mpf.mp.br" data-base-url="https://transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2025/DMPF-EXTRAJUDICIAL-2025-04-01.pdf">
+
+<!----------------------------- barra superior ----------------------------------->
+
+<div id="barra-superior">
+   <div id="limite-esquerda">
+      <!-- Atende acessbilidade -->
+      <a href="#menuAcessibildiade" style="display:none;">Menu</a>
+      <a href="http://www.mpf.mp.br" target="blank"><img src="imagens/barra-limite-esquerda.png" alt="imagem do topo com logo do MPF"></a>
+   </div>
+   <div id="fundo-direita"><img src="imagens/barra-fundo-direita.png" alt="imagem com fundo azul"></div>
+   <div id="limite-direita"> <a href="http://www.mpf.mp.br" target="blank"><img src="imagens/barra-limite-direita.png" alt="imagem do topo com logo do MPF"></a></div>
+</div>
+
+<!-------------------------------------------------------------------------------->
+
+<div id="visual-portal-wrapper">
+
+<!----------------------------- barra de acessibilidade ----------------------------------->
+
+<header id="barra-de-acessibilidade">
+<div id="links-auxilio" class="links-auxilio container">
+	<ul class="links" id="menuAcessibildiade">
+                <li title="Informações gerais sobre acessibilidade do sítio" class="acessibilidade">
+			<a href="./accessibility-info">Acessibilidade</a>
+		</li>
+		<li title="Alto contraste" class="contraste"></li>
+		<li title="Reduzir tamanho de fontes" class="font-menos"></li>
+		<li title="Aumentar tamanho de fontes" class="font-mais"></li>
+		<li class="desktop">Desktop</li>
+		<li title="Mapa do sítio" class="mapa-site">
+			<a class="btn-mapa-site" href="./sitemap">Mapa do site</a>
+		</li>
+                <li title="Conteúdo acessível em Libras" class="vlibras">
+                        <a class="btn-vlibras" href="http://www.vlibras.gov.br/">VLibras</a>
+                </li>
+	</ul>
+</div>
+</header>
+
+<!----------------------------------------------------------------------------------------->
+
+
+        <div id="portal-top" class="row">
+<div class="cell width-full position-0">
+            <!--div id="barra-superior">
+   <div id="limite-esquerda"><a href="http://www.mpf.mp.br"><img src="imagens/barra-limite-esquerda.png" /></a></div>
+   <div id="fundo-direita"><img src="imagens/barra-fundo-direita.png" /></div>
+   <div id="limite-direita"><a href="http://www.mpf.mp.br"><img src="imagens/barra-limite-direita.png" /></a></div>
+</div-->
+<div id="portal-header">
+    <p class="hiddenStructure">
+  <a accesskey="2" href="https://transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2025/DMPF-EXTRAJUDICIAL-2025-04-01.pdf#content">Ir para o conteúdo.</a> |
+
+  <a accesskey="6" href="https://transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2025/DMPF-EXTRAJUDICIAL-2025-04-01.pdf#portal-globalnav">Ir para a navegação</a>
+</p>
+
+<div id="portal-personaltools-wrapper">
+
+<p class="hiddenStructure">Ferramentas Pessoais</p>
+
+
+
+<ul class="actionMenu deactivated" id="portal-personaltools">
+  <li id="anon-personalbar">
+    
+        <a href="https://transparencia.mpf.mp.br/transparencia/login" id="personaltools-login" rel="#pb_1" class="link-overlay" style="cursor: pointer;">Acessar</a>
+    
+  </li>
+</ul>
+
+</div>
+
+
+
+<div class="container" style="padding:0 5px;">
+   <div class="portal-logo-2 row">
+      
+   <div class="col-xs-12"> 
+     <div id="logos-topo" class="hidden-xs">
+        <a style="width: 40%; display: block;" id="portal-logo-img" href="transparencia"><img style="width: 100%; float: left; padding: 1.5em 1em 0 1em;" src="imagens/idPortalDaTransparenciaEPrestacaoDeContas.png" alt="logo do portal da transparência"></a>
+
+        <a href="http://www.cnmp.mp.br/portaldatransparencia/" target="_blank" title="Portal da Transparência do Conselho Nacional do Ministério Público - CNMP" style="width: 15%; display: block; float: right;" class="logo-mpf"><img style="width: 100%; float: right; padding: 1.5em 1em 0 1em;" src="imagens/idTransparenciaMP.png" alt="logo portal da transparência do MP"></a>
+     </div>
+     <div id="logos-topo-2" class="visible-xs">
+        <a style="width: 50vw; display: block;" id="portal-logo-img-2" href="transparencia"><img style="width: 100%; float: left; padding: 1em 0 1em 0em;" src="imagens/idPortalDaTransparenciaEPrestacaoDeContas.png" alt="logo do portal da transparência"></a>
+
+        <a href="http://www.cnmp.mp.br/portaldatransparencia/" target="_blank" title="Portal da Transparência do Conselho Nacional do Ministério Público - CNMP" style="width: 30vw; display: block; float: right;" class="logo-mpf"><img style="width: 100%; float: right; padding: 1em 0 1em 1em;" src="imagens/idTransparenciaMP.png" alt="logo portal da transparência do MP"></a>
+     </div>
+   </div>
+</div>  
+</div>
+<div id="portal-searchbox">
+
+    <form id="livesearch0" action="https://transparencia.mpf.mp.br/transparencia/@@search">
+
+        <div class="LSBox">
+        <label class="hiddenStructure" for="searchGadget">Busca</label>
+
+        <input name="SearchableText" type="text" size="18" title="Buscar no Site" placeholder="Buscar no Site" accesskey="4" class="searchField" id="searchGadget" autocomplete="off">
+
+        <input class="searchButton" type="submit" value="Buscar">
+
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only" class="noborder" type="checkbox" name="path" value="/transparencia">
+            <label for="searchbox_currentfolder_only" style="cursor: pointer">apenas nesta seção</label>
+        </div>
+
+        <div class="LSResult" id="LSResult"><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="https://transparencia.mpf.mp.br/transparencia/@@search" accesskey="5">Busca Avançada…</a>
+    </div>
+
+</div>
+
+<p class="hiddenStructure">Navegação</p><div id="globalnav-wrapper"><input id="globalnav-toggle" type="checkbox"><div class="globalnav-toggle"><label for="globalnav-toggle" class="icon-bar"></label><label for="globalnav-toggle" class="icon-bar"></label><label for="globalnav-toggle" class="icon-bar"></label></div><ul id="portal-globalnav" class="globalnav"><li class="selected" id="portaltab-index_html-level1"><a href="https://transparencia.mpf.mp.br/transparencia" title=""><span>Página Inicial</span></a></li><li class="plain" id="portaltab-menu-inicial-level1"><a href="https://transparencia.mpf.mp.br/transparencia/menu-inicial" title=""><span>Menu Inicial</span></a></li><li class="plain" id="portaltab-sobre-level1"><a href="https://transparencia.mpf.mp.br/transparencia/sobre" title=""><span>Sobre</span></a></li><li class="plain" id="portaltab-faq-level1"><a href="https://transparencia.mpf.mp.br/transparencia/faq" title=""><span>FAQ</span></a></li><li class="plain" id="portaltab-contato-level1"><a href="https://transparencia.mpf.mp.br/transparencia/contato" title=""><span>Fale conosco</span></a></li><li class="plain plus" id="portaltab-conteudo-level1"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo" class="hasChildrens" title=""><span>Conteúdo</span></a><ul class="globalSectionsLevel1"><li class="plain plus" id="portaltab-execucao-orcamentaria-e-financeira-level2"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/execucao-orcamentaria-e-financeira" class="hasChildrens" title=""><span>Execução Orçamentária e Financeira</span></a><ul class="globalSectionsLevel2"><li class="plain" id="portaltab-receitas-proprias-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/execucao-orcamentaria-e-financeira/receitas-proprias" title=""><span>Crédito Orçamentário e Receitas Próprias</span></a></li><li class="plain" id="portaltab-despesas-por-acao-orcamentaria-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/execucao-orcamentaria-e-financeira/despesas-por-acao-orcamentaria" title=""><span>Despesas por Ação Orçamentária</span></a></li><li class="plain" id="portaltab-despesas-com-cartao-corporativo-e-suprimento-de-fundos-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/execucao-orcamentaria-e-financeira/despesas-com-cartao-corporativo-e-suprimento-de-fundos" title=""><span>Despesas com Cartão Corporativo e Suprimento de Fundos</span></a></li><li class="plain" id="portaltab-despesas-discricionarias-do-mpf-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/execucao-orcamentaria-e-financeira/despesas-discricionarias-do-mpf" title=""><span>Despesas Discricionárias do MPF (relatórios bimestrais)</span></a></li><li class="plain" id="portaltab-detalhamento-de-despesas-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/execucao-orcamentaria-e-financeira/detalhamento-de-despesas" title=""><span>Detalhamento de Despesas</span></a></li><li class="plain" id="portaltab-diarias-e-passagens-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/execucao-orcamentaria-e-financeira/diarias-e-passagens" title=""><span>Diárias e Passagens</span></a></li><li class="plain" id="portaltab-empenho-e-pagamentos-por-favorecido-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/execucao-orcamentaria-e-financeira/empenho-e-pagamentos-por-favorecido" title=""><span>Empenho e Pagamentos por Favorecido</span></a></li><li class="plain" id="portaltab-fundos-saldos-e-receitas-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/execucao-orcamentaria-e-financeira/fundos-saldos-e-receitas" title=""><span>Fundos: Saldos e Receitas</span></a></li><li class="plain" id="portaltab-limite-de-gastos-com-pessoal-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/execucao-orcamentaria-e-financeira/limite-de-gastos-com-pessoal" title=""><span>Limite de Gastos com Pessoal (Relatório de Gestão Fiscal)</span></a></li><li class="plain" id="portaltab-ordem-cronologica-de-pagamentos-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/execucao-orcamentaria-e-financeira/ordem-cronologica-de-pagamentos" title=""><span>Ordem Cronológica de Pagamentos</span></a></li><li class="plain" id="portaltab-outros-beneficios-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/execucao-orcamentaria-e-financeira/outros-beneficios" title=""><span>Outros Benefícios: pagamentos não registrados em contracheque</span></a></li><li class="plain" id="portaltab-pagamento-de-bolsas-capacitacao-diarias-e-passagens-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/execucao-orcamentaria-e-financeira/pagamento-de-bolsas-capacitacao-diarias-e-passagens" title=""><span>Pagamento de Bolsas Capacitação/Diárias e Passagens</span></a></li><li class="plain" id="portaltab-prestacao-de-contas-anual-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/execucao-orcamentaria-e-financeira/prestacao-de-contas-anual" title=""><span>Prestação de Contas Anual</span></a></li><li class="plain" id="portaltab-programacao-orcamentaria-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/execucao-orcamentaria-e-financeira/programacao-orcamentaria" title=""><span>Programação Orçamentária</span></a></li><li class="plain" id="portaltab-repasses-previdenciarios-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/execucao-orcamentaria-e-financeira/repasses-previdenciarios" title=""><span>Repasses a Fundos e Institutos Previdenciários</span></a></li><li class="plain" id="portaltab-restos-a-pagar-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/execucao-orcamentaria-e-financeira/restos-a-pagar" title=""><span>Restos a Pagar</span></a></li><li class="plain" id="portaltab-tabelas-de-diarias-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/execucao-orcamentaria-e-financeira/tabelas-de-diarias" title=""><span>Tabelas de Diárias</span></a></li></ul></li><li class="plain plus" id="portaltab-licitacoes-contratos-e-convenios-level2"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios" class="hasChildrens" title=""><span>Licitações, Contratos e Convênios</span></a><ul class="globalSectionsLevel2"><li class="plain" id="portaltab-atas-de-registro-de-precos-proprias-e-aderidas-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/atas-de-registro-de-precos-proprias-e-aderidas" title=""><span>Atas de Registro de Preços Próprias e Aderidas</span></a></li><li class="plain" id="portaltab-aviso-de-interesse-em-contratacao-por-dispensa-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/aviso-de-interesse-em-contratacao-por-dispensa" title=""><span>Aviso de Interesse em Contratação por Dispensa</span></a></li><li class="plain" id="portaltab-bens-imoveis-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/bens-imoveis" title=""><span>Bens Imóveis</span></a></li><li class="plain" id="portaltab-consumo-de-energia-eletrica-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/consumo-de-energia-eletrica" title=""><span>Consumo de Energia Elétrica - Quadro Comparativo</span></a></li><li class="plain" id="portaltab-contratos-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/contratos" title=""><span>Contratos</span></a></li><li class="plain" id="portaltab-termos-aditivos-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/termos-aditivos" title=""><span>Termos Aditivos</span></a></li><li class="plain" id="portaltab-convenios-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/convenios" title=""><span>Convênios e Acordos de Cooperação</span></a></li><li class="plain" id="portaltab-dispensas-e-inexigibilidades-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/dispensas-e-inexigibilidades" title=""><span>Dispensas e Inexigibilidades</span></a></li><li class="plain" id="portaltab-doacoes-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/doacoes" title=""><span>Doações</span></a></li><li class="plain" id="portaltab-edital-de-chamamentos-de-interessados-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/edital-de-chamamentos-de-interessados" title=""><span>Edital de Chamamentos de Interessados</span></a></li><li class="plain" id="portaltab-fiscais-dos-contratos-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/fiscais-dos-contratos" title=""><span>Fiscais dos Contratos</span></a></li><li class="plain" id="portaltab-informacoes-gerais-sobre-obras-e-projetos-level3"><a href="../../conteudo/planejamento-estrategico/dados-gerais-de-acompanhamento-de-obras-projetos-Institucionais" title="Informações gerais sobre obras e projetos institucionais."><span>Informações Gerais sobre Obras e Projetos</span></a></li><li class="plain" id="portaltab-licitacoes-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/licitacoes" title=""><span>Licitações</span></a></li><li class="plain" id="portaltab-lista-de-empresas-suspensas-ou-impedidas-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/lista-de-empresas-suspensas-ou-impedidas" title=""><span>Lista de Empresas Suspensas ou Impedidas</span></a></li><li class="plain" id="portaltab-lista-de-obras-paradas-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/lista-de-obras-paradas" title=""><span>Lista de Obras Paradas</span></a></li><li class="plain" id="portaltab-plano-anual-de-contratacoes-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/plano-anual-de-contratacoes" title=""><span>Plano de Contratações Anual</span></a></li><li class="plain" id="portaltab-prestadores-de-servicos-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/prestadores-de-servicos" title=""><span>Prestadores de Serviços por Empresas Terceirizadas</span></a></li><li class="plain" id="portaltab-respostas-as-impugnacoes-e-pedidos-de-esclarecimento-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/respostas-as-impugnacoes-e-pedidos-de-esclarecimento" title=""><span>Respostas às Impugnações e Pedidos de Esclarecimento</span></a></li><li class="plain" id="portaltab-rol-de-licitantes-e-bens-pre-qualificados-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/rol-de-licitantes-e-bens-pre-qualificados" title=""><span>Rol de Licitantes e Bens Pré-Qualificados</span></a></li><li class="plain" id="portaltab-sancoes-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/sancoes" title=""><span>Sanções Aplicadas aos Contratados</span></a></li><li class="plain" id="portaltab-sessoes-publicas-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/sessoes-publicas" title=""><span>Sessões Públicas</span></a></li><li class="plain" id="portaltab-termos-de-execucao-descentralizada-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/licitacoes-contratos-e-convenios/termos-de-execucao-descentralizada" title=""><span>Termos de Execução Descentralizada</span></a></li></ul></li><li class="plain plus" id="portaltab-planejamento-estrategico-level2"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/planejamento-estrategico" class="hasChildrens" title=""><span>Planejamento Estratégico</span></a><ul class="globalSectionsLevel2"><li class="plain" id="portaltab-dados-gerais-de-acompanhamento-de-obras-projetos-Institucionais-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/planejamento-estrategico/dados-gerais-de-acompanhamento-de-obras-projetos-Institucionais" title=""><span>Dados Gerais de Acompanhamento de Obras e de Projetos Institucionais</span></a></li><li class="plain" id="portaltab-metas-e-indicadores-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/planejamento-estrategico/metas-e-indicadores" title=""><span>Metas e Indicadores</span></a></li><li class="plain" id="portaltab-planejamento-estrategico-institucional-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/planejamento-estrategico/planejamento-estrategico-institucional" title=""><span>Planejamento Estratégico Institucional</span></a></li><li class="plain" id="portaltab-resultados-alcancados-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/planejamento-estrategico/resultados-alcancados" title=""><span>Resultados Alcançados</span></a></li></ul></li><li class="plain" id="portaltab-consulta-processual-level2"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/consulta-processual" title=""><span>Consulta Processual</span></a></li><li class="plain plus" id="portaltab-gestao-de-pessoas-level2"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/gestao-de-pessoas" class="hasChildrens" title=""><span>Gestão de Pessoas</span></a><ul class="globalSectionsLevel2"><li class="plain" id="portaltab-cargos-em-comissao-e-funcoes-de-confianca-ocupados-e-vagos-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/gestao-de-pessoas/cargos-em-comissao-e-funcoes-de-confianca-ocupados-e-vagos" title=""><span>Cargos em Comissão e Funções de Confiança Ocupados e Vagos</span></a></li><li class="plain" id="portaltab-curriculos-dos-ocupantes-de-cargos-de-chefia-e-direcao-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/gestao-de-pessoas/curriculos-dos-ocupantes-de-cargos-de-chefia-e-direcao" title=""><span>Currículos dos ocupantes de cargos de chefia e direção</span></a></li><li class="plain" id="portaltab-cargos-vagos-e-ocupados-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/gestao-de-pessoas/cargos-vagos-e-ocupados" title=""><span>Cargos Vagos e Ocupados</span></a></li><li class="plain" id="portaltab-concursos-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/gestao-de-pessoas/concursos" title=""><span>Concursos e Seleções realizados pelo Órgão</span></a></li><li class="plain" id="portaltab-despesas-com-pessoal-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/gestao-de-pessoas/despesas-com-pessoal" title=""><span>Despesas com Pessoal</span></a></li><li class="plain" id="portaltab-estagiarios-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/gestao-de-pessoas/estagiarios" title=""><span>Estagiários</span></a></li><li class="plain" id="portaltab-membros-servidores-com-funcoes-gratificadas-ou-cargo-em-comissao-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/gestao-de-pessoas/membros-servidores-com-funcoes-gratificadas-ou-cargo-em-comissao" title=""><span>Membros/Servidores com Funções Gratificadas ou Cargo em Comissão</span></a></li><li class="plain" id="portaltab-pensionista-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/gestao-de-pessoas/pensionista" title=""><span>Pensionista</span></a></li><li class="plain" id="portaltab-plano-de-carreira-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/gestao-de-pessoas/plano-de-carreira" title=""><span>Plano de Carreira e Estrutura Remuneratória</span></a></li><li class="plain" id="portaltab-provimento-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/gestao-de-pessoas/provimento" title=""><span>Provimento</span></a></li><li class="plain" id="portaltab-quadro-de-colaboradores-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/gestao-de-pessoas/quadro-de-colaboradores" title=""><span>Colaboradores</span></a></li><li class="plain" id="portaltab-quadro-de-membros-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/gestao-de-pessoas/quadro-de-membros" title=""><span>Quadro de Membros</span></a></li><li class="plain" id="portaltab-quadro-de-servidores-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/gestao-de-pessoas/quadro-de-servidores" title=""><span>Quadro de Servidores</span></a></li><li class="plain" id="portaltab-servidores-cedidos-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/gestao-de-pessoas/servidores-cedidos" title=""><span>Servidores Cedidos</span></a></li><li class="plain" id="portaltab-membros-cedidos-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/gestao-de-pessoas/membros-cedidos" title=""><span>Membros Cedidos</span></a></li><li class="plain" id="portaltab-sancoes-administrativas-aplicadas-a-servidores-publicos-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/gestao-de-pessoas/sancoes-administrativas-aplicadas-a-servidores-publicos" title=""><span>Sanções Administrativas Aplicadas a Servidores Públicos</span></a></li><li class="plain" id="portaltab-tabelas-portaria-sof-segep-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/gestao-de-pessoas/tabelas-portaria-sof-segep" title=""><span>Tabelas Portaria SOF/SEGEP</span></a></li><li class="plain" id="portaltab-teletrabalho-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/gestao-de-pessoas/teletrabalho" title=""><span>Servidores em trabalho não presencial</span></a></li><li class="plain" id="portaltab-vacancias-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/gestao-de-pessoas/vacancias" title=""><span>Vacâncias</span></a></li></ul></li><li class="plain plus" id="portaltab-publicacao-anual-level2"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/publicacao-anual" class="hasChildrens" title=""><span>Publicação Anual do SIC</span></a><ul class="globalSectionsLevel2"><li class="plain" id="portaltab-descricao-das-acoes-desenvolvidas-para-a-concretizacao-do-direito-constitucional-a-informacao-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/publicacao-anual/descricao-das-acoes-desenvolvidas-para-a-concretizacao-do-direito-constitucional-a-informacao" title=""><span>Ações Desenvolvidas para a Concretização do Direito Constitucional à Informação</span></a></li><li class="plain" id="portaltab-documentos-classificados-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/publicacao-anual/documentos-classificados" title=""><span>Rol das Informações Classificadas em cada Grau de Sigilo</span></a></li><li class="plain" id="portaltab-informacoes-desclassificadas-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/publicacao-anual/informacoes-desclassificadas" title=""><span>Rol das Informações Desclassificadas nos últimos 12 meses</span></a></li><li class="plain" id="portaltab-relatorio-estatistico-sala-de-atendimento-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/publicacao-anual/relatorio-estatistico-sala-de-atendimento" title=""><span>Relatório Estatístico, Pesquisa de Satisfação e Manifestações da Sala de Atendimento</span></a></li></ul></li><li class="plain plus" id="portaltab-diarios-e-boletins-level2"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/diarios-e-boletins" class="hasChildrens" title=""><span>Diários e Boletins</span></a><ul class="globalSectionsLevel2"><li class="plain" id="portaltab-diario-eletronico-dmpf-e-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e" title=""><span>Diário Eletrônico - DMPF-e</span></a></li><li class="plain" id="portaltab-boletim-de-servico-do-mpu-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/diarios-e-boletins/boletim-de-servico-do-mpu" title=""><span>Boletim de Serviço do MPU</span></a></li><li class="plain" id="portaltab-diario-oficial-da-uniao-1-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1" title=""><span>Diário Oficial da União</span></a></li></ul></li><li class="plain plus" id="portaltab-servico-de-informacao-ao-cidadao-level2"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/servico-de-informacao-ao-cidadao" class="hasChildrens" title=""><span>Serviço de Informação ao Cidadão (SIC)</span></a><ul class="globalSectionsLevel2"><li class="plain" id="portaltab-atendimento-e-orientacao-ao-acesso-a-informacao-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/servico-de-informacao-ao-cidadao/atendimento-e-orientacao-ao-acesso-a-informacao" title=""><span>Atendimento e Orientação ao Acesso à Informação</span></a></li><li class="plain" id="portaltab-sala-de-atendimento-ao-cidadao-sac-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/servico-de-informacao-ao-cidadao/sala-de-atendimento-ao-cidadao-sac" title=""><span>Sala de Atendimento ao Cidadão (SAC)</span></a></li><li class="plain" id="portaltab-unidade-e-autoridade-responsavel-pelo-sic-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/servico-de-informacao-ao-cidadao/unidade-e-autoridade-responsavel-pelo-sic" title=""><span>Unidade e Autoridade Responsável pelo SIC</span></a></li><li class="plain" id="portaltab-cadastro-de-manifestacao-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/servico-de-informacao-ao-cidadao/cadastro-de-manifestacao" title=""><span>Cadastro de Manifestação</span></a></li><li class="plain" id="portaltab-denuncia-e-pedido-de-informacao-level3"><a href="https://www.mpf.mp.br/mpfservicos/denuncia" title=""><span>Denúncias e Pedidos de Informação</span></a></li><li class="plain" id="portaltab-protocolo-de-documentos-level3"><a href="https://www.mpf.mp.br/mpfservicos/protocolo" title=""><span>Protocolo de Documentos</span></a></li><li class="plain" id="portaltab-andamento-de-manifestacao-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/servico-de-informacao-ao-cidadao/andamento-de-manifestacao" title=""><span>Andamento de Manifestação</span></a></li><li class="plain" id="portaltab-validacao-de-documentos-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/servico-de-informacao-ao-cidadao/validacao-de-documentos" title=""><span>Validação de Documentos</span></a></li><li class="plain" id="portaltab-carta-de-servico-ao-cidadao-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/servico-de-informacao-ao-cidadao/carta-de-servico-ao-cidadao" title=""><span>Carta de Serviço ao Cidadão</span></a></li><li class="plain" id="portaltab-pesquisa-de-satisfacao-com-o-usuario-level3"><a href="http://www.transparencia.mpf.mp.br/conteudo/publicacao-anual/relatorio-estatistico-sala-de-atendimento" title=""><span>Pesquisa de Satisfação com o Usuário</span></a></li><li class="plain" id="portaltab-publicacao-anual-do-sic-level3"><a href="http://www.transparencia.mpf.mp.br/conteudo/publicacao-anual" title=""><span>Publicação Anual do SIC</span></a></li><li class="plain" id="portaltab-regulamentacao-da-lei-14-129-2021-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/servico-de-informacao-ao-cidadao/regulamentacao-da-lei-14-129-2021" title=""><span>Regulamentação da Lei 14.129/2021</span></a></li></ul></li><li class="plain plus" id="portaltab-atividade-fim-level2"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/atividade-fim" class="hasChildrens" title=""><span>Atividade-Fim</span></a><ul class="globalSectionsLevel2"><li class="plain" id="portaltab-audiencias-publicas-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/atividade-fim/audiencias-publicas" title=""><span>Audiências Públicas realizadas</span></a></li><li class="plain" id="portaltab-consulta-andamento-processual-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/atividade-fim/consulta-andamento-processual" title=""><span>Consulta Andamento Processual</span></a></li><li class="plain" id="portaltab-dados-estudos-e-levantametos-estatisticos-sobre-atuacao-e-movimentacao-processual-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/atividade-fim/dados-estudos-e-levantametos-estatisticos-sobre-atuacao-e-movimentacao-processual" title=""><span>Dados da movimentação processual em cada Unidade unidade</span></a></li><li class="plain" id="portaltab-estudos-e-levantamentos-estatisticos-da-atuacao-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/atividade-fim/estudos-e-levantamentos-estatisticos-da-atuacao" title=""><span>Estudos e Levantamentos Estatísticos sobre sua Atuação</span></a></li><li class="plain" id="portaltab-inqueritos-civis-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/atividade-fim/inqueritos-civis" title=""><span>Inquéritos Civis</span></a></li><li class="plain" id="portaltab-inqueritos-policiais-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/atividade-fim/inqueritos-policiais" title=""><span>Inquéritos Policiais</span></a></li><li class="plain" id="portaltab-localizacao-das-unidades-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/atividade-fim/localizacao-das-unidades" title=""><span>Localização das Unidades</span></a></li><li class="plain" id="portaltab-mapa-de-atuacao-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/atividade-fim/mapa-de-atuacao" title=""><span>Mapa de Atuação</span></a></li><li class="plain" id="portaltab-membros-que-participam-de-conselhos-e-assemelhados-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/atividade-fim/membros-que-participam-de-conselhos-e-assemelhados" title=""><span>Relação de Membros Participantes de Conselho e Assemelhados Externos à Instituição</span></a></li><li class="plain" id="portaltab-perguntas-frequentes-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/atividade-fim/perguntas-frequentes" title=""><span>Perguntas Frequentes</span></a></li><li class="plain" id="portaltab-procedimentos-preparatorios-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/atividade-fim/procedimentos-preparatorios" title=""><span>Procedimentos Preparatórios</span></a></li><li class="plain" id="portaltab-procedimentos-investigatorios-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/atividade-fim/procedimentos-investigatorios" title=""><span>Procedimentos Investigatórios</span></a></li><li class="plain" id="portaltab-recomendacoes-expedidas-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/atividade-fim/recomendacoes-expedidas" title=""><span>Recomendações Expedidas</span></a></li><li class="plain" id="portaltab-termos-de-ajustamento-de-conduta-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/atividade-fim/termos-de-ajustamento-de-conduta" title=""><span>Termos de Ajustamento de Conduta firmados</span></a></li></ul></li><li class="plain plus" id="portaltab-contracheque-level2"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/contracheque" class="hasChildrens" title=""><span>Contracheque</span></a><ul class="globalSectionsLevel2"><li class="plain" id="portaltab-provento-membros-inativos-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/contracheque/provento-membros-inativos" title=""><span>Proventos Membros Inativos</span></a></li><li class="plain" id="portaltab-provento-servidores-inativos-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/contracheque/provento-servidores-inativos" title=""><span>Proventos Servidores Inativos</span></a></li><li class="plain" id="portaltab-remuneracao-membros-ativos-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/contracheque/remuneracao-membros-ativos" title=""><span>Remuneração Membros Ativos</span></a></li><li class="plain" id="portaltab-remuneracao-servidores-ativos-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/contracheque/remuneracao-servidores-ativos" title=""><span>Remuneração Servidores Ativos</span></a></li><li class="plain" id="portaltab-valores-percebidos-pensionistas-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/contracheque/valores-percebidos-pensionistas" title=""><span>Valores Percebidos - Pensionistas</span></a></li><li class="plain" id="portaltab-valores-percebidos-colaboradores-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/contracheque/valores-percebidos-colaboradores" title=""><span>Valores Percebidos - Colaboradores</span></a></li><li class="plain" id="portaltab-verbas-indenizatorias-e-outras-remuneracoes-temporarias-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/contracheque/verbas-indenizatorias-e-outras-remuneracoes-temporarias" title=""><span>Verbas Indenizatórias e outras Remunerações Temporárias</span></a></li><li class="plain" id="portaltab-verbas-referentes-a-exercicios-anteriores-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/contracheque/verbas-referentes-a-exercicios-anteriores" title=""><span>Verbas Referentes a Exercícios Anteriores</span></a></li></ul></li><li class="plain plus" id="portaltab-contato-level2"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/contato" class="hasChildrens" title=""><span>Contato</span></a><ul class="globalSectionsLevel2"><li class="plain" id="portaltab-endereco-telefone-e-horarios-de-atendimento-das-unidades-das-areas-meio-e-fim-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/contato/endereco-telefone-e-horarios-de-atendimento-das-unidades-das-areas-meio-e-fim" title=""><span>Endereço, Telefone e Horários de Atendimento das Unidades das Áreas Meio e Fim</span></a></li><li class="plain" id="portaltab-e-mail-funcional-dos-membros-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/contato/e-mail-funcional-dos-membros" title=""><span>E-mail Funcional dos Membros</span></a></li><li class="plain" id="portaltab-estrutura-organizacional-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/contato/estrutura-organizacional" title=""><span>Estrutura Organizacional</span></a></li><li class="plain" id="portaltab-registro-de-competencia-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/contato/registro-de-competencia" title=""><span>Registro de Competências (atuação das áreas meio e fim)</span></a></li><li class="plain" id="portaltab-contatos-dos-membros-autorizados-a-residir-fora-de-suas-sedes-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/contato/contatos-dos-membros-autorizados-a-residir-fora-de-suas-sedes" title=""><span>Contatos dos membros autorizados a residir fora de suas sedes</span></a></li><li class="plain" id="portaltab-contatos-dos-membros-autorizados-a-atuarem-em-regime-de-teletrabalho-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/contato/contatos-dos-membros-autorizados-a-atuarem-em-regime-de-teletrabalho" title=""><span>Contato dos membros autorizados a atuarem em regime de teletrabalho</span></a></li></ul></li><li class="plain plus" id="portaltab-remuneracao-de-membros-do-mpu-level2"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/remuneracao-de-membros-do-mpu" class="hasChildrens" title=""><span>Remuneração de Membros do MPU</span></a><ul class="globalSectionsLevel2"><li class="plain" id="portaltab-ministerio-publico-federal-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/remuneracao-de-membros-do-mpu/ministerio-publico-federal" title=""><span>Ministério Público Federal</span></a></li><li class="plain" id="portaltab-ministerio-publico-do-trabalho-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/remuneracao-de-membros-do-mpu/ministerio-publico-do-trabalho" title=""><span>Ministério Público do Trabalho</span></a></li><li class="plain" id="portaltab-ministerio-publico-militar-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/remuneracao-de-membros-do-mpu/ministerio-publico-militar" title=""><span>Ministério Público Militar</span></a></li><li class="plain" id="portaltab-ministerio-publico-do-distrito-federal-e-territorios-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/remuneracao-de-membros-do-mpu/ministerio-publico-do-distrito-federal-e-territorios" title=""><span>Ministério Público do Distrito Federal e Territórios</span></a></li><li class="plain" id="portaltab-consolidado-dos-ramos-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/remuneracao-de-membros-do-mpu/consolidado-dos-ramos" title=""><span>Consolidado dos Ramos - Jan/2018</span></a></li></ul></li><li class="plain plus" id="portaltab-ouvidoria-level2"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/ouvidoria" class="hasChildrens" title=""><span>Ouvidoria</span></a><ul class="globalSectionsLevel2"><li class="plain" id="portaltab-ouvidor-geral-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/ouvidoria/ouvidor-geral" title=""><span>Ouvidor(a) Geral</span></a></li><li class="plain" id="portaltab-mpf-servicos-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/ouvidoria/mpf-servicos" title=""><span>MPF Serviços</span></a></li><li class="plain" id="portaltab-relatorios-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/ouvidoria/relatorios" title=""><span>Relatórios</span></a></li><li class="plain" id="portaltab-ouvidometro-painel-estatistico-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/ouvidoria/ouvidometro-painel-estatistico" title=""><span>Ouvidômetro - Painel Estatístico</span></a></li></ul></li><li class="plain plus" id="portaltab-avaliacao-da-acessibilidade-level2"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/avaliacao-da-acessibilidade" class="hasChildrens" title=""><span>Avaliação da Acessibilidade</span></a><ul class="globalSectionsLevel2"><li class="plain" id="portaltab-avaliacoes-periodicas-da-acessibilidade-do-sitio-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/avaliacao-da-acessibilidade/avaliacoes-periodicas-da-acessibilidade-do-sitio" title=""><span>Avaliações Periódicas da Acessibilidade do Sítio</span></a></li></ul></li><li class="plain plus" id="portaltab-lei-geral-de-protecao-de-dados-pessoais-lgpd-level2"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/lei-geral-de-protecao-de-dados-pessoais-lgpd" class="hasChildrens" title=""><span>Lei Geral de Proteção de Dados Pessoais (LGPD)</span></a><ul class="globalSectionsLevel2"><li class="plain" id="portaltab-lei-geral-de-protecao-de-dados-pessoais-lgpd-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/lei-geral-de-protecao-de-dados-pessoais-lgpd/lei-geral-de-protecao-de-dados-pessoais-lgpd" title=""><span>Lei Geral de Proteção de Dados Pessoais (LGPD)</span></a></li><li class="plain" id="portaltab-o-que-e-a-lgpd-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/lei-geral-de-protecao-de-dados-pessoais-lgpd/o-que-e-a-lgpd" title=""><span>O que é a LGPD</span></a></li><li class="plain" id="portaltab-encarregado-de-protecao-de-dados-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/lei-geral-de-protecao-de-dados-pessoais-lgpd/encarregado-de-protecao-de-dados" title=""><span>Encarregado de Proteção de Dados</span></a></li></ul></li><li class="plain plus" id="portaltab-prestacao-de-contas-level2"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/prestacao-de-contas" class="hasChildrens" title=""><span>Prestação de Contas</span></a><ul class="globalSectionsLevel2"><li class="plain" id="portaltab-demonstracoes-contabeis-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/prestacao-de-contas/demonstracoes-contabeis" title=""><span>Demonstrações Contábeis</span></a></li><li class="plain" id="portaltab-relatorios-de-gestao-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/prestacao-de-contas/relatorios-de-gestao" title=""><span>Relatórios de Gestão</span></a></li><li class="plain" id="portaltab-rol-de-responsaveis-level3"><a href="../../conteudo/rol-de-responsaveis" title=""><span>Rol de Responsáveis</span></a></li><li class="plain" id="portaltab-prestacao-de-contas-in-no-84-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/prestacao-de-contas/prestacao-de-contas-in-no-84" title=""><span>Prestação de Contas - IN nº 84</span></a></li><li class="plain" id="portaltab-mpf-em-numeros-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/prestacao-de-contas/mpf-em-numeros" title=""><span>MPF em Números</span></a></li></ul></li><li class="plain plus" id="portaltab-rol-de-responsaveis-level2"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/rol-de-responsaveis" class="hasChildrens" title=""><span>Rol de Responsáveis</span></a><ul class="globalSectionsLevel2"><li class="plain" id="portaltab-responsaveis-pela-gestao-level3"><a href="https://transparencia.mpf.mp.br/transparencia/conteudo/rol-de-responsaveis/responsaveis-pela-gestao" title=""><span>Responsáveis pela Gestão</span></a></li></ul></li></ul></li><li class="plain" id="portaltab-formulario-level1"><a href="conteudo/execucao-orcamentaria-e-financeira/consolidacao-de-empenhos" title=""><span>Formulário</span></a></li><li class="plain" id="portaltab-carta-de-servicos-ao-cidadao-level1"><a href="https://transparencia.mpf.mp.br/transparencia/carta-de-servicos-ao-cidadao" title=""><span>Carta de Serviços ao Cidadão</span></a></li></ul></div>
+
+       <div vw="" class="enabled" style="left: initial; right: 0px; top: 50%; bottom: initial; transform: translateY(calc(-50% - 10px));">
+           <div vw-access-button="" class="active"><img class="access-button" data-src="assets/access_icon.svg" alt="Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga." src="https://vlibras.gov.br/app//assets/access_icon.svg">
+<img class="pop-up" data-src="assets/access_popup.jpg" alt="Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga." src="https://vlibras.gov.br/app//assets/access_popup.jpg"></div>
+           <div vw-plugin-wrapper=""><div vp="">
+  <div vp-box=""></div>
+  <div vp-message-box=""></div>
+  <div vp-settings=""></div>
+  <div vp-dictionary=""></div>
+  <div vp-settings-btn=""></div>
+  <div vp-info-screen=""></div>
+  <div vp-suggestion-screen=""></div>
+  <div vp-translator-screen=""></div>
+  <div vp-main-guide-screen=""></div>
+  <div vp-suggestion-button=""></div>
+  <div vp-rate-box=""></div>
+  <div vp-change-avatar=""></div>
+  <div vp-additional-options=""></div>
+  <div vp-controls=""></div>
+  <span vp-click-blocker=""></span>
+</div></div>
+       </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</div>
+
+
+
+
+<div id="viewlet-above-content"><div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">Você está aqui:</span>
+    <span id="breadcrumbs-home">
+        <a href="https://transparencia.mpf.mp.br/transparencia">Página Inicial</a>
+        
+    </span>
+
+</div>
+</div>
+
+   
+
+
+</div>
+</div>
+    <div id="portal-columns" class="row">
+
+        <div id="portal-column-content" class="cell width-full position-0">
+
+            <!--div id="viewlet-above-content" tal:content="structure provider:plone.abovecontent" tal:condition="not:ajax_load" /-->
+
+            
+                <div class="">
+
+                   <!--span tal:replace="roles"/-->
+
+                    
+                       
+                       
+                    
+
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+
+                    
+                        <div id="content">
+
+                            
+
+                            
+
+        
+
+            
+
+                
+
+                <h1 class="documentFirstHeading">Desculpe, mas esta página não existe…</h1>
+
+                <div id="content-core">
+                    <p>Pedimos desculpas pelo inconveniente, mas a página que você estava tentando acessar não existe neste endereço. Você pode usar os links abaixo para encontrar o que está procurando.</p>
+
+                    <p>Se você está certo que o endereço informado está correto mas está encontrando um erro, por favor contate a <span> <a href="https://transparencia.mpf.mp.br/transparencia/contact-info">Administração do Site</a></span>.</p>
+
+                    <p>Obrigado.</p>
+
+                    <!-- Offer search results for suggestions -->
+                    
+                </div>
+            
+
+        
+
+        
+        
+
+
+                        </div>
+                    
+
+                    
+                </div>
+            
+
+            <div id="viewlet-below-content">
+</div>
+        </div>
+
+        
+        
+
+        
+        
+    </div>
+
+
+    <div id="portal-footer-wrapper" class="row">
+        <div class="cell width-full position-0">
+            <div id="portal-footer">
+
+<div class="cookie-container active">
+                    <p>
+                    Nosso website coleta informações do seu dispositivo e da sua navegação por meio de cookies para permitir funcionalidades, como melhorar o funcionamento técnico das páginas e mensurar a audiência do website. Para obter mais informações sobre como isso é feito, acesse nossa <a href="https://www.mpf.mp.br/servicos/lgpd/politicas/privacidade/politica-de-cookies" target="_blank">Política de Cookies.</a><br>
+                    Ao clicar em ACEITO, você concordará com os termos da nossa <a href="https://www.mpf.mp.br//servicos/lgpd/politicas/privacidade/politica-de-privacidade-1" target="_blank">Política de Privacidade.</a> 
+                    </p>
+
+                    <button class="cookie-btn">
+                        Aceito
+                    </button>
+</div>
+
+          <!--p>
+               <span i18n:translate="description_copyright" tal:omit-tag="">
+               The
+               <span i18n:name="plonecms" tal:omit-tag="">
+                    <a href="http://plone.org" i18n:translate="label_plone_cms">Plone<sup>&reg;</sup> Open Source CMS/WCM</a>
+               </span>
+               is
+               <abbr title="Copyright" i18n:name="copyright" i18n:attributes="title title_copyright;">&copy;</abbr>
+               2000-<tal:year i18n:name="current_year" tal:content="view/year" />
+               by the
+               <span i18n:name="plonefoundation" tal:omit-tag="">
+                    <a href="http://plone.org/foundation" i18n:translate="label_plone_foundation">Plone Foundation</a></span>
+               and friends.
+               </span>
+
+               <span i18n:translate="description_license" tal:omit-tag="">
+               Distributed under the
+                    <span i18n:name="license" tal:omit-tag="">
+                         <a href="http://creativecommons.org/licenses/GPL/2.0/" i18n:translate="label_gnu_gpl_licence">GNU GPL license</a></span>.
+               </span>
+          </p-->
+
+<div class="container" style="padding:0 5px;">
+   <div class="portal-footer-2 row">
+      
+   <div class="col-xs-12"> 
+     <div id="logos-rodape" class="visible-md visible-lg visible-sm">
+        <div id="rodape-endereco">
+           <div id="rodape-endereco-block">
+              <p class="rodape-endereco-linha">SAF Sul Quadra 4 Conjunto C - Brasília / DF</p>
+              <p class="rodape-endereco-linha">CEP 70050-900 - PABX: (61) 3105-5100</p>
+              <p class="rodape-endereco-linha">Fale conosco: <a style="color:white; text-decoration: underline;" href="http://www.transparencia.mpf.mp.br/conteudo/servico-de-informacao-ao-cidadao/sala-de-atendimento-ao-cidadao-sac">Sala de Atendimento ao Cidadão</a></p>
+           </div>
+        </div>
+        <div id="rodape-marca">
+           <div id="rodape-marca-block">
+              <a id="rodape-marca-linha" href="http://www.mpf.mp.br/"><img src="imagens/marca-mpf.png" alt="logo do MPF"></a>
+           </div>
+        </div>
+        <!--a id="portal-footer-img" href="#"><img src="imagens/portalDaTransparencia.png" /></a>
+        <a id="logo-mpf-footer" href="#"><img src="imagens/logoTransparenciaMP.png" /></a-->
+     </div>
+     <div id="logos-rodape-2" class="visible-xs">
+        <a id="portal-footer-img" href="http://www.mpf.mp.br/"><img src="imagens/marca-mpf.png" alt="logo do MPF"></a>
+        <!--a id="logo-mpf-footer" href="#"><img src="imagens/logoTransparenciaMP.png" /></a-->
+     </div>
+   </div>
+</div>  
+</div>
+
+</div>
+<div id="portal-colophon">
+<div class="colophonWrapper">
+<ul>
+  <li>
+    <a href="http://plone.org" title="Este site foi feito usando o Plone, CMS/WCM de Código Aberto.">Impulsionado por Plone e Python</a>
+  </li>
+</ul>
+</div>
+</div>
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51923957-3', 'mpf.mp.br');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-VMC86MZ0TW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMC86MZ0TW');
+</script>
+
+
+
+<noscript>
+Seu browser não suporta JS
+</noscript>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+<div id="ajax-spinner" style="display: none;"><img src="https://transparencia.mpf.mp.br/spinner.gif" alt=""></div></body></html>

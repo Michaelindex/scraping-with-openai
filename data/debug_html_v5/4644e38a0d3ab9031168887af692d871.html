@@ -1,0 +1,1027 @@
+<html lang="pt-BR"><head id="Head1">
+    <!-- Google Tag Manager -->
+
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-FL36K0Y45N&amp;cx=c&amp;gtm=457e55k0za200&amp;tag_exp=101509157~103116025~103130495~103130497~103136993~103136995~103200001~103233427~103252644~103252646~103301114~103301116"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-PKMFZBN7XX&amp;cx=c&amp;gtm=457e55k0za200&amp;tag_exp=101509157~103116025~103130495~103130497~103136993~103136995~103200001~103233427~103252644~103252646~103301114~103301116"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-M7JCGH6R"></script><script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+
+        })(window, document, 'script', 'dataLayer', 'GTM-M7JCGH6R');</script>
+
+    <!-- End Google Tag Manager -->
+    <title>
+	Conectadoc
+</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><link rel="shortcut icon" type="image/png" href="../../_assets/images/favicon.png"><meta name="theme-color" content="#009fd5"><meta id="description" name="description"><meta id="ogImage" property="og:image"><meta id="ogUrl" property="og:url" content="https://conectadoc.com.br/Especialista.aspx?crm=crm-16400-PR&amp;link=djalma-michele-silva"><meta property="og:type" content="website"><meta id="ogTitle" property="og:title"><meta id="ogDescription" property="og:description">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="/_assets/css/all.css"><link rel="stylesheet" href="/_assets/css/style.css">
+  
+    <!-- Scripts -->
+    <script src="/_assets/js/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <script src="/_assets/js/jquery.animateCSS.js"></script>
+    <script src="/_assets/js/jquery.validate.js"></script>
+    <script src="/_assets/js/jquery.mask.js"></script>
+    <script src="/_assets/js/jquery.modal.min.js"></script>
+    <script src="/_assets/js/flickity.pkgd.min.js"></script>
+    <script src="/_assets/js/select2.js"></script>
+    <script src="/_assets/js/jquery.instagramFeed.min.js" "=""></script>
+    <script src="/_assets/js/datapicker/datepicker.min.js"></script>
+    <script src="/_assets/js/datapicker/datepicker.pt-BR.js"></script>
+    <script src="/_assets/js/scripts.js"></script>
+
+
+
+   <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function () {
+            //Show prompt
+            OneSignal.init({
+                appId: '5d9482ed-7f9e-4228-a081-06171c2e8ee1',
+                safari_web_id: 'web.onesignal.auto.47c70ae7-2660-4f5d-88d3-857f7dfd7254',
+            });
+
+            OneSignal.showSlidedownPrompt();
+
+            //ID quando se inscreve
+            OneSignal.on('subscriptionChange', function (isSubscribed) {
+                if (isSubscribed)
+                    OneSignal.getUserId(function (userId) {
+                        $("#" + 'hdnPlayerId').val(userId);
+                        var func = 'inserir';
+                        var playerId = userId;
+                        var appId = '5d9482ed-7f9e-4228-a081-06171c2e8ee1';
+                        $.ajax({
+                            url: "/RegistrarPushOneSignal.aspx",
+                            type: "GET",
+                            data: {
+                                func: func,
+                                playerId: playerId,
+                                appId: appId
+                            },
+                            dataType: "JSON",
+                            success: function (a) {
+                                console.log(a);
+                            }
+                        })
+                    });
+            });
+
+            //verificar se esta permitindo notificação
+            OneSignal.isPushNotificationsEnabled(function (isEnabled) {
+                if (isEnabled) {
+                    OneSignal.getUserId(function (userId) {
+                        $("#" + 'hdnPlayerId').val(userId);
+                        // Atualizar(playerid,idpaciente,idmedicoespecialista)
+                    });
+                }
+            });
+        });
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-160993346-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-160993346-1');
+    </script>
+    
+    <!-- Integração com RDStation -->
+    <script type="text/javascript" async="" src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/d54c2e1a-d063-40bc-b7c8-b3ba9bc8c9dd-loader.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FL36K0Y45N"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-FL36K0Y45N');
+    </script>
+
+    
+<script src="https://cdn.onesignal.com/sdks/OneSignalPageSDKES6.js?v=151606" async=""></script><link rel="stylesheet" type="text/css" href="https://static.zenvia.com/embed/css/zenvia-chat.min.css"><link rel="stylesheet" href="https://onesignal.com/sdks/OneSignalSDKStyles.css?v=2"></head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7JCGH6R"
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <form method="post" action="./djalma-michele-silva?crm=crm-16400-PR&amp;link=djalma-michele-silva" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZCc1vhXp5Yo8hvfY78Umo6C_CMS70B6sfQiGSR1vT_h7VBvKBNPUsZtW6FVAxfXzcA2&amp;t=638628099619783110" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=D9drwtSJ4hBA6O8UhT6CQvfrNBsc4Hwp_6B1cK-T_Mzhw60duCbDa3XwlCL-Mcvt_q83qDcEJnT4bpADw4GMDAFKRRt8MXUfb7XSStgq1HXtswMDR-K0mn_ZnOMhVoJTpjrYjOirCxyab4Lgher4gvRrOSkojjEizhW5Cv0MXHA1&amp;t=2a9d95e3" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=JnUc-DEDOM5KzzVKtsL1tThtYdeZS_JbzchL-2Dh4KACG_45ug0_Bo45sXXPTAHnZ5C-rbGkouRABcaLj4jOqQWbym5dOLk6rGUP_RPoNsHiJlCxZU4j9XNE8Oah1zAkx66xLF2nd1nhIMt_gJfwps0ONoKunJvaSFPCYBpovnnj5OuLTR8DUJgBwFJ8HG4i0&amp;t=2a9d95e3" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9F23BD1F">
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0">
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="p97v7lXI3iUYYRe9LrYyQmw2t5zNczp8CktJZd2a2HSs0OwubchZXCQzm7ZY4w+Gd2moaV/LP1MfPQTXNfcmWqFFcVEG1ynQxinRijjM6zf/9JXbWLHLAw10RP4vlXYbS32weCRWZFKHpAYL1bJ8aJN3rGZv3lOs5et6+tZbXEA6ozyJKXD5nRxAsvwEN3tSJeMTxXiAyAta7PnHmLjOTVjmpMIxU6CMcjFySfbyc26EJQORcUBVH799NpwUmAgQdNgyiZIIZxbr/vEDuEZw7imi8pAX+ZvWRcZDjdkrImr81pu4YUzMU9U5dg7hQmWsYx2eIasR6opZbR50m3J+7Z7O05AzD7dEBWhsgDz6isQjraMW96LAiyVf/YkqLDaytk4KqE8yF9gaQPaw6dgblXbZUDFrCoivB+PLbTrgFiBrP+I3caEtT3gDXWBbca54rA1MHyeIRfbeysRXWcjMoNoE5ggAyp6lUp+KGfwtYTkE4BrgMHR5mkqU3kokbdKhQpYgB8FRG11uD2EiJQ/suGoxrzndOpwyl6I7bipPS23G6zKfkyA8/1UhefEnOTMinb/l/PKL7kvXdEIG4zcRmLBPfLBs2eC6tpTavpXte7cCb++jrr6OZhlN9NcP6WsWa8RSamzAanCMU6LD5iPxmwl/3Bu/OsHtXvFJHq1L+PiK34eh+h6+Us18/IB1XZD3ksHtrNdVgS3vb0Fj3u2Ep9W/UEOIFbWef5TNGAhTBqwvlg/Sh78UoZ14+TrzYOZz8BAr8o5CtsxWVaEvRGnzbw8MhJ+G8CE9jN9Es7lOAMp0iL5Be9/B33tkOe8j0B9lS6Y3hORh/uHwl8DdPijNhw==">
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', ['tctl00$ContentPlaceHolder1$ucFormBusca$UpdatePanel1','ContentPlaceHolder1_ucFormBusca_UpdatePanel1','tctl00$ContentPlaceHolder1$ucListEspecialista$UpdatePanel1','ContentPlaceHolder1_ucListEspecialista_UpdatePanel1'], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+        <input type="hidden" name="ctl00$hdnPlayerId" id="hdnPlayerId">
+
+        
+    <div id="wrapper">
+        <div id="content">
+            <div class="bg-top pt-5">
+                
+
+
+<div class="largura">
+    <div class="row align-items-center text-center text-md-left">
+        <div class="col-12 col-md-auto">
+            <a href="/"><h1 class="logo"><img src="/_assets/images/logo.svg" class="responsive"></h1></a>
+        </div>
+        <div class="col-12 col-md text-center text-md-right pt-4 pt-md-0">
+            <!--   IF LOGADO  -->
+            <a href="../../#" id="ContentPlaceHolder1_ucHeader_ahrefSemLogin" data-url="ModalExames.aspx" class="button success abre-modal upper medium ml-2 my-2"><i class="fal fa-fw fa-file-medical-alt mr-2"></i><span class="d-none d-lg-inline-block">Resultado de Exames</span></a>
+            
+
+            
+            
+            <div id="ContentPlaceHolder1_ucHeader_divSemLogin1" class="button-group right ml-2 my-2">
+                <a href="#" class="button dropdown upper medium">Cadastre-se</a>
+                <div class="dropdown-list">
+                    <ul>
+                        <li><a href="CadastroPaciente.aspx">Sou <span class="medium">Paciente</span></a></li>
+                        <li><a href="https://conectadoc.com.br/Cadastro.aspx?Plano=Mensal">Sou <span class="medium">Profissional</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="ContentPlaceHolder1_ucHeader_divSemLogin2" class="button-group right ml-2 my-2">
+                <a href="login.aspx" class="button dropdown upper medium white">Fazer Login <i class="fa fa-angle-down ml-2"></i></a>
+                <div class="dropdown-list">
+                    <ul>
+                        <li><a href="login.aspx"><i class="fal fa-fw fa-user mr-2 text-gray"></i>Sou <span class="medium">Paciente</span></a></li>
+                        <li><a href="https://profissionais.conectadoc.com.br"><i class="fal fa-fw fa-user-md mr-2 text-gray"></i>Sou <span class="medium">Profissional</span></a></li>
+                        <li><a href="https://profissionais.conectadoc.com.br/secretaria"><i class="fal fa-fw fa-user-headset mr-2 text-gray"></i>Sou <span class="medium">Secretária</span></a></li>
+                        <li><a href="https://corporate.conectadoc.com.br"><i class="fal fa-fw mr-2 text-gray"><img src="_assets/images/logo-SSP.svg" class="v-align-m" width="14"></i>Sistema <span class="medium">Saúde Protegida</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="button-group right ml-2 my-2">
+                <a href="#" class="dropdown button white">
+                    <i class="fa fa-ellipsis-h"></i>
+                </a>
+                <div class="dropdown-list">
+                    <ul>
+                        <li><a href="/quem-somos"><i class="fal fa-fw fa-id-card mr-2 text-gray"></i>Quem Somos</a></li>
+                        <li><a href="/fale-conosco"><i class="fal fa-fw fa-phone mr-2 text-gray"></i>Contato</a></li>
+                        <li><a href="/FAQ.aspx"><i class="fal fa-fw fa-question-circle mr-2 text-gray"></i>FAQ</a></li>
+                        <li><a href="/Lgpd.aspx"><i class="fal fa-fw fa-shield-check mr-2 text-gray"></i>Proteção de Dados</a></li>
+                        <li><a href="/ClubeBeneficios.aspx"><i class="fal fa-fw fa-stars mr-2 text-gray"></i>Clube de Benefícios</a></li>
+                        <li><a href="/App"><i class="fal fa-fw fa-mobile mr-2 text-gray"></i>APP Cuidado Digital</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                <div id="ContentPlaceHolder1_ucFormBusca_UpdatePanel1">
+	
+        <div class="largura">
+            <div class="main-search mt-4">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md p-0">
+                        <label class="label-search">
+                            <i class="fal fa-search text-20"></i>
+                            <input name="ctl00$ContentPlaceHolder1$ucFormBusca$txtBusca" type="text" id="ContentPlaceHolder1_ucFormBusca_txtBusca" class="text-18 medium" placeholder="Condição, procedimento ou nome do médico...">
+                        </label>
+                    </div>
+                    <div class="col col-md-auto">
+                        <div class="button-group right ml-2">
+                            <a href="#" class="medium dropdown"><i class="fal fa-map-marker-alt mr-2 text-gray"></i>
+                                <span id="ContentPlaceHolder1_ucFormBusca_lblCidade">Todas as Cidades</span></a>
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$ucFormBusca$hdnCidade" id="ContentPlaceHolder1_ucFormBusca_hdnCidade" value="Todas as Cidades">
+                            <div id="js-cidades" class="dropdown-list">
+                                <ul>
+                                    
+                                            <li>
+                                                <a href="javascript:void(0);" id="Todas As Cidades" onclick="selectedCidade(this);">Todas As Cidades</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Araucária - Pr" onclick="selectedCidade(this);">Araucária - Pr</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Blumenau - Sc" onclick="selectedCidade(this);">Blumenau - Sc</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Brasília - Df" onclick="selectedCidade(this);">Brasília - Df</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Campo Largo - Pr" onclick="selectedCidade(this);">Campo Largo - Pr</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Cipotânea - Mg" onclick="selectedCidade(this);">Cipotânea - Mg</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Cuiabá - Mt" onclick="selectedCidade(this);">Cuiabá - Mt</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Curitiba - Pr" onclick="selectedCidade(this);">Curitiba - Pr</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Feira De Santana - Ba" onclick="selectedCidade(this);">Feira De Santana - Ba</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Fortaleza - Ce" onclick="selectedCidade(this);">Fortaleza - Ce</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Joinville - Sc" onclick="selectedCidade(this);">Joinville - Sc</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Maceió - Al" onclick="selectedCidade(this);">Maceió - Al</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Maringá - Pr" onclick="selectedCidade(this);">Maringá - Pr</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Matinhos - Pr" onclick="selectedCidade(this);">Matinhos - Pr</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Petrópolis - Rj" onclick="selectedCidade(this);">Petrópolis - Rj</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Pinhais - Pr" onclick="selectedCidade(this);">Pinhais - Pr</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Ponta Grossa - Pr" onclick="selectedCidade(this);">Ponta Grossa - Pr</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Porto Alegre - Rs" onclick="selectedCidade(this);">Porto Alegre - Rs</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Rio De Janeiro - Rj" onclick="selectedCidade(this);">Rio De Janeiro - Rj</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Rondonópolis - Mt" onclick="selectedCidade(this);">Rondonópolis - Mt</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Salvador - Ba" onclick="selectedCidade(this);">Salvador - Ba</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="São José Do Rio Preto - Sp" onclick="selectedCidade(this);">São José Do Rio Preto - Sp</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="São José Dos Pinhais - Pr" onclick="selectedCidade(this);">São José Dos Pinhais - Pr</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="São Paulo - Sp" onclick="selectedCidade(this);">São Paulo - Sp</a></li>
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" id="Sorocaba - Sp" onclick="selectedCidade(this);">Sorocaba - Sp</a></li>
+                                        
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col col-auto pb-3 pb-md-0" id="Busca">
+                        <a id="ContentPlaceHolder1_ucFormBusca_lbBuscar" class="button p-3" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ucFormBusca$lbBuscar','')"><i class="fa fa-search"></i></a>
+                        <input type="submit" name="ctl00$ContentPlaceHolder1$ucFormBusca$lbAtualizarFiltro" value="" id="ContentPlaceHolder1_ucFormBusca_lbAtualizarFiltro" style="display: none;">
+                    </div>
+                </div>
+            </div>
+
+            
+            <div id="ContentPlaceHolder1_ucFormBusca_divFiltroRapido" class="main-filter">
+                <p class="medium p-4 text-center">Acesso Rápido</p>
+                <div class="border-right border-left border-md-right-0 border-md-left-0">
+                    <div class="carousel tabs medium text-center icones flickity-enabled is-draggable" data-content="filtros" tabindex="0">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    <div class="flickity-viewport" style="height: 92px; touch-action: pan-y;"><div class="flickity-slider" style="left: 0px; transform: translateX(0%);"><div class="carousel-cell is-selected" style="position: absolute; left: 0%;">
+                            <a id="ContentPlaceHolder1_ucFormBusca_lbFRCovid" class="return" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ucFormBusca$lbFRCovid','')">
+                    
+                        <i class="fas fa-viruses text-50 mb-2"></i>
+                        <p class="upper text-10">Teleconsulta COVID</p>
+                    
+                            </a>
+                        </div><div class="carousel-cell is-selected" style="position: absolute; left: 15.06%;">
+                            <a id="ContentPlaceHolder1_ucFormBusca_lbCallModalQueixa" class="return" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ucFormBusca$lbCallModalQueixa','')">
+                    
+                        <i class="far fa-comment-medical text-50 mb-2"></i>
+                        <p class="upper text-10">Queixa</p>
+                    
+                            </a>
+                            <input type="submit" name="ctl00$ContentPlaceHolder1$ucFormBusca$lbFRQueixas" value="" id="ContentPlaceHolder1_ucFormBusca_lbFRQueixas" style="display: none;">
+                        </div><div class="carousel-cell hide is-selected" style="position: absolute; left: 30.13%;">
+                            <a id="ContentPlaceHolder1_ucFormBusca_lbFRTeleconsulta" class="return" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ucFormBusca$lbFRTeleconsulta','')">
+                    
+                        <span class="relative d-inline-block mb-2">
+                            <i class="far fa-calendar text-50"></i>
+                            <i class="fas fa-video text-20"></i>
+                        </span>
+                        <p class="upper text-10">Teleconsulta na sua cidade</p>
+                    
+                            </a>
+                        </div><div class="carousel-cell is-selected" style="position: absolute; left: 30.13%;">
+                            <a id="ContentPlaceHolder1_ucFormBusca_lbFRPresencial" class="return" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ucFormBusca$lbFRPresencial','')">
+                    
+                        <span class="relative d-inline-block mb-2">
+                            <i class="far fa-calendar text-50"></i>
+                            <i class="fas fa-map-marker-alt text-20"></i>
+                        </span>
+                        <p class="upper text-10">Presencial na sua cidade</p>
+                    
+                            </a>
+                        </div><div class="carousel-cell is-selected" style="position: absolute; left: 45.19%;">
+                            <a id="ContentPlaceHolder1_ucFormBusca_lbFREspecialidade" class="return" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ucFormBusca$lbFREspecialidade','')">
+                    
+                        <i class="far fa-briefcase-medical text-50 mb-2"></i>
+                        <p class="upper text-10">Especialidade</p>
+                    
+                            </a>
+                        </div><div class="carousel-cell is-selected" style="position: absolute; left: 60.25%;">
+                            <a id="ContentPlaceHolder1_ucFormBusca_lbFRTipoConsulta" class="return" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ucFormBusca$lbFRTipoConsulta','')">
+                    
+                        <span class="relative d-inline-block mb-2">
+                            <i class="far fa-slash text-50"></i>
+                            <i class="fas fa-video first-slash text-20"></i>
+                            <i class="fas fa-map-marker-alt text-20"></i>
+                        </span>
+                        <p class="upper text-10">Tipo de Consulta</p>
+                    
+                            </a>
+                        </div><div class="carousel-cell is-selected" style="position: absolute; left: 75.31%;">
+                            <a id="ContentPlaceHolder1_ucFormBusca_lbFRData" class="return" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ucFormBusca$lbFRData','')">
+                    
+                        <i class="far fa-calendar-day text-50 mb-2"></i>
+                        <p class="upper text-10">Data</p>
+                    
+                            </a>
+                        </div><div class="carousel-cell" aria-hidden="true" style="position: absolute; left: 90.38%;">
+                            <a id="ContentPlaceHolder1_ucFormBusca_lbFRConvenio" class="return" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ucFormBusca$lbFRConvenio','')">
+                    
+                        <i class="far fa-book-medical text-50 mb-2"></i>
+                        <p class="upper text-10">Convênio</p>
+                    
+                            </a>
+                        </div></div></div></div>
+                </div>
+            </div>
+
+            
+            
+        </div>
+
+        <!-- Modal new -->
+        <div id="ContentPlaceHolder1_ucFormBusca_ModalQueixas" class="modal-new form">
+            <div class="modal-title">
+                <a href="#" class="button rounded tooltip-text modal-close" title="Fechar" rel="modal:close"><i class="fa fa-times"></i></a>
+                <h3 class="text-24 medium text-color">Queixas</h3>
+                <div class="input-search relative">
+                    <input type="search" class="input js-search" placeholder="Buscar Queixas" data-id="lista-queixas" data-parent="ul" data-item="a">
+                </div>
+            </div>
+            <div class="pb-4 border-bottom">
+                <ul id="lista-queixas" class="list link">
+                    
+                </ul>
+            </div>
+        </div>
+        <div id="ContentPlaceHolder1_ucFormBusca_uprogress" style="display:none;" role="status" aria-hidden="true">
+		
+                <div class="loading-div" id="loadingDiv2">
+                    <div class="box-loading">
+                        <h3><i class="fas fa-circle-notch fa-spin"></i>Carregando...</h3>
+                        <strong>Por favor Aguarde...</strong><br>
+                    </div>
+                </div>
+            
+	</div>
+    
+</div>
+<script>
+    function selectedCidade(el) {
+        $("[id*=lblCidade]").text(el.id);
+        $("[id*=hdnCidade]").val(el.id);
+    }
+    function setFiltros(el, id) {
+        //alert('passou aqui');
+        var hdnFiltro = $("[id*=hdnFiltro" + el + "]");
+        if (hdnFiltro.val().includes("#" + id + "#")) {
+            hdnFiltro.val(hdnFiltro.val().replace("#" + id + "#", ''));
+        } else {
+            hdnFiltro.val(hdnFiltro.val() + "#" + id + "#");
+        }
+        //$("[id*=lbBuscar]").click();
+        //$("#ContentPlaceHolder1_ucFormBuscaLis_lbBuscar").click();
+    }
+
+    //function montaSlider(obj) {
+    //    if ($(obj).hasClass("flickity-enabled")) {
+    //        $(obj).flickity('destroy');
+    //    }
+    //    $(obj).flickity({
+    //        freeScroll: true,
+    //        contain: true,
+    //        prevNextButtons: false,
+    //        pageDots: false,
+    //        cellAlign: 'left'
+    //    });
+    //}
+
+    function montaSlider(obj) {
+        arrows = true;
+        if ($(obj).hasClass("flickity-enabled")) {
+            $(obj).flickity('destroy');
+        }
+        if ($(obj).hasClass("icones") || $(obj).hasClass("medium")) {
+            arrows = false;
+        }
+        $(obj).flickity({
+            freeScroll: true,
+            contain: true,
+            prevNextButtons: arrows,
+            groupCells: true,
+            pageDots: false,
+            cellAlign: 'left'
+        });
+    }
+
+    function setSelected(el) {
+        $('#filtro' + el.toLowerCase() + ' .carousel .carousel-cell').each(function (index, element) {
+            var hdnId = $(element).find('[id*=hdnIdFiltro]').attr('id');
+            var hdnValue = $('#' + hdnId).val();
+            var hdnFiltro = $('[id*=hdnFiltro' + el + ']');
+            var btn = $(element).find('.button');
+            if (hdnFiltro.val().includes("#" + hdnValue + "#")) {
+                btn.removeClass("white");
+            }
+        });
+    }
+    $(document).ready(function () {
+        montaSlider('.tabs.carousel');
+        setSelected('Especialidade');
+        setSelected('Convenio');
+        setSelected('Tipo');
+        setSelected('Data');
+        $(document).on("click", "#filtros .carousel .button", function (e) {
+            e.preventDefault();
+            if ($(this).hasClass("white")) {
+                $(this).removeClass("white");
+            } else {
+                $(this).addClass("white");
+            }
+            //alert('passou aqui');
+            //var id = $("[id*=lbBuscar]").attr('id');
+            //alert(id);
+            //__doPostBack(id,"");
+            $("[id*=lbAtualizarFiltro]").click();
+            //__doPostBack($("[id*=lbAtualizarFiltro]").attr('id'),'');
+
+        });
+        $(window).keydown(function (event) {
+            if (event.keyCode == 13) {
+                event.preventDefault();
+                return false;
+            }
+        });
+        if ($('[id*=hdnFRTipo]').val() == 'FRCovid' || $('[id*=hdnFRTipo]').val() == 'FREspecialidade') {
+            $('#ahreffiltroespecialidade').click();
+        } else if ($('[id*=hdnFRTipo]').val() == 'FRTipoConsulta' || $('[id*=hdnFRTipo]').val() == 'FRTeleconsulta' || $('[id*=hdnFRTipo]').val() == 'FRPresencial') {
+            $('#ahreffiltrotipo').click();
+        } else if ($('[id*=hdnFRTipo]').val() == 'FRConvenio') {
+            $('#ahreffiltroconvenio').click();
+        } else if ($('[id*=hdnFRTipo]').val() == 'FRData') {
+            $('#ahreffiltrodata').click();
+        }
+    });
+    function callNewModal(modalId) {
+        //alert(modalId);
+        //event.preventDefault();
+        //var $this = $(this);
+        //var $this = el;
+        this.blur(); // Manually remove focus from clicked link.
+
+        var content = $("#" + modalId).removeClass("hide");
+        $(content).appendTo('body').modal({
+            // escapeClose: false,
+            // clickClose: false,
+            modalClass: "modal-new",
+            showClose: false,
+            closeExisting: false
+        }).on($.modal.BEFORE_CLOSE, function (event, modal) {
+            $("#tooltip").remove();
+        });
+        init("#" + modalId);
+    }
+    function selectQueixa(strel) {
+        $("[id*=txtBusca]").val(strel);
+        $("[id*=lbFRQueixas]").click();
+    }
+</script>
+
+            </div>
+            
+
+<!-- RESULTS -->
+<div id="resultado">
+    <div class="largura">
+        <h2 class="bold text-darker text-60">Detalhes do Profissional</h2>
+        <h3 class="text-20 bold">
+            </h3><br><br>
+        <input type="hidden" name="ctl00$ContentPlaceHolder1$ucListEspecialista$hdnFiltroEspecialidade" id="ContentPlaceHolder1_ucListEspecialista_hdnFiltroEspecialidade">
+        <input type="hidden" name="ctl00$ContentPlaceHolder1$ucListEspecialista$hdnFiltroConvenio" id="ContentPlaceHolder1_ucListEspecialista_hdnFiltroConvenio">
+        <input type="hidden" name="ctl00$ContentPlaceHolder1$ucListEspecialista$hdnFiltroTipo" id="ContentPlaceHolder1_ucListEspecialista_hdnFiltroTipo">
+        <input type="hidden" name="ctl00$ContentPlaceHolder1$ucListEspecialista$hdnFiltroData" id="ContentPlaceHolder1_ucListEspecialista_hdnFiltroData">
+        <div id="ContentPlaceHolder1_ucListEspecialista_UpdatePanel1">
+	
+                
+                        <input type="hidden" name="ctl00$ContentPlaceHolder1$ucListEspecialista$rptListagem$ctl00$hdnIdMedicoEspecialista" id="ContentPlaceHolder1_ucListEspecialista_rptListagem_hdnIdMedicoEspecialista_0" value="1044">
+                        <div class="row pt-5">
+                            <div class="col-12 col-md-6 col-xl-7 pb-4 pb-md-0">
+                                
+                                <div class="row">
+                                    <div class="col-4 col-xl-auto">
+                                        <a id="ContentPlaceHolder1_ucListEspecialista_rptListagem_hlProfissional_0" href="/especialista/crm-16400-PR/djalma-michele-silva"><img id="ContentPlaceHolder1_ucListEspecialista_rptListagem_imgDoctor_0" class="user-img big" src="/ImgMedico/Thumbs/TN250_medico-1044.png"></a>
+                                    </div>
+                                    <div class="col-12 col-sm pr-5">
+                                        <a id="ContentPlaceHolder1_ucListEspecialista_rptListagem_hlNome_0" class="h3 text-40 bold" href="/especialista/crm-16400-PR/djalma-michele-silva">Dr. Djalma Michele Silva</a>
+                                        <h5 class="text-20">
+                                            <p>Psiquiatria</p></h5>
+                                        <p class="medium text-color">
+                                            <span id="ContentPlaceHolder1_ucListEspecialista_rptListagem_lblCRM_0">CRM-16400-PR</span>
+                                        </p>
+                                        <div class="py-4">
+                                            <p class="bold">Convênios atendidos para consulta presencial (no agendamento online é possível conferir se seu convênio é atendido no local desejado):</p>
+                                            <p>
+                                                <span id="ContentPlaceHolder1_ucListEspecialista_rptListagem_lblConvenios_0">Bradesco Saúde, Sinam, Amil Dix, Cassi, Fundação Copel, Fundação Sanepar, Geap, Judicemed, Particular, Petrobras Distribuidora, Petrobras Petroleo, Saúde Caixa, ...</span>
+                                            </p>
+                                        </div>
+                                        
+                                        <div class="areas">
+                                            <p class="bold upper pb-2">Áreas de Atuação</p>
+                                            <ul>
+                                                <li>Psiquiatria;</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-5">
+                                <div class="box box-data sticky">
+                                    <div class="border-bottom py-3 px-4">
+                                        <h2 class="bold text-20 text-color">Em qual local você deseja ser atendido?</h2>
+                                        <p>Selecione o local para exibir os horários disponíveis</p>
+                                    </div>
+                                    <div class="p-4">
+                                        
+
+                                        
+                                        
+
+<div class="agenda">
+    <div id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_pnlSolicitarAgenda_0" class="notavaible">
+        <div class="text-format text-center">
+            <p class="medium">Este Profissional ainda não disponibilizou locais de atendimento pela plataforma!</p>
+            <p class="text-14">Clique no botão abaixo para solicitar uma consulta, assim ele entrará em contato para agenda-la.</p>
+            <a id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_btnConfSolicitarHorario_0" class="button" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ucListEspecialista$rptListagem$ctl00$ucAgenda$btnConfSolicitarHorario','')" style="margin-top: 1rem;">Solicitar Agendamento</a>
+        </div>
+    </div>
+    
+</div>
+        
+
+
+<input type="hidden" name="ctl00$ContentPlaceHolder1$ucListEspecialista$rptListagem$ctl00$ucAgenda$hdnIdMedico" id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_hdnIdMedico_0" value="1044">
+<input type="hidden" name="ctl00$ContentPlaceHolder1$ucListEspecialista$rptListagem$ctl00$ucAgenda$hdnLocal" id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_hdnLocal_0">
+<input type="hidden" name="ctl00$ContentPlaceHolder1$ucListEspecialista$rptListagem$ctl00$ucAgenda$hdnIdAgendamento" id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_hdnIdAgendamento_0">
+<input type="hidden" name="ctl00$ContentPlaceHolder1$ucListEspecialista$rptListagem$ctl00$ucAgenda$hdnIdConvenio" id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_hdnIdConvenio_0">
+<input type="hidden" name="ctl00$ContentPlaceHolder1$ucListEspecialista$rptListagem$ctl00$ucAgenda$hdnIdConvenioTele" id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_hdnIdConvenioTele_0">
+<input type="hidden" name="ctl00$ContentPlaceHolder1$ucListEspecialista$rptListagem$ctl00$ucAgenda$hdnIdLocalSolicitar" id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_hdnIdLocalSolicitar_0" value="0">
+<input type="submit" name="ctl00$ContentPlaceHolder1$ucListEspecialista$rptListagem$ctl00$ucAgenda$btnAgendar" value="Button" id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_btnAgendar_0" style="display:none;">
+<!-- Modal new -->
+<div id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_ModalAgendamentoNew_0" class="modal-new form">
+    
+        <div class="modal-title">
+            <a href="#" class="button rounded tooltip-text modal-close" title="Fechar" rel="modal:close"><i class="fa fa-times"></i></a>
+            
+            <h3 class="text-24 medium text-color">Agendamento de Consulta</h3>
+        </div>
+        <div class="pb-4 border-bottom">
+            <div class="row flex-nowrap">
+                <div class="col col-auto">
+                    <img id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_imgDoctor_0" class="user-img medium">
+                    
+                </div>
+                <div class="col">
+                    <h3 class="text-20 bold">
+                        </h3>
+                    <h5 class="text-16">
+                        </h5>
+                    <p class="text-12 medium text-color">
+                        <span id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_lblCRM_0">Label</span>
+                    </p>
+                    <div class="pt-4">
+                        <div class="row">
+                            <div class="col col-auto pr-0">
+                                <i class="fal fa-fw fa-calendar-alt mr-2"></i>
+                            </div>
+                            <div class="col pl-0">
+                                <p>Data e Horário</p>
+                                <p class="medium mb-3">
+                                    
+                                    - <span class="text-color">
+                                        </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-auto pr-0">
+                                <i class="fal fa-fw fa-map-marker-alt mr-2"></i>
+                            </div>
+                            <div class="col pl-0">
+                                <p class="medium">
+                                    
+                                </p>
+                                <p class="text-12">
+                                    
+                                    <br>
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- IF LOGADO  -->
+        <div id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_pnlRestricoes_0" class="py-4 border-bottom">
+            <h3 class="bold mb-2">RESTRIÇÕES E OBSERVAÇÕES:</h3>
+            <div style="max-height: 150px; overflow-y: auto;">
+                <div class="line-height">
+                    <span id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_lblRestricoes_0">Label</span>
+                </div>
+            </div>
+            <a id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_btnConfirmarRestricoes_0" class="button full" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ucListEspecialista$rptListagem$ctl00$ucAgenda$btnConfirmarRestricoes','')">Confirmar Ciencia das Restrições</a>
+        </div>
+        <div id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_pnPresencial_0" class="pt-4">
+            <div class="form-group">
+                <h3 class="bold mb-2">CONSULTA PRESENCIAL</h3>
+                <select name="ctl00$ContentPlaceHolder1$ucListEspecialista$rptListagem$ctl00$ucAgenda$ddlConvenio" id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_ddlConvenio_0" class="input busca select2-hidden-accessible" data-placeholder="Selecione Convênio ou Particular" data-width="100%" tabindex="-1" aria-hidden="true">
+
+	</select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_ddlConvenio_0-container"><span class="select2-selection__rendered" id="select2-ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_ddlConvenio_0-container"><span class="select2-selection__placeholder">Selecione Convênio ou Particular</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                
+            </div>
+            <a onclick="javascript:setHdnIdConvenio(this);" id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_btnAgendarConsulta_0" class="button full success" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ucListEspecialista$rptListagem$ctl00$ucAgenda$btnAgendarConsulta','')">Agendar Consulta Presencial</a>
+            
+            <div id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_pnValorPresencial_0" class="py-3 text-center">
+                <p>
+                    Valor para Particular: <span class="medium">
+                        <span id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_lblValorPresencial_0"></span></span>
+                </p>
+                <p class="text-gray">(Pagamento no Local)</p>
+                
+                
+            </div>
+            
+            <div class="text-center mb-3">
+                <div class="col-md-12">
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <div id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_pnTeleconsulta_0" class="py-4 border-bottom">
+            <h3 class="bold mb-2">TELECONSULTA:</h3>
+            <a id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_btnAgendarTeleorientacao_0" class="button full" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ucListEspecialista$rptListagem$ctl00$ucAgenda$btnAgendarTeleorientacao','')">Agendar Teleconsulta</a>
+            
+            <div id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_pnValorTeleconsulta_0" class="pt-2 text-center">
+                <p>
+                    Valor para Teleconsulta: <span class="medium">
+                        <span id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_lblValorTeleconsulta_0"></span></span>
+                </p>
+                <p class="text-gray">(Pagamento pelo Site)</p>
+                
+
+                
+            </div>
+
+        </div>
+
+        <div id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_pnTeleComConvenio_0" class="pt-2">
+            <div class="form-group">
+                <h3 class="bold mb-0">TELECONSULTA COM CONVÊNIO:</h3>
+                <select name="ctl00$ContentPlaceHolder1$ucListEspecialista$rptListagem$ctl00$ucAgenda$ddlConvenioTele" id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_ddlConvenioTele_0" class="input busca select2-hidden-accessible" data-placeholder="Selecione o Convênio" data-width="100%" tabindex="-1" aria-hidden="true">
+
+	</select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_ddlConvenioTele_0-container"><span class="select2-selection__rendered" id="select2-ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_ddlConvenioTele_0-container"><span class="select2-selection__placeholder">Selecione o Convênio</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+            </div>
+            <a onclick="javascript:setHdnIdConvenioTele(this);" id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_btnAgendarTeleConvenio_0" class="button full" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ucListEspecialista$rptListagem$ctl00$ucAgenda$btnAgendarTeleConvenio','')">Agendar Tele Com Convênio</a>
+            <div class="pt-2 text-center">
+                <p>
+                    Liberação depende da autorização pelo Convênio
+                </p>
+            </div>
+        </div>
+
+        <!-- ELSE LOGADO  -->
+        <div id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_pnlCrieConta_0" class="py-4 text-center">
+            <h3 class="bold mb-2">É PRECISO ESTAR LOGADO PARA PODER AGENDAR:</h3>
+            <a id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_btnCriarConta_0" class="button transparent" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ucListEspecialista$rptListagem$ctl00$ucAgenda$btnCriarConta','')">Cadastre-se</a>
+            
+            <a id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_btnLogin_0" class="button orange" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ucListEspecialista$rptListagem$ctl00$ucAgenda$btnLogin','')">Faça seu Login</a>
+            
+        </div>
+        <!-- ENDIF LOGADO  -->
+        <div id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_pnlAviso30Min_0" class="py-4 border-bottom">
+            <h3 class="bold mb-2 text-warning">RESTRIÇÕES DE AGENDAMENTO:</h3>
+            <div style="max-height: 150px; overflow-y: auto;">
+                <div class="line-height">
+                    <p class="bold mb-3 text-warning">Agendamento só é permitido antes de 30 minutos do horário disponível</p>
+                </div>
+            </div>
+            <a href="#" class="button full info modal-close" title="Fechar" rel="modal:close">Fechar</a>
+            
+        </div>
+    
+</div>
+
+<!-- Modal new -->
+<div id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_ModalConfSolicitacao_0" class="modal-new form">
+    <div class="modal-title">
+        <a href="#" class="button rounded tooltip-text modal-close" title="Fechar" rel="modal:close"><i class="fa fa-times"></i></a>
+        <h3 class="text-24 medium text-color">Confirma Solicitação de Agendamento</h3>
+    </div>
+    <div class="pb-4 border-bottom">
+        <div class="row flex-nowrap">
+            <div class="col col-auto">
+                <img id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_imgDoctor2_0" class="user-img medium">
+            </div>
+            <div class="col">
+                <h3 class="text-20 bold">
+                    </h3>
+                <h5 class="text-16">
+                    </h5>
+                <p class="text-12 medium text-color">
+                    <span id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_lblCRM2_0">Label</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-4 border-bottom">
+        <h3 class="bold mb-2">Confirme a solicitação de agendamento:</h3>
+        <a id="ContentPlaceHolder1_ucListEspecialista_rptListagem_ucAgenda_0_btnSolicitarHorario_0" class="button full" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ucListEspecialista$rptListagem$ctl00$ucAgenda$btnSolicitarHorario','')">Confirmar Solicitação de Agendamento</a>
+    </div>
+</div>
+
+
+
+<script>
+    function setHdnIdConvenio(el) {
+        $('#' + el.id.replace('_btnAgendarConsulta_', '_hdnIdConvenio_')).val($('#' + el.id.replace('_btnAgendarConsulta_', '_ddlConvenio_')).val());
+        return true;
+    }
+    function setHdnIdConvenioTele(el) {
+        $('#' + el.id.replace('_btnAgendarTeleConvenio_', '_hdnIdConvenioTele_')).val($('#' + el.id.replace('_btnAgendarTeleConvenio_', '_ddlConvenioTele_')).val());
+        return true;
+    }
+    function PopupAgendamento(idhdnIdAgendamento, idbtnAgendar, idAgendamento) {
+        //alert(data);
+        //alert(hora);
+        $("#" + idhdnIdAgendamento).val(idAgendamento);
+        $("#" + idbtnAgendar).click();
+        //alert('passou aqui');
+        //$(".abre-modal").trigger('click');
+        //callNewModal();
+    }
+    function callNewModal(modalId) {
+        //alert(modalId);
+        //event.preventDefault();
+        //var $this = $(this);
+        //var $this = el;
+        this.blur(); // Manually remove focus from clicked link.
+
+        var content = $("#" + modalId).removeClass("hide");
+        $(content).appendTo('body').modal({
+            // escapeClose: false,
+            // clickClose: false,
+            modalClass: "modal-new",
+            showClose: false,
+            closeExisting: false
+        }).on($.modal.BEFORE_CLOSE, function (event, modal) {
+            $("#tooltip").remove();
+        });
+        init("#" + modalId);
+    }
+
+</script>
+       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+                    
+                <!-- PAGINATION -->
+                
+                <!-- /PAGINATION -->
+
+                <div id="ContentPlaceHolder1_ucListEspecialista_uprogress" style="display:none;" role="status" aria-hidden="true">
+		
+                        <div class="loading-div" id="loadingDiv2">
+                            <div class="box-loading">
+                                <h3><i class="fas fa-circle-notch fa-spin"></i>Carregando...</h3>
+                                <strong>Por favor Aguarde...</strong><br>
+                            </div>
+                        </div>
+                    
+	</div>
+            
+</div>
+    </div>
+</div>
+<!-- /RESULTS -->
+<script>
+    function findPos(obj) {
+        var curtop = 0;
+        if (obj.offsetParent) {
+            do {
+                curtop += obj.offsetTop;
+            } while (obj = obj.offsetParent);
+            return [curtop];
+        }
+    }
+    $(document).ready(function () {
+        window.scroll(0, findPos(document.getElementById("Busca")));
+    });
+
+</script>
+
+        </div>
+    </div></form>
+    
+
+        <div class="page-social bg-light py-5">
+            <div class="largura">
+                <h3 class="text-40 bold text-center mb-5">Nos siga nas redes sociais</h3>
+
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg pb-5 pb-lg-0">
+                        <div class="row justify-content-center">
+                            <div class="col col-auto pb-4">
+                                <a href="https://www.instagram.com/conectadoc/" target="_blank">
+                                    <i class="fab fa-instagram text-40"></i>
+                                    <p class="bold text-darker">Instagram </p>
+                                    <p class="bold"><span class="text-darker">@</span>conectadoc</p>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-8">
+                                
+                                <!-- SnapWidget -->
+                                <script src="https://snapwidget.com/js/snapwidget.js"></script>
+                                <iframe src="https://snapwidget.com/embed/938235" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border: none; overflow: hidden; width: 100%; height: 58px;" id="iFrameResizer0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-auto">
+                        <div class="row justify-content-center">
+                            <div class="col col-auto pb-4">
+                                <a href="https://www.facebook.com/Conectadoc-107216504240909" target="_blank">
+                                    <i class="fab fa-facebook-square text-40"></i>
+                                    <p class="bold text-darker">Facebook </p>
+                                    <p class="bold"><span class="text-darker">/</span>conectadoc</p>
+                                </a>
+                            </div>
+                            <div class="col col-auto">
+                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fconectadoc.com.br%2F&amp;tabs&amp;width=310&amp;height=130&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=false&amp;appId=1574875999404022" width="310" height="130" style="border: none; overflow: hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <!-- #content -->
+<!-- #wrapper  -->
+<div id="footer">
+    <div class="largura text-center text-lg-left">
+    <div class="row align-items-center">
+        <div class="col-12 col-lg">
+            <p>
+                <a href="javascript:void(0);" class="d-block d-lg-inline-block mb-3 mb-lg-0 mr-2"><img src="/_assets/images/logo.svg" class="logo mt-n1"></a>
+                <span class="d-none d-lg-inline-block mr-2">-</span>Todos os direitos reservados © 2021
+            </p>
+            <div class="row text-center text-sm-left justify-content-center justify-content-lg-start">
+                <div class="col col-auto pt-3">
+                    <p class="text-gray text-8 upper">Razão Social:</p>
+                    <p class="text-10">CONECTADOC - SERVIÇOS EM TECNOLOGIA DA INFORMAÇÃO S/A<br>
+                        Diretor Técnico Dr Rodrigo Kopp Rezende CRM/PR 24972  RQE 1517</p>
+                </div>
+                <div class="col col-auto pt-3">
+                    <p class="text-gray text-8 upper">CNPJ:</p>
+                    <p class="text-10">36.260.699/0001-76</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-auto">
+            <div class="menu-footer pt-3 pt-lg-0">
+                <a href="/">Página Inicial</a>
+                <a href="/quem-somos">Quem somos</a>
+                <a href="/fale-conosco">Contato</a>
+                <a href="/FAQ.aspx">FAQ</a>
+                <a href="/Lgpd.aspx">Proteção de Dados</a>
+            </div>
+        </div>
+    </div>
+	    
+    </div>
+</div>
+
+<div id="ContentPlaceHolder1_ucFooter_divCookieNotice" class="cookie-notice">
+    <div class="largura">
+        <a href="javascript:void(0);" class="close-msg js-close-cookie"><i class="fa fa-times"></i></a>
+        <p class="line-height">
+            Utilizamos cookies próprios e de terceiros para melhorar a sua experiência. Ao continuar a sua navegação, consideramos que você está de acordo com a nossa <a href="PoliticaPrivacidade.aspx">Política de Privacidade</a>.
+<a id="ContentPlaceHolder1_ucFooter_lbSetCookie" class="button sm ml-2" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$ucFooter$lbSetCookie','')">Aceito</a>
+            
+        </p>
+    </div>
+</div>
+
+
+        
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"ContentPlaceHolder1_ucFormBusca_UpdatePanel1","displayAfter":500,"dynamicLayout":true}, null, null, $get("ContentPlaceHolder1_ucFormBusca_uprogress"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"ContentPlaceHolder1_ucListEspecialista_UpdatePanel1","displayAfter":500,"dynamicLayout":true}, null, null, $get("ContentPlaceHolder1_ucListEspecialista_uprogress"));
+});
+//]]>
+</script>
+
+    <script src="https://static.zenvia.com/embed/js/zenvia-chat.min.js"></script><script>var chat = new ZenviaChat('e05d4c5214f6de4c945086d82beb5986').embedded('button').build();</script>
+
+
+<div id="znv-chat-auto-0" class="znv-chat"><div class="znv-float-button" style="background-color: rgb(3, 29, 60);"></div></div><div id="onesignal-slidedown-container" class="onesignal-slidedown-container onesignal-reset slide-down"><div id="onesignal-slidedown-dialog" class="onesignal-slidedown-dialog"><div id="normal-slidedown"><div class="slidedown-body" id="slidedown-body"><div class="slidedown-body-icon"><img alt="notification icon" src="https://img.onesignal.com/permanent/855764be-52fa-4e39-9b0b-8f2c0d4ecdba.png"></div><div class="slidedown-body-message">Aceita receber notificações das suas consultas e contatos dos seus profissionais de saúde?</div><div class="clearfix"></div><div id="onesignal-loading-container"></div></div><div class="slidedown-footer" id="slidedown-footer"><button class="align-right primary slidedown-button" id="onesignal-slidedown-allow-button">Aceitar</button><button class="align-right secondary slidedown-button" id="onesignal-slidedown-cancel-button">Recusar</button><div class="clearfix"></div></div></div></div></div></body></html>
