@@ -1,0 +1,394 @@
+<html lang="pt-br"><head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                        
+            <title>CRM Virtual - CREMEC, Pesquisar por Médico</title>
+
+        <link type="text/css" href="//crmvirtual.cfm.org.br/application/css/newlayout/app.css" rel="stylesheet" title="Principal">
+        <link type="text/css" href="//crmvirtual.cfm.org.br/application/css/newlayout/contrast.css" rel="alternate stylesheet" title="Contraste" disabled="">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-4R9TTHD8FZ&amp;cx=c&amp;gtm=457e55k0za200&amp;tag_exp=101509157~103116025~103130495~103130497~103136993~103136995~103200001~103233427~103252644~103252646~103301114~103301116~104506548"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-177943391-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-177943391-1');
+        </script>
+    <style>[vw] [vw-access-button]{display:none;flex-direction:row-reverse;width:40px;height:40px;cursor:pointer;overflow:hidden;position:absolute;border-radius:8px;transition:all .5s ease;right:0;left:auto}[vw] [vw-access-button] img{max-height:40px;transition:all .5s ease;border-radius:8px;opacity:1 !important;visibility:visible !important}[vw] [vw-access-button] .access-button{width:40px;height:40px;z-index:1}[vw] [vw-access-button] .pop-up{position:absolute;height:40px;min-width:150px;z-index:0;left:0;right:auto}[vw] [vw-access-button]:hover{width:200px}[vw] [vw-access-button].isLeft{flex-direction:row;left:0;right:auto}[vw] [vw-access-button].isLeft .pop-up{left:auto;right:0}[vw] [vw-access-button].isTopOrBottom:hover{bottom:-20px;top:0;margin-right:-80px}[vw] [vw-access-button].active{display:flex}
+</style><style>[vw].left [vw-plugin-wrapper]{float:left}[vw] [vw-plugin-wrapper]{position:relative;display:none;width:300px;height:100%;float:right;background:white;-webkit-box-shadow:0px 0px 15px rgba(0,0,0,0.2);-moz-box-shadow:0px 0px 15px rgba(0,0,0,0.2);box-shadow:0px 0px 15px rgba(0,0,0,0.2);border-radius:12px;-moz-border-radius:12px;-webkit-border-radius:12px}[vw] [vw-plugin-wrapper].active{display:-webkit-flex;display:flex;flex-direction:column;-webkit-flex-direction:column;height:450px;max-width:100%;min-height:100%}
+</style><style>div[vw]{position:fixed;max-width:95vw;min-height:40px;min-width:40px;right:0;top:50%;transform:translateY(-50%);z-index:2147483647 !important;display:none;margin:10px !important}div[vw].enabled{display:block}div[vw].active{margin-top:-285px}div[vw].left{left:0;right:initial}
+</style></head><body>
+
+    <div class="accessibility">
+        <button type="button" class="apply-contrast" title="Contraste">
+            Constraste
+        </button>
+        <a href="javascript: return void(0);" vw-access-button="" class="vlibras" title="VLibras"><img class="access-button" data-src="assets/access_icon.svg" alt="Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga.">
+<img class="pop-up" data-src="assets/access_popup.jpg" alt="Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga."></a>
+    </div>
+    <header id="header">
+        <div class="header-topbar">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-center py-2 py-sm-0">
+                    <div class="col-10">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-lg-10 mb-2 mb-lg-0 p-0">      
+                                <a href="//crmvirtual.cfm.org.br/CE" class="header-logo row no-gutters text-center text-md-left align-items-center text-uppercase">   <div class="col-12 col-md-auto">
+                                                                                <img class="mr-2" style="width: auto;" src="//crmvirtual.cfm.org.br/application/img/bolaLogoCFM.png">
+                                                                                <img style="width: auto;height: 40px;" src="//crmvirtual.cfm.org.br/application/img/branco_sem_titulo/ce.png">
+                                    </div>
+                                                                        <div class="col-12 col-md-5 col-lg-6 col-xl-auto title-divider d-none d-md-block pl-sm-4 ml-sm-4 pl-lg-3 ml-lg-3">
+                                        <h2 class="title mb-1">
+                                             
+                                            CRM Virtual    
+                                        </h2>
+                                        <h3 class="subtitle mb-0">
+                                                                                            Conselho Regional de Medicina do Ceará                                                                                    </h3>
+                                    </div>
+                                                                        <div class="col-12 d-md-none d-block text-center text-md-left px-4 pl-sm-4 ml-sm-4 pl-lg-3 ml-lg-3">
+                                        <h2 class="title mb-1">
+                                             
+                                            CRM Virtual    
+                                        </h2>
+                                        <h3 class="subtitle mb-0">
+                                                                                            Conselho Regional de Medicina do Ceará                                                                                    </h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="header-topbar-buttons col-12 col-lg-2 d-flex d-lg-block justify-content-center p-0">
+                                <a class="btn btn-outline-light text-uppercase text-truncate mr-0 flex-fill" target="_blank" rel="noopener norefferer" href="https://sistemas.cfm.org.br/faleconosco/CE">
+                                    Fale Conosco
+                                </a>
+                                <!-- <button
+                                    class="btn btn-primary dropdown-toggle px-3 flex-fill"
+                                    type="button"
+                                    id="dropdownLocal"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                >
+                                    <span
+                                        class="d-inline-flex align-items-center flex-fill text-truncate mr-2"
+                                    >
+                                        <span
+                                            class="icon-map-marker mr-2"
+                                        ></span>
+                                        <span
+                                            class="text-truncate d-inline-block"
+                                            >Federal - CFM</span
+                                        >
+                                    </span>
+                                </button>
+                                <div
+                                    class="dropdown-menu"
+                                    aria-labelledby="dropdownLocal"
+                                >
+                                    <a class="dropdown-item" href="#"
+                                        >Action</a
+                                    >
+                                    <a class="dropdown-item" href="#"
+                                        >Another action</a
+                                    >
+                                    <a class="dropdown-item" href="#"
+                                        >Something else here</a
+                                    >
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-nav">
+            <div class="container-fluid">
+                <div class="row justify-content-center py-2">
+                    <div class="col col-lg-10">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="d-none d-lg-block col-lg-4">
+                                <h4 class="text-uppercase mb-0">
+                                    Encontre
+                                    <span class="text-primary d-block">serviços para</span>
+                                </h4>
+                            </div>
+                            <div class="col-lg-8">
+                                <ul class="nav nav-pills flex-nowrap">
+                                                                        <li class="nav-item">
+                                         <a href="//crmvirtual.cfm.org.br/CE/categoria/prestador-de-servicos-medico" style="
+                                            text-decoration: none;
+                                            flex-grow: 1;
+                                            flex-shrink: 1;
+                                            flex-basis: 0;
+                                            display: flex;
+                                            align-items: center;">
+                                            <button class="btn nav-link ">
+                                                <span class="icon-nav-building mb-3 mb-lg-2"></span>
+                                                Empresas
+                                            </button>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="//crmvirtual.cfm.org.br/CE/categoria/servicos-aos-medicos" style="
+                                            text-decoration: none;
+                                            flex-grow: 1;
+                                            flex-shrink: 1;
+                                            flex-basis: 0;
+                                            display: flex;
+                                            align-items: center;">    
+                                            <button class="btn nav-link ">
+                                                <span class="icon-nav-stethoscope mb-3 mb-lg-2"></span>
+                                                Médicos
+                                            </button>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="//crmvirtual.cfm.org.br/CE/categoria/servico-ao-cidadao" style="
+                                            text-decoration: none;
+                                            flex-grow: 1;
+                                            flex-shrink: 1;
+                                            flex-basis: 0;
+                                            display: flex;
+                                            align-items: center;">
+                                            <button class="btn nav-link ">
+                                                <span class="icon-nav-person mb-3 mb-lg-2"></span>
+                                                Cidadão
+                                            </button>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="//crmvirtual.cfm.org.br/CE" style="
+                                            text-decoration: none;
+                                            flex-grow: 1;
+                                            flex-shrink: 1;
+                                            flex-basis: 0;
+                                            display: flex;
+                                            align-items: center;">
+                                            <button class="btn nav-link ">
+                                                <span class="icon-nav-restart mb-3 mb-lg-2"></span>
+                                                Todos
+                                            </button>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>       <main id="content" role="main" class="container-fluid pt-0 mb-5 mb-lg-0">
+            <div class="row justify-content-center infos-top">
+                <div class="col col-lg-10 pt-5 pb-5">
+                    <div class="justify-content-between align-items-center mb-4 text-update">
+                        <p class="m-0">
+                        <a href="http:////crmvirtual.cfm.org.br/CE">Início</a>
+                        <span>&gt;</span>
+                        <a href="http:////crmvirtual.cfm.org.br/CE">Serviços</a>
+                        <span>&gt;</span>
+                        Pesquisar por Médico                        </p>
+                    </div>      
+                    <div class="search-divider mb-5"></div> 
+                    <div class="data-title text-center">
+                        <p class="areas">
+                                                    <span><a href="">
+                                Serviço ao Cidadão                            </a></span>
+                         
+                        </p>
+                        <h2>
+                            Pesquisar por Médico                        </h2>
+                        <p class="description">
+                            Serviço que permite ao cidadão verificar a situação do médico inscrito.                        </p>
+                                            </div>
+                    <div class="search-divider my-5"></div>  
+                    <div class="justify-content-between align-items-center text-update">
+                        <p class="m-0 text-center text-lg-left">
+                            Última atualização em 29/08/22                        </p>
+                    </div>                        
+                </div>
+            </div>
+            <div class="row justify-content-center pt-5 cfm-text">
+                <div class="col col-lg-10 pt-4 mb-5">
+                                       <div class="row mb-5">
+                        <div class="col-12 col-lg-4">
+                            <h3 class="cfm-h3-custom">O que é ?</h3>
+                        </div>
+                        <div class="col-12 col-lg-8">
+                            <p>É o serviço que permite ao cidadão verificar a situação do médico inscrito <em>on-line</em>. A busca permite ao usuário:</p><ul><li>Verificar se o médico está ativo ou inativo, sua(s) especialidade(s), entre outras informações com base na <a href="https://sistemas.cfm.org.br/normas/visualizar/resolucoes/BR/2018/2180" target="_blank">Resolução CFM nº 2.180/2018</a>.</li><li>O serviço apresenta as seguintes informações:</li></ul><ol><li class="ql-indent-1">Todos os médicos devem ter uma inscrição PRINCIPAL e poderão ter uma ou mais inscrições secundárias (caso atuem em mais de um estado);</li><li class="ql-indent-1">Especialidade /Área de atuação: o médico poderá registrar sua(s) especialidade(s) ou área(s) de atuação;</li><li class="ql-indent-1">Data de Inscrição;</li><li class="ql-indent-1">Endereço comercial, quando autorizado;</li><li class="ql-indent-1">Telefone comercial, quando autorizado;</li><li class="ql-indent-1">Situação de inscrições em outros estados (caso existam);</li><li class="ql-indent-1">Foto do médico.</li></ol><p><br></p><p><strong>OBSERVAÇÃO: Caso na busca não conste endereço ou telefone do médico, significa que o médico não autorizou a divulgação, de modo que, o CREMEC não poderá fornecer as informações mencionadas.</strong></p>                        </div>
+                    </div>
+                                                            <div class="row mb-5">
+                        <div class="col-12 col-lg-4">
+                            <h3 class="cfm-h3-custom">
+                                Etapas para a realização deste serviço
+                            </h3>
+                        </div>
+                        <div class="col-12 col-lg-8">
+                                                        <div class="row">
+                                <div class="col-12 etapa-titulo mt-2 mt-sm-0">                
+                                    <h3>Utilizando o busca médico</h3>               
+                                </div>
+                            </div>
+                            <div class="row justify-content-end mb-4 ml-sm-4 passos">
+                                                                    <div class="col-12 clob">
+                                     <p><a href="https://portal.cfm.org.br/busca-medicos/" target="_blank" style="color: green;">CLIQUE AQUI Acessar a tela de busca</a></p><ul><li>A busca poderá ser por meio do nome do médico ou CRM+UF;</li><li>Poderá filtrar a busca por MUNICÍPIO, SITUAÇÃO (ATIVO ou INATIVO), TIPO DE INSCRIÇÃO (PRINCIPAL ou SECUNDÁRIA) e por ESPECIALIDADE/ÁREA DE ATUAÇÃO.</li></ul><p class="ql-indent-1"><img src="data:image/jpeg;base64,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"></p>                                    </div>
+                                                                                            </div>
+                                             
+                        </div>
+                    </div>
+                                                            <div class="row mb-5">
+                        <div class="col-12 col-lg-4">
+                            <h3 class="cfm-h3-custom">
+                               Horário de atendimento                            </h3>
+                        </div>
+                        <div class="col-12 col-lg-8">
+                            <ul><li><strong style="color: rgb(51, 51, 51);">PORTAL DE SERVIÇOS:&nbsp;</strong><span style="color: rgb(51, 51, 51);">24 horas por dia, 7 dias por semana.</span></li><li><strong style="background-color: transparent; color: rgb(51, 51, 51);">ATENDIMENTO NA SEDE (FORTALEZA/CE):&nbsp;</strong><span style="color: rgb(102, 102, 102);">De Segunda à Sexta-feira, das 8:00 às 18:00 horas.</span></li><li><strong style="background-color: transparent; color: rgb(51, 51, 51);">ATENDIMENTO NA SECCIONAL DO CARIRI (JUAZEIRO DO NORTE/CE):&nbsp;</strong><span style="color: rgb(102, 102, 102);">De Segunda à Sexta-feira, das 8:00 às 18:00 horas.</span></li><li><strong style="background-color: transparent; color: rgb(51, 51, 51);">ATENDIMENTO NA SECCIONAL DA ZONA NORTE (SOBRAL/CE) :&nbsp;</strong><span style="color: rgb(102, 102, 102);">De Segunda à Sexta-feira, das 7:00 às 17:00 horas.</span></li></ul><p class="ql-align-justify">O atendimento presencial na Sede, na Seccional do Cariri e na Seccional da Zona Norte deve ser agendado através do link:&nbsp;<a href="https://cremec2.reservio.com/booking/business/service?businessId=bc02f4d1-96b4-45e8-85b4-56c53351a63b" target="_blank" style="color: rgb(0, 170, 123);">http://cremec2.reservio.com/</a></p><p><br></p>                        </div>
+                    </div>
+                                        <div class="row mb-5">
+                        <div class="col-12 col-lg-4">
+                            <h3 class="cfm-h3-custom">
+                               Suporte ao Serviço                            </h3>
+                        </div>
+                        <div class="col-12 col-lg-8">
+                            <ul><li class="ql-align-justify">Para dúvidas relacionadas à solicitação acima e/ou questões de registro médico, contatar o Setor de Registro de Pessoa Física através do e-mail pessoafisica@cremec.org.br ou do telefone (85) 3198.3716 (08h às 18h).</li></ul><p class="ql-align-justify"><br></p>                        </div>
+                    </div>
+                                    </div>
+            </div>
+        </main>                <div class="aviso-lgpd row fixed-bottom mensagem-lgpd text-left bg-primary text-white p-4 shadow">
+            <div class="col-12 col-sm-10">
+                <h5>Aviso de Privacidade</h5>
+                <span>Esse site usa cookies para melhorar sua experiência de navegação. A ferramenta Google Analytics é utilizada para coletar informações estatísticas sobre visitantes, e pode compartilhar estas informações com terceiros. Ao continuar a utilizar nosso website, você concorda com nossa <a href="#" class="text-white">política de uso e privacidade.</a></span>
+            </div>
+            <div class="col-12 col-sm-2 text-center col-sm-right pt-5 pt-sm-4"><button type="button" class="btn btn-outline-light" onclick="jQuery('.aviso-lgpd').remove();document.cookie = 'lgpd_CE=true';">Estou de Acordo</button></div>
+        </div>
+                <footer id="footer" class="d-lg-flex flex-column">
+            <div class="footer-social-medias d-lg-flex align-items-center">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col col-lg-10">
+                            <div class="row justify-content-between align-items-center">
+                                <div class="footer-logo-wrapper col-lg-auto">
+                                                                        <a href="http://www.cremec.org.br/" target="_blank" rel="noopener norefferer"><img class="mr-2" src="//crmvirtual.cfm.org.br/application/img/bolaLogoCFM.png" style="height:46px;"></a>
+                                                                        <a href="http://www.cremec.org.br/" target="_blank" rel="noopener norefferer"><img src="//crmvirtual.cfm.org.br/application/img/branco/ce.png" style="height:46px;"></a>
+                                </div>
+                                <div class="footer-social-medias-list col-lg-auto d-flex">
+                                      
+                                    <div class="ig-outros-crm-virtuais">
+                                        <!--div class="input-group-prepend">
+                                            <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                                        </div-->
+                                        <label for="select-outros-crm-virtuais">Acesse o atendimento virtual de outros CRMs</label>
+                                        <select class="custom-select" id="select-outros-crm-virtuais" onchange="window.open('//crmvirtual.cfm.org.br/'+this.value);">
+                                            <option value="BR" selected="">Selecione seu estado...</option>
+                                            <option value="BR">Federal</option>
+                                            <option value="AC">Acre</option>
+                                            <option value="AL">Alagoas</option>
+                                            <option value="AP">Amapá</option>
+                                            <option value="AM">Amazonas</option>                                                
+                                            <option value="BA">Bahia</option>
+                                            <option value="CE">Ceará</option>
+                                            <option value="DF">Distrito Federal</option>
+                                            <option value="ES">Espirito Santo</option>
+                                            <option value="GO">Goiás</option>
+                                            <option value="MA">Maranhão</option>
+                                            <option value="MT">Mato Grosso</option>
+                                            <option value="MS">Mato Grosso do Sul</option>                                             
+                                            <option value="MG">Minas Gerais</option>
+                                            <option value="PR">Paraná</option>                                              
+                                            <option value="PB">Paraíba</option>
+                                            <option value="PA">Pará</option>                                            
+                                            <option value="PE">Pernambuco</option>
+                                            <option value="PI">Piauí</option>
+                                            <option value="RJ">Rio de Janeiro</option>
+                                            <option value="RN">Rio Grande do Norte</option>
+                                            <option value="RS">Rio Grande do Sul</option>                                               
+                                            <option value="RO">Rondônia</option>
+                                            <option value="RR">Roraima</option>
+                                            <option value="SC">Santa Catarina</option>
+                                            <option value="SE">Sergipe</option>                                              
+                                            <option value="SP">São Paulo</option>                                               
+                                            <option value="TO">Tocantins</option>                              
+                                        </select>
+                                    </div>
+                                    <!--a class="icon-btn-facebook" href="#">
+                                        facebook
+                                    </a>
+
+                                    <a class="icon-btn-instagram ml-2" href="#">
+                                        instagram
+                                    </a>
+
+                                    <a class="icon-btn-linkedin ml-2" href="#">
+                                        linkedin
+                                    </a>
+
+                                    <a class="icon-btn-twitter ml-2" href="#">
+                                        twitter
+                                    </a>
+
+                                    <a class="icon-btn-youtube ml-2" href="#">
+                                        youtube
+                                    </a>
+
+                                    <a class="icon-btn-flickr ml-2" href="#">
+                                        flickr
+                                    </a-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-nav flex-fill align-items-center d-lg-flex">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col col-lg-10 d-flex flex-column flex-lg-row justify-content-lg-between align-items-lg-center pb-5 pb-lg-0">
+                            <a class="text-uppercase" target="_blank" rel="noopener norefferer" href="https://portal.cfm.org.br/manual-de-procedimentos-administrativos-pf-pj/">
+                                Manual de procedimentos
+                            </a>
+                            <a class="text-uppercase" target="_blank" rel="noopener norefferer" href="https://www.youtube.com/watch?v=hpoiIU_JjUs">
+                                Vídeo de Apresentação
+                            </a>
+                            <a class="text-uppercase" target="_blank" rel="noopener norefferer" href="//crmvirtual.cfm.org.br/CE/acessibilidade">
+                                Acessibilidade
+                            </a>
+                            <a class="text-uppercase" target="_blank" rel="noopener norefferer" href="https://sistemas.cfm.org.br/faleconosco/CE">
+                                Fale conosco
+                            </a>
+                                                        <a class="text-uppercase d-inline-flex align-items-center" target="_blank" rel="noopener norefferer" href="https://transparencia.cremec.org.br">
+                                Transparência
+                                <span class="icon-info ml-2"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="//crmvirtual.cfm.org.br/application/js/newlayout/jquery/dist/jquery.min.js"></script>        
+        <script src="//crmvirtual.cfm.org.br/application/js/newlayout/app.js"></script>        
+        <script src="//crmvirtual.cfm.org.br/bootstrap-4.4.1/dist/js/bootstrap.bundle.min.js"></script>  
+        <script src="js/jquery.magnific-popup.js"></script>
+          <div vw="" class="enabled" style="left: initial; right: 0px; top: 50%; bottom: initial; transform: translateY(calc(-50% - 10px));">
+            <div vw-plugin-wrapper=""><div vp="">
+  <div vp-box=""></div>
+  <div vp-message-box=""></div>
+  <div vp-settings=""></div>
+  <div vp-dictionary=""></div>
+  <div vp-settings-btn=""></div>
+  <div vp-info-screen=""></div>
+  <div vp-suggestion-screen=""></div>
+  <div vp-translator-screen=""></div>
+  <div vp-main-guide-screen=""></div>
+  <div vp-suggestion-button=""></div>
+  <div vp-rate-box=""></div>
+  <div vp-change-avatar=""></div>
+  <div vp-additional-options=""></div>
+  <div vp-controls=""></div>
+  <span vp-click-blocker=""></span>
+</div></div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
+
+</body></html>
