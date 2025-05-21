@@ -1,0 +1,3634 @@
+<html lang="pt-BR"><head><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+	<title>Busca Textual - Currículo Lattes</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<link rel="Shortcut Icon" href="images/v2/fav_ico_lattes.ico">
+	
+	<!-- Imports Antigos -->
+	<link rel="stylesheet" href="css/import.css">
+	<link rel="stylesheet" href="css/ajaxtags.css">  
+	<link rel="stylesheet" href="css/busca_textual.css" title="standard">
+	<link rel="stylesheet" href="css/tooltip.css"> 
+	<!--[if !IE]> -->  <link rel="stylesheet" href="css/tablet-mobile.css">  <!-- <![endif]-->
+    <!--[if gte IE 9]> <link rel="stylesheet" href="ccc/tablet-mobile.css" />  <![endif]-->
+	
+	<script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/X-oVtzDcTGjZVms4LEgykmCV/recaptcha__pt_br.js" crossorigin="anonymous" integrity="sha384-157E0cjRcD3mr3csqJ5H80B0+/a5EWkCwUJshizwlWj43Rim2KdN4Ra0uZ32vFR/"></script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script src="js/jquery.min.js"></script>
+	<script src="js/tooltip-position.js"></script>
+	<script src="js/jquery.tipsy.js"></script>
+	<script src="js/actions-jquery.js"></script>
+	
+	
+	<script src="js/prototype.js"></script>
+	<script src="js/ajax/ajaxtags.js"></script>
+	<script src="js/ajax/ajaxtags_controls.js"></script>
+	<script src="js/ajax/ajaxtags_parser.js"></script> 
+	<script src="js/jquery.cookie.js"></script>
+	<script src="js/font-size.js"></script>
+	<script src="js/acessibilidade.js"></script>
+	<script src="js/util.js"></script>
+	<script src="js/busca_textual.js"></script>
+	<script src="js/filtros.js"></script>
+	<script src="js/comum.js"></script>
+    
+
+	<!--[if IE]>
+	<style>
+	.holder ul input[type="checkbox"] {margin:-2px 5px}
+	</style>
+	<![endif]-->
+	<script>
+	 
+
+
+function buscar(){
+	
+    var form = document.forms[0];
+    form.metodo.value="buscar";
+    
+    if(preencheuCampoBuscar() && !escolheuAlgumaBusca() && !selecionouAlgumFiltro()){
+		alert("Você deve escolher um campo de busca!");
+		return false;
+    }
+    
+    if(!preencheuCampoBuscar() && !selecionouAlgumFiltro()){
+		alert("Você deve escolher algum filtro ou digitar um texto para a busca!");
+		return false;
+    }
+    
+    if(document.getElementById("buscarDoutores").checked==false && 
+    	document.getElementById("buscarDemais").checked==false){
+        alert('Escolha pelo menos uma das Bases');       
+    }else{
+    	grecaptcha.ready(function () {
+	           grecaptcha.execute('6Le8-aQUAAAAAEh7lq-D8bscahYZDZ4RKXBEhiov', { action: 'id_form_busca' }).then(function (token) {
+	           		document.getElementById("token-recaptchar").value=token;
+	           		form.submit();
+	           });;
+	    });
+    }
+}
+
+function setToken(token){
+	 $("#token-recaptchar").attr("value","token");
+	 debugger;
+	 console.log($("#token-recaptchar"));
+}
+
+function buscarAvancado(){
+    var form = document.forms[0];
+    form.metodo.value="buscarAvancado";
+    if(document.getElementById("buscarDoutoresAvancada").checked==false && 
+    	document.getElementById("buscarDemaisAvancada").checked==false){
+        alert('Escolha pelo menos uma das Bases');       
+    }else{
+    	grecaptcha.ready(function () {
+	           grecaptcha.execute('6Le8-aQUAAAAAEh7lq-D8bscahYZDZ4RKXBEhiov', { action: 'id_form_busca' }).then(function (token) {
+	           		document.getElementById("token-recaptchar").value=token;
+	           		form.submit();
+	           });;
+	    });
+    }
+}
+
+var botaoAtual = 1;
+function mudarBotaoBusca(){
+    if(botaoAtual==2){
+        document.getElementById("botaoBuscaFiltros").onclick= buscar;
+        botaoAtual = 1;
+    }else{
+        document.getElementById("botaoBuscaFiltros").onclick= buscarAvancado;
+        botaoAtual = 2;
+    }
+}
+
+function escolheuAlgumaBusca(){
+   var form = document.forms[0];
+   var selecionouOpcao = false;
+   
+   if( form.buscaNome != null ){
+	   if( form.buscaNome.checked ){
+		   selecionouOpcao = true;
+	   }
+   }
+   
+   if( form.buscaAssunto != null ){
+	   if( form.buscaAssunto.checked ){
+		   selecionouOpcao = true;
+	   }
+   }
+   
+   if( form.buscaCPF != null ){
+	   if( form.buscaCPF.checked ){
+	    	selecionouOpcao = true;
+	   }
+   }
+   
+   return selecionouOpcao;
+}
+
+function preencheuCampoBuscar(){
+    var form = document.forms[0];
+    
+    if( form.textoBusca != null && form.textoBusca.value != '' ){
+		return true;
+    }else{
+		return false;
+    }
+}
+
+function selecionouAlgumFiltro(){
+    var form = document.forms[0];
+    var selecionou = false;
+    
+    if(form.filtro0.checked){
+		selecionou = true;
+    }else if(form.filtro1.checked){
+		selecionou = true;
+    }else if(form.filtro2.checked){
+		selecionou = true;
+    }else if(form.filtro3.checked){
+		selecionou = true;
+    }else if(form.filtro4.checked){
+		selecionou = true;
+    }else if(form.filtro5.checked){
+		selecionou = true;
+    }else if(form.filtro6.checked){
+		selecionou = true;
+    }else if(form.filtro7.checked){
+		selecionou = true;
+    }else if(form.filtro8.checked){
+		selecionou = true;
+    }else if(form.filtro9.checked){
+		selecionou = true;
+    }
+    return selecionou;
+}
+
+function selecionouAlgumaPreferencia(){
+    var form = document.forms[0];
+    var selecionou = false;
+    
+    if( form.visualizaEnderecoCV != null ){
+        if( form.visualizaEnderecoCV.checked ){
+            selecionou = true;
+        }
+    }
+    
+    if( form.visualizaFormacaoAcadTitCV != null ){
+		if( form.visualizaFormacaoAcadTitCV.checked ){
+	    	selecionou = true;
+		}
+    }
+    
+    if( form.visualizaAtuacaoProfCV != null ){
+        if( form.visualizaAtuacaoProfCV.checked ){
+            selecionou = true;
+		}
+    }
+    
+    if( form.visualizaAreasAtuacaoCV != null ){
+        if( form.visualizaAreasAtuacaoCV.checked ){
+            selecionou = true;
+        }
+    }
+    
+    if( form.visualizaIdiomasCV != null ){
+        if( form.visualizaIdiomasCV.checked ){
+            selecionou = true;
+        }
+    }
+    
+    if( form.visualizaPremiosTitulosCV != null ){
+        if( form.visualizaPremiosTitulosCV.checked ){
+            selecionou = true;
+        }
+    }
+    
+    if( form.visualizaArtigosCV != null ){
+        if( form.visualizaArtigosCV.checked ){
+            selecionou = true;
+        }
+    }
+    
+    if( form.visualizaLivrosCapitulosCV != null ){
+        if( form.visualizaLivrosCapitulosCV.checked ){
+            selecionou = true;
+        }
+    }
+    
+    if( form.visualizaTrabEventosCV != null ){
+        if( form.visualizaTrabEventosCV.checked ){
+            selecionou = true;
+		}
+    }
+    
+    if( form.visualizaTxtJornalRevistaCV != null ){
+        if( form.visualizaTxtJornalRevistaCV.checked ){
+            selecionou = true;
+		}
+    }
+    
+    if( form.visualizaOutrasProdBibCV != null ){
+        if( form.visualizaOutrasProdBibCV.checked ){
+	    	selecionou = true;
+		}
+    }
+    
+    if( form.visualizaSoftwaresCV != null ){
+		if( form.visualizaSoftwaresCV.checked ){
+	    	selecionou = true;
+		}
+    }
+    
+    if( form.visualizaProdutosCV != null ){
+		if( form.visualizaProdutosCV.checked ){
+	    selecionou = true;
+		}
+    }
+
+    if( form.visualizaProcessosCV != null ){
+		if( form.visualizaProcessosCV.checked ){
+	    	selecionou = true;
+		}
+    }
+
+    if( form.visualizaTrabalhosTecnicosCV != null ){
+        if( form.visualizaTrabalhosTecnicosCV.checked ){
+            selecionou = true;        
+		}
+    }
+    
+    if( form.visualizaOutrasProdTecCV != null ){
+        if( form.visualizaOutrasProdTecCV.checked ){
+	    	selecionou = true;
+		}
+    }
+    
+    if( form.visualizaProdArtCultCV != null ){
+		if( form.visualizaProdArtCultCV.checked ){
+		    selecionou = true;
+		}
+    }
+
+    if( form.visualizaOrientacoesConcluidasCV != null ){
+		if( form.visualizaOrientacoesConcluidasCV.checked ){
+		    selecionou = true;
+		}
+    }
+    
+    if( form.visualizaOrientacoesAndamentoCV != null ){
+		if( form.visualizaOrientacoesAndamentoCV.checked ){
+		    selecionou = true;
+		}
+    }
+
+    if( form.visualizaDemaisTrabalhosCV != null ){
+		if( form.visualizaDemaisTrabalhosCV.checked ){
+	    	selecionou = true;
+		}
+    }
+
+    if( form.visualizaDadosComplementaresCV != null ){
+		if( form.visualizaDadosComplementaresCV.checked ){
+		    selecionou = true;
+		}
+    }
+    
+    if( form.visualizaOutrasInfRelevantesCV != null ){
+		if( form.visualizaOutrasInfRelevantesCV.checked ){
+		    selecionou = true;
+		}
+    }
+    
+    return selecionou;
+}
+
+function escolherTipoBuscaCPF(){
+	var form = document.forms[0];
+	form.buscaNome.checked = false;
+	form.buscaAssunto.checked = false;
+}
+
+function escolherTipoBuscaAssunto(){
+	var form = document.forms[0];
+	
+	form.buscaNome.checked = false;
+	
+	if(form.buscaCPF != null){
+		form.buscaCPF.checked = false;
+	}
+}
+
+function escolherTipoBuscaNome(){
+	var form = document.forms[0];
+	
+	if(form.buscaCPF != null){
+		form.buscaCPF.checked = false;
+	}
+	
+	//Verfica se os checkboxres Doutores e Demais pesquisadores não estão marcados.
+	//Checa-os.
+	if(!form.buscarDoutores.checked && !form.buscarDemais.checked){
+		form.buscarDoutores.checked = true;
+		form.buscarDemais.checked = true;
+	}
+	
+	form.buscaAssunto.checked = false;
+}
+
+function checarTodos(chk){
+   var form = document.forms[0];
+   var valor = false;
+   
+   if(chk.checked){
+      valor = true;
+   }
+   
+   form.visualizaEnderecoCV.checked = valor;
+   form.visualizaFormacaoAcadTitCV.checked = valor;
+   form.visualizaAtuacaoProfCV.checked = valor;
+   form.visualizaAreasAtuacaoCV.checked = valor;
+   form.visualizaIdiomasCV.checked = valor;
+   form.visualizaPremiosTitulosCV.checked = valor;
+   form.visualizaArtigosCV.checked = valor;
+   form.visualizaLivrosCapitulosCV.checked = valor;
+   form.visualizaTrabEventosCV.checked = valor;
+   form.visualizaTxtJornalRevistaCV.checked = valor;
+   form.visualizaOutrasProdBibCV.checked = valor;
+   form.visualizaSoftwaresCV.checked = valor;
+   form.visualizaProdutosCV.checked = valor;
+   form.visualizaProcessosCV.checked = valor;
+   form.visualizaTrabalhosTecnicosCV.checked = valor;
+   form.visualizaOutrasProdTecCV.checked = valor;
+   form.visualizaProdArtCultCV.checked = valor;
+   form.visualizaOrientacoesConcluidasCV.checked = valor;
+   form.visualizaOrientacoesAndamentoCV.checked = valor;
+   form.visualizaDemaisTrabalhosCV.checked = valor;
+   form.visualizaDadosComplementaresCV.checked = valor;
+   form.visualizaOutrasInfRelevantesCV.checked = valor;
+   
+}
+
+function aplicarPreferencias(){
+    var form = document.forms[0];
+    form.metodo.value="salvarPreferencias";
+    form.submit();
+}
+
+function cancelarPreferencias(){
+    var form = document.forms[0];
+    form.metodo.value="removerPreferencias";
+    desmarcaPreferencias(form);
+    form.submit();
+}
+
+function desmarcaPreferencias(form){
+   form.visualizaEnderecoCV.checked = false;
+   form.visualizaFormacaoAcadTitCV.checked = false;
+   form.visualizaAtuacaoProfCV.checked = false;
+   form.visualizaAreasAtuacaoCV.checked = false;
+   form.visualizaIdiomasCV.checked = false;
+   form.visualizaPremiosTitulosCV.checked = false;
+   form.visualizaArtigosCV.checked = false;
+   form.visualizaLivrosCapitulosCV.checked = false;
+   form.visualizaTrabEventosCV.checked = false;
+   form.visualizaTxtJornalRevistaCV.checked = false;
+   form.visualizaOutrasProdBibCV.checked = false;
+   form.visualizaSoftwaresCV.checked = false;
+   form.visualizaProdutosCV.checked = false;
+   form.visualizaProcessosCV.checked = false;
+   form.visualizaTrabalhosTecnicosCV.checked = false;
+   form.visualizaOutrasProdTecCV.checked = false;
+   form.visualizaProdArtCultCV.checked = false;
+   form.visualizaOrientacoesConcluidasCV.checked = false;
+   form.visualizaOrientacoesAndamentoCV.checked = false;
+   form.visualizaDemaisTrabalhosCV.checked = false;
+   form.visualizaDadosComplementaresCV.checked = false;
+   form.visualizaOutrasInfRelevantesCV.checked = false;
+}
+</script>
+<!-- Analytics - Inicio -->
+
+		<script type="text/javascript">
+		
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-35652740-1']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>
+		
+<!-- Analytics - Fim -->
+</head>
+<body onload="carregarValores();">
+
+<noscript> Seu navegador não suporta javascript </noscript>
+<form name="buscaForm" id="id_form_busca" method="POST" action="/buscatextual/busca.do">
+	<input type="hidden" name="metodo" value="apresentar" id="metodo">
+    <input type="hidden" name="acao" value="" id="acao">
+    <input type="hidden" name="resumoFormacao" value="" id="resumoFormacao">
+    <input type="hidden" name="resumoAtividade" value="" id="resumoAtividade">
+    <input type="hidden" name="resumoAtuacao" value="" id="resumoAtuacao">
+    <input type="hidden" name="resumoProducao" value="" id="resumoProducao">
+    <input type="hidden" name="resumoPesquisador" value="" id="resumoPesquisador">
+    <input type="hidden" name="resumoIdioma" value="" id="resumoIdioma">
+    <input type="hidden" name="resumoPresencaDGP" value="" id="resumoPresencaDGP">
+    <input type="hidden" name="resumoModalidade" value="" id="resumoModalidade">
+    <input type="hidden" name="modoIndAdhoc" value="" id="modoIndAdhoc">
+    <input type="hidden" name="buscaAvancada" value="0" id="buscaAvancada">
+    <input type="hidden" name="gRecaptcharesponse" value="" id="token-recaptchar">
+
+<div class="page min-width"><div class="moldal moldalHeigh" style="height: 644px; display: none;"> <div class="moldal-interna "> <div class="layout-modalcell layout-modalcell-12 moldal-background">  <div class="layout-modalcell-pad-main"> <br>  <div class="bt-moldal"> <a href="#" class="bt-fechar"> Fechar </a> </div> <div class="layout-modalcell conteudo"> </div> </div> </div> </div> </div>
+  <div class="header">
+    <div class="header-content max-width">
+      <div class="identity center">
+      	 
+      	 
+
+
+
+
+
+
+
+
+	<div class="combo">
+	   <a target="_blank" title="Currículo Lattes" href="http://lattes.cnpq.br/"><img src="/buscatextual/images/titulo-sistema.png" alt="Currículo Lattes" title="Currículo Lattes"> </a>
+	</div>
+	<div class="logo">
+		<a href="http://www.cnpq.br" target="_blank" title="CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico"> </a>
+	</div>
+	<div class="menu-header">
+		<span>
+            <div style="font-size: 11px; color: rgb(0,99,148); font-weight: bold; padding: 6px; text-align: right">
+            	Versão: 2.0.14.92-4
+            </div>
+        </span>
+		<div>
+		<a title="Aumentar a fonte" href="javascript:void(0)" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais"> </a>
+		<a title="Fonte padrão" href="javascript:void(0)" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos "> </a>
+
+		
+			
+			
+				<a title="Alto contraste" href="javascript:void(0)" class="bt-menu-header titBottom contraste icons-top icons-top-contraste"></a>
+				<a href="javascript:void(0)" id="idBandeira" onclick="mudarIdioma()" class="bt-menu-header titBottom icons-top icons-top-enUK" title="Click here to change the language to english"> </a>
+			
+		
+		<a title="Ajuda" href="http://ajuda.cnpq.br/index.php/Página_principal" target="_blank" class="bt-menu-header titBottom  icons-top icons-top-help"> </a>
+		</div>
+	</div>
+
+      	    
+	  </div>
+	</div>
+  </div>
+		
+  <div class="navigation-wrapper">
+    <div class="max-width center navigation-wrapper-line"> 
+      <!--Local para o menu--> 
+    </div>
+  </div>		
+		
+ <div class="content-wrapper">
+    <div class="main-content max-width  min-width center"> 
+  		<div class="layout-cell layout-cell-12">
+        	<div class="layout-cell-pad-main">
+          		<div class="layout-cell layout-cell-6">
+            		<div class="layout-cell-pad">
+              			<div class="title-wrapper" id="tit_busca_simples">
+							<h1 tabindex="0">Buscar Currículo Lattes (Busca Simples)</h1>
+						</div>
+						<div class="title-wrapper" id="tit_busca_avancada" style="display:none">
+							<h1 tabindex="0">Busca Avançada (por Assunto)</h1>
+						</div>
+           			</div>
+          		</div>
+          		<div class="layout-cell layout-cell-6">
+		            <div class="layout-cell-pad">
+		               <div class="control-bar-top" id="tit_simples">
+		              	  <a class="button" href="javascript:void(0)" onclick="mudarBotaoBusca();toggle_busca();">
+		              	 	<span class="mini-ico mini-ico-lupa"></span>Busca Avançada
+		                  </a>
+		               </div>
+		               <div class="control-bar-top" id="tit_avancada" style="display:none">
+		              	  <a class="button" href="javascript:void(0)" onclick="mudarBotaoBusca();toggle_busca();">
+		              	 	<span class="mini-ico mini-ico-lupa"></span>Busca Simples
+		                  </a>
+		               </div>
+		            </div>
+		        </div>
+				
+				<!-- Busca Simples -->
+					<div class="layout-cell layout-cell-12" id="busca_simples">
+					 <hr class="separator">
+					<br><br>
+					<fieldset>
+						<legend class="tit_form geral-buscarpor" id="legendBuscarPor">Buscar por:</legend>
+			            <div class="layout-cell-pad "> 
+			              <div class="sub_tit_form">
+			              	<fieldset>
+			              	<legend class="geral-selecione" id="legendSelecione">
+			              	Selecione o modo de busca 
+			              	</legend>
+			                <div class="input-checkbox">
+			                
+			                  	<input type="checkbox" name="filtros.buscaNome" value="true" checked="checked" onclick="escolherTipoBuscaNome()" id="buscaNome" aria-labelledby="legendSelecione" role="menuitem">
+								<label for="buscaNome">Nome</label>
+								
+								<input type="checkbox" name="filtros.buscaAssunto" value="true" onclick="escolherTipoBuscaAssunto()" id="buscaAssunto" role="menuitem">
+								<label for="buscaAssunto">Assunto(Título ou palavra chave da produção)</label>
+								
+								
+								
+			                </div>
+			                </fieldset>
+			              </div>
+			              <label for="textoBusca" class="escondido">Buscar por</label>
+			              <input type="text" name="textoBusca" value="" onkeypress="defineEnterEscPress(event,'botaoBuscaFiltros','')" id="textoBusca" class="input-text">
+			              
+			              <br class="clear">
+						  <div class="sub_tit_form">
+						  	<div class="layout-cell layout-cell-12">
+					        	<div class="layout-cell-pad">
+				          		  <div class="layout-cell layout-cell-6">
+				          			<div class="layout-cell-pad">
+				          			<fieldset>
+							 			<legend id="legendBases"> Nas bases </legend>
+							 			<br>
+						 				<input type="checkbox" name="buscarDoutores" value="true" checked="checked" id="buscarDoutores" aria-labelledby="legendBases" role="menuitem">
+										<label for="buscarDoutores">Doutores</label>&nbsp;&nbsp;
+										<input type="checkbox" name="buscarDemais" value="true" id="buscarDemais" role="menuitem">
+										<label for="buscarDemais">Demais pesquisadores (Mestres, Graduados,Estudantes, Técnicos, etc.)</label>
+									</fieldset>
+									</div>	
+								  </div>		
+								  <div class="layout-cell layout-cell-3">
+				          			 <div class="layout-cell-pad">
+				          			 <fieldset>
+							 			<legend id="legendNacionalidade"> Nacionalidade:	</legend>
+							 		       <br>
+				          			 	   	<input type="checkbox" name="buscarBrasileiros" value="true" checked="checked" id="buscarBrasileiros" aria-labelledby="legendNacionalidade" role="menuitem">
+											<label for="buscarBrasileiros">Brasileira</label>&nbsp;&nbsp;
+											<input type="checkbox" name="buscarEstrangeiros" value="true" checked="checked" id="buscarEstrangeiros" role="menuitem">
+											<label for="buscarEstrangeiros">Estrangeira</label>
+									 </fieldset>
+									 </div>
+								  </div>
+								  <div class="layout-cell layout-cell-3">
+								     <div class="layout-cell-pad">	
+								     <fieldset>
+							 			<legend id="legendFiltroFormacao"> País de nacionalidade: </legend>
+									  <select name="paisNascimento" id="paisNascimento" class="input-text input-login-select"><option value="0">Todos</option>
+
+
+
+<option value="AFG">Afeganistão</option>
+<option value="AFS">África do Sul</option>
+<option value="ALB">Albânia</option>
+<option value="RFA">Alemanha</option>
+<option value="AND">Andorra</option>
+<option value="ANG">Angola</option>
+<option value="ATC">Antartida</option>
+<option value="ANB">Antigua</option>
+<option value="AHL">Antilhas Holandesas</option>
+<option value="ARA">Arábia Saudita</option>
+<option value="ARL">Argélia</option>
+<option value="ARG">Argentina</option>
+<option value="ARM">Armênia</option>
+<option value="AUS">Austrália</option>
+<option value="AUT">Austria</option>
+<option value="AZE">Azerbaijão</option>
+<option value="BHS">Bahamas</option>
+<option value="BGD">Bangladesh</option>
+<option value="BRB">Barbados</option>
+<option value="BAR">Barein</option>
+<option value="BEA">Belarus</option>
+<option value="BEL">Bélgica</option>
+<option value="BLZ">Belize</option>
+<option value="BEN">Benin</option>
+<option value="BER">Bermudas</option>
+<option value="BIR">Myanmar         </option>
+<option value="BOL">Bolívia</option>
+<option value="BOS">Bósnia</option>
+<option value="BOT">Botsuana</option>
+<option value="IOT">Britsh Indian Ocean</option>
+<option value="BRN">Brunei</option>
+<option value="BUL">Bulgária</option>
+<option value="BKF">Burkina Fasso</option>
+<option value="BUR">Burundi</option>
+<option value="BUT">Butão</option>
+<option value="CBV">Cabo Verde</option>
+<option value="CAM">Camarões</option>
+<option value="CBJ">Camboja</option>
+<option value="CAN">Canadá</option>
+<option value="CAT">Catar</option>
+<option value="CAZ">Cazaquistão</option>
+<option value="CHA">Chade</option>
+<option value="CHL">Chile</option>
+<option value="CHN">China</option>
+<option value="CHP">Chipre</option>
+<option value="CXR">Christmas Island</option>
+<option value="CIN">Cingapura</option>
+<option value="COL">Colômbia</option>
+<option value="COM">Comores</option>
+<option value="CON">Congo</option>
+<option value="CRN">Coréia do Norte</option>
+<option value="CRS">Coréia do Sul</option>
+<option value="CMF">Costa do Marfim</option>
+<option value="CRC">Costa Rica</option>
+<option value="CRO">Croácia</option>
+<option value="CUB">Cuba</option>
+<option value="DIN">Dinamarca</option>
+<option value="DJI">Djibuti</option>
+<option value="DON">Dominica</option>
+<option value="EGI">Egito</option>
+<option value="ELS">El Salvador</option>
+<option value="EAU">Emirados Árabes</option>
+<option value="EQU">Equador</option>
+<option value="ESC">Escócia</option>
+<option value="SVK">Eslováquia</option>
+<option value="SVN">Eslovênia</option>
+<option value="ESP">Espanha</option>
+<option value="EUA">Estados Unidos</option>
+<option value="EST">Estônia</option>
+<option value="ETP">Etiópia</option>
+<option value="FJI">Fiji</option>
+<option value="FIL">Filipinas</option>
+<option value="FIN">Finlândia</option>
+<option value="FOR">Formosa</option>
+<option value="FRA">França</option>
+<option value="GAB">Gabão</option>
+<option value="GAL">Gales</option>
+<option value="GAM">Gâmbia</option>
+<option value="GAN">Gana</option>
+<option value="GEO">Geórgia</option>
+<option value="GIB">Gibraltar</option>
+<option value="GBR">Grã-Bretanha</option>
+<option value="GRD">Granada</option>
+<option value="GRE">Grécia</option>
+<option value="GRL">Groênlandia</option>
+<option value="GDL">Guadalupe</option>
+<option value="GUM">Guam</option>
+<option value="GUA">Guatemala</option>
+<option value="GUI">Guiana</option>
+<option value="GFR">Guiana Francesa</option>
+<option value="GNE">Guiné</option>
+<option value="GNB">Guiné Bissau</option>
+<option value="GNQ">Guiné Equatorial</option>
+<option value="HTI">Haitii</option>
+<option value="HOL">Holanda</option>
+<option value="HON">Honduras</option>
+<option value="HKG">Hong Kong</option>
+<option value="HUN">Hungria</option>
+<option value="IEM">Iêmem</option>
+<option value="IMS">Iêmen do Sul      </option>
+<option value="CYM">Ilhas Cayman</option>
+<option value="CCK">Ilhas Cocoss</option>
+<option value="COK">Ilhas Cook</option>
+<option value="FLK">Ilhas Falkland</option>
+<option value="IFA">Ilhas Faroe</option>
+<option value="MID">Ilhas Midway</option>
+<option value="NFK">Ilhas Norfolk</option>
+<option value="SLB">Ilhas Salamão</option>
+<option value="SHN">Ilhas Santa Helena</option>
+<option value="TCA">Ilhas Turcas Caicos</option>
+<option value="IVA">Ilhas Vírgens EUA</option>
+<option value="VGB">Ilhas Vírgens GBR</option>
+<option value="WAK">Ilhas Wake</option>
+<option value="WLF">Ilhas Wallis Futuna</option>
+<option value="IND">Índia</option>
+<option value="IDN">Indonésia</option>
+<option value="ING">Inglaterra</option>
+<option value="IRA">Irã</option>
+<option value="IRQ">Iraque</option>
+<option value="IRL">Irlanda</option>
+<option value="IRN">Irlanda do Norte</option>
+<option value="ISL">Islândia</option>
+<option value="ISR">Israel</option>
+<option value="ITA">Itália</option>
+<option value="IUG">Iugoslávia</option>
+<option value="JAM">Jamaica</option>
+<option value="JAP">Japão</option>
+<option value="JOR">Jordânia</option>
+<option value="KIR">Kiribati</option>
+<option value="KWT">Kuweit</option>
+<option value="LAO">Laos</option>
+<option value="LES">Lesoto</option>
+<option value="LET">Letônia</option>
+<option value="LBN">Líbano</option>
+<option value="LBR">Libéria</option>
+<option value="LIB">Líbia</option>
+<option value="LIE">Liechtenstein</option>
+<option value="LIT">Lituânia</option>
+<option value="LUX">Luxemburgo</option>
+<option value="MAC">Macau</option>
+<option value="MAD">Madagascar</option>
+<option value="MAL">Malásia</option>
+<option value="MLV">Malavi</option>
+<option value="MDV">Maldivas</option>
+<option value="MLI">Mali</option>
+<option value="MLT">Malta</option>
+<option value="MAR">Marrocos</option>
+<option value="MRT">Martinica</option>
+<option value="MAU">Maurício</option>
+<option value="MTN">Mauritânia</option>
+<option value="MEX">México</option>
+<option value="MMR">Mianmar</option>
+<option value="FSM">Micronésia</option>
+<option value="MBQ">Moçambique</option>
+<option value="MOL">Moldova</option>
+<option value="MON">Mônaco</option>
+<option value="MGL">Mongólia</option>
+<option value="MSR">Montserrat</option>
+<option value="NAM">Namíbia</option>
+<option value="NRU">Nauru</option>
+<option value="NPL">Nepal</option>
+<option value="NIC">Nicarágua</option>
+<option value="NIG">Niger</option>
+<option value="NGA">Nigéria</option>
+<option value="NIU">Niue</option>
+<option value="NOR">Noruega</option>
+<option value="NCL">Nova Caledônia</option>
+<option value="NZL">Nova Zelândia</option>
+<option value="OMA">Oma</option>
+<option value="PCI">Pacific Islands</option>
+<option value="PAN">Panamá</option>
+<option value="PNG">Papua Nova Guiné</option>
+<option value="PAQ">Paquistão</option>
+<option value="PRG">Paraguai</option>
+<option value="PER">Peru</option>
+<option value="PCN">Pitcairn</option>
+<option value="PLF">Polinésia Francesa</option>
+<option value="POL">Polônia</option>
+<option value="PTR">Porto Rico</option>
+<option value="POR">Portugal</option>
+<option value="QUE">Quênia</option>
+<option value="QUI">Quirgistão</option>
+<option value="RCA">Rep.Centro-Africana</option>
+<option value="DOM">República Dominicana</option>
+<option value="TCH">República Tcheca</option>
+<option value="REU">Reunião</option>
+<option value="ROM">Romênia</option>
+<option value="RUA">Ruanda</option>
+<option value="RSS">Rússia</option>
+<option value="ASM">Samoa Americana</option>
+<option value="SAM">Samoa Ocidental</option>
+<option value="SMR">San Marino</option>
+<option value="LCA">Santa Lúcia</option>
+<option value="KNA">São Cristóvão Nevis</option>
+<option value="SPM">São Pedro Miquelon</option>
+<option value="STP">São Tomé e Príncipe</option>
+<option value="VCT">São Vicente Granadi</option>
+<option value="SEN">Senegal</option>
+<option value="SRL">Serra Leoa</option>
+<option value="SYC">Seychelles</option>
+<option value="SIR">Síria</option>
+<option value="SOM">Somália</option>
+<option value="SRI">Sri Lanka</option>
+<option value="SUA">Suazilândia</option>
+<option value="SUD">Sudão</option>
+<option value="SUE">Suécia</option>
+<option value="SUI">Suiça</option>
+<option value="SUR">Suriname</option>
+<option value="TAD">Tadjaquistão</option>
+<option value="TAI">Tailândia</option>
+<option value="TAN">Tanzânia</option>
+<option value="TMP">Timor</option>
+<option value="TGO">Togo</option>
+<option value="TKL">Tokelau</option>
+<option value="TON">Tonga</option>
+<option value="TRT">Trinidad e Tobago</option>
+<option value="TUN">Tunísia</option>
+<option value="TUC">Turcomenistão</option>
+<option value="TUR">Turquia</option>
+<option value="TUV">Tuvalu</option>
+<option value="UCR">Ucrânia</option>
+<option value="UGA">Uganda</option>
+<option value="URU">Uruguai</option>
+<option value="UZB">Uzbekistan</option>
+<option value="VUT">Vanuatu</option>
+<option value="VAT">Vaticano</option>
+<option value="VEN">Venezuela</option>
+<option value="VTN">Vietnã</option>
+<option value="ESH">Western Sahara</option>
+<option value="ZAR">Zaire</option>
+<option value="ZAN">Zâmbia</option>
+<option value="ZIN">Zimbabue</option></select>
+									  </fieldset>
+									  </div>
+								  </div> 
+								</div>
+							 </div>
+						   </div>		  
+					    </div>
+			          
+			            </fieldset>
+			              <hr class="separator">
+			    	</div>
+				<!-- FIM Busca Simples -->
+				
+				
+				<!-- Busca Avançada -->
+						
+					<div class="layout-cell layout-cell-12" id="busca_avancada" style="display:none">
+			            <hr class="separator">
+			            <div class="layout-cell-pad"> <br>
+			              <br>
+			              <div class="layout-cell layout-cell-6">
+			                <div class="layout-cell-pad">
+			                  <div class="title-wrapper">
+			                  <fieldset>
+			                    <legend class="tit_form" id="legendBuscaAvancada"> Construa uma consulta com: </legend>    
+			                    <br>  
+			                    <label class="sub_tit_form" for="textoBuscaTodas"> todas essas palavras  	:</label>
+			                    <input type="text" name="textoBuscaTodas" value="" onkeypress="defineEnterEscPress(event,'botaoBuscaFiltros','')" id="textoBuscaTodas" class="input-text">
+			                    <label for="textoBuscaFrase" class="sub_tit_form"> esta frase exata:</label>
+			                    <input type="text" name="textoBuscaFrase" value="" onkeypress="defineEnterEscPress(event,'botaoBuscaFiltros','')" id="textoBuscaFrase" class="input-text">
+			                    <label for="textoBuscaQualquer" class="sub_tit_form"> qualquer uma dessas palavras:</label>
+			                    <input type="text" name="textoBuscaQualquer" value="" onkeypress="defineEnterEscPress(event,'botaoBuscaFiltros','')" id="textoBuscaQualquer" class="input-text">
+			                    <label for="textoBuscaNenhuma" class="sub_tit_form"> e nenhuma dessas palavras:</label>
+			                    <input type="text" name="textoBuscaNenhuma" value="" onkeypress="defineEnterEscPress(event,'botaoBuscaFiltros','')" id="textoBuscaNenhuma" class="input-text">
+			                  </fieldset>
+			                  </div>
+			                </div>
+			              </div>
+			              <div class="layout-cell layout-cell-6">
+			                <div class="layout-cell-pad">
+			              <br> <br>
+			                <fieldset>
+			                  <legend class="sub_tit_form" id="legendBuscaAvancadaExpr">esta expressão booleana:</legend>
+			                  <textarea name="textoExpressao" cols="20" rows="5" onkeypress="defineEnterEscPress(event,'botaoBuscaFiltros','')" class="input-text min-height" alt=""></textarea>
+			               </fieldset>
+			                </div>
+			              </div>
+			              <br class="clear">
+			              <div class="sub_tit_form">
+			                <div class="layout-cell layout-cell-12">
+					        	<div class="layout-cell-pad">
+				          		  <div class="layout-cell layout-cell-6">
+				          			<div class="layout-cell-pad">
+				          			<fieldset>
+							 			<legend class="sub_tit_form" id="legendGeralBases">Nas bases</legend>
+							 			<br>
+						 				<input type="checkbox" name="buscarDoutoresAvancada" value="true" checked="checked" id="buscarDoutoresAvancada" role="menuitem">
+										<label for="buscarDoutoresAvancada">Doutores</label>&nbsp;&nbsp;
+										<input type="checkbox" name="buscarDemaisAvancada" value="true" id="buscarDemaisAvancada" role="menuitem">
+										<label for="buscarDemaisAvancada">Demais pesquisadores (Mestres, Graduados,Estudantes, Técnicos, etc.)</label>
+									</fieldset>
+									</div>	
+								  </div>		
+								  <div class="layout-cell layout-cell-3">
+				          			 <div class="layout-cell-pad">
+				          			 <fieldset>
+										   <legend id="legendNacionalidade">Nacionalidade:</legend>
+							 		       <br>
+				          			 	   	<input type="checkbox" name="buscarBrasileirosAvancada" value="true" checked="checked" id="buscarBrasileirosAvancada" role="menuitem">
+											<label for="buscarBrasileirosAvancada">Brasileira</label>&nbsp;&nbsp;
+											<input type="checkbox" name="buscarEstrangeirosAvancada" value="true" checked="checked" id="buscarEstrangeirosAvancada" role="menuitem">
+											<label for="buscarEstrangeirosAvancada">Estrangeira</label>
+									 </fieldset>
+									 </div>
+								  </div>
+								  <div class="layout-cell layout-cell-3">
+								     <div class="layout-cell-pad">	
+								     <fieldset>
+								     <legend id="legendFiltroFormacaoPais">País: </legend>
+									  <select name="paisNascimentoAvancada" id="paisNascimentoAvancada" class="input-text input-login-select"><option value="0">Todos</option>
+
+
+
+<option value="AFG">Afeganistão</option>
+<option value="AFS">África do Sul</option>
+<option value="ALB">Albânia</option>
+<option value="RFA">Alemanha</option>
+<option value="AND">Andorra</option>
+<option value="ANG">Angola</option>
+<option value="ATC">Antartida</option>
+<option value="ANB">Antigua</option>
+<option value="AHL">Antilhas Holandesas</option>
+<option value="ARA">Arábia Saudita</option>
+<option value="ARL">Argélia</option>
+<option value="ARG">Argentina</option>
+<option value="ARM">Armênia</option>
+<option value="AUS">Austrália</option>
+<option value="AUT">Austria</option>
+<option value="AZE">Azerbaijão</option>
+<option value="BHS">Bahamas</option>
+<option value="BGD">Bangladesh</option>
+<option value="BRB">Barbados</option>
+<option value="BAR">Barein</option>
+<option value="BEA">Belarus</option>
+<option value="BEL">Bélgica</option>
+<option value="BLZ">Belize</option>
+<option value="BEN">Benin</option>
+<option value="BER">Bermudas</option>
+<option value="BIR">Myanmar         </option>
+<option value="BOL">Bolívia</option>
+<option value="BOS">Bósnia</option>
+<option value="BOT">Botsuana</option>
+<option value="IOT">Britsh Indian Ocean</option>
+<option value="BRN">Brunei</option>
+<option value="BUL">Bulgária</option>
+<option value="BKF">Burkina Fasso</option>
+<option value="BUR">Burundi</option>
+<option value="BUT">Butão</option>
+<option value="CBV">Cabo Verde</option>
+<option value="CAM">Camarões</option>
+<option value="CBJ">Camboja</option>
+<option value="CAN">Canadá</option>
+<option value="CAT">Catar</option>
+<option value="CAZ">Cazaquistão</option>
+<option value="CHA">Chade</option>
+<option value="CHL">Chile</option>
+<option value="CHN">China</option>
+<option value="CHP">Chipre</option>
+<option value="CXR">Christmas Island</option>
+<option value="CIN">Cingapura</option>
+<option value="COL">Colômbia</option>
+<option value="COM">Comores</option>
+<option value="CON">Congo</option>
+<option value="CRN">Coréia do Norte</option>
+<option value="CRS">Coréia do Sul</option>
+<option value="CMF">Costa do Marfim</option>
+<option value="CRC">Costa Rica</option>
+<option value="CRO">Croácia</option>
+<option value="CUB">Cuba</option>
+<option value="DIN">Dinamarca</option>
+<option value="DJI">Djibuti</option>
+<option value="DON">Dominica</option>
+<option value="EGI">Egito</option>
+<option value="ELS">El Salvador</option>
+<option value="EAU">Emirados Árabes</option>
+<option value="EQU">Equador</option>
+<option value="ESC">Escócia</option>
+<option value="SVK">Eslováquia</option>
+<option value="SVN">Eslovênia</option>
+<option value="ESP">Espanha</option>
+<option value="EUA">Estados Unidos</option>
+<option value="EST">Estônia</option>
+<option value="ETP">Etiópia</option>
+<option value="FJI">Fiji</option>
+<option value="FIL">Filipinas</option>
+<option value="FIN">Finlândia</option>
+<option value="FOR">Formosa</option>
+<option value="FRA">França</option>
+<option value="GAB">Gabão</option>
+<option value="GAL">Gales</option>
+<option value="GAM">Gâmbia</option>
+<option value="GAN">Gana</option>
+<option value="GEO">Geórgia</option>
+<option value="GIB">Gibraltar</option>
+<option value="GBR">Grã-Bretanha</option>
+<option value="GRD">Granada</option>
+<option value="GRE">Grécia</option>
+<option value="GRL">Groênlandia</option>
+<option value="GDL">Guadalupe</option>
+<option value="GUM">Guam</option>
+<option value="GUA">Guatemala</option>
+<option value="GUI">Guiana</option>
+<option value="GFR">Guiana Francesa</option>
+<option value="GNE">Guiné</option>
+<option value="GNB">Guiné Bissau</option>
+<option value="GNQ">Guiné Equatorial</option>
+<option value="HTI">Haitii</option>
+<option value="HOL">Holanda</option>
+<option value="HON">Honduras</option>
+<option value="HKG">Hong Kong</option>
+<option value="HUN">Hungria</option>
+<option value="IEM">Iêmem</option>
+<option value="IMS">Iêmen do Sul      </option>
+<option value="CYM">Ilhas Cayman</option>
+<option value="CCK">Ilhas Cocoss</option>
+<option value="COK">Ilhas Cook</option>
+<option value="FLK">Ilhas Falkland</option>
+<option value="IFA">Ilhas Faroe</option>
+<option value="MID">Ilhas Midway</option>
+<option value="NFK">Ilhas Norfolk</option>
+<option value="SLB">Ilhas Salamão</option>
+<option value="SHN">Ilhas Santa Helena</option>
+<option value="TCA">Ilhas Turcas Caicos</option>
+<option value="IVA">Ilhas Vírgens EUA</option>
+<option value="VGB">Ilhas Vírgens GBR</option>
+<option value="WAK">Ilhas Wake</option>
+<option value="WLF">Ilhas Wallis Futuna</option>
+<option value="IND">Índia</option>
+<option value="IDN">Indonésia</option>
+<option value="ING">Inglaterra</option>
+<option value="IRA">Irã</option>
+<option value="IRQ">Iraque</option>
+<option value="IRL">Irlanda</option>
+<option value="IRN">Irlanda do Norte</option>
+<option value="ISL">Islândia</option>
+<option value="ISR">Israel</option>
+<option value="ITA">Itália</option>
+<option value="IUG">Iugoslávia</option>
+<option value="JAM">Jamaica</option>
+<option value="JAP">Japão</option>
+<option value="JOR">Jordânia</option>
+<option value="KIR">Kiribati</option>
+<option value="KWT">Kuweit</option>
+<option value="LAO">Laos</option>
+<option value="LES">Lesoto</option>
+<option value="LET">Letônia</option>
+<option value="LBN">Líbano</option>
+<option value="LBR">Libéria</option>
+<option value="LIB">Líbia</option>
+<option value="LIE">Liechtenstein</option>
+<option value="LIT">Lituânia</option>
+<option value="LUX">Luxemburgo</option>
+<option value="MAC">Macau</option>
+<option value="MAD">Madagascar</option>
+<option value="MAL">Malásia</option>
+<option value="MLV">Malavi</option>
+<option value="MDV">Maldivas</option>
+<option value="MLI">Mali</option>
+<option value="MLT">Malta</option>
+<option value="MAR">Marrocos</option>
+<option value="MRT">Martinica</option>
+<option value="MAU">Maurício</option>
+<option value="MTN">Mauritânia</option>
+<option value="MEX">México</option>
+<option value="MMR">Mianmar</option>
+<option value="FSM">Micronésia</option>
+<option value="MBQ">Moçambique</option>
+<option value="MOL">Moldova</option>
+<option value="MON">Mônaco</option>
+<option value="MGL">Mongólia</option>
+<option value="MSR">Montserrat</option>
+<option value="NAM">Namíbia</option>
+<option value="NRU">Nauru</option>
+<option value="NPL">Nepal</option>
+<option value="NIC">Nicarágua</option>
+<option value="NIG">Niger</option>
+<option value="NGA">Nigéria</option>
+<option value="NIU">Niue</option>
+<option value="NOR">Noruega</option>
+<option value="NCL">Nova Caledônia</option>
+<option value="NZL">Nova Zelândia</option>
+<option value="OMA">Oma</option>
+<option value="PCI">Pacific Islands</option>
+<option value="PAN">Panamá</option>
+<option value="PNG">Papua Nova Guiné</option>
+<option value="PAQ">Paquistão</option>
+<option value="PRG">Paraguai</option>
+<option value="PER">Peru</option>
+<option value="PCN">Pitcairn</option>
+<option value="PLF">Polinésia Francesa</option>
+<option value="POL">Polônia</option>
+<option value="PTR">Porto Rico</option>
+<option value="POR">Portugal</option>
+<option value="QUE">Quênia</option>
+<option value="QUI">Quirgistão</option>
+<option value="RCA">Rep.Centro-Africana</option>
+<option value="DOM">República Dominicana</option>
+<option value="TCH">República Tcheca</option>
+<option value="REU">Reunião</option>
+<option value="ROM">Romênia</option>
+<option value="RUA">Ruanda</option>
+<option value="RSS">Rússia</option>
+<option value="ASM">Samoa Americana</option>
+<option value="SAM">Samoa Ocidental</option>
+<option value="SMR">San Marino</option>
+<option value="LCA">Santa Lúcia</option>
+<option value="KNA">São Cristóvão Nevis</option>
+<option value="SPM">São Pedro Miquelon</option>
+<option value="STP">São Tomé e Príncipe</option>
+<option value="VCT">São Vicente Granadi</option>
+<option value="SEN">Senegal</option>
+<option value="SRL">Serra Leoa</option>
+<option value="SYC">Seychelles</option>
+<option value="SIR">Síria</option>
+<option value="SOM">Somália</option>
+<option value="SRI">Sri Lanka</option>
+<option value="SUA">Suazilândia</option>
+<option value="SUD">Sudão</option>
+<option value="SUE">Suécia</option>
+<option value="SUI">Suiça</option>
+<option value="SUR">Suriname</option>
+<option value="TAD">Tadjaquistão</option>
+<option value="TAI">Tailândia</option>
+<option value="TAN">Tanzânia</option>
+<option value="TMP">Timor</option>
+<option value="TGO">Togo</option>
+<option value="TKL">Tokelau</option>
+<option value="TON">Tonga</option>
+<option value="TRT">Trinidad e Tobago</option>
+<option value="TUN">Tunísia</option>
+<option value="TUC">Turcomenistão</option>
+<option value="TUR">Turquia</option>
+<option value="TUV">Tuvalu</option>
+<option value="UCR">Ucrânia</option>
+<option value="UGA">Uganda</option>
+<option value="URU">Uruguai</option>
+<option value="UZB">Uzbekistan</option>
+<option value="VUT">Vanuatu</option>
+<option value="VAT">Vaticano</option>
+<option value="VEN">Venezuela</option>
+<option value="VTN">Vietnã</option>
+<option value="ESH">Western Sahara</option>
+<option value="ZAR">Zaire</option>
+<option value="ZAN">Zâmbia</option>
+<option value="ZIN">Zimbabue</option></select>
+									  </fieldset>
+									  </div>
+								  </div> 
+								</div>
+							 </div>
+			              </div>
+		            	</div>
+						<hr class="separator">
+			    	</div>
+				<!-- FIM Busca Avançada -->
+				
+				
+				<!-- BOTOES -->
+			            
+		            <div class="layout-cell layout-cell-12 ">
+		              <div class="layout-cell-pad">
+		                <div class="control-bar-wrapper button-tab">
+		                <br>
+		                  <h3 class="tit_form" tabindex="0">
+		                  Tipo de filtro
+		                  </h3>
+		                  	<br>
+		                  	<div>
+			                   <span class="menu1"> 
+				                  <a class="button tab selected" href="#"> Filtros </a>
+				                  <a class="button tab" href="#"> Preferências </a>
+			                   </span>
+		                    <br><br>
+		                  </div>
+		                </div>
+		              </div>
+		            </div>
+	            
+	            <!-- FIM BOTOES --> 
+		
+				
+				
+			  <!-- CONTEUDO BOTAO PREFERENCIAS -->
+	          <div class="conteudo1 layout-cell layout-cell-12">
+              	 <div class="cont layout-cell-pad" style="display: block;">
+                	   <div class="layout-cell layout-cell-3">
+                  		 <div class="layout-cell-pad">
+		                    <div class="layout-cell-pad"> 
+		                        <input type="checkbox" name="filtro0" value="true" onchange="abrirFiltro(this,0)" id="filtro0" role="menuitem">
+							    <label for="filtro0"> Bolsistas de Produtividade do CNPq</label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                        <input type="checkbox" name="filtro2" value="true" onchange="abrirFiltro(this,2)" id="filtro2" role="menuitem">
+							    <label for="filtro2"> Formação Acadêmica/Titulação </label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                        <input type="checkbox" name="filtro4" value="true" onchange="abrirFiltro(this,4)" id="filtro4" role="menuitem">
+							    <label for="filtro4"> Atuação profissional </label>
+		                      </div>
+		                    <div class="layout-cell-pad">
+		                        <input type="checkbox" name="filtro6" value="true" onchange="abrirFiltro(this,6)" id="filtro6" role="menuitem">
+								<label for="filtro6"> Idioma</label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                        <input type="checkbox" name="filtro8" value="true" onchange="abrirFiltro(this,8)" id="filtro8" role="menuitem">
+								<label for="filtro8"> Atividade Profissional (Instituição)</label>
+		                    </div>
+		                  </div>
+		                </div>
+		                <!---->
+		                <div class="layout-cell layout-cell-9">
+		                  <div class="layout-cell-pad">
+		                    <div class="layout-cell-pad"> 
+		                        <input type="checkbox" name="filtro1" value="true" onchange="abrirFiltro(this,1)" id="filtro1" role="menuitem">
+								<label for="filtro1"> Outros Bolsistas do CNPq</label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                        <input type="checkbox" name="filtro3" value="true" onchange="abrirFiltro(this,3)" id="filtro3" role="menuitem">
+								<label for="filtro3"> Nível do Curso de Pós-graduação onde é Docente</label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                      	<input type="checkbox" name="filtro5" value="true" onchange="abrirFiltro(this,5)" id="filtro5" role="menuitem">
+								<label for="filtro5"> Atividade de Orientação</label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                      	<input type="checkbox" name="filtro7" value="true" onchange="abrirFiltro(this,7)" id="filtro7" role="menuitem">
+								<label for="filtro7"> Áreas ou Setores da Produção em C&amp;T</label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                      	<input type="checkbox" name="filtro9" value="true" onchange="abrirFiltro(this,9)" id="filtro9" role="menuitem">
+								<label for="filtro9"> Presença no Diretório de Grupos de pesquisa</label>
+		                    </div>
+		                  </div>
+		                </div>
+		           </div>
+		              
+		        <!-- FIM CONTEUDO BOTAO PREFERENCIAS-->
+				            
+				<!-- CONTEUDO BOTAO FILTROS -->
+				   <div class="cont layout-cell-pad checkboxes1" style="display:none">
+                		<div class="layout-cell layout-cell-4">
+                  			<div class="layout-cell-pad"> 
+                  			<fieldset>          
+				               	<legend class="sub_tit_form" id="legendPreAtualizacao">
+				               		Tempo de Atualização dos Dados
+				               	</legend>
+				               	<label for="somenteAtualizados"> Somente Currículos atualizados nos últimos  </label>
+								<input type="text" name="filtros.atualizacaoCurriculo" size="2" value="48" id="somenteAtualizados" class="input-text"> 
+								<label for="somenteAtualizados"> meses </label>
+							</fieldset>
+				            </div>
+				         </div>
+				         <div class="layout-cell layout-cell-8">
+		                    <div class="layout-cell-pad"> 
+		                    <fieldset>  
+		                    	<legend class="sub_tit_form" id="legendPreResultados">Número de resultados: </legend>
+		                    	<label for="quantidadeRegistros"> Mostrar </label>
+								<select name="quantidadeRegistros" id="quantidadeRegistros" class="input-text input-login-select"><option value="10">10 resultados</option>
+									<option value="20">20 resultados</option>
+									<option value="50">50 resultados</option>
+									<option value="100">100 resultados</option></select>
+								<label for="quantidadeRegistros">  por página </label>
+							 </fieldset>
+		                  	</div>
+		                </div>
+		                
+		                <br class="clear">
+		                
+		                <!-- BOTAO MARCAR TODOS -->
+			                <div class="layout-cell layout-cell-12">
+			                  <div class="layout-cell-pad">
+			                    <div class="control-bar-wrapper-left">
+			                       <a class="button" href="#" id="checkboxes"><span class="mini-ico mini-ico-ok"></span>Desmarcar todos</a>
+			                    </div>
+			                  </div>
+			                </div>
+		                <!-- FIM BOTAO MARCAR TODOS -->
+		                
+				        <br class="clear">
+				        
+				        <div class="layout-cell layout-cell-4">
+		                  <div class="layout-cell-pad">
+		                  <fieldset>
+		                  <legend class="tit_form" id="legendViPessoal">Informações Pessoais</legend>
+		                    <div class="layout-cell-pad"> 
+		                      	<br>
+		                      	<input type="checkbox" name="filtros.visualizaEnderecoCV" value="true" checked="checked" id="visualizaEnderecoCV" role="menuitem">
+							  	<label for="visualizaEnderecoCV">Endereço </label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                        <input type="checkbox" name="filtros.visualizaFormacaoAcadTitCV" value="true" checked="checked" id="visualizaFormacaoAcadTitCV" role="menuitem">
+								<label for="visualizaFormacaoAcadTitCV">Formação Acadêmica/Titulação </label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                        <input type="checkbox" name="filtros.visualizaAtuacaoProfCV" value="true" checked="checked" id="visualizaAtuacaoProfCV" role="menuitem">
+								<label for="visualizaAtuacaoProfCV">Atuação profissional </label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                        <input type="checkbox" name="filtros.visualizaAreasAtuacaoCV" value="true" checked="checked" id="visualizaAreasAtuacaoCV" role="menuitem">
+								<label for="visualizaAreasAtuacaoCV">Áreas de atuação </label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                    	<input type="checkbox" name="filtros.visualizaIdiomasCV" value="true" checked="checked" id="visualizaIdiomasCV" role="menuitem">
+								<label for="visualizaIdiomasCV">Idiomas </label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                    	<input type="checkbox" name="filtros.visualizaPremiosTitulosCV" value="true" checked="checked" id="visualizaPremiosTitulosCV" role="menuitem">
+								<label for="visualizaPremiosTitulosCV">Prêmios e títulos </label>
+							</div>		
+							</fieldset>							
+		                  </div>
+		                </div>
+		                <!---->
+		                <div class="layout-cell layout-cell-4">
+		                  <div class="layout-cell-pad">
+		                  <fieldset>
+		                  <legend class="tit_form" id="legendViProducao">Informações sobre produções técnicas</legend>
+		                    <div class="layout-cell-pad"> 
+		                      	<br>
+		                      	<input type="checkbox" name="filtros.visualizaSoftwaresCV" value="true" checked="checked" id="visualizaSoftwaresCV" role="menuitem">
+								<label for="visualizaSoftwaresCV">Softwares </label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                    	<input type="checkbox" name="filtros.visualizaProdutosCV" value="true" checked="checked" id="visualizaProdutosCV" role="menuitem">
+								<label for="visualizaProdutosCV">Produtos </label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                      	<input type="checkbox" name="filtros.visualizaProcessosCV" value="true" checked="checked" id="visualizaProcessosCV" role="menuitem">
+								<label for="visualizaProcessosCV">Processos </label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                      	<input type="checkbox" name="filtros.visualizaTrabalhosTecnicosCV" value="true" checked="checked" id="visualizaTrabalhosTecnicosCV" role="menuitem">
+								<label for="visualizaTrabalhosTecnicosCV">Trabalhos técnicos </label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                      	<input type="checkbox" name="filtros.visualizaOutrasProdTecCV" value="true" checked="checked" id="visualizaOutrasProdTecCV" role="menuitem">
+								<label for="visualizaOutrasProdTecCV">Outras produções técnicas </label>
+		                    </div>
+		                    </fieldset>
+		                  </div>
+		                </div>
+		                <!---->
+		                <div class="layout-cell layout-cell-4">
+		                  <div class="layout-cell-pad">
+		                  <fieldset>
+		                  <legend class="tit_form" id="legendViBibliografica">Informações sobre produções bibliográficas</legend>
+		                    <div class="layout-cell-pad">  	
+		                      	<br>
+		                      	<input type="checkbox" name="filtros.visualizaArtigosCV" value="true" checked="checked" id="visualizaArtigosCV" role="menuitem">
+								<label for="visualizaArtigosCV">Artigos publicados </label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                      	<input type="checkbox" name="filtros.visualizaLivrosCapitulosCV" value="true" checked="checked" id="visualizaLivrosCapitulosCV" role="menuitem">
+								<label for="visualizaLivrosCapitulosCV">Livros e capítulos </label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                      	<input type="checkbox" name="filtros.visualizaTrabEventosCV" value="true" checked="checked" id="visualizaTrabEventosCV" role="menuitem">
+								<label for="visualizaTrabEventosCV">Trabalhos em eventos </label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                      	<input type="checkbox" name="filtros.visualizaTxtJornalRevistaCV" value="true" checked="checked" id="visualizaTxtJornalRevistaCV" role="menuitem">
+								<label for="visualizaTxtJornalRevistaCV">Texto em jornal ou revista </label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                      	<input type="checkbox" name="filtros.visualizaOutrasProdBibCV" value="true" checked="checked" id="visualizaOutrasProdBibCV" role="menuitem">
+								<label for="visualizaOutrasProdBibCV">Outras produções bibliográficas </label>
+		                    </div>
+		                    </fieldset>
+		                  </div>
+		                </div>
+		                <!----> 
+		                <br class="clear">
+		                <div class="layout-cell layout-cell-4">
+		                  <div class="layout-cell-pad">
+		                   <fieldset>
+		                   <legend class="tit_form" id="legendDemaisProducoes">Informações sobre demais produções/trabalhos</legend>
+		                    <div class="layout-cell-pad"> 
+		                      	<br>
+		                      	<input type="checkbox" name="filtros.visualizaProdArtCultCV" value="true" checked="checked" id="visualizaProdArtCultCV" role="menuitem">
+								<label for="visualizaProdArtCultCV">Produção artística/cultural </label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                      	<input type="checkbox" name="filtros.visualizaOrientacoesConcluidasCV" value="true" checked="checked" id="visualizaOrientacoesConcluidasCV" role="menuitem">
+								<label for="visualizaOrientacoesConcluidasCV">Orientações concluídas </label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                      	<input type="checkbox" name="filtros.visualizaOrientacoesAndamentoCV" value="true" checked="checked" id="visualizaOrientacoesAndamentoCV" role="menuitem">
+								<label for="visualizaOrientacoesAndamentoCV">Orientações em andamento </label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                     	<input type="checkbox" name="filtros.visualizaDemaisTrabalhosCV" value="true" checked="checked" id="visualizaDemaisTrabalhosCV" role="menuitem">
+								<label for="visualizaDemaisTrabalhosCV">Demais Trabalhos </label>
+		                    </div>
+		                    </fieldset>
+		                  </div>
+		                </div>
+		                <!---->
+		                <div class="layout-cell layout-cell-4">
+		                  <div class="layout-cell-pad">
+		                  <fieldset>
+		                  	<legend class="tit_form" id="legendDemaisInformacao">Outras Informações</legend>
+		                    <div class="layout-cell-pad"> 
+		                      	<br>
+		                      	<input type="checkbox" name="filtros.visualizaDadosComplementaresCV" value="true" checked="checked" id="visualizaDadosComplementaresCV" role="menuitem">
+								<label for="visualizaDadosComplementaresCV">Dados complementares </label>
+		                    </div>
+		                    <div class="layout-cell-pad">
+		                      	<input type="checkbox" name="filtros.visualizaOutrasInfRelevantesCV" value="true" checked="checked" id="visualizaOutrasInfRelevantesCV" role="menuitem">
+								<label for="visualizaOutrasInfRelevantesCV">Outras informações relevantes </label>
+		                    </div>
+		                    </fieldset>
+		                  </div>
+		                </div>
+		                <!---->
+		                <div class="layout-cell layout-cell-4">
+		                <fieldset>
+		                <legend class="tit_form" id="legendPeriodoProducao">Período da produção</legend>
+		                  <div class="layout-cell-pad">
+		                    <div class="layout-cell-pad"> 
+		                      	<br>
+		                      	<div class="layout-cell-pad">
+		                        <input type="radio" name="filtros.radioPeriodoProducao" value="1" checked="checked" id="visualizaPeriodoProducaoCV"><label for="visualizaPeriodoProducaoCV"> Todo o período</label>
+		                      </div>
+		                      <div class="layout-cell-pad">
+		                        <input type="radio" name="filtros.radioPeriodoProducao" value="2"><label for="visualizaPeriodoAnoProducaoCV">
+										A partir do ano
+										<input type="text" name="filtros.visualizaPeriodoProducaoCV" value="" id="visualizaPeriodoAnoProducaoCV" style="width:20%" class="input-text">
+										<br>
+									</label>
+		                      </div>
+		                    </div>
+		                  </div>
+		                  </fieldset>
+		                </div>
+		           </div>
+				</div>
+	            <!-- FIM CONTEUDO BOTAO FILTROS --> 
+				
+				<!-- BOTAO Buscar -->
+				
+				<br class="clear">
+						  
+				<div class="layout-cell layout-cell-12">					  
+			       <div class="layout-cell-pad">
+			            <div class="control-bar-wrapper"> 
+							<a class="button" id="botaoBuscaFiltros" href="javascript:void(0)" onclick="javascript:buscar()">
+								<span class="mini-ico mini-ico-lupa"></span>Buscar
+							</a>
+						</div>
+						
+						<div class="inferior" style="display:none">
+							<div class="holder-inferior">	
+								<span class="botao"><a id="botaoBuscaFiltros" href="javascript:void(0)" onclick="javascript:buscar()"><span>
+									Buscar</span>
+									</a>
+								</span><span class="botao"><a href="javascript:limparFiltros()">
+									<span>Limpar</span>
+									</a>
+								</span>
+							</div>
+						</div>
+						<br>
+					</div>
+				</div>
+				
+				<!-- Fim BOTAO Buscar -->
+				
+			
+				<!--Local para o conteudo final-->
+				<div id="overlay"> </div>
+
+
+				
+				<!-- JANELAS MODAIS -->
+		
+				<div class="modalFiltros" id="modal_bolsista">
+					<div class="superior">
+						<div> 
+							<span class="botao2">
+								<a onclick="javascript:fecharFiltro(0)" href="javascript:void(0)" id="cancelarCaptcha">
+									
+								</a>
+							</span>  
+						</div>
+					</div>
+					<div class="centro">
+						<div class="pad">
+						<a class="avisa-modal escondido" href="#">Nova janela aberta em um iFrame. Utilize as setas do teclado para navegar no conteúdo ou tab para navegar entre os títulos. Pressione Esc para sair desta janela.</a> 
+							<h4 class="titulo" tabindex="0">
+								Filtrar por Pesquisador do CNPq
+							</h4>
+							<div class="conteudo">
+								<p>Este filtro restringe a busca ao universo de Pesquisadores detentores de Bolsa de Produtividade em Pesquisa concedida pelo CNPq e atualmente vigente.<br>Caso deseje selecionar uma Categoria / Nível de bolsa específica, desmarque as demais.</p>
+								<fieldset>
+								<legend id="legendFiltroPesquisador">Categoria / Nível da Bolsa:</legend>
+								<input type="hidden" name="filtros.categoriaNivelBolsa" value="" id="idCategoriaNivelBolsa" class="input-text">
+								<em><input type="checkbox" id="checkbox1A" role="menuitem"> <label for="checkbox1A"> 1A </label></em>
+								<em><input type="checkbox" id="checkbox1B" role="menuitem"> <label for="checkbox1B"> 1B </label></em>
+								<em><input type="checkbox" id="checkbox1C" role="menuitem"> <label for="checkbox1C">1C </label></em>
+								<em><input type="checkbox" id="checkbox1D" role="menuitem"> <label for="checkbox1D">1D </label></em>
+								<em><input type="checkbox" id="checkbox2" role="menuitem"> <label for="checkbox2">2 </label></em>
+								</fieldset>
+								<div class="control-bar-wrapper"> 
+									<a onclick="preencheCategoriaNivelBolsa();fecharFiltro(0)" href="javascript:void(0)" id="preencheCategoriaNivelBolsa" class="button">
+									<span class="mini-ico mini-ico-ok"> </span>Aplicar</a> 
+									<a onclick="limparCategoriaNivelBolsa();fecharFiltroEDesmarca(0)" href="javascript:void(0)" id="limparCategoriaNivelBolsa" class="button">
+									<span class="mini-ico mini-ico-clear"> </span>Limpar</a> 
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				
+				<!-- demais bolsistas -->
+				<div class="modalFiltros" id="modal_demais">
+					<div class="superior">
+						<div> 
+							<span class="botao2">
+								<a onclick="javascript:fecharFiltro(1)" href="javascript:void(0)" id="cancelarCaptcha">
+									
+								</a>
+							</span>  
+						</div>
+					</div>
+					<div class="centro">
+						<div class="pad">
+						<a class="avisa-modal escondido" href="#">Nova janela aberta em um iFrame. Utilize as setas do teclado para navegar no conteúdo ou tab para navegar entre os títulos. Pressione Esc para sair desta janela.</a> 
+							<h4 class="titulo" tabindex="0">
+								Outros Bolsistas do CNPq
+							</h4>
+							<div class="conteudo">
+								Filtros relativos aos bolsistas do CNPq restringe a busca a bolsistas do CNPq de uma modalidade específica. Selecione a Modalidade de bolsa desejada. Ao final clique no botão Aplicar para incluir o filtro selecionado, ou no botão remover para retirar o Filtro anteriormente inserido.
+								
+								<label for="idModalidadeBolsa">Modalidade:</label>
+								<select name="filtros.modalidadeBolsa" onchange="preencheModalidadeBolsa()" id="idModalidadeBolsa" class="input-text"><option value="0">Selecione a Modalidade de Bolsa</option>
+									
+
+
+<option value="AP">Aperfeiçoamento</option>
+<option value="APB">Aperfeiçoamento Atividade de Pesquisa</option>
+<option value="APE">Aperfeiçoamento no Exterior</option>
+<option value="CDT">Apoio a Competitividade e Difusão Tecnológica</option>
+<option value="NEX">Apoio a Núcleos de Excelência</option>
+<option value="ACT">Apoio ao Desenvolvimento Científico e Tecnológico</option>
+<option value="ADT">Apoio ao Desenvolvimento Tecnológico</option>
+<option value="APT">Apoio ao Programa dos Trópicos</option>
+<option value="MAT">Apoio Técnico</option>
+<option value="AT">Apoio Técnico a Pesquisa</option>
+<option value="ATP">Apoio Técnico em Extensão no País </option>
+<option value="AEX">Autorização de Expedição Científica</option>
+<option value="AED">Auxílio a Editoração e Publicação</option>
+<option value="AEV">Auxílio a Especialista Visitante</option>
+<option value="ASP">Auxílio a Estágio/Especialização no Exterior</option>
+<option value="AMT">Auxílio a Modernização Tecnológica</option>
+<option value="AI">Auxílio a Pesquisa (AI)</option>
+<option value="APQ">Auxílio a Pesquisa (APQ)</option>
+<option value="AE">Auxílio a Pesquisa em Áreas Estratégicas</option>
+<option value="APX">Auxílio a Pesquisador Visitante Estrangeiro</option>
+<option value="APC">Auxílio a Projeto Conjunto de Pesquisa</option>
+<option value="ACC">Auxílio Coleções Científicas</option>
+<option value="AEP">Auxílio Estágio/Especialização</option>
+<option value="AVE">Auxílio Participação em Estágio, Visitas e Cursos</option>
+<option value="AVC">Auxílio Visita Científica</option>
+<option value="EP">Bolsa de Treinamento no Pais</option>
+<option value="BEV">Bolsa Especialista Visitante</option>
+<option value="BSP">Bolsa Treinamento no Exterior</option>
+<option value="BEP">Bolsa Treinamento no País</option>
+<option value="CIF">Ciência Importa Fácil</option>
+<option value="COI">Contrib. Organismos Internacionais</option>
+<option value="CON">Contrib. Organismos Nacionais</option>
+<option value="MDC">Desenvolvimento Científico da Metrologia Nacional</option>
+<option value="DCR">Desenvolvimento Científico Regional</option>
+<option value="DGI">Desenvolvimento em Gestao Institucional</option>
+<option value="MDT">Desenvolvimento Tecnológico</option>
+<option value="SDT">Desenvolvimento Tecnológico em Semicondutores</option>
+<option value="DTI">Desenvolvimento Tecnológico Industrial</option>
+<option value="GD">Doutorado</option>
+<option value="GDE">Doutorado no Exterior</option>
+<option value="SWI">Doutorado-Sanduíche Empresarial</option>
+<option value="SWE">Doutorado Sanduíche no Exterior</option>
+<option value="SWP">Doutorado-Sanduíche no País</option>
+<option value="EV">Especialista Visitante (EV)</option>
+<option value="MBV">Especialista Visitante (MBV)</option>
+<option value="MEV">Especialista Visitante (MEV)</option>
+<option value="SEV">Especialista Visitante (SEV)</option>
+<option value="EVF">Especialista Visitante FIOCRUZ</option>
+<option value="EVI">Especialista Visitante Institucional</option>
+<option value="SPE">Estágio/Especialização no Exterior</option>
+<option value="EJR">Estágio Júnior no Exterior</option>
+<option value="ESN">Estágio Sênior no Exterior</option>
+<option value="EXP">Extensão no País</option>
+<option value="FIX">Fixação de Doutores</option>
+<option value="SET">Fixação de Recursos Humanos</option>
+<option value="IC">Iniciação Científica</option>
+<option value="ICJ">Iniciação Científica Júnior</option>
+<option value="IT">Iniciação Tecnológica (IT)</option>
+<option value="MIT">Iniciação Tecnológica (MIT)</option>
+<option value="ITI">Iniciação Tecnológica Industrial</option>
+<option value="ITS">Interiorização do Trabalho em Saúde</option>
+<option value="GM">Mestrado</option>
+<option value="AVG">Participação em Eventos Científicos</option>
+<option value="PEN">Pensão Alimentícia</option>
+<option value="PC">Pesquisa de Campo</option>
+<option value="PV">Pesquisador Visitante (PV)</option>
+<option value="APV">Pesquisador Visitante (APV)</option>
+<option value="VFJ">Pesquisador Visitante FIOCRUZ Júnior</option>
+<option value="VFP">Pesquisador Visitante FIOCRUZ Pleno</option>
+<option value="PD">Pós-doutorado (PD)</option>
+<option value="PDP">Pós-doutorado (PDP)</option>
+<option value="PDT">Pós-doutorado Especial em Taxonomia</option>
+<option value="PDI">Pós-doutorado Empresarial</option>
+<option value="PDJ">Pós-doutorado Júnior</option>
+<option value="PDE">Pós-doutorado no Exterior</option>
+<option value="PDS">Pós-doutorado Sênior</option>
+<option value="DT">Produtividade Desen. Tec. e Extensão Inovadora</option>
+<option value="PQ">Produtividade em Pesquisa</option>
+<option value="ARC">Promoção de Eventos Científicos</option>
+<option value="RD">Recém-Doutor</option>
+<option value="RAP">Repasse Auxílio Pesquisa Inst.</option>
+<option value="RBP">Repasse Inst. Bolsas País</option>
+<option value="RBE">Repasse Inst. Bolsas Exterior</option>
+<option value="MSP">Treinamento no Exterior</option>
+<option value="MEP">Treinamento no País</option></select>
+								
+								<div class="control-bar-wrapper"> 
+									<a onclick="preencheModalidadeBolsa();fecharFiltro(1)" href="javascript:void(0)" id="preencheCategoriaNivelBolsa" class="button">
+									<span class="mini-ico mini-ico-ok"> </span>Aplicar</a> 
+									<a onclick="limparModalidadeBolsa();fecharFiltroEDesmarca(1)" href="javascript:void(0)" id="limparCategoriaNivelBolsa" class="button">
+									<span class="mini-ico mini-ico-clear"> </span>Limpar</a> 
+								</div>
+								
+							</div>	
+						</div>
+					</div>
+					
+				</div>
+				
+				<!-- formacao academica -->
+				<div class="modalFiltros" id="modal_formacao">
+					<div class="superior">
+						<div> 
+							<span class="botao2">
+								<a onclick="javascript:fecharFiltro(2)" href="javascript:void(0)" id="cancelarCaptcha">
+									
+								</a>
+							</span>  
+						</div>
+					</div>
+					<div class="centro">
+						<div class="pad">
+						<a class="avisa-modal escondido" href="#">Nova janela aberta em um iFrame. Utilize as setas do teclado para navegar no conteúdo ou tab para navegar entre os títulos. Pressione Esc para sair desta janela.</a> 
+							<h4 class="titulo" tabindex="0">
+								Filtros relativos à formação
+							</h4>
+							<div class="conteudo">
+								Este filtro permite restringir a busca a currículos que possuam uma formação acadêmica específica, por nível, país, cidade, região ou UF da formação.
+								<label for="nivelFormacao">Formação acadêmica:</label>
+								<select name="filtros.nivelFormacao" id="nivelFormacao" class="input-text"><option value="0">Todas</option>
+									<option value="Graduação">Graduação</option>
+									<option value="Especialização">Especialização</option>
+									<option value="Mestrado">Mestrado</option>
+									<option value="Doutorado">Doutorado</option></select>
+								
+								
+								<label for="paisFormacao">País:</label>
+								
+								<select name="filtros.paisFormacao" id="paisFormacao" class="input-text"><option value="0">Selecione uma opção</option>
+
+
+	<option value="0">Todos</option>
+
+
+	<option value="BRA">Brasil</option>
+
+
+<option value="AFG">Afeganistão</option>
+<option value="AFS">África do Sul</option>
+<option value="ALB">Albânia</option>
+<option value="RFA">Alemanha</option>
+<option value="AND">Andorra</option>
+<option value="ANG">Angola</option>
+<option value="ATC">Antartida</option>
+<option value="ANB">Antigua</option>
+<option value="AHL">Antilhas Holandesas</option>
+<option value="ARA">Arábia Saudita</option>
+<option value="ARL">Argélia</option>
+<option value="ARG">Argentina</option>
+<option value="ARM">Armênia</option>
+<option value="AUS">Austrália</option>
+<option value="AUT">Austria</option>
+<option value="AZE">Azerbaijão</option>
+<option value="BHS">Bahamas</option>
+<option value="BGD">Bangladesh</option>
+<option value="BRB">Barbados</option>
+<option value="BAR">Barein</option>
+<option value="BEA">Belarus</option>
+<option value="BEL">Bélgica</option>
+<option value="BLZ">Belize</option>
+<option value="BEN">Benin</option>
+<option value="BER">Bermudas</option>
+<option value="BIR">Myanmar         </option>
+<option value="BOL">Bolívia</option>
+<option value="BOS">Bósnia</option>
+<option value="BOT">Botsuana</option>
+<option value="IOT">Britsh Indian Ocean</option>
+<option value="BRN">Brunei</option>
+<option value="BUL">Bulgária</option>
+<option value="BKF">Burkina Fasso</option>
+<option value="BUR">Burundi</option>
+<option value="BUT">Butão</option>
+<option value="CBV">Cabo Verde</option>
+<option value="CAM">Camarões</option>
+<option value="CBJ">Camboja</option>
+<option value="CAN">Canadá</option>
+<option value="CAT">Catar</option>
+<option value="CAZ">Cazaquistão</option>
+<option value="CHA">Chade</option>
+<option value="CHL">Chile</option>
+<option value="CHN">China</option>
+<option value="CHP">Chipre</option>
+<option value="CXR">Christmas Island</option>
+<option value="CIN">Cingapura</option>
+<option value="COL">Colômbia</option>
+<option value="COM">Comores</option>
+<option value="CON">Congo</option>
+<option value="CRN">Coréia do Norte</option>
+<option value="CRS">Coréia do Sul</option>
+<option value="CMF">Costa do Marfim</option>
+<option value="CRC">Costa Rica</option>
+<option value="CRO">Croácia</option>
+<option value="CUB">Cuba</option>
+<option value="DIN">Dinamarca</option>
+<option value="DJI">Djibuti</option>
+<option value="DON">Dominica</option>
+<option value="EGI">Egito</option>
+<option value="ELS">El Salvador</option>
+<option value="EAU">Emirados Árabes</option>
+<option value="EQU">Equador</option>
+<option value="ESC">Escócia</option>
+<option value="SVK">Eslováquia</option>
+<option value="SVN">Eslovênia</option>
+<option value="ESP">Espanha</option>
+<option value="EUA">Estados Unidos</option>
+<option value="EST">Estônia</option>
+<option value="ETP">Etiópia</option>
+<option value="FJI">Fiji</option>
+<option value="FIL">Filipinas</option>
+<option value="FIN">Finlândia</option>
+<option value="FOR">Formosa</option>
+<option value="FRA">França</option>
+<option value="GAB">Gabão</option>
+<option value="GAL">Gales</option>
+<option value="GAM">Gâmbia</option>
+<option value="GAN">Gana</option>
+<option value="GEO">Geórgia</option>
+<option value="GIB">Gibraltar</option>
+<option value="GBR">Grã-Bretanha</option>
+<option value="GRD">Granada</option>
+<option value="GRE">Grécia</option>
+<option value="GRL">Groênlandia</option>
+<option value="GDL">Guadalupe</option>
+<option value="GUM">Guam</option>
+<option value="GUA">Guatemala</option>
+<option value="GUI">Guiana</option>
+<option value="GFR">Guiana Francesa</option>
+<option value="GNE">Guiné</option>
+<option value="GNB">Guiné Bissau</option>
+<option value="GNQ">Guiné Equatorial</option>
+<option value="HTI">Haitii</option>
+<option value="HOL">Holanda</option>
+<option value="HON">Honduras</option>
+<option value="HKG">Hong Kong</option>
+<option value="HUN">Hungria</option>
+<option value="IEM">Iêmem</option>
+<option value="IMS">Iêmen do Sul      </option>
+<option value="CYM">Ilhas Cayman</option>
+<option value="CCK">Ilhas Cocoss</option>
+<option value="COK">Ilhas Cook</option>
+<option value="FLK">Ilhas Falkland</option>
+<option value="IFA">Ilhas Faroe</option>
+<option value="MID">Ilhas Midway</option>
+<option value="NFK">Ilhas Norfolk</option>
+<option value="SLB">Ilhas Salamão</option>
+<option value="SHN">Ilhas Santa Helena</option>
+<option value="TCA">Ilhas Turcas Caicos</option>
+<option value="IVA">Ilhas Vírgens EUA</option>
+<option value="VGB">Ilhas Vírgens GBR</option>
+<option value="WAK">Ilhas Wake</option>
+<option value="WLF">Ilhas Wallis Futuna</option>
+<option value="IND">Índia</option>
+<option value="IDN">Indonésia</option>
+<option value="ING">Inglaterra</option>
+<option value="IRA">Irã</option>
+<option value="IRQ">Iraque</option>
+<option value="IRL">Irlanda</option>
+<option value="IRN">Irlanda do Norte</option>
+<option value="ISL">Islândia</option>
+<option value="ISR">Israel</option>
+<option value="ITA">Itália</option>
+<option value="IUG">Iugoslávia</option>
+<option value="JAM">Jamaica</option>
+<option value="JAP">Japão</option>
+<option value="JOR">Jordânia</option>
+<option value="KIR">Kiribati</option>
+<option value="KWT">Kuweit</option>
+<option value="LAO">Laos</option>
+<option value="LES">Lesoto</option>
+<option value="LET">Letônia</option>
+<option value="LBN">Líbano</option>
+<option value="LBR">Libéria</option>
+<option value="LIB">Líbia</option>
+<option value="LIE">Liechtenstein</option>
+<option value="LIT">Lituânia</option>
+<option value="LUX">Luxemburgo</option>
+<option value="MAC">Macau</option>
+<option value="MAD">Madagascar</option>
+<option value="MAL">Malásia</option>
+<option value="MLV">Malavi</option>
+<option value="MDV">Maldivas</option>
+<option value="MLI">Mali</option>
+<option value="MLT">Malta</option>
+<option value="MAR">Marrocos</option>
+<option value="MRT">Martinica</option>
+<option value="MAU">Maurício</option>
+<option value="MTN">Mauritânia</option>
+<option value="MEX">México</option>
+<option value="MMR">Mianmar</option>
+<option value="FSM">Micronésia</option>
+<option value="MBQ">Moçambique</option>
+<option value="MOL">Moldova</option>
+<option value="MON">Mônaco</option>
+<option value="MGL">Mongólia</option>
+<option value="MSR">Montserrat</option>
+<option value="NAM">Namíbia</option>
+<option value="NRU">Nauru</option>
+<option value="NPL">Nepal</option>
+<option value="NIC">Nicarágua</option>
+<option value="NIG">Niger</option>
+<option value="NGA">Nigéria</option>
+<option value="NIU">Niue</option>
+<option value="NOR">Noruega</option>
+<option value="NCL">Nova Caledônia</option>
+<option value="NZL">Nova Zelândia</option>
+<option value="OMA">Oma</option>
+<option value="PCI">Pacific Islands</option>
+<option value="PAN">Panamá</option>
+<option value="PNG">Papua Nova Guiné</option>
+<option value="PAQ">Paquistão</option>
+<option value="PRG">Paraguai</option>
+<option value="PER">Peru</option>
+<option value="PCN">Pitcairn</option>
+<option value="PLF">Polinésia Francesa</option>
+<option value="POL">Polônia</option>
+<option value="PTR">Porto Rico</option>
+<option value="POR">Portugal</option>
+<option value="QUE">Quênia</option>
+<option value="QUI">Quirgistão</option>
+<option value="RCA">Rep.Centro-Africana</option>
+<option value="DOM">República Dominicana</option>
+<option value="TCH">República Tcheca</option>
+<option value="REU">Reunião</option>
+<option value="ROM">Romênia</option>
+<option value="RUA">Ruanda</option>
+<option value="RSS">Rússia</option>
+<option value="ASM">Samoa Americana</option>
+<option value="SAM">Samoa Ocidental</option>
+<option value="SMR">San Marino</option>
+<option value="LCA">Santa Lúcia</option>
+<option value="KNA">São Cristóvão Nevis</option>
+<option value="SPM">São Pedro Miquelon</option>
+<option value="STP">São Tomé e Príncipe</option>
+<option value="VCT">São Vicente Granadi</option>
+<option value="SEN">Senegal</option>
+<option value="SRL">Serra Leoa</option>
+<option value="SYC">Seychelles</option>
+<option value="SIR">Síria</option>
+<option value="SOM">Somália</option>
+<option value="SRI">Sri Lanka</option>
+<option value="SUA">Suazilândia</option>
+<option value="SUD">Sudão</option>
+<option value="SUE">Suécia</option>
+<option value="SUI">Suiça</option>
+<option value="SUR">Suriname</option>
+<option value="TAD">Tadjaquistão</option>
+<option value="TAI">Tailândia</option>
+<option value="TAN">Tanzânia</option>
+<option value="TMP">Timor</option>
+<option value="TGO">Togo</option>
+<option value="TKL">Tokelau</option>
+<option value="TON">Tonga</option>
+<option value="TRT">Trinidad e Tobago</option>
+<option value="TUN">Tunísia</option>
+<option value="TUC">Turcomenistão</option>
+<option value="TUR">Turquia</option>
+<option value="TUV">Tuvalu</option>
+<option value="UCR">Ucrânia</option>
+<option value="UGA">Uganda</option>
+<option value="URU">Uruguai</option>
+<option value="UZB">Uzbekistan</option>
+<option value="VUT">Vanuatu</option>
+<option value="VAT">Vaticano</option>
+<option value="VEN">Venezuela</option>
+<option value="VTN">Vietnã</option>
+<option value="ESH">Western Sahara</option>
+<option value="ZAR">Zaire</option>
+<option value="ZAN">Zâmbia</option>
+<option value="ZIN">Zimbabue</option></select>
+								
+													
+								<label for="regiaoFormacao">Região:</label>
+								
+								<select name="filtros.regiaoFormacao" id="regiaoFormacao" class="input-text"><option value="0">Todas</option>
+<option value="CO">Centro-Oeste</option>
+<option value="NE">Nordeste</option>
+<option value="NO">Norte</option>
+<option value="SD">Sudeste</option>
+<option value="SU">Sul</option></select>					
+								
+																					
+								<label for="ufFormacao">UF:</label>
+								
+								<select name="filtros.ufFormacao" id="ufFormacao" class="input-text"><option value="0">Todas</option>
+									
+		  <option value="AC">Acre
+                  </option><option value="AL">Alagoas
+                  </option><option value="AP">Amapá
+                  </option><option value="AM">Amazonas
+                  </option><option value="BA">Bahia
+                  </option><option value="CE">Ceará
+                  </option><option value="DF">Distrito Federal
+                  </option><option value="ES">Espírito Santo
+                  </option><option value="GO">Goiás
+                  </option><option value="MA">Maranhão
+                  </option><option value="MT">Mato Grosso
+                  </option><option value="MS">Mato Grosso do Sul
+                  </option><option value="MG">Minas Gerais
+                  </option><option value="PA">Pará
+                  </option><option value="PB">Paraíba
+                  </option><option value="PR">Paraná
+                  </option><option value="PE">Pernambuco
+                  </option><option value="PI">Piauí
+                  </option><option value="RJ">Rio de Janeiro
+                  </option><option value="RN">Rio Grande do Norte
+                  </option><option value="RS">Rio Grande do Sul
+                  </option><option value="RO">Rondônia
+                  </option><option value="RR">Roraima
+                  </option><option value="SC">Santa Catarina
+                  </option><option value="SP">São Paulo
+                  </option><option value="SE">Sergipe
+                  </option><option value="TO">Tocantins</option></select>
+				
+												
+								<label for="nomeInstFormacao">Instituição:</label>
+								<input type="text" name="filtros.nomeInstFormacao" value="" id="nomeInstFormacao" class="input-text">
+								
+								<div class="control-bar-wrapper"> 
+									<a onclick="fecharFiltro(2)" href="javascript:void(0)" id="preencheCategoriaNivelBolsa" class="button">
+									<span class="mini-ico mini-ico-ok"> </span>Aplicar</a> 
+									<a onclick="limparFormacao();fecharFiltroEDesmarca(2)" href="javascript:void(0)" id="limparCategoriaNivelBolsa" class="button">
+									<span class="mini-ico mini-ico-clear"> </span>Limpar</a> 
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				
+				<!-- curso pos -->
+				<div class="modalFiltros" id="modal_curso_pos">
+					<div class="superior">
+						<div> 
+							<span class="botao2">
+								<a onclick="javascript:fecharFiltro(3)" href="javascript:void(0)" id="cancelarCaptcha">
+									
+								</a>
+							</span>  
+						</div>
+					</div>
+					<div class="centro">
+						<div class="pad">
+						<a class="avisa-modal escondido" href="#">Nova janela aberta em um iFrame. Utilize as setas do teclado para navegar no conteúdo ou tab para navegar entre os títulos. Pressione Esc para sair desta janela.</a> 
+							<h4 class="titulo" tabindex="0">
+								Nível do Curso de Pós-graduação onde é Docente
+							</h4>
+							<div class="conteudo">
+								Este filtro permite restringir a busca a Docentes atuando em cursos avaliados pela CAPES com um determinado conceito.
+								<fieldset>
+								<legend id="legendFiltroNivel">Conceito do Curso:</legend>
+								<input type="hidden" name="filtros.conceitoCurso" value="" id="conceitoCurso" class="input-text">
+								<em><input type="checkbox" id="checkConceito1" role="menuitem"> <label for="checkConceito1">  1 </label> </em>
+								<em><input type="checkbox" id="checkConceito2" role="menuitem"> <label for="checkConceito2"> 2 </label> </em>
+								<em><input type="checkbox" id="checkConceito3" role="menuitem"> <label for="checkConceito3"> 3 </label> </em>
+								<em><input type="checkbox" id="checkConceito4" role="menuitem"> <label for="checkConceito4"> 4 </label> </em>
+								<em><input type="checkbox" id="checkConceito5" role="menuitem"> <label for="checkConceito5"> 5 </label> </em>
+								<em><input type="checkbox" id="checkConceito6" role="menuitem"> <label for="checkConceito6"> 6 </label> </em>
+								<em><input type="checkbox" id="checkConceito7" role="menuitem"> <label for="checkConceito7"> 7 </label> </em>
+								</fieldset>
+								<div class="control-bar-wrapper"> 
+									<a onclick="preencheConceitoCurso();fecharFiltro(3)" href="javascript:void(0)" id="preencheCategoriaNivelBolsa" class="button">
+									<span class="mini-ico mini-ico-ok"> </span>Aplicar</a> 
+									<a onclick="limparConceitoCurso();fecharFiltroEDesmarca(3)" href="javascript:void(0)" id="limparCategoriaNivelBolsa" class="button">
+									<span class="mini-ico mini-ico-clear"> </span>Limpar</a> 
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			
+				<!-- area atuacao -->
+				<input type="hidden" name="filtros.buscaAtuacao" value="false" id="buscaAtuacao">
+				<div class="modalFiltros" id="modal_area_atuacao">
+					<div class="superior">
+						<div> 
+							<span class="botao2">
+								<a onclick="javascript:fecharFiltro(4)" href="javascript:void(0)" id="cancelarCaptcha">
+									
+								</a>
+							</span>  
+						</div>
+					</div>
+					<div class="centro">
+						<div class="pad">
+						<a class="avisa-modal escondido" href="#">Nova janela aberta em um iFrame. Utilize as setas do teclado para navegar no conteúdo ou tab para navegar entre os títulos. Pressione Esc para sair desta janela.</a> 
+							<h4 class="titulo" tabindex="0">
+								Filtros relativos  à área de atuação
+							</h4>				
+							<div class="conteudo">
+								Este filtro permite restringir a busca a currículos que possuam uma área ou grande área específica informada no módulo de áreas do conhecimento.
+								<label for="codigoGrandeAreaAtuacao">Grande área:</label>
+								
+								<select name="filtros.codigoGrandeAreaAtuacao" id="codigoGrandeAreaAtuacao" class="input-text"><option value="0">Todas</option>
+									 <option value="50000004">Ciências Agrárias</option>
+<option value="20000006">Ciências Biológicas</option>
+<option value="40000001">Ciências da Saúde</option>
+<option value="10000003">Ciências Exatas e da Terra</option>
+<option value="70000000">Ciências Humanas</option>
+<option value="60000007">Ciências Sociais Aplicadas</option>
+<option value="30000009">Engenharias</option>
+<option value="80000002">Lingüística, Letras e Artes</option>
+<option value="90000005">Outra</option>
+<option value="A0000000">Tecnologias</option></select>
+															
+								<script type="text/javascript">
+new AjaxJspTag.Select(
+"/buscatextual/busca.do?metodo=ajax&acao=areas", {
+source: "codigoGrandeAreaAtuacao",
+target: "codigoAreaAtuacao",
+parameters: "codigo={codigoGrandeAreaAtuacao}"
+});
+</script>
+
+
+	
+											 
+								<label for="codigoAreaAtuacao">Área:</label>
+			
+								<select name="filtros.codigoAreaAtuacao" id="codigoAreaAtuacao" class="input-text"><option value="0">Todas</option></select>
+								
+								<script type="text/javascript">
+new AjaxJspTag.Select(
+"/buscatextual/busca.do?metodo=ajax&acao=subareas", {
+source: "codigoAreaAtuacao",
+target: "codigoSubareaAtuacao",
+parameters: "codigo={codigoAreaAtuacao}"
+});
+</script>
+
+
+ 
+									
+								<label for="codigoSubareaAtuacao">Subárea:</label>
+			
+								<select name="filtros.codigoSubareaAtuacao" id="codigoSubareaAtuacao" class="input-text"><option value="0">Todas</option></select>
+								
+								<script type="text/javascript">
+new AjaxJspTag.Select(
+"/buscatextual/busca.do?metodo=ajax&acao=espec", {
+source: "codigoSubareaAtuacao",
+target: "codigoEspecialidadeAtuacao",
+parameters: "codigo={codigoSubareaAtuacao}"
+});
+</script>
+
+
+
+									
+								<label for="codigoEspecialidadeAtuacao">Especialidade:</label>
+			
+								<select name="filtros.codigoEspecialidadeAtuacao" id="codigoEspecialidadeAtuacao" class="input-text"><option value="0">Todas</option></select>
+											
+								<div class="control-bar-wrapper"> 
+									<a onclick="aplicarFiltroAtuacao();fecharFiltro(4)" href="javascript:void(0)" id="preencheCategoriaNivelBolsa" class="button">
+									<span class="mini-ico mini-ico-ok"> </span>Aplicar</a> 
+									<a onclick="limparFiltroAtuacao();fecharFiltroEDesmarca(4)" href="javascript:void(0)" id="limparCategoriaNivelBolsa" class="button">
+									<span class="mini-ico mini-ico-clear"> </span>Limpar</a> 
+								</div>			
+											
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			
+				<!-- atividade orientacao -->
+				<div class="modalFiltros" id="modal_ativ_orient">
+					<div class="superior">
+						<div> 
+							<span class="botao2">
+								<a onclick="javascript:fecharFiltro(5)" href="javascript:void(0)" id="cancelarCaptcha">
+								
+								</a>
+							</span>  
+						</div>
+					</div>
+					<div class="centro">
+						<div class="pad">
+						<a class="avisa-modal escondido" href="#">Nova janela aberta em um iFrame. Utilize as setas do teclado para navegar no conteúdo ou tab para navegar entre os títulos. Pressione Esc para sair desta janela.</a> 
+							<h4 class="titulo" tabindex="0">
+								Filtrar por Atividade de Orientação 
+							</h4>
+							<div class="conteudo">
+								Este filtro permite restringir a busca a Orientadores de bolsistas do CNPq em diferentes níveis.
+								<fieldset>
+								<legend id="legendOrientadorSubtitulo">Orientador (CNPq):</legend>
+								<input type="hidden" name="filtros.orientadorCNPq" value="" id="orientadorCNPq">
+								<div class="texto_conteudo">					
+									<em><input type="checkbox" id="checkboxIC" role="menuitem"> <label for="checkboxIC"> Iniciação Científica  </label> </em><br>
+									<em><input type="checkbox" id="checkboxIP" role="menuitem"> <label for="checkboxIP"> Iniciação Científica - PIBIC </label> </em><br>
+									<em><input type="checkbox" id="checkboxME" role="menuitem"> <label for="checkboxME"> Mestrado </label> </em><br>
+									<em><input type="checkbox" id="checkboxDA" role="menuitem"> <label for="checkboxDA"> Doutorado Ativo  </label> </em><br>
+									<em><input type="checkbox" id="checkboxDH" role="menuitem"> <label for="checkboxDH"> Doutorado Habilitado  </label> </em><br>			  					
+								</div>	
+								</fieldset>
+								<div class="control-bar-wrapper"> 
+									<a onclick="preencheOrientacao();fecharFiltro(5)" href="javascript:void(0)" id="preencheCategoriaNivelBolsa" class="button">
+									<span class="mini-ico mini-ico-ok"> </span>Aplicar</a> 
+									<a onclick="limparOrientacao();fecharFiltroEDesmarca(5)" href="javascript:void(0)" id="limparCategoriaNivelBolsa" class="button">
+									<span class="mini-ico mini-ico-clear"> </span>Limpar</a> 
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				
+				<!-- idioma -->
+				<div class="modalFiltros" id="modal_idioma">
+					<div class="superior">
+						<div> 
+							<span class="botao2">
+								<a onclick="javascript:fecharFiltro(6)" href="javascript:void(0)" id="cancelarCaptcha">
+									
+								</a>
+							</span>  
+						</div>
+					</div>
+					<div class="centro">
+						<div class="pad">
+						<a class="avisa-modal escondido" href="#">Nova janela aberta em um iFrame. Utilize as setas do teclado para navegar no conteúdo ou tab para navegar entre os títulos. Pressione Esc para sair desta janela.</a> 
+							<h4 class="titulo" tabindex="0">
+								Filtrar por idioma
+							</h4>				
+							<div class="conteudo">
+								Este filtro permite restringir a busca a currículos que possuam determinada proeficiência em idiomas.
+								<label for="idioma">Idioma:</label>
+								<!-- select name="idioma" onChange="escolheProficiencia()" -->
+								<select name="filtros.idioma" id="idioma" class="input-text"><option value="0">Todos</option>
+<option value="DE">Alemão</option>
+<option value="ES">Espanhol</option>
+<option value="FR">Francês</option>
+<option value="EN">Inglês</option>
+<option value="IT">Italiano</option>
+<option value="PT">Português</option>
+<option value="AB">Abhkazian</option>
+<option value="AA">Afar</option>
+<option value="AF">Afrikaans</option>
+<option value="AY">Aimara</option>
+<option value="SQ">Albanês</option>
+<option value="AM">Amarico</option>
+<option value="AR">Árabe</option>
+<option value="AS">Assames</option>
+<option value="AZ">Azerbaidjano</option>
+<option value="BC">Baluchi</option>
+<option value="EU">Basco</option>
+<option value="BA">Bashquir</option>
+<option value="BN">Bengali</option>
+<option value="BB">Berbere</option>
+<option value="BE">Bielo-Russo</option>
+<option value="BH">Bihari</option>
+<option value="BM">Birmanês</option>
+<option value="BI">Bislama</option>
+<option value="BR">Bretão</option>
+<option value="BG">Búlgaro</option>
+<option value="CB">Cabie</option>
+<option value="KS">Cachemiriano</option>
+<option value="KM">Cambodjano</option>
+<option value="KN">Canadá</option>
+<option value="KK">Casaque</option>
+<option value="CA">Catalão</option>
+<option value="ZH">Chinês</option>
+<option value="SI">Cingalês</option>
+<option value="KO">Coreano</option>
+<option value="CO">Corsico</option>
+<option value="CR">Crioulo</option>
+<option value="HR">Croata</option>
+<option value="KU">Curdo</option>
+<option value="DA">Dinamarquês</option>
+<option value="DI">Divehi</option>
+<option value="DZ">Dzongka</option>
+<option value="FY">Erisão</option>
+<option value="SK">Eslovaco</option>
+<option value="SL">Esloveno</option>
+<option value="EO">Esperanto</option>
+<option value="ET">Estoniano</option>
+<option value="EE">Eue</option>
+<option value="FO">Feróico</option>
+<option value="FJ">Fijiano</option>
+<option value="FL">Filipino</option>
+<option value="FI">Finlandês</option>
+<option value="GD">Gaelico Escocês</option>
+<option value="GL">Galego</option>
+<option value="CY">Galês</option>
+<option value="KA">Georgiano</option>
+<option value="EL">Grego</option>
+<option value="KL">Groenlandês</option>
+<option value="GN">Guarani</option>
+<option value="GU">Gujarati</option>
+<option value="HY">Harmênio</option>
+<option value="HA">Hausa</option>
+<option value="IW">Hebraico</option>
+<option value="HI">Hindi</option>
+<option value="NL">Holandês</option>
+<option value="HU">Húngaro</option>
+<option value="JI">Iidiche</option>
+<option value="IN">Indonésio</option>
+<option value="IA">Interlíngua</option>
+<option value="IE">Interlíngue</option>
+<option value="IK">Inupiak</option>
+<option value="ID">Ioma</option>
+<option value="GA">Irlandês</option>
+<option value="IS">Islandês</option>
+<option value="JA">Japonês</option>
+<option value="JV">Javanês</option>
+<option value="LO">Laosiano</option>
+<option value="LP">Lapão</option>
+<option value="LA">Latim</option>
+<option value="LV">Letão</option>
+<option value="LN">Lingála</option>
+<option value="LT">Lituano</option>
+<option value="LX">Luxemburguês</option>
+<option value="MK">Macedônio</option>
+<option value="ML">Malaiala</option>
+<option value="MS">Malaio</option>
+<option value="MG">Malgaxe</option>
+<option value="MT">Maltês</option>
+<option value="MA">Mandingo</option>
+<option value="MI">Maori</option>
+<option value="MR">Maratí</option>
+<option value="MO">Moldavio</option>
+<option value="MN">Mongol</option>
+<option value="NA">Nauruano</option>
+<option value="NE">Nepali</option>
+<option value="NO">Norueguês</option>
+<option value="OR">Oria</option>
+<option value="OM">Oromo</option>
+<option value="FA">Persa</option>
+<option value="PL">Polonês</option>
+<option value="PA">Punjabi</option>
+<option value="PS">Pushto</option>
+<option value="QU">Quichua</option>
+<option value="RW">Quiniaruanda</option>
+<option value="KY">Quirquiz</option>
+<option value="RN">Quirundi</option>
+<option value="QI">Quisuahili</option>
+<option value="RM">Reto-Romano</option>
+<option value="RO">Romeno</option>
+<option value="RU">Russo</option>
+<option value="SM">Samoano</option>
+<option value="SG">Sango</option>
+<option value="SA">Sanscrito</option>
+<option value="SR">Serbian</option>
+<option value="SH">Servo-Croata</option>
+<option value="ST">Sesoto</option>
+<option value="TN">Setsuana</option>
+<option value="SN">Shona</option>
+<option value="SD">Sindi</option>
+<option value="MY">Sirmanês</option>
+<option value="SS">Sisvati</option>
+<option value="SO">Somali</option>
+<option value="SW">Suaili</option>
+<option value="SU">Sudanês</option>
+<option value="SV">Suéco</option>
+<option value="TG">Tadjique</option>
+<option value="TH">Tai</option>
+<option value="TL">Talagog</option>
+<option value="TA">Tamil</option>
+<option value="TT">Tatar</option>
+<option value="CS">Tcheco-Eslovaco</option>
+<option value="TE">Telugo</option>
+<option value="BO">Tibetano</option>
+<option value="TI">Tigrina</option>
+<option value="TO">Tongalês</option>
+<option value="TS">Tsonga</option>
+<option value="TW">Tui</option>
+<option value="TR">Turco</option>
+<option value="TK">Turcomano</option>
+<option value="TU">Tuvaloano</option>
+<option value="UK">Ucraniâno</option>
+<option value="UR">Urdu</option>
+<option value="UZ">Uzbeco</option>
+<option value="VI">Vietnamita</option>
+<option value="VO">Volupak</option>
+<option value="WO">Wolof</option>
+<option value="XH">Xosa</option>
+<option value="YO">Yoruba</option>
+<option value="ZU">Zulú</option>
+<option value="OU">Outros</option></select>
+								
+								
+								
+								<div class="control-bar-wrapper"> 
+									<a onclick="fecharFiltro(6)" href="javascript:void(0)" id="preencheCategoriaNivelBolsa" class="button">
+									<span class="mini-ico mini-ico-ok"> </span>Aplicar</a> 
+									<a onclick="limparIdioma();fecharFiltroEDesmarca(6)" href="javascript:void(0)" id="limparCategoriaNivelBolsa" class="button">
+									<span class="mini-ico mini-ico-clear"> </span>Limpar</a> 
+								</div>
+										
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			
+				<!-- producao c&t -->
+				<div class="modalFiltros" id="modal_prod_ct">
+					<div class="superior">
+						<div> 
+							<span class="botao2">
+								<a onclick="javascript:fecharFiltro(7)" href="javascript:void(0)" id="cancelarCaptcha">
+									
+								</a>
+							</span>  
+						</div>
+					</div>
+					<div class="centro">
+						<div class="pad">
+						<a class="avisa-modal escondido" href="#">Nova janela aberta em um iFrame. Utilize as setas do teclado para navegar no conteúdo ou tab para navegar entre os títulos. Pressione Esc para sair desta janela.</a> 
+							<h4 class="titulo" tabindex="0">
+								Filtros relativos à produção C,T&amp;I
+							</h4>
+							<div class="conteudo">
+								Permite restringir a busca a pesquisadores que tenham publicado ou produzido em determinada área, grande área ou setor de aplicação.
+								<label for="grandeAreaProducao">Grande área:</label>
+								
+								<select name="filtros.grandeAreaProducao" id="grandeAreaProducao" class="input-text"><option value="0">Todas</option>
+									
+									 <option value="50000004">Ciências Agrárias</option>
+<option value="20000006">Ciências Biológicas</option>
+<option value="40000001">Ciências da Saúde</option>
+<option value="10000003">Ciências Exatas e da Terra</option>
+<option value="70000000">Ciências Humanas</option>
+<option value="60000007">Ciências Sociais Aplicadas</option>
+<option value="30000009">Engenharias</option>
+<option value="80000002">Lingüística, Letras e Artes</option>
+<option value="90000005">Outra</option>
+<option value="A0000000">Tecnologias</option></select>
+																
+													   
+								<script type="text/javascript">
+new AjaxJspTag.Select(
+"/buscatextual/busca.do?metodo=ajax&acao=areas", {
+source: "grandeAreaProducao",
+target: "areaProducao",
+parameters: "codigo={grandeAreaProducao}"
+});
+</script>
+
+
+
+								<label for="areaProducao">Área :</label>
+			
+								<select name="filtros.areaProducao" id="areaProducao" class="input-text"><option value="0">Todas</option>
+									<option value="0"></option></select>
+															
+								
+									
+								<label for="setorProducao">Setor de aplicação:</label>
+								<select name="filtros.setorProducao" id="setorProducao" class="input-text"><option value="0">Todos</option>
+									
+										
+											<option value="404011">Abate e Preparação de Produtos de Carne e de Pescado</option>
+<option value="412011">Administração do Estado e da Política Econômica e Social</option>
+<option value="420389">Administração do estado e da política econômica e social</option>
+<option value="41201">Administração Pública, Defesa e Seguridade Social</option>
+<option value="412">Administração Pública, Defesa e Seguridade Social</option>
+<option value="250000">Administração Pública, Defesa e Seguridade Social</option>
+<option value="420322">Administração pública, defesa e seguridade social</option>
+<option value="421181">Administração pública em geral</option>
+<option value="22">Aeronáutica e Espaço</option>
+<option value="420386">Agências de viagens, operadores turísticos e serviços de reservas</option>
+<option value="420001">Agricultura, Pecuária e Serviços Relacionados</option>
+<option value="40101">Agricultura, Pecuária e Serviços Relacionados Com  Essas Atividades</option>
+<option value="420000">Agricultura, Pecuária, Produção Florestal, Pesca e Aqüicultura</option>
+<option value="401">Agricultura, Pecuária, Silvicultura e Exploração Florestal</option>
+<option value="010000">Agricultura, Pecuária, Silvicultura, Exploração Florestal</option>
+<option value="420156">Água, esgoto, atividades de gestão de resíduos e descontaminação</option>
+<option value="420228">Alimentação</option>
+<option value="420225">Alojamento</option>
+<option value="408">Alojamento e Alimentação</option>
+<option value="40801">Alojamento e Alimentação</option>
+<option value="420224">Alojamento e alimentação</option>
+<option value="420299">Aluguéis não-imobiliários e gestão de ativos intangíveis não-financeiros</option>
+<option value="411021">Aluguel de Automóveis</option>
+<option value="406016">Aluguel de Equipamentos de Construção e Demolição Com Operários</option>
+<option value="411012">Aluguel de Imóveis</option>
+<option value="411023">Aluguel de Máquinas e Equipamentos</option>
+<option value="411024">Aluguel de Objetos Pessoais e Domésticos</option>
+<option value="411022">Aluguel de Outros Meios de Transporte</option>
+<option value="41102">Aluguel de Veículos, Máquinas e Equipamentos Sem Condutores Ou Operadores e de Objetos Pessoais e Domésticos</option>
+<option value="404125">Aparelhamento de Pedras e Fabricação de Cal e de Outros Produtos de Minerais Não-Metálicos</option>
+<option value="420015">Aqüicultura</option>
+<option value="421667">Aqüicultura em água doce</option>
+<option value="420216">Armazenamento e atividades auxiliares dos transportes</option>
+<option value="410014">Arrendamento Mercantil</option>
+<option value="420345">Artes, cultura, esporte e recreação</option>
+<option value="240200">Assessoria Ou Consultoria de Arquitetura Ou Engenharia</option>
+<option value="240500">Assessoria Ou Consultoria em Publicidade</option>
+<option value="240100">Assessoria Ou Consultoria Jurídica, Contábil, de Opinião Pública e Na Gestão de Empresas</option>
+<option value="401016">Atividade de Serviços Relacionados Com A Agricultura e Pecuária, Exceto Atividades Veterinárias</option>
+<option value="420298">Atividades administrativas e serviços complementares</option>
+<option value="40904">Atividades Anexas e Auxiliares do Transporte e Agências de Viagem</option>
+<option value="420346">Atividades artísticas, criativas e de espetáculos</option>
+<option value="41502">Atividades Associativas</option>
+<option value="421155">Atividades associativas não especificadas anteriormente</option>
+<option value="409042">Atividades Auxiliares Aos Transportes</option>
+<option value="41003">Atividades Auxiliares da Intermediação Financeira</option>
+<option value="410031">Atividades Auxiliares da Intermediação Financeira, Exclusive Seguros e Previdência Privada</option>
+<option value="410032">Atividades Auxiliares dos Seguros e da Previdência Privada</option>
+<option value="420268">Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde</option>
+<option value="415031">Atividades Cinematográficas e de Vídeo</option>
+<option value="420236">Atividades cinematográficas, produção de vídeos e de programas de televisão</option>
+<option value="420235">Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e edição de música</option>
+<option value="415034">Atividades de Agências de Notícias</option>
+<option value="409043">Atividades de Agências de Viagens e Organizadores de Viagem</option>
+<option value="421658">Atividades de apoio à agricultura</option>
+<option value="420007">Atividades de apoio à agricultura e à pecuária; atividades de pós-colheita</option>
+<option value="421196">Atividades de apoio à educação</option>
+<option value="420391">Atividades de apoio à educação</option>
+<option value="420027">Atividades de Apoio à Extração de Minerais</option>
+<option value="421681">Atividades de apoio à extração de minerais, exceto petróleo e gás natural</option>
+<option value="420029">Atividades de apoio à extração de minerais, exceto petróleo e gás natural</option>
+<option value="421680">Atividades de apoio à extração de petróleo e gás natural</option>
+<option value="421164">Atividades de apoio à gestão de saúde</option>
+<option value="420337">Atividades de apoio à gestão de saúde</option>
+<option value="421127">Atividades de apoio à pecuária</option>
+<option value="420012">Atividades de apoio à produção florestal</option>
+<option value="421663">Atividades de apoio à produção florestal</option>
+<option value="240000">Atividades de Assessoria e Consultoria Às Empresas</option>
+<option value="420341">Atividades de assistência psicossocial e à saúde a portadores de distúrbios psíquicos, deficiência mental e dependência química</option>
+<option value="421168">Atividades de assistência psicossocial e à saúde a portadores de distúrbios psíquicos, deficiência mental e dependência química</option>
+<option value="421152">Atividades de associações de defesa de direitos sociais</option>
+<option value="414011">Atividades de Atenção À Saúde</option>
+<option value="420332">Atividades de atenção à saúde humana</option>
+<option value="420339">Atividades de atenção à saúde humana integradas com assistência social, prestadas em residências coletivas e particulares</option>
+<option value="421165">Atividades de atenção à saúde humana não especificadas anteriormente</option>
+<option value="420338">Atividades de atenção à saúde humana não especificadas anteriormente</option>
+<option value="420334">Atividades de atenção ambulatorial executadas por médicos e odontólogos</option>
+<option value="421161">Atividades de atenção ambulatorial executadas por médicos e odontólogos</option>
+<option value="420333">Atividades de atendimento hospitalar</option>
+<option value="421158">Atividades de atendimento hospitalar</option>
+<option value="411034">Atividades de Banco de Dados</option>
+<option value="230300">Atividades de Banco de Dados</option>
+<option value="415035">Atividades de Bibliotecas, Arquivos, Museus e Outras Atividades Culturais</option>
+<option value="421141">Atividades de bibliotecas e arquivos</option>
+<option value="421235">Atividades de consultoria em gestão empresarial</option>
+<option value="421199">Atividades de ensino não especificadas anteriormente</option>
+<option value="420350">Atividades de exploração de jogos de azar e apostas</option>
+<option value="41103">Atividades de Informática e Conexas</option>
+<option value="411056">Atividades de Investigação, Vigilância e Segurança</option>
+<option value="411057">Atividades de Limpeza em Prédios e Domicílios</option>
+<option value="421142">Atividades de museus e de exploração, restauração artística e conservação de lugares e prédios históricos e atrações similares</option>
+<option value="420356">Atividades de organizações associativas</option>
+<option value="421154">Atividades de organizações associativas ligadas à cultura e à arte</option>
+<option value="415021">Atividades de Organizações Empresariais, Patronais e Profissionais</option>
+<option value="415022">Atividades de Organizações Sindicais</option>
+<option value="420249">Atividades de prestação de serviços de informação</option>
+<option value="421278">Atividades de produção cinematográfica, de vídeos e de programas de televisão</option>
+<option value="420336">Atividades de profissionais da área de saúde, exceto médicos e odontólogos</option>
+<option value="421163">Atividades de profissionais da área de saúde, exceto médicos e odontólogos</option>
+<option value="415032">Atividades de Rádio e de Televisão</option>
+<option value="420238">Atividades de rádio e de televisão</option>
+<option value="420280">Atividades de sedes de empresas e de consultoria em gestão empresarial</option>
+<option value="420335">Atividades de serviços de complementação diagnóstica e terapêutica</option>
+<option value="421162">Atividades de serviços de complementação diagnóstica e terapêutica</option>
+<option value="420253">Atividades de serviços financeiros</option>
+<option value="420310">Atividades de vigilância, segurança e investigação</option>
+<option value="415036">Atividades Desportivas e Outras Relacionadas Ao Lazer</option>
+<option value="420247">Atividades dos serviços de tecnologia da informação</option>
+<option value="420353">Atividades esportivas</option>
+<option value="420352">Atividades esportivas e de recreação e lazer</option>
+<option value="420252">Atividades financeiras, de seguros e serviços relacionados</option>
+<option value="41101">Atividades Imobiliárias</option>
+<option value="420272">Atividades imobiliárias</option>
+<option value="420273">Atividades imobiliárias</option>
+<option value="411">Atividades Imobiliárias, Aluguéis e Serviços Prestados Às Empresas</option>
+<option value="420274">Atividades imobiliárias de imóveis próprios</option>
+<option value="421228">Atividades imobiliárias de imóveis próprios</option>
+<option value="411013">Atividades Imobiliárias Por Conta de Terceiros</option>
+<option value="420275">Atividades imobiliárias por contrato ou comissão</option>
+<option value="411051">Atividades Jurídicas, Contábeis e de Assessoria Empresarial</option>
+<option value="420277">Atividades jurídicas, de contabilidade e de auditoria</option>
+<option value="420348">Atividades ligadas ao patrimônio cultural e ambiental</option>
+<option value="350000">Atividades No Campo das Nanotecnologias e Desenvolvimento de Nanoprodutos</option>
+<option value="420276">Atividades profissionais, científicas e técnicas</option>
+<option value="421200">Atividades profissionais, científicas e técnicas não especificadas anteriormente</option>
+<option value="420295">Atividades profissionais, científicas e técnicas não especificadas anteriormente</option>
+<option value="41503">Atividades Recreativas, Culturais e Desportivas</option>
+<option value="409044">Atividades Relacionadas À Organização do Transporte de Cargas</option>
+<option value="421238">Atividades técnicas relacionadas à arquitetura e engenharia</option>
+<option value="421201">Atividades veterinárias</option>
+<option value="420296">Atividades veterinárias</option>
+<option value="420297">Atividades veterinárias</option>
+<option value="410011">Banco Central</option>
+<option value="404031">Beneficiamento de Fibras Têxteis Naturais</option>
+<option value="401017">Caça, Repovoamento Cinegético e Atividades dos Serviços Relacionados</option>
+<option value="40502">Captação, Tratamento e Distribuição de Água</option>
+<option value="405021">Captação, Tratamento e Distribuição de Água</option>
+<option value="421436">Captação, tratamento e distribuição de água</option>
+<option value="420158">Captação, tratamento e distribuição de água</option>
+<option value="420157">Captação, tratamento e distribuição de água</option>
+<option value="26">Captação, Tratamento e Distribuição de Água, Limpeza Urbana, Esgoto e Atividades Conexas</option>
+<option value="421146">Clubes sociais, esportivos e similares</option>
+<option value="421439">Coleta de resíduos não-perigosos</option>
+<option value="420161">Coleta, tratamento e disposição de resíduos; recuperação de materiais</option>
+<option value="407015">Comércio A Varejo de Combustíveis</option>
+<option value="407013">Comércio A Varejo e Por Atacado de Peças e Acessórios Para Veículos Automotores</option>
+<option value="407011">Comércio A Varejo e Por Atacado de Veículos Automotores</option>
+<option value="407024">Comércio Atacadista de Artigos de Usos Pessoal e Doméstico</option>
+<option value="421432">Comércio atacadista de energia elétrica</option>
+<option value="420190">Comércio atacadista de equipamentos e produtos de tecnologias de informação e comunicação</option>
+<option value="420192">Comércio atacadista de madeira, ferragens, ferramentas, material elétrico e material de construção</option>
+<option value="407026">Comércio Atacadista de Máquinas, Aparelhos e Equipamentos Para Usos Agropecuário, Comercial, de Escritório, Industrial, Técnico e Profissional</option>
+<option value="420188">Comércio atacadista de matérias-primas agrícolas e animais vivos</option>
+<option value="407027">Comércio Atacadista de Mercadorias em Geral Ou Não Compreendidas Nos Grupos Anteriores</option>
+<option value="407022">Comércio Atacadista de Produtos Agropecuários "In Natura"; Produtos Alimentícios Para Animais</option>
+<option value="407023">Comércio Atacadista de Produtos Alimentícios, Bebidas e Fumo</option>
+<option value="420379">Comércio atacadista de produtos de consumo não-alimentar</option>
+<option value="407025">Comércio Atacadista de Produtos Intermediários Não-Agropecuários, Resíduos e Sucatas</option>
+<option value="420193">Comércio atacadista especializado em outros produtos</option>
+<option value="420194">Comércio atacadista não-especializado</option>
+<option value="420181">Comércio e reparação de veículos automotores e motocicletas</option>
+<option value="40701">Comércio e Reparação de Veículos Automotores e Motocicletas; e Comércio A Varejo de Combustíveis</option>
+<option value="407014">Comércio, Manutenção e Reparação de Motocicletas, Partes, Peças e Acessórios</option>
+<option value="40702">Comércio Por Atacado e Representantes Comerciais e Agentes  do Comércio</option>
+<option value="420186">Comércio por atacado, exceto veículos automotores e motocicletas</option>
+<option value="420180">Comércio; reparação de veículos automotores e motocicletas</option>
+<option value="407">Comércio; Reparação de Veículos Automotores, Objetos Pessoais e Domésticos</option>
+<option value="420195">Comércio varejista</option>
+<option value="407035">Comércio Varejista de Artigos Usados, em Lojas</option>
+<option value="407034">Comércio Varejista de Outros Produtos, em Lojas Especializadas</option>
+<option value="407032">Comércio Varejista de Produtos Alimentícios, Bebidas e Fumo, em Lojas Especializadas</option>
+<option value="407033">Comércio Varejista de Tecidos, Artigos de Armarinho, Vestuário, Calçados, em Lojas Especializadas</option>
+<option value="40703">Comércio Varejista e Reparação de Objetos Pessoais e Domésticos</option>
+<option value="407031">Comércio Varejista Não Especializado</option>
+<option value="407036">Comércio Varejista Não Realizado em Lojas</option>
+<option value="411014">Condomínios Prediais</option>
+<option value="404041">Confecção de Artigos do Vestuário</option>
+<option value="40404">Confecção de Artigos do Vestuário e Acessórios</option>
+<option value="420053">Confecção de artigos do vestuário e acessórios</option>
+<option value="40601">Construção</option>
+<option value="420167">Construção</option>
+<option value="406">Construção</option>
+<option value="07">Construção Civil</option>
+<option value="421447">Construção de edifícios</option>
+<option value="420168">Construção de edifícios</option>
+<option value="406012">Construção de Edifícios e Obras de Engenharia Civil</option>
+<option value="420134">Construção de embarcações</option>
+<option value="420174">Construção de outras obras de infra-estrutura</option>
+<option value="420172">Construção de rodovias, ferrovias, obras urbanas e obras-de-arte especiais</option>
+<option value="404211">Construção e Reparação de Embarcações</option>
+<option value="404213">Construção, Montagem e Reparação de Aeronaves</option>
+<option value="404212">Construção, Montagem e Reparação de Veículos Ferroviários</option>
+<option value="411031">Consultoria em Sistemas de Informática</option>
+<option value="230100">Consultoria em Sistemas de Informática</option>
+<option value="421294">Consultoria em tecnologia da informação</option>
+<option value="404091">Coquerias</option>
+<option value="409051">Correio</option>
+<option value="420221">Correio e outras atividades de entrega</option>
+<option value="40905">Correio e Telecomunicações</option>
+<option value="421657">Criação de animais não especificados anteriormente</option>
+<option value="421136">Criação de aves</option>
+<option value="421656">Criação de bovinos</option>
+<option value="421134">Criação de caprinos e ovinos</option>
+<option value="421133">Criação de outros animais de grande porte</option>
+<option value="421135">Criação de suínos</option>
+<option value="270100">Cuidado À Saúde das Pessoas</option>
+<option value="270200">Cuidado À Saúde das Populações Humanas</option>
+<option value="421652">Cultivo de cacau</option>
+<option value="421651">Cultivo de café</option>
+<option value="421642">Cultivo de cana-de-açúcar</option>
+<option value="421649">Cultivo de cereais</option>
+<option value="421650">Cultivo de frutas de lavoura permanente, exceto laranja e uva</option>
+<option value="421648">Cultivo de laranja</option>
+<option value="421644">Cultivo de oleaginosas de lavoura temporária, exceto soja</option>
+<option value="421653">Cultivo de plantas de lavoura permanente não especificadas anteriormente</option>
+<option value="421645">Cultivo de plantas de lavoura temporária não especificadas anteriormente</option>
+<option value="421131">Cultivo de soja</option>
+<option value="421132">Cultivo de uva</option>
+<option value="404051">Curtimento e Outras Preparações de Couro</option>
+<option value="421185">Defesa</option>
+<option value="421740">Defesa Civil</option>
+<option value="420165">Descontaminação e outros serviços de gestão de resíduos</option>
+<option value="421446">Descontaminação e outros serviços de gestão de resíduos</option>
+<option value="420166">Descontaminação e outros serviços de gestão de resíduos</option>
+<option value="404061">Desdobramento de Madeira</option>
+<option value="12">Desenvolvimento de Novos Materiais</option>
+<option value="270400">Desenvolvimento de Produtos Tecnológicos Voltados Para A Saúde Humana</option>
+<option value="421292">Desenvolvimento de programas de computador sob encomenda</option>
+<option value="411032">Desenvolvimento de Programas de Informática</option>
+<option value="230200">Desenvolvimento de Programas (Software)</option>
+<option value="230000">Desenvolvimento de Programas (Software) e Prestação de Serviços em Informática</option>
+<option value="421293">Desenvolvimento e licenciamento de programas de computador customizáveis</option>
+<option value="421729">Desenvolvimento e licenciamento de programas de computador não-customizáveis</option>
+<option value="32">Desenvolvimento Rural</option>
+<option value="02">Desenvolvimento Urbano</option>
+<option value="421433">Distribuição de energia elétrica</option>
+<option value="404081">Edição ; Edição e Impressão</option>
+<option value="420233">Edição de livros, jornais, revistas e outras atividades de edição</option>
+<option value="420232">Edição e edição integrada à impressão</option>
+<option value="40408">Edição, Impressão e Reprodução de Gravações</option>
+<option value="080000">Edição, Impressão, Reprodução e Gravação Industriais de Jornais, Revistas, Livros, Discos, Fitas, Vídeos e Filmes</option>
+<option value="41301">Educação</option>
+<option value="420325">Educação</option>
+<option value="413">Educação</option>
+<option value="03">Educação</option>
+<option value="420326">Educação</option>
+<option value="260200">Educação Média de Formação Geral</option>
+<option value="413012">Educação Média de Formação Geral, Profissionalizante Ou Técnica</option>
+<option value="260300">Educação Média de Formação Técnica Ou Profissional</option>
+<option value="260100">Educação Pré-Escolar e Fundamental</option>
+<option value="413011">Educação Pré-Escolar e Fundamental</option>
+<option value="421194">Educação profissional de nível técnico</option>
+<option value="420329">Educação profissional de nível técnico e tecnológico</option>
+<option value="421195">Educação profissional de nível tecnológico</option>
+<option value="413013">Educação Superior</option>
+<option value="260400">Educação Superior</option>
+<option value="420328">Educação superior</option>
+<option value="421191">Educação superior - graduação</option>
+<option value="421192">Educação superior - graduação e pós-graduação</option>
+<option value="421193">Educação superior - pós-graduação e extensão</option>
+<option value="090300">Elaboração de Combustíveis Nucleares</option>
+<option value="404093">Elaboração de Combustíveis Nucleares</option>
+<option value="420151">Eletricidade e gás</option>
+<option value="40501">Eletricidade, Gás e Água Quente</option>
+<option value="420152">Eletricidade, gás e outras utilidades</option>
+<option value="04">Energia</option>
+<option value="240300">Ensaios de Materiais e de Produtos; Análise de Qualidade</option>
+<option value="411053">Ensaios de Materiais e de Produtos; Análise de Qualidade</option>
+<option value="421743">Ensino de arte e cultura</option>
+<option value="421197">Ensino de esportes</option>
+<option value="421189">Ensino fundamental</option>
+<option value="420390">Ensino médio</option>
+<option value="421190">Ensino médio</option>
+<option value="420160">Esgoto e atividades relacionadas</option>
+<option value="420159">Esgoto e atividades relacionadas</option>
+<option value="408011">Estabelecimentos Hoteleiros e Outros Tipos de Alojamento Temporário</option>
+<option value="403011">Extração de Carvão Mineral</option>
+<option value="40301">Extração de Carvão Mineral</option>
+<option value="420017">Extração de Carvão Mineral</option>
+<option value="420018">Extração de carvão mineral</option>
+<option value="40303">Extração de Minerais Metálicos</option>
+<option value="420021">Extração de Minerais Metálicos</option>
+<option value="403032">Extração de Minerais Metálicos Não-Ferrosos</option>
+<option value="420023">Extração de minerais metálicos não-ferrosos</option>
+<option value="420024">Extração de Minerais Não-Metálicos</option>
+<option value="40304">Extração de Minerais Não-Metálicos</option>
+<option value="421676">Extração de minerais para fabricação de adubos, fertilizantes e outros produtos químicos</option>
+<option value="403031">Extração de Minério de Ferro</option>
+<option value="060200">Extração de Outros Minerais</option>
+<option value="403042">Extração de Outros Minerais Não-Metálicos</option>
+<option value="403041">Extração de Pedra, Areia e Argila</option>
+<option value="420019">Extração de Petróleo e Gás Natural</option>
+<option value="403021">Extração de Petróleo e Gás Natural</option>
+<option value="420020">Extração de petróleo e gás natural</option>
+<option value="421668">Extração de petróleo e gás natural</option>
+<option value="40302">Extração de Petróleo e Serviços Correlatos</option>
+<option value="060100">Extração de Petróleo e Serviços Correlatos</option>
+<option value="404042">Fabricação de Acessórios do Vestuário e de Segurança Profissional</option>
+<option value="421616">Fabricação de aditivos de uso industrial</option>
+<option value="420136">Fabricação de aeronaves</option>
+<option value="421110">Fabricação de aguardentes e outras bebidas destiladas</option>
+<option value="421601">Fabricação de álcool</option>
+<option value="421697">Fabricação de alimentos para animais</option>
+<option value="421519">Fabricação de aparelhos e equipamentos de medida, teste e controle</option>
+<option value="28">Fabricação de Aparelhos e Equipamentos de Telecomunicação</option>
+<option value="404182">Fabricação de Aparelhos e Equipamentos de Telefonia e Radiotelefonia e de Transmissores de Televisão e Rádio</option>
+<option value="404192">Fabricação de Aparelhos e Instrumentos de Medida, Teste e Controle - Exclusive Equipamentos Para Controle de Processos Industriais</option>
+<option value="420110">Fabricação de aparelhos e instrumentos de medida, teste e controle; cronômetros e relógios</option>
+<option value="404191">Fabricação de Aparelhos e Instrumentos Para Usos Médicos-Hospitalares, Odontológicos e de Laboratórios e Aparelhos Ortopédicos</option>
+<option value="420378">Fabricação de aparelhos eletromédicos e eletroterapêuticos e equipamentos de irradiação</option>
+<option value="404194">Fabricação de Aparelhos, Instrumentos e Materiais Ópticos, Fotográficos e Cinematográficos</option>
+<option value="404183">Fabricação de Aparelhos Receptores de Rádio e Televisão e de Reprodução, Gravação Ou Amplificação de Som e Vídeo</option>
+<option value="404157">Fabricação de Armas, Munições e Equipamentos Militares</option>
+<option value="404123">Fabricação de Artefatos de Concreto, Cimento, Fibrocimento, Gesso e Estuque</option>
+<option value="420092">Fabricação de artefatos de concreto, cimento, fibrocimento, gesso e materiais semelhantes</option>
+<option value="421578">Fabricação de artefatos de material plástico não especificados anteriormente</option>
+<option value="404074">Fabricação de Artefatos Diversos de Papel, Papelão, Cartolina e Cartão</option>
+<option value="404036">Fabricação de Artefatos Têxteis A Partir de Tecidos - Exclusive Vestuário - e de Outros Artigos Têxteis</option>
+<option value="404034">Fabricação de Artefatos Têxteis, Incluindo Tecelagem</option>
+<option value="404111">Fabricação de Artigos de Borracha</option>
+<option value="40411">Fabricação de Artigos de Borracha e Plástico</option>
+<option value="404144">Fabricação de Artigos de Cutelaria, de Serralheria e Ferramentas Manuais</option>
+<option value="421580">Fabricação de artigos de vidro</option>
+<option value="404221">Fabricação de Artigos do Mobiliário</option>
+<option value="404052">Fabricação de Artigos Para Viagem e de Artefatos Diversos de Couro</option>
+<option value="404201">Fabricação de Automóveis, Caminhonetas e Utilitários</option>
+<option value="421514">Fabricação de automóveis, camionetas e utilitários</option>
+<option value="420041">Fabricação de Bebidas</option>
+<option value="404019">Fabricação de Bebidas</option>
+<option value="420043">Fabricação de bebidas não-alcoólicas</option>
+<option value="420076">Fabricação de biocombustíveis</option>
+<option value="421602">Fabricação de biocombustíveis, exceto álcool</option>
+<option value="421704">Fabricação de biscoitos e bolachas</option>
+<option value="404203">Fabricação de Cabines, Carrocerias e Reboques</option>
+<option value="404053">Fabricação de Calçados</option>
+<option value="404202">Fabricação de Caminhões e Ônibus</option>
+<option value="421515">Fabricação de caminhões e ônibus</option>
+<option value="100700">Fabricação de Catalisadores</option>
+<option value="421566">Fabricação de catalisadores</option>
+<option value="404071">Fabricação de Celulose e Outras Pastas Para A Fabricação de Papel</option>
+<option value="421635">Fabricação de celulose e outras pastas para a fabricação de papel</option>
+<option value="40407">Fabricação de Celulose, Papel e Produtos de Papel</option>
+<option value="070300">Fabricação de Celulose, Papel e Produtos de Papel</option>
+<option value="420064">Fabricação de celulose, papel e produtos de papel</option>
+<option value="404122">Fabricação de Cimento</option>
+<option value="420091">Fabricação de cimento</option>
+<option value="421099">Fabricação de componentes eletrônicos</option>
+<option value="420377">Fabricação de componentes eletrônicos</option>
+<option value="421107">Fabricação de conservas de frutas</option>
+<option value="420034">Fabricação de conservas de frutas, legumes e outros vegetais</option>
+<option value="090100">Fabricação de Coque</option>
+<option value="420073">Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis</option>
+<option value="40409">Fabricação de Coque, Refino de Petróleo, Elaboração de Combustíveis Nucleares e Produção de Álcool</option>
+<option value="090000">Fabricação de Coque, Refino de Petróleo, Elaboração de Combustíveis Nucleares e Produção de Álcool</option>
+<option value="421612">Fabricação de cosméticos, produtos de perfumaria e de higiene pessoal</option>
+<option value="404195">Fabricação de Cronômetros e Relógios</option>
+<option value="100600">Fabricação de Defensivos Agrícolas</option>
+<option value="404106">Fabricação de Defensivos Agrícolas</option>
+<option value="420081">Fabricação de defensivos agrícolas e desinfestantes domissanitários</option>
+<option value="404158">Fabricação de Eletrodomésticos</option>
+<option value="421576">Fabricação de embalagens de material plástico</option>
+<option value="420067">Fabricação de embalagens de papel, cartolina, papel-cartão e papelão ondulado</option>
+<option value="404073">Fabricação de Embalagens de Papel Ou Papelão</option>
+<option value="420104">Fabricação de equipamento bélico pesado, armas de fogo e munições</option>
+<option value="420108">Fabricação de equipamentos de comunicação</option>
+<option value="150000">Fabricação de Equipamentos de Informática e Máquinas Para Escritório</option>
+<option value="420106">Fabricação de equipamentos de informática, produtos eletrônicos e ópticos</option>
+<option value="180100">Fabricação de Equipamentos de Instrumentação Médico-Hospitalar, Odontológico e de Laboratórios</option>
+<option value="40419">Fabricação de Equipamentos de Instrumentação Médico-Hospitalares, Instrumentos de Precisão e Ópticos, Equipamentos Para Automação Industrial, Cronômetros e Relógios</option>
+<option value="20">Fabricação de Equipamentos de Instrumentação Médico-Hospitalares, Instrumentos de Precisão e Ópticos, Equipamentos Para Automação Industrial, Cronômetros e Relógios</option>
+<option value="420111">Fabricação de equipamentos e instrumentos ópticos, fotográficos e cinematográficos</option>
+<option value="404172">Fabricação de Equipamentos Para Distribuição e Controle de Energia Elétrica</option>
+<option value="421565">Fabricação de equipamentos transmissores de comunicação</option>
+<option value="421707">Fabricação de especiarias, molhos, temperos e condimentos</option>
+<option value="130000">Fabricação de Estruturas Metálicas, Caldeiraria Pesada, Tanques, Reservatórios e Outros Produtos de Metal, Exclusive Máquinas e Equipamentos</option>
+<option value="404141">Fabricação de Estruturas Metálicas e Obras de Caldeiraria Pesada</option>
+<option value="420372">Fabricação de fibras artificiais e sintéticas</option>
+<option value="100400">Fabricação de Fibras, Fios, Cabos e Filamentos Contínuos, Artificiais e Sintéticos</option>
+<option value="404104">Fabricação de Fibras, Fios, Cabos e Filamentos Contínuos Artificiais e Sintéticos</option>
+<option value="404173">Fabricação de Fios, Cabos e Condutores Elétricos Isolados</option>
+<option value="421605">Fabricação de gases industriais</option>
+<option value="404171">Fabricação de Geradores, Transformadores e Motores Elétricos</option>
+<option value="421524">Fabricação de geradores, transformadores e motores elétricos</option>
+<option value="420114">Fabricação de geradores, transformadores e motores elétricos</option>
+<option value="420146">Fabricação de instrumentos e materiais para uso médico e odontológico e de artigos ópticos</option>
+<option value="421575">Fabricação de laminados planos e tubulares de material plástico</option>
+<option value="404175">Fabricação de Lâmpadas e Equipamentos de Iluminação</option>
+<option value="421111">Fabricação de malte, cervejas e chopes</option>
+<option value="404193">Fabricação de Máquinas, Aparelhos e Equipamentos de Sistemas Eletrônicos Dedicados A Automação Industrial e Controle do Processo Produtivo</option>
+<option value="180200">Fabricação de Máquinas, Aparelhos e Equipamentos de Sistemas Eletrônicos Dedicados À Automação Industrial e Controle do Processo Produtivo</option>
+<option value="160000">Fabricação de Máquinas, Aparelhos e Materiais Elétricos</option>
+<option value="40417">Fabricação de Máquinas, Aparelhos e Materiais Elétricos</option>
+<option value="420113">Fabricação de máquinas, aparelhos e materiais elétricos</option>
+<option value="11">Fabricação de Máquinas Com Componentes de Mecânica de Precisão</option>
+<option value="40415">Fabricação de Máquinas e Equipamentos</option>
+<option value="420120">Fabricação de máquinas e equipamentos</option>
+<option value="404162">Fabricação de Máquinas e Equipamentos de Sistemas Eletrônicos Para Processamento de Dados</option>
+<option value="404152">Fabricação de Máquinas e Equipamentos de Uso Geral</option>
+<option value="421498">Fabricação de máquinas e equipamentos de uso geral não especificados anteriormente</option>
+<option value="420125">Fabricação de máquinas e equipamentos de uso na extração mineral e na construção</option>
+<option value="140000">Fabricação de Máquinas e Equipamentos, Inclusive Máquinas-Ferramenta</option>
+<option value="404155">Fabricação de Máquinas e Equipamentos Para As Indústrias de Extração Mineral e Construção</option>
+<option value="404161">Fabricação de Máquinas Para Escritório</option>
+<option value="40416">Fabricação de Máquinas Para Escritório e Equipamentos de Informática</option>
+<option value="404154">Fabricação de Máquinas-Ferramenta</option>
+<option value="421502">Fabricação de máquinas-ferramenta</option>
+<option value="421706">Fabricação de massas alimentícias</option>
+<option value="404176">Fabricação de Material Elétrico Para Veículos - Exclusive Baterias</option>
+<option value="404181">Fabricação de Material Eletrônico Básico</option>
+<option value="170100">Fabricação de Material Eletrônico Básico</option>
+<option value="170000">Fabricação de Material Eletrônico e de Aparelhos e Equipamentos de Comunicação</option>
+<option value="40418">Fabricação de Material Eletrônico e de Aparelhos e Equipamentos de Comunicações</option>
+<option value="421569">Fabricação de medicamentos para uso humano</option>
+<option value="421570">Fabricação de medicamentos para uso veterinário</option>
+<option value="404151">Fabricação de Motores, Bombas, Compressores e Equipamentos de Transmissão</option>
+<option value="420139">Fabricação de móveis</option>
+<option value="40422">Fabricação de Móveis e Indústrias Diversas</option>
+<option value="420035">Fabricação de óleos e gorduras vegetais e animais</option>
+<option value="404156">Fabricação de Outras Máquinas e Equipamentos de Uso Específico</option>
+<option value="180300">Fabricação de Outros Aparelhos e Instrumentos de Medida, Teste e Controle, Exceto Equipamentos Para Controle de Processos Industriais</option>
+<option value="40421">Fabricação de Outros Equipamentos de Transporte</option>
+<option value="404214">Fabricação de Outros Equipamentos de Transporte</option>
+<option value="420133">Fabricação de outros equipamentos de transporte, exceto veículos automotores</option>
+<option value="404177">Fabricação de Outros Equipamentos e Aparelhos Elétricos</option>
+<option value="404018">Fabricação de Outros Produtos Alimentícios</option>
+<option value="420040">Fabricação de outros produtos alimentícios</option>
+<option value="100800">Fabricação de Outros Produtos Químicos</option>
+<option value="404072">Fabricação de Papel, Papelão Liso, Cartolina e Cartão</option>
+<option value="404204">Fabricação de Peças e Acessórios Para Veículos Automotores</option>
+<option value="404174">Fabricação de Pilhas, Baterias e Acumuladores Elétricos</option>
+<option value="421571">Fabricação de preparações farmacêuticas</option>
+<option value="420031">Fabricação de Produtos Alimentícios</option>
+<option value="40401">Fabricação de Produtos Alimentícios e Bebidas</option>
+<option value="421709">Fabricação de produtos alimentícios não especificados anteriormente</option>
+<option value="110100">Fabricação de Produtos Cerâmicos</option>
+<option value="404124">Fabricação de Produtos Cerâmicos</option>
+<option value="420093">Fabricação de produtos cerâmicos</option>
+<option value="420087">Fabricação de produtos de borracha e de material plástico</option>
+<option value="100900">Fabricação de Produtos de Borracha e Plástico</option>
+<option value="421684">Fabricação de produtos de carne</option>
+<option value="40406">Fabricação de Produtos de Madeira</option>
+<option value="420061">Fabricação de produtos de madeira</option>
+<option value="404062">Fabricação de Produtos de Madeira, Cortiça e Material Trançado - Exclusive Móveis</option>
+<option value="070200">Fabricação de Produtos de Madeira, Inclusive Móveis</option>
+<option value="420089">Fabricação de produtos de material plástico</option>
+<option value="40414">Fabricação de Produtos de Metal - Exclusive Máquinas e Equipamentos</option>
+<option value="420100">Fabricação de produtos de metal, exceto máquinas e equipamentos</option>
+<option value="40412">Fabricação de Produtos de Minerais Não-Metálicos</option>
+<option value="110000">Fabricação de Produtos de Minerais Não-Metálicos</option>
+<option value="420374">Fabricação de produtos de minerais não-metálicos</option>
+<option value="110200">Fabricação de Produtos de Outros Materiais Não-Metálicos</option>
+<option value="421703">Fabricação de produtos de panificação</option>
+<option value="404112">Fabricação de Produtos de Plástico</option>
+<option value="421705">Fabricação de produtos derivados do cacau, de chocolates e confeitos</option>
+<option value="420075">Fabricação de produtos derivados do petróleo</option>
+<option value="404222">Fabricação de Produtos Diversos</option>
+<option value="420147">Fabricação de produtos diversos</option>
+<option value="420141">Fabricação de produtos diversos</option>
+<option value="404145">Fabricação de Produtos Diversos de Metal</option>
+<option value="421459">Fabricação de produtos diversos não especificados anteriormente</option>
+<option value="40402">Fabricação de Produtos do Fumo</option>
+<option value="420044">Fabricação de Produtos do Fumo</option>
+<option value="404021">Fabricação de Produtos do Fumo </option>
+<option value="404109">Fabricação de Produtos e Preparados Químicos Diversos</option>
+<option value="420084">Fabricação de produtos e preparados químicos diversos</option>
+<option value="14">Fabricação de Produtos Farmacêuticos</option>
+<option value="404105">Fabricação de Produtos Farmacêuticos</option>
+<option value="420086">Fabricação de produtos farmacêuticos</option>
+<option value="421568">Fabricação de produtos farmoquímicos</option>
+<option value="420373">Fabricação de produtos farmoquímicos e farmacêuticos</option>
+<option value="13">Fabricação de Produtos Químicos</option>
+<option value="40410">Fabricação de Produtos Químicos</option>
+<option value="420077">Fabricação de produtos químicos</option>
+<option value="100100">Fabricação de Produtos Químicos Inorgânicos</option>
+<option value="404101">Fabricação de Produtos Químicos Inorgânicos</option>
+<option value="420078">Fabricação de produtos químicos inorgânicos</option>
+<option value="421119">Fabricação de produtos químicos inorgânicos não especificados anteriormente</option>
+<option value="404102">Fabricação de Produtos Químicos Orgânicos</option>
+<option value="100200">Fabricação de Produtos Químicos Orgânicos</option>
+<option value="420079">Fabricação de produtos químicos orgânicos</option>
+<option value="404132">Fabricação de Produtos Siderúrgicos - Exclusive em Siderúrgicas Integradas</option>
+<option value="120100">Fabricação de Produtos Siderúrgicos em Geral</option>
+<option value="420047">Fabricação de Produtos Têxteis</option>
+<option value="40403">Fabricação de Produtos Têxteis</option>
+<option value="16">Fabricação de Produtos Têxteis</option>
+<option value="070000">Fabricação de Produtos Têxteis, de Madeira, Inclusive Móveis, de Celulose, Papel e Produtos de Papel</option>
+<option value="404103">Fabricação de Resinas e Elastômeros</option>
+<option value="100300">Fabricação de Resinas e Elastômeros</option>
+<option value="420082">Fabricação de sabões, detergentes, produtos de limpeza, cosméticos, produtos de perfumaria e de higiene pessoal</option>
+<option value="404107">Fabricação de Sabões, Detergentes, Produtos de Limpeza e Artigos de Perfumaria</option>
+<option value="421693">Fabricação de sorvetes e outros gelados comestíveis</option>
+<option value="421687">Fabricação de sucos de frutas, hortaliças e legumes</option>
+<option value="404142">Fabricação de Tanques, Caldeiras e Reservatórios Metálicos</option>
+<option value="404037">Fabricação de Tecidos e Artigos de Malha</option>
+<option value="404108">Fabricação de Tintas, Vernizes, Esmaltes, Lacas e Produtos Afins</option>
+<option value="404153">Fabricação de Tratores e de Máquinas e Equipamentos Para A Agricultura, Avicultura e Obtenção de Produtos Animais</option>
+<option value="404133">Fabricação de Tubos - Exclusive em Siderúrgicas Integradas</option>
+<option value="420127">Fabricação de veículos automotores, reboques e carrocerias</option>
+<option value="404121">Fabricação de Vidro e de Produtos do Vidro</option>
+<option value="421710">Fabricação de vinho</option>
+<option value="190100">Fabricação e Montagem de Automóveis, Caminhões, Ônibus e Tratores e Demais Máquinas e Implementos Agrícolas, Reboques e Carrocerias</option>
+<option value="190200">Fabricação e Montagem de Embarcações, Veículos Ferroviários e Aeronaves</option>
+<option value="190000">Fabricação e Montagem de Veículos Automotores Para Transporte de Carga e Passageiros</option>
+<option value="40420">Fabricação e Montagem de Veículos Automotores, Reboques e Carrocerias</option>
+<option value="404016">Fabricação e Refino de Açúcar</option>
+<option value="404032">Fiação</option>
+<option value="404143">Forjaria, Estamparia, Metalurgia do Pó e Serviços de Tratamento de Metais</option>
+<option value="420102">Forjaria, estamparia, metalurgia do pó e serviços de tratamento de metais</option>
+<option value="413014">Formação Permanente e Outras Atividades de Ensino</option>
+<option value="260500">Formação Permanente e Outras Atividades de Ensino, Inclusive Educação À Distância e Educação Especial</option>
+<option value="404135">Fundição</option>
+<option value="120300">Fundição de Metais Ferrosos e Não-Ferrosos</option>
+<option value="421548">Fundição de metais não-ferrosos e suas ligas</option>
+<option value="421430">Geração de energia elétrica</option>
+<option value="420153">Geração, transmissão e distribuição de energia elétrica</option>
+<option value="421646">Horticultura</option>
+<option value="420003">Horticultura e floricultura</option>
+<option value="401012">Horticultura e Produtos de Viveiro</option>
+<option value="420069">Impressão e reprodução de gravações</option>
+<option value="404082">Impressão e Serviços Conexos Para Terceiros</option>
+<option value="420169">Incorporação de empreendimentos imobiliários</option>
+<option value="411011">Incorporação e Compra e Venda de Imóveis</option>
+<option value="08">Industria Eletro-Eletrônica</option>
+<option value="10">Indústria Metal-Mecânica</option>
+<option value="420030">Indústrias de Transformação</option>
+<option value="404">Indústrias de Transformação</option>
+<option value="060000">Indústrias Extrativas</option>
+<option value="420016">Indústrias Extrativas</option>
+<option value="403">Indústrias Extrativas</option>
+<option value="420231">Informação e comunicação</option>
+<option value="17">Informacao e Gestao C&amp;T</option>
+<option value="09">Informática</option>
+<option value="420177">Instalações elétricas, hidráulicas e outras instalações em construções</option>
+<option value="410">Intermediação Financeira</option>
+<option value="41001">Intermediação Financeira, Exclusive Seguros e Previdência Privada</option>
+<option value="410012">Intermediação Monetária - Depósitos À Vista</option>
+<option value="410013">Intermediação Monetária - Outros Tipos de Depósitos</option>
+<option value="18">Irrigação e Drenagem</option>
+<option value="421186">Justiça</option>
+<option value="420036">Laticínios</option>
+<option value="404014">Laticínios</option>
+<option value="41501">Limpeza Urbana e Esgoto; e Atividades Conexas</option>
+<option value="415011">Limpeza Urbana e Esgoto; e Atividades Conexas</option>
+<option value="30">Logística de Transporte, Armazenagem e Comunicações</option>
+<option value="421465">Manutenção e reparação de aeronaves</option>
+<option value="411035">Manutenção e Reparação de Máquinas de Escritório e de Informática</option>
+<option value="407012">Manutenção e Reparação de Veículos Automotores</option>
+<option value="420148">Manutenção, reparação e instalação de máquinas e equipamentos</option>
+<option value="29">Mercado de Trabalho e Mão-De-Obra</option>
+<option value="420094">Metalurgia</option>
+<option value="40413">Metalurgia Básica</option>
+<option value="120000">Metalurgia Básica</option>
+<option value="404134">Metalurgia de Metais Não-Ferrosos</option>
+<option value="120200">Metalurgia de Metais Não-Ferrosos</option>
+<option value="421543">Metalurgia do alumínio e suas ligas</option>
+<option value="420098">Metalurgia dos metais não-ferrosos</option>
+<option value="421546">Metalurgia dos metais não-ferrosos e suas ligas não especificados anteriormente</option>
+<option value="421108">Moagem de trigo e fabricação de derivados</option>
+<option value="421698">Moagem e fabricação de produtos de origem vegetal não especificados anteriormente</option>
+<option value="420037">Moagem, fabricação de produtos amiláceos e de alimentos para animais</option>
+<option value="404015">Moagem, Fabricação de Produtos Amiláceos e de Rações Balanceadas Para Animais</option>
+<option value="409041">Movimentação e Armazenamento de Cargas</option>
+<option value="360000">Neurociências</option>
+<option value="21">Nutrição e Alimentação</option>
+<option value="406015">Obras de Acabamento</option>
+<option value="420171">Obras de infra-estrutura</option>
+<option value="406013">Obras de Infra-Estrutura Para Engenharia Elétrica e de Telecomunicações</option>
+<option value="406014">Obras de Instalações</option>
+<option value="421422">Obras de instalações em construções não especificadas anteriormente</option>
+<option value="417011">Organismos Internacionais e Outras Instituições Extraterritoriais</option>
+<option value="417">Organismos Internacionais e Outras Instituições Extraterritoriais</option>
+<option value="41701">Organismos Internacionais e Outras Instituições Extraterritoriais</option>
+<option value="420369">Organismos internacionais e outras instituições extraterritoriais</option>
+<option value="420370">Organismos internacionais e outras instituições extraterritoriais</option>
+<option value="421129">Organismos internacionais e outras instituições extraterritoriais</option>
+<option value="415033">Outras Atividades Artísticas e de Espetáculos</option>
+<option value="415023">Outras Atividades Associativas</option>
+<option value="240600">Outras Atividades de Assessoria e Consultoria Às Empresas</option>
+<option value="410015">Outras Atividades de Concessão de Crédito</option>
+<option value="420330">Outras atividades de ensino</option>
+<option value="411036">Outras Atividades de Informática, Não Especificadas Anteriormente</option>
+<option value="410016">Outras Atividades de Intermediação Financeira, Não Especificadas Anteriormente</option>
+<option value="420251">Outras atividades de prestação de serviços de informação</option>
+<option value="421298">Outras atividades de prestação de serviços de informação não especificadas anteriormente</option>
+<option value="230400">Outras Atividades de Prestação de Serviços em Informática</option>
+<option value="420364">Outras atividades de serviços pessoais</option>
+<option value="411058">Outras Atividades de Serviços Prestados Principalmente Às Empresas</option>
+<option value="420246">Outras atividades de telecomunicações</option>
+<option value="420292">Outras atividades profissionais, científicas e técnicas</option>
+<option value="060300">Outras Indústrias Extrativas</option>
+<option value="36">Outros</option>
+<option value="415">Outros Serviços Coletivos, Sociais e Pessoais</option>
+<option value="35">Outros Setores</option>
+<option value="409022">Outros Transportes Aquaviários</option>
+<option value="420383">Outros transportes aquaviários</option>
+<option value="409012">Outros Transportes Terrestres</option>
+<option value="420006">Pecuária</option>
+<option value="401014">Pecuária</option>
+<option value="402">Pesca</option>
+<option value="402011">Pesca, Aqüicultura e Atividades dos Serviços Relacionados Com Estas Atividades</option>
+<option value="40201">Pesca, Aqüicultura e Atividades dos Serviços Relacionados Com Estas Atividades</option>
+<option value="24">Pesca, Aqüicultura e Maricultura</option>
+<option value="420013">Pesca e Aqüicultura</option>
+<option value="421665">Pesca em água doce</option>
+<option value="41104">Pesquisa e Desenvolvimento</option>
+<option value="420286">Pesquisa e desenvolvimento científico</option>
+<option value="411041">Pesquisa e Desenvolvimento das Ciências Físicas e Naturais</option>
+<option value="411042">Pesquisa e Desenvolvimento das Ciências Sociais e Humanas</option>
+<option value="421240">Pesquisa e desenvolvimento experimental em ciências físicas e naturais</option>
+<option value="420287">Pesquisa e desenvolvimento experimental em ciências físicas e naturais</option>
+<option value="420288">Pesquisa e desenvolvimento experimental em ciências sociais e humanas</option>
+<option value="421738">Pesquisa e desenvolvimento experimental em ciências sociais e humanas</option>
+<option value="06">Planejamento e Gestão das Cidades, Inclusive Política e Planejamento Habitacional</option>
+<option value="410023">Planos de Saúde</option>
+<option value="250100">Política Econômica e Administração Pública em Geral</option>
+<option value="270300">Políticas, Planejamento e Gestão em Saúde</option>
+<option value="421297">Portais, provedores de conteúdo e outros serviços de informação na internet</option>
+<option value="40405">Preparação de Couros e Fabricação de Artefatos de Couro, Artigos de Viagem e Calçados</option>
+<option value="420056">Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados</option>
+<option value="406011">Preparação do Terreno</option>
+<option value="420048">Preparação e fiação de fibras têxteis</option>
+<option value="421714">Preparação e fiação de fibras têxteis naturais, exceto algodão</option>
+<option value="410022">Previdência Privada</option>
+<option value="19">Previsão do Tempo e Prospecção Climática</option>
+<option value="411033">Processamento de Dados</option>
+<option value="404012">Processamento, Preservação e Produção de Conservas de Frutas, Legumes e Outros Vegetais</option>
+<option value="33">Produção Animal, Inclusive Serviços Veterinários</option>
+<option value="404094">Produção de Álcool</option>
+<option value="090400">Produção de Álcool</option>
+<option value="421555">Produção de artefatos estampados de metal; metalurgia do pó</option>
+<option value="421434">Produção de gás; processamento de gás natural; distribuição de combustíveis gasosos por redes urbanas</option>
+<option value="401013">Produção de Lavouras Permanentes</option>
+<option value="420004">Produção de lavouras permanentes</option>
+<option value="401011">Produção de Lavouras Temporárias</option>
+<option value="420002">Produção de lavouras temporárias</option>
+<option value="421655">Produção de mudas e outras formas de propagação vegetal, certificadas</option>
+<option value="404013">Produção de Óleos e Gorduras Vegetais e Animais</option>
+<option value="421654">Produção de sementes certificadas</option>
+<option value="420154">Produção e distribuição de combustíveis gasosos por redes urbanas</option>
+<option value="200000">Produção e Distribuição de Eletricidade e Gás</option>
+<option value="405">Produção e Distribuição de Eletricidade, Gás e Água</option>
+<option value="405011">Produção e Distribuição de Energia Elétrica</option>
+<option value="200100">Produção e Distribuição de Energia Elétrica</option>
+<option value="405012">Produção e Distribuição de Gás Através de Tubulações</option>
+<option value="200200">Produção e Distribuição de Gás Através de Tubulações</option>
+<option value="405013">Produção e Distribuição de Vapor e Água Quente</option>
+<option value="420009">Produção Florestal</option>
+<option value="420011">Produção florestal - florestas nativas</option>
+<option value="421661">Produção florestal - florestas plantadas</option>
+<option value="401015">Produção Mista: Lavoura e Pecuária</option>
+<option value="34">Produção Vegetal</option>
+<option value="15">Produtos e Processos Biotecnológicos</option>
+<option value="320200">Produtos e Processos Biotecnológicos Vinculados À Agricultura</option>
+<option value="320100">Produtos e Processos Biotecnológicos Vinculados À Saúde Humana Ou dos Animais</option>
+<option value="01">Produtos e Serviços Recreativos, Culturais, Artísticos e Desportivos</option>
+<option value="05">Produtos e Serviços Voltados Para A Defesa e Proteção do Meio Ambiente, Incluindo O Desenvolvimento Sustentado</option>
+<option value="411054">Publicidade</option>
+<option value="420289">Publicidade e pesquisa de mercado</option>
+<option value="23">Qualidade e Produtividade</option>
+<option value="40423">Reciclagem</option>
+<option value="404231">Reciclagem de Sucatas Metálicas</option>
+<option value="404232">Reciclagem de Sucatas Não-Metálicas</option>
+<option value="404205">Recondicionamento Ou Recuperação de Motores Para Veículos Automotores</option>
+<option value="420164">Recuperação de materiais</option>
+<option value="421445">Recuperação de materiais não especificados anteriormente</option>
+<option value="25">Recursos Minerais</option>
+<option value="090200">Refino de Petróleo</option>
+<option value="404092">Refino de Petróleo</option>
+<option value="421182">Regulação das atividades de saúde, educação, serviços culturais e outros serviços sociais</option>
+<option value="421183">Regulação das atividades econômicas</option>
+<option value="421184">Relações exteriores</option>
+<option value="407037">Reparação de Objetos Pessoais e Domésticos</option>
+<option value="407021">Representantes Comerciais e Agentes do Comércio</option>
+<option value="420187">Representantes comerciais e agentes do comércio, exceto de veículos automotores e motocicletas</option>
+<option value="404083">Reprodução de Materiais Gravados</option>
+<option value="408012">Restaurantes e Outros Estabelecimentos de Serviços de Alimentação</option>
+<option value="41401">Saúde e Serviços Sociais</option>
+<option value="414">Saúde e Serviços Sociais</option>
+<option value="27">Saúde Humana</option>
+<option value="420331">Saúde humana e serviços sociais</option>
+<option value="421187">Segurança e ordem pública</option>
+<option value="412013">Seguridade Social</option>
+<option value="410021">Seguros de Vida e Não-Vida</option>
+<option value="41002">Seguros e Previdência Privada</option>
+<option value="420262">Seguros, resseguros, previdência complementar e planos de saúde</option>
+<option value="420304">Seleção, agenciamento e locação de mão-de-obra</option>
+<option value="411055">Seleção, Agenciamento e Locação de Mão-De-Obra </option>
+<option value="412012">Serviços Coletivos Prestados Pela Administração Pública</option>
+<option value="420323">Serviços coletivos prestados pela administração pública</option>
+<option value="250200">Serviços Coletivos Prestados Pela Administração Pública Na Esfera da Defesa</option>
+<option value="250300">Serviços Coletivos Prestados Pela Administração Pública Na Esfera da Justiça</option>
+<option value="31">Serviços Coletivos Prestados Pela Administração Pública Na Esfera da Segurança e Ordem Pública, Inclusive Defesa Civil</option>
+<option value="250500">Serviços Coletivos Prestados Pela Administração Pública Na Esfera da Seguridade Social</option>
+<option value="404035">Serviços de Acabamento em Fios, Tecidos e Artigos Têxteis</option>
+<option value="420284">Serviços de arquitetura e engenharia e atividades técnicas relacionadas</option>
+<option value="411052">Serviços de Arquitetura e Engenharia e de Assessoramento Técnico Especializado</option>
+<option value="420283">Serviços de arquitetura e engenharia; testes e análises técnicas</option>
+<option value="420343">Serviços de assistência social sem alojamento</option>
+<option value="420317">Serviços de escritório, de apoio administrativo e outros serviços prestados às empresas</option>
+<option value="41601">Serviços Domésticos</option>
+<option value="416">Serviços Domésticos</option>
+<option value="416011">Serviços Domésticos</option>
+<option value="420367">Serviços domésticos</option>
+<option value="420175">Serviços especializados para construção</option>
+<option value="420313">Serviços para edifícios e atividades paisagísticas</option>
+<option value="415041">Serviços Pessoais</option>
+<option value="41504">Serviços Pessoais</option>
+<option value="41105">Serviços Prestados Principalmente Às Empresas</option>
+<option value="403022">Serviços Relacionados Com A Extração de Petróleo e Gás - Exceto A Prospecção Realizada Por Terceiros</option>
+<option value="414013">Serviços Sociais</option>
+<option value="414012">Serviços Veterinários</option>
+<option value="404131">Siderúrgicas Integradas</option>
+<option value="010300">Silvicultura, Exploração Florestal e Serviços Relacionados</option>
+<option value="401021">Silvicultura, Exploração Florestal e Serviços Relacionados Com Estas Atividades</option>
+<option value="40102">Silvicultura, Exploração Florestal e Serviços Relacionados Com Estas Atividades</option>
+<option value="404033">Tecelagem - Inclusive Fiação e Tecelagem</option>
+<option value="420241">Telecomunicações</option>
+<option value="409052">Telecomunicações</option>
+<option value="420242">Telecomunicações por fio</option>
+<option value="420244">Telecomunicações por satélite</option>
+<option value="420243">Telecomunicações sem fio</option>
+<option value="421287">Telecomunicações sem fio</option>
+<option value="421239">Testes e análises técnicas</option>
+<option value="420285">Testes e análises técnicas</option>
+<option value="404017">Torrefação e Moagem de Café</option>
+<option value="421431">Transmissão de energia elétrica</option>
+<option value="40903">Transporte Aéreo</option>
+<option value="420213">Transporte aéreo</option>
+<option value="420215">Transporte aéreo de carga</option>
+<option value="420214">Transporte aéreo de passageiros</option>
+<option value="409032">Transporte Aéreo, Não Regular</option>
+<option value="409031">Transporte Aéreo, Regular</option>
+<option value="40902">Transporte Aquaviário</option>
+<option value="420209">Transporte aquaviário</option>
+<option value="409">Transporte, Armazenagem e Comunicações</option>
+<option value="420203">Transporte, armazenagem e correio</option>
+<option value="409013">Transporte Dutoviário</option>
+<option value="409033">Transporte Espacial</option>
+<option value="420384">Transporte espacial</option>
+<option value="409011">Transporte Ferroviário Interurbano</option>
+<option value="409021">Transporte Marítimo de Cabotagem e Longo Curso</option>
+<option value="421327">Transporte rodoviário coletivo de passageiros, com itinerário fixo, municipal e em região metropolitana</option>
+<option value="421331">Transporte rodoviário de carga</option>
+<option value="420206">Transporte rodoviário de passageiros</option>
+<option value="40901">Transporte Terrestre</option>
+<option value="420204">Transporte terrestre</option>
+<option value="420250">Tratamento de dados, hospedagem na internet e outras atividades relacionadas</option>
+<option value="421296">Tratamento de dados, provedores de serviços de aplicação e serviços de hospedagem na internet</option>
+<option value="420163">Tratamento e disposição de resíduos</option></select>
+															
+								
+										
+								<div class="control-bar-wrapper"> 
+									<a onclick="fecharFiltro(7)" href="javascript:void(0)" id="preencheCategoriaNivelBolsa" class="button">
+									<span class="mini-ico mini-ico-ok"> </span>Aplicar</a> 
+									<a onclick="limparFiltroProducao();fecharFiltroEDesmarca(7)" href="javascript:void(0)" id="limparCategoriaNivelBolsa" class="button">
+									<span class="mini-ico mini-ico-clear"> </span>Limpar</a> 
+								</div>										
+										
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			
+				<!-- atividade profissional -->
+				<div class="modalFiltros" id="modal_ativ_prof">
+					<div class="superior">
+						<div> 
+							<span class="botao2">
+								<a onclick="javascript:fecharFiltro(8)" href="javascript:void(0)" id="cancelarCaptcha">
+									
+								</a>
+							</span>  
+						</div>
+					</div>
+					<div class="centro">
+						<div class="pad">	
+						<a class="avisa-modal escondido" href="#">Nova janela aberta em um iFrame. Utilize as setas do teclado para navegar no conteúdo ou tab para navegar entre os títulos. Pressione Esc para sair desta janela.</a> 		
+							<h4 class="titulo" tabindex="0">
+								Filtrar por Atividade Profissional
+							</h4>
+							<div class="conteudo">
+								Este filtro permite restringir a busca a currículos cujo profissional tenha atuado em uma instituição, Uf, Região ou País em determinado tipo de atividade.
+			
+								<label for="naturezaAtividade">Natureza da Atividade:</label>
+								<select name="filtros.naturezaAtividade" id="naturezaAtividade" style="width:60%" class="input-text"><option value="0">Todas</option>
+									
+										
+											<option value="404">Aperfeiçoamento</option>
+<option value="118">Cargo administrativo</option>
+<option value="101">Chefe de Departamento</option>
+<option value="B">Conselhos, Comissões e Consultoria</option>
+<option value="117">Consultor</option>
+<option value="B04">Consultor Ad-hoc</option>
+<option value="102">Coordenador de Curso</option>
+<option value="103">Coordenador de Programa</option>
+<option value="104">Decano de Centro</option>
+<option value="1">Direção e Administração</option>
+<option value="105">Diretor de Unidade</option>
+<option value="4">Ensino</option>
+<option value="3">Ensino de Graduação</option>
+<option value="405">Ensino fundamental</option>
+<option value="406">Ensino médio</option>
+<option value="403">Especialização</option>
+<option value="5">Estágio</option>
+<option value="7">Extensão Universitária</option>
+<option value="401">Graduação</option>
+<option value="B02">Membro de associação científica</option>
+<option value="106">Membro de Colegiado Superior</option>
+<option value="113">Membro de Comissão</option>
+<option value="107">Membro de Comissão Permanente</option>
+<option value="108">Membro de Comissão Temporária</option>
+<option value="B03">Membro de comitê assessor</option>
+<option value="120">Membro de comitê de assessoramento</option>
+<option value="114">Membro de Conselho</option>
+<option value="109">Membro de Conselho de Centro</option>
+<option value="110">Membro de Conselho de Unidade</option>
+<option value="115">Membro de Conselho Editorial</option>
+<option value="B01">Membro de conselho superior</option>
+<option value="116">Membro de Corpo Editorial</option>
+<option value="119">Outra</option>
+<option value="9">Outra atividade técnico-científica</option>
+<option value="B19">Outro</option>
+<option value="409">Outro</option>
+<option value="2">Pesquisa e Desenvolvimento</option>
+<option value="402">Pós-graduação</option>
+<option value="C">Projetos de pesquisa</option>
+<option value="111">Reitor</option>
+<option value="B06">Revisor de agência de fomento</option>
+<option value="B05">Revisor de periódico</option>
+<option value="6">Serviço Técnico Especializado</option>
+<option value="8">Treinamento</option>
+<option value="112">Vice-reitor ou Pró-reitor</option></select>
+								
+								
+								
+								<em>
+									<input type="checkbox" name="filtros.atividadeAtual" value="true" id="atividadeatual" role="menuitem">
+									<label for="atividadeatual">Atividade atual?</label>
+								</em>
+								
+								<label for="paisAtividade">País:</label>
+								<select name="filtros.paisAtividade" id="paisAtividade" class="input-text"><option value="0">Selecione uma opção</option>
+
+
+	<option value="0">Todos</option>
+
+
+	<option value="BRA">Brasil</option>
+
+
+<option value="AFG">Afeganistão</option>
+<option value="AFS">África do Sul</option>
+<option value="ALB">Albânia</option>
+<option value="RFA">Alemanha</option>
+<option value="AND">Andorra</option>
+<option value="ANG">Angola</option>
+<option value="ATC">Antartida</option>
+<option value="ANB">Antigua</option>
+<option value="AHL">Antilhas Holandesas</option>
+<option value="ARA">Arábia Saudita</option>
+<option value="ARL">Argélia</option>
+<option value="ARG">Argentina</option>
+<option value="ARM">Armênia</option>
+<option value="AUS">Austrália</option>
+<option value="AUT">Austria</option>
+<option value="AZE">Azerbaijão</option>
+<option value="BHS">Bahamas</option>
+<option value="BGD">Bangladesh</option>
+<option value="BRB">Barbados</option>
+<option value="BAR">Barein</option>
+<option value="BEA">Belarus</option>
+<option value="BEL">Bélgica</option>
+<option value="BLZ">Belize</option>
+<option value="BEN">Benin</option>
+<option value="BER">Bermudas</option>
+<option value="BIR">Myanmar         </option>
+<option value="BOL">Bolívia</option>
+<option value="BOS">Bósnia</option>
+<option value="BOT">Botsuana</option>
+<option value="IOT">Britsh Indian Ocean</option>
+<option value="BRN">Brunei</option>
+<option value="BUL">Bulgária</option>
+<option value="BKF">Burkina Fasso</option>
+<option value="BUR">Burundi</option>
+<option value="BUT">Butão</option>
+<option value="CBV">Cabo Verde</option>
+<option value="CAM">Camarões</option>
+<option value="CBJ">Camboja</option>
+<option value="CAN">Canadá</option>
+<option value="CAT">Catar</option>
+<option value="CAZ">Cazaquistão</option>
+<option value="CHA">Chade</option>
+<option value="CHL">Chile</option>
+<option value="CHN">China</option>
+<option value="CHP">Chipre</option>
+<option value="CXR">Christmas Island</option>
+<option value="CIN">Cingapura</option>
+<option value="COL">Colômbia</option>
+<option value="COM">Comores</option>
+<option value="CON">Congo</option>
+<option value="CRN">Coréia do Norte</option>
+<option value="CRS">Coréia do Sul</option>
+<option value="CMF">Costa do Marfim</option>
+<option value="CRC">Costa Rica</option>
+<option value="CRO">Croácia</option>
+<option value="CUB">Cuba</option>
+<option value="DIN">Dinamarca</option>
+<option value="DJI">Djibuti</option>
+<option value="DON">Dominica</option>
+<option value="EGI">Egito</option>
+<option value="ELS">El Salvador</option>
+<option value="EAU">Emirados Árabes</option>
+<option value="EQU">Equador</option>
+<option value="ESC">Escócia</option>
+<option value="SVK">Eslováquia</option>
+<option value="SVN">Eslovênia</option>
+<option value="ESP">Espanha</option>
+<option value="EUA">Estados Unidos</option>
+<option value="EST">Estônia</option>
+<option value="ETP">Etiópia</option>
+<option value="FJI">Fiji</option>
+<option value="FIL">Filipinas</option>
+<option value="FIN">Finlândia</option>
+<option value="FOR">Formosa</option>
+<option value="FRA">França</option>
+<option value="GAB">Gabão</option>
+<option value="GAL">Gales</option>
+<option value="GAM">Gâmbia</option>
+<option value="GAN">Gana</option>
+<option value="GEO">Geórgia</option>
+<option value="GIB">Gibraltar</option>
+<option value="GBR">Grã-Bretanha</option>
+<option value="GRD">Granada</option>
+<option value="GRE">Grécia</option>
+<option value="GRL">Groênlandia</option>
+<option value="GDL">Guadalupe</option>
+<option value="GUM">Guam</option>
+<option value="GUA">Guatemala</option>
+<option value="GUI">Guiana</option>
+<option value="GFR">Guiana Francesa</option>
+<option value="GNE">Guiné</option>
+<option value="GNB">Guiné Bissau</option>
+<option value="GNQ">Guiné Equatorial</option>
+<option value="HTI">Haitii</option>
+<option value="HOL">Holanda</option>
+<option value="HON">Honduras</option>
+<option value="HKG">Hong Kong</option>
+<option value="HUN">Hungria</option>
+<option value="IEM">Iêmem</option>
+<option value="IMS">Iêmen do Sul      </option>
+<option value="CYM">Ilhas Cayman</option>
+<option value="CCK">Ilhas Cocoss</option>
+<option value="COK">Ilhas Cook</option>
+<option value="FLK">Ilhas Falkland</option>
+<option value="IFA">Ilhas Faroe</option>
+<option value="MID">Ilhas Midway</option>
+<option value="NFK">Ilhas Norfolk</option>
+<option value="SLB">Ilhas Salamão</option>
+<option value="SHN">Ilhas Santa Helena</option>
+<option value="TCA">Ilhas Turcas Caicos</option>
+<option value="IVA">Ilhas Vírgens EUA</option>
+<option value="VGB">Ilhas Vírgens GBR</option>
+<option value="WAK">Ilhas Wake</option>
+<option value="WLF">Ilhas Wallis Futuna</option>
+<option value="IND">Índia</option>
+<option value="IDN">Indonésia</option>
+<option value="ING">Inglaterra</option>
+<option value="IRA">Irã</option>
+<option value="IRQ">Iraque</option>
+<option value="IRL">Irlanda</option>
+<option value="IRN">Irlanda do Norte</option>
+<option value="ISL">Islândia</option>
+<option value="ISR">Israel</option>
+<option value="ITA">Itália</option>
+<option value="IUG">Iugoslávia</option>
+<option value="JAM">Jamaica</option>
+<option value="JAP">Japão</option>
+<option value="JOR">Jordânia</option>
+<option value="KIR">Kiribati</option>
+<option value="KWT">Kuweit</option>
+<option value="LAO">Laos</option>
+<option value="LES">Lesoto</option>
+<option value="LET">Letônia</option>
+<option value="LBN">Líbano</option>
+<option value="LBR">Libéria</option>
+<option value="LIB">Líbia</option>
+<option value="LIE">Liechtenstein</option>
+<option value="LIT">Lituânia</option>
+<option value="LUX">Luxemburgo</option>
+<option value="MAC">Macau</option>
+<option value="MAD">Madagascar</option>
+<option value="MAL">Malásia</option>
+<option value="MLV">Malavi</option>
+<option value="MDV">Maldivas</option>
+<option value="MLI">Mali</option>
+<option value="MLT">Malta</option>
+<option value="MAR">Marrocos</option>
+<option value="MRT">Martinica</option>
+<option value="MAU">Maurício</option>
+<option value="MTN">Mauritânia</option>
+<option value="MEX">México</option>
+<option value="MMR">Mianmar</option>
+<option value="FSM">Micronésia</option>
+<option value="MBQ">Moçambique</option>
+<option value="MOL">Moldova</option>
+<option value="MON">Mônaco</option>
+<option value="MGL">Mongólia</option>
+<option value="MSR">Montserrat</option>
+<option value="NAM">Namíbia</option>
+<option value="NRU">Nauru</option>
+<option value="NPL">Nepal</option>
+<option value="NIC">Nicarágua</option>
+<option value="NIG">Niger</option>
+<option value="NGA">Nigéria</option>
+<option value="NIU">Niue</option>
+<option value="NOR">Noruega</option>
+<option value="NCL">Nova Caledônia</option>
+<option value="NZL">Nova Zelândia</option>
+<option value="OMA">Oma</option>
+<option value="PCI">Pacific Islands</option>
+<option value="PAN">Panamá</option>
+<option value="PNG">Papua Nova Guiné</option>
+<option value="PAQ">Paquistão</option>
+<option value="PRG">Paraguai</option>
+<option value="PER">Peru</option>
+<option value="PCN">Pitcairn</option>
+<option value="PLF">Polinésia Francesa</option>
+<option value="POL">Polônia</option>
+<option value="PTR">Porto Rico</option>
+<option value="POR">Portugal</option>
+<option value="QUE">Quênia</option>
+<option value="QUI">Quirgistão</option>
+<option value="RCA">Rep.Centro-Africana</option>
+<option value="DOM">República Dominicana</option>
+<option value="TCH">República Tcheca</option>
+<option value="REU">Reunião</option>
+<option value="ROM">Romênia</option>
+<option value="RUA">Ruanda</option>
+<option value="RSS">Rússia</option>
+<option value="ASM">Samoa Americana</option>
+<option value="SAM">Samoa Ocidental</option>
+<option value="SMR">San Marino</option>
+<option value="LCA">Santa Lúcia</option>
+<option value="KNA">São Cristóvão Nevis</option>
+<option value="SPM">São Pedro Miquelon</option>
+<option value="STP">São Tomé e Príncipe</option>
+<option value="VCT">São Vicente Granadi</option>
+<option value="SEN">Senegal</option>
+<option value="SRL">Serra Leoa</option>
+<option value="SYC">Seychelles</option>
+<option value="SIR">Síria</option>
+<option value="SOM">Somália</option>
+<option value="SRI">Sri Lanka</option>
+<option value="SUA">Suazilândia</option>
+<option value="SUD">Sudão</option>
+<option value="SUE">Suécia</option>
+<option value="SUI">Suiça</option>
+<option value="SUR">Suriname</option>
+<option value="TAD">Tadjaquistão</option>
+<option value="TAI">Tailândia</option>
+<option value="TAN">Tanzânia</option>
+<option value="TMP">Timor</option>
+<option value="TGO">Togo</option>
+<option value="TKL">Tokelau</option>
+<option value="TON">Tonga</option>
+<option value="TRT">Trinidad e Tobago</option>
+<option value="TUN">Tunísia</option>
+<option value="TUC">Turcomenistão</option>
+<option value="TUR">Turquia</option>
+<option value="TUV">Tuvalu</option>
+<option value="UCR">Ucrânia</option>
+<option value="UGA">Uganda</option>
+<option value="URU">Uruguai</option>
+<option value="UZB">Uzbekistan</option>
+<option value="VUT">Vanuatu</option>
+<option value="VAT">Vaticano</option>
+<option value="VEN">Venezuela</option>
+<option value="VTN">Vietnã</option>
+<option value="ESH">Western Sahara</option>
+<option value="ZAR">Zaire</option>
+<option value="ZAN">Zâmbia</option>
+<option value="ZIN">Zimbabue</option></select>
+								
+								
+			
+								<label for="regiaoAtividade">Região:</label>
+								<select name="filtros.regiaoAtividade" id="regiaoAtividade" class="input-text"><option value="0">Todas</option>
+<option value="CO">Centro-Oeste</option>
+<option value="NE">Nordeste</option>
+<option value="NO">Norte</option>
+<option value="SD">Sudeste</option>
+<option value="SU">Sul</option></select>
+													
+								
+			
+								<label for="ufAtividade">UF:</label>
+								<select name="filtros.ufAtividade" id="ufAtividade" class="input-text"><option value="0">Todas</option>
+										
+		  <option value="AC">Acre
+                  </option><option value="AL">Alagoas
+                  </option><option value="AP">Amapá
+                  </option><option value="AM">Amazonas
+                  </option><option value="BA">Bahia
+                  </option><option value="CE">Ceará
+                  </option><option value="DF">Distrito Federal
+                  </option><option value="ES">Espírito Santo
+                  </option><option value="GO">Goiás
+                  </option><option value="MA">Maranhão
+                  </option><option value="MT">Mato Grosso
+                  </option><option value="MS">Mato Grosso do Sul
+                  </option><option value="MG">Minas Gerais
+                  </option><option value="PA">Pará
+                  </option><option value="PB">Paraíba
+                  </option><option value="PR">Paraná
+                  </option><option value="PE">Pernambuco
+                  </option><option value="PI">Piauí
+                  </option><option value="RJ">Rio de Janeiro
+                  </option><option value="RN">Rio Grande do Norte
+                  </option><option value="RS">Rio Grande do Sul
+                  </option><option value="RO">Rondônia
+                  </option><option value="RR">Roraima
+                  </option><option value="SC">Santa Catarina
+                  </option><option value="SP">São Paulo
+                  </option><option value="SE">Sergipe
+                  </option><option value="TO">Tocantins</option></select>	
+													
+								
+			
+								<label for="nomeInstAtividade">Instituição:</label>
+								<input type="text" name="filtros.nomeInstAtividade" value="" id="nomeInstAtividade" class="input-text"> <!-- styleClass="instituicao" -->
+								
+								<div class="control-bar-wrapper"> 
+									<a onclick="fecharFiltro(8)" href="javascript:void(0)" id="preencheCategoriaNivelBolsa" class="button">
+									<span class="mini-ico mini-ico-ok"> </span>Aplicar</a> 
+									<a onclick="limparFiltroAtividade();fecharFiltroEDesmarca(8)" href="javascript:void(0)" id="limparCategoriaNivelBolsa" class="button">
+									<span class="mini-ico mini-ico-clear"> </span>Limpar</a> 
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			
+				<!-- grupos pesquisa -->
+				<div class="modalFiltros" id="modal_grupo_pesq">
+					<div class="superior">
+						<div> 
+							<span class="botao2">
+								<a onclick="javascript:fecharFiltro(9)" href="javascript:void(0)" id="cancelarCaptcha">
+								
+								</a>
+							</span>  
+						</div>
+					</div>
+					<div class="centro">
+						<div class="pad">
+						<a class="avisa-modal escondido" href="#">Nova janela aberta em um iFrame. Utilize as setas do teclado para navegar no conteúdo ou tab para navegar entre os títulos. Pressione Esc para sair desta janela.</a> 
+							<h4 class="titulo" tabindex="0">
+								Filtrar por presença no Diretório de Pesquisa
+							</h4>
+							<div class="conteudo">
+								<br>
+								Permite restringir a busca a pesquisadores que estejam registrados na base corrente do Diretório de Grupos de Pesquisa, em Grupo devidamente reconhecido pelo Dirigente Institucional competente.	
+								<br>
+								<br>
+								<em>
+									<input type="checkbox" name="filtros.participaDGP" value="true" id="participaDGP" role="menuitem">
+									<label for="participaDGP">Pesquisador presente no Diretório de Grupos de Pesquisa</label>
+								</em><br>
+								
+								<div class="control-bar-wrapper"> 
+									<a onclick="fecharFiltro(9)" href="javascript:void(0)" id="preencheCategoriaNivelBolsa" class="button">
+									<span class="mini-ico mini-ico-ok"> </span>Aplicar</a> 
+									<a onclick="limparParticipaDGP();fecharFiltroEDesmarca(9)" href="javascript:void(0)" id="limparCategoriaNivelBolsa" class="button">
+									<span class="mini-ico mini-ico-clear"> </span>Limpar</a> 
+								</div>
+								
+							</div>
+						</div>	
+					</div>
+					
+					<div class="controleFiltro" style="display:none">	
+						<input type="button" onclick="aplicarPreferencias()" value="Aplicar">
+						<input type="button" onclick="cancelarPreferencias()" value="Cancelar">
+					</div> 
+				</div>
+				
+				
+				<!-- FIM JANELAS MODAIS -->
+				
+			</div>
+		 </div> 
+	  </div>
+   </div>
+</div>	
+<script>
+	
+	var lblBtnMarcarTodos =  'Marcar todos';
+	var lblBtnDesmarcarTodos =  'Desmarcar todos';
+
+	btnMarcarTodos = lblBtnMarcarTodos;
+	btnDesmarcarTodos = lblBtnDesmarcarTodos;
+
+	var isBtnMarcarTodos = parent.document.getElementById('checkboxes').innerHTML.indexOf(lblBtnMarcarTodos) > -1;
+	if (isBtnMarcarTodos){
+		parent.document.getElementById('checkboxes').innerHTML = '<span class=\'mini-ico mini-ico-ok\'></span>'+ lblBtnMarcarTodos;
+	}else{
+		parent.document.getElementById('checkboxes').innerHTML = '<span class=\'mini-ico mini-ico-ok\'></span>'+ lblBtnDesmarcarTodos;
+	}
+	
+	
+</script>	
+</form>
+<script type="text/javascript" language="JavaScript">
+  <!--
+  var focusControl = document.forms["buscaForm"].elements["textoBusca"];
+
+  if (focusControl != null && focusControl.type != "hidden" && !focusControl.disabled && focusControl.style.display != "none") {
+     focusControl.focus();
+  }
+  // -->
+</script>
+
+
+	
+        	
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+	<script src="https://www.google.com/recaptcha/api.js?render=6Le8-aQUAAAAAEh7lq-D8bscahYZDZ4RKXBEhiov" async="" defer=""></script>
+
+<div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-in8n0ggg80m0" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Le8-aQUAAAAAEh7lq-D8bscahYZDZ4RKXBEhiov&amp;co=aHR0cHM6Ly9idXNjYXRleHR1YWwuY25wcS5icjo0NDM.&amp;hl=pt-BR&amp;v=X-oVtzDcTGjZVms4LEgykmCV&amp;size=invisible&amp;cb=22bfmqsdwp4p"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div></body><!-- INICIO - Mensagens de ERRO --><!-- FIM - Mensagens de ERRO --><!-- Imports Novos --></html>

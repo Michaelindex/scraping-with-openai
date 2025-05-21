@@ -1,0 +1,94 @@
+2025-05-21 13:36:11,463 - P11300 - INFO - 
+==================================================
+Processando médico 1/2
+2025-05-21 13:36:11,464 - P11300 - INFO - Nome: UBIRAJARA JULIEUX DE MAGALHAES
+2025-05-21 13:36:11,464 - P11300 - INFO - Reiniciando driver do Chrome
+2025-05-21 13:36:12,658 - P11300 - ERROR - Erro ao processar médico UBIRAJARA JULIEUX DE MAGALHAES: Message: 'chromedriver.exe' executable may have wrong permissions.
+
+2025-05-21 13:36:12,662 - P11300 - ERROR - Traceback (most recent call last):
+  File "C:\Python313\Lib\site-packages\selenium\webdriver\common\service.py", line 208, in _start_process
+    self.process = subprocess.Popen(
+                   ~~~~~~~~~~~~~~~~^
+        cmd,
+        ^^^^
+    ...<7 lines>...
+        **self.popen_kw,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\subprocess.py", line 1036, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1548, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+PermissionError: [WinError 32] O arquivo já está sendo usado por outro processo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrador\Documents\GitHub\scrap\scraper\craw-with-ai\buscador_medicos.v3.py", line 660, in process_batch
+    driver = make_driver()
+  File "C:\Users\Administrador\Documents\GitHub\scrap\scraper\craw-with-ai\buscador_medicos.v3.py", line 192, in make_driver
+    return webdriver.Chrome(options=opts)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 50, in __init__
+    self.service.start()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\site-packages\selenium\webdriver\common\service.py", line 98, in start
+    self._start_process(self._path)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\selenium\webdriver\common\service.py", line 230, in _start_process
+    raise WebDriverException(
+        f"'{os.path.basename(self._path)}' executable may have wrong permissions."
+    ) from err
+selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable may have wrong permissions.
+
+
+2025-05-21 13:36:12,667 - P11300 - INFO - 
+==================================================
+Processando médico 2/2
+2025-05-21 13:36:12,667 - P11300 - INFO - Nome: FRANCISCO DAVI FERNANDES BRILHANTE
+2025-05-21 13:36:12,668 - P11300 - INFO - Início do processamento Uso de memória: 38.38 MB
+2025-05-21 13:36:12,668 - P11300 - INFO - Query: FRANCISCO DAVI FERNANDES BRILHANTE CRM 25081 CE telefone e-mail endereço
+2025-05-21 13:36:12,668 - P11300 - INFO - Iniciando busca para: FRANCISCO DAVI FERNANDES BRILHANTE CRM 25081 CE telefone e-mail endereço
+2025-05-21 13:36:13,372 - P11300 - INFO - SearX results: 9 URLs
+2025-05-21 13:36:13,372 - P11300 - INFO - Após SearX Uso de memória: 38.51 MB
+2025-05-21 13:36:13,372 - P11300 - ERROR - Erro ao processar médico FRANCISCO DAVI FERNANDES BRILHANTE: 'NoneType' object has no attribute 'get'
+2025-05-21 13:36:13,373 - P11300 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Administrador\Documents\GitHub\scrap\scraper\craw-with-ai\buscador_medicos.v3.py", line 560, in process_medico
+    urls_google, google_text = search_google(query, driver, logger)
+                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\Documents\GitHub\scrap\scraper\craw-with-ai\buscador_medicos.v3.py", line 196, in search_google
+    driver.get(f"https://www.google.com/search?q={requests.utils.quote(query)}")
+    ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+
+2025-05-21 13:36:13,374 - P11300 - INFO - Após erro Uso de memória: 38.52 MB
+2025-05-21 13:36:13,375 - P11300 - INFO - Progresso: 10.0%
+2025-05-21 13:36:13,375 - P11300 - INFO - Tempo de execução de processamento do médico 2: 0.71 segundos
+2025-05-21 13:36:13,375 - P11300 - INFO - Tempo de execução de processamento do lote completo: 1.91 segundos

@@ -1,0 +1,39 @@
+<div class="container" style="padding: 0">
+            <nav class="navbar navbar-light navbar-expand-lg">
+    <div class="container" style="padding: 0">
+        <a class="navbar-brand logo" href="#"></a>
+        <h1 class="logo" onclick="location.href='/';">guiadocnpj<span>.com</span></h1>
+        <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
+            <span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+
+            <div class="col text-center busca_cel d-lg-bloc ">
+                <form action="/busca/" target="_blank" onsubmit="return true" method="get">
+
+                    <input type="text" name="CNPJ" data-validate="cnpj" id="cnpj" class="area-busca cnpj" placeholder="Digite o CNPJ" style="" maxlength="18">
+
+                    <button class="btn btn-primary botao-busca" type="button" onclick="newDoc()">
+
+                        <i class="fa fa-search" aria-hidden="true" style="font-size: x-large;"></i>
+
+                    </button>
+
+                </form>
+            </div>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" target="_blank" href="/">
+                        <strong>Home</strong><br>
+                    </a>
+                </li>
+                <hr>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="/termos-e-politicas">
+                        <strong>Termos e Políticas</strong><br>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>        </div>

@@ -1,0 +1,443 @@
+# Exemplos de Endereços Válidos:
+Rua das Flores, 123
+Avenida Paulista, 1000
+Rua Conselheiro Furtado, 500
+Alameda Santos, 200
+Travessa da Paz, 45
+Praça da Sé, 100
+Rua General Cornelio de Barros, 5
+Rua Frei Caneca, 1282
+Rua Carutapera, Quadra 37B
+Rua Frei Edgar, 138
+
+# Exemplos de Endereços Inválidos (IGNORAR):
+"Compre vitaminas e suplementos"
+"Agende online com um dos especialistas recomendados"
+"Este profissional não informou sua formação acadêmica"
+"O BoaConsulta trata seus dados com base em fontes públicas"
+"Mariana Cunha de Andrade ainda não indicou os horários"
+"Um total de 12 pacientes já deixou uma opinião"
+"r. Pedro Alberto Lemos Fioratti, CRM 23556"
+"r. Francisco Gomes da Silva, portador do CRM 1377"
+"r. André Pinheiro... - Instituto Logos de Psicologia e Saúde | Facebook"
+"al. Claudio Blum atende em: Avenida Treze de Maio, 33"
+"r. Fabricio Foppa, CRM 13036"
+
+# Exemplos de CEPs Válidos:
+01234-567
+89012-345
+45678-901
+22281-090
+89600-000
+
+# Exemplos de Telefones Válidos:
+(11) 1234-5678
+(21) 98765-4321
+(31) 3456-7890
+(85) 4042-5711
+(49) 99821-5402
+(21) 99904-3708
+(11) 4349-9900
+(98) 99172-5493
+(85) 3198-3700
+(34) 3253-5353
+
+# Exemplos de Emails Válidos:
+dr.silva@email.com
+maria.santos@clinicamedica.com.br
+joao.medico@hospital.com
+CONTABISOMAR.DP@GMAIL.COM
+secretaria@crmma.org.br
+protocolo@crmma.org.br
+cremec@cremec.org.br
+ime@forestgreen-eel-177930.hostingersite.com
+ime@imeclinicacodada.com.br
+
+# Exemplos de Emails Inválidos (IGNORAR):
+suporte@doctoralia.com
+contato@site.com
+info@clinica.com
+atendimento@hospital.com
+suporte@boaconsulta.com
+contato@doctoralia.com
+info@doctoralia.com
+atendimento@boaconsulta.com
+suporte@medicina.com
+contato@medicina.com
+
+# Exemplos de Complementos Válidos:
+Sala 101
+Andar 5, Sala 502
+Bloco B, Apto 303
+Sala 1516
+Quadra 37B
+
+# Exemplos de Complementos Inválidos (IGNORAR):
+"lado par"
+"de 322 a 800"
+"ao fim da rua"
+"portador do CRM"
+"CRM 23556"
+"CRM 1377"
+"CRM 13036"
+
+# Exemplos de Especialidades Válidas:
+Clínico Geral
+Cirurgião Geral
+Ginecologista
+Psiquiatra
+Cardiologista
+Dermatologista
+Alergista e Imunologista
+Nutrólogo
+
+# Exemplos de Textos de UI (IGNORAR):
+"Compre vitaminas e suplementos"
+"Agende online com um dos especialistas recomendados"
+"Este profissional não informou sua formação acadêmica"
+"O BoaConsulta trata seus dados com base em fontes públicas"
+"Mariana Cunha de Andrade ainda não indicou os horários"
+"Um total de 12 pacientes já deixou uma opinião"
+"Entre em contato diretamente com o especialista"
+"Recomendamos que entre em contato"
+"Este profissional ainda não respondeu a nenhuma pergunta"
+"Deseja fazer uma pergunta a um dos nossos especialistas?"
+"O BoaConsulta trata seus dados com base em fontes públicas"
+"Esses dados são tratados no intuito de atender o interesse público"
+"Mariana Cunha de Andrade aceita os seguintes métodos de pagamento"
+"Mariana Cunha de Andrade ainda não indicou os horários"
+"Recomendamos que entre em contato diretamente com o especialista"
+"Entre em contato diretamente com Mariana Cunha de Andrade"
+"Um total de 12 pacientes já deixou uma opinião honesta e real"
+"Facebook"
+"Instagram"
+"LinkedIn"
+"Twitter"
+"YouTube"
+"Agende sua consulta"
+"Marque um horário"
+"Entre em contato"
+"Fale conosco"
+"Atendimento"
+"Horário de atendimento"
+"Local de atendimento"
+"Consultório"
+"Clínica"
+"CRM"
+"portador do CRM"
+"atende em"
+"especialista"
+"profissional"
+"médico"
+"doutor"
+"dra"
+"dr"
+"clínica"
+"consultório"
+"hospital"
+"unidade"
+"atendimento"
+"horário"
+"agenda"
+"marcar"
+"consulta"
+"exame"
+"procedimento"
+"tratamento"
+"terapia"
+"acompanhamento"
+"avaliação"
+"diagnóstico"
+"prescrição"
+"receita"
+"atestado"
+"declaração"
+"relatório"
+"laudo"
+"prontuário"
+"histórico"
+"anamnese"
+"evolução"
+"alta"
+"internação"
+"cirurgia"
+"procedimento"
+"exame"
+"consulta"
+"atendimento"
+"horário"
+"agenda"
+"marcar"
+"consulta"
+"exame"
+"procedimento"
+"tratamento"
+"terapia"
+"acompanhamento"
+"avaliação"
+"diagnóstico"
+"prescrição"
+"receita"
+"atestado"
+"declaração"
+"relatório"
+"laudo"
+"prontuário"
+"histórico"
+"anamnese"
+"evolução"
+"alta"
+"internação"
+"cirurgia"
+"procedimento"
+"exame"
+"consulta"
+"atendimento"
+"horário"
+"agenda"
+"marcar"
+"consulta"
+"exame"
+"procedimento"
+"tratamento"
+"terapia"
+"acompanhamento"
+"avaliação"
+"diagnóstico"
+"prescrição"
+"receita"
+"atestado"
+"declaração"
+"relatório"
+"laudo"
+"prontuário"
+"histórico"
+"anamnese"
+"evolução"
+"alta"
+"internação"
+"cirurgia"
+
+# Exemplos de Endereços
+ENDEREÇO:
+- Avenida Venceslau Bras, 65, Rio de Janeiro (RJ)
+- Rua das Flores, 123, Sala 45, Centro, São Paulo (SP)
+- Av. Paulista, 1000, 10º andar, Bela Vista, São Paulo (SP)
+- Rua Conselheiro Furtado, 1234, Apto 56, Liberdade, São Paulo (SP)
+- Avenida Rio Branco, 156, Sala 78, Centro, Rio de Janeiro (RJ)
+- Rua Augusta, 2000, Loja 12, Consolação, São Paulo (SP)
+- Av. Rebouças, 500, Conjunto 34, Pinheiros, São Paulo (SP)
+- Rua Oscar Freire, 1000, 5º andar, Jardins, São Paulo (SP)
+- Avenida Atlântica, 2000, Apto 101, Copacabana, Rio de Janeiro (RJ)
+- Rua Barata Ribeiro, 300, Sala 45, Copacabana, Rio de Janeiro (RJ)
+
+# Exemplos de Números de Endereço
+NUMERO:
+- 65
+- 123
+- 1000
+- 1234
+- 156
+- 2000
+- 500
+- 1000
+- 2000
+- 300
+
+# Exemplos de Endereços com Números em Diferentes Formatos
+ENDEREÇO_NUMERO:
+- Avenida Venceslau Bras, Num 65, Rio de Janeiro (RJ)
+- Rua das Flores, Nº 123, Sala 45, Centro, São Paulo (SP)
+- Av. Paulista, Número 1000, 10º andar, Bela Vista, São Paulo (SP)
+- Rua Conselheiro Furtado, 1234, Apto 56, Liberdade, São Paulo (SP)
+- Avenida Rio Branco, 156, Sala 78, Centro, Rio de Janeiro (RJ)
+- Rua Augusta, 2000, Loja 12, Consolação, São Paulo (SP)
+- Av. Rebouças, 500, Conjunto 34, Pinheiros, São Paulo (SP)
+- Rua Oscar Freire, 1000, 5º andar, Jardins, São Paulo (SP)
+- Avenida Atlântica, 2000, Apto 101, Copacabana, Rio de Janeiro (RJ)
+- Rua Barata Ribeiro, 300, Sala 45, Copacabana, Rio de Janeiro (RJ)
+
+# Exemplos de Complementos com Números (NÃO são números do endereço)
+COMPLEMENTO_NUMERO:
+- Sala 45
+- Apto 101
+- 10º andar
+- Conjunto 34
+- Loja 12
+- Sala 78
+- Apto 56
+- 5º andar
+- Conjunto 23
+- Sala 90
+
+# Exemplos de Telefones
+TELEFONE:
+- (11) 3333-4444
+- (21) 2222-3333
+- (11) 4444-5555
+- (21) 3333-4444
+- (11) 5555-6666
+- (21) 4444-5555
+- (11) 6666-7777
+- (21) 5555-6666
+- (11) 7777-8888
+- (21) 6666-7777
+
+# Exemplos de Celulares
+CELULAR:
+- (11) 98765-4321
+- (21) 98765-4321
+- (11) 98765-1234
+- (21) 98765-1234
+- (11) 98765-5678
+- (21) 98765-5678
+- (11) 98765-9012
+- (21) 98765-9012
+- (11) 98765-3456
+- (21) 98765-3456
+
+# Exemplos de Emails
+EMAIL:
+- dr.silva@clinicamedica.com.br
+- dra.santos@hospital.com.br
+- dr.jose@consultorio.com.br
+- dra.maria@medicina.com.br
+- dr.pedro@saude.com.br
+- dra.ana@clinica.com.br
+- dr.carlos@hospital.com.br
+- dra.julia@medicina.com.br
+- dr.roberto@saude.com.br
+- dra.patricia@clinica.com.br
+
+# Exemplos de CRMs
+CRM:
+- CRM-SP 123456
+- CRM-RJ 789012
+- CRM-SP 345678
+- CRM-RJ 901234
+- CRM-SP 567890
+- CRM-RJ 123456
+- CRM-SP 789012
+- CRM-RJ 345678
+- CRM-SP 901234
+- CRM-RJ 567890
+
+# Exemplos de Complementos
+COMPLEMENTO:
+- Sala 45
+- Apto 101
+- 10º andar
+- Conjunto 34
+- Loja 12
+- Sala 78
+- Apto 56
+- 5º andar
+- Conjunto 23
+- Sala 90
+
+# Exemplos de CEPs
+CEP:
+- 01310-100
+- 20040-020
+- 01311-000
+- 20040-030
+- 01312-000
+- 20040-040
+- 01313-000
+- 20040-050
+- 01314-000
+- 20040-060
+
+# Exemplos de Especialidades
+ESPECIALIDADE:
+- Cardiologia
+- Dermatologia
+- Endocrinologia
+- Ginecologia
+- Neurologia
+- Oftalmologia
+- Ortopedia
+- Pediatria
+- Psiquiatria
+- Urologia
+
+# Exemplos de Nomes de Médicos
+NOME:
+- Dr. José Silva
+- Dra. Maria Santos
+- Dr. Pedro Oliveira
+- Dra. Ana Costa
+- Dr. Carlos Souza
+- Dra. Julia Lima
+- Dr. Roberto Almeida
+- Dra. Patricia Ferreira
+- Dr. Marcos Rodrigues
+- Dra. Beatriz Martins
+
+# Exemplos de Textos a Remover
+TEXTO_REMOVER:
+- Agendar por WhatsApp
+- Agende sua consulta
+- Marque um horário
+- Entre em contato
+- Fale conosco
+- Atendimento
+- Horário de atendimento
+- Local de atendimento
+- Consultório
+- Clínica 
+
+Endereço: Rua das Flores, 123, Centro, São Paulo - SP
+Endereço: Avenida Paulista, 1000, Bela Vista, São Paulo - SP
+Endereço: Rua Augusta, 500, Consolação, São Paulo - SP
+Endereço: Avenida Brigadeiro Faria Lima, 2000, Jardim Paulistano, São Paulo - SP
+Endereço: Rua Oscar Freire, 100, Jardins, São Paulo - SP
+Endereço: Avenida Rebouças, 1500, Pinheiros, São Paulo - SP
+Endereço: Rua Haddock Lobo, 200, Cerqueira César, São Paulo - SP
+Endereço: Avenida São João, 300, Centro, São Paulo - SP
+Endereço: Rua da Consolação, 400, Consolação, São Paulo - SP
+Endereço: Avenida Ipiranga, 500, República, São Paulo - SP
+
+Endereço: Rua das Palmeiras, 100, Jardim América, Rio de Janeiro - RJ
+Endereço: Avenida Rio Branco, 200, Centro, Rio de Janeiro - RJ
+Endereço: Rua do Ouvidor, 300, Centro, Rio de Janeiro - RJ
+Endereço: Avenida Atlântica, 400, Copacabana, Rio de Janeiro - RJ
+Endereço: Rua Visconde de Pirajá, 500, Ipanema, Rio de Janeiro - RJ
+Endereço: Avenida Nossa Senhora de Copacabana, 600, Copacabana, Rio de Janeiro - RJ
+Endereço: Rua Barata Ribeiro, 700, Copacabana, Rio de Janeiro - RJ
+Endereço: Avenida Ataulfo de Paiva, 800, Leblon, Rio de Janeiro - RJ
+Endereço: Rua Dias Ferreira, 900, Leblon, Rio de Janeiro - RJ
+Endereço: Avenida Vieira Souto, 1000, Ipanema, Rio de Janeiro - RJ
+
+Endereço: Rua da Bahia, 100, Centro, Belo Horizonte - MG
+Endereço: Avenida Afonso Pena, 200, Centro, Belo Horizonte - MG
+Endereço: Rua dos Tamoios, 300, Centro, Belo Horizonte - MG
+Endereço: Avenida Amazonas, 400, Centro, Belo Horizonte - MG
+Endereço: Rua da Bahia, 500, Lourdes, Belo Horizonte - MG
+Endereço: Avenida do Contorno, 600, Funcionários, Belo Horizonte - MG
+Endereço: Rua Cláudio Manoel, 700, Funcionários, Belo Horizonte - MG
+Endereço: Avenida Bias Fortes, 800, Lourdes, Belo Horizonte - MG
+Endereço: Rua Alagoas, 900, Savassi, Belo Horizonte - MG
+Endereço: Avenida Getúlio Vargas, 1000, Funcionários, Belo Horizonte - MG
+
+Endereço: Rua da Aurora, 100, Boa Vista, Recife - PE
+Endereço: Avenida Conde da Boa Vista, 200, Boa Vista, Recife - PE
+Endereço: Rua do Riachuelo, 300, Boa Vista, Recife - PE
+Endereço: Avenida Agamenon Magalhães, 400, Boa Vista, Recife - PE
+Endereço: Rua do Hospício, 500, Boa Vista, Recife - PE
+Endereço: Avenida Dantas Barreto, 600, São José, Recife - PE
+Endereço: Rua da Imperatriz, 700, Santo Antônio, Recife - PE
+Endereço: Avenida Guararapes, 800, Santo Antônio, Recife - PE
+Endereço: Rua do Sol, 900, Santo Antônio, Recife - PE
+Endereço: Avenida Marquês de Olinda, 1000, Recife Antigo, Recife - PE
+
+Endereço: Rua da Praia, 100, Centro, Fortaleza - CE
+Endereço: Avenida Beira Mar, 200, Meireles, Fortaleza - CE
+Endereço: Rua Dragão do Mar, 300, Praia de Iracema, Fortaleza - CE
+Endereço: Avenida Dom Manuel, 400, Centro, Fortaleza - CE
+Endereço: Rua Major Facundo, 500, Centro, Fortaleza - CE
+Endereço: Avenida Santos Dumont, 600, Aldeota, Fortaleza - CE
+Endereço: Rua Barão de Studart, 700, Aldeota, Fortaleza - CE
+Endereço: Avenida Desembargador Moreira, 800, Aldeota, Fortaleza - CE
+Endereço: Rua Carlos Vasconcelos, 900, Aldeota, Fortaleza - CE
+Endereço: Avenida Washington Soares, 1000, Edson Queiroz, Fortaleza - CE 

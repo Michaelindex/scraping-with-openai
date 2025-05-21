@@ -1,574 +1,1066 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import os
+"""
+buscador_medicos.py
+
+Aprimoramentos:
+- Prioriza telefones celulares (começando com DDD +9)
+- Filtra e-mails inválidos (strings com 'subject=')
+- Remove complementos sem sentido (e.g., 'Salarial')
+- Especialista de descoberta de cidades via CEP e busca na web
+"""
+import sys
 import csv
-import json
-import time
 import re
 import requests
 import logging
-import random
+from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from selenium.common.exceptions import StaleElementReferenceException
+import time
+from collections import Counter
+import os
+import hashlib
 
 # Configurações
-SEARX_URL = "http://124.81.6.163:8092/search"
-SEARX_JSON_URL = "http://124.81.6.163:8092/search?q={}&format=json"
-OLLAMA_URL = "http://124.81.6.163:11434/api/generate"
-OLLAMA_MODEL = "llama3.1:8b"
-CSV_INPUT = "medicos.csv"
-CSV_OUTPUT = "medicos-output.csv"
-DATA_DIR = "data"
-RAW_DATA_DIR = "raw_data"
-EXAMPLES_DIR = "examples"
-MAX_SITES = 10
-WAIT_TIME = 10
-EXCLUDED_EXTENSIONS = ['.pdf', '.xlsx', '.xls', '.doc', '.docx', '.ppt', '.pptx', '.txt', '.csv']
+SEARX_URL   = "http://124.81.6.163:8092/search"  # Atualizado para usar IP diretamente
+OLLAMA_URL  = "http://124.81.6.163:11434/api/generate"
+USER_AGENT  = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/114.0.0.0 Safari/537.36"
+)
+MAX_RESULTS = 15
 
-# Lista de user agents realistas
-USER_AGENTS = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0",
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78"
-]
+# Caminhos dos arquivos
+DATA_DIR = 'data'
+ESPECIALIDADES_FILE = os.path.join(DATA_DIR, 'especialidades.txt')
+TEXTOS_REMOVER_FILE = os.path.join(DATA_DIR, 'textos_remover.txt')
+EXEMPLOS_FILE = os.path.join(DATA_DIR, 'exemplos_treinamento.txt')
+EMAIL_BLACKLIST_FILE = os.path.join(DATA_DIR, 'email_blacklist.txt')
+SITE_BLACKLIST_FILE = os.path.join(DATA_DIR, 'site_blacklist.txt')
+LOG_FILE = os.path.join(DATA_DIR, 'buscador_medicos.log')
+DEBUG_HTML_DIR = os.path.join(DATA_DIR, 'debug_html')
 
-def setup_logging():
-    """Configura o sistema de logging básico."""
-    logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s - %(levelname)s - %(message)s',
-        datefmt='%Y-%m-%d %H:%M:%S'
-    )
+# Criar diretório data se não existir
+if not os.path.exists(DATA_DIR):
+    os.makedirs(DATA_DIR)
 
-def check_csv_exists():
-    """Verifica se o arquivo CSV existe e tem dados válidos."""
-    if not os.path.exists(CSV_INPUT):
-        print(f"Erro: O arquivo {CSV_INPUT} não foi encontrado.")
-        return False
-    
+# Logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s %(levelname)s %(message)s',
+    handlers=[
+        logging.FileHandler(LOG_FILE, 'w', 'utf-8'),
+        logging.StreamHandler(sys.stdout)
+    ]
+)
+logger = logging.getLogger()
+
+def carregar_lista_arquivo(nome_arquivo):
+    """Carrega uma lista de um arquivo de texto"""
     try:
-        with open(CSV_INPUT, 'r', encoding='utf-8') as f:
-            reader = csv.reader(f)
-            header = next(reader)
-            if not header:
-                print(f"Erro: O arquivo {CSV_INPUT} não contém cabeçalho.")
-                return False
+        with open(nome_arquivo, 'r', encoding='utf-8') as f:
+            return [linha.strip() for linha in f if linha.strip()]
+    except Exception as e:
+        logger.error(f"Erro ao carregar arquivo {nome_arquivo}: {e}")
+        return []
+
+# Carrega as listas dos arquivos externos
+TEXTOS_REMOVER = carregar_lista_arquivo(TEXTOS_REMOVER_FILE)
+ESPECIALIDADES = carregar_lista_arquivo(ESPECIALIDADES_FILE)
+EMAIL_BLACKLIST = carregar_lista_arquivo(EMAIL_BLACKLIST_FILE)
+SITE_BLACKLIST = carregar_lista_arquivo(SITE_BLACKLIST_FILE)
+
+# Se os arquivos não existirem, cria com valores padrão
+if not TEXTOS_REMOVER:
+    with open(TEXTOS_REMOVER_FILE, 'w', encoding='utf-8') as f:
+        f.write("Endereço para correspondência\nEndereço para atendimento\nEndereço para consulta")
+    TEXTOS_REMOVER = carregar_lista_arquivo(TEXTOS_REMOVER_FILE)
+
+if not ESPECIALIDADES:
+    with open(ESPECIALIDADES_FILE, 'w', encoding='utf-8') as f:
+        f.write("Clínico Geral\nPediatra\nGinecologista\nCardiologista\nDermatologista")
+    ESPECIALIDADES = carregar_lista_arquivo(ESPECIALIDADES_FILE)
+
+if not EMAIL_BLACKLIST:
+    with open(EMAIL_BLACKLIST_FILE, 'w', encoding='utf-8') as f:
+        f.write("@pixeon.com\n@boaconsulta.com")
+    EMAIL_BLACKLIST = carregar_lista_arquivo(EMAIL_BLACKLIST_FILE)
+
+if not SITE_BLACKLIST:
+    with open(SITE_BLACKLIST_FILE, 'w', encoding='utf-8') as f:
+        f.write("""google.com
+microsoft.com
+bing.com
+yahoo.com
+hotmail.com
+outlook.com
+live.com
+msn.com
+aol.com
+icloud.com
+apple.com
+amazon.com
+facebook.com
+twitter.com
+instagram.com
+linkedin.com
+youtube.com
+wikipedia.org
+wordpress.com
+blogspot.com
+medium.com
+github.com
+gitlab.com
+bitbucket.org
+dropbox.com
+drive.google.com
+docs.google.com
+maps.google.com
+translate.google.com
+calendar.google.com
+mail.google.com
+accounts.google.com
+support.google.com
+cloud.google.com
+play.google.com
+chrome.google.com
+firebase.google.com
+analytics.google.com
+ads.google.com
+business.google.com
+myaccount.google.com
+pay.google.com
+photos.google.com
+meet.google.com
+hangouts.google.com
+chat.google.com
+keep.google.com
+sites.google.com
+groups.google.com
+classroom.google.com
+admin.google.com
+security.google.com
+support.microsoft.com
+office.com
+microsoftonline.com
+sharepoint.com
+teams.microsoft.com
+onedrive.com
+azure.com
+windows.com
+office365.com
+microsoft365.com
+skype.com
+stackoverflow.com
+stackexchange.com
+reddit.com
+quora.com
+dev.to
+hackernews.com
+producthunt.com
+behance.net
+dribbble.com
+flickr.com
+pinterest.com
+tumblr.com
+substack.com
+wix.com
+squarespace.com
+weebly.com
+shopify.com
+ebay.com
+alibaba.com
+walmart.com
+target.com
+bestbuy.com
+newegg.com
+etsy.com
+aliexpress.com
+wish.com
+shopee.com
+mercadolivre.com
+americanas.com
+submarino.com
+magazineluiza.com
+casasbahia.com
+extra.com
+pontofrio.com
+shoptime.com
+netshoes.com
+centauro.com
+dafiti.com
+kanui.com
+zattini.com
+riachuelo.com
+c&a.com
+renner.com
+marisa.com
+lupo.com
+havaianas.com
+nike.com
+adidas.com
+puma.com
+reebok.com
+underarmour.com
+newbalance.com
+asics.com
+mizuno.com
+brooks.com
+saucony.com
+skechers.com
+converse.com
+vans.com
+timberland.com
+dr.martens.com
+clarks.com
+ecco.com
+geox.com
+crocs.com
+birkenstock.com
+ipanema.com
+melissa.com
+grendene.com
+arezzo.com
+schutz.com
+anacapri.com
+dumond.com
+carlos.com
+carmim.com
+dakota.com
+democrata.com
+ferracini.com
+flormar.com
+forum.com
+greggo.com
+klin.com
+lacoste.com
+lepostiche.com
+malwee.com
+mormaii.com
+oakley.com
+olympikus.com
+penalty.com
+pernambucanas.com
+trackandfield.com
+tramontina.com""")
+    SITE_BLACKLIST = carregar_lista_arquivo(SITE_BLACKLIST_FILE)
+
+def is_blacklisted_site(url):
+    """Verifica se o site está na blacklist"""
+    for domain in SITE_BLACKLIST:
+        if domain in url.lower():
+            logger.info(f"Site {url} está na blacklist")
+            return True
+    return False
+
+# Padrões regex
+PATTERNS = {
+    'address': re.compile(r"(?:Av\.?enida|Rua|Travessa|Estrada|Alameda|Avenida)[^,\n]{5,100}(?:,?\s*(?:Num|Nº|Número)?\s*\d{1,5})?(?:\s*,\s*[^,\n]{1,50})?(?:\s*\([^)]+\))?", re.IGNORECASE),
+    'cep':     re.compile(r"\d{5}-\d{3}"),
+    'phone':   re.compile(r"\(\d{2}\)\s?\d{4,5}-\d{4}"),
+    'email':   re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}"),
+    'complement': re.compile(r"(?:Sala|Bloco|Apt\.?|Conjunto)[^,\n]{1,50}"),
+    'specialty': re.compile(r"(?:" + "|".join(ESPECIALIDADES) + r")(?:\s+e\s+(?:" + "|".join(ESPECIALIDADES) + r"))?", re.IGNORECASE)
+}
+
+# Normaliza telefones para formato padrão
+def normalize_phone(raw):
+    digits = re.sub(r"\D", "", raw)
+    if len(digits) == 11:
+        return f"({digits[:2]}) {digits[2:7]}-{digits[7:]}"
+    if len(digits) == 10:
+        return f"({digits[:2]}) {digits[2:6]}-{digits[6:]}"
+    return raw
+
+# 1. Query Planning
+def build_query(m):
+    q = f"{m['Firstname']} {m['LastName']} CRM {m['CRM']} {m['UF']} telefone e-mail endereço"
+    logger.info(f"Query: {q}")
+    return q
+
+# 2. Retrieval functions (SearXNG, Google, Bing)
+def search_searx(query):
+    try:
+        params = {
+            'q': query,
+            'format': 'json',
+            'engines': 'google,bing',
+            'language': 'pt-BR',
+            'results': MAX_RESULTS
+        }
+        headers = {'User-Agent': USER_AGENT}
+        
+        r = requests.get(SEARX_URL, params=params, headers=headers, timeout=10)
+        if r.status_code == 200:
+            data = r.json()
+            urls = [r['url'] for r in data.get('results', [])]
+            logger.info(f"SearX found {len(urls)} URLs")
+            return urls
+    except Exception as e:
+        logger.error(f"SearX error: {e}")
+    return []
+
+def search_google(query, driver):
+    urls = []
+    page_text = ""
+    try:
+        driver.get(f"https://www.google.com/search?q={query}")
+        time.sleep(2)  # Espera carregar
+        
+        # Captura URLs normais
+        for a in driver.find_elements(By.CSS_SELECTOR, "a[href^='http']"):
+            href = a.get_attribute('href')
+            if href and 'google.com' not in href:
+                urls.append(href)
+        
+        # Captura texto da página para análise
+        page_text = driver.find_element(By.TAG_NAME, "body").text
+        
+        logger.info(f"Google found {len(urls)} URLs")
+        return urls, page_text
+    except Exception as e:
+        logger.error(f"Google error: {e}")
+        return [], ""
+
+def search_bing(query, driver):
+    urls = []
+    page_text = ""
+    try:
+        driver.get(f"https://www.bing.com/search?q={query}")
+        time.sleep(2)  # Espera carregar
+        
+        # Captura URLs dos resultados
+        for a in driver.find_elements(By.CSS_SELECTOR, "a[href^='http']"):
+            href = a.get_attribute('href')
+            if href and 'bing.com' not in href:
+                urls.append(href)
+        
+        # Captura texto da página para análise
+        page_text = driver.find_element(By.TAG_NAME, "body").text
+        
+        logger.info(f"Bing found {len(urls)} URLs")
+        return urls, page_text
+    except Exception as e:
+        logger.error(f"Bing error: {e}")
+        return [], ""
+
+# 3. Download & extract candidates
+def save_debug_html(url, html):
+    """Salva o HTML para debug, extraindo apenas o conteúdo relevante"""
+    try:
+        if not os.path.exists(DEBUG_HTML_DIR):
+            os.makedirs(DEBUG_HTML_DIR)
             
-            try:
-                first_row = next(reader)
-                if not any(first_row):
-                    print(f"Erro: O arquivo {CSV_INPUT} não contém dados válidos.")
-                    return False
-            except StopIteration:
-                print(f"Erro: O arquivo {CSV_INPUT} não contém dados além do cabeçalho.")
-                return False
+        # Cria um nome de arquivo baseado na URL
+        filename = hashlib.md5(url.encode()).hexdigest() + '.html'
+        filepath = os.path.join(DEBUG_HTML_DIR, filename)
+        
+        # Extrai apenas o conteúdo relevante
+        soup = BeautifulSoup(html, 'html.parser')
+        
+        # Remove scripts, styles e outros elementos não relevantes
+        for element in soup.find_all(['script', 'style', 'meta', 'link', 'noscript', 'iframe']):
+            element.decompose()
+            
+        # Procura por elementos que podem conter o conteúdo principal
+        main_content = None
+        
+        # Tenta encontrar elementos comuns que contêm o conteúdo principal
+        for tag in ['main', 'article', 'div[role="main"]', '.content', '#content', '.main-content', '#main-content']:
+            main_content = soup.select_one(tag)
+            if main_content:
+                break
+                
+        # Se não encontrou um elemento principal, usa o body
+        if not main_content:
+            main_content = soup.body
+            
+        # Se ainda não encontrou, usa o html inteiro
+        if not main_content:
+            main_content = soup
+            
+        # Extrai o texto e limpa
+        content = main_content.get_text(separator='\n', strip=True)
+        
+        # Adiciona a URL original como comentário
+        html_content = f"<!-- URL original: {url} -->\n{content}"
+        
+        # Salva o conteúdo limpo
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write(html_content)
+            
+        logger.info(f"HTML salvo em: {filepath}")
+        return filepath
     except Exception as e:
-        print(f"Erro ao ler o arquivo {CSV_INPUT}: {str(e)}")
-        return False
-    
-    return True
-
-def setup_selenium():
-    """Configura e retorna uma instância do Selenium WebDriver."""
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-    chrome_options.add_argument(f"--user-agent={random.choice(USER_AGENTS)}")
-    
-    try:
-        driver = webdriver.Chrome(options=chrome_options)
-        return driver
-    except Exception as e:
-        print(f"Erro ao inicializar o Selenium: {str(e)}")
+        logger.error(f"Erro ao salvar HTML: {e}")
         return None
 
-def query_ollama(prompt, model=OLLAMA_MODEL):
-    """Envia um prompt para a API do Ollama e retorna a resposta."""
+def download_html(url, driver=None):
     try:
-        payload = {
-            "model": model,
-            "prompt": prompt,
-            "stream": False
-        }
+        logger.info(f"Tentando baixar HTML de: {url}")
         
-        response = requests.post(OLLAMA_URL, json=payload)
-        
-        if response.status_code == 200:
-            result = response.json().get('response', '')
-            return result
+        if driver:
+            logger.info("Usando Selenium para baixar HTML")
+            driver.get(url)
+            # Espera a página carregar
+            time.sleep(5)  # Espera 5 segundos para garantir que a página carregue
+            html = driver.page_source
+            logger.info(f"HTML baixado via Selenium, tamanho: {len(html)}")
         else:
-            print(f"Erro na API do Ollama: {response.status_code}")
-            return ""
-    except Exception as e:
-        print(f"Erro ao conectar com Ollama: {str(e)}")
-        return ""
-
-def get_doctor_filename(row, headers):
-    """Gera um nome de arquivo para o médico baseado no nome."""
-    # Tenta encontrar os índices dos campos de nome
-    first_name_idx = -1
-    last_name_idx = -1
-    
-    for i, header in enumerate(headers):
-        if "primeiro nome" in header.lower():
-            first_name_idx = i
-        elif "ultimo nome" in header.lower():
-            last_name_idx = i
-    
-    # Se encontrou os campos de nome, usa-os para gerar o nome do arquivo
-    if first_name_idx >= 0 and last_name_idx >= 0 and first_name_idx < len(row) and last_name_idx < len(row):
-        first_name = row[first_name_idx].strip()
-        last_name = row[last_name_idx].strip()
+            logger.info("Usando Requests para baixar HTML")
+            r = requests.get(url, timeout=10)
+            ct = r.headers.get('Content-Type','')
+            logger.info(f"Response status: {r.status_code}, content-type: {ct}")
+            
+            if r.status_code == 200 and 'html' in ct.lower():
+                html = r.text
+            else:
+                logger.warning(f"Download failed for {url}: status={r.status_code}, content-type={ct}")
+                return ''
         
-        if first_name and last_name:
-            # Normaliza o nome para usar como nome de arquivo
-            full_name = f"{first_name} {last_name}"
-            normalized_name = re.sub(r'[^a-zA-Z0-9]', '-', full_name.lower())
-            return normalized_name
-    
-    # Fallback: usa o CRM se disponível
-    if len(row) > 0 and row[0]:
-        filename = f"medico-{row[0]}"
-        return filename
-    
-    # Último recurso: usa um timestamp
-    filename = f"medico-{int(time.time())}"
-    return filename
-
-def save_search_result(doctor_filename, url, source, extracted_data, field):
-    """Salva o resultado da busca em um arquivo txt para o médico."""
-    # Cria o diretório data se não existir
-    if not os.path.exists(DATA_DIR):
-        os.makedirs(DATA_DIR)
-    
-    file_path = os.path.join(DATA_DIR, f"{doctor_filename}.txt")
-    
-    # Formata a entrada conforme solicitado
-    entry = f"URL : {url} [ {source} ]\n"
-    entry += f"--Informação extraida e alocada no csv: {field}: {extracted_data}\n\n"
-    
-    # Salva a entrada no arquivo (append)
-    try:
-        with open(file_path, 'a', encoding='utf-8') as f:
-            f.write(entry)
+        # Salva o HTML para debug
+        save_debug_html(url, html)
+        logger.info(f"Download successful for {url}")
+        return html
     except Exception as e:
-        print(f"Erro ao salvar resultado em {file_path}: {str(e)}")
+        logger.error(f"Download fail {url}: {e}")
+    return ''
 
-def save_raw_search_data(doctor_filename, url, source, all_content):
-    """Salva todas as informações captadas do site em um arquivo txt separado."""
-    # Cria o diretório raw_data se não existir
-    if not os.path.exists(RAW_DATA_DIR):
-        os.makedirs(RAW_DATA_DIR)
+def limpar_endereco(endereco):
+    """Limpa e formata o endereço extraído"""
+    if not endereco:
+        return ''
     
-    file_path = os.path.join(RAW_DATA_DIR, f"{doctor_filename}.txt")
+    # Remove textos indesejados
+    endereco_limpo = endereco
+    for texto in TEXTOS_REMOVER:
+        endereco_limpo = endereco_limpo.replace(texto, '')
     
-    # Formata a entrada conforme solicitado
-    entry = f"URL : {url} [ {source} ]\n"
-    entry += f"--INFORMAÇÕES CAPTADAS DO SITE: {all_content}\n\n"
+    # Remove espaços múltiplos
+    endereco_limpo = re.sub(r'\s+', ' ', endereco_limpo)
     
-    # Salva a entrada no arquivo (append)
-    try:
-        with open(file_path, 'a', encoding='utf-8') as f:
-            f.write(entry)
-    except Exception as e:
-        print(f"Erro ao salvar dados brutos em {file_path}: {str(e)}")
+    # Remove espaços antes de pontuação
+    endereco_limpo = re.sub(r'\s+([,\.])', r'\1', endereco_limpo)
+    
+    # Remove espaços no início e fim
+    endereco_limpo = endereco_limpo.strip()
+    
+    # Se o endereço terminar com vírgula, remove
+    endereco_limpo = endereco_limpo.rstrip(',')
+    
+    logger.info(f"Endereço original: {endereco}")
+    logger.info(f"Endereço limpo: {endereco_limpo}")
+    
+    return endereco_limpo
 
-def is_html_url(url):
-    """Verifica se a URL é de uma página HTML (não PDF, XLSX, etc.)."""
-    parsed_url = url.lower()
+def validar_endereco(endereco):
+    """Valida se o endereço tem pelo menos uma rua/avenida e um número"""
+    if not endereco:
+        return False
     
-    # Verifica se a URL termina com uma extensão excluída
-    for ext in EXCLUDED_EXTENSIONS:
-        if parsed_url.endswith(ext):
+    # Verifica se tem uma rua/avenida
+    tem_rua = bool(re.search(r'(?:Av\.?enida|Rua|Travessa|Estrada|Alameda|Avenida)', endereco, re.IGNORECASE))
+    
+    # Verifica se tem um número
+    tem_numero = bool(re.search(r'(?:,|,?\s+)(?:Num|Nº|Número)?\s*\d{1,5}', endereco))
+    
+    # Log para debug
+    logger.info(f"Validação de endereço: {endereco}")
+    logger.info(f"Tem rua: {tem_rua}, Tem número: {tem_numero}")
+    
+    return tem_rua and tem_numero
+
+def validar_email(email):
+    """Valida se o email não está na blacklist"""
+    if not email:
+        return False
+    
+    # Verifica se o email está na blacklist
+    for dominio in EMAIL_BLACKLIST:
+        if dominio in email.lower():
+            logger.info(f"Email {email} está na blacklist")
             return False
     
     return True
 
-def extract_page_content(driver, url):
-    """Extrai o conteúdo completo de uma página web."""
-    # Verifica se a URL é de uma página HTML
-    if not is_html_url(url):
-        print(f"URL ignorada (não é HTML): {url}")
-        return "URL ignorada (não é HTML)"
-    
-    try:
-        # Tenta acessar a URL
-        driver.get(url)
-        
-        # Espera a página carregar
-        try:
-            WebDriverWait(driver, WAIT_TIME).until(
-                EC.presence_of_element_located((By.TAG_NAME, "body"))
-            )
-        except TimeoutException:
-            print("Timeout ao esperar carregamento da página")
-        
-        # Tenta extrair o conteúdo da página
-        try:
-            # Tenta obter o título
-            title = driver.title
-            
-            # Tenta obter o conteúdo do corpo
-            body_text = driver.find_element(By.TAG_NAME, "body").text
-            
-            # Combina os textos extraídos
-            all_content = f"Título: {title} /// Texto completo: {body_text}"
-            
-            return all_content
-        except Exception as e:
-            print(f"Erro ao extrair conteúdo da página: {str(e)}")
-            return f"Erro na extração: {str(e)}"
-    except Exception as e:
-        print(f"Erro ao acessar a URL {url}: {str(e)}")
-        return f"Erro no acesso: {str(e)}"
+def extract_candidates(html, url=None):
+    soup = BeautifulSoup(html, 'html.parser')
+    soup_text = soup.get_text(' ')
+    addrs = []
+    comps = []
 
-def search_top_sites(driver, query):
-    """Realiza uma busca e retorna os top sites."""
-    print(f"Buscando por: {query}")
-    
-    all_results = []
-    
-    # Tenta buscar no SearXNG primeiro
-    try:
-        url = SEARX_JSON_URL.format(query)
-        
-        headers = {
-            "User-Agent": random.choice(USER_AGENTS),
-            "Accept": "application/json"
-        }
-        
-        response = requests.get(url, headers=headers)
-        
-        if response.status_code == 200:
-            data = response.json()
-            results = data.get('results', [])
-            
-            for result in results:
-                title = result.get('title', '')
-                snippet = result.get('content', '')
-                result_url = result.get('url', '')
-                
-                # Verifica se a URL é de uma página HTML
-                if is_html_url(result_url):
-                    all_results.append({
-                        "title": title,
-                        "snippet": snippet,
-                        "url": result_url,
-                        "source": "SearXNG"
-                    })
-    except Exception as e:
-        print(f"Erro ao buscar no SearXNG: {str(e)}")
-    
-    # Se não conseguiu resultados suficientes, tenta o Bing
-    if len(all_results) < MAX_SITES:
-        try:
-            bing_url = f"https://www.bing.com/search?q={query}"
-            
-            driver.get(bing_url)
-            time.sleep(2)  # Pequeno delay para carregar
-            
-            try:
-                WebDriverWait(driver, WAIT_TIME).until(
-                    EC.presence_of_element_located((By.ID, "b_results"))
-                )
-            except TimeoutException:
-                print("Timeout ao esperar carregamento dos resultados do Bing")
-            
-            # Extrai os resultados
-            search_results = driver.find_elements(By.CSS_SELECTOR, "#b_results .b_algo")
-            
-            for result in search_results:
-                try:
-                    title = result.find_element(By.CSS_SELECTOR, "h2").text
-                    snippet = result.find_element(By.CSS_SELECTOR, ".b_caption p").text
-                    
-                    # Tenta encontrar o link
-                    link_element = result.find_element(By.CSS_SELECTOR, "h2 a")
-                    link = link_element.get_attribute("href")
-                    
-                    # Verifica se a URL é de uma página HTML
-                    if is_html_url(link):
-                        all_results.append({
-                            "title": title,
-                            "snippet": snippet,
-                            "url": link,
-                            "source": "BING"
-                        })
-                except Exception:
-                    continue
-        except Exception as e:
-            print(f"Erro ao buscar no Bing: {str(e)}")
-    
-    # Limita aos primeiros MAX_SITES resultados
-    return all_results[:MAX_SITES]
-
-def generate_field_examples(field_name):
-    """Gera exemplos fictícios para um campo específico usando a IA."""
-    print(f"Gerando exemplos para o campo: {field_name}")
-    
-    # Cria um prompt para a IA gerar exemplos
-    prompt = f"""
-    Você é um assistente especializado em gerar exemplos de dados precisos. Sua tarefa é gerar 10 exemplos fictícios para o campo "{field_name}" de um médico.
-
-    Regras importantes:
-    1. Gere APENAS 10 exemplos, um por linha
-    2. Os exemplos devem ser curtos, diretos e realistas
-    3. Não inclua explicações, apenas os exemplos
-    4. Não numere os exemplos
-    5. Não use aspas ou formatação especial
-    6. Cada exemplo deve ser apenas o dado puro, sem rótulos ou descrições
-
-    Por exemplo, se o campo for "Endereço de Atendimento", os exemplos devem ser como:
-    Rua das Flores, 123
-    Avenida Paulista, 1000
-    Praça da Liberdade, 50
-    
-    Gere 10 exemplos para o campo "{field_name}":
-    """
-    
-    # Envia o prompt para a IA
-    examples_text = query_ollama(prompt)
-    
-    # Processa a resposta para extrair apenas os exemplos
-    examples = []
-    for line in examples_text.strip().split('\n'):
-        line = line.strip()
-        if line and not line.startswith('#') and not line.startswith('-'):
-            # Remove numeração se houver
-            line = re.sub(r'^\d+[\.\)]\s*', '', line)
-            # Remove aspas se houver
-            line = line.strip('"\'')
-            if line:
-                examples.append(line)
-    
-    # Limita a 10 exemplos
-    examples = examples[:10]
-    
-    # Cria o diretório de exemplos se não existir
-    if not os.path.exists(EXAMPLES_DIR):
-        os.makedirs(EXAMPLES_DIR)
-    
-    # Salva os exemplos em um arquivo
-    examples_file = os.path.join(EXAMPLES_DIR, f"{field_name.replace(' ', '_')}.txt")
-    with open(examples_file, 'w', encoding='utf-8') as f:
-        for example in examples:
-            f.write(f"{example}\n")
-    
-    print(f"Gerados {len(examples)} exemplos para o campo {field_name}")
-    return examples
-
-def get_field_examples(field_name):
-    """Obtém exemplos para um campo específico, gerando-os se necessário."""
-    examples_file = os.path.join(EXAMPLES_DIR, f"{field_name.replace(' ', '_')}.txt")
-    
-    if os.path.exists(examples_file):
-        with open(examples_file, 'r', encoding='utf-8') as f:
-            examples = [line.strip() for line in f.readlines() if line.strip()]
-        return examples
+    if url and 'boaconsulta.com' in url:
+        # Encontrar o bloco de consultórios
+        consultorios = None
+        for tag in soup.find_all(['div', 'section']):
+            if tag.get_text().strip().startswith('Selecione o consultório'):
+                consultorios = tag
+                break
+        if consultorios:
+            # Extrair endereços dentro do bloco de consultórios
+            for addr_tag in consultorios.find_all(class_='speakable-locations-address'):
+                addr = addr_tag.get_text(' ', strip=True)
+                addrs.append(addr)
+                # Procura complementos próximos ao endereço
+                parent = addr_tag.parent
+                if parent:
+                    # Procura complementos no mesmo elemento pai
+                    for comp_tag in parent.find_all(string=re.compile(r'(?:Sala|Bloco|Apt\.?|Conjunto)', re.I)):
+                        comp = comp_tag.strip()
+                        if comp and 'salari' not in comp.lower():
+                            comps.append(comp)
+            # Fallback: pega linhas que parecem endereço dentro do bloco
+            if not addrs:
+                for line in consultorios.stripped_strings:
+                    if re.search(r'\d{1,5}.*(Rua|Avenida|Travessa|Estrada|Alameda|Largo|Praça|Rodovia)', line, re.I):
+                        addrs.append(line)
+        logger.info(f"Endereços extraídos do bloco de consultórios do BoaConsulta: {addrs}")
+        logger.info(f"Complementos extraídos do bloco de consultórios do BoaConsulta: {comps}")
     else:
-        return generate_field_examples(field_name)
+        # Comportamento padrão para outros sites
+        address_elements = soup.find_all(['p', 'div', 'span'], string=re.compile(r'(?:Endereço|Local|Atendimento)', re.I))
+        for elem in address_elements:
+            addr_text = elem.get_text(' ')
+            addrs.extend(PATTERNS['address'].findall(addr_text))
+            # Procura complementos no mesmo elemento
+            comps.extend(PATTERNS['complement'].findall(addr_text))
+        if not addrs:
+            addrs = PATTERNS['address'].findall(soup_text)
 
-def extract_info_from_site(driver, url, field_name, doctor_filename, source):
-    """Extrai informações específicas de um site para um campo usando exemplos."""
-    print(f"Extraindo informações para {field_name} de {url}")
+    # Limpa e valida os endereços encontrados
+    addrs = [limpar_endereco(addr) for addr in addrs]
+    addrs = [addr for addr in addrs if validar_endereco(addr)]
+
+    # Procura especialidades em elementos específicos
+    specialty_elements = soup.find_all(['p', 'div', 'span', 'h1', 'h2', 'h3'], string=re.compile(r'(?:Especialidade|Área|Atuação)', re.I))
+    specialties = []
+    for elem in specialty_elements:
+        spec_text = elem.get_text(' ')
+        logger.info(f"Found specialty element: {spec_text}")
+        specialties.extend(PATTERNS['specialty'].findall(spec_text))
     
-    # Obtém exemplos para o campo
-    examples = get_field_examples(field_name)
-    examples_text = "\n".join(examples)
+    # Se não encontrou em elementos específicos, procura no texto todo
+    if not specialties:
+        specialties = PATTERNS['specialty'].findall(soup_text)
     
-    # Extrai o conteúdo da página
-    content = extract_page_content(driver, url)
+    ceps  = PATTERNS['cep'].findall(soup_text)
+    phones= PATTERNS['phone'].findall(soup_text)
+    emails= PATTERNS['email'].findall(soup_text)
     
-    # Salva o conteúdo bruto
-    save_raw_search_data(doctor_filename, url, source, content)
+    # tel: links
+    for a in soup.select("a[href^='tel:']"):
+        num = a['href'].split(':',1)[1]
+        norm = normalize_phone(num)
+        if norm not in phones: phones.append(norm)
     
-    # Cria um prompt para a IA extrair a informação específica usando os exemplos
+    # mailto: links
+    for a in soup.select("a[href^='mailto:']"):
+        mail = a['href'].split(':',1)[1]
+        if 'subject=' in mail: continue
+        if mail not in emails: emails.append(mail)
+    
+    # dedupe
+    def dedupe(lst):
+        seen, out = set(), []
+        for x in lst:
+            if x not in seen:
+                seen.add(x); out.append(x)
+        return out
+    
+    # Filtra emails da blacklist
+    emails = [email for email in dedupe(emails) if validar_email(email)]
+    
+    cands = {
+        'address': dedupe(addrs),
+        'cep':     dedupe(ceps),
+        'phone':   dedupe(phones),
+        'email':   dedupe(emails),
+        'complement': [c for c in dedupe(comps) if len(c.strip())>3 and 'salari' not in c.lower()],
+        'specialty': dedupe(specialties)
+    }
+    
+    # Log detalhado dos candidatos encontrados
+    for k,v in cands.items(): 
+        logger.info(f"Candidates {k}: {v}")
+        if k == 'address' and not v:
+            logger.warning("No valid addresses found in the text!")
+        if k == 'specialty' and not v:
+            logger.warning("No specialties found in the text!")
+    
+    return cands
+
+# 4. Aggregate & rank
+def aggregate_and_rank(all_c):
+    ranked = {}
+    for k,lst in all_c.items():
+        ranked[k] = [item for item,_ in Counter(lst).most_common()]
+        logger.info(f"Ranked {k}: {ranked[k]}")
+    return ranked
+
+# 5. Validation via Ollama
+def ask_ollama(prompt):
+    try:
+        r = requests.post(OLLAMA_URL, json={'model':'llama3.1:8b','prompt':prompt,'stream':False}, timeout=10)
+        if r.status_code == 200: return r.json().get('response','').strip()
+    except Exception as e:
+        logger.error(f"Ollama error: {e}")
+    return ''
+
+def carregar_exemplos():
+    """Carrega os exemplos de treinamento do arquivo"""
+    exemplos = {}
+    categoria_atual = None
+    
+    try:
+        with open(EXEMPLOS_FILE, 'r', encoding='utf-8') as f:
+            for linha in f:
+                linha = linha.strip()
+                if not linha:
+                    continue
+                    
+                if linha.startswith('#'):
+                    continue
+                    
+                if linha.endswith(':'):
+                    categoria_atual = linha[:-1]
+                    exemplos[categoria_atual] = []
+                elif categoria_atual and linha.startswith('- '):
+                    exemplos[categoria_atual].append(linha[2:])
+        
+        logger.info(f"Exemplos carregados: {list(exemplos.keys())}")
+        return exemplos
+    except Exception as e:
+        logger.error(f"Erro ao carregar exemplos: {e}")
+        return {}
+
+# Carrega os exemplos de treinamento
+EXEMPLOS = carregar_exemplos()
+
+def criar_prompt_validacao(field, cands, m):
+    """Cria um prompt específico para validação usando exemplos"""
+    exemplos_field = EXEMPLOS.get(field.upper(), [])
+    exemplos_text = "\n".join([f"- {ex}" for ex in exemplos_field[:5]])  # Usa até 5 exemplos
+    
     prompt = f"""
-    Você é um assistente especializado em extração de dados precisos. Sua tarefa é extrair APENAS a informação relacionada ao campo "{field_name}" do conteúdo fornecido.
-
-    Regras importantes:
-    1. Retorne APENAS a informação solicitada, sem texto adicional
-    2. Se a informação não for encontrada, responda apenas "NÃO ENCONTRADO"
-    3. Não invente ou suponha dados que não estão explicitamente mencionados
-    4. Seja extremamente preciso e específico
-    5. Não inclua explicações, apenas o dado extraído
-    6. Não use aspas ou formatação especial
-    7. Não inclua o nome do campo na resposta
-    8. Não numere a resposta
-    9. Não inclua observações ou notas
-    10. Retorne apenas o texto puro, sem formatação
-
-    Exemplos do formato esperado para o campo "{field_name}":
-    {examples_text}
-
-    Conteúdo da página:
-    {content}
-
-    Informação a extrair: {field_name}
-
-    Responda APENAS com a informação extraída no formato dos exemplos ou "NÃO ENCONTRADO".
+    Analise os dados do médico {m['Firstname']} {m['LastName']} (CRM {m['CRM']} {m['UF']}).
+    
+    Exemplos de {field}s válidos:
+    {exemplos_text}
+    
+    Dados encontrados:
+    {cands}
+    
+    Qual é o {field} mais confiável? Responda apenas o valor.
     """
     
-    # Envia o prompt para a IA
-    extracted_info = query_ollama(prompt)
+    return prompt
+
+def validate(field, cands, m):
+    if not cands: return ''
     
-    # Limpa a resposta
-    extracted_info = extracted_info.strip()
+    prompt = criar_prompt_validacao(field, cands, m)
+    resp = ask_ollama(prompt).lower()
     
-    # Remove frases comuns que indicam explicações
-    explanations = [
-        "Aqui está", "Baseado no", "De acordo com", "Com base no", 
-        "Extraído do", "Encontrei", "A informação", "O campo", 
-        "Não foi possível", "Não encontrei", "Não há", "Não existe",
-        "Observação:", "Nota:", "Importante:"
-    ]
+    for c in cands:
+        if resp in c.lower():
+            logger.info(f"Validated {field}: {c}")
+            return c
     
-    for exp in explanations:
-        if extracted_info.startswith(exp):
-            # Tenta encontrar o primeiro ponto e remove tudo antes dele
-            dot_pos = extracted_info.find('.')
-            if dot_pos > 0:
-                extracted_info = extracted_info[dot_pos+1:].strip()
-    
-    # Remove aspas se houver
-    extracted_info = extracted_info.strip('"\'')
-    
-    # Verifica se a resposta é válida
-    if "NÃO ENCONTRADO" in extracted_info.upper():
+    logger.info(f"Fallback {field}: {cands[0]}")
+    return cands[0]
+
+# Função para consultar cidade via ViaCEP (Especialista de Cidade)
+def obter_cidade_via_cep(cep):
+    if not cep:
         return None
     
-    # Salva a informação extraída
-    if extracted_info:
-        save_search_result(doctor_filename, url, source, extracted_info, field_name)
-    
-    return extracted_info
-
-def process_csv():
-    """Processa o arquivo CSV, busca os dados faltantes e salva no arquivo de saída."""
-    setup_logging()
-    
-    if not check_csv_exists():
-        return
-    
-    driver = setup_selenium()
-    if not driver:
-        return
+    cep_limpo = re.sub(r'\D', '', cep)
+    if len(cep_limpo) != 8:
+        logger.warning(f"CEP inválido: {cep}")
+        return None
     
     try:
-        # Lê o arquivo CSV de entrada
-        with open(CSV_INPUT, 'r', encoding='utf-8') as f_in:
-            reader = csv.reader(f_in)
-            headers = next(reader)
-            rows = list(reader)
+        url = f"https://viacep.com.br/ws/{cep_limpo}/json/"
+        logger.info(f"Consultando ViaCEP: {url}")
         
-        print(f"Leitura do arquivo {CSV_INPUT} concluída: {len(rows)} registros encontrados")
+        response = requests.get(url, timeout=5)
+        if response.status_code != 200:
+            logger.warning(f"Erro ao consultar ViaCEP: Status {response.status_code}")
+            return None
         
-        # Cria o diretório de exemplos se não existir
-        if not os.path.exists(EXAMPLES_DIR):
-            os.makedirs(EXAMPLES_DIR)
+        dados = response.json()
+        if 'erro' in dados and dados['erro']:
+            logger.warning(f"CEP não encontrado: {cep}")
+            return None
         
-        # Gera exemplos para todos os campos
-        print("Gerando exemplos para todos os campos...")
-        for header in headers[1:]:  # Ignora o campo CRM
-            get_field_examples(header)
-        
-        # Prepara o arquivo CSV de saída
-        with open(CSV_OUTPUT, 'w', encoding='utf-8', newline='') as f_out:
-            writer = csv.writer(f_out)
-            writer.writerow(headers)
-            
-            # Processa cada linha do CSV
-            for row_index, row in enumerate(rows):
-                print(f"Processando registro {row_index + 1}/{len(rows)}...")
-                
-                # Preenche a linha com valores vazios se necessário
-                while len(row) < len(headers):
-                    row.append("")
-                
-                # Gera o nome do arquivo para o médico
-                doctor_filename = get_doctor_filename(row, headers)
-                
-                # Cria os diretórios se não existirem
-                for directory in [DATA_DIR, RAW_DATA_DIR]:
-                    if not os.path.exists(directory):
-                        os.makedirs(directory)
-                
-                # Limpa os arquivos anteriores se existirem
-                for directory in [DATA_DIR, RAW_DATA_DIR]:
-                    file_path = os.path.join(directory, f"{doctor_filename}.txt")
-                    with open(file_path, 'w', encoding='utf-8') as f:
-                        f.write(f"Arquivo de busca para: {doctor_filename}\n\n")
-                
-                # Identifica campos vazios que precisam ser preenchidos
-                empty_fields = []
-                for i, value in enumerate(row):
-                    if not value and i > 0:  # Ignora o campo CRM que é o identificador
-                        empty_fields.append(headers[i])
-                
-                if not empty_fields:
-                    print("Todos os campos já estão preenchidos.")
-                    writer.writerow(row)
-                    continue
-                
-                print(f"Campos vazios identificados: {empty_fields}")
-                
-                # Cria uma query de busca com base nos dados disponíveis
-                search_query = " ".join([v for v in row if v])
-                
-                # Busca os top sites
-                top_sites = search_top_sites(driver, search_query)
-                print(f"Encontrados {len(top_sites)} sites para análise")
-                
-                # Para cada site, tenta extrair informações para os campos vazios
-                for site in top_sites:
-                    url = site["url"]
-                    source = site["source"]
-                    
-                    print(f"Analisando site: {url}")
-                    
-                    # Para cada campo vazio, tenta extrair a informação
-                    for field in list(empty_fields):  # Cria uma cópia para poder modificar durante o loop
-                        field_index = headers.index(field)
-                        
-                        # Extrai a informação usando exemplos
-                        info = extract_info_from_site(driver, url, field, doctor_filename, source)
-                        
-                        # Se encontrou informação, atualiza o registro e remove o campo da lista de vazios
-                        if info:
-                            row[field_index] = info
-                            empty_fields.remove(field)
-                            print(f"Campo {field} preenchido com: {info}")
-                    
-                    # Se todos os campos foram preenchidos, para de processar sites
-                    if not empty_fields:
-                        print("Todos os campos foram preenchidos!")
-                        break
-                    
-                    # Pequeno delay entre sites
-                    time.sleep(1)
-                
-                # Escreve a linha atualizada no arquivo de saída
-                writer.writerow(row)
-                print(f"Registro {row_index + 1} processado e salvo no arquivo de saída")
-        
-        print(f"Processamento concluído. Resultados salvos em {CSV_OUTPUT}")
-        print(f"Detalhes das buscas salvos nas pastas {DATA_DIR}/ e {RAW_DATA_DIR}/")
-        print(f"Exemplos para os campos salvos na pasta {EXAMPLES_DIR}/")
+        cidade = dados.get('localidade')
+        if cidade:
+            logger.info(f"Cidade encontrada via ViaCEP: {cidade}")
+            return cidade
+        else:
+            logger.warning("ViaCEP não retornou cidade")
+            return None
     
     except Exception as e:
-        print(f"Erro durante o processamento: {str(e)}")
-    
-    finally:
-        if driver:
-            driver.quit()
+        logger.error(f"Erro ao consultar ViaCEP: {e}")
+        return None
 
-if __name__ == "__main__":
-    process_csv()
+# Função para consultar a IA e extrair a cidade (Especialista de Cidade)
+def extrair_cidade_via_ia(textos, endereco, uf):
+    if not textos or not endereco:
+        return None
+    
+    # Prepara o prompt específico para a IA
+    prompt = f"""
+    Analise os textos abaixo e extraia APENAS o nome da cidade onde está localizado o endereço: "{endereco}" no estado {uf}.
+    
+    Responda SOMENTE com o nome da cidade, sem pontuação, sem explicações adicionais.
+    Se não conseguir identificar a cidade com certeza, responda apenas "DESCONHECIDA".
+    
+    Textos para análise:
+    {textos[:4000]}  # Limitando o tamanho para não sobrecarregar
+    """
+    
+    try:
+        r = requests.post(
+            OLLAMA_URL, 
+            json={
+                'model': 'llama3.1:8b',
+                'prompt': prompt,
+                'stream': False
+            }, 
+            timeout=15
+        )
+        
+        if r.status_code == 200:
+            resposta = r.json().get('response', '').strip()
+            
+            # Limpa a resposta para garantir que seja apenas o nome da cidade
+            resposta = re.sub(r'[^\w\sÀ-ÿ]', '', resposta).strip()
+            
+            if resposta.upper() == "DESCONHECIDA":
+                logger.warning("IA não conseguiu identificar a cidade")
+                return None
+                
+            logger.info(f"Cidade extraída via IA: {resposta}")
+            return resposta
+        else:
+            logger.error(f"Erro ao consultar IA: Status {r.status_code}")
+            return None
+            
+    except Exception as e:
+        logger.error(f"Erro ao consultar IA: {e}")
+        return None
+
+# Função principal para descobrir a cidade (Especialista de Cidade)
+def descobrir_cidade(endereco, cep, uf, driver):
+    logger.info(f"Iniciando descoberta de cidade para endereço: {endereco}, CEP: {cep}, UF: {uf}")
+    
+    # Função para normalizar texto
+    def normalizar_texto(texto):
+        if not texto:
+            return ''
+        # Remove acentos, converte para minúsculo e remove caracteres especiais
+        texto = texto.lower()
+        texto = re.sub(r'[áàãâä]', 'a', texto)
+        texto = re.sub(r'[éèêë]', 'e', texto)
+        texto = re.sub(r'[íìîï]', 'i', texto)
+        texto = re.sub(r'[óòõôö]', 'o', texto)
+        texto = re.sub(r'[úùûü]', 'u', texto)
+        texto = re.sub(r'[ç]', 'c', texto)
+        texto = re.sub(r'[^a-z0-9\s]', '', texto)
+        return texto.strip()
+    
+    # Etapa 1: Buscar no SearXNG
+    if endereco:
+        query = f"{endereco} {uf}"
+        logger.info(f"Query de busca para SearXNG: {query}")
+        try:
+            url = f"{SEARX_URL}?q={query}&category_general=1&language=auto&time_range=&safesearch=0&theme=simple"
+            logger.info(f"URL de busca SearXNG: {url}")
+            driver.get(url)
+            time.sleep(2)
+            html = driver.page_source
+            soup = BeautifulSoup(html, 'html.parser')
+            
+            # Pega TODAS as meta descrições da classe result result-default category-general
+            contents = []
+            for result in soup.find_all('article', class_='result result-default category-general'):
+                content = result.find('p', class_='content')
+                if content:
+                    contents.append(content.get_text(' ', strip=True))
+            
+            logger.info(f"Meta descrições captadas: {contents}")
+            
+            # Tenta cada meta descrição em sequência
+            for content in contents:
+                # Procura o CEP na meta descrição
+                cep_match = re.search(r'\d{5}-\d{3}', content)
+                if cep_match:
+                    cep = cep_match.group(0)
+                    logger.info(f"CEP encontrado na meta descrição: {cep}")
+                    
+                    # Consulta o ViaCEP
+                    cep_limpo = re.sub(r'\D', '', cep)
+                    if len(cep_limpo) == 8:
+                        try:
+                            url = f"https://viacep.com.br/ws/{cep_limpo}/json/"
+                            logger.info(f"Consultando ViaCEP: {url}")
+                            response = requests.get(url, timeout=5)
+                            if response.status_code == 200:
+                                dados = response.json()
+                                if 'erro' not in dados:
+                                    # Normaliza os textos para comparação
+                                    logradouro_viacep = normalizar_texto(dados.get('logradouro', ''))
+                                    bairro_viacep = normalizar_texto(dados.get('bairro', ''))
+                                    cidade_viacep = normalizar_texto(dados.get('localidade', ''))
+                                    estado_viacep = normalizar_texto(dados.get('uf', ''))
+                                    
+                                    endereco_limpo = normalizar_texto(endereco)
+                                    
+                                    # Verifica se os dados batem
+                                    logradouro_match = logradouro_viacep in endereco_limpo
+                                    bairro_match = bairro_viacep in endereco_limpo
+                                    cidade_match = cidade_viacep in endereco_limpo
+                                    estado_match = estado_viacep in endereco_limpo
+                                    
+                                    logger.info(f"Comparação de endereços:")
+                                    logger.info(f"Logradouro ViaCEP: {logradouro_viacep}")
+                                    logger.info(f"Endereço nosso: {endereco_limpo}")
+                                    logger.info(f"Matches: Logradouro={logradouro_match}, Bairro={bairro_match}, Cidade={cidade_match}, Estado={estado_match}")
+                                    
+                                    # Se pelo menos o logradouro e o bairro batem, consideramos válido
+                                    if logradouro_match and bairro_match:
+                                        logger.info(f"Endereço do ViaCEP bate com o nosso!")
+                                        logger.info(f"Dados completos do ViaCEP: {dados}")
+                                        return {
+                                            'cidade': dados.get('localidade'),
+                                            'bairro': dados.get('bairro'),
+                                            'cep': dados.get('cep'),
+                                            'estado': dados.get('uf'),
+                                            'logradouro': dados.get('logradouro')
+                                        }
+                                    else:
+                                        logger.info(f"Endereço do ViaCEP não bate com o nosso")
+                                        # Continua para o próximo CEP
+                                        continue
+                        except Exception as e:
+                            logger.error(f"Erro ao consultar ViaCEP: {e}")
+                            # Continua para o próximo CEP
+                            continue
+            
+            logger.warning("Nenhum CEP válido encontrado nas meta descrições")
+                
+        except Exception as e:
+            logger.error(f"Erro ao buscar no SearXNG: {e}")
+    
+    logger.warning("Não foi possível encontrar a cidade")
+    return None
+
+def extrair_numero_endereco(endereco):
+    """Extrai o número do endereço usando regex e IA"""
+    if not endereco:
+        return ''
+    
+    # Primeiro tenta com regex
+    padroes = [
+        r'(?:,|,?\s+)(?:Num|Nº|Número)?\s*(\d{1,5})(?=\s*,|\s+\()',  # Número após vírgula
+        r'(?:,|,?\s+)(?:Num|Nº|Número)?\s*(\d{1,5})(?=\s*,|\s+$)',   # Número no final
+        r'(?:,|,?\s+)(?:Num|Nº|Número)?\s*(\d{1,5})',                 # Número em qualquer lugar
+    ]
+    
+    for padrao in padroes:
+        match = re.search(padrao, endereco)
+        if match:
+            numero = match.group(1)
+            logger.info(f"Número encontrado via regex: {numero}")
+            return numero
+    
+    # Se não encontrou com regex, usa IA
+    exemplos = EXEMPLOS.get('ENDEREÇO_NUMERO', [])
+    exemplos_text = "\n".join([f"- {ex}" for ex in exemplos[:5]])
+    
+    prompt = f"""
+    Analise o endereço abaixo e extraia APENAS o número do endereço (não confunda com números de complementos como 'Sala 45' ou 'Apto 101').
+
+    Exemplos de endereços com números:
+    {exemplos_text}
+
+    Endereço para análise:
+    {endereco}
+
+    Responda APENAS com o número do endereço, sem pontuação ou texto adicional.
+    Se não houver número claro, responda "NÃO_ENCONTRADO".
+    """
+    
+    try:
+        r = requests.post(
+            OLLAMA_URL, 
+            json={
+                'model': 'llama3.1:8b',
+                'prompt': prompt,
+                'stream': False
+            }, 
+            timeout=15
+        )
+        
+        if r.status_code == 200:
+            resposta = r.json().get('response', '').strip()
+            
+            # Limpa a resposta
+            numero = re.sub(r'[^\d]', '', resposta)
+            
+            if numero and numero != "NAO_ENCONTRADO":
+                logger.info(f"Número encontrado via IA: {numero}")
+                return numero
+            else:
+                logger.warning("IA não conseguiu identificar o número")
+                return ''
+        else:
+            logger.error(f"Erro ao consultar IA: Status {r.status_code}")
+            return ''
+            
+    except Exception as e:
+        logger.error(f"Erro ao consultar IA: {e}")
+        return ''
+
+def process_medico(m, driver):
+    logger.info(f"----- Processing CRM {m['CRM']} -----")
+    q = build_query(m)
+    urls = []
+    
+    # Limita a 3 URLs do SearX
+    urls_searx = search_searx(q)[:3]
+    urls.extend(urls_searx)
+    logger.info(f"URLs do SearX (limitado a 3): {urls_searx}")
+    
+    # Limita a 3 URLs do Bing
+    urls_bing, _ = search_bing(q, driver)
+    urls_bing = urls_bing[:3]
+    urls.extend(urls_bing)
+    logger.info(f"URLs do Bing (limitado a 3): {urls_bing}")
+
+    # filter docs and unique
+    seen, uf = [], []
+    for u in urls:
+        if any(ext in u.lower() for ext in ['.pdf','.doc','.xls']):
+            continue
+        if is_blacklisted_site(u):
+            continue
+        if u not in seen:
+            seen.append(u); uf.append(u)
+    logger.info(f"URLs únicas após filtro: {uf}")
+
+    # extract & aggregate
+    all_c = {k: [] for k in ['address','cep','phone','email','complement','specialty']}
+    all_html_texts = []  # Para análise de cidade
+    
+    for u in uf:
+        html = download_html(u, driver)  # Passando o driver para usar Selenium
+        if not html: continue
+        c = extract_candidates(html, u)
+        
+        # Extrair texto completo para busca de cidade
+        soup = BeautifulSoup(html, 'html.parser')
+        all_html_texts.append(soup.get_text(' '))
+        
+        for k in all_c: all_c[k].extend(c.get(k, []))
+    
+    ranked = aggregate_and_rank(all_c)
+
+    # prioriza celulares
+    phones = ranked['phone']
+    cell1 = next((p for p in phones if re.match(r"\(\d{2}\)\s?9", p)), None)
+    cell2 = next((p for p in phones if re.match(r"\(\d{2}\)\s?9", p) and p != cell1), None)
+    phone1 = cell1 or (phones[0] if phones else '')
+    phone2 = cell2 or (phones[1] if len(phones)>1 else '')
+    
+    # Especialista de Cidade: Descobrir a cidade
+    endereco_original = ranked['address'][0] if ranked['address'] else ''
+    cep = ranked['cep'][0] if ranked['cep'] else ''
+    uf = m['UF']
+    
+    # Extrai o número do endereço original
+    numero = extrair_numero_endereco(endereco_original)
+    logger.info(f"Número extraído do endereço: {numero}")
+    
+    # Consulta o ViaCEP usando o endereço normalizado
+    dados_endereco = descobrir_cidade(endereco_original, cep, uf, driver)
+    if not dados_endereco:
+        logger.warning(f"Não foi possível descobrir a cidade para CRM {m['CRM']}")
+        cidade = bairro = cep = estado = ''  # Deixa vazio quando não encontrar a cidade
+    else:
+        cidade = dados_endereco['cidade']
+        bairro = dados_endereco['bairro']
+        cep = dados_endereco['cep']
+        estado = dados_endereco['estado']
+
+    # cria dicionário de dados novos
+    novos_dados = {
+        'Address A1': endereco_original,  # Mantém o endereço original
+        'Numero A1': numero,  # Número extraído do endereço original
+        'Bairro A1': bairro,  # Adiciona o bairro do ViaCEP
+        'Complement A1': ranked['complement'][0] if ranked['complement'] else '',
+        'postal code A1': cep,
+        'City A1': cidade,
+        'State A1': estado,
+        'Phone A1': phone1,
+        'Phone A2': phone2,
+        'Cell phone A1': cell1 or '',
+        'Cell phone A2': cell2 or '',
+        'E-mail A1': validate('email', [e for e in ranked['email'] if 'subject=' not in e], m),
+        'E-mail A2': (validate('email', [e for e in ranked['email'] if 'subject=' not in e][1:], m)
+                      if len(ranked['email']) > 1 else ''),
+        'Medical specialty': ranked['specialty'][0] if ranked['specialty'] else ''
+    }
+
+    # retorna apenas os dados novos que ainda estão vazios
+    dados_final = {k: (novos_dados[k] if not m.get(k, '').strip() else m[k]) for k in novos_dados}
+    return {**m, **dados_final}
+
+# CSV output — também adaptado para manter dados existentes
+def run(inp, outp):
+    driver = make_driver()
+    with open(inp, newline='', encoding='utf-8') as inf, open(outp, 'w', newline='', encoding='utf-8') as outf:
+        reader = csv.DictReader(inf, delimiter=',')
+        extras = ['Address A1','Complement A1','postal code A1','City A1','State A1',
+                  'Phone A1','Phone A2','Cell phone A1','Cell phone A2','E-mail A1','E-mail A2']
+        new_extras = [e for e in extras if e not in reader.fieldnames]
+        fieldnames = reader.fieldnames + new_extras
+        writer = csv.DictWriter(outf, fieldnames=fieldnames, delimiter=',')
+        writer.writeheader()
+        for row in reader:
+            res = process_medico(row, driver)
+            out_row = {
+                k: (res.get(k, '') if not row.get(k, '').strip() else row[k])
+                for k in fieldnames
+            }
+            writer.writerow(out_row)
+    driver.quit()
+    logger.info(f"Processing complete. Output: {outp}")
+
+def make_driver():
+    opts = Options()
+    # Removendo o modo headless
+    # opts.add_argument('--headless=new')
+    opts.add_argument(f'user-agent={USER_AGENT}')
+    opts.add_argument('--disable-gpu')
+    opts.add_argument('--no-sandbox')
+    opts.add_experimental_option('excludeSwitches',['enable-logging'])
+    driver = webdriver.Chrome(options=opts)
+    logger.info("Driver Chrome iniciado em modo visível")
+    return driver
+
+# Execução
+if __name__ == '__main__':
+    if len(sys.argv) != 3:
+        print('Usage: python buscador_medicos.py medicos_input.csv medicos_output.csv')
+    else:
+        run(sys.argv[1], sys.argv[2])

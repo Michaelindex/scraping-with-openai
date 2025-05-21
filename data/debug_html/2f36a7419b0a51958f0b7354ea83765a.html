@@ -1,0 +1,599 @@
+<main id="content" class="site-main post-108479 post type-post status-publish format-standard hentry category-uncategorized">
+
+<!-- Exibir no HTML -->
+<p style="font-size: 23px; font-weight: bold; color: #1d3557; margin-bottom: 15px;">
+  Em Catanduva, dezenas de famílias e profissionais já estão utilizando o Pacote Conecta Autismo para melhorar a comunicação e o bem-estar das crianças. Veja como funciona <img draggable="false" role="img" class="emoji" alt="👇" src="https://s.w.org/images/core/emoji/15.1.0/svg/1f447.svg"></p>
+
+<center><a href="https://caminhosautismo.com/quiz/?utm_source=organico&amp;utm_campaign=banner"><img src="https://caminhosautismo.com/banner.gif"></a>
+ <br><br>
+<b>PODCAST Autismo</b> falou sobre o nosso material… ouça <img draggable="false" role="img" class="emoji" alt="🎧" src="https://s.w.org/images/core/emoji/15.1.0/svg/1f3a7.svg"></center>
+
+<div class="podcast-player">
+    <button onclick="audio.play()"><img draggable="false" role="img" class="emoji" alt="▶️" src="https://s.w.org/images/core/emoji/15.1.0/svg/25b6.svg"></button>
+    <button onclick="audio.pause(); audio.currentTime = 0;"><img draggable="false" role="img" class="emoji" alt="⏹️" src="https://s.w.org/images/core/emoji/15.1.0/svg/23f9.svg"></button>
+    <div class="podcast-progress" onclick="seek(event)">
+        <div class="podcast-progress-bar" id="progress-bar"></div>
+    </div>
+    <audio id="audioAutismo" src="https://caminhosautismo.com/autismopodcast.mp3"></audio>
+</div>
+
+<script>
+const audio = document.getElementById('audioAutismo');
+const progressBar = document.getElementById('progress-bar');
+const progressContainer = document.querySelector('.podcast-progress');
+
+audio.addEventListener('timeupdate', () => {
+    const percent = (audio.currentTime / audio.duration) * 100;
+    progressBar.style.width = percent + '%';
+});
+
+function seek(e) {
+    const width = progressContainer.clientWidth;
+    const clickX = e.offsetX;
+    const duration = audio.duration;
+    audio.currentTime = (clickX / width) * duration;
+}
+</script>
+
+<style>
+.podcast-player {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 10px 0;
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+
+.podcast-player button {
+    background-color: #0099ff;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.podcast-player button:hover {
+    background-color: #007acc;
+}
+
+.podcast-progress {
+    flex-grow: 1;
+    height: 6px;
+    background: #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+}
+
+.podcast-progress-bar {
+    height: 6px;
+    background: #0099ff;
+    border-radius: 3px;
+    width: 0%;
+}
+</style>
+
+
+             <div class="title">
+                 
+                         <h1> Desvende o autismo infantil com ana maria vieira lage!</h1>
+            
+                                <div class="subtitle">
+            Você já ouviu falar sobre o autismo infantil e gostaria de saber mais sobre como lidar com essa condição? Se sim, você veio ao lugar certo! Neste artigo, iremos desvendar o autismo infantil com a ajuda da renomada especialista Ana Maria Vieira Lage.        </div>
+
+                 <div class="custom-font">
+Por Saúde em dia<br>
+
+        </div>
+        <div class="date">
+            21/05/2025 02:33 - Atualizado há 2 horas        </div>
+                <img src="https://5mstore.com.br/wp-content/uploads/2024/06/botoes.png">
+                
+                
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&amp;display=swap" rel="stylesheet">
+
+<!-- Adicione os links para as bibliotecas jQuery e Select2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&amp;display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
+<style>
+body {
+    background-color: #FFF;
+}
+.d-none2 {
+    display: none;
+}
+
+        .lightbox {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .lightbox-content {
+            background-color: white;
+            margin: 10% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 100%;
+            max-width: 400px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+        label {
+            font-size: 16px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            outline: none;
+            box-sizing: border-box;
+            margin-bottom: 12px;
+        }
+        .close-btn {
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 24px;
+            color: #888;
+        }
+        .close-btn:hover {
+            color: #666;
+        }
+    </style>
+    <script>
+        function openLightbox() {
+            document.getElementById('lightbox').style.display = 'block';
+            document.getElementById("imagePopup").style.display = "none";
+        }
+
+        function closeLightbox() {
+            document.getElementById('lightbox').style.display = 'none';
+        }
+
+async function submitForm() {
+    let name = document.getElementById('name').value;
+    let email = document.getElementById('email').value;
+    let phone = document.getElementById('phone').value;
+    let ddi = document.getElementById('ddi').value;
+    let status = document.getElementById('status').value;
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const p1 = urlParams.get('p1');
+    const p2 = urlParams.get('p2');
+    const p3 = urlParams.get('p3');
+    const p4 = urlParams.get('p4');
+    const p5 = urlParams.get('p5');
+
+    try {
+        // Aguarda a conclusão do fetch
+        const response = await fetch(`https://caminhosautismo.com/funil/save_data_preview.php?p1=${p1}&p2=${p2}&p3=${p3}&p4=${p4}&p5=${p5}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: `name=${encodeURIComponent(name)}&email=${encodeURIComponent(email)}&phone=${encodeURIComponent(phone)}&ddi=${encodeURIComponent(ddi)}&status=${encodeURIComponent(status)}`
+        });
+
+        if (response.ok) {
+            console.log("Dados salvos com sucesso, redirecionando agora...");
+            redirecionarParaPDF();
+        } else {
+            console.error('Erro no salvamento dos dados:', response.status);
+        }
+    } catch (error) {
+        console.error('Erro ao salvar os dados:', error);
+    }
+    redirecionarParaPDF();
+}
+
+// Função para redirecionar para o PDF
+function redirecionarParaPDF() {
+    console.log("Redirecionando para o PDF...");
+    window.location.href = "https://caminhosautismo.com/obrigado/?utm_source=organico&utm_campaign=thankyouscreen";
+}
+
+
+
+
+</script>
+
+
+
+    
+        <style>
+        #timer {
+    color: yellow;            /* Cor do texto */
+    background-color: red;    /* Cor de fundo */
+    text-align: center;       /* Centraliza o texto */
+    padding: 5px;            /* Espaçamento interno */
+    font-size: 20px;          /* Tamanho da fonte */
+    font-weight: bold;        /* Peso da fonte */
+    border: 3px solid yellow; /* Borda do retângulo */
+}
+        .countdown {
+            font-size: 30px;
+            font-weight: bold;
+            color: #FFF !important;
+            background-color: #FF5722;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        
+        .special-offer {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            background-color: #4CAF50;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        #counter {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+/* Estilo CSS para os campos de DDI e telefone lado a lado */
+.ddi-phone-container {
+    display: flex;
+    align-items: center;
+}
+
+.ddi-container, .phone-container {
+  flex: 1;
+  margin-right: 10px;
+  width: 10px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.checkbox-container label {
+    font-size: 14px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+
+.cta-button {
+    background-color: #0010ff; /* Verde mais brilhante e vibrante */
+    color: yellow;
+    border: none;
+    padding: 12px 30px;
+    font-family: Hammersmith One;
+    font-size: 20px; /* Aumentando um pouco o tamanho da fonte */
+    border-radius: 50px; /* Cantos totalmente arredondados para um visual mais moderno */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 1px; /* Adicionando um pouco de espaçamento entre as letras */
+    position: relative;
+    overflow: hidden;
+    line-height: 22px
+}
+
+.cta-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.2);
+    transition: all 0.75s ease;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    z-index: 0;
+}
+
+.cta-button:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.cta-button:hover {
+    background-color: #FB6258; /* Cor de fundo um pouco mais escura ao passar o mouse */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+    transform: translateY(-4px);
+    color: yellow;
+}
+
+.cta-button:active {
+    background-color: #1e9d5f; /* Verde mais escuro no clique */
+    transform: translateY(2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:focus {
+    outline: none;
+}
+
+.cta-button span {
+    position: relative;
+    z-index: 1;
+}
+
+    </style>
+
+    
+
+<center>
+ 
+
+<style>
+        .setas {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0px;
+            position: relative;
+        }
+
+        .seta {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            animation: move 3s infinite ease-in-out;
+        }
+
+        .corpo {
+            width: 10px;
+            height: 40px;
+            background-color: red;
+        }
+
+        .ponta {
+            width: 0;
+            height: 0;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-top: 20px solid red;
+        }
+
+        @keyframes move {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(15px);
+            }
+        }
+    </style>
+
+<div id="cta2" class="mt-422 d-none22" style="display: none2;">
+<div class="setas">
+        <div class="seta">
+            <div class="corpo"></div>
+            <div class="ponta"></div>
+        </div>
+        <div class="seta" style="margin-left: 20px;">
+            <div class="corpo"></div>
+            <div class="ponta"></div>
+        </div>
+    </div>
+
+
+     <br>
+<button onclick="openLightbox()" class="cta-button" id="fraseBotao"><img draggable="false" role="img" class="emoji" alt="🧠" src="https://s.w.org/images/core/emoji/15.1.0/svg/1f9e0.svg"> Apoio, conhecimento e empatia em um só lugar<br><img draggable="false" role="img" class="emoji" alt="📘" src="https://s.w.org/images/core/emoji/15.1.0/svg/1f4d8.svg"> Baixe o eBook gratuito e siga com mais leveza <img draggable="false" role="img" class="emoji" alt="📘" src="https://s.w.org/images/core/emoji/15.1.0/svg/1f4d8.svg"></button>
+<script>
+  // Frases humanizadas
+  const frases = [
+    "🧩 Um gesto de carinho para quem mais precisa<br>🎁 Baixe gratuitamente esse eBook feito com amor 🎁",
+    "💙 Criado para ajudar quem enfrenta desafios reais<br>📘 Receba esse eBook gratuito com todo nosso apoio 📘",
+    "👨‍👩‍👧 Para cada família que busca acolhimento e orientação<br>🎁 Baixe seu eBook gratuito sobre autismo 🎁",
+    "🧠 Apoio, conhecimento e empatia em um só lugar<br>📘 Baixe o eBook gratuito e siga com mais leveza 📘"
+  ];
+
+  // Seleciona frase aleatória
+  const fraseAleatoria = frases[Math.floor(Math.random() * frases.length)];
+
+  // Insere no botão
+  document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("fraseBotao").innerHTML = fraseAleatoria;
+  });
+</script>
+</div>
+
+    </center>
+
+    
+    
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span onclick="closeLightbox()" class="close-btn" style="float: right; cursor: pointer;">×</span>
+
+            <center><h3><font face="'Hammersmith One', sans-serif">Preencha os campos:</font></h3></center><font face="'Hammersmith One', sans-serif">
+            
+            </font><form id="form" onsubmit="event.preventDefault(); submitForm();"><font face="'Hammersmith One', sans-serif">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required=""><br><br>
+                <label for="email">Seu Email:</label>
+                
+                <input type="email" id="email" name="email" required=""><br>
+
+                
+                <br>
+
+
+<div class="ddi-phone-container">
+    <div class="ddi-container">
+<label for="ddi">Código de Área:</label>
+<select id="ddi" name="ddi" required="">
+    <option value="55">Brasil (+55)</option>
+</select>
+
+
+    </div>
+    
+            <div class="phone-container">
+            <!-- Campo de telefone -->
+            <label for="phone">Celular:</label>
+            <input type="tel" id="phone" name="phone" required="">
+
+
+            </div>
+         </div>   
+            
+            
+            <br>
+
+
+                <input type="text" id="status" name="status" value="naoenviado" hidden="">
+
+
+                </font><center><font face="'Hammersmith One', sans-serif">
+<div class="setas">
+        <div class="seta">
+            <div class="corpo"></div>
+            <div class="ponta"></div>
+        </div>
+        <div class="seta" style="margin-left: 20px;">
+            <div class="corpo"></div>
+            <div class="ponta"></div>
+        </div>
+    </div>
+                <br>    
+                 <button type="submit" class="cta-button">     Download eBook <br> AUTISMO      
+
+
+                 
+                 </button>
+              <br>
+              
+               <br>
+
+              </font>
+                
+</center>
+            </form>
+        </div>
+    </div>
+    
+
+
+
+                <br>
+                
+            </div>
+
+
+<style>
+        /* Fundo do popup de imagem */
+        .image-popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 10000;
+        }
+
+        /* Conteúdo do popup de imagem */
+        .image-popup-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 90%;
+            max-height: 90%;
+        }
+
+        /* Botão de fechar do popup */
+.image-popup-close {
+  position: absolute;
+  top: 5px;
+  right: 6px;
+  font-size: 47px;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+  background-color: #FFF;
+}
+    </style>
+
+
+    <!-- Popup de imagem -->
+    <div class="image-popup-overlay" id="imagePopup">
+        <div class="image-popup-content">
+            <span class="image-popup-close" onclick="closeImagePopup()">×</span>
+            <img src="https://caminhosautismo.com/wp-content/uploads/2025/02/popup.png" alt="Oferta Especial" style="max-width: 100%; cursor: pointer;" onclick="openLightbox()">
+        </div>
+    </div>
+
+    <script>
+        // Exibe o popup automaticamente ao carregar a página
+        window.onload = function() {
+            document.getElementById("imagePopup22222222222222222222222").style.display = "block";
+        };
+
+        // Fecha o popup da imagem
+        function closeImagePopup() {
+            document.getElementById("imagePopup22222222222222222222222").style.display = "none";
+        }
+    </script>
+
+
+
+<div class="page-content">
+    <br><div id="ez-toc-container" class="ez-toc-v2_0_73 ez-toc-wrap-left counter-hierarchy ez-toc-counter ez-toc-grey ez-toc-container-direction">
+<div class="ez-toc-title-container">
+<p class="ez-toc-title" style="cursor:inherit">Índice de conteúdo</p>
+<span class="ez-toc-title-toggle"><a href="#" class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle" aria-label="Alternar tabela de conteúdo"><span class="ez-toc-js-icon-con"><span class=""><span class="eztoc-hide" style="display:none;">Toggle</span><span class="ez-toc-icon-toggle-span"><svg style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg" class="list-377408" width="20px" height="20px" viewBox="0 0 24 24" fill="none"><path d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z" fill="currentColor"></path></svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013" xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 24 24" version="1.2" baseProfile="tiny"><path d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z"></path></svg></span></span></span></a></span></div>
+<nav><ul class="ez-toc-list ez-toc-list-level-1 "><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#Descubra_a_verdade_sobre_o_autismo_infantil" title="Descubra a verdade sobre o autismo infantil!">Descubra a verdade sobre o autismo infantil!</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-2" href="#Conheca_a_especialista_Ana_Maria_Vieira_Lage" title="Conheça a especialista Ana Maria Vieira Lage!">Conheça a especialista Ana Maria Vieira Lage!</a></li><li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-3" href="#Saiba_como_ela_pode_ajudar_seu_filho_hoje" title="Saiba como ela pode ajudar seu filho hoje!">Saiba como ela pode ajudar seu filho hoje!</a></li></ul></nav></div>
+<p>Você já ouviu falar sobre o autismo infantil e gostaria de saber mais sobre como lidar com essa condição? Se sim, você veio ao lugar certo! Neste artigo, iremos desvendar o autismo infantil com a ajuda da renomada especialista Ana Maria Vieira Lage. Descubra a verdade por trás desse transtorno, conheça a especialista e saiba como ela pode ajudar seu filho hoje!<br><br></p><center><a href="https://caminhosautismo.com/quiz/?utm_source=organico&amp;utm_campaign=bannermeio"><img src="https://caminhosautismo.com/banner.gif"></a></center><br><p></p>
+<h2><span class="ez-toc-section" id="Descubra_a_verdade_sobre_o_autismo_infantil"></span>Descubra a verdade sobre o autismo infantil!<span class="ez-toc-section-end"></span></h2>
+<p>O autismo infantil é um transtorno do desenvolvimento que afeta a comunicação, interação social e comportamento da criança. Muitas vezes, os sintomas podem ser confundidos com simples traços de personalidade, o que torna importante buscar a ajuda de um especialista para um diagnóstico preciso. Com Ana Maria Vieira Lage, você poderá entender melhor o que é o autismo infantil, quais são os sinais de alerta e como lidar com essa condição de forma eficaz e amorosa.</p>
+<h2><span class="ez-toc-section" id="Conheca_a_especialista_Ana_Maria_Vieira_Lage"></span>Conheça a especialista Ana Maria Vieira Lage!<span class="ez-toc-section-end"></span></h2>
+<p>Ana Maria Vieira Lage é uma renomada especialista em autismo infantil, com vasta experiência na área. Ela é conhecida por sua abordagem empática e individualizada, que busca compreender as necessidades específicas de cada criança e família. Com Ana Maria, você terá acesso a um atendimento de qualidade, baseado em evidências científicas e práticas atualizadas. Não deixe de conhecer o trabalho dessa profissional comprometida com o bem-estar e desenvolvimento das crianças com autismo.</p>
+<h2><span class="ez-toc-section" id="Saiba_como_ela_pode_ajudar_seu_filho_hoje"></span>Saiba como ela pode ajudar seu filho hoje!<span class="ez-toc-section-end"></span></h2>
+<p>Com a ajuda de Ana Maria Vieira Lage, você poderá contar com um acompanhamento personalizado e focado nas necessidades do seu filho. Ela irá oferecer orientações sobre estratégias de intervenção, terapias adequadas e suporte emocional para a família. Além disso, a especialista irá trabalhar em parceria com escolas e profissionais da saúde para garantir o melhor suporte possível para seu filho. Não deixe de procurar a ajuda de Ana Maria e proporcionar um futuro mais brilhante e feliz para seu filho com autismo.</p>
+<p>Não espere mais para desvendar o autismo infantil com Ana Maria Vieira Lage! Confie em sua expertise e comprometimento em ajudar as crianças com autismo a superarem desafios e alcançarem seu potencial máximo. Entre em contato hoje mesmo e dê o primeiro passo para um futuro mais inclusivo e acolhedor para seu filho!</p>
+<p><strong><img draggable="false" role="img" class="emoji" alt="📌" src="https://s.w.org/images/core/emoji/15.1.0/svg/1f4cc.svg"> Leia também:</strong> <a href="https://caminhosautismo.com/desbloqueie-o-potencial-do-autismo-executabilidade-neurologica/">Desbloqueie o Potencial do Autismo: Executabilidade Neurológica</a></p></div>
+
+</main>

@@ -1,0 +1,147 @@
+<main class="announcements">
+            <div class="container">
+                <div class="announcements__box">
+                    <input type="hidden" id="counter-url" value="https://www.medguias.com.br/api/am/announcement/3787/counter/:method">
+                    <div class="announcements__content">
+                        <div class="announcements__content--main">
+                            <div class="announcements__content--image" style="border-radius: 10px; background: rgb(204,131,82);     background: linear-gradient(90deg, rgba(204,131,82,1) 0%, rgba(255,180,137,1) 100%);;">
+                                <img src="https://www.medguias.com.br/storage/images/announcements/lOQosHUSjftYGkrQ5qgR1ZbyRhNnvFzN3u6LZ9k7.png" alt="medical image">
+                            </div>
+                            <div class="announcements__box--wrapper">
+                                <div class="announcements__content--title">ALESSANDRA NAZARE PEREIRA</div>
+                                <div class="announcements__content--specialty">
+				                                            <a href="https://www.medguias.com.br/am/anuncios?especialista=Psiquiatria">
+                                            Psiquiatria                                        </a>
+                                                                                                            </div>
+                                                                    <div class="announcements__info bg">
+                                        <span class="material-icons">location_on</span>
+                                        <span>
+                                            <a href="https://www.google.com/maps/search/?api=1&amp;query=Cl%C3%ADnica+Viva+Mente+Sa%C3%BAde+Integral+-+Cristal+Tower+-+Av.+Umberto+Calderaro%2C455+-+Sala+1212+Adrian%C3%B3polis-Manaus" target="_blank">
+                                                
+            Clínica Viva Mente Saúde Integral - Cristal Tower - Av. Umberto Calderaro, 455 - Sala 1212 - Adrianópolis, Manaus - AM, CEP 69057-015
+                                            </a>
+                                        </span>
+                                    </div>
+
+                                    <div class="announcements__info--wrapper">
+                                        
+                                        <div class="announcements__info bg ">
+                                            <span class="material-icons">phone</span>
+
+                                            <span>
+                                                                                                                                                        <a onclick="handlePhoneClick(event)" data-ios-phone="092993229285" data-android-phone="092993229285" data-default-phone="092993229285">
+                                                        (92) 99322-9285
+                                                    </a>
+                                                                                                    
+                                                <script src="https://www.medguias.com.br/js/utils/phone.js"></script>
+                                            </span>
+                                        </div>
+
+                                                                            </div>
+                                                                                                                                    <div class="announcements__info bg languages">
+                                        <span class="material-icons">favorite</span>
+                                        <span>Telemedicina</span>
+                                    </div>
+                                
+                                                                    <div class="covenants open-modal-covenants announcements__info bg">
+                                        <i class="fas fa-book-medical"></i>
+                                        <span class="update-counter" data-announcement="3787" data-method="covenants">
+                                            Clique aqui para ver os convênios
+                                        </span>
+                                        <div class="modal-covenants-container d-none">
+                                            <div class="box-modal">
+                                                <div class="header-modal">
+                                                    <h2>Convênios disponíveis</h2>
+                                                    <img class="close-modal-covenants" src="https://www.medguias.com.br/images/web/icons/close.svg">
+                                                </div>
+                                                <div class="content-modal">
+                                                                                                            <img class="logo-covenant" src="https://www.medguias.com.br/storage/images/covenants/DDZDTUpsvHUQKPGVnnoZVqihcqfz1OSMz7Sc3Iea.png">
+                                                                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                <div class="announcements__content--actions-container">
+                                                                            <div class="announcements__content--actions-container__actions">
+                                            <a href="javascript:void(0)" id="generate-virtual-card-trigger" class="button left">
+                                                <span class="material-icons">credit_card</span>
+                                                <span>Cartão Virtual</span>
+                                            </a>
+                                        </div>
+                                                                                                                <div class="announcements__content--actions-container__actions" id="consultation-counter">
+                                                                                        <a href="https://wa.me/5592993229285?text=Ol%C3%A1%21+Encontrei+voc%C3%AAs+atrav%C3%A9s+do+MedGuias.+Gostaria+de+agendar+um+atendimento+com+ALESSANDRA+NAZARE+PEREIRA." target="_blank" class="button">
+                                                <span class="material-icons">schedule</span>
+                                                <span>Agendar Consulta</span>
+                                            </a>
+                                        </div>
+                                                                    </div>
+                            </div>
+                        </div>
+                        <div class="announcements__social-networks">
+                                                                                            <span class="announcements__social-networks--social-network">
+                                    <a href="https://wa.me/5592993229285?text=Ol%C3%A1%21+Encontrei+voc%C3%AAs+atrav%C3%A9s+do+MedGuias.+Gostaria+de+agendar+um+atendimento+com+ALESSANDRA+NAZARE+PEREIRA." target="_blank">
+                                        <i class="fab fa-whatsapp"></i>Whatsapp
+                                    </a>
+                                </span>
+                                                                                        <span class="announcements__social-networks--social-network">
+                                    <a href="https://www.instagram.com/dra.alessandrapereira/?hl=pt-br" target="_blank">
+                                        <i class="fab fa-instagram"></i>Instagram
+                                    </a>
+                                </span>
+                                                                                                            </div>
+                    </div>
+                    <div class="announcements__tab-container">
+                                                    <span style="display: none" id="get-timezone">-3</span>
+                                                <div id="tabs" class="tabs">
+                            <a href="#tab-2" class="tab is-active">Geral</a>
+                            <a id="tab-agenda" href="#tab-1" class="tab" style="display: none;">Agenda</a>
+                        </div>
+                        <div id="tab-1" class="tab-content" style="display: none;">
+                            <div class="timezone">
+                                <div class="currentLabel"><i class="fas fa-clock"></i>O Fuso Horário utilizado é: </div>
+                                <div class="currentTimezone">Brasília (UTC-03:00)</div>
+                            </div>
+                            <div id="calendar" class="calendar-custom fc fc-media-screen fc-direction-ltr fc-theme-standard"><div class="fc-header-toolbar fc-toolbar fc-toolbar-ltr"><div class="fc-toolbar-chunk"><button class="fc-prev-button fc-button fc-button-primary" type="button" aria-label="prev"><span class="fc-icon fc-icon-chevron-left"></span></button></div><div class="fc-toolbar-chunk"></div><div class="fc-toolbar-chunk"><button class="fc-next-button fc-button fc-button-primary" type="button" aria-label="next"><span class="fc-icon fc-icon-chevron-right"></span></button></div></div><div class="fc-view-harness fc-view-harness-active" style="height: 0px;"><div class="fc-timegrid fc-twoDays-view fc-view"><table class="fc-scrollgrid  fc-scrollgrid-liquid"><thead><tr class="fc-scrollgrid-section fc-scrollgrid-section-header "><td><div class="fc-scroller-harness"><div class="fc-scroller" style="overflow: hidden;"><table class="fc-col-header " style="width: 0px;"><colgroup><col style="width: 0px;"></colgroup><tbody><tr><th class="fc-timegrid-axis"><div class="fc-timegrid-axis-frame"></div></th><th class="fc-col-header-cell fc-day fc-day-wed fc-day-today " data-date="2025-05-21"><span class="day-title">Quarta-Feira</span><span class="day-number">21/5</span></th><th class="fc-col-header-cell fc-day fc-day-thu fc-day-future" data-date="2025-05-22"><span class="day-title">Quinta-Feira</span><span class="day-number">22/5</span></th></tr></tbody></table></div></div></td></tr></thead><tbody><tr class="fc-scrollgrid-section fc-scrollgrid-section-body  fc-scrollgrid-section-liquid"><td><div class="fc-scroller-harness fc-scroller-harness-liquid"><div class="fc-scroller fc-scroller-liquid-absolute" style="overflow: hidden auto;"><div class="fc-timegrid-body" style="width: 0px;"><div class="fc-timegrid-slots"><table class="" style="width: 0px;"><colgroup><col style="width: 0px;"></colgroup><tbody></tbody></table></div><div class="fc-timegrid-cols"><table style="width: 0px;"><colgroup><col style="width: 0px;"></colgroup><tbody><tr><td class="fc-timegrid-col fc-timegrid-axis"><div class="fc-timegrid-col-frame"><div class="fc-timegrid-now-indicator-container"></div></div></td><td class="fc-timegrid-col fc-day fc-day-wed fc-day-today " data-date="2025-05-21"><div class="fc-timegrid-col-frame"><div class="fc-timegrid-col-bg"></div><div class="fc-timegrid-col-events"></div><div class="fc-timegrid-col-events"></div><div class="fc-timegrid-now-indicator-container"></div></div></td><td class="fc-timegrid-col fc-day fc-day-thu fc-day-future" data-date="2025-05-22"><div class="fc-timegrid-col-frame"><div class="fc-timegrid-col-bg"></div><div class="fc-timegrid-col-events"></div><div class="fc-timegrid-col-events"></div><div class="fc-timegrid-now-indicator-container"></div></div></td></tr></tbody></table></div></div></div></div></td></tr></tbody></table></div></div>
+
+                            </div>
+                            <div id="button-more" class="tab-content__button-more">Mostrar mais horários</div>
+                        </div>
+                        <div id="tab-2" class="tab-content is-active">
+                            <div class="ck-content">
+                                <p><strong>Psiquiatra</strong><br>CRM – AM 3503 | RQE 3951<br>Pessoa que ama mudar vidas</p><p>• Graduada pela UFAM<br>• Titulada pela Associação Brasileira de Psiquiatria<br>• Membro da Associação Brasileira de Estudos e Prevenção do Suicídio<br>• Atendimento Domiciliar e Hospitalar</p><p><strong>Consulta Ambulatorial</strong><br><strong>Consulta Domiciliar</strong><br><strong>Consulta Hospitalar</strong></p>                            </div>
+                            <div id="procedures" class="tab-content__procedures ck-content">
+                                                            </div>
+                            <span id="procedures-more" class="procedures-more" style="display: none;">Ver mais</span>
+                            <div class="announcements__maps">
+                                <iframe width="100%" height="360" style="border:0;" allowfullscreen="" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB0aXH58sHxxXWYWksK_rPCACvuCsUKIbc&amp;q=Cl%C3%ADnica%20Viva%20Mente%20Sa%C3%BAde%20Integral%20-%20Cristal%20Tower%20-%20Av.%20Umberto%20Calderaro+455%20-%20Sala%201212+Adrian%C3%B3polis+Manaus+AM" loading="lazy">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="hidden" value="https://www.medguias.com.br/announcement/appointment-list/3787" id="appointment-list-url">
+                    <input type="hidden" value="https://www.medguias.com.br/am/cliente/agendar-consulta/3787/:calendar" id="schedule-url">
+                                        <div class="announcements__box--more-infos">
+                                                    <div class="announcements__box--more-infos__gallery">
+                                <span class="announcements__box--more-infos__gallery--title">Fotos</span>
+                                <div class="announcements__box--more-infos__gallery--images">
+                                                                            <a href="https://www.medguias.com.br/storage/images/announcements/WNECsQbmVLTbcl8FnXn1aBCKKsoLqqWLP70m4xb3.jpg" class="announcements__box--more-infos__gallery--images__image image-popup-fit-width">
+                                            <img src="https://www.medguias.com.br/storage/images/announcements/WNECsQbmVLTbcl8FnXn1aBCKKsoLqqWLP70m4xb3.jpg" alt="Galeria">
+                                        </a>
+                                                                            <a href="https://www.medguias.com.br/storage/images/announcements/nE0HcRuHsFCdaj98o4db9BPovMiudAoAziAmm6wn.jpg" class="announcements__box--more-infos__gallery--images__image image-popup-fit-width">
+                                            <img src="https://www.medguias.com.br/storage/images/announcements/nE0HcRuHsFCdaj98o4db9BPovMiudAoAziAmm6wn.jpg" alt="Galeria">
+                                        </a>
+                                                                            <a href="https://www.medguias.com.br/storage/images/announcements/18Aldi6Lzv9r4Ol5dBZdUuaaTv1D0DYjnWMEkDpQ.jpg" class="announcements__box--more-infos__gallery--images__image image-popup-fit-width">
+                                            <img src="https://www.medguias.com.br/storage/images/announcements/18Aldi6Lzv9r4Ol5dBZdUuaaTv1D0DYjnWMEkDpQ.jpg" alt="Galeria">
+                                        </a>
+                                                                    </div>
+                            </div>
+                                                                            <div class="announcements__box--more-infos__video">
+                                <span class="announcements__box--more-infos__video--title">Video</span>
+                                <div class="announcements__box--more-infos__video--container">
+                                    <iframe title="Announcement video" src="https://www.youtube.com/embed/3FRd5oISuZQ">
+                                    </iframe>
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+            </div>
+        </main>
