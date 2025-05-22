@@ -1,0 +1,292 @@
+2025-05-21 21:33:01,193 - P5348 - INFO - 
+==================================================
+Processando médico 1/2
+2025-05-21 21:33:01,194 - P5348 - INFO - Nome: IGOR GABRIEL MAIA MENDANHA AMARAL
+2025-05-21 21:33:01,194 - P5348 - INFO - Reiniciando driver do Chrome
+2025-05-21 21:33:02,588 - P5348 - INFO - Após reiniciar driver Uso de memória: 38.84 MB
+2025-05-21 21:33:02,588 - P5348 - INFO - Início do processamento Uso de memória: 38.84 MB
+2025-05-21 21:33:02,588 - P5348 - INFO - Iniciando busca para: IGOR GABRIEL MAIA MENDANHA AMARAL CRM 209301 SP telefone e-mail endereço
+2025-05-21 21:33:03,234 - P5348 - INFO - SearX results: 9 URLs
+2025-05-21 21:33:03,235 - P5348 - INFO - Após SearX Uso de memória: 38.89 MB
+2025-05-21 21:33:06,063 - P5348 - INFO - Google results: 3 URLs
+2025-05-21 21:33:06,064 - P5348 - INFO - Após Google Uso de memória: 40.84 MB
+2025-05-21 21:33:08,978 - P5348 - INFO - Bing results: 9 URLs
+2025-05-21 21:33:08,978 - P5348 - INFO - Após Bing Uso de memória: 42.97 MB
+2025-05-21 21:33:08,978 - P5348 - INFO - Total de URLs únicas: 12
+2025-05-21 21:33:08,978 - P5348 - INFO - Processando URL 1/12: https://agendarconsulta.com/perfil/dr-igor-gabriel-maia-mendanha-amaral-1670374242
+2025-05-21 21:33:15,342 - P5348 - INFO - HTML salvo para debug: data\debug_html_v9\e77f24cd06aef03fb5d2021138d8c151.html
+2025-05-21 21:33:15,375 - P5348 - INFO - Candidates address: 0 items
+2025-05-21 21:33:15,376 - P5348 - INFO - Candidates phone: 1 items
+2025-05-21 21:33:15,376 - P5348 - INFO - Candidates email: 1 items
+2025-05-21 21:33:15,376 - P5348 - INFO - Candidates complement: 0 items
+2025-05-21 21:33:15,377 - P5348 - INFO - Candidates cep: 2 items
+2025-05-21 21:33:15,377 - P5348 - INFO - Após processar URL 1 Uso de memória: 45.06 MB
+2025-05-21 21:33:15,377 - P5348 - INFO - Processando URL 2/12: https://guiamedico.cremesp.org.br/
+2025-05-21 21:33:18,586 - P5348 - INFO - HTML salvo para debug: data\debug_html_v9\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-21 21:33:18,599 - P5348 - INFO - Candidates address: 1 items
+2025-05-21 21:33:18,600 - P5348 - INFO - Candidates phone: 1 items
+2025-05-21 21:33:18,601 - P5348 - INFO - Candidates email: 0 items
+2025-05-21 21:33:18,602 - P5348 - INFO - Candidates complement: 0 items
+2025-05-21 21:33:18,604 - P5348 - INFO - Candidates cep: 1 items
+2025-05-21 21:33:18,604 - P5348 - INFO - Após processar URL 2 Uso de memória: 44.89 MB
+2025-05-21 21:33:18,605 - P5348 - INFO - Processando URL 3/12: https://www.passeidireto.com/arquivo/109815622/guia-medico-referencia-2019
+2025-05-21 21:33:22,023 - P5348 - INFO - HTML salvo para debug: data\debug_html_v9\b678a7e1e2d052b9788da1e646babb02.html
+2025-05-21 21:33:22,303 - P5348 - INFO - Candidates address: 510 items
+2025-05-21 21:33:22,304 - P5348 - INFO - Candidates phone: 5 items
+2025-05-21 21:33:22,304 - P5348 - INFO - Candidates email: 1 items
+2025-05-21 21:33:22,304 - P5348 - INFO - Candidates complement: 0 items
+2025-05-21 21:33:22,304 - P5348 - INFO - Candidates cep: 590 items
+2025-05-21 21:33:22,304 - P5348 - INFO - Após processar URL 3 Uso de memória: 65.38 MB
+2025-05-21 21:33:22,305 - P5348 - INFO - Processando URL 4/12: https://www.boaconsulta.com/especialista/igor-gabriel-maia-mendanha-amaral-6106d866a2e00a69990041c4
+2025-05-21 21:33:25,691 - P5348 - INFO - HTML salvo para debug: data\debug_html_v9\d08d03e19fd44f60e06483e34411aded.html
+2025-05-21 21:33:25,770 - P5348 - INFO - Candidates address: 15 items
+2025-05-21 21:33:25,770 - P5348 - INFO - Candidates phone: 0 items
+2025-05-21 21:33:25,771 - P5348 - INFO - Candidates email: 0 items
+2025-05-21 21:33:25,771 - P5348 - INFO - Candidates complement: 0 items
+2025-05-21 21:33:25,771 - P5348 - INFO - Candidates cep: 0 items
+2025-05-21 21:33:25,771 - P5348 - INFO - Após processar URL 4 Uso de memória: 49.31 MB
+2025-05-21 21:33:25,771 - P5348 - INFO - Processando URL 5/12: https://www.informecadastral.com.br/cnpj/igor-gabriel-maia-mendanha-amaral-37754127000106
+2025-05-21 21:33:30,796 - P5348 - INFO - HTML salvo para debug: data\debug_html_v9\f55d34df06f39a76eff77534f5b85adb.html
+2025-05-21 21:33:30,821 - P5348 - INFO - Candidates address: 1 items
+2025-05-21 21:33:30,821 - P5348 - INFO - Candidates phone: 2 items
+2025-05-21 21:33:30,822 - P5348 - INFO - Candidates email: 1 items
+2025-05-21 21:33:30,822 - P5348 - INFO - Candidates complement: 0 items
+2025-05-21 21:33:30,822 - P5348 - INFO - Candidates cep: 3 items
+2025-05-21 21:33:30,822 - P5348 - INFO - Após processar URL 5 Uso de memória: 48.29 MB
+2025-05-21 21:33:30,822 - P5348 - INFO - Processando URL 6/12: https://www.solutudo.com.br/empresas/sp/s-caetano-sul/clinica-medica-ou-medicina-interna/igor-gabriel-maia-mendanha-amaral-24257845
+2025-05-21 21:33:38,333 - P5348 - INFO - HTML salvo para debug: data\debug_html_v9\0acfb537367650a762414aef84bed859.html
+2025-05-21 21:33:38,370 - P5348 - INFO - Candidates address: 1 items
+2025-05-21 21:33:38,370 - P5348 - INFO - Candidates phone: 1 items
+2025-05-21 21:33:38,370 - P5348 - INFO - Candidates email: 1 items
+2025-05-21 21:33:38,371 - P5348 - INFO - Candidates complement: 0 items
+2025-05-21 21:33:38,371 - P5348 - INFO - Candidates cep: 1 items
+2025-05-21 21:33:38,371 - P5348 - INFO - Após processar URL 6 Uso de memória: 49.79 MB
+2025-05-21 21:33:38,371 - P5348 - INFO - Processando URL 7/12: https://www.doctoralia.com.br/servicos-de-tratamento/consulta-psiquiatria/sao-caetano-do-sul
+2025-05-21 21:33:38,371 - P5348 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/servicos-de-tratamento/consulta-psiquiatria/sao-caetano-do-sul
+2025-05-21 21:33:38,372 - P5348 - INFO - Após processar URL 7 Uso de memória: 48.80 MB
+2025-05-21 21:33:38,372 - P5348 - INFO - Processando URL 8/12: https://cliniguia.com/profissionais/igor-gabriel-maia-mendanha-amaral-704209221616180/
+2025-05-21 21:33:45,630 - P5348 - INFO - HTML salvo para debug: data\debug_html_v9\53d4762735757bbd85d7ce6a37b21aa9.html
+2025-05-21 21:33:45,692 - P5348 - INFO - Candidates address: 0 items
+2025-05-21 21:33:45,696 - P5348 - INFO - Candidates phone: 0 items
+2025-05-21 21:33:45,696 - P5348 - INFO - Candidates email: 0 items
+2025-05-21 21:33:45,696 - P5348 - INFO - Candidates complement: 0 items
+2025-05-21 21:33:45,697 - P5348 - INFO - Candidates cep: 0 items
+2025-05-21 21:33:45,697 - P5348 - INFO - Após processar URL 8 Uso de memória: 52.81 MB
+2025-05-21 21:33:45,697 - P5348 - INFO - Processando URL 9/12: https://guiasaudebrasil.com.br/profissional/9bbdf63f6a5daa78-igor-gabriel-maia-mendanha-amaral
+2025-05-21 21:33:50,413 - P5348 - INFO - HTML salvo para debug: data\debug_html_v9\eaaef15d0520422c84b73369149e3039.html
+2025-05-21 21:33:50,429 - P5348 - INFO - Candidates address: 0 items
+2025-05-21 21:33:50,434 - P5348 - INFO - Candidates phone: 0 items
+2025-05-21 21:33:50,439 - P5348 - INFO - Candidates email: 0 items
+2025-05-21 21:33:50,446 - P5348 - INFO - Candidates complement: 0 items
+2025-05-21 21:33:50,455 - P5348 - INFO - Candidates cep: 1 items
+2025-05-21 21:33:50,458 - P5348 - INFO - Após processar URL 9 Uso de memória: 52.40 MB
+2025-05-21 21:33:50,463 - P5348 - INFO - Processando URL 10/12: https://agendarconsulta.com/perfil/dr-igor-gabriel-maia-mendanha-amaral-1670374242#:~:text=Para%20agendamentos%20presenciais%20e%20outros%20hor%C3%A1rios%20livres%2C%20entre,na%20Alameda%20Terracota%2C%20185%2C%20S%C3%A3o%20Caetano%20do%20Sul
+2025-05-21 21:33:55,543 - P5348 - INFO - HTML salvo para debug: data\debug_html_v9\cea6464c04ab6c87a4d6eed45534bd5a.html
+2025-05-21 21:33:55,579 - P5348 - INFO - Candidates address: 0 items
+2025-05-21 21:33:55,579 - P5348 - INFO - Candidates phone: 1 items
+2025-05-21 21:33:55,579 - P5348 - INFO - Candidates email: 1 items
+2025-05-21 21:33:55,580 - P5348 - INFO - Candidates complement: 0 items
+2025-05-21 21:33:55,580 - P5348 - INFO - Candidates cep: 2 items
+2025-05-21 21:33:55,580 - P5348 - INFO - Após processar URL 10 Uso de memória: 52.06 MB
+2025-05-21 21:33:55,580 - P5348 - INFO - Processando URL 11/12: https://cnpj.biz/37754127000106
+2025-05-21 21:33:57,814 - P5348 - INFO - HTML salvo para debug: data\debug_html_v9\b460632d5b9fdde885f0b89c11054d77.html
+2025-05-21 21:33:57,816 - P5348 - INFO - Candidates address: 0 items
+2025-05-21 21:33:57,816 - P5348 - INFO - Candidates phone: 0 items
+2025-05-21 21:33:57,816 - P5348 - INFO - Candidates email: 0 items
+2025-05-21 21:33:57,817 - P5348 - INFO - Candidates complement: 0 items
+2025-05-21 21:33:57,817 - P5348 - INFO - Candidates cep: 0 items
+2025-05-21 21:33:57,817 - P5348 - INFO - Após processar URL 11 Uso de memória: 52.13 MB
+2025-05-21 21:33:57,817 - P5348 - INFO - Processando URL 12/12: https://www.econodata.com.br/consulta-empresa/37754127000106-IGOR-GABRIEL-MAIA-MENDANHA-AMARAL
+2025-05-21 21:34:00,856 - P5348 - INFO - HTML salvo para debug: data\debug_html_v9\8f0135fa3807bcf1fa10f15bef565112.html
+2025-05-21 21:34:00,995 - P5348 - INFO - Candidates address: 23 items
+2025-05-21 21:34:00,995 - P5348 - INFO - Candidates phone: 0 items
+2025-05-21 21:34:00,996 - P5348 - INFO - Candidates email: 0 items
+2025-05-21 21:34:00,996 - P5348 - INFO - Candidates complement: 2 items
+2025-05-21 21:34:00,996 - P5348 - INFO - Candidates cep: 1 items
+2025-05-21 21:34:00,996 - P5348 - INFO - Após processar URL 12 Uso de memória: 54.85 MB
+2025-05-21 21:34:00,996 - P5348 - INFO - Iniciando agregação e ranqueamento
+2025-05-21 21:34:00,997 - P5348 - INFO - Ranked address: 550 items
+2025-05-21 21:34:00,997 - P5348 - INFO - Ranked phone: 9 items
+2025-05-21 21:34:00,997 - P5348 - INFO - Ranked email: 4 items
+2025-05-21 21:34:00,997 - P5348 - INFO - Ranked complement: 2 items
+2025-05-21 21:34:00,998 - P5348 - INFO - Ranked cep: 598 items
+2025-05-21 21:34:00,998 - P5348 - INFO - Após agregação Uso de memória: 54.86 MB
+2025-05-21 21:34:00,998 - P5348 - INFO - Validando endereço: ['Rua Perrella, 331', 'Rua Frei Caneca, 1282', 'Av. Armando Lombardi, 400']
+2025-05-21 21:34:00,998 - P5348 - INFO - Endereço validado: Rua Perrella, 331
+2025-05-21 21:34:00,998 - P5348 - INFO - Limpando texto extenso para campo address: Rua Perrella, 331...
+2025-05-21 21:34:00,999 - P5348 - INFO - Texto limpo: Rua Perrella, 331
+2025-05-21 21:34:01,000 - P5348 - INFO - Validando telefone: ['(11) 91437-1634', '(11) 4386-1349', '(11) 4349-9900']
+2025-05-21 21:34:01,001 - P5348 - INFO - Limpando texto extenso para campo phone: (11) 91437-1634...
+2025-05-21 21:34:01,001 - P5348 - INFO - Texto limpo: 11) 91437-1634
+2025-05-21 21:34:01,001 - P5348 - INFO - Telefone validado: 11) 91437-1634
+2025-05-21 21:34:01,002 - P5348 - INFO - Validando email: ['dr.igoramaral@icloud.com', 'atendimento.saude@assistcard.com', 'jdribeirojr@hotmail.com']
+2025-05-21 21:34:01,002 - P5348 - INFO - Limpando texto extenso para campo email: dr.igoramaral@icloud.com...
+2025-05-21 21:34:01,002 - P5348 - INFO - Texto limpo: dr.igoramaral@icloud.com
+2025-05-21 21:34:01,002 - P5348 - INFO - Email validado: dr.igoramaral@icloud.com
+2025-05-21 21:34:01,002 - P5348 - INFO - Validando complemento: ['Apt 1210 Bairro: Fundacao Município/UF: São Caetano d', 'Apt 1210 - Fundacao']
+2025-05-21 21:34:01,003 - P5348 - INFO - Limpando texto extenso para campo complement: Apt 1210 Bairro: Fundacao Município/UF: São Caetan...
+2025-05-21 21:34:01,003 - P5348 - INFO - Texto limpo: Apt 1210 Bairro: Fundacao Município/UF: São Caetan
+2025-05-21 21:34:01,003 - P5348 - INFO - Complemento validado: Apt 1210 Bairro: Fundacao Município/UF: São Caetan
+2025-05-21 21:34:01,003 - P5348 - INFO - Descobrindo cidade
+2025-05-21 21:34:01,003 - P5348 - INFO - Buscando cidade: Rua Perrella cidade SP
+2025-05-21 21:34:03,816 - P5348 - WARNING - Cidade não encontrada
+2025-05-21 21:34:03,817 - P5348 - INFO - Cidade descoberta: 
+2025-05-21 21:34:03,817 - P5348 - INFO - Tempo de execução de processamento completo do médico: 61.23 segundos
+2025-05-21 21:34:03,818 - P5348 - INFO - Resultado processado: {'CRM': '209301', 'UF': 'SP', 'Firstname': 'IGOR', 'LastName': 'GABRIEL MAIA MENDANHA AMARAL', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Perrella, 331', 'Address A1': 'Rua Perrella', 'Numero A1': '331', 'Complement A1': 'Apt 1210 Bairro: Fundacao Município/UF: São Caetan', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 91437-1634', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'dr.igoramaral@icloud.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-21 21:34:03,820 - P5348 - INFO - Progresso: 40.0%
+2025-05-21 21:34:03,820 - P5348 - INFO - Executando coleta de lixo
+2025-05-21 21:34:03,856 - P5348 - INFO - Após coleta de lixo Uso de memória: 49.82 MB
+2025-05-21 21:34:03,856 - P5348 - INFO - Tempo de execução de processamento do médico 1: 62.66 segundos
+2025-05-21 21:34:03,857 - P5348 - INFO - 
+==================================================
+Processando médico 2/2
+2025-05-21 21:34:03,857 - P5348 - INFO - Nome: DJALMA MICHELE SILVA
+2025-05-21 21:34:03,857 - P5348 - INFO - Início do processamento Uso de memória: 49.82 MB
+2025-05-21 21:34:03,857 - P5348 - INFO - Iniciando busca para: DJALMA MICHELE SILVA CRM 16400 PR telefone e-mail endereço
+2025-05-21 21:34:04,376 - P5348 - INFO - SearX results: 15 URLs
+2025-05-21 21:34:04,378 - P5348 - INFO - Após SearX Uso de memória: 49.85 MB
+2025-05-21 21:34:07,110 - P5348 - INFO - Google results: 7 URLs
+2025-05-21 21:34:07,110 - P5348 - INFO - Após Google Uso de memória: 55.49 MB
+2025-05-21 21:34:09,779 - P5348 - INFO - Bing results: 9 URLs
+2025-05-21 21:34:09,779 - P5348 - INFO - Após Bing Uso de memória: 56.21 MB
+2025-05-21 21:34:09,779 - P5348 - INFO - Total de URLs únicas: 19
+2025-05-21 21:34:09,779 - P5348 - INFO - Processando URL 1/19: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/4/e/f/4efe2185612f8204803b13c273fd705d499f79fa8463504209359a6580c1e1cf/bea14883-5ad4-4eac-8b2a-01df25e85310-14597-DOE_18730_13_11_2009_48F.pdf
+2025-05-21 21:34:09,780 - P5348 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/4/e/f/4efe2185612f8204803b13c273fd705d499f79fa8463504209359a6580c1e1cf/bea14883-5ad4-4eac-8b2a-01df25e85310-14597-DOE_18730_13_11_2009_48F.pdf
+2025-05-21 21:34:09,780 - P5348 - INFO - Após processar URL 1 Uso de memória: 56.21 MB
+2025-05-21 21:34:09,780 - P5348 - INFO - Processando URL 2/19: https://conectadoc.com.br/especialista/crm-16400-PR/djalma-michele-silva
+2025-05-21 21:34:13,450 - P5348 - INFO - HTML salvo para debug: data\debug_html_v9\4644e38a0d3ab9031168887af692d871.html
+2025-05-21 21:34:13,474 - P5348 - INFO - Candidates address: 0 items
+2025-05-21 21:34:13,475 - P5348 - INFO - Candidates phone: 0 items
+2025-05-21 21:34:13,476 - P5348 - INFO - Candidates email: 0 items
+2025-05-21 21:34:13,478 - P5348 - INFO - Candidates complement: 0 items
+2025-05-21 21:34:13,479 - P5348 - INFO - Candidates cep: 0 items
+2025-05-21 21:34:13,479 - P5348 - INFO - Após processar URL 2 Uso de memória: 56.62 MB
+2025-05-21 21:34:13,479 - P5348 - INFO - Processando URL 3/19: https://www.medicosbrasil.com/profissional/djalma-michele-silva
+2025-05-21 21:34:17,254 - P5348 - INFO - HTML salvo para debug: data\debug_html_v9\d4732d190edf8c8ad74a8fff1ea4bbce.html
+2025-05-21 21:34:17,290 - P5348 - INFO - Candidates address: 0 items
+2025-05-21 21:34:17,291 - P5348 - INFO - Candidates phone: 0 items
+2025-05-21 21:34:17,291 - P5348 - INFO - Candidates email: 0 items
+2025-05-21 21:34:17,292 - P5348 - INFO - Candidates complement: 0 items
+2025-05-21 21:34:17,292 - P5348 - INFO - Candidates cep: 0 items
+2025-05-21 21:34:17,292 - P5348 - INFO - Após processar URL 3 Uso de memória: 57.40 MB
+2025-05-21 21:34:17,292 - P5348 - INFO - Processando URL 4/19: https://www.saobernardo.sp.gov.br/documents/10181/865801/NM+2089+de+01.11.2019+-+Conteu%CC%81do+Integral.pdf/4c18634b-aab2-0161-dc2a-b4e3a21f1c84
+2025-05-21 21:34:17,292 - P5348 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/865801/NM+2089+de+01.11.2019+-+Conteu%CC%81do+Integral.pdf/4c18634b-aab2-0161-dc2a-b4e3a21f1c84
+2025-05-21 21:34:17,293 - P5348 - INFO - Após processar URL 4 Uso de memória: 56.21 MB
+2025-05-21 21:34:17,293 - P5348 - INFO - Processando URL 5/19: https://sistemadje.tjmt.jus.br/publicacoes/9476-2015.pdf
+2025-05-21 21:34:17,304 - P5348 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/9476-2015.pdf
+2025-05-21 21:34:17,316 - P5348 - INFO - Após processar URL 5 Uso de memória: 56.21 MB
+2025-05-21 21:34:17,317 - P5348 - INFO - Processando URL 6/19: https://www.doctoralia.com.br/generalista/coronel-vivida
+2025-05-21 21:34:17,319 - P5348 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/generalista/coronel-vivida
+2025-05-21 21:34:17,327 - P5348 - INFO - Após processar URL 6 Uso de memória: 56.21 MB
+2025-05-21 21:34:17,339 - P5348 - INFO - Processando URL 7/19: https://www.boaconsulta.com/especialistas/psiquiatras/palmas-pr
+2025-05-21 21:34:20,751 - P5348 - INFO - HTML salvo para debug: data\debug_html_v9\d44a46ba6bbdd58c2aa57f92a4d6a922.html
+2025-05-21 21:34:20,799 - P5348 - INFO - Candidates address: 5 items
+2025-05-21 21:34:20,799 - P5348 - INFO - Candidates phone: 0 items
+2025-05-21 21:34:20,800 - P5348 - INFO - Candidates email: 0 items
+2025-05-21 21:34:20,800 - P5348 - INFO - Candidates complement: 0 items
+2025-05-21 21:34:20,800 - P5348 - INFO - Candidates cep: 0 items
+2025-05-21 21:34:20,801 - P5348 - INFO - Após processar URL 7 Uso de memória: 57.12 MB
+2025-05-21 21:34:20,801 - P5348 - INFO - Processando URL 8/19: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/218612/Caderno_JUD_DF_2017-04-10_IX_64.pdf?sequence=2&isAllowed=y
+2025-05-21 21:34:20,801 - P5348 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/218612/Caderno_JUD_DF_2017-04-10_IX_64.pdf?sequence=2&isAllowed=y
+2025-05-21 21:34:20,801 - P5348 - INFO - Após processar URL 8 Uso de memória: 56.09 MB
+2025-05-21 21:34:20,801 - P5348 - INFO - Processando URL 9/19: https://consultacrm.com.br/
+2025-05-21 21:34:24,840 - P5348 - INFO - HTML salvo para debug: data\debug_html_v9\65cadeb91ac3713432c21b535990f440.html
+2025-05-21 21:34:24,851 - P5348 - INFO - Candidates address: 0 items
+2025-05-21 21:34:24,851 - P5348 - INFO - Candidates phone: 0 items
+2025-05-21 21:34:24,851 - P5348 - INFO - Candidates email: 0 items
+2025-05-21 21:34:24,851 - P5348 - INFO - Candidates complement: 0 items
+2025-05-21 21:34:24,851 - P5348 - INFO - Candidates cep: 0 items
+2025-05-21 21:34:24,852 - P5348 - INFO - Após processar URL 9 Uso de memória: 56.93 MB
+2025-05-21 21:34:24,852 - P5348 - INFO - Processando URL 10/19: https://www.crmpr.org.br/A-homenagem-aos-profissionais-que-sao-exemplos-eticos-da-Medicina-11-57963.shtml
+2025-05-21 21:34:28,062 - P5348 - INFO - HTML salvo para debug: data\debug_html_v9\907d3cc1e972e77380a33dc9625ed6e4.html
+2025-05-21 21:34:28,103 - P5348 - INFO - Candidates address: 1 items
+2025-05-21 21:34:28,103 - P5348 - INFO - Candidates phone: 1 items
+2025-05-21 21:34:28,103 - P5348 - INFO - Candidates email: 1 items
+2025-05-21 21:34:28,103 - P5348 - INFO - Candidates complement: 0 items
+2025-05-21 21:34:28,103 - P5348 - INFO - Candidates cep: 1 items
+2025-05-21 21:34:28,104 - P5348 - INFO - Após processar URL 10 Uso de memória: 55.96 MB
+2025-05-21 21:34:28,104 - P5348 - INFO - Processando URL 11/19: https://www.ioepa.com.br/pages/2010/2010.07.29.DOE.pdf
+2025-05-21 21:34:28,104 - P5348 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2010/2010.07.29.DOE.pdf
+2025-05-21 21:34:28,104 - P5348 - INFO - Após processar URL 11 Uso de memória: 55.96 MB
+2025-05-21 21:34:28,104 - P5348 - INFO - Processando URL 12/19: https://www.doctoralia.com.br/coronel-vivida
+2025-05-21 21:34:28,104 - P5348 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/coronel-vivida
+2025-05-21 21:34:28,105 - P5348 - INFO - Após processar URL 12 Uso de memória: 55.96 MB
+2025-05-21 21:34:28,105 - P5348 - INFO - Processando URL 13/19: https://www.doctoralia.com.br/djalma-michele-silva/generalista-medico-perito/curitiba
+2025-05-21 21:34:28,105 - P5348 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/djalma-michele-silva/generalista-medico-perito/curitiba
+2025-05-21 21:34:28,105 - P5348 - INFO - Após processar URL 13 Uso de memória: 55.96 MB
+2025-05-21 21:34:28,105 - P5348 - INFO - Processando URL 14/19: https://www.doctoralia.com.br/medico-perito?page=12
+2025-05-21 21:34:28,106 - P5348 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/medico-perito?page=12
+2025-05-21 21:34:28,106 - P5348 - INFO - Após processar URL 14 Uso de memória: 55.96 MB
+2025-05-21 21:34:28,106 - P5348 - INFO - Processando URL 15/19: https://www.boaconsulta.com/especialista/djalma-michele-silva-6105743e40ebb50165000893
+2025-05-21 21:34:30,999 - P5348 - INFO - HTML salvo para debug: data\debug_html_v9\d89f510412514d667d674e7f80fd2d93.html
+2025-05-21 21:34:31,070 - P5348 - INFO - Candidates address: 1 items
+2025-05-21 21:34:31,071 - P5348 - INFO - Candidates phone: 0 items
+2025-05-21 21:34:31,071 - P5348 - INFO - Candidates email: 0 items
+2025-05-21 21:34:31,071 - P5348 - INFO - Candidates complement: 0 items
+2025-05-21 21:34:31,071 - P5348 - INFO - Candidates cep: 0 items
+2025-05-21 21:34:31,072 - P5348 - INFO - Após processar URL 15 Uso de memória: 56.48 MB
+2025-05-21 21:34:31,072 - P5348 - INFO - Processando URL 16/19: https://cliniguia.com/profissionais/djalma-michele-silva-204327722050002/
+2025-05-21 21:34:35,732 - P5348 - INFO - HTML salvo para debug: data\debug_html_v9\c945ec01e9d8f7e5c19e92d266367462.html
+2025-05-21 21:34:35,773 - P5348 - INFO - Candidates address: 0 items
+2025-05-21 21:34:35,773 - P5348 - INFO - Candidates phone: 0 items
+2025-05-21 21:34:35,773 - P5348 - INFO - Candidates email: 0 items
+2025-05-21 21:34:35,773 - P5348 - INFO - Candidates complement: 0 items
+2025-05-21 21:34:35,773 - P5348 - INFO - Candidates cep: 0 items
+2025-05-21 21:34:35,774 - P5348 - INFO - Após processar URL 16 Uso de memória: 56.73 MB
+2025-05-21 21:34:35,774 - P5348 - INFO - Processando URL 17/19: https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/3/2021/06/PREGAO-036-2021-REGISTRO-PARA-FORNECIMENTO-DE-LIVROS.pdf
+2025-05-21 21:34:35,774 - P5348 - INFO - Ignorando URL de arquivo não-HTML: https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/3/2021/06/PREGAO-036-2021-REGISTRO-PARA-FORNECIMENTO-DE-LIVROS.pdf
+2025-05-21 21:34:35,774 - P5348 - INFO - Após processar URL 17 Uso de memória: 56.73 MB
+2025-05-21 21:34:35,774 - P5348 - INFO - Processando URL 18/19: https://www.classemedica.com.br/medico/82395-djalma-michele-silva.htm
+2025-05-21 21:34:40,841 - P5348 - INFO - HTML salvo para debug: data\debug_html_v9\720a0e0c91672ba25dba5b8460f770bc.html
+2025-05-21 21:34:40,872 - P5348 - INFO - Candidates address: 0 items
+2025-05-21 21:34:40,874 - P5348 - INFO - Candidates phone: 0 items
+2025-05-21 21:34:40,874 - P5348 - INFO - Candidates email: 0 items
+2025-05-21 21:34:40,874 - P5348 - INFO - Candidates complement: 0 items
+2025-05-21 21:34:40,875 - P5348 - INFO - Candidates cep: 0 items
+2025-05-21 21:34:40,875 - P5348 - INFO - Após processar URL 18 Uso de memória: 57.72 MB
+2025-05-21 21:34:40,875 - P5348 - INFO - Processando URL 19/19: https://r4cempresarial.com.br/wp-content/uploads/2020/09/Clealco-5.-Plano-de-Recuperacao-Judicial.pdf
+2025-05-21 21:34:40,876 - P5348 - INFO - Ignorando URL de arquivo não-HTML: https://r4cempresarial.com.br/wp-content/uploads/2020/09/Clealco-5.-Plano-de-Recuperacao-Judicial.pdf
+2025-05-21 21:34:40,877 - P5348 - INFO - Após processar URL 19 Uso de memória: 57.72 MB
+2025-05-21 21:34:40,877 - P5348 - INFO - Iniciando agregação e ranqueamento
+2025-05-21 21:34:40,878 - P5348 - INFO - Ranked address: 6 items
+2025-05-21 21:34:40,878 - P5348 - INFO - Ranked phone: 1 items
+2025-05-21 21:34:40,878 - P5348 - INFO - Ranked email: 1 items
+2025-05-21 21:34:40,879 - P5348 - INFO - Ranked complement: 0 items
+2025-05-21 21:34:40,880 - P5348 - INFO - Ranked cep: 1 items
+2025-05-21 21:34:40,881 - P5348 - INFO - Após agregação Uso de memória: 57.72 MB
+2025-05-21 21:34:40,881 - P5348 - INFO - Validando endereço: ['Rua Dr Bernardo Ribeiro Vianna, 433', 'Avenida Cel Jose Osorio, 466', 'Avenida Augusto Guimaraes, 62']
+2025-05-21 21:34:40,882 - P5348 - INFO - Endereço validado: Rua Dr Bernardo Ribeiro Vianna, 433
+2025-05-21 21:34:40,882 - P5348 - INFO - Limpando texto extenso para campo address: Rua Dr Bernardo Ribeiro Vianna, 433...
+2025-05-21 21:34:40,882 - P5348 - INFO - Texto limpo: Rua Dr Bernardo Ribeiro Vianna, 433
+2025-05-21 21:34:40,883 - P5348 - INFO - Validando telefone: ['(41) 3240-4000']
+2025-05-21 21:34:40,883 - P5348 - INFO - Limpando texto extenso para campo phone: (41) 3240-4000...
+2025-05-21 21:34:40,883 - P5348 - INFO - Texto limpo: 41) 3240-4000
+2025-05-21 21:34:40,883 - P5348 - INFO - Telefone validado: 41) 3240-4000
+2025-05-21 21:34:40,884 - P5348 - INFO - Validando email: ['protocolo@crmpr.org.br']
+2025-05-21 21:34:40,885 - P5348 - INFO - Limpando texto extenso para campo email: protocolo@crmpr.org.br...
+2025-05-21 21:34:40,886 - P5348 - INFO - Texto limpo: protocolo@crmpr.org.br
+2025-05-21 21:34:40,886 - P5348 - INFO - Email validado: protocolo@crmpr.org.br
+2025-05-21 21:34:40,886 - P5348 - INFO - Descobrindo cidade
+2025-05-21 21:34:40,886 - P5348 - INFO - Buscando cidade: Rua Dr Bernardo Ribeiro Vianna cidade PR
+2025-05-21 21:34:43,654 - P5348 - INFO - Cidade encontrada: Palmas
+2025-05-21 21:34:43,654 - P5348 - INFO - Cidade descoberta: Palmas
+2025-05-21 21:34:43,655 - P5348 - INFO - Buscando CEP com sistema de cascata
+2025-05-21 21:34:43,655 - P5348 - INFO - Iniciando busca de CEP em cascata para: Rua Dr Bernardo Ribeiro Vianna, Palmas, PR
+2025-05-21 21:34:43,655 - P5348 - INFO - Método 1: ViaCEP API
+2025-05-21 21:34:43,655 - P5348 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/PR/palmas/rua%20dr%20bernardo%20ribeiro%20vianna/json/
+2025-05-21 21:34:44,332 - P5348 - WARNING - ViaCEP retornou status 200 ou nenhum resultado
+2025-05-21 21:34:44,333 - P5348 - INFO - Método 2: BrasilAPI
+2025-05-21 21:34:44,333 - P5348 - INFO - Buscando na BrasilAPI: Rua Dr Bernardo Ribeiro Vianna, Palmas, PR
+2025-05-21 21:34:44,958 - P5348 - INFO - Consultando BrasilAPI: https://brasilapi.com.br/api/cep/v2/44481025
+2025-05-21 21:34:55,306 - P5348 - ERROR - Erro ao buscar na BrasilAPI: HTTPSConnectionPool(host='brasilapi.com.br', port=443): Read timed out. (read timeout=10)
+2025-05-21 21:34:55,306 - P5348 - INFO - Método 3: Web Scraping do Google
+2025-05-21 21:34:55,306 - P5348 - INFO - Buscando CEP: CEP da Rua Dr Bernardo Ribeiro Vianna, Palmas
+2025-05-21 21:34:57,078 - P5348 - INFO - CEP encontrado: 85690-021
+2025-05-21 21:34:57,079 - P5348 - INFO - CEP encontrado via Google: 85690-021
+2025-05-21 21:34:57,084 - P5348 - INFO - Dados de CEP encontrados: {'cep': '85690-021', 'logradouro': 'Rua Dr Bernardo Ribeiro Vianna', 'bairro': '', 'localidade': 'Palmas', 'uf': 'PR', 'complemento': ''}
+2025-05-21 21:34:57,085 - P5348 - INFO - Tempo de execução de processamento completo do médico: 53.23 segundos
+2025-05-21 21:34:57,087 - P5348 - INFO - Resultado processado: {'CRM': '16400', 'UF': 'PR', 'Firstname': 'DJALMA', 'LastName': 'MICHELE SILVA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Dr Bernardo Ribeiro Vianna, 433', 'Address A1': 'Rua Dr Bernardo Ribeiro Vianna', 'Numero A1': '433', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '85690-021', 'City A1': 'Palmas', 'State A1': 'PR', 'Phone A1': '41) 3240-4000', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'protocolo@crmpr.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-21 21:34:57,089 - P5348 - INFO - Progresso: 70.0%
+2025-05-21 21:34:57,089 - P5348 - INFO - Tempo de execução de processamento do médico 2: 53.23 segundos
+2025-05-21 21:34:57,090 - P5348 - INFO - Salvando resultados finais do lote
+2025-05-21 21:34:57,090 - P5348 - INFO - Tempo de execução de processamento do lote completo: 115.90 segundos
