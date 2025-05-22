@@ -1695,14 +1695,11 @@ def processar_medico(medico, lock, logger):
         logger.error(traceback.format_exc())
         return {}
 
-def processar_chunk(chunk, process_id):
+def processar_chunk(chunk, process_id, lock):
     """Processa um chunk de médicos"""
     # Configura o logger para este processo
     logger = setup_logger(process_id)
     logger.info(f"Iniciando processo {process_id} com {len(chunk)} médicos")
-    
-    # Cria um lock para este processo
-    lock = multiprocessing.Manager().Lock()
     
     # Processa cada médico no chunk
     results = []
@@ -1773,14 +1770,18 @@ def main():
     
     logger.info(f"Dividido em {len(chunks)} chunks de {CHUNK_SIZE} médicos")
     
+    # Cria o Manager e o lock no processo principal
+    manager = multiprocessing.Manager()
+    lock = manager.Lock()
+    
     # Processa os chunks em paralelo
     results = []
     with Pool(processes=NUM_PROCESSES) as pool:
-        # Cria uma lista de tuplas (chunk, process_id)
-        chunk_process_pairs = [(chunk, i % NUM_PROCESSES) for i, chunk in enumerate(chunks)]
+        # Cria uma lista de tuplas (chunk, process_id, lock)
+        chunk_process_pairs = [(chunk, i % NUM_PROCESSES, lock) for i, chunk in enumerate(chunks)]
         
         # Mapeia a função processar_chunk para cada par
-        chunk_results = pool.starmap(processar_chunk, [(chunk, process_id) for chunk, process_id in chunk_process_pairs])
+        chunk_results = pool.starmap(processar_chunk, chunk_process_pairs)
         
         # Combina os resultados
         for chunk_result in chunk_results:
