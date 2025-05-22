@@ -1,0 +1,398 @@
+2025-05-21 21:10:27,288 - P4516 - INFO - 
+==================================================
+Processando médico 1/2
+2025-05-21 21:10:27,289 - P4516 - INFO - Nome: ADAM VALENTE AMARAL
+2025-05-21 21:10:27,289 - P4516 - INFO - Reiniciando driver do Chrome
+2025-05-21 21:10:28,947 - P4516 - INFO - Após reiniciar driver Uso de memória: 38.55 MB
+2025-05-21 21:10:28,947 - P4516 - INFO - Início do processamento Uso de memória: 38.55 MB
+2025-05-21 21:10:28,947 - P4516 - INFO - Iniciando busca para: ADAM VALENTE AMARAL CRM 24698 CE telefone e-mail endereço
+2025-05-21 21:10:29,614 - P4516 - INFO - SearX results: 14 URLs
+2025-05-21 21:10:29,616 - P4516 - INFO - Após SearX Uso de memória: 38.61 MB
+2025-05-21 21:10:33,687 - P4516 - INFO - Google results: 9 URLs
+2025-05-21 21:10:33,688 - P4516 - INFO - Após Google Uso de memória: 39.39 MB
+2025-05-21 21:10:36,969 - P4516 - INFO - Bing results: 9 URLs
+2025-05-21 21:10:36,975 - P4516 - INFO - Após Bing Uso de memória: 40.25 MB
+2025-05-21 21:10:36,976 - P4516 - INFO - Total de URLs únicas: 20
+2025-05-21 21:10:36,976 - P4516 - INFO - Processando URL 1/20: https://rhetory.com/antconc/wordlist.txt
+2025-05-21 21:10:36,976 - P4516 - INFO - Ignorando URL de arquivo não-HTML: https://rhetory.com/antconc/wordlist.txt
+2025-05-21 21:10:36,976 - P4516 - INFO - Após processar URL 1 Uso de memória: 40.25 MB
+2025-05-21 21:10:36,977 - P4516 - INFO - Processando URL 2/20: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-21 21:10:41,382 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-21 21:10:41,431 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:10:41,439 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:10:41,450 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:10:41,451 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:10:41,451 - P4516 - INFO - Candidates cep: 0 items
+2025-05-21 21:10:41,452 - P4516 - INFO - Após processar URL 2 Uso de memória: 42.40 MB
+2025-05-21 21:10:41,452 - P4516 - INFO - Processando URL 3/20: https://www.gov.br/mme/pt-br/arquivos/do-19-10-2012-s1.pdf
+2025-05-21 21:10:41,459 - P4516 - INFO - Ignorando URL de arquivo não-HTML: https://www.gov.br/mme/pt-br/arquivos/do-19-10-2012-s1.pdf
+2025-05-21 21:10:41,464 - P4516 - INFO - Após processar URL 3 Uso de memória: 41.55 MB
+2025-05-21 21:10:41,464 - P4516 - INFO - Processando URL 4/20: https://www.diariomunicipal.sc.gov.br/atos/3373339
+2025-05-21 21:10:44,584 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\c4d5cc5564047c19ff8083f82874be00.html
+2025-05-21 21:10:46,723 - P4516 - INFO - Candidates address: 1 items
+2025-05-21 21:10:46,724 - P4516 - INFO - Candidates phone: 1 items
+2025-05-21 21:10:46,725 - P4516 - INFO - Candidates email: 2 items
+2025-05-21 21:10:46,725 - P4516 - INFO - Candidates complement: 1 items
+2025-05-21 21:10:46,725 - P4516 - INFO - Candidates cep: 1396 items
+2025-05-21 21:10:46,726 - P4516 - INFO - Após processar URL 4 Uso de memória: 87.94 MB
+2025-05-21 21:10:46,727 - P4516 - INFO - Processando URL 5/20: https://aboutcompany.info/country/brazil/officer/247443/adam-valente-amaral/
+2025-05-21 21:10:50,394 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\b795b8b192d8bf3675c76c7f81a71938.html
+2025-05-21 21:10:50,412 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:10:50,412 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:10:50,413 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:10:50,413 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:10:50,413 - P4516 - INFO - Candidates cep: 0 items
+2025-05-21 21:10:50,413 - P4516 - INFO - Após processar URL 5 Uso de memória: 84.98 MB
+2025-05-21 21:10:50,413 - P4516 - INFO - Processando URL 6/20: https://www.ime.usp.br/~yoshi/2023i/mac2166/sandbox/2023.06.23/DATA/LEIPZIG_PT_BR/10k/por-br_newscrawl_2011_10K-words.txt
+2025-05-21 21:10:50,414 - P4516 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/2023i/mac2166/sandbox/2023.06.23/DATA/LEIPZIG_PT_BR/10k/por-br_newscrawl_2011_10K-words.txt
+2025-05-21 21:10:50,414 - P4516 - INFO - Após processar URL 6 Uso de memória: 84.98 MB
+2025-05-21 21:10:50,414 - P4516 - INFO - Processando URL 7/20: https://pt.scribd.com/document/649768262/caderno1-2023-05-31-edital
+2025-05-21 21:10:56,812 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\c31171d79683ccb1d537f9fe3f95ddf8.html
+2025-05-21 21:10:57,500 - P4516 - INFO - Candidates address: 2 items
+2025-05-21 21:10:57,512 - P4516 - INFO - Candidates phone: 2 items
+2025-05-21 21:10:57,514 - P4516 - INFO - Candidates email: 1 items
+2025-05-21 21:10:57,515 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:10:57,560 - P4516 - INFO - Candidates cep: 36 items
+2025-05-21 21:10:57,579 - P4516 - INFO - Após processar URL 7 Uso de memória: 105.50 MB
+2025-05-21 21:10:57,579 - P4516 - INFO - Processando URL 8/20: https://www.jornalminasgerais.mg.gov.br/modulos/www.jornalminasgerais.mg.gov.br//diarioOficial/2023/05/31/jornal/caderno1_2023-05-31.pdf
+2025-05-21 21:10:57,580 - P4516 - INFO - Ignorando URL de arquivo não-HTML: https://www.jornalminasgerais.mg.gov.br/modulos/www.jornalminasgerais.mg.gov.br//diarioOficial/2023/05/31/jornal/caderno1_2023-05-31.pdf
+2025-05-21 21:10:57,581 - P4516 - INFO - Após processar URL 8 Uso de memória: 101.30 MB
+2025-05-21 21:10:57,581 - P4516 - INFO - Processando URL 9/20: https://www.gov.br/mme/pt-br/arquivos/do-19-10-2012-s1.pdf/@@download/file
+2025-05-21 21:10:57,581 - P4516 - INFO - Ignorando URL de arquivo não-HTML: https://www.gov.br/mme/pt-br/arquivos/do-19-10-2012-s1.pdf/@@download/file
+2025-05-21 21:10:57,591 - P4516 - INFO - Após processar URL 9 Uso de memória: 101.30 MB
+2025-05-21 21:10:57,592 - P4516 - INFO - Processando URL 10/20: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/940464383.pdf
+2025-05-21 21:10:57,593 - P4516 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/940464383.pdf
+2025-05-21 21:10:57,593 - P4516 - INFO - Após processar URL 10 Uso de memória: 101.30 MB
+2025-05-21 21:10:57,594 - P4516 - INFO - Processando URL 11/20: https://cnpj.biz/45116723000199
+2025-05-21 21:10:59,946 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\d8f2a51acfdf6d9ed951c0d4f9abb2de.html
+2025-05-21 21:10:59,948 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:10:59,949 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:10:59,949 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:10:59,952 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:10:59,954 - P4516 - INFO - Candidates cep: 0 items
+2025-05-21 21:10:59,955 - P4516 - INFO - Após processar URL 11 Uso de memória: 101.36 MB
+2025-05-21 21:10:59,958 - P4516 - INFO - Processando URL 12/20: https://empresasweb.net/emp/ava-servicos-medicos-ltda-52454742
+2025-05-21 21:11:02,938 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\f92ce62ae559e038fc9a6a6ac3fe7cd8.html
+2025-05-21 21:11:02,952 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:11:02,953 - P4516 - INFO - Candidates phone: 1 items
+2025-05-21 21:11:02,953 - P4516 - INFO - Candidates email: 1 items
+2025-05-21 21:11:02,953 - P4516 - INFO - Candidates complement: 1 items
+2025-05-21 21:11:02,953 - P4516 - INFO - Candidates cep: 1 items
+2025-05-21 21:11:02,954 - P4516 - INFO - Após processar URL 12 Uso de memória: 101.74 MB
+2025-05-21 21:11:02,954 - P4516 - INFO - Processando URL 13/20: https://www.sociosbrasil.com/nome/adam-valente-amaral
+2025-05-21 21:11:09,716 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\4c23c921d7175d5df7b3c6ea5ae7298d.html
+2025-05-21 21:11:09,722 - P4516 - INFO - Candidates address: 2 items
+2025-05-21 21:11:09,722 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:11:09,723 - P4516 - INFO - Candidates email: 2 items
+2025-05-21 21:11:09,723 - P4516 - INFO - Candidates complement: 1 items
+2025-05-21 21:11:09,723 - P4516 - INFO - Candidates cep: 4 items
+2025-05-21 21:11:09,723 - P4516 - INFO - Após processar URL 13 Uso de memória: 102.27 MB
+2025-05-21 21:11:09,723 - P4516 - INFO - Processando URL 14/20: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-21 21:11:09,724 - P4516 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-21 21:11:09,724 - P4516 - INFO - Após processar URL 14 Uso de memória: 101.56 MB
+2025-05-21 21:11:09,724 - P4516 - INFO - Processando URL 15/20: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/6/1/2/612f70bffaaa8e816699514677bfeef039a96203a3ab34d6d037f022c00cd7d8/cb03960a-f8a8-4c29-92ed-5b34abe27b83-13702-DOE_19176_20_09_2011_44F_JUCESC_19176_08F.pdf
+2025-05-21 21:11:09,725 - P4516 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/6/1/2/612f70bffaaa8e816699514677bfeef039a96203a3ab34d6d037f022c00cd7d8/cb03960a-f8a8-4c29-92ed-5b34abe27b83-13702-DOE_19176_20_09_2011_44F_JUCESC_19176_08F.pdf
+2025-05-21 21:11:09,725 - P4516 - INFO - Após processar URL 15 Uso de memória: 101.56 MB
+2025-05-21 21:11:09,725 - P4516 - INFO - Processando URL 16/20: https://www.cnpj.services/qsa/adam-valente-amaral
+2025-05-21 21:11:12,936 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\8460016c5f12480ea5906301e0bf621d.html
+2025-05-21 21:11:12,945 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:11:12,946 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:11:12,946 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:11:12,949 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:11:12,953 - P4516 - INFO - Candidates cep: 2 items
+2025-05-21 21:11:12,954 - P4516 - INFO - Após processar URL 16 Uso de memória: 102.42 MB
+2025-05-21 21:11:12,954 - P4516 - INFO - Processando URL 17/20: https://www.informecadastral.com.br/cnpj/b1021-med-assistencia-e-servicos-medicos-ltda-47208480000144
+2025-05-21 21:11:16,083 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\2ea16952e4cd88d92eee7df4b4a09d6d.html
+2025-05-21 21:11:16,113 - P4516 - INFO - Candidates address: 1 items
+2025-05-21 21:11:16,113 - P4516 - INFO - Candidates phone: 2 items
+2025-05-21 21:11:16,113 - P4516 - INFO - Candidates email: 1 items
+2025-05-21 21:11:16,113 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:11:16,114 - P4516 - INFO - Candidates cep: 3 items
+2025-05-21 21:11:16,114 - P4516 - INFO - Após processar URL 17 Uso de memória: 102.98 MB
+2025-05-21 21:11:16,114 - P4516 - INFO - Processando URL 18/20: https://cnpj.biz/52454742000190
+2025-05-21 21:11:18,269 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\2b922da438e705582bd6aebe7dd201f7.html
+2025-05-21 21:11:18,271 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:11:18,272 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:11:18,272 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:11:18,272 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:11:18,272 - P4516 - INFO - Candidates cep: 0 items
+2025-05-21 21:11:18,272 - P4516 - INFO - Após processar URL 18 Uso de memória: 103.00 MB
+2025-05-21 21:11:18,272 - P4516 - INFO - Processando URL 19/20: https://consultacrm.com.br/
+2025-05-21 21:11:22,136 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\65cadeb91ac3713432c21b535990f440.html
+2025-05-21 21:11:22,147 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:11:22,147 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:11:22,148 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:11:22,148 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:11:22,148 - P4516 - INFO - Candidates cep: 0 items
+2025-05-21 21:11:22,148 - P4516 - INFO - Após processar URL 19 Uso de memória: 104.12 MB
+2025-05-21 21:11:22,148 - P4516 - INFO - Processando URL 20/20: https://cremec.org.br/busca-medicos
+2025-05-21 21:11:26,669 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\3c9ece8b802bc598dd007727d971a7d5.html
+2025-05-21 21:11:26,738 - P4516 - INFO - Candidates address: 1 items
+2025-05-21 21:11:26,742 - P4516 - INFO - Candidates phone: 1 items
+2025-05-21 21:11:26,757 - P4516 - INFO - Candidates email: 1 items
+2025-05-21 21:11:26,774 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:11:26,775 - P4516 - INFO - Candidates cep: 1 items
+2025-05-21 21:11:26,775 - P4516 - INFO - Após processar URL 20 Uso de memória: 105.22 MB
+2025-05-21 21:11:26,775 - P4516 - INFO - Iniciando agregação e ranqueamento
+2025-05-21 21:11:26,776 - P4516 - INFO - Ranked address: 7 items
+2025-05-21 21:11:26,776 - P4516 - INFO - Ranked phone: 7 items
+2025-05-21 21:11:26,777 - P4516 - INFO - Ranked email: 7 items
+2025-05-21 21:11:26,779 - P4516 - INFO - Ranked complement: 3 items
+2025-05-21 21:11:26,795 - P4516 - INFO - Ranked cep: 1441 items
+2025-05-21 21:11:26,808 - P4516 - INFO - Após agregação Uso de memória: 105.41 MB
+2025-05-21 21:11:26,812 - P4516 - INFO - Validando endereço: ['Rua Ernani Cotrin, 601', 'Ruas; Segurado: Lucio Ruas De Oliveira; Matrícula: 054.936', 'Travessa Santo Antonio PDF Ainda não há avaliações Travessa Santo Antonio 10']
+2025-05-21 21:11:26,815 - P4516 - INFO - Endereço validado: Rua Ernani Cotrin, 601
+2025-05-21 21:11:26,827 - P4516 - INFO - Validando telefone: ['(48) 3355-8100', '(31) 3916-7075', '(31) 3915-0257']
+2025-05-21 21:11:26,828 - P4516 - INFO - Telefone validado: (48) 3355-8100
+2025-05-21 21:11:26,845 - P4516 - INFO - Validando email: ['ADAMVALENTEAMARAL@YAHOO.COM.BR', 'tributos@imbituba.sc.gov.br', 'dom@consorciociga.gov.br']
+2025-05-21 21:11:26,849 - P4516 - INFO - Email validado: ADAMVALENTEAMARAL@YAHOO.COM.BR
+2025-05-21 21:11:26,850 - P4516 - INFO - Validando complemento: ['Sala 102 CEP 88070-800 - Florianópolis/SC ', 'Sala 415', 'Sala 415 Centro']
+2025-05-21 21:11:26,851 - P4516 - INFO - Complemento validado: Sala 102 CEP 88070-800 - Florianópolis/SC 
+2025-05-21 21:11:26,856 - P4516 - INFO - Descobrindo cidade
+2025-05-21 21:11:26,859 - P4516 - INFO - Buscando cidade: Rua Ernani Cotrin cidade CE
+2025-05-21 21:11:30,279 - P4516 - WARNING - Cidade não encontrada
+2025-05-21 21:11:30,281 - P4516 - INFO - Cidade descoberta: 
+2025-05-21 21:11:30,283 - P4516 - INFO - Tempo de execução de processamento completo do médico: 61.34 segundos
+2025-05-21 21:11:30,287 - P4516 - INFO - Resultado processado: {'CRM': '24698', 'UF': 'CE', 'Firstname': 'ADAM', 'LastName': 'VALENTE AMARAL', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Ernani Cotrin, 601', 'Address A1': 'Rua Ernani Cotrin', 'Numero A1': '601', 'Complement A1': 'Sala 102 CEP 88070-800 - Florianópolis/SC ', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '(48) 3355-8100', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'ADAMVALENTEAMARAL@YAHOO.COM.BR', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-21 21:11:30,295 - P4516 - INFO - Progresso: 30.0%
+2025-05-21 21:11:30,295 - P4516 - INFO - Executando coleta de lixo
+2025-05-21 21:11:30,558 - P4516 - INFO - Após coleta de lixo Uso de memória: 56.44 MB
+2025-05-21 21:11:30,572 - P4516 - INFO - Tempo de execução de processamento do médico 1: 63.28 segundos
+2025-05-21 21:11:30,572 - P4516 - INFO - 
+==================================================
+Processando médico 2/2
+2025-05-21 21:11:30,575 - P4516 - INFO - Nome: JOAO HENRIQUE DE SOUSA
+2025-05-21 21:11:30,576 - P4516 - INFO - Início do processamento Uso de memória: 56.44 MB
+2025-05-21 21:11:30,576 - P4516 - INFO - Iniciando busca para: JOAO HENRIQUE DE SOUSA CRM 145560 SP telefone e-mail endereço
+2025-05-21 21:11:31,174 - P4516 - INFO - SearX results: 15 URLs
+2025-05-21 21:11:31,174 - P4516 - INFO - Após SearX Uso de memória: 56.45 MB
+2025-05-21 21:11:34,210 - P4516 - INFO - Google results: 12 URLs
+2025-05-21 21:11:34,210 - P4516 - INFO - Após Google Uso de memória: 60.08 MB
+2025-05-21 21:11:36,722 - P4516 - INFO - Bing results: 15 URLs
+2025-05-21 21:11:36,723 - P4516 - INFO - Após Bing Uso de memória: 59.15 MB
+2025-05-21 21:11:36,723 - P4516 - INFO - Total de URLs únicas: 28
+2025-05-21 21:11:36,723 - P4516 - INFO - Processando URL 1/28: https://www.crm-sp.org.br/?siteAcao=Diretoria&ver=Todos
+2025-05-21 21:11:38,963 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\a930b49f2bf2c575f0b66216dee0e352.html
+2025-05-21 21:11:38,972 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:11:38,973 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:11:38,973 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:11:38,973 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:11:38,974 - P4516 - INFO - Candidates cep: 0 items
+2025-05-21 21:11:38,974 - P4516 - INFO - Após processar URL 1 Uso de memória: 60.19 MB
+2025-05-21 21:11:38,974 - P4516 - INFO - Processando URL 2/28: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-21 21:11:42,489 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-21 21:11:42,541 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:11:42,546 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:11:42,548 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:11:42,548 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:11:42,548 - P4516 - INFO - Candidates cep: 0 items
+2025-05-21 21:11:42,548 - P4516 - INFO - Após processar URL 2 Uso de memória: 59.52 MB
+2025-05-21 21:11:42,549 - P4516 - INFO - Processando URL 3/28: https://www.gp1.com.br/noticias-sobre/politica/joao-henrique-sousa/
+2025-05-21 21:11:45,607 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\c60b4318068512d79a89c9069c279e2d.html
+2025-05-21 21:11:45,816 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:11:45,817 - P4516 - INFO - Candidates phone: 3 items
+2025-05-21 21:11:45,817 - P4516 - INFO - Candidates email: 2 items
+2025-05-21 21:11:45,817 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:11:45,817 - P4516 - INFO - Candidates cep: 2 items
+2025-05-21 21:11:45,817 - P4516 - INFO - Após processar URL 3 Uso de memória: 61.14 MB
+2025-05-21 21:11:45,818 - P4516 - INFO - Processando URL 4/28: https://www.medicosbrasil.com/profissional/joao-henrique-de-sousa
+2025-05-21 21:11:49,319 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\da9d343f7dd6f32eb1d56167b600d2bd.html
+2025-05-21 21:11:49,340 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:11:49,341 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:11:49,341 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:11:49,341 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:11:49,341 - P4516 - INFO - Candidates cep: 0 items
+2025-05-21 21:11:49,341 - P4516 - INFO - Após processar URL 4 Uso de memória: 61.66 MB
+2025-05-21 21:11:49,341 - P4516 - INFO - Processando URL 5/28: https://www.consultacrm.com.br/index/maisvistos
+2025-05-21 21:11:54,197 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\9a17d88beef1266c6e4649221409a571.html
+2025-05-21 21:11:54,218 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:11:54,218 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:11:54,218 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:11:54,219 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:11:54,223 - P4516 - INFO - Candidates cep: 0 items
+2025-05-21 21:11:54,223 - P4516 - INFO - Após processar URL 5 Uso de memória: 61.22 MB
+2025-05-21 21:11:54,224 - P4516 - INFO - Processando URL 6/28: https://www.consultacrm.com.br/index/profissionais
+2025-05-21 21:11:56,984 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-21 21:11:56,994 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:11:56,994 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:11:56,994 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:11:56,994 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:11:56,995 - P4516 - INFO - Candidates cep: 0 items
+2025-05-21 21:11:56,995 - P4516 - INFO - Após processar URL 6 Uso de memória: 60.17 MB
+2025-05-21 21:11:56,995 - P4516 - INFO - Processando URL 7/28: https://issuu.com/panrotas/docs/2013-07-484
+2025-05-21 21:12:03,697 - P4516 - WARNING - Página muito grande (5.08MB), truncando
+2025-05-21 21:12:03,713 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\faa83fee02a5fccfbca28f1324ccfbcf.html
+2025-05-21 21:12:05,419 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:12:05,422 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:12:05,430 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:12:05,431 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:12:05,431 - P4516 - INFO - Candidates cep: 4 items
+2025-05-21 21:12:05,436 - P4516 - INFO - Após processar URL 7 Uso de memória: 87.46 MB
+2025-05-21 21:12:05,437 - P4516 - INFO - Processando URL 8/28: https://cliniguia.com/profissionais/joao-henrique-de-sousa-980016287914616/
+2025-05-21 21:12:11,238 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\1e0158984bbc5cb9927141f9cff552fe.html
+2025-05-21 21:12:11,297 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:12:11,310 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:12:11,311 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:12:11,311 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:12:11,312 - P4516 - INFO - Candidates cep: 0 items
+2025-05-21 21:12:11,312 - P4516 - INFO - Após processar URL 8 Uso de memória: 85.47 MB
+2025-05-21 21:12:11,312 - P4516 - INFO - Processando URL 9/28: https://central3.to.gov.br/arquivo/231617/
+2025-05-21 21:12:13,682 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\787e17b60751673deacf3c4fa29e6f44.html
+2025-05-21 21:12:13,682 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:12:13,683 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:12:13,683 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:12:13,683 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:12:13,683 - P4516 - INFO - Candidates cep: 0 items
+2025-05-21 21:12:13,683 - P4516 - INFO - Após processar URL 9 Uso de memória: 84.24 MB
+2025-05-21 21:12:13,684 - P4516 - INFO - Processando URL 10/28: https://cidadeverde.com/noticias/422960/ex-ministro-joao-henrique-diz-que-se-aposentara-da-politica-e-trabalhara-como-corretor-imobiliario
+2025-05-21 21:12:19,367 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\5fd734a77ff888fa7a8591faf5d08509.html
+2025-05-21 21:12:19,395 - P4516 - INFO - Candidates address: 1 items
+2025-05-21 21:12:19,395 - P4516 - INFO - Candidates phone: 2 items
+2025-05-21 21:12:19,395 - P4516 - INFO - Candidates email: 1 items
+2025-05-21 21:12:19,395 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:12:19,395 - P4516 - INFO - Candidates cep: 2 items
+2025-05-21 21:12:19,396 - P4516 - INFO - Após processar URL 10 Uso de memória: 86.35 MB
+2025-05-21 21:12:19,396 - P4516 - INFO - Processando URL 11/28: https://www.boaconsulta.com/especialista/joao-henrique-de-sousa-6106c38ea2e00a5c57002032
+2025-05-21 21:12:23,009 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\33e5330952f8ebbd8424a9d49c353f82.html
+2025-05-21 21:12:23,088 - P4516 - INFO - Candidates address: 2 items
+2025-05-21 21:12:23,088 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:12:23,088 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:12:23,088 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:12:23,089 - P4516 - INFO - Candidates cep: 0 items
+2025-05-21 21:12:23,089 - P4516 - INFO - Após processar URL 11 Uso de memória: 87.98 MB
+2025-05-21 21:12:23,089 - P4516 - INFO - Processando URL 12/28: https://www.consultacrm.com.br/index/especialidades
+2025-05-21 21:12:27,304 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\3cb327d5e0f962fa7a1db5a948fb6f40.html
+2025-05-21 21:12:27,453 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:12:27,453 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:12:27,453 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:12:27,453 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:12:27,453 - P4516 - INFO - Candidates cep: 0 items
+2025-05-21 21:12:27,453 - P4516 - INFO - Após processar URL 12 Uso de memória: 89.62 MB
+2025-05-21 21:12:27,453 - P4516 - INFO - Processando URL 13/28: https://www.anamages.org.br/entrevistas/o-juiz-e-a-sua-historia-dr-joao-henrique-sousa-gomes-tjpi
+2025-05-21 21:12:29,635 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\80e744619412b57a098cc3700946906f.html
+2025-05-21 21:12:29,643 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:12:29,643 - P4516 - INFO - Candidates phone: 2 items
+2025-05-21 21:12:29,644 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:12:29,644 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:12:29,644 - P4516 - INFO - Candidates cep: 0 items
+2025-05-21 21:12:29,645 - P4516 - INFO - Após processar URL 13 Uso de memória: 88.31 MB
+2025-05-21 21:12:29,645 - P4516 - INFO - Processando URL 14/28: https://www.consultacrm.com.br/?uf=SP
+2025-05-21 21:12:32,671 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\60d20285cf74ceed0f862951f9b2b598.html
+2025-05-21 21:12:32,681 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:12:32,682 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:12:32,682 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:12:32,682 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:12:32,682 - P4516 - INFO - Candidates cep: 0 items
+2025-05-21 21:12:32,682 - P4516 - INFO - Após processar URL 14 Uso de memória: 90.70 MB
+2025-05-21 21:12:32,682 - P4516 - INFO - Processando URL 15/28: https://www.consultacrm.com.br/index/api
+2025-05-21 21:12:35,980 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\a1f22ffdf7e0eb1c02e28e1e38d3db87.html
+2025-05-21 21:12:35,994 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:12:35,995 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:12:35,995 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:12:35,995 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:12:35,995 - P4516 - INFO - Candidates cep: 0 items
+2025-05-21 21:12:35,996 - P4516 - INFO - Após processar URL 15 Uso de memória: 89.99 MB
+2025-05-21 21:12:35,996 - P4516 - INFO - Processando URL 16/28: https://sistemadje.tjmt.jus.br/publicacoes/9221-2014.pdf
+2025-05-21 21:12:35,996 - P4516 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/9221-2014.pdf
+2025-05-21 21:12:35,996 - P4516 - INFO - Após processar URL 16 Uso de memória: 88.47 MB
+2025-05-21 21:12:35,996 - P4516 - INFO - Processando URL 17/28: https://dodf.df.gov.br/dodf/jornal/visualizar-pdf?pasta=2011%7C09_Setembro%7CDODF%20171%2001-09-2011%7C&arquivo=DODF%20171%2001-09-2011%20SECAO3.pdf
+2025-05-21 21:12:35,997 - P4516 - INFO - Ignorando URL de arquivo não-HTML: https://dodf.df.gov.br/dodf/jornal/visualizar-pdf?pasta=2011%7C09_Setembro%7CDODF%20171%2001-09-2011%7C&arquivo=DODF%20171%2001-09-2011%20SECAO3.pdf
+2025-05-21 21:12:35,997 - P4516 - INFO - Após processar URL 17 Uso de memória: 88.47 MB
+2025-05-21 21:12:35,997 - P4516 - INFO - Processando URL 18/28: https://sistemadje.tjmt.jus.br/publicacoes/9646-2015.pdf
+2025-05-21 21:12:35,997 - P4516 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/9646-2015.pdf
+2025-05-21 21:12:35,997 - P4516 - INFO - Após processar URL 18 Uso de memória: 88.47 MB
+2025-05-21 21:12:35,997 - P4516 - INFO - Processando URL 19/28: https://www.consultacrm.com.br/index/contato
+2025-05-21 21:12:39,379 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\770622092e11df0ef8d0ed5d383f74a3.html
+2025-05-21 21:12:39,391 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:12:39,391 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:12:39,391 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:12:39,391 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:12:39,392 - P4516 - INFO - Candidates cep: 0 items
+2025-05-21 21:12:39,392 - P4516 - INFO - Após processar URL 19 Uso de memória: 90.84 MB
+2025-05-21 21:12:39,392 - P4516 - INFO - Processando URL 20/28: https://www.doctoralia.com.br/joao-henrique-meira-sousa/cirurgiao-geral-endoscopista/socorro
+2025-05-21 21:12:39,392 - P4516 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/joao-henrique-meira-sousa/cirurgiao-geral-endoscopista/socorro
+2025-05-21 21:12:39,392 - P4516 - INFO - Após processar URL 20 Uso de memória: 88.88 MB
+2025-05-21 21:12:39,393 - P4516 - INFO - Processando URL 21/28: http://cremesp.org.br/
+2025-05-21 21:12:44,359 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\2a967318246f9658edeb1e0469c871fe.html
+2025-05-21 21:12:44,388 - P4516 - INFO - Candidates address: 1 items
+2025-05-21 21:12:44,388 - P4516 - INFO - Candidates phone: 1 items
+2025-05-21 21:12:44,388 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:12:44,388 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:12:44,389 - P4516 - INFO - Candidates cep: 2 items
+2025-05-21 21:12:44,389 - P4516 - INFO - Após processar URL 21 Uso de memória: 88.41 MB
+2025-05-21 21:12:44,389 - P4516 - INFO - Processando URL 22/28: https://portal.cfm.org.br/busca-medicos
+2025-05-21 21:12:48,322 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-21 21:12:48,358 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:12:48,359 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:12:48,359 - P4516 - INFO - Candidates email: 1 items
+2025-05-21 21:12:48,359 - P4516 - INFO - Candidates complement: 1 items
+2025-05-21 21:12:48,359 - P4516 - INFO - Candidates cep: 1 items
+2025-05-21 21:12:48,359 - P4516 - INFO - Após processar URL 22 Uso de memória: 90.51 MB
+2025-05-21 21:12:48,359 - P4516 - INFO - Processando URL 23/28: https://www.consultacrm.com.br/index/sis_login
+2025-05-21 21:12:51,875 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\e56926aa25e0582d5c5b8aa167ed4b53.html
+2025-05-21 21:12:51,887 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:12:51,887 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:12:51,887 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:12:51,888 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:12:51,888 - P4516 - INFO - Candidates cep: 0 items
+2025-05-21 21:12:51,888 - P4516 - INFO - Após processar URL 23 Uso de memória: 91.30 MB
+2025-05-21 21:12:51,888 - P4516 - INFO - Processando URL 24/28: https://guiamedico.cremesp.org.br/
+2025-05-21 21:12:54,774 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-21 21:12:54,780 - P4516 - INFO - Candidates address: 1 items
+2025-05-21 21:12:54,780 - P4516 - INFO - Candidates phone: 1 items
+2025-05-21 21:12:54,780 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:12:54,781 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:12:54,781 - P4516 - INFO - Candidates cep: 1 items
+2025-05-21 21:12:54,781 - P4516 - INFO - Após processar URL 24 Uso de memória: 90.62 MB
+2025-05-21 21:12:54,781 - P4516 - INFO - Processando URL 25/28: https://ilustrado.com.br/wp-content/uploads/2023/03/leis_14_03_2023.pdf
+2025-05-21 21:12:54,781 - P4516 - INFO - Ignorando URL de arquivo não-HTML: https://ilustrado.com.br/wp-content/uploads/2023/03/leis_14_03_2023.pdf
+2025-05-21 21:12:54,781 - P4516 - INFO - Após processar URL 25 Uso de memória: 90.62 MB
+2025-05-21 21:12:54,782 - P4516 - INFO - Processando URL 26/28: https://consultacrm.com.br/
+2025-05-21 21:12:58,219 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\65cadeb91ac3713432c21b535990f440.html
+2025-05-21 21:12:58,234 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:12:58,235 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:12:58,235 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:12:58,235 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:12:58,235 - P4516 - INFO - Candidates cep: 0 items
+2025-05-21 21:12:58,235 - P4516 - INFO - Após processar URL 26 Uso de memória: 91.02 MB
+2025-05-21 21:12:58,236 - P4516 - INFO - Processando URL 27/28: https://guiasaudebrasil.com.br/profissional/6f6c2cdd858d6b79-joao-henrique-de-sousa
+2025-05-21 21:13:03,309 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\74035ba931c8bfc260a1dc85d1680c21.html
+2025-05-21 21:13:03,322 - P4516 - INFO - Candidates address: 0 items
+2025-05-21 21:13:03,322 - P4516 - INFO - Candidates phone: 0 items
+2025-05-21 21:13:03,322 - P4516 - INFO - Candidates email: 0 items
+2025-05-21 21:13:03,322 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:13:03,322 - P4516 - INFO - Candidates cep: 1 items
+2025-05-21 21:13:03,323 - P4516 - INFO - Após processar URL 27 Uso de memória: 92.88 MB
+2025-05-21 21:13:03,323 - P4516 - INFO - Processando URL 28/28: https://piauihoje.com/noticias/geral/trf4-suspende-direitos-politicos-de-joao-henrique-sousa-coordenador-de-dr-pessoa-356970.html
+2025-05-21 21:13:07,510 - P4516 - INFO - HTML salvo para debug: data\debug_html_v8\035aa1a7d7819329169d35771bfcfcb2.html
+2025-05-21 21:13:07,545 - P4516 - INFO - Candidates address: 1 items
+2025-05-21 21:13:07,545 - P4516 - INFO - Candidates phone: 1 items
+2025-05-21 21:13:07,545 - P4516 - INFO - Candidates email: 1 items
+2025-05-21 21:13:07,545 - P4516 - INFO - Candidates complement: 0 items
+2025-05-21 21:13:07,546 - P4516 - INFO - Candidates cep: 1 items
+2025-05-21 21:13:07,546 - P4516 - INFO - Após processar URL 28 Uso de memória: 92.91 MB
+2025-05-21 21:13:07,546 - P4516 - INFO - Iniciando agregação e ranqueamento
+2025-05-21 21:13:07,546 - P4516 - INFO - Ranked address: 5 items
+2025-05-21 21:13:07,547 - P4516 - INFO - Ranked phone: 9 items
+2025-05-21 21:13:07,547 - P4516 - INFO - Ranked email: 5 items
+2025-05-21 21:13:07,547 - P4516 - INFO - Ranked complement: 1 items
+2025-05-21 21:13:07,547 - P4516 - INFO - Ranked cep: 13 items
+2025-05-21 21:13:07,548 - P4516 - INFO - Após agregação Uso de memória: 92.91 MB
+2025-05-21 21:13:07,548 - P4516 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Rua Godofredo Freire, 1642', 'Rua Riachuelo, 1073']
+2025-05-21 21:13:07,548 - P4516 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-21 21:13:07,548 - P4516 - INFO - Validando telefone: ['(11) 4349-9900', '(86) 3233-1286', '(86) 99947-4020']
+2025-05-21 21:13:07,549 - P4516 - INFO - Telefone validado: (11) 4349-9900
+2025-05-21 21:13:07,549 - P4516 - INFO - Validando email: ['redacao@gp1.com.br', 'comercial@gp1.com.br', 'redacao@cidadeverde.com']
+2025-05-21 21:13:07,549 - P4516 - INFO - Email validado: redacao@gp1.com.br
+2025-05-21 21:13:07,549 - P4516 - INFO - Validando complemento: ['Conjunto D']
+2025-05-21 21:13:07,549 - P4516 - INFO - Complemento validado: Conjunto D
+2025-05-21 21:13:07,549 - P4516 - INFO - Descobrindo cidade
+2025-05-21 21:13:07,549 - P4516 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-21 21:13:10,611 - P4516 - WARNING - Cidade não encontrada
+2025-05-21 21:13:10,616 - P4516 - INFO - Cidade descoberta: 
+2025-05-21 21:13:10,617 - P4516 - INFO - Tempo de execução de processamento completo do médico: 100.04 segundos
+2025-05-21 21:13:10,618 - P4516 - INFO - Resultado processado: {'CRM': '145560', 'UF': 'SP', 'Firstname': 'JOAO', 'LastName': 'HENRIQUE DE SOUSA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Conjunto D', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '(11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'redacao@gp1.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-21 21:13:10,625 - P4516 - INFO - Progresso: 90.0%
+2025-05-21 21:13:10,626 - P4516 - INFO - Tempo de execução de processamento do médico 2: 100.05 segundos
+2025-05-21 21:13:10,627 - P4516 - INFO - Salvando resultados finais do lote
+2025-05-21 21:13:10,628 - P4516 - INFO - Tempo de execução de processamento do lote completo: 163.34 segundos
