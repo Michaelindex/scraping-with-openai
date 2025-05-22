@@ -2,20 +2,14 @@
 # -*- coding: utf-8 -*-
 
 """
-buscador_medicos.v11.py
+buscador_medicos.v11.py - Versão simplificada para teste
 
 Versão 11.0 do buscador de médicos com:
-- Estratégias avançadas para captação de CEPs em casos problemáticos
-- Normalização extrema de endereços para melhorar taxa de sucesso
-- Variações de busca para endereços difíceis
-- Expansão da base de CEPs manuais para casos específicos
-- Manutenção da lógica de complemento e demais campos
-
-Aprimoramentos:
-- Normalização agressiva de endereços para busca de CEP
-- Tentativas com variações de nome de rua
-- Expansão da base de CEPs manuais para casos conhecidos
-- Busca em fontes alternativas para casos difíceis
+- Sistema de fallbacks dinâmicos para captação de CEPs
+- Integração com múltiplas APIs de CEP (ViaCEP, BrasilAPI, OpenCEP)
+- Estratégias avançadas de normalização e variação de endereços
+- Busca contextual baseada apenas no endereço já captado
+- Versão simplificada sem multiprocessamento para testes
 """
 import sys
 import csv
@@ -25,50 +19,37 @@ import logging
 import time
 import os
 import json
-import multiprocessing
-from multiprocessing import Pool, Manager, Lock
+import unicodedata
+import hashlib
+import urllib.parse
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import StaleElementReferenceException
 from collections import Counter
-import math
-import tempfile
-import shutil
-import traceback
-import hashlib
-import psutil
-from datetime import datetime
-import urllib.parse
-import unicodedata
 
 # Configurações
 SEARX_URL   = "http://124.81.6.163:8092/search"
 OLLAMA_URL  = "http://124.81.6.163:11434/api/generate"
 VIACEP_URL  = "https://viacep.com.br/ws/{uf}/{cidade}/{rua}/json/"
 BRASILAPI_URL = "https://brasilapi.com.br/api/cep/v2/{cep}"
+OPENCEP_URL = "https://opencep.com/v1/{cep}"
 CORREIOS_URL = "https://buscacepinter.correios.com.br/app/endereco/index.php"
 USER_AGENT  = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
     "Chrome/114.0.0.0 Safari/537.36"
 )
-MAX_RESULTS = 15
-
-# Configurações de paralelismo
-NUM_PROCESSES = max(1, multiprocessing.cpu_count() - 1)
-CHUNK_SIZE = 10
+MAX_RESULTS = 5  # Reduzido para testes
 
 # Caminhos dos arquivos
 DATA_DIR = 'data'
 ESPECIALIDADES_FILE = os.path.join(DATA_DIR, 'especialidades.txt')
 TEXTOS_REMOVER_FILE = os.path.join(DATA_DIR, 'textos_remover.txt')
-EXEMPLOS_FILE = os.path.join(DATA_DIR, 'exemplos_treinamento.txt')
 EMAIL_BLACKLIST_FILE = os.path.join(DATA_DIR, 'email_blacklist.txt')
 SITE_BLACKLIST_FILE = os.path.join(DATA_DIR, 'site_blacklist.txt')
 LOG_DIR = os.path.join(DATA_DIR, 'logmulti')
-DEBUG_HTML_DIR = os.path.join(DATA_DIR, 'debug_html_v11') # Atualizado para v11
+DEBUG_HTML_DIR = os.path.join(DATA_DIR, 'debug_html_v11')
 CACHE_DIR = os.path.join(DATA_DIR, 'cache')
 CEP_CACHE_FILE = os.path.join(CACHE_DIR, 'cep_cache.json')
 MANUAL_CEP_FILE = os.path.join(DATA_DIR, 'manual_ceps.json')
@@ -78,7 +59,7 @@ for dir_path in [DATA_DIR, DEBUG_HTML_DIR, LOG_DIR, CACHE_DIR]:
     if not os.path.exists(dir_path):
         os.makedirs(dir_path)
 
-# Padrões regex (mantidos da v10)
+# Padrões regex
 PATTERNS = {
     'address': re.compile(r"(?:Av\.|Avenida|Rua|Travessa|Estrada|R\.)[^,\n]{5,100},?\s*\d{1,5}"),
     'phone':   re.compile(r"\(\d{2}\)\s?\d{4,5}-\d{4}"),
@@ -87,13 +68,13 @@ PATTERNS = {
     'cep':     re.compile(r"\d{5}-\d{3}|\d{8}")
 }
 
-# Configuração de logging para multiprocessamento
-def setup_logger(process_id):
-    logger = logging.getLogger(f"process_{process_id}")
+# Configuração de logging
+def setup_logger():
+    logger = logging.getLogger("buscador_medicos")
     logger.setLevel(logging.INFO)
     
     # Cria um handler para arquivo
-    file_handler = logging.FileHandler(os.path.join(LOG_DIR, f'buscador_medicos_v11_p{process_id}.log'), 'w', 'utf-8') # Atualizado para v11
+    file_handler = logging.FileHandler(os.path.join(LOG_DIR, 'buscador_medicos_v11_teste.log'), 'w', 'utf-8')
     file_handler.setLevel(logging.INFO)
     
     # Cria um handler para console
@@ -101,7 +82,7 @@ def setup_logger(process_id):
     console_handler.setLevel(logging.INFO)
     
     # Define o formato
-    formatter = logging.Formatter('%(asctime)s - P%(process)d - %(levelname)s - %(message)s')
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
     file_handler.setFormatter(formatter)
     console_handler.setFormatter(formatter)
     
@@ -174,58 +155,7 @@ def carregar_ceps_manuais():
         if os.path.exists(MANUAL_CEP_FILE):
             with open(MANUAL_CEP_FILE, 'r', encoding='utf-8') as f:
                 return json.load(f)
-        
-        # Se não existir, cria com alguns exemplos conhecidos
-        ceps_manuais = {
-            "ROBERTO_FARIAS_LOPES_PA": {
-                "cep": "66823-010",
-                "logradouro": "Rua Benedito Almeida",
-                "bairro": "Tapanã",
-                "localidade": "Belém",
-                "uf": "PA"
-            },
-            "JOSEMBERG_VIEIRA_DE_MENEZES_FILHO_CE": {
-                "cep": "60125-048",
-                "logradouro": "Rua Osvaldo Cruz",
-                "bairro": "Aldeota",
-                "localidade": "Fortaleza",
-                "uf": "CE"
-            },
-            "IGOR_GABRIEL_MAIA_MENDANHA_AMARAL_SP": {
-                "cep": "09560-050",
-                "logradouro": "Rua Perrella",
-                "bairro": "Fundação",
-                "localidade": "São Caetano do Sul",
-                "uf": "SP"
-            },
-            "ADAM_VALENTE_AMARAL_CE": {
-                "cep": "88070-800",
-                "logradouro": "Rua Ernani Cotrin",
-                "bairro": "Córrego Grande",
-                "localidade": "Florianópolis",
-                "uf": "SC"
-            },
-            "JOAO_HENRIQUE_DE_SOUSA_SP": {
-                "cep": "01307-001",
-                "logradouro": "Rua Frei Caneca",
-                "bairro": "Consolação",
-                "localidade": "São Paulo",
-                "uf": "SP"
-            },
-            "CLAUDIO_COSTA_CARDOSO_PA": {
-                "cep": "66020-240",
-                "logradouro": "Rua São João Del Rey",
-                "bairro": "Centro",
-                "localidade": "Belém",
-                "uf": "PA"
-            }
-        }
-        
-        with open(MANUAL_CEP_FILE, 'w', encoding='utf-8') as f:
-            json.dump(ceps_manuais, f, ensure_ascii=False, indent=2)
-        
-        return ceps_manuais
-    
+        return {}
     except Exception as e:
         print(f"Erro ao carregar CEPs manuais: {e}")
         return {}
@@ -855,6 +785,78 @@ def buscar_cep_via_brasilapi(rua, cidade, uf, logger):
         logger.error(f"Erro ao buscar na BrasilAPI: {e}")
         return None
 
+def buscar_cep_via_opencep(rua, cidade, uf, logger):
+    """Busca CEP via OpenCEP"""
+    if not rua or not cidade or not uf:
+        logger.warning("Dados insuficientes para busca no OpenCEP")
+        return None
+    
+    # Verifica no cache primeiro
+    chave_cache = gerar_chave_cache(rua, cidade, uf)
+    if chave_cache in CEP_CACHE:
+        logger.info(f"Dados encontrados no cache: {CEP_CACHE[chave_cache]}")
+        return CEP_CACHE[chave_cache]
+    
+    try:
+        # Constrói a query de busca
+        query = f"{rua}, {cidade}, {uf}"
+        logger.info(f"Buscando no OpenCEP: {query}")
+        
+        # Faz a busca no Google primeiro para encontrar o CEP
+        response = requests.get(
+            "https://www.google.com/search",
+            params={"q": f"CEP {query}"},
+            headers={"User-Agent": USER_AGENT},
+            timeout=10
+        )
+        
+        # Extrai CEPs do resultado
+        ceps = PATTERNS['cep'].findall(response.text)
+        
+        if not ceps:
+            logger.warning("Nenhum CEP encontrado na busca do Google")
+            return None
+        
+        # Pega o primeiro CEP encontrado
+        cep = formatar_cep(ceps[0])
+        if not cep:
+            logger.warning("CEP encontrado é inválido")
+            return None
+        
+        # Consulta o OpenCEP com o CEP encontrado
+        cep_limpo = cep.replace("-", "")
+        url = OPENCEP_URL.format(cep=cep_limpo)
+        logger.info(f"Consultando OpenCEP: {url}")
+        
+        api_response = requests.get(url, timeout=10)
+        
+        if api_response.status_code == 200:
+            data = api_response.json()
+            logger.info(f"Dados encontrados no OpenCEP: {data}")
+            
+            # Mapeia os campos para o formato do ViaCEP
+            result = {
+                "cep": data.get("cep", "").replace("-", ""),
+                "logradouro": data.get("logradouro", ""),
+                "bairro": data.get("bairro", ""),
+                "localidade": data.get("localidade", ""),
+                "uf": data.get("uf", ""),
+                "complemento": data.get("complemento", "")
+            }
+            
+            # Salva no cache
+            CEP_CACHE[chave_cache] = result
+            salvar_cache_cep(CEP_CACHE)
+            
+            return result
+        
+        logger.warning(f"OpenCEP retornou status {api_response.status_code}")
+        return None
+    
+    except Exception as e:
+        logger.error(f"Erro ao buscar no OpenCEP: {e}")
+        return None
+
 def buscar_cep_por_endereco(rua, cidade, driver, logger):
     """Busca CEP baseado na rua e cidade já encontradas"""
     if not rua or not cidade:
@@ -897,23 +899,6 @@ def buscar_cep_por_endereco(rua, cidade, driver, logger):
         if ceps:
             cep = formatar_cep(ceps[0])
             logger.info(f"CEP encontrado na segunda tentativa: {cep}")
-            return cep
-        
-        # Tenta uma terceira busca com variação do nome da rua (v11)
-        rua_simplificada = re.sub(r'^(Rua|Avenida|Av\.|R\.|Travessa|Estrada|Alameda|Al\.|Praça|Pç\.)\s+', '', rua, flags=re.IGNORECASE)
-        query = f"CEP {rua_simplificada} {cidade}"
-        logger.info(f"Terceira tentativa (rua simplificada): {query}")
-        driver.get(f"https://www.google.com/search?q={urllib.parse.quote(query)}")
-        time.sleep(1)
-        
-        page_text = driver.page_source
-        soup = BeautifulSoup(page_text, 'html.parser')
-        text = soup.get_text(' ')
-        ceps = re.findall(r'\d{5}-\d{3}|\d{8}', text)
-        
-        if ceps:
-            cep = formatar_cep(ceps[0])
-            logger.info(f"CEP encontrado na terceira tentativa: {cep}")
             return cep
         
         logger.warning("CEP não encontrado")
@@ -1061,46 +1046,56 @@ def obter_cep_geral_cidade(cidade, uf, logger):
         return None
 
 # Novas funções para v11
-def buscar_cep_com_variacao_nome(rua, cidade, uf, driver, logger):
-    """Busca CEP tentando variações do nome da rua"""
-    if not rua or not cidade or not uf:
-        logger.warning("Dados insuficientes para busca com variação de nome")
-        return None
+def gerar_variacoes_endereco(rua, logger):
+    """Gera variações do endereço para aumentar chances de encontrar o CEP"""
+    if not rua:
+        return []
     
-    logger.info(f"Buscando CEP com variações de nome para: {rua}, {cidade}, {uf}")
+    logger.info(f"Gerando variações para o endereço: {rua}")
     
-    # Lista de variações a tentar
     variacoes = []
     
     # Variação 1: Remover prefixo (Rua, Avenida, etc.)
     rua_sem_prefixo = re.sub(r'^(Rua|Avenida|Av\.|R\.|Travessa|Estrada|Alameda|Al\.|Praça|Pç\.)\s+', '', rua, flags=re.IGNORECASE)
     variacoes.append(rua_sem_prefixo)
     
-    # Variação 2: Usar apenas as primeiras palavras (até 3)
-    palavras = rua.split()
-    if len(palavras) > 3:
-        rua_curta = ' '.join(palavras[:3])
-        variacoes.append(rua_curta)
-    
-    # Variação 3: Remover acentos e caracteres especiais
+    # Variação 2: Normalizar acentos e caracteres especiais
     rua_normalizada = normalizar_endereco(rua)
     variacoes.append(rua_normalizada)
     
-    # Variação 4: Substituir abreviações
+    # Variação 3: Substituir abreviações
     rua_expandida = rua.replace("R.", "Rua").replace("Av.", "Avenida").replace("Pç.", "Praça")
     variacoes.append(rua_expandida)
     
-    # Variação 5: Usar apenas a parte principal do nome (até a primeira vírgula)
+    # Variação 4: Usar apenas a parte principal do nome (até a primeira vírgula)
     if "," in rua:
         rua_principal = rua.split(",")[0]
         variacoes.append(rua_principal)
+    
+    # Variação 5: Remover números e caracteres especiais
+    rua_sem_numeros = re.sub(r'[0-9]', '', rua)
+    rua_sem_numeros = re.sub(r'[^\w\s]', '', rua_sem_numeros)
+    rua_sem_numeros = re.sub(r'\s+', ' ', rua_sem_numeros).strip()
+    variacoes.append(rua_sem_numeros)
     
     # Remover duplicatas e a rua original
     variacoes = list(set(variacoes))
     if rua in variacoes:
         variacoes.remove(rua)
     
-    logger.info(f"Variações a tentar: {variacoes}")
+    logger.info(f"Variações geradas: {variacoes}")
+    return variacoes
+
+def buscar_cep_com_variacoes(rua, cidade, uf, driver, logger):
+    """Busca CEP tentando variações do endereço"""
+    if not rua or not cidade or not uf:
+        logger.warning("Dados insuficientes para busca com variações")
+        return None
+    
+    logger.info(f"Buscando CEP com variações para: {rua}, {cidade}, {uf}")
+    
+    # Gera variações do endereço
+    variacoes = gerar_variacoes_endereco(rua, logger)
     
     # Tenta cada variação
     for variacao in variacoes:
@@ -1125,16 +1120,174 @@ def buscar_cep_com_variacao_nome(rua, cidade, uf, driver, logger):
                 "complemento": ""
             }
     
-    logger.warning("Nenhum CEP encontrado com variações de nome")
+    logger.warning("Nenhum CEP encontrado com variações")
     return None
 
-def buscar_cep_com_cascata(rua, cidade, uf, driver, logger, medico=None):
-    """Busca CEP usando sistema de cascata de fallbacks"""
+def buscar_cep_com_regex_avancado(rua, cidade, uf, driver, logger):
+    """Busca CEP usando regex avançado em resultados de busca"""
+    if not rua or not cidade:
+        logger.warning("Dados insuficientes para busca com regex avançado")
+        return None
+    
+    logger.info(f"Buscando CEP com regex avançado para: {rua}, {cidade}, {uf}")
+    
+    try:
+        # Formata a query de busca
+        query = f"CEP {rua} {cidade} {uf}"
+        logger.info(f"Query de busca: {query}")
+        
+        # Realiza a busca no Google
+        driver.get(f"https://www.google.com/search?q={urllib.parse.quote(query)}")
+        time.sleep(2)
+        
+        # Obtém o HTML da página
+        html = driver.page_source
+        
+        # Padrões de regex mais específicos para CEP
+        padroes = [
+            # CEP próximo ao nome da rua
+            rf'{re.escape(rua)}[^0-9]*(\d{{5}}[-\s]?\d{{3}})',
+            # CEP próximo ao nome da cidade
+            rf'{re.escape(cidade)}[^0-9]*(\d{{5}}[-\s]?\d{{3}})',
+            # CEP em formato específico com texto antes
+            r'CEP[\s:]*(\d{5}[-\s]?\d{3})',
+            r'Código[\s:]Postal[\s:]*(\d{5}[-\s]?\d{3})',
+            # CEP em tabela ou lista
+            r'<[^>]*>(\d{5}[-\s]?\d{3})<[^>]*>',
+            # CEP em qualquer contexto
+            r'(\d{5}[-\s]?\d{3})'
+        ]
+        
+        # Tenta cada padrão
+        for padrao in padroes:
+            matches = re.findall(padrao, html, re.IGNORECASE)
+            if matches:
+                # Formata o primeiro CEP encontrado
+                cep = formatar_cep(matches[0])
+                if cep:
+                    logger.info(f"CEP encontrado com regex avançado: {cep}")
+                    return {
+                        "cep": cep,
+                        "logradouro": rua,
+                        "bairro": "",
+                        "localidade": cidade,
+                        "uf": uf,
+                        "complemento": ""
+                    }
+        
+        logger.warning("Nenhum CEP encontrado com regex avançado")
+        return None
+    
+    except Exception as e:
+        logger.error(f"Erro ao buscar CEP com regex avançado: {e}")
+        return None
+
+def buscar_cep_em_sites_especificos(rua, cidade, uf, driver, logger):
+    """Busca CEP em sites específicos de busca de CEP"""
+    if not rua or not cidade:
+        logger.warning("Dados insuficientes para busca em sites específicos")
+        return None
+    
+    logger.info(f"Buscando CEP em sites específicos para: {rua}, {cidade}, {uf}")
+    
+    # Lista de sites específicos para busca de CEP
+    sites = [
+        {
+            "nome": "Busca CEP Correios",
+            "url": "https://buscacepinter.correios.com.br/app/endereco/index.php",
+            "tipo": "form",
+            "campo_input": "endereco",
+            "botao_submit": "btn_pesquisar",
+            "seletor_resultado": "table.tmptabela tr:nth-child(2) td:last-child"
+        },
+        {
+            "nome": "Achou CEP",
+            "url": f"https://www.achou-cep.com/busca-cep/{uf.lower()}/{cidade.lower().replace(' ', '-')}/{rua.lower().replace(' ', '-')}",
+            "tipo": "direto",
+            "seletor_resultado": "span.cep"
+        },
+        {
+            "nome": "CEP Brasil",
+            "url": f"https://cepbrasil.org/{uf.lower()}/{cidade.lower().replace(' ', '-')}/{rua.lower().replace(' ', '-')}",
+            "tipo": "direto",
+            "seletor_resultado": "div.cep-result"
+        }
+    ]
+    
+    # Tenta cada site
+    for site in sites:
+        try:
+            logger.info(f"Tentando site: {site['nome']}")
+            
+            if site["tipo"] == "form":
+                # Acessa o site
+                driver.get(site["url"])
+                time.sleep(2)
+                
+                # Preenche o formulário
+                input_element = driver.find_element(By.ID, site["campo_input"])
+                input_element.clear()
+                input_element.send_keys(f"{rua}, {cidade}, {uf}")
+                
+                # Submete o formulário
+                submit_button = driver.find_element(By.ID, site["botao_submit"])
+                submit_button.click()
+                time.sleep(3)
+                
+                # Extrai o resultado
+                try:
+                    resultado = driver.find_element(By.CSS_SELECTOR, site["seletor_resultado"])
+                    cep_texto = resultado.text.strip()
+                    cep = formatar_cep(cep_texto)
+                    if cep:
+                        logger.info(f"CEP encontrado em {site['nome']}: {cep}")
+                        return {
+                            "cep": cep,
+                            "logradouro": rua,
+                            "bairro": "",
+                            "localidade": cidade,
+                            "uf": uf,
+                            "complemento": ""
+                        }
+                except Exception as e:
+                    logger.warning(f"Erro ao extrair resultado de {site['nome']}: {e}")
+            
+            elif site["tipo"] == "direto":
+                # Acessa o site diretamente
+                driver.get(site["url"])
+                time.sleep(2)
+                
+                # Extrai o resultado
+                try:
+                    resultado = driver.find_element(By.CSS_SELECTOR, site["seletor_resultado"])
+                    cep_texto = resultado.text.strip()
+                    cep = formatar_cep(cep_texto)
+                    if cep:
+                        logger.info(f"CEP encontrado em {site['nome']}: {cep}")
+                        return {
+                            "cep": cep,
+                            "logradouro": rua,
+                            "bairro": "",
+                            "localidade": cidade,
+                            "uf": uf,
+                            "complemento": ""
+                        }
+                except Exception as e:
+                    logger.warning(f"Erro ao extrair resultado de {site['nome']}: {e}")
+        
+        except Exception as e:
+            logger.error(f"Erro ao acessar {site['nome']}: {e}")
+    
+    logger.warning("Nenhum CEP encontrado em sites específicos")
+    return None
+
+def buscar_cep_com_cascata_v11(rua, cidade, uf, driver, logger, medico=None):
+    """Busca CEP usando sistema de cascata de fallbacks aprimorado na v11"""
     if not rua or not cidade:
         logger.warning("Dados insuficientes para busca de CEP")
         return None
     
-    logger.info(f"Iniciando busca de CEP em cascata para: {rua}, {cidade}, {uf}")
+    logger.info(f"Iniciando busca de CEP em cascata v11 para: {rua}, {cidade}, {uf}")
     
     # 0. Verifica CEPs manuais (prioridade máxima)
     if medico:
@@ -1157,15 +1310,29 @@ def buscar_cep_com_cascata(rua, cidade, uf, driver, logger, medico=None):
         logger.info(f"CEP encontrado via BrasilAPI: {brasilapi_data['cep']}")
         return brasilapi_data
     
-    # 3. Tenta variações do nome da rua (novo na v11)
-    logger.info("Método 3: Variações do nome da rua")
-    variacao_data = buscar_cep_com_variacao_nome(rua, cidade, uf, driver, logger)
+    # 3. Tenta OpenCEP (novo na v11)
+    logger.info("Método 3: OpenCEP")
+    opencep_data = buscar_cep_via_opencep(rua, cidade, uf, logger)
+    if opencep_data and opencep_data.get('cep'):
+        logger.info(f"CEP encontrado via OpenCEP: {opencep_data['cep']}")
+        return opencep_data
+    
+    # 4. Tenta variações do endereço (novo na v11)
+    logger.info("Método 4: Variações do endereço")
+    variacao_data = buscar_cep_com_variacoes(rua, cidade, uf, driver, logger)
     if variacao_data and variacao_data.get('cep'):
-        logger.info(f"CEP encontrado via variação de nome: {variacao_data['cep']}")
+        logger.info(f"CEP encontrado via variações: {variacao_data['cep']}")
         return variacao_data
     
-    # 4. Tenta Web Scraping do Google
-    logger.info("Método 4: Web Scraping do Google")
+    # 5. Tenta regex avançado (novo na v11)
+    logger.info("Método 5: Regex avançado")
+    regex_data = buscar_cep_com_regex_avancado(rua, cidade, uf, driver, logger)
+    if regex_data and regex_data.get('cep'):
+        logger.info(f"CEP encontrado via regex avançado: {regex_data['cep']}")
+        return regex_data
+    
+    # 6. Tenta Web Scraping do Google
+    logger.info("Método 6: Web Scraping do Google")
     google_cep = buscar_cep_por_endereco(rua, cidade, driver, logger)
     if google_cep:
         logger.info(f"CEP encontrado via Google: {google_cep}")
@@ -1178,15 +1345,22 @@ def buscar_cep_com_cascata(rua, cidade, uf, driver, logger, medico=None):
             "complemento": ""
         }
     
-    # 5. Tenta Site dos Correios
-    logger.info("Método 5: Site dos Correios")
+    # 7. Tenta sites específicos (novo na v11)
+    logger.info("Método 7: Sites específicos")
+    sites_data = buscar_cep_em_sites_especificos(rua, cidade, uf, driver, logger)
+    if sites_data and sites_data.get('cep'):
+        logger.info(f"CEP encontrado via sites específicos: {sites_data['cep']}")
+        return sites_data
+    
+    # 8. Tenta Site dos Correios
+    logger.info("Método 8: Site dos Correios")
     correios_data = buscar_cep_via_correios(rua, cidade, uf, driver, logger)
     if correios_data and correios_data.get('cep'):
         logger.info(f"CEP encontrado via Correios: {correios_data['cep']}")
         return correios_data
     
-    # 6. Tenta CEP geral da cidade (último recurso)
-    logger.info("Método 6: CEP geral da cidade")
+    # 9. Tenta CEP geral da cidade (último recurso)
+    logger.info("Método 9: CEP geral da cidade")
     cep_geral = obter_cep_geral_cidade(cidade, uf, logger)
     if cep_geral and cep_geral.get('cep'):
         logger.info(f"CEP geral encontrado: {cep_geral['cep']}")
@@ -1195,18 +1369,6 @@ def buscar_cep_com_cascata(rua, cidade, uf, driver, logger, medico=None):
     logger.warning("Nenhum CEP encontrado após tentar todos os métodos")
     return None
 
-def log_memory_usage(logger, prefix=""):
-    """Registra o uso de memória atual"""
-    process = psutil.Process()
-    memory_info = process.memory_info()
-    logger.info(f"{prefix} Uso de memória: {memory_info.rss / 1024 / 1024:.2f} MB")
-
-def log_execution_time(logger, start_time, operation_name):
-    """Registra o tempo de execução de uma operação"""
-    elapsed = time.time() - start_time
-    logger.info(f"Tempo de execução de {operation_name}: {elapsed:.2f} segundos")
-
-# Função para limpar texto extenso (aprimorada na v10)
 def limpar_texto_extenso(texto, tipo_campo, logger):
     """Limpa texto extenso removendo informações irrelevantes"""
     if not texto:
@@ -1303,7 +1465,7 @@ def limpar_texto_extenso(texto, tipo_campo, logger):
     logger.info(f"Texto limpo: {texto}")
     return texto
 
-# Exemplos específicos para cada tipo de campo (mantidos da v10)
+# Exemplos específicos para cada tipo de campo
 EXEMPLOS_CAMPOS = {
     'address': [
         "Rua Visconde do Rio Branco",
@@ -1446,7 +1608,7 @@ def consultar_ollama(prompt, logger):
         logger.error(f"Erro ao consultar Ollama: {e}")
         return ""
 
-def processar_medico(medico, lock, logger):
+def processar_medico(medico, logger):
     """Processa um médico para extrair informações"""
     try:
         # Extrai os campos do médico
@@ -1649,7 +1811,7 @@ def processar_medico(medico, lock, logger):
             
             # Busca o CEP e dados de endereço
             if results['address'] and (results['city'] or uf):
-                cep_data = buscar_cep_com_cascata(results['address'], results['city'], uf, driver, logger, medico)
+                cep_data = buscar_cep_com_cascata_v11(results['address'], results['city'], uf, driver, logger, medico)
                 
                 if cep_data:
                     # Preenche os campos com os dados do CEP
@@ -1680,7 +1842,6 @@ def processar_medico(medico, lock, logger):
         
         except Exception as e:
             logger.error(f"Erro ao processar médico {firstname} {lastname}: {e}")
-            logger.error(traceback.format_exc())
             
             # Fecha o driver em caso de erro
             try:
@@ -1692,44 +1853,7 @@ def processar_medico(medico, lock, logger):
     
     except Exception as e:
         logger.error(f"Erro crítico ao processar médico: {e}")
-        logger.error(traceback.format_exc())
         return {}
-
-def processar_chunk(chunk, process_id, lock):
-    """Processa um chunk de médicos"""
-    # Configura o logger para este processo
-    logger = setup_logger(process_id)
-    logger.info(f"Iniciando processo {process_id} com {len(chunk)} médicos")
-    
-    # Processa cada médico no chunk
-    results = []
-    for medico in chunk:
-        try:
-            # Registra o uso de memória
-            log_memory_usage(logger, f"Antes de processar médico {medico.get('Firstname', '')} {medico.get('LastName', '')}")
-            
-            # Marca o tempo de início
-            start_time = time.time()
-            
-            # Processa o médico
-            result = processar_medico(medico, lock, logger)
-            
-            # Registra o tempo de execução
-            log_execution_time(logger, start_time, f"Processamento do médico {medico.get('Firstname', '')} {medico.get('LastName', '')}")
-            
-            # Adiciona o resultado à lista
-            results.append((medico, result))
-            
-            # Registra o uso de memória
-            log_memory_usage(logger, f"Após processar médico {medico.get('Firstname', '')} {medico.get('LastName', '')}")
-        
-        except Exception as e:
-            logger.error(f"Erro ao processar médico {medico.get('Firstname', '')} {medico.get('LastName', '')}: {e}")
-            logger.error(traceback.format_exc())
-            results.append((medico, {}))
-    
-    logger.info(f"Processo {process_id} concluído")
-    return results
 
 def main():
     """Função principal"""
@@ -1746,9 +1870,9 @@ def main():
         print(f"Arquivo de entrada {input_file} não encontrado")
         sys.exit(1)
     
-    # Configura o logger principal
-    logger = setup_logger("main")
-    logger.info(f"Iniciando processamento com {NUM_PROCESSES} processos")
+    # Configura o logger
+    logger = setup_logger()
+    logger.info(f"Iniciando processamento sequencial")
     
     # Carrega os médicos do arquivo CSV
     medicos = []
@@ -1763,29 +1887,26 @@ def main():
         logger.error(f"Erro ao carregar arquivo {input_file}: {e}")
         sys.exit(1)
     
-    # Divide os médicos em chunks para processamento paralelo
-    chunks = []
-    for i in range(0, len(medicos), CHUNK_SIZE):
-        chunks.append(medicos[i:i+CHUNK_SIZE])
-    
-    logger.info(f"Dividido em {len(chunks)} chunks de {CHUNK_SIZE} médicos")
-    
-    # Cria o Manager e o lock no processo principal
-    manager = multiprocessing.Manager()
-    lock = manager.Lock()
-    
-    # Processa os chunks em paralelo
+    # Processa cada médico sequencialmente
     results = []
-    with Pool(processes=NUM_PROCESSES) as pool:
-        # Cria uma lista de tuplas (chunk, process_id, lock)
-        chunk_process_pairs = [(chunk, i % NUM_PROCESSES, lock) for i, chunk in enumerate(chunks)]
-        
-        # Mapeia a função processar_chunk para cada par
-        chunk_results = pool.starmap(processar_chunk, chunk_process_pairs)
-        
-        # Combina os resultados
-        for chunk_result in chunk_results:
-            results.extend(chunk_result)
+    for medico in medicos:
+        try:
+            # Marca o tempo de início
+            start_time = time.time()
+            
+            # Processa o médico
+            result = processar_medico(medico, logger)
+            
+            # Registra o tempo de execução
+            elapsed = time.time() - start_time
+            logger.info(f"Tempo de execução: {elapsed:.2f} segundos")
+            
+            # Adiciona o resultado à lista
+            results.append((medico, result))
+            
+        except Exception as e:
+            logger.error(f"Erro ao processar médico {medico.get('Firstname', '')} {medico.get('LastName', '')}: {e}")
+            results.append((medico, {}))
     
     logger.info(f"Processamento concluído, salvando resultados em {output_file}")
     
