@@ -1,0 +1,501 @@
+2025-05-22 03:47:32,273 - P11992 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 03:47:32,274 - P11992 - INFO - Nome: TULIO DE SOUSA NUNES
+2025-05-22 03:47:32,274 - P11992 - INFO - Reiniciando driver do Chrome
+2025-05-22 03:47:33,929 - P11992 - INFO - Após reiniciar driver Uso de memória: 132.43 MB
+2025-05-22 03:47:33,930 - P11992 - INFO - Início do processamento Uso de memória: 132.43 MB
+2025-05-22 03:47:33,930 - P11992 - INFO - Iniciando busca para: TULIO DE SOUSA NUNES CRM 11516 GO telefone e-mail endereço
+2025-05-22 03:47:34,799 - P11992 - INFO - SearX results: 15 URLs
+2025-05-22 03:47:34,799 - P11992 - INFO - Após SearX Uso de memória: 132.45 MB
+2025-05-22 03:47:37,367 - P11992 - INFO - Google results: 10 URLs
+2025-05-22 03:47:37,368 - P11992 - INFO - Após Google Uso de memória: 132.46 MB
+2025-05-22 03:47:40,077 - P11992 - INFO - Bing results: 10 URLs
+2025-05-22 03:47:40,077 - P11992 - INFO - Após Bing Uso de memória: 133.22 MB
+2025-05-22 03:47:40,077 - P11992 - INFO - Total de URLs únicas: 22
+2025-05-22 03:47:40,077 - P11992 - INFO - Processando URL 1/22: https://www.catalogo.med.br/doutor/tulio-de-sousa-nunes-2231929.htm
+2025-05-22 03:47:42,243 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\4c21758188bd229cfd5ea7f5d89cddeb.html
+2025-05-22 03:47:42,243 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:47:42,244 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:47:42,244 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:47:42,244 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:47:42,244 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:47:42,244 - P11992 - INFO - Após processar URL 1 Uso de memória: 133.22 MB
+2025-05-22 03:47:42,245 - P11992 - INFO - Processando URL 2/22: https://www.boaconsulta.com/especialista/tulio-de-sousa-nunes-610603f2a2e00a78ce001352?agendaId=6106048fa2e00a78ce002308
+2025-05-22 03:47:45,523 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7acedea7799f7583d3dc8581757166d4.html
+2025-05-22 03:47:45,571 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 03:47:45,572 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:47:45,572 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:47:45,572 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:47:45,572 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:47:45,572 - P11992 - INFO - Após processar URL 2 Uso de memória: 133.54 MB
+2025-05-22 03:47:45,572 - P11992 - INFO - Processando URL 3/22: https://www.helpsaude.com/Tulio-de-Sousa-Nunes.GO
+2025-05-22 03:47:50,378 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\53eee84a7b8f7a130e853e2ee9ebad74.html
+2025-05-22 03:47:50,397 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:47:50,397 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:47:50,397 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:47:50,398 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:47:50,398 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 03:47:50,398 - P11992 - INFO - Após processar URL 3 Uso de memória: 133.89 MB
+2025-05-22 03:47:50,398 - P11992 - INFO - Processando URL 4/22: https://www.redescredenciadas.com.br/perfil/tulio-de-sousa-nunes-go-11516
+2025-05-22 03:47:53,690 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7a4b01fb18988236b1359ae8a8cbc669.html
+2025-05-22 03:47:53,696 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 03:47:53,697 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 03:47:53,697 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:47:53,697 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:47:53,697 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:47:53,698 - P11992 - INFO - Após processar URL 4 Uso de memória: 134.03 MB
+2025-05-22 03:47:53,698 - P11992 - INFO - Processando URL 5/22: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/885118687.pdf
+2025-05-22 03:47:53,698 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/885118687.pdf
+2025-05-22 03:47:53,700 - P11992 - INFO - Após processar URL 5 Uso de memória: 134.03 MB
+2025-05-22 03:47:53,701 - P11992 - INFO - Processando URL 6/22: https://www.boaconsulta.com/especialista/tulio-de-sousa-nunes-610603f2a2e00a78ce001352
+2025-05-22 03:47:55,775 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\1a98f82d74fc5935ca9118a451a9d65f.html
+2025-05-22 03:47:55,812 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 03:47:55,812 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:47:55,812 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:47:55,812 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:47:55,813 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:47:55,813 - P11992 - INFO - Após processar URL 6 Uso de memória: 134.51 MB
+2025-05-22 03:47:55,813 - P11992 - INFO - Processando URL 7/22: http://www.guiareunimedicos.med.br/c/go/goiania/cardiologistas/tulio-de-sousa-nunes-2231929.htm
+2025-05-22 03:47:57,966 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\1002c44b47edcb531c008fb1b413f460.html
+2025-05-22 03:47:57,967 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:47:57,967 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:47:57,967 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:47:57,967 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:47:57,968 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:47:57,968 - P11992 - INFO - Após processar URL 7 Uso de memória: 134.51 MB
+2025-05-22 03:47:57,968 - P11992 - INFO - Processando URL 8/22: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1946367697.pdf
+2025-05-22 03:47:57,968 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1946367697.pdf
+2025-05-22 03:47:57,968 - P11992 - INFO - Após processar URL 8 Uso de memória: 134.51 MB
+2025-05-22 03:47:57,968 - P11992 - INFO - Processando URL 9/22: https://listamedicos.com/medico/tulio-de-sousa-nunes
+2025-05-22 03:48:02,610 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ebece382ac3d25c6c766581e740270db.html
+2025-05-22 03:48:02,620 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:48:02,621 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:48:02,621 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:48:02,621 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:48:02,622 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 03:48:02,622 - P11992 - INFO - Após processar URL 9 Uso de memória: 135.55 MB
+2025-05-22 03:48:02,622 - P11992 - INFO - Processando URL 10/22: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/564305144309514435643028.pdf
+2025-05-22 03:48:02,623 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/564305144309514435643028.pdf
+2025-05-22 03:48:02,623 - P11992 - INFO - Após processar URL 10 Uso de memória: 134.53 MB
+2025-05-22 03:48:02,623 - P11992 - INFO - Processando URL 11/22: https://www.doctoralia.com.br/tulio-de-sousa-nunes/medico-clinico-geral/goiania
+2025-05-22 03:48:02,623 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/tulio-de-sousa-nunes/medico-clinico-geral/goiania
+2025-05-22 03:48:02,624 - P11992 - INFO - Após processar URL 11 Uso de memória: 134.53 MB
+2025-05-22 03:48:02,624 - P11992 - INFO - Processando URL 12/22: https://www.tjpi.jus.br/diarioeletronico/public/dj190219_8613.pdf
+2025-05-22 03:48:02,625 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.tjpi.jus.br/diarioeletronico/public/dj190219_8613.pdf
+2025-05-22 03:48:02,625 - P11992 - INFO - Após processar URL 12 Uso de memória: 134.53 MB
+2025-05-22 03:48:02,625 - P11992 - INFO - Processando URL 13/22: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/45650/Caderno_JUD_GO_2015-08-14_VII_152.pdf?sequence=1&isAllowed=y
+2025-05-22 03:48:02,626 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/45650/Caderno_JUD_GO_2015-08-14_VII_152.pdf?sequence=1&isAllowed=y
+2025-05-22 03:48:02,626 - P11992 - INFO - Após processar URL 13 Uso de memória: 134.53 MB
+2025-05-22 03:48:02,626 - P11992 - INFO - Processando URL 14/22: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20210521&idorgao=347
+2025-05-22 03:48:06,203 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\09bb7f4b23a5df714a8183dc2aff86db.html
+2025-05-22 03:48:07,270 - P11992 - INFO - Candidates address: 63 items
+2025-05-22 03:48:07,270 - P11992 - INFO - Candidates phone: 7 items
+2025-05-22 03:48:07,271 - P11992 - INFO - Candidates email: 63 items
+2025-05-22 03:48:07,271 - P11992 - INFO - Candidates complement: 8 items
+2025-05-22 03:48:07,271 - P11992 - INFO - Candidates cep: 117 items
+2025-05-22 03:48:07,272 - P11992 - INFO - Após processar URL 14 Uso de memória: 128.86 MB
+2025-05-22 03:48:07,272 - P11992 - INFO - Processando URL 15/22: https://cliniguia.com/profissionais/tulio-de-sousa-nunes-980016284044858/
+2025-05-22 03:48:13,820 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\3ee348fc094bdd3310d867e5b051e280.html
+2025-05-22 03:48:13,882 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:48:13,897 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:48:13,898 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:48:13,898 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:48:13,903 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:48:13,910 - P11992 - INFO - Após processar URL 15 Uso de memória: 128.18 MB
+2025-05-22 03:48:13,917 - P11992 - INFO - Processando URL 16/22: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2024/DMPF-ADMINISTRATIVO-2024-07-26.pdf
+2025-05-22 03:48:13,920 - P11992 - INFO - Ignorando URL de arquivo não-HTML: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2024/DMPF-ADMINISTRATIVO-2024-07-26.pdf
+2025-05-22 03:48:13,925 - P11992 - INFO - Após processar URL 16 Uso de memória: 128.18 MB
+2025-05-22 03:48:13,926 - P11992 - INFO - Processando URL 17/22: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 03:48:17,608 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 03:48:17,646 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:48:17,646 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:48:17,647 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:48:17,647 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:48:17,647 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:48:17,647 - P11992 - INFO - Após processar URL 17 Uso de memória: 129.25 MB
+2025-05-22 03:48:17,647 - P11992 - INFO - Processando URL 18/22: https://clinica.work/especialista/tulio-de-sousa-nunes-clinico-geral-goiania-go
+2025-05-22 03:48:23,136 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\fe8445960a5a8b1ab981d056f13ab225.html
+2025-05-22 03:48:23,153 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:48:23,153 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:48:23,153 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:48:23,153 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:48:23,154 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 03:48:23,154 - P11992 - INFO - Após processar URL 18 Uso de memória: 130.41 MB
+2025-05-22 03:48:23,154 - P11992 - INFO - Processando URL 19/22: https://www.medicosbrasil.com/profissional/tulio-de-sousa-nunes
+2025-05-22 03:48:26,828 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\c286fc65f432184f7bb844973cfdecaa.html
+2025-05-22 03:48:26,845 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:48:26,846 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:48:26,846 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:48:26,846 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:48:26,846 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:48:26,846 - P11992 - INFO - Após processar URL 19 Uso de memória: 131.28 MB
+2025-05-22 03:48:26,847 - P11992 - INFO - Processando URL 20/22: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2014/09/3960-06-08-2014.pdf
+2025-05-22 03:48:26,847 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2014/09/3960-06-08-2014.pdf
+2025-05-22 03:48:26,847 - P11992 - INFO - Após processar URL 20 Uso de memória: 131.28 MB
+2025-05-22 03:48:26,847 - P11992 - INFO - Processando URL 21/22: https://www.sociosbrasil.com/nome/tulio-de-sousa-nunes
+2025-05-22 03:48:32,593 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\8e632aa4ceb589cb4f5aec27390269c3.html
+2025-05-22 03:48:32,603 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:48:32,603 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:48:32,603 - P11992 - INFO - Candidates email: 3 items
+2025-05-22 03:48:32,603 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 03:48:32,603 - P11992 - INFO - Candidates cep: 6 items
+2025-05-22 03:48:32,604 - P11992 - INFO - Após processar URL 21 Uso de memória: 131.55 MB
+2025-05-22 03:48:32,604 - P11992 - INFO - Processando URL 22/22: https://consultacrm.com.br/
+2025-05-22 03:48:37,052 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:48:37,062 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:48:37,063 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:48:37,063 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:48:37,063 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:48:37,063 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:48:37,063 - P11992 - INFO - Após processar URL 22 Uso de memória: 131.66 MB
+2025-05-22 03:48:37,063 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:48:37,064 - P11992 - INFO - Ranked address: 66 items
+2025-05-22 03:48:37,064 - P11992 - INFO - Ranked phone: 9 items
+2025-05-22 03:48:37,064 - P11992 - INFO - Ranked email: 66 items
+2025-05-22 03:48:37,065 - P11992 - INFO - Ranked complement: 9 items
+2025-05-22 03:48:37,065 - P11992 - INFO - Ranked cep: 124 items
+2025-05-22 03:48:37,065 - P11992 - INFO - Após agregação Uso de memória: 131.66 MB
+2025-05-22 03:48:37,065 - P11992 - INFO - Validando endereço: ['Avenida Das Nações, 616', 'Rua Seis, 256', 'Avenida Portugal, 5']
+2025-05-22 03:48:37,065 - P11992 - INFO - Endereço validado: Avenida Das Nações, 616
+2025-05-22 03:48:37,066 - P11992 - INFO - Limpando texto extenso para campo address: Avenida Das Nações, 616...
+2025-05-22 03:48:37,066 - P11992 - INFO - Texto limpo: Avenida Das Nações, 616
+2025-05-22 03:48:37,066 - P11992 - INFO - Validando telefone: ['(62) 3414-0100', '+556234140100', '(27) 3198-0609']
+2025-05-22 03:48:37,066 - P11992 - INFO - Limpando texto extenso para campo phone: (62) 3414-0100...
+2025-05-22 03:48:37,066 - P11992 - INFO - Texto limpo: 62) 3414-0100
+2025-05-22 03:48:37,066 - P11992 - INFO - Telefone validado: 62) 3414-0100
+2025-05-22 03:48:37,067 - P11992 - INFO - Validando email: ['adriana@twistcomex.com.br', 'itoria@tjes.jus', '1orfaos-vitoria@tjes.jus.br']
+2025-05-22 03:48:37,067 - P11992 - INFO - Limpando texto extenso para campo email: adriana@twistcomex.com.br...
+2025-05-22 03:48:37,067 - P11992 - INFO - Texto limpo: adriana@twistcomex.com.br
+2025-05-22 03:48:37,067 - P11992 - INFO - Email validado: adriana@twistcomex.com.br
+2025-05-22 03:48:37,067 - P11992 - INFO - Validando complemento: ['Sala 406', 'Bloco A', 'Aptidão Física e Mental']
+2025-05-22 03:48:37,067 - P11992 - INFO - Limpando texto extenso para campo complement: Sala 406...
+2025-05-22 03:48:37,068 - P11992 - INFO - Texto limpo: Sala 406
+2025-05-22 03:48:37,068 - P11992 - INFO - Complemento validado: Sala 406
+2025-05-22 03:48:37,068 - P11992 - INFO - Descobrindo cidade
+2025-05-22 03:48:37,068 - P11992 - INFO - Buscando cidade: Avenida Das Nações cidade GO
+2025-05-22 03:48:40,046 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 03:48:40,047 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 03:48:40,047 - P11992 - INFO - Tempo de execução de processamento completo do médico: 66.12 segundos
+2025-05-22 03:48:40,047 - P11992 - INFO - Resultado processado: {'Hash': '5ee9a38cb062a6a4943a9652ce1d657d9980f166a81b90a1ac7ef8d9220f573b', 'CRM': '11516', 'UF': 'GO', 'Firstname': 'TULIO', 'LastName': 'DE SOUSA NUNES', 'Medical specialty': '', 'Endereco Completo A1': 'Avenida Das Nações, 616', 'Address A1': 'Avenida Das Nações', 'Numero A1': '616', 'Complement A1': 'Sala 406', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '62) 3414-0100', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'adriana@twistcomex.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:48:40,050 - P11992 - INFO - Progresso: 55.5%
+2025-05-22 03:48:40,050 - P11992 - INFO - Executando coleta de lixo
+2025-05-22 03:48:40,135 - P11992 - INFO - Após coleta de lixo Uso de memória: 122.22 MB
+2025-05-22 03:48:40,138 - P11992 - INFO - Tempo de execução de processamento do médico 1: 67.86 segundos
+2025-05-22 03:48:40,139 - P11992 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 03:48:40,139 - P11992 - INFO - Nome: THAIS PÓVOA CRUZ DE VELASCO LIMA MONÇÃO DE MATTOS
+2025-05-22 03:48:40,140 - P11992 - INFO - Início do processamento Uso de memória: 122.22 MB
+2025-05-22 03:48:40,140 - P11992 - INFO - Iniciando busca para: THAIS PÓVOA CRUZ DE VELASCO LIMA MONÇÃO DE MATTOS CRM 12284 GO telefone e-mail endereço
+2025-05-22 03:48:40,926 - P11992 - INFO - SearX results: 11 URLs
+2025-05-22 03:48:40,926 - P11992 - INFO - Após SearX Uso de memória: 122.23 MB
+2025-05-22 03:48:43,408 - P11992 - INFO - Google results: 6 URLs
+2025-05-22 03:48:43,408 - P11992 - INFO - Após Google Uso de memória: 125.72 MB
+2025-05-22 03:48:46,299 - P11992 - INFO - Bing results: 15 URLs
+2025-05-22 03:48:46,300 - P11992 - INFO - Após Bing Uso de memória: 127.59 MB
+2025-05-22 03:48:46,300 - P11992 - INFO - Total de URLs únicas: 20
+2025-05-22 03:48:46,300 - P11992 - INFO - Processando URL 1/20: https://listamedicos.com/medico/thais-povoa-cruz-de-velasco-lima
+2025-05-22 03:48:50,493 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\3c7b45fc3dbabc7f2f9c073858d3f4a8.html
+2025-05-22 03:48:50,502 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:48:50,503 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:48:50,503 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:48:50,503 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:48:50,503 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 03:48:50,504 - P11992 - INFO - Após processar URL 1 Uso de memória: 130.84 MB
+2025-05-22 03:48:50,504 - P11992 - INFO - Processando URL 2/20: https://www.doctoralia.com.br/thais-povoa-cruz-de-velasco-lima/cirurgiao-cardiovascular/goiania
+2025-05-22 03:48:50,504 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/thais-povoa-cruz-de-velasco-lima/cirurgiao-cardiovascular/goiania
+2025-05-22 03:48:50,504 - P11992 - INFO - Após processar URL 2 Uso de memória: 129.76 MB
+2025-05-22 03:48:50,505 - P11992 - INFO - Processando URL 3/20: https://www.catalogo.med.br/doutor/thais-povoa-cruz-de-velasco-lima-1785787.htm
+2025-05-22 03:48:52,645 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\f7e2b75786b325cc6211b1e54b4c50a6.html
+2025-05-22 03:48:52,646 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:48:52,646 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:48:52,646 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:48:52,646 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:48:52,646 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:48:52,647 - P11992 - INFO - Após processar URL 3 Uso de memória: 129.76 MB
+2025-05-22 03:48:52,647 - P11992 - INFO - Processando URL 4/20: https://cliniguia.com/profissionais/thais-povoa-cruz-de-velasco-lima-980016278571833/
+2025-05-22 03:48:57,873 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\6f1beaa836ef9839053363df322c05d2.html
+2025-05-22 03:48:57,922 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:48:57,923 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:48:57,923 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:48:57,923 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:48:57,923 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:48:57,923 - P11992 - INFO - Após processar URL 4 Uso de memória: 130.19 MB
+2025-05-22 03:48:57,924 - P11992 - INFO - Processando URL 5/20: https://www.doctoralia.com.br/cirurgiao-cardiovascular/goiania/santa-genoveva
+2025-05-22 03:48:57,924 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/cirurgiao-cardiovascular/goiania/santa-genoveva
+2025-05-22 03:48:57,924 - P11992 - INFO - Após processar URL 5 Uso de memória: 130.19 MB
+2025-05-22 03:48:57,924 - P11992 - INFO - Processando URL 6/20: https://clinica.work/especialista/thais-povoa-cruz-de-velasco-lima-moncao-de-mattos-cardiologista-goiania-go
+2025-05-22 03:49:00,513 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\9bb8f4790fd74910d3e555a247eba3f1.html
+2025-05-22 03:49:00,529 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:49:00,529 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:49:00,529 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:49:00,530 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:00,530 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 03:49:00,530 - P11992 - INFO - Após processar URL 6 Uso de memória: 131.56 MB
+2025-05-22 03:49:00,530 - P11992 - INFO - Processando URL 7/20: https://www.doctuo.com.br/medicos/thais-povoa-cruz-de-velasco-lima_1
+2025-05-22 03:49:00,530 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctuo.com.br/medicos/thais-povoa-cruz-de-velasco-lima_1
+2025-05-22 03:49:00,530 - P11992 - INFO - Após processar URL 7 Uso de memória: 130.61 MB
+2025-05-22 03:49:00,531 - P11992 - INFO - Processando URL 8/20: https://www.doctoralia.com.br/cirurgiao-cardiovascular/goiania/setor-dos-funcionarios
+2025-05-22 03:49:00,531 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/cirurgiao-cardiovascular/goiania/setor-dos-funcionarios
+2025-05-22 03:49:00,531 - P11992 - INFO - Após processar URL 8 Uso de memória: 130.61 MB
+2025-05-22 03:49:00,531 - P11992 - INFO - Processando URL 9/20: https://www.boaconsulta.com/especialista/thais-povoa-cruz-de-velasco-lima-6106011da2e00a75d50022d8
+2025-05-22 03:49:03,362 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\603792d681bf163ad9b4f033bd01f824.html
+2025-05-22 03:49:03,408 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:49:03,409 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:49:03,409 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:49:03,409 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:03,409 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:49:03,409 - P11992 - INFO - Após processar URL 9 Uso de memória: 130.81 MB
+2025-05-22 03:49:03,410 - P11992 - INFO - Processando URL 10/20: https://www.consultacrm.com.br/index/medicos/uid-81834129-f5c5-11ec-9e74-0a4aa568c625/thais_pa_voa_cruz_de_velasco_lima
+2025-05-22 03:49:08,935 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\946ad96142be0d25b67c99b72e1117c0.html
+2025-05-22 03:49:08,945 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:49:08,945 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:49:08,946 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:49:08,946 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:08,946 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 03:49:08,946 - P11992 - INFO - Após processar URL 10 Uso de memória: 130.84 MB
+2025-05-22 03:49:08,947 - P11992 - INFO - Processando URL 11/20: https://www.escavador.com/sobre/2518273/thais-povoa-cruz-de-velasco-lima
+2025-05-22 03:49:12,070 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ed695bffb75ac92af757cc9421e32aa0.html
+2025-05-22 03:49:12,089 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:49:12,089 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:49:12,089 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:49:12,090 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:12,090 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:49:12,090 - P11992 - INFO - Após processar URL 11 Uso de memória: 130.95 MB
+2025-05-22 03:49:12,090 - P11992 - INFO - Processando URL 12/20: https://www.cremego.org.br/institucional-2/camaras-tecnicas/
+2025-05-22 03:49:15,800 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\c5e3efd1bf9ca4684e9748ac76d3c0d4.html
+2025-05-22 03:49:15,931 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:49:15,932 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:49:15,932 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 03:49:15,933 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:15,933 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 03:49:15,933 - P11992 - INFO - Após processar URL 12 Uso de memória: 131.13 MB
+2025-05-22 03:49:15,933 - P11992 - INFO - Processando URL 13/20: https://www.doctoralia.com.br/cirurgiao-cardiovascular/goiania/itinga3
+2025-05-22 03:49:15,933 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/cirurgiao-cardiovascular/goiania/itinga3
+2025-05-22 03:49:15,934 - P11992 - INFO - Após processar URL 13 Uso de memória: 131.13 MB
+2025-05-22 03:49:15,934 - P11992 - INFO - Processando URL 14/20: https://www.doctoralia.com.br/cirurgiao-cardiovascular/goiania/setor-bueno
+2025-05-22 03:49:15,934 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/cirurgiao-cardiovascular/goiania/setor-bueno
+2025-05-22 03:49:15,934 - P11992 - INFO - Após processar URL 14 Uso de memória: 131.13 MB
+2025-05-22 03:49:15,934 - P11992 - INFO - Processando URL 15/20: https://www.doctuo.com.br/medicos/thais-povoa-cruz-de-velasco-lima
+2025-05-22 03:49:15,935 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctuo.com.br/medicos/thais-povoa-cruz-de-velasco-lima
+2025-05-22 03:49:15,935 - P11992 - INFO - Após processar URL 15 Uso de memória: 131.13 MB
+2025-05-22 03:49:15,935 - P11992 - INFO - Processando URL 16/20: https://guiasaudebrasil.com.br/profissional/5fe3dec747b0dc8b-thais-povoa-cruz-de-velasco-lima
+2025-05-22 03:49:21,913 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\86a54a4404dc723b01bb689745b168dc.html
+2025-05-22 03:49:21,934 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:49:21,934 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:49:21,934 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:49:21,935 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:21,935 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 03:49:21,935 - P11992 - INFO - Após processar URL 16 Uso de memória: 131.32 MB
+2025-05-22 03:49:21,935 - P11992 - INFO - Processando URL 17/20: https://www.medicosbrasil.com/profissional/thais-povoa-cruz-de-velasco
+2025-05-22 03:49:24,178 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\8da482f447ee3336b61bb8b069ce6892.html
+2025-05-22 03:49:24,193 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:49:24,193 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:49:24,194 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:49:24,195 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:24,195 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:49:24,198 - P11992 - INFO - Após processar URL 17 Uso de memória: 131.32 MB
+2025-05-22 03:49:24,201 - P11992 - INFO - Processando URL 18/20: https://www.doctoralia.com.br/cirurgiao-cardiovascular/goiania/setor-bela-vista
+2025-05-22 03:49:24,202 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/cirurgiao-cardiovascular/goiania/setor-bela-vista
+2025-05-22 03:49:24,204 - P11992 - INFO - Após processar URL 18 Uso de memória: 131.32 MB
+2025-05-22 03:49:24,204 - P11992 - INFO - Processando URL 19/20: https://doutorcrm.com/thais-povoa-cruz-de-velasco-lima
+2025-05-22 03:49:27,609 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e462ce5bee4f2348b4cbc17cfb801675.html
+2025-05-22 03:49:27,620 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:49:27,621 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:49:27,621 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:49:27,622 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:27,622 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:49:27,624 - P11992 - INFO - Após processar URL 19 Uso de memória: 131.35 MB
+2025-05-22 03:49:27,625 - P11992 - INFO - Processando URL 20/20: https://www.doctoralia.com.br/cirurgiao-cardiovascular/goiania
+2025-05-22 03:49:27,626 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/cirurgiao-cardiovascular/goiania
+2025-05-22 03:49:27,626 - P11992 - INFO - Após processar URL 20 Uso de memória: 131.35 MB
+2025-05-22 03:49:27,627 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:49:27,627 - P11992 - INFO - Ranked address: 0 items
+2025-05-22 03:49:27,627 - P11992 - INFO - Ranked phone: 0 items
+2025-05-22 03:49:27,628 - P11992 - INFO - Ranked email: 1 items
+2025-05-22 03:49:27,629 - P11992 - INFO - Ranked complement: 0 items
+2025-05-22 03:49:27,631 - P11992 - INFO - Ranked cep: 6 items
+2025-05-22 03:49:27,631 - P11992 - INFO - Após agregação Uso de memória: 131.35 MB
+2025-05-22 03:49:27,634 - P11992 - INFO - Validando email: ['cremego@cremego.org.br']
+2025-05-22 03:49:27,635 - P11992 - INFO - Limpando texto extenso para campo email: cremego@cremego.org.br...
+2025-05-22 03:49:27,636 - P11992 - INFO - Texto limpo: cremego@cremego.org.br
+2025-05-22 03:49:27,637 - P11992 - INFO - Email validado: cremego@cremego.org.br
+2025-05-22 03:49:27,637 - P11992 - INFO - Tempo de execução de processamento completo do médico: 47.50 segundos
+2025-05-22 03:49:27,637 - P11992 - INFO - Resultado processado: {'Hash': 'a3b561303c583bffa5567ef2105b782d8cfb775a5ac5f8edfce55539a5b21cc1', 'CRM': '12284', 'UF': 'GO', 'Firstname': 'THAIS', 'LastName': 'PÓVOA CRUZ DE VELASCO LIMA MONÇÃO DE MATTOS', 'Medical specialty': '', 'Endereco Completo A1': '', 'Address A1': '', 'Numero A1': '', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cremego@cremego.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:49:27,640 - P11992 - INFO - Progresso: 55.8%
+2025-05-22 03:49:27,640 - P11992 - INFO - Tempo de execução de processamento do médico 2: 47.50 segundos
+2025-05-22 03:49:27,641 - P11992 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 03:49:27,643 - P11992 - INFO - Nome: FERNANDO MARQUES VIEIRA
+2025-05-22 03:49:27,645 - P11992 - INFO - Início do processamento Uso de memória: 131.35 MB
+2025-05-22 03:49:27,646 - P11992 - INFO - Iniciando busca para: FERNANDO MARQUES VIEIRA CRM 14167 GO telefone e-mail endereço
+2025-05-22 03:49:28,808 - P11992 - INFO - SearX results: 15 URLs
+2025-05-22 03:49:28,808 - P11992 - INFO - Após SearX Uso de memória: 131.35 MB
+2025-05-22 03:49:31,737 - P11992 - INFO - Google results: 8 URLs
+2025-05-22 03:49:31,737 - P11992 - INFO - Após Google Uso de memória: 133.27 MB
+2025-05-22 03:49:34,226 - P11992 - INFO - Bing results: 9 URLs
+2025-05-22 03:49:34,226 - P11992 - INFO - Após Bing Uso de memória: 133.81 MB
+2025-05-22 03:49:34,227 - P11992 - INFO - Total de URLs únicas: 22
+2025-05-22 03:49:34,227 - P11992 - INFO - Processando URL 1/22: https://www.classemedica.com.br/medico/414835-fernando-marques-vieira.htm
+2025-05-22 03:49:39,688 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\0bc32794fa8fcb41f3d3f3c26c9a4e91.html
+2025-05-22 03:49:39,715 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:49:39,716 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:49:39,716 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:49:39,716 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:39,716 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:49:39,717 - P11992 - INFO - Após processar URL 1 Uso de memória: 134.15 MB
+2025-05-22 03:49:39,717 - P11992 - INFO - Processando URL 2/22: http://www.jaguariuna.sp.gov.br/atendimento/wp-content/uploads/2019/02/imprensa_309-final.pdf
+2025-05-22 03:49:39,717 - P11992 - INFO - Ignorando URL de arquivo não-HTML: http://www.jaguariuna.sp.gov.br/atendimento/wp-content/uploads/2019/02/imprensa_309-final.pdf
+2025-05-22 03:49:39,717 - P11992 - INFO - Após processar URL 2 Uso de memória: 134.15 MB
+2025-05-22 03:49:39,717 - P11992 - INFO - Processando URL 3/22: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-30-03-2021.pdf
+2025-05-22 03:49:39,718 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-30-03-2021.pdf
+2025-05-22 03:49:39,718 - P11992 - INFO - Após processar URL 3 Uso de memória: 134.15 MB
+2025-05-22 03:49:39,718 - P11992 - INFO - Processando URL 4/22: https://cnpj.biz/54659967000109
+2025-05-22 03:49:44,249 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\80f6725b1aad4b70d98cb39634070f61.html
+2025-05-22 03:49:44,266 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:49:44,267 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 03:49:44,267 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 03:49:44,268 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:44,268 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 03:49:44,268 - P11992 - INFO - Após processar URL 4 Uso de memória: 134.19 MB
+2025-05-22 03:49:44,269 - P11992 - INFO - Processando URL 5/22: https://repositorio.dados.gov.br/seges/comprasgov/diario/2025/03/19/comprasGOV-diario-VW_FT_PNCP_COMPRA-2025-03-19.csv
+2025-05-22 03:49:44,269 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://repositorio.dados.gov.br/seges/comprasgov/diario/2025/03/19/comprasGOV-diario-VW_FT_PNCP_COMPRA-2025-03-19.csv
+2025-05-22 03:49:44,269 - P11992 - INFO - Após processar URL 5 Uso de memória: 134.19 MB
+2025-05-22 03:49:44,269 - P11992 - INFO - Processando URL 6/22: https://www.planodesaudesp.net/perfil/fernando_marques_vieira--1004606
+2025-05-22 03:49:49,236 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\b8ab0011365a9c9d2c8cb61f20b61490.html
+2025-05-22 03:49:49,249 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 03:49:49,249 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:49:49,250 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:49:49,250 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:49,250 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 03:49:49,250 - P11992 - INFO - Após processar URL 6 Uso de memória: 134.20 MB
+2025-05-22 03:49:49,251 - P11992 - INFO - Processando URL 7/22: https://www.cremego.org.br/busca-medicos
+2025-05-22 03:49:53,077 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\64b30c50732f49698d296cdb94b34f40.html
+2025-05-22 03:49:53,125 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:49:53,126 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:49:53,127 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 03:49:53,127 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:53,127 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 03:49:53,127 - P11992 - INFO - Após processar URL 7 Uso de memória: 134.41 MB
+2025-05-22 03:49:53,128 - P11992 - INFO - Processando URL 8/22: https://www.cgp.sejusp.ms.gov.br/wp-content/uploads/2022/02/DO10738_24_01_2022.pdf
+2025-05-22 03:49:53,128 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.cgp.sejusp.ms.gov.br/wp-content/uploads/2022/02/DO10738_24_01_2022.pdf
+2025-05-22 03:49:53,128 - P11992 - INFO - Após processar URL 8 Uso de memória: 134.41 MB
+2025-05-22 03:49:53,128 - P11992 - INFO - Processando URL 9/22: https://crmvirtual.cfm.org.br/GO/servico/busca-medico
+2025-05-22 03:49:55,414 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\3f7e1325196fca85b8ce10bf510cb018.html
+2025-05-22 03:49:55,424 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:49:55,424 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:49:55,425 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 03:49:55,425 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:55,425 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:49:55,425 - P11992 - INFO - Após processar URL 9 Uso de memória: 134.45 MB
+2025-05-22 03:49:55,425 - P11992 - INFO - Processando URL 10/22: https://diariooficial.santos.sp.gov.br/edicoes/inicio/download/2003-11-01
+2025-05-22 03:49:57,550 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\568fe20a0cdfa8a49f5b8e9eff9f644e.html
+2025-05-22 03:49:57,551 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:49:57,551 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:49:57,551 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:49:57,551 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:57,552 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:49:57,552 - P11992 - INFO - Após processar URL 10 Uso de memória: 134.46 MB
+2025-05-22 03:49:57,552 - P11992 - INFO - Processando URL 11/22: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/2106843709.pdf
+2025-05-22 03:49:57,552 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/2106843709.pdf
+2025-05-22 03:49:57,552 - P11992 - INFO - Após processar URL 11 Uso de memória: 134.46 MB
+2025-05-22 03:49:57,552 - P11992 - INFO - Processando URL 12/22: https://doutorcrm.com/fernando-marques-vieira
+2025-05-22 03:50:01,727 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\254013b842d6cf03741319c7179d9de2.html
+2025-05-22 03:50:01,734 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:50:01,734 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:50:01,734 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:50:01,734 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:50:01,735 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:50:01,735 - P11992 - INFO - Após processar URL 12 Uso de memória: 134.49 MB
+2025-05-22 03:50:01,735 - P11992 - INFO - Processando URL 13/22: https://cliniguia.com/profissionais/fernando-marques-vieira-980016285298489/
+2025-05-22 03:50:07,197 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\d69decca22409d0fb525a28909f47e2a.html
+2025-05-22 03:50:07,246 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:50:07,246 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:50:07,246 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:50:07,247 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:50:07,247 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:50:07,247 - P11992 - INFO - Após processar URL 13 Uso de memória: 134.99 MB
+2025-05-22 03:50:07,247 - P11992 - INFO - Processando URL 14/22: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2013/dou1_2013_03_22.pdf
+2025-05-22 03:50:07,247 - P11992 - INFO - Ignorando URL de arquivo não-HTML: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2013/dou1_2013_03_22.pdf
+2025-05-22 03:50:07,248 - P11992 - INFO - Após processar URL 14 Uso de memória: 134.07 MB
+2025-05-22 03:50:07,248 - P11992 - INFO - Processando URL 15/22: https://iomat.mt.gov.br/portal/edicoes/download/2494
+2025-05-22 03:50:09,796 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\9b17f318b0276c1ff4d1b50e150e4a00.html
+2025-05-22 03:50:09,833 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:50:09,833 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:50:09,834 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:50:09,834 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:50:09,834 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:50:09,834 - P11992 - INFO - Após processar URL 15 Uso de memória: 135.96 MB
+2025-05-22 03:50:09,834 - P11992 - INFO - Processando URL 16/22: https://www.consultacrm.com.br/index/medicos/uid-105e1a16-f5c5-11ec-9e74-0a4aa568c625/fernando_marques_vieira
+2025-05-22 03:50:13,282 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\fa6a3bd9c68b334df95be437dd682be8.html
+2025-05-22 03:50:13,292 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:50:13,292 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:50:13,293 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:50:13,293 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:50:13,293 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:50:13,293 - P11992 - INFO - Após processar URL 16 Uso de memória: 135.11 MB
+2025-05-22 03:50:13,293 - P11992 - INFO - Processando URL 17/22: https://diariooficial.santos.sp.gov.br/edicoes/inicio/download/2003-10-14
+2025-05-22 03:50:15,366 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e7bcc916184ac02eadf3dfbf2af8e728.html
+2025-05-22 03:50:15,367 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:50:15,367 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:50:15,368 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:50:15,368 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:50:15,369 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:50:15,369 - P11992 - INFO - Após processar URL 17 Uso de memória: 135.11 MB
+2025-05-22 03:50:15,369 - P11992 - INFO - Processando URL 18/22: https://www.helpsaude.com/Fernando-Marques-Vieira.GO/
+2025-05-22 03:50:20,551 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\8b3f689175f5c898cea4b7ef9859ec80.html
+2025-05-22 03:50:20,561 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:50:20,561 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:50:20,562 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:50:20,562 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:50:20,562 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:50:20,562 - P11992 - INFO - Após processar URL 18 Uso de memória: 135.11 MB
+2025-05-22 03:50:20,562 - P11992 - INFO - Processando URL 19/22: http://www-storage.voxtecnologia.com.br/?m=sigpub.publicacao&f=592&i=publicado_10787_2011-10-27_673ea214b62a4762baaf6dd3e26b991c.pdf
+2025-05-22 03:50:20,562 - P11992 - INFO - Ignorando URL de arquivo não-HTML: http://www-storage.voxtecnologia.com.br/?m=sigpub.publicacao&f=592&i=publicado_10787_2011-10-27_673ea214b62a4762baaf6dd3e26b991c.pdf
+2025-05-22 03:50:20,563 - P11992 - INFO - Após processar URL 19 Uso de memória: 135.11 MB
+2025-05-22 03:50:20,563 - P11992 - INFO - Processando URL 20/22: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/13829/Caderno_JUD_GO_2018-08-10_X_148.pdf?sequence=1&isAllowed=y
+2025-05-22 03:50:20,563 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/13829/Caderno_JUD_GO_2018-08-10_X_148.pdf?sequence=1&isAllowed=y
+2025-05-22 03:50:20,563 - P11992 - INFO - Após processar URL 20 Uso de memória: 135.11 MB
+2025-05-22 03:50:20,563 - P11992 - INFO - Processando URL 21/22: https://consultacrm.com.br/
+2025-05-22 03:50:23,827 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:50:23,838 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:50:23,839 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:50:23,839 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:50:23,839 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:50:23,839 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 03:50:23,839 - P11992 - INFO - Após processar URL 21 Uso de memória: 135.12 MB
+2025-05-22 03:50:23,840 - P11992 - INFO - Processando URL 22/22: https://sistemadje.tjmt.jus.br/publicacoes/10353-2018%20C1%20Tribunal%20de%20Justi%C3%A7a.pdf
+2025-05-22 03:50:23,840 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/10353-2018%20C1%20Tribunal%20de%20Justi%C3%A7a.pdf
+2025-05-22 03:50:23,840 - P11992 - INFO - Após processar URL 22 Uso de memória: 135.12 MB
+2025-05-22 03:50:23,840 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:50:23,840 - P11992 - INFO - Ranked address: 1 items
+2025-05-22 03:50:23,840 - P11992 - INFO - Ranked phone: 1 items
+2025-05-22 03:50:23,840 - P11992 - INFO - Ranked email: 3 items
+2025-05-22 03:50:23,841 - P11992 - INFO - Ranked complement: 0 items
+2025-05-22 03:50:23,841 - P11992 - INFO - Ranked cep: 5 items
+2025-05-22 03:50:23,841 - P11992 - INFO - Após agregação Uso de memória: 135.12 MB
+2025-05-22 03:50:23,841 - P11992 - INFO - Validando endereço: ['Avenida Senador Pedro Ludovico Teixeira, 743']
+2025-05-22 03:50:23,841 - P11992 - INFO - Endereço validado: Avenida Senador Pedro Ludovico Teixeira, 743
+2025-05-22 03:50:23,841 - P11992 - INFO - Limpando texto extenso para campo address: Avenida Senador Pedro Ludovico Teixeira, 743...
+2025-05-22 03:50:23,842 - P11992 - INFO - Texto limpo: Avenida Senador Pedro Ludovico Teixeira, 743
+2025-05-22 03:50:23,842 - P11992 - INFO - Validando telefone: ['(62) 98300-5095']
+2025-05-22 03:50:23,842 - P11992 - INFO - Limpando texto extenso para campo phone: (62) 98300-5095...
+2025-05-22 03:50:23,842 - P11992 - INFO - Texto limpo: 62) 98300-5095
+2025-05-22 03:50:23,842 - P11992 - INFO - Telefone validado: 62) 98300-5095
+2025-05-22 03:50:23,843 - P11992 - INFO - Validando email: ['perfectusenergy@gmail.com', 'cremego@cremego.org.br', 'secretaria@cremego.org.br']
+2025-05-22 03:50:23,843 - P11992 - INFO - Limpando texto extenso para campo email: perfectusenergy@gmail.com...
+2025-05-22 03:50:23,843 - P11992 - INFO - Texto limpo: perfectusenergy@gmail.com
+2025-05-22 03:50:23,843 - P11992 - INFO - Email validado: perfectusenergy@gmail.com
+2025-05-22 03:50:23,843 - P11992 - INFO - Descobrindo cidade
+2025-05-22 03:50:23,844 - P11992 - INFO - Buscando cidade: Avenida Senador Pedro Ludovico Teixeira cidade GO
+2025-05-22 03:50:26,414 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 03:50:26,415 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 03:50:26,415 - P11992 - INFO - Tempo de execução de processamento completo do médico: 58.77 segundos
+2025-05-22 03:50:26,415 - P11992 - INFO - Resultado processado: {'Hash': '3d8f229e161a0bd603d5a6d97dcbc015a06150dbf2261d67461610b7a1e01157', 'CRM': '14167', 'UF': 'GO', 'Firstname': 'FERNANDO', 'LastName': 'MARQUES VIEIRA', 'Medical specialty': '', 'Endereco Completo A1': 'Avenida Senador Pedro Ludovico Teixeira, 743', 'Address A1': 'Avenida Senador Pedro Ludovico Teixeira', 'Numero A1': '743', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '62) 98300-5095', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'perfectusenergy@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:50:26,416 - P11992 - INFO - Salvando lote de resultados
+2025-05-22 03:50:26,417 - P11992 - INFO - Após salvar resultados Uso de memória: 130.91 MB
+2025-05-22 03:50:26,417 - P11992 - INFO - Progresso: 56.2%
+2025-05-22 03:50:26,418 - P11992 - INFO - Tempo de execução de processamento do médico 3: 58.78 segundos
+2025-05-22 03:50:26,418 - P11992 - INFO - Tempo de execução de processamento do lote completo: 174.14 segundos

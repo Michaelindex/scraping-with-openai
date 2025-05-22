@@ -1,0 +1,541 @@
+2025-05-22 05:03:29,153 - P14756 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 05:03:29,154 - P14756 - INFO - Nome: MARCELO COSTA BATISTA
+2025-05-22 05:03:29,154 - P14756 - INFO - Reiniciando driver do Chrome
+2025-05-22 05:03:30,425 - P14756 - INFO - Após reiniciar driver Uso de memória: 147.07 MB
+2025-05-22 05:03:30,425 - P14756 - INFO - Início do processamento Uso de memória: 147.07 MB
+2025-05-22 05:03:30,425 - P14756 - INFO - Iniciando busca para: MARCELO COSTA BATISTA CRM 66145 SP telefone e-mail endereço
+2025-05-22 05:03:31,223 - P14756 - INFO - SearX results: 15 URLs
+2025-05-22 05:03:31,224 - P14756 - INFO - Após SearX Uso de memória: 147.07 MB
+2025-05-22 05:03:34,151 - P14756 - INFO - Google results: 10 URLs
+2025-05-22 05:03:34,152 - P14756 - INFO - Após Google Uso de memória: 149.05 MB
+2025-05-22 05:03:36,771 - P14756 - INFO - Bing results: 10 URLs
+2025-05-22 05:03:36,772 - P14756 - INFO - Após Bing Uso de memória: 149.07 MB
+2025-05-22 05:03:36,772 - P14756 - INFO - Total de URLs únicas: 24
+2025-05-22 05:03:36,772 - P14756 - INFO - Processando URL 1/24: https://www.classemedica.com.br/medico/210783-marcelo-costa-batista.htm
+2025-05-22 05:03:40,988 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\bd9c65641ce76e6184d3753c12834f3d.html
+2025-05-22 05:03:41,018 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:03:41,019 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:03:41,020 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:03:41,021 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:03:41,021 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:03:41,022 - P14756 - INFO - Após processar URL 1 Uso de memória: 149.74 MB
+2025-05-22 05:03:41,022 - P14756 - INFO - Processando URL 2/24: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo620.pdf
+2025-05-22 05:03:41,023 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo620.pdf
+2025-05-22 05:03:41,023 - P14756 - INFO - Após processar URL 2 Uso de memória: 149.07 MB
+2025-05-22 05:03:41,023 - P14756 - INFO - Processando URL 3/24: https://www.catalogo.med.br/doutor/marcelo-costa-batista-2163209.htm
+2025-05-22 05:03:43,186 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\d57057100c0bb8d669882ddb6d0a156c.html
+2025-05-22 05:03:43,186 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:03:43,186 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:03:43,187 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 05:03:43,187 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:03:43,187 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:03:43,187 - P14756 - INFO - Após processar URL 3 Uso de memória: 149.07 MB
+2025-05-22 05:03:43,187 - P14756 - INFO - Processando URL 4/24: https://www.consultasocio.com/q/sa/marcelo-costa-batista
+2025-05-22 05:03:48,695 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\b34e19fa08e354d4f5d9e1919f8b6412.html
+2025-05-22 05:03:48,710 - P14756 - INFO - Candidates address: 9 items
+2025-05-22 05:03:48,711 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:03:48,711 - P14756 - INFO - Candidates email: 6 items
+2025-05-22 05:03:48,711 - P14756 - INFO - Candidates complement: 4 items
+2025-05-22 05:03:48,712 - P14756 - INFO - Candidates cep: 13 items
+2025-05-22 05:03:48,712 - P14756 - INFO - Após processar URL 4 Uso de memória: 149.07 MB
+2025-05-22 05:03:48,712 - P14756 - INFO - Processando URL 5/24: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/27471/Caderno_JUD_MG_2015-05-28_VII_99.pdf?sequence=3&isAllowed=y
+2025-05-22 05:03:48,713 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/27471/Caderno_JUD_MG_2015-05-28_VII_99.pdf?sequence=3&isAllowed=y
+2025-05-22 05:03:48,713 - P14756 - INFO - Após processar URL 5 Uso de memória: 149.07 MB
+2025-05-22 05:03:48,713 - P14756 - INFO - Processando URL 6/24: https://guiamedico.cremesp.org.br/
+2025-05-22 05:03:50,781 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 05:03:50,788 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 05:03:50,788 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 05:03:50,788 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:03:50,788 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:03:50,789 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 05:03:50,789 - P14756 - INFO - Após processar URL 6 Uso de memória: 149.07 MB
+2025-05-22 05:03:50,789 - P14756 - INFO - Processando URL 7/24: https://www.escavador.com/sobre/6398686/marcelo-costa-batista
+2025-05-22 05:03:54,862 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\4c01a6465cc998b42749980c452e68f3.html
+2025-05-22 05:03:54,882 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:03:54,883 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:03:54,889 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:03:54,953 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:03:54,954 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:03:54,958 - P14756 - INFO - Após processar URL 7 Uso de memória: 149.07 MB
+2025-05-22 05:03:54,962 - P14756 - INFO - Processando URL 8/24: https://www.redescredenciadas.com.br/perfil/marcelo-costa-batista-sp-66145
+2025-05-22 05:03:58,486 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\77645bcba5322c39883091c8623a708b.html
+2025-05-22 05:03:58,493 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:03:58,493 - P14756 - INFO - Candidates phone: 4 items
+2025-05-22 05:03:58,494 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:03:58,494 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:03:58,494 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:03:58,494 - P14756 - INFO - Após processar URL 8 Uso de memória: 149.07 MB
+2025-05-22 05:03:58,494 - P14756 - INFO - Processando URL 9/24: https://bv.fapesp.br/pt/pesquisador/8350/marcelo-costa-batista/
+2025-05-22 05:04:03,479 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\254f7dfb197b3b79d9faaa8ac4e487bf.html
+2025-05-22 05:04:03,638 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 05:04:03,638 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:04:03,639 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:04:03,639 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:03,639 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 05:04:03,639 - P14756 - INFO - Após processar URL 9 Uso de memória: 131.14 MB
+2025-05-22 05:04:03,639 - P14756 - INFO - Processando URL 10/24: https://www.medicosbrasil.com/profissional/marcelo-costa-batista
+2025-05-22 05:04:07,789 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\b2f834bfa5c7d77d6b29ac6a858cb854.html
+2025-05-22 05:04:07,811 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:04:07,811 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:04:07,812 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:04:07,812 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:07,812 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 05:04:07,812 - P14756 - INFO - Após processar URL 10 Uso de memória: 131.14 MB
+2025-05-22 05:04:07,812 - P14756 - INFO - Processando URL 11/24: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2015/06/do_20150623_2551.pdf
+2025-05-22 05:04:07,812 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2015/06/do_20150623_2551.pdf
+2025-05-22 05:04:07,812 - P14756 - INFO - Após processar URL 11 Uso de memória: 131.14 MB
+2025-05-22 05:04:07,813 - P14756 - INFO - Processando URL 12/24: https://www.doctoralia.com.br/marcelo-costa-batista/intensivista/osasco
+2025-05-22 05:04:07,813 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/marcelo-costa-batista/intensivista/osasco
+2025-05-22 05:04:07,813 - P14756 - INFO - Após processar URL 12 Uso de memória: 131.14 MB
+2025-05-22 05:04:07,813 - P14756 - INFO - Processando URL 13/24: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-06-12-2022.pdf?p=1670284800051
+2025-05-22 05:04:07,813 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-06-12-2022.pdf?p=1670284800051
+2025-05-22 05:04:07,814 - P14756 - INFO - Após processar URL 13 Uso de memória: 131.14 MB
+2025-05-22 05:04:07,814 - P14756 - INFO - Processando URL 14/24: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1551099426.pdf
+2025-05-22 05:04:07,814 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1551099426.pdf
+2025-05-22 05:04:07,814 - P14756 - INFO - Após processar URL 14 Uso de memória: 131.14 MB
+2025-05-22 05:04:07,814 - P14756 - INFO - Processando URL 15/24: https://www.planodesaudesp.net/perfil/marcelo_costa_batista--1159011
+2025-05-22 05:04:12,578 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\0cca34cf8db9bd840112772fd86b33f4.html
+2025-05-22 05:04:12,592 - P14756 - INFO - Candidates address: 8 items
+2025-05-22 05:04:12,593 - P14756 - INFO - Candidates phone: 3 items
+2025-05-22 05:04:12,593 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:04:12,593 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:12,593 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:04:12,594 - P14756 - INFO - Após processar URL 15 Uso de memória: 131.14 MB
+2025-05-22 05:04:12,594 - P14756 - INFO - Processando URL 16/24: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1733873509.pdf
+2025-05-22 05:04:12,594 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1733873509.pdf
+2025-05-22 05:04:12,594 - P14756 - INFO - Após processar URL 16 Uso de memória: 131.14 MB
+2025-05-22 05:04:12,595 - P14756 - INFO - Processando URL 17/24: https://www.sinj.df.gov.br/sinj/Diario/a9501255-340e-387d-9c79-837f11ac6de9/DODF%20144%2030-07-2024%20INTEGRA.pdf
+2025-05-22 05:04:12,595 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.sinj.df.gov.br/sinj/Diario/a9501255-340e-387d-9c79-837f11ac6de9/DODF%20144%2030-07-2024%20INTEGRA.pdf
+2025-05-22 05:04:12,595 - P14756 - INFO - Após processar URL 17 Uso de memória: 131.14 MB
+2025-05-22 05:04:12,595 - P14756 - INFO - Processando URL 18/24: https://cliniguia.com/profissionais/marcelo-costa-batista-180760235190002/
+2025-05-22 05:04:18,370 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\991f2df0263a439b64083a074111384e.html
+2025-05-22 05:04:18,413 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:04:18,413 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:04:18,414 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:04:18,414 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:18,414 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:04:18,414 - P14756 - INFO - Após processar URL 18 Uso de memória: 131.94 MB
+2025-05-22 05:04:18,414 - P14756 - INFO - Processando URL 19/24: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-30-03-2021.pdf
+2025-05-22 05:04:18,415 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-30-03-2021.pdf
+2025-05-22 05:04:18,415 - P14756 - INFO - Após processar URL 19 Uso de memória: 131.94 MB
+2025-05-22 05:04:18,415 - P14756 - INFO - Processando URL 20/24: https://ensino.einstein.br/residencia_nefrologia_p0093/p
+2025-05-22 05:04:23,916 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\af3351b30949d3a923c274887536b112.html
+2025-05-22 05:04:24,041 - P14756 - INFO - Candidates address: 2 items
+2025-05-22 05:04:24,041 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 05:04:24,041 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:04:24,042 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 05:04:24,042 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 05:04:24,042 - P14756 - INFO - Após processar URL 20 Uso de memória: 133.33 MB
+2025-05-22 05:04:24,042 - P14756 - INFO - Processando URL 21/24: https://www.boaconsulta.com/especialista/marcelo-costa-batista-6106ef2aa2e00a7165005a7c
+2025-05-22 05:04:27,451 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\8164d3e130da72818a639984c7ab0f1b.html
+2025-05-22 05:04:27,518 - P14756 - INFO - Candidates address: 7 items
+2025-05-22 05:04:27,519 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:04:27,519 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:04:27,519 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 05:04:27,519 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:04:27,519 - P14756 - INFO - Após processar URL 21 Uso de memória: 132.02 MB
+2025-05-22 05:04:27,520 - P14756 - INFO - Processando URL 22/24: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/518462467.pdf
+2025-05-22 05:04:27,520 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/518462467.pdf
+2025-05-22 05:04:27,520 - P14756 - INFO - Após processar URL 22 Uso de memória: 131.08 MB
+2025-05-22 05:04:27,520 - P14756 - INFO - Processando URL 23/24: https://www.helpsaude.com/marcelo-costa-batista-4
+2025-05-22 05:04:33,556 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e9baca96db14c51428fb9b84d5e706a3.html
+2025-05-22 05:04:33,570 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 05:04:33,570 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:04:33,570 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:04:33,570 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:33,571 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 05:04:33,571 - P14756 - INFO - Após processar URL 23 Uso de memória: 131.08 MB
+2025-05-22 05:04:33,571 - P14756 - INFO - Processando URL 24/24: https://consultacrm.com.br/
+2025-05-22 05:04:37,520 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:04:37,538 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:04:37,538 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:04:37,539 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:04:37,539 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:37,539 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:04:37,539 - P14756 - INFO - Após processar URL 24 Uso de memória: 132.97 MB
+2025-05-22 05:04:37,539 - P14756 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:04:37,540 - P14756 - INFO - Ranked address: 27 items
+2025-05-22 05:04:37,540 - P14756 - INFO - Ranked phone: 9 items
+2025-05-22 05:04:37,541 - P14756 - INFO - Ranked email: 7 items
+2025-05-22 05:04:37,541 - P14756 - INFO - Ranked complement: 6 items
+2025-05-22 05:04:37,541 - P14756 - INFO - Ranked cep: 18 items
+2025-05-22 05:04:37,541 - P14756 - INFO - Após agregação Uso de memória: 132.97 MB
+2025-05-22 05:04:37,542 - P14756 - INFO - Validando endereço: ['Avenida Albert Einstein, 627', 'Rua Borges Lagoa, 960', 'Avenida Ulysses Guimaraes, 4505']
+2025-05-22 05:04:37,542 - P14756 - INFO - Endereço validado: Avenida Albert Einstein, 627
+2025-05-22 05:04:37,542 - P14756 - INFO - Limpando texto extenso para campo address: Avenida Albert Einstein, 627...
+2025-05-22 05:04:37,543 - P14756 - INFO - Texto limpo: Avenida Albert Einstein, 627
+2025-05-22 05:04:37,543 - P14756 - INFO - Validando telefone: ['(11) 4349-9900', '(11) 2151-0219', '(11) 3045-3045']
+2025-05-22 05:04:37,543 - P14756 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 05:04:37,543 - P14756 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 05:04:37,546 - P14756 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 05:04:37,548 - P14756 - INFO - Validando email: ['webmaster@catalogo.med.br', 'CARVALHOCOSTAFISIO@GMAIL.COM', 'IACE@TERRA.COM.BR']
+2025-05-22 05:04:37,550 - P14756 - INFO - Limpando texto extenso para campo email: webmaster@catalogo.med.br...
+2025-05-22 05:04:37,550 - P14756 - INFO - Texto limpo: webmaster@catalogo.med.br
+2025-05-22 05:04:37,551 - P14756 - INFO - Email validado: webmaster@catalogo.med.br
+2025-05-22 05:04:37,551 - P14756 - INFO - Validando complemento: ['Sala  B Sussuarana', 'Apto 21 Jardim Da Saude', 'Bloco 1                   Andar 2                   Sal']
+2025-05-22 05:04:37,551 - P14756 - INFO - Limpando texto extenso para campo complement: Sala  B Sussuarana...
+2025-05-22 05:04:37,551 - P14756 - INFO - Texto limpo: Sala B Sussuarana
+2025-05-22 05:04:37,552 - P14756 - INFO - Complemento validado: Sala B Sussuarana
+2025-05-22 05:04:37,552 - P14756 - INFO - Descobrindo cidade
+2025-05-22 05:04:37,552 - P14756 - INFO - Buscando cidade: Avenida Albert Einstein cidade SP
+2025-05-22 05:04:40,247 - P14756 - WARNING - Cidade não encontrada
+2025-05-22 05:04:40,247 - P14756 - INFO - Cidade descoberta: 
+2025-05-22 05:04:40,248 - P14756 - INFO - Tempo de execução de processamento completo do médico: 69.82 segundos
+2025-05-22 05:04:40,249 - P14756 - INFO - Resultado processado: {'Hash': '4bfae327d5e60cf7eb31e4592f7fa3c7b3fd25497fca537f4ad299ba7f7d2b38', 'CRM': '66145', 'UF': 'SP', 'Firstname': 'MARCELO', 'LastName': 'COSTA BATISTA', 'Medical specialty': '', 'Endereco Completo A1': 'Avenida Albert Einstein, 627', 'Address A1': 'Avenida Albert Einstein', 'Numero A1': '627', 'Complement A1': 'Sala B Sussuarana', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'webmaster@catalogo.med.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:04:40,251 - P14756 - INFO - Progresso: 81.9%
+2025-05-22 05:04:40,251 - P14756 - INFO - Executando coleta de lixo
+2025-05-22 05:04:40,286 - P14756 - INFO - Após coleta de lixo Uso de memória: 127.21 MB
+2025-05-22 05:04:40,294 - P14756 - INFO - Tempo de execução de processamento do médico 1: 71.14 segundos
+2025-05-22 05:04:40,302 - P14756 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 05:04:40,303 - P14756 - INFO - Nome: KATYA KEYLA RICCA BARSOTTI LABATE
+2025-05-22 05:04:40,308 - P14756 - INFO - Início do processamento Uso de memória: 127.21 MB
+2025-05-22 05:04:40,309 - P14756 - INFO - Iniciando busca para: KATYA KEYLA RICCA BARSOTTI LABATE CRM 67113 SP telefone e-mail endereço
+2025-05-22 05:04:41,068 - P14756 - INFO - SearX results: 10 URLs
+2025-05-22 05:04:41,068 - P14756 - INFO - Após SearX Uso de memória: 127.21 MB
+2025-05-22 05:04:43,733 - P14756 - INFO - Google results: 5 URLs
+2025-05-22 05:04:43,733 - P14756 - INFO - Após Google Uso de memória: 129.06 MB
+2025-05-22 05:04:46,261 - P14756 - INFO - Bing results: 10 URLs
+2025-05-22 05:04:46,261 - P14756 - INFO - Após Bing Uso de memória: 129.06 MB
+2025-05-22 05:04:46,261 - P14756 - INFO - Total de URLs únicas: 13
+2025-05-22 05:04:46,261 - P14756 - INFO - Processando URL 1/13: https://www.medicosbrasil.com/profissional/katya-keyla-ricca-barsotti-labate
+2025-05-22 05:04:48,494 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\6eb7689bad4bf479f41ab73e50f7e91c.html
+2025-05-22 05:04:48,497 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:04:48,497 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:04:48,497 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:04:48,498 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:48,500 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:04:48,501 - P14756 - INFO - Após processar URL 1 Uso de memória: 129.06 MB
+2025-05-22 05:04:48,502 - P14756 - INFO - Processando URL 2/13: https://www.classemedica.com.br/medico/180676-katya-keyla-ricca-barsotti-labate.htm
+2025-05-22 05:04:54,495 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\6785d08ec072b8366770c2ec10a892f9.html
+2025-05-22 05:04:54,525 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:04:54,525 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:04:54,525 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:04:54,525 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:54,525 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:04:54,525 - P14756 - INFO - Após processar URL 2 Uso de memória: 130.16 MB
+2025-05-22 05:04:54,526 - P14756 - INFO - Processando URL 3/13: https://www.consultacrm.com.br/index/medicos/uid-12cade9e-f5c5-11ec-9e74-0a4aa568c625/katya_keyla_ricca_barsotti_labate
+2025-05-22 05:04:59,445 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\060b37cb7f829008853fbf07402cea85.html
+2025-05-22 05:04:59,461 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:04:59,468 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:04:59,469 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:04:59,469 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:59,469 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:04:59,470 - P14756 - INFO - Após processar URL 3 Uso de memória: 129.39 MB
+2025-05-22 05:04:59,470 - P14756 - INFO - Processando URL 4/13: https://cliniguia.com/profissionais/katya-keyla-ricca-barsotti-labate-709205288504438/
+2025-05-22 05:05:04,672 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\0ca963c633b9ff3e1d7851985765a220.html
+2025-05-22 05:05:04,717 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:05:04,717 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:05:04,718 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:05:04,718 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:05:04,718 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:05:04,718 - P14756 - INFO - Após processar URL 4 Uso de memória: 130.63 MB
+2025-05-22 05:05:04,718 - P14756 - INFO - Processando URL 5/13: https://cnpj.services/qsa/katya-keyla-ricca-barsotti-labate
+2025-05-22 05:05:07,674 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\0a16c8ea7122cf46dd93a23dcdcfdf21.html
+2025-05-22 05:05:07,683 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:05:07,683 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:05:07,683 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:05:07,683 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:05:07,683 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 05:05:07,684 - P14756 - INFO - Após processar URL 5 Uso de memória: 129.39 MB
+2025-05-22 05:05:07,684 - P14756 - INFO - Processando URL 6/13: https://portal.cfm.org.br/busca-medicos
+2025-05-22 05:05:11,922 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 05:05:11,958 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:05:11,958 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:05:11,958 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 05:05:11,958 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 05:05:11,958 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 05:05:11,959 - P14756 - INFO - Após processar URL 6 Uso de memória: 129.39 MB
+2025-05-22 05:05:11,959 - P14756 - INFO - Processando URL 7/13: https://www.consultasocio.com/q/sa/katya-keyla-ricca-barsotti-labate
+2025-05-22 05:05:16,648 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\53fd179d32e13a83406aa40313f57069.html
+2025-05-22 05:05:16,653 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 05:05:16,653 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:05:16,653 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 05:05:16,653 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 05:05:16,654 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 05:05:16,654 - P14756 - INFO - Após processar URL 7 Uso de memória: 129.39 MB
+2025-05-22 05:05:16,654 - P14756 - INFO - Processando URL 8/13: https://cliniguia.com/unidades/sao-paulo-sp/ama-sacoma-6133622/
+2025-05-22 05:05:21,382 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\9616bc98c39e5587290601bef8e59395.html
+2025-05-22 05:05:21,445 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 05:05:21,445 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:05:21,446 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:05:21,446 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:05:21,446 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 05:05:21,446 - P14756 - INFO - Após processar URL 8 Uso de memória: 129.98 MB
+2025-05-22 05:05:21,447 - P14756 - INFO - Processando URL 9/13: https://www.boaconsulta.com/especialista/katya-keyla-ricca-barsotti-labate-6106ede1a2e00a7165003bff
+2025-05-22 05:05:24,313 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\4fe28c4ece86f59849806ef30f50d25b.html
+2025-05-22 05:05:24,379 - P14756 - INFO - Candidates address: 11 items
+2025-05-22 05:05:24,379 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:05:24,379 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:05:24,379 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 05:05:24,380 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:05:24,380 - P14756 - INFO - Após processar URL 9 Uso de memória: 129.07 MB
+2025-05-22 05:05:24,381 - P14756 - INFO - Processando URL 10/13: https://guiamedico.cremesp.org.br/
+2025-05-22 05:05:27,265 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 05:05:27,271 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 05:05:27,271 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 05:05:27,271 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:05:27,271 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:05:27,271 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 05:05:27,272 - P14756 - INFO - Após processar URL 10 Uso de memória: 129.07 MB
+2025-05-22 05:05:27,272 - P14756 - INFO - Processando URL 11/13: https://www.informecadastral.com.br/cnpj/krl-servicos-medicos-ltda-40411299000191
+2025-05-22 05:05:31,990 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\c4a424e6467b04aa1036e8c7347c6213.html
+2025-05-22 05:05:32,013 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 05:05:32,014 - P14756 - INFO - Candidates phone: 2 items
+2025-05-22 05:05:32,015 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 05:05:32,016 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:05:32,016 - P14756 - INFO - Candidates cep: 3 items
+2025-05-22 05:05:32,016 - P14756 - INFO - Após processar URL 11 Uso de memória: 129.08 MB
+2025-05-22 05:05:32,017 - P14756 - INFO - Processando URL 12/13: https://www.helpsaude.com/Katya-Keyla-Ricca-Barsotti-Labate.SP
+2025-05-22 05:05:35,154 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\645c2cac54559631bfef9eabb541fc42.html
+2025-05-22 05:05:35,169 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:05:35,170 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:05:35,170 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:05:35,170 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:05:35,171 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:05:35,171 - P14756 - INFO - Após processar URL 12 Uso de memória: 129.08 MB
+2025-05-22 05:05:35,171 - P14756 - INFO - Processando URL 13/13: https://consultacrm.com.br/
+2025-05-22 05:05:38,486 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:05:38,497 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:05:38,497 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:05:38,497 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:05:38,497 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:05:38,498 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:05:38,498 - P14756 - INFO - Após processar URL 13 Uso de memória: 129.93 MB
+2025-05-22 05:05:38,498 - P14756 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:05:38,498 - P14756 - INFO - Ranked address: 14 items
+2025-05-22 05:05:38,498 - P14756 - INFO - Ranked phone: 3 items
+2025-05-22 05:05:38,498 - P14756 - INFO - Ranked email: 3 items
+2025-05-22 05:05:38,498 - P14756 - INFO - Ranked complement: 3 items
+2025-05-22 05:05:38,498 - P14756 - INFO - Ranked cep: 9 items
+2025-05-22 05:05:38,499 - P14756 - INFO - Após agregação Uso de memória: 129.93 MB
+2025-05-22 05:05:38,499 - P14756 - INFO - Validando endereço: ['Estrada Das Lagrimas, 1403', 'Rua Gaivota, 886', 'Rua Augusto Tolle, 901']
+2025-05-22 05:05:38,499 - P14756 - INFO - Endereço validado: Estrada Das Lagrimas, 1403
+2025-05-22 05:05:38,499 - P14756 - INFO - Limpando texto extenso para campo address: Estrada Das Lagrimas, 1403...
+2025-05-22 05:05:38,499 - P14756 - INFO - Texto limpo: Estrada Das Lagrimas, 1403
+2025-05-22 05:05:38,499 - P14756 - INFO - Validando telefone: ['(11) 4349-9900', '(11) 9686-3255', '(32) 99195-6532']
+2025-05-22 05:05:38,499 - P14756 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 05:05:38,500 - P14756 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 05:05:38,500 - P14756 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 05:05:38,500 - P14756 - INFO - Validando email: ['cfm@portalmedico.org.br', 'SG-ARAUJO@UOL.COM.BR', 'sg-araujo@uol.com.br']
+2025-05-22 05:05:38,500 - P14756 - INFO - Limpando texto extenso para campo email: cfm@portalmedico.org.br...
+2025-05-22 05:05:38,500 - P14756 - INFO - Texto limpo: cfm@portalmedico.org.br
+2025-05-22 05:05:38,500 - P14756 - INFO - Email validado: cfm@portalmedico.org.br
+2025-05-22 05:05:38,500 - P14756 - INFO - Validando complemento: ['Conjunto D', 'Apt   91 Moema', 'Conjunto 204']
+2025-05-22 05:05:38,501 - P14756 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 05:05:38,501 - P14756 - INFO - Texto limpo: Conjunto D
+2025-05-22 05:05:38,501 - P14756 - INFO - Complemento validado: Conjunto D
+2025-05-22 05:05:38,501 - P14756 - INFO - Descobrindo cidade
+2025-05-22 05:05:38,501 - P14756 - INFO - Buscando cidade: Estrada Das Lagrimas cidade SP
+2025-05-22 05:05:41,169 - P14756 - INFO - Cidade encontrada: Sacomã
+2025-05-22 05:05:41,170 - P14756 - INFO - Limpando texto extenso para campo city: Sacomã...
+2025-05-22 05:05:41,170 - P14756 - INFO - Texto limpo: Sacomã
+2025-05-22 05:05:41,170 - P14756 - INFO - Cidade descoberta: Sacomã
+2025-05-22 05:05:41,170 - P14756 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 05:05:41,171 - P14756 - INFO - Iniciando busca de CEP em cascata para: Estrada Das Lagrimas, Sacomã, SP
+2025-05-22 05:05:41,171 - P14756 - INFO - Método 1: ViaCEP API
+2025-05-22 05:05:41,171 - P14756 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SP/sacoma/estrada%20das%20lagrimas/json/
+2025-05-22 05:05:41,922 - P14756 - WARNING - ViaCEP retornou status 200 ou nenhum resultado
+2025-05-22 05:05:41,923 - P14756 - INFO - Método 2: BrasilAPI
+2025-05-22 05:05:41,923 - P14756 - INFO - Buscando na BrasilAPI: Estrada Das Lagrimas, Sacomã, SP
+2025-05-22 05:05:42,425 - P14756 - INFO - Consultando BrasilAPI: https://brasilapi.com.br/api/cep/v2/53581382
+2025-05-22 05:05:42,685 - P14756 - WARNING - BrasilAPI retornou status 404
+2025-05-22 05:05:42,688 - P14756 - INFO - Método 3: Web Scraping do Google
+2025-05-22 05:05:42,688 - P14756 - INFO - Buscando CEP: CEP da Estrada Das Lagrimas, Sacomã
+2025-05-22 05:05:43,861 - P14756 - INFO - CEP encontrado: 04232-000
+2025-05-22 05:05:43,862 - P14756 - INFO - CEP encontrado via Google: 04232-000
+2025-05-22 05:05:43,862 - P14756 - INFO - Dados de CEP encontrados: {'cep': '04232-000', 'logradouro': 'Estrada Das Lagrimas', 'bairro': '', 'localidade': 'Sacomã', 'uf': 'SP', 'complemento': ''}
+2025-05-22 05:05:43,862 - P14756 - INFO - Limpando texto extenso para campo city: Sacomã...
+2025-05-22 05:05:43,862 - P14756 - INFO - Texto limpo: Sacomã
+2025-05-22 05:05:43,862 - P14756 - INFO - Limpando texto extenso para campo state: SP...
+2025-05-22 05:05:43,862 - P14756 - INFO - Texto limpo: SP
+2025-05-22 05:05:43,863 - P14756 - INFO - Tempo de execução de processamento completo do médico: 63.55 segundos
+2025-05-22 05:05:43,863 - P14756 - INFO - Resultado processado: {'Hash': '0db1836899aa268a840eead1da7524359e846f950df5a7fd9d67b0a05d11d3bc', 'CRM': '67113', 'UF': 'SP', 'Firstname': 'KATYA', 'LastName': 'KEYLA RICCA BARSOTTI LABATE', 'Medical specialty': '', 'Endereco Completo A1': 'Estrada Das Lagrimas, 1403', 'Address A1': 'Estrada Das Lagrimas', 'Numero A1': '1403', 'Complement A1': 'Conjunto D', 'Bairro A1': '', 'postal code A1': '04232-000', 'City A1': 'Sacomã', 'State A1': 'SP', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cfm@portalmedico.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:05:43,864 - P14756 - INFO - Progresso: 82.2%
+2025-05-22 05:05:43,864 - P14756 - INFO - Tempo de execução de processamento do médico 2: 63.56 segundos
+2025-05-22 05:05:43,864 - P14756 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 05:05:43,865 - P14756 - INFO - Nome: MARCIA ANDREA MOREIRA MARTINS
+2025-05-22 05:05:43,865 - P14756 - INFO - Início do processamento Uso de memória: 127.28 MB
+2025-05-22 05:05:43,865 - P14756 - INFO - Iniciando busca para: MARCIA ANDREA MOREIRA MARTINS CRM 69554 SP telefone e-mail endereço
+2025-05-22 05:05:44,631 - P14756 - INFO - SearX results: 15 URLs
+2025-05-22 05:05:44,632 - P14756 - INFO - Após SearX Uso de memória: 127.28 MB
+2025-05-22 05:05:47,156 - P14756 - INFO - Google results: 10 URLs
+2025-05-22 05:05:47,156 - P14756 - INFO - Após Google Uso de memória: 127.29 MB
+2025-05-22 05:05:49,741 - P14756 - INFO - Bing results: 10 URLs
+2025-05-22 05:05:49,742 - P14756 - INFO - Após Bing Uso de memória: 128.09 MB
+2025-05-22 05:05:49,743 - P14756 - INFO - Total de URLs únicas: 22
+2025-05-22 05:05:49,744 - P14756 - INFO - Processando URL 1/22: https://www.classemedica.com.br/medico/213619-marcia-andrea-moreira-martins.htm
+2025-05-22 05:05:55,028 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\86a3c2090dcfabaa59439da63197ae4d.html
+2025-05-22 05:05:55,058 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:05:55,058 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:05:55,058 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:05:55,058 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:05:55,059 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:05:55,059 - P14756 - INFO - Após processar URL 1 Uso de memória: 128.82 MB
+2025-05-22 05:05:55,059 - P14756 - INFO - Processando URL 2/22: https://www.medicosbrasil.com/profissional/marcia-andrea-moreira-martins
+2025-05-22 05:05:57,286 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\d0308c3b43978582b1059839fe0b3773.html
+2025-05-22 05:05:57,290 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:05:57,290 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:05:57,290 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:05:57,291 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:05:57,291 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:05:57,291 - P14756 - INFO - Após processar URL 2 Uso de memória: 128.09 MB
+2025-05-22 05:05:57,291 - P14756 - INFO - Processando URL 3/22: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo620.pdf
+2025-05-22 05:05:57,291 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo620.pdf
+2025-05-22 05:05:57,292 - P14756 - INFO - Após processar URL 3 Uso de memória: 128.09 MB
+2025-05-22 05:05:57,292 - P14756 - INFO - Processando URL 4/22: https://cliniguia.com/profissionais/marcia-andrea-moreira-martins-207270043730009/
+2025-05-22 05:06:01,781 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\aca1d453832e21d6f96830658f55145e.html
+2025-05-22 05:06:01,850 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:06:01,851 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:06:01,851 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:06:01,851 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:06:01,851 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:06:01,851 - P14756 - INFO - Após processar URL 4 Uso de memória: 129.94 MB
+2025-05-22 05:06:01,852 - P14756 - INFO - Processando URL 5/22: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2024/12/do_20241212_3925.pdf
+2025-05-22 05:06:01,852 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2024/12/do_20241212_3925.pdf
+2025-05-22 05:06:01,852 - P14756 - INFO - Após processar URL 5 Uso de memória: 129.04 MB
+2025-05-22 05:06:01,852 - P14756 - INFO - Processando URL 6/22: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2016/12/4225-07-12-20163.pdf
+2025-05-22 05:06:01,852 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2016/12/4225-07-12-20163.pdf
+2025-05-22 05:06:01,852 - P14756 - INFO - Após processar URL 6 Uso de memória: 129.04 MB
+2025-05-22 05:06:01,853 - P14756 - INFO - Processando URL 7/22: https://guiamedico.cremesp.org.br/
+2025-05-22 05:06:04,590 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 05:06:04,600 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 05:06:04,600 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 05:06:04,600 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:06:04,602 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:06:04,602 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 05:06:04,602 - P14756 - INFO - Após processar URL 7 Uso de memória: 129.04 MB
+2025-05-22 05:06:04,603 - P14756 - INFO - Processando URL 8/22: https://sistemadje.tjmt.jus.br/publicacoes/7684-2007.pdf
+2025-05-22 05:06:04,621 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/7684-2007.pdf
+2025-05-22 05:06:04,623 - P14756 - INFO - Após processar URL 8 Uso de memória: 129.04 MB
+2025-05-22 05:06:04,623 - P14756 - INFO - Processando URL 9/22: https://www.solutudo.com.br/empresas/sp/santos/medicos/dra-marcia-andrea-1940480
+2025-05-22 05:06:10,731 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\1786b2adae90b49e5509b97ad94634de.html
+2025-05-22 05:06:10,770 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 05:06:10,771 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 05:06:10,772 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:06:10,772 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:06:10,772 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 05:06:10,772 - P14756 - INFO - Após processar URL 9 Uso de memória: 129.04 MB
+2025-05-22 05:06:10,772 - P14756 - INFO - Processando URL 10/22: https://www.consultasocio.com/q/sa/marcia-andrea-moreira-martins
+2025-05-22 05:06:18,277 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\c8fc01a8137b304d24da5dfb99833cc1.html
+2025-05-22 05:06:18,283 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 05:06:18,283 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:06:18,283 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:06:18,284 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:06:18,284 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 05:06:18,284 - P14756 - INFO - Após processar URL 10 Uso de memória: 129.04 MB
+2025-05-22 05:06:18,284 - P14756 - INFO - Processando URL 11/22: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-07-05-2025.pdf?p=1746576000062
+2025-05-22 05:06:18,284 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-07-05-2025.pdf?p=1746576000062
+2025-05-22 05:06:18,284 - P14756 - INFO - Após processar URL 11 Uso de memória: 129.04 MB
+2025-05-22 05:06:18,285 - P14756 - INFO - Processando URL 12/22: https://www.mpsp.mp.br/w/dic3a1riooficialmpsp06072010
+2025-05-22 05:06:21,198 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\398a687872f590d99ebee662d417cd67.html
+2025-05-22 05:06:21,946 - P14756 - INFO - Candidates address: 8 items
+2025-05-22 05:06:21,947 - P14756 - INFO - Candidates phone: 4 items
+2025-05-22 05:06:21,947 - P14756 - INFO - Candidates email: 6 items
+2025-05-22 05:06:21,947 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:06:21,947 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 05:06:21,948 - P14756 - INFO - Após processar URL 12 Uso de memória: 133.26 MB
+2025-05-22 05:06:21,948 - P14756 - INFO - Processando URL 13/22: https://www-storage.voxtecnologia.com.br/?m=sigpub.publicacao&f=907&i=publicado_101076_2024-04-25_43e166f122d9f6d03ff32881fa497fd2.pdf
+2025-05-22 05:06:21,948 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www-storage.voxtecnologia.com.br/?m=sigpub.publicacao&f=907&i=publicado_101076_2024-04-25_43e166f122d9f6d03ff32881fa497fd2.pdf
+2025-05-22 05:06:21,949 - P14756 - INFO - Após processar URL 13 Uso de memória: 129.04 MB
+2025-05-22 05:06:21,950 - P14756 - INFO - Processando URL 14/22: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2020/02/Edi%C3%A7%C3%A3o-4682-14-02-2020-2.pdf
+2025-05-22 05:06:21,950 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2020/02/Edi%C3%A7%C3%A3o-4682-14-02-2020-2.pdf
+2025-05-22 05:06:21,950 - P14756 - INFO - Após processar URL 14 Uso de memória: 129.04 MB
+2025-05-22 05:06:21,950 - P14756 - INFO - Processando URL 15/22: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 05:06:25,808 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 05:06:25,852 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:06:25,854 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:06:25,856 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:06:25,857 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:06:25,859 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:06:25,860 - P14756 - INFO - Após processar URL 15 Uso de memória: 129.04 MB
+2025-05-22 05:06:25,862 - P14756 - INFO - Processando URL 16/22: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-07-05-2025.pdf?p=1746576000089
+2025-05-22 05:06:25,865 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-07-05-2025.pdf?p=1746576000089
+2025-05-22 05:06:25,870 - P14756 - INFO - Após processar URL 16 Uso de memória: 129.04 MB
+2025-05-22 05:06:25,888 - P14756 - INFO - Processando URL 17/22: https://www.descubraonline.com/guia/sp/santos/dra-marcia-andrea-23806057000188/
+2025-05-22 05:06:32,238 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\1ea32e7330a4848bdb5169f94198d0c8.html
+2025-05-22 05:06:32,288 - P14756 - INFO - Candidates address: 5 items
+2025-05-22 05:06:32,288 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 05:06:32,288 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:06:32,289 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:06:32,289 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 05:06:32,289 - P14756 - INFO - Após processar URL 17 Uso de memória: 129.04 MB
+2025-05-22 05:06:32,289 - P14756 - INFO - Processando URL 18/22: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo622.pdf
+2025-05-22 05:06:32,289 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo622.pdf
+2025-05-22 05:06:32,289 - P14756 - INFO - Após processar URL 18 Uso de memória: 129.04 MB
+2025-05-22 05:06:32,289 - P14756 - INFO - Processando URL 19/22: https://www.boaconsulta.com/especialista/marcia-andrea-moreira-martins-6106f2a2a2e00a756e00457d
+2025-05-22 05:06:35,226 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\a3f1ff614af5bd6d987ac34bbe4237de.html
+2025-05-22 05:06:35,276 - P14756 - INFO - Candidates address: 5 items
+2025-05-22 05:06:35,276 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:06:35,276 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:06:35,277 - P14756 - INFO - Candidates complement: 2 items
+2025-05-22 05:06:35,278 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:06:35,279 - P14756 - INFO - Após processar URL 19 Uso de memória: 129.04 MB
+2025-05-22 05:06:35,279 - P14756 - INFO - Processando URL 20/22: https://sistemadje.tjmt.jus.br/publicacoes/8827-2012.pdf
+2025-05-22 05:06:35,279 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/8827-2012.pdf
+2025-05-22 05:06:35,280 - P14756 - INFO - Após processar URL 20 Uso de memória: 129.04 MB
+2025-05-22 05:06:35,280 - P14756 - INFO - Processando URL 21/22: https://app.bauru.sp.gov.br/arquivos/sist_diariooficial/2018/10/do_20181027_3037.pdf
+2025-05-22 05:06:35,280 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://app.bauru.sp.gov.br/arquivos/sist_diariooficial/2018/10/do_20181027_3037.pdf
+2025-05-22 05:06:35,280 - P14756 - INFO - Após processar URL 21 Uso de memória: 129.04 MB
+2025-05-22 05:06:35,281 - P14756 - INFO - Processando URL 22/22: https://consultacrm.com.br/
+2025-05-22 05:06:38,543 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:06:38,553 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:06:38,553 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:06:38,554 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:06:38,554 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:06:38,554 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:06:38,554 - P14756 - INFO - Após processar URL 22 Uso de memória: 129.04 MB
+2025-05-22 05:06:38,554 - P14756 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:06:38,555 - P14756 - INFO - Ranked address: 20 items
+2025-05-22 05:06:38,555 - P14756 - INFO - Ranked phone: 6 items
+2025-05-22 05:06:38,555 - P14756 - INFO - Ranked email: 6 items
+2025-05-22 05:06:38,555 - P14756 - INFO - Ranked complement: 2 items
+2025-05-22 05:06:38,555 - P14756 - INFO - Ranked cep: 4 items
+2025-05-22 05:06:38,555 - P14756 - INFO - Após agregação Uso de memória: 129.04 MB
+2025-05-22 05:06:38,556 - P14756 - INFO - Validando endereço: ['Rua Lucas Fortunato, 209', 'Rua Frei Caneca, 1282', 'Rua Antonio De Macedo Soares, 1102']
+2025-05-22 05:06:38,556 - P14756 - INFO - Endereço validado: Rua Lucas Fortunato, 209
+2025-05-22 05:06:38,556 - P14756 - INFO - Limpando texto extenso para campo address: Rua Lucas Fortunato, 209...
+2025-05-22 05:06:38,556 - P14756 - INFO - Texto limpo: Rua Lucas Fortunato, 209
+2025-05-22 05:06:38,556 - P14756 - INFO - Validando telefone: ['(13) 3233-7552', '(11) 4349-9900', '(11) 3119-9620']
+2025-05-22 05:06:38,556 - P14756 - INFO - Limpando texto extenso para campo phone: (13) 3233-7552...
+2025-05-22 05:06:38,557 - P14756 - INFO - Texto limpo: 13) 3233-7552
+2025-05-22 05:06:38,557 - P14756 - INFO - Telefone validado: 13) 3233-7552
+2025-05-22 05:06:38,557 - P14756 - INFO - Validando email: ['patrimoniopublico@mp.sp.gov.br', 'subprocinstitucional@mp.sp.gov.br', 'designa@mp.sp.gov.br']
+2025-05-22 05:06:38,557 - P14756 - INFO - Limpando texto extenso para campo email: patrimoniopublico@mp.sp.gov.br...
+2025-05-22 05:06:38,557 - P14756 - INFO - Texto limpo: patrimoniopublico@mp.sp.gov.br
+2025-05-22 05:06:38,557 - P14756 - INFO - Email validado: patrimoniopublico@mp.sp.gov.br
+2025-05-22 05:06:38,557 - P14756 - INFO - Validando complemento: ['Sala 906 Santa Cecília', 'Sala 102 Mirandópolis']
+2025-05-22 05:06:38,557 - P14756 - INFO - Limpando texto extenso para campo complement: Sala 906 Santa Cecília...
+2025-05-22 05:06:38,558 - P14756 - INFO - Texto limpo: Sala 906 Santa Cecília
+2025-05-22 05:06:38,558 - P14756 - INFO - Complemento validado: Sala 906 Santa Cecília
+2025-05-22 05:06:38,558 - P14756 - INFO - Descobrindo cidade
+2025-05-22 05:06:38,558 - P14756 - INFO - Buscando cidade: Rua Lucas Fortunato cidade SP
+2025-05-22 05:06:41,202 - P14756 - INFO - Cidade encontrada: Santos
+2025-05-22 05:06:41,202 - P14756 - INFO - Limpando texto extenso para campo city: Santos...
+2025-05-22 05:06:41,202 - P14756 - INFO - Texto limpo: Santos
+2025-05-22 05:06:41,203 - P14756 - INFO - Cidade descoberta: Santos
+2025-05-22 05:06:41,203 - P14756 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 05:06:41,203 - P14756 - INFO - Iniciando busca de CEP em cascata para: Rua Lucas Fortunato, Santos, SP
+2025-05-22 05:06:41,203 - P14756 - INFO - Método 1: ViaCEP API
+2025-05-22 05:06:41,203 - P14756 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SP/santos/rua%20lucas%20fortunato/json/
+2025-05-22 05:06:41,833 - P14756 - INFO - Dados encontrados no ViaCEP: {'cep': '11075-200', 'logradouro': 'Rua Lucas Fortunato', 'complemento': 'até 119/120', 'unidade': '', 'bairro': 'Vila Mathias', 'localidade': 'Santos', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3548500', 'gia': '6336', 'ddd': '13', 'siafi': '7071'}
+2025-05-22 05:06:41,836 - P14756 - INFO - CEP encontrado via ViaCEP: 11075-200
+2025-05-22 05:06:41,836 - P14756 - INFO - Dados de CEP encontrados: {'cep': '11075-200', 'logradouro': 'Rua Lucas Fortunato', 'complemento': 'até 119/120', 'unidade': '', 'bairro': 'Vila Mathias', 'localidade': 'Santos', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3548500', 'gia': '6336', 'ddd': '13', 'siafi': '7071'}
+2025-05-22 05:06:41,836 - P14756 - INFO - Limpando texto extenso para campo bairro: Vila Mathias...
+2025-05-22 05:06:41,836 - P14756 - INFO - Texto limpo: Vila Mathias
+2025-05-22 05:06:41,836 - P14756 - INFO - Limpando texto extenso para campo city: Santos...
+2025-05-22 05:06:41,836 - P14756 - INFO - Texto limpo: Santos
+2025-05-22 05:06:41,837 - P14756 - INFO - Limpando texto extenso para campo state: SP...
+2025-05-22 05:06:41,837 - P14756 - INFO - Texto limpo: SP
+2025-05-22 05:06:41,837 - P14756 - INFO - Tempo de execução de processamento completo do médico: 57.97 segundos
+2025-05-22 05:06:41,837 - P14756 - INFO - Resultado processado: {'Hash': 'e70cbc9778c6f9935a2d5460074dfdf55c1fd408859307c0e75121e080eb4370', 'CRM': '69554', 'UF': 'SP', 'Firstname': 'MARCIA', 'LastName': 'ANDREA MOREIRA MARTINS', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Lucas Fortunato, 209', 'Address A1': 'Rua Lucas Fortunato', 'Numero A1': '209', 'Complement A1': 'Sala 906 Santa Cecília', 'Bairro A1': 'Vila Mathias', 'postal code A1': '11075-200', 'City A1': 'Santos', 'State A1': 'SP', 'Phone A1': '13) 3233-7552', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'patrimoniopublico@mp.sp.gov.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:06:41,838 - P14756 - INFO - Salvando lote de resultados
+2025-05-22 05:06:41,838 - P14756 - INFO - Após salvar resultados Uso de memória: 127.42 MB
+2025-05-22 05:06:41,839 - P14756 - INFO - Progresso: 82.6%
+2025-05-22 05:06:41,839 - P14756 - INFO - Tempo de execução de processamento do médico 3: 57.97 segundos
+2025-05-22 05:06:41,839 - P14756 - INFO - Tempo de execução de processamento do lote completo: 192.69 segundos

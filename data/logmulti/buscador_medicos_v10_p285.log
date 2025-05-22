@@ -1,0 +1,418 @@
+2025-05-22 04:28:12,568 - P11992 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 04:28:12,568 - P11992 - INFO - Nome: FÁBIO FURTADO DOS SANTOS
+2025-05-22 04:28:12,569 - P11992 - INFO - Reiniciando driver do Chrome
+2025-05-22 04:28:14,008 - P11992 - INFO - Após reiniciar driver Uso de memória: 132.73 MB
+2025-05-22 04:28:14,008 - P11992 - INFO - Início do processamento Uso de memória: 132.73 MB
+2025-05-22 04:28:14,008 - P11992 - INFO - Iniciando busca para: FÁBIO FURTADO DOS SANTOS CRM 989665 RJ telefone e-mail endereço
+2025-05-22 04:28:14,854 - P11992 - INFO - SearX results: 9 URLs
+2025-05-22 04:28:14,855 - P11992 - INFO - Após SearX Uso de memória: 132.73 MB
+2025-05-22 04:28:17,629 - P11992 - INFO - Google results: 1 URLs
+2025-05-22 04:28:17,629 - P11992 - INFO - Após Google Uso de memória: 133.80 MB
+2025-05-22 04:28:20,240 - P11992 - INFO - Bing results: 8 URLs
+2025-05-22 04:28:20,241 - P11992 - INFO - Após Bing Uso de memória: 135.91 MB
+2025-05-22 04:28:20,241 - P11992 - INFO - Total de URLs únicas: 11
+2025-05-22 04:28:20,241 - P11992 - INFO - Processando URL 1/11: https://www.boaconsulta.com/especialista/fabio-furtado-dos-santos-6105b6f8ad51c709da000c6a
+2025-05-22 04:28:23,627 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\c8d74f43b5707d27f9e6155d8f1bde15.html
+2025-05-22 04:28:23,698 - P11992 - INFO - Candidates address: 3 items
+2025-05-22 04:28:23,699 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:28:23,699 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:28:23,699 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:28:23,699 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:28:23,699 - P11992 - INFO - Após processar URL 1 Uso de memória: 136.69 MB
+2025-05-22 04:28:23,700 - P11992 - INFO - Processando URL 2/11: https://pontodesaude.com.br/dr-fabio-furtado/endocrinologista-e-metabologista/volta-redonda/
+2025-05-22 04:28:30,754 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\c8352a197951d2fb6ec1dd85e8513031.html
+2025-05-22 04:28:30,804 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:28:30,804 - P11992 - INFO - Candidates phone: 3 items
+2025-05-22 04:28:30,804 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:28:30,804 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 04:28:30,804 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:28:30,805 - P11992 - INFO - Após processar URL 2 Uso de memória: 141.24 MB
+2025-05-22 04:28:30,805 - P11992 - INFO - Processando URL 3/11: https://portal.cfm.org.br/busca-medicos
+2025-05-22 04:28:34,668 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 04:28:34,705 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:28:34,706 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:28:34,706 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:28:34,706 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 04:28:34,706 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:28:34,707 - P11992 - INFO - Após processar URL 3 Uso de memória: 138.52 MB
+2025-05-22 04:28:34,707 - P11992 - INFO - Processando URL 4/11: https://sistemacremerj.com.br/crmonline/SifaOnLineServicosPublicosAction.do?metodo=servicoPublicoProfissionais
+2025-05-22 04:28:38,865 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\00ef532bee75671887e028b1935f98b3.html
+2025-05-22 04:28:38,890 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:28:38,890 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:28:38,890 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:28:38,891 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:28:38,891 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:28:38,891 - P11992 - INFO - Após processar URL 4 Uso de memória: 136.89 MB
+2025-05-22 04:28:38,891 - P11992 - INFO - Processando URL 5/11: http://www.transparencia.cremerj.org.br:8098/planejamento/registroMedico/pesquisar
+2025-05-22 04:28:41,552 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\19128e1d0b16c1bd37c280ce751655f7.html
+2025-05-22 04:28:41,572 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:28:41,573 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:28:41,573 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:28:41,573 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:28:41,573 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:28:41,573 - P11992 - INFO - Após processar URL 5 Uso de memória: 136.89 MB
+2025-05-22 04:28:41,574 - P11992 - INFO - Processando URL 6/11: https://www.medicosbrasil.com/profissional/fabio-furtado-dos-santos
+2025-05-22 04:28:45,226 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\2cef615b818f3ecd72aa35c8b01770f5.html
+2025-05-22 04:28:45,243 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:28:45,243 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:28:45,243 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:28:45,243 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:28:45,243 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:28:45,244 - P11992 - INFO - Após processar URL 6 Uso de memória: 136.91 MB
+2025-05-22 04:28:45,244 - P11992 - INFO - Processando URL 7/11: https://www.doctoralia.com.br/fabio-furtado-dos-santos/endocrinologista/rio-de-janeiro
+2025-05-22 04:28:45,244 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/fabio-furtado-dos-santos/endocrinologista/rio-de-janeiro
+2025-05-22 04:28:45,244 - P11992 - INFO - Após processar URL 7 Uso de memória: 136.91 MB
+2025-05-22 04:28:45,244 - P11992 - INFO - Processando URL 8/11: https://www.cremerj.org.br/
+2025-05-22 04:28:48,982 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\57d5b230cbdcf7d719e9b2b2f238c4f1.html
+2025-05-22 04:28:49,034 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:28:49,035 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 04:28:49,035 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:28:49,036 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:28:49,036 - P11992 - INFO - Candidates cep: 3 items
+2025-05-22 04:28:49,037 - P11992 - INFO - Após processar URL 8 Uso de memória: 136.91 MB
+2025-05-22 04:28:49,037 - P11992 - INFO - Processando URL 9/11: https://www.consultasocio.com/q/sa/fabio-furtado-dos-santos
+2025-05-22 04:28:54,134 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\74f2923d54946e0db362a149cda505b8.html
+2025-05-22 04:28:54,140 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:28:54,141 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:28:54,141 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:28:54,141 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:28:54,141 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 04:28:54,141 - P11992 - INFO - Após processar URL 9 Uso de memória: 136.91 MB
+2025-05-22 04:28:54,141 - P11992 - INFO - Processando URL 10/11: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 04:28:57,765 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 04:28:57,810 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:28:57,810 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:28:57,810 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:28:57,810 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:28:57,811 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:28:57,811 - P11992 - INFO - Após processar URL 10 Uso de memória: 136.92 MB
+2025-05-22 04:28:57,811 - P11992 - INFO - Processando URL 11/11: https://consultacrm.com.br/
+2025-05-22 04:29:01,935 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:29:01,947 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:29:01,948 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:29:01,948 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:29:01,949 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:29:01,955 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:29:01,956 - P11992 - INFO - Após processar URL 11 Uso de memória: 136.92 MB
+2025-05-22 04:29:01,956 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:29:01,957 - P11992 - INFO - Ranked address: 4 items
+2025-05-22 04:29:01,958 - P11992 - INFO - Ranked phone: 5 items
+2025-05-22 04:29:01,958 - P11992 - INFO - Ranked email: 3 items
+2025-05-22 04:29:01,958 - P11992 - INFO - Ranked complement: 2 items
+2025-05-22 04:29:01,958 - P11992 - INFO - Ranked cep: 7 items
+2025-05-22 04:29:01,960 - P11992 - INFO - Após agregação Uso de memória: 136.92 MB
+2025-05-22 04:29:01,961 - P11992 - INFO - Validando endereço: ['Rua Pinto Ribeiro, 205', 'Rua Quinhentos E Quarenta E Cinco, 120', 'Rua Quarenta, 20']
+2025-05-22 04:29:01,961 - P11992 - INFO - Endereço validado: Rua Pinto Ribeiro, 205
+2025-05-22 04:29:01,963 - P11992 - INFO - Limpando texto extenso para campo address: Rua Pinto Ribeiro, 205...
+2025-05-22 04:29:01,963 - P11992 - INFO - Texto limpo: Rua Pinto Ribeiro, 205
+2025-05-22 04:29:01,963 - P11992 - INFO - Validando telefone: ['(21) 3184-7050', '(24) 3348-1221', '(24) 99257-5385']
+2025-05-22 04:29:01,963 - P11992 - INFO - Limpando texto extenso para campo phone: (21) 3184-7050...
+2025-05-22 04:29:01,964 - P11992 - INFO - Texto limpo: 21) 3184-7050
+2025-05-22 04:29:01,964 - P11992 - INFO - Telefone validado: 21) 3184-7050
+2025-05-22 04:29:01,965 - P11992 - INFO - Validando email: ['contato@pontodesaude.com.br', 'cfm@portalmedico.org.br', 'LUIS_FURTADO@UOL.COM.BR']
+2025-05-22 04:29:01,965 - P11992 - INFO - Limpando texto extenso para campo email: contato@pontodesaude.com.br...
+2025-05-22 04:29:01,965 - P11992 - INFO - Texto limpo: contato@pontodesaude.com.br
+2025-05-22 04:29:01,966 - P11992 - INFO - Email validado: contato@pontodesaude.com.br
+2025-05-22 04:29:01,967 - P11992 - INFO - Validando complemento: ['Sala 1001 - Clínica Prime Vida ', 'Conjunto D']
+2025-05-22 04:29:01,968 - P11992 - INFO - Limpando texto extenso para campo complement: Sala 1001 - Clínica Prime Vida ...
+2025-05-22 04:29:01,973 - P11992 - INFO - Texto limpo: Sala 1001 - Clínica Prime Vida
+2025-05-22 04:29:01,974 - P11992 - INFO - Complemento validado: Sala 1001 - Clínica Prime Vida
+2025-05-22 04:29:01,975 - P11992 - INFO - Descobrindo cidade
+2025-05-22 04:29:01,976 - P11992 - INFO - Buscando cidade: Rua Pinto Ribeiro cidade RJ
+2025-05-22 04:29:04,191 - P11992 - INFO - Cidade encontrada: Barra Mansa
+2025-05-22 04:29:04,191 - P11992 - INFO - Limpando texto extenso para campo city: Barra Mansa...
+2025-05-22 04:29:04,191 - P11992 - INFO - Texto limpo: Barra Mansa
+2025-05-22 04:29:04,191 - P11992 - INFO - Cidade descoberta: Barra Mansa
+2025-05-22 04:29:04,191 - P11992 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 04:29:04,192 - P11992 - INFO - Iniciando busca de CEP em cascata para: Rua Pinto Ribeiro, Barra Mansa, RJ
+2025-05-22 04:29:04,192 - P11992 - INFO - Método 1: ViaCEP API
+2025-05-22 04:29:04,192 - P11992 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/RJ/barra%20mansa/rua%20pinto%20ribeiro/json/
+2025-05-22 04:29:04,830 - P11992 - INFO - Dados encontrados no ViaCEP: {'cep': '27310-420', 'logradouro': 'Rua Pinto Ribeiro', 'complemento': '', 'unidade': '', 'bairro': 'Centro', 'localidade': 'Barra Mansa', 'uf': 'RJ', 'estado': 'Rio de Janeiro', 'regiao': 'Sudeste', 'ibge': '3300407', 'gia': '', 'ddd': '24', 'siafi': '5807'}
+2025-05-22 04:29:04,832 - P11992 - INFO - CEP encontrado via ViaCEP: 27310-420
+2025-05-22 04:29:04,833 - P11992 - INFO - Dados de CEP encontrados: {'cep': '27310-420', 'logradouro': 'Rua Pinto Ribeiro', 'complemento': '', 'unidade': '', 'bairro': 'Centro', 'localidade': 'Barra Mansa', 'uf': 'RJ', 'estado': 'Rio de Janeiro', 'regiao': 'Sudeste', 'ibge': '3300407', 'gia': '', 'ddd': '24', 'siafi': '5807'}
+2025-05-22 04:29:04,833 - P11992 - INFO - Limpando texto extenso para campo bairro: Centro...
+2025-05-22 04:29:04,833 - P11992 - INFO - Texto limpo: Centro
+2025-05-22 04:29:04,833 - P11992 - INFO - Limpando texto extenso para campo city: Barra Mansa...
+2025-05-22 04:29:04,834 - P11992 - INFO - Texto limpo: Barra Mansa
+2025-05-22 04:29:04,834 - P11992 - INFO - Limpando texto extenso para campo state: RJ...
+2025-05-22 04:29:04,834 - P11992 - INFO - Texto limpo: RJ
+2025-05-22 04:29:04,834 - P11992 - INFO - Tempo de execução de processamento completo do médico: 50.83 segundos
+2025-05-22 04:29:04,834 - P11992 - INFO - Resultado processado: {'Hash': '942ab7226895e8dd4651a1589b36f116c2be5ec7c0c23cd0f23a3d1eff972a10', 'CRM': '989665', 'UF': 'RJ', 'Firstname': 'FÁBIO', 'LastName': 'FURTADO DOS SANTOS', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Pinto Ribeiro, 205', 'Address A1': 'Rua Pinto Ribeiro', 'Numero A1': '205', 'Complement A1': 'Sala 1001 - Clínica Prime Vida', 'Bairro A1': 'Centro', 'postal code A1': '27310-420', 'City A1': 'Barra Mansa', 'State A1': 'RJ', 'Phone A1': '21) 3184-7050', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'contato@pontodesaude.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:29:04,835 - P11992 - INFO - Progresso: 69.7%
+2025-05-22 04:29:04,836 - P11992 - INFO - Executando coleta de lixo
+2025-05-22 04:29:04,874 - P11992 - INFO - Após coleta de lixo Uso de memória: 124.14 MB
+2025-05-22 04:29:04,875 - P11992 - INFO - Tempo de execução de processamento do médico 1: 52.31 segundos
+2025-05-22 04:29:04,875 - P11992 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 04:29:04,875 - P11992 - INFO - Nome: BIANCA DE LIMA DE OLIVEIRA WARWAR
+2025-05-22 04:29:04,875 - P11992 - INFO - Início do processamento Uso de memória: 124.14 MB
+2025-05-22 04:29:04,875 - P11992 - INFO - Iniciando busca para: BIANCA DE LIMA DE OLIVEIRA WARWAR CRM 990795 RJ telefone e-mail endereço
+2025-05-22 04:29:05,739 - P11992 - INFO - SearX results: 10 URLs
+2025-05-22 04:29:05,740 - P11992 - INFO - Após SearX Uso de memória: 124.14 MB
+2025-05-22 04:29:08,305 - P11992 - INFO - Google results: 1 URLs
+2025-05-22 04:29:08,305 - P11992 - INFO - Após Google Uso de memória: 126.96 MB
+2025-05-22 04:29:10,807 - P11992 - INFO - Bing results: 8 URLs
+2025-05-22 04:29:10,807 - P11992 - INFO - Após Bing Uso de memória: 128.94 MB
+2025-05-22 04:29:10,808 - P11992 - INFO - Total de URLs únicas: 10
+2025-05-22 04:29:10,808 - P11992 - INFO - Processando URL 1/10: https://consultacrm.com.br/
+2025-05-22 04:29:15,359 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:29:15,370 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:29:15,370 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:29:15,370 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:29:15,371 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:29:15,371 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:29:15,371 - P11992 - INFO - Após processar URL 1 Uso de memória: 130.55 MB
+2025-05-22 04:29:15,371 - P11992 - INFO - Processando URL 2/10: https://geriatricadrabiancawarwar.com.br/
+2025-05-22 04:29:19,181 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\017552b852213e43cc67f53c0db9153f.html
+2025-05-22 04:29:19,212 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:29:19,214 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:29:19,215 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:29:19,215 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:29:19,217 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:29:19,219 - P11992 - INFO - Após processar URL 2 Uso de memória: 130.71 MB
+2025-05-22 04:29:19,220 - P11992 - INFO - Processando URL 3/10: https://www.doctoralia.com.br/bianca-warwar/geriatra/rio-de-janeiro
+2025-05-22 04:29:19,220 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/bianca-warwar/geriatra/rio-de-janeiro
+2025-05-22 04:29:19,221 - P11992 - INFO - Após processar URL 3 Uso de memória: 130.71 MB
+2025-05-22 04:29:19,221 - P11992 - INFO - Processando URL 4/10: https://cliniguia.com/profissionais/bianca-de-lima-de-oliveira-707803666505214/
+2025-05-22 04:29:22,883 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7a8818950b8e942224f6bbc3ec9a59d9.html
+2025-05-22 04:29:22,927 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:29:22,927 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:29:22,927 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:29:22,927 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:29:22,927 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:29:22,928 - P11992 - INFO - Após processar URL 4 Uso de memória: 132.74 MB
+2025-05-22 04:29:22,928 - P11992 - INFO - Processando URL 5/10: https://www.medicosbrasil.com/profissional/bianca-de-lima-de-oliveira
+2025-05-22 04:29:25,244 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\2a5bfbea5e4d38133692fd6e09e719a0.html
+2025-05-22 04:29:25,246 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:29:25,246 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:29:25,246 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:29:25,246 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:29:25,247 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:29:25,247 - P11992 - INFO - Após processar URL 5 Uso de memória: 131.85 MB
+2025-05-22 04:29:25,247 - P11992 - INFO - Processando URL 6/10: https://revistas.inpi.gov.br/pdf/marcas1987.pdf
+2025-05-22 04:29:25,247 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://revistas.inpi.gov.br/pdf/marcas1987.pdf
+2025-05-22 04:29:25,247 - P11992 - INFO - Após processar URL 6 Uso de memória: 131.85 MB
+2025-05-22 04:29:25,248 - P11992 - INFO - Processando URL 7/10: https://empresasweb.net/emp/bianca-de-lima-de-oliveira-ltda-46387774
+2025-05-22 04:29:28,334 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\66c32de49ae78f31add1ec11c6b7ec16.html
+2025-05-22 04:29:28,345 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:29:28,430 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:29:28,430 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:29:28,430 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:29:28,430 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:29:28,431 - P11992 - INFO - Após processar URL 7 Uso de memória: 131.92 MB
+2025-05-22 04:29:28,431 - P11992 - INFO - Processando URL 8/10: https://agendarconsulta.com/perfil/dra-bianca-warwar-1678144025
+2025-05-22 04:29:32,809 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\c74e4f645730c9011c33888c503a3611.html
+2025-05-22 04:29:32,839 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 04:29:32,839 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 04:29:32,839 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:29:32,839 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:29:32,839 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:29:32,840 - P11992 - INFO - Após processar URL 8 Uso de memória: 131.96 MB
+2025-05-22 04:29:32,840 - P11992 - INFO - Processando URL 9/10: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 04:29:34,952 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 04:29:34,992 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:29:34,993 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:29:34,993 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:29:34,993 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:29:34,993 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:29:34,993 - P11992 - INFO - Após processar URL 9 Uso de memória: 132.17 MB
+2025-05-22 04:29:34,993 - P11992 - INFO - Processando URL 10/10: https://www.boaconsulta.com/especialista/bianca-de-lima-de-oliveira-warwar-65f8a83ef8132de5160000b1
+2025-05-22 04:29:38,248 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\c1cbd3bb9ba8f9fa5f2ffbaa2c20c91e.html
+2025-05-22 04:29:38,270 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:29:38,270 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:29:38,270 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:29:38,270 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:29:38,271 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:29:38,271 - P11992 - INFO - Após processar URL 10 Uso de memória: 132.18 MB
+2025-05-22 04:29:38,271 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:29:38,271 - P11992 - INFO - Ranked address: 3 items
+2025-05-22 04:29:38,271 - P11992 - INFO - Ranked phone: 4 items
+2025-05-22 04:29:38,272 - P11992 - INFO - Ranked email: 2 items
+2025-05-22 04:29:38,272 - P11992 - INFO - Ranked complement: 0 items
+2025-05-22 04:29:38,272 - P11992 - INFO - Ranked cep: 3 items
+2025-05-22 04:29:38,272 - P11992 - INFO - Após agregação Uso de memória: 132.18 MB
+2025-05-22 04:29:38,272 - P11992 - INFO - Validando endereço: ['Avenida Evandro Lins e Silva 840, 1512', 'Avenida Evandro Lins e Silva , 840', 'Avenida Evandro Lins e Silva, 840']
+2025-05-22 04:29:38,272 - P11992 - INFO - Endereço validado: Avenida Evandro Lins e Silva 840, 1512
+2025-05-22 04:29:38,272 - P11992 - INFO - Limpando texto extenso para campo address: Avenida Evandro Lins e Silva 840, 1512...
+2025-05-22 04:29:38,273 - P11992 - INFO - Texto limpo: Avenida Evandro Lins e Silva 840, 1512
+2025-05-22 04:29:38,273 - P11992 - INFO - Validando telefone: ['(21) 99480-7377', '+554196869828', '(21) 9948-0737']
+2025-05-22 04:29:38,273 - P11992 - INFO - Limpando texto extenso para campo phone: (21) 99480-7377...
+2025-05-22 04:29:38,273 - P11992 - INFO - Texto limpo: 21) 99480-7377
+2025-05-22 04:29:38,273 - P11992 - INFO - Telefone validado: 21) 99480-7377
+2025-05-22 04:29:38,274 - P11992 - INFO - Validando email: ['biancaoliveiramed@gmail.com', 'MEUCNPJ@CONTABILIZEI.COM.BR']
+2025-05-22 04:29:38,274 - P11992 - INFO - Limpando texto extenso para campo email: biancaoliveiramed@gmail.com...
+2025-05-22 04:29:38,274 - P11992 - INFO - Texto limpo: biancaoliveiramed@gmail.com
+2025-05-22 04:29:38,274 - P11992 - INFO - Email validado: biancaoliveiramed@gmail.com
+2025-05-22 04:29:38,275 - P11992 - INFO - Descobrindo cidade
+2025-05-22 04:29:38,275 - P11992 - INFO - Buscando cidade: Avenida Evandro Lins e Silva 840 cidade RJ
+2025-05-22 04:29:41,204 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 04:29:41,205 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 04:29:41,205 - P11992 - INFO - Tempo de execução de processamento completo do médico: 36.33 segundos
+2025-05-22 04:29:41,205 - P11992 - INFO - Resultado processado: {'Hash': '5f813fb8f0549de59efecf4ad50eff7f0e7d65dedfba3997f6073356467efcd3', 'CRM': '990795', 'UF': 'RJ', 'Firstname': 'BIANCA', 'LastName': 'DE LIMA DE OLIVEIRA WARWAR', 'Medical specialty': '', 'Endereco Completo A1': 'Avenida Evandro Lins e Silva 840, 1512', 'Address A1': 'Avenida Evandro Lins e Silva 840', 'Numero A1': '1512', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '21) 99480-7377', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'biancaoliveiramed@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:29:41,206 - P11992 - INFO - Progresso: 70.0%
+2025-05-22 04:29:41,206 - P11992 - INFO - Tempo de execução de processamento do médico 2: 36.33 segundos
+2025-05-22 04:29:41,206 - P11992 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 04:29:41,207 - P11992 - INFO - Nome: FELIPE AREIAS MOURÃO
+2025-05-22 04:29:41,207 - P11992 - INFO - Início do processamento Uso de memória: 131.46 MB
+2025-05-22 04:29:41,207 - P11992 - INFO - Iniciando busca para: FELIPE AREIAS MOURÃO CRM 993948 RJ telefone e-mail endereço
+2025-05-22 04:29:42,039 - P11992 - INFO - SearX results: 10 URLs
+2025-05-22 04:29:42,040 - P11992 - INFO - Após SearX Uso de memória: 131.46 MB
+2025-05-22 04:29:44,666 - P11992 - INFO - Google results: 2 URLs
+2025-05-22 04:29:44,667 - P11992 - INFO - Após Google Uso de memória: 133.98 MB
+2025-05-22 04:29:47,279 - P11992 - INFO - Bing results: 12 URLs
+2025-05-22 04:29:47,279 - P11992 - INFO - Após Bing Uso de memória: 134.46 MB
+2025-05-22 04:29:47,279 - P11992 - INFO - Total de URLs únicas: 15
+2025-05-22 04:29:47,280 - P11992 - INFO - Processando URL 1/15: https://www.redescredenciadas.com.br/perfil/felipe-areias-mourao-993948-rj
+2025-05-22 04:29:52,773 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\a4368a14e1204376e275031af6f10c13.html
+2025-05-22 04:29:52,781 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:29:52,783 - P11992 - INFO - Candidates phone: 4 items
+2025-05-22 04:29:52,784 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:29:52,784 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:29:52,784 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:29:52,785 - P11992 - INFO - Após processar URL 1 Uso de memória: 134.46 MB
+2025-05-22 04:29:52,785 - P11992 - INFO - Processando URL 2/15: https://www.escavador.com/sobre/5004899/felipe-areias-mourao
+2025-05-22 04:29:56,465 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\d8b95809542731c401bb99b593bf0330.html
+2025-05-22 04:29:56,481 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:29:56,481 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:29:56,481 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:29:56,482 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:29:56,482 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:29:56,483 - P11992 - INFO - Após processar URL 2 Uso de memória: 134.81 MB
+2025-05-22 04:29:56,483 - P11992 - INFO - Processando URL 3/15: https://www.medicosbrasil.com/profissional/felipe-areias-mourao
+2025-05-22 04:29:58,630 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\cba2ef41a651564229eab2de55a0ccf2.html
+2025-05-22 04:29:58,632 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:29:58,632 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:29:58,632 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:29:58,633 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:29:58,633 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:29:58,633 - P11992 - INFO - Após processar URL 3 Uso de memória: 134.83 MB
+2025-05-22 04:29:58,633 - P11992 - INFO - Processando URL 4/15: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x1481547095409056064&market=pt-BR&src=SERPIC
+2025-05-22 04:30:02,925 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\22c628a8ce42f5176ea1f47d18e58b9e.html
+2025-05-22 04:30:02,948 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:30:02,950 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:30:02,950 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:30:02,951 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:30:02,951 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 04:30:02,951 - P11992 - INFO - Após processar URL 4 Uso de memória: 134.84 MB
+2025-05-22 04:30:02,951 - P11992 - INFO - Processando URL 5/15: https://www.doctoralia.com.br/felipe-mourao/neurocirurgiao/nova-iguacu
+2025-05-22 04:30:02,951 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/felipe-mourao/neurocirurgiao/nova-iguacu
+2025-05-22 04:30:02,952 - P11992 - INFO - Após processar URL 5 Uso de memória: 134.84 MB
+2025-05-22 04:30:02,952 - P11992 - INFO - Processando URL 6/15: http://www.transparencia.cremerj.org.br:8098/planejamento/registroMedico/pesquisar
+2025-05-22 04:30:05,277 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\19128e1d0b16c1bd37c280ce751655f7.html
+2025-05-22 04:30:05,304 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:30:05,304 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:30:05,304 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:30:05,305 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:30:05,305 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:30:05,305 - P11992 - INFO - Após processar URL 6 Uso de memória: 134.84 MB
+2025-05-22 04:30:05,305 - P11992 - INFO - Processando URL 7/15: https://saude101.com.br/prestador/2300993948-felipe-areias-mourao.html
+2025-05-22 04:30:08,548 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\33d9c21f0c9c2fc38a0b585c409b865b.html
+2025-05-22 04:30:08,561 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:30:08,561 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:30:08,561 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:30:08,561 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:30:08,562 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 04:30:08,562 - P11992 - INFO - Após processar URL 7 Uso de memória: 134.84 MB
+2025-05-22 04:30:08,562 - P11992 - INFO - Processando URL 8/15: https://medico.cremerj.org.br/993948/
+2025-05-22 04:30:11,276 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ec36aeb41c0d3bc4d54c0760c8d37fcb.html
+2025-05-22 04:30:11,280 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:30:11,280 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:30:11,280 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:30:11,280 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:30:11,281 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:30:11,281 - P11992 - INFO - Após processar URL 8 Uso de memória: 134.84 MB
+2025-05-22 04:30:11,282 - P11992 - INFO - Processando URL 9/15: https://cliniguia.com/profissionais/felipe-areias-mourao-980016000736997/
+2025-05-22 04:30:13,850 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e90b9f1f2d55a58ae158515cd90a83f7.html
+2025-05-22 04:30:13,889 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:30:13,889 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:30:13,890 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:30:13,890 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:30:13,890 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:30:13,890 - P11992 - INFO - Após processar URL 9 Uso de memória: 135.73 MB
+2025-05-22 04:30:13,890 - P11992 - INFO - Processando URL 10/15: https://clinica.work/especialista/felipe-areias-mourao-neurocirurgiao-nova-iguacu-rj
+2025-05-22 04:30:18,006 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\1ddb5ed997e75f5b5948af9a35a95b9d.html
+2025-05-22 04:30:18,021 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:30:18,021 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:30:18,021 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:30:18,022 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:30:18,022 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:30:18,022 - P11992 - INFO - Após processar URL 10 Uso de memória: 134.94 MB
+2025-05-22 04:30:18,022 - P11992 - INFO - Processando URL 11/15: https://www.benditoguia.com.br/empresa/dr-felipe-mourao-centro-nova-iguacu-rj
+2025-05-22 04:30:21,774 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\b5931305689b35a0ccd9e5832fdfc402.html
+2025-05-22 04:30:21,792 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:30:21,793 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:30:21,793 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:30:21,793 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:30:21,793 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:30:21,793 - P11992 - INFO - Após processar URL 11 Uso de memória: 134.96 MB
+2025-05-22 04:30:21,794 - P11992 - INFO - Processando URL 12/15: https://brasillocais.com/rio-de-janeiro/dr-felipe-mourao-285911
+2025-05-22 04:30:26,091 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\29e755f4864bb7a10cab149a8c77a620.html
+2025-05-22 04:30:26,134 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:30:26,135 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:30:26,135 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:30:26,135 - P11992 - INFO - Candidates complement: 2 items
+2025-05-22 04:30:26,135 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:30:26,135 - P11992 - INFO - Após processar URL 12 Uso de memória: 134.97 MB
+2025-05-22 04:30:26,135 - P11992 - INFO - Processando URL 13/15: https://guiasaudebrasil.com.br/unidade/rio-de-janeiro/rio-de-janeiro/0466433-fm-neuro-servicos-medicos/profissionais
+2025-05-22 04:30:32,078 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\50cc1a89e985bf5ca0422c368d067cd3.html
+2025-05-22 04:30:32,089 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:30:32,093 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:30:32,095 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:30:32,095 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:30:32,095 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:30:32,096 - P11992 - INFO - Após processar URL 13 Uso de memória: 134.97 MB
+2025-05-22 04:30:32,099 - P11992 - INFO - Processando URL 14/15: https://drfelipemourao.com.br/
+2025-05-22 04:30:35,710 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\dc1425bcea449e34c0efc600a81b4b01.html
+2025-05-22 04:30:35,745 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 04:30:35,746 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:30:35,746 - P11992 - INFO - Candidates email: 2 items
+2025-05-22 04:30:35,746 - P11992 - INFO - Candidates complement: 2 items
+2025-05-22 04:30:35,749 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 04:30:35,751 - P11992 - INFO - Após processar URL 14 Uso de memória: 134.98 MB
+2025-05-22 04:30:35,752 - P11992 - INFO - Processando URL 15/15: https://consultacrm.com.br/
+2025-05-22 04:30:39,122 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:30:39,136 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:30:39,136 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:30:39,136 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:30:39,136 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:30:39,137 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:30:39,137 - P11992 - INFO - Após processar URL 15 Uso de memória: 135.14 MB
+2025-05-22 04:30:39,137 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:30:39,138 - P11992 - INFO - Ranked address: 6 items
+2025-05-22 04:30:39,139 - P11992 - INFO - Ranked phone: 8 items
+2025-05-22 04:30:39,140 - P11992 - INFO - Ranked email: 2 items
+2025-05-22 04:30:39,140 - P11992 - INFO - Ranked complement: 4 items
+2025-05-22 04:30:39,140 - P11992 - INFO - Ranked cep: 6 items
+2025-05-22 04:30:39,141 - P11992 - INFO - Após agregação Uso de memória: 135.14 MB
+2025-05-22 04:30:39,141 - P11992 - INFO - Validando endereço: ['Rua Getúlio Vargas, 121', 'Rua Paulo Fróes Machado 68', 'Rua Paulo Froes Machado 68']
+2025-05-22 04:30:39,141 - P11992 - INFO - Endereço validado: Rua Getúlio Vargas, 121
+2025-05-22 04:30:39,141 - P11992 - INFO - Limpando texto extenso para campo address: Rua Getúlio Vargas, 121...
+2025-05-22 04:30:39,142 - P11992 - INFO - Texto limpo: Rua Getúlio Vargas, 121
+2025-05-22 04:30:39,142 - P11992 - INFO - Validando telefone: ['(21) 3742-2264', '(21) 96913-1313', '+552137422264']
+2025-05-22 04:30:39,143 - P11992 - INFO - Limpando texto extenso para campo phone: (21) 3742-2264...
+2025-05-22 04:30:39,143 - P11992 - INFO - Texto limpo: 21) 3742-2264
+2025-05-22 04:30:39,143 - P11992 - INFO - Telefone validado: 21) 3742-2264
+2025-05-22 04:30:39,143 - P11992 - INFO - Validando email: ['atendimento@felipemourao.com.br', 'contato@cedoj.com.br']
+2025-05-22 04:30:39,144 - P11992 - INFO - Limpando texto extenso para campo email: atendimento@felipemourao.com.br...
+2025-05-22 04:30:39,144 - P11992 - INFO - Texto limpo: atendimento@felipemourao.com.br
+2025-05-22 04:30:39,144 - P11992 - INFO - Email validado: atendimento@felipemourao.com.br
+2025-05-22 04:30:39,144 - P11992 - INFO - Validando complemento: ['Sala 4103', 'Bloco Intanhagá - Barra da Tijuca Dr. Eduardo Piassi Ne', 'Sala 232 Centro Profissional BarraShopping\xa0 \ufeff ']
+2025-05-22 04:30:39,144 - P11992 - INFO - Limpando texto extenso para campo complement: Sala 4103...
+2025-05-22 04:30:39,145 - P11992 - INFO - Texto limpo: Sala 4103
+2025-05-22 04:30:39,145 - P11992 - INFO - Complemento validado: Sala 4103
+2025-05-22 04:30:39,145 - P11992 - INFO - Descobrindo cidade
+2025-05-22 04:30:39,145 - P11992 - INFO - Buscando cidade: Rua Getúlio Vargas cidade RJ
+2025-05-22 04:30:41,822 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 04:30:41,822 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 04:30:41,822 - P11992 - INFO - Tempo de execução de processamento completo do médico: 60.62 segundos
+2025-05-22 04:30:41,822 - P11992 - INFO - Resultado processado: {'Hash': 'ad8d93c13f1d40be5abab4c2fe27eb5d126bae98a1ff06d0130dcf3004e62721', 'CRM': '993948', 'UF': 'RJ', 'Firstname': 'FELIPE', 'LastName': 'AREIAS MOURÃO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Getúlio Vargas, 121', 'Address A1': 'Rua Getúlio Vargas', 'Numero A1': '121', 'Complement A1': 'Sala 4103', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '21) 3742-2264', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'atendimento@felipemourao.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:30:41,823 - P11992 - INFO - Salvando lote de resultados
+2025-05-22 04:30:41,823 - P11992 - INFO - Após salvar resultados Uso de memória: 132.04 MB
+2025-05-22 04:30:41,824 - P11992 - INFO - Progresso: 70.3%
+2025-05-22 04:30:41,824 - P11992 - INFO - Tempo de execução de processamento do médico 3: 60.62 segundos
+2025-05-22 04:30:41,824 - P11992 - INFO - Tempo de execução de processamento do lote completo: 149.26 segundos

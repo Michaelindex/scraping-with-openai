@@ -1,0 +1,1677 @@
+<html xml:lang="br" lang="br" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head><style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button:not([disabled]):hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel:not([disabled]):hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger:not([disabled]):hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style>
+  <meta content="0" property="fb:app_id"></head><body class="common-home res layout-home6 loaded hidden-scorll"><div id="fb-root"></div>
+   	
+  
+  <title>Fundamentos em psiquiatria Pedro Gomes de Alvarenga - Livraria Andreoli</title>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta property="og:type" content="product">
+<meta property="og:title" content="Fundamentos em psiquiatria Pedro Gomes de Alvarenga">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://www.livrariaandreoli.com.br/product_images/n/308/9788520427187__92904_std.jpg">
+<meta property="og:url" content="https://www.livrariaandreoli.com.br/item/Fundamentos-em-psiquiatria-Pedro-Gomes-de-Alvarenga.html">
+<meta property="og:site_name" content="Livraria Andreoli">
+
+  <link rel="canonical" href="https://www.livrariaandreoli.com.br/item/Fundamentos-em-psiquiatria-Pedro-Gomes-de-Alvarenga.html">
+  
+  <link rel="shortcut icon" href="https://www.livrariaandreoli.com.br/product_images/favicon.ico">
+  <link href="https://www.livrariaandreoli.com.br/templates/Styles/styles.css?1" type="text/css" rel="stylesheet"><link href="https://www.livrariaandreoli.com.br/templates/market/Styles/styles.css?1" media="all" type="text/css" rel="stylesheet">
+<link href="https://www.livrariaandreoli.com.br/templates/market/Styles/iselector.css?1" media="all" type="text/css" rel="stylesheet">
+<link href="https://www.livrariaandreoli.com.br/templates/market/Styles/preto.css?1" media="all" type="text/css" rel="stylesheet">
+<!--[if IE]><link href="https://www.livrariaandreoli.com.br/templates/market/Styles/ie.css?1" media="all" type="text/css" rel="stylesheet" /><![endif]-->
+<link href="/javascript/jquery/plugins/imodal/imodal.css?1" type="text/css" rel="stylesheet"><link href="/javascript/jquery/plugins/jqzoom/jqzoom.css?1" type="text/css" rel="stylesheet"><link href="https://www.livrariaandreoli.com.br/javascript/jquery/plugins/lightbox/lightbox.css?1" type="text/css" rel="stylesheet">
+  
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/index.php?action=tracking_script"></script><!-- Start Tracking Code for analytics_googleanalytics -->
+
+
+
+<!-- End Tracking Code for analytics_googleanalytics -->
+
+
+   
+  <script src="https://www.livrariaandreoli.com.br/templates/market/Assets/js/sweetalert.min.js"></script>
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/templates/market/Assets/js/jquery-2.2.4.min.js"></script>
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/templates/market/Assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/templates/market/Assets/js/owl-carousel/owl.carousel.js"></script>
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/templates/market/Assets/js/themejs/libs.js"></script>
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/templates/market/Assets/js/unveil/jquery.unveil.js"></script>
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/templates/market/Assets/js/countdown/jquery.countdown.min.js"></script>
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/templates/market/Assets/js/dcjqaccordion/jquery.dcjqaccordion.2.8.min.js"></script>
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/templates/market/Assets/js/datetimepicker/moment.js"></script>
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/templates/market/Assets/js/datetimepicker/bootstrap-datetimepicker.min.js"></script>
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/templates/market/Assets/js/jquery-ui/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/templates/market/Assets/js/modernizr/modernizr-2.6.2.min.js"></script>
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/templates/market/Assets/js/themejs/application.js"></script>
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/templates/market/Assets/js/themejs/homepage.js"></script>
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/templates/market/Assets/js/themejs/so_megamenu.js"></script>
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/templates/market/Assets/js/themejs/addtocart.js"></script>
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/templates/market/Assets/js/minicolors/jquery.miniColors.min.js"></script>
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/templates/market/Assets/js/lightslider/lightslider.js"></script>
+  <script type="text/javascript">
+    var $typeheader = 'header-home6';
+  </script>
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/javascript/common.js?1"></script>
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/javascript/iselector.js?1"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://www.livrariaandreoli.com.br/templates/market/Assets/css/bootstrap/css/bootstrap.min.css">
+  <link href="https://www.livrariaandreoli.com.br/templates/market/Assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://www.livrariaandreoli.com.br/templates/market/Assets/js/datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
+  <link href="https://www.livrariaandreoli.com.br/templates/market/Assets/js/owl-carousel/owl.carousel.css" rel="stylesheet">
+  <link href="https://www.livrariaandreoli.com.br/templates/market/Assets/css/themecss/lib.css" rel="stylesheet">
+  <link href="https://www.livrariaandreoli.com.br/templates/market/Assets/js/jquery-ui/jquery-ui.min.css" rel="stylesheet">
+  <link href="https://www.livrariaandreoli.com.br/templates/market/Assets/js/minicolors/miniColors.css" rel="stylesheet">
+  <link href="https://www.livrariaandreoli.com.br/templates/market/Assets/css/themecss/so_megamenu.css" rel="stylesheet">
+  <link href="https://www.livrariaandreoli.com.br/templates/market/Assets/css/themecss/so-categories.css" rel="stylesheet">
+  <link href="https://www.livrariaandreoli.com.br/templates/market/Assets/css/themecss/so-listing-tabs.css" rel="stylesheet">
+  <link href="https://www.livrariaandreoli.com.br/templates/market/Assets/css/header.css" rel="stylesheet">
+  <link href="https://www.livrariaandreoli.com.br/templates/market/Assets/css/footer.css" rel="stylesheet">
+  <link id="color_scheme" href="https://www.livrariaandreoli.com.br/templates/market/Assets/css/home.css" rel="stylesheet">
+  <link href="https://www.livrariaandreoli.com.br/templates/market/Assets/css/responsive.css" rel="stylesheet">
+  <link href="https://www.livrariaandreoli.com.br/templates/market/Assets/js/lightslider/lightslider.css" rel="stylesheet">
+
+  <script type="text/javascript" src="/javascript/jquery/plugins/imodal/imodal.js?1"></script>
+  <script type="text/javascript" src="https://www.livrariaandreoli.com.br/javascript/quicksearch.js"></script>
+  
+
+  <script type="text/javascript">
+    //<![CDATA[
+    config.ShopPath = 'https://www.livrariaandreoli.com.br';
+    config.AppPath = '';
+    var ThumbImageWidth = 270;
+    var ThumbImageHeight = 270;
+    //]]>
+    var urlWebsite  = 'https://www.livrariaandreoli.com.br';
+    var urlTemplate = 'https://www.livrariaandreoli.com.br/templates/market';
+  </script>
+
+
+    
+    <div id="wrapper" class="wrapper-full banners-effect-7">
+        <script type="text/javascript" src="/javascript/product.functions.js?1"></script>
+        <script type="text/javascript" src="/javascript/product.js?1"></script>
+        <div id="AjaxLoading" style="position: absolute; top: 0px; left: 869px; display: none;"><img src="https://www.livrariaandreoli.com.br/templates/market/images/ajax-loader.gif" alt="">&nbsp; Carregando... Por favor, aguarde...</div>
+<header class="variantleft type_6">
+	<script type="text/javascript">
+_datatoda = new Date // recebe a data e hora
+_diasemana = _datatoda.getDay() // recebe o dia da semana
+nummes = _datatoda.getMonth() // recebe o mes
+hora = _datatoda.getHours() // recebe a hora
+minuto = _datatoda.getMinutes() // recebe o minutos
+_dia = new Array("Domingo","Segunda","Terça","Quarta","Quinta","Sexta","Sábado")
+_mes = new Array("Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro")
+saudacao = " "
+if (hora <=11 && minuto <=59){saudacao = "Bom dia"}
+if (hora >=12 && hora < 18){saudacao = "Boa tarde"}
+if (hora >=18 && hora <=24){saudacao = "Boa noite"}
+</script>
+<div class="header-top compact-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="header-top-left form-inline col-sm-5 col-xs-6 compact-hidden">
+        <div class="form-group currencies-block" style="display:none" id="currency">
+          <a class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
+            <span class="icon icon-credit "></span> Central de Atendimento <span class="fa fa-angle-down"></span>
+          </a>
+
+          <ul class="dropdown-menu btn-xs">
+            <li style="display:none"><a href="#"><span><i class="fa fa-phone fa-1x"></i> </span></a></li>
+            <li style="display:none"><a href="#"><span><i class="fa fa-phone fa-1x"></i> </span></a></li>
+            <li style="display:none"><a href="#"><span><i class="fa fa-phone fa-1x"></i> </span></a></li>
+            <li style="display:none"><a href="#"><span><i class="fa fa-phone fa-1x"></i> </span></a></li>
+            <li style="display:"><a href="#"><span><i class="fa fa-whatsapp fa-1x"></i> 11960251465</span></a></li>
+            <li style="display:"><a href="#"><span><i class="fa fa-mobile fa-1x"></i> 11960251465 </span></a></li>
+            <li style="display:none"><a href="#"><span><i class="fa fa-mobile fa-1x"></i> </span></a></li>
+            <li style="display:none"><a href="#"><span><i class="fa fa-mobile fa-1x"></i> </span></a></li>
+            <li style="display:none"><a href="#"><span><i class="fa fa-mobile fa-1x"></i> </span></a></li>
+            <li style="display:none"><a href="#"><span><i class="fa fa-envelope-o fa-1x"></i> </span></a></li>
+            <li style="display:none"><a href="#"><span><i class="fa fa-skype fa-1x"></i> </span></a></li>
+            <li style="display:none"><a href="#"><span> </span></a></li>
+            <li style="display:none"><a href="#"><span> </span></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header-top-right collapsed-block text-right  col-sm-7 col-xs-6 compact-hidden">
+        <div class="form-group currencies-block" id="currency">
+          <a class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
+            <script type="text/javascript">document.write(saudacao + ', Visitante');</script>Bom dia, Visitante
+            <span class="fa fa-angle-down"></span>
+          </a>
+
+          <ul class="dropdown-menu btn-xs">
+            <li style="display:inline"><a href="https://www.livrariaandreoli.com.br/login.php">Entrar</a></li>
+            <li style="display:inline"><a href="https://www.livrariaandreoli.com.br/login.php?action=create_account">Cliente novo? Cadastrar</a></li>
+            <li style="display:inline"><a href="https://www.livrariaandreoli.com.br/account.php?action=order_status">Meus Pedidos</a></li>
+            <li style="display:inline"><a href="https://www.livrariaandreoli.com.br/login.php?action=create_account">Minha Conta</a></li>
+            <li style="display:none"><a href="https://www.livrariaandreoli.com.br/account.php?action=order_status">Meus Pedidos</a></li>
+            <li style="display:none"><a href="https://www.livrariaandreoli.com.br/account.php">Minha Conta</a></li>
+            <li style="display:none"><a href="https://www.livrariaandreoli.com.br/login.php?action=logout">Sair</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+	<div class="header-center">
+		<div class="container">
+			<div class="row">
+				<div class="navbar-logo col-md-3 col-sm-12 col-xs-12">
+						<div id="LogoContainer">
+		<h1><a href="https://www.livrariaandreoli.com.br/"><span class="Logo1stWord">Livraria</span> Andreoli</a></h1>
+	</div>
+				</div>
+
+				<div id="sosearchpro" class="col-md-5 col-sm-7 search-pro">
+	<form action="https://www.livrariaandreoli.com.br/buscas.php" method="get" onsubmit="return check_small_search_form()" id="SearchForm">
+		<div id="search0" class="search input-group">
+			<input onfocus="$(this).addClass('QuickSearchFocused');if(!$(this).data('custom')) {$(this).val('');}" onblur="if($(this).val()) {$(this).data('custom', 1);return;}$(this).removeClass('QuickSearchFocused');if(!$(this).val()) {$(this).val('Encontre o produto desejado...'); $(this).data('custom', 0); }" class="autosearch-input form-control" type="text" id="search_query" value="" size="50" autocomplete="off" placeholder="Encontre o produto desejado..." name="search_query">
+			<span class="input-group-btn">
+				<button type="submit" class="button-search btn btn-primary" name="submit_search"><i class="fa fa-search"></i></button>
+			</span>
+		</div>
+	</form>
+</div>
+
+				<div class="phone-contact col-md-2 col-xs-6" style="display: none">
+					<div class="inner-info">
+						<strong>Fale Conosco:</strong><br>
+						<span></span><br>
+						<span></span>
+					</div>
+				</div>
+
+				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 shopping_cart pull-right">
+					<div id="cart" class="btn-group btn-shopping-cart">
+						<a href="https://www.livrariaandreoli.com.br/cart.php" class="top_cart">
+							<div class="shopcart">
+								<span class="handle pull-left"></span>
+								<span class="title">Compras</span>
+								<p class="text-shopping-cart cart-total-full">(vazio)</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="header-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="sidebar-menu col-md-3 col-sm-6 col-xs-12">
+					<div class="responsive so-megamenu ">
+	<div class="so-vertical-menu no-gutter compact-hidden">
+		<nav class="navbar-default">
+			<div class="container-megamenu vertical">
+				<div id="menuHeading">
+					<div class="megamenuToogle-wrapper">
+						<div class="megamenuToogle-pattern">
+							<div class="container">
+								<div>
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+								
+								Todas Categorias						
+							</div>
+						</div>
+					</div>
+				</div>
+									
+				<div class="navbar-header">
+					<button type="button" id="show-verticalmenu" data-toggle="collapse" class="navbar-toggle btn btn-primary"><i class="fa fa-bars"></i> Menu</button>	
+				</div>
+
+				<div class="vertical-wrapper" style="display: none;">
+					<span id="remove-verticalmenu" class="fa fa-times"></span>
+					<div class="megamenu-pattern">
+						<div class="container">
+							<ul class="megamenu">
+								<li class="visible-xs" style="padding: 10px; text-transform: uppercase; font-size: 15px; font-weight: bold; text-align: center;">Categorias</li>
+								<li class="item-vertical style1 with-sub-menu  ">
+	<p class="close-menu"></p>
+	<a href="https://www.livrariaandreoli.com.br/departamentos/Acupuntura/" title="Acupuntura">Acupuntura</a>
+
+	
+</li><li class="item-vertical style1 with-sub-menu  ">
+	<p class="close-menu"></p>
+	<a href="https://www.livrariaandreoli.com.br/departamentos/Andreoli/" title="Andreoli">Andreoli</a>
+
+	
+</li><li class="item-vertical style1 with-sub-menu  ">
+	<p class="close-menu"></p>
+	<a href="https://www.livrariaandreoli.com.br/departamentos/Comportamental/" title="Comportamental">Comportamental</a>
+
+	
+</li><li class="item-vertical style1 with-sub-menu hover ">
+	<p class="close-menu"></p>
+	<a href="https://www.livrariaandreoli.com.br/departamentos/Enfermagem/" title="Enfermagem">Enfermagem</a>
+
+	<div class="sub-menu" data-subwidth="100" style="width: 900px; display: none; right: 0px;"> <div class="content" style="display: none;"> <div class="row"> <div class="col-sm-12"> <div class="row"><div class="col-md-3 static-menu">
+	<div class="menu">
+		<a href="https://www.livrariaandreoli.com.br/departamentos/Enfermagem/Administracao/" class="title-submenu" style="border-bottom: 1px solid #ddd;">Administração</a>
+		<div>
+			<ul></ul>
+		</div>
+	</div>
+</div><div class="col-md-3 static-menu">
+	<div class="menu">
+		<a href="https://www.livrariaandreoli.com.br/departamentos/Enfermagem/Centro-Cirurgico/" class="title-submenu" style="border-bottom: 1px solid #ddd;">Centro Cirúrgico</a>
+		<div>
+			<ul></ul>
+		</div>
+	</div>
+</div><div class="col-md-3 static-menu">
+	<div class="menu">
+		<a href="https://www.livrariaandreoli.com.br/departamentos/Enfermagem/Estetica/" class="title-submenu" style="border-bottom: 1px solid #ddd;">Estética</a>
+		<div>
+			<ul></ul>
+		</div>
+	</div>
+</div></div></div></div></div></div>
+</li><li class="item-vertical style1 with-sub-menu  ">
+	<p class="close-menu"></p>
+	<a href="https://www.livrariaandreoli.com.br/departamentos/Estetica/" title="Estetica">Estetica</a>
+
+	
+</li><li class="item-vertical style1 with-sub-menu  ">
+	<p class="close-menu"></p>
+	<a href="https://www.livrariaandreoli.com.br/departamentos/Fisioterapia/" title="Fisioterapia">Fisioterapia</a>
+
+	
+</li><li class="item-vertical style1 with-sub-menu hover ">
+	<p class="close-menu"></p>
+	<a href="https://www.livrariaandreoli.com.br/departamentos/Fisioterapia-do-Trabalho/" title="Fisioterapia do Trabalho">Fisioterapia do Trabalho</a>
+
+	<div class="sub-menu" data-subwidth="100" style="width: 900px; display: none; right: 0px;"> <div class="content" style="display: none;"> <div class="row"> <div class="col-sm-12"> <div class="row"><div class="col-md-3 static-menu">
+	<div class="menu">
+		<a href="https://www.livrariaandreoli.com.br/departamentos/Fisioterapia-do-Trabalho/Dermatofuncional/" class="title-submenu" style="border-bottom: 1px solid #ddd;">Dermatofuncional</a>
+		<div>
+			<ul></ul>
+		</div>
+	</div>
+</div></div></div></div></div></div>
+</li><li class="item-vertical style1 with-sub-menu  ">
+	<p class="close-menu"></p>
+	<a href="https://www.livrariaandreoli.com.br/departamentos/Informatica/" title="Informática">Informática</a>
+
+	
+</li><li class="item-vertical style1 with-sub-menu  ">
+	<p class="close-menu"></p>
+	<a href="https://www.livrariaandreoli.com.br/departamentos/Fitoterapia/" title="Fitoterapia">Fitoterapia</a>
+
+	
+</li><li class="item-vertical style1 with-sub-menu  ">
+	<p class="close-menu"></p>
+	<a href="https://www.livrariaandreoli.com.br/departamentos/M.T.C/" title="M.T.C">M.T.C</a>
+
+	
+</li><li class="item-vertical style1 with-sub-menu  ">
+	<p class="close-menu"></p>
+	<a href="https://www.livrariaandreoli.com.br/departamentos/Medicina/" title="Medicina">Medicina</a>
+
+	
+</li><li class="item-vertical style1 with-sub-menu  ">
+	<p class="close-menu"></p>
+	<a href="https://www.livrariaandreoli.com.br/departamentos/Microfisioterapia/" title="Microfisioterapia">Microfisioterapia</a>
+
+	
+</li><li class="item-vertical style1 with-sub-menu  ">
+	<p class="close-menu"></p>
+	<a href="https://www.livrariaandreoli.com.br/departamentos/Mercado-Livre/" title="Mercado Livre">Mercado Livre</a>
+
+	
+</li><li class="item-vertical style1 with-sub-menu  ">
+	<p class="close-menu"></p>
+	<a href="https://www.livrariaandreoli.com.br/departamentos/Nutricao/" title="Nutrição">Nutrição</a>
+
+	
+</li><li class="item-vertical style1 with-sub-menu  ">
+	<p class="close-menu"></p>
+	<a href="https://www.livrariaandreoli.com.br/departamentos/Pedagogia/" title="Pedagogia">Pedagogia</a>
+
+	
+</li><li class="item-vertical style1 with-sub-menu  ">
+	<p class="close-menu"></p>
+	<a href="https://www.livrariaandreoli.com.br/departamentos/Psicologia/" title="Psicologia">Psicologia</a>
+
+	
+</li><li class="item-vertical style1 with-sub-menu  ">
+	<p class="close-menu"></p>
+	<a href="https://www.livrariaandreoli.com.br/departamentos/Radiologia/" title="Radiologia">Radiologia</a>
+
+	
+</li><li class="item-vertical style1 with-sub-menu  ">
+	<p class="close-menu"></p>
+	<a href="https://www.livrariaandreoli.com.br/departamentos/Servico-Social/" title="Serviço Social">Serviço Social</a>
+
+	
+</li><li class="item-vertical style1 with-sub-menu  ">
+	<p class="close-menu"></p>
+	<a href="https://www.livrariaandreoli.com.br/departamentos/Bli/" title="Bli">Bli</a>
+
+	
+</li>
+							</ul>
+
+							<ul class="megamenu visible-xs">
+								<li style="padding: 10px; text-transform: uppercase; font-size: 15px; font-weight: bold; text-align: center;">Páginas</li>
+								<li><a href="https://www.livrariaandreoli.com.br" class="clearfix"><span class="fa fa-home " aria-hidden="true"></span>&nbsp;&nbsp;Página Inicial</a></li>
+<li><a href="https://www.livrariaandreoli.com.br/pages/Fale-Conosco.html" class="clearfix"><span class="fa fa-comments " aria-hidden="true"></span>&nbsp;&nbsp;Fale Conosco</a></li>
+<li><a href="https://www.livrariaandreoli.com.br/giftcertificates.php" class="clearfix"><span class="fa fa-gift " aria-hidden="true"></span>&nbsp;&nbsp;Vale Presentes</a></li>
+<li><a href="https://www.livrariaandreoli.com.br/listadeprodutos.php" class="clearfix"><span class="fa fa-align-justify " aria-hidden="true"></span>&nbsp;&nbsp;Catálogo de Produtos</a></li>
+<li><a href="https://www.livrariaandreoli.com.br/login.php?from=account.php%3Faction%3Dorder_status" class="clearfix"><span class="fa fa-pencil" aria-hidden="true"></span>&nbsp;&nbsp;Meus Pedidos</a></li>
+	<li class="">
+
+		<p class="close-menu"></p>
+
+		<a href="https://www.livrariaandreoli.com.br/pages/Fale-Conosco.html" class="clearfix">Fale Conosco</a>
+
+		
+
+	</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+</div>
+				</div>
+
+				<div class="megamenu-hori col-md-9 col-sm-6 col-xs-12 ">
+					<div class="responsive so-megamenu ">
+						<nav class="navbar-default">
+							<div class=" container-megamenu  horizontal">
+								<div class="megamenu-wrapper">
+									<span id="remove-megamenu" class="fa fa-times"></span>
+									<div class="megamenu-pattern">
+										<div class="container">
+											<ul class="megamenu " data-transition="slide" data-animationtime="250">
+												<li><a href="https://www.livrariaandreoli.com.br" class="clearfix"><span class="fa fa-home " aria-hidden="true"></span>&nbsp;&nbsp;Página Inicial</a></li>
+<li><a href="https://www.livrariaandreoli.com.br/pages/Fale-Conosco.html" class="clearfix"><span class="fa fa-comments " aria-hidden="true"></span>&nbsp;&nbsp;Fale Conosco</a></li>
+<li><a href="https://www.livrariaandreoli.com.br/giftcertificates.php" class="clearfix"><span class="fa fa-gift " aria-hidden="true"></span>&nbsp;&nbsp;Vale Presentes</a></li>
+<li><a href="https://www.livrariaandreoli.com.br/listadeprodutos.php" class="clearfix"><span class="fa fa-align-justify " aria-hidden="true"></span>&nbsp;&nbsp;Catálogo de Produtos</a></li>
+<li><a href="https://www.livrariaandreoli.com.br/login.php?from=account.php%3Faction%3Dorder_status" class="clearfix"><span class="fa fa-pencil" aria-hidden="true"></span>&nbsp;&nbsp;Meus Pedidos</a></li>
+	<li class="">
+
+		<p class="close-menu"></p>
+
+		<a href="https://www.livrariaandreoli.com.br/pages/Fale-Conosco.html" class="clearfix">Fale Conosco</a>
+
+		
+
+	</li>
+
+											</ul>	
+										</div>
+									</div>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<div style="display:none;">
+	<div class="btn btn-danger btn-lg btn-block " id="new-board-btn">
+	 	Quer ver o preço? 
+	 	<a href="https://www.livrariaandreoli.com.br/login.php" style="font-weight: bolder;">Clique Aqui para Entrar</a>  
+	 	ou <a href="https://www.livrariaandreoli.com.br/login.php?action=create_account" style="font-weight: bolder;">Criar uma conta</a>
+	 </div>
+
+	
+</div>
+
+        <div class="main-container container">
+            <div class="wrapper-breadcrumbs clearfix">
+	<div class="container">
+		<div class="spacer30"></div>
+		<div class="breadcrumbs-main clearfix">
+			<ul class="breadcrumb">
+	<li><a href="https://www.livrariaandreoli.com.br">Página Inicial</a></li><li><a href="https://www.livrariaandreoli.com.br/departamentos/Enfermagem/">Enfermagem</a></li><li><strong>Fundamentos em psiquiatria Pedro Gomes de Alvarenga</strong></li>
+</ul>
+		</div>
+		<div class="spacer15"></div>
+	</div>
+</div>
+            <div class="row">
+                <div id="content" class="col-md-12 col-sm-12">
+                    <script type="text/javascript" src="/javascript/jquery/plugins/jCarousel/jCarousel.js?1"></script>
+<script type="text/javascript" src="/javascript/jquery.cookie.min.js"></script>
+
+<script type="text/javascript">
+	var ProductThumbWidth = '';
+	var productId = 767;
+</script>
+
+<div class="product-view row">
+	<div class="left-content-product col-lg-12 col-xs-12">
+		<div class="row">
+			<div class="content-product-left col-sm-6 col-xs-12">
+				<div id="thumb-slider" class="thumb-vertical-outer">
+					<span class="btn-more prev-thumb nt"><i class="fa fa-angle-up"></i></span>
+					<span class="btn-more next-thumb nt"><i class="fa fa-angle-down"></i></span>
+					<div class="lSSlideOuter  vertical"><div class="lSSlideWrapper usingCss" style="height: 340px;"><ul class="thumb-vertical lightSlider lsGrab lSSlide" style="height: 118.333px;">
+						<li class="owl2-item lslide active" style="height: 103.333px; margin-bottom: 15px;">
+	<a data-index="0" data-image="https://www.livrariaandreoli.com.br/product_images/c/815/9788520427187__94341_zoom.jpg" class="img thumbnail active" title="Imagem 1">
+		<img src="https://www.livrariaandreoli.com.br/product_images/t/835/9788520427187__59917_tiny.jpg" title="Imagem 1" alt="Imagem 1">
+	</a>
+</li>
+					</ul><div class="lSAction" style="display: none;"><a class="lSPrev"><i class="fa fa-angle-up"></i></a><a class="lSNext"><i class="fa fa-angle-down"></i></a></div></div></div>
+
+				</div>
+				<div class="ProductThumbImage">
+	<div class="large-image vertical">
+		<img src="https://www.livrariaandreoli.com.br/product_images/n/308/9788520427187__92904_std.jpg" data-zoom-image="https://www.livrariaandreoli.com.br/product_images/c/815/9788520427187__94341_zoom.jpg" title="Imagem 1" alt="Imagem 1">
+	</div>
+</div>
+				<center>
+				</center>
+				
+			</div>
+
+			<div class="content-product-right col-sm-6 col-xs-12">
+				<div class="title-product">
+					<h1>Fundamentos em psiquiatria Pedro Gomes de Alvarenga</h1>
+					
+					<span itemscope="" itemtype="https://schema.org/Product">
+						<meta itemprop="sku" content="9788520427187">
+						<meta itemprop="mpn" content="9788520427187">
+						<meta itemprop="name" content="Fundamentos em psiquiatria Pedro Gomes de Alvarenga">
+						<meta itemprop="brand" content="Manole">
+						<span itemprop="offers" itemscope="" itemtype="https://schema.org/Offer">
+							<meta itemprop="priceCurrency" content="BRL">
+							<meta itemprop="price" content="197.00">
+							<link itemprop="itemCondition" href="https://schema.org/NewCondition">
+							<link itemprop="availability" href="https://schema.org/InStock">
+						</span>
+					</span>
+				</div>
+				<form name="frmWishList" id="frmWishList" action="https://www.livrariaandreoli.com.br/wishlist.php" method="get">
+					<input type="hidden" name="action" value="add">
+					<input type="hidden" name="product_id" value="767">
+					<div class="box-review form-group">
+						<span style="display: ">(Cód.9788520427187)</span>
+						<div class="ratings">
+							<div class="rating-box">
+								<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+							</div>
+						</div>
+						<a class="reviews_button" href="#" onclick="$('a[href=\'#tab-2\']').trigger('click'); return false;"></a>	| 
+						<a class="write_review_button" href="#" onclick="$('a[href=\'#tab-2\']').trigger('click');show_product_review_form();return false;">Deixar comentário</a>
+						<button class="btn btn-link" type="submit" data-toggle="tooltip" title="" data-original-title="Adicionar aos Favoritos"><i class="fa fa-heart-o fa-2x"></i></button>						
+					</div>
+				</form>
+				<div class="product-label form-group" style="display: block">
+					<div class="product_page_price price" itemprop="offerDetails" itemscope="" itemtype="https://data-vocabulary.org/Offer">
+						<span class="price-old" style="display: none">De: </span>
+						<span class="price-new VariationProductPrice" itemprop="price"><span class="PrecoPor"><strong>R$197,00</strong></span></span>
+						<center> <span class="LinhaPreco"><span class="BlocoMenor">em  12x </span> <span class="cartao">R$19,78 </span> no cartão</span></center>
+						
+						
+					</div>
+
+					<div class="stock" style="display: none"><span>Disponibilidade:</span> <span class="status-stock"></span></div>
+				</div>
+				<div style="display: block">
+					<img src="/modificacoes/frete_gratis.gif" border="0">
+				</div>
+
+				<div class="parcelas" style="display:block"><ul class="nav nav-tabs">
+	<li class="active"><a data-toggle="tab" href="#forma1"><img src="https://www.livrariaandreoli.com.br/modificacoes/fp/pg.png"></a></li>
+</ul>
+
+<div class="tab-content">
+	<div id="forma1" class="tab-pane fade in active"><b>Parcelamento via PagSeguro</b><br><b>1x</b> de <b>R$197,00</b> sem juros.<br><b>2x</b> de <b>R$102,94</b> com juros.<br><b>3x</b> de <b>R$69,63</b> com juros.<br><b>4x</b> de <b>R$52,99</b> com juros.<br><b>5x</b> de <b>R$43,01</b> com juros.<br><b>6x</b> de <b>R$36,35</b> com juros.<br><b>7x</b> de <b>R$31,61</b> com juros.<br><b>8x</b> de <b>R$28,05</b> com juros.<br><b>9x</b> de <b>R$25,29</b> com juros.<br><b>10x</b> de <b>R$23,08</b> com juros.<br><b>11x</b> de <b>R$21,28</b> com juros.<br><b>12x</b> de <b>R$19,78</b> com juros.<br></div>
+</div></div>
+
+				
+
+				<div class="product-box-desc">
+					<div class="inner-box-desc">
+
+						<div class="brand" style="display: display: none"><span>Embalagem para presente:</span> Opções disponíveis no carrinho.</div>
+						<div class="brand" style="display: "><span>Fabricante:</span> <a href="https://www.livrariaandreoli.com.br/marcas/Manole.html">Manole</a></div>
+						<div class="model" style="display:none;"><span>Compra mínima:</span>  unidade(s)</div>
+						<div class="model" style="display:none;"><span>Compra máxima:</span>  unidade(s)</div>
+						<div class="model"> <a href="https://www.livrariaandreoli.com.br/remote.php?w=duvida&amp;id=767" title="Perguntar ao Vendedor" data-toggle="modal" data-target="#perguntar" style="color: #555;"><i class="fa fa-question-circle "></i> Perguntar ao Vendedor</a> 	|  <a href="https://www.livrariaandreoli.com.br/remote.php?w=recomendar&amp;id=767" title="Indicar a um Amigo" data-toggle="modal" data-target="#indicar" style="color: #555;"><i class="fa fa-share"></i> Indicar a um Amigo(a)</a> </div> 
+					</div>
+				</div>
+
+				
+<form method="post" action="https://www.livrariaandreoli.com.br/cart.php" onsubmit="return check_add_to_cart(this, false)  &amp;&amp; fastCartAction(event)" enctype="multipart/form-data" id="productDetailsAddToCartForm">
+	<input type="hidden" name="action" value="add">
+	<input type="hidden" name="product_id" value="767">
+	<input type="hidden" name="variation_id" class="CartVariationId" value="">
+	<input type="hidden" name="currency_id" value="">
+	<div id="product">
+		
+		<div class="form-horizontal">
+			
+		</div>
+
+		
+		<a href="#" style="margin-left: 10px; display: none;" class="sweet">Compre em quantidade e economize</a>
+		<div class="AddCartButton"><!-- oculta botao na variaÃ§Ã£o -->
+			<div class="form-group box-info-product" style="margin-top: 15px;display: ">
+				<div class="option quantity">
+					<div class="input-group quantity-control" unselectable="on" style="-webkit-user-select: none;">
+						<label>Qtd</label>
+						<input class="form-control" type="text" name="qty[]" id="qty_" value="1">
+						<input type="hidden" value="1">
+						<span class="input-group-addon product_quantity_down">-</span>
+						<span class="input-group-addon product_quantity_up">+</span>
+					</div>
+				</div>
+
+				<div class="cart">
+					
+					<input type="submit" data-toggle="tooltip" title="" value="Adicionar ao Carrinho" data-loading-text="Adicionando..." id="button-cart" class="btn btn-mega btn-lg" data-original-title="Adicionar ao Carrinho">
+					
+
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="OutOfStockMessage">
+		
+	</div>
+
+</form>
+<script language="javascript" type="text/javascript">
+	lang.OptionMessage = "";
+	lang.VariationSoldOutMessage = "A combinação de produtos selecionada está indisponível no momento.";
+	lang.InvalidQuantity = "Por favor, informe uma quantidade válida de produto.";
+	lang.EnterRequiredField = "Por favor, informe os campos requeridos.";
+	lang.InvalidFileTypeJS = "O tipo do arquivo que você está tentando enviar não é permitido neste campo.";
+	var ShowAddToCartQtyBox = "1";
+	productMinQty=0;productMaxQty=Number.POSITIVE_INFINITY;
+</script>
+
+
+
+<script type="text/javascript">
+	jQuery(function ($) {
+		jQuery('.sweet').click(function(){
+			swal({
+				title: "Como Economizar",
+				text: "",
+				html: true
+			});
+		});
+	});
+</script>
+
+				<a style="display: none" href="https://www.livrariaandreoli.com.br/remote.php?w=orcamento&amp;id=767" data-toggle="modal" data-target="#orcamento" class="btn btn-primary"> <i class="fa fa-check-square-o fa-1x"></i> </a>
+
+				<div style="display: none">
+					<hr>
+					<div style="display: ">
+						<script>
+    jQuery(function($){
+       // $("#cep_simular").mask("99999-999");
+        VemCep();
+    });
+
+    function VemCep(){
+        var cep = $('#cep_simular').val();
+        cep = cep.replace(/[^0-9]/g,'');
+        if(cep=='' && $.cookie('cep_salvo')!='undefined'){
+            $('#cep_simular').val($.cookie('cep_salvo'));
+        }
+    }
+    function SimularFrete(){
+        var cep = $('#cep_simular').val();
+        var original = cep;
+        cep = cep.replace(/[^0-9]/g,'');
+        if(cep==''){
+            swal('Digite seu cep!');
+            $("#cep_simular").focus();
+            return false;
+        }
+        $.cookie('cep_salvo', original, { expires: 7 });
+        var qtd = $('#qty_').val();
+        var produto = 767;
+        $('#contacoes_frete').html('<center>Aguarde...</center>');
+        $.getJSON( "https://www.livrariaandreoli.com.br/json.frete.php?produto="+produto+"&cep="+cep+"&qtd="+qtd, function( data ) {
+        if(data==''){
+            var items = '<center>Nenhum meio disponivel!</center>';
+        }else{
+            if(data.erro=='sim'){
+                var items = '<center>'+data.msg+'</center>';
+            }else{
+                var items = '<br><table class="table table-bordered table-striped">';
+                items += '<thead><tr><th>&nbsp;Meio de entrega</th><th>Pre&ccedil;o</th><th>Prazo</th></tr></thead><tbody>';
+                $.each( data, function( key, val ) {
+                    if (typeof val.transit === 'undefined') {
+                        var transit = 10;
+                    }else{
+                        var transit = val.transit;
+                    }
+                    items += '<tr><td><label>&nbsp;'+val.description+'</label></td>';
+                    items += '<td class="Price"><em class="ProductPrice">R$'+val.price+'</em></td>';
+                    items += '<td><em class="TransitTime">'+transit+' dia(s)*Úteis</em></td></tr>'; 
+                });
+                items += '</tbody></table>';
+                items += '&nbsp;*O prazo de entrega só começa a contar após confirmação de pagamento';
+            }
+        }
+        $('#contacoes_frete').html(items);});
+        return true;
+    }
+</script>
+
+<div id="simulador_pro">
+    <div class="form-inline" style="display: ">
+        <div class="calc form-group">
+            <label>Calcular Frete:</label>
+            <input type="text" data-mask="99999-999" class="form-control" id="cep_simular">
+            <button onclick="SimularFrete()" id="postok" class="btn btn-custom btn-lger min-width-sm">Calcular</button>
+            <a href="http://www.buscacep.correios.com.br/" target="_blank" title="Qual meu CEP?"><img border="0" src="https://www.livrariaandreoli.com.br/templates/market/images/cep.gif" width="84" height="20"></a>
+        </div>
+    </div>
+    <div id="contacoes_frete"></div>				
+</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="perguntar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+				<h4 class="modal-title" id="myModalLabel">Carregando ...</h4>
+			</div>
+			<div class="modal-body">
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="indicar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+				<h4 class="modal-title" id="myModalLabel">Carregando ...</h4>
+			</div>
+			<div class="modal-body">
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="orcamento" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+				<h4 class="modal-title" id="myModalLabel">Carregando ...</h4>
+			</div>
+			<div class="modal-body">
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.parcelas').load('https://www.livrariaandreoli.com.br/remote.php?w=simularparcelas&valor=197.00');
+		var zoomCollection = '.large-image img';
+		$( zoomCollection ).elevateZoom({
+			zoomType    : "inner",
+			lensSize    :"200",
+			easing:true,
+			gallery:'thumb-slider',
+			cursor: 'pointer',
+			loadingIcon: 'https://www.livrariaandreoli.com.br/templates/market/Assets/image/theme/lazy-loader.gif',
+			galleryActiveClass: "active"
+		});
+
+		$('.large-image').magnificPopup({
+			items: [
+				{src: 'https://www.livrariaandreoli.com.br/product_images/c/815/9788520427187__94341_zoom.jpg' },
+
+			],
+			gallery: { enabled: true, preload: [0,2] },
+			type: 'image',
+			mainClass: 'mfp-fade',
+			callbacks: {
+				open: function() {
+					
+					var activeIndex = parseInt($('#thumb-slider .img.active').attr('data-index'));
+					var magnificPopup = $.magnificPopup.instance;
+					magnificPopup.goTo(activeIndex);
+				}
+			}
+		});
+
+		$("#thumb-slider-vertical .owl2-item").each(function() {
+			$(this).find("[data-index='0']").addClass('active');
+		});
+
+		$(".thumb-vertical-outer .next-thumb").click(function () {
+			$( ".thumb-vertical-outer .lSNext" ).trigger( "click" );
+		});
+
+		$(".thumb-vertical-outer .prev-thumb").click(function () {
+			$( ".thumb-vertical-outer .lSPrev" ).trigger( "click" );
+		});
+
+		$(".thumb-vertical-outer .thumb-vertical").lightSlider({
+			item: 3,
+			autoWidth: false,
+			vertical:true,
+			slideMargin: 15,
+			verticalHeight:340,
+			pager: false,
+			controls: true,
+			prevHtml: '<i class="fa fa-angle-up"></i>',
+			nextHtml: '<i class="fa fa-angle-down"></i>',
+			responsive: [
+			{
+				breakpoint: 1199,
+				settings: {
+					verticalHeight: 330,
+					item: 3,
+				}
+			},
+
+			{
+				breakpoint: 1024,
+				settings: {
+					verticalHeight: 235,
+					item: 2,
+					slideMargin: 5,
+				}
+			},
+
+			{
+				breakpoint: 768,
+				settings: {
+					verticalHeight: 340,
+					item: 3,
+				}
+			},
+
+			{
+				breakpoint: 480,
+				settings: {
+					verticalHeight: 100,
+					item: 1,
+				}
+			}
+			]
+		});
+	});
+</script>
+                    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="producttab">
+                        <div class="tabsslider col-xs-12">
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a data-toggle="tab" href="#tab-1">Descrição</a></li>
+                                <li class="item_nonactive"><a data-toggle="tab" id="comentario" href="#tab-2">Comentários</a></li>
+                                <li class="item_nonactive" style="display: none"><a data-toggle="tab" href="#tab-3">Garantia</a></li>
+                                <li class="item_nonactive" style="display: none"><a data-toggle="tab" href="#tab-4">Vídeos</a></li>
+                            </ul>
+
+                            <script type="text/javascript">
+                                window.onload = function(){
+                                    document.getElementById('').click();
+                                }
+                            </script>
+                            
+
+                            <div class="tab-content col-xs-12">
+                                <div id="tab-1" class="tab-pane fade active in">
+                                    <div class="Block Moveable Panel ProductDescription" id="ProductDescription">
+	<div class="ProductDescriptionContainer">
+		
+			<p><span style="color: #333333; font-family: 'Amazon Ember', Arial, sans-serif;">Fundamentos em Psiquiatria originou-se da experiência didática dos autores nos cursos de graduação em Psiquiatria da Faculdade de Medicina da Universidade de São Paulo, bem como de valiosas contribuições de educadores (docentes e preceptores), médicos psiquiatras e de outras áreas, pesquisadores e psicólogos. A obra traz 26 capítulos atualizados, elaborados por especialistas, incluindo: - Diagnósticos categorial e dimensional dos principais transtornos</span></p>
+<p>Editora Manole</p>
+<p>Arthur Guerra De Andrade</p>
+<p>Peso 0,9 kg</p>
+<p>Número de páginas 644</p>
+<p>Ano de edição 2007</p>
+<p>ISBN 10 8520427189</p>
+<p>ISBN 13 9788520427187</p>
+<p>Altura 23</p>
+<p>Largura 16</p>
+<p>Comprimento 4</p>
+<p>Edição 1</p>
+<p>Idioma Português</p>
+<p>Tipo de produto&nbsp; Livro</p>
+<p>Assuntos&nbsp; Biografia</p>
+		
+	</div>
+</div>
+                                </div>
+
+                                <div id="tab-2" class="tab-pane fade">
+                                    <div class="Block Moveable Panel" style="display: ">
+<a id="facebok">
+<br><center><img border="0" src="https://www.livrariaandreoli.com.br/templates/market/images/facecoment.png"></center>
+
+
+<center>
+
+<div class="fb-comments" data-href="http://www.livrariaandreoli.com.br/item/Fundamentos-em-psiquiatria-Pedro-Gomes-de-Alvarenga.html" data-width="800"></div></center>
+
+
+
+
+
+
+
+
+</a></div><a id="facebok">
+
+
+                                    </a><a id="reviews">
+</a><div class="Block Moveable Panel" id="ProductReviews"><a id="reviews">
+
+	<h4 class="title">
+	Comentários sobre o produto
+	<button type="button" onclick="show_product_review_form(); return false;" class="btn btn-primary pull-right">Deixe seu comentário sobre o produto</button>
+</h4>
+<br class="Clear">
+</a><div class="BlockContent"><a id="reviews">
+	
+	</a><a id="write_review"></a>
+	<script type="text/javascript">
+		lang.ReviewNoRating = "Por favor, selecione uma avaliação.";
+		lang.ReviewNoTitle = "Por favor, informe um título para o seu comentário.";
+		lang.ReviewNoText = "Por favor, informe algum texto para o seu comentário.";
+		lang.ReviewNoCaptcha = "Por favor, informe o código mostrado.";
+	</script>
+	<form action="https://www.livrariaandreoli.com.br/postreview.php" style="display: none;" method="post" class="ProductReviewForm" id="rating_box" onsubmit="return check_product_review_form();">
+		<input type="hidden" name="action" value="post_review">
+		<input type="hidden" name="product_id" value="767">
+		<div class="primari-box registered-account">
+			<h3 class="box-subheading">Deixe seu comentário</h3>
+			<div class="form-content">
+				<div class="form-group primary-form-group">
+					<label for="login_email">1. Como você avalia este produto?</label>
+					<select name="revrating" class="form-control unicase-form-control text-input" id="revrating">
+						<option value="">&nbsp;</option>
+						<option value="5">5 estrelas (excelente)</option>
+						<option value="4">4 estrelas (ótimo)</option>
+						<option value="3">3 estrelas (bom)</option>
+						<option value="2">2 estrelas (regular)</option>
+						<option value="1">1 estrela (ruim)</option>
+					</select>
+				</div>
+
+				<div class="form-group primary-form-group">
+					<label for="login_email">2. Escreva um título para o seu comentário aqui:</label>
+					<input name="revtitle" id="revtitle" type="text" class="form-control unicase-form-control text-input" value="">
+				</div>
+
+				<div class="form-group primary-form-group">
+					<label for="login_email">3. Escreva seu comentário aqui:</label>
+					<textarea name="revtext" id="revtext" class="form-control unicase-form-control text-input" style="height: 150px;" rows="8" cols="50"></textarea>
+				</div>
+
+				<div class="form-group primary-form-group">
+					<label for="login_email">4. Informe seu nome: (opcional)</label>
+					<input name="revfromname" id="revfromname" type="text" class="form-control unicase-form-control text-input" value="">
+				</div>
+
+				<div class="form-group primary-form-group" style="display: ">
+					<label for="login_email">5. Informe o código abaixo:</label>
+					<input name="captcha" id="captcha" type="text" class="form-control unicase-form-control text-input" style="width: 110px;">
+					<div style="margin-top: 3px;">
+						<img src="https://www.livrariaandreoli.com.br/captcha.php?6941" alt="img">
+					</div>
+				</div>
+
+				<div class="submit-button">
+					<input type="submit" value="Salvar meu comentário" class="btn btn-primary">
+				</div>
+			</div>
+		</div>
+	</form>
+	<br>
+	<div class="alert alert-info" role="alert" style="display: ">Este produto não foi comentado ainda. Seja o primeiro a comentar sobre este produto!</div>
+
+	
+
+	
+
+	
+
+	<script type="text/javascript">
+	//<![CDATA[
+	var HideReviewCaptcha = "";
+
+	// Should we automatically open the review form?
+	if("" == "1") {
+		show_product_review_form();
+		/*window.onload = function(){
+            document.getElementById('comentario').click();
+        }*/
+	}
+
+	if("" == "1") {
+		jump_to_product_reviews();
+	}
+	//]]>
+	</script>
+	<hr style="" class="Clear ProductSectionSeparator">
+</div>
+</div>
+
+                                    
+                                </div>
+
+                                <div id="tab-3" class="tab-pane fade">
+                                    
+                                </div>
+
+                                <div id="tab-4" class="tab-pane fade">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="related titleLine products-list grid module ">
+	<h3 class="modtitle">Produtos Relacionados</h3>
+	<div class="releate-products owl2-carousel owl2-theme owl2-loaded">
+		
+	<div class="owl2-stage-outer"><div class="owl2-stage" style="transform: translate3d(0px, 0px, 0px); transition: all; width: 896.25px;"><div class="owl2-item active" style="width: 273.75px; margin-right: 25px;"><div class="product-layout">
+	<div class="product-item-container">
+		<div class="left-block" style="min-height: 170px;">
+			<div class="product-image-container second_img">
+				<a href="https://www.livrariaandreoli.com.br/item/livro-psiquiatria-ciencia-comportamental-kaytasman"><img src="https://www.livrariaandreoli.com.br/product_images/v/130/9788520411650__56925_thumb.png" alt="Livro - Psiquiatria - Ciência Comportamental - Kay/Tasman"></a>				
+			</div>
+		</div>
+
+		<div class="right-block">
+			<div class="caption">
+				<h4><a href="https://www.livrariaandreoli.com.br/item/livro-psiquiatria-ciencia-comportamental-kaytasman" title="Livro - Psiquiatria - Ciência Comportamental - Kay/Tasman">Livro - Psiquiatria - Ciência Comportamental - Kay/Tasman</a></h4>    
+				
+				<div class="price">
+					<span class="PrecoPor"><strong>R$149,00</strong></span>
+					<span style="display:;" class="parcela"></span>
+				</div>
+			</div>
+
+			<div class="button-group">
+				<button class="addToCart" style="display:;" type="button" onclick="window.location = 'https://www.livrariaandreoli.com.br/cart.php?action=add&amp;product_id=585';">
+					<i class="fa fa-shopping-cart"></i> <span class="button-group__text">Comprar</span>
+				</button>
+			</div>
+			<div style="" class="ratings">
+				<div class="rating-box">
+					<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div><div class="owl2-item active" style="width: 273.75px; margin-right: 25px;"><div class="product-layout">
+	<div class="product-item-container">
+		<div class="left-block" style="min-height: 170px;">
+			<div class="product-image-container second_img">
+				<a href="https://www.livrariaandreoli.com.br/item/Livro-Fundamentos-De-Estetica-Intima.html"><img src="https://www.livrariaandreoli.com.br/product_images/x/058/9788552949077__02043_thumb.png" alt="Livro Fundamentos De Estética Íntima"></a>				
+			</div>
+		</div>
+
+		<div class="right-block">
+			<div class="caption">
+				<h4><a href="https://www.livrariaandreoli.com.br/item/Livro-Fundamentos-De-Estetica-Intima.html" title="Livro Fundamentos De Estética Íntima">Livro Fundamentos De Estética Íntima</a></h4>    
+				
+				<div class="price">
+					<span class="PrecoPor"><strong>R$325,00</strong></span>
+					<span style="display:none;" class="parcela"></span>
+				</div>
+			</div>
+
+			<div class="button-group">
+				<button class="addToCart" style="display:none;" type="button" onclick="window.location = 'https://www.livrariaandreoli.com.br/cart.php?action=add&amp;product_id=867';">
+					<i class="fa fa-shopping-cart"></i> <span class="button-group__text">Comprar</span>
+				</button>
+			</div>
+			<div style="" class="ratings">
+				<div class="rating-box">
+					<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div><div class="owl2-item active" style="width: 273.75px; margin-right: 25px;"><div class="product-layout">
+	<div class="product-item-container">
+		<div class="left-block" style="min-height: 170px;">
+			<div class="product-image-container second_img">
+				<a href="https://www.livrariaandreoli.com.br/item/Livro-Medicina-Do-Amanha-Schestatsky%2C-Pedro.html"><img src="https://www.livrariaandreoli.com.br/product_images/z/863/9786555440607__59671_thumb.png" alt="Livro Medicina Do Amanha Schestatsky, Pedro"></a>				
+			</div>
+		</div>
+
+		<div class="right-block">
+			<div class="caption">
+				<h4><a href="https://www.livrariaandreoli.com.br/item/Livro-Medicina-Do-Amanha-Schestatsky%2C-Pedro.html" title="Livro Medicina Do Amanha Schestatsky, Pedro">Livro Medicina Do Amanha Schestatsky, Pedro</a></h4>    
+				
+				<div class="price">
+					<span class="PrecoPor"><strong>R$49,00</strong></span>
+					<span style="display:;" class="parcela"></span>
+				</div>
+			</div>
+
+			<div class="button-group">
+				<button class="addToCart" style="display:;" type="button" onclick="window.location = 'https://www.livrariaandreoli.com.br/cart.php?action=add&amp;product_id=889';">
+					<i class="fa fa-shopping-cart"></i> <span class="button-group__text">Comprar</span>
+				</button>
+			</div>
+			<div style="" class="ratings">
+				<div class="rating-box">
+					<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div></div></div><div class="owl2-controls"><div class="owl2-nav"><div class="owl2-prev disabled" style="display: block;">prev</div><div class="owl2-next disabled" style="display: block;">next</div></div><div class="owl2-dots" style="display: none;"></div></div></div>
+</div>
+                    <div class="related titleLine products-list grid module ">
+	<h3 class="modtitle">Também Viram</h3>
+	<div class="releate-products owl2-carousel owl2-theme owl2-loaded">
+		
+	<div class="owl2-stage-outer"><div class="owl2-stage" style="transform: translate3d(0px, 0px, 0px); transition: all; width: 1195px;"><div class="owl2-item active" style="width: 273.75px; margin-right: 25px;"><div class="product-layout">
+	<div class="product-item-container">
+		<div class="left-block" style="min-height: 170px;">
+			<div class="product-image-container second_img">
+				<a href="https://www.livrariaandreoli.com.br/item/Kit-5-Copos-De-Ventosa-De-Vidro-Com-Apoio-Para-Os-Dedos.html"><img src="https://www.livrariaandreoli.com.br/product_images/n/521/1376__03032_thumb.png" alt="Kit 5 Copos De Ventosa De Vidro Com Apoio Para Os Dedos"></a>
+			</div>
+		</div>
+
+		<div class="right-block">
+			<div class="caption">
+				<h4><a href="https://www.livrariaandreoli.com.br/item/Kit-5-Copos-De-Ventosa-De-Vidro-Com-Apoio-Para-Os-Dedos.html" title="Kit 5 Copos De Ventosa De Vidro Com Apoio Para Os Dedos">Kit 5 Copos De Ventosa De Vidro Com Apoio Para Os Dedos</a></h4>    
+				
+				<div class="price">
+					<span class="PrecoPor"><strong>R$105,00</strong></span>
+					<span style="display:;" class="parcela"></span>
+				</div>
+			</div>
+
+			<div class="button-group">
+				<button class="addToCart" style="display:;" type="button" onclick="window.location = 'https://www.livrariaandreoli.com.br/cart.php?action=add&amp;product_id=1928';">
+					<i class="fa fa-shopping-cart"></i> <span class="button-group__text">Comprar</span>
+				</button>
+			</div>
+			<div style="" class="ratings">
+				<div class="rating-box">
+					<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div><div class="owl2-item active" style="width: 273.75px; margin-right: 25px;"><div class="product-layout">
+	<div class="product-item-container">
+		<div class="left-block" style="min-height: 170px;">
+			<div class="product-image-container second_img">
+				<a href="https://www.livrariaandreoli.com.br/item/thoth-o-hospital-do-futuro"><img src="https://www.livrariaandreoli.com.br/product_images/r/953/9786599048012__36304_thumb.png" alt="Thoth - O Hospital do Futuro"></a>
+			</div>
+		</div>
+
+		<div class="right-block">
+			<div class="caption">
+				<h4><a href="https://www.livrariaandreoli.com.br/item/thoth-o-hospital-do-futuro" title="Thoth - O Hospital do Futuro">Thoth - O Hospital do Futuro</a></h4>    
+				
+				<div class="price">
+					<span class="PrecoPor"><strong>R$89,00</strong></span>
+					<span style="display:none;" class="parcela"></span>
+				</div>
+			</div>
+
+			<div class="button-group">
+				<button class="addToCart" style="display:none;" type="button" onclick="window.location = 'https://www.livrariaandreoli.com.br/cart.php?action=add&amp;product_id=1926';">
+					<i class="fa fa-shopping-cart"></i> <span class="button-group__text">Comprar</span>
+				</button>
+			</div>
+			<div style="" class="ratings">
+				<div class="rating-box">
+					<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div><div class="owl2-item active" style="width: 273.75px; margin-right: 25px;"><div class="product-layout">
+	<div class="product-item-container">
+		<div class="left-block" style="min-height: 170px;">
+			<div class="product-image-container second_img">
+				<a href="https://www.livrariaandreoli.com.br/item/ITF-Indice-Terapeutico-Fitoterapico.-Ervas-Medicinais-2%AA-edicao.html"><img src="https://www.livrariaandreoli.com.br/product_images/b/130/9788581950044__47832_thumb.jpg" alt="ITF Indice Terapeutico Fitoterapico. Ervas Medicinais 2ª edicao"></a>
+			</div>
+		</div>
+
+		<div class="right-block">
+			<div class="caption">
+				<h4><a href="https://www.livrariaandreoli.com.br/item/ITF-Indice-Terapeutico-Fitoterapico.-Ervas-Medicinais-2%AA-edicao.html" title="ITF Indice Terapeutico Fitoterapico. Ervas Medicinais 2ª...">ITF Indice Terapeutico Fitoterapico. Ervas Medicinais 2ª...</a></h4>    
+				
+				<div class="price">
+					<span class="PrecoPor"><strong>R$190,00</strong></span>
+					<span style="display:;" class="parcela"></span>
+				</div>
+			</div>
+
+			<div class="button-group">
+				<button class="addToCart" style="display:;" type="button" onclick="window.location = 'https://www.livrariaandreoli.com.br/cart.php?action=add&amp;product_id=1924';">
+					<i class="fa fa-shopping-cart"></i> <span class="button-group__text">Comprar</span>
+				</button>
+			</div>
+			<div style="" class="ratings">
+				<div class="rating-box">
+					<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div><div class="owl2-item active" style="width: 273.75px; margin-right: 25px;"><div class="product-layout">
+	<div class="product-item-container">
+		<div class="left-block" style="min-height: 170px;">
+			<div class="product-image-container second_img">
+				<a href="https://www.livrariaandreoli.com.br/item/tratamento-de-doencas-da-pele-estrategias-terapeuticas-abrangentes"><img src="https://www.livrariaandreoli.com.br/product_images/p/692/9788520416143__19391_thumb.jpg" alt="Tratamento de doenças da pele: Estratégias Terapêuticas Abrangentes"></a>
+			</div>
+		</div>
+
+		<div class="right-block">
+			<div class="caption">
+				<h4><a href="https://www.livrariaandreoli.com.br/item/tratamento-de-doencas-da-pele-estrategias-terapeuticas-abrangentes" title="Tratamento de doenças da pele: Estratégias Terapêuticas...">Tratamento de doenças da pele: Estratégias Terapêuticas...</a></h4>    
+				
+				<div class="price">
+					<span class="PrecoPor"><strong>R$262,00</strong></span>
+					<span style="display:;" class="parcela"></span>
+				</div>
+			</div>
+
+			<div class="button-group">
+				<button class="addToCart" style="display:;" type="button" onclick="window.location = 'https://www.livrariaandreoli.com.br/cart.php?action=add&amp;product_id=1912';">
+					<i class="fa fa-shopping-cart"></i> <span class="button-group__text">Comprar</span>
+				</button>
+			</div>
+			<div style="" class="ratings">
+				<div class="rating-box">
+					<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div></div></div><div class="owl2-controls"><div class="owl2-nav"><div class="owl2-prev disabled" style="display: block;">prev</div><div class="owl2-next disabled" style="display: block;">next</div></div><div class="owl2-dots" style="display: none;"></div></div></div>
+</div>
+                    <div class="related titleLine products-list grid module ">
+	<h3 class="modtitle">Visualizados</h3>
+	<div class="releate-products owl2-carousel owl2-theme owl2-loaded">
+		
+	<div class="owl2-stage-outer"><div class="owl2-stage" style="transform: translate3d(0px, 0px, 0px); transition: all; width: 298.75px;"><div class="owl2-item active" style="width: 273.75px; margin-right: 25px;"><div class="product-layout">
+	<div class="product-item-container">
+		<div class="left-block" style="min-height: 170px;">
+			<div class="product-image-container second_img ">
+				<a href="https://www.livrariaandreoli.com.br/item/Fundamentos-em-psiquiatria-Pedro-Gomes-de-Alvarenga.html"><img src="https://www.livrariaandreoli.com.br/product_images/t/305/9788520427187__47553_thumb.jpg" alt="Fundamentos em psiquiatria Pedro Gomes de Alvarenga"></a>							
+			</div>
+		</div>
+
+		<div class="right-block">
+			<div class="caption">
+				<h4><a href="https://www.livrariaandreoli.com.br/item/Fundamentos-em-psiquiatria-Pedro-Gomes-de-Alvarenga.html" title="Fundamentos em psiquiatria Pedro Gomes de Alvarenga">Fundamentos em psiquiatria Pedro Gomes de Alvarenga</a></h4>    
+				<div class="price">
+					<span class="PrecoPor"><strong>R$197,00</strong></span>
+					<span style="display:;" class="parcela"></span>
+				</div>
+			</div>
+
+			<div class="button-group">
+				<button class="addToCart" style="display:;" type="button" onclick="window.location = 'https://www.livrariaandreoli.com.br/cart.php?action=add&amp;product_id=767';">
+					<i class="fa fa-shopping-cart"></i> <span class="button-group__text">Comprar</span>
+				</button>
+			</div>
+			<div style="" class="ratings">
+				<div class="rating-box">
+					<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span><span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div></div></div><div class="owl2-controls"><div class="owl2-nav"><div class="owl2-prev disabled" style="display: block;">prev</div><div class="owl2-next disabled" style="display: block;">next</div></div><div class="owl2-dots" style="display: none;"></div></div></div>
+</div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-container type_footer3">
+	<section class="footer-top">
+		<div class="container content">
+			<div class="row">
+				<div class="col-sm-6 col-md-3 box-information">
+					<div class="module clearfix">
+						<h3 class="modtitle" style="font-size: 16px;">Páginas</h3>
+						<div class="modcontent">
+							<ul class="menu">
+								<li><a href="https://www.livrariaandreoli.com.br" class="clearfix"><span class="fa fa-home " aria-hidden="true"></span>&nbsp;&nbsp;Página Inicial</a></li>
+<li><a href="https://www.livrariaandreoli.com.br/pages/Fale-Conosco.html" class="clearfix"><span class="fa fa-comments " aria-hidden="true"></span>&nbsp;&nbsp;Fale Conosco</a></li>
+<li><a href="https://www.livrariaandreoli.com.br/giftcertificates.php" class="clearfix"><span class="fa fa-gift " aria-hidden="true"></span>&nbsp;&nbsp;Vale Presentes</a></li>
+<li><a href="https://www.livrariaandreoli.com.br/listadeprodutos.php" class="clearfix"><span class="fa fa-align-justify " aria-hidden="true"></span>&nbsp;&nbsp;Catálogo de Produtos</a></li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-3 box-account">
+					<div class="module clearfix">
+						<h3 class="modtitle" style="font-size: 16px;">Minha Conta</h3>
+						<div class="modcontent">
+							<ul class="menu">
+								<li><a href="https://www.livrariaandreoli.com.br/account.php">Minha Conta</a></li>
+								<li><a href="https://www.livrariaandreoli.com.br/account.php?action=order_status">Meus Pedidos</a></li>
+								<li><a href="https://www.livrariaandreoli.com.br/account.php?action=address_book">Meus Endereços</a></li>
+								<li><a href="https://www.livrariaandreoli.com.br/wishlist.php">Lista de Desejos</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-3 box-information">
+					<div class="module clearfix">
+						<h3 class="modtitle" style="font-size: 16px;">A Empresa</h3>
+						<div class="modcontent">
+							<ul class="contact-address">
+								<li><span class="fa fa-university"></span>Livraria Andreoli</li>
+								<li style="display:none"><span class="fa fa-map-marker"></span> </li>
+								<li style="display:none"><span class="fa fa-newspaper-o"></span></li>
+                				<li style="display:none"><span class="fa fa-envelope-o"></span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				
+
+				<div class="col-sm-6 col-md-3 box-information">
+					<div class="module clearfix">
+						<h3 class="modtitle" style="font-size: 16px;">Central de Atendimento</h3>
+						<div class="modcontent">
+							<ul class="contact-address">
+								<li style="display:"><span class="fa fa-phone"></span> 11960251465</li>
+								<li style="display:none"><span class="fa fa-mobile"></span> </li>
+								<li style="display:none"><span class="fa fa-whatsapp"></span> </li>
+								<li style="display:none"><span class="fa fa-skype"></span> </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<hr class="footer-lines">
+
+				<div class="col-sm-12 col-md-4 box-service">
+					<div class="module clearfix">
+						<center><h3>Receba nossas notícias</h3></center><br>
+					<center>
+<div class="module clearfix modLine">
+	<div class="modcontent align-center">
+		<div class="subscribe-home">
+			<form class="form subscribe" novalidate="novalidate" action="https://www.livrariaandreoli.com.br/subscribe.php" method="post" id="subscribe_form" name="subscribe_form">
+				<input type="hidden" name="action" value="subscribe">
+				<input type="hidden" name="nl_first_name" id="nl_first_name" value="Assinante">
+				<div class="input-group">
+					<input name="nl_email" id="nl_email" type="email" class="form-control" onfocus="if(this.value=='Informe seu e-mail') this.value='';" onblur="if(this.value=='') this.value='Informe seu e-mail';" value="Informe seu e-mail" data-validate="{required:true, 'validate-email':true}">
+					<span class="input-group-btn">
+						
+						<button type="submit" class="button-search btn btn-primary" name="submit_search">Assinar</button>
+						
+					</span>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+// <!--
+	$('#subscribe_form').submit(function() {
+		if($('#nl_first_name').val() == '') {
+			swal('Você esqueceu-se de informar seu primeiro nome.');
+			$('#nl_first_name').focus();
+			return false;
+		}
+
+		if($('#nl_email').val() == '') {
+			swal('Você esqueceu-se de informar seu endereço de email.');
+			$('#nl_email').focus();
+			return false;
+		}
+
+		if($('#nl_email').val().indexOf('@') == -1 || $('#nl_email').val().indexOf('.') == -1) {
+			swal('Por favor, informe um E-mail correto!');
+			$('#nl_email').focus();
+			$('#nl_email').select();
+			return false;
+		}
+
+		// Set the action of the form to stop spammers
+		$('#subscribe_form').append("<input type=\"hidden\" name=\"check\" value=\"1\" \/>");
+		return true;
+
+	});
+// -->
+</script>
+</center>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 box-information">
+					<div class="module clearfix">
+						<h3><center>Formas de pagamento</center></h3>
+						<div class="modcontent">
+							<img src="https://www.livrariaandreoli.com.br/templates/market/images/pagamento.png" alt="Formas de Pagamento">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4 box-information">
+					<div class="module clearfix">
+						<h3><center>Formas de Envio</center></h3>
+						<div class="modcontent">
+							<img src="https://www.livrariaandreoli.com.br/templates/market/images/envio.png" alt="Formas de Envio">
+						</div>
+					</div>
+				</div>
+
+				
+				<hr class="footer-lines">
+					
+				<div class="col-md-8 col-sm-12 col-xs-12">
+					<div class="module clearfix modLine">
+						<center><h3>Certificados e segurança</h3></center>
+						<img src="https://www.livrariaandreoli.com.br/templates/market/images/selos.png" alt="Certificados e segurança">
+					</div>
+				</div>
+					
+				<div class="col-md-4 col-sm-12 col-xs-12">
+					<div class="module clearfix modLine footer--social" style="display: none">
+						<h3 class="modtitle">Redes Sociais</h3>
+						<div class="modcontent">
+							<div class="icons-social">	
+								<div class="list-inline">
+									<a title="Facebook" href="" target="_blank"> 
+										<span class="fa fa-facebook icon-circled icon-color"></span> 
+									</a>
+									
+									<a style="display:none" title="Twitter" href="" target="_blank"> 
+										<span class="fa fa-twitter icon-circled icon-color"></span> 
+									</a>
+							
+									<a style="display:none" title="Youtube" href="" target="_blank"> 
+										<span class="fa fa-youtube icon-circled icon-color"></span>
+									</a>
+										
+									<a style="display:none" title="Instagram" href="" target="_blank"> 
+										<span class="fa fa-instagram icon-circled icon-color"></span>
+									</a>
+								</div>
+
+							</div>	
+						</div>
+					</div>
+					
+				</div>
+				
+				<hr class="footer-lines footer-lines--bottom">
+			</div>
+		</div>
+	</section>
+
+	<div class="footer-bottom-block ">
+		<div class=" container">
+			<div class="row">
+				<div class="col-sm-9 copyright-text">Todas as regras e promoções são válidas apenas para produtos vendidos e entregues pelo site. O preço válido será o da finalização da compra. </div>
+				<div class="col-sm-3">
+					<div class="block-payment text-right"><i class="fa fa-connectdevelop"></i> <a href="#" target="_self" style="color:#fff; font-size:10px; text-decoration:none; ">Todos os Direitos Reservados.</a></div>
+				</div>
+				<div class="back-to-top hidden-top"><i class="fa fa-angle-up"></i><span> Topo </span></div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+	// attach fast cart event to all 'add to cart' link
+	$(".ProductActionAdd a[href*='cart.php?action=add']").click(function(event) {
+		fastCartAction($(this).attr('href'));
+		return false;
+	});
+});
+</script>
+
+
+<!--- COMEÇA AQUI -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script> 
+<style type="text/css">
+    @media only screen and (max-width: 600px) {
+        .pri .aa, .pri .a9{width: 100% !important}
+    }
+    div#a0 {z-index: 99!important;}
+    .pri .a8 {
+        border-radius: 5px!important;
+        bottom: 50px!important;
+        left: 5%!important;
+        padding: 5px!important;
+        position: fixed!important;
+        transition: width .1s ease-in-out!important;
+        width: 90%!important;
+        height: auto!important;
+    }
+    .pri .a9 {
+        display: inline-block!important;
+        padding-left: 15px!important;
+        width: 68%;
+    }
+    .pri .pph--pwmilvus {
+        line-height: 1.5!important;
+        margin: 10px 0!important;
+        padding: 0!important;
+        background: inherit!important;
+        border: none!important;
+        display: block!important;
+        position: relative!important;
+        width: 100%!important;
+        height: auto!important;
+        text-align: start!important;
+        justify-content: start!important;
+        font-size: 12px;
+    }
+    .pri .aa {
+        align-content: center!important;
+        display: inline-block!important;
+        text-align: right!important;
+        width: 30%;
+    }
+    .pri .btn--pwmilvus.g {
+        font-size: 15px;
+        height: 35px!important;
+    }
+    .pri .btn--pwmilvus {
+        -ms-touch-action: manipulation!important;
+        background-image: none;
+        border: 1px solid;
+        cursor: pointer!important;
+        display: inline-block!important;
+        font-size: 14px;
+        line-height: 1.42857143!important;
+        margin-bottom: 0!important;
+        padding: 6px 12px!important;
+        text-align: center!important;
+        touch-action: manipulation!important;
+        user-select: none!important;
+        vertical-align: middle!important;
+        white-space: nowrap!important;
+        width: auto!important;
+    }
+    .pri .btn--pwmilvus {
+        border-radius: 5px!important;
+        height: 25px!important;
+    }
+
+</style>
+<span class="pri t-p-d-r" style="">
+    <div class="a8" id="a0" style="color: rgba(0, 0, 0, 0.99) !important; background-color: rgb(255, 255, 255) !important; border-width: 1px !important; border-color: #f4a137 !important; border-style: solid; font-size: 12px !important; font-family: Arial !important;">
+        <div class="a9" id="text-barra-inferior">
+            <p class="pph--pwmilvus" id="inicial-geral-personalizado" style="color: rgba(0, 0, 0, 0.99) !important; background-color: rgb(255, 255, 255) !important; font-size: 12px !important; font-family: Arial !important;">Clicando em <b>"Aceito todos os Cookies"</b>, você concorda com o armazenamento de cookies no seu dispositivo, com eles melhoramos a navegação e uso do site além de sermos mais acertivo com o marketing.</p>
+        </div>
+        <div class="aa" id="buttons-barra-inferior">
+            <button class="btn--pwmilvus g" id="a3" style="color: rgb(255, 255, 255) !important; background-color: #f4a137 !important; border-width: 2px !important; border-color: rgb(255, 255, 255) !important; border-style: solid; font-size: 12px !important; font-family: Arial !important;" data-toggle="modal" data-target="#myModal">Detalhes</button> 
+            <button class="btn--pwmilvus g aceito" id="a4" style="color: rgb(255, 255, 255) !important; background-color: #f4a137 !important; border-width: 2px !important; border-color: rgb(255, 255, 255) !important; border-style: solid; font-size: 12px !important; font-family: Arial !important;">Aceito todos os Cookies</button> 
+        </div>
+    </div>
+</span>
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+            	Política de Privacidade
+                <button type="button" class="close" data-dismiss="modal">×</button>
+            </div>
+            <div class="modal-body">
+                <ul class="nav nav-tabs">
+                   
+                   
+                </ul>
+
+                <div class="tab-content">
+                    
+
+                    <div id="menu1" class="tab-pane fade in active">
+                        <p><span>Usamos Cookies e tecnologias similares para armazenar dados e melhorar a experiência de navegação em nosso site. Com essas informações criamos conteúdos personalizados para sua navegação. Caso queira saber mais sobre nossas políticas de privacidade, acesso nossos&nbsp;</span><a title="Aviso de cookies. A página abrirá em uma nova janela" href="https://www3.livrariacultura.com.br/central-de-ajuda/condicoes-gerais-politica-privacidade" target="_blank"><strong><span>termos de uso</span></strong></a></p>
+<p>&nbsp;</p>
+<p><strong><span>POLÍTICA DE PRIVACIDADE E CÓDIGO DE DEFESA DO CONSUMIDOR</span></strong></p>
+<p><strong><span>&nbsp;</span></strong></p>
+<p><strong><span>Condições gerais</span></strong></p>
+<p><span>Primeiramente convém esclarecer que a Livraria Andreoli opera com uma rigorosa Política de Privacidade e Segurança, sob a qual, todos os dados fornecidos são mantidos em sigilo em respeito à sua privacidade. Utilizamos um moderno sistema de codificação e tecnologia avançada para transações online, com o intuito de garantir que sua compra seja feita com segurança, mantendo assim, a qualidade de nossos serviços. Possuímos certificados de segurança e todas as transações são criptografadas.</span></p>
+<p><strong><span>Compra segura</span></strong></p>
+<p><span>Para efetuar compras em nosso site, serão solicitados alguns dados cadastrais. O cliente precisará dar o seu “de acordo” para fornecer tais dados cadastrais. O fornecimento dos dados cadastrais são essenciais para a formalização da compra. Será pedido também e-mail e senha de acesso ao site, que vão garantir que apenas o cliente cadastrado realize a compra. O endereço cadastrado é utilizado apenas para o envio dos produtos adquiridos e para a emissão da respectiva Nota Fiscal, sendo que nenhuma correspondência será enviada sem a sua solicitação. Caso você queira enviar os produtos adquiridos para terceiros, serão solicitados nome e endereço completos do destinatário, a fim de possibilitar a realização da entrega de forma rápida e eficiente.</span></p>
+<p><span>Para concluir o pedido, serão solicitadas informações financeiras conforme a forma de pagamento escolhida. O ícone do cadeado fechado, no canto superior da URL do site, indica a transmissão segura dos dados para pagamento.</span></p>
+<p><span>Ao optar pelo pagamento com cartão de crédito, você deverá informar o número do cartão, o nome impresso no cartão, o endereço de cobrança, o código de segurança, a data de vencimento e a operadora. Para sua segurança, estas informações não serão mantidas em nosso banco de dados, sendo necessário informá-las novamente em todas as compras. Nessas transações, o processo de aprovação é feito diretamente com as Administradoras de Cartões, Bancos e intermediadores de pagamentos.</span></p>
+<p><span>Para sua comodidade, você pode cadastrar a opção de “comprar com 1 clique” apenas para compras com cartão de crédito. Nela, seus dados ficam armazenados em ambiente seguro e, assim, não é necessário preencher os mesmos formulários a cada compra. Desta forma, você opta por informar e deixar salvo o endereço de entrega e seus dados de cartão de crédito para que a compra seja efetuada com rapidez e praticidade.</span></p>
+<p><span>Se a opção de pagamento for por meio de débito online, você será direcionado ao site do banco escolhido, no qual a Livraria Andreoli não tem acesso às informações solicitadas. Após o direcionamento para o ambiente de pagamentos do banco escolhido, o ambiente de segurança será o fornecido e mantido pelo próprio banco. Sugerimos que você sempre utilize e mantenha o seu dispositivo atualizado, com o antivírus ativado e dê preferência para a digitação dos dados através de teclado virtual caso o mesmo seja disponibilizado pelo ambiente do banco escolhido.</span></p>
+<p><span>Os pedidos efetuados em nosso site estão sujeitos à análise e à aprovação de dados cadastrais. Em caso de divergência de dados cadastrais e de pagamento, você poderá ser contatado para confirmação de algumas informações. O contato pode ser feito inclusive via telefone por um de nossos prestadores de serviços de tecnologia. O prestador poderá solicitar informações cadastrais para verificação de identidade Este procedimento é adotado para confirmação da identidade de quem está realizando a compra, a fim de evitar danos ou quaisquer prejuízos aos nossos clientes, garantindo uma compra online ainda mais segura.</span></p>
+<p><span>O e-mail cadastrado será utilizado para comunicar informações sobre suas compras e, quando solicitado por você, informar sobre promoções ou ofertas exclusivas. Caso você prefira cancelar o recebimento de e-mails promocionais, você pode fazer o cancelamento através do link indicando no próprio e-mail ou acessando a sua conta no site&nbsp;</span><a href="http://www.livrariaandreoli.com.br/"><strong><span>www.livrariaandreoli.com.br</span></strong></a><strong></strong></p>
+<p><span>&nbsp;</span></p>
+<p><span>&nbsp;</span></p>
+<p><span>&nbsp;</span></p>
+<p><span>&nbsp;</span></p>
+<p><span>&nbsp;</span></p>
+<p><span>Dados coletados pela Livraria Andreoli:</span></p>
+<p><span>Podemos coletar diferentes tipos de dados pessoais, fornecidos por você ou de forma automática, com o objetivo de conferência, monitoramento e controle, conforme o acesso no site da loja Livraria Andreoli e </span><span>existem algumas informações que poderão ser coletadas durante a navegação na plataforma estando o usuário logado ou não no nosso site.</span></p>
+<p><span>Existem algumas outras informações que poderão ser coletadas por nós,<span>informações fornecidas diretamente a nós por você, voluntariamente, por meio de comunicações em redes sociais ou em comentários e avaliações de produtos;Informações sobre você que se tornaram públicas por você ou que estejam disponíveis publicamente;</span></span></p>
+<p><span>Cópias de documentos enviados por você como comprovante de residência, dados bancários ou cópia de um documento de identidade, geralmente utilizados para comprovação de seu cadastro ou validação de sua identidade.</span></p>
+<p><span>Forma de utilização dos seus dados pessoais</span></p>
+<p><span>Dados cadastrais:</span></p>
+<p><span>Para viabilizar a prestação de diferentes serviços disponíveis em nossas lojas ou em nosso site.</span></p>
+<p><span>Para realizar o atendimento de solicitações e dúvidas em nossa Central de Atendimento.</span></p>
+<p><span>Para identificar corretamente o Usuário.</span></p>
+<p><span>Para entrar em contato com você, quando necessário e desde que previamente autorizado.</span></p>
+<p><span>Existem diversas hipóteses nas quais o contato é necessário tais como, comunicação sobre promoções e ofertas, respostas a dúvidas, respostas de reclamações e solicitações, atualizações dos pedidos realizados e informações de entrega.</span></p>
+<p><span>Para desenvolver novas funcionalidades e melhorias, melhorando a sua experiência com nossos serviços disponíveis.</span></p>
+<p><span>Para realizar investigações e medidas de prevenção e combate a ilícitos, fraudes, crimes financeiros e crimes de lavagem de dinheiro e/ou de financiamento ao terrorismo.</span></p>
+<p><span>Para garantir o cumprimento de obrigação legal ou regulatória ou garantir o exercício regular de direitos. Nesses casos, podemos, inclusive, utilizar e apresentar as informações em processos judiciais e administrativos, se necessário e conforme estabelecido pela legislação aplicável.</span></p>
+<p><span>Para colaborar com o cumprimento de ordem judicial, de autoridade competente ou de órgão fiscalizador.</span></p>
+<p><span>Com quem os seus dados pessoais são compartilhados?</span></p>
+<p><span>Os seus dados pessoais são compartilhados apenas para a execução das atividades listadas neste documento, sempre que for imprescindível para o seu atendimento e para o cumprimento das nossas obrigações perante você. Nós poderemos compartilhar os seus dados pessoais com outras empresas do nosso grupo, com prestadores de serviço, parceiros ou com órgãos reguladores.</span></p>
+<p><span>Cumpre esclarecer que jamais comercializamos dados pessoais. Em regra geral, a Livraria Andreoli, em nenhuma hipótese, comercializa ou empresta informações de seu banco de dados para outra empresa, instituição ou associação. No entanto, cabe salientar que faz-se necessário o compartilhamento de informações com empresas parceiras, sob total sigilo e privacidade, para a prestação de serviços como: entrega dos itens adquiridos, formalização de uma compra via Marketplace, cobrança, envio de E-mails, SMS, análise de banco de dados ou processamento de transações por meio de cartão de crédito. Além de tais motivos, os referidos dados somente poderão ser revelados em caso de requerimento de autoridade pública administrativa ou judicial.</span></p>
+<p><span>Forma de armazenamento e gestão de segurança dos dados pessoais</span></p>
+<p><span>Os seus dados são armazenados de forma segura em data centers localizados no Brasil, bem como no exterior. Neste caso de armazenamento no exterior, são adotadas todas as medidas legais aplicáveis, em conformidade com a Lei Geral de Proteção de Dados e suas futuras regulamentações, garantindo a proteção e privacidade dos seus dados pessoais.</span></p>
+<p><span>Temos por padrão a adoção das melhores técnicas disponíveis para proteger os dados pessoais coletados de acessos não autorizados, destruição, perda, alteração, comunicação ou qualquer forma de tratamento inadequado ou ilícito, inclusive mecanismos de criptografia. Entretanto, se tratando de meios digitais, vale lembrar que nenhuma plataforma é completamente segura. Se você tiver qualquer dúvida ou suspeita de que os seus dados estejam em risco, por favor, entre em contato conosco por meio dos nossos canais de atendimento para que possamos auxilia-lo.</span></p>
+<p><span>Seus dados pessoais serão mantidos durante todo o período que for um cliente ativo da Livraria Andreoli. Após esse período, podemos armazenar os seus dados pessoais por um período adicional para fins de auditoria e para possibilitar o cumprimento de obrigações legais ou regulatórias. Faremos a retenção dos seus dados pelo prazo necessário, respeitando os prazos estabelecidos na legislação aplicável.</span></p>
+<p><span>Uso de cookies e outras tecnologias de monitoramento para oferecer um serviço sempre melhor:</span></p>
+<p><span>A Livraria Andreoli utiliza cookies e outras tecnologias para obter informações sobre sua navegação e melhorar cada vez mais a oferta de produtos e serviços, de acordo com sua preferência e interesse. Este processo não afeta em nada o funcionamento de seu dispositivo e, tampouco, sua navegação. Todo processo é automatizado para que seus dados sejam mantidos em sigilo absoluto. As informações armazenadas são usadas unicamente para as finalidades aqui indicadas.</span></p>
+<p><span>Podemos utilizar certas tecnologias de monitoramento para coletar as informações das atividades realizadas em nosso site de forma automatizada. As informações coletadas por meio de tais tecnologias são utilizadas para realizar métricas de performance, identificar problemas no uso, captar o comportamento dos Usuários de forma geral e coletar dados de impressão de conteúdo.</span></p>
+<p><span>Cookies e Ferramentas tecnológicas:</span></p>
+<p><span style="text-decoration: underline;"><span>Cookies:</span></span><span> cookie é um pequeno arquivo adicionado ao dispositivo do Usuário para fornecer uma experiência personalizada de acesso à plataforma. Os cookies ajudam a analisar o tráfego de internet e nos permite saber quando o Usuário visitou um site específico. Um cookie não dá acesso a um computador ou revela informações além dos dados que o usuário escolhe compartilhar conosco.</span></p>
+<p><span style="text-decoration: underline;"><span>Pixels:</span></span><span> pixels são partes do código JavaScript instalados adicionados em nosso websites ou no corpo de um e-mail, com a finalidade de rastrear coletar informações sobre as atividades dos usuários, permitindo a identificação dos seus padrões de acesso, navegação, interesse e compras de produtos, e otimizando utilizados para otimizar o direcionamento de conteúdo.</span></p>
+<p><span style="text-decoration: underline;"><span>Web beacon:</span></span><span> web beacon é uma técnica que permite mapear quem está visitando uma determinada página da web, identificando o comportamento do usuário com diferentes sites ou servidores da web.</span></p>
+<p><span style="text-decoration: underline;"><span>Ferramentas de analytics:</span></span><span> essas ferramentas podem coletar informações sobre a forma como os Usuários visitam nosso site, quais páginas eles visitam e quando visitam tais páginas, outros sites que foram visitados antes, entre outras informações correlatas.</span></p>
+<p><span>Possibilidade de transferência internacional de dados pessoais</span></p>
+<p><span>Alguns de seus dados pessoais poderão ser transferidos para outros países, por exemplo, quando utilizarmos serviços computacionais em nuvem para processamento ou armazenamento de dados, localizados fora do Brasil. Nestas situações respeitamos todos os requisitos estabelecidos na legislação vigente, adotando as melhores práticas de mercado a fim de garantir a proteção e privacidade dos seus dados pessoais.</span></p>
+<p><span>Principais direitos previstos na Lei Geral de Proteção de Dados e que podem ser exercidos por você:</span></p>
+<p><span>Confirmação da existência de tratamento de dados pessoais.</span></p>
+<p><span>Acesso aos dados pessoais.</span></p>
+<p><span>Revogação do consentimento de uso dos dados pessoais.</span></p>
+<p><span>Correção de dados pessoais incompletos, inexatos ou desatualizados.</span></p>
+<p><span>Eliminação dos dados pessoais tratados com o consentimento ou desnecessários, excessivos ou quando entender que algum ponto da LGPD não foi atendido.</span></p>
+<p><span>Informação sobre as hipóteses e com quais empresas, parceiros e outras instituições podemos compartilhar, ou receber dados pessoais referentes a você.</span></p>
+<p><span>Informação sobre a possibilidade de não fornecer consentimento e sobre as consequências da negativa, quando aplicável.</span></p>
+<p><span>Todas as solicitações serão tratadas de forma gratuita, e serão submetidas a uma prévia avaliação da sua identidade e da viabilidade do atendimento, a fim de cumprir com eventuais obrigações que impeçam o completo atendimento das requisições dos titulares de direito.</span></p>
+<p><span>Além disso, é importante que você tenha conhecimento da forma como a exclusão dos seus dados pessoais é efetuada.</span></p>
+<p><span>O usuário pode optar por solicitar a exclusão definitiva dos seus dados cadastrais do banco de dados da Livraria Andreoli, clicando no fale conosco para enviar a sua solicitação.</span></p>
+<p><span>Após a solicitação, a Livraria Andreoli efetuará o descadastramento em até 2 dias úteis.</span></p>
+<p><span>Livraria Andreoli poderá reter alguns ou todos os seus dados pessoais por períodos adicionais para cumprimento de obrigações legais ou regulatórias, para o exercício regular de direitos, eventuais ações judiciais, fins de auditoria de diversas naturezas, ou outros prazos definidos e fundamentados por bases legais que justifiquem a retenção destes dados.</span></p>
+<p><span>Compartilhamento de Imagens e Vídeos</span></p>
+<p><span>Caso você queira enviar fotos, ilustrações ou vídeos relacionados a eventos e produtos da Livraria Andreoli, é importante que você seja o detentor do direito autoral sobre tais obras ou que os arquivos sejam de domínio público, e, no caso de fotos, ilustrações ou vídeos que retratem terceiros, que você tenha autorização dos próprios para utilização de tais imagens.</span></p>
+<p><span>Imagens</span></p>
+<p><span>Deverão estar em extensão .gif ou .jpg, com até 200KB, e o tamanho máximo permitido é de 600x480 pixels.</span></p>
+<p><span>Vídeos</span></p>
+<p><span>Precisam estar cadastrados no YouTube (www.youtube.com.br). Para compartilhá-los conosco, basta enviar o link do vídeo cadastrado no YouTube.</span></p>
+<p><span>Todos os arquivos recebidos serão analisados e, se estiverem de acordo com as regras abaixo, serão disponibilizados em nosso site:</span></p>
+<p><span>Não serão aceitos fotos ou vídeos que sejam difamatórios, obscenos, incitem a violência ou, de alguma forma, sejam abusivos, violem direitos autorais, direitos de imagem e/ou quaisquer direitos de propriedade intelectual de terceiros.</span></p>
+<p><span>Se você acredita que alguma imagem e/ou vídeo divulgado(a) no site da Livraria Andreoli viola direitos autorais, de propriedade intelectual ou de imagem, por favor, entre em contato com nossa Central de Atendimento, a fim de que possamos tomar as providências necessárias.</span></p>
+<p><span>Ao concordar com os Termos de Uso, você concede à Livraria Andreoli, a título gratuito, o direito de uso da imagem e/ou vídeo em todo o território nacional e no exterior, para uso no site, em campanhas promocionais e institucionais destinadas à divulgação ao público em geral e/ou apenas para uso interno com a finalidade de divulgar o produto e/ou evento relacionado.</span></p>
+<p><span>Apesar de todos esses cuidados, lembramos que, para sua segurança, não é aconselhável compartilhar sua senha de acesso com terceiros, familiares ou amigos.</span></p>
+<p><span>Vale lembrar que, em algumas situações, a Livraria Andreoli pode entrar em contato para pedir e/ou confirmar alguns dados pessoais. Quando houver este tipo de solicitação, ela será feita por contato telefônico ou por meio do e-mail atendimento@livrariaandreoli.com.br. Quando tiver dúvidas em relação a algum pedido de dados pessoais, entre em contato conosco para confirmação da solicitação antes de passar as informações que estão sendo pedidas.</span></p>
+<p><span>A Livraria Andreoli nunca envia e-mails solicitando o download ou execução de arquivos com extensão exe, com, scr, bat, dentre outros.</span></p>
+<p><span>Caso tenha alguma dúvida, entre em contato conosco por meio de nossa Central de Soluções, que está à disposição para esclarecer todas as questões.</span></p>
+<p><span>Reservamo-nos o direito de modificar as informações contidas nesta Política de Privacidade sem aviso prévio.</span></p>
+<p><span>Livraria Andreoli ME -  Rua Padre Chico, 705, Pompéia, São Paulo – SP CEP 05008-010 CNPJ 02.480.054/0001-27 - IE 148.103.440.115</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Aceito todos os cookies</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var isshow = $.cookie("isshow");
+    if (isshow == null) {
+        $('.pri').show()
+    }
+
+    $(".aceito").click(function(){
+        $.cookie("isshow", 1); 
+        $('.pri').hide()
+    });
+           
+</script>
+    <script src="https://www.livrariaandreoli.com.br/templates/market/Assets/js/jquery.maskedinput.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+           $("#cep_simular").mask("99999-999");            
+        });
+    </script>
+
+</body></html>

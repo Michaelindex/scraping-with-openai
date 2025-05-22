@@ -1,0 +1,691 @@
+2025-05-22 02:11:38,812 - P17320 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 02:11:38,813 - P17320 - INFO - Nome: ANA PAULA MELO ARAUJO
+2025-05-22 02:11:38,813 - P17320 - INFO - Reiniciando driver do Chrome
+2025-05-22 02:11:40,191 - P17320 - INFO - Após reiniciar driver Uso de memória: 101.87 MB
+2025-05-22 02:11:40,191 - P17320 - INFO - Início do processamento Uso de memória: 101.87 MB
+2025-05-22 02:11:40,191 - P17320 - INFO - Iniciando busca para: ANA PAULA MELO ARAUJO CRM 31648 PE telefone e-mail endereço
+2025-05-22 02:11:40,697 - P17320 - INFO - SearX results: 10 URLs
+2025-05-22 02:11:40,697 - P17320 - INFO - Após SearX Uso de memória: 101.87 MB
+2025-05-22 02:11:43,707 - P17320 - INFO - Google results: 8 URLs
+2025-05-22 02:11:43,707 - P17320 - INFO - Após Google Uso de memória: 103.11 MB
+2025-05-22 02:11:46,308 - P17320 - INFO - Bing results: 15 URLs
+2025-05-22 02:11:46,308 - P17320 - INFO - Após Bing Uso de memória: 105.16 MB
+2025-05-22 02:11:46,309 - P17320 - INFO - Total de URLs únicas: 30
+2025-05-22 02:11:46,309 - P17320 - INFO - Processando URL 1/30: https://www.consultacrm.com.br/index/sis_login
+2025-05-22 02:11:50,207 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e56926aa25e0582d5c5b8aa167ed4b53.html
+2025-05-22 02:11:50,220 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:11:50,220 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:11:50,220 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:11:50,220 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:11:50,221 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:11:50,221 - P17320 - INFO - Após processar URL 1 Uso de memória: 105.37 MB
+2025-05-22 02:11:50,221 - P17320 - INFO - Processando URL 2/30: https://ioepa.com.br/pages/2017/2017.06.26.DOE.pdf
+2025-05-22 02:11:50,221 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://ioepa.com.br/pages/2017/2017.06.26.DOE.pdf
+2025-05-22 02:11:50,221 - P17320 - INFO - Após processar URL 2 Uso de memória: 105.37 MB
+2025-05-22 02:11:50,222 - P17320 - INFO - Processando URL 3/30: https://sistemadje.tjmt.jus.br/publicacoes/9714-2016_Entrancia_Especial.pdf
+2025-05-22 02:11:50,222 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/9714-2016_Entrancia_Especial.pdf
+2025-05-22 02:11:50,222 - P17320 - INFO - Após processar URL 3 Uso de memória: 105.37 MB
+2025-05-22 02:11:50,222 - P17320 - INFO - Processando URL 4/30: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 02:11:53,094 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 02:11:53,109 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:11:53,109 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:11:53,109 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:11:53,109 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:11:53,110 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:11:53,110 - P17320 - INFO - Após processar URL 4 Uso de memória: 105.41 MB
+2025-05-22 02:11:53,110 - P17320 - INFO - Processando URL 5/30: https://crmvirtual.cfm.org.br/PE/servico/pesquisar-por-medico
+2025-05-22 02:11:57,209 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\b4a1542bf2cd8d426427ba4c7bbd58ae.html
+2025-05-22 02:11:57,219 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:11:57,219 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:11:57,219 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:11:57,219 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:11:57,219 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:11:57,220 - P17320 - INFO - Após processar URL 5 Uso de memória: 105.42 MB
+2025-05-22 02:11:57,220 - P17320 - INFO - Processando URL 6/30: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-13-12-2021.pdf?p=1639440000061
+2025-05-22 02:11:57,220 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-13-12-2021.pdf?p=1639440000061
+2025-05-22 02:11:57,220 - P17320 - INFO - Após processar URL 6 Uso de memória: 105.42 MB
+2025-05-22 02:11:57,221 - P17320 - INFO - Processando URL 7/30: https://www.ibam.org.br/wp-content/uploads/2024/06/cm-fraiburgo-ed0123-docs.pdf
+2025-05-22 02:11:57,221 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.ibam.org.br/wp-content/uploads/2024/06/cm-fraiburgo-ed0123-docs.pdf
+2025-05-22 02:11:57,221 - P17320 - INFO - Após processar URL 7 Uso de memória: 105.42 MB
+2025-05-22 02:11:57,221 - P17320 - INFO - Processando URL 8/30: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1582393960.pdf
+2025-05-22 02:11:57,221 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1582393960.pdf
+2025-05-22 02:11:57,221 - P17320 - INFO - Após processar URL 8 Uso de memória: 105.42 MB
+2025-05-22 02:11:57,222 - P17320 - INFO - Processando URL 9/30: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20210609&idorgao=347
+2025-05-22 02:12:01,286 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\8d71bcc3f343eb2d70f95318a2f679ff.html
+2025-05-22 02:12:04,005 - P17320 - INFO - Candidates address: 38 items
+2025-05-22 02:12:04,006 - P17320 - INFO - Candidates phone: 5 items
+2025-05-22 02:12:04,006 - P17320 - INFO - Candidates email: 7 items
+2025-05-22 02:12:04,006 - P17320 - INFO - Candidates complement: 6 items
+2025-05-22 02:12:04,006 - P17320 - INFO - Candidates cep: 99 items
+2025-05-22 02:12:04,006 - P17320 - INFO - Após processar URL 9 Uso de memória: 102.60 MB
+2025-05-22 02:12:04,006 - P17320 - INFO - Processando URL 10/30: https://www.cremepe.org.br/
+2025-05-22 02:12:08,018 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e5b743bad9715e1bf2ff71ce2b5b2360.html
+2025-05-22 02:12:08,061 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:12:08,061 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 02:12:08,061 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:12:08,061 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:12:08,062 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:12:08,062 - P17320 - INFO - Após processar URL 10 Uso de memória: 98.32 MB
+2025-05-22 02:12:08,062 - P17320 - INFO - Processando URL 11/30: https://www.consultacrm.com.br/index/contato
+2025-05-22 02:12:11,950 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\770622092e11df0ef8d0ed5d383f74a3.html
+2025-05-22 02:12:11,962 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:12:11,962 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:12:11,962 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:12:11,962 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:12:11,962 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:12:11,963 - P17320 - INFO - Após processar URL 11 Uso de memória: 101.40 MB
+2025-05-22 02:12:11,963 - P17320 - INFO - Processando URL 12/30: https://www.marituba.pa.gov.br/site/wp-content/uploads/2017/05/Ioepa-Republica%C3%A7%C3%A3o-de-Edital.pdf
+2025-05-22 02:12:11,963 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.marituba.pa.gov.br/site/wp-content/uploads/2017/05/Ioepa-Republica%C3%A7%C3%A3o-de-Edital.pdf
+2025-05-22 02:12:11,963 - P17320 - INFO - Após processar URL 12 Uso de memória: 101.40 MB
+2025-05-22 02:12:11,963 - P17320 - INFO - Processando URL 13/30: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20190725&idorgao=766
+2025-05-22 02:12:17,267 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e335c8ab95af50557e0739cb4425bca1.html
+2025-05-22 02:12:18,381 - P17320 - INFO - Candidates address: 43 items
+2025-05-22 02:12:18,381 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:12:18,381 - P17320 - INFO - Candidates email: 2 items
+2025-05-22 02:12:18,381 - P17320 - INFO - Candidates complement: 6 items
+2025-05-22 02:12:18,381 - P17320 - INFO - Candidates cep: 115 items
+2025-05-22 02:12:18,382 - P17320 - INFO - Após processar URL 13 Uso de memória: 127.60 MB
+2025-05-22 02:12:18,382 - P17320 - INFO - Processando URL 14/30: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-22-07-2020.pdf
+2025-05-22 02:12:18,382 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-22-07-2020.pdf
+2025-05-22 02:12:18,382 - P17320 - INFO - Após processar URL 14 Uso de memória: 123.71 MB
+2025-05-22 02:12:18,383 - P17320 - INFO - Processando URL 15/30: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 02:12:22,154 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 02:12:22,319 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:12:22,320 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:12:22,320 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:12:22,320 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:12:22,320 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:12:22,320 - P17320 - INFO - Após processar URL 15 Uso de memória: 101.57 MB
+2025-05-22 02:12:22,321 - P17320 - INFO - Processando URL 16/30: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2016/08/Edi%C3%A7%C3%A3o-4196_31-08-2016.pdf
+2025-05-22 02:12:22,321 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2016/08/Edi%C3%A7%C3%A3o-4196_31-08-2016.pdf
+2025-05-22 02:12:22,321 - P17320 - INFO - Após processar URL 16 Uso de memória: 101.57 MB
+2025-05-22 02:12:22,321 - P17320 - INFO - Processando URL 17/30: https://www.consultacrm.com.br/index/api
+2025-05-22 02:12:26,007 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\a1f22ffdf7e0eb1c02e28e1e38d3db87.html
+2025-05-22 02:12:26,017 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:12:26,017 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:12:26,018 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:12:26,018 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:12:26,018 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:12:26,018 - P17320 - INFO - Após processar URL 17 Uso de memória: 103.95 MB
+2025-05-22 02:12:26,018 - P17320 - INFO - Processando URL 18/30: https://portal.cfm.org.br/busca-medicos
+2025-05-22 02:12:29,947 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 02:12:29,988 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:12:29,989 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:12:29,990 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:12:29,992 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:12:29,992 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:12:29,992 - P17320 - INFO - Após processar URL 18 Uso de memória: 104.88 MB
+2025-05-22 02:12:29,993 - P17320 - INFO - Processando URL 19/30: https://www.diario.pi.gov.br/doe/files/diarios/anexo/d4adfd2b-f26c-4a1d-a557-3a0271cc4473/DOEPI_219_2024.pdf
+2025-05-22 02:12:29,993 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.diario.pi.gov.br/doe/files/diarios/anexo/d4adfd2b-f26c-4a1d-a557-3a0271cc4473/DOEPI_219_2024.pdf
+2025-05-22 02:12:29,993 - P17320 - INFO - Após processar URL 19 Uso de memória: 104.88 MB
+2025-05-22 02:12:29,993 - P17320 - INFO - Processando URL 20/30: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1213875516.pdf
+2025-05-22 02:12:29,993 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1213875516.pdf
+2025-05-22 02:12:29,994 - P17320 - INFO - Após processar URL 20 Uso de memória: 104.88 MB
+2025-05-22 02:12:29,994 - P17320 - INFO - Processando URL 21/30: https://cnpj.biz/45981118000186
+2025-05-22 02:12:32,606 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\12c67e2591c7c2fff14f24a13a6db287.html
+2025-05-22 02:12:32,629 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 02:12:32,629 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:12:32,630 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:12:32,630 - P17320 - INFO - Candidates complement: 2 items
+2025-05-22 02:12:32,630 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:12:32,630 - P17320 - INFO - Após processar URL 21 Uso de memória: 105.02 MB
+2025-05-22 02:12:32,630 - P17320 - INFO - Processando URL 22/30: https://www.mogimirim.sp.gov.br/uploads/jornal/28105/pxqjwMGP5PIYl5Q9UJ9XZvonpydI2Ksy.pdf
+2025-05-22 02:12:32,631 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.mogimirim.sp.gov.br/uploads/jornal/28105/pxqjwMGP5PIYl5Q9UJ9XZvonpydI2Ksy.pdf
+2025-05-22 02:12:32,631 - P17320 - INFO - Após processar URL 22 Uso de memória: 105.02 MB
+2025-05-22 02:12:32,631 - P17320 - INFO - Processando URL 23/30: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/141840/Caderno_JUD_BA_2016-07-19_VIII_133.pdf?sequence=2&isAllowed=y
+2025-05-22 02:12:32,631 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/141840/Caderno_JUD_BA_2016-07-19_VIII_133.pdf?sequence=2&isAllowed=y
+2025-05-22 02:12:32,632 - P17320 - INFO - Após processar URL 23 Uso de memória: 105.02 MB
+2025-05-22 02:12:32,632 - P17320 - INFO - Processando URL 24/30: https://www.consultacrm.com.br/index/maisvistos
+2025-05-22 02:12:35,931 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9a17d88beef1266c6e4649221409a571.html
+2025-05-22 02:12:35,947 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:12:35,948 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:12:35,948 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:12:35,949 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:12:35,950 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:12:35,950 - P17320 - INFO - Após processar URL 24 Uso de memória: 105.43 MB
+2025-05-22 02:12:35,950 - P17320 - INFO - Processando URL 25/30: https://www.consultacrm.com.br/index/especialidades
+2025-05-22 02:12:38,035 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\3cb327d5e0f962fa7a1db5a948fb6f40.html
+2025-05-22 02:12:38,168 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:12:38,169 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:12:38,169 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:12:38,169 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:12:38,169 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:12:38,169 - P17320 - INFO - Após processar URL 25 Uso de memória: 107.29 MB
+2025-05-22 02:12:38,170 - P17320 - INFO - Processando URL 26/30: https://www.medicosbrasil.com/profissional/ana-paula-melo-de-araujo
+2025-05-22 02:12:41,686 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d56a78183f9854baa3170a79c085c551.html
+2025-05-22 02:12:41,701 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:12:41,701 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:12:41,702 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:12:41,702 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:12:41,702 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:12:41,702 - P17320 - INFO - Após processar URL 26 Uso de memória: 107.32 MB
+2025-05-22 02:12:41,702 - P17320 - INFO - Processando URL 27/30: https://www.consultacrm.com.br/?uf=SP
+2025-05-22 02:12:44,583 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\60d20285cf74ceed0f862951f9b2b598.html
+2025-05-22 02:12:44,595 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:12:44,595 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:12:44,595 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:12:44,595 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:12:44,595 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:12:44,596 - P17320 - INFO - Após processar URL 27 Uso de memória: 108.28 MB
+2025-05-22 02:12:44,596 - P17320 - INFO - Processando URL 28/30: https://consultacrm.com.br/
+2025-05-22 02:12:47,890 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:12:47,902 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:12:47,902 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:12:47,902 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:12:47,904 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:12:47,904 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:12:47,905 - P17320 - INFO - Após processar URL 28 Uso de memória: 108.28 MB
+2025-05-22 02:12:47,906 - P17320 - INFO - Processando URL 29/30: https://doutorcrm.com/ana-paula-melo-de-araujo
+2025-05-22 02:12:52,644 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\39da4386d1b076a1134c343105350a6a.html
+2025-05-22 02:12:52,650 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:12:52,651 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:12:52,651 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:12:52,651 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:12:52,651 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:12:52,651 - P17320 - INFO - Após processar URL 29 Uso de memória: 108.30 MB
+2025-05-22 02:12:52,651 - P17320 - INFO - Processando URL 30/30: https://www.planetabrasileiro.com/paula-melo-regis-paissandu-recife-pe-F100DC50318D840
+2025-05-22 02:12:57,011 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\cd14f6c0f3af2ad9b76876f7450a10f3.html
+2025-05-22 02:12:57,031 - P17320 - INFO - Candidates address: 5 items
+2025-05-22 02:12:57,032 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:12:57,032 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:12:57,032 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:12:57,032 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:12:57,032 - P17320 - INFO - Após processar URL 30 Uso de memória: 108.30 MB
+2025-05-22 02:12:57,033 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:12:57,033 - P17320 - INFO - Ranked address: 88 items
+2025-05-22 02:12:57,033 - P17320 - INFO - Ranked phone: 9 items
+2025-05-22 02:12:57,033 - P17320 - INFO - Ranked email: 12 items
+2025-05-22 02:12:57,033 - P17320 - INFO - Ranked complement: 15 items
+2025-05-22 02:12:57,034 - P17320 - INFO - Ranked cep: 218 items
+2025-05-22 02:12:57,034 - P17320 - INFO - Após agregação Uso de memória: 108.30 MB
+2025-05-22 02:12:57,034 - P17320 - INFO - Validando endereço: ['Rua Desembargador Homero Mafra, 60', 'Av. N. Senhora da Penha, 2290', 'R.T.S.N. e outros Intimo os Drs advogados Advogado: 007506']
+2025-05-22 02:12:57,034 - P17320 - INFO - Endereço validado: Rua Desembargador Homero Mafra, 60
+2025-05-22 02:12:57,034 - P17320 - INFO - Limpando texto extenso para campo address: Rua Desembargador Homero Mafra, 60...
+2025-05-22 02:12:57,035 - P17320 - INFO - Texto limpo: Rua Desembargador Homero Mafra, 60
+2025-05-22 02:12:57,035 - P17320 - INFO - Validando telefone: ['(27) 3137-9127', '(27) 3198-0609', '(27) 3198-3077']
+2025-05-22 02:12:57,035 - P17320 - INFO - Limpando texto extenso para campo phone: (27) 3137-9127...
+2025-05-22 02:12:57,035 - P17320 - INFO - Texto limpo: 27) 3137-9127
+2025-05-22 02:12:57,035 - P17320 - INFO - Telefone validado: 27) 3137-9127
+2025-05-22 02:12:57,035 - P17320 - INFO - Validando email: ['atendimento@cremepe.org.br', '10criminal-vitoria@tjes.jus.br', '1ORFAOS-VITORIA@TJES.JUS.BR']
+2025-05-22 02:12:57,036 - P17320 - INFO - Limpando texto extenso para campo email: atendimento@cremepe.org.br...
+2025-05-22 02:12:57,036 - P17320 - INFO - Texto limpo: atendimento@cremepe.org.br
+2025-05-22 02:12:57,036 - P17320 - INFO - Email validado: atendimento@cremepe.org.br
+2025-05-22 02:12:57,036 - P17320 - INFO - Validando complemento: ['Bloco 5D', 'Apto. 204', 'Bloco F']
+2025-05-22 02:12:57,036 - P17320 - INFO - Limpando texto extenso para campo complement: Bloco 5D...
+2025-05-22 02:12:57,036 - P17320 - INFO - Texto limpo: Bloco 5D
+2025-05-22 02:12:57,036 - P17320 - INFO - Complemento validado: Bloco 5D
+2025-05-22 02:12:57,037 - P17320 - INFO - Descobrindo cidade
+2025-05-22 02:12:57,037 - P17320 - INFO - Buscando cidade: Rua Desembargador Homero Mafra cidade PE
+2025-05-22 02:12:59,595 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 02:12:59,596 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 02:12:59,596 - P17320 - INFO - Tempo de execução de processamento completo do médico: 79.41 segundos
+2025-05-22 02:12:59,596 - P17320 - INFO - Resultado processado: {'Hash': 'c6321766c4fde023c86b71c1959ac3fd3c0abf2b552fa5fdce597c0c264571ed', 'CRM': '31648', 'UF': 'PE', 'Firstname': 'ANA', 'LastName': 'PAULA MELO ARAUJO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Desembargador Homero Mafra, 60', 'Address A1': 'Rua Desembargador Homero Mafra', 'Numero A1': '60', 'Complement A1': 'Bloco 5D', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '27) 3137-9127', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'atendimento@cremepe.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:12:59,598 - P17320 - INFO - Progresso: 20.0%
+2025-05-22 02:12:59,598 - P17320 - INFO - Executando coleta de lixo
+2025-05-22 02:12:59,618 - P17320 - INFO - Após coleta de lixo Uso de memória: 93.23 MB
+2025-05-22 02:12:59,619 - P17320 - INFO - Tempo de execução de processamento do médico 1: 80.81 segundos
+2025-05-22 02:12:59,619 - P17320 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 02:12:59,619 - P17320 - INFO - Nome: ALANA REBECA BEZERRA JESSE
+2025-05-22 02:12:59,619 - P17320 - INFO - Início do processamento Uso de memória: 93.23 MB
+2025-05-22 02:12:59,619 - P17320 - INFO - Iniciando busca para: ALANA REBECA BEZERRA JESSE CRM 32202 PE telefone e-mail endereço
+2025-05-22 02:13:00,000 - P17320 - INFO - SearX results: 9 URLs
+2025-05-22 02:13:00,002 - P17320 - INFO - Após SearX Uso de memória: 93.23 MB
+2025-05-22 02:13:02,658 - P17320 - INFO - Google results: 13 URLs
+2025-05-22 02:13:02,658 - P17320 - INFO - Após Google Uso de memória: 97.08 MB
+2025-05-22 02:13:05,190 - P17320 - INFO - Bing results: 14 URLs
+2025-05-22 02:13:05,190 - P17320 - INFO - Após Bing Uso de memória: 99.81 MB
+2025-05-22 02:13:05,190 - P17320 - INFO - Total de URLs únicas: 28
+2025-05-22 02:13:05,191 - P17320 - INFO - Processando URL 1/28: https://www.consultacrm.com.br/index/sis_login
+2025-05-22 02:13:09,091 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e56926aa25e0582d5c5b8aa167ed4b53.html
+2025-05-22 02:13:09,102 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:13:09,103 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:09,103 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:13:09,103 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:09,103 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:09,103 - P17320 - INFO - Após processar URL 1 Uso de memória: 100.25 MB
+2025-05-22 02:13:09,103 - P17320 - INFO - Processando URL 2/28: https://www.escavador.com/sobre/277702502/alana-rebeca-bezerra-jesse
+2025-05-22 02:13:13,109 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\984d0788fe789ad6a530c53dc603ad59.html
+2025-05-22 02:13:13,125 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:13:13,125 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:13,125 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:13:13,125 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:13,125 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:13,126 - P17320 - INFO - Após processar URL 2 Uso de memória: 100.79 MB
+2025-05-22 02:13:13,126 - P17320 - INFO - Processando URL 3/28: https://cnpj.biz/52331591000183
+2025-05-22 02:13:15,443 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\f9b9a664f34b52ea4a0cbce7e28c8492.html
+2025-05-22 02:13:15,445 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:13:15,445 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:15,445 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:13:15,445 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:15,446 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:15,446 - P17320 - INFO - Após processar URL 3 Uso de memória: 100.86 MB
+2025-05-22 02:13:15,446 - P17320 - INFO - Processando URL 4/28: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 02:13:18,961 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 02:13:18,973 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:13:18,973 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:18,973 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:13:18,973 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:18,973 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:18,974 - P17320 - INFO - Após processar URL 4 Uso de memória: 100.95 MB
+2025-05-22 02:13:18,974 - P17320 - INFO - Processando URL 5/28: https://crmvirtual.cfm.org.br/PE/servico/pesquisar-por-medico
+2025-05-22 02:13:21,492 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\b4a1542bf2cd8d426427ba4c7bbd58ae.html
+2025-05-22 02:13:21,510 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:13:21,511 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:21,512 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:13:21,512 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:21,513 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:21,521 - P17320 - INFO - Após processar URL 5 Uso de memória: 100.99 MB
+2025-05-22 02:13:21,524 - P17320 - INFO - Processando URL 6/28: https://www.saobernardo.sp.gov.br/documents/10181/865801/NM+2046+de+15.02.2019+-+Conteu%CC%81do+Integral.pdf/70fa9ab5-944b-6e64-f4fe-82aaeec0ae4d
+2025-05-22 02:13:21,525 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/865801/NM+2046+de+15.02.2019+-+Conteu%CC%81do+Integral.pdf/70fa9ab5-944b-6e64-f4fe-82aaeec0ae4d
+2025-05-22 02:13:21,543 - P17320 - INFO - Após processar URL 6 Uso de memória: 100.99 MB
+2025-05-22 02:13:21,544 - P17320 - INFO - Processando URL 7/28: https://www.ime.usp.br/~yoshi/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 02:13:21,558 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 02:13:21,559 - P17320 - INFO - Após processar URL 7 Uso de memória: 100.99 MB
+2025-05-22 02:13:21,562 - P17320 - INFO - Processando URL 8/28: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 02:13:21,563 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 02:13:21,566 - P17320 - INFO - Após processar URL 8 Uso de memória: 100.99 MB
+2025-05-22 02:13:21,568 - P17320 - INFO - Processando URL 9/28: https://www.saobernardo.sp.gov.br/documents/10181/1018801/NM+2174+de+09.10.2020+-+Conteu%CC%81do+Integral.pdf/8fc6cf4a-d4f3-c063-0b4a-889acbe2b053
+2025-05-22 02:13:21,571 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1018801/NM+2174+de+09.10.2020+-+Conteu%CC%81do+Integral.pdf/8fc6cf4a-d4f3-c063-0b4a-889acbe2b053
+2025-05-22 02:13:21,572 - P17320 - INFO - Após processar URL 9 Uso de memória: 100.99 MB
+2025-05-22 02:13:21,574 - P17320 - INFO - Processando URL 10/28: https://cdn.estadaomatogrosso.com.br/storage/webdisco/pageflip/1330/source.pdf
+2025-05-22 02:13:21,575 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://cdn.estadaomatogrosso.com.br/storage/webdisco/pageflip/1330/source.pdf
+2025-05-22 02:13:21,576 - P17320 - INFO - Após processar URL 10 Uso de memória: 100.99 MB
+2025-05-22 02:13:21,577 - P17320 - INFO - Processando URL 11/28: https://www.consultacrm.com.br/index/contato
+2025-05-22 02:13:24,662 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\770622092e11df0ef8d0ed5d383f74a3.html
+2025-05-22 02:13:24,678 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:13:24,679 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:24,680 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:13:24,681 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:24,681 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:24,681 - P17320 - INFO - Após processar URL 11 Uso de memória: 101.08 MB
+2025-05-22 02:13:24,681 - P17320 - INFO - Processando URL 12/28: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 02:13:27,613 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 02:13:27,658 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:13:27,658 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:27,659 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:13:27,659 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:27,659 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:27,660 - P17320 - INFO - Após processar URL 12 Uso de memória: 101.09 MB
+2025-05-22 02:13:27,661 - P17320 - INFO - Processando URL 13/28: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2016/08/Edi%C3%A7%C3%A3o-4196_31-08-2016.pdf
+2025-05-22 02:13:27,661 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2016/08/Edi%C3%A7%C3%A3o-4196_31-08-2016.pdf
+2025-05-22 02:13:27,661 - P17320 - INFO - Após processar URL 13 Uso de memória: 101.09 MB
+2025-05-22 02:13:27,662 - P17320 - INFO - Processando URL 14/28: https://www.consultacrm.com.br/index/api
+2025-05-22 02:13:31,173 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\a1f22ffdf7e0eb1c02e28e1e38d3db87.html
+2025-05-22 02:13:31,187 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:13:31,187 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:31,188 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:13:31,188 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:31,188 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:31,188 - P17320 - INFO - Após processar URL 14 Uso de memória: 101.36 MB
+2025-05-22 02:13:31,188 - P17320 - INFO - Processando URL 15/28: https://portal.cfm.org.br/busca-medicos
+2025-05-22 02:13:33,861 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 02:13:33,908 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:13:33,910 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:33,911 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:13:33,913 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:13:33,913 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:13:33,914 - P17320 - INFO - Após processar URL 15 Uso de memória: 97.99 MB
+2025-05-22 02:13:33,914 - P17320 - INFO - Processando URL 16/28: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-18-05-2022.pdf?p=1652896800042
+2025-05-22 02:13:33,914 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-18-05-2022.pdf?p=1652896800042
+2025-05-22 02:13:33,914 - P17320 - INFO - Após processar URL 16 Uso de memória: 96.97 MB
+2025-05-22 02:13:33,914 - P17320 - INFO - Processando URL 17/28: https://crmvirtual.cfm.org.br/PE/servico/pesquisar-por-estabelecimento-de-saude
+2025-05-22 02:13:36,290 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\5d58f360dba04f560c5124a50ca28c7e.html
+2025-05-22 02:13:36,299 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:13:36,299 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:36,300 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:13:36,300 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:36,300 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:36,300 - P17320 - INFO - Após processar URL 17 Uso de memória: 97.17 MB
+2025-05-22 02:13:36,300 - P17320 - INFO - Processando URL 18/28: https://www.ibam.org.br/wp-content/uploads/2022/05/rioclaro13-cppm-docs-1.pdf
+2025-05-22 02:13:36,300 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.ibam.org.br/wp-content/uploads/2022/05/rioclaro13-cppm-docs-1.pdf
+2025-05-22 02:13:36,301 - P17320 - INFO - Após processar URL 18 Uso de memória: 97.17 MB
+2025-05-22 02:13:36,301 - P17320 - INFO - Processando URL 19/28: https://lanabezerradermato.com.br/contato/
+2025-05-22 02:13:40,038 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9fdd79bd1984a08aefb74cd0b962e37d.html
+2025-05-22 02:13:40,048 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:13:40,049 - P17320 - INFO - Candidates phone: 3 items
+2025-05-22 02:13:40,049 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:13:40,049 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:40,049 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:13:40,049 - P17320 - INFO - Após processar URL 19 Uso de memória: 97.76 MB
+2025-05-22 02:13:40,050 - P17320 - INFO - Processando URL 20/28: https://www.trt6.jus.br/portal/sites/default/files/documents/guia_medico_13.06.22.pdf
+2025-05-22 02:13:40,050 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.trt6.jus.br/portal/sites/default/files/documents/guia_medico_13.06.22.pdf
+2025-05-22 02:13:40,050 - P17320 - INFO - Após processar URL 20 Uso de memória: 97.76 MB
+2025-05-22 02:13:40,050 - P17320 - INFO - Processando URL 21/28: https://www.consultacrm.com.br/index/maisvistos
+2025-05-22 02:13:43,574 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9a17d88beef1266c6e4649221409a571.html
+2025-05-22 02:13:43,586 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:13:43,586 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:43,586 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:13:43,586 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:43,586 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:43,587 - P17320 - INFO - Após processar URL 21 Uso de memória: 99.21 MB
+2025-05-22 02:13:43,587 - P17320 - INFO - Processando URL 22/28: https://dje.tjpa.jus.br/DJEletronico/rest/DJEletronicoService/publicacao/buscarDiarioAssinado/8067-2025
+2025-05-22 02:13:46,010 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\f1d411f52ac5e29aedd66c5b7e613a23.html
+2025-05-22 02:13:46,020 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:13:46,021 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:46,021 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:13:46,021 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:46,021 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:46,022 - P17320 - INFO - Após processar URL 22 Uso de memória: 99.35 MB
+2025-05-22 02:13:46,022 - P17320 - INFO - Processando URL 23/28: https://www.consultacrm.com.br/index/especialidades
+2025-05-22 02:13:49,131 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\3cb327d5e0f962fa7a1db5a948fb6f40.html
+2025-05-22 02:13:49,268 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:13:49,269 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:49,269 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:13:49,269 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:49,269 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:49,269 - P17320 - INFO - Após processar URL 23 Uso de memória: 101.91 MB
+2025-05-22 02:13:49,270 - P17320 - INFO - Processando URL 24/28: https://www.cubatao.sp.gov.br/wp-content/uploads/Di%C3%A1rio%20Oficial/Di%C3%A1rio%20Oficial/2021/08_agosto/ed_785.pdf
+2025-05-22 02:13:49,270 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.cubatao.sp.gov.br/wp-content/uploads/Di%C3%A1rio%20Oficial/Di%C3%A1rio%20Oficial/2021/08_agosto/ed_785.pdf
+2025-05-22 02:13:49,270 - P17320 - INFO - Após processar URL 24 Uso de memória: 101.91 MB
+2025-05-22 02:13:49,270 - P17320 - INFO - Processando URL 25/28: https://www.consultacrm.com.br/?uf=SP
+2025-05-22 02:13:52,652 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\60d20285cf74ceed0f862951f9b2b598.html
+2025-05-22 02:13:52,663 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:13:52,663 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:52,663 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:13:52,663 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:52,663 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:52,664 - P17320 - INFO - Após processar URL 25 Uso de memória: 102.19 MB
+2025-05-22 02:13:52,664 - P17320 - INFO - Processando URL 26/28: https://www.cremepe.org.br/2018/09/25/conselhos-de-medicina-qualificam-acesso-a-dados-disponiveis-na-web-sobre-os-medicos/
+2025-05-22 02:13:55,820 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e8a6c12a072404b62e234ab1258894ba.html
+2025-05-22 02:13:55,859 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:13:55,859 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 02:13:55,859 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:13:55,860 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:55,860 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:13:55,860 - P17320 - INFO - Após processar URL 26 Uso de memória: 102.21 MB
+2025-05-22 02:13:55,860 - P17320 - INFO - Processando URL 27/28: https://www.medicosbrasil.com/profissional/alana-bezerra
+2025-05-22 02:13:58,045 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\5ec90f3f545e4170c293f18bc4805fa8.html
+2025-05-22 02:13:58,047 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:13:58,047 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:58,047 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:13:58,047 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:58,047 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:58,048 - P17320 - INFO - Após processar URL 27 Uso de memória: 102.32 MB
+2025-05-22 02:13:58,048 - P17320 - INFO - Processando URL 28/28: https://consultacrm.com.br/
+2025-05-22 02:14:01,656 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:14:01,668 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:14:01,669 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:14:01,669 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:14:01,669 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:01,670 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:14:01,670 - P17320 - INFO - Após processar URL 28 Uso de memória: 102.33 MB
+2025-05-22 02:14:01,670 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:14:01,671 - P17320 - INFO - Ranked address: 2 items
+2025-05-22 02:14:01,671 - P17320 - INFO - Ranked phone: 5 items
+2025-05-22 02:14:01,672 - P17320 - INFO - Ranked email: 2 items
+2025-05-22 02:14:01,672 - P17320 - INFO - Ranked complement: 1 items
+2025-05-22 02:14:01,672 - P17320 - INFO - Ranked cep: 4 items
+2025-05-22 02:14:01,673 - P17320 - INFO - Após agregação Uso de memória: 102.33 MB
+2025-05-22 02:14:01,673 - P17320 - INFO - Validando endereço: ['R. 1125, 369', 'Rua Conselheiro Portela, 203']
+2025-05-22 02:14:01,673 - P17320 - INFO - Endereço validado: R. 1125, 369
+2025-05-22 02:14:01,674 - P17320 - INFO - Limpando texto extenso para campo address: R. 1125, 369...
+2025-05-22 02:14:01,674 - P17320 - INFO - Texto limpo: R. 1125, 369
+2025-05-22 02:14:01,674 - P17320 - INFO - Validando telefone: ['(62) 98146-7177', '(62) 3942-7676', '(62) 8146-7177']
+2025-05-22 02:14:01,675 - P17320 - INFO - Limpando texto extenso para campo phone: (62) 98146-7177...
+2025-05-22 02:14:01,676 - P17320 - INFO - Texto limpo: 62) 98146-7177
+2025-05-22 02:14:01,677 - P17320 - INFO - Telefone validado: 62) 98146-7177
+2025-05-22 02:14:01,678 - P17320 - INFO - Validando email: ['atendimento@cremepe.org.br', 'cfm@portalmedico.org.br']
+2025-05-22 02:14:01,679 - P17320 - INFO - Limpando texto extenso para campo email: atendimento@cremepe.org.br...
+2025-05-22 02:14:01,679 - P17320 - INFO - Texto limpo: atendimento@cremepe.org.br
+2025-05-22 02:14:01,679 - P17320 - INFO - Email validado: atendimento@cremepe.org.br
+2025-05-22 02:14:01,680 - P17320 - INFO - Validando complemento: ['Conjunto D']
+2025-05-22 02:14:01,680 - P17320 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 02:14:01,681 - P17320 - INFO - Texto limpo: Conjunto D
+2025-05-22 02:14:01,682 - P17320 - INFO - Complemento validado: Conjunto D
+2025-05-22 02:14:01,683 - P17320 - INFO - Descobrindo cidade
+2025-05-22 02:14:01,683 - P17320 - INFO - Buscando cidade: R. 1125 cidade PE
+2025-05-22 02:14:04,497 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 02:14:04,497 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 02:14:04,497 - P17320 - INFO - Tempo de execução de processamento completo do médico: 64.88 segundos
+2025-05-22 02:14:04,498 - P17320 - INFO - Resultado processado: {'Hash': '2c4b3dfafeca499d482867de23e50f7330fe29beba8693f05c16c8d878024fcb', 'CRM': '32202', 'UF': 'PE', 'Firstname': 'ALANA', 'LastName': 'REBECA BEZERRA JESSE', 'Medical specialty': '', 'Endereco Completo A1': 'R. 1125, 369', 'Address A1': 'R. 1125', 'Numero A1': '369', 'Complement A1': 'Conjunto D', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '62) 98146-7177', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'atendimento@cremepe.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:14:04,500 - P17320 - INFO - Progresso: 20.3%
+2025-05-22 02:14:04,501 - P17320 - INFO - Tempo de execução de processamento do médico 2: 64.88 segundos
+2025-05-22 02:14:04,501 - P17320 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 02:14:04,502 - P17320 - INFO - Nome: DEBORA DE MOURA SANTOS
+2025-05-22 02:14:04,502 - P17320 - INFO - Início do processamento Uso de memória: 98.87 MB
+2025-05-22 02:14:04,503 - P17320 - INFO - Iniciando busca para: DEBORA DE MOURA SANTOS CRM 4469 PI telefone e-mail endereço
+2025-05-22 02:14:04,989 - P17320 - INFO - SearX results: 15 URLs
+2025-05-22 02:14:04,989 - P17320 - INFO - Após SearX Uso de memória: 98.87 MB
+2025-05-22 02:14:07,630 - P17320 - INFO - Google results: 8 URLs
+2025-05-22 02:14:07,630 - P17320 - INFO - Após Google Uso de memória: 100.91 MB
+2025-05-22 02:14:10,333 - P17320 - INFO - Bing results: 13 URLs
+2025-05-22 02:14:10,333 - P17320 - INFO - Após Bing Uso de memória: 101.88 MB
+2025-05-22 02:14:10,333 - P17320 - INFO - Total de URLs únicas: 26
+2025-05-22 02:14:10,333 - P17320 - INFO - Processando URL 1/26: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo696.pdf
+2025-05-22 02:14:10,333 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo696.pdf
+2025-05-22 02:14:10,333 - P17320 - INFO - Após processar URL 1 Uso de memória: 101.88 MB
+2025-05-22 02:14:10,334 - P17320 - INFO - Processando URL 2/26: https://www.boaconsulta.com/especialista/debora-de-moura-santos-61060993a2e00a7b44002aca
+2025-05-22 02:14:13,774 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\bb52dc670babc1e7cb05ff9748bc9db6.html
+2025-05-22 02:14:13,849 - P17320 - INFO - Candidates address: 3 items
+2025-05-22 02:14:13,849 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:14:13,849 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:14:13,849 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:13,849 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:14:13,850 - P17320 - INFO - Após processar URL 2 Uso de memória: 102.90 MB
+2025-05-22 02:14:13,850 - P17320 - INFO - Processando URL 3/26: https://cnpj.biz/46330215000171
+2025-05-22 02:14:15,979 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\05424228d64233224778ef3053c0a4fb.html
+2025-05-22 02:14:15,982 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:14:15,982 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:14:15,982 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:14:15,982 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:15,983 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:14:15,983 - P17320 - INFO - Após processar URL 3 Uso de memória: 97.05 MB
+2025-05-22 02:14:15,983 - P17320 - INFO - Processando URL 4/26: https://drandrevinicius.com.br/medicos/debora-de-moura-santos/
+2025-05-22 02:14:19,170 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\cfcf2ddfb35000816eb415b5893a2dd0.html
+2025-05-22 02:14:19,188 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:14:19,191 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:14:19,193 - P17320 - INFO - Candidates email: 2 items
+2025-05-22 02:14:19,194 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:19,195 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:14:19,200 - P17320 - INFO - Após processar URL 4 Uso de memória: 97.93 MB
+2025-05-22 02:14:19,200 - P17320 - INFO - Processando URL 5/26: https://www.consultascnpj.com/consultorio-dra-debora-de-moura-ltda/46330215000171
+2025-05-22 02:14:22,514 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7eca5a71255fed51fa712a2a0e788ab5.html
+2025-05-22 02:14:22,527 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:14:22,527 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:14:22,527 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:14:22,528 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:22,528 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:14:22,529 - P17320 - INFO - Após processar URL 5 Uso de memória: 98.28 MB
+2025-05-22 02:14:22,529 - P17320 - INFO - Processando URL 6/26: https://clinica.work/especialista/debora-de-moura-santos-ginecologista-e-obstetra-picos-pi
+2025-05-22 02:14:25,071 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\0358b5d15ecfd015b587e50642311fc9.html
+2025-05-22 02:14:25,086 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:14:25,086 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:14:25,087 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:14:25,087 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:25,087 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:14:25,087 - P17320 - INFO - Após processar URL 6 Uso de memória: 101.05 MB
+2025-05-22 02:14:25,087 - P17320 - INFO - Processando URL 7/26: https://www.medicosbrasil.com/profissional/debora-de-moura-santos
+2025-05-22 02:14:27,252 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\52b6fbcf07bbe47c97650af51be39421.html
+2025-05-22 02:14:27,254 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:14:27,255 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:14:27,255 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:14:27,255 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:27,255 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:14:27,256 - P17320 - INFO - Após processar URL 7 Uso de memória: 101.16 MB
+2025-05-22 02:14:27,256 - P17320 - INFO - Processando URL 8/26: https://cnpj.biz/46330212000138
+2025-05-22 02:14:29,420 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ebf47d2327af959bfb85a52a5813f59f.html
+2025-05-22 02:14:29,422 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:14:29,425 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:14:29,426 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:14:29,426 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:29,426 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:14:29,427 - P17320 - INFO - Após processar URL 8 Uso de memória: 101.16 MB
+2025-05-22 02:14:29,427 - P17320 - INFO - Processando URL 9/26: https://empresasweb.net/emp/consultorio-dra-debora-de-moura-ltda-46330215
+2025-05-22 02:14:32,618 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\28257bd48acf66c18a802847307486e7.html
+2025-05-22 02:14:32,630 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:14:32,631 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:14:32,631 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:14:32,631 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:14:32,631 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:14:32,631 - P17320 - INFO - Após processar URL 9 Uso de memória: 101.23 MB
+2025-05-22 02:14:32,631 - P17320 - INFO - Processando URL 10/26: https://seadantigo.portal.ap.gov.br/diario/DOEn7763.pdf?ts=24102101
+2025-05-22 02:14:32,632 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://seadantigo.portal.ap.gov.br/diario/DOEn7763.pdf?ts=24102101
+2025-05-22 02:14:32,632 - P17320 - INFO - Após processar URL 10 Uso de memória: 101.23 MB
+2025-05-22 02:14:32,632 - P17320 - INFO - Processando URL 11/26: https://www.bertioga.sp.gov.br/wp/wp-content/uploads/2023/12/BOM_1143-compressed.pdf
+2025-05-22 02:14:32,632 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.bertioga.sp.gov.br/wp/wp-content/uploads/2023/12/BOM_1143-compressed.pdf
+2025-05-22 02:14:32,632 - P17320 - INFO - Após processar URL 11 Uso de memória: 101.23 MB
+2025-05-22 02:14:32,632 - P17320 - INFO - Processando URL 12/26: https://www.entrei.net/empresa/dra-debora-de-moura-santos/4392051.html
+2025-05-22 02:14:34,931 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e9f8106bd95b9df23b7375f79e7d5a39.html
+2025-05-22 02:14:34,961 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:14:34,962 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 02:14:34,962 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:14:34,962 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:34,962 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:14:34,963 - P17320 - INFO - Após processar URL 12 Uso de memória: 101.23 MB
+2025-05-22 02:14:34,963 - P17320 - INFO - Processando URL 13/26: https://www.guiamedico-ce.com.br/guia.php?med=7805
+2025-05-22 02:14:39,840 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d5f1967cd1ecbad7a8159609523dfa93.html
+2025-05-22 02:14:39,859 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:14:39,860 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:14:39,860 - P17320 - INFO - Candidates email: 2 items
+2025-05-22 02:14:39,861 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:39,861 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:14:39,861 - P17320 - INFO - Após processar URL 13 Uso de memória: 101.26 MB
+2025-05-22 02:14:39,862 - P17320 - INFO - Processando URL 14/26: https://diariooficial.santos.sp.gov.br/edicoes/inicio/download/2024-07-19
+2025-05-22 02:14:41,969 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\a242bee731b81a7401d7ab1b5109af4d.html
+2025-05-22 02:14:41,970 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:14:41,970 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:14:41,971 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:14:41,971 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:41,971 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:14:41,971 - P17320 - INFO - Após processar URL 14 Uso de memória: 101.26 MB
+2025-05-22 02:14:41,971 - P17320 - INFO - Processando URL 15/26: https://listamedicos.com/medico/debora-de-moura-santos
+2025-05-22 02:14:45,290 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\2f7e731232dcc9f4049aad6734c63ce5.html
+2025-05-22 02:14:45,298 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:14:45,302 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:14:45,303 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:14:45,304 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:45,304 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:14:45,305 - P17320 - INFO - Após processar URL 15 Uso de memória: 101.29 MB
+2025-05-22 02:14:45,306 - P17320 - INFO - Processando URL 16/26: https://cnpj.biz/46330216000116
+2025-05-22 02:14:47,677 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\95cb54d628962b62fea066446da3dbef.html
+2025-05-22 02:14:47,679 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:14:47,679 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:14:47,680 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:14:47,680 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:47,680 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:14:47,680 - P17320 - INFO - Após processar URL 16 Uso de memória: 101.29 MB
+2025-05-22 02:14:47,680 - P17320 - INFO - Processando URL 17/26: https://www.redescredenciadas.com.br/perfil/debora-de-moura-santos-pi-4469
+2025-05-22 02:14:53,086 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ec62577542530f06c06a57b114605fed.html
+2025-05-22 02:14:53,092 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:14:53,093 - P17320 - INFO - Candidates phone: 4 items
+2025-05-22 02:14:53,093 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:14:53,093 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:53,093 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:14:53,093 - P17320 - INFO - Após processar URL 17 Uso de memória: 101.30 MB
+2025-05-22 02:14:53,093 - P17320 - INFO - Processando URL 18/26: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1177252461.pdf
+2025-05-22 02:14:53,094 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1177252461.pdf
+2025-05-22 02:14:53,094 - P17320 - INFO - Após processar URL 18 Uso de memória: 101.30 MB
+2025-05-22 02:14:53,094 - P17320 - INFO - Processando URL 19/26: https://cadastroempresa.com.br/fornecedor/consultorio-dra-debora-de-moura-ltda-46330215000171
+2025-05-22 02:14:55,655 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\c8c7ff0dce008223557249f18c946aef.html
+2025-05-22 02:14:55,679 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:14:55,679 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:14:55,680 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:14:55,680 - P17320 - INFO - Candidates complement: 3 items
+2025-05-22 02:14:55,680 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 02:14:55,680 - P17320 - INFO - Após processar URL 19 Uso de memória: 101.31 MB
+2025-05-22 02:14:55,680 - P17320 - INFO - Processando URL 20/26: https://pbqp-h.mdr.gov.br/wp-content/uploads/2023/12/Empresas-Certificadas-SIAC-Julho-a-27-12-2023-Planilha1.csv
+2025-05-22 02:14:55,680 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://pbqp-h.mdr.gov.br/wp-content/uploads/2023/12/Empresas-Certificadas-SIAC-Julho-a-27-12-2023-Planilha1.csv
+2025-05-22 02:14:55,681 - P17320 - INFO - Após processar URL 20 Uso de memória: 101.31 MB
+2025-05-22 02:14:55,681 - P17320 - INFO - Processando URL 21/26: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x17129249495022603934&market=pt-BR&src=SERPIC
+2025-05-22 02:14:59,868 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9942840bf4d8f75c310f5a45165e8cdb.html
+2025-05-22 02:14:59,886 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:14:59,887 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:14:59,887 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:14:59,887 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:59,887 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:14:59,887 - P17320 - INFO - Após processar URL 21 Uso de memória: 101.31 MB
+2025-05-22 02:14:59,888 - P17320 - INFO - Processando URL 22/26: https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/beneficios-fiscais/programa-empresa-cidada/empresas_optantes
+2025-05-22 02:15:02,022 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\bc705a0ca491c709905e221358627d5c.html
+2025-05-22 02:15:02,046 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:15:02,046 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:15:02,046 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:15:02,046 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:15:02,046 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:15:02,047 - P17320 - INFO - Após processar URL 22 Uso de memória: 101.32 MB
+2025-05-22 02:15:02,047 - P17320 - INFO - Processando URL 23/26: https://cadastroempresa.com.br/cnpj/18.692.890/0001-05-clinica-feminam-dra-debora-moura-ginecologista-e-medicina-integrativa-ltda
+2025-05-22 02:15:04,674 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\dc407ce81c12e579d464f638b3f46e1e.html
+2025-05-22 02:15:04,676 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:15:04,676 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:15:04,676 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:15:04,677 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:15:04,677 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:15:04,677 - P17320 - INFO - Após processar URL 23 Uso de memória: 101.33 MB
+2025-05-22 02:15:04,677 - P17320 - INFO - Processando URL 24/26: https://www.consultascnpj.com/dra-debora-moura-ginecologista-e-medicina-integrativa-ltda/18692890000105
+2025-05-22 02:15:07,720 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d072843433b1ce912444524728f03cb2.html
+2025-05-22 02:15:07,733 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:15:07,733 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:15:07,734 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:15:07,734 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:15:07,734 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:15:07,734 - P17320 - INFO - Após processar URL 24 Uso de memória: 101.36 MB
+2025-05-22 02:15:07,734 - P17320 - INFO - Processando URL 25/26: http://diariooficial.palmas.to.gov.br/download/diario/3904/
+2025-05-22 02:15:10,113 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\69846f43ccf1e9fbab2b54c2eab0dcd4.html
+2025-05-22 02:15:10,113 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:15:10,114 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:15:10,114 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:15:10,114 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:15:10,114 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:15:10,115 - P17320 - INFO - Após processar URL 25 Uso de memória: 101.36 MB
+2025-05-22 02:15:10,115 - P17320 - INFO - Processando URL 26/26: https://osasco.sp.gov.br/wp-content/uploads/2024/12/iomo-2764.pdf
+2025-05-22 02:15:10,115 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/wp-content/uploads/2024/12/iomo-2764.pdf
+2025-05-22 02:15:10,115 - P17320 - INFO - Após processar URL 26 Uso de memória: 101.36 MB
+2025-05-22 02:15:10,115 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:15:10,116 - P17320 - INFO - Ranked address: 5 items
+2025-05-22 02:15:10,116 - P17320 - INFO - Ranked phone: 10 items
+2025-05-22 02:15:10,116 - P17320 - INFO - Ranked email: 5 items
+2025-05-22 02:15:10,116 - P17320 - INFO - Ranked complement: 4 items
+2025-05-22 02:15:10,116 - P17320 - INFO - Ranked cep: 8 items
+2025-05-22 02:15:10,117 - P17320 - INFO - Após agregação Uso de memória: 101.36 MB
+2025-05-22 02:15:10,117 - P17320 - INFO - Validando endereço: ['Rua Osvaldo Cruz (332', 'Rua Sao Vicente, 452', 'Rua Sao Francisco, 328']
+2025-05-22 02:15:10,117 - P17320 - INFO - Endereço validado: Rua Osvaldo Cruz (332
+2025-05-22 02:15:10,117 - P17320 - INFO - Limpando texto extenso para campo address: Rua Osvaldo Cruz (332...
+2025-05-22 02:15:10,117 - P17320 - INFO - Texto limpo: Rua Osvaldo Cruz (332
+2025-05-22 02:15:10,118 - P17320 - INFO - Validando telefone: ['(89) 9921-8072', '+558999218072', '(89) 3422-3179']
+2025-05-22 02:15:10,118 - P17320 - INFO - Limpando texto extenso para campo phone: (89) 9921-8072...
+2025-05-22 02:15:10,118 - P17320 - INFO - Texto limpo: 89) 9921-8072
+2025-05-22 02:15:10,119 - P17320 - INFO - Telefone validado: 89) 9921-8072
+2025-05-22 02:15:10,119 - P17320 - INFO - Validando email: ['debyms23@hotmail.com', 'dra.deboramoura2@gmail.com', 'suporte@drandrevinicius.com.br']
+2025-05-22 02:15:10,119 - P17320 - INFO - Limpando texto extenso para campo email: debyms23@hotmail.com...
+2025-05-22 02:15:10,119 - P17320 - INFO - Texto limpo: debyms23@hotmail.com
+2025-05-22 02:15:10,119 - P17320 - INFO - Email validado: debyms23@hotmail.com
+2025-05-22 02:15:10,119 - P17320 - INFO - Validando complemento: ['Sala 103', 'Sala  103  Clique para copiar         Bairro:  Canto d', 'Sala  103  Canto da Varzea  Picos - PI   64600-146   C']
+2025-05-22 02:15:10,120 - P17320 - INFO - Limpando texto extenso para campo complement: Sala 103...
+2025-05-22 02:15:10,120 - P17320 - INFO - Texto limpo: Sala 103
+2025-05-22 02:15:10,120 - P17320 - INFO - Complemento validado: Sala 103
+2025-05-22 02:15:10,120 - P17320 - INFO - Descobrindo cidade
+2025-05-22 02:15:10,120 - P17320 - INFO - Buscando cidade: Rua Osvaldo Cruz (332 cidade PI
+2025-05-22 02:15:12,770 - P17320 - INFO - Cidade encontrada: Picos
+2025-05-22 02:15:12,770 - P17320 - INFO - Limpando texto extenso para campo city: Picos...
+2025-05-22 02:15:12,770 - P17320 - INFO - Texto limpo: Picos
+2025-05-22 02:15:12,771 - P17320 - INFO - Cidade descoberta: Picos
+2025-05-22 02:15:12,771 - P17320 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 02:15:12,771 - P17320 - INFO - Iniciando busca de CEP em cascata para: Rua Osvaldo Cruz (332, Picos, PI
+2025-05-22 02:15:12,771 - P17320 - INFO - Método 1: ViaCEP API
+2025-05-22 02:15:12,772 - P17320 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/PI/picos/rua%20osvaldo%20cruz%20332/json/
+2025-05-22 02:15:13,419 - P17320 - WARNING - ViaCEP retornou status 200 ou nenhum resultado
+2025-05-22 02:15:13,421 - P17320 - INFO - Método 2: BrasilAPI
+2025-05-22 02:15:13,421 - P17320 - INFO - Buscando na BrasilAPI: Rua Osvaldo Cruz (332, Picos, PI
+2025-05-22 02:15:13,947 - P17320 - INFO - Consultando BrasilAPI: https://brasilapi.com.br/api/cep/v2/35135084
+2025-05-22 02:15:14,248 - P17320 - WARNING - BrasilAPI retornou status 404
+2025-05-22 02:15:14,250 - P17320 - INFO - Método 3: Web Scraping do Google
+2025-05-22 02:15:14,251 - P17320 - INFO - Buscando CEP: CEP da Rua Osvaldo Cruz (332, Picos
+2025-05-22 02:15:15,881 - P17320 - INFO - CEP encontrado: 64600-124
+2025-05-22 02:15:15,881 - P17320 - INFO - CEP encontrado via Google: 64600-124
+2025-05-22 02:15:15,881 - P17320 - INFO - Dados de CEP encontrados: {'cep': '64600-124', 'logradouro': 'Rua Osvaldo Cruz (332', 'bairro': '', 'localidade': 'Picos', 'uf': 'PI', 'complemento': ''}
+2025-05-22 02:15:15,881 - P17320 - INFO - Limpando texto extenso para campo city: Picos...
+2025-05-22 02:15:15,881 - P17320 - INFO - Texto limpo: Picos
+2025-05-22 02:15:15,881 - P17320 - INFO - Limpando texto extenso para campo state: PI...
+2025-05-22 02:15:15,882 - P17320 - INFO - Texto limpo: PI
+2025-05-22 02:15:15,882 - P17320 - INFO - Tempo de execução de processamento completo do médico: 71.38 segundos
+2025-05-22 02:15:15,882 - P17320 - INFO - Resultado processado: {'Hash': 'aa3957905075973609b798ff6e8b768a61aa552f7bcff4062808b30e97153c5b', 'CRM': '4469', 'UF': 'PI', 'Firstname': 'DEBORA', 'LastName': 'DE MOURA SANTOS', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Osvaldo Cruz (332', 'Address A1': 'Rua Osvaldo Cruz (332', 'Numero A1': '', 'Complement A1': 'Sala 103', 'Bairro A1': '', 'postal code A1': '64600-124', 'City A1': 'Picos', 'State A1': 'PI', 'Phone A1': '89) 9921-8072', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'debyms23@hotmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:15:15,882 - P17320 - INFO - Salvando lote de resultados
+2025-05-22 02:15:15,883 - P17320 - INFO - Após salvar resultados Uso de memória: 100.99 MB
+2025-05-22 02:15:15,883 - P17320 - INFO - Progresso: 20.8%
+2025-05-22 02:15:15,884 - P17320 - INFO - Tempo de execução de processamento do médico 3: 71.38 segundos
+2025-05-22 02:15:15,884 - P17320 - INFO - Tempo de execução de processamento do lote completo: 217.07 segundos

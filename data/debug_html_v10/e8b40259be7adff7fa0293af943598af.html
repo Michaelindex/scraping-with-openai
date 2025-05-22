@@ -1,0 +1,267 @@
+<html lang="pt-br"><head><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Conselho Federal de Odontologia">
+    <title>Busca por Profissionais</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <!-- Font Awesome icons -->
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" crossorigin="anonymous">
+    
+    <!-- Core CSS -->
+    <link href="./css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-fluid px-1 py-0 mx-auto">
+        <div class="row d-flex justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+                <div class="card card-form">
+                    <div class="section-title">
+                        <h4 class="text-left">BUSCA POR PROFISSIONAIS</h4>
+                    </div>
+                    <form class="form-card" id="formConsulta" action="" method="">
+                        <div class="row justify-content-between text-left">
+                            <div class="form-group col-sm-4 flex-column d-flex"> <label class="form-control-label font-weight-bold">CRO/UF</label>
+                                <select name="cro">
+                                    <option value="todos">Todos</option>
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="ES">Espírito Santo</option>
+                                    <option value="GO">Goiás</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="MT">Mato Grosso</option>
+                                    <option value="MS">Mato Grosso do Sul</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="PA">Pará</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="PR">Paraná</option>
+                                    <option value="PE">Pernambuco</option>
+                                    <option value="PI">Piauí</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="RN">Rio Grande do Norte</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="RO">Rondônia</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="SE">Sergipe</option>
+                                    <option value="TO">Tocantins</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-sm-4 flex-column d-flex"> <label class="form-control-label font-weight-bold">CATEGORIA</label>
+                                <select name="categoria">
+                                    <option value="todas">Todas</option>
+                                    <option value="1">CIRURGIÃO DENTISTA</option>
+                                    <option value="3">TÉCNICO EM PRÓTESE DENTÁRIA</option>
+                                    <option value="7">TÉCNICO EM SAÚDE BUCAL</option>
+                                    <option value="8">AUXILIAR EM SAÚDE BUCAL</option>
+                                    <option value="9">AUXILIAR DE PRÓTESE DENTÁRIA</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-sm-4 flex-column d-flex"> <label class="form-control-label font-weight-bold">Nº INSCRIÇÃO</label> <input type="text" id="inscricao" name="inscricao" placeholder="Digite somente números" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"></div>
+                        </div>
+                        <div class="row justify-content-between text-left">
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label font-weight-bold">ESPECIALIDADE</label>
+                                <select name="especialidade">
+                                    <option value="todas">Todas</option>
+                                    <option value="ACUPUNTURA">ACUPUNTURA</option>
+                                    <option value="CIRURGIA E TRAUMATOLOGIA BUCO MAXILO FACIAIS">CIRURGIA E TRAUMATOLOGIA BUCO MAXILO FACIAIS</option>
+                                    <option value="DENTISTICA">DENTISTICA</option>
+                                    <option value="DENTISTICA RESTAURADORA">DENTISTICA RESTAURADORA</option>
+                                    <option value="DISFUNCAO TEMPOROMANDIBULAR E DOR OROFACIAL">DISFUNÇÃO TEMPOROMANDIBULAR E DOR OROFACIAL</option>
+                                    <option value="ENDODONTIA">ENDODONTIA</option>
+                                    <option value="ESTOMATOLOGIA">ESTOMATOLOGIA</option>
+                                    <option value="HARMONIZACAO OROFACIAL">HARMONIZAÇÃO OROFACIAL</option>
+                                    <option value="HOMEOPATIA">HOMEOPATIA</option>
+                                    <option value="IMPLANTODONTIA">IMPLANTODONTIA</option>
+                                    <option value="ODONTOGERIATRIA">ODONTOGERIATRIA</option>
+                                    <option value="ODONTOLOGIA DO ESPORTE">ODONTOLOGIA DO ESPORTE</option>
+                                    <option value="ODONTOLOGIA DO TRABALHO">ODONTOLOGIA DO TRABALHO</option>
+                                    <option value="ODONTOLOGIA EM SAUDE COLETIVA">ODONTOLOGIA EM SAUDE COLETIVA</option>
+                                    <option value="ODONTOLOGIA LEGAL">ODONTOLOGIA LEGAL</option>
+                                    <option value="ODONTOLOGIA P/ PACIENTES C/ NECESSIDADES ESPECIAIS">ODONTOLOGIA P/ PACIENTES C/ NECESSIDADES ESPECIAIS</option>
+                                    <option value="ODONTOPEDIATRIA">ODONTOPEDIATRIA</option>
+                                    <option value="ORTODONTIA">ORTODONTIA</option>
+                                    <option value="ORTODONTIA E ORTOPEDIA FACIAL">ORTODONTIA E ORTOPEDIA FACIAL</option>
+                                    <option value="ORTOPEDIA FUNCIONAL DOS MAXILARES">OORTOPEDIA FUNCIONAL DOS MAXILARES</option>
+                                    <option value="PATOLOGIA ORAL E MAXILO FACIAL">PATOLOGIA ORAL E MAXILO FACIAL</option>
+                                    <option value="PERIODONTIA">PERIODONTIA</option>
+                                    <option value="PROTESE BUCO MAXILO FACIAL">PRÓTESE BUCO MAXILO FACIAL</option>
+                                    <option value="PROTESE DENTARIA">PRÓTESE DENTÁRIA</option>
+                                    <option value="RADIOLOGIA">RADIOLOGIA</option>
+                                    <option value="RADIOLOGIA ODONTOLOGICA E IMAGINOLOGIA">RADIOLOGIA ODONTOLOGICA E IMAGINOLOGIA</option>
+                                    <option value="SAUDE COLETIVA">SAÚDE COLETIVA</option>
+                                    <option value="PROTESE FIXA">PROTESE FIXA</option>
+                                    <option value="PROTESE REMOVIVEL TOTAL E PARCIAL">PROTESE REMOVIVEL TOTAL E PARCIAL</option>
+                                    <option value="PROTESE ORTODONTICA">PROTESE ORTODONTICA</option>
+                                    <option value="PROTESE SOBRE IMPLANTE">PROTESE SOBRE IMPLANTE</option>
+                                </select>
+
+                            </div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label font-weight-bold">HABILITAÇÃO</label>
+                                <select name="habilitacao">
+                                    <option value="todas">Todas</option>
+                                    <option value="HABILITACAO EM ANALGESIA RELATIVA OU SEDACAO CONSCIENTE COM OXIDO NITROSO">ANALGESIA RELATIVA OU SEDAÇÃO CONSCIENTE COM ÓXIDO NITROSO</option>
+                                    <option value="HABILITACAO EM FITOTERAPIA">FITOTERAPIA</option>
+                                    <option value="HABILITACAO EM HIPNOSE">HIPNOSE</option>
+                                    <option value="HABILITACAO EM LASERTERAPIA">LASERTERAPIA</option>
+                                    <option value="HABILITACAO EM ODONTOLOGIA ANTROPOSOFICA">ODONTOLOGIA ANTROPÓFICA</option>
+                                    <option value="HABILITACAO EM ODONTOLOGIA HOSPITALAR">ODONTOLOGIA HOSPITALAR</option>
+                                    <option value="HABILITACAO EM OZONIOTERAPIA">OZONIOTERAPIA</option>
+                                    <option value="HABILITACAO EM TERAPIA FLORAL">TERAPIA FLORAL</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row justify-content-between text-left">
+                            <div class="form-group col-sm-12 flex-column d-flex"> <label class="form-control-label font-weight-bold">NOME</label> <input type="text" id="nome" name="nome" placeholder="Digite o nome completo ou uma palavra chave"></div>
+                        </div>
+                        <div class="row justify-content-between py-2">
+                            <div class="form-group col-sm-6 flex-column d-flex"><div id="recaptcha" class="g-recaptcha" data-sitekey="6LfCfoEeAAAAAFEinHnUbGV8LgeZNLSfwowWYWsy"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-zf65k3e1m9q6" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfCfoEeAAAAAFEinHnUbGV8LgeZNLSfwowWYWsy&amp;co=aHR0cHM6Ly9idXNjYS1wcm9maXNzaW9uYWlzLmNmby5vcmcuYnI6NDQz&amp;hl=pt-BR&amp;v=X-oVtzDcTGjZVms4LEgykmCV&amp;size=normal&amp;cb=xj9dh613ecgl"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div><span class="msg-error error"></span></div>
+                            <div class="form-group col-sm-6 flex-column d-flex"> <input id="btnConsulta" type="button" class="btn-block btn-primary" value="PESQUISAR"> </div>
+                        </div>
+                    </form>
+                    <div class="row justify-content-begin">
+                        <small class="text-muted text-left">Útima atualização em 22/05/2025</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="contentData">
+    </div>
+
+    <!--FIM FORMULÁRIO-->
+    <script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/X-oVtzDcTGjZVms4LEgykmCV/recaptcha__pt_br.js" crossorigin="anonymous" integrity="sha384-157E0cjRcD3mr3csqJ5H80B0+/a5EWkCwUJshizwlWj43Rim2KdN4Ra0uZ32vFR/"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+     <!-- reCAPTCHA-->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <!-- Core JS-->
+    <script>
+        $(document).ready(function($) {
+            $("#btnConsulta").click(function() {
+                var $captcha = $('#recaptcha'),
+                    response = grecaptcha.getResponse();
+                if (response.length === 0) {
+                    $('.msg-error').text("Resolva o Captcha");
+                    if (!$captcha.hasClass("error")) {
+                        $captcha.addClass("error");
+                    }
+                } else {
+                    if ($captcha.hasClass("error")) {
+                        $('.msg-error').text('');
+                        $captcha.removeClass("error");
+                    }
+                    $("#btnConsulta").prop('disabled', true);
+                    $('#contentData').html('<div class="container-fluid px-0 py-0 mx-auto"><div class="row d-flex justify-content-center"><div class="row justify-content-center"><img src="./assets/img/loading.gif"/></div></div></div>');
+                    var cro = $('select[name=cro] option').filter(':selected').val();
+                    var categoria = $('select[name=categoria] option').filter(':selected').val();
+                    var inscricao = $('input[name=inscricao]').val();
+                    var especialidade = $('select[name=especialidade] option').filter(':selected').val();
+                    var habilitacao = $('select[name=habilitacao] option').filter(':selected').val();
+                    var nome = $('input[name=nome]').val();
+                    
+                    getAjax("/search.php?cro=" + cro + "&categoria=" + categoria + "&inscricao=" + inscricao + "&especialidade=" + especialidade + "&habilitacao=" + habilitacao + "&nome=" + nome + "&recaptcha=" + response, function(data) {
+                        $('#contentData').fadeOut(500, function() {
+                            $(this).html(data).fadeIn(500);
+                            setTimeout(function() {
+                                $("#btnConsulta").prop('disabled', false);
+                                grecaptcha.reset();
+                            }, 100);
+                        });
+                    });
+                }
+            });
+
+            $('select[name=categoria]').change(function() {
+                var categoria = $('select[name=categoria] option').filter(':selected').val();
+                if (categoria != 'todas' && categoria != 1 && categoria != 3) {
+                    $('select[name=especialidade]').prop('disabled', true);
+                    $('select[name=especialidade]').prop('selectedIndex', 0);
+                    $('select[name=habilitacao]').prop('disabled', true);
+                    $('select[name=habilitacao]').prop('selectedIndex', 0);
+                } else {
+                    $('select[name=especialidade]').prop('disabled', false);
+                    $('select[name=especialidade]').prop('selectedIndex', 0);
+                    $('select[name=habilitacao]').prop('disabled', false);
+                    $('select[name=habilitacao]').prop('selectedIndex', 0);
+                    if (categoria == 1 || categoria == "todas") {
+                        especialidade_opt = '<option value="todas">Todas</option>';
+                        especialidade_opt += '<option value="ACUPUNTURA">ACUPUNTURA</option>';
+                        especialidade_opt += '<option value="CIRURGIA E TRAUMATOLOGIA BUCO MAXILO FACIAIS">CIRURGIA E TRAUMATOLOGIA BUCO MAXILO FACIAIS</option>';
+                        especialidade_opt += '<option value="DENTISTICA">DENTISTICA</option>';
+                        especialidade_opt += '<option value="DENTISTICA RESTAURADORA">DENTISTICA RESTAURADORA</option>';
+                        especialidade_opt += '<option value="DISFUNCAO TEMPOROMANDIBULAR E DOR OROFACIAL">DISFUNÇÃO TEMPOROMANDIBULAR E DOR OROFACIAL</option>';
+                        especialidade_opt += '<option value="ENDODONTIA">ENDODONTIA</option>';
+                        especialidade_opt += '<option value="ESTOMATOLOGIA">ESTOMATOLOGIA</option>';
+                        especialidade_opt += '<option value="HARMONIZACAO OROFACIAL">HARMONIZAÇÃO OROFACIAL</option>';
+                        especialidade_opt += '<option value="HOMEOPATIA">HOMEOPATIA</option>';
+                        especialidade_opt += '<option value="IMPLANTODONTIA">IMPLANTODONTIA</option>';
+                        especialidade_opt += '<option value="ODONTOGERIATRIA">ODONTOGERIATRIA</option>';
+                        especialidade_opt += '<option value="ODONTOLOGIA HOSPITALAR">ODONTOLOGIA HOSPITALAR</option>';
+                        especialidade_opt += '<option value="ODONTOLOGIA DO ESPORTE">ODONTOLOGIA DO ESPORTE</option>';
+                        especialidade_opt += '<option value="ODONTOLOGIA DO TRABALHO">ODONTOLOGIA DO TRABALHO</option>';
+                        especialidade_opt += '<option value="ODONTOLOGIA EM SAUDE COLETIVA">ODONTOLOGIA EM SAUDE COLETIVA</option>';
+                        especialidade_opt += '<option value="ODONTOLOGIA LEGAL">ODONTOLOGIA LEGAL</option>';
+                        especialidade_opt += '<option value="ODONTOLOGIA P/ PACIENTES C/ NECESSIDADES ESPECIAIS">ODONTOLOGIA P/ PACIENTES C/ NECESSIDADES ESPECIAIS</option>';
+                        especialidade_opt += '<option value="ODONTOPEDIATRIA">ODONTOPEDIATRIA</option>';
+                        especialidade_opt += '<option value="ORTODONTIA">ORTODONTIA</option>';
+                        especialidade_opt += '<option value="ORTODONTIA E ORTOPEDIA FACIAL">ORTODONTIA E ORTOPEDIA FACIAL</option>';
+                        especialidade_opt += '<option value="ORTOPEDIA FUNCIONAL DOS MAXILARES">OORTOPEDIA FUNCIONAL DOS MAXILARES</option>';
+                        especialidade_opt += '<option value="PATOLOGIA ORAL E MAXILO FACIAL">PATOLOGIA ORAL E MAXILO FACIAL</option>';
+                        especialidade_opt += '<option value="PERIODONTIA">PERIODONTIA</option>';
+                        especialidade_opt += '<option value="PROTESE BUCO MAXILO FACIAL">PRÓTESE BUCO MAXILO FACIAL</option>';
+                        especialidade_opt += '<option value="PROTESE DENTARIA">PRÓTESE DENTÁRIA</option>';
+                        especialidade_opt += '<option value="RADIOLOGIA">RADIOLOGIA</option>';
+                        especialidade_opt += '<option value="RADIOLOGIA ODONTOLOGICA E IMAGINOLOGIA">RADIOLOGIA ODONTOLOGICA E IMAGINOLOGIA</option>';
+                        especialidade_opt += '<option value="SAUDE COLETIVA">SAÚDE COLETIVA</option>';
+                        if (categoria == "todas") {
+                            especialidade_opt += '<option value="PROTESE FIXA">PROTESE FIXA</option>';
+                            especialidade_opt += '<option value="PROTESE REMOVIVEL TOTAL E PARCIAL">PROTESE REMOVIVEL TOTAL E PARCIAL</option>';
+                            especialidade_opt += '<option value="PROTESE ORTODONTICA">PROTESE ORTODONTICA</option>';
+                            especialidade_opt += '<option value="PROTESE SOBRE IMPLANTE">PROTESE SOBRE IMPLANTE</option>';
+                        }
+                        $('select[name=especialidade]').html(especialidade_opt);
+                    } else if (categoria == 3) {
+						$('select[name=habilitacao]').prop('disabled', true);
+						$('select[name=habilitacao]').prop('selectedIndex', 0);
+                        especialidade_opt = '<option value="todas">Todas</option>';
+                        especialidade_opt += '<option value="PROTESE FIXA">PROTESE FIXA</option>';
+                        especialidade_opt += '<option value="PROTESE REMOVIVEL TOTAL E PARCIAL">PROTESE REMOVIVEL TOTAL E PARCIAL</option>';
+                        especialidade_opt += '<option value="PROTESE ORTODONTICA">PROTESE ORTODONTICA</option>';
+                        especialidade_opt += '<option value="PROTESE SOBRE IMPLANTE">PROTESE SOBRE IMPLANTE</option>';
+                        $('select[name=especialidade]').html(especialidade_opt);
+                    }
+                }
+            });
+
+            function getAjax(url, success) {
+                var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+                xhr.open('GET', url);
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState > 3 && xhr.status == 200) success(xhr.responseText);
+                };
+                xhr.setRequestHeader('Accept', '*/*');
+                xhr.send();
+                return xhr;
+            }
+        });
+    </script>
+
+<div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility linear 0.3s, opacity 0.3s linear; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="o desafio reCAPTCHA expira em dois minutos" name="c-zf65k3e1m9q6" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/bframe?hl=pt-BR&amp;v=X-oVtzDcTGjZVms4LEgykmCV&amp;k=6LfCfoEeAAAAAFEinHnUbGV8LgeZNLSfwowWYWsy" style="width: 100%; height: 100%;"></iframe></div></div></body></html>

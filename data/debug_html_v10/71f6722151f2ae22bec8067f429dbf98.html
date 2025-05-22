@@ -1,0 +1,893 @@
+<html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Busca CEP</title>
+<!-- - copia do SroRastro -->
+ 	<link href="https://cdn.correios.com.br/animate/3.5.1/css/animate.min.css?1" rel="stylesheet">
+  <link rel="stylesheet" href="https://buscacepinter.correios.com.br/lib/font-awesome/css/font-awesome.min.css?1">
+    <!-- -  <link rel="stylesheet" href="https://buscacepinter.correios.com.br/lib/bootstrap4/css/bootstrap.min.css?1" id="bootstrap-css">
+    <link rel='stylesheet prefetch' href="https://buscacepinter.correios.com.br/static/css/reset.min.css?1">    -->
+<!-- - fim copia do SroRastro  04/2024 -->    
+    <link rel="shortcut icon" href="https://buscacepinter.correios.com.br/core/templates/bunker/img/favi-ect.png">
+    <link rel="stylesheet" href="https://buscacepinter.correios.com.br/core/templates/bunker/css/bunker.css?1">
+    <link rel="stylesheet" href="https://buscacepinter.correios.com.br/static/css/global.css?1">    
+       
+    <link rel="stylesheet" href="https://buscacepinter.correios.com.br/app/index.css?1">
+    <link rel="stylesheet" href="https://buscacepinter.correios.com.br/app/consulta/css/detalhes-cep.css?1">
+    <link rel="stylesheet" href="https://buscacepinter.correios.com.br/app/consulta/css/modal-consulta.css?1">   
+</head>
+
+<body class="">
+    
+    
+    
+<div id="acessibilidade"> 
+    <a id="btnAcessibilidade" accesskey="c" class="">Acessibilidade</a> 
+    <a class="idioma">Português</a>
+</div>    
+    <div id="acess-drop-down" class="">
+        <header>
+            <a class="close">&nbsp;&nbsp;.</a>
+        </header>
+        <section>
+            <a class="conteudo numero" data-numero="1" href="#inicioConteudo">&nbsp;
+                Ir para o conteúdo
+                <span class="atalho">(alt+1)</span>
+            </a>
+            <a class="menu numero" data-numero="2">&nbsp;
+                Ir para o menu
+                <span class="atalho">(alt+2)</span>
+            </a>
+            <a class="rodape numero" data-numero="3">&nbsp;
+                Ir para o rodapé
+                <span class="atalho">(alt+3)</span>
+            </a>
+            <a class="contraste">&nbsp;Alto </a> 
+            
+            <a class="libras" href="https://www.gov.br/governodigital/pt-br/vlibras">&nbsp;
+                Libras
+            </a>       
+            <a class="saiba-mais" href="https://www.correios.com.br/estrutura-da-pagina/acessibilidade">
+                &nbsp;Saiba mais sobre acessibilidade
+            </a>
+        </section>
+    </div>
+   <section id="menu">
+    <a class="hamburger">&nbsp;.</a>
+    <!--- <a class="logo" href="< ?= SITE ?>app/index.php">&nbsp;.</a> --->
+    <a class="logo" href="https://www.correios.com.br/"> <alt="logomarca dos="" correios"=""> </alt="logomarca></a>     
+    <a class="pesquisar">&nbsp;.</a>    
+            <!---
+        <a class="entrar" href="https://buscacepinter.correios.com.br/core/seguranca/entrar.php"></a>
+        --->
+        <div class="menu oculto" style="height: 897px;">
+        <section>            
+            <h1>Busca CEP </h1>            
+                            <!---
+                <a href="< ?= SITE ?>core/seguranca/entrar.php">Entrar</a>
+                --->
+                    </section>
+        
+<a href="https://buscacepinter.correios.com.br/app/index.php" tabindex="1">Voltar ao menu</a>
+<a href="https://buscacepinter.correios.com.br/app/endereco/index.php" tabindex="1">Por Endereço ou CEP</a>
+<a href="https://buscacepinter.correios.com.br/app/localidade_logradouro/index.php" tabindex="1">Por Localidade/Logradouro</a>
+<a href="https://buscacepinter.correios.com.br/app/cep/index.php" tabindex="1">Por CEP</a>  
+<a href="https://buscacepinter.correios.com.br/app/logradouro_bairro/index.php" tabindex="1">Logradouro por Bairro</a>
+<a href="https://buscacepinter.correios.com.br/app/faixa_cep_uf_localidade/index.php" tabindex="1">Faixa de CEP por UF/Localidade</a>
+<a href="https://buscacepinter.correios.com.br/app/caixa_postal/index.php" tabindex="1">Caixa Postal</a>
+<a href="https://buscacepinter.correios.com.br/app/clique_retire/index.php" tabindex="1">Clique e Retire</a> 
+<a href="https://buscacepinter.correios.com.br/app/locker/index.php" tabindex="1">Locker</a>
+<a href="https://buscacepinter.correios.com.br/app/agencia_modular/index.php" tabindex="1">Agência Modular</a>
+
+<a tabindex="1">Veja Também</a>
+<div><a class="voltar" tabindex="-1">Voltar</a>
+    <a href="https://www.correios.com.br/enviar/precisa-de-ajuda/tudo-sobre-cep" tabindex="-1">Tudo sobre CEP</a>
+    <a href="https://www.upu.int/UPU/media/upu/files/postalSolutions/programmesAndServices/postalSupplyChain/customs/listCustomsProhibitedArticlesEn.pdf" tabindex="-1">CEP de outros Países</a>
+    <a href="https://buscacepinter.correios.com.br/app/veja_tambem/sobre/index.php" tabindex="-1">Sobre</a>
+</div>
+
+
+
+ 
+
+
+
+    
+<!---
+**********************************   Menu Versão v1.3.8  **********************************
+************ Antes - Migração Funcionalidades BuscaCEP INTRANET para a INTERNET ***********
+--->
+
+<!---
+<a href="https://buscacepinter.correios.com.br/app/index.php">Voltar ao menu</a>
+<a href="https://buscacepinter.correios.com.br/app/endereco/index.php">Por Endereço ou CEP</a>
+<a href="https://buscacepinter.correios.com.br/app/localidade_logradouro/index.php">Por Localidade/Logradouro</a>
+<a href="https://buscacepinter.correios.com.br/app/cep/index.php">Por CEP</a>  
+<a href="https://buscacepinter.correios.com.br/app/logradouro_bairro/index.php">Logradouro por Bairro</a>
+<a href="https://buscacepinter.correios.com.br/app/faixa_cep_uf_localidade/index.php">Faixa de CEP por UF/Localidade</a>
+<a href="https://buscacepinter.correios.com.br/app/caixa_postal/index.php">Caixa Postal</a>
+<a href="https://buscacepinter.correios.com.br/app/clique_retire/index.php">Clique e Retire</a> 
+<a href="https://buscacepinter.correios.com.br/app/locker/index.php">Locker</a>
+<a href="https://buscacepinter.correios.com.br/app/agencia_modular/index.php">Agência Modular</a>
+
+<a>Veja Também</a>
+<div>
+    <a href="https://www.correios.com.br/enviar/precisa-de-ajuda/tudo-sobre-cep">Tudo sobre CEP</a>
+    <a href="https://www.upu.int/UPU/media/upu/files/postalSolutions/programmesAndServices/postalSupplyChain/customs/listCustomsProhibitedArticlesEn.pdf">CEP de outros Países</a>
+    <a href="https://buscacepinter.correios.com.br/app/veja_tambem/sobre/index.php">Sobre</a>
+</div>
+--->    </div>
+</section>
+<main>
+        
+<div id="trilha">
+    <!--- <a href="https://www.correios.com.br" class="nounderline">Portal Correios</a> ---> 
+    <a>Portal Correios</a>
+    <a><b>Busca por Endereço ou CEP</b></a>
+</div>   
+
+  
+ 
+
+ 
+<form novalidate="">    
+    <div id="painel_form_consulta" class="container">
+        <div>
+            <div class="form" id="formulario">    
+                <input name="pagina" id="pagina" type="hidden" value="/app/endereco/index.php">
+                <input name="cepaux" id="cepaux" type="hidden" value="">                
+                <input name="mensagem_alerta" id="mensagem_alerta" type="hidden" value="">
+                <div class="campos">  
+                    <div class="campo">
+                        <div id="titulo_tela">
+                            <h2>Busca CEP</h2>
+                        </div>                        
+                    </div>    
+                </div>
+                <section id="inicioConteudo">
+                    <div class="campos">
+                        <div class="campo col-7 required">
+
+                            <div class="rotulo">
+                                <label for="endereco">Digite um CEP ou um Endereço:</label>
+                            </div>
+                            <div class="controle">
+                                <input name="endereco" id="endereco" type="text" value="" maxlength="60" size="50" required="" accesskey="E" placeholder="Não utilize nº de casa/apto/lote/prédio ou abreviação.">                                
+                            </div>
+                            <div class="mensagem" title="mensagem" hidden="true">
+                                Não utilize nº de casa/apto/lote/prédio ou abreviação.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="campos">                      
+                        <div class="campo col-7">
+                            <div class="rotulo">
+                                <label for="tipoCEP">Esse CEP é de:</label>
+                            </div>
+                            <div class="controle">
+                                <select name="tipoCEP" id="tipoCEP" accesskey="T">
+                                      <optgroup label="Tipo do CEP">
+                                        <option value="LOG">Localidade/Logradouro</option>
+                                        <option value="PRO">CEP Promocional</option>
+                                        <option value="CPC">Caixa Postal Comunitária</option>
+                                        <option value="GRU">Grande Usuário</option>
+                                        <option value="UOP">Unidade Operacional</option>
+                                        <option value="ALL" selected="">Todos</option>
+                                      </optgroup>
+                                </select>
+                            </div>
+                            <div class="mensagem" title="mensagem" hidden="true">&nbsp;msg                        
+                            </div>
+                        </div>
+                    </div>
+<!--   *************************************************   -->
+                    <div class="campos captcha">                    
+                        <div class="campo">
+                           <div class="controle">
+                                <img id="captcha_image" src="../../core/securimage/securimage_show.php" alt="CAPTCHA Image">
+                                <div id="captcha_image_audio_div">        
+                                    <audio id="captcha_image_audio" preload="none" style="display: none">
+                                        <source id="captcha_image_source_wav" src="../../core/securimage/securimage_play.php?id=745127474" type="audio/wav">
+                                    </audio>
+                                </div>
+                                <div id="captcha_image_audio_controls">
+                                    <a tabindex="-1" class="captcha_play_button" href="../../core/securimage/securimage_play.php?id=73745" onclick="return false">
+                                        <i class="fa fa-volume-up" aria-hidden="true" style="width: 16px"></i>
+                                        <img class="captcha_loading_image rotating" height="32" width="32" src="../../core/securimage/images/loading.png" alt="Loading audio" style="display: none">
+                                    </a>
+                                    <noscript>Enable Javascript for audio controls</noscript>
+                                    <p>
+                                        <script type="text/javascript" src="../../core/securimage/securimage.js"></script>
+                                        <script type="text/javascript">
+                                            captcha_image_audioObj = new SecurimageAudio(
+                                                { audioElement: 'captcha_image_audio',
+                                                    controlsElement: 'captcha_image_audio_controls'
+                                                });
+                                        </script>
+        
+                                        <a tabindex="-1" style="border: 0" href="#" title="Refresh Image" id="captcha_refresh_btn">
+                                            <i class="fa fa-refresh" aria-hidden="true" onclick="this.blur()"></i>
+                                        </a>
+                                    </p>
+                                 </div>
+                           </div>
+                        </div>
+                        <div class="campo required"> <!--  style="border: solid 1px;" -->
+                             <div class="rotulo">
+                                  <label for="captcha">Digite o texto contido na imagem</label>
+                             </div>
+                             <div class="controle">
+                                  <input type="text" name="captcha" id="captcha" autocomplete="off" class="controle" required="">
+                             </div>
+                             <div class="mensagem"></div>
+                       </div> 	
+                    </div>
+
+                    
+                    <div class="campos">    
+                        <div class="campo col-1">
+                            <div class="botoes">
+                                <button name="btn_pesquisar" id="btn_pesquisar" class="primario" accesskey="F">Buscar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    
+              </section>
+            </div>
+        </div>
+        <div class="ctn-tabela">
+            <div class="dados" id="resultado">
+                <div id="buscar" class="esconde">
+                    <h3>Resultado da Busca por Endereço ou CEP</h3> 
+                </div>        
+                <div id="mensagem-resultado" class="mensagem" hidden="true">&nbsp;msg</div> 
+                <div id="mensagem-resultado-alerta" class="mensagem" hidden="true">&nbsp;msg</div>
+                <div class="esconde">
+                    <div id="navegacao-resultado" class="botoes nav">
+                         <a href="javascript:pesquisarAnterior()" class="botao anterior" accesskey="A">Anterior</a>
+                         &nbsp;&nbsp; 
+                         <a href="javascript:pesquisarProximo()" class="botao proximo" accesskey="P">Próximo</a>
+                         &nbsp;&nbsp;
+                         <div id="navegacao-total" class="mensagem" hidden="true">&nbsp;msg</div>                         
+                    </div>
+                    
+                            &nbsp;
+                        <table id="resultado-DNEC" summary="Resultado DNEC" class="th-fixo cards mob">
+                        <caption hidden="true">Resultado da Busca por Endereço ou CEP</caption>                        
+                        <thead>
+                            <tr>
+                                <th data-th="Logradouro/Nome">Logradouro/Nome</th>
+                                <th data-th="Bairro/Distrito">Bairro/Distrito</th>
+                                <th data-th="Localidade/UF">Localidade/UF</th>
+                                <th data-th="CEP">CEP</th>   
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div id="botaovolta" class="esconde"> 
+                    <div class="campos">   
+                        <div class="campo col-1">
+                            <div id="botoesgrid" class="botoes">                             
+                               <button class="primario" id="btn_nbusca" onclick="location.href='https://buscacepinter.correios.com.br/app/endereco/index.php'" accesskey="V">Nova Busca</button>    
+                                  <noscript>Por favor, habilite o JavaScript em seu navegador.</noscript> 
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>    
+        </div>
+    </div>       
+  <!--- Modal - Localidade --->    
+    
+  
+ 
+
+<!--- Inicio - Modal --->
+<div class="modal" id="modal-localidade" data-esc="">      
+    <section> 
+        <header>
+            <!---
+            <h2>&nbsp;</h2>    
+            --->              
+            <a class="fechar">&nbsp;.</a>  
+            <div class="botoes esconde">
+                <button class="primario" id="btn_abre_modal_localidade">Abre</button>
+            </div>
+        </header>          
+        <div class="container" id="painel_form_consulta">
+            <div> 
+                <div class="form" id="formulario">  
+                    <input name="pagina" id="pagina" type="hidden" value="/app/endereco/index.php"> 
+                    <header>                 
+                        <div class="rotulo">
+                            <label for="texto">Clique na letra inicial da Localidade</label>
+                        </div>               
+                    </header>  
+                    <section id="inicioConteudoModal">
+                        <div class="campos">   
+                            <div class="campo">
+                                <div class="controle">
+                                    <label for="uf">UF:</label>
+                                    <span id="localidade-uf">
+                                        <input name="uf" id="uf" type="text" maxlength="2" disabled=""> 
+                                    </span>   
+                                </div>
+                            </div>
+                            <!---  Início - Letras da Localidade --->
+                            <div class="campo">
+                                <div class="controle">
+                                    <div id="div_modal_letra_localidade" class="link_letra"></div>   
+                                </div>
+                            </div> 
+                        </div>     
+                        <!---
+                        <div class="campos" style="display:none;"> 
+                        --->
+                        <div class="campos"> 
+                            <div class="campo">
+                               <div class="botoes">
+                                    <button name="btn_fechar" id="btn_fechar" class="primario">Fechar</button>
+                                </div>
+                            </div>
+                        </div>                        
+                        <!---   
+                        <div class="botoes">
+                            <button id="btn_fechar">Fechar</button>
+                        </div>
+                        --->
+                    </section> 
+                </div>
+            </div>
+            <!--- Início - Grid Localidade --->
+            <div class="dados" id="resultado"> 
+                <div id="mensagem-resultado-modal" summary="Resultado DNEC Localidade" class="mensagem">&nbsp;</div>
+                <div class="esconde">
+                    
+                            &nbsp;
+                        <table id="resultado-DNEC-localidade" data-ordenavel="1" class="th-fixo cards mob"> 
+                        <caption hidden="true">Resultado da Busca</caption>                                               
+                        <thead>
+                            <tr>
+                                <th data-th="Localidade/UF">Localidade/UF</th>
+                                <th data-th="CEP">CEP</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>                    
+                </div>
+            </div>
+        </div>
+    </section>
+</div>             
+<!--- Fim Modal --->     
+    <!--- Modal - Detalhes do CEP --->
+    <!--- Inicio - Modal --->
+<div id="detalhes-cep-modal" class="modal" summary="Detalhes do CEP" data-esc="">  
+    <section id="inicioConteudo"> 
+        <header>
+            <h2>Detalhes</h2> 
+            <!--- Original - não remover ---> 
+            <!---
+            <a class="fechar"></a>
+            --->            
+            <a class="fechar">&nbsp;.</a>
+            <div class="botoes" style="display:none;">
+                <button class="primario" id="btn_abre_modal">Abre</button>
+            </div>
+        </header>
+        <div class="item-detalhe"><label for="detalhes-cep-logradouro">Logradouro:</label><span id="detalhes-cep-logradouro">Logradouro</span></div>
+        <div class="item-detalhe"><label for="detalhes-cep-bairro">Bairro:</label><span id="detalhes-cep-bairro">Bairro</span></div>
+        <div class="item-detalhe"><label for="detalhes-cep-bairro-distrito">Bairro/Distrito:</label><span id="detalhes-cep-bairro-distrito">Bairro/Localidade</span></div>
+        <div class="item-detalhe"><label for="detalhes-cep-localidade-uf">Localidade/UF:</label><span id="detalhes-cep-localidade-uf">Localidade/UF</span></div>
+        <div class="item-detalhe"><label for="detalhes-cep-localidade-sub-uf">Localidade/UF:</label><span id="detalhes-cep-localidade-sub-uf">Localidade SUB/UF</span></div>
+        <div class="item-detalhe"><label for="detalhes-cep-cep&quot;">CEP:</label><span id="detalhes-cep-cep">(CEP)</span></div>
+        <div class="item-detalhe"><label for="detalhes-cep-promocao">Promoção:</label><span id="detalhes-cep-promocao">(NOME)</span></div>
+        <div class="item-detalhe"><label for="detalhes-cep-grande-usuario">Grande Usuário:</label><span id="detalhes-cep-grande-usuario">(NOME)</span></div>
+        <div class="item-detalhe"><label for="detalhes-cep-unidade-operacional">Unidade Operacional:</label><span id="detalhes-cep-unidade-operacional">(NOME)</span></div>
+        <div class="item-detalhe"><label for="detalhes-cep-cpc">CPC:</label><span id="detalhes-cep-cpc">(NOME)</span></div>
+        <div class="item-detalhe"><label for="detalhes-cep-caixa-postal">Caixa Postal:</label><span id="detalhes-cep-caixa-postal">Caixa Postal (FAIXA)</span></div>        
+        <!---
+        <br>
+        <div class="campos">   
+            <div class="campo">
+               <div class="botoes ">
+                    <button name="btn_voltar" id="btn_voltar" class="primario"  onclick="location.href='/app/endereco/index.php'">Nova Busca</button>
+                </div>
+            </div>
+        </div> 
+        --->
+    </section>
+</div>
+<!--- Fim Modal ---> 
+              
+</form>
+
+   
+    <div id="regiao-botoes" class="oculta">&nbsp;.</div>
+</main>
+    <footer id="footercontent">
+       <!--- < ?php  include RAIZ . 'core/templates/bunker/inc/footer-buscacep.html.php'?> --->
+        
+
+
+ 
+    <link rel="stylesheet" href="https://buscacepinter.correios.com.br/core/templates/bunker/css/rodape-buscacep.css?1">
+
+
+
+        <nav>
+            <div class="rodape-links">
+                <!--- Fale Conosco --->
+                <h3 class="title_footer">Fale Conosco</h3>    
+                <a href="https://faleconosco.correios.com.br/faleconosco/app/index.php" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/fale-conosco/registro-de-manifestacoes/@@images/imagem_para_link/icon" alt="Tela de computador azul escuro">&nbsp; 
+                    <span>Registro de manifestações</span>
+                </a>
+                <a href="https://www.correios.com.br/falecomoscorreios/central-de-atendimento" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/fale-conosco/central-de-atendimento/@@images/imagem_para_link/icon" alt="Balão de conversa com interrogação no meio, ambos na cor azul escuro">
+                    <span>Central de atendimento</span>&nbsp; 
+                </a>
+                <a href="https://faleconosco.correios.com.br/faleconosco/app/cadastro/contrate/index.php" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/fale-conosco/solucoes-para-o-seu-negocio/@@images/imagem_para_link/icon" alt="Mala de ferramenta azul escuro">                   
+                    <span>Soluções para o seu negócio</span>&nbsp; 
+                </a>
+                <a href="https://faleconosco.correios.com.br/faleconosco/app/cadastro/suporte/index.php" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/fale-conosco/suporte-ao-cliente-com-contrato/@@images/imagem_para_link/icon" alt="Headset azul escuro">
+                    <span>Suporte ao cliente com contrato</span>&nbsp; 
+                </a>      
+                <a href="https://www.correios.com.br/falecomoscorreios/ouvidoria" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/fale-conosco/ouvidoria/@@images/imagem_para_link/icon" alt="Balão de conversa com três pontos, tudo na cor azul escuro">
+                    <span align="midle">Ouvidoria</span>&nbsp; 
+                </a> 
+                <a href="https://www.correios.com.br/falecomoscorreios/canais-de-denuncia" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/fale-conosco/denuncia/@@images/imagem_para_link/icon" alt="busto de um boneco e uma lupa, ambos na cor azul escuro">                         
+                    <span>Denúncia</span>&nbsp; 
+                </a>
+                <a href="https://c.correios.com.br/seguranca" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/fale-conosco/seguranca/@@images/imagem_para_link/icon" alt="Ícone representativo da Segurança">                         
+                    <span>Segurança</span>&nbsp; 
+                </a>                
+            </div>
+            <div class="rodape-links">
+                <!--- Sobre os Correios --->  
+                <h3 class="title_footer">Sobre os Correios</h3>
+                <a href="https://www.correios.com.br/acesso-a-informacao/institucional/identidade-corporativa" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/sobre-os-correios/identidade-corporativa/@@images/imagem_para_link/icon" alt="documento azul com busto de um boneco e duas linhas à direita, tudo na cor azul escuro">
+                    <span>Identidade corporativa</span>&nbsp; 
+                </a>
+                <a href="https://www.correios.com.br/educacao-e-cultura" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/sobre-os-correios/educacao-e-cultura/@@images/imagem_para_link/icon" alt="cabeça redonda sem rosto, com um capelo em cima, tudo na cor azul escuro">
+                    <span>Educação e cultura</span>&nbsp; 
+                </a>  
+                <a href="https://www.correios.com.br/acesso-a-informacao/servidores/arquivos/codigo-de-conduta-etica-integridade" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/sobre-os-correios/codigo-de-etica/@@images/imagem_para_link/icon" alt="livro aberto com linhas tracejadas nas folhas, tudo na cor azul escuro">
+                    <span>Código de Conduta Ética e Integridade</span>&nbsp; 
+                </a>
+                <a href="https://www.correios.com.br/acesso-a-informacao/transparencia-e-governanca/transparencia-e-prestacao-de-contas/transparencia-e-prestacao-de-contas" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/sobre-os-correios/transparencia-e-prestacao-de-contas/@@images/imagem_para_link/icon" alt="Lupa azul escuro">                    
+                    <span>Transparência e prestação de contas</span>&nbsp; 
+                </a>  
+                <a href="https://www.correios.com.br/acesso-a-informacao/transparencia-e-governanca/sustentabilidade/sustentabilidade" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/sobre-os-correios/sustentabilidade/@@images/imagem_para_link/icon" alt="Planta">                    
+                    <span>Sustentabilidade</span>&nbsp; 
+                </a>                 
+                <a href="https://www.correios.com.br/falecomoscorreios/politica-de-privacidade-e-cookies" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/sobre-os-correios/politica-de-privacidade-e-cookies/@@images/imagem_para_link/icon" alt="cadeado azul escuro">
+                    <span>Política de privacidade e cookies</span>&nbsp; 
+                </a>
+                <a href="https://sgdados.correios.com.br/app/index.php" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/sobre-os-correios/minha-privacidade-nos-correios/@@images/imagem_para_link/icon" alt="cadeado azul escuro">
+                    <span>Minha Privacidade nos Correios</span>&nbsp; 
+                </a>                
+            </div> 
+            <div class="rodape-links">
+                <!--- Informações --->
+                <h3 class="title_footer">Informações</h3>                                    
+                <a href="http://shopping.correios.com.br/wbm/store/script/store.aspx?cd_company=ErZW8Dm9i54=" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/outros-sites/loja-online-dos-correios/@@images/imagem_para_link/icon" alt="carrinho de compras azul escuro">
+                    <span>Loja online dos Correios</span>&nbsp; 
+                </a>
+                
+                <!--- 
+                    - Demanda SGNE número 120808 - Comentar Links/Imagens com a logo do Governo Federal 
+                      durante o período das Eleições/2022 
+                    - Retornar as imagens e link do Ministério das Comunicações após esse período.            
+                --->
+                
+                <!---
+                <a href="https://www.gov.br/mcom/pt-br" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" 
+                         src="https://www.correios.com.br/estrutura-da-pagina/rodape/outros-sites/ministerio-das-comunicacoes/@@images/imagem_para_link/icon" 
+                         alt="logo do Governo Federal na cor azul escuro" />
+                    <span>Ministério das Comunicações</span>&nbsp; 
+                </a>
+                --->                
+                
+                <a href="https://www.postalis.org.br/" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/outros-sites/postalis/@@images/imagem_para_link/icon" alt="Logotipo Postalis">
+                    <span>Postalis</span>&nbsp; 
+                </a>
+                <a href="https://www.postalsaude.com.br/" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/outros-sites/postal-saude/@@images/imagem_para_link/icon" alt="Logotipo Postal Saúde">
+                    <span>Postal Saúde</span>
+                </a>
+                <a href="https://www.gov.br/mcom/pt-br" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/outros-sites/ministerio-das-comunicacoes/@@images/imagem_para_link/icon" alt="Logo do Governo Federal na cor azul escuro">
+                    <span>Ministério das Comunicações</span>
+                </a>     
+                <a href="https://www.correios.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos-aos-usuarios" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/outros-sites/carta-de-servico-ao-usuario/@@images/imagem_para_link/icon" alt="Logo do Governo Federal na cor azul escuro">
+                    <span>Carta de Serviço ao Usuário</span>
+                </a>   
+                <a href="https://www.correios.com.br/falecomoscorreios/sei-protocolo-eletronico" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/outros-sites/sei-protocolo-eletronico/@@images/imagem_para_link/icon" alt="Logo do Governo Federal na cor azul escuro">
+                    <span>Carta de Serviço ao Usuário</span>
+                </a>  
+                <a href="https://www.correios.com.br/acesso-a-informacao/" class="link_rodape">
+                    <img class="proporcao-link-rodape" width="16" height="16" src="https://www.correios.com.br/estrutura-da-pagina/rodape/outros-sites/acesso-a-informacao/@@images/imagem_para_link/icon" alt="Logo do Governo Federal na cor azul escuro">
+                    <span>Acesso à Informação</span>
+                </a>                  
+            </div>
+            
+  			<div class="rodape-links">  
+                <!--- Siga os Correios --->                			
+  			    <h3 class="title_footer">Siga os Correios</h3>
+  			    
+  			    <div class="container">
+ 					<ul class="lista-icone">
+        	            <li>  			    
+ 							<a href="https://www.youtube.com/@correiosoficial" class="link_rodape">
+                	    	<img class="proporcao-link-rodape" width="32" height="32" src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/youtube/@@images/imagem_para_link/icon" alt="Youtube - Correios">    
+                            <!-- -     <span>Youtube</span>   -->
+                    		</a>         			    
+  			    		</li>
+                	</ul>
+                	
+				<!-- -  	<ul class="lista-icone">                    
+                    <li>
+  					<a href="https://twitter.com/correiosBR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="link_rodape">
+                    	<img class="proporcao-link-rodape" width="32" height="32" 
+                         src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/twitter-correios/@@images/imagem_para_link/icon" 
+                         alt="Twitter - Correios" />-->
+                      <!-- -     <span>Twitter - Correios</span>  -->
+          <!-- -            </a>
+                    </li>
+                	</ul>     -->           	
+  					
+  					<ul class="lista-icone">                    
+                    <li>  
+  					<a href="https://www.instagram.com/correiosoficial/" class="link_rodape">
+                    	<img class="proporcao-link-rodape" width="32" height="32" src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/instagram/@@images/imagem_para_link/icon" alt="Instagram - Correios">
+                        <!-- -     <span>Instagram</span> -->
+                    </a>
+                    </li>
+                 	</ul>                	
+                	
+  					<ul class="lista-icone">                    
+                    <li>  
+  					<a href="https://www.facebook.com/correios/?locale=pt_BR " class="link_rodape">
+                    	<img class="proporcao-link-rodape" width="32" height="32" src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/facebook/@@images/imagem_para_link/icon" alt="Facebook - Correios">
+                    </a>
+                    </li>
+                	</ul>
+                	
+   					<ul class="lista-icone">                     
+                    <li> 
+  					<a href="https://br.linkedin.com/company/correios " class="link_rodape">
+                    	<img class="proporcao-link-rodape" width="32" height="32" src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/linkedin/@@images/imagem_para_link/icon" alt="Linkedin - Correios">
+                    </a>
+                    </li>  
+                	</ul>                  	
+                	    
+                    <ul class="lista-icone">                     
+                        <li> 
+      					<a href="https://www.tiktok.com/@correiosoficialbr" class="link_rodape">
+                        	<img class="proporcao-link-rodape" width="32" height="32" src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/tik-tok/@@images/imagem_para_link/icon" alt="Tik Tok Correios">
+                        </a>
+                        </li>  
+                    </ul>                  	                	
+  			    </div>
+  			    
+   				<div class="container">
+     				<ul class="lista-icone">                     
+                        <li> 
+      					<a href="https://www.flickr.com/photos/correiosoficial/" class="link_rodape">
+                        	<img class="proporcao-link-rodape" width="32" height="32" src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/flickr-correios/@@images/imagem_para_link/icon" alt="Flickr - Correios">
+                        </a>
+                        </li>  
+                    </ul>  
+                                    
+                                                       
+                    <ul class="lista-icone">                     
+                        <li> 
+      					<a href="https://br.pinterest.com/correios/" class="link_rodape">
+                        	<img class="proporcao-link-rodape" width="32" height="32" src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/pinterest-correios/@@images/imagem_para_link/icon" alt="Pinterest - Correios">
+                        </a>
+                        </li>  
+                    </ul>     				
+   				</div>  
+
+ 			    <h3 class="title_footer">Aplicativos Correios</h3>
+   				
+   				<div class="container">
+					<ul class="lista-icone">
+        					<li>
+          					<a href="https://apps.apple.com/br/developer/ect-empresa-brasileira-de-correios-e-telegrafos/id866480129" class="link_rodape">
+                            	<img class="proporcao-link-rodape" width="32" height="32" src="https://www.correios.com.br/estrutura-da-pagina/rodape/aplicativo-os-correios/aplicativo-correios-apple/@@images/imagem_para_link/icon" alt="Aplicativo Apple2">
+                            </a>
+                            </li>
+                        </ul>                        
+				    
+    					<ul class="lista-icone">                    
+                   			<li>
+              					<a href="https://play.google.com/store/apps/developer?id=Empresa+Brasileira+de+Correios+e+Telegrafos&amp;amp;hl=pt" class="link_rodape">
+                                	<img class="proporcao-link-rodape" width="32" height="32" src="https://www.correios.com.br/estrutura-da-pagina/rodape/aplicativo-os-correios/aplicativo-correios-android/@@images/imagem_para_link/icon	" alt="Aplicativo Android">
+                                </a>
+		                    </li>                    
+        		        </ul>
+				</div>   
+			</div>						    
+
+                                                                                                                 			    
+ <!-- - 
+ 		<div class="rodape-links">  
+  			    <h3 class="title_footer">Siga os Correios</h3> 
+        	   <table>   
+                 <tr class="tdApp">
+                	<td class="tdApp">  
+		                <ul class="lista-icone">
+        	            <li>   
+  						    <a href="https://www.youtube.com/@correiosoficial" class="link_rodape">
+                	    	<img class="proporcao-link-rodape" width="32" height="32" 
+                    	     src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/youtube/@@images/imagem_para_link/icon" 
+                        	 alt="Youtube - Correios" />    
+                    		</a>       
+                    	</li>
+                		</ul>    
+                 </td>
+               <td class="tdApp">              
+                <ul class="lista-icone">                    
+                    <li>
+  					<a href="https://twitter.com/correiosBR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="link_rodape">
+                    	<img class="proporcao-link-rodape" width="32" height="32" 
+                         src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/twitter-correios/@@images/imagem_para_link/icon" 
+                         alt="Twitter - Correios" />
+                    </a>
+                    </li>
+                </ul>
+                </td>
+              <td class="tdApp">
+                    
+                <ul class="lista-icone">                    
+                    <li>  
+  					<a href="https://www.instagram.com/correiosoficial/" class="link_rodape">
+                    	<img class="proporcao-link-rodape" width="32" height="32" 
+                         src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/instagram/@@images/imagem_para_link/icon" 
+                         alt="Instagram - Correios" />
+                    </a>
+                    </li>
+                </ul>
+                </td>
+                
+                <td class="tdApp">                  
+                <ul class="lista-icone">                    
+                    <li>  
+  					<a href="https://www.facebook.com/correios/?locale=pt_BR " class="link_rodape">
+                    	<img class="proporcao-link-rodape" width="32" height="32" 
+                         src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/facebook/@@images/imagem_para_link/icon" 
+                         alt="Facebook - Correios" />
+                    </a>
+                    </li>
+                </ul>
+                 </td>
+                 
+               <td class="tdApp">                    
+                <ul class="lista-icone">                     
+                    <li> 
+  					<a href="https://br.linkedin.com/company/correios " class="link_rodape">
+                    	<img class="proporcao-link-rodape" width="32" height="32" 
+                         src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/linkedin/@@images/imagem_para_link/icon" 
+                         alt="Linkedin - Correios" />
+                    </a>
+                    </li>  
+                </ul>  
+                </td>                           
+			
+             <td class="tdApp">                   
+                    <ul class="lista-icone">                     
+                        <li> 
+      					<a href="https://www.tiktok.com/@correiosoficialbr" class="link_rodape">
+                        	<img class="proporcao-link-rodape"  width="32" height="32" 
+                             src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/tik-tok/@@images/imagem_para_link/icon" alt="Tik Tok Correios" />
+                        </a>
+                        </li>  
+                    </ul>  
+                </td>
+	        </tr>
+			
+			<tr class="tdApp">                         
+   				<td class="tdApp">                   
+                <ul class="lista-icone">                     
+                    <li> 
+  					<a href="https://www.flickr.com/photos/correiosoficial/" class="link_rodape">
+                    	<img class="proporcao-link-rodape" width="32" height="32" 
+                         src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/flickr-correios/@@images/imagem_para_link/icon" 
+                         alt="Flickr - Correios" />
+                    </a>
+                    </li>  
+                </ul>  
+                </td>                
+                
+                <td class="tdApp">                   
+                <ul class="lista-icone">                     
+                    <li> 
+  					<a href="https://br.pinterest.com/correios/" class="link_rodape">
+                    	<img class="proporcao-link-rodape"  width="32" height="32" 
+                         src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/pinterest-correios/@@images/imagem_para_link/icon" 
+                         alt="Pinterest - Correios" />
+                    </a>
+                    </li>  
+                </ul>  
+                </td>                 
+             </tr>
+
+
+			<tr>   
+			<td colspan="6">
+			<h3 class="title_footer">Aplicativos Correios</h3>
+			</td>
+			</tr>
+			<tr class="tdApp">           
+    				 <td class="tdApp">
+        				<ul class="lista-icone">
+        					<li>
+          					<a href="https://apps.apple.com/br/developer/ect-empresa-brasileira-de-correios-e-telegrafos/id866480129" class="link_rodape">
+                            	<img class="proporcao-link-rodape"  width="32" height="32" 
+                                 src="https://www.correios.com.br/estrutura-da-pagina/rodape/aplicativo-os-correios/aplicativo-correios-apple/@@images/imagem_para_link/icon" 
+                                 alt="Aplicativo Apple2" />
+                            </a>
+                            </li>
+                        </ul>    
+                    </td>
+				    <td class="tdApp" >
+    					<ul class="lista-icone" >                    
+                   			<li>
+              					<a href="https://play.google.com/store/apps/developer?id=Empresa+Brasileira+de+Correios+e+Telegrafos&amp;amp;hl=pt" class="link_rodape">
+                                	<img class="proporcao-link-rodape"  width="32" height="32" 
+                                     src="https://www.correios.com.br/estrutura-da-pagina/rodape/aplicativo-os-correios/aplicativo-correios-android/@@images/imagem_para_link/icon	" 
+                                     alt="Aplicativo Android" />
+                                </a>
+		                    </li>                    
+        		        </ul>     
+     			    </td> 			
+                </tr>      
+           </table>
+    
+            </div>       --->
+         </nav>                        
+    </footer>        
+              <div>&nbsp;</div>
+            <!--- Imagem com a logo do Governo Federal --->
+            <div class="fim-pagina">
+              
+                <div class="largura-maxima">
+                	
+                    <div class="marca-gov" style="height: 75px;">
+                        <img src="https://www.correios.com.br/estrutura-da-pagina/logo-correios/marca-gov.png/@@images/image" alt="Imagem com a logo dos Correios e do Governo Federal" style=" width: 462px;">
+                    </div>
+					<div class="copyright">
+                  		<span>© Copyright 2024 Correios</span>
+                  	</div>	                    
+                 </div>                                                     
+            </div>
+            
+            
+<!--- RODAPÉ BuscaCEP - LINK COM IMAGEM --->
+<!--- 
+<nav>
+    <div>
+        <h3>Fale Conosco</h3>
+        <a href="https://apps2.correios.com.br/faleconosco/app/index.php" >
+            <img src="http://correios.com.br/rodape-icones/monitor.png" height="26" width="26" class="image-inline" style="vertical-align: bottom"> Registro de manifestações
+        </a> 
+        <a href="https://www.correios.com.br/chat/"> 
+            <img src="http://correios.com.br/rodape-icones/acompanhar.png" height="26" width="26" class="image-inline" style="vertical-align: bottom"> Chat
+        </a>  
+        <a href="http://www.correios.com.br/fale-com-os-correios/central-de-atendimento">
+            <img src="http://correios.com.br/rodape-icones/duvida.png" height="26" width="26" class="image-inline" style="vertical-align: bottom"> Central de atendimento
+        </a>        
+        <a href="https://apps2.correios.com.br/faleconosco/app/cadastro/contrate/index.php">
+            <img src="http://correios.com.br/rodape-icones/negocios_azul.png" height="26" width="26" class="image-inline" style="vertical-align: bottom"> Soluções para o seu negócio
+        </a>
+        <a href="https://apps2.correios.com.br/faleconosco/app/cadastro/suporte/index.php">
+            <img src="http://correios.com.br/rodape-icones/headset_azul01.png" height="26" width="26" class="image-inline" style="vertical-align: bottom"> Suporte ao Cliente com Contrato
+        </a>
+        <a href="http://correios.com.br/fale-com-os-correios/ouvidoria">
+            <img src="http://correios.com.br/rodape-icones/ouvidoria.png" height="26" width="26" class="image-inline" style="vertical-align: bottom"> Ouvidoria
+        </a>
+        <a href="http://correios.com.br/fale-com-os-correios/denuncia/canal-de-denuncias">
+            <img src="http://correios.com.br/rodape-icones/denuncia.png" height="26" width="26" class="image-inline" style="vertical-align: bottom"> Denúncia
+        </a>
+    </div>    
+    <div>
+        <h3>Sobre Correios</h3>
+        <a href="https://www.correios.com.br/acesso-a-informacao/institucional/identidade-corporativa">Identidade Corporativa</a>
+        <a href="http://www.correios.com.br/sobre-os-correios/educacao-e-cultura">Educação e Cultura</a>        
+        <a href="http://www.correios.com.br/acesso-a-informacao/Servidores/pdf/codigo-de-conduta-etica-dos-correios">Código de Ética</a>        
+        <a href="https://www.correios.com.br/sobre-os-correios/venda-de-imoveis">Venda de imóveis</a>
+        <a href="http://www.correios.com.br/login">Gestão do Portal Correios (acesso restrito)</a>
+    </div>
+    <div>
+        <h3>Outros Sites</h3>
+        <a href="http://shopping.correios.com.br/correiosonline">Loja online dos Correios</a>
+        <a href="https://www.gov.br/mcom/pt-br">Ministério das Comunicações</a>
+    </div>
+</nav>
+--->
+
+ 
+    
+<!---
+<div id="alerta">
+    <div class="msg"></div>
+    <div class="act"></div>
+</div>
+<div id="loading"></div>
+<div id="version">< ?= Sistema::$versao ?></div>
+--->
+<div id="alerta">
+    <div class="msg">&nbsp;.</div>
+    <div class="act">&nbsp;.</div>
+</div>
+<div id="loading">&nbsp;.</div>
+<!---
+<div id="version">< ?= Sistema::$versao ?></div>
+--->
+<script>
+  var SITE = 'https://buscacepinter.correios.com.br/';
+</script>
+<noscript>Por favor, habilite o JavaScript em seu navegador.</noscript> 
+
+    
+<script type="module" src="https://buscacepinter.correios.com.br/core/templates/bunker/js/bunker.js?1"></script>
+<script type="module" src="https://buscacepinter.correios.com.br/static/js/global.js?1"></script>
+
+<!-- JQUERY -->
+    <script src="https://buscacepinter.correios.com.br/lib/jquery/jquery.js"></script>
+    <!-- <script src="https://buscacepinter.correios.com.br/lib/jquery/jquery.min.js"></script> -->
+    <script src="https://buscacepinter.correios.com.br/lib/jquery/js/jquery.mask.min.js"></script>
+    
+<!-- JQUERY MASKINPUT -->
+    <script src="https://buscacepinter.correios.com.br/lib/maskedinput-1.3.1/dist/jquery.maskedinput.min.js"></script>
+    
+
+  
+    <!--- Scripts específicos da Funcionalidade --->
+    <script type="text/javascript" src="index.js?1"></script>  
+    <script type="text/javascript" src="https://buscacepinter.correios.com.br/app/index.js?1"></script>  
+    <script type="module" src="https://buscacepinter.correios.com.br/static/js/valida-campos.js?1"></script>
+    <script type="module" src="https://buscacepinter.correios.com.br/static/js/mensagem.js?1"> </script>
+    <script type="module" src="https://buscacepinter.correios.com.br/app/consulta/js/detalhes-cep.js?1"></script> 
+        
+    <!--- Scripts do bunker ---> 
+    <script type="module" src="https://buscacepinter.correios.com.br/core/templates/bunker/js/bunker.js?1"></script> 
+    <script type="text/javascript" src="https://buscacepinter.correios.com.br/core/js/core.js?1"></script>
+    <script type="module" src="https://buscacepinter.correios.com.br/core/templates/bunker/js/modal.js?1"></script> 
+    <noscript>Por favor, habilite o JavaScript em seu navegador.</noscript> 
+
+    <!--- 
+    Quando executado a partir do site dos Correios com passagem de parâmetro(URL)
+    - Busca CEP ou Endereço
+    --->
+        
+                
+    
+
+
+
+</body></html>

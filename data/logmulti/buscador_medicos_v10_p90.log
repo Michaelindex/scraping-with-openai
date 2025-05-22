@@ -1,0 +1,264 @@
+2025-05-22 02:16:17,195 - P17020 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 02:16:17,195 - P17020 - INFO - Nome: JULIANA BERTOLOTTI MENDONCA
+2025-05-22 02:16:17,195 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 02:16:18,495 - P17020 - INFO - Após reiniciar driver Uso de memória: 127.02 MB
+2025-05-22 02:16:18,495 - P17020 - INFO - Início do processamento Uso de memória: 127.02 MB
+2025-05-22 02:16:18,496 - P17020 - INFO - Iniciando busca para: JULIANA BERTOLOTTI MENDONCA CRM 43719 PR telefone e-mail endereço
+2025-05-22 02:16:18,900 - P17020 - INFO - SearX results: 1 URLs
+2025-05-22 02:16:18,900 - P17020 - INFO - Após SearX Uso de memória: 127.02 MB
+2025-05-22 02:16:21,487 - P17020 - INFO - Google results: 2 URLs
+2025-05-22 02:16:21,488 - P17020 - INFO - Após Google Uso de memória: 128.28 MB
+2025-05-22 02:16:24,186 - P17020 - INFO - Bing results: 0 URLs
+2025-05-22 02:16:24,186 - P17020 - INFO - Após Bing Uso de memória: 129.16 MB
+2025-05-22 02:16:24,186 - P17020 - INFO - Total de URLs únicas: 2
+2025-05-22 02:16:24,187 - P17020 - INFO - Processando URL 1/2: https://www.mpsp.mp.br/w/do_25_02_2022
+2025-05-22 02:16:27,089 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7b7842f38b9333c682fd0be00373d38a.html
+2025-05-22 02:16:27,987 - P17020 - INFO - Candidates address: 4 items
+2025-05-22 02:16:27,988 - P17020 - INFO - Candidates phone: 3 items
+2025-05-22 02:16:27,988 - P17020 - INFO - Candidates email: 3 items
+2025-05-22 02:16:27,988 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:16:27,988 - P17020 - INFO - Candidates cep: 33 items
+2025-05-22 02:16:27,989 - P17020 - INFO - Após processar URL 1 Uso de memória: 128.14 MB
+2025-05-22 02:16:27,989 - P17020 - INFO - Processando URL 2/2: https://eurolux.med.br/corpo-clinico/dra-juliana-bertolotti-mendonca/
+2025-05-22 02:16:34,467 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b853cbc3652bf98891fb5c1bdd428b90.html
+2025-05-22 02:16:34,488 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:16:34,489 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:16:34,489 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:16:34,489 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:16:34,489 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:16:34,489 - P17020 - INFO - Após processar URL 2 Uso de memória: 125.97 MB
+2025-05-22 02:16:34,489 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:16:34,490 - P17020 - INFO - Ranked address: 5 items
+2025-05-22 02:16:34,490 - P17020 - INFO - Ranked phone: 4 items
+2025-05-22 02:16:34,490 - P17020 - INFO - Ranked email: 3 items
+2025-05-22 02:16:34,490 - P17020 - INFO - Ranked complement: 0 items
+2025-05-22 02:16:34,490 - P17020 - INFO - Ranked cep: 34 items
+2025-05-22 02:16:34,490 - P17020 - INFO - Após agregação Uso de memória: 125.97 MB
+2025-05-22 02:16:34,491 - P17020 - INFO - Validando endereço: ['Rua Riachuelo, 115', 'Rua dos Eucaliptos, 16', 'Avenida Casa Verde, 571']
+2025-05-22 02:16:34,491 - P17020 - INFO - Endereço validado: Rua Riachuelo, 115
+2025-05-22 02:16:34,491 - P17020 - INFO - Limpando texto extenso para campo address: Rua Riachuelo, 115...
+2025-05-22 02:16:34,491 - P17020 - INFO - Texto limpo: Rua Riachuelo, 115
+2025-05-22 02:16:34,491 - P17020 - INFO - Validando telefone: ['(11) 3775-4121', '(11) 3119-9442', '(11) 3119-9000']
+2025-05-22 02:16:34,491 - P17020 - INFO - Limpando texto extenso para campo phone: (11) 3775-4121...
+2025-05-22 02:16:34,492 - P17020 - INFO - Texto limpo: 11) 3775-4121
+2025-05-22 02:16:34,492 - P17020 - INFO - Telefone validado: 11) 3775-4121
+2025-05-22 02:16:34,492 - P17020 - INFO - Validando email: ['revistajustitia@mpsp.mp.br', 'esmp-secretaria@mpsp.mp.br', 'esmp-escola_virtual@mpsp.mp.br']
+2025-05-22 02:16:34,492 - P17020 - INFO - Limpando texto extenso para campo email: revistajustitia@mpsp.mp.br...
+2025-05-22 02:16:34,492 - P17020 - INFO - Texto limpo: revistajustitia@mpsp.mp.br
+2025-05-22 02:16:34,492 - P17020 - INFO - Email validado: revistajustitia@mpsp.mp.br
+2025-05-22 02:16:34,492 - P17020 - INFO - Descobrindo cidade
+2025-05-22 02:16:34,493 - P17020 - INFO - Buscando cidade: Rua Riachuelo cidade PR
+2025-05-22 02:16:37,408 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 02:16:37,408 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 02:16:37,409 - P17020 - INFO - Tempo de execução de processamento completo do médico: 18.91 segundos
+2025-05-22 02:16:37,409 - P17020 - INFO - Resultado processado: {'Hash': 'e3904ee1d2199deb6078a4d0c3d5214352054fbf9e76fba4a770dacdb34fd969', 'CRM': '43719', 'UF': 'PR', 'Firstname': 'JULIANA', 'LastName': 'BERTOLOTTI MENDONCA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Riachuelo, 115', 'Address A1': 'Rua Riachuelo', 'Numero A1': '115', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 3775-4121', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'revistajustitia@mpsp.mp.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:16:37,410 - P17020 - INFO - Progresso: 21.4%
+2025-05-22 02:16:37,410 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 02:16:37,506 - P17020 - INFO - Após coleta de lixo Uso de memória: 123.78 MB
+2025-05-22 02:16:37,506 - P17020 - INFO - Tempo de execução de processamento do médico 1: 20.31 segundos
+2025-05-22 02:16:37,506 - P17020 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 02:16:37,506 - P17020 - INFO - Nome: FERNANDA DE ALMEIDA SAID
+2025-05-22 02:16:37,507 - P17020 - INFO - Início do processamento Uso de memória: 123.78 MB
+2025-05-22 02:16:37,507 - P17020 - INFO - Iniciando busca para: FERNANDA DE ALMEIDA SAID CRM 44403 PR telefone e-mail endereço
+2025-05-22 02:16:37,936 - P17020 - INFO - SearX results: 6 URLs
+2025-05-22 02:16:37,937 - P17020 - INFO - Após SearX Uso de memória: 123.78 MB
+2025-05-22 02:16:40,723 - P17020 - INFO - Google results: 12 URLs
+2025-05-22 02:16:40,723 - P17020 - INFO - Após Google Uso de memória: 128.34 MB
+2025-05-22 02:16:43,425 - P17020 - INFO - Bing results: 0 URLs
+2025-05-22 02:16:43,426 - P17020 - INFO - Após Bing Uso de memória: 128.71 MB
+2025-05-22 02:16:43,426 - P17020 - INFO - Total de URLs únicas: 13
+2025-05-22 02:16:43,426 - P17020 - INFO - Processando URL 1/13: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 02:16:43,426 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 02:16:43,427 - P17020 - INFO - Após processar URL 1 Uso de memória: 128.71 MB
+2025-05-22 02:16:43,427 - P17020 - INFO - Processando URL 2/13: https://centrodediabetescuritiba.com.br/equipe/dra-maria-fernanda-ozorio-de-almeida/
+2025-05-22 02:16:45,876 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f66bab4e69f762623171bb7abc29c61a.html
+2025-05-22 02:16:45,884 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:16:45,884 - P17020 - INFO - Candidates phone: 3 items
+2025-05-22 02:16:45,884 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:16:45,884 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:16:45,884 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:16:45,885 - P17020 - INFO - Após processar URL 2 Uso de memória: 128.80 MB
+2025-05-22 02:16:45,885 - P17020 - INFO - Processando URL 3/13: https://rhetory.com/antconc/wordlist.txt
+2025-05-22 02:16:45,885 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://rhetory.com/antconc/wordlist.txt
+2025-05-22 02:16:45,885 - P17020 - INFO - Após processar URL 3 Uso de memória: 128.80 MB
+2025-05-22 02:16:45,886 - P17020 - INFO - Processando URL 4/13: https://www.hospitalpilar.com.br/nossos-especialistas/
+2025-05-22 02:16:49,959 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ec844d6b3c751881095276959e633548.html
+2025-05-22 02:16:50,361 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:16:50,362 - P17020 - INFO - Candidates phone: 3 items
+2025-05-22 02:16:50,362 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:16:50,362 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:16:50,362 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:16:50,363 - P17020 - INFO - Após processar URL 4 Uso de memória: 133.14 MB
+2025-05-22 02:16:50,363 - P17020 - INFO - Processando URL 5/13: https://drafernandaalmeida.com.br/sobre/
+2025-05-22 02:16:59,511 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\bf406efce739e04127351697cb2f99ae.html
+2025-05-22 02:16:59,537 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 02:16:59,537 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:16:59,537 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:16:59,537 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:16:59,538 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:16:59,538 - P17020 - INFO - Após processar URL 5 Uso de memória: 129.04 MB
+2025-05-22 02:16:59,538 - P17020 - INFO - Processando URL 6/13: https://www.doctoralia.com.br/fernanda-de-almeida-asencio-2/ginecologista/barueri
+2025-05-22 02:16:59,538 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/fernanda-de-almeida-asencio-2/ginecologista/barueri
+2025-05-22 02:16:59,539 - P17020 - INFO - Após processar URL 6 Uso de memória: 129.04 MB
+2025-05-22 02:16:59,539 - P17020 - INFO - Processando URL 7/13: https://www.linguateca.pt/acesso/tokens/formas.total.txt
+2025-05-22 02:16:59,539 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.linguateca.pt/acesso/tokens/formas.total.txt
+2025-05-22 02:16:59,540 - P17020 - INFO - Após processar URL 7 Uso de memória: 129.04 MB
+2025-05-22 02:16:59,540 - P17020 - INFO - Processando URL 8/13: https://ioepa.com.br/pages/2018/2018.09.03.DOE.pdf
+2025-05-22 02:16:59,540 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://ioepa.com.br/pages/2018/2018.09.03.DOE.pdf
+2025-05-22 02:16:59,540 - P17020 - INFO - Após processar URL 8 Uso de memória: 129.04 MB
+2025-05-22 02:16:59,540 - P17020 - INFO - Processando URL 9/13: https://aandradefercardiologia.com.br/
+2025-05-22 02:17:03,182 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\51eb7f0cf69935718235430a7a2cc52d.html
+2025-05-22 02:17:03,212 - P17020 - INFO - Candidates address: 4 items
+2025-05-22 02:17:03,212 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:17:03,212 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:17:03,213 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:17:03,213 - P17020 - INFO - Candidates cep: 5 items
+2025-05-22 02:17:03,213 - P17020 - INFO - Após processar URL 9 Uso de memória: 129.09 MB
+2025-05-22 02:17:03,213 - P17020 - INFO - Processando URL 10/13: https://www.mpsp.mp.br/w/do_25_02_2022
+2025-05-22 02:17:05,576 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7b7842f38b9333c682fd0be00373d38a.html
+2025-05-22 02:17:05,578 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:17:05,578 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:17:05,578 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:17:05,578 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:17:05,578 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:17:05,579 - P17020 - INFO - Após processar URL 10 Uso de memória: 129.09 MB
+2025-05-22 02:17:05,579 - P17020 - INFO - Processando URL 11/13: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-20-03-2023.pdf
+2025-05-22 02:17:05,579 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-20-03-2023.pdf
+2025-05-22 02:17:05,579 - P17020 - INFO - Após processar URL 11 Uso de memória: 129.09 MB
+2025-05-22 02:17:05,579 - P17020 - INFO - Processando URL 12/13: https://www.ime.usp.br/~yoshi/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 02:17:05,579 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 02:17:05,579 - P17020 - INFO - Após processar URL 12 Uso de memória: 129.09 MB
+2025-05-22 02:17:05,580 - P17020 - INFO - Processando URL 13/13: https://www.hospitalpilar.com.br/especialistas/fernanda-de-almeida-said/
+2025-05-22 02:17:09,079 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\72c516ac4bf441e068a4e3782cfc42dc.html
+2025-05-22 02:17:09,099 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:17:09,099 - P17020 - INFO - Candidates phone: 3 items
+2025-05-22 02:17:09,100 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:17:09,100 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:17:09,100 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:17:09,101 - P17020 - INFO - Após processar URL 13 Uso de memória: 131.54 MB
+2025-05-22 02:17:09,101 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:17:09,101 - P17020 - INFO - Ranked address: 8 items
+2025-05-22 02:17:09,102 - P17020 - INFO - Ranked phone: 10 items
+2025-05-22 02:17:09,102 - P17020 - INFO - Ranked email: 2 items
+2025-05-22 02:17:09,103 - P17020 - INFO - Ranked complement: 0 items
+2025-05-22 02:17:09,103 - P17020 - INFO - Ranked cep: 10 items
+2025-05-22 02:17:09,103 - P17020 - INFO - Após agregação Uso de memória: 131.54 MB
+2025-05-22 02:17:09,104 - P17020 - INFO - Validando endereço: ['Avenida Desembargador Hugo Simas, 322', 'Rua Professora Rosa Saporski, 229', 'Rua Marechal Deodoro, 949']
+2025-05-22 02:17:09,104 - P17020 - INFO - Endereço validado: Avenida Desembargador Hugo Simas, 322
+2025-05-22 02:17:09,105 - P17020 - INFO - Limpando texto extenso para campo address: Avenida Desembargador Hugo Simas, 322...
+2025-05-22 02:17:09,105 - P17020 - INFO - Texto limpo: Avenida Desembargador Hugo Simas, 322
+2025-05-22 02:17:09,105 - P17020 - INFO - Validando telefone: ['(41) 3076-5505', '(41) 99697-3999', '(41) 3072-7272']
+2025-05-22 02:17:09,105 - P17020 - INFO - Limpando texto extenso para campo phone: (41) 3076-5505...
+2025-05-22 02:17:09,105 - P17020 - INFO - Texto limpo: 41) 3076-5505
+2025-05-22 02:17:09,105 - P17020 - INFO - Telefone validado: 41) 3076-5505
+2025-05-22 02:17:09,106 - P17020 - INFO - Validando email: ['alfernanda@outlook.com', 'cardiofernandaandrade@gmail.com']
+2025-05-22 02:17:09,106 - P17020 - INFO - Limpando texto extenso para campo email: alfernanda@outlook.com...
+2025-05-22 02:17:09,107 - P17020 - INFO - Texto limpo: alfernanda@outlook.com
+2025-05-22 02:17:09,107 - P17020 - INFO - Email validado: alfernanda@outlook.com
+2025-05-22 02:17:09,107 - P17020 - INFO - Descobrindo cidade
+2025-05-22 02:17:09,107 - P17020 - INFO - Buscando cidade: Avenida Desembargador Hugo Simas cidade PR
+2025-05-22 02:17:11,705 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 02:17:11,706 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 02:17:11,706 - P17020 - INFO - Tempo de execução de processamento completo do médico: 34.20 segundos
+2025-05-22 02:17:11,706 - P17020 - INFO - Resultado processado: {'Hash': '59d8550a428c44c24a923c36191e341893c8d5d735946ed21890813056d603a7', 'CRM': '44403', 'UF': 'PR', 'Firstname': 'FERNANDA', 'LastName': 'DE ALMEIDA SAID', 'Medical specialty': '', 'Endereco Completo A1': 'Avenida Desembargador Hugo Simas, 322', 'Address A1': 'Avenida Desembargador Hugo Simas', 'Numero A1': '322', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '41) 3076-5505', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'alfernanda@outlook.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:17:11,707 - P17020 - INFO - Progresso: 21.6%
+2025-05-22 02:17:11,707 - P17020 - INFO - Tempo de execução de processamento do médico 2: 34.20 segundos
+2025-05-22 02:17:11,707 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 02:17:11,708 - P17020 - INFO - Nome: WESLEY PEREIRA DOS SANTOS
+2025-05-22 02:17:11,708 - P17020 - INFO - Início do processamento Uso de memória: 126.07 MB
+2025-05-22 02:17:11,708 - P17020 - INFO - Iniciando busca para: WESLEY PEREIRA DOS SANTOS CRM 23424 RJ telefone e-mail endereço
+2025-05-22 02:17:12,165 - P17020 - INFO - SearX results: 10 URLs
+2025-05-22 02:17:12,165 - P17020 - INFO - Após SearX Uso de memória: 126.08 MB
+2025-05-22 02:17:14,825 - P17020 - INFO - Google results: 9 URLs
+2025-05-22 02:17:14,826 - P17020 - INFO - Após Google Uso de memória: 128.18 MB
+2025-05-22 02:17:17,345 - P17020 - INFO - Bing results: 0 URLs
+2025-05-22 02:17:17,345 - P17020 - INFO - Após Bing Uso de memória: 128.23 MB
+2025-05-22 02:17:17,346 - P17020 - INFO - Total de URLs únicas: 11
+2025-05-22 02:17:17,346 - P17020 - INFO - Processando URL 1/11: https://sistemadje.tjmt.jus.br/publicacoes/9070-2013.pdf
+2025-05-22 02:17:17,346 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/9070-2013.pdf
+2025-05-22 02:17:17,346 - P17020 - INFO - Após processar URL 1 Uso de memória: 128.23 MB
+2025-05-22 02:17:17,346 - P17020 - INFO - Processando URL 2/11: https://sistemadje.tjmt.jus.br/publicacoes/10670-2020%20C10%20Entr%C3%A2ncia%20Especial%20-%20Cuiab%C3%A1%20-%20Varas%20C%C3%ADveis.pdf
+2025-05-22 02:17:17,346 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/10670-2020%20C10%20Entr%C3%A2ncia%20Especial%20-%20Cuiab%C3%A1%20-%20Varas%20C%C3%ADveis.pdf
+2025-05-22 02:17:17,347 - P17020 - INFO - Após processar URL 2 Uso de memória: 128.23 MB
+2025-05-22 02:17:17,347 - P17020 - INFO - Processando URL 3/11: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/148303/Caderno_JUD_GO_2016-08-09_VIII_148.pdf?sequence=2&isAllowed=y
+2025-05-22 02:17:17,347 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/148303/Caderno_JUD_GO_2016-08-09_VIII_148.pdf?sequence=2&isAllowed=y
+2025-05-22 02:17:17,347 - P17020 - INFO - Após processar URL 3 Uso de memória: 128.23 MB
+2025-05-22 02:17:17,347 - P17020 - INFO - Processando URL 4/11: https://www.gov.br/mme/pt-br/arquivos/do-23-02-2012-s1.pdf
+2025-05-22 02:17:17,347 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.gov.br/mme/pt-br/arquivos/do-23-02-2012-s1.pdf
+2025-05-22 02:17:17,347 - P17020 - INFO - Após processar URL 4 Uso de memória: 128.23 MB
+2025-05-22 02:17:17,347 - P17020 - INFO - Processando URL 5/11: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/235309/Caderno_JUD_GO_2017-06-01_IX_97.pdf?sequence=3&isAllowed=y
+2025-05-22 02:17:17,348 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/235309/Caderno_JUD_GO_2017-06-01_IX_97.pdf?sequence=3&isAllowed=y
+2025-05-22 02:17:17,348 - P17020 - INFO - Após processar URL 5 Uso de memória: 128.23 MB
+2025-05-22 02:17:17,348 - P17020 - INFO - Processando URL 6/11: https://www.catalogo.med.br/doutor/wesley-pereira-dos-santos-2474387.htm
+2025-05-22 02:17:19,499 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6d74dfa0d9ef64e020fa8f6a62ded07b.html
+2025-05-22 02:17:19,499 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:17:19,499 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:17:19,500 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:17:19,500 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:17:19,500 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:17:19,500 - P17020 - INFO - Após processar URL 6 Uso de memória: 128.23 MB
+2025-05-22 02:17:19,500 - P17020 - INFO - Processando URL 7/11: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20201022&idorgao=347
+2025-05-22 02:17:23,305 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\81f61eb1116fbf623d60987e438a14cd.html
+2025-05-22 02:17:24,629 - P17020 - INFO - Candidates address: 49 items
+2025-05-22 02:17:24,630 - P17020 - INFO - Candidates phone: 6 items
+2025-05-22 02:17:24,630 - P17020 - INFO - Candidates email: 8 items
+2025-05-22 02:17:24,630 - P17020 - INFO - Candidates complement: 6 items
+2025-05-22 02:17:24,630 - P17020 - INFO - Candidates cep: 66 items
+2025-05-22 02:17:24,630 - P17020 - INFO - Após processar URL 7 Uso de memória: 129.25 MB
+2025-05-22 02:17:24,630 - P17020 - INFO - Processando URL 8/11: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/6/9/7/697df59704f24c71fcb60b0660e94858bb5a37d6124005c597b98deb91686836/75a8c6a4-19ad-4d8b-a35f-8454990a3528-13709-DOE_19163_31_08_2011_64F.pdf
+2025-05-22 02:17:24,631 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/6/9/7/697df59704f24c71fcb60b0660e94858bb5a37d6124005c597b98deb91686836/75a8c6a4-19ad-4d8b-a35f-8454990a3528-13709-DOE_19163_31_08_2011_64F.pdf
+2025-05-22 02:17:24,631 - P17020 - INFO - Após processar URL 8 Uso de memória: 125.31 MB
+2025-05-22 02:17:24,631 - P17020 - INFO - Processando URL 9/11: https://www.escavador.com/diarios/644118/DJBA/A/2013-11-05/312566003/movimentacao-do-processo-0014844-5720118050000
+2025-05-22 02:17:28,274 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f043c3a64fc107636105809e3fb5ba6c.html
+2025-05-22 02:17:28,290 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:17:28,290 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:17:28,290 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:17:28,290 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:17:28,290 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:17:28,291 - P17020 - INFO - Após processar URL 9 Uso de memória: 127.44 MB
+2025-05-22 02:17:28,291 - P17020 - INFO - Processando URL 10/11: https://forcainvicta.com.br/wp-content/uploads/2021/06/doe_2021-06-22_completo.pdf
+2025-05-22 02:17:28,291 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://forcainvicta.com.br/wp-content/uploads/2021/06/doe_2021-06-22_completo.pdf
+2025-05-22 02:17:28,291 - P17020 - INFO - Após processar URL 10 Uso de memória: 127.44 MB
+2025-05-22 02:17:28,291 - P17020 - INFO - Processando URL 11/11: https://www.ibam.org.br/wp-content/uploads/2022/05/5-saolourenco-11216.pdf
+2025-05-22 02:17:28,292 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ibam.org.br/wp-content/uploads/2022/05/5-saolourenco-11216.pdf
+2025-05-22 02:17:28,292 - P17020 - INFO - Após processar URL 11 Uso de memória: 127.44 MB
+2025-05-22 02:17:28,292 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:17:28,292 - P17020 - INFO - Ranked address: 49 items
+2025-05-22 02:17:28,293 - P17020 - INFO - Ranked phone: 6 items
+2025-05-22 02:17:28,293 - P17020 - INFO - Ranked email: 8 items
+2025-05-22 02:17:28,293 - P17020 - INFO - Ranked complement: 6 items
+2025-05-22 02:17:28,293 - P17020 - INFO - Ranked cep: 66 items
+2025-05-22 02:17:28,293 - P17020 - INFO - Após agregação Uso de memória: 127.44 MB
+2025-05-22 02:17:28,293 - P17020 - INFO - Validando endereço: ['R.I. Vitória, 28', 'R.I. 24 - 0029022-08.2018.8.08.0024', 'R.I. 38 - 0034672-36.2018.8.08.0024']
+2025-05-22 02:17:28,293 - P17020 - INFO - Endereço validado: R.I. Vitória, 28
+2025-05-22 02:17:28,294 - P17020 - INFO - Limpando texto extenso para campo address: R.I. Vitória, 28...
+2025-05-22 02:17:28,294 - P17020 - INFO - Texto limpo: R.I. Vitória, 28
+2025-05-22 02:17:28,294 - P17020 - INFO - Validando telefone: ['(27) 3198-0550', '(27) 3229-2296', '(27) 3357-4526']
+2025-05-22 02:17:28,294 - P17020 - INFO - Limpando texto extenso para campo phone: (27) 3198-0550...
+2025-05-22 02:17:28,294 - P17020 - INFO - Texto limpo: 27) 3198-0550
+2025-05-22 02:17:28,294 - P17020 - INFO - Telefone validado: 27) 3198-0550
+2025-05-22 02:17:28,294 - P17020 - INFO - Validando email: ['1civel-vitoria@tjes.jus.br', 'miguelafazevedo@gmail.com', 'antenorevangelista@hotmail.com']
+2025-05-22 02:17:28,294 - P17020 - INFO - Limpando texto extenso para campo email: 1civel-vitoria@tjes.jus.br...
+2025-05-22 02:17:28,295 - P17020 - INFO - Texto limpo: 1civel-vitoria@tjes.jus.br
+2025-05-22 02:17:28,295 - P17020 - INFO - Email validado: 1civel-vitoria@tjes.jus.br
+2025-05-22 02:17:28,295 - P17020 - INFO - Validando complemento: ['Salas 509 a 516 e 04 vagas de garagem do Ed. Arábica', 'Sala 1111', 'Sala: Sala de Audiências 1 - 9º Juizado Especial Cível']
+2025-05-22 02:17:28,295 - P17020 - INFO - Limpando texto extenso para campo complement: Salas 509 a 516 e 04 vagas de garagem do Ed. Arábi...
+2025-05-22 02:17:28,295 - P17020 - INFO - Texto limpo: Salas 509 a 516 e 04 vagas de
+2025-05-22 02:17:28,295 - P17020 - INFO - Complemento validado: Salas 509 a 516 e 04 vagas de
+2025-05-22 02:17:28,296 - P17020 - INFO - Descobrindo cidade
+2025-05-22 02:17:28,296 - P17020 - INFO - Buscando cidade: R.I. Vitória cidade RJ
+2025-05-22 02:17:30,955 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 02:17:30,955 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 02:17:30,955 - P17020 - INFO - Tempo de execução de processamento completo do médico: 19.25 segundos
+2025-05-22 02:17:30,956 - P17020 - INFO - Resultado processado: {'Hash': '0315a08926c86bb675b244e3d5d399c62e67469494c5cd5d329fb7daea8ecfc5', 'CRM': '23424', 'UF': 'RJ', 'Firstname': 'WESLEY', 'LastName': 'PEREIRA DOS SANTOS', 'Medical specialty': '', 'Endereco Completo A1': 'R.I. Vitória, 28', 'Address A1': 'R.I. Vitória', 'Numero A1': '28', 'Complement A1': 'Salas 509 a 516 e 04 vagas de', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '27) 3198-0550', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': '1civel-vitoria@tjes.jus.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:17:30,959 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 02:17:30,960 - P17020 - INFO - Após salvar resultados Uso de memória: 124.47 MB
+2025-05-22 02:17:30,960 - P17020 - INFO - Progresso: 21.7%
+2025-05-22 02:17:30,961 - P17020 - INFO - Tempo de execução de processamento do médico 3: 19.25 segundos
+2025-05-22 02:17:30,961 - P17020 - INFO - Tempo de execução de processamento do lote completo: 73.77 segundos

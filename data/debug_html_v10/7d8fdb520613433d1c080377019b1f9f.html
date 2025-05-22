@@ -1,0 +1,722 @@
+<html lang="pt-BR" prefix="og: https://ogp.me/ns#"><head><meta charset="UTF-8"><script type="text/javascript">if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script type="text/javascript">class RocketLazyLoadScripts{constructor(){this.v="1.2.3",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",t=>{this.persisted=t.persisted}),window.addEventListener("DOMContentLoaded",()=>{this._preconnect3rdParties()}),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}_addUserInteractionListener(t){if(document.hidden){t._triggerListener();return}this.triggerEvents.forEach(e=>window.addEventListener(e,t.userEventHandler,{passive:!0})),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler)}_removeUserInteractionListener(){this.triggerEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!0})),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"onclick","rocket-onclick"),this._pendingClickStarted())}_onTouchMove(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"rocket-onclick","onclick"),this._pendingClickFinished()}_onTouchEnd(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(t){t.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this._pendingClickFinished()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach(t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))})}_waitForPendingClicks(){return new Promise(t=>{this._isClickPending?this._pendingClickFinished=t:t()})}_pendingClickStarted(){this._isClickPending=!0}_pendingClickFinished(){this._isClickPending=!1}_renameDOMAttribute(t,e,r){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(r,event.target.getAttribute(e)),event.target.removeAttribute(e))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(e=>{if(e.hasAttribute("src")){let r=new URL(e.src).origin;r!==location.origin&&t.push({src:r,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this._batchInjectResourceHints(t,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(this),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._waitForPendingClicks().then(()=>{this._replayClicks()}),this._emptyTrash()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _transformScript(t){return new Promise((await this._littleBreath(),navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor)?e=>{let r=document.createElement("script");[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),r.setAttribute(e,t.nodeValue))}),t.text&&(r.text=t.text),r.hasAttribute("src")?(r.addEventListener("load",e),r.addEventListener("error",e)):(r.text=t.text,e());try{t.parentNode.replaceChild(r,t)}catch(i){e()}}:async e=>{function r(){t.setAttribute("data-rocket-status","failed"),e()}try{let i=t.getAttribute("data-rocket-type"),n=t.getAttribute("data-rocket-src");t.text,i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",function r(){t.setAttribute("data-rocket-status","executed"),e()}),t.addEventListener("error",r),n?(t.removeAttribute("data-rocket-src"),t.src=n):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}catch(s){r()}})}async _loadScriptsFromList(t){let e=t.shift();return e&&e.isConnected?(await this._transformScript(e),this._loadScriptsFromList(t)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(t,e){var r=document.createDocumentFragment();t.forEach(t=>{let i=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(i){let n=document.createElement("link");n.href=i,n.rel=e,"preconnect"!==e&&(n.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),r.appendChild(n),this.trash.push(n)}}),document.head.appendChild(r)}_delayEventListeners(t){let e={};function r(t,r){!function t(r){!e[r]&&(e[r]={originalFunctions:{add:r.addEventListener,remove:r.removeEventListener},eventsToRewrite:[]},r.addEventListener=function(){arguments[0]=i(arguments[0]),e[r].originalFunctions.add.apply(r,arguments)},r.removeEventListener=function(){arguments[0]=i(arguments[0]),e[r].originalFunctions.remove.apply(r,arguments)});function i(t){return e[r].eventsToRewrite.indexOf(t)>=0?"rocket-"+t:t}}(t),e[t].eventsToRewrite.push(r)}function i(t,e){let r=t[e];Object.defineProperty(t,e,{get:()=>r||function(){},set(i){t["rocket"+e]=r=i}})}r(document,"DOMContentLoaded"),r(window,"DOMContentLoaded"),r(window,"load"),r(window,"pageshow"),r(document,"readystatechange"),i(document,"onreadystatechange"),i(window,"onload"),i(window,"onpageshow")}_delayJQueryReady(t){let e;function r(r){if(r&&r.fn&&!t.allJQueries.includes(r)){r.fn.ready=r.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(r):document.addEventListener("rocket-DOMContentLoaded",()=>e.bind(document)(r)),r([])};let i=r.fn.on;r.fn.on=r.fn.init.prototype.on=function(){if(this[0]===window){function t(t){return t.split(" ").map(t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=t(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(e=>{let r=arguments[0][e];delete arguments[0][e],arguments[0][t(e)]=r})}return i.apply(this,arguments),this},t.allJQueries.push(r)}e=r}r(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){r(t)}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this._littleBreath();let t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){let t=new Map;document.write=document.writeln=function(e){let r=document.currentScript;r||console.error("WPRocket unable to document.write this: "+e);let i=document.createRange(),n=r.parentElement,s=t.get(r);void 0===s&&(s=r.nextSibling,t.set(r,s));let a=document.createDocumentFragment();i.setStart(a,0),a.appendChild(i.createContextualFragment(e)),n.insertBefore(a,s)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}_emptyTrash(){this.trash.forEach(t=>t.remove())}static run(){let t=new RocketLazyLoadScripts;t._addUserInteractionListener(t)}}RocketLazyLoadScripts.run();</script>
+	
+		<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Otimização para mecanismos de pesquisa pelo Rank Math - https://rankmath.com/ -->
+<title>Desvendando A Mente: Conheça A Psiquiatra Patricia Do Espirito Santo</title>
+<meta name="description" content="A psiquiatra Patricia do Espirito Santo é formada pela Universidade de São Paulo (USP) e possui mais de 20 anos de experiência em sua área. Durante sua">
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+<link rel="canonical" href="https://guiaesoterico.com/patricia-do-espirito-santo-psiquiatra/">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Desvendando A Mente: Conheça A Psiquiatra Patricia Do Espirito Santo">
+<meta property="og:description" content="A psiquiatra Patricia do Espirito Santo é formada pela Universidade de São Paulo (USP) e possui mais de 20 anos de experiência em sua área. Durante sua">
+<meta property="og:url" content="https://guiaesoterico.com/patricia-do-espirito-santo-psiquiatra/">
+<meta property="og:site_name" content="Guia Esotérico">
+<meta property="article:section" content="Espiritualidade">
+<meta property="og:image" content="https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Fotos-patricia-do-espirito-santo-psiquiatra.webp">
+<meta property="og:image:secure_url" content="https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Fotos-patricia-do-espirito-santo-psiquiatra.webp">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="1024">
+<meta property="og:image:alt" content="Desvendando a Mente: Conheça a Psiquiatra Patricia do Espirito Santo">
+<meta property="og:image:type" content="image/webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Desvendando A Mente: Conheça A Psiquiatra Patricia Do Espirito Santo">
+<meta name="twitter:description" content="A psiquiatra Patricia do Espirito Santo é formada pela Universidade de São Paulo (USP) e possui mais de 20 anos de experiência em sua área. Durante sua">
+<meta name="twitter:image" content="https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Fotos-patricia-do-espirito-santo-psiquiatra.webp">
+<meta name="twitter:label1" content="Escrito por">
+<meta name="twitter:data1" content="angelo amado">
+<meta name="twitter:label2" content="Tempo para leitura">
+<meta name="twitter:data2" content="8 minutos">
+<!-- /Plugin de SEO Rank Math para WordPress -->
+
+<script type="rocketlazyloadscript" data-rocket-type="application/javascript" id="pys-version-script">console.log('PixelYourSite Free version 10.2.0.2');</script>
+<link rel="alternate" type="application/rss+xml" title="Feed para 🐈‍⬛ Guia Esotérico® »" href="https://guiaesoterico.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para 🐈‍⬛ Guia Esotérico® »" href="https://guiaesoterico.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para 🐈‍⬛ Guia Esotérico® » Desvendando a Mente: Conheça a Psiquiatra Patricia do Espirito Santo" href="https://guiaesoterico.com/patricia-do-espirito-santo-psiquiatra/feed/">
+<script type="rocketlazyloadscript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/guiaesoterico.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\ud83d\udd25","\ud83d\udc26\u200b\ud83d\udd25")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<!-- guiaesoterico.com is managing ads with Advanced Ads 2.0.8 – https://wpadvancedads.com/ --><!--noptimize--><script type="rocketlazyloadscript" id="guiae-ready">
+			window.advanced_ads_ready=function(e,a){a=a||"complete";var d=function(e){return"interactive"===a?"loading"!==e:"complete"===e};d(document.readyState)?e():document.addEventListener("readystatechange",(function(a){d(a.target.readyState)&&e()}),{once:"interactive"===a})},window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[];		</script>
+		<!--/noptimize--><style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="https://guiaesoterico.com/wp-includes/css/dist/block-library/style.min.css?ver=6.8.1" media="all">
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--contrast: var(--contrast);--wp--preset--color--contrast-2: var(--contrast-2);--wp--preset--color--contrast-3: var(--contrast-3);--wp--preset--color--base: var(--base);--wp--preset--color--base-2: var(--base-2);--wp--preset--color--base-3: var(--base-3);--wp--preset--color--accent: var(--accent);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="toc-screen-css" href="https://guiaesoterico.com/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=2411.1" media="all">
+<link rel="stylesheet" id="generate-comments-css" href="https://guiaesoterico.com/wp-content/themes/generatepress/assets/css/components/comments.min.css?ver=3.3.1" media="all">
+<link rel="stylesheet" id="generate-style-css" href="https://guiaesoterico.com/wp-content/themes/generatepress/assets/css/main.min.css?ver=3.3.1" media="all">
+<style id="generate-style-inline-css">
+body{background-color:var(--base-2);color:var(--contrast);}a{color:var(--accent);}a{text-decoration:underline;}.entry-title a, .site-branding a, a.button, .wp-block-button__link, .main-navigation a{text-decoration:none;}a:hover, a:focus, a:active{color:var(--contrast);}.wp-block-group__inner-container{max-width:1200px;margin-left:auto;margin-right:auto;}:root{--contrast:#222222;--contrast-2:#575760;--contrast-3:#b2b2be;--base:#f0f0f0;--base-2:#f7f8f9;--base-3:#ffffff;--accent:#1e73be;}:root .has-contrast-color{color:var(--contrast);}:root .has-contrast-background-color{background-color:var(--contrast);}:root .has-contrast-2-color{color:var(--contrast-2);}:root .has-contrast-2-background-color{background-color:var(--contrast-2);}:root .has-contrast-3-color{color:var(--contrast-3);}:root .has-contrast-3-background-color{background-color:var(--contrast-3);}:root .has-base-color{color:var(--base);}:root .has-base-background-color{background-color:var(--base);}:root .has-base-2-color{color:var(--base-2);}:root .has-base-2-background-color{background-color:var(--base-2);}:root .has-base-3-color{color:var(--base-3);}:root .has-base-3-background-color{background-color:var(--base-3);}:root .has-accent-color{color:var(--accent);}:root .has-accent-background-color{background-color:var(--accent);}.top-bar{background-color:#636363;color:#ffffff;}.top-bar a{color:#ffffff;}.top-bar a:hover{color:#303030;}.site-header{background-color:var(--base-3);}.main-title a,.main-title a:hover{color:var(--contrast);}.site-description{color:var(--contrast-2);}.mobile-menu-control-wrapper .menu-toggle,.mobile-menu-control-wrapper .menu-toggle:hover,.mobile-menu-control-wrapper .menu-toggle:focus,.has-inline-mobile-toggle #site-navigation.toggled{background-color:rgba(0, 0, 0, 0.02);}.main-navigation,.main-navigation ul ul{background-color:var(--base-3);}.main-navigation .main-nav ul li a, .main-navigation .menu-toggle, .main-navigation .menu-bar-items{color:var(--contrast);}.main-navigation .main-nav ul li:not([class*="current-menu-"]):hover > a, .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus > a, .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"]) > a, .main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{color:var(--accent);}button.menu-toggle:hover,button.menu-toggle:focus{color:var(--contrast);}.main-navigation .main-nav ul li[class*="current-menu-"] > a{color:var(--accent);}.navigation-search input[type="search"],.navigation-search input[type="search"]:active, .navigation-search input[type="search"]:focus, .main-navigation .main-nav ul li.search-item.active > a, .main-navigation .menu-bar-items .search-item.active > a{color:var(--accent);}.main-navigation ul ul{background-color:var(--base);}.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .one-container .container, .separate-containers .paging-navigation, .inside-page-header{background-color:var(--base-3);}.entry-title a{color:var(--contrast);}.entry-title a:hover{color:var(--contrast-2);}.entry-meta{color:var(--contrast-2);}.sidebar .widget{background-color:var(--base-3);}.footer-widgets{background-color:var(--base-3);}.site-info{background-color:var(--base-3);}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="tel"],input[type="number"],textarea,select{color:var(--contrast);background-color:var(--base-2);border-color:var(--base);}input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="number"]:focus,textarea:focus,select:focus{color:var(--contrast);background-color:var(--base-2);border-color:var(--contrast-3);}button,html input[type="button"],input[type="reset"],input[type="submit"],a.button,a.wp-block-button__link:not(.has-background){color:#ffffff;background-color:#55555e;}button:hover,html input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,a.button:hover,button:focus,html input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,a.button:focus,a.wp-block-button__link:not(.has-background):active,a.wp-block-button__link:not(.has-background):focus,a.wp-block-button__link:not(.has-background):hover{color:#ffffff;background-color:#3f4047;}a.generate-back-to-top{background-color:rgba( 0,0,0,0.4 );color:#ffffff;}a.generate-back-to-top:hover,a.generate-back-to-top:focus{background-color:rgba( 0,0,0,0.6 );color:#ffffff;}:root{--gp-search-modal-bg-color:var(--base-3);--gp-search-modal-text-color:var(--contrast);--gp-search-modal-overlay-bg-color:rgba(0,0,0,0.2);}@media (max-width:768px){.main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{background:none;color:var(--contrast);}}.nav-below-header .main-navigation .inside-navigation.grid-container, .nav-above-header .main-navigation .inside-navigation.grid-container{padding:0px 20px 0px 20px;}.site-main .wp-block-group__inner-container{padding:40px;}.separate-containers .paging-navigation{padding-top:20px;padding-bottom:20px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-40px;width:calc(100% + 80px);max-width:calc(100% + 80px);}.rtl .menu-item-has-children .dropdown-menu-toggle{padding-left:20px;}.rtl .main-navigation .main-nav ul li.menu-item-has-children > a{padding-right:20px;}@media (max-width:768px){.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .separate-containers .paging-navigation, .one-container .site-content, .inside-page-header{padding:30px;}.site-main .wp-block-group__inner-container{padding:30px;}.inside-top-bar{padding-right:30px;padding-left:30px;}.inside-header{padding-right:30px;padding-left:30px;}.widget-area .widget{padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px;}.footer-widgets-container{padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px;}.inside-site-info{padding-right:30px;padding-left:30px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-30px;width:calc(100% + 60px);max-width:calc(100% + 60px);}.one-container .site-main .paging-navigation{margin-bottom:20px;}}/* End cached CSS */.is-right-sidebar{width:30%;}.is-left-sidebar{width:30%;}.site-content .content-area{width:70%;}@media (max-width:768px){.main-navigation .menu-toggle,.sidebar-nav-mobile:not(#sticky-placeholder){display:block;}.main-navigation ul,.gen-sidebar-nav,.main-navigation:not(.slideout-navigation):not(.toggled) .main-nav > ul,.has-inline-mobile-toggle #site-navigation .inside-navigation > *:not(.navigation-search):not(.main-nav){display:none;}.nav-align-right .inside-navigation,.nav-align-center .inside-navigation{justify-content:space-between;}.has-inline-mobile-toggle .mobile-menu-control-wrapper{display:flex;flex-wrap:wrap;}.has-inline-mobile-toggle .inside-header{flex-direction:row;text-align:left;flex-wrap:wrap;}.has-inline-mobile-toggle .header-widget,.has-inline-mobile-toggle #site-navigation{flex-basis:100%;}.nav-float-left .has-inline-mobile-toggle #site-navigation{order:10;}}
+</style>
+<style id="akismet-widget-style-inline-css">
+
+			.a-stats {
+				--akismet-color-mid-green: #357b49;
+				--akismet-color-white: #fff;
+				--akismet-color-light-grey: #f6f7f7;
+
+				max-width: 350px;
+				width: auto;
+			}
+
+			.a-stats * {
+				all: unset;
+				box-sizing: border-box;
+			}
+
+			.a-stats strong {
+				font-weight: 600;
+			}
+
+			.a-stats a.a-stats__link,
+			.a-stats a.a-stats__link:visited,
+			.a-stats a.a-stats__link:active {
+				background: var(--akismet-color-mid-green);
+				border: none;
+				box-shadow: none;
+				border-radius: 8px;
+				color: var(--akismet-color-white);
+				cursor: pointer;
+				display: block;
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen-Sans', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif;
+				font-weight: 500;
+				padding: 12px;
+				text-align: center;
+				text-decoration: none;
+				transition: all 0.2s ease;
+			}
+
+			/* Extra specificity to deal with TwentyTwentyOne focus style */
+			.widget .a-stats a.a-stats__link:focus {
+				background: var(--akismet-color-mid-green);
+				color: var(--akismet-color-white);
+				text-decoration: none;
+			}
+
+			.a-stats a.a-stats__link:hover {
+				filter: brightness(110%);
+				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06), 0 0 2px rgba(0, 0, 0, 0.16);
+			}
+
+			.a-stats .count {
+				color: var(--akismet-color-white);
+				display: block;
+				font-size: 1.5em;
+				line-height: 1.4;
+				padding: 0 13px;
+				white-space: nowrap;
+			}
+		
+</style>
+<style id="rocket-lazyload-inline-css">
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://guiaesoterico.com/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}.wp-embed-responsive .wp-has-aspect-ratio .rll-youtube-player{position:absolute;padding-bottom:0;width:100%;height:100%;top:0;bottom:0;left:0;right:0}
+</style>
+<script type="rocketlazyloadscript" data-rocket-src="https://guiaesoterico.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://guiaesoterico.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://guiaesoterico.com/wp-content/plugins/pixelyoursite/dist/scripts/jquery.bind-first-0.2.3.min.js?ver=6.8.1" id="jquery-bind-first-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://guiaesoterico.com/wp-content/plugins/pixelyoursite/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3" id="js-cookie-pys-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://guiaesoterico.com/wp-content/plugins/pixelyoursite/dist/scripts/tld.min.js?ver=2.3.1" id="js-tld-js" defer=""></script>
+<script id="pys-js-extra" type="text/javascript">
+var pysOptions = {"staticEvents":{"facebook":{"custom_event":[{"delay":"","type":"static","custom_event_post_id":134217,"name":"ViewContent","pixelIds":["294805898041114"],"eventID":"2ef72f51-9a8f-47a4-afc8-9d0499675ed0","params":{"page_title":"Desvendando a Mente: Conhe\u00e7a a Psiquiatra Patricia do Espirito Santo","post_type":"post","post_id":278490,"plugin":"PixelYourSite","user_role":"guest","event_url":"guiaesoterico.com\/patricia-do-espirito-santo-psiquiatra\/"},"e_id":"custom_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}],"init_event":[{"delay":0,"type":"static","ajaxFire":false,"name":"PageView","pixelIds":["294805898041114"],"eventID":"8ca0f95b-afdb-472c-9f29-372ee156ad59","params":{"post_category":"Espiritualidade","page_title":"Desvendando a Mente: Conhe\u00e7a a Psiquiatra Patricia do Espirito Santo","post_type":"post","post_id":278490,"plugin":"PixelYourSite","user_role":"guest","event_url":"guiaesoterico.com\/patricia-do-espirito-santo-psiquiatra\/"},"e_id":"init_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}]}},"dynamicEvents":[],"triggerEvents":[],"triggerEventTypes":[],"facebook":{"pixelIds":["294805898041114"],"advancedMatching":[],"advancedMatchingEnabled":true,"removeMetadata":false,"contentParams":{"post_type":"post","post_id":278490,"content_name":"Desvendando a Mente: Conhe\u00e7a a Psiquiatra Patricia do Espirito Santo","categories":"Espiritualidade","tags":""},"commentEventEnabled":true,"wooVariableAsSimple":false,"downloadEnabled":true,"formEventEnabled":true,"serverApiEnabled":true,"wooCRSendFromServer":false,"send_external_id":null,"enabled_medical":false,"do_not_track_medical_param":["event_url","post_title","page_title","landing_page","content_name","categories","category_name","tags"],"meta_ldu":false},"debug":"","siteUrl":"https:\/\/guiaesoterico.com","ajaxUrl":"https:\/\/guiaesoterico.com\/wp-admin\/admin-ajax.php","ajax_event":"c1c718bfbf","enable_remove_download_url_param":"1","cookie_duration":"7","last_visit_duration":"60","enable_success_send_form":"","ajaxForServerEvent":"1","ajaxForServerStaticEvent":"1","send_external_id":"1","external_id_expire":"180","track_cookie_for_subdomains":"1","google_consent_mode":"1","gdpr":{"ajax_enabled":false,"all_disabled_by_api":false,"facebook_disabled_by_api":false,"analytics_disabled_by_api":false,"google_ads_disabled_by_api":false,"pinterest_disabled_by_api":false,"bing_disabled_by_api":false,"externalID_disabled_by_api":false,"facebook_prior_consent_enabled":true,"analytics_prior_consent_enabled":true,"google_ads_prior_consent_enabled":null,"pinterest_prior_consent_enabled":true,"bing_prior_consent_enabled":true,"cookiebot_integration_enabled":false,"cookiebot_facebook_consent_category":"marketing","cookiebot_analytics_consent_category":"statistics","cookiebot_tiktok_consent_category":"marketing","cookiebot_google_ads_consent_category":null,"cookiebot_pinterest_consent_category":"marketing","cookiebot_bing_consent_category":"marketing","consent_magic_integration_enabled":false,"real_cookie_banner_integration_enabled":false,"cookie_notice_integration_enabled":false,"cookie_law_info_integration_enabled":false,"analytics_storage":{"enabled":true,"value":"granted","filter":false},"ad_storage":{"enabled":true,"value":"granted","filter":false},"ad_user_data":{"enabled":true,"value":"granted","filter":false},"ad_personalization":{"enabled":true,"value":"granted","filter":false}},"cookie":{"disabled_all_cookie":false,"disabled_start_session_cookie":false,"disabled_advanced_form_data_cookie":false,"disabled_landing_page_cookie":false,"disabled_first_visit_cookie":false,"disabled_trafficsource_cookie":false,"disabled_utmTerms_cookie":false,"disabled_utmId_cookie":false},"tracking_analytics":{"TrafficSource":"direct","TrafficLanding":"undefined","TrafficUtms":[],"TrafficUtmsId":[]},"GATags":{"ga_datalayer_type":"default","ga_datalayer_name":"dataLayerPYS"},"woo":{"enabled":false},"edd":{"enabled":false},"cache_bypass":"1747892716"};
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://guiaesoterico.com/wp-content/cache/min/1/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=1731981511" id="pys-js" defer=""></script>
+<link rel="https://api.w.org/" href="https://guiaesoterico.com/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://guiaesoterico.com/wp-json/wp/v2/posts/278490"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://guiaesoterico.com/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.8.1">
+<link rel="shortlink" href="https://guiaesoterico.com/?p=278490">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://guiaesoterico.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fguiaesoterico.com%2Fpatricia-do-espirito-santo-psiquiatra%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://guiaesoterico.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fguiaesoterico.com%2Fpatricia-do-espirito-santo-psiquiatra%2F&amp;format=xml">
+
+<script type="rocketlazyloadscript" async="" data-rocket-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9270615363374887" crossorigin="anonymous"></script>
+<meta name="p:domain_verify" content="12b13d06073b1eb897d6ca5197b9daca">
+<meta name="facebook-domain-verification" content="wghc7yt3mmq712clme1j8py7ib1dhp">
+<script type="rocketlazyloadscript" async="" data-rocket-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9270615363374887" crossorigin="anonymous"></script>
+<meta name="p:domain_verify" content="12b13d06073b1eb897d6ca5197b9daca">
+<meta name="facebook-domain-verification" content="wghc7yt3mmq712clme1j8py7ib1dhp">
+<!-- Google tag (gtag.js) -->
+<script type="rocketlazyloadscript" async="" data-rocket-src="https://www.googletagmanager.com/gtag/js?id=G-XY3PTGGDY5"></script>
+<script type="rocketlazyloadscript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XY3PTGGDY5');
+</script>
+
+
+<script type="rocketlazyloadscript" async="" data-rocket-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1642347399681277" crossorigin="anonymous"></script>
+<style type="text/css">.saboxplugin-wrap{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;border:1px solid #eee;width:100%;clear:both;display:block;overflow:hidden;word-wrap:break-word;position:relative}.saboxplugin-wrap .saboxplugin-gravatar{float:left;padding:0 20px 20px 20px}.saboxplugin-wrap .saboxplugin-gravatar img{max-width:100px;height:auto;border-radius:0;}.saboxplugin-wrap .saboxplugin-authorname{font-size:18px;line-height:1;margin:20px 0 0 20px;display:block}.saboxplugin-wrap .saboxplugin-authorname a{text-decoration:none}.saboxplugin-wrap .saboxplugin-authorname a:focus{outline:0}.saboxplugin-wrap .saboxplugin-desc{display:block;margin:5px 20px}.saboxplugin-wrap .saboxplugin-desc a{text-decoration:underline}.saboxplugin-wrap .saboxplugin-desc p{margin:5px 0 12px}.saboxplugin-wrap .saboxplugin-web{margin:0 20px 15px;text-align:left}.saboxplugin-wrap .sab-web-position{text-align:right}.saboxplugin-wrap .saboxplugin-web a{color:#ccc;text-decoration:none}.saboxplugin-wrap .saboxplugin-socials{position:relative;display:block;background:#fcfcfc;padding:5px;border-top:1px solid #eee}.saboxplugin-wrap .saboxplugin-socials a svg{width:20px;height:20px}.saboxplugin-wrap .saboxplugin-socials a svg .st2{fill:#fff; transform-origin:center center;}.saboxplugin-wrap .saboxplugin-socials a svg .st1{fill:rgba(0,0,0,.3)}.saboxplugin-wrap .saboxplugin-socials a:hover{opacity:.8;-webkit-transition:opacity .4s;-moz-transition:opacity .4s;-o-transition:opacity .4s;transition:opacity .4s;box-shadow:none!important;-webkit-box-shadow:none!important}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-color{box-shadow:none;padding:0;border:0;-webkit-transition:opacity .4s;-moz-transition:opacity .4s;-o-transition:opacity .4s;transition:opacity .4s;display:inline-block;color:#fff;font-size:0;text-decoration:inherit;margin:5px;-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0;border-radius:0;overflow:hidden}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-grey{text-decoration:inherit;box-shadow:none;position:relative;display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1;margin:10px 5px;color:#444;fill:#444}.clearfix:after,.clearfix:before{content:' ';display:table;line-height:0;clear:both}.ie7 .clearfix{zoom:1}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-twitch{border-color:#38245c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-addthis{border-color:#e91c00}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-behance{border-color:#003eb0}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-delicious{border-color:#06c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-deviantart{border-color:#036824}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-digg{border-color:#00327c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-dribbble{border-color:#ba1655}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-facebook{border-color:#1e2e4f}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-flickr{border-color:#003576}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-github{border-color:#264874}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-google{border-color:#0b51c5}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-googleplus{border-color:#96271a}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-html5{border-color:#902e13}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-instagram{border-color:#1630aa}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-linkedin{border-color:#00344f}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-pinterest{border-color:#5b040e}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-reddit{border-color:#992900}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-rss{border-color:#a43b0a}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-sharethis{border-color:#5d8420}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-skype{border-color:#00658a}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-soundcloud{border-color:#995200}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-spotify{border-color:#0f612c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-stackoverflow{border-color:#a95009}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-steam{border-color:#006388}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-user_email{border-color:#b84e05}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-stumbleUpon{border-color:#9b280e}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-tumblr{border-color:#10151b}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-twitter{border-color:#0967a0}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-vimeo{border-color:#0d7091}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-windows{border-color:#003f71}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-whatsapp{border-color:#003f71}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-wordpress{border-color:#0f3647}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-yahoo{border-color:#14002d}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-youtube{border-color:#900}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-xing{border-color:#000202}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-mixcloud{border-color:#2475a0}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-vk{border-color:#243549}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-medium{border-color:#00452c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-quora{border-color:#420e00}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-meetup{border-color:#9b181c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-goodreads{border-color:#000}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-snapchat{border-color:#999700}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-500px{border-color:#00557f}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-mastodont{border-color:#185886}.sabox-plus-item{margin-bottom:20px}@media screen and (max-width:480px){.saboxplugin-wrap{text-align:center}.saboxplugin-wrap .saboxplugin-gravatar{float:none;padding:20px 0;text-align:center;margin:0 auto;display:block}.saboxplugin-wrap .saboxplugin-gravatar img{float:none;display:inline-block;display:-moz-inline-stack;vertical-align:middle;zoom:1}.saboxplugin-wrap .saboxplugin-desc{margin:0 10px 20px;text-align:center}.saboxplugin-wrap .saboxplugin-authorname{text-align:center;margin:10px 0 20px}}body .saboxplugin-authorname a,body .saboxplugin-authorname a:hover{box-shadow:none;-webkit-box-shadow:none}a.sab-profile-edit{font-size:16px!important;line-height:1!important}.sab-edit-settings a,a.sab-profile-edit{color:#0073aa!important;box-shadow:none!important;-webkit-box-shadow:none!important}.sab-edit-settings{margin-right:15px;position:absolute;right:0;z-index:2;bottom:10px;line-height:20px}.sab-edit-settings i{margin-left:5px}.saboxplugin-socials{line-height:1!important}.rtl .saboxplugin-wrap .saboxplugin-gravatar{float:right}.rtl .saboxplugin-wrap .saboxplugin-authorname{display:flex;align-items:center}.rtl .saboxplugin-wrap .saboxplugin-authorname .sab-profile-edit{margin-right:10px}.rtl .sab-edit-settings{right:auto;left:0}img.sab-custom-avatar{max-width:75px;}.saboxplugin-wrap {margin-top:0px; margin-bottom:0px; padding: 0px 0px }.saboxplugin-wrap .saboxplugin-authorname {font-size:18px; line-height:25px;}.saboxplugin-wrap .saboxplugin-desc p, .saboxplugin-wrap .saboxplugin-desc {font-size:14px !important; line-height:21px !important;}.saboxplugin-wrap .saboxplugin-web {font-size:14px;}.saboxplugin-wrap .saboxplugin-socials a svg {width:18px;height:18px;}</style><link rel="icon" href="https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2016/02/guia-esoterico.png" sizes="32x32">
+<link rel="icon" href="https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2016/02/guia-esoterico.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2016/02/guia-esoterico.png">
+<meta name="msapplication-TileImage" content="https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2016/02/guia-esoterico.png">
+		<style id="wp-custom-css">
+			a {
+color: #008fd3;
+    text-decoration: none;
+    font-weight: 700;
+    background-image: linear-gradient(45deg,#f4168a,#fea931 30%,#008fd3);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 100% 2px;
+    transition: background-size .3s;}
+
+ 
+.entry-content H3 {border-left: 5px solid #3A3A3A;     padding-left: 10px;}
+	
+.entry-content h2 {
+background-color: #fff;
+background-image: none;
+background-position: 5px 14px;
+background-repeat: no-repeat;
+background-size: 30px 30px;
+line-height: 28px;
+line-height: 1.2;
+overflow: hidden;
+border-bottom: 3px solid #3A3A3A;
+padding-bottom: 5px;
+padding-top: 10px;
+font-size: 20px;
+}
+
+.entry-content h2:before {
+content: "\26A1"; /* o código Unicode para o emoji de balão */
+font-size: 20px;
+display: inline-block;
+margin-right: 10px;
+}
+
+h1 {
+font-size: 22px;
+}		</style>
+		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+
+<body class="wp-singular post-template-default single single-post postid-278490 single-format-standard wp-embed-responsive wp-theme-generatepress right-sidebar nav-float-right separate-containers header-aligned-left dropdown-hover featured-image-active aa-prefix-guiae-" itemtype="https://schema.org/Blog" itemscope="">
+	<a class="screen-reader-text skip-link" href="#content" title="Pular para o conteúdo">Pular para o conteúdo</a>		<header class="site-header has-inline-mobile-toggle" id="masthead" aria-label="Site" itemtype="https://schema.org/WPHeader" itemscope="">
+			<div class="inside-header grid-container">
+				<div class="site-branding">
+						<p class="main-title" itemprop="headline">
+					<a href="https://guiaesoterico.com/" rel="home">
+						🐈‍⬛ Guia Esotérico®
+					</a>
+				</p>
+						
+					</div>	<nav class="main-navigation mobile-menu-control-wrapper" id="mobile-menu-control-wrapper" aria-label="Mobile Toggle">
+		<div class="menu-bar-items"></div>		<button data-nav="site-navigation" class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+			<span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z"></path></svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z"></path></svg></span><span class="screen-reader-text">Menu</span>		</button>
+	</nav>
+			<nav class="main-navigation has-menu-bar-items sub-menu-right" id="site-navigation" aria-label="Primary" itemtype="https://schema.org/SiteNavigationElement" itemscope="">
+			<div class="inside-navigation grid-container">
+								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+					<span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z"></path></svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z"></path></svg></span><span class="mobile-menu">Menu</span>				</button>
+				<div id="primary-menu" class="main-nav"><ul id="menu-menu2" class=" menu sf-menu"><li id="menu-item-306251" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-306251"><a href="https://guiaesoterico.com/esoterismo/">Esoterismo<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z"></path></svg></span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-306247" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306247"><a href="https://guiaesoterico.com/ayurveda/">Ayurveda</a></li>
+	<li id="menu-item-306249" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306249"><a href="https://guiaesoterico.com/cartomancia/">Cartomancia</a></li>
+	<li id="menu-item-306253" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306253"><a href="https://guiaesoterico.com/feiticaria/">Feitiçaria</a></li>
+	<li id="menu-item-306244" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306244"><a href="https://guiaesoterico.com/alquimia/">Alquimia</a></li>
+	<li id="menu-item-306250" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306250"><a href="https://guiaesoterico.com/chakras/">Chakras</a></li>
+	<li id="menu-item-306246" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306246"><a href="https://guiaesoterico.com/astrologia/">Astrologia</a></li>
+	<li id="menu-item-306256" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306256"><a href="https://guiaesoterico.com/gnose/">Gnose</a></li>
+	<li id="menu-item-306248" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306248"><a href="https://guiaesoterico.com/cabala/">Cabala</a></li>
+	<li id="menu-item-306257" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306257"><a href="https://guiaesoterico.com/blog/">Guia Esotérico</a></li>
+	<li id="menu-item-306283" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306283"><a href="https://guiaesoterico.com/teosofia/">Teosofia</a></li>
+	<li id="menu-item-306284" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306284"><a href="https://guiaesoterico.com/wicca/">Wicca</a></li>
+	<li id="menu-item-306268" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306268"><a href="https://guiaesoterico.com/ocultismo/">Ocultismo</a></li>
+</ul>
+</li>
+<li id="menu-item-306252" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-306252"><a href="https://guiaesoterico.com/espiritualidade/">Espiritualidade<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z"></path></svg></span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-306245" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306245"><a href="https://guiaesoterico.com/anjos/">Anjos</a></li>
+	<li id="menu-item-306269" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306269"><a href="https://guiaesoterico.com/oraculo/">Oráculo</a></li>
+	<li id="menu-item-306271" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306271"><a href="https://guiaesoterico.com/reencarnacao/">Reencarnação</a></li>
+	<li id="menu-item-306272" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306272"><a href="https://guiaesoterico.com/reiki/">Reiki</a></li>
+	<li id="menu-item-306254" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306254"><a href="https://guiaesoterico.com/feng-shui/">Feng Shui</a></li>
+	<li id="menu-item-306282" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306282"><a href="https://guiaesoterico.com/taro/">Tarô</a></li>
+	<li id="menu-item-306255" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306255"><a href="https://guiaesoterico.com/frases/">Frases</a></li>
+	<li id="menu-item-306273" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306273"><a href="https://guiaesoterico.com/religiao/">Religião</a></li>
+	<li id="menu-item-306286" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306286"><a href="https://guiaesoterico.com/yoga/">Yoga</a></li>
+</ul>
+</li>
+<li id="menu-item-306258" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-306258"><a href="https://guiaesoterico.com/horoscopo/">Horóscopo<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z"></path></svg></span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-306259" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306259"><a href="https://guiaesoterico.com/lua/">Lua</a></li>
+	<li id="menu-item-306260" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306260"><a href="https://guiaesoterico.com/magia/">Magia</a></li>
+	<li id="menu-item-306261" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306261"><a href="https://guiaesoterico.com/mandala/">Mandala</a></li>
+	<li id="menu-item-306262" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306262"><a href="https://guiaesoterico.com/mapa-astral/">Mapa Astral</a></li>
+	<li id="menu-item-306263" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306263"><a href="https://guiaesoterico.com/meditacao/">Meditação</a></li>
+	<li id="menu-item-306264" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306264"><a href="https://guiaesoterico.com/mediunidade/">Mediunidade</a></li>
+	<li id="menu-item-306265" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306265"><a href="https://guiaesoterico.com/misticismo/">Misticismo</a></li>
+	<li id="menu-item-306266" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306266"><a href="https://guiaesoterico.com/noticias/">Notícias</a></li>
+	<li id="menu-item-306275" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306275"><a href="https://guiaesoterico.com/significados/">Significados</a></li>
+	<li id="menu-item-306274" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306274"><a href="https://guiaesoterico.com/significado-de-nome/">Significado de nome</a></li>
+	<li id="menu-item-306267" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306267"><a href="https://guiaesoterico.com/numerologia/">Numerologia</a></li>
+</ul>
+</li>
+<li id="menu-item-306280" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-306280"><a href="https://guiaesoterico.com/sonhos/">Sonhos<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z"></path></svg></span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-306279" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306279"><a href="https://guiaesoterico.com/sonhando/">Sonhando</a></li>
+	<li id="menu-item-306278" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306278"><a href="https://guiaesoterico.com/simpatias/">Simpatias</a></li>
+	<li id="menu-item-306277" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306277"><a href="https://guiaesoterico.com/simbologia/">Simbologia</a></li>
+	<li id="menu-item-306276" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306276"><a href="https://guiaesoterico.com/signos/">Signos</a></li>
+	<li id="menu-item-306285" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306285"><a href="https://guiaesoterico.com/xamanismo/">Xamanismo</a></li>
+	<li id="menu-item-306281" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-306281"><a href="https://guiaesoterico.com/sonhos-comuns/">Sonhos Comuns</a></li>
+</ul>
+</li>
+<li id="menu-item-306287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-306287"><a href="https://guiaesoterico.com/sobre/">Sobre<span role="presentation" class="dropdown-menu-toggle"><span class="gp-icon icon-arrow"><svg viewBox="0 0 330 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M305.913 197.085c0 2.266-1.133 4.815-2.833 6.514L171.087 335.593c-1.7 1.7-4.249 2.832-6.515 2.832s-4.815-1.133-6.515-2.832L26.064 203.599c-1.7-1.7-2.832-4.248-2.832-6.514s1.132-4.816 2.832-6.515l14.162-14.163c1.7-1.699 3.966-2.832 6.515-2.832 2.266 0 4.815 1.133 6.515 2.832l111.316 111.317 111.316-111.317c1.7-1.699 4.249-2.832 6.515-2.832s4.815 1.133 6.515 2.832l14.162 14.163c1.7 1.7 2.833 4.249 2.833 6.515z"></path></svg></span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-306288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306288"><a href="https://guiaesoterico.com/termos-de-uso/">Termos de Uso</a></li>
+	<li id="menu-item-306289" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306289"><a href="https://guiaesoterico.com/quem-sou-prazer-salomao/">Quem sou? Prazer, Salomão!</a></li>
+	<li id="menu-item-306291" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-306291"><a rel="privacy-policy" href="https://guiaesoterico.com/politicas-privacidade/">Políticas de Privacidade</a></li>
+</ul>
+</li>
+<li id="menu-item-306290" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306290"><a href="https://guiaesoterico.com/contato/">Contato</a></li>
+</ul></div><div class="menu-bar-items"></div>			</div>
+		</nav>
+					</div>
+		</header>
+		
+	<div class="site grid-container container hfeed" id="page">
+				<div class="site-content" id="content">
+			
+	<div class="content-area" id="primary">
+		<main class="site-main" id="main">
+			
+<article id="post-278490" class="post-278490 post type-post status-publish format-standard has-post-thumbnail hentry category-espiritualidade" itemtype="https://schema.org/CreativeWork" itemscope="">
+	<div class="inside-article">
+				<div class="featured-image page-header-image-single grid-container grid-parent">
+			<img width="1024" height="1024" src="https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Fotos-patricia-do-espirito-santo-psiquiatra.webp" class="attachment-full size-full wp-post-image entered lazyloading" alt="Fotos patricia do espirito santo psiquiatra" itemprop="image" decoding="async" fetchpriority="high" data-lazy-srcset="https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Fotos-patricia-do-espirito-santo-psiquiatra.webp 1024w, https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Fotos-patricia-do-espirito-santo-psiquiatra-300x300.webp 300w, https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Fotos-patricia-do-espirito-santo-psiquiatra-150x150.webp 150w" data-lazy-sizes="(max-width: 1024px) 100vw, 1024px" title="Desvendando a Mente: Conheça a Psiquiatra Patricia do Espirito Santo 1" data-lazy-src="https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Fotos-patricia-do-espirito-santo-psiquiatra.webp" data-ll-status="loading" sizes="(max-width: 1024px) 100vw, 1024px" srcset="https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Fotos-patricia-do-espirito-santo-psiquiatra.webp 1024w, https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Fotos-patricia-do-espirito-santo-psiquiatra-300x300.webp 300w, https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Fotos-patricia-do-espirito-santo-psiquiatra-150x150.webp 150w"><noscript><img width="1024" height="1024" src="https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Fotos-patricia-do-espirito-santo-psiquiatra.webp" class="attachment-full size-full wp-post-image" alt="Fotos patricia do espirito santo psiquiatra" itemprop="image" decoding="async" fetchpriority="high" srcset="https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Fotos-patricia-do-espirito-santo-psiquiatra.webp 1024w, https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Fotos-patricia-do-espirito-santo-psiquiatra-300x300.webp 300w, https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Fotos-patricia-do-espirito-santo-psiquiatra-150x150.webp 150w" sizes="(max-width: 1024px) 100vw, 1024px" title="Desvendando a Mente: Conheça a Psiquiatra Patricia do Espirito Santo 1"></noscript>		</div>
+					<header class="entry-header" aria-label="Conteúdo">
+				<h1 class="entry-title" itemprop="headline">Desvendando a Mente: Conheça a Psiquiatra Patricia do Espirito Santo</h1>		<div class="entry-meta">
+			<span class="posted-on"><time class="entry-date published" datetime="2023-04-30T20:19:26-03:00" itemprop="datePublished">abril 30, 2023</time></span> <span class="byline">Por <span class="author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope=""><a class="url fn n" href="https://guiaesoterico.com/author/angelo/" title="Ver todos os posts por angelo amado" rel="author" itemprop="url"><span class="author-name" itemprop="name">angelo amado</span></a></span></span> 		</div>
+					</header>
+			
+		<div class="entry-content" itemprop="text">
+			<p>Você já se perguntou como funciona a mente humana? A psiquiatria é uma área da medicina que busca entender e tratar os distúrbios mentais. E nesse universo fascinante, a Dra. Patricia do Espirito Santo tem se destacado como uma profissional dedicada e apaixonada pela sua especialidade. Com histórias inspiradoras de superação e empatia pelo próximo, ela tem conquistado pacientes e colegas de trabalho. Neste artigo, vamos conhecer mais sobre a trajetória da Dra. Patricia e entender como a psiquiatria pode ajudar a promover saúde mental e bem-estar para todos. Vamos lá!<br>
+</p><h2>Resumo sobre Desvendando a Mente: Conheça a Psiquiatra Patricia do Espirito Santo:</h2><p></p><div class="guiae-conteudo" id="guiae-2992050885"><script type="rocketlazyloadscript" async="" data-rocket-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Guia Esotérico Quadrado Responsivo -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3081885968367766" data-ad-slot="2638478345" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script type="rocketlazyloadscript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<ul>
+<li>Patricia do Espirito Santo é uma renomada psiquiatra brasileira</li>
+<li>Ela é especializada em transtornos mentais, como depressão, ansiedade e transtorno bipolar</li>
+<li>Além de atender pacientes em seu consultório, Patricia também é professora universitária e palestrante</li>
+<li>Ela acredita em uma abordagem holística para o tratamento de transtornos mentais, que inclui terapia e medicamentos</li>
+<li>Patricia também é uma defensora da saúde mental e trabalha para diminuir o estigma em torno de transtornos mentais</li>
+<li>Ela é autora do livro “Desvendando a Mente”, que explora as causas e tratamentos para transtornos mentais com uma linguagem acessível</li>
+<li>Patricia é uma referência na área de psiquiatria no Brasil e tem ajudado muitas pessoas a lidar com seus problemas de saúde mental</li>
+</ul>
+<p><img decoding="async" src="https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Dicas-patricia-do-espirito-santo-psiquiatra.webp" alt="Dicas patricia do espirito santo psiquiatra" title="Desvendando a Mente: Conheça a Psiquiatra Patricia do Espirito Santo 2" data-lazy-src="https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Dicas-patricia-do-espirito-santo-psiquiatra.webp" data-ll-status="loading" class="entered lazyloading"><noscript><img decoding="async" src="https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Dicas-patricia-do-espirito-santo-psiquiatra.webp" alt="Dicas patricia do espirito santo psiquiatra" title="Desvendando a Mente: Conheça a Psiquiatra Patricia do Espirito Santo 2"></noscript><br>
+</p><h2>Conheça a trajetória profissional da psiquiatra Patricia do Espirito Santo</h2><p></p>
+<p>A psiquiatra Patricia do Espirito Santo é formada pela Universidade de São Paulo (USP) e possui mais de 20 anos de experiência em sua área. Durante sua carreira, ela trabalhou em diversos hospitais e clínicas, acumulando conhecimento e aprimorando suas habilidades para atender seus pacientes da melhor forma possível.</p>
+<p>Sua paixão pela psiquiatria começou durante a faculdade, quando percebeu que a saúde mental era uma questão pouco abordada na sociedade e que muitas pessoas sofriam em silêncio com transtornos e doenças mentais. Desde então, ela se dedicou a estudar e se especializar nessa área tão importante para o bem-estar humano.</p><div class="guiae-afterp03" id="guiae-3108081305"><script type="rocketlazyloadscript" async="" data-rocket-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Guia Esotérico Quadrado Responsivo 5 -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3081885968367766" data-ad-slot="1333008528" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script type="rocketlazyloadscript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<p></p><h2>A importância da psiquiatria no cuidado com a saúde mental</h2><p></p>
+<p>A saúde mental é tão importante quanto a saúde física e deve ser cuidada com a mesma atenção. A psiquiatria é uma especialidade médica que se dedica ao diagnóstico, tratamento e prevenção de doenças mentais. O papel do psiquiatra é tratar os transtornos mentais de forma integrada, considerando aspectos biológicos, psicológicos e sociais que influenciam o desenvolvimento dessas patologias.</p>
+<p>Muitas vezes, as pessoas têm medo ou vergonha de procurar ajuda psiquiátrica por causa de preconceitos ou estigmas associados às doenças mentais. Mas é importante entender que buscar tratamento é um sinal de coragem e uma atitude positiva em relação à saúde pessoal.</p>
+<p></p><h2>Desmistificando preconceitos: O papel do psiquiatra na sociedade atual</h2><p></p>
+<p>Ainda há muitos preconceitos e tabus em relação às doenças mentais e ao papel do psiquiatra na sociedade. Muitas pessoas ainda acreditam que a psiquiatria é apenas para “loucos” ou que o tratamento é baseado em medicamentos pesados e internações.</p><div class="guiae-afterp06" id="guiae-322241520"><script type="rocketlazyloadscript" async="" data-rocket-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1642347399681277" crossorigin="anonymous"></script>
+<!-- Guia After P6 -->
+<div style="clear:both; margin-top:0em; margin-bottom:1em;"><a href="https://guiaesoterico.com/espirita-monica-medeiros/" target="_self" rel="dofollow" class="ud92b5c2585c923aa885fdc8ff462d809"><!-- INLINE RELATED POSTS 1/3 //--><style> .ud92b5c2585c923aa885fdc8ff462d809 , .ud92b5c2585c923aa885fdc8ff462d809 .postImageUrl , .ud92b5c2585c923aa885fdc8ff462d809 .centered-text-area { min-height: 80px; position: relative; } .ud92b5c2585c923aa885fdc8ff462d809 , .ud92b5c2585c923aa885fdc8ff462d809:hover , .ud92b5c2585c923aa885fdc8ff462d809:visited , .ud92b5c2585c923aa885fdc8ff462d809:active { border:0!important; } .ud92b5c2585c923aa885fdc8ff462d809 .clearfix:after { content: ""; display: table; clear: both; } .ud92b5c2585c923aa885fdc8ff462d809 { display: block; transition: background-color 250ms; webkit-transition: background-color 250ms; width: 100%; opacity: 1; transition: opacity 250ms; webkit-transition: opacity 250ms; background-color: #3498DB; } .ud92b5c2585c923aa885fdc8ff462d809:active , .ud92b5c2585c923aa885fdc8ff462d809:hover { opacity: 1; transition: opacity 250ms; webkit-transition: opacity 250ms; background-color: #E67E22; } .ud92b5c2585c923aa885fdc8ff462d809 .centered-text-area { width: 100%; position: relative; } .ud92b5c2585c923aa885fdc8ff462d809 .ctaText { border-bottom: 0 solid #fff; color: #FFFFFF; font-size: 16px; font-weight: bold; margin: 0; padding: 0; text-decoration: underline; } .ud92b5c2585c923aa885fdc8ff462d809 .postTitle { color: #FFFFFF; font-size: 16px; font-weight: 600; margin: 0; padding: 0; width: 100%; } .ud92b5c2585c923aa885fdc8ff462d809 .ctaButton { background-color: #2980B9!important; color: #FFFFFF; border: none; border-radius: 3px; box-shadow: none; font-size: 14px; font-weight: bold; line-height: 26px; moz-border-radius: 3px; text-align: center; text-decoration: none; text-shadow: none; width: 80px; min-height: 80px; background: url(https://guiaesoterico.com/wp-content/plugins/intelly-related-posts/assets/images/simple-arrow.png)no-repeat; position: absolute; right: 0; top: 0; } .ud92b5c2585c923aa885fdc8ff462d809:hover .ctaButton { background-color: #D35400!important; } .ud92b5c2585c923aa885fdc8ff462d809 .centered-text { display: table; height: 80px; padding-left: 18px; top: 0; } .ud92b5c2585c923aa885fdc8ff462d809 .ud92b5c2585c923aa885fdc8ff462d809-content { display: table-cell; margin: 0; padding: 0; padding-right: 108px; position: relative; vertical-align: middle; width: 100%; } .ud92b5c2585c923aa885fdc8ff462d809:after { content: ""; display: block; clear: both; } </style><div class="centered-text-area"><div class="centered-text" style="float: left;"><div class="ud92b5c2585c923aa885fdc8ff462d809-content"><span class="ctaText">Leia também: </span>&nbsp; <span class="postTitle">Descubra a Sabedoria Espírita com Mônica Medeiros</span></div></div></div><div class="ctaButton"></div></a></div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1642347399681277" data-ad-slot="8715574056" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script type="rocketlazyloadscript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<p>No entanto, a psiquiatria moderna é uma especialidade médica que se dedica a tratar transtornos mentais de forma integrada e personalizada, considerando as particularidades de cada paciente. O objetivo do tratamento é ajudar as pessoas a lidar com seus problemas de forma saudável, melhorar sua qualidade de vida e promover o bem-estar mental.</p>
+<p></p><h2>Entenda como funciona o tratamento em consultório com Patricia do Espirito Santo</h2><p></p>
+<p>O tratamento em consultório com Patricia do Espirito Santo é personalizado e integrado, levando em consideração as demandas e necessidades individuais de cada paciente. Durante as sessões, ela utiliza diferentes abordagens terapêuticas, como psicoterapia e medicamentos, para tratar os transtornos mentais.</p>
+<p>O primeiro passo é realizar uma avaliação clínica detalhada, para entender o histórico do paciente e suas necessidades específicas. A partir desse diagnóstico, Patricia elabora um plano de tratamento personalizado, que pode incluir diferentes abordagens terapêuticas e ajustes ao longo do processo.</p><div class="guiae-afterp09" id="guiae-3487158649"><script type="rocketlazyloadscript" async="" data-rocket-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9270615363374887" crossorigin="anonymous"></script>
+<!-- guia 4 -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9270615363374887" data-ad-slot="3887337834" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script type="rocketlazyloadscript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<p></p><h2>Quais são as principais doenças mentais diagnosticadas pela especialista?</h2><p></p>
+<p>Patricia do Espirito Santo é especialista no diagnóstico e tratamento de diversas doenças mentais, como depressão, ansiedade, transtornos alimentares, transtornos de personalidade, bipolaridade e esquizofrenia.</p>
+<p>Cada transtorno mental apresenta particularidades e pode ser tratado de forma diferenciada, com abordagens terapêuticas específicas. O importante é entender que essas doenças são condições de saúde que podem ser tratadas com eficácia, permitindo que as pessoas tenham uma vida saudável e plena.</p>
+<p></p><h2>Dicas de autocuidado para manter uma vida mental saudável</h2><p></p>
+<p>Além do tratamento psiquiátrico, existem diversas maneiras de cuidar da saúde mental no dia a dia. Algumas dicas simples incluem:</p><div class="guiae-afterp12" id="guiae-226573398"><script type="rocketlazyloadscript" async="" data-rocket-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9270615363374887" crossorigin="anonymous"></script>
+<!-- guia 4 -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9270615363374887" data-ad-slot="3887337834" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script type="rocketlazyloadscript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<p>– Praticar atividades físicas regulares<br>
+– Alimentar-se de forma saudável e balanceada<br>
+– Dormir bem e estabelecer uma rotina de sono adequada<br>
+– Evitar o consumo excessivo de álcool e drogas<br>
+– Desenvolver habilidades sociais e emocionais para lidar com situações difíceis<br>
+– Buscar atividades prazerosas e hobbies que promovam o bem-estar</p>
+<p></p><h2>Como tirar proveito das sessões de terapia para superar desafios pessoais e profissionais</h2><p></p>
+<p>A psicoterapia é uma das principais abordagens terapêuticas utilizadas pela psiquiatria moderna. Durante as sessões, o paciente tem a oportunidade de explorar seus pensamentos, sentimentos e comportamentos, entendendo suas motivações e aprendendo a lidar com suas dificuldades de forma saudável.</p>
+<p>Para tirar o máximo proveito das sessões de terapia, é importante estar aberto e comprometido com o processo. É preciso confiar no terapeuta e estabelecer uma relação de confiança e respeito mútuo. Também é importante manter uma atitude positiva e flexível, disposto a aprender e crescer com as experiências vividas durante as sessões.<br>
+<img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Ideias patricia do espirito santo psiquiatra" title="Desvendando a Mente: Conheça a Psiquiatra Patricia do Espirito Santo 3" data-lazy-src="https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Ideias-patricia-do-espirito-santo-psiquiatra.webp"><noscript><img decoding="async" src="https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Ideias-patricia-do-espirito-santo-psiquiatra.webp" alt="Ideias patricia do espirito santo psiquiatra" title="Desvendando a Mente: Conheça a Psiquiatra Patricia do Espirito Santo 3"></noscript></p><div class="guiae-afterp15" id="guiae-3738008163"><script type="rocketlazyloadscript" async="" data-rocket-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9270615363374887" crossorigin="anonymous"></script>
+<!-- guia horizontal -->
+<div style="clear:both; margin-top:0em; margin-bottom:1em;"><a href="https://guiaesoterico.com/belo-horizonte-a-espirito-santo/" target="_self" rel="dofollow" class="u695444fd56813ac51a79b168316c3b47"><!-- INLINE RELATED POSTS 2/3 //--><style> .u695444fd56813ac51a79b168316c3b47 , .u695444fd56813ac51a79b168316c3b47 .postImageUrl , .u695444fd56813ac51a79b168316c3b47 .centered-text-area { min-height: 80px; position: relative; } .u695444fd56813ac51a79b168316c3b47 , .u695444fd56813ac51a79b168316c3b47:hover , .u695444fd56813ac51a79b168316c3b47:visited , .u695444fd56813ac51a79b168316c3b47:active { border:0!important; } .u695444fd56813ac51a79b168316c3b47 .clearfix:after { content: ""; display: table; clear: both; } .u695444fd56813ac51a79b168316c3b47 { display: block; transition: background-color 250ms; webkit-transition: background-color 250ms; width: 100%; opacity: 1; transition: opacity 250ms; webkit-transition: opacity 250ms; background-color: #3498DB; } .u695444fd56813ac51a79b168316c3b47:active , .u695444fd56813ac51a79b168316c3b47:hover { opacity: 1; transition: opacity 250ms; webkit-transition: opacity 250ms; background-color: #E67E22; } .u695444fd56813ac51a79b168316c3b47 .centered-text-area { width: 100%; position: relative; } .u695444fd56813ac51a79b168316c3b47 .ctaText { border-bottom: 0 solid #fff; color: #FFFFFF; font-size: 16px; font-weight: bold; margin: 0; padding: 0; text-decoration: underline; } .u695444fd56813ac51a79b168316c3b47 .postTitle { color: #FFFFFF; font-size: 16px; font-weight: 600; margin: 0; padding: 0; width: 100%; } .u695444fd56813ac51a79b168316c3b47 .ctaButton { background-color: #2980B9!important; color: #FFFFFF; border: none; border-radius: 3px; box-shadow: none; font-size: 14px; font-weight: bold; line-height: 26px; moz-border-radius: 3px; text-align: center; text-decoration: none; text-shadow: none; width: 80px; min-height: 80px; background: url(https://guiaesoterico.com/wp-content/plugins/intelly-related-posts/assets/images/simple-arrow.png)no-repeat; position: absolute; right: 0; top: 0; } .u695444fd56813ac51a79b168316c3b47:hover .ctaButton { background-color: #D35400!important; } .u695444fd56813ac51a79b168316c3b47 .centered-text { display: table; height: 80px; padding-left: 18px; top: 0; } .u695444fd56813ac51a79b168316c3b47 .u695444fd56813ac51a79b168316c3b47-content { display: table-cell; margin: 0; padding: 0; padding-right: 108px; position: relative; vertical-align: middle; width: 100%; } .u695444fd56813ac51a79b168316c3b47:after { content: ""; display: block; clear: both; } </style><div class="centered-text-area"><div class="centered-text" style="float: left;"><div class="u695444fd56813ac51a79b168316c3b47-content"><span class="ctaText">Leia também: </span>&nbsp; <span class="postTitle">Belo Horizonte ao Espírito Santo: Descubra os Mistérios Esotéricos da Região!</span></div></div></div><div class="ctaButton"></div></a></div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9270615363374887" data-ad-slot="4892425604" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script type="rocketlazyloadscript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Formação</th>
+<th>Área de atuação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Patricia do Espirito Santo</td>
+<td>Graduada em Medicina pela Universidade Federal de Minas Gerais (UFMG), Residência Médica em Psiquiatria pelo Hospital das Clínicas da Universidade de São Paulo (USP) e Especialização em Psicoterapia Psicanalítica pela Sociedade Brasileira de Psicanálise de São Paulo (SBPSP)</td>
+<td>Psiquiatria e Psicanálise</td>
+</tr>
+<tr>
+<td>Carreira</td>
+<td>Patricia é médica psiquiatra e psicanalista com mais de 20 anos de experiência clínica. Além de atender pacientes em seu consultório particular em São Paulo, ela também é professora e supervisora de psicanálise na SBPSP e no Instituto Sedes Sapientiae.</td>
+<td>Psiquiatria e Psicanálise</td>
+</tr>
+<tr>
+<td>Abordagem</td>
+<td>Patricia tem uma abordagem integrativa, combinando conhecimentos da psiquiatria e da psicanálise para tratar seus pacientes. Ela acredita que a mente e o corpo estão interligados e que a saúde mental deve ser tratada de forma holística.</td>
+<td>Psiquiatria e Psicanálise</td>
+</tr>
+<tr>
+<td>Publicações</td>
+<td>Além de sua prática clínica, Patricia também é autora de diversos artigos e capítulos de livros sobre psiquiatria e psicanálise. Entre suas publicações, destaca-se o livro “Desvendando a Mente: Uma Introdução à Psicanálise”.</td>
+<td><a href="https://pt.wikipedia.org/wiki/Psican%C3%A1lise" target="_blank" rel="noopener">Psicanálise</a></td>
+</tr>
+<tr>
+<td>Importância da saúde mental</td>
+<td>Patricia enfatiza a importância de cuidar da saúde mental e buscar ajuda profissional quando necessário. Ela destaca que muitas pessoas ainda têm preconceitos em relação à psiquiatria e à psicanálise, mas que essas são áreas fundamentais para a compreensão e tratamento dos transtornos mentais.</td>
+<td>Psiquiatria e Psicanálise</td>
+</tr>
+</tbody>
+</table>
+<p><img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Imagens patricia do espirito santo psiquiatra" title="Desvendando a Mente: Conheça a Psiquiatra Patricia do Espirito Santo 4" data-lazy-src="https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Imagens-patricia-do-espirito-santo-psiquiatra.webp"><noscript><img decoding="async" src="https://bobcorp.nyc3.digitaloceanspaces.com/guiaesoterico/2023/04/Imagens-patricia-do-espirito-santo-psiquiatra.webp" alt="Imagens patricia do espirito santo psiquiatra" title="Desvendando a Mente: Conheça a Psiquiatra Patricia do Espirito Santo 4"></noscript></p>
+<h2> Dúvidas Frequenntes </h2>
+<p></p><h3>1. O que é psiquiatria?</h3><br>
+A psiquiatria é uma especialidade médica que se dedica ao estudo, diagnóstico, tratamento e prevenção de transtornos mentais.<p></p>
+<p></p><h3>2. Qual a formação necessária para se tornar um psiquiatra?</h3><br>
+Para se tornar um psiquiatra, é necessário ter formação em Medicina e realizar uma especialização em Psiquiatria.<p></p>
+<p></p><h3>3. Quais são os principais transtornos mentais tratados pela psiquiatria?</h3><br>
+Entre os principais transtornos mentais tratados pela psiquiatria estão a depressão, ansiedade, transtornos bipolares, esquizofrenia, transtornos alimentares, entre outros.<p></p>
+<p></p><h3>4. Como é feito o diagnóstico de transtornos mentais?</h3><br>
+O diagnóstico de transtornos mentais é feito por meio da avaliação clínica do paciente, levando em consideração seus sintomas, histórico médico e familiar. Em alguns casos, exames complementares também podem ser solicitados.<p></p>
+<p></p><h3>5. Qual o papel dos medicamentos no tratamento psiquiátrico?</h3><br>
+Os medicamentos são uma importante ferramenta no tratamento de transtornos mentais, ajudando a aliviar sintomas como ansiedade, depressão e psicose. No entanto, o uso de medicamentos deve ser sempre acompanhado por um profissional de saúde capacitado.<p></p>
+<p></p><h3>6. A psicoterapia é indicada em quais casos?</h3><br>
+A psicoterapia pode ser indicada em casos de transtornos mentais leves a moderados, como ansiedade e depressão, e também em casos mais graves, como esquizofrenia. Ela pode ser realizada individualmente ou em grupo.<p></p>
+<p></p><h3>7. Quais os principais desafios enfrentados pelos psiquiatras?</h3><br>
+Os psiquiatras enfrentam diversos desafios em sua prática clínica, como o estigma em relação aos transtornos mentais, a falta de acesso a tratamentos adequados e a complexidade dos casos que atendem.<p></p>
+<div style="clear:both; margin-top:0em; margin-bottom:1em;"><a href="https://guiaesoterico.com/oracao-ao-espirito-santo-santo-agostinho/" target="_self" rel="dofollow" class="u125fd9e5bba27f4d6c7356160bf197fd"><!-- INLINE RELATED POSTS 3/3 //--><style> .u125fd9e5bba27f4d6c7356160bf197fd , .u125fd9e5bba27f4d6c7356160bf197fd .postImageUrl , .u125fd9e5bba27f4d6c7356160bf197fd .centered-text-area { min-height: 80px; position: relative; } .u125fd9e5bba27f4d6c7356160bf197fd , .u125fd9e5bba27f4d6c7356160bf197fd:hover , .u125fd9e5bba27f4d6c7356160bf197fd:visited , .u125fd9e5bba27f4d6c7356160bf197fd:active { border:0!important; } .u125fd9e5bba27f4d6c7356160bf197fd .clearfix:after { content: ""; display: table; clear: both; } .u125fd9e5bba27f4d6c7356160bf197fd { display: block; transition: background-color 250ms; webkit-transition: background-color 250ms; width: 100%; opacity: 1; transition: opacity 250ms; webkit-transition: opacity 250ms; background-color: #3498DB; } .u125fd9e5bba27f4d6c7356160bf197fd:active , .u125fd9e5bba27f4d6c7356160bf197fd:hover { opacity: 1; transition: opacity 250ms; webkit-transition: opacity 250ms; background-color: #E67E22; } .u125fd9e5bba27f4d6c7356160bf197fd .centered-text-area { width: 100%; position: relative; } .u125fd9e5bba27f4d6c7356160bf197fd .ctaText { border-bottom: 0 solid #fff; color: #FFFFFF; font-size: 16px; font-weight: bold; margin: 0; padding: 0; text-decoration: underline; } .u125fd9e5bba27f4d6c7356160bf197fd .postTitle { color: #FFFFFF; font-size: 16px; font-weight: 600; margin: 0; padding: 0; width: 100%; } .u125fd9e5bba27f4d6c7356160bf197fd .ctaButton { background-color: #2980B9!important; color: #FFFFFF; border: none; border-radius: 3px; box-shadow: none; font-size: 14px; font-weight: bold; line-height: 26px; moz-border-radius: 3px; text-align: center; text-decoration: none; text-shadow: none; width: 80px; min-height: 80px; background: url(https://guiaesoterico.com/wp-content/plugins/intelly-related-posts/assets/images/simple-arrow.png)no-repeat; position: absolute; right: 0; top: 0; } .u125fd9e5bba27f4d6c7356160bf197fd:hover .ctaButton { background-color: #D35400!important; } .u125fd9e5bba27f4d6c7356160bf197fd .centered-text { display: table; height: 80px; padding-left: 18px; top: 0; } .u125fd9e5bba27f4d6c7356160bf197fd .u125fd9e5bba27f4d6c7356160bf197fd-content { display: table-cell; margin: 0; padding: 0; padding-right: 108px; position: relative; vertical-align: middle; width: 100%; } .u125fd9e5bba27f4d6c7356160bf197fd:after { content: ""; display: block; clear: both; } </style><div class="centered-text-area"><div class="centered-text" style="float: left;"><div class="u125fd9e5bba27f4d6c7356160bf197fd-content"><span class="ctaText">Leia também: </span>&nbsp; <span class="postTitle">Suplicando a Sabedoria Divina: Oração ao Espírito Santo segundo Santo Agostinho</span></div></div></div><div class="ctaButton"></div></a></div><p></p><h3>8. Como é feito o tratamento de transtornos mentais em crianças e adolescentes?</h3><br>
+O tratamento de transtornos mentais em crianças e adolescentes pode envolver o uso de medicamentos, psicoterapia e terapia ocupacional. É importante que o tratamento seja adaptado às necessidades específicas dessa faixa etária.<p></p>
+<p></p><h3>9. A psiquiatria é uma especialidade que está em constante evolução?</h3><br>
+Sim, a psiquiatria é uma especialidade que está em constante evolução, com novas descobertas e avanços na compreensão dos transtornos mentais e no desenvolvimento de novas terapias.<p></p>
+<p></p><h3>10. Como é feita a abordagem da psiquiatria em pacientes idosos?</h3><br>
+A abordagem da psiquiatria em pacientes idosos pode envolver o uso de medicamentos, psicoterapia e terapia ocupacional, levando em consideração as particularidades dessa faixa etária, como a presença de comorbidades e a polifarmácia.<p></p>
+<p></p><h3>11. Quais são os principais mitos em relação à psiquiatria?</h3><br>
+Entre os principais mitos em relação à psiquiatria estão o de que transtornos mentais são frescura ou falta de vontade, que o tratamento com medicamentos é sempre prejudicial e que a psicoterapia é inútil.<p></p>
+<p></p><h3>12. Como é feito o acompanhamento de pacientes em tratamento psiquiátrico?</h3><br>
+O acompanhamento de pacientes em tratamento psiquiátrico pode envolver consultas regulares com o médico psiquiatra, ajustes na medicação e encaminhamento para outras terapias, como a psicoterapia.<p></p>
+<p></p><h3>13. Qual a importância da psiquiatria na saúde pública?</h3><br>
+A psiquiatria tem um papel fundamental na saúde pública, uma vez que transtornos mentais são muito prevalentes na população e podem levar a graves prejuízos sociais e econômicos. O acesso a tratamentos adequados é essencial para a promoção da saúde mental.<p></p>
+<p></p><h3>14. Como é feita a escolha do tratamento mais adequado para cada paciente?</h3><br>
+A escolha do tratamento mais adequado para cada paciente é feita levando em consideração suas particularidades, como idade, sintomas, histórico médico e familiar, e também as características dos diferentes tratamentos disponíveis.<p></p>
+<p></p><h3>15. Quais são as perspectivas para o futuro da psiquiatria?</h3><br>
+As perspectivas para o futuro da psiquiatria são promissoras, com o desenvolvimento de novas terapias e tecnologias que permitem uma melhor compreensão dos transtornos mentais e um tratamento mais eficaz e personalizado para cada paciente.<p></p>
+<div class="saboxplugin-wrap" itemtype="http://schema.org/Person" itemscope="" itemprop="author"><div class="saboxplugin-tab"><div class="saboxplugin-gravatar"></div><div class="saboxplugin-authorname"><a href="https://guiaesoterico.com/author/angelo/" class="vcard author" rel="author"><span class="fn">angelo amado</span></a></div><div class="saboxplugin-desc"><div itemprop="description"></div></div><div class="clearfix"></div></div></div><div class="guiae-aftercontent" id="guiae-2756970057"><p class="apresenta"><strong>Compartilhe nas Redes Sociais! :)</strong></p>
+
+<a href="https://facebook.com/share.php?u=<?php the_permalink() ?>&amp;t=<?php echo urlencode(the_title('','', false)) ?>" target="_blank" rel="noreferrer noopener"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3C/svg%3E" width="64" height="64" alt="Facebook" class="wp-image-35492" data-lazy-src="https://salaovirtual.org/wp-content/uploads/2020/05/Facebook.jpg"><noscript><img src="https://salaovirtual.org/wp-content/uploads/2020/05/Facebook.jpg" width="64" height="64" alt="Facebook" class="wp-image-35492"/></noscript></a>
+
+<a href="https://twitter.com/intent/tweet?text=<?php the_title();?>&amp;url=<?php the_permalink();?>"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3C/svg%3E" width="64" height="64" alt="Twitter" class="wp-image-35492" data-lazy-src="https://salaovirtual.org/wp-content/uploads/2020/05/Twitter.jpg"><noscript><img src="https://salaovirtual.org/wp-content/uploads/2020/05/Twitter.jpg" width="64" height="64" alt="Twitter" class="wp-image-35492"/></noscript></a>
+
+<a href="https://pinterest.com/pin/create/button/?url=<?php the_permalink() ?>&amp;media=<?php the_post_thumbnail_url(); ?>&amp;description=<?php the_title();?>" target="_blank" rel="noreferrer noopener"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3C/svg%3E" width="64" height="64" alt="Pinterest" class="wp-image-35492" data-lazy-src="https://salaovirtual.org/wp-content/uploads/2020/05/Pinterest.jpg"><noscript><img src="https://salaovirtual.org/wp-content/uploads/2020/05/Pinterest.jpg" width="64" height="64" alt="Pinterest" class="wp-image-35492"/></noscript></a>
+
+<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=<?php the_permalink() ?>&amp;title=<?php the_title();?>
+" target="_blank" rel="noreferrer noopener"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3C/svg%3E" width="64" height="64" alt="Linkedn" class="wp-image-35492" data-lazy-src="https://salaovirtual.org/wp-content/uploads/2020/05/Linkedn.jpg"><noscript><img src="https://salaovirtual.org/wp-content/uploads/2020/05/Linkedn.jpg" width="64" height="64" alt="Linkedn" class="wp-image-35492"/></noscript></a>
+
+<br><br>
+<p class="apresenta">Você leu <strong><!--?php the_title(); ?--></strong>. O <strong>Guia Esotérico</strong> estará aqui para te ajudar sempre que precisar. Veja mais ideias:</p>
+
+<script type="rocketlazyloadscript" async="" data-rocket-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9270615363374887" crossorigin="anonymous"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-9270615363374887" data-ad-slot="7326963000"></ins>
+<script type="rocketlazyloadscript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="guiae-jogodobicho" id="guiae-3919169888"><br>
+<h2>Palpites Jogo do Bicho:</h2>
+<table><tbody><tr><th>Jogo</th><th>Sugestão</th></tr><tr><td>Jogo do Bicho</td><td>Macaco</td></tr><tr><td>Mega Sena</td><td>31, 38, 54, 38, 41, 18</td></tr><tr><td>Loto Fácil</td><td>2, 10, 4, 14, 6, 5, 17, 23, 24, 17, 19, 8, 12, 9, 1</td></tr><tr><td>Timemania</td><td>71, 23, 60, 74, 66, 17, 35, 61, 10, 9</td></tr></tbody></table></div>		</div>
+
+				<footer class="entry-meta" aria-label="Entry meta">
+			<span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"><path d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z"></path></svg></span><span class="screen-reader-text">Categorias </span><a href="https://guiaesoterico.com/espiritualidade/" rel="category tag">Espiritualidade</a></span> 		<nav id="nav-below" class="post-navigation" aria-label="Posts">
+			<div class="nav-previous"><span class="gp-icon icon-arrow-left"><svg viewBox="0 0 192 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M178.425 138.212c0 2.265-1.133 4.813-2.832 6.512L64.276 256.001l111.317 111.277c1.7 1.7 2.832 4.247 2.832 6.513 0 2.265-1.133 4.813-2.832 6.512L161.43 394.46c-1.7 1.7-4.249 2.832-6.514 2.832-2.266 0-4.816-1.133-6.515-2.832L16.407 262.514c-1.699-1.7-2.832-4.248-2.832-6.513 0-2.265 1.133-4.813 2.832-6.512l131.994-131.947c1.7-1.699 4.249-2.831 6.515-2.831 2.265 0 4.815 1.132 6.514 2.831l14.163 14.157c1.7 1.7 2.832 3.965 2.832 6.513z" fill-rule="nonzero"></path></svg></span><span class="prev"><a href="https://guiaesoterico.com/cantina-mineira-espirito-santo-do-pinhal/" rel="prev">Descubra os Sabores da Cantina Mineira em Espírito Santo do Pinhal</a></span></div><div class="nav-next"><span class="gp-icon icon-arrow-right"><svg viewBox="0 0 192 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M178.425 256.001c0 2.266-1.133 4.815-2.832 6.515L43.599 394.509c-1.7 1.7-4.248 2.833-6.514 2.833s-4.816-1.133-6.515-2.833l-14.163-14.162c-1.699-1.7-2.832-3.966-2.832-6.515 0-2.266 1.133-4.815 2.832-6.515l111.317-111.316L16.407 144.685c-1.699-1.7-2.832-4.249-2.832-6.515s1.133-4.815 2.832-6.515l14.163-14.162c1.7-1.7 4.249-2.833 6.515-2.833s4.815 1.133 6.514 2.833l131.994 131.993c1.7 1.7 2.832 4.249 2.832 6.515z" fill-rule="nonzero"></path></svg></span><span class="next"><a href="https://guiaesoterico.com/o-louco-tarot-significado-amor/" rel="next">Desvendando o Louco no Tarot do Amor</a></span></div>		</nav>
+				</footer>
+			</div>
+</article>
+
+			<div class="comments-area">
+				<div id="comments">
+
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Deixe um comentário <small><a rel="nofollow" id="cancel-comment-reply-link" href="/patricia-do-espirito-santo-psiquiatra/#respond" style="display:none;">Cancelar resposta</a></small></h3><form action="https://guiaesoterico.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate=""><p class="comment-form-comment"><label for="comment" class="screen-reader-text">Comentário</label><textarea id="comment" name="comment" cols="45" rows="8" required=""></textarea></p><label for="author" class="screen-reader-text">Nome</label><input placeholder="Nome *" id="author" name="author" type="text" value="" size="30" required="">
+<label for="email" class="screen-reader-text">E-mail</label><input placeholder="E-mail *" id="email" name="email" type="email" value="" size="30" required="">
+<label for="url" class="screen-reader-text">Site</label><input placeholder="Site" id="url" name="url" type="url" value="" size="30">
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Comentário do post"> <input type="hidden" name="comment_post_ID" value="278490" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="85d6446d81"></p><p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>Δ<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="7"><script type="rocketlazyloadscript">document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+	
+</div><!-- #comments -->
+			</div>
+
+					</main>
+	</div>
+
+	<div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+	<div class="inside-right-sidebar">
+		<aside id="block-29" class="widget inner-padding widget_block">
+<h2 class="wp-block-heading">Confira as novidades de hoje:</h2>
+</aside><aside id="block-30" class="widget inner-padding widget_block widget_recent_entries"><ul class="wp-block-latest-posts__list wp-block-latest-posts"><li><a class="wp-block-latest-posts__post-title" href="https://guiaesoterico.com/onde-consultar-as-cartas-em-trancoso-ba-minha-jornada-espiritual-no-sul-da-bahia/">Onde consultar as cartas em Trancoso – BA: minha jornada espiritual no sul da Bahia</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://guiaesoterico.com/qual-significado-2121/">Descubra o Significado de 21:21 – Numerologia e Espiritualidade</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://guiaesoterico.com/tarot-dos-anjos-um-guia-espiritual-para-orientacao-e-protecao/">Tarot dos Anjos: Um Guia Espiritual para Orientação e Proteção</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://guiaesoterico.com/oraculo-o-que-e-e-como-funcionam-os-buzios-online/">Oráculo: O Que é e Como Funcionam os Búzios Online</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://guiaesoterico.com/buzios-online-como-funciona-beneficios-e-como-consultar/">Búzios Online: Como Funciona, Benefícios e Como Consultar</a></li>
+</ul></aside><aside id="block-21" class="widget inner-padding widget_block">
+<h2 class="wp-block-heading">Categorias:</h2>
+</aside><aside id="block-22" class="widget inner-padding widget_block widget_categories"><ul class="wp-block-categories-list wp-block-categories">	<li class="cat-item cat-item-247"><a href="https://guiaesoterico.com/alquimia/">Alquimia</a>
+</li>
+	<li class="cat-item cat-item-232"><a href="https://guiaesoterico.com/anjos/">Anjos</a>
+</li>
+	<li class="cat-item cat-item-222"><a href="https://guiaesoterico.com/astrologia/">Astrologia</a>
+</li>
+	<li class="cat-item cat-item-235"><a href="https://guiaesoterico.com/ayurveda/">Ayurveda</a>
+</li>
+	<li class="cat-item cat-item-224"><a href="https://guiaesoterico.com/cabala/">Cabala</a>
+</li>
+	<li class="cat-item cat-item-233"><a href="https://guiaesoterico.com/cartomancia/">Cartomancia</a>
+</li>
+	<li class="cat-item cat-item-246"><a href="https://guiaesoterico.com/chakras/">Chakras</a>
+</li>
+	<li class="cat-item cat-item-375"><a href="https://guiaesoterico.com/dreams/">dreams</a>
+</li>
+	<li class="cat-item cat-item-374"><a href="https://guiaesoterico.com/en/">Esoteric Guide</a>
+</li>
+	<li class="cat-item cat-item-225"><a href="https://guiaesoterico.com/esoterismo/">Esoterismo</a>
+</li>
+	<li class="cat-item cat-item-254"><a href="https://guiaesoterico.com/espiritualidade/">Espiritualidade</a>
+</li>
+	<li class="cat-item cat-item-243"><a href="https://guiaesoterico.com/feiticaria/">Feitiçaria</a>
+</li>
+	<li class="cat-item cat-item-229"><a href="https://guiaesoterico.com/feng-shui/">Feng Shui</a>
+</li>
+	<li class="cat-item cat-item-359"><a href="https://guiaesoterico.com/frases/">Frases</a>
+</li>
+	<li class="cat-item cat-item-245"><a href="https://guiaesoterico.com/gnose/">Gnose</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://guiaesoterico.com/blog/">Guia Esotérico</a>
+</li>
+	<li class="cat-item cat-item-230"><a href="https://guiaesoterico.com/horoscopo/">Horóscopo</a>
+</li>
+	<li class="cat-item cat-item-237"><a href="https://guiaesoterico.com/lua/">Lua</a>
+</li>
+	<li class="cat-item cat-item-228"><a href="https://guiaesoterico.com/magia/">Magia</a>
+</li>
+	<li class="cat-item cat-item-250"><a href="https://guiaesoterico.com/mandala/">Mandala</a>
+</li>
+	<li class="cat-item cat-item-231"><a href="https://guiaesoterico.com/mapa-astral/">Mapa Astral</a>
+</li>
+	<li class="cat-item cat-item-238"><a href="https://guiaesoterico.com/meditacao/">Meditação</a>
+</li>
+	<li class="cat-item cat-item-236"><a href="https://guiaesoterico.com/mediunidade/">Mediunidade</a>
+</li>
+	<li class="cat-item cat-item-226"><a href="https://guiaesoterico.com/misticismo/">Misticismo</a>
+</li>
+	<li class="cat-item cat-item-256"><a href="https://guiaesoterico.com/noticias/">Notícias</a>
+</li>
+	<li class="cat-item cat-item-223"><a href="https://guiaesoterico.com/numerologia/">Numerologia</a>
+</li>
+	<li class="cat-item cat-item-241"><a href="https://guiaesoterico.com/ocultismo/">Ocultismo</a>
+</li>
+	<li class="cat-item cat-item-221"><a href="https://guiaesoterico.com/oraculo/">Oráculo</a>
+</li>
+	<li class="cat-item cat-item-220"><a href="https://guiaesoterico.com/produtos-e-reviews/">Produtos e Reviews</a>
+</li>
+	<li class="cat-item cat-item-234"><a href="https://guiaesoterico.com/reiki/">Reiki</a>
+</li>
+	<li class="cat-item cat-item-358"><a href="https://guiaesoterico.com/religiao/">Religião</a>
+</li>
+	<li class="cat-item cat-item-253"><a href="https://guiaesoterico.com/significado-de-nome/">Significado de nome</a>
+</li>
+	<li class="cat-item cat-item-255"><a href="https://guiaesoterico.com/significados/">Significados</a>
+</li>
+	<li class="cat-item cat-item-219"><a href="https://guiaesoterico.com/signos/">Signos</a>
+</li>
+	<li class="cat-item cat-item-227"><a href="https://guiaesoterico.com/simbologia/">Simbologia</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="https://guiaesoterico.com/simpatias/">Simpatias</a>
+</li>
+	<li class="cat-item cat-item-251"><a href="https://guiaesoterico.com/sonhando/">Sonhando</a>
+</li>
+	<li class="cat-item cat-item-2"><a href="https://guiaesoterico.com/sonhos/">Sonhos</a>
+</li>
+	<li class="cat-item cat-item-376"><a href="https://guiaesoterico.com/a/">Sonhos com A</a>
+</li>
+	<li class="cat-item cat-item-377"><a href="https://guiaesoterico.com/b/">Sonhos com B</a>
+</li>
+	<li class="cat-item cat-item-378"><a href="https://guiaesoterico.com/c/">Sonhos com C</a>
+</li>
+	<li class="cat-item cat-item-379"><a href="https://guiaesoterico.com/d/">Sonhos com D</a>
+</li>
+	<li class="cat-item cat-item-380"><a href="https://guiaesoterico.com/e/">Sonhos com E</a>
+</li>
+	<li class="cat-item cat-item-381"><a href="https://guiaesoterico.com/f/">Sonhos com F</a>
+</li>
+	<li class="cat-item cat-item-382"><a href="https://guiaesoterico.com/g/">Sonhos com G</a>
+</li>
+	<li class="cat-item cat-item-383"><a href="https://guiaesoterico.com/h/">Sonhos com H</a>
+</li>
+	<li class="cat-item cat-item-384"><a href="https://guiaesoterico.com/i/">Sonhos com I</a>
+</li>
+	<li class="cat-item cat-item-385"><a href="https://guiaesoterico.com/j/">Sonhos com J</a>
+</li>
+	<li class="cat-item cat-item-387"><a href="https://guiaesoterico.com/l/">Sonhos com L</a>
+</li>
+	<li class="cat-item cat-item-388"><a href="https://guiaesoterico.com/m/">Sonhos com M</a>
+</li>
+	<li class="cat-item cat-item-389"><a href="https://guiaesoterico.com/n/">Sonhos com N</a>
+</li>
+	<li class="cat-item cat-item-390"><a href="https://guiaesoterico.com/o/">Sonhos com O</a>
+</li>
+	<li class="cat-item cat-item-391"><a href="https://guiaesoterico.com/p/">Sonhos com P</a>
+</li>
+	<li class="cat-item cat-item-392"><a href="https://guiaesoterico.com/q/">Sonhos com Q</a>
+</li>
+	<li class="cat-item cat-item-393"><a href="https://guiaesoterico.com/r/">Sonhos com R</a>
+</li>
+	<li class="cat-item cat-item-394"><a href="https://guiaesoterico.com/s/">Sonhos com S</a>
+</li>
+	<li class="cat-item cat-item-395"><a href="https://guiaesoterico.com/t/">Sonhos com T</a>
+</li>
+	<li class="cat-item cat-item-396"><a href="https://guiaesoterico.com/u/">Sonhos com U</a>
+</li>
+	<li class="cat-item cat-item-397"><a href="https://guiaesoterico.com/v/">Sonhos com V</a>
+</li>
+	<li class="cat-item cat-item-398"><a href="https://guiaesoterico.com/w/">Sonhos com W</a>
+</li>
+	<li class="cat-item cat-item-242"><a href="https://guiaesoterico.com/taro/">Tarô</a>
+</li>
+	<li class="cat-item cat-item-239"><a href="https://guiaesoterico.com/teosofia/">Teosofia</a>
+</li>
+	<li class="cat-item cat-item-244"><a href="https://guiaesoterico.com/wicca/">Wicca</a>
+</li>
+	<li class="cat-item cat-item-249"><a href="https://guiaesoterico.com/yoga/">Yoga</a>
+</li>
+</ul></aside><aside id="block-31" class="widget inner-padding widget_block"><ul class="wp-block-page-list"><li class="wp-block-pages-list__item"><a class="wp-block-pages-list__item__link" href="https://guiaesoterico.com/3-melhores-livros-de-sonhos-significados-e-espiritualidade/">3 Melhores Livros de Sonhos: Significados e Espiritualidade</a></li><li class="wp-block-pages-list__item"><a class="wp-block-pages-list__item__link" href="https://guiaesoterico.com/contato/">Contato</a></li><li class="wp-block-pages-list__item"><a class="wp-block-pages-list__item__link" href="https://guiaesoterico.com/43103-2/">Interpretador de Sonhos Online</a></li><li class="wp-block-pages-list__item"><a class="wp-block-pages-list__item__link" href="https://guiaesoterico.com/jogar-tarot-online-gratis/">Jogar Tarot Online Grátis: Veja sua Sorte AGORA!</a></li><li class="wp-block-pages-list__item"><a class="wp-block-pages-list__item__link" href="https://guiaesoterico.com/politicas-privacidade/">Políticas de Privacidade</a></li><li class="wp-block-pages-list__item"><a class="wp-block-pages-list__item__link" href="https://guiaesoterico.com/quem-sou-prazer-salomao/">Quem sou? Prazer, Salomão!</a></li><li class="wp-block-pages-list__item"><a class="wp-block-pages-list__item__link" href="https://guiaesoterico.com/sobre/">Sobre</a></li><li class="wp-block-pages-list__item"><a class="wp-block-pages-list__item__link" href="https://guiaesoterico.com/termos-de-uso/">Termos de Uso</a></li></ul></aside><aside id="block-32" class="widget inner-padding widget_block widget_text">
+<p>Creative Commons</p>
+</aside><aside id="block-33" class="widget inner-padding widget_block widget_text">
+<p><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.pt_BR" data-type="URL" data-id="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.pt_BR">Atribuição-NãoComercial-SemDerivações 4.0 Internacional (CC BY-NC-ND 4.0)</a>.</p>
+</aside><aside id="block-7" class="widget inner-padding widget_block widget_recent_entries"><ul class="wp-block-latest-posts__list wp-block-latest-posts"><li><a class="wp-block-latest-posts__post-title" href="https://guiaesoterico.com/onde-consultar-as-cartas-em-trancoso-ba-minha-jornada-espiritual-no-sul-da-bahia/">Onde consultar as cartas em Trancoso – BA: minha jornada espiritual no sul da Bahia</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://guiaesoterico.com/qual-significado-2121/">Descubra o Significado de 21:21 – Numerologia e Espiritualidade</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://guiaesoterico.com/tarot-dos-anjos-um-guia-espiritual-para-orientacao-e-protecao/">Tarot dos Anjos: Um Guia Espiritual para Orientação e Proteção</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://guiaesoterico.com/oraculo-o-que-e-e-como-funcionam-os-buzios-online/">Oráculo: O Que é e Como Funcionam os Búzios Online</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://guiaesoterico.com/buzios-online-como-funciona-beneficios-e-como-consultar/">Búzios Online: Como Funciona, Benefícios e Como Consultar</a></li>
+</ul></aside>	</div>
+</div>
+
+	</div>
+</div>
+
+
+<div class="site-footer">
+			<footer class="site-info" aria-label="Site" itemtype="https://schema.org/WPFooter" itemscope="">
+			<div class="inside-site-info grid-container">
+								<div class="copyright-bar">
+					<span class="copyright">© 2025 🐈‍⬛ Guia Esotérico®</span> • Built with <a href="https://generatepress.com" itemprop="url">GeneratePress</a>				</div>
+			</div>
+		</footer>
+		</div>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/generatepress\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="rocketlazyloadscript" id="generate-a11y">!function(){"use strict";if("querySelector"in document&&"addEventListener"in window){var e=document.body;e.addEventListener("mousedown",function(){e.classList.add("using-mouse")}),e.addEventListener("keydown",function(){e.classList.remove("using-mouse")})}}();</script><noscript><img height="1" width="1" style="display: none;" src="https://www.facebook.com/tr?id=294805898041114&ev=ViewContent&noscript=1&cd%5Bpage_title%5D=Desvendando+a+Mente%3A+Conhe%C3%A7a+a+Psiquiatra+Patricia+do+Espirito+Santo&cd%5Bpost_type%5D=post&cd%5Bpost_id%5D=278490&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=guiaesoterico.com%2Fpatricia-do-espirito-santo-psiquiatra%2F" alt=""></noscript>
+<noscript><img height="1" width="1" style="display: none;" src="https://www.facebook.com/tr?id=294805898041114&ev=PageView&noscript=1&cd%5Bpost_category%5D=Espiritualidade&cd%5Bpage_title%5D=Desvendando+a+Mente%3A+Conhe%C3%A7a+a+Psiquiatra+Patricia+do+Espirito+Santo&cd%5Bpost_type%5D=post&cd%5Bpost_id%5D=278490&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=guiaesoterico.com%2Fpatricia-do-espirito-santo-psiquiatra%2F" alt=""></noscript>
+<script id="wpil-frontend-script-js-extra" type="text/javascript">
+var wpilFrontend = {"ajaxUrl":"\/wp-admin\/admin-ajax.php","postId":"278490","postType":"post","openInternalInNewTab":"0","openExternalInNewTab":"0","disableClicks":"0","openLinksWithJS":"0","trackAllElementClicks":"0","clicksI18n":{"imageNoText":"Image in link: No Text","imageText":"Image Title: ","noText":"No Anchor Text Found"}};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://guiaesoterico.com/wp-content/plugins/link-whisper-premium/js/frontend.min.js?ver=1727716895" id="wpil-frontend-script-js" defer=""></script>
+<script id="toc-front-js-extra" type="text/javascript">
+var tocplus = {"visibility_show":"mostrar","visibility_hide":"esconder","width":"Auto"};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://guiaesoterico.com/wp-content/plugins/table-of-contents-plus/front.min.js?ver=2411.1" id="toc-front-js" defer=""></script>
+<!--[if lte IE 11]>
+<script src="https://guiaesoterico.com/wp-content/themes/generatepress/assets/js/classList.min.js?ver=3.3.1" id="generate-classlist-js"></script>
+<![endif]-->
+<script id="generate-menu-js-extra" type="text/javascript">
+var generatepressMenu = {"toggleOpenedSubMenus":"1","openSubMenuLabel":"Open Sub-Menu","closeSubMenuLabel":"Close Sub-Menu"};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://guiaesoterico.com/wp-content/themes/generatepress/assets/js/menu.min.js?ver=3.3.1" id="generate-menu-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://guiaesoterico.com/wp-includes/js/comment-reply.min.js?ver=6.8.1" id="comment-reply-js" async="" data-wp-strategy="async"></script>
+<script id="add_linkoncopy-js-extra" type="text/javascript">
+var astx_add_link_copied_text = {"readmore":"Visite:","addlinktosite":"","addsitename":"","breaks":"2","cleartext":"","reloption":"na","replaced_text":"","target":"","usesitenameaslink":"","usetitle":"","sitename":"\ud83d\udc08\u200d\u2b1b Guia Esot\u00e9rico\u00ae","siteurl":"https:\/\/guiaesoterico.com","frontpage":""};
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://guiaesoterico.com/wp-content/cache/min/1/wp-content/plugins/add-link-to-copied-text/assets/add_link.js?ver=1731981511" id="add_linkoncopy-js" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" defer="" data-rocket-src="https://guiaesoterico.com/wp-content/cache/min/1/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1731981511" id="akismet-frontend-js"></script>
+<div class="guiae-bet" id="guiae-173485459"><script type="rocketlazyloadscript" data-cfasync="false" data-rocket-type="text/javascript" id="clever-core">
+                                /* <![CDATA[ */
+                                    (function (document, window) {
+                                        var a, c = document.createElement("script"), f = window.frameElement;
+
+                                        c.id = "CleverCoreLoader66543";
+                                        c.src = "https://scripts.cleverwebserver.com/b3c547f27742cb371687bbbc75083be9.js";
+
+                                        c.async = !0;
+                                        c.type = "text/javascript";
+                                        c.setAttribute("data-target", window.name || (f && f.getAttribute("id")));
+                                        c.setAttribute("data-callback", "put-your-callback-function-here");
+                                        c.setAttribute("data-callback-url-click", "put-your-click-macro-here");
+                                        c.setAttribute("data-callback-url-view", "put-your-view-macro-here");
+
+                                        try {
+                                            a = parent.document.getElementsByTagName("script")[0] || document.getElementsByTagName("script")[0];
+                                        } catch (e) {
+                                            a = !1;
+                                        }
+
+                                        a || (a = document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]);
+                                        a.parentNode.insertBefore(c, a);
+                                    })(document, window);
+                                /* ]]> */
+                                </script></div><!--noptimize--><script type="rocketlazyloadscript">!function(){window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[],advanced_ads_ready_queue.push=window.advanced_ads_ready;for(var d=0,a=advanced_ads_ready_queue.length;d<a;d++)advanced_ads_ready(advanced_ads_ready_queue[d])}();</script><!--/noptimize--><script type="text/javascript">window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script async="" data-no-minify="1" src="https://guiaesoterico.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js" type="text/javascript"></script><script type="text/javascript">function lazyLoadThumb(e){var t='<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="play Youtube video"></button>';return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?'':'&'+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var e,t,p,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)e=document.createElement("div"),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query", a[t].dataset.query),e.setAttribute("data-src", a[t].dataset.src),e.innerHTML=lazyLoadThumb(a[t].dataset.id),a[t].appendChild(e),p=e.querySelector('.play'),p.onclick=lazyLoadYoutubeIframe});</script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'943a01a4ba40ac97',t:'MTc0Nzg5MjcxNi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
+
+
+</body></html>

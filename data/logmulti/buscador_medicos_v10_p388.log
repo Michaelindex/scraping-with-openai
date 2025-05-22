@@ -1,0 +1,492 @@
+2025-05-22 05:40:17,606 - P15228 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 05:40:17,607 - P15228 - INFO - Nome: GABRIELLA MUNDIM ROCHA OLIVEIRA
+2025-05-22 05:40:17,607 - P15228 - INFO - Reiniciando driver do Chrome
+2025-05-22 05:40:18,909 - P15228 - INFO - Após reiniciar driver Uso de memória: 127.29 MB
+2025-05-22 05:40:18,909 - P15228 - INFO - Início do processamento Uso de memória: 127.29 MB
+2025-05-22 05:40:18,909 - P15228 - INFO - Iniciando busca para: GABRIELLA MUNDIM ROCHA OLIVEIRA CRM 235832 SP telefone e-mail endereço
+2025-05-22 05:40:19,734 - P15228 - INFO - SearX results: 9 URLs
+2025-05-22 05:40:19,736 - P15228 - INFO - Após SearX Uso de memória: 127.29 MB
+2025-05-22 05:40:22,373 - P15228 - INFO - Google results: 1 URLs
+2025-05-22 05:40:22,373 - P15228 - INFO - Após Google Uso de memória: 127.29 MB
+2025-05-22 05:40:25,541 - P15228 - INFO - Bing results: 9 URLs
+2025-05-22 05:40:25,542 - P15228 - INFO - Após Bing Uso de memória: 129.25 MB
+2025-05-22 05:40:25,542 - P15228 - INFO - Total de URLs únicas: 11
+2025-05-22 05:40:25,542 - P15228 - INFO - Processando URL 1/11: http://cremesp.org.br/
+2025-05-22 05:40:32,792 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\2a967318246f9658edeb1e0469c871fe.html
+2025-05-22 05:40:32,818 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 05:40:32,818 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 05:40:32,818 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:40:32,818 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:40:32,818 - P15228 - INFO - Candidates cep: 2 items
+2025-05-22 05:40:32,818 - P15228 - INFO - Após processar URL 1 Uso de memória: 129.25 MB
+2025-05-22 05:40:32,819 - P15228 - INFO - Processando URL 2/11: https://transparencia.cremesp.org.br/?siteAcao=guia_medico
+2025-05-22 05:40:50,360 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\cb80cc007a72cc7a378681a92a58906a.html
+2025-05-22 05:40:50,420 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 05:40:50,420 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:40:50,420 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:40:50,420 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:40:50,420 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 05:40:50,420 - P15228 - INFO - Após processar URL 2 Uso de memória: 129.27 MB
+2025-05-22 05:40:50,420 - P15228 - INFO - Processando URL 3/11: http://cremesp.org.br/?siteAcao=CertidaoPublica
+2025-05-22 05:40:53,197 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\a3e3c749d4f541c62d159f5973f385ec.html
+2025-05-22 05:40:53,214 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 05:40:53,214 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 05:40:53,214 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:40:53,214 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:40:53,215 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 05:40:53,215 - P15228 - INFO - Após processar URL 3 Uso de memória: 129.27 MB
+2025-05-22 05:40:53,215 - P15228 - INFO - Processando URL 4/11: https://aboutcompany.info/country/brazil/officer/148427/gabriella-mundim-rocha-oliveira/
+2025-05-22 05:40:59,734 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\6ff35eb4b6dfcff6bfb28902c1a4ae5f.html
+2025-05-22 05:41:00,282 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:41:00,282 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:41:00,282 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:41:00,282 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:41:00,283 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:41:00,283 - P15228 - INFO - Após processar URL 4 Uso de memória: 131.41 MB
+2025-05-22 05:41:00,283 - P15228 - INFO - Processando URL 5/11: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 05:41:04,503 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 05:41:04,514 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:41:04,514 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:41:04,514 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:41:04,514 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:41:04,515 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:41:04,515 - P15228 - INFO - Após processar URL 5 Uso de memória: 129.28 MB
+2025-05-22 05:41:04,515 - P15228 - INFO - Processando URL 6/11: https://consultacrm.com.br/
+2025-05-22 05:41:07,870 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:41:07,882 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:41:07,882 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:41:07,882 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:41:07,882 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:41:07,882 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:41:07,882 - P15228 - INFO - Após processar URL 6 Uso de memória: 129.28 MB
+2025-05-22 05:41:07,883 - P15228 - INFO - Processando URL 7/11: https://cnpj.services/qsa/gabriella-mundim-rocha-oliveira
+2025-05-22 05:41:11,044 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\c3cff75b34d65a9e5148f052005cd774.html
+2025-05-22 05:41:11,054 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:41:11,054 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:41:11,055 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:41:11,055 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:41:11,055 - P15228 - INFO - Candidates cep: 4 items
+2025-05-22 05:41:11,055 - P15228 - INFO - Após processar URL 7 Uso de memória: 129.28 MB
+2025-05-22 05:41:11,055 - P15228 - INFO - Processando URL 8/11: https://www.sociosbrasil.com/nome/gabriella-mundim-rocha-oliveira
+2025-05-22 05:41:16,047 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\c9ac7191e456972a9782fed9c4e65f2e.html
+2025-05-22 05:41:16,058 - P15228 - INFO - Candidates address: 3 items
+2025-05-22 05:41:16,058 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:41:16,059 - P15228 - INFO - Candidates email: 2 items
+2025-05-22 05:41:16,059 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:41:16,059 - P15228 - INFO - Candidates cep: 6 items
+2025-05-22 05:41:16,059 - P15228 - INFO - Após processar URL 8 Uso de memória: 129.28 MB
+2025-05-22 05:41:16,059 - P15228 - INFO - Processando URL 9/11: https://guiamedico.cremesp.org.br/?crm=8
+2025-05-22 05:41:19,356 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\c4e280df5cfe284aca493df73e6d7caa.html
+2025-05-22 05:41:19,362 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 05:41:19,363 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 05:41:19,363 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:41:19,363 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:41:19,363 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 05:41:19,364 - P15228 - INFO - Após processar URL 9 Uso de memória: 129.28 MB
+2025-05-22 05:41:19,364 - P15228 - INFO - Processando URL 10/11: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 05:41:23,148 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 05:41:23,187 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:41:23,187 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:41:23,188 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:41:23,188 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:41:23,188 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:41:23,188 - P15228 - INFO - Após processar URL 10 Uso de memória: 129.28 MB
+2025-05-22 05:41:23,188 - P15228 - INFO - Processando URL 11/11: https://www.escavador.com/sobre/3490435/gabriella-mundim-rocha-oliveira
+2025-05-22 05:41:27,311 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\3f972364be6b87b41a680d83d09ea006.html
+2025-05-22 05:41:27,326 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:41:27,326 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:41:27,326 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:41:27,326 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:41:27,327 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:41:27,327 - P15228 - INFO - Após processar URL 11 Uso de memória: 129.28 MB
+2025-05-22 05:41:27,327 - P15228 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:41:27,327 - P15228 - INFO - Ranked address: 4 items
+2025-05-22 05:41:27,327 - P15228 - INFO - Ranked phone: 1 items
+2025-05-22 05:41:27,328 - P15228 - INFO - Ranked email: 2 items
+2025-05-22 05:41:27,328 - P15228 - INFO - Ranked complement: 0 items
+2025-05-22 05:41:27,328 - P15228 - INFO - Ranked cep: 12 items
+2025-05-22 05:41:27,328 - P15228 - INFO - Após agregação Uso de memória: 129.28 MB
+2025-05-22 05:41:27,328 - P15228 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Rua Gomes De Carvalho, 1666', 'Rua Marcolino Lopes Barreto, 721']
+2025-05-22 05:41:27,329 - P15228 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 05:41:27,329 - P15228 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 05:41:27,329 - P15228 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 05:41:27,329 - P15228 - INFO - Validando telefone: ['(11) 4349-9900']
+2025-05-22 05:41:27,329 - P15228 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 05:41:27,329 - P15228 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 05:41:27,330 - P15228 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 05:41:27,330 - P15228 - INFO - Validando email: ['CONTATO@MEDASSISTSERVICOS.COM.BR', 'CONTATO@JEITOCERTOMED.COM']
+2025-05-22 05:41:27,330 - P15228 - INFO - Limpando texto extenso para campo email: CONTATO@MEDASSISTSERVICOS.COM.BR...
+2025-05-22 05:41:27,330 - P15228 - INFO - Texto limpo: contato@medassistservicos.com.br
+2025-05-22 05:41:27,330 - P15228 - INFO - Email validado: contato@medassistservicos.com.br
+2025-05-22 05:41:27,330 - P15228 - INFO - Descobrindo cidade
+2025-05-22 05:41:27,331 - P15228 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 05:41:29,975 - P15228 - WARNING - Cidade não encontrada
+2025-05-22 05:41:29,976 - P15228 - INFO - Cidade descoberta: 
+2025-05-22 05:41:29,976 - P15228 - INFO - Tempo de execução de processamento completo do médico: 71.07 segundos
+2025-05-22 05:41:29,976 - P15228 - INFO - Resultado processado: {'Hash': 'e46dedb60962eb04a70817231f3c735fec38f9c228782451b531b5ba9b8559b1', 'CRM': '235832', 'UF': 'SP', 'Firstname': 'GABRIELLA', 'LastName': 'MUNDIM ROCHA OLIVEIRA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'contato@medassistservicos.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:41:29,978 - P15228 - INFO - Progresso: 94.7%
+2025-05-22 05:41:29,978 - P15228 - INFO - Executando coleta de lixo
+2025-05-22 05:41:30,052 - P15228 - INFO - Após coleta de lixo Uso de memória: 119.44 MB
+2025-05-22 05:41:30,052 - P15228 - INFO - Tempo de execução de processamento do médico 1: 72.45 segundos
+2025-05-22 05:41:30,052 - P15228 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 05:41:30,053 - P15228 - INFO - Nome: LEONARDO MACEDO ABREU
+2025-05-22 05:41:30,053 - P15228 - INFO - Início do processamento Uso de memória: 119.44 MB
+2025-05-22 05:41:30,053 - P15228 - INFO - Iniciando busca para: LEONARDO MACEDO ABREU CRM 236103 SP telefone e-mail endereço
+2025-05-22 05:41:30,858 - P15228 - INFO - SearX results: 12 URLs
+2025-05-22 05:41:30,859 - P15228 - INFO - Após SearX Uso de memória: 119.44 MB
+2025-05-22 05:41:33,550 - P15228 - INFO - Google results: 3 URLs
+2025-05-22 05:41:33,551 - P15228 - INFO - Após Google Uso de memória: 123.52 MB
+2025-05-22 05:41:36,034 - P15228 - INFO - Bing results: 10 URLs
+2025-05-22 05:41:36,034 - P15228 - INFO - Após Bing Uso de memória: 126.06 MB
+2025-05-22 05:41:36,034 - P15228 - INFO - Total de URLs únicas: 15
+2025-05-22 05:41:36,034 - P15228 - INFO - Processando URL 1/15: https://www.crm-sp.org.br/?siteAcao=Contatos&dep=cad
+2025-05-22 05:41:38,178 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\9d7a012bd98a105b7c4d3b953105f1bf.html
+2025-05-22 05:41:38,185 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:41:38,185 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:41:38,185 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:41:38,185 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:41:38,186 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:41:38,186 - P15228 - INFO - Após processar URL 1 Uso de memória: 126.48 MB
+2025-05-22 05:41:38,186 - P15228 - INFO - Processando URL 2/15: https://cnpj.services/47074790000113/macedo-abreu-servicos-medicos-ltda
+2025-05-22 05:41:41,091 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\c4dfd1f126af805afdd897df2da588e4.html
+2025-05-22 05:41:41,101 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:41:41,101 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 05:41:41,101 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 05:41:41,101 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:41:41,101 - P15228 - INFO - Candidates cep: 2 items
+2025-05-22 05:41:41,102 - P15228 - INFO - Após processar URL 2 Uso de memória: 126.60 MB
+2025-05-22 05:41:41,102 - P15228 - INFO - Processando URL 3/15: https://cnpj.services/qsa/leonardo-macedo-abreu
+2025-05-22 05:41:43,546 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\23b7c3dc8ae1b19f8fcca20347649d90.html
+2025-05-22 05:41:43,556 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:41:43,556 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:41:43,557 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:41:43,557 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:41:43,557 - P15228 - INFO - Candidates cep: 2 items
+2025-05-22 05:41:43,557 - P15228 - INFO - Após processar URL 3 Uso de memória: 126.71 MB
+2025-05-22 05:41:43,557 - P15228 - INFO - Processando URL 4/15: https://b2bleads.com.br/empresa/macedo-abreu-servicos-medicos-ltda-47074790000113
+2025-05-22 05:41:47,664 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\0f5640af7aeabb601661354386984cb0.html
+2025-05-22 05:41:47,686 - P15228 - INFO - Candidates address: 10 items
+2025-05-22 05:41:47,689 - P15228 - INFO - Candidates phone: 3 items
+2025-05-22 05:41:47,690 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 05:41:47,690 - P15228 - INFO - Candidates complement: 3 items
+2025-05-22 05:41:47,690 - P15228 - INFO - Candidates cep: 10 items
+2025-05-22 05:41:47,690 - P15228 - INFO - Após processar URL 4 Uso de memória: 127.09 MB
+2025-05-22 05:41:47,691 - P15228 - INFO - Processando URL 5/15: https://www.saobernardo.sp.gov.br/documents/10181/735644/NM+1978+de+02.02.2018+-+Conteu%CC%81do+Integral.pdf/2c18a58b-54a2-6452-564c-7946b029791b
+2025-05-22 05:41:47,691 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/735644/NM+1978+de+02.02.2018+-+Conteu%CC%81do+Integral.pdf/2c18a58b-54a2-6452-564c-7946b029791b
+2025-05-22 05:41:47,692 - P15228 - INFO - Após processar URL 5 Uso de memória: 127.09 MB
+2025-05-22 05:41:47,701 - P15228 - INFO - Processando URL 6/15: https://guiamedico.cremesp.org.br/
+2025-05-22 05:41:49,785 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 05:41:49,791 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 05:41:49,791 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 05:41:49,791 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:41:49,791 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:41:49,792 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 05:41:49,792 - P15228 - INFO - Após processar URL 6 Uso de memória: 127.10 MB
+2025-05-22 05:41:49,792 - P15228 - INFO - Processando URL 7/15: https://www.cismetro.com.br/credenciado/macedo-abreu-servicos-medicos-ltda/
+2025-05-22 05:41:53,762 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\6bc98a4bb1929a36eb79b93817dc3c09.html
+2025-05-22 05:41:53,836 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 05:41:53,836 - P15228 - INFO - Candidates phone: 3 items
+2025-05-22 05:41:53,836 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 05:41:53,836 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:41:53,837 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 05:41:53,837 - P15228 - INFO - Após processar URL 7 Uso de memória: 129.12 MB
+2025-05-22 05:41:53,837 - P15228 - INFO - Processando URL 8/15: https://consultacrm.com.br/
+2025-05-22 05:41:57,894 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:41:57,906 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:41:57,906 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:41:57,906 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:41:57,906 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:41:57,907 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:41:57,907 - P15228 - INFO - Após processar URL 8 Uso de memória: 128.60 MB
+2025-05-22 05:41:57,907 - P15228 - INFO - Processando URL 9/15: https://www.americana.sp.gov.br/americana-index.php?a=noticia&id=29388
+2025-05-22 05:42:03,329 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\bd5970fbe26290bf3ca136fccc2fc613.html
+2025-05-22 05:42:03,352 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 05:42:03,352 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 05:42:03,353 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:42:03,353 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:42:03,353 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:42:03,353 - P15228 - INFO - Após processar URL 9 Uso de memória: 128.62 MB
+2025-05-22 05:42:03,353 - P15228 - INFO - Processando URL 10/15: https://consultasaj.tjam.jus.br/cdje/downloadCaderno.do?dtDiario=30/09/2010&cdCaderno=2
+2025-05-22 05:42:05,720 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\63f7db9c4aeab043518e3a525d48ace0.html
+2025-05-22 05:42:05,738 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 05:42:05,738 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 05:42:05,738 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:42:05,739 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:42:05,739 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:42:05,739 - P15228 - INFO - Após processar URL 10 Uso de memória: 128.62 MB
+2025-05-22 05:42:05,739 - P15228 - INFO - Processando URL 11/15: https://www.medicosbrasil.com/profissional/leonardo-macedo
+2025-05-22 05:42:10,028 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\4473562e446403392770b4a658905d67.html
+2025-05-22 05:42:10,048 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:42:10,048 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:42:10,048 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:42:10,048 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:42:10,048 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:42:10,049 - P15228 - INFO - Após processar URL 11 Uso de memória: 128.68 MB
+2025-05-22 05:42:10,049 - P15228 - INFO - Processando URL 12/15: https://www.consultasocio.com/q/sa/leonardo-macedo-abreu
+2025-05-22 05:42:13,171 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\a1cba22ce94b2280bf68bdf4649f2e75.html
+2025-05-22 05:42:13,177 - P15228 - INFO - Candidates address: 2 items
+2025-05-22 05:42:13,178 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:42:13,178 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 05:42:13,178 - P15228 - INFO - Candidates complement: 1 items
+2025-05-22 05:42:13,178 - P15228 - INFO - Candidates cep: 3 items
+2025-05-22 05:42:13,178 - P15228 - INFO - Após processar URL 12 Uso de memória: 128.75 MB
+2025-05-22 05:42:13,178 - P15228 - INFO - Processando URL 13/15: https://www.cismetro.com.br/credenciado/macedo-abreu-servicos-medicos-ltda/#:~:text=Rua%20Sete%20de%20Setembro%2C%20n%C2%BA1330%2C%20Centro%2C%20Limeira%20-,por%20Imagem%20%2F%20Fonoaudiologia%20%2F%20Odontologia%20e%20Oftalmologia.
+2025-05-22 05:42:16,074 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\180cacaf2efe50ff942f7d57037ea5a6.html
+2025-05-22 05:42:16,152 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 05:42:16,153 - P15228 - INFO - Candidates phone: 3 items
+2025-05-22 05:42:16,153 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 05:42:16,153 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:42:16,153 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 05:42:16,153 - P15228 - INFO - Após processar URL 13 Uso de memória: 129.80 MB
+2025-05-22 05:42:16,153 - P15228 - INFO - Processando URL 14/15: https://ecrie.com.br/Sistema/Conteudos/DiarioOficial/upload/u_137_24032025211331.pdf
+2025-05-22 05:42:16,154 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://ecrie.com.br/Sistema/Conteudos/DiarioOficial/upload/u_137_24032025211331.pdf
+2025-05-22 05:42:16,154 - P15228 - INFO - Após processar URL 14 Uso de memória: 128.75 MB
+2025-05-22 05:42:16,154 - P15228 - INFO - Processando URL 15/15: https://www.boaconsulta.com/especialista/leonardo-macedo-abreu-64a6ce2e5a7bb832dd01a77e
+2025-05-22 05:42:19,639 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\0298e035913e41e73e34c77e3b8cc5b5.html
+2025-05-22 05:42:19,713 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 05:42:19,722 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:42:19,723 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:42:19,725 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:42:19,726 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:42:19,726 - P15228 - INFO - Após processar URL 15 Uso de memória: 129.61 MB
+2025-05-22 05:42:19,727 - P15228 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:42:19,727 - P15228 - INFO - Ranked address: 15 items
+2025-05-22 05:42:19,729 - P15228 - INFO - Ranked phone: 7 items
+2025-05-22 05:42:19,729 - P15228 - INFO - Ranked email: 3 items
+2025-05-22 05:42:19,730 - P15228 - INFO - Ranked complement: 4 items
+2025-05-22 05:42:19,731 - P15228 - INFO - Ranked cep: 15 items
+2025-05-22 05:42:19,731 - P15228 - INFO - Após agregação Uso de memória: 129.61 MB
+2025-05-22 05:42:19,732 - P15228 - INFO - Validando endereço: ['Rua Sete De Setembro, 1330', 'Av. das Tulipas, 638', 'Avenida Brasil, 85']
+2025-05-22 05:42:19,732 - P15228 - INFO - Endereço validado: Rua Sete De Setembro, 1330
+2025-05-22 05:42:19,732 - P15228 - INFO - Limpando texto extenso para campo address: Rua Sete De Setembro, 1330...
+2025-05-22 05:42:19,733 - P15228 - INFO - Texto limpo: Rua Sete De Setembro, 1330
+2025-05-22 05:42:19,733 - P15228 - INFO - Validando telefone: ['(19) 3441-9410', '(19) 3802-2300', '(19)3441-9410']
+2025-05-22 05:42:19,733 - P15228 - INFO - Limpando texto extenso para campo phone: (19) 3441-9410...
+2025-05-22 05:42:19,733 - P15228 - INFO - Texto limpo: 19) 3441-9410
+2025-05-22 05:42:19,734 - P15228 - INFO - Telefone validado: 19) 3441-9410
+2025-05-22 05:42:19,734 - P15228 - INFO - Validando email: ['contato@dadonaealvesconsultoria.com.br', 'leeomacedoabreu@gmail.com', 'CONTATO@DADONAEALVESCONSULTORIA.COM.BR']
+2025-05-22 05:42:19,735 - P15228 - INFO - Limpando texto extenso para campo email: contato@dadonaealvesconsultoria.com.br...
+2025-05-22 05:42:19,735 - P15228 - INFO - Texto limpo: contato@dadonaealvesconsultoria.com.br
+2025-05-22 05:42:19,736 - P15228 - INFO - Email validado: contato@dadonaealvesconsultoria.com.br
+2025-05-22 05:42:19,736 - P15228 - INFO - Validando complemento: ['Apt 112 Vila Mariana ', 'Sala 1709 Caminho Das Arvores ', 'Apt 1001 Centro ']
+2025-05-22 05:42:19,736 - P15228 - INFO - Limpando texto extenso para campo complement: Apt 112 Vila Mariana ...
+2025-05-22 05:42:19,737 - P15228 - INFO - Texto limpo: Apt 112 Vila Mariana
+2025-05-22 05:42:19,737 - P15228 - INFO - Complemento validado: Apt 112 Vila Mariana
+2025-05-22 05:42:19,737 - P15228 - INFO - Descobrindo cidade
+2025-05-22 05:42:19,737 - P15228 - INFO - Buscando cidade: Rua Sete De Setembro cidade SP
+2025-05-22 05:42:22,326 - P15228 - INFO - Cidade encontrada: São Paulo
+2025-05-22 05:42:22,327 - P15228 - INFO - Limpando texto extenso para campo city: São Paulo...
+2025-05-22 05:42:22,327 - P15228 - INFO - Texto limpo: São Paulo
+2025-05-22 05:42:22,327 - P15228 - INFO - Cidade descoberta: São Paulo
+2025-05-22 05:42:22,327 - P15228 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 05:42:22,327 - P15228 - INFO - Iniciando busca de CEP em cascata para: Rua Sete De Setembro, São Paulo, SP
+2025-05-22 05:42:22,328 - P15228 - INFO - Método 1: ViaCEP API
+2025-05-22 05:42:22,328 - P15228 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SP/sao%20paulo/rua%20sete%20de%20setembro/json/
+2025-05-22 05:42:23,078 - P15228 - INFO - Dados encontrados no ViaCEP: {'cep': '04233-170', 'logradouro': 'Rua Sete de Setembro', 'complemento': '', 'unidade': '', 'bairro': 'Cidade Nova Heliópolis', 'localidade': 'São Paulo', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3550308', 'gia': '1004', 'ddd': '11', 'siafi': '7107'}
+2025-05-22 05:42:23,081 - P15228 - INFO - CEP encontrado via ViaCEP: 04233-170
+2025-05-22 05:42:23,081 - P15228 - INFO - Dados de CEP encontrados: {'cep': '04233-170', 'logradouro': 'Rua Sete de Setembro', 'complemento': '', 'unidade': '', 'bairro': 'Cidade Nova Heliópolis', 'localidade': 'São Paulo', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3550308', 'gia': '1004', 'ddd': '11', 'siafi': '7107'}
+2025-05-22 05:42:23,081 - P15228 - INFO - Limpando texto extenso para campo bairro: Cidade Nova Heliópolis...
+2025-05-22 05:42:23,081 - P15228 - INFO - Texto limpo: Cidade Nova Heliópolis
+2025-05-22 05:42:23,082 - P15228 - INFO - Limpando texto extenso para campo city: São Paulo...
+2025-05-22 05:42:23,082 - P15228 - INFO - Texto limpo: São Paulo
+2025-05-22 05:42:23,082 - P15228 - INFO - Limpando texto extenso para campo state: SP...
+2025-05-22 05:42:23,082 - P15228 - INFO - Texto limpo: SP
+2025-05-22 05:42:23,082 - P15228 - INFO - Tempo de execução de processamento completo do médico: 53.03 segundos
+2025-05-22 05:42:23,082 - P15228 - INFO - Resultado processado: {'Hash': 'f372f71bd58e8f6637193aabee37f2e318cb04d85ccdf149da6f605030f60a45', 'CRM': '236103', 'UF': 'SP', 'Firstname': 'LEONARDO', 'LastName': 'MACEDO ABREU', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Sete De Setembro, 1330', 'Address A1': 'Rua Sete De Setembro', 'Numero A1': '1330', 'Complement A1': 'Apt 112 Vila Mariana', 'Bairro A1': 'Cidade Nova Heliópolis', 'postal code A1': '04233-170', 'City A1': 'São Paulo', 'State A1': 'SP', 'Phone A1': '19) 3441-9410', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'contato@dadonaealvesconsultoria.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:42:23,083 - P15228 - INFO - Progresso: 95.1%
+2025-05-22 05:42:23,084 - P15228 - INFO - Tempo de execução de processamento do médico 2: 53.03 segundos
+2025-05-22 05:42:23,084 - P15228 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 05:42:23,084 - P15228 - INFO - Nome: GUSTAVO SILVA SANTOS
+2025-05-22 05:42:23,084 - P15228 - INFO - Início do processamento Uso de memória: 127.02 MB
+2025-05-22 05:42:23,084 - P15228 - INFO - Iniciando busca para: GUSTAVO SILVA SANTOS CRM 25878 BA telefone e-mail endereço
+2025-05-22 05:42:23,880 - P15228 - INFO - SearX results: 15 URLs
+2025-05-22 05:42:23,880 - P15228 - INFO - Após SearX Uso de memória: 127.02 MB
+2025-05-22 05:42:26,527 - P15228 - INFO - Google results: 10 URLs
+2025-05-22 05:42:26,527 - P15228 - INFO - Após Google Uso de memória: 128.05 MB
+2025-05-22 05:42:29,070 - P15228 - INFO - Bing results: 9 URLs
+2025-05-22 05:42:29,070 - P15228 - INFO - Após Bing Uso de memória: 128.06 MB
+2025-05-22 05:42:29,071 - P15228 - INFO - Total de URLs únicas: 23
+2025-05-22 05:42:29,071 - P15228 - INFO - Processando URL 1/23: https://cnpj.biz/43526072000180
+2025-05-22 05:42:31,867 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\a80e096b62f438dd50bf0b11e8e9065c.html
+2025-05-22 05:42:31,883 - P15228 - INFO - Candidates address: 2 items
+2025-05-22 05:42:31,884 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 05:42:31,885 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 05:42:31,886 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:42:31,886 - P15228 - INFO - Candidates cep: 3 items
+2025-05-22 05:42:31,888 - P15228 - INFO - Após processar URL 1 Uso de memória: 128.11 MB
+2025-05-22 05:42:31,898 - P15228 - INFO - Processando URL 2/23: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20210927&idorgao=347
+2025-05-22 05:42:35,534 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\c7ee2ec0c8aec9271dbdd2db282d9897.html
+2025-05-22 05:42:36,684 - P15228 - INFO - Candidates address: 56 items
+2025-05-22 05:42:36,684 - P15228 - INFO - Candidates phone: 3 items
+2025-05-22 05:42:36,684 - P15228 - INFO - Candidates email: 146 items
+2025-05-22 05:42:36,685 - P15228 - INFO - Candidates complement: 4 items
+2025-05-22 05:42:36,685 - P15228 - INFO - Candidates cep: 82 items
+2025-05-22 05:42:36,685 - P15228 - INFO - Após processar URL 2 Uso de memória: 132.26 MB
+2025-05-22 05:42:36,685 - P15228 - INFO - Processando URL 3/23: https://www.cremeb.org.br/index.php/institucional/representacoes-regionais/
+2025-05-22 05:42:40,497 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\6cfcacbf979e41b7de704128b005510b.html
+2025-05-22 05:42:40,539 - P15228 - INFO - Candidates address: 9 items
+2025-05-22 05:42:40,539 - P15228 - INFO - Candidates phone: 10 items
+2025-05-22 05:42:40,539 - P15228 - INFO - Candidates email: 10 items
+2025-05-22 05:42:40,539 - P15228 - INFO - Candidates complement: 1 items
+2025-05-22 05:42:40,539 - P15228 - INFO - Candidates cep: 16 items
+2025-05-22 05:42:40,540 - P15228 - INFO - Após processar URL 3 Uso de memória: 129.05 MB
+2025-05-22 05:42:40,540 - P15228 - INFO - Processando URL 4/23: https://portal.cfm.org.br/busca-medicos
+2025-05-22 05:42:46,463 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 05:42:46,508 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:42:46,509 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:42:46,509 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 05:42:46,510 - P15228 - INFO - Candidates complement: 1 items
+2025-05-22 05:42:46,512 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 05:42:46,512 - P15228 - INFO - Após processar URL 4 Uso de memória: 129.05 MB
+2025-05-22 05:42:46,513 - P15228 - INFO - Processando URL 5/23: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1506189977.pdf
+2025-05-22 05:42:46,513 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1506189977.pdf
+2025-05-22 05:42:46,513 - P15228 - INFO - Após processar URL 5 Uso de memória: 129.05 MB
+2025-05-22 05:42:46,515 - P15228 - INFO - Processando URL 6/23: https://www.cremeb.org.br/index.php/buscar-medicos/
+2025-05-22 05:42:48,908 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\baa85b25dd073ee15bf77dd594b13554.html
+2025-05-22 05:42:48,933 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 05:42:48,934 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 05:42:48,935 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 05:42:48,936 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:42:48,936 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 05:42:48,936 - P15228 - INFO - Após processar URL 6 Uso de memória: 129.05 MB
+2025-05-22 05:42:48,937 - P15228 - INFO - Processando URL 7/23: https://cpl-feas.curitiba.pr.gov.br/pregoes2022/Pregao1852022_000077.pdf
+2025-05-22 05:42:48,937 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://cpl-feas.curitiba.pr.gov.br/pregoes2022/Pregao1852022_000077.pdf
+2025-05-22 05:42:48,938 - P15228 - INFO - Após processar URL 7 Uso de memória: 129.05 MB
+2025-05-22 05:42:48,938 - P15228 - INFO - Processando URL 8/23: https://www.saobernardo.sp.gov.br/documents/10181/542859/16_09_16_NM_1899_otz.pdf/c1fa089b-01ad-404e-a060-0dca86ccb113
+2025-05-22 05:42:48,938 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/542859/16_09_16_NM_1899_otz.pdf/c1fa089b-01ad-404e-a060-0dca86ccb113
+2025-05-22 05:42:48,939 - P15228 - INFO - Após processar URL 8 Uso de memória: 129.05 MB
+2025-05-22 05:42:48,939 - P15228 - INFO - Processando URL 9/23: https://www.mpsp.mp.br/w/dic3a1riooficialmpsp14052013htm
+2025-05-22 05:42:52,767 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\a89fdae043eece5e56b6fd435973b187.html
+2025-05-22 05:42:52,973 - P15228 - INFO - Candidates address: 17 items
+2025-05-22 05:42:52,974 - P15228 - INFO - Candidates phone: 4 items
+2025-05-22 05:42:52,974 - P15228 - INFO - Candidates email: 3 items
+2025-05-22 05:42:52,974 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:42:52,974 - P15228 - INFO - Candidates cep: 13 items
+2025-05-22 05:42:52,974 - P15228 - INFO - Após processar URL 9 Uso de memória: 129.05 MB
+2025-05-22 05:42:52,974 - P15228 - INFO - Processando URL 10/23: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20220114&idorgao=347
+2025-05-22 05:42:57,493 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\234dd3aaf7f03d5d50c942dc6114213e.html
+2025-05-22 05:42:58,309 - P15228 - INFO - Candidates address: 34 items
+2025-05-22 05:42:58,310 - P15228 - INFO - Candidates phone: 5 items
+2025-05-22 05:42:58,310 - P15228 - INFO - Candidates email: 8 items
+2025-05-22 05:42:58,310 - P15228 - INFO - Candidates complement: 7 items
+2025-05-22 05:42:58,310 - P15228 - INFO - Candidates cep: 55 items
+2025-05-22 05:42:58,310 - P15228 - INFO - Após processar URL 10 Uso de memória: 131.43 MB
+2025-05-22 05:42:58,311 - P15228 - INFO - Processando URL 11/23: https://www.medicosbrasil.com/profissional/gustavo-silva-dos-santos
+2025-05-22 05:43:00,493 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\abe42ce0c5e14f064f91199ffc31db67.html
+2025-05-22 05:43:00,496 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:43:00,496 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:43:00,498 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:43:00,498 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:43:00,498 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:43:00,499 - P15228 - INFO - Após processar URL 11 Uso de memória: 128.96 MB
+2025-05-22 05:43:00,499 - P15228 - INFO - Processando URL 12/23: https://crmvirtual.cfm.org.br/BA/servico/pesquisa-por-medicos
+2025-05-22 05:43:03,316 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\344d5185fc7be121f6bd5df93a5125ac.html
+2025-05-22 05:43:03,327 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:43:03,327 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:43:03,327 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 05:43:03,327 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:43:03,327 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:43:03,328 - P15228 - INFO - Após processar URL 12 Uso de memória: 128.96 MB
+2025-05-22 05:43:03,328 - P15228 - INFO - Processando URL 13/23: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/294356/Caderno_JUD_BA_2017-11-22_IX_213.pdf?sequence=3&isAllowed=y
+2025-05-22 05:43:03,328 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/294356/Caderno_JUD_BA_2017-11-22_IX_213.pdf?sequence=3&isAllowed=y
+2025-05-22 05:43:03,328 - P15228 - INFO - Após processar URL 13 Uso de memória: 128.96 MB
+2025-05-22 05:43:03,328 - P15228 - INFO - Processando URL 14/23: https://consultacrm.com.br/
+2025-05-22 05:43:06,847 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:43:06,860 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:43:06,860 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:43:06,861 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:43:06,861 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:43:06,861 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:43:06,861 - P15228 - INFO - Após processar URL 14 Uso de memória: 129.48 MB
+2025-05-22 05:43:06,861 - P15228 - INFO - Processando URL 15/23: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1480255770.pdf
+2025-05-22 05:43:06,861 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1480255770.pdf
+2025-05-22 05:43:06,861 - P15228 - INFO - Após processar URL 15 Uso de memória: 129.48 MB
+2025-05-22 05:43:06,862 - P15228 - INFO - Processando URL 16/23: https://www.escavador.com/sobre/4193342/gustavo-silva-santos
+2025-05-22 05:43:10,591 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\24bcbfc2a4018c4bce6436239d89bd25.html
+2025-05-22 05:43:10,607 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:43:10,607 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:43:10,607 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:43:10,608 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:43:10,608 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:43:10,609 - P15228 - INFO - Após processar URL 16 Uso de memória: 129.48 MB
+2025-05-22 05:43:10,609 - P15228 - INFO - Processando URL 17/23: https://osasco.sp.gov.br/site/wp-content/uploads/2016/06/httposasco.sp_.gov_.brcompsec1atosEd1248.pdf
+2025-05-22 05:43:10,610 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2016/06/httposasco.sp_.gov_.brcompsec1atosEd1248.pdf
+2025-05-22 05:43:10,610 - P15228 - INFO - Após processar URL 17 Uso de memória: 129.48 MB
+2025-05-22 05:43:10,610 - P15228 - INFO - Processando URL 18/23: https://cnpj.biz/45011789000114
+2025-05-22 05:43:12,784 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\c77d1a424870e70294a533e56e2547a5.html
+2025-05-22 05:43:12,786 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:43:12,787 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:43:12,787 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:43:12,787 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:43:12,787 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:43:12,787 - P15228 - INFO - Após processar URL 18 Uso de memória: 129.48 MB
+2025-05-22 05:43:12,788 - P15228 - INFO - Processando URL 19/23: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2024/DMPF-ADMINISTRATIVO-2024-07-22.pdf
+2025-05-22 05:43:12,788 - P15228 - INFO - Ignorando URL de arquivo não-HTML: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2024/DMPF-ADMINISTRATIVO-2024-07-22.pdf
+2025-05-22 05:43:12,788 - P15228 - INFO - Após processar URL 19 Uso de memória: 129.48 MB
+2025-05-22 05:43:12,788 - P15228 - INFO - Processando URL 20/23: https://cnpj.biz/60598575000180
+2025-05-22 05:43:14,880 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\e96ca615640485050e43500a116f8ad6.html
+2025-05-22 05:43:14,882 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:43:14,882 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:43:14,883 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:43:14,883 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:43:14,883 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:43:14,883 - P15228 - INFO - Após processar URL 20 Uso de memória: 129.48 MB
+2025-05-22 05:43:14,883 - P15228 - INFO - Processando URL 21/23: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2024/DMPF-ADMINISTRATIVO-2024-07-12.pdf
+2025-05-22 05:43:14,883 - P15228 - INFO - Ignorando URL de arquivo não-HTML: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2024/DMPF-ADMINISTRATIVO-2024-07-12.pdf
+2025-05-22 05:43:14,884 - P15228 - INFO - Após processar URL 21 Uso de memória: 129.48 MB
+2025-05-22 05:43:14,884 - P15228 - INFO - Processando URL 22/23: https://cnpj.biz/43119489000128
+2025-05-22 05:43:16,977 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\bbe3d47729d93000c17e7f611198b4f2.html
+2025-05-22 05:43:16,980 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:43:16,981 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:43:16,981 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:43:16,981 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:43:16,981 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:43:16,982 - P15228 - INFO - Após processar URL 22 Uso de memória: 129.48 MB
+2025-05-22 05:43:16,982 - P15228 - INFO - Processando URL 23/23: https://cadastroempresa.com.br/cnpj/30.157.675/0001-00-gss-atendimentos-medicos-gustavo-silva-dos-santos
+2025-05-22 05:43:19,806 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\ca67aeee4bcf7f35470e893a9e854db5.html
+2025-05-22 05:43:19,829 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:43:19,830 - P15228 - INFO - Candidates phone: 2 items
+2025-05-22 05:43:19,830 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 05:43:19,830 - P15228 - INFO - Candidates complement: 3 items
+2025-05-22 05:43:19,830 - P15228 - INFO - Candidates cep: 3 items
+2025-05-22 05:43:19,830 - P15228 - INFO - Após processar URL 23 Uso de memória: 129.48 MB
+2025-05-22 05:43:19,831 - P15228 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:43:19,831 - P15228 - INFO - Ranked address: 116 items
+2025-05-22 05:43:19,831 - P15228 - INFO - Ranked phone: 25 items
+2025-05-22 05:43:19,831 - P15228 - INFO - Ranked email: 168 items
+2025-05-22 05:43:19,831 - P15228 - INFO - Ranked complement: 16 items
+2025-05-22 05:43:19,832 - P15228 - INFO - Ranked cep: 166 items
+2025-05-22 05:43:19,832 - P15228 - INFO - Após agregação Uso de memória: 129.48 MB
+2025-05-22 05:43:19,832 - P15228 - INFO - Validando endereço: ['Rua das Palmeiras, 685', 'Rua Desembargador Homero Mafra, 60', 'Rua Guadalajara, 175']
+2025-05-22 05:43:19,832 - P15228 - INFO - Endereço validado: Rua das Palmeiras, 685
+2025-05-22 05:43:19,832 - P15228 - INFO - Limpando texto extenso para campo address: Rua das Palmeiras, 685...
+2025-05-22 05:43:19,832 - P15228 - INFO - Texto limpo: Rua das Palmeiras, 685
+2025-05-22 05:43:19,832 - P15228 - INFO - Validando telefone: ['(71) 3339-2800', '(71) 98630-3518', '(27) 3198-3042']
+2025-05-22 05:43:19,833 - P15228 - INFO - Limpando texto extenso para campo phone: (71) 3339-2800...
+2025-05-22 05:43:19,833 - P15228 - INFO - Texto limpo: 71) 3339-2800
+2025-05-22 05:43:19,833 - P15228 - INFO - Telefone validado: 71) 3339-2800
+2025-05-22 05:43:19,833 - P15228 - INFO - Validando email: ['6civel-vitoria@tjes.jus.br', '1orfaos-vitoria@tjes.jus.br', '2criminal-vitoria@tjes.jus.br']
+2025-05-22 05:43:19,833 - P15228 - INFO - Limpando texto extenso para campo email: 6civel-vitoria@tjes.jus.br...
+2025-05-22 05:43:19,833 - P15228 - INFO - Texto limpo: 6civel-vitoria@tjes.jus.br
+2025-05-22 05:43:19,833 - P15228 - INFO - Email validado: 6civel-vitoria@tjes.jus.br
+2025-05-22 05:43:19,834 - P15228 - INFO - Validando complemento: ['Sala 104', 'Conjunto José Tenório de Albuquerque Lins', 'Sala: SALA DE AUDIÊNCIA DA 4ª VARA CÍVEL DE VITÓRIA. ']
+2025-05-22 05:43:19,834 - P15228 - INFO - Limpando texto extenso para campo complement: Sala 104...
+2025-05-22 05:43:19,834 - P15228 - INFO - Texto limpo: Sala 104
+2025-05-22 05:43:19,834 - P15228 - INFO - Complemento validado: Sala 104
+2025-05-22 05:43:19,834 - P15228 - INFO - Descobrindo cidade
+2025-05-22 05:43:19,834 - P15228 - INFO - Buscando cidade: Rua das Palmeiras cidade BA
+2025-05-22 05:43:22,644 - P15228 - WARNING - Cidade não encontrada
+2025-05-22 05:43:22,645 - P15228 - INFO - Cidade descoberta: 
+2025-05-22 05:43:22,645 - P15228 - INFO - Tempo de execução de processamento completo do médico: 59.56 segundos
+2025-05-22 05:43:22,646 - P15228 - INFO - Resultado processado: {'Hash': '462755678f454d34373a7c5121e0e19da228978b51d4ee1713ffceabafc9a46f', 'CRM': '25878', 'UF': 'BA', 'Firstname': 'GUSTAVO', 'LastName': 'SILVA SANTOS', 'Medical specialty': '', 'Endereco Completo A1': 'Rua das Palmeiras, 685', 'Address A1': 'Rua das Palmeiras', 'Numero A1': '685', 'Complement A1': 'Sala 104', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '71) 3339-2800', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': '6civel-vitoria@tjes.jus.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:43:22,648 - P15228 - INFO - Salvando lote de resultados
+2025-05-22 05:43:22,649 - P15228 - INFO - Após salvar resultados Uso de memória: 127.22 MB
+2025-05-22 05:43:22,649 - P15228 - INFO - Progresso: 95.4%
+2025-05-22 05:43:22,650 - P15228 - INFO - Tempo de execução de processamento do médico 3: 59.57 segundos
+2025-05-22 05:43:22,650 - P15228 - INFO - Tempo de execução de processamento do lote completo: 185.04 segundos

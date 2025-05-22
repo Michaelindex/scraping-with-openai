@@ -1,0 +1,543 @@
+2025-05-22 03:58:13,981 - P17020 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 03:58:13,981 - P17020 - INFO - Nome: THAIS PAZELI MANTOVANI
+2025-05-22 03:58:13,981 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 03:58:15,219 - P17020 - INFO - Após reiniciar driver Uso de memória: 129.87 MB
+2025-05-22 03:58:15,220 - P17020 - INFO - Início do processamento Uso de memória: 129.87 MB
+2025-05-22 03:58:15,220 - P17020 - INFO - Iniciando busca para: THAIS PAZELI MANTOVANI CRM 54695 MG telefone e-mail endereço
+2025-05-22 03:58:16,020 - P17020 - INFO - SearX results: 11 URLs
+2025-05-22 03:58:16,020 - P17020 - INFO - Após SearX Uso de memória: 129.87 MB
+2025-05-22 03:58:19,162 - P17020 - INFO - Google results: 6 URLs
+2025-05-22 03:58:19,162 - P17020 - INFO - Após Google Uso de memória: 125.47 MB
+2025-05-22 03:58:21,811 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 03:58:21,811 - P17020 - INFO - Após Bing Uso de memória: 129.18 MB
+2025-05-22 03:58:21,811 - P17020 - INFO - Total de URLs únicas: 14
+2025-05-22 03:58:21,812 - P17020 - INFO - Processando URL 1/14: https://consultacrm.com.br/
+2025-05-22 03:58:26,055 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:58:26,072 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:58:26,072 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:58:26,072 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:58:26,073 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:58:26,073 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:58:26,073 - P17020 - INFO - Após processar URL 1 Uso de memória: 130.57 MB
+2025-05-22 03:58:26,074 - P17020 - INFO - Processando URL 2/14: https://cliniguia.com/profissionais/thais-pazeli-mantovani-980016289429871/
+2025-05-22 03:58:32,085 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d5e5008222c323656dd262d8a2a8a580.html
+2025-05-22 03:58:32,130 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:58:32,130 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:58:32,131 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:58:32,131 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:58:32,131 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:58:32,131 - P17020 - INFO - Após processar URL 2 Uso de memória: 132.61 MB
+2025-05-22 03:58:32,131 - P17020 - INFO - Processando URL 3/14: https://cliniguia.com/unidades/juiz-de-fora-mg/medmais-consulta-9846441/
+2025-05-22 03:58:35,279 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\db334f8f842f76e8afb084f3c5558e1d.html
+2025-05-22 03:58:35,452 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:58:35,470 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:58:35,471 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:58:35,471 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:58:35,476 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 03:58:35,479 - P17020 - INFO - Após processar URL 3 Uso de memória: 123.31 MB
+2025-05-22 03:58:35,479 - P17020 - INFO - Processando URL 4/14: https://acessamedmais.com.br/a-acessamedmais
+2025-05-22 03:58:40,077 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ffaa1ef7fe77e4549dc94f4a72046b03.html
+2025-05-22 03:58:40,100 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 03:58:40,101 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:58:40,101 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:58:40,101 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:58:40,101 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:58:40,101 - P17020 - INFO - Após processar URL 4 Uso de memória: 123.87 MB
+2025-05-22 03:58:40,101 - P17020 - INFO - Processando URL 5/14: https://www2.boaconsulta.com/especialista/thais-pazeli-mantovani-61059bfbba32c315a2001b7e?agendaId=64a990135a7bb86bc900f166
+2025-05-22 03:58:43,444 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c07d7586f95c735a3250e7bd06c93068.html
+2025-05-22 03:58:43,528 - P17020 - INFO - Candidates address: 4 items
+2025-05-22 03:58:43,529 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:58:43,530 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:58:43,530 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:58:43,530 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:58:43,530 - P17020 - INFO - Após processar URL 5 Uso de memória: 127.93 MB
+2025-05-22 03:58:43,530 - P17020 - INFO - Processando URL 6/14: https://www.doctoralia.com.br/thais-pazeli-mantovani/medico-clinico-geral/juiz-de-fora
+2025-05-22 03:58:43,530 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/thais-pazeli-mantovani/medico-clinico-geral/juiz-de-fora
+2025-05-22 03:58:43,531 - P17020 - INFO - Após processar URL 6 Uso de memória: 127.93 MB
+2025-05-22 03:58:43,531 - P17020 - INFO - Processando URL 7/14: https://www.escavador.com/sobre/4285427/thais-pazeli-mantovani
+2025-05-22 03:58:47,705 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5db78d451a61271e69e2a4a7a2c74362.html
+2025-05-22 03:58:47,724 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:58:47,724 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:58:47,724 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:58:47,725 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:58:47,725 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:58:47,725 - P17020 - INFO - Após processar URL 7 Uso de memória: 128.50 MB
+2025-05-22 03:58:47,725 - P17020 - INFO - Processando URL 8/14: https://www.doctoralia.com.br/medico-clinico-geral/juiz-de-fora/santa-helena7?page=6
+2025-05-22 03:58:47,725 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/medico-clinico-geral/juiz-de-fora/santa-helena7?page=6
+2025-05-22 03:58:47,726 - P17020 - INFO - Após processar URL 8 Uso de memória: 128.50 MB
+2025-05-22 03:58:47,726 - P17020 - INFO - Processando URL 9/14: https://www.boaconsulta.com/especialistas/endocrinologistas/juiz-de-fora-mg/convenio/sulamerica-saude
+2025-05-22 03:58:50,791 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\465c1814541e487c0b800a4f79f670ff.html
+2025-05-22 03:58:50,848 - P17020 - INFO - Candidates address: 5 items
+2025-05-22 03:58:50,848 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:58:50,848 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:58:50,848 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 03:58:50,848 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:58:50,849 - P17020 - INFO - Após processar URL 9 Uso de memória: 129.05 MB
+2025-05-22 03:58:50,849 - P17020 - INFO - Processando URL 10/14: https://www.medicosbrasil.com/profissional/thais-pazeli-mantovani
+2025-05-22 03:58:54,018 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6aba79c527a828d24fb7565e47d63722.html
+2025-05-22 03:58:54,047 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:58:54,050 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:58:54,051 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:58:54,052 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:58:54,052 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:58:54,052 - P17020 - INFO - Após processar URL 10 Uso de memória: 129.96 MB
+2025-05-22 03:58:54,052 - P17020 - INFO - Processando URL 11/14: https://www.boaconsulta.com/especialista/thais-pazeli-mantovani-61059bfbba32c315a2001b7e
+2025-05-22 03:58:56,863 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\753dd48a52712b76a49a7b0d5a414130.html
+2025-05-22 03:58:56,958 - P17020 - INFO - Candidates address: 4 items
+2025-05-22 03:58:56,959 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:58:56,960 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:58:56,960 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:58:56,961 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:58:56,961 - P17020 - INFO - Após processar URL 11 Uso de memória: 130.07 MB
+2025-05-22 03:58:56,961 - P17020 - INFO - Processando URL 12/14: https://guiasaudebrasil.com.br/unidade/minas-gerais/juiz-de-fora/3737578-cmi/profissionais/medico-endocrinologista-e-metabologista
+2025-05-22 03:59:02,755 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e2fd9918c0b827b91de956f620a26581.html
+2025-05-22 03:59:02,764 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:59:02,764 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:59:02,764 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:59:02,765 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:59:02,765 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 03:59:02,765 - P17020 - INFO - Após processar URL 12 Uso de memória: 130.41 MB
+2025-05-22 03:59:02,765 - P17020 - INFO - Processando URL 13/14: https://cnes2.datasus.gov.br/Mod_Profissional.asp?VCo_Unidade=3136709181342
+2025-05-22 03:59:05,418 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d927f96d33562c5f93885ad0e839a191.html
+2025-05-22 03:59:05,430 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:59:05,430 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:59:05,431 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:59:05,431 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:59:05,431 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:59:05,431 - P17020 - INFO - Após processar URL 13 Uso de memória: 130.41 MB
+2025-05-22 03:59:05,431 - P17020 - INFO - Processando URL 14/14: https://www.medicosbrasil.com/profissionais/endocrinologista--juiz-de-fora-mg
+2025-05-22 03:59:07,595 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\0e571a563465c12c880d67744e96087e.html
+2025-05-22 03:59:07,596 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:59:07,596 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:59:07,597 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:59:07,597 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:59:07,597 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:59:07,597 - P17020 - INFO - Após processar URL 14 Uso de memória: 130.47 MB
+2025-05-22 03:59:07,597 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:59:07,597 - P17020 - INFO - Ranked address: 11 items
+2025-05-22 03:59:07,598 - P17020 - INFO - Ranked phone: 2 items
+2025-05-22 03:59:07,598 - P17020 - INFO - Ranked email: 1 items
+2025-05-22 03:59:07,598 - P17020 - INFO - Ranked complement: 1 items
+2025-05-22 03:59:07,598 - P17020 - INFO - Ranked cep: 6 items
+2025-05-22 03:59:07,598 - P17020 - INFO - Após agregação Uso de memória: 130.47 MB
+2025-05-22 03:59:07,598 - P17020 - INFO - Validando endereço: ['Rua Henrique Dias, 190', 'Avenida Barao Do Rio Branco, 3747', 'Rua Laudelino Barbosa, 418']
+2025-05-22 03:59:07,598 - P17020 - INFO - Endereço validado: Rua Henrique Dias, 190
+2025-05-22 03:59:07,599 - P17020 - INFO - Limpando texto extenso para campo address: Rua Henrique Dias, 190...
+2025-05-22 03:59:07,599 - P17020 - INFO - Texto limpo: Rua Henrique Dias, 190
+2025-05-22 03:59:07,599 - P17020 - INFO - Validando telefone: ['(32) 3031-6269', '(32) 3215-7744']
+2025-05-22 03:59:07,599 - P17020 - INFO - Limpando texto extenso para campo phone: (32) 3031-6269...
+2025-05-22 03:59:07,599 - P17020 - INFO - Texto limpo: 32) 3031-6269
+2025-05-22 03:59:07,599 - P17020 - INFO - Telefone validado: 32) 3031-6269
+2025-05-22 03:59:07,600 - P17020 - INFO - Validando email: ['atendimento@acessamedmais.com.br']
+2025-05-22 03:59:07,600 - P17020 - INFO - Limpando texto extenso para campo email: atendimento@acessamedmais.com.br...
+2025-05-22 03:59:07,600 - P17020 - INFO - Texto limpo: atendimento@acessamedmais.com.br
+2025-05-22 03:59:07,600 - P17020 - INFO - Email validado: atendimento@acessamedmais.com.br
+2025-05-22 03:59:07,600 - P17020 - INFO - Validando complemento: ['Sala 801 - Centro']
+2025-05-22 03:59:07,600 - P17020 - INFO - Limpando texto extenso para campo complement: Sala 801 - Centro...
+2025-05-22 03:59:07,601 - P17020 - INFO - Texto limpo: Sala 801 - Centro
+2025-05-22 03:59:07,601 - P17020 - INFO - Complemento validado: Sala 801 - Centro
+2025-05-22 03:59:07,601 - P17020 - INFO - Descobrindo cidade
+2025-05-22 03:59:07,601 - P17020 - INFO - Buscando cidade: Rua Henrique Dias cidade MG
+2025-05-22 03:59:09,826 - P17020 - INFO - Cidade encontrada: Uberaba
+2025-05-22 03:59:09,826 - P17020 - INFO - Limpando texto extenso para campo city: Uberaba...
+2025-05-22 03:59:09,826 - P17020 - INFO - Texto limpo: Uberaba
+2025-05-22 03:59:09,827 - P17020 - INFO - Cidade descoberta: Uberaba
+2025-05-22 03:59:09,827 - P17020 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 03:59:09,827 - P17020 - INFO - Iniciando busca de CEP em cascata para: Rua Henrique Dias, Uberaba, MG
+2025-05-22 03:59:09,827 - P17020 - INFO - Método 1: ViaCEP API
+2025-05-22 03:59:09,827 - P17020 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/MG/uberaba/rua%20henrique%20dias/json/
+2025-05-22 03:59:10,511 - P17020 - INFO - Dados encontrados no ViaCEP: {'cep': '38015-100', 'logradouro': 'Rua Henrique Dias', 'complemento': '', 'unidade': '', 'bairro': 'Estados Unidos', 'localidade': 'Uberaba', 'uf': 'MG', 'estado': 'Minas Gerais', 'regiao': 'Sudeste', 'ibge': '3170107', 'gia': '', 'ddd': '34', 'siafi': '5401'}
+2025-05-22 03:59:10,513 - P17020 - INFO - CEP encontrado via ViaCEP: 38015-100
+2025-05-22 03:59:10,514 - P17020 - INFO - Dados de CEP encontrados: {'cep': '38015-100', 'logradouro': 'Rua Henrique Dias', 'complemento': '', 'unidade': '', 'bairro': 'Estados Unidos', 'localidade': 'Uberaba', 'uf': 'MG', 'estado': 'Minas Gerais', 'regiao': 'Sudeste', 'ibge': '3170107', 'gia': '', 'ddd': '34', 'siafi': '5401'}
+2025-05-22 03:59:10,514 - P17020 - INFO - Limpando texto extenso para campo bairro: Estados Unidos...
+2025-05-22 03:59:10,514 - P17020 - INFO - Texto limpo: Estados Unidos
+2025-05-22 03:59:10,514 - P17020 - INFO - Limpando texto extenso para campo city: Uberaba...
+2025-05-22 03:59:10,514 - P17020 - INFO - Texto limpo: Uberaba
+2025-05-22 03:59:10,514 - P17020 - INFO - Limpando texto extenso para campo state: MG...
+2025-05-22 03:59:10,514 - P17020 - INFO - Texto limpo: MG
+2025-05-22 03:59:10,515 - P17020 - INFO - Tempo de execução de processamento completo do médico: 55.30 segundos
+2025-05-22 03:59:10,515 - P17020 - INFO - Resultado processado: {'Hash': '60e73bc60cdcd293e46f1e65244097cc0eb965a3dea6319b7a3b63937afdb8a5', 'CRM': '54695', 'UF': 'MG', 'Firstname': 'THAIS', 'LastName': 'PAZELI MANTOVANI', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Henrique Dias, 190', 'Address A1': 'Rua Henrique Dias', 'Numero A1': '190', 'Complement A1': 'Sala 801 - Centro', 'Bairro A1': 'Estados Unidos', 'postal code A1': '38015-100', 'City A1': 'Uberaba', 'State A1': 'MG', 'Phone A1': '32) 3031-6269', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'atendimento@acessamedmais.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:59:10,516 - P17020 - INFO - Progresso: 59.0%
+2025-05-22 03:59:10,516 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 03:59:10,536 - P17020 - INFO - Após coleta de lixo Uso de memória: 118.73 MB
+2025-05-22 03:59:10,537 - P17020 - INFO - Tempo de execução de processamento do médico 1: 56.56 segundos
+2025-05-22 03:59:10,537 - P17020 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 03:59:10,537 - P17020 - INFO - Nome: DANIELA LOPES GOMES
+2025-05-22 03:59:10,537 - P17020 - INFO - Início do processamento Uso de memória: 118.73 MB
+2025-05-22 03:59:10,537 - P17020 - INFO - Iniciando busca para: DANIELA LOPES GOMES CRM 55360 MG telefone e-mail endereço
+2025-05-22 03:59:11,374 - P17020 - INFO - SearX results: 14 URLs
+2025-05-22 03:59:11,374 - P17020 - INFO - Após SearX Uso de memória: 118.73 MB
+2025-05-22 03:59:14,059 - P17020 - INFO - Google results: 9 URLs
+2025-05-22 03:59:14,059 - P17020 - INFO - Após Google Uso de memória: 122.29 MB
+2025-05-22 03:59:16,567 - P17020 - INFO - Bing results: 8 URLs
+2025-05-22 03:59:16,568 - P17020 - INFO - Após Bing Uso de memória: 124.12 MB
+2025-05-22 03:59:16,568 - P17020 - INFO - Total de URLs únicas: 18
+2025-05-22 03:59:16,568 - P17020 - INFO - Processando URL 1/18: https://consultacrm.com.br/
+2025-05-22 03:59:19,975 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:59:19,988 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:59:19,988 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:59:19,988 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:59:19,989 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:59:19,989 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:59:19,989 - P17020 - INFO - Após processar URL 1 Uso de memória: 126.82 MB
+2025-05-22 03:59:19,989 - P17020 - INFO - Processando URL 2/18: https://www.ioepa.com.br/pages/2010/2010.08.09.DOE.pdf
+2025-05-22 03:59:19,989 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2010/2010.08.09.DOE.pdf
+2025-05-22 03:59:19,990 - P17020 - INFO - Após processar URL 2 Uso de memória: 126.82 MB
+2025-05-22 03:59:19,990 - P17020 - INFO - Processando URL 3/18: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2017/04/do_20170425_2819.pdf
+2025-05-22 03:59:19,991 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2017/04/do_20170425_2819.pdf
+2025-05-22 03:59:19,992 - P17020 - INFO - Após processar URL 3 Uso de memória: 126.82 MB
+2025-05-22 03:59:19,992 - P17020 - INFO - Processando URL 4/18: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/98064/Caderno_JUD_MG_2016-02-26_VIII_38.pdf?sequence=1&isAllowed=y
+2025-05-22 03:59:19,992 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/98064/Caderno_JUD_MG_2016-02-26_VIII_38.pdf?sequence=1&isAllowed=y
+2025-05-22 03:59:19,992 - P17020 - INFO - Após processar URL 4 Uso de memória: 126.82 MB
+2025-05-22 03:59:19,993 - P17020 - INFO - Processando URL 5/18: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1906918806.pdf
+2025-05-22 03:59:19,993 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1906918806.pdf
+2025-05-22 03:59:19,993 - P17020 - INFO - Após processar URL 5 Uso de memória: 126.82 MB
+2025-05-22 03:59:19,993 - P17020 - INFO - Processando URL 6/18: https://br.todosnegocios.com/pt/dra-daniela-lopes-gomes-38-3221-9220
+2025-05-22 03:59:22,375 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7104d31552c778dd2e7eae20a95d1f82.html
+2025-05-22 03:59:22,401 - P17020 - INFO - Candidates address: 6 items
+2025-05-22 03:59:22,401 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:59:22,401 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:59:22,401 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 03:59:22,402 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 03:59:22,402 - P17020 - INFO - Após processar URL 6 Uso de memória: 127.21 MB
+2025-05-22 03:59:22,402 - P17020 - INFO - Processando URL 7/18: https://www.benditoguia.com.br/empresa/cardiologista-dra-daniela-lopes-gomes-centro-montes-claros-mg
+2025-05-22 03:59:26,457 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\460f7c11fe47dcd027d24d5b50304312.html
+2025-05-22 03:59:26,479 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:59:26,480 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:59:26,481 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:59:26,481 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:59:26,482 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:59:26,482 - P17020 - INFO - Após processar URL 7 Uso de memória: 127.69 MB
+2025-05-22 03:59:26,483 - P17020 - INFO - Processando URL 8/18: https://www.boaconsulta.com/especialista/daniela-lopes-gomes-6105e5f9ba32c33f040009cd
+2025-05-22 03:59:29,389 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\937afe6244e708cfb61a893afb16668e.html
+2025-05-22 03:59:29,435 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 03:59:29,436 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:59:29,437 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:59:29,439 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 03:59:29,440 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:59:29,441 - P17020 - INFO - Após processar URL 8 Uso de memória: 127.83 MB
+2025-05-22 03:59:29,442 - P17020 - INFO - Processando URL 9/18: https://cliniguia.com/profissionais/daniela-lopes-gomes-980016292909145/
+2025-05-22 03:59:32,527 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7cab7da95b7372bb723db19b3fa5def9.html
+2025-05-22 03:59:32,577 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:59:32,582 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:59:32,585 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:59:32,587 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:59:32,589 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:59:32,593 - P17020 - INFO - Após processar URL 9 Uso de memória: 128.11 MB
+2025-05-22 03:59:32,599 - P17020 - INFO - Processando URL 10/18: https://www.doctoralia.com.br/cardiologista/montes-claros?page=2
+2025-05-22 03:59:32,600 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/cardiologista/montes-claros?page=2
+2025-05-22 03:59:32,600 - P17020 - INFO - Após processar URL 10 Uso de memória: 128.11 MB
+2025-05-22 03:59:32,600 - P17020 - INFO - Processando URL 11/18: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1223896652.pdf
+2025-05-22 03:59:32,601 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1223896652.pdf
+2025-05-22 03:59:32,604 - P17020 - INFO - Após processar URL 11 Uso de memória: 128.11 MB
+2025-05-22 03:59:32,643 - P17020 - INFO - Processando URL 12/18: https://www.smc.org.br/associados/encontre-um-especialista/
+2025-05-22 03:59:43,211 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4e2035c7a6b5ba976b95782d43922cbd.html
+2025-05-22 03:59:44,353 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:59:44,353 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:59:44,357 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 03:59:44,363 - P17020 - INFO - Candidates complement: 3 items
+2025-05-22 03:59:44,363 - P17020 - INFO - Candidates cep: 8 items
+2025-05-22 03:59:44,366 - P17020 - INFO - Após processar URL 12 Uso de memória: 131.17 MB
+2025-05-22 03:59:44,366 - P17020 - INFO - Processando URL 13/18: https://www.doctoralia.com.br/daniela-lopes-gomes/cardiologista/montes-claros
+2025-05-22 03:59:44,367 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/daniela-lopes-gomes/cardiologista/montes-claros
+2025-05-22 03:59:44,367 - P17020 - INFO - Após processar URL 13 Uso de memória: 128.25 MB
+2025-05-22 03:59:44,368 - P17020 - INFO - Processando URL 14/18: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/30302
+2025-05-22 03:59:46,576 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b317646a1cc46fdfbc9461b05b34993a.html
+2025-05-22 03:59:47,613 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:59:47,613 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:59:47,613 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 03:59:47,614 - P17020 - INFO - Candidates complement: 3 items
+2025-05-22 03:59:47,614 - P17020 - INFO - Candidates cep: 8 items
+2025-05-22 03:59:47,614 - P17020 - INFO - Após processar URL 14 Uso de memória: 131.17 MB
+2025-05-22 03:59:47,614 - P17020 - INFO - Processando URL 15/18: https://gruporessonar.com.br/equipe/daniela-lopes-gomes
+2025-05-22 03:59:50,284 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\dfd8e870456723bf13448f6bc82314cc.html
+2025-05-22 03:59:50,285 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:59:50,285 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:59:50,285 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:59:50,285 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:59:50,285 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:59:50,285 - P17020 - INFO - Após processar URL 15 Uso de memória: 128.25 MB
+2025-05-22 03:59:50,285 - P17020 - INFO - Processando URL 16/18: https://www.sbcp-al.org.br/associado/pedro-lopes-gomes/
+2025-05-22 03:59:55,739 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2bba60d2e0dd41df7cfa0d7bf69ec855.html
+2025-05-22 03:59:55,749 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:59:55,750 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:59:55,750 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:59:55,750 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:59:55,750 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:59:55,750 - P17020 - INFO - Após processar URL 16 Uso de memória: 128.25 MB
+2025-05-22 03:59:55,751 - P17020 - INFO - Processando URL 17/18: https://www.medicosbrasil.com/profissional/daniela-lopes-gomes
+2025-05-22 03:59:57,961 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7410532802f793d521f4663d300f1ca8.html
+2025-05-22 03:59:57,962 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:59:57,963 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:59:57,963 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:59:57,963 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:59:57,963 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:59:57,964 - P17020 - INFO - Após processar URL 17 Uso de memória: 128.25 MB
+2025-05-22 03:59:57,964 - P17020 - INFO - Processando URL 18/18: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/155918/Caderno_JUD_MG_2016-09-01_VIII_164.pdf?sequence=2&isAllowed=y
+2025-05-22 03:59:57,964 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/155918/Caderno_JUD_MG_2016-09-01_VIII_164.pdf?sequence=2&isAllowed=y
+2025-05-22 03:59:57,964 - P17020 - INFO - Após processar URL 18 Uso de memória: 128.25 MB
+2025-05-22 03:59:57,965 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:59:57,965 - P17020 - INFO - Ranked address: 10 items
+2025-05-22 03:59:57,965 - P17020 - INFO - Ranked phone: 2 items
+2025-05-22 03:59:57,965 - P17020 - INFO - Ranked email: 3 items
+2025-05-22 03:59:57,965 - P17020 - INFO - Ranked complement: 5 items
+2025-05-22 03:59:57,965 - P17020 - INFO - Ranked cep: 12 items
+2025-05-22 03:59:57,966 - P17020 - INFO - Após agregação Uso de memória: 128.25 MB
+2025-05-22 03:59:57,966 - P17020 - INFO - Validando endereço: ['Av. João Pinheiro, 129', 'Av. José Corrêa Machado Centro Ortopédico Saúde e produtos médicos 0,44', 'R. Santa Teresinha Clínica Dr. Hudson Prates Saúde e produtos médicos 0,52']
+2025-05-22 03:59:57,966 - P17020 - INFO - Endereço validado: Av. João Pinheiro, 129
+2025-05-22 03:59:57,966 - P17020 - INFO - Limpando texto extenso para campo address: Av. João Pinheiro, 129...
+2025-05-22 03:59:57,966 - P17020 - INFO - Texto limpo: Av. João Pinheiro, 129
+2025-05-22 03:59:57,967 - P17020 - INFO - Validando telefone: ['(38) 3221-9220', '+55 38 3221-9220']
+2025-05-22 03:59:57,967 - P17020 - INFO - Limpando texto extenso para campo phone: (38) 3221-9220...
+2025-05-22 03:59:57,967 - P17020 - INFO - Texto limpo: 38) 3221-9220
+2025-05-22 03:59:57,967 - P17020 - INFO - Telefone validado: 38) 3221-9220
+2025-05-22 03:59:57,968 - P17020 - INFO - Validando email: ['sergioclinerp@hotmail.com', 'cardiologia@smc.org.br', 'p_lgomes@hotmail.com']
+2025-05-22 03:59:57,968 - P17020 - INFO - Limpando texto extenso para campo email: sergioclinerp@hotmail.com...
+2025-05-22 03:59:57,968 - P17020 - INFO - Texto limpo: sergioclinerp@hotmail.com
+2025-05-22 03:59:57,968 - P17020 - INFO - Email validado: sergioclinerp@hotmail.com
+2025-05-22 03:59:57,968 - P17020 - INFO - Validando complemento: ['Salazar CRMMG:  46124\xa0 Gisele Carla Neves CRMMG:  6729', 'Salazar CRMMG:  46124\xa0 MINICURRÍCULO Gisele Carla Neve', 'Sala 406 - Centro']
+2025-05-22 03:59:57,969 - P17020 - INFO - Limpando texto extenso para campo complement: Salazar CRMMG:  46124  Gisele Carla Neves CRMMG:  ...
+2025-05-22 03:59:57,969 - P17020 - INFO - Texto limpo: Salazar CRMMG: 46124 Gisele
+2025-05-22 03:59:57,969 - P17020 - INFO - Complemento validado: Salazar CRMMG: 46124 Gisele
+2025-05-22 03:59:57,969 - P17020 - INFO - Descobrindo cidade
+2025-05-22 03:59:57,970 - P17020 - INFO - Buscando cidade: Av. João Pinheiro cidade MG
+2025-05-22 04:00:00,612 - P17020 - INFO - Cidade encontrada: João Pinheiro
+2025-05-22 04:00:00,612 - P17020 - INFO - Limpando texto extenso para campo city: João Pinheiro...
+2025-05-22 04:00:00,613 - P17020 - INFO - Texto limpo: João Pinheiro
+2025-05-22 04:00:00,613 - P17020 - INFO - Cidade descoberta: João Pinheiro
+2025-05-22 04:00:00,613 - P17020 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 04:00:00,613 - P17020 - INFO - Iniciando busca de CEP em cascata para: Av. João Pinheiro, João Pinheiro, MG
+2025-05-22 04:00:00,613 - P17020 - INFO - Método 1: ViaCEP API
+2025-05-22 04:00:00,613 - P17020 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/MG/joao%20pinheiro/avenida%20joao%20pinheiro/json/
+2025-05-22 04:00:01,262 - P17020 - INFO - Dados encontrados no ViaCEP: {'cep': '38770-000', 'logradouro': '', 'complemento': '', 'unidade': '', 'bairro': '', 'localidade': 'João Pinheiro', 'uf': 'MG', 'estado': 'Minas Gerais', 'regiao': 'Sudeste', 'ibge': '3136306', 'gia': '', 'ddd': '38', 'siafi': '4725'}
+2025-05-22 04:00:01,265 - P17020 - INFO - CEP encontrado via ViaCEP: 38770-000
+2025-05-22 04:00:01,265 - P17020 - INFO - Dados de CEP encontrados: {'cep': '38770-000', 'logradouro': '', 'complemento': '', 'unidade': '', 'bairro': '', 'localidade': 'João Pinheiro', 'uf': 'MG', 'estado': 'Minas Gerais', 'regiao': 'Sudeste', 'ibge': '3136306', 'gia': '', 'ddd': '38', 'siafi': '4725'}
+2025-05-22 04:00:01,266 - P17020 - INFO - Limpando texto extenso para campo city: João Pinheiro...
+2025-05-22 04:00:01,266 - P17020 - INFO - Texto limpo: João Pinheiro
+2025-05-22 04:00:01,266 - P17020 - INFO - Limpando texto extenso para campo state: MG...
+2025-05-22 04:00:01,266 - P17020 - INFO - Texto limpo: MG
+2025-05-22 04:00:01,266 - P17020 - INFO - Tempo de execução de processamento completo do médico: 50.73 segundos
+2025-05-22 04:00:01,267 - P17020 - INFO - Resultado processado: {'Hash': '1979ef39d9c6c26b0fcc116fc9912971a1fc8a437813dbd52762fda2a56b1194', 'CRM': '55360', 'UF': 'MG', 'Firstname': 'DANIELA', 'LastName': 'LOPES GOMES', 'Medical specialty': '', 'Endereco Completo A1': 'Av. João Pinheiro, 129', 'Address A1': 'Av. João Pinheiro', 'Numero A1': '129', 'Complement A1': 'Salazar CRMMG: 46124 Gisele', 'Bairro A1': '', 'postal code A1': '38770-000', 'City A1': 'João Pinheiro', 'State A1': 'MG', 'Phone A1': '38) 3221-9220', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'sergioclinerp@hotmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:00:01,268 - P17020 - INFO - Progresso: 59.3%
+2025-05-22 04:00:01,268 - P17020 - INFO - Tempo de execução de processamento do médico 2: 50.73 segundos
+2025-05-22 04:00:01,268 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 04:00:01,269 - P17020 - INFO - Nome: MARILIA REIS PEREIRA VAZ
+2025-05-22 04:00:01,269 - P17020 - INFO - Início do processamento Uso de memória: 127.87 MB
+2025-05-22 04:00:01,269 - P17020 - INFO - Iniciando busca para: MARILIA REIS PEREIRA VAZ CRM 57744 MG telefone e-mail endereço
+2025-05-22 04:00:02,070 - P17020 - INFO - SearX results: 15 URLs
+2025-05-22 04:00:02,070 - P17020 - INFO - Após SearX Uso de memória: 127.87 MB
+2025-05-22 04:00:05,244 - P17020 - INFO - Google results: 8 URLs
+2025-05-22 04:00:05,244 - P17020 - INFO - Após Google Uso de memória: 132.30 MB
+2025-05-22 04:00:07,711 - P17020 - INFO - Bing results: 11 URLs
+2025-05-22 04:00:07,711 - P17020 - INFO - Após Bing Uso de memória: 134.39 MB
+2025-05-22 04:00:07,711 - P17020 - INFO - Total de URLs únicas: 23
+2025-05-22 04:00:07,712 - P17020 - INFO - Processando URL 1/23: https://www.drandrevinicius.com.br/medicos/marilia-reis-pereira-vaz/
+2025-05-22 04:00:12,754 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\835ce1c21a9b4c5c499b58ad4cb4a6db.html
+2025-05-22 04:00:12,770 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:00:12,773 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:00:12,775 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 04:00:12,777 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:00:12,778 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:00:12,781 - P17020 - INFO - Após processar URL 1 Uso de memória: 134.45 MB
+2025-05-22 04:00:12,782 - P17020 - INFO - Processando URL 2/23: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/530209724.pdf
+2025-05-22 04:00:12,783 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/530209724.pdf
+2025-05-22 04:00:12,783 - P17020 - INFO - Após processar URL 2 Uso de memória: 134.45 MB
+2025-05-22 04:00:12,784 - P17020 - INFO - Processando URL 3/23: https://doe.to.gov.br/diario/2488/download
+2025-05-22 04:00:15,119 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b3190cd37e20d3c578de68d23f763be4.html
+2025-05-22 04:00:15,120 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:00:15,121 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:00:15,121 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:00:15,122 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:00:15,122 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:00:15,122 - P17020 - INFO - Após processar URL 3 Uso de memória: 134.45 MB
+2025-05-22 04:00:15,122 - P17020 - INFO - Processando URL 4/23: https://www.catalogo.med.br/doutor/marilia-reis-pereira-vaz-2500463.htm
+2025-05-22 04:00:17,302 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d494dfe160b1d295940f0ce4f61ee700.html
+2025-05-22 04:00:17,302 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:00:17,303 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:00:17,303 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:00:17,303 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:00:17,303 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:00:17,303 - P17020 - INFO - Após processar URL 4 Uso de memória: 134.45 MB
+2025-05-22 04:00:17,303 - P17020 - INFO - Processando URL 5/23: https://dosp.com.br/exibe_do.php?i=NjE4NTky
+2025-05-22 04:00:19,430 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\474d9c7b9f337373a32ff1ccc953b22a.html
+2025-05-22 04:00:19,431 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:00:19,431 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:00:19,431 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:00:19,431 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:00:19,431 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:00:19,431 - P17020 - INFO - Após processar URL 5 Uso de memória: 134.45 MB
+2025-05-22 04:00:19,432 - P17020 - INFO - Processando URL 6/23: https://www.cylex.com.br/lavras/dra-mar%C3%ADlia-reis-pereira-vaz-ginecologista-e-obstetra-13173464.html
+2025-05-22 04:00:24,109 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f2b977ad219f7a0967cef1dead0c614d.html
+2025-05-22 04:00:24,140 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:00:24,140 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:00:24,140 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:00:24,140 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:00:24,141 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 04:00:24,141 - P17020 - INFO - Após processar URL 6 Uso de memória: 135.82 MB
+2025-05-22 04:00:24,141 - P17020 - INFO - Processando URL 7/23: https://www.medicosbrasil.com/profissional/marilia-reis-pereira-vaz
+2025-05-22 04:00:26,307 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\91da388c1af91ebf0a250bc7d1225935.html
+2025-05-22 04:00:26,309 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:00:26,310 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:00:26,310 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:00:26,310 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:00:26,310 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:00:26,310 - P17020 - INFO - Após processar URL 7 Uso de memória: 134.52 MB
+2025-05-22 04:00:26,311 - P17020 - INFO - Processando URL 8/23: https://www.consultascnpj.com/marilia-reis-pereira-vaz-cia-ltda/25117716000102
+2025-05-22 04:00:29,449 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\46cf75c66407f66e18ffbbd398ce43fb.html
+2025-05-22 04:00:29,463 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:00:29,464 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:00:29,464 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:00:29,464 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:00:29,465 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 04:00:29,465 - P17020 - INFO - Após processar URL 8 Uso de memória: 134.53 MB
+2025-05-22 04:00:29,465 - P17020 - INFO - Processando URL 9/23: https://www.doctoralia.com.br/marilia-reis-pereira-vaz/ginecologista/nepomuceno
+2025-05-22 04:00:29,465 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/marilia-reis-pereira-vaz/ginecologista/nepomuceno
+2025-05-22 04:00:29,465 - P17020 - INFO - Após processar URL 9 Uso de memória: 134.53 MB
+2025-05-22 04:00:29,466 - P17020 - INFO - Processando URL 10/23: https://www.saobernardo.sp.gov.br/documents/10181/2045904/NM+2509+de+07.03.2025+-++Conteu%CC%81do+Integral.pdf/a5a11212-a33d-d1ea-5de8-2febbe341ec0
+2025-05-22 04:00:29,466 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/2045904/NM+2509+de+07.03.2025+-++Conteu%CC%81do+Integral.pdf/a5a11212-a33d-d1ea-5de8-2febbe341ec0
+2025-05-22 04:00:29,466 - P17020 - INFO - Após processar URL 10 Uso de memória: 134.53 MB
+2025-05-22 04:00:29,466 - P17020 - INFO - Processando URL 11/23: https://br.todosnegocios.com/pt/dra-mar%C3%ADlia-reis-pereira-vaz-35-98421-1584
+2025-05-22 04:00:32,603 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\afca6b3c0b93acfab22f59a2a8185e96.html
+2025-05-22 04:00:32,625 - P17020 - INFO - Candidates address: 7 items
+2025-05-22 04:00:32,626 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 04:00:32,626 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:00:32,626 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:00:32,626 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 04:00:32,627 - P17020 - INFO - Após processar URL 11 Uso de memória: 134.53 MB
+2025-05-22 04:00:32,627 - P17020 - INFO - Processando URL 12/23: https://api.whatsapp.com/send?phone=5535984211584&text=Ol%C3%A1,%20vim%20do%20Google%20e%20gostaria%20de%20marcar%20uma%20consulta!%20
+2025-05-22 04:00:35,477 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\0087756328356cff141baba19bfb9714.html
+2025-05-22 04:00:35,504 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:00:35,505 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:00:35,505 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:00:35,508 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:00:35,509 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:00:35,509 - P17020 - INFO - Após processar URL 12 Uso de memória: 134.53 MB
+2025-05-22 04:00:35,509 - P17020 - INFO - Processando URL 13/23: https://www.helpsaude.com/marilia-reis-pereira-vaz-crmmg-57744
+2025-05-22 04:00:40,131 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5d01bf8a5e52d89b48c9b0dcd8d421fd.html
+2025-05-22 04:00:40,146 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:00:40,147 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:00:40,147 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:00:40,148 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:00:40,148 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:00:40,149 - P17020 - INFO - Após processar URL 13 Uso de memória: 134.55 MB
+2025-05-22 04:00:40,149 - P17020 - INFO - Processando URL 14/23: https://www.solutudo.com.br/empresas/mg/cpo-meio/clinica-medica-ou-medicina-interna/marilia-reis-pereira-vaz-cia-ltda-7632537
+2025-05-22 04:00:46,807 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b1ae19a8204a278659b7f96f12c78320.html
+2025-05-22 04:00:46,849 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:00:46,849 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:00:46,849 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 04:00:46,849 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:00:46,849 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:00:46,849 - P17020 - INFO - Após processar URL 14 Uso de memória: 134.58 MB
+2025-05-22 04:00:46,850 - P17020 - INFO - Processando URL 15/23: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/313920/Caderno_JUD_MG_2018-02-15_X_27.pdf?sequence=2&isAllowed=y
+2025-05-22 04:00:46,850 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/313920/Caderno_JUD_MG_2018-02-15_X_27.pdf?sequence=2&isAllowed=y
+2025-05-22 04:00:46,850 - P17020 - INFO - Após processar URL 15 Uso de memória: 134.58 MB
+2025-05-22 04:00:46,850 - P17020 - INFO - Processando URL 16/23: https://www.benditoguia.com.br/empresa/dra-marilia-reis-pereira-vaz-ginecologista-e-obstetra-lavras-mg
+2025-05-22 04:00:50,642 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5c3998f7c42f941b1f6c06e326ef4a02.html
+2025-05-22 04:00:50,660 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:00:50,661 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:00:50,661 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:00:50,661 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:00:50,661 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 04:00:50,662 - P17020 - INFO - Após processar URL 16 Uso de memória: 134.62 MB
+2025-05-22 04:00:50,662 - P17020 - INFO - Processando URL 17/23: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x126468551478321251&market=pt-BR&src=SERPGB
+2025-05-22 04:00:55,243 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\1ad7d97146e45e648c3e1a2da2df1fb6.html
+2025-05-22 04:00:55,281 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:00:55,283 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:00:55,284 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:00:55,285 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:00:55,285 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 04:00:55,285 - P17020 - INFO - Após processar URL 17 Uso de memória: 134.62 MB
+2025-05-22 04:00:55,286 - P17020 - INFO - Processando URL 18/23: https://listamedicos.com/medico/marilia-reis-pereira-vaz
+2025-05-22 04:00:58,638 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\aafb38b92bdcb57effd6e9e1196e6b55.html
+2025-05-22 04:00:58,647 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:00:58,648 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:00:58,649 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:00:58,649 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:00:58,649 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 04:00:58,650 - P17020 - INFO - Após processar URL 18 Uso de memória: 134.62 MB
+2025-05-22 04:00:58,650 - P17020 - INFO - Processando URL 19/23: https://www.saobernardo.sp.gov.br/documents/10181/2045904/NM+2509+de+07.03.2025+-++Conteu%CC%81do+Integral.pdf.pdf/2065193c-8873-07b2-8a56-fedc7f8f99d4
+2025-05-22 04:00:58,650 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/2045904/NM+2509+de+07.03.2025+-++Conteu%CC%81do+Integral.pdf.pdf/2065193c-8873-07b2-8a56-fedc7f8f99d4
+2025-05-22 04:00:58,651 - P17020 - INFO - Após processar URL 19 Uso de memória: 134.62 MB
+2025-05-22 04:00:58,652 - P17020 - INFO - Processando URL 20/23: https://drandrevinicius.com.br/medicos/marilia-reis-pereira-vaz/
+2025-05-22 04:01:01,290 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\59b76624d1e9ba6e5307b6b8f2c3f394.html
+2025-05-22 04:01:01,305 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:01:01,305 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:01:01,306 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 04:01:01,306 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:01:01,306 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:01:01,306 - P17020 - INFO - Após processar URL 20 Uso de memória: 134.62 MB
+2025-05-22 04:01:01,307 - P17020 - INFO - Processando URL 21/23: http://www.guiareunimedicos.med.br/c/mg/nepomuceno/ginecologistas-e-obstetras/marilia-reis-pereira-vaz-2500463.htm
+2025-05-22 04:01:03,481 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\eb0f37e42780d762714d701df496685f.html
+2025-05-22 04:01:03,482 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:01:03,483 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:01:03,483 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:01:03,484 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:01:03,484 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:01:03,485 - P17020 - INFO - Após processar URL 21 Uso de memória: 134.62 MB
+2025-05-22 04:01:03,485 - P17020 - INFO - Processando URL 22/23: https://clinica.work/especialista/marilia-reis-pereira-vaz-ginecologista-e-obstetra-lavras-mg
+2025-05-22 04:01:05,916 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\eebe3054edb2e267e51c867cd7d3c787.html
+2025-05-22 04:01:05,939 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:01:05,940 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:01:05,940 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:01:05,941 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:01:05,941 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:01:05,941 - P17020 - INFO - Após processar URL 22 Uso de memória: 135.98 MB
+2025-05-22 04:01:05,941 - P17020 - INFO - Processando URL 23/23: https://www.boaconsulta.com/especialista/marilia-reis-pereira-vaz-6105d3f5ba32c32fe9001667
+2025-05-22 04:01:08,169 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3a057dcac59137a21ed56a2f402910da.html
+2025-05-22 04:01:08,239 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:01:08,239 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:01:08,240 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:01:08,240 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:01:08,240 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:01:08,240 - P17020 - INFO - Após processar URL 23 Uso de memória: 135.20 MB
+2025-05-22 04:01:08,240 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:01:08,241 - P17020 - INFO - Ranked address: 11 items
+2025-05-22 04:01:08,241 - P17020 - INFO - Ranked phone: 5 items
+2025-05-22 04:01:08,241 - P17020 - INFO - Ranked email: 4 items
+2025-05-22 04:01:08,241 - P17020 - INFO - Ranked complement: 0 items
+2025-05-22 04:01:08,241 - P17020 - INFO - Ranked cep: 5 items
+2025-05-22 04:01:08,241 - P17020 - INFO - Após agregação Uso de memória: 135.20 MB
+2025-05-22 04:01:08,242 - P17020 - INFO - Validando endereço: ['R. Misseno de Pádua, 355', 'R. Misseno de Pádua 355 , 37200', 'R. Misseno de Pádua Ana Lúcia Medeiros Carneiro Ginecologistas e Obstetras 0,05']
+2025-05-22 04:01:08,242 - P17020 - INFO - Endereço validado: R. Misseno de Pádua, 355
+2025-05-22 04:01:08,242 - P17020 - INFO - Limpando texto extenso para campo address: R. Misseno de Pádua, 355...
+2025-05-22 04:01:08,242 - P17020 - INFO - Texto limpo: R. Misseno de Pádua, 355
+2025-05-22 04:01:08,242 - P17020 - INFO - Validando telefone: ['(35) 98421-1584', '(35) 3857-1381', '(35) 3821-6444']
+2025-05-22 04:01:08,243 - P17020 - INFO - Limpando texto extenso para campo phone: (35) 98421-1584...
+2025-05-22 04:01:08,243 - P17020 - INFO - Texto limpo: 35) 98421-1584
+2025-05-22 04:01:08,243 - P17020 - INFO - Telefone validado: 35) 98421-1584
+2025-05-22 04:01:08,243 - P17020 - INFO - Validando email: ['dramarilia.vaz@gmail.com', 'suporte@drandrevinicius.com.br', 'celia_contab@yahoo.com.br']
+2025-05-22 04:01:08,243 - P17020 - INFO - Limpando texto extenso para campo email: dramarilia.vaz@gmail.com...
+2025-05-22 04:01:08,243 - P17020 - INFO - Texto limpo: dramarilia.vaz@gmail.com
+2025-05-22 04:01:08,244 - P17020 - INFO - Email validado: dramarilia.vaz@gmail.com
+2025-05-22 04:01:08,244 - P17020 - INFO - Descobrindo cidade
+2025-05-22 04:01:08,244 - P17020 - INFO - Buscando cidade: R. Misseno de Pádua cidade MG
+2025-05-22 04:01:10,815 - P17020 - INFO - Cidade encontrada: Lavras
+2025-05-22 04:01:10,815 - P17020 - INFO - Limpando texto extenso para campo city: Lavras...
+2025-05-22 04:01:10,815 - P17020 - INFO - Texto limpo: Lavras
+2025-05-22 04:01:10,815 - P17020 - INFO - Cidade descoberta: Lavras
+2025-05-22 04:01:10,815 - P17020 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 04:01:10,816 - P17020 - INFO - Iniciando busca de CEP em cascata para: R. Misseno de Pádua, Lavras, MG
+2025-05-22 04:01:10,816 - P17020 - INFO - Método 1: ViaCEP API
+2025-05-22 04:01:10,816 - P17020 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/MG/lavras/rua%20misseno%20de%20padua/json/
+2025-05-22 04:01:11,463 - P17020 - INFO - Dados encontrados no ViaCEP: {'cep': '37200-142', 'logradouro': 'Rua Misseno de Pádua', 'complemento': '', 'unidade': '', 'bairro': 'Centro', 'localidade': 'Lavras', 'uf': 'MG', 'estado': 'Minas Gerais', 'regiao': 'Sudeste', 'ibge': '3138203', 'gia': '', 'ddd': '35', 'siafi': '4763'}
+2025-05-22 04:01:11,466 - P17020 - INFO - CEP encontrado via ViaCEP: 37200-142
+2025-05-22 04:01:11,466 - P17020 - INFO - Dados de CEP encontrados: {'cep': '37200-142', 'logradouro': 'Rua Misseno de Pádua', 'complemento': '', 'unidade': '', 'bairro': 'Centro', 'localidade': 'Lavras', 'uf': 'MG', 'estado': 'Minas Gerais', 'regiao': 'Sudeste', 'ibge': '3138203', 'gia': '', 'ddd': '35', 'siafi': '4763'}
+2025-05-22 04:01:11,466 - P17020 - INFO - Limpando texto extenso para campo bairro: Centro...
+2025-05-22 04:01:11,467 - P17020 - INFO - Texto limpo: Centro
+2025-05-22 04:01:11,467 - P17020 - INFO - Limpando texto extenso para campo city: Lavras...
+2025-05-22 04:01:11,467 - P17020 - INFO - Texto limpo: Lavras
+2025-05-22 04:01:11,468 - P17020 - INFO - Limpando texto extenso para campo state: MG...
+2025-05-22 04:01:11,469 - P17020 - INFO - Texto limpo: MG
+2025-05-22 04:01:11,469 - P17020 - INFO - Tempo de execução de processamento completo do médico: 70.20 segundos
+2025-05-22 04:01:11,470 - P17020 - INFO - Resultado processado: {'Hash': 'f42922a9caa9eba02d25130505a153c855c83ddb86d5b849ca5aa72ba633938e', 'CRM': '57744', 'UF': 'MG', 'Firstname': 'MARILIA', 'LastName': 'REIS PEREIRA VAZ', 'Medical specialty': '', 'Endereco Completo A1': 'R. Misseno de Pádua, 355', 'Address A1': 'R. Misseno de Pádua', 'Numero A1': '355', 'Complement A1': '', 'Bairro A1': 'Centro', 'postal code A1': '37200-142', 'City A1': 'Lavras', 'State A1': 'MG', 'Phone A1': '35) 98421-1584', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'dramarilia.vaz@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:01:11,470 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 04:01:11,472 - P17020 - INFO - Após salvar resultados Uso de memória: 129.70 MB
+2025-05-22 04:01:11,473 - P17020 - INFO - Progresso: 59.8%
+2025-05-22 04:01:11,474 - P17020 - INFO - Tempo de execução de processamento do médico 3: 70.21 segundos
+2025-05-22 04:01:11,476 - P17020 - INFO - Tempo de execução de processamento do lote completo: 177.49 segundos

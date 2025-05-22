@@ -1,0 +1,573 @@
+2025-05-22 01:57:19,842 - P14756 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 01:57:19,842 - P14756 - INFO - Nome: NELSON MARTINS
+2025-05-22 01:57:19,843 - P14756 - INFO - Reiniciando driver do Chrome
+2025-05-22 01:57:21,215 - P14756 - INFO - Após reiniciar driver Uso de memória: 91.27 MB
+2025-05-22 01:57:21,216 - P14756 - INFO - Início do processamento Uso de memória: 91.27 MB
+2025-05-22 01:57:21,216 - P14756 - INFO - Iniciando busca para: NELSON MARTINS CRM 5131 MG telefone e-mail endereço
+2025-05-22 01:57:21,692 - P14756 - INFO - SearX results: 10 URLs
+2025-05-22 01:57:21,733 - P14756 - INFO - Após SearX Uso de memória: 91.27 MB
+2025-05-22 01:57:24,418 - P14756 - INFO - Google results: 5 URLs
+2025-05-22 01:57:24,418 - P14756 - INFO - Após Google Uso de memória: 94.54 MB
+2025-05-22 01:57:27,264 - P14756 - INFO - Bing results: 9 URLs
+2025-05-22 01:57:27,264 - P14756 - INFO - Após Bing Uso de memória: 95.67 MB
+2025-05-22 01:57:27,265 - P14756 - INFO - Total de URLs únicas: 23
+2025-05-22 01:57:27,265 - P14756 - INFO - Processando URL 1/23: https://cnpj.biz/28221382000100
+2025-05-22 01:57:31,678 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\79014034638d706b38016bed1d15508d.html
+2025-05-22 01:57:31,698 - P14756 - INFO - Candidates address: 2 items
+2025-05-22 01:57:31,699 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 01:57:31,699 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 01:57:31,699 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 01:57:31,699 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 01:57:31,699 - P14756 - INFO - Após processar URL 1 Uso de memória: 95.97 MB
+2025-05-22 01:57:31,700 - P14756 - INFO - Processando URL 2/23: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/224047/Caderno_JUD_MG_2017-05-02_IX_75.pdf?sequence=3&isAllowed=y
+2025-05-22 01:57:31,700 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/224047/Caderno_JUD_MG_2017-05-02_IX_75.pdf?sequence=3&isAllowed=y
+2025-05-22 01:57:31,700 - P14756 - INFO - Após processar URL 2 Uso de memória: 95.97 MB
+2025-05-22 01:57:31,700 - P14756 - INFO - Processando URL 3/23: https://doutorcrm.com/nelson-martins
+2025-05-22 01:57:34,583 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\506be26306397d5bd2bbae5e9d13e4b1.html
+2025-05-22 01:57:34,592 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 01:57:34,592 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 01:57:34,593 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 01:57:34,593 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 01:57:34,593 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 01:57:34,593 - P14756 - INFO - Após processar URL 3 Uso de memória: 96.26 MB
+2025-05-22 01:57:34,594 - P14756 - INFO - Processando URL 4/23: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/2121300952.pdf
+2025-05-22 01:57:34,594 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/2121300952.pdf
+2025-05-22 01:57:34,594 - P14756 - INFO - Após processar URL 4 Uso de memória: 96.26 MB
+2025-05-22 01:57:34,594 - P14756 - INFO - Processando URL 5/23: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2022/08/14f3c745-72b2-4a0d-9b8f-51070c342f26_Edicao-5131-19-08-2022-II-1.pdf
+2025-05-22 01:57:34,594 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2022/08/14f3c745-72b2-4a0d-9b8f-51070c342f26_Edicao-5131-19-08-2022-II-1.pdf
+2025-05-22 01:57:34,595 - P14756 - INFO - Após processar URL 5 Uso de memória: 96.26 MB
+2025-05-22 01:57:34,595 - P14756 - INFO - Processando URL 6/23: https://www.catalogo.med.br/doutor/nelson-conde-lobo-martins-435210.htm
+2025-05-22 01:57:36,980 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e94affc0e74bf4e153f0e95fc4672489.html
+2025-05-22 01:57:36,980 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 01:57:36,981 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 01:57:36,981 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 01:57:36,981 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 01:57:36,981 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 01:57:36,981 - P14756 - INFO - Após processar URL 6 Uso de memória: 96.26 MB
+2025-05-22 01:57:36,982 - P14756 - INFO - Processando URL 7/23: https://www.correios.com.br/central-de-informacoes/boletim-aos-clientes/arquivos/unidades_correios_atestmed.pdf
+2025-05-22 01:57:36,982 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.correios.com.br/central-de-informacoes/boletim-aos-clientes/arquivos/unidades_correios_atestmed.pdf
+2025-05-22 01:57:36,982 - P14756 - INFO - Após processar URL 7 Uso de memória: 96.26 MB
+2025-05-22 01:57:36,982 - P14756 - INFO - Processando URL 8/23: https://www.bertioga.sp.gov.br/wp/wp-content/uploads/2023/12/BOM_1143-compressed.pdf
+2025-05-22 01:57:36,982 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.bertioga.sp.gov.br/wp/wp-content/uploads/2023/12/BOM_1143-compressed.pdf
+2025-05-22 01:57:36,982 - P14756 - INFO - Após processar URL 8 Uso de memória: 96.26 MB
+2025-05-22 01:57:36,982 - P14756 - INFO - Processando URL 9/23: https://cdn.grupolance.com.br/batches/b7/20865/Grupo_Lance_processo_20865.pdf?v=6828130489784
+2025-05-22 01:57:36,983 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://cdn.grupolance.com.br/batches/b7/20865/Grupo_Lance_processo_20865.pdf?v=6828130489784
+2025-05-22 01:57:36,983 - P14756 - INFO - Após processar URL 9 Uso de memória: 96.26 MB
+2025-05-22 01:57:36,983 - P14756 - INFO - Processando URL 10/23: https://transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2025/DMPF-EXTRAJUDICIAL-2025-04-01.pdf
+2025-05-22 01:57:36,983 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2025/DMPF-EXTRAJUDICIAL-2025-04-01.pdf
+2025-05-22 01:57:36,983 - P14756 - INFO - Após processar URL 10 Uso de memória: 96.26 MB
+2025-05-22 01:57:36,984 - P14756 - INFO - Processando URL 11/23: https://sapl.franca.sp.leg.br/media/sapl/public/materialegislativa/2022/6950/proj._lei_xx-2022-den._varias_ruas_coletivo-unificado.pdf
+2025-05-22 01:57:36,984 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://sapl.franca.sp.leg.br/media/sapl/public/materialegislativa/2022/6950/proj._lei_xx-2022-den._varias_ruas_coletivo-unificado.pdf
+2025-05-22 01:57:36,984 - P14756 - INFO - Após processar URL 11 Uso de memória: 96.26 MB
+2025-05-22 01:57:36,984 - P14756 - INFO - Processando URL 12/23: https://paginaamarela.com.br/empresa/crm-conselho-regional-de-medicina-de-minas-gerais/belo-horizonte/mg/8459988
+2025-05-22 01:57:42,238 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\006c27b131ad34301fecb24c522f3d1f.html
+2025-05-22 01:57:42,254 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 01:57:42,254 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 01:57:42,254 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 01:57:42,254 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 01:57:42,254 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 01:57:42,254 - P14756 - INFO - Após processar URL 12 Uso de memória: 96.36 MB
+2025-05-22 01:57:42,255 - P14756 - INFO - Processando URL 13/23: https://www.classemedica.com.br/medico/254687-nelson-martins.htm
+2025-05-22 01:57:55,960 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\35883a05bca815061e7e92db28ed5215.html
+2025-05-22 01:57:55,989 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 01:57:55,990 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 01:57:55,990 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 01:57:55,990 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 01:57:55,990 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 01:57:55,990 - P14756 - INFO - Após processar URL 13 Uso de memória: 97.03 MB
+2025-05-22 01:57:55,991 - P14756 - INFO - Processando URL 14/23: https://crmmg.org.br/contato/
+2025-05-22 01:57:59,819 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\8b782fbc7fe3c59e356e34916a7ce54c.html
+2025-05-22 01:57:59,854 - P14756 - INFO - Candidates address: 2 items
+2025-05-22 01:57:59,854 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 01:57:59,855 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 01:57:59,855 - P14756 - INFO - Candidates complement: 2 items
+2025-05-22 01:57:59,855 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 01:57:59,855 - P14756 - INFO - Após processar URL 14 Uso de memória: 97.15 MB
+2025-05-22 01:57:59,855 - P14756 - INFO - Processando URL 15/23: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/115989903.pdf
+2025-05-22 01:57:59,855 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/115989903.pdf
+2025-05-22 01:57:59,855 - P14756 - INFO - Após processar URL 15 Uso de memória: 97.15 MB
+2025-05-22 01:57:59,856 - P14756 - INFO - Processando URL 16/23: https://www.unimed.coop.br/site/web/guarulhos/abrangencia-unimed-guarulhos
+2025-05-22 01:58:04,039 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\a8ba919d13fe71207931c9bc04f538ee.html
+2025-05-22 01:58:04,510 - P14756 - INFO - Candidates address: 296 items
+2025-05-22 01:58:04,510 - P14756 - INFO - Candidates phone: 209 items
+2025-05-22 01:58:04,510 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 01:58:04,510 - P14756 - INFO - Candidates complement: 32 items
+2025-05-22 01:58:04,511 - P14756 - INFO - Candidates cep: 147 items
+2025-05-22 01:58:04,511 - P14756 - INFO - Após processar URL 16 Uso de memória: 100.17 MB
+2025-05-22 01:58:04,511 - P14756 - INFO - Processando URL 17/23: http://www.varzeagrande.mt.gov.br/storage/Arquivos/relacao_de_fornecedores.pdf
+2025-05-22 01:58:04,511 - P14756 - INFO - Ignorando URL de arquivo não-HTML: http://www.varzeagrande.mt.gov.br/storage/Arquivos/relacao_de_fornecedores.pdf
+2025-05-22 01:58:04,511 - P14756 - INFO - Após processar URL 17 Uso de memória: 97.35 MB
+2025-05-22 01:58:04,511 - P14756 - INFO - Processando URL 18/23: https://pncp.gov.br/pncp-api/v1/orgaos/13792329000184/compras/2025/52/arquivos/1
+2025-05-22 01:58:07,350 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\383f4a0130b815aeff2d7de31a129e2f.html
+2025-05-22 01:58:07,765 - P14756 - INFO - Candidates address: 296 items
+2025-05-22 01:58:07,765 - P14756 - INFO - Candidates phone: 209 items
+2025-05-22 01:58:07,765 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 01:58:07,766 - P14756 - INFO - Candidates complement: 32 items
+2025-05-22 01:58:07,766 - P14756 - INFO - Candidates cep: 147 items
+2025-05-22 01:58:07,766 - P14756 - INFO - Após processar URL 18 Uso de memória: 100.23 MB
+2025-05-22 01:58:07,766 - P14756 - INFO - Processando URL 19/23: https://www.ufmg.br/periodicos/wp-content/files/2015/08/Diret%C3%B3rio-peri%C3%B3dicos-UFMG-2.pdf
+2025-05-22 01:58:07,766 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.ufmg.br/periodicos/wp-content/files/2015/08/Diret%C3%B3rio-peri%C3%B3dicos-UFMG-2.pdf
+2025-05-22 01:58:07,767 - P14756 - INFO - Após processar URL 19 Uso de memória: 97.41 MB
+2025-05-22 01:58:07,767 - P14756 - INFO - Processando URL 20/23: https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/beneficios-fiscais/programa-empresa-cidada/empresas_optantes
+2025-05-22 01:58:09,978 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\bc705a0ca491c709905e221358627d5c.html
+2025-05-22 01:58:10,508 - P14756 - INFO - Candidates address: 296 items
+2025-05-22 01:58:10,511 - P14756 - INFO - Candidates phone: 209 items
+2025-05-22 01:58:10,511 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 01:58:10,511 - P14756 - INFO - Candidates complement: 32 items
+2025-05-22 01:58:10,511 - P14756 - INFO - Candidates cep: 147 items
+2025-05-22 01:58:10,511 - P14756 - INFO - Após processar URL 20 Uso de memória: 96.25 MB
+2025-05-22 01:58:10,512 - P14756 - INFO - Processando URL 21/23: https://www.consultacrm.com.br/index/medicos/uid-1071fbf1-f5c5-11ec-9e74-0a4aa568c625/nelson_martins
+2025-05-22 01:58:15,738 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\91df32ca6898c76d8b1531fec4bb1cc8.html
+2025-05-22 01:58:15,749 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 01:58:15,749 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 01:58:15,750 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 01:58:15,750 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 01:58:15,750 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 01:58:15,750 - P14756 - INFO - Após processar URL 21 Uso de memória: 96.53 MB
+2025-05-22 01:58:15,750 - P14756 - INFO - Processando URL 22/23: https://www.mpmg.mp.br/diariooficial/DO-20180412.PDF
+2025-05-22 01:58:15,750 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.mpmg.mp.br/diariooficial/DO-20180412.PDF
+2025-05-22 01:58:15,751 - P14756 - INFO - Após processar URL 22 Uso de memória: 96.53 MB
+2025-05-22 01:58:15,751 - P14756 - INFO - Processando URL 23/23: https://consultacrm.com.br/
+2025-05-22 01:58:19,585 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:58:19,611 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 01:58:19,614 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 01:58:19,616 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 01:58:19,619 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 01:58:19,622 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 01:58:19,624 - P14756 - INFO - Após processar URL 23 Uso de memória: 96.83 MB
+2025-05-22 01:58:19,629 - P14756 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:58:19,633 - P14756 - INFO - Ranked address: 301 items
+2025-05-22 01:58:19,634 - P14756 - INFO - Ranked phone: 210 items
+2025-05-22 01:58:19,635 - P14756 - INFO - Ranked email: 3 items
+2025-05-22 01:58:19,635 - P14756 - INFO - Ranked complement: 34 items
+2025-05-22 01:58:19,636 - P14756 - INFO - Ranked cep: 150 items
+2025-05-22 01:58:19,636 - P14756 - INFO - Após agregação Uso de memória: 96.83 MB
+2025-05-22 01:58:19,636 - P14756 - INFO - Validando endereço: ['Avenida Pres. Humberto de Alencar Castelo Branco, 3745', 'Rua Elias Acras, 290', 'R. 29 de abril de 2025']
+2025-05-22 01:58:19,637 - P14756 - INFO - Endereço validado: Avenida Pres. Humberto de Alencar Castelo Branco, 3745
+2025-05-22 01:58:19,638 - P14756 - INFO - Limpando texto extenso para campo address: Avenida Pres. Humberto de Alencar Castelo Branco, ...
+2025-05-22 01:58:19,638 - P14756 - INFO - Texto limpo: Avenida Pres. Humberto de Alencar Castelo Branco, 3745
+2025-05-22 01:58:19,638 - P14756 - INFO - Validando telefone: ['(11) 2463-8000', '(11)2087-3957', '(11) 99803-2576']
+2025-05-22 01:58:19,639 - P14756 - INFO - Limpando texto extenso para campo phone: (11) 2463-8000...
+2025-05-22 01:58:19,639 - P14756 - INFO - Texto limpo: 11) 2463-8000
+2025-05-22 01:58:19,639 - P14756 - INFO - Telefone validado: 11) 2463-8000
+2025-05-22 01:58:19,639 - P14756 - INFO - Validando email: ['negocios@sonolayer.com.br', 'pediatrianm@gmail.com', 'protocolo@crmmg.org.br']
+2025-05-22 01:58:19,639 - P14756 - INFO - Limpando texto extenso para campo email: negocios@sonolayer.com.br...
+2025-05-22 01:58:19,640 - P14756 - INFO - Texto limpo: negocios@sonolayer.com.br
+2025-05-22 01:58:19,640 - P14756 - INFO - Email validado: negocios@sonolayer.com.br
+2025-05-22 01:58:19,640 - P14756 - INFO - Validando complemento: ['Sala 906 - Centro - Arujá - CEP 07400-610', 'Sala 206 – Centro - Guarulhos - CEP 07110-120', 'Sala 21 – Vila Progresso']
+2025-05-22 01:58:19,640 - P14756 - INFO - Limpando texto extenso para campo complement: Sala 906 - Centro - Arujá - CEP 07400-610...
+2025-05-22 01:58:19,641 - P14756 - INFO - Texto limpo: Sala 906 - Centro - Arujá - CE
+2025-05-22 01:58:19,641 - P14756 - INFO - Complemento validado: Sala 906 - Centro - Arujá - CE
+2025-05-22 01:58:19,641 - P14756 - INFO - Descobrindo cidade
+2025-05-22 01:58:19,641 - P14756 - INFO - Buscando cidade: Avenida Pres. Humberto de Alencar Castelo Branco cidade MG
+2025-05-22 01:58:22,361 - P14756 - WARNING - Cidade não encontrada
+2025-05-22 01:58:22,361 - P14756 - INFO - Cidade descoberta: 
+2025-05-22 01:58:22,362 - P14756 - INFO - Tempo de execução de processamento completo do médico: 61.15 segundos
+2025-05-22 01:58:22,362 - P14756 - INFO - Resultado processado: {'Hash': '87b20c155a412652371eb3dd92c01ac4e7bc681ac73f9da3f83535240daddd81', 'CRM': '5131', 'UF': 'MG', 'Firstname': 'NELSON', 'LastName': 'MARTINS', 'Medical specialty': '', 'Endereco Completo A1': 'Avenida Pres. Humberto de Alencar Castelo Branco, 3745', 'Address A1': 'Avenida Pres. Humberto de Alencar Castelo Branco', 'Numero A1': '3745', 'Complement A1': 'Sala 906 - Centro - Arujá - CE', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 2463-8000', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'negocios@sonolayer.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:58:22,364 - P14756 - INFO - Progresso: 14.2%
+2025-05-22 01:58:22,364 - P14756 - INFO - Executando coleta de lixo
+2025-05-22 01:58:22,395 - P14756 - INFO - Após coleta de lixo Uso de memória: 90.30 MB
+2025-05-22 01:58:22,395 - P14756 - INFO - Tempo de execução de processamento do médico 1: 62.55 segundos
+2025-05-22 01:58:22,395 - P14756 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 01:58:22,396 - P14756 - INFO - Nome: ALOÍSIO EUSTÁQUIO MAGALHÃES CARNEIRO
+2025-05-22 01:58:22,396 - P14756 - INFO - Início do processamento Uso de memória: 90.30 MB
+2025-05-22 01:58:22,396 - P14756 - INFO - Iniciando busca para: ALOÍSIO EUSTÁQUIO MAGALHÃES CARNEIRO CRM 5520 MG telefone e-mail endereço
+2025-05-22 01:58:22,906 - P14756 - INFO - SearX results: 10 URLs
+2025-05-22 01:58:22,906 - P14756 - INFO - Após SearX Uso de memória: 90.30 MB
+2025-05-22 01:58:25,586 - P14756 - INFO - Google results: 14 URLs
+2025-05-22 01:58:25,586 - P14756 - INFO - Após Google Uso de memória: 93.79 MB
+2025-05-22 01:58:28,079 - P14756 - INFO - Bing results: 11 URLs
+2025-05-22 01:58:28,079 - P14756 - INFO - Após Bing Uso de memória: 96.63 MB
+2025-05-22 01:58:28,079 - P14756 - INFO - Total de URLs únicas: 29
+2025-05-22 01:58:28,080 - P14756 - INFO - Processando URL 1/29: http://www.arvore.net.br/feliciano/d1.htm
+2025-05-22 01:58:36,876 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\192f75732567e681a3799bba0447b559.html
+2025-05-22 01:58:40,573 - P14756 - INFO - Candidates address: 2 items
+2025-05-22 01:58:40,589 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 01:58:40,590 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 01:58:40,590 - P14756 - INFO - Candidates complement: 3 items
+2025-05-22 01:58:40,591 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 01:58:40,591 - P14756 - INFO - Após processar URL 1 Uso de memória: 111.38 MB
+2025-05-22 01:58:40,592 - P14756 - INFO - Processando URL 2/29: https://www.doctoralia.com.br/roberto-de-magalhaes-carneiro-de-oliveira/neurologista/sao-paulo
+2025-05-22 01:58:40,592 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/roberto-de-magalhaes-carneiro-de-oliveira/neurologista/sao-paulo
+2025-05-22 01:58:40,592 - P14756 - INFO - Após processar URL 2 Uso de memória: 107.42 MB
+2025-05-22 01:58:40,593 - P14756 - INFO - Processando URL 3/29: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/2121300952.pdf
+2025-05-22 01:58:40,593 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/2121300952.pdf
+2025-05-22 01:58:40,593 - P14756 - INFO - Após processar URL 3 Uso de memória: 107.42 MB
+2025-05-22 01:58:40,593 - P14756 - INFO - Processando URL 4/29: https://sistemas.tce.pe.gov.br/audinArquivos/licon/processo_licitatorio/edital/877/LICON_Edital_877_2020_43_887843.pdf
+2025-05-22 01:58:40,594 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.tce.pe.gov.br/audinArquivos/licon/processo_licitatorio/edital/877/LICON_Edital_877_2020_43_887843.pdf
+2025-05-22 01:58:40,597 - P14756 - INFO - Após processar URL 4 Uso de memória: 107.42 MB
+2025-05-22 01:58:40,597 - P14756 - INFO - Processando URL 5/29: https://www.infosaude.com.br/cnes/137621-aloisio-eustaquio-magalhaes-carneiro
+2025-05-22 01:58:42,815 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\c589f562d7e30bab2441f6007a1901d2.html
+2025-05-22 01:58:42,837 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 01:58:42,838 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 01:58:42,839 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 01:58:42,840 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 01:58:42,841 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 01:58:42,841 - P14756 - INFO - Após processar URL 5 Uso de memória: 108.21 MB
+2025-05-22 01:58:42,841 - P14756 - INFO - Processando URL 6/29: https://hospitaleclinicas.com.br/cnes/0027472/aloisio-eustaquio-magalhaes-carneiro
+2025-05-22 01:58:45,861 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\10783a34380b5017ecded2b9cb577d46.html
+2025-05-22 01:58:45,870 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 01:58:45,870 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 01:58:45,870 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 01:58:45,870 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 01:58:45,870 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 01:58:45,871 - P14756 - INFO - Após processar URL 6 Uso de memória: 108.58 MB
+2025-05-22 01:58:45,871 - P14756 - INFO - Processando URL 7/29: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo696.pdf
+2025-05-22 01:58:45,871 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo696.pdf
+2025-05-22 01:58:45,871 - P14756 - INFO - Após processar URL 7 Uso de memória: 108.58 MB
+2025-05-22 01:58:45,871 - P14756 - INFO - Processando URL 8/29: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/99565/Caderno_JUD_BA_2016-03-02_VIII_41.pdf?sequence=4&isAllowed=y
+2025-05-22 01:58:45,872 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/99565/Caderno_JUD_BA_2016-03-02_VIII_41.pdf?sequence=4&isAllowed=y
+2025-05-22 01:58:45,872 - P14756 - INFO - Após processar URL 8 Uso de memória: 108.58 MB
+2025-05-22 01:58:45,872 - P14756 - INFO - Processando URL 9/29: https://pt.scribd.com/doc/219842418/GuiaMedicoPorEspecialidade-pdf
+2025-05-22 01:58:54,241 - P14756 - WARNING - Página muito grande (3.07MB), truncando
+2025-05-22 01:58:54,252 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\5b89b3e29c6f82fc0b1546e42a5543df.html
+2025-05-22 01:58:55,039 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 01:58:55,040 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 01:58:55,040 - P14756 - INFO - Candidates email: 27 items
+2025-05-22 01:58:55,040 - P14756 - INFO - Candidates complement: 2 items
+2025-05-22 01:58:55,040 - P14756 - INFO - Candidates cep: 51 items
+2025-05-22 01:58:55,041 - P14756 - INFO - Após processar URL 9 Uso de memória: 138.60 MB
+2025-05-22 01:58:55,041 - P14756 - INFO - Processando URL 10/29: https://eguias.net/empresa/aloisio-eustaquio-magalhaes-carneiro/belo-horizonte/mg/1586068
+2025-05-22 01:58:57,527 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e158fe03ead5f32b928a0b6dfd57d9be.html
+2025-05-22 01:58:57,547 - P14756 - INFO - Candidates address: 2 items
+2025-05-22 01:58:57,547 - P14756 - INFO - Candidates phone: 2 items
+2025-05-22 01:58:57,548 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 01:58:57,548 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 01:58:57,549 - P14756 - INFO - Candidates cep: 3 items
+2025-05-22 01:58:57,549 - P14756 - INFO - Após processar URL 10 Uso de memória: 133.30 MB
+2025-05-22 01:58:57,549 - P14756 - INFO - Processando URL 11/29: https://guiasaudebrasil.com.br/unidade/minas-gerais/belo-horizonte/0027472-aloisio-eustaquio-magalhaes-carneiro
+2025-05-22 01:59:00,520 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\c87205f2da7e33140462ef807e0634d6.html
+2025-05-22 01:59:00,535 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 01:59:00,536 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 01:59:00,536 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 01:59:00,536 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 01:59:00,536 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 01:59:00,537 - P14756 - INFO - Após processar URL 11 Uso de memória: 133.79 MB
+2025-05-22 01:59:00,538 - P14756 - INFO - Processando URL 12/29: https://sistemadje.tjmt.jus.br/publicacoes/9897-2016%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 01:59:00,539 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/9897-2016%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 01:59:00,539 - P14756 - INFO - Após processar URL 12 Uso de memória: 133.79 MB
+2025-05-22 01:59:00,540 - P14756 - INFO - Processando URL 13/29: https://acheseudoutor.com.br/index.php?pg=pagina_pessoal&id=2560
+2025-05-22 01:59:06,336 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\a22a093f5e18ce6fac0574cfcf076645.html
+2025-05-22 01:59:06,348 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 01:59:06,348 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 01:59:06,348 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 01:59:06,349 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 01:59:06,349 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 01:59:06,349 - P14756 - INFO - Após processar URL 13 Uso de memória: 134.32 MB
+2025-05-22 01:59:06,349 - P14756 - INFO - Processando URL 14/29: https://www.consultacrm.com.br/index/medicos/uid-950e2ce1-f5c5-11ec-9e74-0a4aa568c625/alo__sio_eust__quio_magalh__es_carneiro
+2025-05-22 01:59:10,291 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\4dd8b6bfb2acd02ee2503cc2988556c9.html
+2025-05-22 01:59:10,301 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 01:59:10,302 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 01:59:10,304 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 01:59:10,304 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 01:59:10,305 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 01:59:10,308 - P14756 - INFO - Após processar URL 14 Uso de memória: 133.73 MB
+2025-05-22 01:59:10,309 - P14756 - INFO - Processando URL 15/29: https://pt.scribd.com/doc/249273626/UNIMED-Guia-Medico-Por-Especialidade-Goiania
+2025-05-22 01:59:16,019 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\25b3318e1a81538f34d64da7f6410519.html
+2025-05-22 01:59:16,817 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 01:59:16,818 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 01:59:16,818 - P14756 - INFO - Candidates email: 28 items
+2025-05-22 01:59:16,818 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 01:59:16,818 - P14756 - INFO - Candidates cep: 44 items
+2025-05-22 01:59:16,818 - P14756 - INFO - Após processar URL 15 Uso de memória: 132.70 MB
+2025-05-22 01:59:16,819 - P14756 - INFO - Processando URL 16/29: https://sistemadje.tjmt.jus.br/publicacoes/9910-2016%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 01:59:16,819 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/9910-2016%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 01:59:16,819 - P14756 - INFO - Após processar URL 16 Uso de memória: 127.11 MB
+2025-05-22 01:59:16,820 - P14756 - INFO - Processando URL 17/29: https://transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2025/DMPF-EXTRAJUDICIAL-2025-04-01.pdf
+2025-05-22 01:59:16,820 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2025/DMPF-EXTRAJUDICIAL-2025-04-01.pdf
+2025-05-22 01:59:16,820 - P14756 - INFO - Após processar URL 17 Uso de memória: 127.11 MB
+2025-05-22 01:59:16,820 - P14756 - INFO - Processando URL 18/29: https://www.lai.pe.gov.br/wp-content/uploads/sites/92/2020/06/PROC.-CP.0001.2020-PL.00013.2020.CPL_.DL_.0012.SERES_compressed.pdf
+2025-05-22 01:59:16,820 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.lai.pe.gov.br/wp-content/uploads/sites/92/2020/06/PROC.-CP.0001.2020-PL.00013.2020.CPL_.DL_.0012.SERES_compressed.pdf
+2025-05-22 01:59:16,821 - P14756 - INFO - Após processar URL 18 Uso de memória: 127.11 MB
+2025-05-22 01:59:16,821 - P14756 - INFO - Processando URL 19/29: https://diario.tjes.jus.br/2008/20081215.pdf
+2025-05-22 01:59:16,821 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://diario.tjes.jus.br/2008/20081215.pdf
+2025-05-22 01:59:16,821 - P14756 - INFO - Após processar URL 19 Uso de memória: 127.11 MB
+2025-05-22 01:59:16,822 - P14756 - INFO - Processando URL 20/29: https://pbqp-h.mdr.gov.br/wp-content/uploads/2023/05/Empresas-Certificadas-SIAC-Janeiro-a-26-05-2023-v2-Planilha1.csv
+2025-05-22 01:59:16,822 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://pbqp-h.mdr.gov.br/wp-content/uploads/2023/05/Empresas-Certificadas-SIAC-Janeiro-a-26-05-2023-v2-Planilha1.csv
+2025-05-22 01:59:16,822 - P14756 - INFO - Após processar URL 20 Uso de memória: 127.11 MB
+2025-05-22 01:59:16,822 - P14756 - INFO - Processando URL 21/29: https://sistemadje.tjmt.jus.br/publicacoes/10222-2018%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 01:59:16,823 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/10222-2018%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 01:59:16,823 - P14756 - INFO - Após processar URL 21 Uso de memória: 127.11 MB
+2025-05-22 01:59:16,824 - P14756 - INFO - Processando URL 22/29: https://www.doctoralia.com.br/aloisio-eustaquio-magalhaes-carneiro/ginecologista/belo-horizonte
+2025-05-22 01:59:16,824 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/aloisio-eustaquio-magalhaes-carneiro/ginecologista/belo-horizonte
+2025-05-22 01:59:16,824 - P14756 - INFO - Após processar URL 22 Uso de memória: 127.11 MB
+2025-05-22 01:59:16,825 - P14756 - INFO - Processando URL 23/29: https://doutorcrm.com/aloisio-eustaquio-magalhaes-carneiro
+2025-05-22 01:59:21,528 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\0917dea49bd224c0072a569cb7a69a7d.html
+2025-05-22 01:59:21,536 - P14756 - INFO - Candidates address: 2 items
+2025-05-22 01:59:21,536 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 01:59:21,537 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 01:59:21,537 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 01:59:21,537 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 01:59:21,537 - P14756 - INFO - Após processar URL 23 Uso de memória: 127.16 MB
+2025-05-22 01:59:21,537 - P14756 - INFO - Processando URL 24/29: http://www.varzeagrande.mt.gov.br/storage/Arquivos/relacao_de_fornecedores.pdf
+2025-05-22 01:59:21,538 - P14756 - INFO - Ignorando URL de arquivo não-HTML: http://www.varzeagrande.mt.gov.br/storage/Arquivos/relacao_de_fornecedores.pdf
+2025-05-22 01:59:21,538 - P14756 - INFO - Após processar URL 24 Uso de memória: 127.16 MB
+2025-05-22 01:59:21,538 - P14756 - INFO - Processando URL 25/29: https://www.boaconsulta.com/especialista/aloisio-eustaquio-magalhaes-carneiro-5840a4bed732981928595068
+2025-05-22 01:59:24,946 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\c62126b7c965df52ca5a6def51bad03d.html
+2025-05-22 01:59:25,013 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 01:59:25,013 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 01:59:25,014 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 01:59:25,014 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 01:59:25,014 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 01:59:25,014 - P14756 - INFO - Após processar URL 25 Uso de memória: 128.05 MB
+2025-05-22 01:59:25,014 - P14756 - INFO - Processando URL 26/29: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/336891/Caderno_JUD_GO_2018-04-24_X_72.pdf?sequence=1&isAllowed=y
+2025-05-22 01:59:25,014 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/336891/Caderno_JUD_GO_2018-04-24_X_72.pdf?sequence=1&isAllowed=y
+2025-05-22 01:59:25,015 - P14756 - INFO - Após processar URL 26 Uso de memória: 126.49 MB
+2025-05-22 01:59:25,015 - P14756 - INFO - Processando URL 27/29: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x10823837125759352250&market=pt-BR&src=SERPGB
+2025-05-22 01:59:29,288 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\9f838c7edb230aebda936203eb4db1d5.html
+2025-05-22 01:59:29,307 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 01:59:29,307 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 01:59:29,307 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 01:59:29,308 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 01:59:29,308 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 01:59:29,308 - P14756 - INFO - Após processar URL 27 Uso de memória: 126.51 MB
+2025-05-22 01:59:29,308 - P14756 - INFO - Processando URL 28/29: https://www.mpmg.mp.br/diariooficial/DO-20180412.PDF
+2025-05-22 01:59:29,308 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.mpmg.mp.br/diariooficial/DO-20180412.PDF
+2025-05-22 01:59:29,308 - P14756 - INFO - Após processar URL 28 Uso de memória: 126.51 MB
+2025-05-22 01:59:29,309 - P14756 - INFO - Processando URL 29/29: https://www.catalogo.med.br/doutor/aloisio-eustaquio-magalhaes-carneiro-320150.htm
+2025-05-22 01:59:34,506 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\7312209326e90b5f9d6b66ec771288a2.html
+2025-05-22 01:59:34,527 - P14756 - INFO - Candidates address: 2 items
+2025-05-22 01:59:34,529 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 01:59:34,529 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 01:59:34,529 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 01:59:34,530 - P14756 - INFO - Candidates cep: 3 items
+2025-05-22 01:59:34,530 - P14756 - INFO - Após processar URL 29 Uso de memória: 126.52 MB
+2025-05-22 01:59:34,530 - P14756 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:59:34,531 - P14756 - INFO - Ranked address: 10 items
+2025-05-22 01:59:34,531 - P14756 - INFO - Ranked phone: 4 items
+2025-05-22 01:59:34,533 - P14756 - INFO - Ranked email: 49 items
+2025-05-22 01:59:34,533 - P14756 - INFO - Ranked complement: 7 items
+2025-05-22 01:59:34,534 - P14756 - INFO - Ranked cep: 83 items
+2025-05-22 01:59:34,534 - P14756 - INFO - Após agregação Uso de memória: 126.52 MB
+2025-05-22 01:59:34,535 - P14756 - INFO - Validando endereço: ['Rua Santa Catarina, 438', 'Rua do Ouvidor (1898,1901', 'Rua Santos Dumont - 54 - Apto 111']
+2025-05-22 01:59:34,535 - P14756 - INFO - Endereço validado: Rua Santa Catarina, 438
+2025-05-22 01:59:34,535 - P14756 - INFO - Limpando texto extenso para campo address: Rua Santa Catarina, 438...
+2025-05-22 01:59:34,536 - P14756 - INFO - Texto limpo: Rua Santa Catarina, 438
+2025-05-22 01:59:34,536 - P14756 - INFO - Validando telefone: ['(31) 3335-6595', '(31) 3335-6076', '(03) 13335-6076']
+2025-05-22 01:59:34,536 - P14756 - INFO - Limpando texto extenso para campo phone: (31) 3335-6595...
+2025-05-22 01:59:34,536 - P14756 - INFO - Texto limpo: 31) 3335-6595
+2025-05-22 01:59:34,536 - P14756 - INFO - Telefone validado: 31) 3335-6595
+2025-05-22 01:59:34,537 - P14756 - INFO - Validando email: ['deiasaa@yahoo.com.br', 'aaparis@bol.com.br', 'acupuncenter@terra.com.br']
+2025-05-22 01:59:34,537 - P14756 - INFO - Limpando texto extenso para campo email: deiasaa@yahoo.com.br...
+2025-05-22 01:59:34,537 - P14756 - INFO - Texto limpo: deiasaa@yahoo.com.br
+2025-05-22 01:59:34,538 - P14756 - INFO - Email validado: deiasaa@yahoo.com.br
+2025-05-22 01:59:34,538 - P14756 - INFO - Validando complemento: ['Salathiel Lacerda de Almeida  . ', 'Salatiel Navarro . Salatiel nasceu em Jaú - SP - Brasi', 'Apto 111 - Poços de Caldas - MG - Brasil']
+2025-05-22 01:59:34,539 - P14756 - INFO - Limpando texto extenso para campo complement: Salathiel Lacerda de Almeida  . ...
+2025-05-22 01:59:34,539 - P14756 - INFO - Texto limpo: Salathiel Lacerda de Almeida
+2025-05-22 01:59:34,542 - P14756 - INFO - Complemento validado: Salathiel Lacerda de Almeida
+2025-05-22 01:59:34,542 - P14756 - INFO - Descobrindo cidade
+2025-05-22 01:59:34,543 - P14756 - INFO - Buscando cidade: Rua Santa Catarina cidade MG
+2025-05-22 01:59:37,290 - P14756 - INFO - Cidade encontrada: Divinópolis
+2025-05-22 01:59:37,290 - P14756 - INFO - Limpando texto extenso para campo city: Divinópolis...
+2025-05-22 01:59:37,290 - P14756 - INFO - Texto limpo: Divinópolis
+2025-05-22 01:59:37,290 - P14756 - INFO - Cidade descoberta: Divinópolis
+2025-05-22 01:59:37,291 - P14756 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 01:59:37,291 - P14756 - INFO - Iniciando busca de CEP em cascata para: Rua Santa Catarina, Divinópolis, MG
+2025-05-22 01:59:37,291 - P14756 - INFO - Método 1: ViaCEP API
+2025-05-22 01:59:37,291 - P14756 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/MG/divinopolis/rua%20santa%20catarina/json/
+2025-05-22 01:59:38,031 - P14756 - INFO - Dados encontrados no ViaCEP: {'cep': '35500-033', 'logradouro': 'Rua Santa Catarina', 'complemento': 'de 559/560 ao fim', 'unidade': '', 'bairro': 'Santo Antônio', 'localidade': 'Divinópolis', 'uf': 'MG', 'estado': 'Minas Gerais', 'regiao': 'Sudeste', 'ibge': '3122306', 'gia': '', 'ddd': '37', 'siafi': '4445'}
+2025-05-22 01:59:38,033 - P14756 - INFO - CEP encontrado via ViaCEP: 35500-033
+2025-05-22 01:59:38,033 - P14756 - INFO - Dados de CEP encontrados: {'cep': '35500-033', 'logradouro': 'Rua Santa Catarina', 'complemento': 'de 559/560 ao fim', 'unidade': '', 'bairro': 'Santo Antônio', 'localidade': 'Divinópolis', 'uf': 'MG', 'estado': 'Minas Gerais', 'regiao': 'Sudeste', 'ibge': '3122306', 'gia': '', 'ddd': '37', 'siafi': '4445'}
+2025-05-22 01:59:38,033 - P14756 - INFO - Limpando texto extenso para campo bairro: Santo Antônio...
+2025-05-22 01:59:38,033 - P14756 - INFO - Texto limpo: Santo Antônio
+2025-05-22 01:59:38,033 - P14756 - INFO - Limpando texto extenso para campo city: Divinópolis...
+2025-05-22 01:59:38,033 - P14756 - INFO - Texto limpo: Divinópolis
+2025-05-22 01:59:38,033 - P14756 - INFO - Limpando texto extenso para campo state: MG...
+2025-05-22 01:59:38,034 - P14756 - INFO - Texto limpo: MG
+2025-05-22 01:59:38,034 - P14756 - INFO - Tempo de execução de processamento completo do médico: 75.64 segundos
+2025-05-22 01:59:38,034 - P14756 - INFO - Resultado processado: {'Hash': '6610941f904e600410fff242e413df1a28b4960056c7da988b90889c553312d8', 'CRM': '5520', 'UF': 'MG', 'Firstname': 'ALOÍSIO', 'LastName': 'EUSTÁQUIO MAGALHÃES CARNEIRO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Santa Catarina, 438', 'Address A1': 'Rua Santa Catarina', 'Numero A1': '438', 'Complement A1': 'Salathiel Lacerda de Almeida', 'Bairro A1': 'Santo Antônio', 'postal code A1': '35500-033', 'City A1': 'Divinópolis', 'State A1': 'MG', 'Phone A1': '31) 3335-6595', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'deiasaa@yahoo.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:59:38,035 - P14756 - INFO - Progresso: 14.6%
+2025-05-22 01:59:38,035 - P14756 - INFO - Tempo de execução de processamento do médico 2: 75.64 segundos
+2025-05-22 01:59:38,035 - P14756 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 01:59:38,035 - P14756 - INFO - Nome: LUIZ FERNANDO BORGES OLIVEIRA
+2025-05-22 01:59:38,035 - P14756 - INFO - Início do processamento Uso de memória: 124.96 MB
+2025-05-22 01:59:38,036 - P14756 - INFO - Iniciando busca para: LUIZ FERNANDO BORGES OLIVEIRA CRM 5614 MG telefone e-mail endereço
+2025-05-22 01:59:38,545 - P14756 - INFO - SearX results: 10 URLs
+2025-05-22 01:59:38,546 - P14756 - INFO - Após SearX Uso de memória: 124.96 MB
+2025-05-22 01:59:41,175 - P14756 - INFO - Google results: 10 URLs
+2025-05-22 01:59:41,175 - P14756 - INFO - Após Google Uso de memória: 124.95 MB
+2025-05-22 01:59:43,632 - P14756 - INFO - Bing results: 10 URLs
+2025-05-22 01:59:43,633 - P14756 - INFO - Após Bing Uso de memória: 125.80 MB
+2025-05-22 01:59:43,633 - P14756 - INFO - Total de URLs únicas: 24
+2025-05-22 01:59:43,633 - P14756 - INFO - Processando URL 1/24: https://cnpj.biz/51386854000199
+2025-05-22 01:59:45,968 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\2353dff2b476e0e5d06414ab30fe5c8b.html
+2025-05-22 01:59:45,970 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 01:59:45,970 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 01:59:45,970 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 01:59:45,970 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 01:59:45,971 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 01:59:45,971 - P14756 - INFO - Após processar URL 1 Uso de memória: 125.82 MB
+2025-05-22 01:59:45,971 - P14756 - INFO - Processando URL 2/24: https://www.tjac.jus.br/wp-content/uploads/2024/08/DE20240813.pdf
+2025-05-22 01:59:45,971 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.tjac.jus.br/wp-content/uploads/2024/08/DE20240813.pdf
+2025-05-22 01:59:45,972 - P14756 - INFO - Após processar URL 2 Uso de memória: 125.82 MB
+2025-05-22 01:59:45,972 - P14756 - INFO - Processando URL 3/24: http://legislacao.prefeitura.sp.gov.br/leis/portaria-intersecretarial-secrespecial-p-portadores-de-deficiencia-8-de-17-de-julho-de-2007
+2025-05-22 01:59:49,478 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e76b3d2c7df951a5ff452461098054b1.html
+2025-05-22 01:59:49,604 - P14756 - INFO - Candidates address: 477 items
+2025-05-22 01:59:49,605 - P14756 - INFO - Candidates phone: 3 items
+2025-05-22 01:59:49,605 - P14756 - INFO - Candidates email: 185 items
+2025-05-22 01:59:49,605 - P14756 - INFO - Candidates complement: 5 items
+2025-05-22 01:59:49,605 - P14756 - INFO - Candidates cep: 198 items
+2025-05-22 01:59:49,605 - P14756 - INFO - Após processar URL 3 Uso de memória: 125.86 MB
+2025-05-22 01:59:49,606 - P14756 - INFO - Processando URL 4/24: https://www.consultacrm.com.br/index/medicos/uid-9b0d0cb5-f5c5-11ec-9e74-0a4aa568c625/luiz_fernando_borges_oliveira
+2025-05-22 01:59:53,856 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\1d0690466869cfa295adcab939c57378.html
+2025-05-22 01:59:53,869 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 01:59:53,870 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 01:59:53,870 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 01:59:53,870 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 01:59:53,870 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 01:59:53,871 - P14756 - INFO - Após processar URL 4 Uso de memória: 126.55 MB
+2025-05-22 01:59:53,871 - P14756 - INFO - Processando URL 5/24: https://crmmg.org.br/
+2025-05-22 01:59:57,828 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\359238310c9096afb1ec9e794f848700.html
+2025-05-22 01:59:57,870 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 01:59:57,870 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 01:59:57,871 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 01:59:57,871 - P14756 - INFO - Candidates complement: 2 items
+2025-05-22 01:59:57,871 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 01:59:57,871 - P14756 - INFO - Após processar URL 5 Uso de memória: 126.45 MB
+2025-05-22 01:59:57,871 - P14756 - INFO - Processando URL 6/24: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/29665
+2025-05-22 02:00:00,079 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\3894470682ff5efaabc66122482e2f3f.html
+2025-05-22 02:00:00,122 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 02:00:00,122 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:00:00,122 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:00:00,122 - P14756 - INFO - Candidates complement: 2 items
+2025-05-22 02:00:00,123 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:00:00,123 - P14756 - INFO - Após processar URL 6 Uso de memória: 127.53 MB
+2025-05-22 02:00:00,123 - P14756 - INFO - Processando URL 7/24: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-28-10-2022.pdf?p=1666915200031
+2025-05-22 02:00:00,123 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-28-10-2022.pdf?p=1666915200031
+2025-05-22 02:00:00,123 - P14756 - INFO - Após processar URL 7 Uso de memória: 125.89 MB
+2025-05-22 02:00:00,124 - P14756 - INFO - Processando URL 8/24: https://www.classemedica.com.br/medico/203369-luiz-fernando-borges-oliveira.htm
+2025-05-22 02:00:05,564 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\c06ef351ead77d5ef4544207f7f84ab2.html
+2025-05-22 02:00:05,604 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:00:05,667 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:00:05,679 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:00:05,680 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:00:05,681 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:00:05,684 - P14756 - INFO - Após processar URL 8 Uso de memória: 127.54 MB
+2025-05-22 02:00:05,684 - P14756 - INFO - Processando URL 9/24: https://www.listamais.com.br/local/cad_idffD7Z9/consultorio-medico-dr-luis-fernando-borges-nunes-em-araguari-mg
+2025-05-22 02:00:11,733 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\27a1a38ecb1ecf130400cbc7fdb01bb0.html
+2025-05-22 02:00:11,761 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 02:00:11,762 - P14756 - INFO - Candidates phone: 2 items
+2025-05-22 02:00:11,762 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 02:00:11,762 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:00:11,762 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 02:00:11,762 - P14756 - INFO - Após processar URL 9 Uso de memória: 126.29 MB
+2025-05-22 02:00:11,763 - P14756 - INFO - Processando URL 10/24: https://crmvirtual.cfm.org.br/MG/servico/procure-medicos
+2025-05-22 02:00:14,090 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\c2af9904acdad6295c60ad1b50d74554.html
+2025-05-22 02:00:14,100 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:00:14,101 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:00:14,101 - P14756 - INFO - Candidates email: 2 items
+2025-05-22 02:00:14,101 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:00:14,101 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:00:14,101 - P14756 - INFO - Após processar URL 10 Uso de memória: 126.29 MB
+2025-05-22 02:00:14,102 - P14756 - INFO - Processando URL 11/24: https://sistemas.tce.pe.gov.br/audinArquivos/licon/processo_licitatorio/edital/877/LICON_Edital_877_2021_238_1030696.pdf
+2025-05-22 02:00:14,102 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.tce.pe.gov.br/audinArquivos/licon/processo_licitatorio/edital/877/LICON_Edital_877_2021_238_1030696.pdf
+2025-05-22 02:00:14,102 - P14756 - INFO - Após processar URL 11 Uso de memória: 126.29 MB
+2025-05-22 02:00:14,102 - P14756 - INFO - Processando URL 12/24: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/417803718.pdf
+2025-05-22 02:00:14,102 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/417803718.pdf
+2025-05-22 02:00:14,103 - P14756 - INFO - Após processar URL 12 Uso de memória: 126.29 MB
+2025-05-22 02:00:14,103 - P14756 - INFO - Processando URL 13/24: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 02:00:17,669 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 02:00:17,709 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:00:17,709 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:00:17,709 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:00:17,709 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:00:17,710 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:00:17,710 - P14756 - INFO - Após processar URL 13 Uso de memória: 126.51 MB
+2025-05-22 02:00:17,710 - P14756 - INFO - Processando URL 14/24: https://www.tjac.jus.br/wp-content/uploads/2024/10/DE20241029.pdf
+2025-05-22 02:00:17,710 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.tjac.jus.br/wp-content/uploads/2024/10/DE20241029.pdf
+2025-05-22 02:00:17,710 - P14756 - INFO - Após processar URL 14 Uso de memória: 126.51 MB
+2025-05-22 02:00:17,710 - P14756 - INFO - Processando URL 15/24: https://www.mpba.mp.br/sites/default/files/biblioteca/direitos-humanos/direitos-da-pessoa-idosa/publicacoes/saude_cidadao_-_medicamentos_para_pessoa_idosa.pdf
+2025-05-22 02:00:17,711 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.mpba.mp.br/sites/default/files/biblioteca/direitos-humanos/direitos-da-pessoa-idosa/publicacoes/saude_cidadao_-_medicamentos_para_pessoa_idosa.pdf
+2025-05-22 02:00:17,711 - P14756 - INFO - Após processar URL 15 Uso de memória: 126.51 MB
+2025-05-22 02:00:17,711 - P14756 - INFO - Processando URL 16/24: https://seadantigo.portal.ap.gov.br/diario/DOEn8173.pdf?ts=24082601
+2025-05-22 02:00:17,711 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://seadantigo.portal.ap.gov.br/diario/DOEn8173.pdf?ts=24082601
+2025-05-22 02:00:17,711 - P14756 - INFO - Após processar URL 16 Uso de memória: 126.51 MB
+2025-05-22 02:00:17,711 - P14756 - INFO - Processando URL 17/24: https://www.gov.br/pf/pt-br/assuntos/armas/psicologos/psicologos-crediciados/sao-paulo
+2025-05-22 02:00:20,995 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\a4feb3308d15202ece511a76d749b3f8.html
+2025-05-22 02:00:21,845 - P14756 - INFO - Candidates address: 673 items
+2025-05-22 02:00:21,845 - P14756 - INFO - Candidates phone: 827 items
+2025-05-22 02:00:21,845 - P14756 - INFO - Candidates email: 822 items
+2025-05-22 02:00:21,846 - P14756 - INFO - Candidates complement: 188 items
+2025-05-22 02:00:21,846 - P14756 - INFO - Candidates cep: 657 items
+2025-05-22 02:00:21,846 - P14756 - INFO - Após processar URL 17 Uso de memória: 127.30 MB
+2025-05-22 02:00:21,846 - P14756 - INFO - Processando URL 18/24: https://crmmg.org.br/contato/
+2025-05-22 02:00:24,103 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\8b782fbc7fe3c59e356e34916a7ce54c.html
+2025-05-22 02:00:24,137 - P14756 - INFO - Candidates address: 2 items
+2025-05-22 02:00:24,137 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:00:24,138 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 02:00:24,138 - P14756 - INFO - Candidates complement: 2 items
+2025-05-22 02:00:24,138 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:00:24,138 - P14756 - INFO - Após processar URL 18 Uso de memória: 126.23 MB
+2025-05-22 02:00:24,138 - P14756 - INFO - Processando URL 19/24: https://eguias.net/empresa/luis-fernando-borges-nunes/araguari/mg/1596389
+2025-05-22 02:00:26,507 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\9fcb8afc673a444ca40343a4049815aa.html
+2025-05-22 02:00:26,521 - P14756 - INFO - Candidates address: 2 items
+2025-05-22 02:00:26,522 - P14756 - INFO - Candidates phone: 2 items
+2025-05-22 02:00:26,522 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:00:26,522 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:00:26,522 - P14756 - INFO - Candidates cep: 3 items
+2025-05-22 02:00:26,522 - P14756 - INFO - Após processar URL 19 Uso de memória: 126.23 MB
+2025-05-22 02:00:26,522 - P14756 - INFO - Processando URL 20/24: https://seadantigo.portal.ap.gov.br/diario/DOEn8267.pdf?ts=25042416
+2025-05-22 02:00:26,523 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://seadantigo.portal.ap.gov.br/diario/DOEn8267.pdf?ts=25042416
+2025-05-22 02:00:26,523 - P14756 - INFO - Após processar URL 20 Uso de memória: 126.23 MB
+2025-05-22 02:00:26,523 - P14756 - INFO - Processando URL 21/24: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20140217&idorgao=545
+2025-05-22 02:00:29,936 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e38a85e753f9de168ca94404674bc305.html
+2025-05-22 02:00:30,512 - P14756 - INFO - Candidates address: 48 items
+2025-05-22 02:00:30,513 - P14756 - INFO - Candidates phone: 8 items
+2025-05-22 02:00:30,513 - P14756 - INFO - Candidates email: 6 items
+2025-05-22 02:00:30,513 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 02:00:30,513 - P14756 - INFO - Candidates cep: 149 items
+2025-05-22 02:00:30,513 - P14756 - INFO - Após processar URL 21 Uso de memória: 104.92 MB
+2025-05-22 02:00:30,513 - P14756 - INFO - Processando URL 22/24: https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/arquivos/pessoaidosa/GuiaMedicamentos-MP-SMS-2013.pdf
+2025-05-22 02:00:30,514 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/arquivos/pessoaidosa/GuiaMedicamentos-MP-SMS-2013.pdf
+2025-05-22 02:00:30,514 - P14756 - INFO - Após processar URL 22 Uso de memória: 103.04 MB
+2025-05-22 02:00:30,514 - P14756 - INFO - Processando URL 23/24: https://www.mpmg.mp.br/diariooficial/DO-20180412.PDF
+2025-05-22 02:00:30,514 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.mpmg.mp.br/diariooficial/DO-20180412.PDF
+2025-05-22 02:00:30,514 - P14756 - INFO - Após processar URL 23 Uso de memória: 103.04 MB
+2025-05-22 02:00:30,514 - P14756 - INFO - Processando URL 24/24: https://consultacrm.com.br/
+2025-05-22 02:00:34,019 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:00:34,034 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:00:34,035 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:00:34,040 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:00:34,042 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:00:34,043 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:00:34,044 - P14756 - INFO - Após processar URL 24 Uso de memória: 105.87 MB
+2025-05-22 02:00:34,044 - P14756 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:00:34,046 - P14756 - INFO - Ranked address: 1203 items
+2025-05-22 02:00:34,047 - P14756 - INFO - Ranked phone: 841 items
+2025-05-22 02:00:34,048 - P14756 - INFO - Ranked email: 1017 items
+2025-05-22 02:00:34,049 - P14756 - INFO - Ranked complement: 196 items
+2025-05-22 02:00:34,049 - P14756 - INFO - Ranked cep: 1007 items
+2025-05-22 02:00:34,050 - P14756 - INFO - Após agregação Uso de memória: 105.89 MB
+2025-05-22 02:00:34,050 - P14756 - INFO - Validando endereço: ['Rua dos Timbiras, 1200', 'Rua Comendador Nestor Pereira, 75', 'Rua Formosa, 215']
+2025-05-22 02:00:34,051 - P14756 - INFO - Endereço validado: Rua dos Timbiras, 1200
+2025-05-22 02:00:34,051 - P14756 - INFO - Limpando texto extenso para campo address: Rua dos Timbiras, 1200...
+2025-05-22 02:00:34,051 - P14756 - INFO - Texto limpo: Rua dos Timbiras, 1200
+2025-05-22 02:00:34,051 - P14756 - INFO - Validando telefone: ['(34) 3242-8281', '(11) 3812-3281', '(11) 3816-3022']
+2025-05-22 02:00:34,052 - P14756 - INFO - Limpando texto extenso para campo phone: (34) 3242-8281...
+2025-05-22 02:00:34,052 - P14756 - INFO - Texto limpo: 34) 3242-8281
+2025-05-22 02:00:34,052 - P14756 - INFO - Telefone validado: 34) 3242-8281
+2025-05-22 02:00:34,053 - P14756 - INFO - Validando email: ['ccsp@prefeitura.sp.gov.br', 'bcsp.mschenberg@prefeitura.sp.gov.br', 'bcsp.ppmaia@prefeitura.sp.gov.br']
+2025-05-22 02:00:34,053 - P14756 - INFO - Limpando texto extenso para campo email: ccsp@prefeitura.sp.gov.br...
+2025-05-22 02:00:34,054 - P14756 - INFO - Texto limpo: ccsp@prefeitura.sp.gov.br
+2025-05-22 02:00:34,054 - P14756 - INFO - Email validado: ccsp@prefeitura.sp.gov.br
+2025-05-22 02:00:34,055 - P14756 - INFO - Validando complemento: ['Sala de Imprensa   Notícias do CFM   Saiu na imprensa ', 'Sala de Imprensa ', 'Salas de Apoio e Acompanhamento à Inclusão - SAAI']
+2025-05-22 02:00:34,055 - P14756 - INFO - Limpando texto extenso para campo complement: Sala de Imprensa   Notícias do CFM   Saiu na impre...
+2025-05-22 02:00:34,056 - P14756 - INFO - Texto limpo: Sala de Imprensa Notícias do
+2025-05-22 02:00:34,056 - P14756 - INFO - Complemento validado: Sala de Imprensa Notícias do
+2025-05-22 02:00:34,058 - P14756 - INFO - Descobrindo cidade
+2025-05-22 02:00:34,059 - P14756 - INFO - Buscando cidade: Rua dos Timbiras cidade MG
+2025-05-22 02:00:36,719 - P14756 - WARNING - Cidade não encontrada
+2025-05-22 02:00:36,719 - P14756 - INFO - Cidade descoberta: 
+2025-05-22 02:00:36,719 - P14756 - INFO - Tempo de execução de processamento completo do médico: 58.68 segundos
+2025-05-22 02:00:36,720 - P14756 - INFO - Resultado processado: {'Hash': 'e8fc7ce61d2a49b8a62d86404a6584f25c93668c1eee8f197d02fd2bc43dd0d4', 'CRM': '5614', 'UF': 'MG', 'Firstname': 'LUIZ', 'LastName': 'FERNANDO BORGES OLIVEIRA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua dos Timbiras, 1200', 'Address A1': 'Rua dos Timbiras', 'Numero A1': '1200', 'Complement A1': 'Sala de Imprensa Notícias do', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '34) 3242-8281', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'ccsp@prefeitura.sp.gov.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:00:36,721 - P14756 - INFO - Salvando lote de resultados
+2025-05-22 02:00:36,721 - P14756 - INFO - Após salvar resultados Uso de memória: 98.53 MB
+2025-05-22 02:00:36,722 - P14756 - INFO - Progresso: 15.0%
+2025-05-22 02:00:36,722 - P14756 - INFO - Tempo de execução de processamento do médico 3: 58.69 segundos
+2025-05-22 02:00:36,722 - P14756 - INFO - Tempo de execução de processamento do lote completo: 196.88 segundos

@@ -1,0 +1,1263 @@
+<html lang="pt-BR"><head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="2.0.3",this.userEvents=["keydown","keyup","mousedown","mouseup","mousemove","mouseover","mouseenter","mouseout","mouseleave","touchmove","touchstart","touchend","touchcancel","wheel","click","dblclick","input","visibilitychange"],this.attributeEvents=["onblur","onclick","oncontextmenu","ondblclick","onfocus","onmousedown","onmouseenter","onmouseleave","onmousemove","onmouseout","onmouseover","onmouseup","onmousewheel","onscroll","onsubmit"]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),this.F("domReady"),await this.T(),await this.j(),await this.I(),this.F("windowLoad"),await this.A(),window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.lastTouchEnd&&await new Promise((t=>setTimeout(t,500-Date.now()+this.lastTouchEnd))),this.H(),this.F("all"),this.U(),this.W()}i(){this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",(t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))}),{isRocket:!0})}o(){window.addEventListener("pageshow",(t=>{this.persisted=t.persisted,this.realWindowLoadedFired=!0}),{isRocket:!0}),window.addEventListener("pagehide",(()=>{this.onFirstUserAction=null}),{isRocket:!0})}h(){let t;function e(e){t=e}window.addEventListener("touchstart",e,{isRocket:!0}),window.addEventListener("touchend",(function i(o){Math.abs(o.changedTouches[0].pageX-t.changedTouches[0].pageX)<10&&Math.abs(o.changedTouches[0].pageY-t.changedTouches[0].pageY)<10&&o.timeStamp-t.timeStamp<200&&(o.target.dispatchEvent(new PointerEvent("click",{target:o.target,bubbles:!0,cancelable:!0,detail:1})),event.preventDefault(),window.removeEventListener("touchstart",e,{isRocket:!0}),window.removeEventListener("touchend",i,{isRocket:!0}))}),{isRocket:!0})}q(t){this.userActionTriggered||("mousemove"!==t.type||this.firstMousemoveIgnored?"keyup"===t.type||"mouseover"===t.type||"mouseout"===t.type||(this.userActionTriggered=!0,this.onFirstUserAction&&this.onFirstUserAction()):this.firstMousemoveIgnored=!0),"click"===t.type&&t.preventDefault(),this.savedUserEvents.length>0&&(t.stopPropagation(),t.stopImmediatePropagation()),"touchstart"===this.lastEvent&&"touchend"===t.type&&(this.lastTouchEnd=Date.now()),"click"===t.type&&(this.lastTouchEnd=0),this.lastEvent=t.type,this.savedUserEvents.push(t)}u(){this.savedUserEvents=[],this.userEventHandler=this.q.bind(this),this.userEvents.forEach((t=>window.addEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})))}U(){this.userEvents.forEach((t=>window.removeEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0}))),this.savedUserEvents.forEach((t=>{t.target.dispatchEvent(new window[t.constructor.name](t.type,t))}))}m(){this.eventsMutationObserver=new MutationObserver((t=>{const e="return false";for(const i of t){if("attributes"===i.type){const t=i.target.getAttribute(i.attributeName);t&&t!==e&&(i.target.setAttribute("data-rocket-"+i.attributeName,t),i.target["rocket"+i.attributeName]=new Function("event",t),i.target.setAttribute(i.attributeName,e))}"childList"===i.type&&i.addedNodes.forEach((t=>{if(t.nodeType===Node.ELEMENT_NODE)for(const i of t.attributes)this.attributeEvents.includes(i.name)&&i.value&&""!==i.value&&(t.setAttribute("data-rocket-"+i.name,i.value),t["rocket"+i.name]=new Function("event",i.value),t.setAttribute(i.name,e))}))}})),this.eventsMutationObserver.observe(document,{subtree:!0,childList:!0,attributeFilter:this.attributeEvents})}H(){this.eventsMutationObserver.disconnect(),this.attributeEvents.forEach((t=>{document.querySelectorAll("[data-rocket-"+t+"]").forEach((e=>{e.setAttribute(t,e.getAttribute("data-rocket-"+t)),e.removeAttribute("data-rocket-"+t)}))}))}k(t){Object.defineProperty(HTMLElement.prototype,"onclick",{get(){return this.rocketonclick||null},set(e){this.rocketonclick=e,this.setAttribute(t.everythingLoaded?"onclick":"data-rocket-onclick","this.rocketonclick(event)")}})}S(t){function e(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o,set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}e(document,"onreadystatechange"),e(window,"onload"),e(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}l(t){this.originalAddEventListener=EventTarget.prototype.addEventListener,this.originalRemoveEventListener=EventTarget.prototype.removeEventListener,this.savedEventListeners=[],EventTarget.prototype.addEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalAddEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!1,type:e,func:i,options:o})},EventTarget.prototype.removeEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalRemoveEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!0,type:e,func:i,options:o})}}F(t){"all"===t&&(EventTarget.prototype.addEventListener=this.originalAddEventListener,EventTarget.prototype.removeEventListener=this.originalRemoveEventListener),this.savedEventListeners=this.savedEventListeners.filter((e=>{let i=e.type,o=e.target||window;return"domReady"===t&&"DOMContentLoaded"!==i&&"readystatechange"!==i||("windowLoad"===t&&"load"!==i&&"readystatechange"!==i&&"pageshow"!==i||(this.B(i,o)&&(i="rocket-"+i),e.remove?o.removeEventListener(i,e.func,e.options):o.addEventListener(i,e.func,e.options),!1))}))}p(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map((t=>"load"===t||t.startsWith("load.")?"rocket-jquery-load":t)).join(" ")}function o(o){function s(e){const s=o.fn[e];o.fn[e]=o.fn.init.prototype[e]=function(){return this[0]===window&&t.userActionTriggered&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e}))),s.apply(this,arguments),this}}if(o&&o.fn&&!t.allJQueries.includes(o)){const e={DOMContentLoaded:[],"rocket-DOMContentLoaded":[]};for(const t in e)document.addEventListener(t,(()=>{e[t].forEach((t=>t()))}),{isRocket:!0});o.fn.ready=o.fn.init.prototype.ready=function(i){function s(){parseInt(o.fn.jquery)>2?setTimeout((()=>i.bind(document)(o))):i.bind(document)(o)}return t.realDomReadyFired?!t.userActionTriggered||t.fauxDomReadyFired?s():e["rocket-DOMContentLoaded"].push(s):e.DOMContentLoaded.push(s),o([])},s("on"),s("one"),s("off"),t.allJQueries.push(o)}e=o}t.allJQueries=[],o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}P(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript,o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async R(){return new Promise((t=>{this.userActionTriggered?t():this.onFirstUserAction=t}))}async L(){return new Promise((t=>{document.addEventListener("DOMContentLoaded",(()=>{this.realDomReadyFired=!0,t()}),{isRocket:!0})}))}async I(){return this.realWindowLoadedFired?Promise.resolve():new Promise((t=>{window.addEventListener("load",t,{isRocket:!0})}))}M(){this.pendingScripts=[];this.scriptsMutationObserver=new MutationObserver((t=>{for(const e of t)e.addedNodes.forEach((t=>{"SCRIPT"!==t.tagName||t.noModule||t.isWPRocket||this.pendingScripts.push({script:t,promise:new Promise((e=>{const i=()=>{const i=this.pendingScripts.findIndex((e=>e.script===t));i>=0&&this.pendingScripts.splice(i,1),e()};t.addEventListener("load",i,{isRocket:!0}),t.addEventListener("error",i,{isRocket:!0}),setTimeout(i,1e3)}))})}))})),this.scriptsMutationObserver.observe(document,{childList:!0,subtree:!0})}async j(){await this.J(),this.pendingScripts.length?(await this.pendingScripts[0].promise,await this.j()):this.scriptsMutationObserver.disconnect()}D(){this.delayedScripts={normal:[],async:[],defer:[]},document.querySelectorAll("script[type$=rocketlazyloadscript]").forEach((t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)}))}async _(){await this.L();let t=[];document.querySelectorAll("script[type$=rocketlazyloadscript][data-rocket-src]").forEach((e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){i.startsWith("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}})),t=[...new Map(t.map((t=>[JSON.stringify(t),t]))).values()],this.N(t,"preconnect")}async $(t){if(await this.G(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise((e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.includes("Firefox/")||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach((t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))})),t.text&&(i.text=t.text),t.nonce&&(i.nonce=t.nonce),i.hasAttribute("src")?(i.addEventListener("load",o,{isRocket:!0}),i.addEventListener("error",(()=>{i.setAttribute("data-rocket-status","failed-network"),e()}),{isRocket:!0}),setTimeout((()=>{i.isConnected||e()}),1)):(i.text=t.text,o()),i.isWPRocket=!0,t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o,{isRocket:!0}),t.addEventListener("error",(i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: CSP fallback activated"),t.removeAttribute("src"),this.$(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())}),{isRocket:!0}),s?(t.fetchPriority="high",t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}}));t.setAttribute("data-rocket-status","skipped")}async C(t){const e=t.shift();return e?(e.isConnected&&await this.$(e),this.C(t)):Promise.resolve()}O(){this.N([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}N(t,e){this.trash=this.trash||[];let i=!0;var o=document.createDocumentFragment();t.forEach((t=>{const s=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(s&&!s.startsWith("data:")){const n=document.createElement("link");n.href=s,n.rel=e,"preconnect"!==e&&(n.as="script",n.fetchPriority=i?"high":"low"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),t.nonce&&(n.nonce=t.nonce),o.appendChild(n),this.trash.push(n),i=!1}})),document.head.appendChild(o)}W(){this.trash.forEach((t=>t.remove()))}async T(){try{document.readyState="interactive"}catch(t){}this.fauxDomReadyFired=!0;try{await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.G(),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}catch(t){console.error(t)}}async A(){try{document.readyState="complete"}catch(t){}try{await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),window.dispatchEvent(new Event("rocket-load")),await this.G(),window.rocketonload&&window.rocketonload(),await this.G(),this.allJQueries.forEach((t=>t(window).trigger("rocket-jquery-load"))),await this.G();const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.G(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}catch(t){console.error(t)}}async G(){Date.now()-this.lastBreath>45&&(await this.J(),this.lastBreath=Date.now())}async J(){return document.hidden?new Promise((t=>setTimeout(t))):new Promise((t=>requestAnimationFrame(t)))}B(t,e){return e===document&&"readystatechange"===t||(e===document&&"DOMContentLoaded"===t||(e===window&&"DOMContentLoaded"===t||(e===window&&"load"===t||e===window&&"pageshow"===t)))}static run(){(new RocketLazyLoadScripts).t()}}RocketLazyLoadScripts.run()})();</script>
+	
+	<!-- Google tag (gtag.js) -->
+<script type="rocketlazyloadscript" async="" data-rocket-src="http://www.googletagmanager.com/gtag/js?id=G-17WF117RD9"></script>
+<script type="rocketlazyloadscript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-17WF117RD9');
+</script>
+
+
+<script type="rocketlazyloadscript" data-minify="1" async="" data-rocket-type="application/javascript" data-rocket-src="https://anoticiaonline.com.br/site/wp-content/cache/min/1/swg/js/v1/swg-basic.js?ver=1745068810"></script>
+<script type="rocketlazyloadscript">
+  (self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {
+    basicSubscriptions.init({
+      type: "NewsArticle",
+      isPartOfType: ["Product"],
+      isPartOfProductId: "CAowzLnUCw:openaccess",
+      clientOptions: { theme: "light", lang: "pt-BR" },
+    });
+  });
+</script><!-- Manifest added by SuperPWA - Progressive Web Apps Plugin For WordPress -->
+<link rel="manifest" href="/site/superpwa-manifest.json">
+<meta name="theme-color" content="#ffffff">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-title" content="A Notícia Online">
+<meta name="application-name" content="A Notícia Online">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="apple-touch-icon" href="/site/wp-content/uploads/2022/10/x1-2.png.pagespeed.ic.6dXyU9Nhai.webp">
+<link rel="apple-touch-icon" sizes="192x192" href="/site/wp-content/uploads/2022/10/x1-2.png.pagespeed.ic.6dXyU9Nhai.webp">
+<!-- / SuperPWA.com -->
+<title>Título de Cidadania Honorária é entregue a Lucas Monteiro de Oliveira </title>
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) {contain-intrinsic-size:3000px 1500px}</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="&nbsp; O homenageado com o Título de Cidadania Honorária, Lucas Monteiro de Oliveira, nasceu no dia primeiro de setembro de 1986, na Fazenda Lambari, no município de Miradouro. Filho de Wilson José de Oliveira e Nilda Gonçalves Oliveira, estudou o ensino médio na Escola Padre Alfredo Kobal, também em Miradouro.…">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://anoticiaonline.com.br/site/titulo-de-cidadania-honoraria-e-entregue-a-lucas-monteiro-de-oliveira/">
+<meta property="og:url" content="https://anoticiaonline.com.br/site/titulo-de-cidadania-honoraria-e-entregue-a-lucas-monteiro-de-oliveira/">
+<meta property="og:site_name" content="A Notícia Online">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="article">
+<meta property="article:author" content="http://www.facebook.com/a.noticiamuriae/">
+<meta property="article:publisher" content="http://www.facebook.com/a.noticiamuriae/">
+<meta property="article:section" content="Blog">
+<meta property="og:title" content="Título de Cidadania Honorária é entregue a Lucas Monteiro de Oliveira ">
+<meta property="og:description" content="&nbsp; O homenageado com o Título de Cidadania Honorária, Lucas Monteiro de Oliveira, nasceu no dia primeiro de setembro de 1986, na Fazenda Lambari, no município de Miradouro. Filho de Wilson José de Oliveira e Nilda Gonçalves Oliveira, estudou o ensino médio na Escola Padre Alfredo Kobal, também em Miradouro.…">
+<meta property="og:image" content="https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/cropped-A-Noticia-Logo-site.png">
+<meta property="og:image:secure_url" content="https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/cropped-A-Noticia-Logo-site.png">
+<meta property="og:image:width" content="512">
+<meta property="og:image:height" content="512">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Título de Cidadania Honorária é entregue a Lucas Monteiro de Oliveira ">
+<meta name="twitter:description" content="&nbsp; O homenageado com o Título de Cidadania Honorária, Lucas Monteiro de Oliveira, nasceu no dia primeiro de setembro de 1986, na Fazenda Lambari, no município de Miradouro. Filho de Wilson José de Oliveira e Nilda Gonçalves Oliveira, estudou o ensino médio na Escola Padre Alfredo Kobal, também em Miradouro.…">
+
+<link rel="alternate" type="application/rss+xml" title="Feed para A Notícia Online »" href="https://anoticiaonline.com.br/site/feed/">
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para A Notícia Online »" href="https://anoticiaonline.com.br/site/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para A Notícia Online » Título de Cidadania Honorária é entregue a Lucas Monteiro de Oliveira" href="https://anoticiaonline.com.br/site/titulo-de-cidadania-honoraria-e-entregue-a-lucas-monteiro-de-oliveira/feed/">
+<script type="rocketlazyloadscript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/anoticiaonline.com.br\/site\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\ud83d\udd25","\ud83d\udc26\u200b\ud83d\udd25")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<link rel="stylesheet" id="sbi_styles-css" href="https://anoticiaonline.com.br/site/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=6.9.1" media="all">
+<style id="wp-emoji-styles-inline-css">img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-.1em!important;background:none!important;padding:0!important}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="https://anoticiaonline.com.br/site/wp-includes/css/dist/block-library/style.min.css?ver=6.8.1" media="all">
+<style id="classic-theme-styles-inline-css">.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<link data-minify="1" rel="stylesheet" id="jet-engine-frontend-css" href="https://anoticiaonline.com.br/site/wp-content/cache/min/1/site/wp-content/plugins/jet-engine/assets/css/frontend.css?ver=1745068809" media="all">
+<style id="global-styles-inline-css">:root{--wp--preset--aspect-ratio--square:1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black:#000;--wp--preset--color--cyan-bluish-gray:#abb8c3;--wp--preset--color--white:#fff;--wp--preset--color--pale-pink:#f78da7;--wp--preset--color--vivid-red:#cf2e2e;--wp--preset--color--luminous-vivid-orange:#ff6900;--wp--preset--color--luminous-vivid-amber:#fcb900;--wp--preset--color--light-green-cyan:#7bdcb5;--wp--preset--color--vivid-green-cyan:#00d084;--wp--preset--color--pale-cyan-blue:#8ed1fc;--wp--preset--color--vivid-cyan-blue:#0693e3;--wp--preset--color--vivid-purple:#9b51e0;--wp--preset--color--contrast:var(--contrast);--wp--preset--color--contrast-2:var(--contrast-2);--wp--preset--color--contrast-3:var(--contrast-3);--wp--preset--color--base:var(--base);--wp--preset--color--base-2:var(--base-2);--wp--preset--color--base-3:var(--base-3);--wp--preset--color--accent:var(--accent);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple:linear-gradient(135deg,rgba(6,147,227,1) 0%,#9b51e0 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan:linear-gradient(135deg,#7adcb4 0%,#00d082 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange:linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red:linear-gradient(135deg,rgba(255,105,0,1) 0%,#cf2e2e 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray:linear-gradient(135deg,#eee 0%,#a9b8c3 100%);--wp--preset--gradient--cool-to-warm-spectrum:linear-gradient(135deg,#4aeadc 0%,#9778d1 20%,#cf2aba 40%,#ee2c82 60%,#fb6962 80%,#fef84c 100%);--wp--preset--gradient--blush-light-purple:linear-gradient(135deg,#ffceec 0%,#9896f0 100%);--wp--preset--gradient--blush-bordeaux:linear-gradient(135deg,#fecda5 0%,#fe2d2d 50%,#6b003e 100%);--wp--preset--gradient--luminous-dusk:linear-gradient(135deg,#ffcb70 0%,#c751c0 50%,#4158d0 100%);--wp--preset--gradient--pale-ocean:linear-gradient(135deg,#fff5cb 0%,#b6e3d4 50%,#33a7b5 100%);--wp--preset--gradient--electric-grass:linear-gradient(135deg,#caf880 0%,#71ce7e 100%);--wp--preset--gradient--midnight:linear-gradient(135deg,#020381 0%,#2874fc 100%);--wp--preset--font-size--small:13px;--wp--preset--font-size--medium:20px;--wp--preset--font-size--large:36px;--wp--preset--font-size--x-large:42px;--wp--preset--spacing--20:.44rem;--wp--preset--spacing--30:.67rem;--wp--preset--spacing--40:1rem;--wp--preset--spacing--50:1.5rem;--wp--preset--spacing--60:2.25rem;--wp--preset--spacing--70:3.38rem;--wp--preset--spacing--80:5.06rem;--wp--preset--shadow--natural:6px 6px 9px rgba(0,0,0,.2);--wp--preset--shadow--deep:12px 12px 50px rgba(0,0,0,.4);--wp--preset--shadow--sharp:6px 6px 0 rgba(0,0,0,.2);--wp--preset--shadow--outlined:6px 6px 0 -3px rgba(255,255,255,1) , 6px 6px rgba(0,0,0,1);--wp--preset--shadow--crisp:6px 6px 0 rgba(0,0,0,1)}:where(.is-layout-flex){gap:.5em}:where(.is-layout-grid){gap:.5em}body .is-layout-flex{display:flex}.is-layout-flex{flex-wrap:wrap;align-items:center}.is-layout-flex > :is(*, div){margin:0}body .is-layout-grid{display:grid}.is-layout-grid > :is(*, div){margin:0}:where(.wp-block-columns.is-layout-flex){gap:2em}:where(.wp-block-columns.is-layout-grid){gap:2em}:where(.wp-block-post-template.is-layout-flex){gap:1.25em}:where(.wp-block-post-template.is-layout-grid){gap:1.25em}.has-black-color{color:var(--wp--preset--color--black)!important}.has-cyan-bluish-gray-color{color:var(--wp--preset--color--cyan-bluish-gray)!important}.has-white-color{color:var(--wp--preset--color--white)!important}.has-pale-pink-color{color:var(--wp--preset--color--pale-pink)!important}.has-vivid-red-color{color:var(--wp--preset--color--vivid-red)!important}.has-luminous-vivid-orange-color{color:var(--wp--preset--color--luminous-vivid-orange)!important}.has-luminous-vivid-amber-color{color:var(--wp--preset--color--luminous-vivid-amber)!important}.has-light-green-cyan-color{color:var(--wp--preset--color--light-green-cyan)!important}.has-vivid-green-cyan-color{color:var(--wp--preset--color--vivid-green-cyan)!important}.has-pale-cyan-blue-color{color:var(--wp--preset--color--pale-cyan-blue)!important}.has-vivid-cyan-blue-color{color:var(--wp--preset--color--vivid-cyan-blue)!important}.has-vivid-purple-color{color:var(--wp--preset--color--vivid-purple)!important}.has-black-background-color{background-color:var(--wp--preset--color--black)!important}.has-cyan-bluish-gray-background-color{background-color:var(--wp--preset--color--cyan-bluish-gray)!important}.has-white-background-color{background-color:var(--wp--preset--color--white)!important}.has-pale-pink-background-color{background-color:var(--wp--preset--color--pale-pink)!important}.has-vivid-red-background-color{background-color:var(--wp--preset--color--vivid-red)!important}.has-luminous-vivid-orange-background-color{background-color:var(--wp--preset--color--luminous-vivid-orange)!important}.has-luminous-vivid-amber-background-color{background-color:var(--wp--preset--color--luminous-vivid-amber)!important}.has-light-green-cyan-background-color{background-color:var(--wp--preset--color--light-green-cyan)!important}.has-vivid-green-cyan-background-color{background-color:var(--wp--preset--color--vivid-green-cyan)!important}.has-pale-cyan-blue-background-color{background-color:var(--wp--preset--color--pale-cyan-blue)!important}.has-vivid-cyan-blue-background-color{background-color:var(--wp--preset--color--vivid-cyan-blue)!important}.has-vivid-purple-background-color{background-color:var(--wp--preset--color--vivid-purple)!important}.has-black-border-color{border-color:var(--wp--preset--color--black)!important}.has-cyan-bluish-gray-border-color{border-color:var(--wp--preset--color--cyan-bluish-gray)!important}.has-white-border-color{border-color:var(--wp--preset--color--white)!important}.has-pale-pink-border-color{border-color:var(--wp--preset--color--pale-pink)!important}.has-vivid-red-border-color{border-color:var(--wp--preset--color--vivid-red)!important}.has-luminous-vivid-orange-border-color{border-color:var(--wp--preset--color--luminous-vivid-orange)!important}.has-luminous-vivid-amber-border-color{border-color:var(--wp--preset--color--luminous-vivid-amber)!important}.has-light-green-cyan-border-color{border-color:var(--wp--preset--color--light-green-cyan)!important}.has-vivid-green-cyan-border-color{border-color:var(--wp--preset--color--vivid-green-cyan)!important}.has-pale-cyan-blue-border-color{border-color:var(--wp--preset--color--pale-cyan-blue)!important}.has-vivid-cyan-blue-border-color{border-color:var(--wp--preset--color--vivid-cyan-blue)!important}.has-vivid-purple-border-color{border-color:var(--wp--preset--color--vivid-purple)!important}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background:var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple)!important}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background:var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan)!important}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background:var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange)!important}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background:var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red)!important}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background:var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray)!important}.has-cool-to-warm-spectrum-gradient-background{background:var(--wp--preset--gradient--cool-to-warm-spectrum)!important}.has-blush-light-purple-gradient-background{background:var(--wp--preset--gradient--blush-light-purple)!important}.has-blush-bordeaux-gradient-background{background:var(--wp--preset--gradient--blush-bordeaux)!important}.has-luminous-dusk-gradient-background{background:var(--wp--preset--gradient--luminous-dusk)!important}.has-pale-ocean-gradient-background{background:var(--wp--preset--gradient--pale-ocean)!important}.has-electric-grass-gradient-background{background:var(--wp--preset--gradient--electric-grass)!important}.has-midnight-gradient-background{background:var(--wp--preset--gradient--midnight)!important}.has-small-font-size{font-size:var(--wp--preset--font-size--small)!important}.has-medium-font-size{font-size:var(--wp--preset--font-size--medium)!important}.has-large-font-size{font-size:var(--wp--preset--font-size--large)!important}.has-x-large-font-size{font-size:var(--wp--preset--font-size--x-large)!important}:where(.wp-block-post-template.is-layout-flex){gap:1.25em}:where(.wp-block-post-template.is-layout-grid){gap:1.25em}:where(.wp-block-columns.is-layout-flex){gap:2em}:where(.wp-block-columns.is-layout-grid){gap:2em}:root :where(.wp-block-pullquote){font-size:1.5em;line-height:1.6}</style>
+<link rel="stylesheet" id="generate-comments-css" href="https://anoticiaonline.com.br/site/wp-content/themes/generatepress/assets/css/components/comments.min.css?ver=3.5.1" media="all">
+<link rel="stylesheet" id="generate-widget-areas-css" href="https://anoticiaonline.com.br/site/wp-content/themes/generatepress/assets/css/components/widget-areas.min.css?ver=3.5.1" media="all">
+<link rel="stylesheet" id="generate-style-css" href="https://anoticiaonline.com.br/site/wp-content/themes/generatepress/assets/css/main.min.css?ver=3.5.1" media="all">
+<style id="generate-style-inline-css">body{background-color:var(--base-2);color:var(--contrast)}a{color:var(--accent)}a{text-decoration:underline}.entry-title a,.site-branding a,a.button,.wp-block-button__link,.main-navigation a{text-decoration:none}a:hover,a:focus,a:active{color:var(--contrast)}.wp-block-group__inner-container{max-width:1200px;margin-left:auto;margin-right:auto}:root{--contrast:#222;--contrast-2:#575760;--contrast-3:#b2b2be;--base:#f0f0f0;--base-2:#f7f8f9;--base-3:#fff;--accent:#1e73be}:root .has-contrast-color{color:var(--contrast)}:root .has-contrast-background-color{background-color:var(--contrast)}:root .has-contrast-2-color{color:var(--contrast-2)}:root .has-contrast-2-background-color{background-color:var(--contrast-2)}:root .has-contrast-3-color{color:var(--contrast-3)}:root .has-contrast-3-background-color{background-color:var(--contrast-3)}:root .has-base-color{color:var(--base)}:root .has-base-background-color{background-color:var(--base)}:root .has-base-2-color{color:var(--base-2)}:root .has-base-2-background-color{background-color:var(--base-2)}:root .has-base-3-color{color:var(--base-3)}:root .has-base-3-background-color{background-color:var(--base-3)}:root .has-accent-color{color:var(--accent)}:root .has-accent-background-color{background-color:var(--accent)}.top-bar{background-color:#636363;color:#fff}.top-bar a{color:#fff}.top-bar a:hover{color:#303030}.site-header{background-color:var(--base-3)}.main-title a,.main-title a:hover{color:var(--contrast)}.site-description{color:var(--contrast-2)}.mobile-menu-control-wrapper .menu-toggle,.mobile-menu-control-wrapper .menu-toggle:hover,.mobile-menu-control-wrapper .menu-toggle:focus,.has-inline-mobile-toggle #site-navigation.toggled{background-color:rgba(0,0,0,.02)}.main-navigation,.main-navigation ul ul{background-color:var(--base-3)}.main-navigation .main-nav ul li a,.main-navigation .menu-toggle,.main-navigation .menu-bar-items{color:var(--contrast)}.main-navigation .main-nav ul li:not([class*="current-menu-"]):hover > a, .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus > a, .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"]) > a, .main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{color:var(--accent)}button.menu-toggle:hover,button.menu-toggle:focus{color:var(--contrast)}.main-navigation .main-nav ul li[class*="current-menu-"]>a{color:var(--accent)}.navigation-search input[type="search"],.navigation-search input[type="search"]:active,.navigation-search input[type="search"]:focus,.main-navigation .main-nav ul li.search-item.active>a,.main-navigation .menu-bar-items .search-item.active>a{color:var(--accent)}.main-navigation ul ul{background-color:var(--base)}.separate-containers .inside-article,.separate-containers .comments-area,.separate-containers .page-header,.one-container .container,.separate-containers .paging-navigation,.inside-page-header{background-color:var(--base-3)}.entry-title a{color:var(--contrast)}.entry-title a:hover{color:var(--contrast-2)}.entry-meta{color:var(--contrast-2)}.sidebar .widget{background-color:var(--base-3)}.footer-widgets{background-color:var(--base-3)}.site-info{background-color:var(--base-3)}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="tel"],input[type="number"],textarea,select{color:var(--contrast);background-color:var(--base-2);border-color:var(--base)}input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="number"]:focus,textarea:focus,select:focus{color:var(--contrast);background-color:var(--base-2);border-color:var(--contrast-3)}button,html input[type="button"],input[type="reset"],input[type="submit"],a.button,a.wp-block-button__link:not(.has-background){color:#fff;background-color:#55555e}button:hover,html input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,a.button:hover,button:focus,html input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,a.button:focus,a.wp-block-button__link:not(.has-background):active,a.wp-block-button__link:not(.has-background):focus,a.wp-block-button__link:not(.has-background):hover{color:#fff;background-color:#3f4047}a.generate-back-to-top{background-color:rgba(0,0,0,.4);color:#fff}a.generate-back-to-top:hover,a.generate-back-to-top:focus{background-color:rgba(0,0,0,.6);color:#fff}:root{--gp-search-modal-bg-color:var(--base-3);--gp-search-modal-text-color:var(--contrast);--gp-search-modal-overlay-bg-color:rgba(0,0,0,.2)}@media (max-width:768px){.main-navigation .menu-bar-item:hover>a,.main-navigation .menu-bar-item.sfHover>a{background:none;color:var(--contrast)}}.nav-below-header .main-navigation .inside-navigation.grid-container,.nav-above-header .main-navigation .inside-navigation.grid-container{padding:0 20px 0 20px}.site-main .wp-block-group__inner-container{padding:40px}.separate-containers .paging-navigation{padding-top:20px;padding-bottom:20px}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-40px;width:calc(100% + 80px);max-width:calc(100% + 80px)}.rtl .menu-item-has-children .dropdown-menu-toggle{padding-left:20px}.rtl .main-navigation .main-nav ul li.menu-item-has-children>a{padding-right:20px}@media (max-width:768px){.separate-containers .inside-article,.separate-containers .comments-area,.separate-containers .page-header,.separate-containers .paging-navigation,.one-container .site-content,.inside-page-header{padding:30px}.site-main .wp-block-group__inner-container{padding:30px}.inside-top-bar{padding-right:30px;padding-left:30px}.inside-header{padding-right:30px;padding-left:30px}.widget-area .widget{padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px}.footer-widgets-container{padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px}.inside-site-info{padding-right:30px;padding-left:30px}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-30px;width:calc(100% + 60px);max-width:calc(100% + 60px)}.one-container .site-main .paging-navigation{margin-bottom:20px}}.is-right-sidebar{width:30%}.is-left-sidebar{width:30%}.site-content .content-area{width:70%}@media (max-width:768px){.main-navigation .menu-toggle,.sidebar-nav-mobile:not(#sticky-placeholder){display:block}.main-navigation ul,.gen-sidebar-nav,.main-navigation:not(.slideout-navigation):not(.toggled) .main-nav > ul,.has-inline-mobile-toggle #site-navigation .inside-navigation > *:not(.navigation-search):not(.main-nav){display:none}.nav-align-right .inside-navigation,.nav-align-center .inside-navigation{justify-content:space-between}.has-inline-mobile-toggle .mobile-menu-control-wrapper{display:flex;flex-wrap:wrap}.has-inline-mobile-toggle .inside-header{flex-direction:row;text-align:left;flex-wrap:wrap}.has-inline-mobile-toggle .header-widget,.has-inline-mobile-toggle #site-navigation{flex-basis:100%}.nav-float-left .has-inline-mobile-toggle #site-navigation{order:10}}.elementor-template-full-width .site-content{display:block}</style>
+<link rel="stylesheet" id="elementor-frontend-css" href="https://anoticiaonline.com.br/site/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.28.3" media="all">
+<link rel="stylesheet" id="widget-image-css" href="https://anoticiaonline.com.br/site/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.28.3" media="all">
+<link rel="stylesheet" id="widget-nav-menu-css" href="https://anoticiaonline.com.br/site/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css?ver=3.28.3" media="all">
+<link rel="stylesheet" id="widget-search-form-css" href="https://anoticiaonline.com.br/site/wp-content/plugins/elementor-pro/assets/css/widget-search-form.min.css?ver=3.28.3" media="all">
+<link rel="stylesheet" id="elementor-icons-shared-0-css" href="https://anoticiaonline.com.br/site/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3" media="all">
+<link data-minify="1" rel="stylesheet" id="elementor-icons-fa-solid-css" href="https://anoticiaonline.com.br/site/wp-content/cache/min/1/site/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=1745068809" media="all">
+<link rel="stylesheet" id="e-motion-fx-css" href="https://anoticiaonline.com.br/site/wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css?ver=3.28.3" media="all">
+<link rel="stylesheet" id="widget-icon-list-css" href="https://anoticiaonline.com.br/site/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.28.3" media="all">
+<link rel="stylesheet" id="widget-social-icons-css" href="https://anoticiaonline.com.br/site/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.28.3" media="all">
+<link rel="stylesheet" id="e-apple-webkit-css" href="https://anoticiaonline.com.br/site/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=3.28.3" media="all">
+<link rel="stylesheet" id="widget-heading-css" href="https://anoticiaonline.com.br/site/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.28.3" media="all">
+<link data-minify="1" rel="stylesheet" id="swiper-css" href="https://anoticiaonline.com.br/site/wp-content/cache/min/1/site/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=1745068809" media="all">
+<link rel="stylesheet" id="e-swiper-css" href="https://anoticiaonline.com.br/site/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.28.3" media="all">
+<link rel="stylesheet" id="widget-post-info-css" href="https://anoticiaonline.com.br/site/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css?ver=3.28.3" media="all">
+<link data-minify="1" rel="stylesheet" id="elementor-icons-fa-regular-css" href="https://anoticiaonline.com.br/site/wp-content/cache/min/1/site/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=1745068809" media="all">
+<link rel="stylesheet" id="widget-share-buttons-css" href="https://anoticiaonline.com.br/site/wp-content/plugins/elementor-pro/assets/css/widget-share-buttons.min.css?ver=3.28.3" media="all">
+<link data-minify="1" rel="stylesheet" id="elementor-icons-fa-brands-css" href="https://anoticiaonline.com.br/site/wp-content/cache/min/1/site/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=1745068809" media="all">
+<link rel="stylesheet" id="widget-divider-css" href="https://anoticiaonline.com.br/site/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=3.28.3" media="all">
+<link rel="stylesheet" id="widget-post-navigation-css" href="https://anoticiaonline.com.br/site/wp-content/plugins/elementor-pro/assets/css/widget-post-navigation.min.css?ver=3.28.3" media="all">
+<link rel="stylesheet" id="widget-posts-css" href="https://anoticiaonline.com.br/site/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css?ver=3.28.3" media="all">
+<link rel="stylesheet" id="widget-spacer-css" href="https://anoticiaonline.com.br/site/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=3.28.3" media="all">
+<link rel="stylesheet" id="jet-blocks-css" href="https://anoticiaonline.com.br/site/wp-content/uploads/elementor/css/custom-jet-blocks.css?ver=1.3.17" media="all">
+<link data-minify="1" rel="stylesheet" id="elementor-icons-css" href="https://anoticiaonline.com.br/site/wp-content/cache/min/1/site/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=1745068809" media="all">
+<link rel="stylesheet" id="elementor-post-101277-css" href="https://anoticiaonline.com.br/site/wp-content/uploads/elementor/css/post-101277.css?ver=1745067583" media="all">
+<link data-minify="1" rel="stylesheet" id="font-awesome-5-all-css" href="https://anoticiaonline.com.br/site/wp-content/cache/min/1/site/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=1745068809" media="all">
+<link rel="stylesheet" id="font-awesome-4-shim-css" href="https://anoticiaonline.com.br/site/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.28.3" media="all">
+<link rel="stylesheet" id="sbistyles-css" href="https://anoticiaonline.com.br/site/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=6.9.1" media="all">
+<link rel="stylesheet" id="elementor-post-101324-css" href="https://anoticiaonline.com.br/site/wp-content/uploads/elementor/css/post-101324.css?ver=1745067583" media="all">
+<link rel="stylesheet" id="elementor-post-101336-css" href="https://anoticiaonline.com.br/site/wp-content/uploads/elementor/css/post-101336.css?ver=1745067583" media="all">
+<link rel="stylesheet" id="elementor-post-103443-css" href="https://anoticiaonline.com.br/site/wp-content/uploads/elementor/css/post-103443.css?ver=1745067584" media="all">
+<link data-minify="1" rel="stylesheet" id="ecs-styles-css" href="https://anoticiaonline.com.br/site/wp-content/cache/min/1/site/wp-content/plugins/ele-custom-skin/assets/css/ecs-style.css?ver=1745068809" media="all">
+<link rel="stylesheet" id="elementor-post-101352-css" href="https://anoticiaonline.com.br/site/wp-content/uploads/elementor/css/post-101352.css?ver=1696352237" media="all">
+<link rel="stylesheet" id="elementor-post-101362-css" href="https://anoticiaonline.com.br/site/wp-content/uploads/elementor/css/post-101362.css?ver=1676563625" media="all">
+<link rel="stylesheet" id="elementor-post-101531-css" href="https://anoticiaonline.com.br/site/wp-content/uploads/elementor/css/post-101531.css?ver=1675277761" media="all">
+<link rel="stylesheet" id="elementor-post-101609-css" href="https://anoticiaonline.com.br/site/wp-content/uploads/elementor/css/post-101609.css?ver=1696352519" media="all">
+<link rel="stylesheet" id="elementor-post-101693-css" href="https://anoticiaonline.com.br/site/wp-content/uploads/elementor/css/post-101693.css?ver=1667385825" media="all">
+<link rel="stylesheet" id="elementor-post-102292-css" href="https://anoticiaonline.com.br/site/wp-content/uploads/elementor/css/post-102292.css?ver=1666686895" media="all">
+<link rel="stylesheet" id="elementor-post-102392-css" href="https://anoticiaonline.com.br/site/wp-content/uploads/elementor/css/post-102392.css?ver=1745232741" media="all">
+<link rel="stylesheet" id="elementor-post-102637-css" href="https://anoticiaonline.com.br/site/wp-content/uploads/elementor/css/post-102637.css?ver=1667390613" media="all">
+<link rel="stylesheet" id="elementor-post-102947-css" href="https://anoticiaonline.com.br/site/wp-content/uploads/elementor/css/post-102947.css?ver=1667390672" media="all">
+<link rel="stylesheet" id="elementor-post-103959-css" href="https://anoticiaonline.com.br/site/wp-content/uploads/elementor/css/post-103959.css?ver=1668873283" media="all">
+<link rel="stylesheet" id="elementor-post-104360-css" href="https://anoticiaonline.com.br/site/wp-content/uploads/elementor/css/post-104360.css?ver=1696352352" media="all">
+<style id="rocket-lazyload-inline-css">.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%}.rll-youtube-player:focus-within{outline:2px solid currentColor;outline-offset:5px}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://anoticiaonline.com.br/site/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color:transparent!important;cursor:pointer;border:none}.wp-embed-responsive .wp-has-aspect-ratio .rll-youtube-player{position:absolute;padding-bottom:0;width:100%;height:100%;top:0;bottom:0;left:0;right:0}</style>
+<link data-minify="1" rel="stylesheet" id="elementor-gf-local-roboto-css" href="https://anoticiaonline.com.br/site/wp-content/cache/min/1/site/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1745068809" media="all">
+<link data-minify="1" rel="stylesheet" id="elementor-gf-local-robotoslab-css" href="https://anoticiaonline.com.br/site/wp-content/cache/min/1/site/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1745068809" media="all">
+<link data-minify="1" rel="stylesheet" id="elementor-gf-local-montserrat-css" href="https://anoticiaonline.com.br/site/wp-content/cache/min/1/site/wp-content/uploads/elementor/google-fonts/css/montserrat.css?ver=1745068809" media="all">
+<link data-minify="1" rel="stylesheet" id="elementor-gf-local-didactgothic-css" href="https://anoticiaonline.com.br/site/wp-content/cache/min/1/site/wp-content/uploads/elementor/google-fonts/css/didactgothic.css?ver=1745068809" media="all">
+<script type="rocketlazyloadscript" data-rocket-src="https://anoticiaonline.com.br/site/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://anoticiaonline.com.br/site/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://anoticiaonline.com.br/site/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.28.3" id="font-awesome-4-shim-js" data-rocket-defer="" defer=""></script>
+<script id="ecs_ajax_load-js-extra">var ecs_ajax_params={"ajaxurl":"https:\/\/anoticiaonline.com.br\/site\/wp-admin\/admin-ajax.php","posts":"{\"page\":0,\"name\":\"titulo-de-cidadania-honoraria-e-entregue-a-lucas-monteiro-de-oliveira\",\"error\":\"\",\"m\":\"\",\"p\":0,\"post_parent\":\"\",\"subpost\":\"\",\"subpost_id\":\"\",\"attachment\":\"\",\"attachment_id\":0,\"pagename\":\"\",\"page_id\":0,\"second\":\"\",\"minute\":\"\",\"hour\":\"\",\"day\":0,\"monthnum\":0,\"year\":0,\"w\":0,\"category_name\":\"\",\"tag\":\"\",\"cat\":\"\",\"tag_id\":\"\",\"author\":\"\",\"author_name\":\"\",\"feed\":\"\",\"tb\":\"\",\"paged\":0,\"meta_key\":\"\",\"meta_value\":\"\",\"preview\":\"\",\"s\":\"\",\"sentence\":\"\",\"title\":\"\",\"fields\":\"all\",\"menu_order\":\"\",\"embed\":\"\",\"category__in\":[],\"category__not_in\":[],\"category__and\":[],\"post__in\":[],\"post__not_in\":[],\"post_name__in\":[],\"tag__in\":[],\"tag__not_in\":[],\"tag__and\":[],\"tag_slug__in\":[],\"tag_slug__and\":[],\"post_parent__in\":[],\"post_parent__not_in\":[],\"author__in\":[],\"author__not_in\":[],\"search_columns\":[],\"ignore_sticky_posts\":false,\"suppress_filters\":false,\"cache_results\":true,\"update_post_term_cache\":true,\"update_menu_item_cache\":false,\"lazy_load_term_meta\":true,\"update_post_meta_cache\":true,\"post_type\":\"\",\"posts_per_page\":10,\"nopaging\":false,\"comments_per_page\":\"50\",\"no_found_rows\":false,\"order\":\"DESC\"}"};</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://anoticiaonline.com.br/site/wp-content/cache/min/1/site/wp-content/plugins/ele-custom-skin/assets/js/ecs_ajax_pagination.js?ver=1745068810" id="ecs_ajax_load-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://anoticiaonline.com.br/site/wp-content/cache/min/1/site/wp-content/plugins/ele-custom-skin/assets/js/ecs.js?ver=1745068810" id="ecs-script-js" data-rocket-defer="" defer=""></script>
+<link rel="https://api.w.org/" href="https://anoticiaonline.com.br/site/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://anoticiaonline.com.br/site/wp-json/wp/v2/posts/74062"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://anoticiaonline.com.br/site/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.8.1">
+<link rel="shortlink" href="https://anoticiaonline.com.br/site/?p=74062">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://anoticiaonline.com.br/site/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fanoticiaonline.com.br%2Fsite%2Ftitulo-de-cidadania-honoraria-e-entregue-a-lucas-monteiro-de-oliveira%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://anoticiaonline.com.br/site/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fanoticiaonline.com.br%2Fsite%2Ftitulo-de-cidadania-honoraria-e-entregue-a-lucas-monteiro-de-oliveira%2F&amp;format=xml">
+<link rel="pingback" href="https://anoticiaonline.com.br/site/xmlrpc.php">
+<meta name="generator" content="Elementor 3.28.3; features: additional_custom_breakpoints, e_local_google_fonts; settings: css_print_method-external, google_font-enabled, font_display-auto">
+			<style>.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {background-image:none!important}@media screen and (max-height:1024px){.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {background-image:none!important}}@media screen and (max-height:640px){.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {background-image:none!important}}</style>
+			<link rel="icon" href="https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/cropped-A-Noticia-Logo-site-32x32.png" sizes="32x32">
+<link rel="icon" href="https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/cropped-A-Noticia-Logo-site-192x192.png" sizes="192x192">
+<meta name="msapplication-TileImage" content="https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/cropped-A-Noticia-Logo-site-270x270.png">
+		<style id="wp-custom-css">.attachment-full{margin-bottom:30px}#user_login{width:100%}#user_pass{width:100%}</style>
+		<noscript><style id=rocket-lazyload-nojs-css>.rll-youtube-player,[data-lazy-src]{display:none!important}</style></noscript><meta name="generator" content="WP Rocket 3.18.3" data-wpr-features="wpr_delay_js wpr_defer_js wpr_minify_js wpr_lazyload_images wpr_lazyload_iframes wpr_image_dimensions wpr_minify_css wpr_preload_links wpr_desktop"><style>svg polygon{fill:#1968ae}</style><style>svg polygon{fill:#1968ae}</style><style id="core-block-supports-inline-css">.wp-container-core-columns-is-layout-9d6595d7{flex-wrap:nowrap}.wp-block-gallery.wp-block-gallery-1{--wp--style--unstable-gallery-gap:var(--wp--style--gallery-gap-default,var(--gallery-block--gutter-size,var(--wp--style--block-gap,.5em)));gap:var(--wp--style--gallery-gap-default,var(--gallery-block--gutter-size,var(--wp--style--block-gap,.5em)))}</style><link data-minify="1" rel="stylesheet" id="elementor-gf-local-antonio-css" href="https://anoticiaonline.com.br/site/wp-content/cache/min/1/site/wp-content/uploads/elementor/google-fonts/css/antonio.css?ver=1745068809" media="all"><link href="http://www.googletagmanager.com" rel="preconnect"><link href="https://challenges.cloudflare.com" rel="preconnect"><link href="https://www.google.com" rel="preconnect"></head>
+
+<body class="wp-singular post-template-default single single-post postid-74062 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-generatepress right-sidebar nav-float-right separate-containers header-aligned-left dropdown-hover elementor-default elementor-template-full-width elementor-kit-101277 elementor-page-103443 full-width-content" itemtype="https://schema.org/Blog" itemscope="">
+	<a class="screen-reader-text skip-link" href="#content" title="Pular para o conteúdo">Pular para o conteúdo</a>		<header data-rocket-location-hash="311f1019a8cab1d2b9370591add0fec7" data-elementor-type="header" data-elementor-id="101324" class="elementor elementor-101324 elementor-location-header" data-elementor-post-type="elementor_library">
+					<section data-rocket-location-hash="cd4bfde39102a11bd5ee802e40ce0ac2" class="elementor-section elementor-top-section elementor-element elementor-element-4d60112 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="4d60112" data-element_type="section">
+						<div data-rocket-location-hash="82f6c6a00e9a86a2eaa3cc6e8d136714" class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9e2730c" data-id="9e2730c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-2c8e5be elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="2c8e5be" data-element_type="widget" data-widget_type="theme-site-logo.default">
+				<div class="elementor-widget-container">
+											<a href="https://anoticiaonline.com.br/site">
+			<script data-pagespeed-no-defer="">//<![CDATA[
+(function(){for(var g="function"==typeof Object.defineProperties?Object.defineProperty:function(b,c,a){if(a.get||a.set)throw new TypeError("ES3 does not support getters and setters.");b!=Array.prototype&&b!=Object.prototype&&(b[c]=a.value)},h="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,k=["String","prototype","repeat"],l=0;l<k.length-1;l++){var m=k[l];m in h||(h[m]={});h=h[m]}var n=k[k.length-1],p=h[n],q=p?p:function(b){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>b||1342177279<b)throw new RangeError("Invalid count value");b|=0;for(var a="";b;)if(b&1&&(a+=c),b>>>=1)c+=c;return a};q!=p&&null!=q&&g(h,n,{configurable:!0,writable:!0,value:q});var t=this;function u(b,c){var a=b.split("."),d=t;a[0]in d||!d.execScript||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===c?d[e]?d=d[e]:d=d[e]={}:d[e]=c};function v(b){var c=b.length;if(0<c){for(var a=Array(c),d=0;d<c;d++)a[d]=b[d];return a}return[]};function w(b){var c=window;if(c.addEventListener)c.addEventListener("load",b,!1);else if(c.attachEvent)c.attachEvent("onload",b);else{var a=c.onload;c.onload=function(){b.call(this);a&&a.call(this)}}};var x;function y(b,c,a,d,e){this.h=b;this.j=c;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=d;this.b={};this.a=[];this.c={}}function z(b,c){var a,d,e=c.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=c.offsetWidth&&0>=c.offsetHeight)a=!1;else{d=c.getBoundingClientRect();var f=document.body;a=d.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);d=d.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+d;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&d<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}y.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&z(this,b)};u("pagespeed.CriticalImages.checkImageForCriticality",function(b){x.checkImageForCriticality(b)});u("pagespeed.CriticalImages.checkCriticalImages",function(){A(x)});function A(b){b.b={};for(var c=["IMG","INPUT"],a=[],d=0;d<c.length;++d)a=a.concat(v(document.getElementsByTagName(c[d])));if(a.length&&a[0].getBoundingClientRect){for(d=0;c=a[d];++d)z(b,c);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(c=!!b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),d=1;d<b.a.length;++d){var e=","+encodeURIComponent(b.a[d]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(B())),131072>=a.length+e.length&&(a+=e),c=!0);C=a;if(c){d=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(D){}}f&&(f.open("POST",d+(-1==d.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function B(){var b={},c;c=document.getElementsByTagName("IMG");if(!c.length)return{};var a=c[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var d=0;a=c[d];++d){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var C="";u("pagespeed.CriticalImages.getBeaconData",function(){return C});u("pagespeed.CriticalImages.Run",function(b,c,a,d,e,f){var r=new y(b,c,a,e,f);x=r;d&&w(function(){window.setTimeout(function(){A(r)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','http://anoticiaonline.com.br/site/titulo-de-cidadania-honoraria-e-entregue-a-lucas-monteiro-de-oliveira/','BykZXH4kdg',true,false,'Fojnf4Zd3Wg');
+//]]></script><img width="300" height="42" src="https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/cropped-A-Noticia-Logo-1-1-300x42.png" class="attachment-medium size-medium wp-image-103149 entered lazyloading" alt="" data-lazy-srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/cropped-A-Noticia-Logo-1-1-300x42.png 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/cropped-A-Noticia-Logo-1-1-768x107.png 768w, https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/cropped-A-Noticia-Logo-1-1.png 800w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/cropped-A-Noticia-Logo-1-1-300x42.png" data-pagespeed-url-hash="2862781996" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-ll-status="loading" sizes="(max-width: 300px) 100vw, 300px" srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/cropped-A-Noticia-Logo-1-1-300x42.png 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/cropped-A-Noticia-Logo-1-1-768x107.png 768w, https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/cropped-A-Noticia-Logo-1-1.png 800w"><noscript><img loading=lazy width=300 height=42 src="https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/cropped-A-Noticia-Logo-1-1-300x42.png" class="attachment-medium size-medium wp-image-103149" alt="" srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/cropped-A-Noticia-Logo-1-1-300x42.png 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/cropped-A-Noticia-Logo-1-1-768x107.png 768w, https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/cropped-A-Noticia-Logo-1-1.png 800w" sizes="(max-width: 300px) 100vw, 300px" data-pagespeed-url-hash=3640623659 /></noscript>				</a>
+											</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+		<div class="elementor-element elementor-element-1414df6 e-con-full e-flex e-con e-parent" data-id="1414df6" data-element_type="container" id="voltar" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div data-rocket-location-hash="33db801e268c5de5f150a7600baad9a6" class="elementor-element elementor-element-dd37261 e-con-full e-flex e-con e-child" data-id="dd37261" data-element_type="container">
+				<div class="elementor-element elementor-element-ff1185e elementor-view-default elementor-widget elementor-widget-icon" data-id="ff1185e" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-wrapper">
+			<a class="elementor-icon" href="https://anoticiaonline.com.br/site">
+			<i aria-hidden="true" class="fas fa-home"></i>			</a>
+		</div>
+						</div>
+				</div>
+				</div>
+		<div data-rocket-location-hash="aa3c2757e81a4273a9225d36bb274cd8" class="elementor-element elementor-element-dfe0a2b e-con-full e-flex e-con e-child" data-id="dfe0a2b" data-element_type="container">
+				<div class="elementor-element elementor-element-038868c elementor-nav-menu__align-center elementor-nav-menu--stretch elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="038868c" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;<i class=\&quot;fas fa-caret-down\&quot;><\/i>&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-038868c" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-117076"><a class="elementor-item">QUEM SOMOS</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105224"><a href="https://anoticiaonline.com.br/site/historia/" class="elementor-sub-item">História</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105225"><a href="https://anoticiaonline.com.br/site/expediente/" class="elementor-sub-item">Expediente</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-105226"><a href="/site/categoria/muriae/" class="elementor-item">MURIAÉ</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-105230"><a href="https://anoticiaonline.com.br/site/categoria/esporte/" class="elementor-sub-item">Esporte</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-105228"><a href="https://anoticiaonline.com.br/site/categoria/muriae/cultura/" class="elementor-sub-item">Cultura</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-105227"><a href="https://anoticiaonline.com.br/site/categoria/muriae/cotidiano/" class="elementor-sub-item">Cotidiano</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-105229"><a href="https://anoticiaonline.com.br/site/categoria/muriae/policia/" class="elementor-sub-item">Polícia</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-105231"><a href="https://anoticiaonline.com.br/site/categoria/eventos/" class="elementor-sub-item">Eventos</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-105232"><a href="https://anoticiaonline.com.br/site/categoria/regiao/" class="elementor-item">REGIÃO</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-110061"><a href="https://anoticiaonline.com.br/site/categoria/colunistas/opiniao/" class="elementor-item">OPINIÃO</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105233"><a href="https://anoticiaonline.com.br/site/fale-conosco/" class="elementor-item">FALE CONOSCO</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124319"><a href="/site/edicoes/" class="elementor-item">JORNAL A  NOTÍCIA</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open fas fa-bars"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-038868c" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-117076"><a class="elementor-item" tabindex="-1">QUEM SOMOS</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105224"><a href="https://anoticiaonline.com.br/site/historia/" class="elementor-sub-item" tabindex="-1">História</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105225"><a href="https://anoticiaonline.com.br/site/expediente/" class="elementor-sub-item" tabindex="-1">Expediente</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-105226"><a href="/site/categoria/muriae/" class="elementor-item" tabindex="-1">MURIAÉ</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-105230"><a href="https://anoticiaonline.com.br/site/categoria/esporte/" class="elementor-sub-item" tabindex="-1">Esporte</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-105228"><a href="https://anoticiaonline.com.br/site/categoria/muriae/cultura/" class="elementor-sub-item" tabindex="-1">Cultura</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-105227"><a href="https://anoticiaonline.com.br/site/categoria/muriae/cotidiano/" class="elementor-sub-item" tabindex="-1">Cotidiano</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-105229"><a href="https://anoticiaonline.com.br/site/categoria/muriae/policia/" class="elementor-sub-item" tabindex="-1">Polícia</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-105231"><a href="https://anoticiaonline.com.br/site/categoria/eventos/" class="elementor-sub-item" tabindex="-1">Eventos</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-105232"><a href="https://anoticiaonline.com.br/site/categoria/regiao/" class="elementor-item" tabindex="-1">REGIÃO</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-110061"><a href="https://anoticiaonline.com.br/site/categoria/colunistas/opiniao/" class="elementor-item" tabindex="-1">OPINIÃO</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105233"><a href="https://anoticiaonline.com.br/site/fale-conosco/" class="elementor-item" tabindex="-1">FALE CONOSCO</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124319"><a href="/site/edicoes/" class="elementor-item" tabindex="-1">JORNAL A  NOTÍCIA</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				</div>
+		<div data-rocket-location-hash="b22f7ca9c309587d0702a198fcbc729c" class="elementor-element elementor-element-32d03f9 e-con-full e-flex e-con e-child" data-id="32d03f9" data-element_type="container">
+				<div class="elementor-element elementor-element-851c4eb elementor-search-form--skin-full_screen elementor-widget elementor-widget-search-form" data-id="851c4eb" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;full_screen&quot;}" data-widget_type="search-form.default">
+				<div class="elementor-widget-container">
+							<search role="search">
+			<form class="elementor-search-form" action="https://anoticiaonline.com.br/site" method="get">
+												<div class="elementor-search-form__toggle" role="button" tabindex="0" aria-label="Search">
+					<i aria-hidden="true" class="fas fa-search"></i>				</div>
+								<div class="elementor-search-form__container">
+					<label class="elementor-screen-only" for="elementor-search-form-851c4eb">Search</label>
+
+					
+					<input id="elementor-search-form-851c4eb" placeholder="Buscar..." class="elementor-search-form__input" type="search" name="s" value="">
+					
+					
+										<div class="dialog-lightbox-close-button dialog-close-button" role="button" tabindex="0" aria-label="Close this search box.">
+						<i aria-hidden="true" class="eicon-close"></i>					</div>
+									</div>
+			</form>
+		</search>
+						</div>
+				</div>
+				</div>
+				</div>
+				</header>
+		
+	<div data-rocket-location-hash="19d2f31b3013186cff5f8035d0d01085" class="site grid-container container hfeed" id="page">
+				<div data-rocket-location-hash="7e592f80c7c3441b43e53768e3861b6f" class="site-content" id="content">
+					<div data-rocket-location-hash="b865498d11a4f1e22ea6e86725df37c5" data-elementor-type="single-post" data-elementor-id="103443" class="elementor elementor-103443 elementor-location-single post-74062 post type-post status-publish format-standard hentry category-muriae category-eventos category-regiao" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-396174e e-flex e-con-boxed e-con e-parent" data-id="396174e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-5e2e51ef e-con-full e-flex e-con e-child" data-id="5e2e51ef" data-element_type="container">
+		<div class="elementor-element elementor-element-c4cd8e2 e-con-full e-flex e-con e-child" data-id="c4cd8e2" data-element_type="container">
+		<div class="elementor-element elementor-element-b8e6266 e-con-full e-flex e-con e-child" data-id="b8e6266" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-55b3665 elementor-widget elementor-widget-heading" data-id="55b3665" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Título de Cidadania Honorária é entregue a Lucas Monteiro de Oliveira</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-47c6415 elementor-widget elementor-widget-jet-listing-dynamic-field" data-id="47c6415" data-element_type="widget" data-widget_type="jet-listing-dynamic-field.default">
+				<div class="elementor-widget-container">
+					<div class="jet-listing jet-listing-dynamic-field display-inline"><div class="jet-listing-dynamic-field__inline-wrap"><div class="jet-listing-dynamic-field__content"></div></div></div>				</div>
+				</div>
+		<div class="elementor-element elementor-element-323705e e-flex e-con-boxed e-con e-child" data-id="323705e" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-7c3a216 elementor-align-left elementor-widget elementor-widget-post-info" data-id="7c3a216" data-element_type="widget" data-widget_type="post-info.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-inline-items elementor-icon-list-items elementor-post-info">
+								<li class="elementor-icon-list-item elementor-repeater-item-aea638b elementor-inline-item" itemprop="datePublished">
+						<a href="https://anoticiaonline.com.br/site/2019/09/15/">
+											<span class="elementor-icon-list-icon">
+								<i aria-hidden="true" class="fas fa-calendar-alt"></i>							</span>
+									<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-date">
+										<time>15/09/2019</time>					</span>
+									</a>
+				</li>
+				</ul>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-5e96b84 elementor-share-buttons--view-icon elementor-absolute elementor-share-buttons--skin-gradient elementor-share-buttons--shape-square elementor-grid-0 elementor-share-buttons--color-official elementor-widget elementor-widget-share-buttons" data-id="5e96b84" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="share-buttons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-grid">
+								<div class="elementor-grid-item">
+						<div class="elementor-share-btn elementor-share-btn_facebook" role="button" tabindex="0" aria-label="Share on facebook">
+															<span class="elementor-share-btn__icon">
+								<i class="fab fa-facebook" aria-hidden="true"></i>							</span>
+																				</div>
+					</div>
+									<div class="elementor-grid-item">
+						<div class="elementor-share-btn elementor-share-btn_whatsapp" role="button" tabindex="0" aria-label="Share on whatsapp">
+															<span class="elementor-share-btn__icon">
+								<i class="fab fa-whatsapp" aria-hidden="true"></i>							</span>
+																				</div>
+					</div>
+									<div class="elementor-grid-item">
+						<div class="elementor-share-btn elementor-share-btn_email" role="button" tabindex="0" aria-label="Share on email">
+															<span class="elementor-share-btn__icon">
+								<i class="fas fa-envelope" aria-hidden="true"></i>							</span>
+																				</div>
+					</div>
+						</div>
+						</div>
+				</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-d2fd385 elementor-widget__width-inherit elementor-widget elementor-widget-jet-listing-dynamic-field" data-id="d2fd385" data-element_type="widget" data-widget_type="jet-listing-dynamic-field.default">
+				<div class="elementor-widget-container">
+					<div class="jet-listing jet-listing-dynamic-field display-inline"><div class="jet-listing-dynamic-field__inline-wrap"><div class="jet-listing-dynamic-field__content"><p><strong>&nbsp;<a href="/site/wp-content/uploads/2019/09/Lucas-1.jpg"><img fetchpriority="high" decoding="async" class="aligncenter size-full wp-image-74063 entered lazyloading" src="http://anoticiaonline.com.br/site/wp-content/uploads/2019/09/Lucas-1.jpg" alt="" width="1000" height="421" data-lazy-srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2019/09/Lucas-1.jpg 1000w, https://anoticiaonline.com.br/site/wp-content/uploads/2019/09/Lucas-1-300x126.jpg 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2019/09/Lucas-1-768x323.jpg 768w" data-lazy-sizes="(max-width: 1000px) 100vw, 1000px" data-lazy-src="http://anoticiaonline.com.br/site/wp-content/uploads/2019/09/Lucas-1.jpg" data-pagespeed-url-hash="3124385889" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-ll-status="loading" sizes="(max-width: 1000px) 100vw, 1000px" srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2019/09/Lucas-1.jpg 1000w, https://anoticiaonline.com.br/site/wp-content/uploads/2019/09/Lucas-1-300x126.jpg 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2019/09/Lucas-1-768x323.jpg 768w"><noscript><img fetchpriority=high fetchpriority=high decoding=async class="aligncenter size-full wp-image-74063" src="/site/wp-content/uploads/2019/09/Lucas-1.jpg" alt="" width=1000 height=421 srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2019/09/Lucas-1.jpg 1000w, https://anoticiaonline.com.br/site/wp-content/uploads/2019/09/Lucas-1-300x126.jpg 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2019/09/Lucas-1-768x323.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" data-pagespeed-url-hash=4130064086 /></noscript></a></strong></p>
+<p>O homenageado com o Título de Cidadania Honorária, Lucas Monteiro de Oliveira, nasceu no dia primeiro de setembro de 1986, na Fazenda Lambari, no município de Miradouro. Filho de Wilson José de Oliveira e Nilda Gonçalves Oliveira, estudou o ensino médio na Escola Padre Alfredo Kobal, também em Miradouro.</p><div id="more-74062"></div><p></p>
+<p>Casou-se com Simone Cristina de Aredes Gomes e, desde então, escolheram o distrito de Belisário para viver. Religioso, atuante na Igreja Católica e no comércio, logo se destacou como um grande colaborador no distrito, onde participa há vários anos na organização da Cavalgada do Agricultor e de festividades da igreja.</p>
+<p>Neste ano, completou mais um ciclo da sua vida com a chegada da pequena Antonella. Lucas é muito querido e respeitado em Belisário e grande merecedor desta honraria outorgada pelos poderes legislativo e executivo de Muriaé.</p>
+</div></div></div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-a41b6a3 elementor-widget elementor-widget-post-comments" data-id="a41b6a3" data-element_type="widget" data-widget_type="post-comments.theme_comments">
+				<div class="elementor-widget-container">
+					<div id="comments">
+
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Deixe um comentário <small><a rel="nofollow" id="cancel-comment-reply-link" href="/site/titulo-de-cidadania-honoraria-e-entregue-a-lucas-monteiro-de-oliveira/#respond" style="display:none;">Cancelar resposta</a></small></h3><form action="https://anoticiaonline.com.br/site/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate=""><p class="comment-form-comment"><label for="comment" class="screen-reader-text">Comentário</label><textarea id="comment" name="comment" cols="45" rows="8" required=""></textarea></p><label for="author" class="screen-reader-text">Nome</label><input placeholder="Nome *" id="author" name="author" type="text" value="" size="30" required="">
+<label for="email" class="screen-reader-text">E-mail</label><input placeholder="E-mail *" id="email" name="email" type="email" value="" size="30" required="">
+<label for="url" class="screen-reader-text">Site</label><input placeholder="Site" id="url" name="url" type="url" value="" size="30">
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label for="wp-comment-cookies-consent">Salvar meus dados neste navegador para a próxima vez que eu comentar.</label></p>
+	<script type="rocketlazyloadscript">document.addEventListener("DOMContentLoaded", function() { setTimeout(function(){ var e=document.getElementById("cf-turnstile-c-223182629"); e&&!e.innerHTML.trim()&&(turnstile.remove("#cf-turnstile-c-223182629"), turnstile.render("#cf-turnstile-c-223182629", {sitekey:"0x4AAAAAAAe0DZt914swW911"})); }, 0); });</script>
+	<p class="form-submit"><span id="cf-turnstile-c-223182629" class="cf-turnstile cf-turnstile-comments" data-action="wordpress-comment" data-callback="" data-sitekey="0x4AAAAAAAe0DZt914swW911" data-theme="light" data-language="auto" data-appearance="always" data-size="" data-retry="auto" data-retry-interval="1000"></span><br class="cf-turnstile-br cf-turnstile-br-comments"><input name="submit" type="submit" id="submit" class="submit" value="Comentário do post"><script type="rocketlazyloadscript" data-rocket-type="text/javascript">document.addEventListener("DOMContentLoaded", function() { document.body.addEventListener("click", function(event) { if (event.target.matches(".comment-reply-link, #cancel-comment-reply-link")) { turnstile.reset(".comment-form .cf-turnstile"); } }); });</script> <input type="hidden" name="comment_post_ID" value="74062" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p></form>	</div><!-- #respond -->
+	
+</div><!-- #comments -->
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-bf694c5 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="bf694c5" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-85baf21 elementor-post-navigation-borders-yes elementor-widget elementor-widget-post-navigation" data-id="85baf21" data-element_type="widget" data-widget_type="post-navigation.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-post-navigation">
+			<div class="elementor-post-navigation__prev elementor-post-navigation__link">
+				<a href="https://anoticiaonline.com.br/site/titulo-de-cidadania-honoraria-e-entregue-ao-deputado-leo-portela/" rel="prev"><span class="post-navigation__arrow-wrapper post-navigation__arrow-prev"><i class="fa fa-angle-left" aria-hidden="true"></i><span class="elementor-screen-only">Prev</span></span><span class="elementor-post-navigation__link__prev"><span class="post-navigation__prev--label">ANTERIOR</span><span class="post-navigation__prev--title">Título de Cidadania Honorária é entregue ao deputado Leo Portela</span></span></a>			</div>
+							<div class="elementor-post-navigation__separator-wrapper">
+					<div class="elementor-post-navigation__separator"></div>
+				</div>
+						<div class="elementor-post-navigation__next elementor-post-navigation__link">
+				<a href="https://anoticiaonline.com.br/site/titulo-de-honra-ao-merito-e-entregue-a-maria-jose-secco-belote/" rel="next"><span class="elementor-post-navigation__link__next"><span class="post-navigation__next--label">PRÓXIMA</span><span class="post-navigation__next--title">Título de Honra ao Mérito é entregue a Maria José Secco Belote</span></span><span class="post-navigation__arrow-wrapper post-navigation__arrow-next"><i class="fa fa-angle-right" aria-hidden="true"></i><span class="elementor-screen-only">Next</span></span></a>			</div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-bfdb8d9 elementor-widget elementor-widget-heading" data-id="bfdb8d9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Outras Notícias</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-7b4589f elementor-grid-1 elementor-grid-tablet-1 elementor-posts--thumbnail-top elementor-grid-mobile-1 elementor-widget elementor-widget-posts" data-id="7b4589f" data-element_type="widget" data-settings="{&quot;custom_columns&quot;:&quot;1&quot;,&quot;custom_columns_tablet&quot;:&quot;1&quot;,&quot;custom_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;custom_columns_mobile&quot;:&quot;1&quot;,&quot;custom_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;custom_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="posts.custom">
+				<div class="elementor-widget-container">
+					      <div class="ecs-posts elementor-posts-container elementor-posts   elementor-grid elementor-posts--skin-custom" data-settings="{&quot;current_page&quot;:1,&quot;max_num_pages&quot;:&quot;5&quot;,&quot;load_method&quot;:&quot;&quot;,&quot;widget_id&quot;:&quot;7b4589f&quot;,&quot;post_id&quot;:74062,&quot;theme_id&quot;:103443,&quot;change_url&quot;:false,&quot;reinit_js&quot;:false}">
+      		<article id="post-136400" class="elementor-post elementor-grid-item ecs-post-loop post-136400 post type-post status-publish format-standard has-post-thumbnail hentry category-gerais">
+				<div data-elementor-type="loop" data-elementor-id="104360" class="elementor elementor-104360 elementor-location-single post-136400 post type-post status-publish format-standard has-post-thumbnail hentry category-gerais" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-733bc616 e-flex e-con-boxed e-con e-parent" data-id="733bc616" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-40cd0fde e-con-full e-flex e-con e-child" data-id="40cd0fde" data-element_type="container">
+				<div class="elementor-element elementor-element-52423bcb elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="52423bcb" data-element_type="widget" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+															<img width="700" height="525" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20525'%3E%3C/svg%3E" title="IMG_3753" alt="IMG_3753" data-lazy-src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/IMG_3753.jpg" data-pagespeed-url-hash="619278180" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><noscript><img width=700 height=525 src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/IMG_3753.jpg" title=IMG_3753 alt=IMG_3753 loading=lazy data-pagespeed-url-hash=2817745362 /></noscript>															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-204b76df e-con-full e-flex e-con e-child" data-id="204b76df" data-element_type="container">
+				<div class="elementor-element elementor-element-134f5d6e elementor-mobile-align-left elementor-align-left elementor-widget elementor-widget-post-info" data-id="134f5d6e" data-element_type="widget" data-widget_type="post-info.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-inline-items elementor-icon-list-items elementor-post-info">
+								<li class="elementor-icon-list-item elementor-repeater-item-aea638b elementor-inline-item" itemprop="datePublished">
+										<span class="elementor-icon-list-icon">
+								<i aria-hidden="true" class="fas fa-calendar-alt"></i>							</span>
+									<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-date">
+										<time>21/05/2025</time>					</span>
+								</li>
+				</ul>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-4e1f05eb elementor-widget elementor-widget-heading" data-id="4e1f05eb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://anoticiaonline.com.br/site/wilson-pereira-de-castro-junior-legado-de-trabalho-fe-e-generosidade/">Wilson Pereira de Castro Júnior: legado de trabalho, fé e generosidade</a></h2>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-b7aa67a e-flex e-con-boxed e-con e-parent" data-id="b7aa67a" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-1c3431e elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="1c3431e" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</article>
+				<article id="post-136394" class="elementor-post elementor-grid-item ecs-post-loop post-136394 post type-post status-publish format-standard has-post-thumbnail hentry category-gerais">
+				<div data-elementor-type="loop" data-elementor-id="104360" class="elementor elementor-104360 elementor-location-single post-136394 post type-post status-publish format-standard has-post-thumbnail hentry category-gerais" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-733bc616 e-flex e-con-boxed e-con e-parent" data-id="733bc616" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-40cd0fde e-con-full e-flex e-con e-child" data-id="40cd0fde" data-element_type="container">
+				<div class="elementor-element elementor-element-52423bcb elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="52423bcb" data-element_type="widget" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+															<img width="700" height="525" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20525'%3E%3C/svg%3E" title="IMG_3715" alt="IMG_3715" data-lazy-src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/IMG_3715.jpg" data-pagespeed-url-hash="619278180" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><noscript><img width=700 height=525 src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/IMG_3715.jpg" title=IMG_3715 alt=IMG_3715 loading=lazy data-pagespeed-url-hash=3707609256 /></noscript>															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-204b76df e-con-full e-flex e-con e-child" data-id="204b76df" data-element_type="container">
+				<div class="elementor-element elementor-element-134f5d6e elementor-mobile-align-left elementor-align-left elementor-widget elementor-widget-post-info" data-id="134f5d6e" data-element_type="widget" data-widget_type="post-info.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-inline-items elementor-icon-list-items elementor-post-info">
+								<li class="elementor-icon-list-item elementor-repeater-item-aea638b elementor-inline-item" itemprop="datePublished">
+										<span class="elementor-icon-list-icon">
+								<i aria-hidden="true" class="fas fa-calendar-alt"></i>							</span>
+									<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-date">
+										<time>21/05/2025</time>					</span>
+								</li>
+				</ul>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-4e1f05eb elementor-widget elementor-widget-heading" data-id="4e1f05eb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://anoticiaonline.com.br/site/welerson-scalla-espirito-empreendedor-e-amor-por-muriae/">Welerson Scalla: espírito empreendedor e amor por Muriaé</a></h2>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-b7aa67a e-flex e-con-boxed e-con e-parent" data-id="b7aa67a" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-1c3431e elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="1c3431e" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</article>
+				<article id="post-136386" class="elementor-post elementor-grid-item ecs-post-loop post-136386 post type-post status-publish format-standard has-post-thumbnail hentry category-gerais">
+				<div data-elementor-type="loop" data-elementor-id="104360" class="elementor elementor-104360 elementor-location-single post-136386 post type-post status-publish format-standard has-post-thumbnail hentry category-gerais" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-733bc616 e-flex e-con-boxed e-con e-parent" data-id="733bc616" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-40cd0fde e-con-full e-flex e-con e-child" data-id="40cd0fde" data-element_type="container">
+				<div class="elementor-element elementor-element-52423bcb elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="52423bcb" data-element_type="widget" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+															<img width="700" height="525" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20525'%3E%3C/svg%3E" title="IMG_1888" alt="IMG_1888" data-lazy-src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/IMG_1888.jpg" data-pagespeed-url-hash="619278180" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><noscript><img width=700 height=525 src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/IMG_1888.jpg" title=IMG_1888 alt=IMG_1888 loading=lazy data-pagespeed-url-hash=3089887107 /></noscript>															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-204b76df e-con-full e-flex e-con e-child" data-id="204b76df" data-element_type="container">
+				<div class="elementor-element elementor-element-134f5d6e elementor-mobile-align-left elementor-align-left elementor-widget elementor-widget-post-info" data-id="134f5d6e" data-element_type="widget" data-widget_type="post-info.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-inline-items elementor-icon-list-items elementor-post-info">
+								<li class="elementor-icon-list-item elementor-repeater-item-aea638b elementor-inline-item" itemprop="datePublished">
+										<span class="elementor-icon-list-icon">
+								<i aria-hidden="true" class="fas fa-calendar-alt"></i>							</span>
+									<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-date">
+										<time>21/05/2025</time>					</span>
+								</li>
+				</ul>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-4e1f05eb elementor-widget elementor-widget-heading" data-id="4e1f05eb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://anoticiaonline.com.br/site/sandra-lucia-couto-bittencourt-vocacao-coragem-e-compromisso-com-a-educacao/">Sandra Lúcia Couto Bittencourt: vocação, coragem e compromisso com a educação</a></h2>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-b7aa67a e-flex e-con-boxed e-con e-parent" data-id="b7aa67a" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-1c3431e elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="1c3431e" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</article>
+				<article id="post-136381" class="elementor-post elementor-grid-item ecs-post-loop post-136381 post type-post status-publish format-standard has-post-thumbnail hentry category-muriae category-cotidiano category-eventos category-gerais category-slide-principal">
+				<div data-elementor-type="loop" data-elementor-id="104360" class="elementor elementor-104360 elementor-location-single post-136381 post type-post status-publish format-standard has-post-thumbnail hentry category-muriae category-cotidiano category-eventos category-gerais category-slide-principal" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-733bc616 e-flex e-con-boxed e-con e-parent" data-id="733bc616" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-40cd0fde e-con-full e-flex e-con e-child" data-id="40cd0fde" data-element_type="container">
+				<div class="elementor-element elementor-element-52423bcb elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="52423bcb" data-element_type="widget" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+															<img width="700" height="525" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20525'%3E%3C/svg%3E" title="IMG_1926" alt="IMG_1926" data-lazy-src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/IMG_1926.jpg" data-pagespeed-url-hash="619278180" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><noscript><img width=700 height=525 src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/IMG_1926.jpg" title=IMG_1926 alt=IMG_1926 loading=lazy data-pagespeed-url-hash=1688820232 /></noscript>															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-204b76df e-con-full e-flex e-con e-child" data-id="204b76df" data-element_type="container">
+				<div class="elementor-element elementor-element-134f5d6e elementor-mobile-align-left elementor-align-left elementor-widget elementor-widget-post-info" data-id="134f5d6e" data-element_type="widget" data-widget_type="post-info.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-inline-items elementor-icon-list-items elementor-post-info">
+								<li class="elementor-icon-list-item elementor-repeater-item-aea638b elementor-inline-item" itemprop="datePublished">
+										<span class="elementor-icon-list-icon">
+								<i aria-hidden="true" class="fas fa-calendar-alt"></i>							</span>
+									<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-date">
+										<time>21/05/2025</time>					</span>
+								</li>
+				</ul>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-4e1f05eb elementor-widget elementor-widget-heading" data-id="4e1f05eb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://anoticiaonline.com.br/site/silverio-martins-uma-vida-de-trabalho-e-servico-a-saude-publica/">Silvério Martins: uma vida de trabalho e serviço à saúde pública</a></h2>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-b7aa67a e-flex e-con-boxed e-con e-parent" data-id="b7aa67a" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-1c3431e elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="1c3431e" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</article>
+				<article id="post-136374" class="elementor-post elementor-grid-item ecs-post-loop post-136374 post type-post status-publish format-standard has-post-thumbnail hentry category-muriae category-cotidiano category-eventos category-gerais category-slide-principal">
+				<div data-elementor-type="loop" data-elementor-id="104360" class="elementor elementor-104360 elementor-location-single post-136374 post type-post status-publish format-standard has-post-thumbnail hentry category-muriae category-cotidiano category-eventos category-gerais category-slide-principal" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-733bc616 e-flex e-con-boxed e-con e-parent" data-id="733bc616" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-40cd0fde e-con-full e-flex e-con e-child" data-id="40cd0fde" data-element_type="container">
+				<div class="elementor-element elementor-element-52423bcb elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="52423bcb" data-element_type="widget" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+															<img width="700" height="525" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20525'%3E%3C/svg%3E" title="IMG_3577" alt="IMG_3577" data-lazy-src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/IMG_3577.jpg" data-pagespeed-url-hash="619278180" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><noscript><img width=700 height=525 src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/IMG_3577.jpg" title=IMG_3577 alt=IMG_3577 loading=lazy data-pagespeed-url-hash=2077071946 /></noscript>															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-204b76df e-con-full e-flex e-con e-child" data-id="204b76df" data-element_type="container">
+				<div class="elementor-element elementor-element-134f5d6e elementor-mobile-align-left elementor-align-left elementor-widget elementor-widget-post-info" data-id="134f5d6e" data-element_type="widget" data-widget_type="post-info.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-inline-items elementor-icon-list-items elementor-post-info">
+								<li class="elementor-icon-list-item elementor-repeater-item-aea638b elementor-inline-item" itemprop="datePublished">
+										<span class="elementor-icon-list-icon">
+								<i aria-hidden="true" class="fas fa-calendar-alt"></i>							</span>
+									<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-date">
+										<time>21/05/2025</time>					</span>
+								</li>
+				</ul>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-4e1f05eb elementor-widget elementor-widget-heading" data-id="4e1f05eb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://anoticiaonline.com.br/site/mario-monteiro-de-castro-neto-o-direito-a-palavra-e-o-compromisso-com-a-cidade/">Mário Monteiro de Castro Neto: o direito, a palavra e o compromisso com a cidade</a></h2>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-b7aa67a e-flex e-con-boxed e-con e-parent" data-id="b7aa67a" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-1c3431e elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="1c3431e" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</article>
+				</div>
+						</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-7184c992 e-con-full e-flex e-con e-child" data-id="7184c992" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-5d043f63 elementor-grid-1 elementor-widget__width-initial elementor-grid-tablet-1 elementor-widget-tablet__width-inherit elementor-posts--thumbnail-top elementor-grid-mobile-1 elementor-widget elementor-widget-posts" data-id="5d043f63" data-element_type="widget" data-settings="{&quot;custom_columns&quot;:&quot;1&quot;,&quot;custom_columns_tablet&quot;:&quot;1&quot;,&quot;custom_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;custom_columns_mobile&quot;:&quot;1&quot;,&quot;custom_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;custom_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="posts.custom">
+				<div class="elementor-widget-container">
+					      <div class="ecs-posts elementor-posts-container elementor-posts   elementor-grid elementor-posts--skin-custom" data-settings="{&quot;current_page&quot;:1,&quot;max_num_pages&quot;:&quot;5&quot;,&quot;load_method&quot;:&quot;&quot;,&quot;widget_id&quot;:&quot;5d043f63&quot;,&quot;post_id&quot;:74062,&quot;theme_id&quot;:103443,&quot;change_url&quot;:false,&quot;reinit_js&quot;:false}">
+      		<article id="post-136400" class="elementor-post elementor-grid-item ecs-post-loop post-136400 post type-post status-publish format-standard has-post-thumbnail hentry category-gerais">
+				<div data-elementor-type="loop" data-elementor-id="101362" class="elementor elementor-101362 elementor-location-single post-136400 post type-post status-publish format-standard has-post-thumbnail hentry category-gerais" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-ebbae74 e-con-full e-flex e-con e-parent" data-id="ebbae74" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-250198f e-con-full e-flex e-con e-child" data-id="250198f" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-b7d437e elementor-widget__width-inherit elementor-widget elementor-widget-sidebar" data-id="b7d437e" data-element_type="widget" data-widget_type="sidebar.default">
+				<div class="elementor-widget-container">
+					<aside id="block-2" class="widget inner-padding widget_block">
+<h2 class="wp-block-heading has-accent-color has-text-color"><strong>TV A Notícia</strong></h2>
+</aside><aside id="block-41" class="widget inner-padding widget_block">
+<div style="height:57px" aria-hidden="true" class="wp-block-spacer"></div>
+</aside><aside id="block-42" class="widget inner-padding widget_block">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%">
+<br><center><a href="/site/categoria/colunistas/opiniao/"><img decoding="async" width="300" height="350" src="http://anoticiaonline.com.br/site/wp-content/uploads/2023/04/leandro-mazzini-3.gif" alt="" class="wp-image-110207 entered lazyloading" style="object-fit:cover" data-lazy-src="http://anoticiaonline.com.br/site/wp-content/uploads/2023/04/leandro-mazzini-3.gif" data-pagespeed-url-hash="387851234" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-ll-status="loading"><noscript><img decoding=async width=300 height=350 src="/site/wp-content/uploads/2023/04/leandro-mazzini-3.gif.pagespeed.ce.gOaLvLZloU.gif" alt="" class=wp-image-110207 style=object-fit:cover data-pagespeed-url-hash=4058383799 /></noscript></a></center>
+</div>
+</div>
+</aside><aside id="block-55" class="widget inner-padding widget_block widget_media_image"><div class="wp-block-image">
+<figure class="aligncenter size-full"><a href="http://muriae-mg.prefeituramoderna.com.br/meuiptu/index.php?cidade=muriae"><img decoding="async" width="300" height="300" src="http://anoticiaonline.com.br/site/wp-content/uploads/2025/03/site-IPTU-2025-1.png" alt="" class="wp-image-134434 entered lazyloading" data-lazy-srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2025/03/site-IPTU-2025-1.png 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2025/03/site-IPTU-2025-1-150x150.png 150w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="http://anoticiaonline.com.br/site/wp-content/uploads/2025/03/site-IPTU-2025-1.png" data-pagespeed-url-hash="1639149131" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-ll-status="loading" sizes="(max-width: 300px) 100vw, 300px" srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2025/03/site-IPTU-2025-1.png 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2025/03/site-IPTU-2025-1-150x150.png 150w"><noscript><img decoding=async width=300 height=300 src="/site/wp-content/uploads/2025/03/xsite-IPTU-2025-1.png.pagespeed.ic.rJXTYzwjci.webp" alt="" class=wp-image-134434 srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2025/03/site-IPTU-2025-1.png 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2025/03/site-IPTU-2025-1-150x150.png 150w" sizes="(max-width: 300px) 100vw, 300px" data-pagespeed-url-hash=1659004041 /></noscript></a></figure></div></aside><aside id="block-57" class="widget inner-padding widget_block">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%"><div class="wp-block-image">
+<figure class="aligncenter size-full"><a href="https://cresol.com.br/campanha/cooperar--ganhar-2025/"><img decoding="async" width="300" height="350" src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/04/300x350px.png" alt="" class="wp-image-135616 entered lazyloading" data-lazy-srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2025/04/300x350px.png 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2025/04/300x350px-257x300.png 257w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/04/300x350px.png" data-pagespeed-url-hash="387851234" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" data-ll-status="loading" sizes="(max-width: 300px) 100vw, 300px" srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2025/04/300x350px.png 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2025/04/300x350px-257x300.png 257w"><noscript><img loading=lazy loading=lazy decoding=async width=300 height=350 src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/04/300x350px.png" alt="" class=wp-image-135616 srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2025/04/300x350px.png 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2025/04/300x350px-257x300.png 257w" sizes="(max-width: 300px) 100vw, 300px" data-pagespeed-url-hash=167187194 /></noscript></a></figure></div></div>
+</div>
+</aside><aside id="block-58" class="widget inner-padding widget_block widget_media_image"><div class="wp-block-image">
+<figure class="aligncenter size-full"><a href="https://cresol.com.br/"><img decoding="async" width="300" height="350" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20350'%3E%3C/svg%3E" alt="" class="wp-image-135617" data-lazy-srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2025/04/300x350px-1.png 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2025/04/300x350px-1-257x300.png 257w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/04/300x350px-1.png" data-pagespeed-url-hash="387851234" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><noscript><img loading=lazy loading=lazy decoding=async width=300 height=350 src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/04/300x350px-1.png" alt="" class=wp-image-135617 srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2025/04/300x350px-1.png 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2025/04/300x350px-1-257x300.png 257w" sizes="(max-width: 300px) 100vw, 300px" data-pagespeed-url-hash=2914131114 /></noscript></a></figure></div></aside><aside id="block-52" class="widget inner-padding widget_block widget_media_image"><div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img decoding="async" width="600" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E" alt="" class="wp-image-133767" style="width:352px;height:auto" data-lazy-src="http://anoticiaonline.com.br/site/wp-content/uploads/2025/02/600x600.gif" data-pagespeed-url-hash="3776132953" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><noscript><img loading=lazy loading=lazy decoding=async width=600 height=600 src="/site/wp-content/uploads/2025/02/600x600.gif.pagespeed.ce.aDfjluwjW_.gif" alt="" class=wp-image-133767 style="width:352px;height:auto" data-pagespeed-url-hash=924045099 /></noscript></figure></div></aside><aside id="block-48" class="widget inner-padding widget_block">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%"></div>
+</div>
+</aside><aside id="block-44" class="widget inner-padding widget_block">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%"><div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" width="350" height="350" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20350'%3E%3C/svg%3E" alt="" class="wp-image-120080" data-lazy-srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2023/12/Banner_A-Noticia-350x350px.png 350w, https://anoticiaonline.com.br/site/wp-content/uploads/2023/12/Banner_A-Noticia-350x350px-300x300.png 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2023/12/Banner_A-Noticia-350x350px-150x150.png 150w" data-lazy-sizes="(max-width: 350px) 100vw, 350px" data-lazy-src="http://anoticiaonline.com.br/site/wp-content/uploads/2023/12/Banner_A-Noticia-350x350px.png" data-pagespeed-url-hash="3917643233" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><noscript><img loading=lazy loading=lazy decoding=async width=350 height=350 src="/site/wp-content/uploads/2023/12/xBanner_A-Noticia-350x350px.png.pagespeed.ic.qJvcqUCiWg.webp" alt="" class=wp-image-120080 srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2023/12/Banner_A-Noticia-350x350px.png 350w, https://anoticiaonline.com.br/site/wp-content/uploads/2023/12/Banner_A-Noticia-350x350px-300x300.png 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2023/12/Banner_A-Noticia-350x350px-150x150.png 150w" sizes="(max-width: 350px) 100vw, 350px" data-pagespeed-url-hash=1704628986 /></noscript></figure></div></div>
+</div>
+</aside><aside id="block-25" class="widget inner-padding widget_block">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%"></div>
+</div>
+</aside><aside id="block-38" class="widget inner-padding widget_block">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%"><div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><a href="http://vestibularfaminas.com.br/medicina?utm_source=A+NOTICIA&amp;utm_medium=Noticias&amp;utm_campaign=Vestibular+Medicina+20252&amp;utm_id=252"><img decoding="async" width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" alt="" class="wp-image-134692" style="width:346px;height:auto" data-lazy-srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2025/03/VEST-MED_2025.2_300x300.png 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2025/03/VEST-MED_2025.2_300x300-150x150.png 150w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="http://anoticiaonline.com.br/site/wp-content/uploads/2025/03/VEST-MED_2025.2_300x300.png" data-pagespeed-url-hash="1639149131" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><noscript><img loading=lazy loading=lazy decoding=async width=300 height=300 src="/site/wp-content/uploads/2025/03/xVEST-MED_2025.2_300x300.png.pagespeed.ic._d3lHzIWyI.webp" alt="" class=wp-image-134692 style="width:346px;height:auto" srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2025/03/VEST-MED_2025.2_300x300.png 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2025/03/VEST-MED_2025.2_300x300-150x150.png 150w" sizes="(max-width: 300px) 100vw, 300px" data-pagespeed-url-hash=100149801 /></noscript></a></figure></div></div>
+</div>
+</aside><aside id="block-46" class="widget inner-padding widget_block widget_media_image"><div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" width="350" height="420" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20420'%3E%3C/svg%3E" alt="" class="wp-image-122232" data-lazy-srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-12-at-07.32.jpg 350w, https://anoticiaonline.com.br/site/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-12-at-07.32-250x300.jpg 250w" data-lazy-sizes="(max-width: 350px) 100vw, 350px" data-lazy-src="http://anoticiaonline.com.br/site/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-12-at-07.32.jpg" data-pagespeed-url-hash="2808181601" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><noscript><img loading=lazy loading=lazy decoding=async width=350 height=420 src="/site/wp-content/uploads/2024/03/xWhatsApp-Image-2024-03-12-at-07.32.jpg.pagespeed.ic.rS0mymupPx.webp" alt="" class=wp-image-122232 srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-12-at-07.32.jpg 350w, https://anoticiaonline.com.br/site/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-12-at-07.32-250x300.jpg 250w" sizes="(max-width: 350px) 100vw, 350px" data-pagespeed-url-hash=557636066 /></noscript></figure></div></aside><aside id="block-15" class="widget inner-padding widget_block widget_media_image"><div class="wp-block-image">
+<figure class="aligncenter size-full"><a href="http://linktr.ee/sicoobcredisudeste?fbclid=PAAaYkYhvmDVzYWuWf-i5-VXgROtHvfmEuioPOf_ccSo-kebXD7iU0Rrh7ueE"><img decoding="async" width="350" height="350" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20350'%3E%3C/svg%3E" alt="" class="wp-image-108584" data-lazy-srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2023/01/sicoob-Copy-1.jpg 350w, https://anoticiaonline.com.br/site/wp-content/uploads/2023/01/sicoob-Copy-1-300x300.jpg 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2023/01/sicoob-Copy-1-150x150.jpg 150w" data-lazy-sizes="(max-width: 350px) 100vw, 350px" data-lazy-src="http://anoticiaonline.com.br/site/wp-content/uploads/2023/01/sicoob-Copy-1.jpg" data-pagespeed-url-hash="3917643233" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><noscript><img loading=lazy loading=lazy decoding=async width=350 height=350 src="/site/wp-content/uploads/2023/01/xsicoob-Copy-1.jpg.pagespeed.ic.advqUwrgCI.webp" alt="" class=wp-image-108584 srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2023/01/sicoob-Copy-1.jpg 350w, https://anoticiaonline.com.br/site/wp-content/uploads/2023/01/sicoob-Copy-1-300x300.jpg 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2023/01/sicoob-Copy-1-150x150.jpg 150w" sizes="(max-width: 350px) 100vw, 350px" data-pagespeed-url-hash=2096847370 /></noscript></a></figure></div></aside><aside id="block-23" class="widget inner-padding widget_block widget_text">
+<p class="has-text-align-center"></p>
+</aside><aside id="block-39" class="widget inner-padding widget_block">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%"><div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" width="350" height="181" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20350%20181'%3E%3C/svg%3E" alt="" class="wp-image-116654" data-lazy-srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2023/09/Segplam-Cartao.jpg 350w, https://anoticiaonline.com.br/site/wp-content/uploads/2023/09/Segplam-Cartao-300x155.jpg 300w" data-lazy-sizes="(max-width: 350px) 100vw, 350px" data-lazy-src="http://anoticiaonline.com.br/site/wp-content/uploads/2023/09/Segplam-Cartao.jpg" data-pagespeed-url-hash="3121600921" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><noscript><img loading=lazy loading=lazy decoding=async width=350 height=181 src="/site/wp-content/uploads/2023/09/xSegplam-Cartao.jpg.pagespeed.ic.2wM_Md44O2.webp" alt="" class=wp-image-116654 srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2023/09/Segplam-Cartao.jpg 350w, https://anoticiaonline.com.br/site/wp-content/uploads/2023/09/Segplam-Cartao-300x155.jpg 300w" sizes="(max-width: 350px) 100vw, 350px" data-pagespeed-url-hash=2758137871 /></noscript></figure></div></div>
+</div>
+</aside><aside id="block-53" class="widget inner-padding widget_block widget_media_gallery">
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
+</aside>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-8bd34c7 e-con-full fixa1 elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-child" data-id="8bd34c7" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-04d59ff e-con-full e-flex e-con e-child" data-id="04d59ff" data-element_type="container">
+		<div class="elementor-element elementor-element-8e44e56 e-con-full e-flex e-con e-child" data-id="8e44e56" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-69e797b elementor-widget elementor-widget-html" data-id="69e797b" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+					
+
+<div align="center">
+<svg width="225" height="30">
+    <polygon points="0,100 50,0 200,0 150,100"></polygon>
+</svg>
+</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-b4813aa elementor-widget elementor-widget-heading" data-id="b4813aa" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Em Alta</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-1d80ab8 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="1d80ab8" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-d4533ce e-con-full e-flex e-con e-child" data-id="d4533ce" data-element_type="container">
+		<div class="elementor-element elementor-element-194e913 e-con-full e-flex e-con e-child" data-id="194e913" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-9892f5b elementor-grid-1 elementor-posts--thumbnail-top elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-posts" data-id="9892f5b" data-element_type="widget" data-settings="{&quot;custom_columns&quot;:&quot;1&quot;,&quot;custom_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;custom_columns_tablet&quot;:&quot;2&quot;,&quot;custom_columns_mobile&quot;:&quot;1&quot;,&quot;custom_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;custom_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="posts.custom">
+				<div class="elementor-widget-container">
+					      <div class="ecs-posts elementor-posts-container elementor-posts   elementor-grid elementor-posts--skin-custom" data-settings="{&quot;current_page&quot;:1,&quot;max_num_pages&quot;:&quot;5&quot;,&quot;load_method&quot;:&quot;&quot;,&quot;widget_id&quot;:&quot;9892f5b&quot;,&quot;post_id&quot;:136400,&quot;theme_id&quot;:101362,&quot;change_url&quot;:false,&quot;reinit_js&quot;:false}">
+      		<article id="post-136240" class="elementor-post elementor-grid-item ecs-post-loop post-136240 post type-post status-publish format-standard has-post-thumbnail hentry category-muriae category-cotidiano category-cultura category-eventos category-slide-principal">
+				<div data-elementor-type="loop" data-elementor-id="101693" class="elementor elementor-101693 elementor-location-single post-136240 post type-post status-publish format-standard has-post-thumbnail hentry category-muriae category-cotidiano category-cultura category-eventos category-slide-principal" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-6a0f666 e-flex e-con-boxed e-con e-parent" data-id="6a0f666" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-10f3841 e-con-full e-flex e-con e-child" data-id="10f3841" data-element_type="container">
+				<div class="elementor-element elementor-element-fb98370 elementor-widget__width-inherit elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="fb98370" data-element_type="widget" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+															<img width="700" height="467" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20467'%3E%3C/svg%3E" title="IMG_5723" alt="IMG_5723" data-lazy-src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/IMG_5723-1.jpg" data-pagespeed-url-hash="1677932737" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><noscript><img width=700 height=467 src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/IMG_5723-1.jpg" title=IMG_5723 alt=IMG_5723 loading=lazy data-pagespeed-url-hash=4005267047 /></noscript>															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-c15be25 e-con-full e-flex e-con e-child" data-id="c15be25" data-element_type="container">
+				<div class="elementor-element elementor-element-32e590d elementor-widget elementor-widget-heading" data-id="32e590d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://anoticiaonline.com.br/site/projeto-as-aventuras-do-palhaco-fofoquynha-encerra-atividades-com-gratidao-e-celebracao-aos-170-anos-de-muriae/">Projeto “As Aventuras do Palhaço Fofoquynha” encerra atividades com gratidão e celebração aos 170 anos de Muriaé</a></h2>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-5fd0fba e-flex e-con-boxed e-con e-parent" data-id="5fd0fba" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-b9ea34b elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="b9ea34b" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</article>
+				<article id="post-136226" class="elementor-post elementor-grid-item ecs-post-loop post-136226 post type-post status-publish format-standard hentry category-opiniao">
+				<div data-elementor-type="loop" data-elementor-id="101693" class="elementor elementor-101693 elementor-location-single post-136226 post type-post status-publish format-standard hentry category-opiniao" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-6a0f666 e-flex e-con-boxed e-con e-parent" data-id="6a0f666" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-10f3841 e-con-full e-flex e-con e-child" data-id="10f3841" data-element_type="container">
+				</div>
+		<div class="elementor-element elementor-element-c15be25 e-con-full e-flex e-con e-child" data-id="c15be25" data-element_type="container">
+				<div class="elementor-element elementor-element-32e590d elementor-widget elementor-widget-heading" data-id="32e590d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://anoticiaonline.com.br/site/coluna-esplanada-15-5-25/">Coluna Esplanada 15/5/25</a></h2>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-5fd0fba e-flex e-con-boxed e-con e-parent" data-id="5fd0fba" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-b9ea34b elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="b9ea34b" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</article>
+				<article id="post-136277" class="elementor-post elementor-grid-item ecs-post-loop post-136277 post type-post status-publish format-standard has-post-thumbnail hentry category-muriae category-cotidiano category-esporte category-eventos category-gerais category-slide-principal">
+				<div data-elementor-type="loop" data-elementor-id="101693" class="elementor elementor-101693 elementor-location-single post-136277 post type-post status-publish format-standard has-post-thumbnail hentry category-muriae category-cotidiano category-esporte category-eventos category-gerais category-slide-principal" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-6a0f666 e-flex e-con-boxed e-con e-parent" data-id="6a0f666" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-10f3841 e-con-full e-flex e-con e-child" data-id="10f3841" data-element_type="container">
+				<div class="elementor-element elementor-element-fb98370 elementor-widget__width-inherit elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="fb98370" data-element_type="widget" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+															<img width="700" height="525" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20525'%3E%3C/svg%3E" title="IMG_7538" alt="IMG_7538" data-lazy-src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/IMG_7538.jpg" data-pagespeed-url-hash="619278180" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><noscript><img width=700 height=525 src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/IMG_7538.jpg" title=IMG_7538 alt=IMG_7538 loading=lazy data-pagespeed-url-hash=2095129339 /></noscript>															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-c15be25 e-con-full e-flex e-con e-child" data-id="c15be25" data-element_type="container">
+				<div class="elementor-element elementor-element-32e590d elementor-widget elementor-widget-heading" data-id="32e590d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://anoticiaonline.com.br/site/jovem-atleta-muriaeense-e-homenageado-por-trajetoria-de-superacao-no-esporte/">Jovem atleta muriaeense é homenageado por trajetória de superação no esporte</a></h2>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-5fd0fba e-flex e-con-boxed e-con e-parent" data-id="5fd0fba" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-b9ea34b elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="b9ea34b" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</article>
+				<article id="post-136269" class="elementor-post elementor-grid-item ecs-post-loop post-136269 post type-post status-publish format-standard has-post-thumbnail hentry category-muriae category-cultura category-slide-principal">
+				<div data-elementor-type="loop" data-elementor-id="101693" class="elementor elementor-101693 elementor-location-single post-136269 post type-post status-publish format-standard has-post-thumbnail hentry category-muriae category-cultura category-slide-principal" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-6a0f666 e-flex e-con-boxed e-con e-parent" data-id="6a0f666" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-10f3841 e-con-full e-flex e-con e-child" data-id="10f3841" data-element_type="container">
+				<div class="elementor-element elementor-element-fb98370 elementor-widget__width-inherit elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="fb98370" data-element_type="widget" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+															<img width="700" height="467" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20467'%3E%3C/svg%3E" title="Tiquim-de-Minas-Ep.-02—2025-04-22-18-37_DSC01448" alt="Tiquim-de-Minas-Ep.-02---2025-04-22-18-37_DSC01448" data-lazy-src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/Tiquim-de-Minas-Ep.-02-2025-04-22-18-37_DSC01448.jpg" data-pagespeed-url-hash="1677932737" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><noscript><img width=700 height=467 src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/Tiquim-de-Minas-Ep.-02-2025-04-22-18-37_DSC01448.jpg" title="Tiquim-de-Minas-Ep.-02&#8212;2025-04-22-18-37_DSC01448" alt=Tiquim-de-Minas-Ep.-02---2025-04-22-18-37_DSC01448 loading=lazy data-pagespeed-url-hash=3135861164 /></noscript>															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-c15be25 e-con-full e-flex e-con e-child" data-id="c15be25" data-element_type="container">
+				<div class="elementor-element elementor-element-32e590d elementor-widget elementor-widget-heading" data-id="32e590d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://anoticiaonline.com.br/site/tiquim-de-minas-conheca-a-receita-de-brownie-de-mandioca-da-iris/">Tiquim de Minas: conheça a receita de brownie de mandioca da Íris</a></h2>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-5fd0fba e-flex e-con-boxed e-con e-parent" data-id="5fd0fba" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-b9ea34b elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="b9ea34b" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</article>
+				<article id="post-136271" class="elementor-post elementor-grid-item ecs-post-loop post-136271 post type-post status-publish format-standard hentry category-muriae category-cotidiano category-gerais category-regiao">
+				<div data-elementor-type="loop" data-elementor-id="101693" class="elementor elementor-101693 elementor-location-single post-136271 post type-post status-publish format-standard hentry category-muriae category-cotidiano category-gerais category-regiao" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-6a0f666 e-flex e-con-boxed e-con e-parent" data-id="6a0f666" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-10f3841 e-con-full e-flex e-con e-child" data-id="10f3841" data-element_type="container">
+				</div>
+		<div class="elementor-element elementor-element-c15be25 e-con-full e-flex e-con e-child" data-id="c15be25" data-element_type="container">
+				<div class="elementor-element elementor-element-32e590d elementor-widget elementor-widget-heading" data-id="32e590d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://anoticiaonline.com.br/site/mais-de-30-mil-clientes-da-energisa-podem-receber-ate-65-de-desconto-na-conta-de-luz-mas-ainda-nao-utilizam-o-beneficio/">Mais de 30 mil clientes da Energisa podem receber até 65% de desconto na conta de luz, mas ainda não utilizam o benefício&nbsp;</a></h2>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-5fd0fba e-flex e-con-boxed e-con e-parent" data-id="5fd0fba" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-b9ea34b elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="b9ea34b" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</article>
+				</div>
+						</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-9640634 e-con-full elementor-hidden-desktop e-flex e-con e-child" data-id="9640634" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-c09e8a2 e-con-full e-flex e-con e-child" data-id="c09e8a2" data-element_type="container">
+		<div class="elementor-element elementor-element-caf0a93 e-con-full e-flex e-con e-child" data-id="caf0a93" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-def3b7a elementor-widget elementor-widget-html" data-id="def3b7a" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+					
+
+<div align="center">
+<svg width="225" height="30">
+    <polygon points="0,100 50,0 200,0 150,100"></polygon>
+</svg>
+</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-8c9d713 elementor-widget elementor-widget-heading" data-id="8c9d713" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Em Alta</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-19a3d69 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="19a3d69" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-d251048 e-con-full e-flex e-con e-child" data-id="d251048" data-element_type="container">
+		<div class="elementor-element elementor-element-ad4e32c e-con-full e-flex e-con e-child" data-id="ad4e32c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-1a0e9ac elementor-grid-1 elementor-grid-tablet-1 elementor-posts--thumbnail-top elementor-grid-mobile-1 elementor-widget elementor-widget-posts" data-id="1a0e9ac" data-element_type="widget" data-settings="{&quot;custom_columns&quot;:&quot;1&quot;,&quot;custom_columns_tablet&quot;:&quot;1&quot;,&quot;custom_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;custom_columns_mobile&quot;:&quot;1&quot;,&quot;custom_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:35,&quot;sizes&quot;:[]},&quot;custom_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="posts.custom">
+				<div class="elementor-widget-container">
+					      <div class="ecs-posts elementor-posts-container elementor-posts   elementor-grid elementor-posts--skin-custom" data-settings="{&quot;current_page&quot;:1,&quot;max_num_pages&quot;:&quot;5&quot;,&quot;load_method&quot;:&quot;&quot;,&quot;widget_id&quot;:&quot;1a0e9ac&quot;,&quot;post_id&quot;:136400,&quot;theme_id&quot;:101362,&quot;change_url&quot;:false,&quot;reinit_js&quot;:false}">
+      		<article id="post-136240" class="elementor-post elementor-grid-item ecs-post-loop post-136240 post type-post status-publish format-standard has-post-thumbnail hentry category-muriae category-cotidiano category-cultura category-eventos category-slide-principal">
+				<div data-elementor-type="loop" data-elementor-id="101693" class="elementor elementor-101693 elementor-location-single post-136240 post type-post status-publish format-standard has-post-thumbnail hentry category-muriae category-cotidiano category-cultura category-eventos category-slide-principal" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-6a0f666 e-flex e-con-boxed e-con e-parent" data-id="6a0f666" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-10f3841 e-con-full e-flex e-con e-child" data-id="10f3841" data-element_type="container">
+				<div class="elementor-element elementor-element-fb98370 elementor-widget__width-inherit elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="fb98370" data-element_type="widget" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+															<img width="700" height="467" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20467'%3E%3C/svg%3E" title="IMG_5723" alt="IMG_5723" data-lazy-src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/IMG_5723-1.jpg" data-pagespeed-url-hash="1677932737" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><noscript><img width=700 height=467 src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/IMG_5723-1.jpg" title=IMG_5723 alt=IMG_5723 loading=lazy data-pagespeed-url-hash=4005267047 /></noscript>															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-c15be25 e-con-full e-flex e-con e-child" data-id="c15be25" data-element_type="container">
+				<div class="elementor-element elementor-element-32e590d elementor-widget elementor-widget-heading" data-id="32e590d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://anoticiaonline.com.br/site/projeto-as-aventuras-do-palhaco-fofoquynha-encerra-atividades-com-gratidao-e-celebracao-aos-170-anos-de-muriae/">Projeto “As Aventuras do Palhaço Fofoquynha” encerra atividades com gratidão e celebração aos 170 anos de Muriaé</a></h2>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-5fd0fba e-flex e-con-boxed e-con e-parent" data-id="5fd0fba" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-b9ea34b elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="b9ea34b" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</article>
+				<article id="post-136226" class="elementor-post elementor-grid-item ecs-post-loop post-136226 post type-post status-publish format-standard hentry category-opiniao">
+				<div data-elementor-type="loop" data-elementor-id="101693" class="elementor elementor-101693 elementor-location-single post-136226 post type-post status-publish format-standard hentry category-opiniao" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-6a0f666 e-flex e-con-boxed e-con e-parent" data-id="6a0f666" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-10f3841 e-con-full e-flex e-con e-child" data-id="10f3841" data-element_type="container">
+				</div>
+		<div class="elementor-element elementor-element-c15be25 e-con-full e-flex e-con e-child" data-id="c15be25" data-element_type="container">
+				<div class="elementor-element elementor-element-32e590d elementor-widget elementor-widget-heading" data-id="32e590d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://anoticiaonline.com.br/site/coluna-esplanada-15-5-25/">Coluna Esplanada 15/5/25</a></h2>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-5fd0fba e-flex e-con-boxed e-con e-parent" data-id="5fd0fba" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-b9ea34b elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="b9ea34b" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</article>
+				<article id="post-136277" class="elementor-post elementor-grid-item ecs-post-loop post-136277 post type-post status-publish format-standard has-post-thumbnail hentry category-muriae category-cotidiano category-esporte category-eventos category-gerais category-slide-principal">
+				<div data-elementor-type="loop" data-elementor-id="101693" class="elementor elementor-101693 elementor-location-single post-136277 post type-post status-publish format-standard has-post-thumbnail hentry category-muriae category-cotidiano category-esporte category-eventos category-gerais category-slide-principal" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-6a0f666 e-flex e-con-boxed e-con e-parent" data-id="6a0f666" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-10f3841 e-con-full e-flex e-con e-child" data-id="10f3841" data-element_type="container">
+				<div class="elementor-element elementor-element-fb98370 elementor-widget__width-inherit elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="fb98370" data-element_type="widget" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+															<img width="700" height="525" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20525'%3E%3C/svg%3E" title="IMG_7538" alt="IMG_7538" data-lazy-src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/IMG_7538.jpg" data-pagespeed-url-hash="619278180" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><noscript><img width=700 height=525 src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/IMG_7538.jpg" title=IMG_7538 alt=IMG_7538 loading=lazy data-pagespeed-url-hash=2095129339 /></noscript>															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-c15be25 e-con-full e-flex e-con e-child" data-id="c15be25" data-element_type="container">
+				<div class="elementor-element elementor-element-32e590d elementor-widget elementor-widget-heading" data-id="32e590d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://anoticiaonline.com.br/site/jovem-atleta-muriaeense-e-homenageado-por-trajetoria-de-superacao-no-esporte/">Jovem atleta muriaeense é homenageado por trajetória de superação no esporte</a></h2>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-5fd0fba e-flex e-con-boxed e-con e-parent" data-id="5fd0fba" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-b9ea34b elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="b9ea34b" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</article>
+				<article id="post-136269" class="elementor-post elementor-grid-item ecs-post-loop post-136269 post type-post status-publish format-standard has-post-thumbnail hentry category-muriae category-cultura category-slide-principal">
+				<div data-elementor-type="loop" data-elementor-id="101693" class="elementor elementor-101693 elementor-location-single post-136269 post type-post status-publish format-standard has-post-thumbnail hentry category-muriae category-cultura category-slide-principal" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-6a0f666 e-flex e-con-boxed e-con e-parent" data-id="6a0f666" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-10f3841 e-con-full e-flex e-con e-child" data-id="10f3841" data-element_type="container">
+				<div class="elementor-element elementor-element-fb98370 elementor-widget__width-inherit elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="fb98370" data-element_type="widget" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+															<img width="700" height="467" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20700%20467'%3E%3C/svg%3E" title="Tiquim-de-Minas-Ep.-02—2025-04-22-18-37_DSC01448" alt="Tiquim-de-Minas-Ep.-02---2025-04-22-18-37_DSC01448" data-lazy-src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/Tiquim-de-Minas-Ep.-02-2025-04-22-18-37_DSC01448.jpg" data-pagespeed-url-hash="1677932737" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><noscript><img width=700 height=467 src="https://anoticiaonline.com.br/site/wp-content/uploads/2025/05/Tiquim-de-Minas-Ep.-02-2025-04-22-18-37_DSC01448.jpg" title="Tiquim-de-Minas-Ep.-02&#8212;2025-04-22-18-37_DSC01448" alt=Tiquim-de-Minas-Ep.-02---2025-04-22-18-37_DSC01448 loading=lazy data-pagespeed-url-hash=3135861164 /></noscript>															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-c15be25 e-con-full e-flex e-con e-child" data-id="c15be25" data-element_type="container">
+				<div class="elementor-element elementor-element-32e590d elementor-widget elementor-widget-heading" data-id="32e590d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://anoticiaonline.com.br/site/tiquim-de-minas-conheca-a-receita-de-brownie-de-mandioca-da-iris/">Tiquim de Minas: conheça a receita de brownie de mandioca da Íris</a></h2>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-5fd0fba e-flex e-con-boxed e-con e-parent" data-id="5fd0fba" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-b9ea34b elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="b9ea34b" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</article>
+				<article id="post-136271" class="elementor-post elementor-grid-item ecs-post-loop post-136271 post type-post status-publish format-standard hentry category-muriae category-cotidiano category-gerais category-regiao">
+				<div data-elementor-type="loop" data-elementor-id="101693" class="elementor elementor-101693 elementor-location-single post-136271 post type-post status-publish format-standard hentry category-muriae category-cotidiano category-gerais category-regiao" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-6a0f666 e-flex e-con-boxed e-con e-parent" data-id="6a0f666" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-10f3841 e-con-full e-flex e-con e-child" data-id="10f3841" data-element_type="container">
+				</div>
+		<div class="elementor-element elementor-element-c15be25 e-con-full e-flex e-con e-child" data-id="c15be25" data-element_type="container">
+				<div class="elementor-element elementor-element-32e590d elementor-widget elementor-widget-heading" data-id="32e590d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default"><a href="https://anoticiaonline.com.br/site/mais-de-30-mil-clientes-da-energisa-podem-receber-ate-65-de-desconto-na-conta-de-luz-mas-ainda-nao-utilizam-o-beneficio/">Mais de 30 mil clientes da Energisa podem receber até 65% de desconto na conta de luz, mas ainda não utilizam o benefício&nbsp;</a></h2>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-5fd0fba e-flex e-con-boxed e-con e-parent" data-id="5fd0fba" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-b9ea34b elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="b9ea34b" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</article>
+				</div>
+						</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</article>
+				</div>
+						</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-2c272f1 footer1 e-flex e-con-boxed e-con e-parent" data-id="2c272f1" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-992e8fd elementor-widget elementor-widget-spacer" data-id="992e8fd" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		
+	</div>
+</div>
+
+
+<div class="site-footer">
+			<footer data-elementor-type="footer" data-elementor-id="101336" class="elementor elementor-101336 elementor-location-footer" data-elementor-post-type="elementor_library">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-aec9fe1 elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle" data-id="aec9fe1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3d4df8b" data-id="3d4df8b" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3939c12 elementor-widget elementor-widget-image" data-id="3939c12" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="300" height="42" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%2042'%3E%3C/svg%3E" class="attachment-medium size-medium wp-image-103148" alt="" data-lazy-srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/A-Noticia-Logo-2-300x42.png 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/A-Noticia-Logo-2-768x107.png 768w, https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/A-Noticia-Logo-2.png 800w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/A-Noticia-Logo-2-300x42.png" data-pagespeed-url-hash="2862781996" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"><noscript><img loading=lazy width=300 height=42 src="https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/A-Noticia-Logo-2-300x42.png" class="attachment-medium size-medium wp-image-103148" alt="" srcset="https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/A-Noticia-Logo-2-300x42.png 300w, https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/A-Noticia-Logo-2-768x107.png 768w, https://anoticiaonline.com.br/site/wp-content/uploads/2022/08/A-Noticia-Logo-2.png 800w" sizes="(max-width: 300px) 100vw, 300px" data-pagespeed-url-hash=3561490428 /></noscript>															</div>
+				</div>
+				<div class="elementor-element elementor-element-5968a07 elementor-fixed elementor-view-default elementor-widget elementor-widget-icon" data-id="5968a07" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;fixed&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_opacity_effect&quot;:&quot;yes&quot;,&quot;motion_fx_opacity_range&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:10}},&quot;motion_fx_opacity_direction&quot;:&quot;out-in&quot;,&quot;motion_fx_opacity_level&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-wrapper">
+			<a class="elementor-icon" href="#voltar">
+			<i aria-hidden="true" class="fas fa-angle-double-up"></i>			</a>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-ca9611f elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="ca9611f" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-map-pin"></i>						</span>
+										<span class="elementor-icon-list-text">Rua Benedito Valadares, nº 317, Barra , Muriaé-MG</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-phone-alt"></i>						</span>
+										<span class="elementor-icon-list-text">(32) 98802-3647 - (32) 8855-0315</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-envelope"></i>						</span>
+										<span class="elementor-icon-list-text">contato@anoticiaonline.com.br</span>
+									</li>
+						</ul>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-108867d elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="108867d" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-eaead4e" href="https://www.facebook.com/a.noticiamuriae/" target="_blank">
+						<span class="elementor-screen-only">Facebook</span>
+						<i class="fab fa-facebook"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-8801f6b" href="https://www.instagram.com/a.noticia/" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<i class="fab fa-instagram"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-207eba0" href="https://www.youtube.com/channel/UCnJGR0IevPxEDE81IAN5H0w" target="_blank">
+						<span class="elementor-screen-only">Youtube</span>
+						<i class="fab fa-youtube"></i>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</footer>
+		</div>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/site\/*"},{"not":{"href_matches":["\/site\/wp-*.php","\/site\/wp-admin\/*","\/site\/wp-content\/uploads\/*","\/site\/wp-content\/*","\/site\/wp-content\/plugins\/*","\/site\/wp-content\/themes\/generatepress\/*","\/site\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="rocketlazyloadscript" id="generate-a11y">!function(){"use strict";if("querySelector"in document&&"addEventListener"in window){var e=document.body;e.addEventListener("mousedown",function(){e.classList.add("using-mouse")}),e.addEventListener("keydown",function(){e.classList.remove("using-mouse")})}}();</script><!-- Instagram Feed JS -->
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+var sbiajaxurl = "https://anoticiaonline.com.br/site/wp-admin/admin-ajax.php";
+</script>
+			<script type="rocketlazyloadscript">
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			
+
+<script id="superpwa-register-sw-js-extra">var superpwa_sw={"url":"\/site\/superpwa-sw.js?2.2.7","disable_addtohome":"0","enableOnDesktop":"","offline_form_addon_active":"","ajax_url":"https:\/\/anoticiaonline.com.br\/site\/wp-admin\/admin-ajax.php","offline_message":"1","offline_message_txt":"You are currently offline."};</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://anoticiaonline.com.br/site/wp-content/cache/min/1/site/wp-content/plugins/super-progressive-web-apps/public/js/register-sw.js?ver=1745076281" id="superpwa-register-sw-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script id="rocket-preload-links-js-extra">var RocketPreloadLinksConfig={"excludeUris":"\/site(\/|\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$))|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/anoticiaonline.com.br\/site","onHoverDelay":"100","rateThrottle":"3"};</script>
+<script type="rocketlazyloadscript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<!--[if lte IE 11]>
+<script src="https://anoticiaonline.com.br/site/wp-content/themes/generatepress/assets/js/classList.min.js?ver=3.5.1" id="generate-classlist-js"></script>
+<![endif]-->
+<script id="generate-menu-js-extra">var generatepressMenu={"toggleOpenedSubMenus":"1","openSubMenuLabel":"Open Sub-Menu","closeSubMenuLabel":"Close Sub-Menu"};</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://anoticiaonline.com.br/site/wp-content/themes/generatepress/assets/js/menu.min.js?ver=3.5.1" id="generate-menu-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://anoticiaonline.com.br/site/wp-includes/js/comment-reply.min.js?ver=6.8.1" id="comment-reply-js" async="" data-wp-strategy="async"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://anoticiaonline.com.br/site/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1" id="smartmenus-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://anoticiaonline.com.br/site/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js" data-rocket-defer="" defer=""></script>
+<script id="q2w3_fixed_widget-js-extra">var q2w3_sidebar_options=[{"sidebar":"q2w3-default-sidebar","use_sticky_position":false,"margin_top":10,"margin_bottom":10,"stop_elements_selectors":".footer1","screen_max_width":0,"screen_max_height":0,"widgets":[".fixa1",".fixa2"]}];</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://anoticiaonline.com.br/site/wp-content/plugins/q2w3-fixed-widget/js/frontend.min.js?ver=6.2.3" id="q2w3_fixed_widget-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://anoticiaonline.com.br/site/wp-content/cache/min/1/site/wp-content/plugins/jet-engine/assets/lib/jet-plugins/jet-plugins.js?ver=1745068810" id="jet-plugins-js" data-rocket-defer="" defer=""></script>
+<script id="jet-engine-frontend-js-extra">var JetEngineSettings={"ajaxurl":"https:\/\/anoticiaonline.com.br\/site\/wp-admin\/admin-ajax.php","ajaxlisting":"https:\/\/anoticiaonline.com.br\/site\/titulo-de-cidadania-honoraria-e-entregue-a-lucas-monteiro-de-oliveira\/?nocache=1747897766","restNonce":"f5fd6c4286","hoverActionTimeout":"400","post_id":"74062"};</script>
+<script type="rocketlazyloadscript" id="jet-engine-frontend-js-before">window.addEventListener('DOMContentLoaded', function() {
+			jQuery( window ).on( 'jet-engine/frontend/loaded', function() {
+				window.JetPlugins.hooks.addFilter(
+					'jet-popup.show-popup.data',
+					'JetEngine.popupData',
+					function( popupData, popup, triggeredBy ) {
+
+						if ( ! triggeredBy ) {
+							return popupData;
+						}
+
+						if ( ! triggeredBy.data( 'popupIsJetEngine' ) ) {
+							return popupData;
+						}
+
+						var wrapper = triggeredBy.closest( '.jet-listing-grid__items' );
+
+						if ( wrapper.length && wrapper.data( 'cctSlug' ) ) {
+							popupData['cctSlug'] = wrapper.data( 'cctSlug' );
+						}
+
+						return popupData;
+					}
+				);
+			} );
+		
+});</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://anoticiaonline.com.br/site/wp-content/cache/min/1/site/wp-content/plugins/jet-engine/assets/js/frontend.js?ver=1745068810" id="jet-engine-frontend-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" id="cfturnstile-js" defer="" data-wp-strategy="defer"></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://anoticiaonline.com.br/site/wp-content/cache/min/1/site/wp-content/plugins/simple-cloudflare-turnstile/js/integrations/elementor.js?ver=1745076187" id="cfturnstile-elementor-js-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://anoticiaonline.com.br/site/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.28.3" id="elementor-pro-webpack-runtime-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://anoticiaonline.com.br/site/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.28.3" id="elementor-webpack-runtime-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://anoticiaonline.com.br/site/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.28.3" id="elementor-frontend-modules-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://anoticiaonline.com.br/site/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://anoticiaonline.com.br/site/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="rocketlazyloadscript" id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type="rocketlazyloadscript" id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/anoticiaonline.com.br\/site\/wp-admin\/admin-ajax.php","nonce":"ae8776ff44","urls":{"assets":"https:\/\/anoticiaonline.com.br\/site\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/anoticiaonline.com.br\/site\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":true},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},
+"facebook_sdk":{"lang":"pt_BR","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/anoticiaonline.com.br\/site\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://anoticiaonline.com.br/site/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.28.3" id="elementor-pro-frontend-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://anoticiaonline.com.br/site/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Pr\u00f3ximo","close":"Fechar","a11yCarouselPrevSlideMessage":"Slide anterior","a11yCarouselNextSlideMessage":"Pr\u00f3ximo slide","a11yCarouselFirstSlideMessage":"Este \u00e9 o primeiro slide","a11yCarouselLastSlideMessage":"Este \u00e9 o \u00faltimo slide","a11yCarouselPaginationBulletMessage":"Ir para o slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Dispositivos m\u00f3veis no modo retrato","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Dispositivos m\u00f3veis no modo paisagem","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet no modo retrato","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet no modo paisagem","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Notebook","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Tela ampla (widescreen)","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},
+"hasCustomBreakpoints":false},"version":"3.28.3","is_static":false,"experimentalFeatures":{"additional_custom_breakpoints":true,"container":true,"e_local_google_fonts":true,"theme_builder_v2":true,"nested-elements":true,"editor_v2":true,"home_screen":true},"urls":{"assets":"https:\/\/anoticiaonline.com.br\/site\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/anoticiaonline.com.br\/site\/wp-admin\/admin-ajax.php","uploadUrl":"http:\/\/anoticiaonline.com.br\/site\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"0138f9afbe"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"body_background_background":"classic","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":74062,"title":"T%C3%ADtulo%20de%20Cidadania%20Honor%C3%A1ria%20%C3%A9%20entregue%20a%20Lucas%20Monteiro%20de%20Oliveira%20","excerpt":"","featuredImage":false}};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://anoticiaonline.com.br/site/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.28.3" id="elementor-frontend-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://anoticiaonline.com.br/site/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.28.3" id="pro-elements-handlers-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://www.google.com/recaptcha/api.js?render=6LfgIQ0qAAAAAIzKxG7zfVEONVoxNePRNKnjZnxt" id="recaptchav3-js"></script>
+<script id="jet-blocks-js-extra">var jetBlocksData={"recaptchaConfig":{"enable":"true","site_key":"6LfgIQ0qAAAAAIzKxG7zfVEONVoxNePRNKnjZnxt","secret_key":"6LfgIQ0qAAAAAPev72CRmis75_tFcyVvvKhO3pta"}};var JetHamburgerPanelSettings={"ajaxurl":"https:\/\/anoticiaonline.com.br\/site\/wp-admin\/admin-ajax.php","isMobile":"false","templateApiUrl":"https:\/\/anoticiaonline.com.br\/site\/wp-json\/jet-blocks-api\/v1\/elementor-template","devMode":"false","restNonce":"f5fd6c4286"};</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://anoticiaonline.com.br/site/wp-content/plugins/jet-blocks/assets/js/jet-blocks.min.js?ver=1.3.17" id="jet-blocks-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript">
+document.addEventListener("DOMContentLoaded", function(){
+let divc = document.querySelectorAll('div[style]');
+for (let i = 0, len = divc.length; i < len; i++) {
+
+let actdisplay = window.getComputedStyle(divc[i], null).display;
+let actclear = window.getComputedStyle(divc[i], null).clear;
+
+if(actdisplay == 'block' && actclear == 'both')    {
+divc[i].remove();
+}
+}
+});  
+   
+</script>
+<script type="rocketlazyloadscript">
+// Prevenir seleção de texto
+document.addEventListener('selectstart', (event) => event.preventDefault());
+
+// Prevenir cópia de texto e imagens
+document.addEventListener('copy', (event) => event.preventDefault());
+
+// Prevenir o clique com o botão direito do mouse
+document.addEventListener('contextmenu', (event) => event.preventDefault());
+
+// Prevenir o arrastar de imagens
+document.addEventListener('dragstart', (event) => event.preventDefault());
+</script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async="" src="https://anoticiaonline.com.br/site/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script><script>function lazyLoadThumb(e,alt,l){var t='<img loading="lazy" data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img loading="lazy" src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="Play Youtube video"></button>';if(l){t=t.replace('data-lazy-','');t=t.replace('loading="lazy"','');t=t.replace(/<noscript>.*?<\/noscript>/g,'');}t=t.replace('alt=""','alt="'+alt+'"');return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?"":"&"+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var exclusions=[];var e,t,p,u,l,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)(e=document.createElement("div")),(u='https://i.ytimg.com/vi/ID/hqdefault.jpg'),(u=u.replace('ID',a[t].dataset.id)),(l=exclusions.some(exclusion=>u.includes(exclusion))),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query",a[t].dataset.query),e.setAttribute("data-src",a[t].dataset.src),(e.innerHTML=lazyLoadThumb(a[t].dataset.id,a[t].dataset.alt,l)),a[t].appendChild(e),(p=e.querySelector(".play")),(p.onclick=lazyLoadYoutubeIframe)});</script>
+<script>var rocket_beacon_data={"ajax_url":"https:\/\/anoticiaonline.com.br\/site\/wp-admin\/admin-ajax.php","nonce":"7873880f8e","url":"https:\/\/anoticiaonline.com.br\/site\/titulo-de-cidadania-honoraria-e-entregue-a-lucas-monteiro-de-oliveira","is_mobile":false,"width_threshold":1600,"height_threshold":700,"delay":500,"debug":null,"status":{"atf":true,"lrc":true},"elements":"img, video, picture, p, main, div, li, svg, section, header, span","lrc_threshold":1800}</script><script data-name="wpr-wpr-beacon" src="https://anoticiaonline.com.br/site/wp-content/plugins/wp-rocket/assets/js/wpr-beacon.min.js" async="" beacon-completed="true"></script><script>(()=>{class RocketElementorPreload{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode-wpr",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}t(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this.i(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach((t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this.o(t)}catch(t){}}))}o(t){const e=JSON.parse(t.dataset.settings),i=e.m||e.animation_delay||0,n=e[this.animationSettingKeys.find((t=>e[t]))];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let o=setTimeout((()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this.l(t,e)}),i);window.addEventListener("rocket-startLoading",(function(){clearTimeout(o)}))}i(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach((t=>{e.forEach((e=>{i.push(t+e)}))})),i}l(t,e){this.i().forEach((t=>delete e[t])),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorPreload;requestAnimationFrame(t.t.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorPreload.run)})();</script>
+
+
+<span id="elementor-device-mode-wpr" class="elementor-screen-only"></span></body></html>

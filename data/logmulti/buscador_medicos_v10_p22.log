@@ -1,0 +1,509 @@
+2025-05-22 01:32:34,446 - P17020 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 01:32:34,446 - P17020 - INFO - Nome: ANTONIO DELANO PEREIRA RAMOS
+2025-05-22 01:32:34,446 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 01:32:35,716 - P17020 - INFO - Após reiniciar driver Uso de memória: 79.48 MB
+2025-05-22 01:32:35,716 - P17020 - INFO - Início do processamento Uso de memória: 79.48 MB
+2025-05-22 01:32:35,717 - P17020 - INFO - Iniciando busca para: ANTONIO DELANO PEREIRA RAMOS CRM 21321 SP telefone e-mail endereço
+2025-05-22 01:32:36,129 - P17020 - INFO - SearX results: 5 URLs
+2025-05-22 01:32:36,130 - P17020 - INFO - Após SearX Uso de memória: 79.48 MB
+2025-05-22 01:32:38,837 - P17020 - INFO - Google results: 5 URLs
+2025-05-22 01:32:38,837 - P17020 - INFO - Após Google Uso de memória: 79.20 MB
+2025-05-22 01:32:41,452 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 01:32:41,453 - P17020 - INFO - Após Bing Uso de memória: 81.84 MB
+2025-05-22 01:32:41,453 - P17020 - INFO - Total de URLs únicas: 16
+2025-05-22 01:32:41,453 - P17020 - INFO - Processando URL 1/16: https://consultacrm.com.br/
+2025-05-22 01:32:45,632 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:32:45,644 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:32:45,644 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:32:45,645 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:32:45,645 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:32:45,645 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:32:45,645 - P17020 - INFO - Após processar URL 1 Uso de memória: 84.33 MB
+2025-05-22 01:32:45,646 - P17020 - INFO - Processando URL 2/16: https://www.planodesaudesp.net/perfil/antonio_delano_pereira_ramos--2556986
+2025-05-22 01:32:50,054 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\9946ef567726078faf3df4d6bfae79cd.html
+2025-05-22 01:32:50,069 - P17020 - INFO - Candidates address: 8 items
+2025-05-22 01:32:50,070 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:32:50,070 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:32:50,070 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:32:50,070 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:32:50,070 - P17020 - INFO - Após processar URL 2 Uso de memória: 80.96 MB
+2025-05-22 01:32:50,071 - P17020 - INFO - Processando URL 3/16: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 01:32:50,071 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 01:32:50,071 - P17020 - INFO - Após processar URL 3 Uso de memória: 80.96 MB
+2025-05-22 01:32:50,071 - P17020 - INFO - Processando URL 4/16: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2024/DMPF-ADMINISTRATIVO-2024-07-26.pdf
+2025-05-22 01:32:50,072 - P17020 - INFO - Ignorando URL de arquivo não-HTML: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2024/DMPF-ADMINISTRATIVO-2024-07-26.pdf
+2025-05-22 01:32:50,072 - P17020 - INFO - Após processar URL 4 Uso de memória: 80.96 MB
+2025-05-22 01:32:50,072 - P17020 - INFO - Processando URL 5/16: https://rhetory.com/antconc/wordlist.txt
+2025-05-22 01:32:50,072 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://rhetory.com/antconc/wordlist.txt
+2025-05-22 01:32:50,072 - P17020 - INFO - Após processar URL 5 Uso de memória: 80.96 MB
+2025-05-22 01:32:50,072 - P17020 - INFO - Processando URL 6/16: https://esaj.tjce.jus.br/cdje/downloadCaderno.do?dtDiario=10/01/2011&cdCaderno=2
+2025-05-22 01:32:52,709 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b230dc58cf67992469838da97aec096f.html
+2025-05-22 01:32:52,726 - P17020 - INFO - Candidates address: 8 items
+2025-05-22 01:32:52,726 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:32:52,727 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:32:52,727 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:32:52,727 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:32:52,727 - P17020 - INFO - Após processar URL 6 Uso de memória: 81.21 MB
+2025-05-22 01:32:52,727 - P17020 - INFO - Processando URL 7/16: https://www.classemedica.com.br/medico/33665-antonio-delano-pereira-ramos.htm
+2025-05-22 01:33:00,998 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\20c2748e6306f62abae107945583c890.html
+2025-05-22 01:33:01,031 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:33:01,032 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:01,032 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:33:01,032 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:01,033 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:33:01,033 - P17020 - INFO - Após processar URL 7 Uso de memória: 82.91 MB
+2025-05-22 01:33:01,033 - P17020 - INFO - Processando URL 8/16: https://transparencia.cremesp.org.br/?siteAcao=guia_medico
+2025-05-22 01:33:03,587 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\cb80cc007a72cc7a378681a92a58906a.html
+2025-05-22 01:33:03,637 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:33:03,637 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:03,638 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:33:03,638 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:03,638 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:33:03,638 - P17020 - INFO - Após processar URL 8 Uso de memória: 81.84 MB
+2025-05-22 01:33:03,638 - P17020 - INFO - Processando URL 9/16: https://www.drcrm.org.br/?siteAcao=CMDesatualizado&pg=8
+2025-05-22 01:33:05,851 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3257692da79232457b2d3dc633f5c055.html
+2025-05-22 01:33:05,857 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:33:05,858 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:05,858 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:33:05,859 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:05,859 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:33:05,859 - P17020 - INFO - Após processar URL 9 Uso de memória: 82.19 MB
+2025-05-22 01:33:05,860 - P17020 - INFO - Processando URL 10/16: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 01:33:09,559 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 01:33:09,601 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:33:09,602 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:09,603 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:33:09,603 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:09,604 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:33:09,604 - P17020 - INFO - Após processar URL 10 Uso de memória: 81.06 MB
+2025-05-22 01:33:09,604 - P17020 - INFO - Processando URL 11/16: https://guiamedico.cremesp.org.br/
+2025-05-22 01:33:11,744 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 01:33:11,758 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:33:11,758 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:33:11,758 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:33:11,758 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:11,758 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:33:11,759 - P17020 - INFO - Após processar URL 11 Uso de memória: 80.09 MB
+2025-05-22 01:33:11,759 - P17020 - INFO - Processando URL 12/16: https://esaj.tjce.jus.br/cdje/downloadCaderno.do?dtDiario=08/08/2011&cdCaderno=2
+2025-05-22 01:33:14,183 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a9c8f2f66adeccb209bc0e8c7ce0515f.html
+2025-05-22 01:33:14,189 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:33:14,189 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:33:14,189 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:33:14,189 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:14,189 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:33:14,190 - P17020 - INFO - Após processar URL 12 Uso de memória: 80.69 MB
+2025-05-22 01:33:14,190 - P17020 - INFO - Processando URL 13/16: http://cremesp.org.br/?siteAcao=CMDesatualizado&pg=8
+2025-05-22 01:33:18,606 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\938c15e6641ae19966b034515d86eb50.html
+2025-05-22 01:33:18,631 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:33:18,631 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:33:18,631 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 01:33:18,631 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:18,631 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:33:18,631 - P17020 - INFO - Após processar URL 13 Uso de memória: 80.89 MB
+2025-05-22 01:33:18,632 - P17020 - INFO - Processando URL 14/16: https://www.ime.usp.br/~yoshi/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 01:33:18,632 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 01:33:18,632 - P17020 - INFO - Após processar URL 14 Uso de memória: 80.89 MB
+2025-05-22 01:33:18,632 - P17020 - INFO - Processando URL 15/16: https://www.drcremesp.org.br/?siteAcao=CMDesatualizado&pg=9
+2025-05-22 01:33:44,863 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\308f33a09169f73db97af5d1cdbb27f6.html
+2025-05-22 01:33:44,869 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:33:44,869 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:44,869 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:33:44,870 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:44,870 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:33:44,870 - P17020 - INFO - Após processar URL 15 Uso de memória: 81.34 MB
+2025-05-22 01:33:44,870 - P17020 - INFO - Processando URL 16/16: https://www.helpsaude.com/Antonio-Delano-Pereira-Ramos.SP
+2025-05-22 01:33:50,743 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c09ad524cfc6f7de84d77b7c3008a9ac.html
+2025-05-22 01:33:50,754 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:33:50,754 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:50,754 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:33:50,754 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:50,755 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:33:50,755 - P17020 - INFO - Após processar URL 16 Uso de memória: 81.84 MB
+2025-05-22 01:33:50,755 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:33:50,755 - P17020 - INFO - Ranked address: 9 items
+2025-05-22 01:33:50,755 - P17020 - INFO - Ranked phone: 2 items
+2025-05-22 01:33:50,755 - P17020 - INFO - Ranked email: 2 items
+2025-05-22 01:33:50,756 - P17020 - INFO - Ranked complement: 0 items
+2025-05-22 01:33:50,756 - P17020 - INFO - Ranked cep: 2 items
+2025-05-22 01:33:50,756 - P17020 - INFO - Após agregação Uso de memória: 81.84 MB
+2025-05-22 01:33:50,756 - P17020 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Avenida João Dias, 76', 'Rua Ministro Roberto Cardoso Alves, 386']
+2025-05-22 01:33:50,756 - P17020 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 01:33:50,757 - P17020 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 01:33:50,757 - P17020 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 01:33:50,757 - P17020 - INFO - Validando telefone: ['(11) 4349-9900', '(11) 5181-7894']
+2025-05-22 01:33:50,757 - P17020 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 01:33:50,757 - P17020 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 01:33:50,757 - P17020 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 01:33:50,758 - P17020 - INFO - Validando email: ['cad@cremesp.org.br', 'cadastro@cremesp.org.br']
+2025-05-22 01:33:50,758 - P17020 - INFO - Limpando texto extenso para campo email: cad@cremesp.org.br...
+2025-05-22 01:33:50,758 - P17020 - INFO - Texto limpo: cad@cremesp.org.br
+2025-05-22 01:33:50,758 - P17020 - INFO - Email validado: cad@cremesp.org.br
+2025-05-22 01:33:50,758 - P17020 - INFO - Descobrindo cidade
+2025-05-22 01:33:50,758 - P17020 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 01:33:53,416 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 01:33:53,417 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 01:33:53,417 - P17020 - INFO - Tempo de execução de processamento completo do médico: 77.70 segundos
+2025-05-22 01:33:53,417 - P17020 - INFO - Resultado processado: {'Hash': '2a834169470e608510eec15883350a2b93816d4e3a77c9d6338b6e69c31f25ed', 'CRM': '21321', 'UF': 'SP', 'Firstname': 'ANTONIO', 'LastName': 'DELANO PEREIRA RAMOS', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cad@cremesp.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:33:53,418 - P17020 - INFO - Progresso: 5.2%
+2025-05-22 01:33:53,419 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 01:33:53,467 - P17020 - INFO - Após coleta de lixo Uso de memória: 77.52 MB
+2025-05-22 01:33:53,468 - P17020 - INFO - Tempo de execução de processamento do médico 1: 79.02 segundos
+2025-05-22 01:33:53,468 - P17020 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 01:33:53,468 - P17020 - INFO - Nome: HELIO DOS SANTOS MAZZO
+2025-05-22 01:33:53,469 - P17020 - INFO - Início do processamento Uso de memória: 77.52 MB
+2025-05-22 01:33:53,469 - P17020 - INFO - Iniciando busca para: HELIO DOS SANTOS MAZZO CRM 31256 SP telefone e-mail endereço
+2025-05-22 01:33:53,927 - P17020 - INFO - SearX results: 3 URLs
+2025-05-22 01:33:53,928 - P17020 - INFO - Após SearX Uso de memória: 77.52 MB
+2025-05-22 01:33:56,695 - P17020 - INFO - Google results: 6 URLs
+2025-05-22 01:33:56,696 - P17020 - INFO - Após Google Uso de memória: 81.25 MB
+2025-05-22 01:33:59,206 - P17020 - INFO - Bing results: 12 URLs
+2025-05-22 01:33:59,206 - P17020 - INFO - Após Bing Uso de memória: 83.42 MB
+2025-05-22 01:33:59,206 - P17020 - INFO - Total de URLs únicas: 17
+2025-05-22 01:33:59,206 - P17020 - INFO - Processando URL 1/17: https://www.imparcial.com.br/noticias/helio-mazzo-medico-e-ex-prefeito-de-bernardes-morre-aos-68-anos,42078
+2025-05-22 01:34:07,489 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ac1d29568d38f2727947d403aeb9bbfd.html
+2025-05-22 01:34:07,509 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:34:07,510 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:07,510 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:34:07,510 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:07,510 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:34:07,510 - P17020 - INFO - Após processar URL 1 Uso de memória: 83.80 MB
+2025-05-22 01:34:07,510 - P17020 - INFO - Processando URL 2/17: https://cliniguia.com/profissionais/helio-dos-santos-mazzo-170048276990018/
+2025-05-22 01:34:12,768 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\cff23250e7365ca0ffcf6913c76ee02e.html
+2025-05-22 01:34:12,823 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:34:12,823 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:12,824 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:34:12,825 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:12,826 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:34:12,826 - P17020 - INFO - Após processar URL 2 Uso de memória: 83.09 MB
+2025-05-22 01:34:12,826 - P17020 - INFO - Processando URL 3/17: https://ubs.med.br/consultorio-medico-dr-helio-dos-santos-mazzo-3620298/
+2025-05-22 01:34:16,949 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\23c2fed52f4efa6462d91f6231ec17b8.html
+2025-05-22 01:34:16,969 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:34:16,970 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:16,970 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:34:16,970 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:16,970 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 01:34:16,971 - P17020 - INFO - Após processar URL 3 Uso de memória: 81.47 MB
+2025-05-22 01:34:16,971 - P17020 - INFO - Processando URL 4/17: https://www.doctoralia.com.br/helio-dos-santos-mazzo/ginecologista/presidente-bernardes
+2025-05-22 01:34:16,971 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/helio-dos-santos-mazzo/ginecologista/presidente-bernardes
+2025-05-22 01:34:16,971 - P17020 - INFO - Após processar URL 4 Uso de memória: 81.47 MB
+2025-05-22 01:34:16,972 - P17020 - INFO - Processando URL 5/17: https://g1.globo.com/sp/presidente-prudente-regiao/noticia/2021/02/25/ex-prefeito-de-presidente-bernardes-helio-dos-santos-mazzo-morre-aos-68-anos.ghtml
+2025-05-22 01:34:22,679 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b5c76210ace3368e74e3ca8c2701e73a.html
+2025-05-22 01:34:22,879 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:34:22,880 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:22,880 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:34:22,880 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:22,880 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:34:22,880 - P17020 - INFO - Após processar URL 5 Uso de memória: 86.84 MB
+2025-05-22 01:34:22,880 - P17020 - INFO - Processando URL 6/17: https://eguias.net/empresa/helio-dos-santos-mazzo/presidente-bernardes/sp/2196174
+2025-05-22 01:34:25,238 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4ad201d7f1dc59d5b7ce7e9fc071a60a.html
+2025-05-22 01:34:25,250 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:34:25,250 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 01:34:25,250 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:34:25,251 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:25,251 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 01:34:25,251 - P17020 - INFO - Após processar URL 6 Uso de memória: 82.89 MB
+2025-05-22 01:34:25,251 - P17020 - INFO - Processando URL 7/17: https://www.catalogo.med.br/doutor/helio-dos-santos-mazzo-95175.htm
+2025-05-22 01:34:30,758 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\8b9467c094e5ea38fc84c9c39bcf19c9.html
+2025-05-22 01:34:30,779 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 01:34:30,779 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:30,779 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:34:30,780 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:30,780 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:34:30,780 - P17020 - INFO - Após processar URL 7 Uso de memória: 83.25 MB
+2025-05-22 01:34:30,780 - P17020 - INFO - Processando URL 8/17: https://www.helpsaude.com/helio-dos-santos-mazzo-crmsp-31256
+2025-05-22 01:34:36,167 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\bf3427108348a2010743af0921371e12.html
+2025-05-22 01:34:36,180 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:34:36,181 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:36,181 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:34:36,181 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:36,181 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:34:36,182 - P17020 - INFO - Após processar URL 8 Uso de memória: 84.36 MB
+2025-05-22 01:34:36,182 - P17020 - INFO - Processando URL 9/17: https://dosp.com.br/exibe_do.php?i=NTU5MTE=
+2025-05-22 01:34:38,324 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ccbdd3b8a5bd27f98a285c59bf2c49e0.html
+2025-05-22 01:34:38,324 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:34:38,325 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:38,325 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:34:38,325 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:38,325 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:34:38,325 - P17020 - INFO - Após processar URL 9 Uso de memória: 84.36 MB
+2025-05-22 01:34:38,325 - P17020 - INFO - Processando URL 10/17: https://doutorcrm.com/helio-dos-santos-mazzo
+2025-05-22 01:34:42,640 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a1024856cace57faec1e39e25b94d527.html
+2025-05-22 01:34:42,646 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:34:42,647 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:42,647 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:34:42,647 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:42,647 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:34:42,647 - P17020 - INFO - Após processar URL 10 Uso de memória: 84.46 MB
+2025-05-22 01:34:42,647 - P17020 - INFO - Processando URL 11/17: https://listamedicos.com/medico/helio-dos-santos-mazzo
+2025-05-22 01:34:46,678 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\1448afcaa6e51ca4eccca7fa1174d7da.html
+2025-05-22 01:34:46,686 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:34:46,686 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:46,687 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:34:46,687 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:46,687 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 01:34:46,687 - P17020 - INFO - Após processar URL 11 Uso de memória: 85.27 MB
+2025-05-22 01:34:46,687 - P17020 - INFO - Processando URL 12/17: https://applocal.com.br/empresa/helio-dos-santos-mazzo/presidente-bernardes/sp/8005319
+2025-05-22 01:34:51,661 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\afed41fada6014eb67538282983b693c.html
+2025-05-22 01:34:51,684 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:34:51,684 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:51,685 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:34:51,685 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:51,685 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:34:51,685 - P17020 - INFO - Após processar URL 12 Uso de memória: 85.55 MB
+2025-05-22 01:34:51,685 - P17020 - INFO - Processando URL 13/17: https://www.apontador.com.br/local/sp/presidente_bernardes/enderecos_empresariais/C416570409272Z272E/helio_dos_santos_mazzo.html
+2025-05-22 01:34:55,641 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\36bcccf388e1681052695de5af922275.html
+2025-05-22 01:34:55,691 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:34:55,692 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 01:34:55,692 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 01:34:55,692 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 01:34:55,692 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:34:55,692 - P17020 - INFO - Após processar URL 13 Uso de memória: 82.57 MB
+2025-05-22 01:34:55,693 - P17020 - INFO - Processando URL 14/17: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x13640357089497575077&market=pt-BR&src=SERPGB
+2025-05-22 01:34:59,959 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\73c1b88bf2c2a93bd4b8dc6ff61cf8f9.html
+2025-05-22 01:34:59,981 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:34:59,981 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:34:59,981 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:34:59,981 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:59,981 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:34:59,982 - P17020 - INFO - Após processar URL 14 Uso de memória: 83.74 MB
+2025-05-22 01:34:59,982 - P17020 - INFO - Processando URL 15/17: https://www.infosaude.com.br/cnes/395771-consultorio-medico-dr-helio-dos-santos-mazzo
+2025-05-22 01:35:02,269 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ec047f261a1ad808626176e380e8872b.html
+2025-05-22 01:35:02,303 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:35:02,314 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:35:02,315 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:35:02,317 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:02,317 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:35:02,317 - P17020 - INFO - Após processar URL 15 Uso de memória: 83.94 MB
+2025-05-22 01:35:02,321 - P17020 - INFO - Processando URL 16/17: https://www.cremesp.org.br/?siteAcao=CMDesatualizado&pg=36
+2025-05-22 01:35:04,778 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\83d5b82f872a5275337ae88fb9fda973.html
+2025-05-22 01:35:04,805 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:35:04,807 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:35:04,808 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 01:35:04,809 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:04,812 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:35:04,813 - P17020 - INFO - Após processar URL 16 Uso de memória: 84.06 MB
+2025-05-22 01:35:04,813 - P17020 - INFO - Processando URL 17/17: https://ecrie.com.br/sistema/conteudos/arquivo/a_138_1_13_13032023124222.pdf
+2025-05-22 01:35:04,814 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://ecrie.com.br/sistema/conteudos/arquivo/a_138_1_13_13032023124222.pdf
+2025-05-22 01:35:04,814 - P17020 - INFO - Após processar URL 17 Uso de memória: 84.06 MB
+2025-05-22 01:35:04,814 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:35:04,814 - P17020 - INFO - Ranked address: 5 items
+2025-05-22 01:35:04,815 - P17020 - INFO - Ranked phone: 6 items
+2025-05-22 01:35:04,815 - P17020 - INFO - Ranked email: 3 items
+2025-05-22 01:35:04,815 - P17020 - INFO - Ranked complement: 1 items
+2025-05-22 01:35:04,815 - P17020 - INFO - Ranked cep: 6 items
+2025-05-22 01:35:04,815 - P17020 - INFO - Após agregação Uso de memória: 84.06 MB
+2025-05-22 01:35:04,816 - P17020 - INFO - Validando endereço: ['Rua Coronel Manoel Roberto Barbosa, 695', 'Rua Duque de Caxias, 344', 'Avenida Coronel Manoel Roberto Barbosa , 695']
+2025-05-22 01:35:04,818 - P17020 - INFO - Endereço validado: Rua Coronel Manoel Roberto Barbosa, 695
+2025-05-22 01:35:04,818 - P17020 - INFO - Limpando texto extenso para campo address: Rua Coronel Manoel Roberto Barbosa, 695...
+2025-05-22 01:35:04,819 - P17020 - INFO - Texto limpo: Rua Coronel Manoel Roberto Barbosa, 695
+2025-05-22 01:35:04,820 - P17020 - INFO - Validando telefone: ['', '(18) 3262-1410', '(01) 83262-1410']
+2025-05-22 01:35:04,820 - P17020 - INFO - Limpando texto extenso para campo phone: (18) 3262-1410...
+2025-05-22 01:35:04,820 - P17020 - INFO - Texto limpo: 18) 3262-1410
+2025-05-22 01:35:04,820 - P17020 - INFO - Telefone validado: 18) 3262-1410
+2025-05-22 01:35:04,821 - P17020 - INFO - Validando email: ['relacionamento@apontador.com', 'cad@cremesp.org.br', 'cadastro@cremesp.org.br']
+2025-05-22 01:35:04,821 - P17020 - INFO - Limpando texto extenso para campo email: relacionamento@apontador.com...
+2025-05-22 01:35:04,821 - P17020 - INFO - Texto limpo: relacionamento@apontador.com
+2025-05-22 01:35:04,822 - P17020 - INFO - Email validado: relacionamento@apontador.com
+2025-05-22 01:35:04,823 - P17020 - INFO - Validando complemento: ['Saladas ']
+2025-05-22 01:35:04,824 - P17020 - INFO - Limpando texto extenso para campo complement: Saladas ...
+2025-05-22 01:35:04,826 - P17020 - INFO - Texto limpo: Saladas
+2025-05-22 01:35:04,827 - P17020 - INFO - Complemento validado: Saladas
+2025-05-22 01:35:04,832 - P17020 - INFO - Descobrindo cidade
+2025-05-22 01:35:04,875 - P17020 - INFO - Buscando cidade: Rua Coronel Manoel Roberto Barbosa cidade SP
+2025-05-22 01:35:07,485 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 01:35:07,486 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 01:35:07,486 - P17020 - INFO - Tempo de execução de processamento completo do médico: 74.02 segundos
+2025-05-22 01:35:07,487 - P17020 - INFO - Resultado processado: {'Hash': '32311217ba99060567df126f5bb4f4a69c0ce75ca1bc36f281abed560b1025bf', 'CRM': '31256', 'UF': 'SP', 'Firstname': 'HELIO', 'LastName': 'DOS SANTOS MAZZO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Coronel Manoel Roberto Barbosa, 695', 'Address A1': 'Rua Coronel Manoel Roberto Barbosa', 'Numero A1': '695', 'Complement A1': 'Saladas', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '18) 3262-1410', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'relacionamento@apontador.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:35:07,488 - P17020 - INFO - Progresso: 5.7%
+2025-05-22 01:35:07,488 - P17020 - INFO - Tempo de execução de processamento do médico 2: 74.02 segundos
+2025-05-22 01:35:07,488 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 01:35:07,488 - P17020 - INFO - Nome: SONIA MARIA GUIMARAES PEREIRA TOGEIRO
+2025-05-22 01:35:07,488 - P17020 - INFO - Início do processamento Uso de memória: 79.77 MB
+2025-05-22 01:35:07,489 - P17020 - INFO - Iniciando busca para: SONIA MARIA GUIMARAES PEREIRA TOGEIRO CRM 43264 SP telefone e-mail endereço
+2025-05-22 01:35:07,925 - P17020 - INFO - SearX results: 1 URLs
+2025-05-22 01:35:07,926 - P17020 - INFO - Após SearX Uso de memória: 79.80 MB
+2025-05-22 01:35:10,865 - P17020 - INFO - Google results: 8 URLs
+2025-05-22 01:35:10,865 - P17020 - INFO - Após Google Uso de memória: 82.94 MB
+2025-05-22 01:35:13,391 - P17020 - INFO - Bing results: 9 URLs
+2025-05-22 01:35:13,392 - P17020 - INFO - Após Bing Uso de memória: 85.56 MB
+2025-05-22 01:35:13,392 - P17020 - INFO - Total de URLs únicas: 15
+2025-05-22 01:35:13,393 - P17020 - INFO - Processando URL 1/15: https://www.boaconsulta.com/especialista/sonia-maria-guimaraes-pereira-togeiro-de-moura-6106daa4a2e00a653a00c90f
+2025-05-22 01:35:16,862 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5221026957f0f265f189a6d0415fec52.html
+2025-05-22 01:35:16,948 - P17020 - INFO - Candidates address: 9 items
+2025-05-22 01:35:16,949 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:16,950 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:35:16,951 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 01:35:16,957 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:35:16,959 - P17020 - INFO - Após processar URL 1 Uso de memória: 86.68 MB
+2025-05-22 01:35:16,960 - P17020 - INFO - Processando URL 2/15: https://www.classemedica.com.br/medico/316506-sonia-maria-guimaraes-p-togeiro-de-moura.htm
+2025-05-22 01:35:23,670 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d9e4feaa0ab547ec822e947e1849d3c3.html
+2025-05-22 01:35:23,704 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:35:23,704 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:23,704 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:35:23,704 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:23,705 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:35:23,705 - P17020 - INFO - Após processar URL 2 Uso de memória: 84.41 MB
+2025-05-22 01:35:23,705 - P17020 - INFO - Processando URL 3/15: https://www.geneaminas.com.br/genealogia-mineira/restrita/enlace.asp?codenlace=1375352
+2025-05-22 01:35:26,501 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\81e5b4235cd30813e76489c559f1f338.html
+2025-05-22 01:35:26,511 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:35:26,512 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:26,512 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 01:35:26,513 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:26,513 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:35:26,514 - P17020 - INFO - Após processar URL 3 Uso de memória: 82.72 MB
+2025-05-22 01:35:26,514 - P17020 - INFO - Processando URL 4/15: https://www.geneaminas.com.br/genealogia-mineira/galeria.asp?codpessoa=200183
+2025-05-22 01:35:29,236 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b2ec60e12eb1e0a4cd250869490110ea.html
+2025-05-22 01:35:29,239 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:35:29,239 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:29,239 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:35:29,239 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:29,239 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:35:29,240 - P17020 - INFO - Após processar URL 4 Uso de memória: 82.72 MB
+2025-05-22 01:35:29,240 - P17020 - INFO - Processando URL 5/15: https://www.medicosbrasil.com/profissional/sonia-maria-guimaraes-pereira-togeiro-de-moura
+2025-05-22 01:35:33,546 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\42263f5ae23e696a9dd1d5dd65badd41.html
+2025-05-22 01:35:33,563 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:35:33,564 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:33,564 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:35:33,564 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:33,564 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:35:33,564 - P17020 - INFO - Após processar URL 5 Uso de memória: 83.36 MB
+2025-05-22 01:35:33,564 - P17020 - INFO - Processando URL 6/15: https://www.consultacrm.com.br/index/medicos/uid-958a6852-f5c5-11ec-9e74-0a4aa568c625/sonia_maria_guimaraes_p_togeiro_de_moura
+2025-05-22 01:35:38,871 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f6a735a5bc9262766c6a15527cb27639.html
+2025-05-22 01:35:38,891 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:35:38,896 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:38,898 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:35:38,898 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:38,901 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:35:38,903 - P17020 - INFO - Após processar URL 6 Uso de memória: 84.98 MB
+2025-05-22 01:35:38,904 - P17020 - INFO - Processando URL 7/15: https://sono2024.com.br/evento/sono2024/programacao/palestrante/12250
+2025-05-22 01:35:42,292 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\41b43177599298fe32eca4762999439b.html
+2025-05-22 01:35:42,308 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:35:42,308 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:42,309 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:35:42,309 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:42,309 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:35:42,309 - P17020 - INFO - Após processar URL 7 Uso de memória: 85.31 MB
+2025-05-22 01:35:42,309 - P17020 - INFO - Processando URL 8/15: https://medicina.unifesp.br/disciplinas/cl%C3%ADnica-m%C3%A9dica-e-medicina-laboratorial
+2025-05-22 01:35:44,814 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\78884f5aa8095dabc1a80245ce328835.html
+2025-05-22 01:35:44,866 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 01:35:44,866 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:35:44,866 - P17020 - INFO - Candidates email: 6 items
+2025-05-22 01:35:44,867 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:44,867 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 01:35:44,867 - P17020 - INFO - Após processar URL 8 Uso de memória: 83.52 MB
+2025-05-22 01:35:44,867 - P17020 - INFO - Processando URL 9/15: https://www.researchgate.net/scientific-contributions/Sonia-Maria-Togeiro-38621023
+2025-05-22 01:35:49,855 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2f48f5f6c0a75645360cefbda2241adf.html
+2025-05-22 01:35:49,909 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:35:49,909 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:49,909 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:35:49,909 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:49,909 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:35:49,909 - P17020 - INFO - Após processar URL 9 Uso de memória: 85.35 MB
+2025-05-22 01:35:49,910 - P17020 - INFO - Processando URL 10/15: https://ppg.unifesp.br/psicobiologia/docentes/sonia-maria-guimaraes-pereira-togeiro-moura
+2025-05-22 01:35:52,698 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4614c111f430daa54b9cc5d500daa41f.html
+2025-05-22 01:35:52,725 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:35:52,725 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:52,725 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:35:52,725 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:52,725 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:35:52,725 - P17020 - INFO - Após processar URL 10 Uso de memória: 84.97 MB
+2025-05-22 01:35:52,726 - P17020 - INFO - Processando URL 11/15: https://www.mpsp.mp.br/w/do_25_02_2022
+2025-05-22 01:35:56,783 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7b7842f38b9333c682fd0be00373d38a.html
+2025-05-22 01:35:57,596 - P17020 - INFO - Candidates address: 4 items
+2025-05-22 01:35:57,596 - P17020 - INFO - Candidates phone: 3 items
+2025-05-22 01:35:57,596 - P17020 - INFO - Candidates email: 3 items
+2025-05-22 01:35:57,597 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:57,597 - P17020 - INFO - Candidates cep: 33 items
+2025-05-22 01:35:57,598 - P17020 - INFO - Após processar URL 11 Uso de memória: 86.64 MB
+2025-05-22 01:35:57,598 - P17020 - INFO - Processando URL 12/15: https://www.escavador.com/sobre/7796512/sonia-maria-guimaraes-pereira-togeiro-moura
+2025-05-22 01:36:03,636 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7c6de521b9c32c2b776b68faff19241e.html
+2025-05-22 01:36:03,768 - P17020 - INFO - Candidates address: 6 items
+2025-05-22 01:36:03,768 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:36:03,768 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:36:03,769 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:36:03,769 - P17020 - INFO - Candidates cep: 5 items
+2025-05-22 01:36:03,769 - P17020 - INFO - Após processar URL 12 Uso de memória: 86.37 MB
+2025-05-22 01:36:03,769 - P17020 - INFO - Processando URL 13/15: https://institutodosono.com/corpo-clinico/sonia-togeiro/
+2025-05-22 01:36:09,933 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c3ccd79b803f04f359670c4750b945c8.html
+2025-05-22 01:36:09,959 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 01:36:09,959 - P17020 - INFO - Candidates phone: 8 items
+2025-05-22 01:36:09,959 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:36:09,959 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:36:09,959 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:36:09,959 - P17020 - INFO - Após processar URL 13 Uso de memória: 86.59 MB
+2025-05-22 01:36:09,960 - P17020 - INFO - Processando URL 14/15: https://csp.unifesp.br/pesquisa/orientadores/pneumologia
+2025-05-22 01:36:17,217 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\006dc72180c1c9bf3019e9f8b73557a2.html
+2025-05-22 01:36:17,233 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:36:17,233 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:36:17,233 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:36:17,234 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:36:17,234 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:36:17,234 - P17020 - INFO - Após processar URL 14 Uso de memória: 86.91 MB
+2025-05-22 01:36:17,234 - P17020 - INFO - Processando URL 15/15: https://bv.fapesp.br/pt/pesquisador/669102/sonia-maria-guimaraes-pereira-togeiro-moura/
+2025-05-22 01:36:21,591 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\87d36e8929ede498d433ebf756bb2f9e.html
+2025-05-22 01:36:21,625 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:36:21,625 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:36:21,626 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:36:21,626 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:36:21,626 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:36:21,626 - P17020 - INFO - Após processar URL 15 Uso de memória: 87.18 MB
+2025-05-22 01:36:21,626 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:36:21,627 - P17020 - INFO - Ranked address: 24 items
+2025-05-22 01:36:21,627 - P17020 - INFO - Ranked phone: 12 items
+2025-05-22 01:36:21,627 - P17020 - INFO - Ranked email: 11 items
+2025-05-22 01:36:21,627 - P17020 - INFO - Ranked complement: 2 items
+2025-05-22 01:36:21,627 - P17020 - INFO - Ranked cep: 44 items
+2025-05-22 01:36:21,628 - P17020 - INFO - Após agregação Uso de memória: 87.18 MB
+2025-05-22 01:36:21,628 - P17020 - INFO - Validando endereço: ['Rua Botucatu, 740', 'Rua Borges Lagoa, 564', 'Rua Jarinu, 484']
+2025-05-22 01:36:21,628 - P17020 - INFO - Endereço validado: Rua Botucatu, 740
+2025-05-22 01:36:21,628 - P17020 - INFO - Limpando texto extenso para campo address: Rua Botucatu, 740...
+2025-05-22 01:36:21,628 - P17020 - INFO - Texto limpo: Rua Botucatu, 740
+2025-05-22 01:36:21,629 - P17020 - INFO - Validando telefone: ['(11) 3385-4343', '(11) 3775-4121', '(11) 3119-9442']
+2025-05-22 01:36:21,629 - P17020 - INFO - Limpando texto extenso para campo phone: (11) 3385-4343...
+2025-05-22 01:36:21,629 - P17020 - INFO - Texto limpo: 11) 3385-4343
+2025-05-22 01:36:21,629 - P17020 - INFO - Telefone validado: 11) 3385-4343
+2025-05-22 01:36:21,629 - P17020 - INFO - Validando email: ['antonio.dayrelltm@gmail.com', 'dayrellmortimer@groups.faceb', 'clinmedlab@unifesp.br']
+2025-05-22 01:36:21,630 - P17020 - INFO - Limpando texto extenso para campo email: antonio.dayrelltm@gmail.com...
+2025-05-22 01:36:21,630 - P17020 - INFO - Texto limpo: antonio.dayrelltm@gmail.com
+2025-05-22 01:36:21,630 - P17020 - INFO - Email validado: antonio.dayrelltm@gmail.com
+2025-05-22 01:36:21,631 - P17020 - INFO - Validando complemento: ['Conjunto 35 Santana', 'Bloco B']
+2025-05-22 01:36:21,631 - P17020 - INFO - Limpando texto extenso para campo complement: Conjunto 35 Santana...
+2025-05-22 01:36:21,631 - P17020 - INFO - Texto limpo: Conjunto 35 Santana
+2025-05-22 01:36:21,632 - P17020 - INFO - Complemento validado: Conjunto 35 Santana
+2025-05-22 01:36:21,632 - P17020 - INFO - Descobrindo cidade
+2025-05-22 01:36:21,632 - P17020 - INFO - Buscando cidade: Rua Botucatu cidade SP
+2025-05-22 01:36:24,282 - P17020 - INFO - Cidade encontrada: Botucatu
+2025-05-22 01:36:24,282 - P17020 - INFO - Limpando texto extenso para campo city: Botucatu...
+2025-05-22 01:36:24,282 - P17020 - INFO - Texto limpo: Botucatu
+2025-05-22 01:36:24,282 - P17020 - INFO - Cidade descoberta: Botucatu
+2025-05-22 01:36:24,283 - P17020 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 01:36:24,283 - P17020 - INFO - Iniciando busca de CEP em cascata para: Rua Botucatu, Botucatu, SP
+2025-05-22 01:36:24,283 - P17020 - INFO - Método 1: ViaCEP API
+2025-05-22 01:36:24,283 - P17020 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SP/botucatu/rua%20botucatu/json/
+2025-05-22 01:36:24,939 - P17020 - WARNING - ViaCEP retornou status 200 ou nenhum resultado
+2025-05-22 01:36:24,940 - P17020 - INFO - Método 2: BrasilAPI
+2025-05-22 01:36:24,940 - P17020 - INFO - Buscando na BrasilAPI: Rua Botucatu, Botucatu, SP
+2025-05-22 01:36:25,479 - P17020 - INFO - Consultando BrasilAPI: https://brasilapi.com.br/api/cep/v2/35135084
+2025-05-22 01:36:35,820 - P17020 - ERROR - Erro ao buscar na BrasilAPI: HTTPSConnectionPool(host='brasilapi.com.br', port=443): Read timed out. (read timeout=10)
+2025-05-22 01:36:35,821 - P17020 - INFO - Método 3: Web Scraping do Google
+2025-05-22 01:36:35,821 - P17020 - INFO - Buscando CEP: CEP da Rua Botucatu, Botucatu
+2025-05-22 01:36:37,602 - P17020 - INFO - CEP encontrado: 04023-062
+2025-05-22 01:36:37,611 - P17020 - INFO - CEP encontrado via Google: 04023-062
+2025-05-22 01:36:37,618 - P17020 - INFO - Dados de CEP encontrados: {'cep': '04023-062', 'logradouro': 'Rua Botucatu', 'bairro': '', 'localidade': 'Botucatu', 'uf': 'SP', 'complemento': ''}
+2025-05-22 01:36:37,641 - P17020 - INFO - Limpando texto extenso para campo city: Botucatu...
+2025-05-22 01:36:37,651 - P17020 - INFO - Texto limpo: Botucatu
+2025-05-22 01:36:37,658 - P17020 - INFO - Limpando texto extenso para campo state: SP...
+2025-05-22 01:36:37,662 - P17020 - INFO - Texto limpo: SP
+2025-05-22 01:36:37,663 - P17020 - INFO - Tempo de execução de processamento completo do médico: 90.17 segundos
+2025-05-22 01:36:37,675 - P17020 - INFO - Resultado processado: {'Hash': '2499cda824d9d952dd7c4e5510471f31879b2817567bd2555b5e28382cd65637', 'CRM': '43264', 'UF': 'SP', 'Firstname': 'SONIA', 'LastName': 'MARIA GUIMARAES PEREIRA TOGEIRO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Botucatu, 740', 'Address A1': 'Rua Botucatu', 'Numero A1': '740', 'Complement A1': 'Conjunto 35 Santana', 'Bairro A1': '', 'postal code A1': '04023-062', 'City A1': 'Botucatu', 'State A1': 'SP', 'Phone A1': '11) 3385-4343', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'antonio.dayrelltm@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:36:37,686 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 01:36:37,689 - P17020 - INFO - Após salvar resultados Uso de memória: 84.75 MB
+2025-05-22 01:36:37,690 - P17020 - INFO - Progresso: 6.2%
+2025-05-22 01:36:37,692 - P17020 - INFO - Tempo de execução de processamento do médico 3: 90.20 segundos
+2025-05-22 01:36:37,694 - P17020 - INFO - Tempo de execução de processamento do lote completo: 243.25 segundos

@@ -1,0 +1,348 @@
+<html class="no-js" lang="pt-BR"><head itemscope="" itemtype="http://schema.org/WebSite"><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="2.0.3",this.userEvents=["keydown","keyup","mousedown","mouseup","mousemove","mouseover","mouseenter","mouseout","mouseleave","touchmove","touchstart","touchend","touchcancel","wheel","click","dblclick","input","visibilitychange"],this.attributeEvents=["onblur","onclick","oncontextmenu","ondblclick","onfocus","onmousedown","onmouseenter","onmouseleave","onmousemove","onmouseout","onmouseover","onmouseup","onmousewheel","onscroll","onsubmit"]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),this.F("domReady"),await this.T(),await this.j(),await this.I(),this.F("windowLoad"),await this.A(),window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.lastTouchEnd&&await new Promise((t=>setTimeout(t,500-Date.now()+this.lastTouchEnd))),this.H(),this.F("all"),this.U(),this.W()}i(){this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",(t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))}),{isRocket:!0})}o(){window.addEventListener("pageshow",(t=>{this.persisted=t.persisted,this.realWindowLoadedFired=!0}),{isRocket:!0}),window.addEventListener("pagehide",(()=>{this.onFirstUserAction=null}),{isRocket:!0})}h(){let t;function e(e){t=e}window.addEventListener("touchstart",e,{isRocket:!0}),window.addEventListener("touchend",(function i(o){Math.abs(o.changedTouches[0].pageX-t.changedTouches[0].pageX)<10&&Math.abs(o.changedTouches[0].pageY-t.changedTouches[0].pageY)<10&&o.timeStamp-t.timeStamp<200&&(o.target.dispatchEvent(new PointerEvent("click",{target:o.target,bubbles:!0,cancelable:!0,detail:1})),event.preventDefault(),window.removeEventListener("touchstart",e,{isRocket:!0}),window.removeEventListener("touchend",i,{isRocket:!0}))}),{isRocket:!0})}q(t){this.userActionTriggered||("mousemove"!==t.type||this.firstMousemoveIgnored?"keyup"===t.type||"mouseover"===t.type||"mouseout"===t.type||(this.userActionTriggered=!0,this.onFirstUserAction&&this.onFirstUserAction()):this.firstMousemoveIgnored=!0),"click"===t.type&&t.preventDefault(),this.savedUserEvents.length>0&&(t.stopPropagation(),t.stopImmediatePropagation()),"touchstart"===this.lastEvent&&"touchend"===t.type&&(this.lastTouchEnd=Date.now()),"click"===t.type&&(this.lastTouchEnd=0),this.lastEvent=t.type,this.savedUserEvents.push(t)}u(){this.savedUserEvents=[],this.userEventHandler=this.q.bind(this),this.userEvents.forEach((t=>window.addEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})))}U(){this.userEvents.forEach((t=>window.removeEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0}))),this.savedUserEvents.forEach((t=>{t.target.dispatchEvent(new window[t.constructor.name](t.type,t))}))}m(){this.eventsMutationObserver=new MutationObserver((t=>{const e="return false";for(const i of t){if("attributes"===i.type){const t=i.target.getAttribute(i.attributeName);t&&t!==e&&(i.target.setAttribute("data-rocket-"+i.attributeName,t),i.target["rocket"+i.attributeName]=new Function("event",t),i.target.setAttribute(i.attributeName,e))}"childList"===i.type&&i.addedNodes.forEach((t=>{if(t.nodeType===Node.ELEMENT_NODE)for(const i of t.attributes)this.attributeEvents.includes(i.name)&&i.value&&""!==i.value&&(t.setAttribute("data-rocket-"+i.name,i.value),t["rocket"+i.name]=new Function("event",i.value),t.setAttribute(i.name,e))}))}})),this.eventsMutationObserver.observe(document,{subtree:!0,childList:!0,attributeFilter:this.attributeEvents})}H(){this.eventsMutationObserver.disconnect(),this.attributeEvents.forEach((t=>{document.querySelectorAll("[data-rocket-"+t+"]").forEach((e=>{e.setAttribute(t,e.getAttribute("data-rocket-"+t)),e.removeAttribute("data-rocket-"+t)}))}))}k(t){Object.defineProperty(HTMLElement.prototype,"onclick",{get(){return this.rocketonclick||null},set(e){this.rocketonclick=e,this.setAttribute(t.everythingLoaded?"onclick":"data-rocket-onclick","this.rocketonclick(event)")}})}S(t){function e(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o,set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}e(document,"onreadystatechange"),e(window,"onload"),e(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}l(t){this.originalAddEventListener=EventTarget.prototype.addEventListener,this.originalRemoveEventListener=EventTarget.prototype.removeEventListener,this.savedEventListeners=[],EventTarget.prototype.addEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalAddEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!1,type:e,func:i,options:o})},EventTarget.prototype.removeEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalRemoveEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!0,type:e,func:i,options:o})}}F(t){"all"===t&&(EventTarget.prototype.addEventListener=this.originalAddEventListener,EventTarget.prototype.removeEventListener=this.originalRemoveEventListener),this.savedEventListeners=this.savedEventListeners.filter((e=>{let i=e.type,o=e.target||window;return"domReady"===t&&"DOMContentLoaded"!==i&&"readystatechange"!==i||("windowLoad"===t&&"load"!==i&&"readystatechange"!==i&&"pageshow"!==i||(this.B(i,o)&&(i="rocket-"+i),e.remove?o.removeEventListener(i,e.func,e.options):o.addEventListener(i,e.func,e.options),!1))}))}p(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map((t=>"load"===t||t.startsWith("load.")?"rocket-jquery-load":t)).join(" ")}function o(o){function s(e){const s=o.fn[e];o.fn[e]=o.fn.init.prototype[e]=function(){return this[0]===window&&t.userActionTriggered&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e}))),s.apply(this,arguments),this}}if(o&&o.fn&&!t.allJQueries.includes(o)){const e={DOMContentLoaded:[],"rocket-DOMContentLoaded":[]};for(const t in e)document.addEventListener(t,(()=>{e[t].forEach((t=>t()))}),{isRocket:!0});o.fn.ready=o.fn.init.prototype.ready=function(i){function s(){parseInt(o.fn.jquery)>2?setTimeout((()=>i.bind(document)(o))):i.bind(document)(o)}return t.realDomReadyFired?!t.userActionTriggered||t.fauxDomReadyFired?s():e["rocket-DOMContentLoaded"].push(s):e.DOMContentLoaded.push(s),o([])},s("on"),s("one"),s("off"),t.allJQueries.push(o)}e=o}t.allJQueries=[],o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}P(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript,o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async R(){return new Promise((t=>{this.userActionTriggered?t():this.onFirstUserAction=t}))}async L(){return new Promise((t=>{document.addEventListener("DOMContentLoaded",(()=>{this.realDomReadyFired=!0,t()}),{isRocket:!0})}))}async I(){return this.realWindowLoadedFired?Promise.resolve():new Promise((t=>{window.addEventListener("load",t,{isRocket:!0})}))}M(){this.pendingScripts=[];this.scriptsMutationObserver=new MutationObserver((t=>{for(const e of t)e.addedNodes.forEach((t=>{"SCRIPT"!==t.tagName||t.noModule||t.isWPRocket||this.pendingScripts.push({script:t,promise:new Promise((e=>{const i=()=>{const i=this.pendingScripts.findIndex((e=>e.script===t));i>=0&&this.pendingScripts.splice(i,1),e()};t.addEventListener("load",i,{isRocket:!0}),t.addEventListener("error",i,{isRocket:!0}),setTimeout(i,1e3)}))})}))})),this.scriptsMutationObserver.observe(document,{childList:!0,subtree:!0})}async j(){await this.J(),this.pendingScripts.length?(await this.pendingScripts[0].promise,await this.j()):this.scriptsMutationObserver.disconnect()}D(){this.delayedScripts={normal:[],async:[],defer:[]},document.querySelectorAll("script[type$=rocketlazyloadscript]").forEach((t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)}))}async _(){await this.L();let t=[];document.querySelectorAll("script[type$=rocketlazyloadscript][data-rocket-src]").forEach((e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){i.startsWith("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}})),t=[...new Map(t.map((t=>[JSON.stringify(t),t]))).values()],this.N(t,"preconnect")}async $(t){if(await this.G(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise((e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.includes("Firefox/")||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach((t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))})),t.text&&(i.text=t.text),t.nonce&&(i.nonce=t.nonce),i.hasAttribute("src")?(i.addEventListener("load",o,{isRocket:!0}),i.addEventListener("error",(()=>{i.setAttribute("data-rocket-status","failed-network"),e()}),{isRocket:!0}),setTimeout((()=>{i.isConnected||e()}),1)):(i.text=t.text,o()),i.isWPRocket=!0,t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o,{isRocket:!0}),t.addEventListener("error",(i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: CSP fallback activated"),t.removeAttribute("src"),this.$(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())}),{isRocket:!0}),s?(t.fetchPriority="high",t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}}));t.setAttribute("data-rocket-status","skipped")}async C(t){const e=t.shift();return e?(e.isConnected&&await this.$(e),this.C(t)):Promise.resolve()}O(){this.N([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}N(t,e){this.trash=this.trash||[];let i=!0;var o=document.createDocumentFragment();t.forEach((t=>{const s=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(s&&!s.startsWith("data:")){const n=document.createElement("link");n.href=s,n.rel=e,"preconnect"!==e&&(n.as="script",n.fetchPriority=i?"high":"low"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),t.nonce&&(n.nonce=t.nonce),o.appendChild(n),this.trash.push(n),i=!1}})),document.head.appendChild(o)}W(){this.trash.forEach((t=>t.remove()))}async T(){try{document.readyState="interactive"}catch(t){}this.fauxDomReadyFired=!0;try{await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.G(),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}catch(t){console.error(t)}}async A(){try{document.readyState="complete"}catch(t){}try{await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),window.dispatchEvent(new Event("rocket-load")),await this.G(),window.rocketonload&&window.rocketonload(),await this.G(),this.allJQueries.forEach((t=>t(window).trigger("rocket-jquery-load"))),await this.G();const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.G(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}catch(t){console.error(t)}}async G(){Date.now()-this.lastBreath>45&&(await this.J(),this.lastBreath=Date.now())}async J(){return document.hidden?new Promise((t=>setTimeout(t))):new Promise((t=>requestAnimationFrame(t)))}B(t,e){return e===document&&"readystatechange"===t||(e===document&&"DOMContentLoaded"===t||(e===window&&"DOMContentLoaded"===t||(e===window&&"load"===t||e===window&&"pageshow"===t)))}static run(){(new RocketLazyLoadScripts).t()}}RocketLazyLoadScripts.run()})();</script>
+	<title>Samara Pianovski Mendes Maeda - Curitiba - PR - Consultório</title>
+<link rel="preload" as="font" href="https://cebes.com.br/wp-content/themes/ubs/fonts/fontawesome-webfont.woff2" crossorigin="">
+	
+	<link rel="shortcut icon" href="https://cebes.com.br/wp-content/themes/ubs/icons/favicon.ico">
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<!--[if IE ]>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<![endif]-->
+	
+        
+        
+        
+                    <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="apple-mobile-web-app-capable" content="yes">
+            <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        
+        
+
+                                        	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO plugin v24.8.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="Samara Pianovski Mendes Maeda é um estabelecimento de saúde para do tipo Consultório que presta serviços médicos em Parolin, Curitiba - PR.">
+	<link rel="canonical" href="https://cebes.com.br/samara-pianovski-mendes-maeda-1010166/">
+	<meta property="og:locale" content="pt_BR">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Samara Pianovski Mendes Maeda - Curitiba - PR - Consultório">
+	<meta property="og:description" content="Samara Pianovski Mendes Maeda é um estabelecimento de saúde para do tipo Consultório que presta serviços médicos em Parolin, Curitiba - PR.">
+	<meta property="og:url" content="https://cebes.com.br/samara-pianovski-mendes-maeda-1010166/">
+	<meta property="og:site_name" content="CEBES - Central Brasileira de Estabelecimentos de Saúde">
+	<meta name="author" content="Cebesa">
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//www.google.com">
+<link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+<link rel="dns-prefetch" href="//fonts.gstatic.com">
+<link rel="dns-prefetch" href="//www.googletagservices.com">
+<link rel="dns-prefetch" href="//googleads.g.doubleclick.net">
+<link rel="dns-prefetch" href="//partner.googleadservices.com">
+<link rel="dns-prefetch" href="//ajax.cloudflare.com">
+<link rel="dns-prefetch" href="//static.cloudflareinsights.com">
+<link rel="dns-prefetch" href="//www.gstatic.com">
+<link rel="dns-prefetch" href="//gstatic.com">
+<link rel="dns-prefetch" href="//securepubads.g.doubleclick.net">
+
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css" type="text/css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link data-minify="1" rel="stylesheet" id="schema-stylesheet-css" href="https://cebes.com.br/wp-content/cache/min/1/wp-content/themes/ubs/style.css?ver=1743706799" type="text/css" media="all">
+<style id="schema-stylesheet-inline-css" type="text/css">
+
+         body {background-color:#eeeeee;}
+        .pace .pace-progress, #mobile-menu-wrapper ul li a:hover, .page-numbers.current, .pagination a:hover, .single .pagination a:hover .current { background: #0b551a; }
+        .postauthor h5, .single_post a, .textwidget a, .pnavigation2 a, .sidebar.c-4-12 a:hover, footer .widget li a:hover, .sidebar.c-4-12 a:hover, .reply a, .title a:hover, .post-info a:hover, .widget .thecomment, #tabber .inside li a:hover, .readMore a:hover, .fn a, a, a:hover, #secondary-navigation .navigation ul li a:hover, .readMore a, #primary-navigation a:hover, #secondary-navigation .navigation ul .current-menu-item a, .widget .wp_review_tab_widget_content a, .sidebar .wpt_widget_content a { font-weight: bold; color:#0b551a; }
+         a#pull, #commentform input#submit, #mtscontact_submit, .mts-subscribe input[type='submit'], .widget_product_search input[type='submit'], .currenttext, .pagination a:hover, .pagination .nav-previous a:hover, .pagination .nav-next a:hover, #load-posts a:hover, .single .pagination a:hover .currenttext, .single .pagination > .current .currenttext, #tabber ul.tabs li a.selected, .tagcloud a, .navigation ul .sfHover a, #content input.button, .latestPost-review-wrapper, .latestPost .review-type-circle.latestPost-review-wrapper, #wpmm-megamenu .review-total-only, .sbutton, #searchsubmit, .widget .wpt_widget_content #tags-tab-content ul li a, .widget .review-total-only.large-thumb { background-color:#0b551a; color: #fff!important; }
+        .related-posts .title a:hover, .latestPost .title a { color: #0b551a; }
+        .navigation #wpmm-megamenu .wpmm-pagination a { background-color: #0b551a!important; }
+        footer {background-color:#444444; }
+        
+        .copyrights { background-color: #ffffff; }
+		
+				
+
+
+
+        
+        
+			
+</style>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://cebes.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" data-rocket-defer="" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://cebes.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" data-rocket-defer="" defer=""></script>
+
+<style type="text/css">
+#logo a { font-family: 'Open Sans'; font-weight: 600; font-size: 32px; color: #222222;text-transform: uppercase; }
+#primary-navigation a { font-family: 'Open Sans'; font-weight: 300; font-size: 13px; color: #777777; }
+#secondary-navigation a { font-family: 'Open Sans'; font-weight: 300; font-size: 16px; color: #ffffff;text-transform: uppercase; }
+.latestPost .title a { font-family: 'Open Sans'; font-weight: 300; font-size: 26px; color: #2b9375; }
+.single-title { font-family: 'Open Sans'; font-weight: 700; font-size: 22px; color: #2b9375; }
+body { font-family: 'Open Sans'; font-weight: 300; font-size: 15px; color: #444444; }
+#sidebar .widget h3 { font-family: 'Open Sans'; font-weight: 300; font-size: 20px; color: #222222;text-transform: uppercase; }
+#sidebar .widget { font-family: 'Open Sans'; font-weight: 300; font-size: 15px; color: #444444; }
+.footer-widgets h3 { font-family: 'Open Sans'; font-weight: 300; font-size: 18px; color: #ffffff;text-transform: uppercase; }
+.f-widget a, footer .wpt_widget_content a, footer .wp_review_tab_widget_content a, footer .wpt_tab_widget_content a, footer .widget .wp_review_tab_widget_content a { font-family: 'Open Sans'; font-weight: 300; font-size: 16px; color: #999999; }
+.footer-widgets, .f-widget .top-posts .comment_num, footer .meta, footer .twitter_time, footer .widget .wpt_widget_content .wpt-postmeta, footer .widget .wpt_comment_content, footer .widget .wpt_excerpt, footer .wp_review_tab_widget_content .wp-review-tab-postmeta, footer .advanced-recent-posts p, footer .popular-posts p, footer .category-posts p { font-family: 'Open Sans'; font-weight: 300; font-size: 16px; color: #777777; }
+#copyright-note { font-family: 'Open Sans'; font-weight: 800; font-size: 14px; color: #000000; }
+h1 { font-family: 'Open Sans'; font-weight: 300; font-size: 28px; color: #2b9375; }
+h2 { font-family: 'Open Sans'; font-weight: 800; font-size: 20px; color: #2b9375; }
+h3 { font-family: 'Open Sans'; font-weight: 800; font-size: 19px; color: #2b9375; }
+h4 { font-family: 'Roboto Slab'; font-weight: normal; font-size: 20px; color: #222222; }
+h5 { font-family: 'Roboto Slab'; font-weight: normal; font-size: 18px; color: #222222; }
+h6 { font-family: 'Roboto Slab'; font-weight: normal; font-size: 16px; color: #222222; }
+</style>
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>		
+<script type="rocketlazyloadscript" async="" data-rocket-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0413008067917912" crossorigin="anonymous"></script>
+	
+<meta name="generator" content="WP Rocket 3.18.3" data-wpr-features="wpr_delay_js wpr_defer_js wpr_minify_js wpr_preload_fonts wpr_lazyload_images wpr_minify_css wpr_preload_links wpr_desktop wpr_dns_prefetch"><link href="https://pagead2.googlesyndication.com" rel="preconnect" crossorigin="anonymous"><link href="https://pagead2.googlesyndication.com" rel="preconnect"><link href="https://www.googletagmanager.com" rel="preconnect"></head>
+<body id="blog" itemscope="" itemtype="http://schema.org/WebPage">       
+	<div data-rocket-location-hash="912a367c5bad16bdf11607761b242d49" class="main-container">
+		<header data-rocket-location-hash="595f9e45ab951c18a4200f21a53b002a" id="site-header" class="main-header logo_in_nav_header" role="banner" itemscope="" itemtype="http://schema.org/WPHeader">
+			<div data-rocket-location-hash="f3340089329eb38a9c92f5c59265f358" id="primary-nav">
+				<div id="header">
+			    	<div class="container">
+						<div class="logo-wrap">							
+																	  <span id="logo" class="text-logo" itemprop="headline">
+											<a href="https://cebes.com.br" title="CEBES" rel="preload" fetchpriority="high"><img fetchpriority="high" as="image" src="https://cebes.com.br/wp-content/uploads/2024/03/logo-cebes.webp" alt="CEBES - Central Brasileira de Estabelecimentos de Saúde" width="240" height="55" data-lazy-srcset="https://cebes.com.br/wp-content/uploads/2024/03/logo-cebes.webp 240w, https://cebes.com.br/wp-content/uploads/2024/03/logo-cebes.webp 365w" data-lazy-sizes="(max-width: 240px) 100vw, 240px" data-lazy-src="https://cebes.com.br/wp-content/uploads/2024/03/logo-cebes.webp" data-ll-status="loaded" sizes="(max-width: 240px) 100vw, 240px" srcset="https://cebes.com.br/wp-content/uploads/2024/03/logo-cebes.webp 240w, https://cebes.com.br/wp-content/uploads/2024/03/logo-cebes.webp 365w" type="image/webp"><noscript><img fetchpriority="high" as="image" src="https://cebes.com.br/wp-content/uploads/2024/03/logo-cebes.webp" alt="CEBES - Central Brasileira de Estabelecimentos de Saúde" width="240" height="55" srcset="https://cebes.com.br/wp-content/uploads/2024/03/logo-cebes.webp 240w, https://cebes.com.br/wp-content/uploads/2024/03/logo-cebes.webp 365w" sizes="(max-width: 240px) 100vw, 240px" type="image/webp"/></noscript></a>
+										</span><!-- END #logo -->
+														</div>
+					
+					
+					
+					
+					
+					
+				
+					<div class="formEspec">
+						<select aria-label="especialidade" name="cats" id="cats" class="postform"><option value="-1">Selecione a especialidade</option><option value="agentes-comunitarios-de-saude">Agentes Comunitários de Saúde</option><option value="ambulatorial">Ambulatorial</option><option value="serv-analise-laboratorial-de-prod-sujeitos-a-vig-sanitaria">Análise Laboratorial de Produtos</option><option value="atencao-a-doenca-renal-cronica">Atenção a Doença Renal Cronica</option><option value="atencao-a-obesidade">Atenção a Obesidade</option><option value="atencao-a-pessoas-com-doencas-raras">Atenção a Pessoas com Doenças Raras</option><option value="atencao-a-saude-auditiva">Atenção a Saúde Auditiva</option><option value="atencao-a-saude-reprodutiva">Atenção a Saúde Reprodutiva</option><option value="atencao-domiciliar">Atenção Domiciliar</option><option value="atencao-domiciliar-home-care">Atenção Domiciliar (Home Care)</option><option value="atencao-primaria">Atenção Primaria</option><option value="atencao-psicossocial">Atenção Psicossocial</option><option value="atendimento-basico-de-saude">Atendimento Básico de Saúde</option><option value="atendimento-da-populacao-indigena">Atendimento da População Indígena</option><option value="atendimento-geral">Atendimento Geral</option><option value="atendimento-movel-de-urgencias">Atendimento Móvel de Urgências</option><option value="banco-de-tecidos">Banco de Tecidos</option><option value="cadeiras-de-rodas-e-materiais-especiais">Cadeiras de Rodas e Materiais Especiais</option><option value="cardiologia">Cardiologia</option><option value="cardiologia-e-tratamento-cardiovascular">Cardiologia e Tratamento Cardiovascular</option><option value="cirurgia-reparadora">Cirurgia Reparadora</option><option value="cirurgia-toracica">Cirurgia Torácica</option><option value="cirurgia-vascular">Cirurgia Vascular</option><option value="clinico-geral">Clínico Geral</option><option value="coleta-de-materiais-biologicos">Coleta de Materiais Biológicos</option><option value="consultorio">Consultorio</option><option value="controle-de-tabagismo">Controle de Tabagismo</option><option value="cuidados-intermediarios">Cuidados Intermediários</option><option value="dentista-tratamento-odontologico">Dentista / Tratamento Odontológico</option><option value="diagnostico-de-laboratorio-clinico">Diagnostico de Laboratório Clinico</option><option value="diagnostico-por-anatomia-patologica-ou-citopato-2">Diagnostico por Anatomia Patológica ou Citopato</option><option value="diagnostico-por-anatomia-patologica-ou-citopato">Diagnostico por Anatomia Patológica ou Citopato</option><option value="diagnostico-por-imagem">Diagnostico por Imagem</option><option value="diagnostico-por-metodos-graficos-dinamicos">Diagnostico por Métodos Gráficos Dinâmicos</option><option value="dispensacao-de-orteses-e-proteses">Dispensação de Órteses e Próteses</option><option value="endocrinologia">Endocrinologia</option><option value="endoscopia">Endoscopia</option><option value="exame-de-dst-hiv-aids">Exame de DST/HIV/Aids</option><option value="farmacia">Farmácia</option><option value="fisioterapia">Fisioterapia</option><option value="ginecologista">Ginecologista</option><option value="hemoterapia">Hemoterapia</option><option value="hospital-dia">Hospital Dia</option><option value="imunizacao">Imunização</option><option value="laboratorio-de-histocompatibilidade">Laboratório de Histocompatibilidade</option><option value="laboratorio-de-protese-dentaria">Laboratório de Prótese Dentária</option><option value="logistica-de-imunobiologicos">Logística de Imunobiológicos</option><option value="maternidade">Maternidade</option><option value="medicina-nuclear">Medicina Nuclear</option><option value="movel-de-urgencias">Móvel de Urgências</option><option value="atencao-em-neurologia-neurocirurgia">Neurologia e Neurocirurgia</option><option value="oftalmologia">Oftalmologia</option><option value="oncologia">Oncologia</option><option value="orteses">Órteses</option><option value="ortopedia">Ortopedia</option><option value="otorrinolaringologia">Otorrinolaringologia</option><option value="pediatria">Pediatria</option><option value="pneumologia">Pneumologia</option><option value="praticas-integrativas-e-complementares">Praticas Integrativas e Complementares</option><option value="pre-natalparto-e-nascimento">Pré-natal/Parto e Nascimento</option><option value="atencao-especializada-no-processo-transexualizador">Processo Transexualizador</option><option value="pronto-atendimento-especializado">Pronto Atendimento Especializado</option><option value="pronto-atendimento-geral">Pronto Atendimento Geral</option><option value="proteses">Próteses</option><option value="proteses-e-materiais-especiais-em-reabilitacao">Próteses e Materiais Especiais em Reabilitação</option><option value="psiquiatria">Psiquiatria</option><option value="reabilitacao">Reabilitação</option><option value="regulacao-do-acesso-a-acoes-e-servicos-de-saude">Regulação do Acesso a Ações e Serviços de Saúde</option><option value="saude-auditiva">Saúde Auditiva</option><option value="saude-bucal">Saúde Bucal</option><option value="saude-da-familia">Saúde da Família</option><option value="saude-das-pessoas-ostomizadas">Saúde das Pessoas Ostomizadas</option><option value="saude-de-populacoes-indigenas">Saúde de Populações Indígenas</option><option value="saude-do-trabalhador">Saúde do Trabalhador</option><option value="saude-no-sistema-penitenciario">Saúde no Sistema Penitenciário</option><option value="servico-movel-de-urgencia-exceto-samu">Serviço Móvel de Urgência (exceto Samu)</option><option value="suporte-nutricional">Suporte Nutricional</option><option value="teleconsultoria">Teleconsultoria</option><option value="terapia-intensiva">Terapia Intensiva</option><option value="transplante">Transplante</option><option value="tratamento-da-hanseniase">Tratamento da Hanseníase</option><option value="tratamento-da-tuberculose">Tratamento da Tuberculose</option><option value="tratamento-de-doencas-renais">Tratamento de Doenças Renais</option><option value="tratamento-reprodutivo">Tratamento Reprodutivo</option><option value="traumatologia-e-ortopedia">Traumatologia e Ortopedia</option><option value="triagem-neonatal">Triagem Neonatal</option><option value="upa">UPA</option><option value="urgencia-e-emergencia">Urgência e Emergência</option><option value="atencao-em-urologia">Urologia</option><option value="videolaparoscopia">Videolaparoscopia</option><option value="vigilancia-em-saude">Vigilância em Saúde</option></select>						<script type="rocketlazyloadscript" data-rocket-type="text/javascript">var dropdown = document.getElementById("cats");function onCatChange() {if (dropdown.options[dropdown.selectedIndex].value != -1 ) {location.href = "https://cebes.com.br/especialidade/"+dropdown.options[dropdown.selectedIndex].value+"/";}}dropdown.onchange = onCatChange;</script>
+					</div>  
+					
+					<div class="formEspec">
+						<select aria-label="unidade" name="cat" id="cat" class="postform"><option value="-1">Selecione o tipo de unidade</option><option value="servico-de-atencao-domiciliar-home-care">Atenção Domiciliar (Home Care)</option><option value="atendimento-de-saude">Atendimento de Saúde</option><option value="central-de-abastecimento">Central de Abastecimento</option><option value="central-de-gestao-em-saude">Central de Gestão Em Saúde</option><option value="central-de-orgaos-estadual">Central de Órgãos Estadual</option><option value="central-de-regulacao-do-acesso">Central de Regulação de Acesso</option><option value="central-de-regulacao-de-servicos-de-saude">Central de Regulação de Serviços de Saúde</option><option value="central-de-regulacao-medica-das-urgencias">Central de Regulação Médica das Urgências</option><option value="centro-de-apoio-a-saude-da-familia">Centro de Apoio a Saúde da Família</option><option value="centro-de-atencao-hemoterapia-e-hematologica">Centro de Atenção Hemoterapia e Hematológica</option><option value="centro-de-atencao-psicossocial">Centro de Atenção Psicossocial</option><option value="centro-de-imunizacao">Centro de Imunização</option><option value="centro-de-parto-normal">Centro de Parto Normal</option><option value="centro-de-saude-unidade-basica">Centro de Saúde/Unidade Básica</option><option value="clinica-centro-de-especialidade">Clinica/Centro de Especialidade</option><option value="consultorio">Consultório</option><option value="empresa-de-cessao-de-trabalhadores-na-saude">Empresa de Cessão de Trabalhadores na Saúde</option><option value="farmacia">Farmácia</option><option value="hospital-dia">Hospital Dia</option><option value="hospital-especializado">Hospital Especializado</option><option value="hospital-geral">Hospital Geral</option><option value="laboratorio-central-de-saude-publica">Laboratório Central de Saúde Publica</option><option value="laboratorio-de-saude-publica">Laboratório de Saúde Publica</option><option value="oficina-ortopedica">Oficina Ortopedica</option><option value="policlinica">Policlínica</option><option value="polo-academia-da-saude">Polo Academia da Saúde</option><option value="polo-de-prevencao-de-doencas">Polo de Prevenção de Doenças</option><option value="posto-de-saude">Posto de Saúde</option><option value="pronto-atendimento">Pronto Atendimento</option><option value="pronto-socorro-especializado">Pronto Socorro Especializado</option><option value="pronto-socorro-geral">Pronto Socorro Geral</option><option value="telessaude">Telessaúde</option><option value="unidade-de-apoio-diagnose-e-terapia">Unidade de Apoio Diagnose e Terapia</option><option value="unidade-de-atencao-a-saude-indigena">Unidade de Atenção A Saúde Indigena</option><option value="unidade-de-atencao-em-regime-residencial">Unidade de Atenção Em Regime Residencial</option><option value="unidade-de-vigilancia-em-saude">Unidade de Vigilância Em Saúde</option><option value="unidade-mista">Unidade Mista</option><option value="unidade-movel-fluvial">Unidade Móvel Fluvial</option><option value="unidade-movel-pre-hospitalar">Unidade Móvel Pré-hospitalar</option><option value="unidade-movel-terrestre">Unidade Móvel Terrestre</option></select>						<script type="rocketlazyloadscript" data-rocket-type="text/javascript">var dropdown2 = document.getElementById("cat");function onCatChange2() {if (dropdown2.options[dropdown2.selectedIndex].value != -1 ) {location.href = "https://cebes.com.br/unidade/"+dropdown2.options[dropdown2.selectedIndex].value+"/";}}dropdown2.onchange = onCatChange2;</script>
+					</div>      
+				</div><!--.container-->
+			</div>
+		</div></header>
+
+			
+			
+       
+
+<div id="page" class="single">
+        <div align="center" style="width: 100%; height: auto; margin: 20px 0;">
+			<br>
+		<script type="rocketlazyloadscript" async="" data-rocket-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- CEB_RESP -->
+		<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0413008067917912" data-ad-slot="8458493070" data-ad-format="auto" data-full-width-responsive="true"></ins>
+		<script type="rocketlazyloadscript">
+			 (adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		</div>
+      
+       	<article class="article">
+		<div id="content_box">
+							<div id="post-319233" class="g post post-319233 type-post status-publish format-standard hentry category-curitiba category-parolin category-pr unidade-consultorio">
+													
+								<div class="single_post">
+									<header>
+																			<h1 class="title single-title entry-title">Samara Pianovski Mendes Maeda - Parolin - Curitiba - PR</h1>
+																			<div class="post-info">
+										<span class="thecategory"><i class="fa fa-map-marker"></i>
+												<a href="https://cebes.com.br/medico/pr/">PR</a> | 
+	<a href="https://cebes.com.br/medico/pr/curitiba/">Curitiba</a> | 
+	<a href="https://cebes.com.br/medico/pr/curitiba/parolin/">Parolin</a> | 
+										</span>
+										
+										<span class="thecategory"><i class="fa fa-medkit" aria-hidden="true"> </i>											
+										<a href="https://cebes.com.br/unidade/consultorio/" title="Consultório">Consultório</a> 										
+										</span>
+										
+																				</div>
+									</header><!--.headline_area-->
+									
+									<div class="post-single-content box mark-links entry-content">
+							<div class="thecontent">
+														<p><strong>Samara Pianovski Mendes Maeda</strong> é um estabelecimento de saúde tipo <strong><a href="https://cebes.com.br/unidade/consultorio/" title="Consultório">Consultório</a></strong> que executa serviços de saúde na localidade do <strong>bairro Parolin da cidade Curitiba - PR</strong>.
+                            </p>
+                                                        
+                            <div class="clear"></div>
+                            <style>								
+								/*BANNERS*/
+								main {
+								  max-width: 1060px;
+								  text-align: center;
+								  margin: 30px auto;
+								  width: 100%; 
+								  display: grid;
+								  /* Define Auto Row size */ 
+								  /*Define our columns */
+								  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); 
+								  grid-gap: 1em;
+								}
+
+								box {
+								  text-align: center;
+								}
+							</style>
+                            
+                            <div align="center" style="width: 100%; height: auto; margin: 20px 0">
+                            <script type="rocketlazyloadscript" async="" data-rocket-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- CEB_RESP -->
+							<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0413008067917912" data-ad-slot="8458493070" data-ad-format="auto" data-full-width-responsive="true"></ins>
+							<script type="rocketlazyloadscript">
+								 (adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+							</div>
+            				
+            				
+             				                            
+                            <p>Para entrar em contato com a consultório Samara Pianovski Mendes Maeda o <strong>telefone é 413332-3300</strong> e se você precisar de atendimento em geral ou outras informações sobre marcação de consultas, agendamento médico ou de exames, emissão de guias ou questões comerciais o endereço do estabelecimento é Rua Piaui, 973.
+                            </p>
+                            
+                                                        
+                            <p>Confira todas as informações sobre o <strong>Samara Pianovski Mendes Maeda</strong> como o <em>horário de atendimento</em> e o mapa para você saber como chegar até esse estabelecimento de saúde. </p>
+
+                            <h2>Tudo sobre Samara Pianovski Mendes Maeda</h2>
+                            
+                            <div align="center" style="width: 100%; height: auto; margin: 20px 0;">
+                            <script type="rocketlazyloadscript" async="" data-rocket-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- CEB_RESP -->
+							<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0413008067917912" data-ad-slot="8458493070" data-ad-format="auto" data-full-width-responsive="true"></ins>
+							<script type="rocketlazyloadscript">
+								 (adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+							</div>
+                            
+                           
+							<ul class="iconlist"><li><i class="fa fa-hospital-o" aria-hidden="true"></i> <strong>Nome do Estabelecimento: </strong>Samara Pianovski Mendes Maeda</li><li><i class="fa fa-user-md" aria-hidden="true"></i> <strong>Razão Social: </strong>Samara Pianovski Mendes Maeda</li><li><i class="fa fa-check-square-o" aria-hidden="true"></i> <strong>CNES: </strong>4106901010166</li><li><i class="fa fa-heartbeat" aria-hidden="true"></i> <strong>Estabelecimento do Tipo: </strong>Consultório</li><li><i class="fa fa-phone" aria-hidden="true"></i> <strong>Telefone: </strong>413332-3300</li><li><i class="fa fa-map-marker" aria-hidden="true"></i> <strong>Atendimento Presencial: </strong>Rua Piaui, 973</li>								
+								
+								
+								
+								
+								<li><i class="fa fa-map-marker" aria-hidden="true"></i> <strong>Bairro: </strong>Parolin</li>
+								
+								<li><i class="fa fa-map-marker" aria-hidden="true"></i> <strong>Cidade: </strong>Curitiba</li>
+								
+								<li><i class="fa fa-map-marker" aria-hidden="true"></i> <strong>Estado: </strong>PR</li>								
+								
+								
+								<li><i class="fa fa-check-square-o" aria-hidden="true"></i> <strong>CEP: </strong>80220240</li><li><i class="fa fa-external-link" aria-hidden="true"></i> <a title="Dados CNES do Samara Pianovski Mendes Maeda" href="http://cnes2.datasus.gov.br/Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=4106901010166" target="_blank"><strong>Acesse os dados completos no CNES</strong></a></li></ul><br><h2>Dias e horários para consultas, exames, agendamentos e atendimento em geral</h2>
+									<div align="center" style="width: 100%; height: auto; margin: 20px 0;">
+									<script type="rocketlazyloadscript" async="" data-rocket-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+									<!-- CEB_RESP -->
+									<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0413008067917912" data-ad-slot="8458493070" data-ad-format="auto" data-full-width-responsive="true"></ins>
+									<script type="rocketlazyloadscript">
+										 (adsbygoogle = window.adsbygoogle || []).push({});
+									</script>
+									</div>							
+								<table class="listas"><thead><tr align="center"><th colspan="2"><i style="color:#fff;" class="fa fa-calendar-plus-o">&nbsp;&nbsp;</i>Dias e horários disponíveis*</th></tr></thead><tbody><tr><td><i style="color: #2b9375" class="fa fa-calendar-plus-o">&nbsp;</i>Segunda-feira</td> <td align="right">09:00 - 17:00</td></tr><tr><td><i style="color: #2b9375" class="fa fa-calendar-plus-o">&nbsp;</i>Terça-feira</td> <td align="right">09:00 - 17:00</td></tr><tr><td><i style="color: #2b9375" class="fa fa-calendar-plus-o">&nbsp;</i>Quarta-feira</td> <td align="right">09:00 - 17:00</td></tr><tr><td><i style="color: #2b9375" class="fa fa-calendar-plus-o">&nbsp;</i>Quinta-feira</td> <td align="right">09:00 - 17:00</td></tr><tr><td><i style="color: #2b9375" class="fa fa-calendar-plus-o">&nbsp;</i>Sexta-feira</td> <td align="right">09:00 - 17:00</td></tr></tbody><tfoot><tr><td colspan="2" align="right"><span style="font-size:13px">*Pendentes de confirmação na unidade</span></td></tr></tfoot></table>								<br>
+																<br>								
+								
+										<div align="center" style="width: 100%; height: 280px; margin: 20px 0">
+										<script type="rocketlazyloadscript" async="" data-rocket-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+										<!-- CEB_RESP -->
+										<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0413008067917912" data-ad-slot="8458493070" data-ad-format="auto" data-full-width-responsive="true"></ins>
+										<script type="rocketlazyloadscript">
+											 (adsbygoogle = window.adsbygoogle || []).push({});
+										</script>
+										</div><table class="listas"><caption align="center"><h2><i class="fa fa-plus-square-o">&nbsp;&nbsp;</i>Espaços físicos para atendimentos*</h2></caption><thead><tr align="left" style="color:#fff;"><th>Nome</th><th align="center">Quantidade</th></tr></thead><tbody><tr><td>Clinicas Básicas</td><td align="center"> 1</td></tr></tbody><tfoot><tr><td colspan="2" align="right"><span style="font-size:13px">*Pendentes de confirmação na unidade</span></td></tr></tfoot></table>								<br>
+																<br>
+                            
+                            <h2>Como chegar ao Samara Pianovski Mendes Maeda em Parolin - Curitiba - PR</h2>
+                       	
+							                             <div style="text-align: center; border: 1px solid; border-color: #ddd; width: 100%; height: 100px; font-weight: 900; margin: 20px 0; padding-top: 60px;">
+                             <a href="https://www.google.com/maps/place/Rua+Piaui,+973+Parolin+Curitiba+PR+80220240" target="_blank" rel="nofollow noopener noreferrer">Clique aqui para ver como chegar (Maps)</a>
+							</div>
+                           
+                            <h2>Estabelecimentos próximos a Parolin - Curitiba</h2>
+                            
+                            <div align="center" style="width: 100%; height: auto; margin: 20px 0;">                            
+                            <script type="rocketlazyloadscript" async="" data-rocket-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- CEB_RESP -->
+							<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0413008067917912" data-ad-slot="8458493070" data-ad-format="auto" data-full-width-responsive="true"></ins>
+							<script type="rocketlazyloadscript">
+								 (adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+							</div>
+                           
+                            <p>Você pode encontrar vários outros estabelecimentos de saúde próximos a esse Consultório no bairro <a href="https://cebes.com.br/medico/pr/curitiba/parolin/" title="Estabelecimentos de Saúde em Parolin">Parolin</a>. Confira logo abaixo uma lista com as unidades de saúde próximas a <a href="https://cebes.com.br/medico/pr/curitiba/" title="Estabelecimentos de Saúde em Curitiba">Curitiba</a> como UBS / postos de saúde, USF, UPA, hospitais, pronto socorro, consultórios e diversos outros tipos de estabelecimentos de saúde para marcar consultas, fazer exames, solicitar medicamentos e muito mais. </p>
+                                
+								
+                            <h3 style="margin: 10px 0 5px 0;">Parolin</h3><ul class="cat_list"><li><i class="fa fa-medkit" aria-hidden="true"></i> <a href="https://cebes.com.br/clinic-center-5919878/">Clinic Center – Consultório – Parolin – Curitiba – PR</a></li><li><i class="fa fa-medkit" aria-hidden="true"></i> <a href="https://cebes.com.br/juliano-losso-1008722/">Juliano Losso – Parolin – Curitiba –</a></li><li><i class="fa fa-medkit" aria-hidden="true"></i> <a href="https://cebes.com.br/carolina-bondi-sartori-de-andrade-5586194/">Carolina Bondi Sartori de Andrade – Consultório – Parolin – Curitiba – PR</a></li><li><i class="fa fa-medkit" aria-hidden="true"></i> <a href="https://cebes.com.br/samara-pianovski-mendes-4230310/">Samara Pianovski Mendes – Parolin – Curitiba – PR</a></li><li><i class="fa fa-medkit" aria-hidden="true"></i> <a href="https://cebes.com.br/ilasma-5046033/">Ilasma – Consultório – Parolin – Curitiba – PR</a></li></ul><h3 style="margin: 10px 0 5px 0;">Curitiba</h3><ul class="cat_list"><li><i class="fa fa-medkit" aria-hidden="true"></i> <a href="https://cebes.com.br/ibmp-108421/">Ibmp – Cic – Curitiba –</a></li><li><i class="fa fa-medkit" aria-hidden="true"></i> <a href="https://cebes.com.br/graca-maria-ferreira-de-souza-4166183/">Graca Maria Ferreira de Souza – Centro – Curitiba – PR</a></li><li><i class="fa fa-medkit" aria-hidden="true"></i> <a href="https://cebes.com.br/vivianne-parolin-ceccatto-andrade-3320634/">Vivianne Parolin Ceccatto Andrade – Batel – Curitiba – PR</a></li><li><i class="fa fa-medkit" aria-hidden="true"></i> <a href="https://cebes.com.br/raquel-bez-ferrari-3261905/">Raquel Bez Ferrari – Consultório – Agua Verde – Curitiba – PR</a></li><li><i class="fa fa-medkit" aria-hidden="true"></i> <a href="https://cebes.com.br/cti-centro-de-terapia-integrada-7668163/">Cti Centro de Terapia Integrada – Unidade de Apoio Diagnose e Terapia – Centro – Curitiba – PR</a></li></ul>                            
+
+                            <div align="center" style="width: 100%; height: auto; margin: 20px 0;">                            
+                            <script type="rocketlazyloadscript" async="" data-rocket-src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- CEB_RESP -->
+							<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0413008067917912" data-ad-slot="8458493070" data-ad-format="auto" data-full-width-responsive="true"></ins>
+							<script type="rocketlazyloadscript">
+								 (adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+							</div>
+							
+							</div>
+									</div><!--.post-single-content-->
+									
+								</div><!--.single_post-->
+
+				
+				</div><!--.g post-->
+			
+
+			</div>
+		</article>
+		</div><!--#page-->
+	<footer id="site-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+                <div class="copyrights">
+			<div class="container">
+                <!--start copyrights-->
+<div class="row" id="copyright-note">
+ -
+<span><a href="https://cebes.com.br/" title="Estabelecimentos de Saúde do Brasil">Estabelecimentos de Saúde do Brasil</a> Copyright © 2014 -2025 - <a href="https://cebes.com.br/entre-em-contato-conosco/" rel="nofollow">Contato</a> - <a href="https://cebes.com.br/politica-de-privacidade/" rel="nofollow">Política de Privacidade</a></span>
+<div class="to-top">&nbsp;</div>
+</div>
+<!--end copyrights-->
+            </div>
+		</div> 
+	</footer><!--#site-footer-->
+</div><!--.main-container-->
+    <script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="rocket-browser-checker-js-after">
+/* <![CDATA[ */
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/cebes.com.br","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="rocket-preload-links-js-after">
+/* <![CDATA[ */
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+/* ]]> */
+</script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async="" src="https://cebes.com.br/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script>
+<script type="rocketlazyloadscript" async="" data-rocket-src="https://www.googletagmanager.com/gtag/js?id=UA-3493925-67"></script>
+<script type="rocketlazyloadscript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-3493925-67');
+</script>
+		  <script>var rocket_beacon_data = {"ajax_url":"https:\/\/cebes.com.br\/wp-admin\/admin-ajax.php","nonce":"eca8641a5f","url":"https:\/\/cebes.com.br\/samara-pianovski-mendes-maeda-1010166","is_mobile":false,"width_threshold":1600,"height_threshold":700,"delay":500,"debug":null,"status":{"atf":true,"lrc":true},"elements":"img, video, picture, p, main, div, li, svg, section, header, span","lrc_threshold":1800}</script><script data-name="wpr-wpr-beacon" src="https://cebes.com.br/wp-content/plugins/wp-rocket/assets/js/wpr-beacon.min.js" async="" beacon-completed="true"></script>
+
+</body></html>

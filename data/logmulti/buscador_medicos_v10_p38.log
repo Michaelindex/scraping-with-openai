@@ -1,0 +1,520 @@
+2025-05-22 01:44:12,898 - P11992 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 01:44:12,899 - P11992 - INFO - Nome: FERNANDA MATOS DA SILVA
+2025-05-22 01:44:12,899 - P11992 - INFO - Reiniciando driver do Chrome
+2025-05-22 01:44:14,293 - P11992 - INFO - Após reiniciar driver Uso de memória: 89.71 MB
+2025-05-22 01:44:14,294 - P11992 - INFO - Início do processamento Uso de memória: 89.71 MB
+2025-05-22 01:44:14,294 - P11992 - INFO - Iniciando busca para: FERNANDA MATOS DA SILVA CRM 24508 BA telefone e-mail endereço
+2025-05-22 01:44:14,856 - P11992 - INFO - SearX results: 10 URLs
+2025-05-22 01:44:14,856 - P11992 - INFO - Após SearX Uso de memória: 89.71 MB
+2025-05-22 01:44:17,647 - P11992 - INFO - Google results: 11 URLs
+2025-05-22 01:44:17,647 - P11992 - INFO - Após Google Uso de memória: 94.08 MB
+2025-05-22 01:44:20,217 - P11992 - INFO - Bing results: 15 URLs
+2025-05-22 01:44:20,217 - P11992 - INFO - Após Bing Uso de memória: 95.59 MB
+2025-05-22 01:44:20,217 - P11992 - INFO - Total de URLs únicas: 29
+2025-05-22 01:44:20,217 - P11992 - INFO - Processando URL 1/29: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1473972837.pdf
+2025-05-22 01:44:20,218 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1473972837.pdf
+2025-05-22 01:44:20,218 - P11992 - INFO - Após processar URL 1 Uso de memória: 95.59 MB
+2025-05-22 01:44:20,218 - P11992 - INFO - Processando URL 2/29: https://www.consultacrm.com.br/index/contato
+2025-05-22 01:44:25,323 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\770622092e11df0ef8d0ed5d383f74a3.html
+2025-05-22 01:44:25,334 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:44:25,335 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:44:25,335 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:44:25,335 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:44:25,335 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:44:25,335 - P11992 - INFO - Após processar URL 2 Uso de memória: 96.41 MB
+2025-05-22 01:44:25,336 - P11992 - INFO - Processando URL 3/29: https://cardioimagemhospital.com.br/especialidade/endocrinologia/
+2025-05-22 01:44:30,488 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\88bf7fd34a8972ce679ac0389a4e0d12.html
+2025-05-22 01:44:30,496 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:44:30,496 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:44:30,497 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:44:30,497 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:44:30,499 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:44:30,501 - P11992 - INFO - Após processar URL 3 Uso de memória: 96.55 MB
+2025-05-22 01:44:30,501 - P11992 - INFO - Processando URL 4/29: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20220927&idorgao=545
+2025-05-22 01:44:34,996 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e57df278c55afaefd8941fbfefe7c662.html
+2025-05-22 01:44:35,876 - P11992 - INFO - Candidates address: 34 items
+2025-05-22 01:44:35,876 - P11992 - INFO - Candidates phone: 12 items
+2025-05-22 01:44:35,876 - P11992 - INFO - Candidates email: 13 items
+2025-05-22 01:44:35,876 - P11992 - INFO - Candidates complement: 2 items
+2025-05-22 01:44:35,877 - P11992 - INFO - Candidates cep: 41 items
+2025-05-22 01:44:35,877 - P11992 - INFO - Após processar URL 4 Uso de memória: 94.59 MB
+2025-05-22 01:44:35,877 - P11992 - INFO - Processando URL 5/29: https://portal.cfm.org.br/busca-medicos
+2025-05-22 01:44:39,950 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 01:44:39,986 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:44:39,986 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:44:39,986 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:44:39,986 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 01:44:39,987 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:44:39,987 - P11992 - INFO - Após processar URL 5 Uso de memória: 94.40 MB
+2025-05-22 01:44:39,987 - P11992 - INFO - Processando URL 6/29: https://www.doctoralia.com.br/fernanda-matos-leite-de-carvalho-e-silva/neurologista/rio-de-janeiro
+2025-05-22 01:44:39,987 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/fernanda-matos-leite-de-carvalho-e-silva/neurologista/rio-de-janeiro
+2025-05-22 01:44:39,987 - P11992 - INFO - Após processar URL 6 Uso de memória: 94.40 MB
+2025-05-22 01:44:39,988 - P11992 - INFO - Processando URL 7/29: http://www.ioepa.com.br/arquivos/2015/2015.11.30.DOE.pdf
+2025-05-22 01:44:39,988 - P11992 - INFO - Ignorando URL de arquivo não-HTML: http://www.ioepa.com.br/arquivos/2015/2015.11.30.DOE.pdf
+2025-05-22 01:44:39,988 - P11992 - INFO - Após processar URL 7 Uso de memória: 94.40 MB
+2025-05-22 01:44:39,988 - P11992 - INFO - Processando URL 8/29: https://cliniguia.com/profissionais/fernanda-matos-da-silva-980016294247018/
+2025-05-22 01:44:45,221 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\0ee0c92f19da606975a692363b389ca8.html
+2025-05-22 01:44:45,269 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:44:45,269 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:44:45,270 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:44:45,270 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:44:45,270 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:44:45,270 - P11992 - INFO - Após processar URL 8 Uso de memória: 97.23 MB
+2025-05-22 01:44:45,270 - P11992 - INFO - Processando URL 9/29: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 01:44:48,937 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 01:44:48,949 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:44:48,949 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:44:48,950 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:44:48,950 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:44:48,951 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:44:48,951 - P11992 - INFO - Após processar URL 9 Uso de memória: 95.99 MB
+2025-05-22 01:44:48,951 - P11992 - INFO - Processando URL 10/29: https://sistemas.tjes.jus.br/ediario/index.php/component/ediario/?view=contents&layout=fulltext&data=20181011&idorgao=347
+2025-05-22 01:44:54,195 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\bdab8582b7680db74d732f8349cd3abb.html
+2025-05-22 01:44:54,948 - P11992 - INFO - Candidates address: 40 items
+2025-05-22 01:44:54,948 - P11992 - INFO - Candidates phone: 3 items
+2025-05-22 01:44:54,948 - P11992 - INFO - Candidates email: 4 items
+2025-05-22 01:44:54,949 - P11992 - INFO - Candidates complement: 4 items
+2025-05-22 01:44:54,949 - P11992 - INFO - Candidates cep: 36 items
+2025-05-22 01:44:54,949 - P11992 - INFO - Após processar URL 10 Uso de memória: 94.32 MB
+2025-05-22 01:44:54,949 - P11992 - INFO - Processando URL 11/29: https://www.boaconsulta.com/especialista/fernanda-matos-da-silva-64a6e2565a7bb832dd0360ce
+2025-05-22 01:44:58,507 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e88360ffeab606ccbdba8ee330ea3583.html
+2025-05-22 01:44:58,568 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:44:58,568 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:44:58,568 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:44:58,568 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:44:58,568 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:44:58,568 - P11992 - INFO - Após processar URL 11 Uso de memória: 95.72 MB
+2025-05-22 01:44:58,569 - P11992 - INFO - Processando URL 12/29: https://www.cremeb.org.br/index.php/buscar-medicos/
+2025-05-22 01:45:02,494 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\baa85b25dd073ee15bf77dd594b13554.html
+2025-05-22 01:45:02,520 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:45:02,520 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:45:02,521 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:45:02,521 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:45:02,521 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:45:02,522 - P11992 - INFO - Após processar URL 12 Uso de memória: 95.32 MB
+2025-05-22 01:45:02,522 - P11992 - INFO - Processando URL 13/29: https://crmvirtual.cfm.org.br/BA/servico/pesquisa-por-medicos
+2025-05-22 01:45:05,431 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\344d5185fc7be121f6bd5df93a5125ac.html
+2025-05-22 01:45:05,445 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:45:05,446 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:45:05,446 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:45:05,446 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:45:05,446 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:45:05,446 - P11992 - INFO - Após processar URL 13 Uso de memória: 95.36 MB
+2025-05-22 01:45:05,447 - P11992 - INFO - Processando URL 14/29: https://diariooficial.santos.sp.gov.br/edicoes/inicio/download/2008-09-20
+2025-05-22 01:45:07,589 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\834c2b71da461e37aa84c851f4c1bb6f.html
+2025-05-22 01:45:07,590 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:45:07,590 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:45:07,590 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:45:07,591 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:45:07,591 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:45:07,591 - P11992 - INFO - Após processar URL 14 Uso de memória: 95.36 MB
+2025-05-22 01:45:07,591 - P11992 - INFO - Processando URL 15/29: https://www.consultacrm.com.br/index/maisvistos
+2025-05-22 01:45:11,250 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\9a17d88beef1266c6e4649221409a571.html
+2025-05-22 01:45:11,344 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:45:11,344 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:45:11,345 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:45:11,345 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:45:11,346 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:45:11,346 - P11992 - INFO - Após processar URL 15 Uso de memória: 91.77 MB
+2025-05-22 01:45:11,347 - P11992 - INFO - Processando URL 16/29: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/8/4/7/847267f82d36dcb8021ea4675541c81c273d00f038479fc13c4910cb6b3508e6/620d6637-390d-44a4-8426-517174593cff-15034-DOE_18567_16_03_2009_60F_JUCESC_18567_08F.pdf
+2025-05-22 01:45:11,347 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/8/4/7/847267f82d36dcb8021ea4675541c81c273d00f038479fc13c4910cb6b3508e6/620d6637-390d-44a4-8426-517174593cff-15034-DOE_18567_16_03_2009_60F_JUCESC_18567_08F.pdf
+2025-05-22 01:45:11,347 - P11992 - INFO - Após processar URL 16 Uso de memória: 91.77 MB
+2025-05-22 01:45:11,348 - P11992 - INFO - Processando URL 17/29: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/152998/Caderno_JUD_GO_2016-08-24_VIII_158.pdf?sequence=1&isAllowed=y
+2025-05-22 01:45:11,348 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/152998/Caderno_JUD_GO_2016-08-24_VIII_158.pdf?sequence=1&isAllowed=y
+2025-05-22 01:45:11,348 - P11992 - INFO - Após processar URL 17 Uso de memória: 91.77 MB
+2025-05-22 01:45:11,348 - P11992 - INFO - Processando URL 18/29: https://www.consultacrm.com.br/index/api
+2025-05-22 01:45:14,490 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\a1f22ffdf7e0eb1c02e28e1e38d3db87.html
+2025-05-22 01:45:14,502 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:45:14,502 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:45:14,502 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:45:14,503 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:45:14,503 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:45:14,503 - P11992 - INFO - Após processar URL 18 Uso de memória: 93.49 MB
+2025-05-22 01:45:14,503 - P11992 - INFO - Processando URL 19/29: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1223896652.pdf
+2025-05-22 01:45:14,504 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1223896652.pdf
+2025-05-22 01:45:14,504 - P11992 - INFO - Após processar URL 19 Uso de memória: 93.49 MB
+2025-05-22 01:45:14,504 - P11992 - INFO - Processando URL 20/29: https://www.saobernardo.sp.gov.br/documents/10181/1598718/NM+2413+de+29.12.2023+-++Conte%C3%BAdo+Integral.pdf/d80e1f6e-225b-8ed5-513c-761ad7fbf74c
+2025-05-22 01:45:14,504 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1598718/NM+2413+de+29.12.2023+-++Conte%C3%BAdo+Integral.pdf/d80e1f6e-225b-8ed5-513c-761ad7fbf74c
+2025-05-22 01:45:14,505 - P11992 - INFO - Após processar URL 20 Uso de memória: 93.49 MB
+2025-05-22 01:45:14,505 - P11992 - INFO - Processando URL 21/29: https://sistemadje.tjmt.jus.br/publicacoes/10109-2017%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 01:45:14,505 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/10109-2017%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 01:45:14,505 - P11992 - INFO - Após processar URL 21 Uso de memória: 93.49 MB
+2025-05-22 01:45:14,506 - P11992 - INFO - Processando URL 22/29: https://www.consultacrm.com.br/index/sis_login
+2025-05-22 01:45:17,536 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e56926aa25e0582d5c5b8aa167ed4b53.html
+2025-05-22 01:45:17,545 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:45:17,546 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:45:17,546 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:45:17,546 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:45:17,546 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:45:17,546 - P11992 - INFO - Após processar URL 22 Uso de memória: 93.70 MB
+2025-05-22 01:45:17,546 - P11992 - INFO - Processando URL 23/29: https://www.consultacrm.com.br/?uf=SP
+2025-05-22 01:45:20,607 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\60d20285cf74ceed0f862951f9b2b598.html
+2025-05-22 01:45:20,617 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:45:20,618 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:45:20,618 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:45:20,618 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:45:20,618 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:45:20,618 - P11992 - INFO - Após processar URL 23 Uso de memória: 94.55 MB
+2025-05-22 01:45:20,618 - P11992 - INFO - Processando URL 24/29: https://www.lume.ufrgs.br/bitstream/handle/10183/164591/001027286.pdf?sequence=1&isAllowed=y
+2025-05-22 01:45:20,619 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.lume.ufrgs.br/bitstream/handle/10183/164591/001027286.pdf?sequence=1&isAllowed=y
+2025-05-22 01:45:20,619 - P11992 - INFO - Após processar URL 24 Uso de memória: 94.55 MB
+2025-05-22 01:45:20,619 - P11992 - INFO - Processando URL 25/29: https://www.consultacrm.com.br/index/especialidades
+2025-05-22 01:45:24,283 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\3cb327d5e0f962fa7a1db5a948fb6f40.html
+2025-05-22 01:45:24,408 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:45:24,408 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:45:24,408 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:45:24,409 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:45:24,409 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:45:24,409 - P11992 - INFO - Após processar URL 25 Uso de memória: 95.46 MB
+2025-05-22 01:45:24,409 - P11992 - INFO - Processando URL 26/29: https://www.sbd.org.br/mm/cms/2019/02/12/cirurgioes-de-mohsufv2.pdf
+2025-05-22 01:45:24,410 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.sbd.org.br/mm/cms/2019/02/12/cirurgioes-de-mohsufv2.pdf
+2025-05-22 01:45:24,410 - P11992 - INFO - Após processar URL 26 Uso de memória: 95.46 MB
+2025-05-22 01:45:24,411 - P11992 - INFO - Processando URL 27/29: https://www.saobernardo.sp.gov.br/documents/10181/46759/NM+1169+21_01_2003.pdf/6102858e-e7ce-4409-8137-2989d03c3e8d
+2025-05-22 01:45:24,411 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/46759/NM+1169+21_01_2003.pdf/6102858e-e7ce-4409-8137-2989d03c3e8d
+2025-05-22 01:45:24,411 - P11992 - INFO - Após processar URL 27 Uso de memória: 95.46 MB
+2025-05-22 01:45:24,411 - P11992 - INFO - Processando URL 28/29: https://basesaudemental.com.br/especialistas/fernanda-matos-leite-de-carvalho-e-silva/
+2025-05-22 01:45:29,167 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\2292d85e5aea7adee8db66edb6a3bc81.html
+2025-05-22 01:45:29,198 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:45:29,199 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:45:29,199 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:45:29,199 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 01:45:29,199 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:45:29,199 - P11992 - INFO - Após processar URL 28 Uso de memória: 95.49 MB
+2025-05-22 01:45:29,199 - P11992 - INFO - Processando URL 29/29: https://consultacrm.com.br/
+2025-05-22 01:45:32,507 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:45:32,517 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:45:32,517 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:45:32,518 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:45:32,518 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:45:32,518 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:45:32,518 - P11992 - INFO - Após processar URL 29 Uso de memória: 95.55 MB
+2025-05-22 01:45:32,519 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:45:32,519 - P11992 - INFO - Ranked address: 76 items
+2025-05-22 01:45:32,519 - P11992 - INFO - Ranked phone: 18 items
+2025-05-22 01:45:32,519 - P11992 - INFO - Ranked email: 22 items
+2025-05-22 01:45:32,520 - P11992 - INFO - Ranked complement: 8 items
+2025-05-22 01:45:32,520 - P11992 - INFO - Ranked cep: 80 items
+2025-05-22 01:45:32,520 - P11992 - INFO - Após agregação Uso de memória: 95.55 MB
+2025-05-22 01:45:32,520 - P11992 - INFO - Validando endereço: ['Rua Desembargador Homero Mafra, 60', 'Rua Desidério Brandão, 147', 'R. e outros Intimo os Drs advogados Advogado: 18353']
+2025-05-22 01:45:32,520 - P11992 - INFO - Endereço validado: Rua Desembargador Homero Mafra, 60
+2025-05-22 01:45:32,520 - P11992 - INFO - Limpando texto extenso para campo address: Rua Desembargador Homero Mafra, 60...
+2025-05-22 01:45:32,521 - P11992 - INFO - Texto limpo: Rua Desembargador Homero Mafra, 60
+2025-05-22 01:45:32,521 - P11992 - INFO - Validando telefone: ['(75) 3673-0000', '(27) 3325-6233', '(27) 9989-9040']
+2025-05-22 01:45:32,521 - P11992 - INFO - Limpando texto extenso para campo phone: (75) 3673-0000...
+2025-05-22 01:45:32,521 - P11992 - INFO - Texto limpo: 75) 3673-0000
+2025-05-22 01:45:32,521 - P11992 - INFO - Telefone validado: 75) 3673-0000
+2025-05-22 01:45:32,521 - P11992 - INFO - Validando email: ['sac@cardioimagemhospital.com.br', 'drsanlos@unimed.vitoria.com.br', 'drsantos@unimed.vitoria.com.br']
+2025-05-22 01:45:32,521 - P11992 - INFO - Limpando texto extenso para campo email: sac@cardioimagemhospital.com.br...
+2025-05-22 01:45:32,522 - P11992 - INFO - Texto limpo: sac@cardioimagemhospital.com.br
+2025-05-22 01:45:32,522 - P11992 - INFO - Email validado: sac@cardioimagemhospital.com.br
+2025-05-22 01:45:32,522 - P11992 - INFO - Validando complemento: ['Conjunto n° 008 /2021 do TJES 7 ', 'Sala de Audiências desta Sexta Vara Cível de Vila Velh', 'Conjunto D']
+2025-05-22 01:45:32,522 - P11992 - INFO - Limpando texto extenso para campo complement: Conjunto n° 008 /2021 do TJES 7 ...
+2025-05-22 01:45:32,522 - P11992 - INFO - Texto limpo: Conjunto n° 008 /2021 do TJES
+2025-05-22 01:45:32,522 - P11992 - INFO - Complemento validado: Conjunto n° 008 /2021 do TJES
+2025-05-22 01:45:32,523 - P11992 - INFO - Descobrindo cidade
+2025-05-22 01:45:32,523 - P11992 - INFO - Buscando cidade: Rua Desembargador Homero Mafra cidade BA
+2025-05-22 01:45:35,143 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 01:45:35,143 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 01:45:35,143 - P11992 - INFO - Tempo de execução de processamento completo do médico: 80.85 segundos
+2025-05-22 01:45:35,144 - P11992 - INFO - Resultado processado: {'Hash': '8044fd741e3729a939c6dcaec0dd77dcf8da70f2475f9d3bdb7675cb75a7e91d', 'CRM': '24508', 'UF': 'BA', 'Firstname': 'FERNANDA', 'LastName': 'MATOS DA SILVA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Desembargador Homero Mafra, 60', 'Address A1': 'Rua Desembargador Homero Mafra', 'Numero A1': '60', 'Complement A1': 'Conjunto n° 008 /2021 do TJES', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '75) 3673-0000', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'sac@cardioimagemhospital.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:45:35,145 - P11992 - INFO - Progresso: 9.5%
+2025-05-22 01:45:35,145 - P11992 - INFO - Executando coleta de lixo
+2025-05-22 01:45:35,155 - P11992 - INFO - Após coleta de lixo Uso de memória: 88.78 MB
+2025-05-22 01:45:35,156 - P11992 - INFO - Tempo de execução de processamento do médico 1: 82.26 segundos
+2025-05-22 01:45:35,156 - P11992 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 01:45:35,156 - P11992 - INFO - Nome: FERNANDA BATISTA GONÇALVES
+2025-05-22 01:45:35,157 - P11992 - INFO - Início do processamento Uso de memória: 88.78 MB
+2025-05-22 01:45:35,157 - P11992 - INFO - Iniciando busca para: FERNANDA BATISTA GONÇALVES CRM 24509 BA telefone e-mail endereço
+2025-05-22 01:45:35,577 - P11992 - INFO - SearX results: 9 URLs
+2025-05-22 01:45:35,578 - P11992 - INFO - Após SearX Uso de memória: 88.79 MB
+2025-05-22 01:45:38,318 - P11992 - INFO - Google results: 6 URLs
+2025-05-22 01:45:38,318 - P11992 - INFO - Após Google Uso de memória: 92.89 MB
+2025-05-22 01:45:40,811 - P11992 - INFO - Bing results: 9 URLs
+2025-05-22 01:45:40,811 - P11992 - INFO - Após Bing Uso de memória: 95.73 MB
+2025-05-22 01:45:40,812 - P11992 - INFO - Total de URLs únicas: 20
+2025-05-22 01:45:40,812 - P11992 - INFO - Processando URL 1/20: https://dosp.com.br/exibe_do.php?i=NTU5MTE=
+2025-05-22 01:45:42,952 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ccbdd3b8a5bd27f98a285c59bf2c49e0.html
+2025-05-22 01:45:42,952 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:45:42,952 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:45:42,952 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:45:42,953 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:45:42,953 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:45:42,953 - P11992 - INFO - Após processar URL 1 Uso de memória: 95.73 MB
+2025-05-22 01:45:42,953 - P11992 - INFO - Processando URL 2/20: https://www.boaconsulta.com/especialista/fernanda-batista-goncalves-61058294ba32c30740002bd6
+2025-05-22 01:45:45,088 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\4455814b3bf610b204da6eaf904a0093.html
+2025-05-22 01:45:45,143 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 01:45:45,143 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:45:45,143 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:45:45,143 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:45:45,144 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:45:45,144 - P11992 - INFO - Após processar URL 2 Uso de memória: 97.38 MB
+2025-05-22 01:45:45,144 - P11992 - INFO - Processando URL 3/20: https://www.escavador.com/sobre/6757056/fernanda-batista-goncalves
+2025-05-22 01:45:51,546 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\fbc04d91582226989ba9ce518e50746f.html
+2025-05-22 01:45:51,572 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:45:51,573 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:45:51,573 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:45:51,573 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:45:51,573 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:45:51,573 - P11992 - INFO - Após processar URL 3 Uso de memória: 97.75 MB
+2025-05-22 01:45:51,573 - P11992 - INFO - Processando URL 4/20: https://www.doctoralia.com.br/fernanda-batista-goncalves/ortopedista-traumatologista/salvador
+2025-05-22 01:45:51,574 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/fernanda-batista-goncalves/ortopedista-traumatologista/salvador
+2025-05-22 01:45:51,574 - P11992 - INFO - Após processar URL 4 Uso de memória: 97.75 MB
+2025-05-22 01:45:51,574 - P11992 - INFO - Processando URL 5/20: https://guiasaudebrasil.com.br/profissional/92c03ec7c48569bd-fernanda-batista-goncalves/
+2025-05-22 01:45:57,638 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\86581af76581c1946e683eba52240c03.html
+2025-05-22 01:45:57,649 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:45:57,649 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:45:57,649 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:45:57,649 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:45:57,649 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:45:57,650 - P11992 - INFO - Após processar URL 5 Uso de memória: 98.11 MB
+2025-05-22 01:45:57,650 - P11992 - INFO - Processando URL 6/20: https://cliniguia.com/profissionais/fernanda-batista-goncalves-980016294289861/
+2025-05-22 01:46:02,557 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\9f9c16c269fc74aa3dc6eb6f256a5953.html
+2025-05-22 01:46:02,599 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:46:02,599 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:46:02,599 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:46:02,600 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:46:02,600 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:46:02,600 - P11992 - INFO - Após processar URL 6 Uso de memória: 98.78 MB
+2025-05-22 01:46:02,600 - P11992 - INFO - Processando URL 7/20: http://www.ioepa.com.br/arquivos/2015/2015.11.30.DOE.pdf
+2025-05-22 01:46:02,600 - P11992 - INFO - Ignorando URL de arquivo não-HTML: http://www.ioepa.com.br/arquivos/2015/2015.11.30.DOE.pdf
+2025-05-22 01:46:02,601 - P11992 - INFO - Após processar URL 7 Uso de memória: 92.83 MB
+2025-05-22 01:46:02,601 - P11992 - INFO - Processando URL 8/20: https://www.boaconsulta.com/especialista/fernanda-batista-goncalves-61058294ba32c30740002bd6?agendaId=61058a7eba32c30a820020c5
+2025-05-22 01:46:05,452 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\293a6ba98c34167f559680218b62ad73.html
+2025-05-22 01:46:05,534 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 01:46:05,536 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:46:05,547 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:46:05,555 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:46:05,561 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:46:05,570 - P11992 - INFO - Após processar URL 8 Uso de memória: 96.50 MB
+2025-05-22 01:46:05,571 - P11992 - INFO - Processando URL 9/20: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20190513&idorgao=347
+2025-05-22 01:46:08,898 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\0ab18bc8a9b8df530f00ddeb800c6fd9.html
+2025-05-22 01:46:10,067 - P11992 - INFO - Candidates address: 30 items
+2025-05-22 01:46:10,067 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:46:10,067 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:46:10,067 - P11992 - INFO - Candidates complement: 4 items
+2025-05-22 01:46:10,067 - P11992 - INFO - Candidates cep: 30 items
+2025-05-22 01:46:10,068 - P11992 - INFO - Após processar URL 9 Uso de memória: 99.83 MB
+2025-05-22 01:46:10,068 - P11992 - INFO - Processando URL 10/20: https://coopcoluna.com.br/seja-um-cooperado/
+2025-05-22 01:46:17,320 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\0a8d1ab74fafc282dd51ec3e01c5cbc1.html
+2025-05-22 01:46:17,548 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:46:17,548 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:46:17,548 - P11992 - INFO - Candidates email: 12 items
+2025-05-22 01:46:17,548 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:46:17,549 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 01:46:17,549 - P11992 - INFO - Após processar URL 10 Uso de memória: 99.42 MB
+2025-05-22 01:46:17,549 - P11992 - INFO - Processando URL 11/20: https://diariooficial.santos.sp.gov.br/edicoes/inicio/download/2008-09-20
+2025-05-22 01:46:19,620 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\834c2b71da461e37aa84c851f4c1bb6f.html
+2025-05-22 01:46:19,621 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:46:19,621 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:46:19,621 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:46:19,621 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:46:19,621 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:46:19,621 - P11992 - INFO - Após processar URL 11 Uso de memória: 98.29 MB
+2025-05-22 01:46:19,622 - P11992 - INFO - Processando URL 12/20: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/457551538.pdf
+2025-05-22 01:46:19,622 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/457551538.pdf
+2025-05-22 01:46:19,622 - P11992 - INFO - Após processar URL 12 Uso de memória: 98.29 MB
+2025-05-22 01:46:19,622 - P11992 - INFO - Processando URL 13/20: https://www.consultasocio.com/q/sa/fernanda-batista-goncalves
+2025-05-22 01:46:24,973 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\f049c41e276c79f67f6ed7d9798e30ae.html
+2025-05-22 01:46:24,982 - P11992 - INFO - Candidates address: 4 items
+2025-05-22 01:46:24,983 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:46:24,983 - P11992 - INFO - Candidates email: 3 items
+2025-05-22 01:46:24,983 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 01:46:24,983 - P11992 - INFO - Candidates cep: 8 items
+2025-05-22 01:46:24,983 - P11992 - INFO - Após processar URL 13 Uso de memória: 98.37 MB
+2025-05-22 01:46:24,983 - P11992 - INFO - Processando URL 14/20: https://www.medguias.com.br/ba/salvador/medicina/ortopedia-e-traumatologia/fernanda-batista-goncalves
+2025-05-22 01:46:29,759 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\365ec89c809dcbcd69f0a8ded2ea558a.html
+2025-05-22 01:46:29,814 - P11992 - INFO - Candidates address: 3 items
+2025-05-22 01:46:29,814 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 01:46:29,814 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:46:29,814 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:46:29,814 - P11992 - INFO - Candidates cep: 4 items
+2025-05-22 01:46:29,815 - P11992 - INFO - Após processar URL 14 Uso de memória: 98.41 MB
+2025-05-22 01:46:29,815 - P11992 - INFO - Processando URL 15/20: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/18548146.pdf
+2025-05-22 01:46:29,815 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/18548146.pdf
+2025-05-22 01:46:29,815 - P11992 - INFO - Após processar URL 15 Uso de memória: 98.41 MB
+2025-05-22 01:46:29,815 - P11992 - INFO - Processando URL 16/20: https://brasil.docalist.com/medics/ortopedista/asfeb-allianz/salvador/fernanda-batista-goncalves
+2025-05-22 01:46:29,816 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://brasil.docalist.com/medics/ortopedista/asfeb-allianz/salvador/fernanda-batista-goncalves
+2025-05-22 01:46:29,816 - P11992 - INFO - Após processar URL 16 Uso de memória: 98.41 MB
+2025-05-22 01:46:29,816 - P11992 - INFO - Processando URL 17/20: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 01:46:32,025 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 01:46:32,066 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:46:32,067 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:46:32,067 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:46:32,067 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:46:32,067 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:46:32,067 - P11992 - INFO - Após processar URL 17 Uso de memória: 98.44 MB
+2025-05-22 01:46:32,067 - P11992 - INFO - Processando URL 18/20: https://www.doctoralia.com.br/ortopedista-traumatologista/salvador/matatu
+2025-05-22 01:46:32,068 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/ortopedista-traumatologista/salvador/matatu
+2025-05-22 01:46:32,068 - P11992 - INFO - Após processar URL 18 Uso de memória: 98.44 MB
+2025-05-22 01:46:32,068 - P11992 - INFO - Processando URL 19/20: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/879561287.pdf
+2025-05-22 01:46:32,068 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/879561287.pdf
+2025-05-22 01:46:32,068 - P11992 - INFO - Após processar URL 19 Uso de memória: 98.44 MB
+2025-05-22 01:46:32,068 - P11992 - INFO - Processando URL 20/20: https://consultacrm.com.br/
+2025-05-22 01:46:35,075 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:46:35,085 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:46:35,089 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:46:35,093 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:46:35,095 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:46:35,096 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:46:35,100 - P11992 - INFO - Após processar URL 20 Uso de memória: 98.46 MB
+2025-05-22 01:46:35,101 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:46:35,101 - P11992 - INFO - Ranked address: 39 items
+2025-05-22 01:46:35,102 - P11992 - INFO - Ranked phone: 3 items
+2025-05-22 01:46:35,102 - P11992 - INFO - Ranked email: 15 items
+2025-05-22 01:46:35,102 - P11992 - INFO - Ranked complement: 5 items
+2025-05-22 01:46:35,103 - P11992 - INFO - Ranked cep: 45 items
+2025-05-22 01:46:35,103 - P11992 - INFO - Após agregação Uso de memória: 98.46 MB
+2025-05-22 01:46:35,103 - P11992 - INFO - Validando endereço: ['Avenida Rio Camacari, 33', 'Estrada Da Paciencia, 2009', 'R.D.S. e outros Requerido: B.C.I. Intimo os Drs advogados Advogado: 8491']
+2025-05-22 01:46:35,103 - P11992 - INFO - Endereço validado: Avenida Rio Camacari, 33
+2025-05-22 01:46:35,103 - P11992 - INFO - Limpando texto extenso para campo address: Avenida Rio Camacari, 33...
+2025-05-22 01:46:35,104 - P11992 - INFO - Texto limpo: Avenida Rio Camacari, 33
+2025-05-22 01:46:35,104 - P11992 - INFO - Validando telefone: ['(71) 99129-2723', '(71) 99344-2932', '(71) 3339-7777']
+2025-05-22 01:46:35,104 - P11992 - INFO - Limpando texto extenso para campo phone: (71) 99129-2723...
+2025-05-22 01:46:35,104 - P11992 - INFO - Texto limpo: 71) 99129-2723
+2025-05-22 01:46:35,105 - P11992 - INFO - Telefone validado: 71) 99129-2723
+2025-05-22 01:46:35,105 - P11992 - INFO - Validando email: ['atendimento@coopcoluna.com.br', 'atendimento@drcarlosromeu.com.br', 'cjfalcao@terra.com.br']
+2025-05-22 01:46:35,106 - P11992 - INFO - Limpando texto extenso para campo email: atendimento@coopcoluna.com.br...
+2025-05-22 01:46:35,106 - P11992 - INFO - Texto limpo: atendimento@coopcoluna.com.br
+2025-05-22 01:46:35,106 - P11992 - INFO - Email validado: atendimento@coopcoluna.com.br
+2025-05-22 01:46:35,106 - P11992 - INFO - Validando complemento: ['Sala 1804', 'Conjunto nº 06/2013.       Não havendo outras providências', 'Sala de audiência no 16º andar']
+2025-05-22 01:46:35,107 - P11992 - INFO - Limpando texto extenso para campo complement: Sala 1804...
+2025-05-22 01:46:35,107 - P11992 - INFO - Texto limpo: Sala 1804
+2025-05-22 01:46:35,107 - P11992 - INFO - Complemento validado: Sala 1804
+2025-05-22 01:46:35,109 - P11992 - INFO - Descobrindo cidade
+2025-05-22 01:46:35,110 - P11992 - INFO - Buscando cidade: Avenida Rio Camacari cidade BA
+2025-05-22 01:46:37,783 - P11992 - INFO - Cidade encontrada: Camaçari
+2025-05-22 01:46:37,784 - P11992 - INFO - Limpando texto extenso para campo city: Camaçari...
+2025-05-22 01:46:37,784 - P11992 - INFO - Texto limpo: Camaçari
+2025-05-22 01:46:37,785 - P11992 - INFO - Cidade descoberta: Camaçari
+2025-05-22 01:46:37,785 - P11992 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 01:46:37,785 - P11992 - INFO - Iniciando busca de CEP em cascata para: Avenida Rio Camacari, Camaçari, BA
+2025-05-22 01:46:37,785 - P11992 - INFO - Método 1: ViaCEP API
+2025-05-22 01:46:37,785 - P11992 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/BA/camacari/avenida%20rio%20camacari/json/
+2025-05-22 01:46:38,465 - P11992 - INFO - Dados encontrados no ViaCEP: {'cep': '42804-539', 'logradouro': 'Avenida Rio Camaçari', 'complemento': '', 'unidade': '', 'bairro': 'Camaçari de Dentro', 'localidade': 'Camaçari', 'uf': 'BA', 'estado': 'Bahia', 'regiao': 'Nordeste', 'ibge': '2905701', 'gia': '', 'ddd': '71', 'siafi': '3413'}
+2025-05-22 01:46:38,467 - P11992 - INFO - CEP encontrado via ViaCEP: 42804-539
+2025-05-22 01:46:38,467 - P11992 - INFO - Dados de CEP encontrados: {'cep': '42804-539', 'logradouro': 'Avenida Rio Camaçari', 'complemento': '', 'unidade': '', 'bairro': 'Camaçari de Dentro', 'localidade': 'Camaçari', 'uf': 'BA', 'estado': 'Bahia', 'regiao': 'Nordeste', 'ibge': '2905701', 'gia': '', 'ddd': '71', 'siafi': '3413'}
+2025-05-22 01:46:38,467 - P11992 - INFO - Limpando texto extenso para campo bairro: Camaçari de Dentro...
+2025-05-22 01:46:38,467 - P11992 - INFO - Texto limpo: Camaçari de Dentro
+2025-05-22 01:46:38,468 - P11992 - INFO - Limpando texto extenso para campo city: Camaçari...
+2025-05-22 01:46:38,468 - P11992 - INFO - Texto limpo: Camaçari
+2025-05-22 01:46:38,468 - P11992 - INFO - Limpando texto extenso para campo state: BA...
+2025-05-22 01:46:38,468 - P11992 - INFO - Texto limpo: BA
+2025-05-22 01:46:38,468 - P11992 - INFO - Tempo de execução de processamento completo do médico: 63.31 segundos
+2025-05-22 01:46:38,469 - P11992 - INFO - Resultado processado: {'Hash': 'e3428efa29e9461f9d3933267706d613a170db79d606102c7e2e4b46066f50af', 'CRM': '24509', 'UF': 'BA', 'Firstname': 'FERNANDA', 'LastName': 'BATISTA GONÇALVES', 'Medical specialty': '', 'Endereco Completo A1': 'Avenida Rio Camacari, 33', 'Address A1': 'Avenida Rio Camacari', 'Numero A1': '33', 'Complement A1': 'Sala 1804', 'Bairro A1': 'Camaçari de Dentro', 'postal code A1': '42804-539', 'City A1': 'Camaçari', 'State A1': 'BA', 'Phone A1': '71) 99129-2723', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'atendimento@coopcoluna.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:46:38,469 - P11992 - INFO - Progresso: 9.9%
+2025-05-22 01:46:38,470 - P11992 - INFO - Tempo de execução de processamento do médico 2: 63.31 segundos
+2025-05-22 01:46:38,470 - P11992 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 01:46:38,470 - P11992 - INFO - Nome: ACSA BARROS ASSIS
+2025-05-22 01:46:38,470 - P11992 - INFO - Início do processamento Uso de memória: 95.04 MB
+2025-05-22 01:46:38,470 - P11992 - INFO - Iniciando busca para: ACSA BARROS ASSIS CRM 27213 BA telefone e-mail endereço
+2025-05-22 01:46:38,868 - P11992 - INFO - SearX results: 0 URLs
+2025-05-22 01:46:38,868 - P11992 - INFO - Após SearX Uso de memória: 95.04 MB
+2025-05-22 01:46:41,437 - P11992 - INFO - Google results: 0 URLs
+2025-05-22 01:46:41,438 - P11992 - INFO - Após Google Uso de memória: 95.05 MB
+2025-05-22 01:46:43,914 - P11992 - INFO - Bing results: 8 URLs
+2025-05-22 01:46:43,915 - P11992 - INFO - Após Bing Uso de memória: 95.77 MB
+2025-05-22 01:46:43,915 - P11992 - INFO - Total de URLs únicas: 8
+2025-05-22 01:46:43,915 - P11992 - INFO - Processando URL 1/8: https://cnpj.biz/16782551000275
+2025-05-22 01:46:48,403 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\2b23f25f789bf1b88e48500413705d22.html
+2025-05-22 01:46:48,419 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 01:46:48,419 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:46:48,419 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:46:48,419 - P11992 - INFO - Candidates complement: 3 items
+2025-05-22 01:46:48,420 - P11992 - INFO - Candidates cep: 3 items
+2025-05-22 01:46:48,420 - P11992 - INFO - Após processar URL 1 Uso de memória: 95.77 MB
+2025-05-22 01:46:48,420 - P11992 - INFO - Processando URL 2/8: https://assistenciasocial.club/assistencia-social-em-pindorama-sp/
+2025-05-22 01:46:57,994 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\3b67390e8dcdaf31a13f9caf76163134.html
+2025-05-22 01:46:58,017 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:46:58,017 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:46:58,018 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:46:58,018 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 01:46:58,018 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:46:58,019 - P11992 - INFO - Após processar URL 2 Uso de memória: 95.93 MB
+2025-05-22 01:46:58,019 - P11992 - INFO - Processando URL 3/8: https://www.pindorama.sp.gov.br/portal/contato
+2025-05-22 01:47:00,148 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\46183dc838b4a8db03663e4b23656389.html
+2025-05-22 01:47:00,187 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:47:00,187 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:47:00,187 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:47:00,187 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:47:00,187 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:47:00,188 - P11992 - INFO - Após processar URL 3 Uso de memória: 95.98 MB
+2025-05-22 01:47:00,188 - P11992 - INFO - Processando URL 4/8: https://www.consultacrm.com.br/index/medicos/uid-828d1a6c-f5c5-11ec-9e74-0a4aa568c625/fernando_antonio_bomfim
+2025-05-22 01:47:04,714 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\70287af63f7e66a2e4cbe9740990e2ef.html
+2025-05-22 01:47:04,723 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:47:04,723 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:47:04,723 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:47:04,724 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:47:04,724 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:47:04,724 - P11992 - INFO - Após processar URL 4 Uso de memória: 96.10 MB
+2025-05-22 01:47:04,724 - P11992 - INFO - Processando URL 5/8: https://guiamedico.cremesp.org.br/
+2025-05-22 01:47:07,832 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 01:47:07,841 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:47:07,842 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:47:07,842 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:47:07,842 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:47:07,843 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:47:07,843 - P11992 - INFO - Após processar URL 5 Uso de memória: 96.10 MB
+2025-05-22 01:47:07,844 - P11992 - INFO - Processando URL 6/8: https://guiasaudebrasil.com.br/profissional/e2cb686bbffc123e-acsa-barros-assis
+2025-05-22 01:47:13,232 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\97f63ed2c783e9ae7cf45488c5427361.html
+2025-05-22 01:47:13,242 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:47:13,243 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:47:13,243 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:47:13,243 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:47:13,243 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:47:13,243 - P11992 - INFO - Após processar URL 6 Uso de memória: 95.83 MB
+2025-05-22 01:47:13,244 - P11992 - INFO - Processando URL 7/8: https://www.sociosbrasil.com/nome/acsa-barros-assis
+2025-05-22 01:47:15,982 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\fd2ca1d742893d9f52233b3dfeceb9e0.html
+2025-05-22 01:47:15,983 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:47:15,983 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:47:15,983 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:47:15,983 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:47:15,983 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:47:15,984 - P11992 - INFO - Após processar URL 7 Uso de memória: 95.83 MB
+2025-05-22 01:47:15,984 - P11992 - INFO - Processando URL 8/8: https://consultacrm.com.br/
+2025-05-22 01:47:19,868 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:47:19,882 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:47:19,882 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:47:19,882 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:47:19,883 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:47:19,883 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:47:19,883 - P11992 - INFO - Após processar URL 8 Uso de memória: 96.32 MB
+2025-05-22 01:47:19,883 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:47:19,883 - P11992 - INFO - Ranked address: 4 items
+2025-05-22 01:47:19,883 - P11992 - INFO - Ranked phone: 3 items
+2025-05-22 01:47:19,884 - P11992 - INFO - Ranked email: 2 items
+2025-05-22 01:47:19,884 - P11992 - INFO - Ranked complement: 4 items
+2025-05-22 01:47:19,884 - P11992 - INFO - Ranked cep: 6 items
+2025-05-22 01:47:19,885 - P11992 - INFO - Após agregação Uso de memória: 96.32 MB
+2025-05-22 01:47:19,885 - P11992 - INFO - Validando endereço: ['Rua Jose do Patrocinio, 522', 'Rua Jose do Patrocinio 522 Sala 1 Santa Monica Belo Horizonte MG', 'Rua Engenheiro Balduíno, 200']
+2025-05-22 01:47:19,885 - P11992 - INFO - Endereço validado: Rua Jose do Patrocinio, 522
+2025-05-22 01:47:19,886 - P11992 - INFO - Limpando texto extenso para campo address: Rua Jose do Patrocinio, 522...
+2025-05-22 01:47:19,886 - P11992 - INFO - Texto limpo: Rua Jose do Patrocinio, 522
+2025-05-22 01:47:19,886 - P11992 - INFO - Validando telefone: ['(31) 99682-1585', '(17) 3572-9900', '(11) 4349-9900']
+2025-05-22 01:47:19,886 - P11992 - INFO - Limpando texto extenso para campo phone: (31) 99682-1585...
+2025-05-22 01:47:19,886 - P11992 - INFO - Texto limpo: 31) 99682-1585
+2025-05-22 01:47:19,887 - P11992 - INFO - Telefone validado: 31) 99682-1585
+2025-05-22 01:47:19,887 - P11992 - INFO - Validando email: ['jbcontab20@gmail.com', 'gabinete@pindorama.sp.gov.br']
+2025-05-22 01:47:19,887 - P11992 - INFO - Limpando texto extenso para campo email: jbcontab20@gmail.com...
+2025-05-22 01:47:19,887 - P11992 - INFO - Texto limpo: jbcontab20@gmail.com
+2025-05-22 01:47:19,887 - P11992 - INFO - Email validado: jbcontab20@gmail.com
+2025-05-22 01:47:19,887 - P11992 - INFO - Validando complemento: ['Sala  1  Clique para copiar    Bairro:  Santa Monica  ', 'Sala  1  Santa Monica  Belo Horizonte MG  31525-160  C', 'Sala  1  Santa Monica  Belo Horizonte MG  31525-160   ']
+2025-05-22 01:47:19,887 - P11992 - INFO - Limpando texto extenso para campo complement: Sala  1  Clique para copiar    Bairro:  Santa Moni...
+2025-05-22 01:47:19,888 - P11992 - INFO - Texto limpo: Sala 1 Clique para copiar
+2025-05-22 01:47:19,888 - P11992 - INFO - Complemento validado: Sala 1 Clique para copiar
+2025-05-22 01:47:19,888 - P11992 - INFO - Descobrindo cidade
+2025-05-22 01:47:19,888 - P11992 - INFO - Buscando cidade: Rua Jose do Patrocinio cidade BA
+2025-05-22 01:47:22,462 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 01:47:22,462 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 01:47:22,462 - P11992 - INFO - Tempo de execução de processamento completo do médico: 43.99 segundos
+2025-05-22 01:47:22,463 - P11992 - INFO - Resultado processado: {'Hash': '536a03994fbc289ae4876639eac1fd5b4e73d3665d937d6602c57b155810a007', 'CRM': '27213', 'UF': 'BA', 'Firstname': 'ACSA', 'LastName': 'BARROS ASSIS', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Jose do Patrocinio, 522', 'Address A1': 'Rua Jose do Patrocinio', 'Numero A1': '522', 'Complement A1': 'Sala 1 Clique para copiar', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '31) 99682-1585', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'jbcontab20@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:47:22,463 - P11992 - INFO - Salvando lote de resultados
+2025-05-22 01:47:22,464 - P11992 - INFO - Após salvar resultados Uso de memória: 90.32 MB
+2025-05-22 01:47:22,465 - P11992 - INFO - Progresso: 10.2%
+2025-05-22 01:47:22,465 - P11992 - INFO - Tempo de execução de processamento do médico 3: 43.99 segundos
+2025-05-22 01:47:22,465 - P11992 - INFO - Tempo de execução de processamento do lote completo: 189.57 segundos

@@ -1,0 +1,604 @@
+2025-05-22 02:12:54,082 - P17020 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 02:12:54,082 - P17020 - INFO - Nome: Rogerio Andrade Mulinari
+2025-05-22 02:12:54,082 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 02:12:55,400 - P17020 - INFO - Após reiniciar driver Uso de memória: 125.53 MB
+2025-05-22 02:12:55,400 - P17020 - INFO - Início do processamento Uso de memória: 125.53 MB
+2025-05-22 02:12:55,400 - P17020 - INFO - Iniciando busca para: Rogerio Andrade Mulinari CRM 6240 PR telefone e-mail endereço
+2025-05-22 02:12:55,888 - P17020 - INFO - SearX results: 9 URLs
+2025-05-22 02:12:55,888 - P17020 - INFO - Após SearX Uso de memória: 125.53 MB
+2025-05-22 02:12:58,615 - P17020 - INFO - Google results: 10 URLs
+2025-05-22 02:12:58,615 - P17020 - INFO - Após Google Uso de memória: 126.35 MB
+2025-05-22 02:13:01,260 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 02:13:01,261 - P17020 - INFO - Após Bing Uso de memória: 128.38 MB
+2025-05-22 02:13:01,261 - P17020 - INFO - Total de URLs únicas: 21
+2025-05-22 02:13:01,261 - P17020 - INFO - Processando URL 1/21: https://www.crmpr.org.br/Homenagem-aos-Pioneiros-Dr-Adyr-Soares-Mulinari-CRMPR-354-11-51588.shtml
+2025-05-22 02:13:04,439 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6c3b90d8a05a9127c26e40d254beb0b0.html
+2025-05-22 02:13:04,471 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:13:04,471 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:13:04,472 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:13:04,472 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:04,472 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:13:04,472 - P17020 - INFO - Após processar URL 1 Uso de memória: 128.38 MB
+2025-05-22 02:13:04,472 - P17020 - INFO - Processando URL 2/21: https://consultacrm.com.br/
+2025-05-22 02:13:09,001 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:13:09,014 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:13:09,015 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:09,015 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:13:09,015 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:09,015 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:09,015 - P17020 - INFO - Após processar URL 2 Uso de memória: 128.45 MB
+2025-05-22 02:13:09,016 - P17020 - INFO - Processando URL 3/21: https://listamedicos.com/medico/rogerio-andrade-mulinari
+2025-05-22 02:13:12,474 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6ebd489316013899e1d7b6cd73548e50.html
+2025-05-22 02:13:12,479 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:13:12,479 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:12,479 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:13:12,479 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:12,479 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:13:12,480 - P17020 - INFO - Após processar URL 3 Uso de memória: 128.46 MB
+2025-05-22 02:13:12,480 - P17020 - INFO - Processando URL 4/21: https://www.crmpr.org.br/Empossados-novos-membros-da-Academia-Paranaense-de-Medicina-11-50107.shtml
+2025-05-22 02:13:15,443 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\004a13e0e4032a8e11eb6bc85823f79e.html
+2025-05-22 02:13:15,467 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:13:15,468 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:13:15,469 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:13:15,469 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:15,469 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:13:15,470 - P17020 - INFO - Após processar URL 4 Uso de memória: 128.46 MB
+2025-05-22 02:13:15,470 - P17020 - INFO - Processando URL 5/21: https://www.boaconsulta.com/especialista/rogerio-andrade-mulinari-6105902f40ebb511350004a5
+2025-05-22 02:13:18,845 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3605f5ecfc3bf627793984e4f386229c.html
+2025-05-22 02:13:18,883 - P17020 - INFO - Candidates address: 3 items
+2025-05-22 02:13:18,883 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:18,883 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:13:18,884 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:18,884 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:18,884 - P17020 - INFO - Após processar URL 5 Uso de memória: 128.46 MB
+2025-05-22 02:13:18,884 - P17020 - INFO - Processando URL 6/21: https://cliniguia.com/profissionais/rogerio-andrade-mulinari-204326784890003/
+2025-05-22 02:13:24,108 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7c56fed4782056f605d4fd96cf9bf7b3.html
+2025-05-22 02:13:24,158 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:13:24,158 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:24,158 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:13:24,159 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:24,159 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:24,159 - P17020 - INFO - Após processar URL 6 Uso de memória: 128.89 MB
+2025-05-22 02:13:24,159 - P17020 - INFO - Processando URL 7/21: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-17-04-2023.pdf?p=1681689600084
+2025-05-22 02:13:24,159 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-17-04-2023.pdf?p=1681689600084
+2025-05-22 02:13:24,160 - P17020 - INFO - Após processar URL 7 Uso de memória: 127.76 MB
+2025-05-22 02:13:24,160 - P17020 - INFO - Processando URL 8/21: https://www.pge.rs.gov.br/upload/arquivos/202101/29090411-doe-2021-01-29.pdf
+2025-05-22 02:13:24,161 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.pge.rs.gov.br/upload/arquivos/202101/29090411-doe-2021-01-29.pdf
+2025-05-22 02:13:24,161 - P17020 - INFO - Após processar URL 8 Uso de memória: 127.76 MB
+2025-05-22 02:13:24,161 - P17020 - INFO - Processando URL 9/21: https://www.dioems.com.br/edicoes/01-00-0/00001577/1577-b0f9ab970f3990f0e47ade3ef86c54fe.pdf
+2025-05-22 02:13:24,162 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.dioems.com.br/edicoes/01-00-0/00001577/1577-b0f9ab970f3990f0e47ade3ef86c54fe.pdf
+2025-05-22 02:13:24,162 - P17020 - INFO - Após processar URL 9 Uso de memória: 127.76 MB
+2025-05-22 02:13:24,162 - P17020 - INFO - Processando URL 10/21: https://consultasaj.tjam.jus.br/cdje/downloadCaderno.do?dtDiario=08/04/2010&cdCaderno=2
+2025-05-22 02:13:26,474 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c341442409dede137f7123a8f0910ea6.html
+2025-05-22 02:13:26,524 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:13:26,525 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:26,525 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:13:26,525 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:26,525 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:26,525 - P17020 - INFO - Após processar URL 10 Uso de memória: 128.92 MB
+2025-05-22 02:13:26,526 - P17020 - INFO - Processando URL 11/21: https://sistemadje.tjmt.jus.br/publicacoes/10497-2019%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 02:13:26,526 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/10497-2019%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 02:13:26,526 - P17020 - INFO - Após processar URL 11 Uso de memória: 127.79 MB
+2025-05-22 02:13:26,526 - P17020 - INFO - Processando URL 12/21: https://consultasaj.tjam.jus.br/cdje/downloadCaderno.do?dtDiario=22/06/2009&cdCaderno=2
+2025-05-22 02:13:28,731 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f2d071ec80da4d474bb9b10a28c993f3.html
+2025-05-22 02:13:28,785 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:13:28,785 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:28,786 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:13:28,786 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:28,786 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:28,786 - P17020 - INFO - Após processar URL 12 Uso de memória: 128.92 MB
+2025-05-22 02:13:28,786 - P17020 - INFO - Processando URL 13/21: https://www.acessomedico.com.br/anunciopessoa/17575/info/rogerio-andrade-mulinari.html
+2025-05-22 02:13:31,871 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a042047bf55c6a266949380ae18b6b97.html
+2025-05-22 02:13:31,941 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:13:31,941 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:31,941 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:13:31,941 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:31,941 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:31,942 - P17020 - INFO - Após processar URL 13 Uso de memória: 127.81 MB
+2025-05-22 02:13:31,942 - P17020 - INFO - Processando URL 14/21: https://www.intermedicos.com.br/nefrologistas-em-curitiba/rogerio-andrade-mulinari
+2025-05-22 02:13:36,660 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5e1ef5bea5bd4fe8ed4eff1538be9208.html
+2025-05-22 02:13:36,676 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:13:36,677 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:13:36,678 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:13:36,678 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:36,678 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:36,678 - P17020 - INFO - Após processar URL 14 Uso de memória: 127.81 MB
+2025-05-22 02:13:36,678 - P17020 - INFO - Processando URL 15/21: https://www.consultasocio.com/q/sa/rogerio-andrade-mulinari/
+2025-05-22 02:13:41,354 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2153799eb097fdefe4ace5f88e6556c4.html
+2025-05-22 02:13:41,359 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:13:41,359 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:41,360 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:13:41,360 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 02:13:41,360 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:13:41,360 - P17020 - INFO - Após processar URL 15 Uso de memória: 127.81 MB
+2025-05-22 02:13:41,360 - P17020 - INFO - Processando URL 16/21: https://clinica.work/especialista/rogerio-andrade-mulinari-clinico-geral-curitiba-pr
+2025-05-22 02:13:45,482 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\cfe93c5f499223a2e2000612e7c2c32f.html
+2025-05-22 02:13:45,504 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:13:45,504 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:45,505 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:13:45,506 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:45,507 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:13:45,508 - P17020 - INFO - Após processar URL 16 Uso de memória: 128.96 MB
+2025-05-22 02:13:45,508 - P17020 - INFO - Processando URL 17/21: https://www.escavador.com/sobre/1137516/rogerio-andrade-mulinari
+2025-05-22 02:13:49,524 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4d3f78914252c395621ed0f4d8d19069.html
+2025-05-22 02:13:49,539 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:13:49,540 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:13:49,540 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:13:49,540 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:49,540 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:49,540 - P17020 - INFO - Após processar URL 17 Uso de memória: 128.98 MB
+2025-05-22 02:13:49,540 - P17020 - INFO - Processando URL 18/21: https://sistemadje.tjmt.jus.br/publicacoes/10604-2019%20C8%20Comarcas%20-%20Entr%C3%A2ncia%20Especial%20-%20Cuiab%C3%A1.pdf
+2025-05-22 02:13:49,540 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/10604-2019%20C8%20Comarcas%20-%20Entr%C3%A2ncia%20Especial%20-%20Cuiab%C3%A1.pdf
+2025-05-22 02:13:49,541 - P17020 - INFO - Após processar URL 18 Uso de memória: 128.98 MB
+2025-05-22 02:13:49,541 - P17020 - INFO - Processando URL 19/21: https://www.doctoralia.com.br/rogerio-andrade-mulinari/medico-clinico-geral/curitiba
+2025-05-22 02:13:49,541 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/rogerio-andrade-mulinari/medico-clinico-geral/curitiba
+2025-05-22 02:13:49,542 - P17020 - INFO - Após processar URL 19 Uso de memória: 128.98 MB
+2025-05-22 02:13:49,542 - P17020 - INFO - Processando URL 20/21: https://sistemadje.tjmt.jus.br/publicacoes/10213-2018%20C7%20Comarcas%20-%201%C2%AA%202%C2%AA%20e%203%C2%AA%20Entr%C3%A2ncia.pdf
+2025-05-22 02:13:49,543 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/10213-2018%20C7%20Comarcas%20-%201%C2%AA%202%C2%AA%20e%203%C2%AA%20Entr%C3%A2ncia.pdf
+2025-05-22 02:13:49,543 - P17020 - INFO - Após processar URL 20 Uso de memória: 128.98 MB
+2025-05-22 02:13:49,544 - P17020 - INFO - Processando URL 21/21: https://www.redescredenciadas.com.br/perfil/rogerio-andrade-mulinari-pr-6240
+2025-05-22 02:13:55,169 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\33b1bd0f7e7000956c3e0e0fcac323c9.html
+2025-05-22 02:13:55,175 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:13:55,176 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:13:55,176 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:13:55,176 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:13:55,176 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:13:55,177 - P17020 - INFO - Após processar URL 21 Uso de memória: 128.98 MB
+2025-05-22 02:13:55,177 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:13:55,177 - P17020 - INFO - Ranked address: 8 items
+2025-05-22 02:13:55,178 - P17020 - INFO - Ranked phone: 3 items
+2025-05-22 02:13:55,178 - P17020 - INFO - Ranked email: 2 items
+2025-05-22 02:13:55,178 - P17020 - INFO - Ranked complement: 1 items
+2025-05-22 02:13:55,179 - P17020 - INFO - Ranked cep: 6 items
+2025-05-22 02:13:55,179 - P17020 - INFO - Após agregação Uso de memória: 128.98 MB
+2025-05-22 02:13:55,179 - P17020 - INFO - Validando endereço: ['Rua Victório Viezzer, 84', 'Avenida Do Batel, 1898', 'Rua General Carneiro, 181']
+2025-05-22 02:13:55,179 - P17020 - INFO - Endereço validado: Rua Victório Viezzer, 84
+2025-05-22 02:13:55,180 - P17020 - INFO - Limpando texto extenso para campo address: Rua Victório Viezzer, 84...
+2025-05-22 02:13:55,180 - P17020 - INFO - Texto limpo: Rua Victório Viezzer, 84
+2025-05-22 02:13:55,180 - P17020 - INFO - Validando telefone: ['(41) 3240-4000', '(41) 3016-0344', '+554130160344']
+2025-05-22 02:13:55,181 - P17020 - INFO - Limpando texto extenso para campo phone: (41) 3240-4000...
+2025-05-22 02:13:55,181 - P17020 - INFO - Texto limpo: 41) 3240-4000
+2025-05-22 02:13:55,182 - P17020 - INFO - Telefone validado: 41) 3240-4000
+2025-05-22 02:13:55,182 - P17020 - INFO - Validando email: ['protocolo@crmpr.org.br', 'EVAC.IRPF@GMAL.COM']
+2025-05-22 02:13:55,182 - P17020 - INFO - Limpando texto extenso para campo email: protocolo@crmpr.org.br...
+2025-05-22 02:13:55,182 - P17020 - INFO - Texto limpo: protocolo@crmpr.org.br
+2025-05-22 02:13:55,182 - P17020 - INFO - Email validado: protocolo@crmpr.org.br
+2025-05-22 02:13:55,182 - P17020 - INFO - Validando complemento: ['Apt   1402                Andar 14                  C']
+2025-05-22 02:13:55,183 - P17020 - INFO - Limpando texto extenso para campo complement: Apt   1402                Andar 14                ...
+2025-05-22 02:13:55,183 - P17020 - INFO - Texto limpo: Apt 1402 Anda
+2025-05-22 02:13:55,183 - P17020 - INFO - Complemento validado: Apt 1402 Anda
+2025-05-22 02:13:55,183 - P17020 - INFO - Descobrindo cidade
+2025-05-22 02:13:55,183 - P17020 - INFO - Buscando cidade: Rua Victório Viezzer cidade PR
+2025-05-22 02:13:57,850 - P17020 - INFO - Cidade encontrada: Curitiba
+2025-05-22 02:13:57,858 - P17020 - INFO - Limpando texto extenso para campo city: Curitiba...
+2025-05-22 02:13:57,859 - P17020 - INFO - Texto limpo: Curitiba
+2025-05-22 02:13:57,860 - P17020 - INFO - Cidade descoberta: Curitiba
+2025-05-22 02:13:57,861 - P17020 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 02:13:57,865 - P17020 - INFO - Iniciando busca de CEP em cascata para: Rua Victório Viezzer, Curitiba, PR
+2025-05-22 02:13:57,867 - P17020 - INFO - Método 1: ViaCEP API
+2025-05-22 02:13:57,868 - P17020 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/PR/curitiba/rua%20victorio%20viezzer/json/
+2025-05-22 02:13:58,589 - P17020 - INFO - Dados encontrados no ViaCEP: {'cep': '80810-340', 'logradouro': 'Rua Victório Viezzer', 'complemento': '', 'unidade': '', 'bairro': 'Vista Alegre', 'localidade': 'Curitiba', 'uf': 'PR', 'estado': 'Paraná', 'regiao': 'Sul', 'ibge': '4106902', 'gia': '', 'ddd': '41', 'siafi': '7535'}
+2025-05-22 02:13:58,591 - P17020 - INFO - CEP encontrado via ViaCEP: 80810-340
+2025-05-22 02:13:58,592 - P17020 - INFO - Dados de CEP encontrados: {'cep': '80810-340', 'logradouro': 'Rua Victório Viezzer', 'complemento': '', 'unidade': '', 'bairro': 'Vista Alegre', 'localidade': 'Curitiba', 'uf': 'PR', 'estado': 'Paraná', 'regiao': 'Sul', 'ibge': '4106902', 'gia': '', 'ddd': '41', 'siafi': '7535'}
+2025-05-22 02:13:58,592 - P17020 - INFO - Limpando texto extenso para campo bairro: Vista Alegre...
+2025-05-22 02:13:58,592 - P17020 - INFO - Texto limpo: Vista Alegre
+2025-05-22 02:13:58,592 - P17020 - INFO - Limpando texto extenso para campo city: Curitiba...
+2025-05-22 02:13:58,592 - P17020 - INFO - Texto limpo: Curitiba
+2025-05-22 02:13:58,592 - P17020 - INFO - Limpando texto extenso para campo state: PR...
+2025-05-22 02:13:58,593 - P17020 - INFO - Texto limpo: PR
+2025-05-22 02:13:58,593 - P17020 - INFO - Tempo de execução de processamento completo do médico: 63.19 segundos
+2025-05-22 02:13:58,593 - P17020 - INFO - Resultado processado: {'Hash': 'e52c8092cb0c0e2a0c73052bbbe7431edb2ae3b48c67f1ec0446748a406f77d0', 'CRM': '6240', 'UF': 'PR', 'Firstname': 'Rogerio', 'LastName': 'Andrade Mulinari', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Victório Viezzer, 84', 'Address A1': 'Rua Victório Viezzer', 'Numero A1': '84', 'Complement A1': 'Apt 1402 Anda', 'Bairro A1': 'Vista Alegre', 'postal code A1': '80810-340', 'City A1': 'Curitiba', 'State A1': 'PR', 'Phone A1': '41) 3240-4000', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'protocolo@crmpr.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:13:58,594 - P17020 - INFO - Progresso: 20.2%
+2025-05-22 02:13:58,594 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 02:13:58,671 - P17020 - INFO - Após coleta de lixo Uso de memória: 121.10 MB
+2025-05-22 02:13:58,671 - P17020 - INFO - Tempo de execução de processamento do médico 1: 64.59 segundos
+2025-05-22 02:13:58,671 - P17020 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 02:13:58,672 - P17020 - INFO - Nome: ELIZABETE MARIA DE CASTRO MONTORO
+2025-05-22 02:13:58,672 - P17020 - INFO - Início do processamento Uso de memória: 121.10 MB
+2025-05-22 02:13:58,672 - P17020 - INFO - Iniciando busca para: ELIZABETE MARIA DE CASTRO MONTORO CRM 9091 PR telefone e-mail endereço
+2025-05-22 02:13:59,162 - P17020 - INFO - SearX results: 8 URLs
+2025-05-22 02:13:59,163 - P17020 - INFO - Após SearX Uso de memória: 121.10 MB
+2025-05-22 02:14:01,782 - P17020 - INFO - Google results: 10 URLs
+2025-05-22 02:14:01,782 - P17020 - INFO - Após Google Uso de memória: 123.77 MB
+2025-05-22 02:14:04,268 - P17020 - INFO - Bing results: 12 URLs
+2025-05-22 02:14:04,269 - P17020 - INFO - Após Bing Uso de memória: 126.04 MB
+2025-05-22 02:14:04,269 - P17020 - INFO - Total de URLs únicas: 24
+2025-05-22 02:14:04,269 - P17020 - INFO - Processando URL 1/24: https://issuu.com/panrotas/docs/2013-07-484
+2025-05-22 02:14:10,580 - P17020 - WARNING - Página muito grande (5.08MB), truncando
+2025-05-22 02:14:10,591 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\faa83fee02a5fccfbca28f1324ccfbcf.html
+2025-05-22 02:14:12,156 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:14:12,156 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:14:12,156 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:14:12,156 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:12,156 - P17020 - INFO - Candidates cep: 4 items
+2025-05-22 02:14:12,157 - P17020 - INFO - Após processar URL 1 Uso de memória: 133.55 MB
+2025-05-22 02:14:12,157 - P17020 - INFO - Processando URL 2/24: https://www.detran.pr.gov.br/arquivos/File/Credenciamento/Clinicas%20cadastradas/2015/11_REL_CRED_11_06_2015.pdf
+2025-05-22 02:14:12,157 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.detran.pr.gov.br/arquivos/File/Credenciamento/Clinicas%20cadastradas/2015/11_REL_CRED_11_06_2015.pdf
+2025-05-22 02:14:12,158 - P17020 - INFO - Após processar URL 2 Uso de memória: 127.55 MB
+2025-05-22 02:14:12,158 - P17020 - INFO - Processando URL 3/24: https://cadastroempresa.com.br/cnpj/13.465.805/0001-52-elizabete-maria-de-castro-montoro-clinica-medica-e-psicologica-ltda
+2025-05-22 02:14:15,281 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6fb0b541bc6c01ba104900b865e6208c.html
+2025-05-22 02:14:15,305 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:14:15,305 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:14:15,305 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:14:15,305 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:15,305 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 02:14:15,306 - P17020 - INFO - Após processar URL 3 Uso de memória: 127.71 MB
+2025-05-22 02:14:15,306 - P17020 - INFO - Processando URL 4/24: https://www.gov.br/mme/pt-br/arquivos/do-08-04-2013-s3.pdf
+2025-05-22 02:14:15,306 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.gov.br/mme/pt-br/arquivos/do-08-04-2013-s3.pdf
+2025-05-22 02:14:15,306 - P17020 - INFO - Após processar URL 4 Uso de memória: 127.71 MB
+2025-05-22 02:14:15,306 - P17020 - INFO - Processando URL 5/24: https://sistemadje.tjmt.jus.br/publicacoes/9371-2014.pdf
+2025-05-22 02:14:15,306 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/9371-2014.pdf
+2025-05-22 02:14:15,307 - P17020 - INFO - Após processar URL 5 Uso de memória: 127.71 MB
+2025-05-22 02:14:15,307 - P17020 - INFO - Processando URL 6/24: https://portal.datalegis.net/resenha.php?periodo=2022-06-11
+2025-05-22 02:14:19,336 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3f3d12ea851774b88e5fde9a77e320aa.html
+2025-05-22 02:14:20,071 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 02:14:20,071 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:14:20,072 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:14:20,072 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 02:14:20,072 - P17020 - INFO - Candidates cep: 9 items
+2025-05-22 02:14:20,072 - P17020 - INFO - Após processar URL 6 Uso de memória: 130.39 MB
+2025-05-22 02:14:20,072 - P17020 - INFO - Processando URL 7/24: https://cnpj.biz/13465805000152
+2025-05-22 02:14:24,522 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\76988332de062cdfa055c01a118e3b1a.html
+2025-05-22 02:14:24,538 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 02:14:24,538 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:14:24,538 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:14:24,539 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:24,539 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 02:14:24,539 - P17020 - INFO - Após processar URL 7 Uso de memória: 127.96 MB
+2025-05-22 02:14:24,539 - P17020 - INFO - Processando URL 8/24: https://consultacrm.com.br/
+2025-05-22 02:14:27,886 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:14:27,897 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:14:27,898 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:14:27,898 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:14:27,898 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:27,898 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:14:27,898 - P17020 - INFO - Após processar URL 8 Uso de memória: 128.27 MB
+2025-05-22 02:14:27,899 - P17020 - INFO - Processando URL 9/24: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 02:14:27,899 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 02:14:27,899 - P17020 - INFO - Após processar URL 9 Uso de memória: 128.27 MB
+2025-05-22 02:14:27,899 - P17020 - INFO - Processando URL 10/24: https://www.solutudo.com.br/empresas/pr/curitiba/psicologia/elizabete-maria-de-castro-montoro-clinica-medica-e-psicologica-ltda-23720369
+2025-05-22 02:14:32,396 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\08f119d122121b6f9f0730912e9c27c7.html
+2025-05-22 02:14:32,437 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:14:32,437 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:14:32,437 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:14:32,438 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:32,438 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:14:32,438 - P17020 - INFO - Após processar URL 10 Uso de memória: 128.29 MB
+2025-05-22 02:14:32,438 - P17020 - INFO - Processando URL 11/24: https://www.econodata.com.br/consulta-empresa/13465805000152-ELIZABETE-MARIA-DE-CASTRO-MONTORO-CLINICA-MEDICA-E-PSICOLOGICA-LTDA
+2025-05-22 02:14:37,580 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e920b444daaf0b12bb047219abd01998.html
+2025-05-22 02:14:37,867 - P17020 - INFO - Candidates address: 24 items
+2025-05-22 02:14:37,867 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:14:37,868 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:14:37,868 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:37,868 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:14:37,868 - P17020 - INFO - Após processar URL 11 Uso de memória: 129.18 MB
+2025-05-22 02:14:37,868 - P17020 - INFO - Processando URL 12/24: https://cnpj.biz/13465816000132
+2025-05-22 02:14:40,104 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\222bd19bcade73a7bbd56ec1d8d323f0.html
+2025-05-22 02:14:40,109 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:14:40,111 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:14:40,112 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:14:40,112 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:40,113 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:14:40,116 - P17020 - INFO - Após processar URL 12 Uso de memória: 128.38 MB
+2025-05-22 02:14:40,119 - P17020 - INFO - Processando URL 13/24: https://www.detran.pr.gov.br/sites/default/arquivos_restritos/files/documento/2022-12/1ta166_2021.pdf
+2025-05-22 02:14:40,120 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.detran.pr.gov.br/sites/default/arquivos_restritos/files/documento/2022-12/1ta166_2021.pdf
+2025-05-22 02:14:40,124 - P17020 - INFO - Após processar URL 13 Uso de memória: 128.38 MB
+2025-05-22 02:14:40,124 - P17020 - INFO - Processando URL 14/24: https://www.classemedica.com.br/medico/94273-elizabete-maria-de-castro-montoro.htm
+2025-05-22 02:14:46,545 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b8347ce99d58f5961749ab2f91cd76f2.html
+2025-05-22 02:14:46,588 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:14:46,592 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:14:46,595 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:14:46,596 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:46,597 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:14:46,598 - P17020 - INFO - Após processar URL 14 Uso de memória: 128.38 MB
+2025-05-22 02:14:46,598 - P17020 - INFO - Processando URL 15/24: https://www.defensoria.sp.gov.br/web/guest/transparencia/portal-da-transparencia/defensoria-publica-no-diario-oficial?p_p_id=br_def_sp_defensoria_diariooficial_web_DiarioOficialPortlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=%2Ffiles%2Fpdf_export&p_p_cacheability=cacheLevelPage&_br_def_sp_defensoria_diariooficial_web_DiarioOficialPortlet_articleId=4774857&_br_def_sp_defensoria_diariooficial_web_DiarioOficialPortlet_cur=16&_br_def_sp_defensoria_diariooficial_web_DiarioOficialPortlet_delta=20&_br_def_sp_defensoria_diariooficial_web_DiarioOficialPortlet_resetCur=false
+2025-05-22 02:14:48,824 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\922b1262110032405f29b27e371237f0.html
+2025-05-22 02:14:48,831 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:14:48,832 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:14:48,832 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:14:48,832 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:48,832 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:14:48,832 - P17020 - INFO - Após processar URL 15 Uso de memória: 128.42 MB
+2025-05-22 02:14:48,833 - P17020 - INFO - Processando URL 16/24: https://sistemadje.tjmt.jus.br/publicacoes/9957-2017%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 02:14:48,833 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/9957-2017%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 02:14:48,833 - P17020 - INFO - Após processar URL 16 Uso de memória: 128.42 MB
+2025-05-22 02:14:48,833 - P17020 - INFO - Processando URL 17/24: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2013/dou3_2013_04_08.pdf
+2025-05-22 02:14:48,833 - P17020 - INFO - Ignorando URL de arquivo não-HTML: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2013/dou3_2013_04_08.pdf
+2025-05-22 02:14:48,833 - P17020 - INFO - Após processar URL 17 Uso de memória: 128.42 MB
+2025-05-22 02:14:48,833 - P17020 - INFO - Processando URL 18/24: https://cnpj.biz/13409000000191
+2025-05-22 02:14:50,951 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f49c0465704db0465db2ecf5369e0c17.html
+2025-05-22 02:14:50,953 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:14:50,953 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:14:50,953 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:14:50,954 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:50,954 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:14:50,954 - P17020 - INFO - Após processar URL 18 Uso de memória: 128.44 MB
+2025-05-22 02:14:50,954 - P17020 - INFO - Processando URL 19/24: https://cnpjrocks.com/cnpj/13465805000152/elizabete-maria-de-castro-montoro-clinica-medica-e-psicologica.html
+2025-05-22 02:14:53,681 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4f284e9890ed6ac4cb02721b76f8dfe0.html
+2025-05-22 02:14:53,691 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:14:53,691 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:14:53,691 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:14:53,692 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:14:53,692 - P17020 - INFO - Candidates cep: 9 items
+2025-05-22 02:14:53,693 - P17020 - INFO - Após processar URL 19 Uso de memória: 128.53 MB
+2025-05-22 02:14:53,693 - P17020 - INFO - Processando URL 20/24: http://cnpj.info/Elizabete-Maria-de-Castro-Montoro-Clinica-Medica-e-Psicologica
+2025-05-22 02:14:56,668 - P17020 - ERROR - Erro ao baixar HTML de http://cnpj.info/Elizabete-Maria-de-Castro-Montoro-Clinica-Medica-e-Psicologica: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7574059F4]
+	(No symbol) [0x00007FF7573F6789]
+	(No symbol) [0x00007FF7573F84F8]
+	(No symbol) [0x00007FF7573F6A96]
+	(No symbol) [0x00007FF7573F6516]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F465C]
+	(No symbol) [0x00007FF75740CF3A]
+	(No symbol) [0x00007FF7574B013E]
+	(No symbol) [0x00007FF75748737A]
+	(No symbol) [0x00007FF7574AF39C]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 02:14:56,670 - P17020 - INFO - Após processar URL 20 Uso de memória: 128.53 MB
+2025-05-22 02:14:56,670 - P17020 - INFO - Processando URL 21/24: https://portal.datalegis.net/resenha.php?periodo=2022-06-14
+2025-05-22 02:15:01,002 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\80ff06e291fa555d1011e39fb2ef702e.html
+2025-05-22 02:15:01,679 - P17020 - INFO - Candidates address: 3 items
+2025-05-22 02:15:01,680 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:15:01,680 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:15:01,680 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 02:15:01,680 - P17020 - INFO - Candidates cep: 11 items
+2025-05-22 02:15:01,681 - P17020 - INFO - Após processar URL 21 Uso de memória: 131.26 MB
+2025-05-22 02:15:01,681 - P17020 - INFO - Processando URL 22/24: https://www.doctoralia.com.br/elizabete-maria-de-castro-montoro/psicologo/curitiba
+2025-05-22 02:15:01,681 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/elizabete-maria-de-castro-montoro/psicologo/curitiba
+2025-05-22 02:15:01,681 - P17020 - INFO - Após processar URL 22 Uso de memória: 128.56 MB
+2025-05-22 02:15:01,681 - P17020 - INFO - Processando URL 23/24: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x1081169629844088080&market=pt-BR&src=SERPGB
+2025-05-22 02:15:06,002 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\146256ee8073a2b96a88a221d669f99f.html
+2025-05-22 02:15:06,028 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:15:06,031 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:15:06,032 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:15:06,032 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:15:06,033 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:15:06,034 - P17020 - INFO - Após processar URL 23 Uso de memória: 128.56 MB
+2025-05-22 02:15:06,035 - P17020 - INFO - Processando URL 24/24: https://www.ime.usp.br/~yoshi/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 02:15:06,035 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 02:15:06,036 - P17020 - INFO - Após processar URL 24 Uso de memória: 128.56 MB
+2025-05-22 02:15:06,037 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:15:06,037 - P17020 - INFO - Ranked address: 30 items
+2025-05-22 02:15:06,038 - P17020 - INFO - Ranked phone: 4 items
+2025-05-22 02:15:06,038 - P17020 - INFO - Ranked email: 2 items
+2025-05-22 02:15:06,039 - P17020 - INFO - Ranked complement: 2 items
+2025-05-22 02:15:06,041 - P17020 - INFO - Ranked cep: 28 items
+2025-05-22 02:15:06,042 - P17020 - INFO - Após agregação Uso de memória: 128.56 MB
+2025-05-22 02:15:06,043 - P17020 - INFO - Validando endereço: ['Rua Fidelino Figueiredo, 19', 'R.035069-9.04', 'Rua Santo Expedito - Rodovia BR-210']
+2025-05-22 02:15:06,043 - P17020 - INFO - Endereço validado: Rua Fidelino Figueiredo, 19
+2025-05-22 02:15:06,044 - P17020 - INFO - Limpando texto extenso para campo address: Rua Fidelino Figueiredo, 19...
+2025-05-22 02:15:06,044 - P17020 - INFO - Texto limpo: Rua Fidelino Figueiredo, 19
+2025-05-22 02:15:06,045 - P17020 - INFO - Validando telefone: ['(41) 3079-8288', '(41) 99746-4429', '(41) 9746-4429']
+2025-05-22 02:15:06,045 - P17020 - INFO - Limpando texto extenso para campo phone: (41) 3079-8288...
+2025-05-22 02:15:06,045 - P17020 - INFO - Texto limpo: 41) 3079-8288
+2025-05-22 02:15:06,046 - P17020 - INFO - Telefone validado: 41) 3079-8288
+2025-05-22 02:15:06,046 - P17020 - INFO - Validando email: ['clinica.elizabete@gmail.com', 'e@gmail.com']
+2025-05-22 02:15:06,046 - P17020 - INFO - Limpando texto extenso para campo email: clinica.elizabete@gmail.com...
+2025-05-22 02:15:06,046 - P17020 - INFO - Texto limpo: clinica.elizabete@gmail.com
+2025-05-22 02:15:06,046 - P17020 - INFO - Email validado: clinica.elizabete@gmail.com
+2025-05-22 02:15:06,047 - P17020 - INFO - Validando complemento: ['Bloco de Manutenção das Ações e Serviços Públicos de Sa', 'Conjunto integrado de locação de equipamentos automatizado']
+2025-05-22 02:15:06,047 - P17020 - INFO - Limpando texto extenso para campo complement: Bloco de Manutenção das Ações e Serviços Públicos ...
+2025-05-22 02:15:06,048 - P17020 - INFO - Texto limpo: Bloco de Manutenção das Ações
+2025-05-22 02:15:06,048 - P17020 - INFO - Complemento validado: Bloco de Manutenção das Ações
+2025-05-22 02:15:06,048 - P17020 - INFO - Descobrindo cidade
+2025-05-22 02:15:06,049 - P17020 - INFO - Buscando cidade: Rua Fidelino Figueiredo cidade PR
+2025-05-22 02:15:08,336 - P17020 - INFO - Cidade encontrada: Curitiba
+2025-05-22 02:15:08,337 - P17020 - INFO - Limpando texto extenso para campo city: Curitiba...
+2025-05-22 02:15:08,337 - P17020 - INFO - Texto limpo: Curitiba
+2025-05-22 02:15:08,337 - P17020 - INFO - Cidade descoberta: Curitiba
+2025-05-22 02:15:08,337 - P17020 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 02:15:08,338 - P17020 - INFO - Iniciando busca de CEP em cascata para: Rua Fidelino Figueiredo, Curitiba, PR
+2025-05-22 02:15:08,338 - P17020 - INFO - Método 1: ViaCEP API
+2025-05-22 02:15:08,339 - P17020 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/PR/curitiba/rua%20fidelino%20figueiredo/json/
+2025-05-22 02:15:09,004 - P17020 - INFO - Dados encontrados no ViaCEP: {'cep': '81330-340', 'logradouro': 'Rua Fidelino Figueiredo', 'complemento': '', 'unidade': '', 'bairro': 'Fazendinha', 'localidade': 'Curitiba', 'uf': 'PR', 'estado': 'Paraná', 'regiao': 'Sul', 'ibge': '4106902', 'gia': '', 'ddd': '41', 'siafi': '7535'}
+2025-05-22 02:15:09,006 - P17020 - INFO - CEP encontrado via ViaCEP: 81330-340
+2025-05-22 02:15:09,006 - P17020 - INFO - Dados de CEP encontrados: {'cep': '81330-340', 'logradouro': 'Rua Fidelino Figueiredo', 'complemento': '', 'unidade': '', 'bairro': 'Fazendinha', 'localidade': 'Curitiba', 'uf': 'PR', 'estado': 'Paraná', 'regiao': 'Sul', 'ibge': '4106902', 'gia': '', 'ddd': '41', 'siafi': '7535'}
+2025-05-22 02:15:09,006 - P17020 - INFO - Limpando texto extenso para campo bairro: Fazendinha...
+2025-05-22 02:15:09,006 - P17020 - INFO - Texto limpo: Fazendinha
+2025-05-22 02:15:09,006 - P17020 - INFO - Limpando texto extenso para campo city: Curitiba...
+2025-05-22 02:15:09,007 - P17020 - INFO - Texto limpo: Curitiba
+2025-05-22 02:15:09,007 - P17020 - INFO - Limpando texto extenso para campo state: PR...
+2025-05-22 02:15:09,007 - P17020 - INFO - Texto limpo: PR
+2025-05-22 02:15:09,007 - P17020 - INFO - Tempo de execução de processamento completo do médico: 70.34 segundos
+2025-05-22 02:15:09,007 - P17020 - INFO - Resultado processado: {'Hash': '87f2acbcd5ea2fdda2ac559547cbba3e7213ec7ccdb27c744f568ab9f040b6a7', 'CRM': '9091', 'UF': 'PR', 'Firstname': 'ELIZABETE', 'LastName': 'MARIA DE CASTRO MONTORO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Fidelino Figueiredo, 19', 'Address A1': 'Rua Fidelino Figueiredo', 'Numero A1': '19', 'Complement A1': 'Bloco de Manutenção das Ações', 'Bairro A1': 'Fazendinha', 'postal code A1': '81330-340', 'City A1': 'Curitiba', 'State A1': 'PR', 'Phone A1': '41) 3079-8288', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'clinica.elizabete@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:15:09,008 - P17020 - INFO - Progresso: 20.7%
+2025-05-22 02:15:09,008 - P17020 - INFO - Tempo de execução de processamento do médico 2: 70.34 segundos
+2025-05-22 02:15:09,008 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 02:15:09,009 - P17020 - INFO - Nome: MARCOS CORREA SANDMANN
+2025-05-22 02:15:09,009 - P17020 - INFO - Início do processamento Uso de memória: 127.54 MB
+2025-05-22 02:15:09,009 - P17020 - INFO - Iniciando busca para: MARCOS CORREA SANDMANN CRM 12302 PR telefone e-mail endereço
+2025-05-22 02:15:09,402 - P17020 - INFO - SearX results: 2 URLs
+2025-05-22 02:15:09,402 - P17020 - INFO - Após SearX Uso de memória: 127.54 MB
+2025-05-22 02:15:12,013 - P17020 - INFO - Google results: 5 URLs
+2025-05-22 02:15:12,013 - P17020 - INFO - Após Google Uso de memória: 127.81 MB
+2025-05-22 02:15:14,614 - P17020 - INFO - Bing results: 14 URLs
+2025-05-22 02:15:14,614 - P17020 - INFO - Após Bing Uso de memória: 128.63 MB
+2025-05-22 02:15:14,614 - P17020 - INFO - Total de URLs únicas: 16
+2025-05-22 02:15:14,614 - P17020 - INFO - Processando URL 1/16: https://consultacrm.com.br/
+2025-05-22 02:15:17,469 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:15:17,482 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:15:17,483 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:15:17,483 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:15:17,484 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:15:17,484 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:15:17,484 - P17020 - INFO - Após processar URL 1 Uso de memória: 128.72 MB
+2025-05-22 02:15:17,484 - P17020 - INFO - Processando URL 2/16: https://www.acessomedico.com.br/neurologista/curitiba
+2025-05-22 02:15:21,804 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d0588a2d5c373d268eac61437d69f412.html
+2025-05-22 02:15:21,893 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:15:21,894 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:15:21,895 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:15:21,895 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:15:21,895 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:15:21,896 - P17020 - INFO - Após processar URL 2 Uso de memória: 128.74 MB
+2025-05-22 02:15:21,897 - P17020 - INFO - Processando URL 3/16: https://www.acessomedico.com.br/431/especialidade/estimulacao-cerebral-profunda/curitiba
+2025-05-22 02:15:25,670 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\93eae6c96add58f555c84c9a4657ec31.html
+2025-05-22 02:15:25,745 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:15:25,745 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:15:25,746 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:15:25,746 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:15:25,746 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:15:25,746 - P17020 - INFO - Após processar URL 3 Uso de memória: 128.76 MB
+2025-05-22 02:15:25,746 - P17020 - INFO - Processando URL 4/16: https://www.acessomedico.com.br/438/especialidade/doencas-neuromusculares/curitiba
+2025-05-22 02:15:28,725 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\89b7e4fd9623b448d8d6cdb6dc621b25.html
+2025-05-22 02:15:28,812 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:15:28,812 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:15:28,813 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:15:28,813 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:15:28,813 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:15:28,813 - P17020 - INFO - Após processar URL 4 Uso de memória: 128.76 MB
+2025-05-22 02:15:28,813 - P17020 - INFO - Processando URL 5/16: https://www.helpsaude.com/Marcos-Correa-Sandmann.PR
+2025-05-22 02:15:36,443 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\75a3638b0cc55869d21b5f6fb619c78f.html
+2025-05-22 02:15:36,461 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:15:36,461 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:15:36,462 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:15:36,462 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:15:36,462 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:15:36,462 - P17020 - INFO - Após processar URL 5 Uso de memória: 128.77 MB
+2025-05-22 02:15:36,462 - P17020 - INFO - Processando URL 6/16: https://www.classemedica.com.br/medico/220300-marcos-correa-sandmann.htm
+2025-05-22 02:15:40,865 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\405d239bd5993ee24b53823c67679c4c.html
+2025-05-22 02:15:40,896 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:15:40,896 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:15:40,896 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:15:40,897 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:15:40,897 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:15:40,897 - P17020 - INFO - Após processar URL 6 Uso de memória: 129.59 MB
+2025-05-22 02:15:40,897 - P17020 - INFO - Processando URL 7/16: https://sistemadje.tjmt.jus.br/publicacoes/10702-2020%20C7%20Comarcas%20-%201%C2%AA%202%C2%AA%20e%203%C2%AA%20Entr%C3%A2ncia.pdf
+2025-05-22 02:15:40,897 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/10702-2020%20C7%20Comarcas%20-%201%C2%AA%202%C2%AA%20e%203%C2%AA%20Entr%C3%A2ncia.pdf
+2025-05-22 02:15:40,898 - P17020 - INFO - Após processar URL 7 Uso de memória: 129.59 MB
+2025-05-22 02:15:40,898 - P17020 - INFO - Processando URL 8/16: https://www.doctoralia.com.br/marcos-correa-sandmann/neurologista/almirante-tamandare
+2025-05-22 02:15:40,898 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/marcos-correa-sandmann/neurologista/almirante-tamandare
+2025-05-22 02:15:40,898 - P17020 - INFO - Após processar URL 8 Uso de memória: 129.59 MB
+2025-05-22 02:15:40,898 - P17020 - INFO - Processando URL 9/16: https://www.maefeliz.com.br/item/dr-marcos-correa-sandmann/
+2025-05-22 02:15:48,067 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a7a0107cc65a64804754cfff87967242.html
+2025-05-22 02:15:48,112 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 02:15:48,112 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:15:48,112 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:15:48,112 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:15:48,113 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 02:15:48,113 - P17020 - INFO - Após processar URL 9 Uso de memória: 129.58 MB
+2025-05-22 02:15:48,113 - P17020 - INFO - Processando URL 10/16: https://www.clinicaulen.com/
+2025-05-22 02:15:50,912 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\8811782a6904aa4b8f6b113592d21169.html
+2025-05-22 02:15:50,928 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:15:50,928 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:15:50,928 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:15:50,928 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:15:50,929 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:15:50,929 - P17020 - INFO - Após processar URL 10 Uso de memória: 129.93 MB
+2025-05-22 02:15:50,929 - P17020 - INFO - Processando URL 11/16: https://www.doctuo.com.br/medicos/marcos-correa-sandmann
+2025-05-22 02:15:50,929 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctuo.com.br/medicos/marcos-correa-sandmann
+2025-05-22 02:15:50,929 - P17020 - INFO - Após processar URL 11 Uso de memória: 128.76 MB
+2025-05-22 02:15:50,929 - P17020 - INFO - Processando URL 12/16: http://www.lista102.com.br/anuncioPessoa/2434/mapa/Marcos-Correa-Sandmann-Curitiba-PR.html
+2025-05-22 02:15:54,828 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\fc0cc3ed90594e995e96c9d91161175b.html
+2025-05-22 02:15:54,833 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:15:54,834 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:15:54,834 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:15:54,834 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:15:54,835 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:15:54,835 - P17020 - INFO - Após processar URL 12 Uso de memória: 128.76 MB
+2025-05-22 02:15:54,835 - P17020 - INFO - Processando URL 13/16: https://www.acessomedico.com.br/anunciopessoa/2434/info/marcos-correa-sandmann.html
+2025-05-22 02:15:57,309 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\46f670fc82836a03171d594469dfbaf6.html
+2025-05-22 02:15:57,377 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:15:57,377 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:15:57,378 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:15:57,378 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:15:57,378 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:15:57,378 - P17020 - INFO - Após processar URL 13 Uso de memória: 128.76 MB
+2025-05-22 02:15:57,378 - P17020 - INFO - Processando URL 14/16: https://www.crmpr.org.br/atualiza/listar.php/1000
+2025-05-22 02:15:59,976 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ef9ecbfd4e4ebf12f11d844e151b4f0b.html
+2025-05-22 02:16:00,098 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:16:00,098 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:16:00,098 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:16:00,098 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:16:00,099 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:16:00,099 - P17020 - INFO - Após processar URL 14 Uso de memória: 128.76 MB
+2025-05-22 02:16:00,099 - P17020 - INFO - Processando URL 15/16: https://www.acessomedico.com.br/428/especialidade/neurogenetica/curitiba
+2025-05-22 02:16:03,175 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b189af06c965ee424838cbc7a1273a5e.html
+2025-05-22 02:16:03,471 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:16:03,474 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:16:03,475 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:16:03,476 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:16:03,477 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:16:03,477 - P17020 - INFO - Após processar URL 15 Uso de memória: 128.76 MB
+2025-05-22 02:16:03,478 - P17020 - INFO - Processando URL 16/16: https://clinimarc.com.br/especialistas/dra-fatima-correa-sandmann-afonso/
+2025-05-22 02:16:07,504 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\60a755a422b1f9b7eb4023e2f0d10a3d.html
+2025-05-22 02:16:07,528 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:16:07,530 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:16:07,530 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 02:16:07,531 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 02:16:07,531 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:16:07,531 - P17020 - INFO - Após processar URL 16 Uso de memória: 128.76 MB
+2025-05-22 02:16:07,531 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:16:07,532 - P17020 - INFO - Ranked address: 4 items
+2025-05-22 02:16:07,532 - P17020 - INFO - Ranked phone: 4 items
+2025-05-22 02:16:07,532 - P17020 - INFO - Ranked email: 3 items
+2025-05-22 02:16:07,533 - P17020 - INFO - Ranked complement: 2 items
+2025-05-22 02:16:07,533 - P17020 - INFO - Ranked cep: 5 items
+2025-05-22 02:16:07,533 - P17020 - INFO - Após agregação Uso de memória: 128.76 MB
+2025-05-22 02:16:07,534 - P17020 - INFO - Validando endereço: ['Rua dos Capuchinhos, 343', 'Rua dos Capuchinhos , 343', 'Rua Rio de Janeiro, 2006']
+2025-05-22 02:16:07,534 - P17020 - INFO - Endereço validado: Rua dos Capuchinhos, 343
+2025-05-22 02:16:07,534 - P17020 - INFO - Limpando texto extenso para campo address: Rua dos Capuchinhos, 343...
+2025-05-22 02:16:07,534 - P17020 - INFO - Texto limpo: Rua dos Capuchinhos, 343
+2025-05-22 02:16:07,534 - P17020 - INFO - Validando telefone: ['(41) 3339-7271', '(41) 3335-8117', '(41) 3240-4039']
+2025-05-22 02:16:07,535 - P17020 - INFO - Limpando texto extenso para campo phone: (41) 3339-7271...
+2025-05-22 02:16:07,535 - P17020 - INFO - Texto limpo: 41) 3339-7271
+2025-05-22 02:16:07,535 - P17020 - INFO - Telefone validado: 41) 3339-7271
+2025-05-22 02:16:07,537 - P17020 - INFO - Validando email: ['atualiza@crmpr.org.br', 'atendimento@clinimarc.com.br', 'mail@example.com']
+2025-05-22 02:16:07,538 - P17020 - INFO - Limpando texto extenso para campo email: atualiza@crmpr.org.br...
+2025-05-22 02:16:07,538 - P17020 - INFO - Texto limpo: atualiza@crmpr.org.br
+2025-05-22 02:16:07,539 - P17020 - INFO - Email validado: atualiza@crmpr.org.br
+2025-05-22 02:16:07,539 - P17020 - INFO - Validando complemento: ['Salazar ', 'Sala 314   ']
+2025-05-22 02:16:07,541 - P17020 - INFO - Limpando texto extenso para campo complement: Salazar ...
+2025-05-22 02:16:07,541 - P17020 - INFO - Texto limpo: Salazar
+2025-05-22 02:16:07,542 - P17020 - INFO - Complemento validado: Salazar
+2025-05-22 02:16:07,542 - P17020 - INFO - Descobrindo cidade
+2025-05-22 02:16:07,542 - P17020 - INFO - Buscando cidade: Rua dos Capuchinhos cidade PR
+2025-05-22 02:16:10,164 - P17020 - INFO - Cidade encontrada: Curitiba
+2025-05-22 02:16:10,164 - P17020 - INFO - Limpando texto extenso para campo city: Curitiba...
+2025-05-22 02:16:10,164 - P17020 - INFO - Texto limpo: Curitiba
+2025-05-22 02:16:10,164 - P17020 - INFO - Cidade descoberta: Curitiba
+2025-05-22 02:16:10,164 - P17020 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 02:16:10,165 - P17020 - INFO - Iniciando busca de CEP em cascata para: Rua dos Capuchinhos, Curitiba, PR
+2025-05-22 02:16:10,165 - P17020 - INFO - Método 1: ViaCEP API
+2025-05-22 02:16:10,165 - P17020 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/PR/curitiba/rua%20dos%20capuchinhos/json/
+2025-05-22 02:16:10,834 - P17020 - INFO - Dados encontrados no ViaCEP: {'cep': '80810-140', 'logradouro': 'Rua dos Capuchinhos', 'complemento': '', 'unidade': '', 'bairro': 'Mercês', 'localidade': 'Curitiba', 'uf': 'PR', 'estado': 'Paraná', 'regiao': 'Sul', 'ibge': '4106902', 'gia': '', 'ddd': '41', 'siafi': '7535'}
+2025-05-22 02:16:10,836 - P17020 - INFO - CEP encontrado via ViaCEP: 80810-140
+2025-05-22 02:16:10,837 - P17020 - INFO - Dados de CEP encontrados: {'cep': '80810-140', 'logradouro': 'Rua dos Capuchinhos', 'complemento': '', 'unidade': '', 'bairro': 'Mercês', 'localidade': 'Curitiba', 'uf': 'PR', 'estado': 'Paraná', 'regiao': 'Sul', 'ibge': '4106902', 'gia': '', 'ddd': '41', 'siafi': '7535'}
+2025-05-22 02:16:10,837 - P17020 - INFO - Limpando texto extenso para campo bairro: Mercês...
+2025-05-22 02:16:10,838 - P17020 - INFO - Texto limpo: Mercês
+2025-05-22 02:16:10,838 - P17020 - INFO - Limpando texto extenso para campo city: Curitiba...
+2025-05-22 02:16:10,838 - P17020 - INFO - Texto limpo: Curitiba
+2025-05-22 02:16:10,840 - P17020 - INFO - Limpando texto extenso para campo state: PR...
+2025-05-22 02:16:10,840 - P17020 - INFO - Texto limpo: PR
+2025-05-22 02:16:10,843 - P17020 - INFO - Tempo de execução de processamento completo do médico: 61.83 segundos
+2025-05-22 02:16:10,844 - P17020 - INFO - Resultado processado: {'Hash': '928b6f26138076023334bc3d7d00756901e87799567ca47b0b9d221e12b23f2a', 'CRM': '12302', 'UF': 'PR', 'Firstname': 'MARCOS', 'LastName': 'CORREA SANDMANN', 'Medical specialty': '', 'Endereco Completo A1': 'Rua dos Capuchinhos, 343', 'Address A1': 'Rua dos Capuchinhos', 'Numero A1': '343', 'Complement A1': 'Salazar', 'Bairro A1': 'Mercês', 'postal code A1': '80810-140', 'City A1': 'Curitiba', 'State A1': 'PR', 'Phone A1': '41) 3339-7271', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'atualiza@crmpr.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:16:10,844 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 02:16:10,845 - P17020 - INFO - Após salvar resultados Uso de memória: 127.02 MB
+2025-05-22 02:16:10,847 - P17020 - INFO - Progresso: 21.1%
+2025-05-22 02:16:10,850 - P17020 - INFO - Tempo de execução de processamento do médico 3: 61.84 segundos
+2025-05-22 02:16:10,850 - P17020 - INFO - Tempo de execução de processamento do lote completo: 196.77 segundos

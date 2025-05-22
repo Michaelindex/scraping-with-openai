@@ -1,0 +1,479 @@
+2025-05-22 04:32:21,634 - P17020 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 04:32:21,635 - P17020 - INFO - Nome: RODRIGO ROCHA RAMALHO
+2025-05-22 04:32:21,635 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 04:32:22,904 - P17020 - INFO - Após reiniciar driver Uso de memória: 129.57 MB
+2025-05-22 04:32:22,904 - P17020 - INFO - Início do processamento Uso de memória: 129.57 MB
+2025-05-22 04:32:22,904 - P17020 - INFO - Iniciando busca para: RODRIGO ROCHA RAMALHO CRM 1174193 RJ telefone e-mail endereço
+2025-05-22 04:32:23,655 - P17020 - INFO - SearX results: 8 URLs
+2025-05-22 04:32:23,656 - P17020 - INFO - Após SearX Uso de memória: 129.57 MB
+2025-05-22 04:32:26,482 - P17020 - INFO - Google results: 1 URLs
+2025-05-22 04:32:26,482 - P17020 - INFO - Após Google Uso de memória: 130.44 MB
+2025-05-22 04:32:29,051 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 04:32:29,051 - P17020 - INFO - Após Bing Uso de memória: 130.70 MB
+2025-05-22 04:32:29,051 - P17020 - INFO - Total de URLs únicas: 13
+2025-05-22 04:32:29,052 - P17020 - INFO - Processando URL 1/13: https://consultacrm.com.br/
+2025-05-22 04:32:33,098 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:32:33,111 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:32:33,111 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:32:33,111 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:32:33,111 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:32:33,112 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:32:33,112 - P17020 - INFO - Após processar URL 1 Uso de memória: 130.70 MB
+2025-05-22 04:32:33,113 - P17020 - INFO - Processando URL 2/13: https://cnpj.biz/48509766000122
+2025-05-22 04:32:38,830 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\921eeaf2f828fec861c574a4ef71278b.html
+2025-05-22 04:32:38,852 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:32:38,852 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:32:38,853 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:32:38,853 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 04:32:38,853 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 04:32:38,853 - P17020 - INFO - Após processar URL 2 Uso de memória: 130.70 MB
+2025-05-22 04:32:38,853 - P17020 - INFO - Processando URL 3/13: https://cadastroempresa.com.br/cnpj/48.509.766/0001-22-rocha-ramalho-atividade-medica-ltda
+2025-05-22 04:32:41,702 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4f92c0b9c3d1d8703f487b6f0ff246b3.html
+2025-05-22 04:32:41,738 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:32:41,738 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:32:41,738 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:32:41,738 - P17020 - INFO - Candidates complement: 3 items
+2025-05-22 04:32:41,738 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 04:32:41,738 - P17020 - INFO - Após processar URL 3 Uso de memória: 130.70 MB
+2025-05-22 04:32:41,739 - P17020 - INFO - Processando URL 4/13: https://sistemacremerj.com.br/crmonline/SifaOnLineServicosPublicosAction.do?metodo=servicoPublicoProfissionais
+2025-05-22 04:32:46,607 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\00ef532bee75671887e028b1935f98b3.html
+2025-05-22 04:32:46,628 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:32:46,628 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:32:46,628 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:32:46,629 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:32:46,629 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:32:46,629 - P17020 - INFO - Após processar URL 4 Uso de memória: 130.70 MB
+2025-05-22 04:32:46,629 - P17020 - INFO - Processando URL 5/13: https://www.vitali-health.com.br/profissionais/l1/prof.-dr.-rodrigo-ramalho
+2025-05-22 04:32:52,253 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\1997cf7e5e33fb05ee47aca8ed54c75a.html
+2025-05-22 04:32:52,289 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:32:52,289 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:32:52,289 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:32:52,289 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:32:52,289 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 04:32:52,290 - P17020 - INFO - Após processar URL 5 Uso de memória: 133.03 MB
+2025-05-22 04:32:52,290 - P17020 - INFO - Processando URL 6/13: https://agendarconsulta.com/perfil/dr-rodrigo-rocha-1683986184
+2025-05-22 04:32:58,067 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3e9a41ff56f73be1100ce4553605d16f.html
+2025-05-22 04:32:58,099 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 04:32:58,100 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 04:32:58,100 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:32:58,100 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:32:58,101 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:32:58,101 - P17020 - INFO - Após processar URL 6 Uso de memória: 131.00 MB
+2025-05-22 04:32:58,101 - P17020 - INFO - Processando URL 7/13: https://www.cremerj.org.br/
+2025-05-22 04:33:01,066 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\57d5b230cbdcf7d719e9b2b2f238c4f1.html
+2025-05-22 04:33:01,124 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:33:01,125 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 04:33:01,125 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:33:01,125 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:33:01,126 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 04:33:01,126 - P17020 - INFO - Após processar URL 7 Uso de memória: 131.00 MB
+2025-05-22 04:33:01,126 - P17020 - INFO - Processando URL 8/13: https://www.doctoralia.com.br/rodrigo-da-rocha-pereira/medico-clinico-geral/rio-de-janeiro
+2025-05-22 04:33:01,126 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/rodrigo-da-rocha-pereira/medico-clinico-geral/rio-de-janeiro
+2025-05-22 04:33:01,127 - P17020 - INFO - Após processar URL 8 Uso de memória: 131.00 MB
+2025-05-22 04:33:01,127 - P17020 - INFO - Processando URL 9/13: http://www.transparencia.cremerj.org.br:8098/planejamento/registroMedico/pesquisar
+2025-05-22 04:33:03,587 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\19128e1d0b16c1bd37c280ce751655f7.html
+2025-05-22 04:33:03,609 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:33:03,610 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:33:03,610 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:33:03,610 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:33:03,610 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:33:03,610 - P17020 - INFO - Após processar URL 9 Uso de memória: 131.00 MB
+2025-05-22 04:33:03,610 - P17020 - INFO - Processando URL 10/13: https://portal.cfm.org.br/busca-medicos
+2025-05-22 04:33:07,511 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 04:33:07,552 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:33:07,552 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:33:07,552 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:33:07,553 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:33:07,553 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:33:07,553 - P17020 - INFO - Após processar URL 10 Uso de memória: 131.14 MB
+2025-05-22 04:33:07,553 - P17020 - INFO - Processando URL 11/13: https://guiamedico.cremesp.org.br/
+2025-05-22 04:33:11,887 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 04:33:11,893 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:33:11,893 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:33:11,893 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:33:11,894 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:33:11,894 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:33:11,894 - P17020 - INFO - Após processar URL 11 Uso de memória: 131.14 MB
+2025-05-22 04:33:11,894 - P17020 - INFO - Processando URL 12/13: https://www.solutudo.com.br/empresas/rj/rio-janeiro/clinica-medica-ou-medicina-interna/rocha-ramalho-atividade-medica-ltda-25511355
+2025-05-22 04:33:21,220 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\dcbaaff65756192f17e5a57821df4427.html
+2025-05-22 04:33:21,260 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:33:21,261 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:33:21,261 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:33:21,261 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:33:21,261 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:33:21,261 - P17020 - INFO - Após processar URL 12 Uso de memória: 131.14 MB
+2025-05-22 04:33:21,262 - P17020 - INFO - Processando URL 13/13: https://www.medicosbrasil.com/profissional/rodrigo-rocha-ramalho
+2025-05-22 04:33:23,870 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\41a1323b3be4403e34638e1e397f3f47.html
+2025-05-22 04:33:23,896 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:33:23,896 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:33:23,897 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:33:23,897 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:33:23,898 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:33:23,898 - P17020 - INFO - Após processar URL 13 Uso de memória: 131.54 MB
+2025-05-22 04:33:23,898 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:33:23,898 - P17020 - INFO - Ranked address: 4 items
+2025-05-22 04:33:23,899 - P17020 - INFO - Ranked phone: 7 items
+2025-05-22 04:33:23,899 - P17020 - INFO - Ranked email: 4 items
+2025-05-22 04:33:23,899 - P17020 - INFO - Ranked complement: 5 items
+2025-05-22 04:33:23,899 - P17020 - INFO - Ranked cep: 11 items
+2025-05-22 04:33:23,899 - P17020 - INFO - Após agregação Uso de memória: 131.54 MB
+2025-05-22 04:33:23,900 - P17020 - INFO - Validando endereço: ['Av. Anísio Haddad, 8001', 'Rua Barão da Torre , 583', 'Rua Barão da Torre, 583']
+2025-05-22 04:33:23,900 - P17020 - INFO - Endereço validado: Av. Anísio Haddad, 8001
+2025-05-22 04:33:23,900 - P17020 - INFO - Limpando texto extenso para campo address: Av. Anísio Haddad, 8001...
+2025-05-22 04:33:23,900 - P17020 - INFO - Texto limpo: Av. Anísio Haddad, 8001
+2025-05-22 04:33:23,900 - P17020 - INFO - Validando telefone: ['(21) 3184-7050', '(21) 96537-0487', '(21) 99175-3154']
+2025-05-22 04:33:23,901 - P17020 - INFO - Limpando texto extenso para campo phone: (21) 3184-7050...
+2025-05-22 04:33:23,901 - P17020 - INFO - Texto limpo: 21) 3184-7050
+2025-05-22 04:33:23,901 - P17020 - INFO - Telefone validado: 21) 3184-7050
+2025-05-22 04:33:23,901 - P17020 - INFO - Validando email: ['rodrigorocharamalho@gmail.com', 'ramalho@gmail.com', 'cfm@portalmedico.org.br']
+2025-05-22 04:33:23,901 - P17020 - INFO - Limpando texto extenso para campo email: rodrigorocharamalho@gmail.com...
+2025-05-22 04:33:23,901 - P17020 - INFO - Texto limpo: rodrigorocharamalho@gmail.com
+2025-05-22 04:33:23,902 - P17020 - INFO - Email validado: rodrigorocharamalho@gmail.com
+2025-05-22 04:33:23,902 - P17020 - INFO - Validando complemento: ['Bloco 01 Apto 1601  Barra da Tijuca  Rio de Janeiro RJ ', 'Bloco 01 Apto 1601  Clique para copiar    Bairro:  Barr', 'Bloco 01 Apto 1601  Clique para copiar         Bairro: ']
+2025-05-22 04:33:23,902 - P17020 - INFO - Limpando texto extenso para campo complement: Bloco 01 Apto 1601  Barra da Tijuca  Rio de Janeir...
+2025-05-22 04:33:23,903 - P17020 - INFO - Texto limpo: Bloco 01 Apto 1601 Barra da T
+2025-05-22 04:33:23,903 - P17020 - INFO - Complemento validado: Bloco 01 Apto 1601 Barra da T
+2025-05-22 04:33:23,903 - P17020 - INFO - Descobrindo cidade
+2025-05-22 04:33:23,904 - P17020 - INFO - Buscando cidade: Av. Anísio Haddad cidade RJ
+2025-05-22 04:33:26,659 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 04:33:26,664 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 04:33:26,666 - P17020 - INFO - Tempo de execução de processamento completo do médico: 63.76 segundos
+2025-05-22 04:33:26,668 - P17020 - INFO - Resultado processado: {'Hash': '81f6ff0ecd564c0f7dbf5b2807fd91746ffdbd8244d7d49ce605cb5a8dce0f51', 'CRM': '1174193', 'UF': 'RJ', 'Firstname': 'RODRIGO', 'LastName': 'ROCHA RAMALHO', 'Medical specialty': '', 'Endereco Completo A1': 'Av. Anísio Haddad, 8001', 'Address A1': 'Av. Anísio Haddad', 'Numero A1': '8001', 'Complement A1': 'Bloco 01 Apto 1601 Barra da T', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '21) 3184-7050', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'rodrigorocharamalho@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:33:26,671 - P17020 - INFO - Progresso: 71.4%
+2025-05-22 04:33:26,672 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 04:33:26,745 - P17020 - INFO - Após coleta de lixo Uso de memória: 129.45 MB
+2025-05-22 04:33:26,746 - P17020 - INFO - Tempo de execução de processamento do médico 1: 65.11 segundos
+2025-05-22 04:33:26,746 - P17020 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 04:33:26,746 - P17020 - INFO - Nome: JOSÉ EDUARDO PEREIRA DOS SANTOS
+2025-05-22 04:33:26,746 - P17020 - INFO - Início do processamento Uso de memória: 129.45 MB
+2025-05-22 04:33:26,747 - P17020 - INFO - Iniciando busca para: JOSÉ EDUARDO PEREIRA DOS SANTOS CRM 1175246 RJ telefone e-mail endereço
+2025-05-22 04:33:27,695 - P17020 - INFO - SearX results: 13 URLs
+2025-05-22 04:33:27,696 - P17020 - INFO - Após SearX Uso de memória: 129.45 MB
+2025-05-22 04:33:30,216 - P17020 - INFO - Google results: 3 URLs
+2025-05-22 04:33:30,216 - P17020 - INFO - Após Google Uso de memória: 129.45 MB
+2025-05-22 04:33:32,775 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 04:33:32,775 - P17020 - INFO - Após Bing Uso de memória: 129.45 MB
+2025-05-22 04:33:32,775 - P17020 - INFO - Total de URLs únicas: 16
+2025-05-22 04:33:32,775 - P17020 - INFO - Processando URL 1/16: https://consultacrm.com.br/
+2025-05-22 04:33:36,317 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:33:36,339 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:33:36,339 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:33:36,339 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:33:36,339 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:33:36,340 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:33:36,340 - P17020 - INFO - Após processar URL 1 Uso de memória: 128.92 MB
+2025-05-22 04:33:36,340 - P17020 - INFO - Processando URL 2/16: https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241213/1-PoderExecutivo/PoderExecutivo(20241213).pdf
+2025-05-22 04:33:36,340 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20241213/1-PoderExecutivo/PoderExecutivo(20241213).pdf
+2025-05-22 04:33:36,340 - P17020 - INFO - Após processar URL 2 Uso de memória: 128.92 MB
+2025-05-22 04:33:36,340 - P17020 - INFO - Processando URL 3/16: https://www.doctoralia.com.br/endocrinologista/rio-de-janeiro/bangu
+2025-05-22 04:33:36,341 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/endocrinologista/rio-de-janeiro/bangu
+2025-05-22 04:33:36,341 - P17020 - INFO - Após processar URL 3 Uso de memória: 128.92 MB
+2025-05-22 04:33:36,341 - P17020 - INFO - Processando URL 4/16: https://www.doctoralia.com.br/endocrinologista/niteroi/bangu-2
+2025-05-22 04:33:36,341 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/endocrinologista/niteroi/bangu-2
+2025-05-22 04:33:36,342 - P17020 - INFO - Após processar URL 4 Uso de memória: 128.92 MB
+2025-05-22 04:33:36,342 - P17020 - INFO - Processando URL 5/16: https://www.reclameaqui.com.br/pastore-centro-medico/total-falta-de-respeito-o-cliente_0B0Vv5zfIkcc4gIW/
+2025-05-22 04:33:41,972 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3b8a2eac9f92d945b5051f988fbfffc9.html
+2025-05-22 04:33:41,998 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:33:41,998 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:33:41,998 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:33:41,999 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:33:41,999 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:33:41,999 - P17020 - INFO - Após processar URL 5 Uso de memória: 130.86 MB
+2025-05-22 04:33:41,999 - P17020 - INFO - Processando URL 6/16: https://www.doctoralia.com.br/medico-clinico-geral/rio-de-janeiro/bangu
+2025-05-22 04:33:41,999 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/medico-clinico-geral/rio-de-janeiro/bangu
+2025-05-22 04:33:42,000 - P17020 - INFO - Após processar URL 6 Uso de memória: 128.93 MB
+2025-05-22 04:33:42,000 - P17020 - INFO - Processando URL 7/16: https://www.boaconsulta.com/especialista/jose-eduardo-pereira-dos-santos-6105ce389b22ae2f48000132
+2025-05-22 04:33:54,163 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4adba433c4fac37ab28c55f876caceb7.html
+2025-05-22 04:33:54,241 - P17020 - INFO - Candidates address: 11 items
+2025-05-22 04:33:54,241 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:33:54,241 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:33:54,241 - P17020 - INFO - Candidates complement: 5 items
+2025-05-22 04:33:54,242 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:33:54,242 - P17020 - INFO - Após processar URL 7 Uso de memória: 130.33 MB
+2025-05-22 04:33:54,242 - P17020 - INFO - Processando URL 8/16: https://www.doctoralia.com.br/gastroenterologista/rio-de-janeiro/bangu
+2025-05-22 04:33:54,242 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/gastroenterologista/rio-de-janeiro/bangu
+2025-05-22 04:33:54,243 - P17020 - INFO - Após processar URL 8 Uso de memória: 128.93 MB
+2025-05-22 04:33:54,243 - P17020 - INFO - Processando URL 9/16: https://www.ioepa.com.br/pages/2025/2025.03.12.DOE.pdf
+2025-05-22 04:33:54,243 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2025/2025.03.12.DOE.pdf
+2025-05-22 04:33:54,243 - P17020 - INFO - Após processar URL 9 Uso de memória: 128.93 MB
+2025-05-22 04:33:54,243 - P17020 - INFO - Processando URL 10/16: https://www.doctoralia.com.br/clinicas/clinica-rio-da-prata-rio-de-janeiro
+2025-05-22 04:33:54,243 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/clinicas/clinica-rio-da-prata-rio-de-janeiro
+2025-05-22 04:33:54,244 - P17020 - INFO - Após processar URL 10 Uso de memória: 128.93 MB
+2025-05-22 04:33:54,244 - P17020 - INFO - Processando URL 11/16: http://www.transparencia.cremerj.org.br:8098/planejamento/registroMedico/pesquisar
+2025-05-22 04:33:56,552 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\19128e1d0b16c1bd37c280ce751655f7.html
+2025-05-22 04:33:56,573 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:33:56,573 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:33:56,573 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:33:56,573 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:33:56,574 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:33:56,574 - P17020 - INFO - Após processar URL 11 Uso de memória: 128.93 MB
+2025-05-22 04:33:56,574 - P17020 - INFO - Processando URL 12/16: https://guiamedico.cremesp.org.br/
+2025-05-22 04:33:59,232 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 04:33:59,238 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:33:59,238 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:33:59,239 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:33:59,239 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:33:59,239 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:33:59,239 - P17020 - INFO - Após processar URL 12 Uso de memória: 128.93 MB
+2025-05-22 04:33:59,239 - P17020 - INFO - Processando URL 13/16: https://portal.cfm.org.br/busca-medicos
+2025-05-22 04:34:02,651 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 04:34:02,695 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:34:02,695 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:02,695 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:34:02,695 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:34:02,695 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:34:02,696 - P17020 - INFO - Após processar URL 13 Uso de memória: 129.15 MB
+2025-05-22 04:34:02,696 - P17020 - INFO - Processando URL 14/16: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 04:34:06,454 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 04:34:06,489 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:34:06,489 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:06,489 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:34:06,489 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:06,489 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:34:06,490 - P17020 - INFO - Após processar URL 14 Uso de memória: 129.15 MB
+2025-05-22 04:34:06,490 - P17020 - INFO - Processando URL 15/16: https://crmes.org.br/busca-medicos
+2025-05-22 04:34:10,539 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\086c940a0fe08ffcb6a2e00b755eecaf.html
+2025-05-22 04:34:10,576 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:34:10,577 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:10,577 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:34:10,577 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:10,577 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:34:10,577 - P17020 - INFO - Após processar URL 15 Uso de memória: 129.38 MB
+2025-05-22 04:34:10,577 - P17020 - INFO - Processando URL 16/16: https://www.doctoralia.com.br/jose-eduardo-pereira-dos-santos/endocrinologista/rio-de-janeiro
+2025-05-22 04:34:10,578 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/jose-eduardo-pereira-dos-santos/endocrinologista/rio-de-janeiro
+2025-05-22 04:34:10,578 - P17020 - INFO - Após processar URL 16 Uso de memória: 129.38 MB
+2025-05-22 04:34:10,578 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:34:10,578 - P17020 - INFO - Ranked address: 12 items
+2025-05-22 04:34:10,579 - P17020 - INFO - Ranked phone: 2 items
+2025-05-22 04:34:10,579 - P17020 - INFO - Ranked email: 1 items
+2025-05-22 04:34:10,579 - P17020 - INFO - Ranked complement: 6 items
+2025-05-22 04:34:10,579 - P17020 - INFO - Ranked cep: 5 items
+2025-05-22 04:34:10,579 - P17020 - INFO - Após agregação Uso de memória: 129.38 MB
+2025-05-22 04:34:10,579 - P17020 - INFO - Validando endereço: ['Avenida Das Américas, 3333', 'Rua Gonzaga Bastos, 224', 'Avenida Das Américas, 16150']
+2025-05-22 04:34:10,580 - P17020 - INFO - Endereço validado: Avenida Das Américas, 3333
+2025-05-22 04:34:10,580 - P17020 - INFO - Limpando texto extenso para campo address: Avenida Das Américas, 3333...
+2025-05-22 04:34:10,580 - P17020 - INFO - Texto limpo: Avenida Das Américas, 3333
+2025-05-22 04:34:10,580 - P17020 - INFO - Validando telefone: ['(21) 3184-7050', '(11) 4349-9900']
+2025-05-22 04:34:10,580 - P17020 - INFO - Limpando texto extenso para campo phone: (21) 3184-7050...
+2025-05-22 04:34:10,581 - P17020 - INFO - Texto limpo: 21) 3184-7050
+2025-05-22 04:34:10,581 - P17020 - INFO - Telefone validado: 21) 3184-7050
+2025-05-22 04:34:10,581 - P17020 - INFO - Validando email: ['cfm@portalmedico.org.br']
+2025-05-22 04:34:10,581 - P17020 - INFO - Limpando texto extenso para campo email: cfm@portalmedico.org.br...
+2025-05-22 04:34:10,581 - P17020 - INFO - Texto limpo: cfm@portalmedico.org.br
+2025-05-22 04:34:10,581 - P17020 - INFO - Email validado: cfm@portalmedico.org.br
+2025-05-22 04:34:10,582 - P17020 - INFO - Validando complemento: ['Sala 1114', 'Salas 501 / 502 / 503 Copacabana', 'Sala 601 Madureira']
+2025-05-22 04:34:10,582 - P17020 - INFO - Limpando texto extenso para campo complement: Sala 1114...
+2025-05-22 04:34:10,582 - P17020 - INFO - Texto limpo: Sala 1114
+2025-05-22 04:34:10,582 - P17020 - INFO - Complemento validado: Sala 1114
+2025-05-22 04:34:10,582 - P17020 - INFO - Descobrindo cidade
+2025-05-22 04:34:10,582 - P17020 - INFO - Buscando cidade: Avenida Das Américas cidade RJ
+2025-05-22 04:34:13,255 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 04:34:13,255 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 04:34:13,256 - P17020 - INFO - Tempo de execução de processamento completo do médico: 46.51 segundos
+2025-05-22 04:34:13,256 - P17020 - INFO - Resultado processado: {'Hash': '0c0ff14efa5a578a51042fc933b66bffc0bce2c04538828bc9257acd01651262', 'CRM': '1175246', 'UF': 'RJ', 'Firstname': 'JOSÉ', 'LastName': 'EDUARDO PEREIRA DOS SANTOS', 'Medical specialty': '', 'Endereco Completo A1': 'Avenida Das Américas, 3333', 'Address A1': 'Avenida Das Américas', 'Numero A1': '3333', 'Complement A1': 'Sala 1114', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '21) 3184-7050', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cfm@portalmedico.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:34:13,256 - P17020 - INFO - Progresso: 71.8%
+2025-05-22 04:34:13,257 - P17020 - INFO - Tempo de execução de processamento do médico 2: 46.51 segundos
+2025-05-22 04:34:13,257 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 04:34:13,257 - P17020 - INFO - Nome: ANTÔNIO CARLOS DE ASSIS JÚNIOR
+2025-05-22 04:34:13,257 - P17020 - INFO - Início do processamento Uso de memória: 129.48 MB
+2025-05-22 04:34:13,258 - P17020 - INFO - Iniciando busca para: ANTÔNIO CARLOS DE ASSIS JÚNIOR CRM 1176749 RJ telefone e-mail endereço
+2025-05-22 04:34:14,158 - P17020 - INFO - SearX results: 10 URLs
+2025-05-22 04:34:14,159 - P17020 - INFO - Após SearX Uso de memória: 129.48 MB
+2025-05-22 04:34:16,747 - P17020 - INFO - Google results: 7 URLs
+2025-05-22 04:34:16,747 - P17020 - INFO - Após Google Uso de memória: 133.37 MB
+2025-05-22 04:34:19,415 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 04:34:19,415 - P17020 - INFO - Após Bing Uso de memória: 133.44 MB
+2025-05-22 04:34:19,416 - P17020 - INFO - Total de URLs únicas: 21
+2025-05-22 04:34:19,416 - P17020 - INFO - Processando URL 1/21: https://cnpj.biz/54574507000188
+2025-05-22 04:34:21,608 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d9377a10d7d9dc61f22bd24300541cd2.html
+2025-05-22 04:34:21,610 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:34:21,611 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:21,611 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:34:21,611 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:21,611 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:34:21,611 - P17020 - INFO - Após processar URL 1 Uso de memória: 133.44 MB
+2025-05-22 04:34:21,611 - P17020 - INFO - Processando URL 2/21: https://www.boaconsulta.com/especialista/antonio-carlos-de-assis-junior-6105bb999b22ae2348001c87
+2025-05-22 04:34:24,791 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\64d86f564315845f07f4dfe2f5b02692.html
+2025-05-22 04:34:24,880 - P17020 - INFO - Candidates address: 12 items
+2025-05-22 04:34:24,881 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:24,881 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:34:24,881 - P17020 - INFO - Candidates complement: 5 items
+2025-05-22 04:34:24,881 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:34:24,881 - P17020 - INFO - Após processar URL 2 Uso de memória: 134.42 MB
+2025-05-22 04:34:24,881 - P17020 - INFO - Processando URL 3/21: https://www.pensador.com/frase/Mjk3NDY5OA/
+2025-05-22 04:34:30,319 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\119ce8438dcd26803433d2002c5591ff.html
+2025-05-22 04:34:30,349 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:34:30,349 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:30,350 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:34:30,351 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:30,354 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:34:30,356 - P17020 - INFO - Após processar URL 3 Uso de memória: 132.83 MB
+2025-05-22 04:34:30,357 - P17020 - INFO - Processando URL 4/21: https://paginaamarela.com.br/empresa/carlos-de-assis-junior/conselheiro-lafaiete/mg/8442167
+2025-05-22 04:34:33,417 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2c9df4eddfdd516786c92a95905c89d3.html
+2025-05-22 04:34:33,438 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:34:33,438 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:33,439 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:34:33,439 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:33,439 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:34:33,439 - P17020 - INFO - Após processar URL 4 Uso de memória: 132.83 MB
+2025-05-22 04:34:33,439 - P17020 - INFO - Processando URL 5/21: https://www.doctoralia.com.br/luiz-carlos-de-assis-junior/dentista/florianopolis
+2025-05-22 04:34:33,440 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/luiz-carlos-de-assis-junior/dentista/florianopolis
+2025-05-22 04:34:33,440 - P17020 - INFO - Após processar URL 5 Uso de memória: 132.83 MB
+2025-05-22 04:34:33,440 - P17020 - INFO - Processando URL 6/21: https://www.doctoralia.com.br/antonio-carlos-simao-junior/ortopedista-traumatologista/sao-mateus
+2025-05-22 04:34:33,440 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/antonio-carlos-simao-junior/ortopedista-traumatologista/sao-mateus
+2025-05-22 04:34:33,440 - P17020 - INFO - Após processar URL 6 Uso de memória: 132.83 MB
+2025-05-22 04:34:33,441 - P17020 - INFO - Processando URL 7/21: https://cnpj.biz/57876307000178
+2025-05-22 04:34:35,732 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b18a32c7d6034d64a52f9df23b5fa71c.html
+2025-05-22 04:34:35,734 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:34:35,735 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:35,735 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:34:35,735 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:35,735 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:34:35,735 - P17020 - INFO - Após processar URL 7 Uso de memória: 132.83 MB
+2025-05-22 04:34:35,735 - P17020 - INFO - Processando URL 8/21: https://www.pensador.com/frase/Mjk3MzA3Ng/
+2025-05-22 04:34:39,789 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f4a732210495c1e7b148e9cbc3be60a3.html
+2025-05-22 04:34:39,805 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:34:39,805 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:39,806 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:34:39,807 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:39,807 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:34:39,807 - P17020 - INFO - Após processar URL 8 Uso de memória: 132.83 MB
+2025-05-22 04:34:39,807 - P17020 - INFO - Processando URL 9/21: https://consultacrm.com.br/
+2025-05-22 04:34:43,228 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:34:43,242 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:34:43,242 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:43,243 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:34:43,245 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:43,245 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:34:43,246 - P17020 - INFO - Após processar URL 9 Uso de memória: 133.89 MB
+2025-05-22 04:34:43,246 - P17020 - INFO - Processando URL 10/21: https://www.pensador.com/frase/Mjk3MzE4MQ/
+2025-05-22 04:34:50,033 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3d51e177479fdc513de724501cb5b1d5.html
+2025-05-22 04:34:50,049 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:34:50,049 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:50,049 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:34:50,050 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:50,050 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:34:50,050 - P17020 - INFO - Após processar URL 10 Uso de memória: 132.82 MB
+2025-05-22 04:34:50,050 - P17020 - INFO - Processando URL 11/21: https://guiasaudebrasil.com.br/profissional/78f8980d4c436672-antonio-carlos-de-assis-junior/
+2025-05-22 04:34:54,531 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a9465564dd473247d63920e308743da7.html
+2025-05-22 04:34:54,542 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:34:54,542 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:54,542 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:34:54,543 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:54,543 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:34:54,543 - P17020 - INFO - Após processar URL 11 Uso de memória: 132.82 MB
+2025-05-22 04:34:54,544 - P17020 - INFO - Processando URL 12/21: https://www.doctoralia.com.br/antonio-carlos-roma-junior/cirurgiao-plastico/sao-jose-do-rio-preto-votuporanga
+2025-05-22 04:34:54,544 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/antonio-carlos-roma-junior/cirurgiao-plastico/sao-jose-do-rio-preto-votuporanga
+2025-05-22 04:34:54,544 - P17020 - INFO - Após processar URL 12 Uso de memória: 132.82 MB
+2025-05-22 04:34:54,544 - P17020 - INFO - Processando URL 13/21: https://doutorcrm.com/carlos-de-assis-junior
+2025-05-22 04:34:59,153 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3309b873dfd0a6cab001e83df7a4a48b.html
+2025-05-22 04:34:59,161 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:34:59,162 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:59,162 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:34:59,162 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:59,162 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:34:59,162 - P17020 - INFO - Após processar URL 13 Uso de memória: 132.82 MB
+2025-05-22 04:34:59,163 - P17020 - INFO - Processando URL 14/21: https://portal.cfm.org.br/busca-medicos
+2025-05-22 04:35:02,576 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 04:35:02,623 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:35:02,624 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:35:02,624 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:35:02,624 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:35:02,624 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:35:02,624 - P17020 - INFO - Após processar URL 14 Uso de memória: 132.82 MB
+2025-05-22 04:35:02,625 - P17020 - INFO - Processando URL 15/21: https://cadastroempresa.com.br/fornecedor/clinica-medica-assis-12119637000180
+2025-05-22 04:35:05,006 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\768d2215a3b395d57bc048e965ee4a21.html
+2025-05-22 04:35:05,008 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:35:05,009 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:35:05,009 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:35:05,009 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:05,009 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:35:05,009 - P17020 - INFO - Após processar URL 15 Uso de memória: 132.82 MB
+2025-05-22 04:35:05,009 - P17020 - INFO - Processando URL 16/21: https://www.consultasocio.com/q/sa/antonio-carlos-de-assis-junior
+2025-05-22 04:35:10,594 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\0d25db6deb780762bb4eee89a369df05.html
+2025-05-22 04:35:10,604 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 04:35:10,605 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:35:10,605 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:35:10,605 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:35:10,606 - P17020 - INFO - Candidates cep: 4 items
+2025-05-22 04:35:10,606 - P17020 - INFO - Após processar URL 16 Uso de memória: 132.82 MB
+2025-05-22 04:35:10,606 - P17020 - INFO - Processando URL 17/21: https://www.pensador.com/frase/Mjk3MDkzNg/
+2025-05-22 04:35:14,597 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3941b377edc8b147ee8ccd6643afc4ef.html
+2025-05-22 04:35:14,617 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:35:14,617 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:35:14,617 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:35:14,617 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:14,617 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:35:14,618 - P17020 - INFO - Após processar URL 17 Uso de memória: 132.82 MB
+2025-05-22 04:35:14,618 - P17020 - INFO - Processando URL 18/21: https://www.medicosbrasil.com/profissional/antonio-carlos-de-assis-junior
+2025-05-22 04:35:16,821 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\dc45910fd4f3e3b608bad9fd3a86a592.html
+2025-05-22 04:35:16,823 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:35:16,823 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:35:16,824 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:35:16,824 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:16,824 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:35:16,824 - P17020 - INFO - Após processar URL 18 Uso de memória: 132.82 MB
+2025-05-22 04:35:16,824 - P17020 - INFO - Processando URL 19/21: https://www.jusbrasil.com.br/processos/nome/28987605/antonio-carlos-de-assis
+2025-05-22 04:35:20,877 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\210a4fcae501ed72798ad9cff23f8a30.html
+2025-05-22 04:35:20,888 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:35:20,889 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:35:20,889 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:35:20,889 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:20,889 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:35:20,889 - P17020 - INFO - Após processar URL 19 Uso de memória: 132.82 MB
+2025-05-22 04:35:20,890 - P17020 - INFO - Processando URL 20/21: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 04:35:24,228 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 04:35:24,269 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:35:24,269 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:35:24,270 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:35:24,270 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:24,270 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:35:24,270 - P17020 - INFO - Após processar URL 20 Uso de memória: 132.82 MB
+2025-05-22 04:35:24,270 - P17020 - INFO - Processando URL 21/21: https://www.listamais.com.br/local/cad_idX79Z7Bf/antonio-carlos-pereira-de-souza-junior-clinico-geral-em-rio-de-janeiro-rj
+2025-05-22 04:35:28,763 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\56eac59ab2c7dcf9ecb8b65f94b4fb8d.html
+2025-05-22 04:35:28,784 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:35:28,784 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 04:35:28,784 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:35:28,784 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:28,785 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:35:28,785 - P17020 - INFO - Após processar URL 21 Uso de memória: 132.82 MB
+2025-05-22 04:35:28,786 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:35:28,787 - P17020 - INFO - Ranked address: 17 items
+2025-05-22 04:35:28,788 - P17020 - INFO - Ranked phone: 2 items
+2025-05-22 04:35:28,788 - P17020 - INFO - Ranked email: 3 items
+2025-05-22 04:35:28,788 - P17020 - INFO - Ranked complement: 7 items
+2025-05-22 04:35:28,788 - P17020 - INFO - Ranked cep: 8 items
+2025-05-22 04:35:28,789 - P17020 - INFO - Após agregação Uso de memória: 132.82 MB
+2025-05-22 04:35:28,789 - P17020 - INFO - Validando endereço: ['Rua Gonzaga Bastos, 224', 'Rua Djalma Ulrich, 163', 'Avenida Marechal Câmara, 160']
+2025-05-22 04:35:28,789 - P17020 - INFO - Endereço validado: Rua Gonzaga Bastos, 224
+2025-05-22 04:35:28,789 - P17020 - INFO - Limpando texto extenso para campo address: Rua Gonzaga Bastos, 224...
+2025-05-22 04:35:28,790 - P17020 - INFO - Texto limpo: Rua Gonzaga Bastos, 224
+2025-05-22 04:35:28,790 - P17020 - INFO - Validando telefone: ['(21) 2518-1557', '(08) 00774-1818']
+2025-05-22 04:35:28,790 - P17020 - INFO - Limpando texto extenso para campo phone: (21) 2518-1557...
+2025-05-22 04:35:28,791 - P17020 - INFO - Texto limpo: 21) 2518-1557
+2025-05-22 04:35:28,791 - P17020 - INFO - Telefone validado: 21) 2518-1557
+2025-05-22 04:35:28,791 - P17020 - INFO - Validando email: ['cfm@portalmedico.org.br', 'JUNIORASSISAC@HOTMAIL.COM', 'atendimento@listamais.com.br']
+2025-05-22 04:35:28,792 - P17020 - INFO - Limpando texto extenso para campo email: cfm@portalmedico.org.br...
+2025-05-22 04:35:28,792 - P17020 - INFO - Texto limpo: cfm@portalmedico.org.br
+2025-05-22 04:35:28,792 - P17020 - INFO - Email validado: cfm@portalmedico.org.br
+2025-05-22 04:35:28,793 - P17020 - INFO - Validando complemento: ['Salas 501 / 502 / 503 Copacabana', 'Sala 601 Madureira', 'Sala 320']
+2025-05-22 04:35:28,793 - P17020 - INFO - Limpando texto extenso para campo complement: Salas 501 / 502 / 503 Copacabana...
+2025-05-22 04:35:28,793 - P17020 - INFO - Texto limpo: Salas 501 / 502 / 503 Copacaba
+2025-05-22 04:35:28,793 - P17020 - INFO - Complemento validado: Salas 501 / 502 / 503 Copacaba
+2025-05-22 04:35:28,793 - P17020 - INFO - Descobrindo cidade
+2025-05-22 04:35:28,793 - P17020 - INFO - Buscando cidade: Rua Gonzaga Bastos cidade RJ
+2025-05-22 04:35:31,424 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 04:35:31,425 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 04:35:31,425 - P17020 - INFO - Tempo de execução de processamento completo do médico: 78.17 segundos
+2025-05-22 04:35:31,426 - P17020 - INFO - Resultado processado: {'Hash': '6c2a4da565680c4e9c50027c027a1674d5dd4c8f8f6d926e7404bdf004e93880', 'CRM': '1176749', 'UF': 'RJ', 'Firstname': 'ANTÔNIO', 'LastName': 'CARLOS DE ASSIS JÚNIOR', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Gonzaga Bastos, 224', 'Address A1': 'Rua Gonzaga Bastos', 'Numero A1': '224', 'Complement A1': 'Salas 501 / 502 / 503 Copacaba', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '21) 2518-1557', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cfm@portalmedico.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:35:31,426 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 04:35:31,427 - P17020 - INFO - Após salvar resultados Uso de memória: 128.93 MB
+2025-05-22 04:35:31,428 - P17020 - INFO - Progresso: 72.2%
+2025-05-22 04:35:31,428 - P17020 - INFO - Tempo de execução de processamento do médico 3: 78.17 segundos
+2025-05-22 04:35:31,428 - P17020 - INFO - Tempo de execução de processamento do lote completo: 189.79 segundos

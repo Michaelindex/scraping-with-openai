@@ -1,0 +1,757 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  <title>Conselho Regional de Medicina de Minas Gerais - SISTEMAS WEB</title>
+  <link href="/img/ico/crmmg.ico" rel="shortcut icon" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="/css/sistemas.css">
+  <link rel="stylesheet" type="text/css" href="/css/menu-topo.css">
+  <link rel="stylesheet" type="text/css" href="/css/menu-sistemas.css">
+  <!--[if lte IE 6]><style type="text/css">img { behavior: url(/iefix/iepngfix.htc) }</style><![endif]-->
+  <style type="text/css"><!-- html { overflow-x: hidden; } --></style>
+  <script type="text/javascript" src="/js/crm.js"></script>
+  <script type="text/javascript" src="/js/flash.js"></script>
+  </head>
+
+  <body>
+  <!-- Barra Regionais -->
+  <script charset="utf-8" type="text/javascript">
+    //<!--
+    function WinOpen() {
+      var url=document.formBarraCFMRegionais.selectBarraCFMRegionais.value
+	if(url != '')
+	   window.open(url);  
+    }  
+    //-->
+  </script>
+  <style type="text/css">
+    .divModBarraRegionais {
+      width: 100%;
+      height: 35px;
+      background-color: #367151;
+      background-image: url(barra-regionais/img/fundoBarraRegionais.png);
+      background-position: left;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      margin-bottom: 3px;
+    }
+    .tableModBarraRegionais {
+      height: 35px;
+      width: 97.9%;
+      vertical-align: middle;
+      text-align: left;
+      margin: 0 1%;
+    
+    }
+    .tituloModBarraRegionais {
+      font-weight: bold;
+      color: white;
+      font-size: 11pt !important;
+    }
+    .tituloModBarraRegionais2 {
+      font-weight: bold;
+      text-align: center;
+      float: center;
+      color: white;
+      font-size: 11pt !important;
+    }
+
+    .innerTableBarraRegionais {
+      float: right;
+      padding: 0;
+      margin: 0;
+    }  
+    .innerTableBarraRegionais form {
+      margin: 0;
+      padding: 0;
+    }         
+    .tdEsquerdaModBarraRegionais {
+      vertical-align: middle !important;  
+      padding: 0 3px;
+      font-size: 10pt;
+      color: white;
+    }
+    .tdDireitaModBarraRegionais {
+      vertical-align: middle !important;    
+      padding: 0 3px;
+    }    
+  </style>
+<script type="text/javascript" src="https://www.crmmg.org.br/barra-regionais/barra.php"></script>
+<script type="text/javascript"> 
+function barra(){
+    var i = 0;
+    var link = new Array();
+  
+    for(i = 0; i < jsonBarra.length; i++){
+      link.push(jsonBarra[i].NM_HOMEPAGE);  
+    };
+    
+    jQuery('#selectBarraCFMRegionais').children('option.txt-cinzaescuro').each(function(index){
+      jQuery(this).attr('value',link[index-1]);
+    });
+  jQuery.noConflict(); 
+}
+</script>
+
+  <div class="divModBarraRegionais">
+    <table class="tableModBarraRegionais" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td>
+          <span class="tituloModBarraRegionais">Rede dos Conselhos de Medicina</span>
+
+        </td> 
+        <td>
+          <table class="innerTableBarraRegionais"> 
+            <tbody><tr>    
+              <td class="tdEsquerdaModBarraRegionais">
+                Selecione o Conselho que deseja acessar:            
+              </td>
+              <td class="tdDireitaModBarraRegionais">                  
+                  <form action="" name="formBarraCFMRegionais" id="formBarraCFMRegionais">
+                    <!-- Lista atualizada em 25/08/2010 -->
+                    <select class="txt-verde" id="selectBarraCFMRegionais" name="selectBarraCFMRegionais" onchange="WinOpen();">
+                      <option class="txt-verde" value="">Selecione</option>
+                      <option class="txt-cinzaescuro" value="http://www.portalmedico.org.br">Federal</option>
+                      <option class="txt-cinzaescuro" value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=AC">Acre</option>
+                      <option class="txt-cinzaescuro" value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=AL">Alagoas</option>
+                      <option class="txt-cinzaescuro" value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=AM">Amazonas</option>
+                      <option class="txt-cinzaescuro" value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=AP">Amapá</option>
+                      <option class="txt-cinzaescuro" value="http://www.cremeb.org.br/cremeb.php?m=site.home">Bahia</option>
+                      <option class="txt-cinzaescuro" value="http://www.cremec.com.br">Ceará</option>
+                      <option class="txt-cinzaescuro" value="http://www.crmdf.org.br/">Distrito Federal</option>
+                      <option class="txt-cinzaescuro" value="http://www.crmes.org.br/">Espírito Santo</option>
+                      <option class="txt-cinzaescuro" value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=GO">Goiás</option>
+                      <option class="txt-cinzaescuro" value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=MA">Maranhão</option>
+                      <option class="txt-cinzaescuro" value="https://www.crmmg.org.br/">Minas Gerais</option>
+                      <option class="txt-cinzaescuro" value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=MT">Mato Grosso</option>
+                      <option class="txt-cinzaescuro" value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=MS">Mato Grosso do Sul</option>
+                      <option class="txt-cinzaescuro" value="http://www.cremepa.org.br/">Pará</option>
+                      <option class="txt-cinzaescuro" value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=PB">Paraíba</option>
+                      <option class="txt-cinzaescuro" value="http://www.cremepe.org.br/">Pernambuco</option>
+                      <option class="txt-cinzaescuro" value="http://www.crmpi.com.br/">Piauí</option>
+                      <option class="txt-cinzaescuro" value="http://www.crmpr.org.br/crm2/index.php">Paraná</option>
+                      <option class="txt-cinzaescuro" value="http://www.cremerj.org.br/skel.php">Rio de Janeiro</option>
+                      <option class="txt-cinzaescuro" value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=RN">Rio Grande do Norte</option>
+                      <option class="txt-cinzaescuro" value="http://www.cremero.org.br/">Rondônia</option>
+                      <option class="txt-cinzaescuro" value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=RR">Roraima</option>
+                      <option class="txt-cinzaescuro" value="http://www.cremers.org.br/">Rio Grande do Sul</option>
+                      <option class="txt-cinzaescuro" value="http://www.cremesc.org.br/">Santa Catarina</option>
+                      <option class="txt-cinzaescuro" value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=SE">Sergipe</option>
+                      <option class="txt-cinzaescuro" value="http://www.cremesp.org.br/index.php">São Paulo</option>
+                      <option class="txt-cinzaescuro" value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=TO">Tocantins</option>                
+                    </select>
+                  </form>                              
+<script type="text/javascript"> 
+//Chama a funcao para ajustar valores da barra enviada pelo CFM
+	barra();	
+</script>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </tbody></table>
+  </div>
+
+    <!-- Fim: Barra Regionais -->
+
+
+    <!-- Alinhamento -->
+      <div id="alinhamento">
+        <div id="capa-destaque">
+          <div id="destaque"></div>
+          <div class="forcador"></div>
+        </div>
+        <!-- Topo -->
+          <div id="topo">
+            <a href="http://www.crmmg.org.br/"><img alt="Conselho Regional de Medicina de Minas Gerais" id="crm-logomarca" src="/img/comum/crm-logomarca.gif"></a>
+            <div id="atalhos-topo">
+                            </div>
+			
+			<!-- NOVEMBRO AZUL -->
+<!--			<div style='position:absolute; top:20px; left:250px;'>
+			  <img class="simbolo_cancer3" src="http://www.crmmg.org.br/laco_azul.jpg">
+			</div>
+			
+-->
+            <div id="acesso-rapido-topo">
+              <span class="txt-negrito">Menu de acesso rápido:</span><br>
+              <form action="" method="get">
+                <fieldset>
+                  <select id="select-acesso-rapido-topo" class="txt-menor txt-verde" onchange="vai('self',this);">
+                    <option class="txt-menor txt-verde" value="">O que você procura?</option>
+                    <option class="txt-cinzaescuro txt-menor" value="http://sistemas.cfm.org.br/preinscricao/mg">Inscrição ON-LINE</option>
+                      <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=12&amp;n2=21&amp;pagina=273">Inscrição em outro Estado</option>
+                      <option class="txt-cinzaescuro txt-menor" value="http://www.crmmg.org.br/atualiza-endereco">Atualização do endereço</option>
+                      <option class="txt-cinzaescuro txt-menor" value="http://www.crmmg.org.br/pesquisa-medicos">Pesquisa Médicos Inscritos</option>
+                      <option class="txt-cinzaescuro txt-menor" value="http://sistemas.crmmg.org.br/pareceres">Consulta de pareceres</option>
+                      <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=12&amp;n2=24&amp;pagina=57">Denúncias</option>
+                      <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=12&amp;n2=24&amp;pagina=205">Estatísticas</option>
+                      <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=12&amp;n2=21&amp;pagina=69">INFORMAÇÕES para Médicos</option>
+                      <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=12&amp;n2=23&amp;pagina=128">INFORMAÇÕES para Empresas</option>
+                      <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=12&amp;n2=24&amp;pagina=83">Controle Eletrônico de Carimbo</option>
+                      <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=12&amp;n2=21&amp;n3=62&amp;pagina=64">Emitir Certidão de Quitação</option>
+                      <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=12&amp;n2=24&amp;pagina=89">Validar Certidão de Quitação</option>
+                      <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=12&amp;n2=21&amp;n3=62&amp;pagina=65">Emissão de Boleto/Anuidade (2ª via)</option>
+                      <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=12&amp;n2=21&amp;pagina=103">Registro de Especialidade</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=12&amp;n2=23&amp;pagina=127">Modelos de Requerimento (Empresas)</option>
+                  </select>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        <!-- Fim: Topo -->
+
+        <!-- Conteudo Verde -->
+          <div id="conteudo-verde">
+            <!-- Barra (Busca e Menu) -->
+        <script charset="utf-8" type="text/javascript">
+          if (document.images) {
+              var empresasaudeOff = new Image(); empresasaudeOff.src = "img/menu-topo/empresa-saude-off.gif?837488720";
+              var empresasaudeOn = new Image(); empresasaudeOn.src = "img/menu-topo/empresa-saude-on.gif?849593951";
+              var institucionalOff = new Image(); institucionalOff.src = "img/menu-topo/institucional-off.gif?2055650557";
+              var institucionalOn = new Image(); institucionalOn.src = "img/menu-topo/institucional-on.gif?1303999355";
+              var institucionalTmp = new Image(); institucionalTmp.src = "img/menu-topo/institucional-tmp.gif?1818600054";
+              var medicoOff = new Image(); medicoOff.src = "img/menu-topo/medico-off.gif?544673776";
+              var medicoOn = new Image(); medicoOn.src = "img/menu-topo/medico-on.gif?1500086636";
+              var medicoTmp = new Image(); medicoTmp.src = "img/menu-topo/medico-tmp.gif?927094742";
+              var midiaOff = new Image(); midiaOff.src = "img/menu-topo/midia-off.gif?813330769";
+              var midiaOn = new Image(); midiaOn.src = "img/menu-topo/midia-on.gif?1706810866";
+              var midiaTmp = new Image(); midiaTmp.src = "img/menu-topo/midia-tmp.gif?375309761";
+              var ositeOff = new Image(); ositeOff.src = "img/menu-topo/o-site-off.gif?1357144997";
+              var ositeOn = new Image(); ositeOn.src = "img/menu-topo/o-site-on.gif?334804135";
+              var ositeTmp = new Image(); ositeTmp.src = "img/menu-topo/o-site-tmp.gif?991435488";
+              var portalTransparenciaOff = new Image(); portalTransparenciaOff.src = "img/menu-topo/portal-transparencia-off.gif?1569986544";
+              var portalTransparenciaOn = new Image(); portalTransparenciaOn.src = "img/menu-topo/portal-transparencia-on.gif?1529311038";
+              var portalTransparenciaTmp = new Image(); portalTransparenciaTmp.src = "img/menu-topo/portal-transparencia-tmp.gif?1362200869";
+              var servicocomunidadeOff = new Image(); servicocomunidadeOff.src = "img/menu-topo/servico-comunidade-off.gif?384794054";
+              var servicocomunidadeOn = new Image(); servicocomunidadeOn.src = "img/menu-topo/servico-comunidade-on.gif?1228615753";
+              var servicocomunidadeTmp = new Image(); servicocomunidadeTmp.src = "img/menu-topo/servico-comunidade-tmp.gif?192672163";
+          }
+        </script>
+
+<!--<div id="simbolo_cancer3"><img src="/img/rosa2.jpg" /></div>-->
+        <div id="barra">
+<!--
+          <div id="busca">
+            <div class="coluna"><img alt="" src="img/comum/verde-3-cores.gif" /></div>
+<!--        <div class="coluna" style="padding: 8px 0px 0px 8px;"><span class="txt-branco txt-negrito">Busca:</span> <input id="busca" name="busca" type="text" style="width: 110px;" value="" /></div>
+            <div class="coluna" style="padding-top: 2px;"><input id="ok" name="ok" type="image" src="/img/bt/bt-busca-verde.gif" value="ok" /></div>
+            <div class="forcador"></div> -->
+<!--          </div>
+      <!--
+            <div id="busca_fim">
+                <div class="coluna"><img alt="" src="img/comum/verde-3-cores-inv.gif" /></div>
+            </div>
+        -->
+          <div id="menu">
+              <span class="img_menu"><img alt="" height="35" id="empresasaude" src="img/menu-topo/empresa-saude-off.gif?1407578555" usemap="#empresasaudeMap" width="120"></span>
+              <span class="img_menu"><img alt="" height="35" id="institucional" src="img/menu-topo/institucional-off.gif?49335579" usemap="#institucionalMap" width="86"></span>
+              <span class="img_menu"><img alt="" height="35" id="medico" src="img/menu-topo/medico-off.gif?1723874286" usemap="#medicoMap" width="86"></span>
+              <span class="img_menu"><img alt="" height="35" id="midia" src="img/menu-topo/midia-off.gif?1013673214" usemap="#midiaMap" width="86"></span>
+              <span class="img_menu"><img alt="" height="35" id="osite" src="img/menu-topo/o-site-off.gif?586455397" usemap="#ositeMap" width="85"></span>
+              <span class="img_menu"><img alt="" height="35" id="portalTransparencia" src="img/menu-topo/portal-transparencia-off.gif?1119160277" usemap="#portalTransparenciaMap" width="150"></span>
+              <span class="img_menu"><img alt="" height="35" id="servicocomunidade" src="img/menu-topo/servico-comunidade-off.gif?1345151494" usemap="#servicocomunidadeMap" width="164"></span>
+          </div>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<script type="text/javascript" language="javascript" src="sys-php/js/jquery/jquery-ui-1.6.min.js"></script>
+		<script type="text/javascript" language="javascript">
+		
+			/* Quando o documento estiver carregado */
+		
+			/*$(document).ready(function()
+			{
+			
+				//Quando algum hyperlink com a classe "window" for clicado
+			
+				$('a.window').click(function()
+				{
+					var dimensions = (this.rel) 
+						? this.rel
+						: '660x600';
+					dimensions = dimensions.split('x');
+					var width = dimensions[0];
+					var height = dimensions[1];
+					var bWindow = window.open(this.href, this.id, 'width=' + width + ',height=' + height + ',left=' + (((screen.width - width) / 2) - 20) + ',top=' + (((screen.height - height) / 2) - 20) + ',scrollbars=yes,resizable=yes,toolbars=no');
+					bWindow.focus();
+					return false; 
+				});
+			
+			});
+			*/
+				
+		</script>
+		<script language="JavaScript"> function abrir(URL) 
+			{  
+				var width = 960;  
+				var height = 600;  
+				window.open
+				(URL,'janela', 'width='+width+', height='+height+', left=' + (((screen.width - width) / 2) - 20) + ',top=' + (((screen.height - height) / 2) - 20) + ',scrollbars=yes,resizable=yes,toolbars=no'); }
+		</script>
+	
+          <!-- Submenu -->
+
+
+            <!-- Submenu | Empresa de Saude -->
+            <div id="n1empresasaude" onmouseover="menuOn('n1empresasaude');hoverOn('empresasaude');hoverTmp('institucional');" onmouseout="menuOff('n1empresasaude');hoverOff('empresasaude');hoverOff('institucional');">
+                <div class="submenu-topo-large"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+                <div class="submenu-large">
+                    <a class="submenu-link-large" href="" onclick="link('http://portalservicos.cfm.org.br:8080/portal/mg');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Portal de Serviços</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=315&amp;n2=316&amp;pagina=242');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Emissão de Boleto</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=315&amp;n2=316&amp;pagina=300');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Emissão do Certificado de Regularidade</a>
+<!--                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=315&n2=316&pagina=490');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Emiss&atilde;o da Certid&atilde;o de PGRSS</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=315&n2=316&pagina=514');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Emiss&atilde;o da Certid&atilde;o RT Servi&ccedil;o</a> -->
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=315&amp;n2=316&amp;pagina=229');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Emissão da Declaração de Quitação</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=315&amp;n2=316&amp;pagina=521');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Emissão Homolog. Dir./Com. de Ética </a>
+<!--                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=315&n2=316&pagina=274');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Inscri&ccedil;&atilde;o</a> -->
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=315&amp;n2=316&amp;pagina=128');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Informações Gerais</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=315&amp;n2=316&amp;pagina=137');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Legislação Específica</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=315&amp;n2=316&amp;pagina=127');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Modelos de Requerimento</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=315&amp;n2=316&amp;pagina=301');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Validação do Certificado de Regularidade</a>
+<!--                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=315&n2=316&pagina=491');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Valida&ccedil;&atilde;o da Certid&atilde;o de PGRSS</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=315&n2=316&pagina=515');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Valida&ccedil;&atilde;o da Certid&atilde;o RT Servi&ccedil;o </a> -->
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=315&amp;n2=316&amp;pagina=230');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Validação da Declaração de Quitação</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=315&amp;n2=316&amp;pagina=522');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Validação Homolog. Dir./Com. de Ética </a>
+
+                </div>
+                <div class="submenu-rodape-large"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+            </div>
+            <!-- Fim: Submenu | Empresa de Saude -->
+
+
+            <!-- Submenu | Institucional -->
+            <div id="n1institucional" onmouseover="menuOn('n1institucional');hoverOn('institucional');hoverTmp('medico');" onmouseout="menuOff('n1institucional');hoverOff('institucional');hoverOff('medico');">
+                                <div class="submenu-topo"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+                <div class="submenu">
+                    <a class="submenu-link" href="" onmouseover="menuOn('n2conhecacrm');classOn(this);" onmouseout="menuOff('n2conhecacrm');classOff(this);">Conheça o CRMMG</a>
+                    <a class="submenu-link" href="" onmouseover="menuOn('n2delegacias');classOn(this);" onmouseout="menuOff('n2delegacias');classOff(this);">Delegacias</a>
+                    <a class="submenu-link" href="" onmouseover="menuOn('n2licitacoes');classOn(this);" onmouseout="menuOff('n2licitacoes');classOff(this);">Licitações</a>
+                    <a class="submenu-link" href="" onclick="redir('interna.php?n1=11&amp;pagina=236');" onmouseover="classOn(this);" onmouseout="classOff(this);">Concurso Público</a>
+                    <a class="submenu-link" href="" onclick="redir('interna.php?n1=11&amp;pagina=35');" onmouseover="classOn(this);" onmouseout="classOff(this);">Regimento Interno</a>
+                </div>
+                <div class="submenu-rodape"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+            </div>
+
+            <!-- Submenu | Institucional | Conheca o CRMMG -->
+            <div id="n2conhecacrm" onmouseover="menuOn('n1institucional');menuOn('n2conhecacrm');hoverOn('institucional');hoverTmp('medico');" onmouseout="menuOff('n2conhecacrm');menuOff('n1institucional');hoverOff('institucional');hoverOff('medico');">
+                <div class="submenu-topo"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+                <div class="submenu">
+                    <a class="submenu-link" href="" onclick="redir('interna.php?n1=11&amp;n2=17&amp;pagina=45');" onmouseover="classOn(this);" onmouseout="classOff(this);">História</a>
+                    <!--<a class="submenu-link" href="" onclick="redir('interna.php?n1=11&amp;n2=17&amp;pagina=47');" onmouseover="classOn(this);" onmouseout="classOff(this);">Diretoria</a>-->
+                    <!--<a class="submenu-link" href="" onclick="redir('interna.php?n1=11&amp;n2=17&amp;pagina=46');" onmouseover="classOn(this);" onmouseout="classOff(this);">Corpo de Conselheiros</a>-->
+                    <!--<a class="submenu-link" href="" onclick="redir('interna.php?n1=11&amp;n2=17&amp;pagina=207');" onmouseover="classOn(this);" onmouseout="classOff(this);">Comiss&otilde;es</a>-->
+                    <!--<a class="submenu-link" href="" onclick="redir('interna.php?n1=11&amp;n2=17&amp;pagina=208');" onmouseover="classOn(this);" onmouseout="classOff(this);">C&acirc;maras T&eacute;cnicas</a>-->
+                </div>
+                <div class="submenu-rodape"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+            </div>
+            <!-- Fim: Submenu | Institucional | Conheca o CRMMG -->
+
+            <!-- Submenu | Institucional | Delegacias -->
+            <div id="n2delegacias" onmouseover="menuOn('n1institucional');menuOn('n2delegacias');hoverOn('institucional');hoverTmp('medico');" onmouseout="menuOff('n2delegacias');menuOff('n1institucional');hoverOff('institucional');hoverOff('medico');">
+                <div class="submenu-topo"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+                <div class="submenu">
+                    <a class="submenu-link" href="" onclick="redir('interna.php?n1=11&amp;n2=18&amp;pagina=49');" onmouseover="classOn(this);" onmouseout="classOff(this);">Regionais</a>
+                    <a class="submenu-link" href="" onclick="redir('interna.php?n1=11&amp;n2=18&amp;pagina=50');" onmouseover="classOn(this);" onmouseout="classOff(this);">Seccionais</a>
+                    <a class="submenu-link" href="" onclick="redir('interna.php?n1=11&amp;n2=18&amp;pagina=51');" onmouseover="classOn(this);" onmouseout="classOff(this);">Representações</a>
+                </div>
+                <div class="submenu-rodape"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+            </div>
+            <!-- Fim: Submenu | Institucional | Delegacias -->
+
+            <!-- Submenu | Institucional | Licitacoes -->
+
+            <div id="n2licitacoes" onmouseover="menuOn('n1institucional');menuOn('n2licitacoes');hoverOn('institucional');hoverTmp('medico');" onmouseout="menuOff('n2licitacoes');menuOff('n1institucional');hoverOff('institucional');hoverOff('medico');">
+                <div class="submenu-topo"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+                <div class="submenu">
+                    <!--<a class="submenu-link" href="" onclick="redir('interna.php?n1=11&amp;n2=20&amp;pagina=90');" onmouseover="classOn(this);" onmouseout="classOff(this);">Em andamento</a>-->
+                    <!--<a class="submenu-link" href="" onclick="redir('interna.php?n1=11&amp;n2=20&amp;pagina=91');" onmouseover="classOn(this);" onmouseout="classOff(this);">Finalizadas</a>-->
+                    <a class="submenu-link" href="" onclick="link('http://transparencia.crmmg.org.br/index.php/licitacoes-contratos/atas-de-registro-de-precos');" onmouseover="classOn(this);" onmouseout="classOff(this);">Atas - Registro de Preços</a>
+
+                </div>
+                <div class="submenu-rodape"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+            </div>
+            <!-- Fim: Submenu | Institucional | Licitacoes -->
+
+
+            <!-- Submenu | Medico -->
+            <div id="n1medico" onmouseover="menuOn('n1medico');hoverOn('medico');hoverTmp('midia');" onmouseout="menuOff('n1medico');hoverOff('medico');hoverOff('midia');">
+                                <div class="submenu-topo-large"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+                <div class="submenu-large">
+                    <a class="submenu-link-large" href="" onclick="link('https://portalservicos.cfm.org.br/portal/mg');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Portal de Serviços</a>
+                    <!--<a class="submenu-link-large" href="" onclick="redir('http://sistemas.crmmg.org.br/v2/sys-php/atualiza-endereco');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Atualiza&ccedil;&atilde;o de Endere&ccedil;o</a>-->
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&amp;n2=314&amp;pagina=115');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Comunicado de Extravio/Furto ou Roubo</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&amp;n2=314&amp;pagina=84');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Controle Eletrônico de Carimbo</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&amp;n2=314&amp;pagina=104');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Cancelamento de Inscrição</a>
+                    <a class="submenu-link-large" href="" onmouseover="menuOn('n2certidoes');classOnL(this);" onmouseout="menuOff('n2certidoes');classOffL(this);">Certidões</a>
+                    <!--<a class="submenu-link-large" href="" onmouseover="menuOn('n2eleicoes');classOnL(this);" onmouseout="menuOff('n2eleicoes');classOffL(this);">Elei&ccedil;&otilde;es 2018</a>-->
+                    <!--<a class="submenu-link-large" href="" onmouseover="menuOn('n2eleicoes19');classOnL(this);" onmouseout="menuOff('n2eleicoes19');classOffL(this);">Elei&ccedil;&otilde;es 2019</a>-->
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&amp;n2=314&amp;pagina=65');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Emissão de Boleto</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&amp;n2=314&amp;pagina=69');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Informações Gerais</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&amp;n2=314&amp;pagina=273');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Inscrição em outro Estado</a>
+                    <a class="submenu-link-large" href="" onmouseover="menuOn('n2inscricoesregistros');classOnL(this);" onmouseout="menuOff('n2inscricoesregistros');classOffL(this);">Inscrições e Registros</a>
+                    <!--<a class="submenu-link-large" href="" onclick="link('http://portal.cfm.org.br/index.php?option=com_normas&tipoNormaP=P&normasUf=MG');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Pesquisar Pareceres</a>-->
+                    <!--<a class="submenu-link-large" href="" onclick="link('http://sistemas.crmmg.org.br/pareceres/');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Pesquisar Pareceres anteriores a 2014</a>-->
+                    <a class="submenu-link-large" href="" onclick="link('http://sistemas.cfm.org.br/preinscricao/mg');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Pré-Inscrição ON-LINE (recém-formado)</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&amp;n2=314&amp;pagina=103');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Registro de Especialidade</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&amp;n2=314&amp;pagina=271');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Requerimento de Serviços Diversos</a>
+
+                </div>
+                <div class="submenu-rodape-large"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+            </div>
+            <!-- Fim: Submenu | Medico -->
+
+            <!-- Submenu | Medicos | Certidoes -->
+
+            <div id="n2certidoes" onmouseover="menuOn('n1medico');menuOn('n2certidoes');hoverOn('medico');hoverTmp('midia');" onmouseout="menuOff('n2certidoes');menuOff('n1medico');hoverOff('medico');hoverOff('midia');">
+                <div class="submenu-topo-large"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+                <div class="submenu-large">
+                    <!--<a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&n2=314&n3=494&pagina=292');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Emiss&atilde;o de Certid&atilde;o de Inscri&ccedil;&atilde;o</a>-->
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&amp;n2=314&amp;n3=494&amp;pagina=64');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Emissão de Certidão de Quitação</a>
+                    <!-- <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&n2=314&n3=494&pagina=497');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Emiss&atilde;o de Certid&atilde;o Negativa &Eacute;tico Profis.</a> -->
+                    <!-- <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&n2=314&n3=494&pagina=107');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Certid&atilde;o Negativa / Nada Consta</a> -->
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&amp;n2=314&amp;n3=494&amp;pagina=270');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Certidão de PGRSS</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&amp;n2=314&amp;n3=494&amp;pagina=293');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Validação de Certidão de Inscrição</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&amp;n2=314&amp;n3=494&amp;pagina=68');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Validação de Certidão de Quitação</a>
+                    <!-- <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&n2=314&n3=494&pagina=308');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Valida&ccedil;&atilde;o de Certid&atilde;o Negativa</a> -->
+                </div>
+                <div class="submenu-rodape-large"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+            </div>
+            <!-- Fim: Submenu | Medicos | Certidoes -->
+
+            <!-- Submenu | Medicos | Eleicoes 2018 -->
+
+            <div id="n2eleicoes" onmouseover="menuOn('n1medico');menuOn('n2eleicoes');hoverOn('medico');hoverTmp('midia');" onmouseout="menuOff('n2eleicoes');menuOff('n1medico');hoverOff('medico');hoverOff('midia');">
+                <div class="submenu-topo-large"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+                <div class="submenu-large">
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&amp;n2=314&amp;n3=505&amp;pagina=504');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Comprovante de Votação</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&amp;n2=314&amp;n3=505&amp;pagina=506');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Validação do Comprovante de Votação</a>
+
+                </div>
+                <div class="submenu-rodape-large"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+            </div>
+            <!-- Fim: Submenu | Medicos | Inscricoes e Registros -->
+
+            <!-- Submenu | Medicos | Eleicoes 2019 -->
+
+            <div id="n2eleicoes19" onmouseover="menuOn('n1medico');menuOn('n2eleicoes19');hoverOn('medico');hoverTmp('midia');" onmouseout="menuOff('n2eleicoes19');menuOff('n1medico');hoverOff('medico');hoverOff('midia');">
+                <div class="submenu-topo-large"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+                <div class="submenu-large">
+                    <a class="submenu-link-large" href="" onclick="link('http://eleicoes.crmmg.org.br/index.php/servicos-eleitor/comprovante-votacao');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Comprovante de Votação</a>
+                    <a class="submenu-link-large" href="" onclick="link('http://eleicoes.crmmg.org.br/index.php/servicos-eleitor/validacao-do-comprovante-de-votacao');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Validação do Comprovante de Votação</a>
+                  <!--  <a class="submenu-link-large" href="" onclick="link('http://eleicoes.crmmg.org.br/index.php/servicos-eleitor/atualizacao-endereco-2');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Justificativa de Aus&ecirc;ncia de Voto</a> -->
+
+                </div>
+                <div class="submenu-rodape-large"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+            </div>
+            <!-- Fim: Submenu | Medicos | Inscricoes e Registros -->
+
+            <!-- Submenu | Medicos | Inscricoes e Registros -->
+
+            <div id="n2inscricoesregistros" onmouseover="menuOn('n1medico');menuOn('n2inscricoesregistros');hoverOn('medico');hoverTmp('midia');" onmouseout="menuOff('n2inscricoesregistros');menuOff('n1medico');hoverOff('medico');hoverOff('midia');">
+                <div class="submenu-topo-large"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+                <div class="submenu-large">
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&amp;n2=314&amp;n3=93&amp;pagina=94');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Inscrições e Registros</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&amp;n2=314&amp;n3=93&amp;n4=100&amp;pagina=101');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Autorizações Provisórias</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=313&amp;n2=314&amp;n3=93&amp;pagina=95');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Outro Países e Militar</a>
+
+                </div>
+                <div class="submenu-rodape-large"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+            </div>
+            <!-- Fim: Submenu | Medicos | Inscricoes e Registros -->
+
+
+            <!-- Submenu | Midia -->
+            <div id="n1midia" onmouseover="menuOn('n1midia');hoverOn('midia');hoverTmp('osite');" onmouseout="menuOff('n1midia');hoverOff('midia');hoverOff('osite');">
+                                <div class="submenu-topo"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+                <div class="submenu">
+                    <!--<a class="submenu-link" href="" onclick="redir('interna.php?n1=13&amp;pagina=25');" onmouseover="classOn(this);" onmouseout="classOff(this);">Agenda de Eventos</a> -->
+                    <a class="submenu-link" href="" onclick="redir('interna.php?n1=13&amp;pagina=26');" onmouseover="classOn(this);" onmouseout="classOff(this);">Artigos e Entrevistas</a>
+                    <a class="submenu-link" href="" onclick="redir('interna.php?n1=13&amp;pagina=27');" onmouseover="classOn(this);" onmouseout="classOff(this);">Informativos Médicos</a>
+                    <a class="submenu-link" href="" onclick="link('http://www.flip3d.com.br/web/pub/crmmg/');" onmouseover="classOn(this);" onmouseout="classOff(this);">Jornal do CRMMG</a>
+                    <a class="submenu-link" href="" onclick="redir('interna.php?n1=13&amp;pagina=507');" onmouseover="classOn(this);" onmouseout="classOff(this);">Sala de Imprensa</a>
+                </div>
+                <div class="submenu-rodape"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+            </div>
+
+            <!-- Fim: Submenu | Midia -->
+
+
+            <!-- Submenu | O site -->
+            <div id="n1osite" onmouseover="menuOn('n1osite');hoverOn('osite');hoverTmp('portalTransparencia');" onmouseout="menuOff('n1osite');hoverOff('osite');hoverOff('portalTransparencia');">
+                                <div class="submenu-topo"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+                <div class="submenu">
+                    <!--     <a class="submenu-link" href="" onclick="redir('interna.php?n1=16&amp;pagina=38');" onmouseover="classOn(this);" onmouseout="classOff(this);">&Aacute;rea Restrita</a>
+                    <a class="submenu-link" href="" onclick="redir('interna.php?n1=16&amp;pagina=39');" onmouseover="classOn(this);" onmouseout="classOff(this);">Sobre o Site</a>
+                    <a class="submenu-link" href="" onclick="redir('interna.php?n1=16&amp;pagina=41');" onmouseover="classOn(this);" onmouseout="classOff(this);">Avalia&ccedil;&atilde;o</a>
+                    <a class="submenu-link" href="" onclick="redir('interna.php?n1=16&amp;pagina=42');" onmouseover="classOn(this);" onmouseout="classOff(this);">Editorial/Cr&eacute;ditos</a>
+                    <a class="submenu-link" href="" onclick="redir('interna.php?n1=16&amp;pagina=43');" onmouseover="classOn(this);" onmouseout="classOff(this);">Termos de Uso</a>
+                   <a class="submenu-link" href="" onclick="redir('interna.php?n1=16&amp;pagina=44');" onmouseover="classOn(this);" onmouseout="classOff(this);">Fale Conosco</a> -->
+                </div>
+                <div class="submenu-rodape"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+            </div>
+            <!-- Fim: Submenu | O site -->
+
+
+            <!-- Submenu | Portal Transparencia -->
+            <div id="n1portalTransparencia" onmouseover="menuOn('n1portalTransparencia');hoverOn('portalTransparencia');hoverTmp('servicocomunidade');" onmouseout="menuOff('n1portalTransparencia');hoverOff('portalTransparencia');hoverOff('servicocomunidade');">
+                                <div class="submenu-topo"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+                <div class="submenu">
+                 <!--   <a class="submenu-link" href="" onclick="link('http://transparencia.crmmg.org.br');" onmouseover="classOn(this);" onmouseout="classOff(this);">Acesso ao Portal</a> -->
+
+                </div>
+                <div class="submenu-rodape"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+            </div>
+
+
+
+            <!-- Submenu | Servicos a Comunidade -->
+            <div id="n1servicocomunidade" onmouseover="menuOn('n1servicocomunidade');hoverOn('servicocomunidade');" onmouseout="menuOff('n1servicocomunidade');hoverOff('servicocomunidade');">
+                <div class="submenu-topo-large"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+                <div class="submenu-large">
+
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=317&amp;pagina=32');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Código de Ética Médica</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=317&amp;pagina=33');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Código de PEP</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=317&amp;pagina=34');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Constituição Federal</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=317&amp;pagina=83');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Controle Eletrônico de Carimbo</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=317&amp;pagina=57');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Denúncias</a>
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=317&amp;pagina=496');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Editais</a>
+                    <!--<a class="submenu-link-large" href="" onclick="redir('interna.php?n1=317&pagina=205');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Estat&iacute;sticas</a>-->
+                    <!--<a class="submenu-link-large" href="" onclick="redir('interna.php?n1=317&pagina=37');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Links</a>-->
+                    <!--<a class="submenu-link-large" href="" onclick="link('http://portal.cfm.org.br/index.php?option=com_normas&tipoNormaP=P&normasUf=MG');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Pareceres</a>-->
+                    <!-- <a class="submenu-link-large" href="" onclick="link('http://sistemas.crmmg.org.br/pareceres/');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Pareceres anteriores a 2014</a> -->
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=317&amp;pagina=56');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Procurar Empresas</a>
+                    <a class="submenu-link-large" href="" onclick="link('http://portal.cfm.org.br/index.php?option=com_medicos&amp;Itemid=59');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Procurar Médicos</a>
+                    <!-- <a class="submenu-link-large" href="" onclick="link('http://sistemas.crmmg.org.br/v2/sys-php/pesquisa-medicos/pesquisa-medicos1.php');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Procurar M&eacute;dicos</a> -->
+                    <!--<a class="submenu-link-large" href="" onclick="redir('https://www.crmmg.org.br/download.php?id=345');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Rela&ccedil;&atilde;o dos M&eacute;dicos Inscritos</a>-->
+              <!--  <a class="submenu-link-large" href="" onclick="link('http://www.portal.cfm.org.br/index.php?option=com_resolucoes&buscaEfetuada=true&resolucoesUf=CRMMG&resolucoesNumero=&resolucoesAno=&resolucoesAssunto=&resolucoesTexto=#buscaResolucoes');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Resolu&ccedil;&otilde;es</a>  -->
+
+                    <a class="submenu-link-large" href="" onclick="redir('interna.php?n1=317&amp;pagina=31');" onmouseover="classOnL(this);" onmouseout="classOffL(this);">Resol., Decretos e Leis</a>
+                </div>
+                <div class="submenu-rodape-large"><img alt="" class="pixel" src="img/comum/ele.gif"></div>
+            </div>
+            <!-- Fim: Submenu | Servicos a Comunidade -->
+
+
+          <!-- Fim: Submenu -->
+
+        </div>
+
+
+
+        <map id="empresasaudeMap" name="empresasaudeMap">
+            <area alt="" coords="16,12,-5,38,150,38,150,12" href="" onmouseover="menuOn('n1empresasaude');hoverOn('empresasaude');hoverTmp('institucional');" onmouseout="menuOff('n1empresasaude');hoverOff('empresasaude');hoverOff('institucional');" shape="poly">
+        </map>
+        <map id="institucionalMap" name="institucionalMap">
+            <area alt="" coords="15,26,5,38,-1,38,-1,12,15,12" href="" onmouseover="menuOn('n1empresasaude');hoverOn('empresasaude');hoverTmp('institucional');" onmouseout="menuOff('n1empresasaude');hoverOff('empresasaude');hoverOff('institucional');" shape="poly">
+            <area alt="" coords="27,12,6,38,86,38,86,12" href="" onmouseover="menuOn('n1institucional');hoverOn('institucional');hoverTmp('medico');" onmouseout="menuOff('n1institucional');hoverOff('institucional');hoverOff('medico');" shape="poly">
+        </map>
+        <map id="medicoMap" name="medicoMap">
+          <area alt="" coords="15,26,5,38,-1,38,-1,12,15,12" href="" onmouseover="menuOn('n1institucional');hoverOn('institucional');hoverTmp('medico');" onmouseout="menuOff('n1institucional');hoverOff('institucional');hoverOff('medico');" shape="poly">
+          <area alt="" coords="27,12,6,38,86,38,86,12" href="" onmouseover="menuOn('n1medico');hoverOn('medico');hoverTmp('midia');" onmouseout="menuOff('n1medico');hoverOff('medico');hoverOff('midia');" shape="poly">
+        </map>
+        <map id="midiaMap" name="midiaMap">
+            <area alt="" coords="15,26,5,38,-1,38,-1,12,15,12" href="" onmouseover="menuOn('n1medico');hoverOn('medico');hoverTmp('midia');" onmouseout="menuOff('n1medico');hoverOff('medico');hoverOff('midia');" shape="poly">
+            <area alt="" coords="27,12,6,38,86,38,86,12" href="" onmouseover="menuOn('n1midia');hoverOn('midia');hoverTmp('osite');" onmouseout="menuOff('n1midia');hoverOff('midia');hoverOff('osite');" shape="poly">
+        </map>
+        <map id="ositeMap" name="ositeMap">
+            <area alt="" coords="15,26,5,38,-1,38,-1,12,15,12" href="" onmouseover="menuOn('n1midia');hoverOn('midia');hoverTmp('osite');" onmouseout="menuOff('n1midia');hoverOff('midia');hoverOff('osite');" shape="poly">
+            <area alt="" coords="27,12,6,38,85,38,85,12" href="" onmouseover="menuOn('n1osite');hoverOn('osite');hoverTmp('portalTransparencia')" onmouseout="menuOff('n1osite');hoverOff('osite');hoverOff('portalTransparencia')" shape="poly">
+        </map>
+
+        <map id="portalTransparenciaMap" name="portalTransparenciaMap">
+            <area alt="" coords="15,26,5,38,-1,38,-1,12,15,12" href="" onmouseover="menuOn('n1osite');hoverOn('osite');hoverTmp('portalTransparencia');" onmouseout="menuOff('n1osite');hoverOff('osite');hoverOff('portalTransparencia');" shape="poly">
+            <area alt="" coords="27,12,6,38,150,38,150,12" href="" onmouseover="menuOn('n1portalTransparencia');hoverOn('portalTransparencia');hoverTmp('servicocomunidade');" onmouseout="menuOff('n1portalTransparencia');hoverOff('portalTransparencia');hoverOff('servicocomunidade');" shape="poly">
+        </map>
+
+        <map id="servicocomunidadeMap" name="servicocomunidadeMap">
+            <area alt="" coords="15,26,5,38,-1,38,-1,12,15,12" href="" onmouseover="menuOn('n1portalTransparencia');hoverOn('portalTransparencia');hoverTmp('servicocomunidade');" onmouseout="menuOff('n1portalTransparencia');hoverOff('portalTransparencia');hoverOff('servicocomunidade');" shape="poly">
+            <area alt="" coords="27,12,6,38,164,38,164,12" href="" onmouseover="menuOn('n1servicocomunidade');hoverOn('servicocomunidade');" onmouseout="menuOff('n1servicocomunidade');hoverOff('servicocomunidade');" shape="poly">
+        </map>
+            <!-- Fim: Barra (Busca e Menu) -->
+            <div class="forcador"></div>
+          </div>
+        <!-- Fim: Conteudo Verde -->
+
+        <!-- Conteudo Interna -->
+          <div id="conteudo-interna">
+            <div id="conteudo-informativo">
+              <div id="onde-vc-esta">
+                <img class="seta" src="img/bromura/seta-amarela-no-verde.gif" alt=""><strong><span class="txt-branco">Onde você está</span></strong><br>
+                <strong><span class="txt-amarelo" style="margin-left:20px;">Sistemas ON–LINE</span></strong>
+              </div>
+              <div class="forcador"></div>
+            </div>
+            <!-- Espaco para includes -->
+              <div id="alinhamento-interna">
+                  <div id="menu-esquerda-interna">
+                    <!-- Menu da Interna -->
+                      <div style="width: 244px;">
+                        <ul style="padding-left: 3px;"><a href="javascript:void(0);" onclick="showMenu(21, 'para-medicos');"><img id="img-21" name="img-21" src="/img/menu-interna/para-medicos-on.gif" alt=""></a></ul>
+                        <span id="21" name="21" class="lista-aberta" style="padding-top: 0px;">
+                          <ul><img src="/img/bromura/seta-azul-no-cinza.gif" alt="" class="seta-menu"><strong><a href="javascript:void(0);" onclick="redir('http://sistemas.crmmg.org.br/v2/sys-php/atualiza-endereco');" class="txt-azul">Atualização de Endereço</a></strong></ul>
+                          <ul><img src="/img/bromura/seta-azul-no-cinza.gif" alt="" class="seta-menu"><strong><a href="javascript:void(0);" onclick="redir('http://sistemas.crmmg.org.br/v2/sys-php/financeiro');" class="txt-azul">Financeiro</a></strong></ul>
+                        </span>
+                      </div>
+                      <img src="/img/bromura/linha-cinza.gif" alt="" class="linha">
+                      <div style="width: 244px;">
+                        <ul style="padding-left: 3px;"><a href="javascript:void(0);" onclick="showMenu(24, 'para-todos');"><img id="img-24" name="img-24" src="/img/menu-interna/para-todos-on.gif" alt=""></a></ul>
+                        <span id="24" name="24" class="lista-aberta" style="padding-top: 0px;">
+                          <ul><img src="/img/bromura/seta-azul-no-cinza.gif" alt="" class="seta-menu"><strong><a href="javascript:void(0);" onclick="redir('http://sistemas.crmmg.org.br/v2/sys-php/pesquisa-medicos');" class="txt-azul">Buscar Médicos Inscritos</a></strong></ul>
+                        </span>
+                      </div>
+                    <!-- Fim: Menu da Interna -->
+                  </div>
+
+                  <div id="box-direita-interna">
+                    <div id="borda-conteudo-interna-topo"><img class="borda-conteudo" src="/img/comum/ele.gif" alt=""></div>
+                    <div id="conteudo-direita-interna">
+                      <h1>Sistemas ON-LINE</h1><br><br>
+                      <div id="destaque-esquerda-interna"><img src="/img/comum/destaque-interno-sistemas.gif" alt=""></div>
+                      <div id="destaque-direita-interna">
+                        <div style="height: 50px;"></div>
+                        <span class="txt-cinzaescuro">Setor de Tecnologia da Informação do CRM-MG fornece informação e produz tecnologia em benefício da classe médica.</span>
+                      </div>
+                      <div id="noticias-sistemas">
+                        <h2 class="txt-cinzaescuro">Últimas Notícias</h2><br>
+                        <ul id="noticias-sistemas-ul">
+                          <li><img src="/img/bromura/seta-azul-no-cinzaclaro.gif" alt="" class="seta"><span class="txt-azul">04 de agosto, 2008</span></li>
+                          <li style="padding-left: 20px;"><span class="txt-cinzaescuro">Sistema de pesquisa de médicos inscritos adaptado ao novo design do site.</span></li>
+                          <div style="height: 8px;"></div>
+                          <li><img src="/img/bromura/seta-azul-no-cinzaclaro.gif" alt="" class="seta"><span class="txt-azul">08 de julho, 2008</span></li>
+                          <li style="padding-left: 20px;"><span class="txt-cinzaescuro">Lançado sistema financeiro com funcionalidades tais como emissão de boletos e emissão de certidão de quitação.</span></li>
+                          <div style="height: 8px;"></div>
+                          <li><img src="/img/bromura/seta-azul-no-cinzaclaro.gif" alt="" class="seta"><span class="txt-azul">24 de junho, 2008</span></li>
+                          <li style="padding-left: 20px;"><span class="txt-cinzaescuro">Sistema de atualização de endereço de médicos adaptado ao novo design do site.</span></li>
+                          <div style="height: 8px;"></div>
+                          <li><img src="/img/bromura/seta-azul-no-cinzaclaro.gif" alt="" class="seta"><span class="txt-azul">24 de junho, 2008</span></li>
+                          <li style="padding-left: 20px;"><span class="txt-cinzaescuro">Inaugurado novo design do site dos Sistemas implementados pelo CRM-MG.</span></li>
+                        </ul>
+                      </div>
+                      <div class="forcador"></div>
+                    </div>
+                    <div id="borda-conteudo-interna-rodape"><img class="borda-conteudo" src="/img/comum/ele.gif" alt=""></div>
+                  </div>
+                  <div class="forcador"></div>
+              </div>
+            <!-- Fim: Espaco para includes -->
+          </div>
+        <!-- Fim: Conteudo Interna -->
+      </div>
+    <!-- Fim: Alinhamento -->
+
+    <!-- Rodape -->
+		      <div id="rodape-alinhamento">
+		<div id="rodape">
+		     <div id="jornal-impresso">
+
+<!--
+    <a href="" onclick="link('http://jornal.crmmg.org.br/v2/index.php?edicao=2014/47');"><img alt="" src="img/titulo/titulo-jornal-rodape.gif" /></a>
+		    <br /><br />      
+		    <a href="" onclick="link('http://jornal.crmmg.org.br/v2/index.php?edicao=2014/47');"><img alt="" id="thumb-jornal-impresso" src="http://jornal.crmmg.org.br/v2/2014/47/img/capasite.jpg" width=74 /></a>
+		    <div id="jornal-impresso-chamada">
+		      <a class="txt-cinzaescuro txt-negrito" href="" onclick="link('http://jornal.crmmg.org.br/v2/index.php?edicao=2014/47');">Elei&ccedil;&otilde;es CRMMG 2013</a><br>
+             <a class="txt-cinzaescuro" href="" onclick="link('http://jornal.crmmg.org.br/v2/index.php?edicao=2014/47');">
+M&eacute;dicos mineiros come&ccedil;am a receber o material de vota&ccedil;&atilde;o em casa.
+</a>
+            </div>
+-->
+<!--
+		    <a href="" onclick="link('http://jornal.crmmg.org.br/v2/index.php?edicao=2014/50');"><img alt="" src="img/titulo/titulo-jornal-rodape.gif" /></a>
+		    <br /><br />      
+		    <a href="" onclick="link('http://jornal.crmmg.org.br/v2/index.php?edicao=2014/50');"><img alt="" id="thumb-jornal-impresso" src="https://www.crmmg.org.br/img/thumb/jornal_50.png" width=74 /></a>
+		    <div id="jornal-impresso-chamada">
+		      <a class="txt-cinzaescuro txt-negrito" href="" onclick="link('http://jornal.crmmg.org.br/v2/index.php?edicao=2014/50');">
+Mobiliza&ccedil;&atilde;o: m&eacute;dicos em defesa da sa&uacute;de
+
+</a><br>
+             <a class="txt-cinzaescuro" href="" onclick="link('http://jornal.crmmg.org.br/v2/index.php?edicao=2014/50');">
+Profissionais alertam a sociedade sobre a atual situa&ccedil;&atilde;o do setor no Pa&iacute;s
+
+</a>
+            </div>
+
+            <div id="jornal-impresso-edicoes" style="border:0px black solid;">
+-->
+
+<a href="" onclick="link('https://www.crmmg.org.br/jornalCRMMG/');"><img alt="" src="img/titulo/titulo-jornal-rodape.gif"></a>
+	<br><br>
+            <div id="jornal-impresso-capa">
+                <div>
+                    <a href="" onclick="link('http://www.flip3d.com.br/pub/crmmg/');"><img alt="" id="thumb-jornal-impresso" src="img/thumb/jornal_69.jpg" width="74"></a>
+                </div>
+
+            </div>
+<!--
+		    <div id="jornal-impresso-chamada">
+		      <a class="txt-cinzaescuro txt-negrito" href="" onclick="link('https://www.crmmg.org.br/jornalCRMMG/');">
+Sa&uacute;de mental em crise. P&aacute;ginas 6, 7 e 8.
+
+</a><br>
+              <a class="txt-cinzaescuro" href="" onclick="link('https://www.crmmg.org.br/jornalCRMMG/');"><!--definem o futuro do pa&iacute;s - pag 02.-->
+<!--
+</a>
+            </div>
+-->
+            <div id="jornal-impresso-edicoes" style="border:0px black solid;">
+
+		<!--              <a class="txt-cinzaescuro txt-negrito" href="" onclick="link('http://jornal.crmmg.org.br/v2/');">conferir &uacute;ltima edi&ccedil;&atilde;o</a><img alt="" class="seta" src="/img/bromura/seta-verde-no-branco.gif" />
+              <a class="txt-cinzaescuro" href="" onclick="redir('http://jornal.crmmg.org.br/v2/capa/');">edi&ccedil;&otilde;es anteriores</a><img alt="" class="seta" src="/img/bromura/seta-verdeagua-no-branco.gif" /> -->
+              <a class="txt-cinzaescuro" href="" onclick="redir('https://www.crmmg.org.br/jornalCRMMG/');">edições anteriores</a><img alt="" class="seta" src="img/bromura/seta-verdeagua-no-branco.gif">
+            </div>     
+            <div class="forcador"></div>
+          </div>
+          <div id="creditos">
+            <img alt="" src="img/comum/crm-logomarca-menor.gif" style="margin-bottom: 10px; float: none"><br>
+            <span class="txt-cinzaescuro txt-menor">Rua dos Timbiras, 1200, Boa Viagem</span><br>
+            <span class="txt-cinzaescuro txt-menor">Belo Horizonte/MG — 30140–064</span><br>
+            <span class="txt-cinzaescuro txt-menor">Horário de atendimento: 09:00h às 18:00h</span><br>
+			<span class="txt-cinzaescuro txt-menor">Geral: (31) 3248–7700</span><br>
+            <!--<span class="txt-cinzaescuro txt-menor">Fax: (31) 3248&ndash;7701</span><br />-->
+            <a class="txt-menor txt-negrito txt-verde" href="" onclick="redir('/interna.php?n1=16&amp;pagina=44');">FALE CONOSCO</a>
+          </div>
+             <!-- Conteudo | Delegacias Regionais -->
+             <div id="box-delegacias-regionais">
+              <span class="txt-cinzaescuro txt-menor">Delegacias Regionais:</span>
+              <form action="" method="get">
+                <fieldset>
+                  <select class="txt-menor txt-verde" id="select-delegacias-regionais" name="select-delegacias-regionais" onchange="vai('self', this);">
+                    <option class="txt-menor txt-verde" value="">Selecione</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=1">Alfenas</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=2">Araxá</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=3">Barbacena</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=4">Conselheiro Lafaiete</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=5">Divinópolis</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=6">Governador Valadares</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=7">Ipatinga</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=271">Itabira</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=8">Itajubá</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=9">João Monlevade</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=10">Juiz de Fora</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=11">Lavras</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=12">Montes Claros</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=13">Muriaé</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=14">Paracatu</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=15">Passos</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=16">Patos de Minas</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=17">Poços de Caldas</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=18">Pouso Alegre</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=19">São João del-Rei</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=20">Sete Lagoas</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=21">Teófilo Otoni</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=22">Uberaba</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=23">Uberlândia</option>
+                    <option class="txt-cinzaescuro txt-menor" value="/interna.php?n1=11&amp;n2=18&amp;pagina=49&amp;regional=24">Varginha</option>
+                  </select>
+                </fieldset>
+              </form>
+            </div>
+             <!-- Fim: Conteudo | Delegacias Regionais -->
+          <div class="forcador"></div>
+        </div>
+        <div id="rodape-copyright">
+            <span class="txt-cinzaescuro txt-menor">© Copyright 2008– 2025 — Todos os direitos reservados |</span> <span class="txt-cinzaescuro txt-menor txt-negrito"><a class="txt-cinzaescuro txt-menor" href="/interna.php?n1=16&amp;pagina=43">Termo de Uso e Política de Privacidade</a></span>
+        </div>
+      </div>
+
+    <!-- Fim: Rodape -->
+
+  
+  
+</body></html>

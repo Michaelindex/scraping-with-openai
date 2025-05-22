@@ -1,0 +1,554 @@
+2025-05-22 03:35:07,832 - P17020 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 03:35:07,833 - P17020 - INFO - Nome: ANTONIO FABIO TEIXEIRA
+2025-05-22 03:35:07,833 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 03:35:09,662 - P17020 - INFO - Após reiniciar driver Uso de memória: 127.14 MB
+2025-05-22 03:35:09,662 - P17020 - INFO - Início do processamento Uso de memória: 127.14 MB
+2025-05-22 03:35:09,662 - P17020 - INFO - Iniciando busca para: ANTONIO FABIO TEIXEIRA CRM 13737 BA telefone e-mail endereço
+2025-05-22 03:35:10,803 - P17020 - INFO - SearX results: 14 URLs
+2025-05-22 03:35:10,804 - P17020 - INFO - Após SearX Uso de memória: 127.14 MB
+2025-05-22 03:35:13,510 - P17020 - INFO - Google results: 7 URLs
+2025-05-22 03:35:13,510 - P17020 - INFO - Após Google Uso de memória: 128.91 MB
+2025-05-22 03:35:16,458 - P17020 - INFO - Bing results: 12 URLs
+2025-05-22 03:35:16,458 - P17020 - INFO - Após Bing Uso de memória: 128.91 MB
+2025-05-22 03:35:16,458 - P17020 - INFO - Total de URLs únicas: 22
+2025-05-22 03:35:16,458 - P17020 - INFO - Processando URL 1/22: https://www.sinj.df.gov.br/sinj/Diario/03e6235a-b079-3e1a-99b4-38fa01947030/DODF%20116%2020-06-2024%20INTEGRA.pdf
+2025-05-22 03:35:16,459 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.sinj.df.gov.br/sinj/Diario/03e6235a-b079-3e1a-99b4-38fa01947030/DODF%20116%2020-06-2024%20INTEGRA.pdf
+2025-05-22 03:35:16,459 - P17020 - INFO - Após processar URL 1 Uso de memória: 128.91 MB
+2025-05-22 03:35:16,459 - P17020 - INFO - Processando URL 2/22: https://www.sbd.org.br/mm/cms/2021/10/20/sbdcirurgioes-de-mohs2021v4.pdf
+2025-05-22 03:35:16,459 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.sbd.org.br/mm/cms/2021/10/20/sbdcirurgioes-de-mohs2021v4.pdf
+2025-05-22 03:35:16,459 - P17020 - INFO - Após processar URL 2 Uso de memória: 128.91 MB
+2025-05-22 03:35:16,459 - P17020 - INFO - Processando URL 3/22: https://www.gastrosbahia.com.br/gastroenterologia
+2025-05-22 03:35:19,024 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\98de04ca071320fc3db279ae98109337.html
+2025-05-22 03:35:19,058 - P17020 - INFO - Candidates address: 3 items
+2025-05-22 03:35:19,059 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:35:19,059 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 03:35:19,059 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:35:19,059 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 03:35:19,059 - P17020 - INFO - Após processar URL 3 Uso de memória: 130.24 MB
+2025-05-22 03:35:19,060 - P17020 - INFO - Processando URL 4/22: https://www.doctoralia.com.br/antonio-fabio-teixeira-2/cirurgiao-geral/feira-de-santana
+2025-05-22 03:35:19,060 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/antonio-fabio-teixeira-2/cirurgiao-geral/feira-de-santana
+2025-05-22 03:35:19,060 - P17020 - INFO - Após processar URL 4 Uso de memória: 128.91 MB
+2025-05-22 03:35:19,060 - P17020 - INFO - Processando URL 5/22: https://cliniguia.com/profissionais/antonio-fabio-teixeira-201564064240002/
+2025-05-22 03:35:24,976 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a32382c67a6f8502640fe8c67e3cdee2.html
+2025-05-22 03:35:25,022 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:35:25,022 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:35:25,023 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:35:25,023 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:35:25,023 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:35:25,023 - P17020 - INFO - Após processar URL 5 Uso de memória: 129.38 MB
+2025-05-22 03:35:25,023 - P17020 - INFO - Processando URL 6/22: https://consultacrm.com.br/
+2025-05-22 03:35:29,392 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:35:29,416 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:35:29,416 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:35:29,417 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:35:29,417 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:35:29,417 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:35:29,418 - P17020 - INFO - Após processar URL 6 Uso de memória: 129.30 MB
+2025-05-22 03:35:29,418 - P17020 - INFO - Processando URL 7/22: https://www.ampe-med.com/site/buscarmedicos.php
+2025-05-22 03:35:33,314 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\17bee1c509801e31ab3458fb69cc1424.html
+2025-05-22 03:35:33,997 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:35:33,997 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:35:33,997 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 03:35:33,998 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:35:33,998 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 03:35:33,998 - P17020 - INFO - Após processar URL 7 Uso de memória: 124.62 MB
+2025-05-22 03:35:33,998 - P17020 - INFO - Processando URL 8/22: https://www.doctoralia.com.br/antonio-fabio-teixeira-2/cirurgiao-geral/feira-de-santana#:~:text=06%20out.%202011Ele%20salvou
+2025-05-22 03:35:33,998 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/antonio-fabio-teixeira-2/cirurgiao-geral/feira-de-santana#:~:text=06%20out.%202011Ele%20salvou
+2025-05-22 03:35:33,999 - P17020 - INFO - Após processar URL 8 Uso de memória: 122.80 MB
+2025-05-22 03:35:33,999 - P17020 - INFO - Processando URL 9/22: https://www.doctoralia.com.br/antonio-fabio-teixeira-2/cirurgiao-geral/feira-de-santana#:~:text=Marcar%20uma%20consulta%20com
+2025-05-22 03:35:33,999 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/antonio-fabio-teixeira-2/cirurgiao-geral/feira-de-santana#:~:text=Marcar%20uma%20consulta%20com
+2025-05-22 03:35:33,999 - P17020 - INFO - Após processar URL 9 Uso de memória: 122.80 MB
+2025-05-22 03:35:33,999 - P17020 - INFO - Processando URL 10/22: https://web.trf3.jus.br/diario/consulta/BaixarPdf/13737
+2025-05-22 03:35:36,185 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\51329d86a2d639442b4b6f830a2bc4c3.html
+2025-05-22 03:35:36,780 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:35:36,780 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:35:36,780 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 03:35:36,780 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:35:36,780 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 03:35:36,781 - P17020 - INFO - Após processar URL 10 Uso de memória: 125.72 MB
+2025-05-22 03:35:36,781 - P17020 - INFO - Processando URL 11/22: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo696.pdf
+2025-05-22 03:35:36,781 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo696.pdf
+2025-05-22 03:35:36,781 - P17020 - INFO - Após processar URL 11 Uso de memória: 123.90 MB
+2025-05-22 03:35:36,781 - P17020 - INFO - Processando URL 12/22: https://osasco.sp.gov.br/site/wp-content/uploads/2015/08/httposasco.sp_.gov_.brcompsec1atosEd1162.pdf
+2025-05-22 03:35:36,782 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2015/08/httposasco.sp_.gov_.brcompsec1atosEd1162.pdf
+2025-05-22 03:35:36,782 - P17020 - INFO - Após processar URL 12 Uso de memória: 123.90 MB
+2025-05-22 03:35:36,782 - P17020 - INFO - Processando URL 13/22: https://crmvirtual.cfm.org.br/BA/servico/pesquisa-por-medicos
+2025-05-22 03:35:39,081 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\344d5185fc7be121f6bd5df93a5125ac.html
+2025-05-22 03:35:39,090 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:35:39,090 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:35:39,091 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:35:39,091 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:35:39,091 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:35:39,091 - P17020 - INFO - Após processar URL 13 Uso de memória: 123.95 MB
+2025-05-22 03:35:39,091 - P17020 - INFO - Processando URL 14/22: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/108827/Caderno_JUD_BA_2016-04-06_VIII_61.pdf?sequence=2&isAllowed=y
+2025-05-22 03:35:39,091 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/108827/Caderno_JUD_BA_2016-04-06_VIII_61.pdf?sequence=2&isAllowed=y
+2025-05-22 03:35:39,092 - P17020 - INFO - Após processar URL 14 Uso de memória: 123.95 MB
+2025-05-22 03:35:39,092 - P17020 - INFO - Processando URL 15/22: https://www.doctoralia.com.br/medico-de-familia/salvador?page=2
+2025-05-22 03:35:39,092 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/medico-de-familia/salvador?page=2
+2025-05-22 03:35:39,092 - P17020 - INFO - Após processar URL 15 Uso de memória: 123.95 MB
+2025-05-22 03:35:39,092 - P17020 - INFO - Processando URL 16/22: https://www.medicosbrasil.com/profissional/antonio-fabio-teixeira
+2025-05-22 03:35:42,774 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\35bef890fd05df892c3962252b20624c.html
+2025-05-22 03:35:42,794 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:35:42,794 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:35:42,794 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:35:42,794 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:35:42,794 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:35:42,795 - P17020 - INFO - Após processar URL 16 Uso de memória: 125.49 MB
+2025-05-22 03:35:42,795 - P17020 - INFO - Processando URL 17/22: https://www.classemedica.com.br/medico/33965-antonio-fabio-teixeira.htm
+2025-05-22 03:35:50,917 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\15d6ac3cb348e8ed81f1844fd5d3e88f.html
+2025-05-22 03:35:50,944 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:35:50,944 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:35:50,944 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:35:50,945 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:35:50,945 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:35:50,945 - P17020 - INFO - Após processar URL 17 Uso de memória: 126.59 MB
+2025-05-22 03:35:50,945 - P17020 - INFO - Processando URL 18/22: https://www.cremeb.org.br/index.php/buscar-medicos/
+2025-05-22 03:35:55,166 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\baa85b25dd073ee15bf77dd594b13554.html
+2025-05-22 03:35:55,194 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:35:55,196 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:35:55,197 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:35:55,197 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:35:55,197 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:35:55,197 - P17020 - INFO - Após processar URL 18 Uso de memória: 127.07 MB
+2025-05-22 03:35:55,197 - P17020 - INFO - Processando URL 19/22: https://www.gastrosbahia.com.br/corpoclinico
+2025-05-22 03:35:57,523 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f5803ef13f48c844b67719e765205739.html
+2025-05-22 03:35:57,589 - P17020 - INFO - Candidates address: 3 items
+2025-05-22 03:35:57,603 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:35:57,603 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 03:35:57,604 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:35:57,604 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 03:35:57,605 - P17020 - INFO - Após processar URL 19 Uso de memória: 129.01 MB
+2025-05-22 03:35:57,605 - P17020 - INFO - Processando URL 20/22: https://www.consultasocio.com/q/sa/antonio-fabio-teixeira
+2025-05-22 03:36:02,507 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c2813de4fd48e02eef58ffef9c613256.html
+2025-05-22 03:36:02,518 - P17020 - INFO - Candidates address: 7 items
+2025-05-22 03:36:02,519 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:36:02,519 - P17020 - INFO - Candidates email: 5 items
+2025-05-22 03:36:02,519 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 03:36:02,519 - P17020 - INFO - Candidates cep: 15 items
+2025-05-22 03:36:02,519 - P17020 - INFO - Após processar URL 20 Uso de memória: 127.68 MB
+2025-05-22 03:36:02,520 - P17020 - INFO - Processando URL 21/22: https://www.catalogo.med.br/doutor/antonio-fabio-teixeira-1657697.htm
+2025-05-22 03:36:04,689 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\fece80cf3c90169e2ebfab718da9a20d.html
+2025-05-22 03:36:04,690 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:36:04,690 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:36:04,690 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:36:04,690 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:36:04,690 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:36:04,691 - P17020 - INFO - Após processar URL 21 Uso de memória: 127.68 MB
+2025-05-22 03:36:04,691 - P17020 - INFO - Processando URL 22/22: https://www.boaconsulta.com/especialista/antonio-fabio-teixeira-61058d09ba32c30a82003600
+2025-05-22 03:36:08,005 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2849b1366104b716deac07306d52614e.html
+2025-05-22 03:36:08,056 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:36:08,056 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:36:08,057 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:36:08,057 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:36:08,057 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:36:08,058 - P17020 - INFO - Após processar URL 22 Uso de memória: 127.69 MB
+2025-05-22 03:36:08,058 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:36:08,058 - P17020 - INFO - Ranked address: 12 items
+2025-05-22 03:36:08,058 - P17020 - INFO - Ranked phone: 2 items
+2025-05-22 03:36:08,059 - P17020 - INFO - Ranked email: 11 items
+2025-05-22 03:36:08,059 - P17020 - INFO - Ranked complement: 1 items
+2025-05-22 03:36:08,059 - P17020 - INFO - Ranked cep: 18 items
+2025-05-22 03:36:08,060 - P17020 - INFO - Após agregação Uso de memória: 127.69 MB
+2025-05-22 03:36:08,060 - P17020 - INFO - Validando endereço: ['R. Barão do Rio Branco, 857', 'Rua Barão do Rio Branco, 882', 'R. Aristídes Novis, 102']
+2025-05-22 03:36:08,060 - P17020 - INFO - Endereço validado: R. Barão do Rio Branco, 857
+2025-05-22 03:36:08,061 - P17020 - INFO - Limpando texto extenso para campo address: R. Barão do Rio Branco, 857...
+2025-05-22 03:36:08,062 - P17020 - INFO - Texto limpo: R. Barão do Rio Branco, 857
+2025-05-22 03:36:08,062 - P17020 - INFO - Validando telefone: ['(75) 3211-3555', '(71) 3339-2800']
+2025-05-22 03:36:08,063 - P17020 - INFO - Limpando texto extenso para campo phone: (75) 3211-3555...
+2025-05-22 03:36:08,063 - P17020 - INFO - Texto limpo: 75) 3211-3555
+2025-05-22 03:36:08,063 - P17020 - INFO - Telefone validado: 75) 3211-3555
+2025-05-22 03:36:08,063 - P17020 - INFO - Validando email: ['timedeencantadores@gastrosbahia.com.br', 'timedetalentos@gastrosbahia.com.br', 'somepe.ampe@hotmail.com']
+2025-05-22 03:36:08,064 - P17020 - INFO - Limpando texto extenso para campo email: timedeencantadores@gastrosbahia.com.br...
+2025-05-22 03:36:08,064 - P17020 - INFO - Texto limpo: timedeencantadores@gastrosbahia.com.br
+2025-05-22 03:36:08,064 - P17020 - INFO - Email validado: timedeencantadores@gastrosbahia.com.br
+2025-05-22 03:36:08,064 - P17020 - INFO - Validando complemento: ['Sala  404                       C E Augusto Freitas Ce']
+2025-05-22 03:36:08,064 - P17020 - INFO - Limpando texto extenso para campo complement: Sala  404                       C E Augusto Freita...
+2025-05-22 03:36:08,065 - P17020 - INFO - Texto limpo: Sala 404
+2025-05-22 03:36:08,065 - P17020 - INFO - Complemento validado: Sala 404
+2025-05-22 03:36:08,065 - P17020 - INFO - Descobrindo cidade
+2025-05-22 03:36:08,065 - P17020 - INFO - Buscando cidade: R. Barão do Rio Branco cidade BA
+2025-05-22 03:36:10,707 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 03:36:10,707 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 03:36:10,707 - P17020 - INFO - Tempo de execução de processamento completo do médico: 61.05 segundos
+2025-05-22 03:36:10,708 - P17020 - INFO - Resultado processado: {'Hash': '2b8f054d04692c5b4505cab458858136e35a7352e072c11f04609ccad208e053', 'CRM': '13737', 'UF': 'BA', 'Firstname': 'ANTONIO', 'LastName': 'FABIO TEIXEIRA', 'Medical specialty': '', 'Endereco Completo A1': 'R. Barão do Rio Branco, 857', 'Address A1': 'R. Barão do Rio Branco', 'Numero A1': '857', 'Complement A1': 'Sala 404', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '75) 3211-3555', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'timedeencantadores@gastrosbahia.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:36:10,709 - P17020 - INFO - Progresso: 50.9%
+2025-05-22 03:36:10,709 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 03:36:10,850 - P17020 - INFO - Após coleta de lixo Uso de memória: 119.46 MB
+2025-05-22 03:36:10,851 - P17020 - INFO - Tempo de execução de processamento do médico 1: 63.02 segundos
+2025-05-22 03:36:10,851 - P17020 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 03:36:10,851 - P17020 - INFO - Nome: DANIEL SANTANA FARIAS
+2025-05-22 03:36:10,852 - P17020 - INFO - Início do processamento Uso de memória: 119.46 MB
+2025-05-22 03:36:10,852 - P17020 - INFO - Iniciando busca para: DANIEL SANTANA FARIAS CRM 15878 BA telefone e-mail endereço
+2025-05-22 03:36:11,659 - P17020 - INFO - SearX results: 15 URLs
+2025-05-22 03:36:11,660 - P17020 - INFO - Após SearX Uso de memória: 119.48 MB
+2025-05-22 03:36:14,232 - P17020 - INFO - Google results: 10 URLs
+2025-05-22 03:36:14,233 - P17020 - INFO - Após Google Uso de memória: 122.31 MB
+2025-05-22 03:36:16,953 - P17020 - INFO - Bing results: 13 URLs
+2025-05-22 03:36:16,953 - P17020 - INFO - Após Bing Uso de memória: 123.80 MB
+2025-05-22 03:36:16,953 - P17020 - INFO - Total de URLs únicas: 26
+2025-05-22 03:36:16,953 - P17020 - INFO - Processando URL 1/26: https://www.consultacrm.com.br/index/profissionais/uid-90ad10f0-f5c5-11ec-9e74-0a4aa568c625/daniel_santana_farias
+2025-05-22 03:36:21,723 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5feb9136889e011e878739217072a030.html
+2025-05-22 03:36:21,738 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:36:21,743 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:36:21,748 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:36:21,748 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:36:21,749 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:36:21,749 - P17020 - INFO - Após processar URL 1 Uso de memória: 125.07 MB
+2025-05-22 03:36:21,750 - P17020 - INFO - Processando URL 2/26: https://www.doctoralia.com.br/neurologista/salvador/sao-marcos
+2025-05-22 03:36:21,750 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/neurologista/salvador/sao-marcos
+2025-05-22 03:36:21,750 - P17020 - INFO - Após processar URL 2 Uso de memória: 125.07 MB
+2025-05-22 03:36:21,751 - P17020 - INFO - Processando URL 3/26: https://www.doctoralia.com.br/daniel-santana-farias/neurologista/sao-paulo
+2025-05-22 03:36:21,751 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/daniel-santana-farias/neurologista/sao-paulo
+2025-05-22 03:36:21,751 - P17020 - INFO - Após processar URL 3 Uso de memória: 125.07 MB
+2025-05-22 03:36:21,751 - P17020 - INFO - Processando URL 4/26: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20190918&idorgao=725
+2025-05-22 03:36:27,473 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\83171ba04746accf20336632282e68f0.html
+2025-05-22 03:36:28,125 - P17020 - INFO - Candidates address: 45 items
+2025-05-22 03:36:28,125 - P17020 - INFO - Candidates phone: 4 items
+2025-05-22 03:36:28,125 - P17020 - INFO - Candidates email: 5 items
+2025-05-22 03:36:28,126 - P17020 - INFO - Candidates complement: 5 items
+2025-05-22 03:36:28,126 - P17020 - INFO - Candidates cep: 35 items
+2025-05-22 03:36:28,126 - P17020 - INFO - Após processar URL 4 Uso de memória: 128.52 MB
+2025-05-22 03:36:28,126 - P17020 - INFO - Processando URL 5/26: https://www.econodata.com.br/consulta-empresa/07314885000142-CLINEB-CLINICA-DE-NEUROLOGIA-DA-BAHIA-E-ASSOCIADOS-LTDA
+2025-05-22 03:36:33,096 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f56e00d8bcf3d487957c8dfe5438c7a7.html
+2025-05-22 03:36:33,264 - P17020 - INFO - Candidates address: 19 items
+2025-05-22 03:36:33,264 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:36:33,264 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:36:33,265 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 03:36:33,265 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:36:33,265 - P17020 - INFO - Após processar URL 5 Uso de memória: 126.84 MB
+2025-05-22 03:36:33,265 - P17020 - INFO - Processando URL 6/26: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20201116&idorgao=725
+2025-05-22 03:36:38,024 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d9e54ee948ec675637d88e1ea47de301.html
+2025-05-22 03:36:38,689 - P17020 - INFO - Candidates address: 20 items
+2025-05-22 03:36:38,689 - P17020 - INFO - Candidates phone: 5 items
+2025-05-22 03:36:38,689 - P17020 - INFO - Candidates email: 6 items
+2025-05-22 03:36:38,689 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 03:36:38,689 - P17020 - INFO - Candidates cep: 17 items
+2025-05-22 03:36:38,689 - P17020 - INFO - Após processar URL 6 Uso de memória: 127.54 MB
+2025-05-22 03:36:38,690 - P17020 - INFO - Processando URL 7/26: https://consultacrm.com.br/
+2025-05-22 03:36:42,100 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:36:42,111 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:36:42,111 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:36:42,111 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:36:42,111 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:36:42,112 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:36:42,112 - P17020 - INFO - Após processar URL 7 Uso de memória: 125.69 MB
+2025-05-22 03:36:42,112 - P17020 - INFO - Processando URL 8/26: https://www.stf.jus.br/arquivo/djEletronico/DJE_20220810_159.pdf
+2025-05-22 03:36:42,112 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.stf.jus.br/arquivo/djEletronico/DJE_20220810_159.pdf
+2025-05-22 03:36:42,112 - P17020 - INFO - Após processar URL 8 Uso de memória: 125.69 MB
+2025-05-22 03:36:42,113 - P17020 - INFO - Processando URL 9/26: https://cliniguia.com/profissionais/daniel-santana-farias-201563882640002/
+2025-05-22 03:36:47,130 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a00b851f806ca13dacd1e70b51a7c6a2.html
+2025-05-22 03:36:47,183 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:36:47,183 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:36:47,183 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:36:47,183 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:36:47,183 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:36:47,183 - P17020 - INFO - Após processar URL 9 Uso de memória: 125.94 MB
+2025-05-22 03:36:47,184 - P17020 - INFO - Processando URL 10/26: https://www.boaconsulta.com/especialista/daniel-santana-farias-61057fadba32c30740000b30
+2025-05-22 03:36:49,419 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b6d032772fe185ec890da14b7176a949.html
+2025-05-22 03:36:49,514 - P17020 - INFO - Candidates address: 5 items
+2025-05-22 03:36:49,514 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:36:49,515 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:36:49,515 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:36:49,515 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:36:49,515 - P17020 - INFO - Após processar URL 10 Uso de memória: 127.39 MB
+2025-05-22 03:36:49,515 - P17020 - INFO - Processando URL 11/26: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1971528378.pdf
+2025-05-22 03:36:49,515 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1971528378.pdf
+2025-05-22 03:36:49,515 - P17020 - INFO - Após processar URL 11 Uso de memória: 127.39 MB
+2025-05-22 03:36:49,516 - P17020 - INFO - Processando URL 12/26: https://www.medicosbrasil.com/profissional/daniel-santana-farias
+2025-05-22 03:36:51,690 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5bf0f83ce9fd9e0a137c85b38e2f792f.html
+2025-05-22 03:36:51,693 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:36:51,693 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:36:51,693 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:36:51,693 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:36:51,694 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:36:51,694 - P17020 - INFO - Após processar URL 12 Uso de memória: 127.40 MB
+2025-05-22 03:36:51,694 - P17020 - INFO - Processando URL 13/26: https://www.doctuo.com.br/medicos/daniel-santana-farias
+2025-05-22 03:36:51,694 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctuo.com.br/medicos/daniel-santana-farias
+2025-05-22 03:36:51,695 - P17020 - INFO - Após processar URL 13 Uso de memória: 127.40 MB
+2025-05-22 03:36:51,695 - P17020 - INFO - Processando URL 14/26: https://inteligen.com.br/empresa/daniel-santana-farias-clineb-clinica-de-neurologia-da-bahia-e-associados-ltda-07314885000142
+2025-05-22 03:36:54,358 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f84d15a2ae6596ae1e506e5ebf6a6675.html
+2025-05-22 03:36:54,404 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:36:54,405 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:36:54,405 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:36:54,406 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 03:36:54,407 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 03:36:54,407 - P17020 - INFO - Após processar URL 14 Uso de memória: 127.42 MB
+2025-05-22 03:36:54,407 - P17020 - INFO - Processando URL 15/26: https://www.sinj.df.gov.br/sinj/Diario/67ac9829-1ef3-3372-8cc1-a0430791fd07/DODF%20204%2023-10-2024%20INTEGRA.pdf
+2025-05-22 03:36:54,409 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.sinj.df.gov.br/sinj/Diario/67ac9829-1ef3-3372-8cc1-a0430791fd07/DODF%20204%2023-10-2024%20INTEGRA.pdf
+2025-05-22 03:36:54,409 - P17020 - INFO - Após processar URL 15 Uso de memória: 127.42 MB
+2025-05-22 03:36:54,410 - P17020 - INFO - Processando URL 16/26: https://www.funservir.com.br/estrutura/servicos/imprime.php
+2025-05-22 03:36:58,987 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\615102634048a5b6e3ef2fdd8512c697.html
+2025-05-22 03:36:58,989 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:36:58,989 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:36:58,989 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:36:58,989 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:36:58,989 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:36:58,990 - P17020 - INFO - Após processar URL 16 Uso de memória: 127.42 MB
+2025-05-22 03:36:58,990 - P17020 - INFO - Processando URL 17/26: https://cnpj.biz/07314885000142
+2025-05-22 03:37:03,784 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\1d88c162615d7dde503fbb8d17605932.html
+2025-05-22 03:37:03,821 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 03:37:03,823 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:37:03,823 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:37:03,824 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 03:37:03,824 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 03:37:03,825 - P17020 - INFO - Após processar URL 17 Uso de memória: 127.45 MB
+2025-05-22 03:37:03,828 - P17020 - INFO - Processando URL 18/26: https://www.igepps.pa.gov.br/sites/default/files/2023.06.29.DOE.pdf
+2025-05-22 03:37:03,839 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.igepps.pa.gov.br/sites/default/files/2023.06.29.DOE.pdf
+2025-05-22 03:37:03,842 - P17020 - INFO - Após processar URL 18 Uso de memória: 127.45 MB
+2025-05-22 03:37:03,843 - P17020 - INFO - Processando URL 19/26: http://www.ioepa.com.br/arquivos/2024/2024.12.23.DOE.pdf
+2025-05-22 03:37:03,848 - P17020 - INFO - Ignorando URL de arquivo não-HTML: http://www.ioepa.com.br/arquivos/2024/2024.12.23.DOE.pdf
+2025-05-22 03:37:03,855 - P17020 - INFO - Após processar URL 19 Uso de memória: 127.45 MB
+2025-05-22 03:37:03,859 - P17020 - INFO - Processando URL 20/26: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20210608&idorgao=347
+2025-05-22 03:37:07,937 - P17020 - WARNING - Página muito grande (3.11MB), truncando
+2025-05-22 03:37:07,961 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5dcf735e53a46c8360d5de481d6b3a09.html
+2025-05-22 03:37:11,291 - P17020 - INFO - Candidates address: 115 items
+2025-05-22 03:37:11,291 - P17020 - INFO - Candidates phone: 11 items
+2025-05-22 03:37:11,292 - P17020 - INFO - Candidates email: 65 items
+2025-05-22 03:37:11,292 - P17020 - INFO - Candidates complement: 6 items
+2025-05-22 03:37:11,292 - P17020 - INFO - Candidates cep: 79 items
+2025-05-22 03:37:11,292 - P17020 - INFO - Após processar URL 20 Uso de memória: 133.69 MB
+2025-05-22 03:37:11,292 - P17020 - INFO - Processando URL 21/26: https://www.classemedica.com.br/medico/408357-daniel-santana-farias.htm
+2025-05-22 03:37:18,641 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\87d74a665a338a6bf2f7ad2890da5d2d.html
+2025-05-22 03:37:18,760 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:37:18,760 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:37:18,761 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:37:18,761 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:37:18,761 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:37:18,761 - P17020 - INFO - Após processar URL 21 Uso de memória: 128.04 MB
+2025-05-22 03:37:18,761 - P17020 - INFO - Processando URL 22/26: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-31-05-2022.pdf
+2025-05-22 03:37:18,761 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-31-05-2022.pdf
+2025-05-22 03:37:18,761 - P17020 - INFO - Após processar URL 22 Uso de memória: 128.04 MB
+2025-05-22 03:37:18,761 - P17020 - INFO - Processando URL 23/26: https://www.doctoralia.com.br/neurologista/santo-amaro/chame-chame2
+2025-05-22 03:37:18,762 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/neurologista/santo-amaro/chame-chame2
+2025-05-22 03:37:18,762 - P17020 - INFO - Após processar URL 23 Uso de memória: 128.04 MB
+2025-05-22 03:37:18,762 - P17020 - INFO - Processando URL 24/26: https://www.telelistas.net/locais/ba/salvador/ambulatorios/bu-21167092/daniel+santana+farias+em+federacao
+2025-05-22 03:37:21,266 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7eecd90f69e0fcbc98a94d7eebd93e93.html
+2025-05-22 03:37:21,284 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:37:21,285 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 03:37:21,285 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:37:21,285 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:37:21,285 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:37:21,285 - P17020 - INFO - Após processar URL 24 Uso de memória: 128.04 MB
+2025-05-22 03:37:21,286 - P17020 - INFO - Processando URL 25/26: https://www.doctoralia.com.br/doencas/esclerose-multipla/salvador
+2025-05-22 03:37:21,287 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/doencas/esclerose-multipla/salvador
+2025-05-22 03:37:21,289 - P17020 - INFO - Após processar URL 25 Uso de memória: 128.04 MB
+2025-05-22 03:37:21,290 - P17020 - INFO - Processando URL 26/26: https://www.doctoralia.com.br/neurologista/aracatuba
+2025-05-22 03:37:21,290 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/neurologista/aracatuba
+2025-05-22 03:37:21,291 - P17020 - INFO - Após processar URL 26 Uso de memória: 128.04 MB
+2025-05-22 03:37:21,292 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:37:21,292 - P17020 - INFO - Ranked address: 204 items
+2025-05-22 03:37:21,293 - P17020 - INFO - Ranked phone: 22 items
+2025-05-22 03:37:21,293 - P17020 - INFO - Ranked email: 77 items
+2025-05-22 03:37:21,293 - P17020 - INFO - Ranked complement: 18 items
+2025-05-22 03:37:21,293 - P17020 - INFO - Ranked cep: 130 items
+2025-05-22 03:37:21,294 - P17020 - INFO - Após agregação Uso de memória: 128.04 MB
+2025-05-22 03:37:21,295 - P17020 - INFO - Validando endereço: ['Avenida Vasco da Gama, 655', 'Avenida Carapebus, 226', 'Rua Desembargador Homero Mafra, 60']
+2025-05-22 03:37:21,295 - P17020 - INFO - Endereço validado: Avenida Vasco da Gama, 655
+2025-05-22 03:37:21,295 - P17020 - INFO - Limpando texto extenso para campo address: Avenida Vasco da Gama, 655...
+2025-05-22 03:37:21,296 - P17020 - INFO - Texto limpo: Avenida Vasco da Gama, 655
+2025-05-22 03:37:21,296 - P17020 - INFO - Validando telefone: ['(71) 3451-8965', '(27) 3357-4817', '(27) 3357-4820']
+2025-05-22 03:37:21,297 - P17020 - INFO - Limpando texto extenso para campo phone: (71) 3451-8965...
+2025-05-22 03:37:21,297 - P17020 - INFO - Texto limpo: 71) 3451-8965
+2025-05-22 03:37:21,297 - P17020 - INFO - Telefone validado: 71) 3451-8965
+2025-05-22 03:37:21,298 - P17020 - INFO - Validando email: ['dydafarias1@gmail.com', '3CIVEL-SERRA@TJES.JUS.BR', '4civel-serra@tjes.jus.br']
+2025-05-22 03:37:21,299 - P17020 - INFO - Limpando texto extenso para campo email: dydafarias1@gmail.com...
+2025-05-22 03:37:21,299 - P17020 - INFO - Texto limpo: dydafarias1@gmail.com
+2025-05-22 03:37:21,300 - P17020 - INFO - Email validado: dydafarias1@gmail.com
+2025-05-22 03:37:21,300 - P17020 - INFO - Validando complemento: ['Conjunto Atos Normativos Atos Corregedoria Geral Da Justiç', 'Bloco 01', 'Bloco 06']
+2025-05-22 03:37:21,300 - P17020 - INFO - Limpando texto extenso para campo complement: Conjunto Atos Normativos Atos Corregedoria Geral D...
+2025-05-22 03:37:21,301 - P17020 - INFO - Texto limpo: Conjunto Atos Normativos Atos
+2025-05-22 03:37:21,301 - P17020 - INFO - Complemento validado: Conjunto Atos Normativos Atos
+2025-05-22 03:37:21,301 - P17020 - INFO - Descobrindo cidade
+2025-05-22 03:37:21,302 - P17020 - INFO - Buscando cidade: Avenida Vasco da Gama cidade BA
+2025-05-22 03:37:24,190 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 03:37:24,190 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 03:37:24,190 - P17020 - INFO - Tempo de execução de processamento completo do médico: 73.34 segundos
+2025-05-22 03:37:24,191 - P17020 - INFO - Resultado processado: {'Hash': '885414ab42471b7a91c45a26ae7eb6c925ece0729c6f74f4aab2fa5e752d6487', 'CRM': '15878', 'UF': 'BA', 'Firstname': 'DANIEL', 'LastName': 'SANTANA FARIAS', 'Medical specialty': '', 'Endereco Completo A1': 'Avenida Vasco da Gama, 655', 'Address A1': 'Avenida Vasco da Gama', 'Numero A1': '655', 'Complement A1': 'Conjunto Atos Normativos Atos', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '71) 3451-8965', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'dydafarias1@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:37:24,192 - P17020 - INFO - Progresso: 51.3%
+2025-05-22 03:37:24,192 - P17020 - INFO - Tempo de execução de processamento do médico 2: 73.34 segundos
+2025-05-22 03:37:24,193 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 03:37:24,193 - P17020 - INFO - Nome: CAROLINA CUNHA MORAES
+2025-05-22 03:37:24,194 - P17020 - INFO - Início do processamento Uso de memória: 128.06 MB
+2025-05-22 03:37:24,194 - P17020 - INFO - Iniciando busca para: CAROLINA CUNHA MORAES CRM 21051 BA telefone e-mail endereço
+2025-05-22 03:37:24,953 - P17020 - INFO - SearX results: 14 URLs
+2025-05-22 03:37:24,970 - P17020 - INFO - Após SearX Uso de memória: 128.06 MB
+2025-05-22 03:37:27,474 - P17020 - INFO - Google results: 5 URLs
+2025-05-22 03:37:27,475 - P17020 - INFO - Após Google Uso de memória: 130.18 MB
+2025-05-22 03:37:29,936 - P17020 - INFO - Bing results: 9 URLs
+2025-05-22 03:37:29,937 - P17020 - INFO - Após Bing Uso de memória: 131.55 MB
+2025-05-22 03:37:29,937 - P17020 - INFO - Total de URLs únicas: 20
+2025-05-22 03:37:29,937 - P17020 - INFO - Processando URL 1/20: https://cliniguia.com/profissionais/carolina-cunha-moraes-accioly-980016285684427/
+2025-05-22 03:37:34,285 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\1b27d82e5dd34b59bdd794be8e0cee77.html
+2025-05-22 03:37:34,354 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:37:34,354 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:37:34,354 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:37:34,354 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:37:34,354 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:37:34,355 - P17020 - INFO - Após processar URL 1 Uso de memória: 132.62 MB
+2025-05-22 03:37:34,355 - P17020 - INFO - Processando URL 2/20: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1102912340.pdf
+2025-05-22 03:37:34,355 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1102912340.pdf
+2025-05-22 03:37:34,355 - P17020 - INFO - Após processar URL 2 Uso de memória: 131.56 MB
+2025-05-22 03:37:34,356 - P17020 - INFO - Processando URL 3/20: https://consultacrm.com.br/
+2025-05-22 03:37:39,065 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:37:39,077 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:37:39,079 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:37:39,080 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:37:39,081 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:37:39,083 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:37:39,083 - P17020 - INFO - Após processar URL 3 Uso de memória: 131.66 MB
+2025-05-22 03:37:39,086 - P17020 - INFO - Processando URL 4/20: https://ppgms.ufba.br/pt-br/carolina-cunha-moraes-accioly
+2025-05-22 03:37:41,566 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\abcf050c98bf86a5fc45cfc5c6279ee4.html
+2025-05-22 03:37:41,578 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:37:41,578 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:37:41,579 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:37:41,579 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:37:41,579 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 03:37:41,579 - P17020 - INFO - Após processar URL 4 Uso de memória: 131.67 MB
+2025-05-22 03:37:41,579 - P17020 - INFO - Processando URL 5/20: https://www.medicosbrasil.com/profissional/carolina-cunha-moraes-accioly
+2025-05-22 03:37:43,797 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a90f030250af960c8a687afc2e12be45.html
+2025-05-22 03:37:43,799 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:37:43,799 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:37:43,799 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:37:43,799 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:37:43,799 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:37:43,800 - P17020 - INFO - Após processar URL 5 Uso de memória: 131.67 MB
+2025-05-22 03:37:43,800 - P17020 - INFO - Processando URL 6/20: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2025/DMPF-ADMINISTRATIVO-2025-02-28.pdf
+2025-05-22 03:37:43,800 - P17020 - INFO - Ignorando URL de arquivo não-HTML: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2025/DMPF-ADMINISTRATIVO-2025-02-28.pdf
+2025-05-22 03:37:43,800 - P17020 - INFO - Após processar URL 6 Uso de memória: 131.67 MB
+2025-05-22 03:37:43,801 - P17020 - INFO - Processando URL 7/20: http://www.rio.rj.gov.br/documents/91325/7584086/manual_rede_medica_rioserv_top.pdf
+2025-05-22 03:37:43,801 - P17020 - INFO - Ignorando URL de arquivo não-HTML: http://www.rio.rj.gov.br/documents/91325/7584086/manual_rede_medica_rioserv_top.pdf
+2025-05-22 03:37:43,801 - P17020 - INFO - Após processar URL 7 Uso de memória: 131.67 MB
+2025-05-22 03:37:43,802 - P17020 - INFO - Processando URL 8/20: https://www.escavador.com/sobre/4013648/carolina-cunha-moraes
+2025-05-22 03:37:47,979 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5940cf23aa6f72394f693470fba99a01.html
+2025-05-22 03:37:47,996 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:37:47,997 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:37:47,999 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:37:47,999 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:37:48,000 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:37:48,000 - P17020 - INFO - Após processar URL 8 Uso de memória: 131.82 MB
+2025-05-22 03:37:48,000 - P17020 - INFO - Processando URL 9/20: https://itapevi.sp.gov.br/wp-content/uploads/2022/07/edicao-1056.pdf
+2025-05-22 03:37:48,001 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://itapevi.sp.gov.br/wp-content/uploads/2022/07/edicao-1056.pdf
+2025-05-22 03:37:48,001 - P17020 - INFO - Após processar URL 9 Uso de memória: 131.82 MB
+2025-05-22 03:37:48,001 - P17020 - INFO - Processando URL 10/20: https://www.medguias.com.br/ba/salvador/medicina/ortopedia-e-traumatologia/carolina-moraes
+2025-05-22 03:37:53,662 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\096b0654006e72aed70eec46bc8a59b5.html
+2025-05-22 03:37:53,718 - P17020 - INFO - Candidates address: 5 items
+2025-05-22 03:37:53,718 - P17020 - INFO - Candidates phone: 6 items
+2025-05-22 03:37:53,718 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:37:53,718 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 03:37:53,719 - P17020 - INFO - Candidates cep: 8 items
+2025-05-22 03:37:53,719 - P17020 - INFO - Após processar URL 10 Uso de memória: 131.84 MB
+2025-05-22 03:37:53,719 - P17020 - INFO - Processando URL 11/20: https://diariooficial.santos.sp.gov.br/edicoes/inicio/download/2025-01-17
+2025-05-22 03:37:55,838 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d08e61812da3e41e616c8e2a59725320.html
+2025-05-22 03:37:55,839 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:37:55,839 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:37:55,839 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:37:55,839 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:37:55,839 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:37:55,840 - P17020 - INFO - Após processar URL 11 Uso de memória: 131.84 MB
+2025-05-22 03:37:55,840 - P17020 - INFO - Processando URL 12/20: https://www.helpsaude.com/Carolina-Cunha-Moraes.BA/
+2025-05-22 03:38:02,315 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4710548cb2dac44f46d1637123801918.html
+2025-05-22 03:38:02,328 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:38:02,328 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:38:02,328 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:38:02,329 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:38:02,329 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:38:02,329 - P17020 - INFO - Após processar URL 12 Uso de memória: 131.84 MB
+2025-05-22 03:38:02,329 - P17020 - INFO - Processando URL 13/20: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/200500/Caderno_JUD_PA_2017-02-15_IX_28.pdf?sequence=3&isAllowed=y
+2025-05-22 03:38:02,329 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/200500/Caderno_JUD_PA_2017-02-15_IX_28.pdf?sequence=3&isAllowed=y
+2025-05-22 03:38:02,330 - P17020 - INFO - Após processar URL 13 Uso de memória: 131.84 MB
+2025-05-22 03:38:02,330 - P17020 - INFO - Processando URL 14/20: https://crmvirtual.cfm.org.br/BA/servico/pesquisa-por-medicos
+2025-05-22 03:38:04,815 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\344d5185fc7be121f6bd5df93a5125ac.html
+2025-05-22 03:38:04,827 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:38:04,831 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:38:04,832 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:38:04,833 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:38:04,834 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:38:04,835 - P17020 - INFO - Após processar URL 14 Uso de memória: 131.84 MB
+2025-05-22 03:38:04,835 - P17020 - INFO - Processando URL 15/20: https://www.redescredenciadas.com.br/perfil/carolina-cunha-moraes-accioly-21051-ba
+2025-05-22 03:38:11,263 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\39748a3c1f71d9283f4fcc90d5c2e15a.html
+2025-05-22 03:38:11,268 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:38:11,269 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 03:38:11,269 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:38:11,269 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:38:11,269 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:38:11,270 - P17020 - INFO - Após processar URL 15 Uso de memória: 131.84 MB
+2025-05-22 03:38:11,270 - P17020 - INFO - Processando URL 16/20: https://osasco.sp.gov.br/site/wp-content/uploads/2019/11/httphomologacao.osasco.sp_.gov_.brcompsec7atosOsasco_1572667252_7.pdf
+2025-05-22 03:38:11,270 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2019/11/httphomologacao.osasco.sp_.gov_.brcompsec7atosOsasco_1572667252_7.pdf
+2025-05-22 03:38:11,271 - P17020 - INFO - Após processar URL 16 Uso de memória: 131.84 MB
+2025-05-22 03:38:11,271 - P17020 - INFO - Processando URL 17/20: https://www.classemedica.com.br/medico/411573-carolina-cunha-moraes.htm
+2025-05-22 03:38:15,732 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d62e4fc2730983c3e9d5b42a189baab5.html
+2025-05-22 03:38:15,769 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:38:15,770 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:38:15,771 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:38:15,774 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:38:15,775 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:38:15,775 - P17020 - INFO - Após processar URL 17 Uso de memória: 131.85 MB
+2025-05-22 03:38:15,775 - P17020 - INFO - Processando URL 18/20: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2025/01/do_20250125_3942.pdf
+2025-05-22 03:38:15,775 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2025/01/do_20250125_3942.pdf
+2025-05-22 03:38:15,776 - P17020 - INFO - Após processar URL 18 Uso de memória: 131.85 MB
+2025-05-22 03:38:15,777 - P17020 - INFO - Processando URL 19/20: https://www.cubatao.sp.gov.br/wp-content/uploads/Di%C3%A1rio%20Oficial/Di%C3%A1rio%20Oficial/2021/08_agosto/ed_785.pdf
+2025-05-22 03:38:15,777 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.cubatao.sp.gov.br/wp-content/uploads/Di%C3%A1rio%20Oficial/Di%C3%A1rio%20Oficial/2021/08_agosto/ed_785.pdf
+2025-05-22 03:38:15,778 - P17020 - INFO - Após processar URL 19 Uso de memória: 131.85 MB
+2025-05-22 03:38:15,779 - P17020 - INFO - Processando URL 20/20: https://dosp.com.br/exibe_do.php?i=NTU5MTE=
+2025-05-22 03:38:17,978 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ccbdd3b8a5bd27f98a285c59bf2c49e0.html
+2025-05-22 03:38:17,979 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:38:17,979 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:38:17,979 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:38:17,979 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:38:17,979 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:38:17,980 - P17020 - INFO - Após processar URL 20 Uso de memória: 131.85 MB
+2025-05-22 03:38:17,980 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:38:17,980 - P17020 - INFO - Ranked address: 5 items
+2025-05-22 03:38:17,980 - P17020 - INFO - Ranked phone: 9 items
+2025-05-22 03:38:17,980 - P17020 - INFO - Ranked email: 1 items
+2025-05-22 03:38:17,980 - P17020 - INFO - Ranked complement: 2 items
+2025-05-22 03:38:17,980 - P17020 - INFO - Ranked cep: 11 items
+2025-05-22 03:38:17,981 - P17020 - INFO - Após agregação Uso de memória: 131.85 MB
+2025-05-22 03:38:17,981 - P17020 - INFO - Validando endereço: ['Av. Princesa Isabel, 914', 'Av. Prof. Magalhães Neto, 1541', 'Av. Vasco da Gama, 6783']
+2025-05-22 03:38:17,981 - P17020 - INFO - Endereço validado: Av. Princesa Isabel, 914
+2025-05-22 03:38:17,981 - P17020 - INFO - Limpando texto extenso para campo address: Av. Princesa Isabel, 914...
+2025-05-22 03:38:17,981 - P17020 - INFO - Texto limpo: Av. Princesa Isabel, 914
+2025-05-22 03:38:17,981 - P17020 - INFO - Validando telefone: ['(71) 3646-3737', '(71) 99158-2295', '(71) 4103-1555']
+2025-05-22 03:38:17,982 - P17020 - INFO - Limpando texto extenso para campo phone: (71) 3646-3737...
+2025-05-22 03:38:17,982 - P17020 - INFO - Texto limpo: 71) 3646-3737
+2025-05-22 03:38:17,982 - P17020 - INFO - Telefone validado: 71) 3646-3737
+2025-05-22 03:38:17,982 - P17020 - INFO - Validando email: ['pfisica@cremeb.org.br']
+2025-05-22 03:38:17,982 - P17020 - INFO - Limpando texto extenso para campo email: pfisica@cremeb.org.br...
+2025-05-22 03:38:17,983 - P17020 - INFO - Texto limpo: pfisica@cremeb.org.br
+2025-05-22 03:38:17,983 - P17020 - INFO - Email validado: pfisica@cremeb.org.br
+2025-05-22 03:38:17,983 - P17020 - INFO - Validando complemento: ['Bloco A', 'Sala 1001 - Pituba']
+2025-05-22 03:38:17,983 - P17020 - INFO - Limpando texto extenso para campo complement: Bloco A...
+2025-05-22 03:38:17,983 - P17020 - INFO - Texto limpo: Bloco A
+2025-05-22 03:38:17,983 - P17020 - INFO - Complemento validado: Bloco A
+2025-05-22 03:38:17,984 - P17020 - INFO - Descobrindo cidade
+2025-05-22 03:38:17,984 - P17020 - INFO - Buscando cidade: Av. Princesa Isabel cidade BA
+2025-05-22 03:38:20,685 - P17020 - INFO - Cidade encontrada: Salvador
+2025-05-22 03:38:20,687 - P17020 - INFO - Limpando texto extenso para campo city: Salvador...
+2025-05-22 03:38:20,690 - P17020 - INFO - Texto limpo: Salvador
+2025-05-22 03:38:20,691 - P17020 - INFO - Cidade descoberta: Salvador
+2025-05-22 03:38:20,692 - P17020 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 03:38:20,692 - P17020 - INFO - Iniciando busca de CEP em cascata para: Av. Princesa Isabel, Salvador, BA
+2025-05-22 03:38:20,692 - P17020 - INFO - Método 1: ViaCEP API
+2025-05-22 03:38:20,693 - P17020 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/BA/salvador/avenida%20princesa%20isabel/json/
+2025-05-22 03:38:21,371 - P17020 - INFO - Dados encontrados no ViaCEP: {'cep': '40130-030', 'logradouro': 'Avenida Princesa Isabel', 'complemento': 'lado ímpar', 'unidade': '', 'bairro': 'Barra', 'localidade': 'Salvador', 'uf': 'BA', 'estado': 'Bahia', 'regiao': 'Nordeste', 'ibge': '2927408', 'gia': '', 'ddd': '71', 'siafi': '3849'}
+2025-05-22 03:38:21,373 - P17020 - INFO - CEP encontrado via ViaCEP: 40130-030
+2025-05-22 03:38:21,373 - P17020 - INFO - Dados de CEP encontrados: {'cep': '40130-030', 'logradouro': 'Avenida Princesa Isabel', 'complemento': 'lado ímpar', 'unidade': '', 'bairro': 'Barra', 'localidade': 'Salvador', 'uf': 'BA', 'estado': 'Bahia', 'regiao': 'Nordeste', 'ibge': '2927408', 'gia': '', 'ddd': '71', 'siafi': '3849'}
+2025-05-22 03:38:21,374 - P17020 - INFO - Limpando texto extenso para campo bairro: Barra...
+2025-05-22 03:38:21,374 - P17020 - INFO - Texto limpo: Barra
+2025-05-22 03:38:21,374 - P17020 - INFO - Limpando texto extenso para campo city: Salvador...
+2025-05-22 03:38:21,374 - P17020 - INFO - Texto limpo: Salvador
+2025-05-22 03:38:21,374 - P17020 - INFO - Limpando texto extenso para campo state: BA...
+2025-05-22 03:38:21,374 - P17020 - INFO - Texto limpo: BA
+2025-05-22 03:38:21,374 - P17020 - INFO - Tempo de execução de processamento completo do médico: 57.18 segundos
+2025-05-22 03:38:21,375 - P17020 - INFO - Resultado processado: {'Hash': '50c8522714d113a6c3e79d08199eb5712988e145617c5b217a6f6447d16de5d4', 'CRM': '21051', 'UF': 'BA', 'Firstname': 'CAROLINA', 'LastName': 'CUNHA MORAES', 'Medical specialty': '', 'Endereco Completo A1': 'Av. Princesa Isabel, 914', 'Address A1': 'Av. Princesa Isabel', 'Numero A1': '914', 'Complement A1': 'Bloco A', 'Bairro A1': 'Barra', 'postal code A1': '40130-030', 'City A1': 'Salvador', 'State A1': 'BA', 'Phone A1': '71) 3646-3737', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'pfisica@cremeb.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:38:21,375 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 03:38:21,376 - P17020 - INFO - Após salvar resultados Uso de memória: 128.44 MB
+2025-05-22 03:38:21,376 - P17020 - INFO - Progresso: 51.8%
+2025-05-22 03:38:21,378 - P17020 - INFO - Tempo de execução de processamento do médico 3: 57.19 segundos
+2025-05-22 03:38:21,379 - P17020 - INFO - Tempo de execução de processamento do lote completo: 193.55 segundos

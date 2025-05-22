@@ -1,0 +1,410 @@
+2025-05-22 02:36:10,419 - P14756 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 02:36:10,419 - P14756 - INFO - Nome: NATÁLIA DA COSTA CHIOTE PINHEIRO
+2025-05-22 02:36:10,419 - P14756 - INFO - Reiniciando driver do Chrome
+2025-05-22 02:36:11,809 - P14756 - INFO - Após reiniciar driver Uso de memória: 109.21 MB
+2025-05-22 02:36:11,810 - P14756 - INFO - Início do processamento Uso de memória: 109.21 MB
+2025-05-22 02:36:11,810 - P14756 - INFO - Iniciando busca para: NATÁLIA DA COSTA CHIOTE PINHEIRO CRM 1217569 RJ telefone e-mail endereço
+2025-05-22 02:36:12,377 - P14756 - INFO - SearX results: 0 URLs
+2025-05-22 02:36:12,378 - P14756 - INFO - Após SearX Uso de memória: 109.21 MB
+2025-05-22 02:36:15,615 - P14756 - INFO - Google results: 2 URLs
+2025-05-22 02:36:15,616 - P14756 - INFO - Após Google Uso de memória: 111.00 MB
+2025-05-22 02:36:18,251 - P14756 - INFO - Bing results: 9 URLs
+2025-05-22 02:36:18,252 - P14756 - INFO - Após Bing Uso de memória: 111.87 MB
+2025-05-22 02:36:18,252 - P14756 - INFO - Total de URLs únicas: 10
+2025-05-22 02:36:18,252 - P14756 - INFO - Processando URL 1/10: https://cadastroempresa.com.br/cnpj/44.548.056/0001-50-natalia-chiote-servico-medico-ltda
+2025-05-22 02:36:21,324 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\3c2089895aa2a9c2cdc11fc91f09a8d4.html
+2025-05-22 02:36:21,343 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:36:21,343 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 02:36:21,344 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 02:36:21,344 - P14756 - INFO - Candidates complement: 3 items
+2025-05-22 02:36:21,344 - P14756 - INFO - Candidates cep: 3 items
+2025-05-22 02:36:21,344 - P14756 - INFO - Após processar URL 1 Uso de memória: 111.87 MB
+2025-05-22 02:36:21,344 - P14756 - INFO - Processando URL 2/10: https://www.escavador.com/sobre/715391838/natlia-da-costa-chiote-pinheiro
+2025-05-22 02:36:25,680 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\647526e8e36e013b7d70c87dce57a88c.html
+2025-05-22 02:36:25,698 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:36:25,699 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:36:25,699 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:36:25,699 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:36:25,699 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:36:25,699 - P14756 - INFO - Após processar URL 2 Uso de memória: 111.96 MB
+2025-05-22 02:36:25,699 - P14756 - INFO - Processando URL 3/10: http://www.indc.ufrj.br/index.php/indc/historia-3/medicos-residentes/30-medicos-residentes/41-dr-nathalia-borges-carmo-r1
+2025-05-22 02:36:30,232 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\bd384b53e988522d1bb8cb62fb9c1698.html
+2025-05-22 02:36:30,247 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:36:30,248 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:36:30,248 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:36:30,248 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:36:30,248 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:36:30,248 - P14756 - INFO - Após processar URL 3 Uso de memória: 111.97 MB
+2025-05-22 02:36:30,248 - P14756 - INFO - Processando URL 4/10: https://www.situacaocadastral.info/cnpj/natalia-chiote-servico-medico-ltda-44548056000150
+2025-05-22 02:36:34,125 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\8f697df11338e05353e344163a5927c0.html
+2025-05-22 02:36:34,149 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 02:36:34,150 - P14756 - INFO - Candidates phone: 2 items
+2025-05-22 02:36:34,150 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 02:36:34,150 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:36:34,150 - P14756 - INFO - Candidates cep: 3 items
+2025-05-22 02:36:34,150 - P14756 - INFO - Após processar URL 4 Uso de memória: 111.98 MB
+2025-05-22 02:36:34,151 - P14756 - INFO - Processando URL 5/10: https://transparencia.meriti.rj.gov.br/webrun/WEB-ObterAnexo.rule?sys=LAI&codigo=4615
+2025-05-22 02:36:36,564 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\25abc2d5135a0370af349e5e648b88fe.html
+2025-05-22 02:36:36,564 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:36:36,565 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:36:36,565 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:36:36,565 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:36:36,565 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:36:36,565 - P14756 - INFO - Após processar URL 5 Uso de memória: 111.98 MB
+2025-05-22 02:36:36,565 - P14756 - INFO - Processando URL 6/10: https://cnpj.biz/44548056000150
+2025-05-22 02:36:40,951 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\1f227cfdb90b23755e0959728b6b6fad.html
+2025-05-22 02:36:40,965 - P14756 - INFO - Candidates address: 2 items
+2025-05-22 02:36:40,965 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 02:36:40,965 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 02:36:40,965 - P14756 - INFO - Candidates complement: 3 items
+2025-05-22 02:36:40,965 - P14756 - INFO - Candidates cep: 3 items
+2025-05-22 02:36:40,966 - P14756 - INFO - Após processar URL 6 Uso de memória: 111.98 MB
+2025-05-22 02:36:40,966 - P14756 - INFO - Processando URL 7/10: http://dranataliachiote.com.br/
+2025-05-22 02:36:44,567 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\32a4bc42be6ae00f2932b3f6d9708c69.html
+2025-05-22 02:36:44,591 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 02:36:44,591 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 02:36:44,591 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:36:44,592 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:36:44,592 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 02:36:44,592 - P14756 - INFO - Após processar URL 7 Uso de memória: 111.98 MB
+2025-05-22 02:36:44,592 - P14756 - INFO - Processando URL 8/10: https://cnpj.services/qsa/natalia-da-costa-chiote-pinheiro
+2025-05-22 02:36:47,595 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e6903a1c66e397f59d248fa663e42d1a.html
+2025-05-22 02:36:47,606 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:36:47,607 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:36:47,608 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:36:47,608 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:36:47,608 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 02:36:47,608 - P14756 - INFO - Após processar URL 8 Uso de memória: 111.98 MB
+2025-05-22 02:36:47,608 - P14756 - INFO - Processando URL 9/10: https://www.consultascnpj.com/natalia-chiote-servico-medico-ltda/44548056000150
+2025-05-22 02:36:50,485 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\2731b2d94321cdb22fd9ed0881ac5dc6.html
+2025-05-22 02:36:50,497 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:36:50,497 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 02:36:50,497 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 02:36:50,497 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:36:50,498 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 02:36:50,498 - P14756 - INFO - Após processar URL 9 Uso de memória: 111.98 MB
+2025-05-22 02:36:50,498 - P14756 - INFO - Processando URL 10/10: https://consultacrm.com.br/
+2025-05-22 02:36:54,581 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:36:54,594 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:36:54,594 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:36:54,594 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:36:54,594 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:36:54,595 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:36:54,595 - P14756 - INFO - Após processar URL 10 Uso de memória: 111.98 MB
+2025-05-22 02:36:54,595 - P14756 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:36:54,595 - P14756 - INFO - Ranked address: 4 items
+2025-05-22 02:36:54,595 - P14756 - INFO - Ranked phone: 4 items
+2025-05-22 02:36:54,595 - P14756 - INFO - Ranked email: 1 items
+2025-05-22 02:36:54,596 - P14756 - INFO - Ranked complement: 5 items
+2025-05-22 02:36:54,596 - P14756 - INFO - Ranked cep: 8 items
+2025-05-22 02:36:54,596 - P14756 - INFO - Após agregação Uso de memória: 111.98 MB
+2025-05-22 02:36:54,597 - P14756 - INFO - Validando endereço: ['Rua Padre Arnaldo Jansen, 200', 'Rua Barao de Itambi, 00055', 'Rua Barao de Itambi 00055 Apt 505 Botafogo Rio de Janeiro RJ']
+2025-05-22 02:36:54,597 - P14756 - INFO - Endereço validado: Rua Padre Arnaldo Jansen, 200
+2025-05-22 02:36:54,599 - P14756 - INFO - Limpando texto extenso para campo address: Rua Padre Arnaldo Jansen, 200...
+2025-05-22 02:36:54,599 - P14756 - INFO - Texto limpo: Rua Padre Arnaldo Jansen, 200
+2025-05-22 02:36:54,600 - P14756 - INFO - Validando telefone: ['(21) 97436-4554', '(21) 7436-4554', '(32) 99195-6532']
+2025-05-22 02:36:54,600 - P14756 - INFO - Limpando texto extenso para campo phone: (21) 97436-4554...
+2025-05-22 02:36:54,601 - P14756 - INFO - Texto limpo: 21) 97436-4554
+2025-05-22 02:36:54,601 - P14756 - INFO - Telefone validado: 21) 97436-4554
+2025-05-22 02:36:54,601 - P14756 - INFO - Validando email: ['nataliacchiote@hotmail.com']
+2025-05-22 02:36:54,602 - P14756 - INFO - Limpando texto extenso para campo email: nataliacchiote@hotmail.com...
+2025-05-22 02:36:54,602 - P14756 - INFO - Texto limpo: nataliacchiote@hotmail.com
+2025-05-22 02:36:54,602 - P14756 - INFO - Email validado: nataliacchiote@hotmail.com
+2025-05-22 02:36:54,603 - P14756 - INFO - Validando complemento: ['Apt 505  Botafogo  Rio de Janeiro RJ  22231-000      ', 'Apt 505  Clique para copiar         Bairro:  Botafogo', 'Apt 505  Botafogo  Rio de Janeiro - RJ   22231-000   ']
+2025-05-22 02:36:54,605 - P14756 - INFO - Limpando texto extenso para campo complement: Apt 505  Botafogo  Rio de Janeiro RJ  22231-000   ...
+2025-05-22 02:36:54,605 - P14756 - INFO - Texto limpo: Apt 505 Botafogo Rio de Jane
+2025-05-22 02:36:54,606 - P14756 - INFO - Complemento validado: Apt 505 Botafogo Rio de Jane
+2025-05-22 02:36:54,606 - P14756 - INFO - Descobrindo cidade
+2025-05-22 02:36:54,606 - P14756 - INFO - Buscando cidade: Rua Padre Arnaldo Jansen cidade RJ
+2025-05-22 02:36:57,407 - P14756 - WARNING - Cidade não encontrada
+2025-05-22 02:36:57,408 - P14756 - INFO - Cidade descoberta: 
+2025-05-22 02:36:57,408 - P14756 - INFO - Tempo de execução de processamento completo do médico: 45.60 segundos
+2025-05-22 02:36:57,408 - P14756 - INFO - Resultado processado: {'Hash': '0a27d59081fbc11903812ca90a4c39e6be135f791f2da1df15166883e6b92b53', 'CRM': '1217569', 'UF': 'RJ', 'Firstname': 'NATÁLIA', 'LastName': 'DA COSTA CHIOTE PINHEIRO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Padre Arnaldo Jansen, 200', 'Address A1': 'Rua Padre Arnaldo Jansen', 'Numero A1': '200', 'Complement A1': 'Apt 505 Botafogo Rio de Jane', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '21) 97436-4554', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'nataliacchiote@hotmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:36:57,409 - P14756 - INFO - Progresso: 29.7%
+2025-05-22 02:36:57,410 - P14756 - INFO - Executando coleta de lixo
+2025-05-22 02:36:57,477 - P14756 - INFO - Após coleta de lixo Uso de memória: 99.30 MB
+2025-05-22 02:36:57,478 - P14756 - INFO - Tempo de execução de processamento do médico 1: 47.06 segundos
+2025-05-22 02:36:57,479 - P14756 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 02:36:57,479 - P14756 - INFO - Nome: MARIA EDUARDA RAGGHIANTE FERREIRA
+2025-05-22 02:36:57,480 - P14756 - INFO - Início do processamento Uso de memória: 99.30 MB
+2025-05-22 02:36:57,480 - P14756 - INFO - Iniciando busca para: MARIA EDUARDA RAGGHIANTE FERREIRA CRM 1218280 RJ telefone e-mail endereço
+2025-05-22 02:36:58,004 - P14756 - INFO - SearX results: 0 URLs
+2025-05-22 02:36:58,004 - P14756 - INFO - Após SearX Uso de memória: 99.30 MB
+2025-05-22 02:37:00,591 - P14756 - INFO - Google results: 0 URLs
+2025-05-22 02:37:00,591 - P14756 - INFO - Após Google Uso de memória: 102.08 MB
+2025-05-22 02:37:03,108 - P14756 - INFO - Bing results: 15 URLs
+2025-05-22 02:37:03,108 - P14756 - INFO - Após Bing Uso de memória: 104.40 MB
+2025-05-22 02:37:03,108 - P14756 - INFO - Total de URLs únicas: 15
+2025-05-22 02:37:03,109 - P14756 - INFO - Processando URL 1/15: https://www.consultacrm.com.br/index/maisvistos
+2025-05-22 02:37:06,541 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\9a17d88beef1266c6e4649221409a571.html
+2025-05-22 02:37:06,550 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:37:06,550 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:06,550 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:37:06,551 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:06,551 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:06,551 - P14756 - INFO - Após processar URL 1 Uso de memória: 106.02 MB
+2025-05-22 02:37:06,551 - P14756 - INFO - Processando URL 2/15: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 02:37:11,281 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 02:37:11,292 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:37:11,292 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:11,293 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:37:11,293 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:11,293 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:11,293 - P14756 - INFO - Após processar URL 2 Uso de memória: 106.53 MB
+2025-05-22 02:37:11,293 - P14756 - INFO - Processando URL 3/15: https://cnpj.biz/58500910000113
+2025-05-22 02:37:13,621 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\d476564ee54f745678942cf212f8d297.html
+2025-05-22 02:37:13,624 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:37:13,624 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:13,624 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:37:13,624 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:13,624 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:13,625 - P14756 - INFO - Após processar URL 3 Uso de memória: 106.66 MB
+2025-05-22 02:37:13,625 - P14756 - INFO - Processando URL 4/15: https://www.cremerj.org.br/
+2025-05-22 02:37:17,361 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\57d5b230cbdcf7d719e9b2b2f238c4f1.html
+2025-05-22 02:37:17,411 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:37:17,412 - P14756 - INFO - Candidates phone: 2 items
+2025-05-22 02:37:17,412 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:37:17,412 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:17,412 - P14756 - INFO - Candidates cep: 3 items
+2025-05-22 02:37:17,412 - P14756 - INFO - Após processar URL 4 Uso de memória: 106.69 MB
+2025-05-22 02:37:17,413 - P14756 - INFO - Processando URL 5/15: https://www.consultacrm.com.br/index/sis_login
+2025-05-22 02:37:21,163 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e56926aa25e0582d5c5b8aa167ed4b53.html
+2025-05-22 02:37:21,173 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:37:21,174 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:21,174 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:37:21,174 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:21,174 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:21,174 - P14756 - INFO - Após processar URL 5 Uso de memória: 107.16 MB
+2025-05-22 02:37:21,174 - P14756 - INFO - Processando URL 6/15: http://www.transparencia.cremerj.org.br:8098/planejamento/registroMedico/pesquisar
+2025-05-22 02:37:23,645 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\19128e1d0b16c1bd37c280ce751655f7.html
+2025-05-22 02:37:23,669 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:37:23,669 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 02:37:23,670 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:37:23,670 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:23,670 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 02:37:23,670 - P14756 - INFO - Após processar URL 6 Uso de memória: 107.29 MB
+2025-05-22 02:37:23,670 - P14756 - INFO - Processando URL 7/15: https://cnpj.biz/60218820000186
+2025-05-22 02:37:25,796 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\0a715147092602682a6445492277cb2e.html
+2025-05-22 02:37:25,798 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:37:25,798 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:25,798 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:37:25,798 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:25,798 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:25,799 - P14756 - INFO - Após processar URL 7 Uso de memória: 107.30 MB
+2025-05-22 02:37:25,799 - P14756 - INFO - Processando URL 8/15: https://www.consultacrm.com.br/index/contato
+2025-05-22 02:37:28,817 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\770622092e11df0ef8d0ed5d383f74a3.html
+2025-05-22 02:37:28,830 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:37:28,831 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:28,831 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:37:28,831 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:28,832 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:28,833 - P14756 - INFO - Após processar URL 8 Uso de memória: 107.41 MB
+2025-05-22 02:37:28,833 - P14756 - INFO - Processando URL 9/15: https://www.consultacrm.com.br/?uf=SP
+2025-05-22 02:37:32,219 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\60d20285cf74ceed0f862951f9b2b598.html
+2025-05-22 02:37:32,231 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:37:32,233 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:32,233 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:37:32,234 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:32,236 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:32,240 - P14756 - INFO - Após processar URL 9 Uso de memória: 107.44 MB
+2025-05-22 02:37:32,241 - P14756 - INFO - Processando URL 10/15: https://portal.cfm.org.br/busca-medicos
+2025-05-22 02:37:36,329 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 02:37:36,377 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:37:36,381 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:36,381 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 02:37:36,382 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 02:37:36,382 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 02:37:36,383 - P14756 - INFO - Após processar URL 10 Uso de memória: 107.48 MB
+2025-05-22 02:37:36,388 - P14756 - INFO - Processando URL 11/15: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 02:37:39,986 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 02:37:40,022 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:37:40,023 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:40,023 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:37:40,023 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:40,023 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:40,023 - P14756 - INFO - Após processar URL 11 Uso de memória: 107.49 MB
+2025-05-22 02:37:40,023 - P14756 - INFO - Processando URL 12/15: https://guiamedico.cremesp.org.br/
+2025-05-22 02:37:43,262 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 02:37:43,272 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 02:37:43,273 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 02:37:43,274 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:37:43,274 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:43,275 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 02:37:43,275 - P14756 - INFO - Após processar URL 12 Uso de memória: 107.52 MB
+2025-05-22 02:37:43,279 - P14756 - INFO - Processando URL 13/15: https://www.consultacrm.com.br/index/api
+2025-05-22 02:37:46,720 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\a1f22ffdf7e0eb1c02e28e1e38d3db87.html
+2025-05-22 02:37:46,732 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:37:46,732 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:46,733 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:37:46,733 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:46,733 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:46,733 - P14756 - INFO - Após processar URL 13 Uso de memória: 107.55 MB
+2025-05-22 02:37:46,734 - P14756 - INFO - Processando URL 14/15: https://www.consultacrm.com.br/index/especialidades
+2025-05-22 02:37:49,476 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\3cb327d5e0f962fa7a1db5a948fb6f40.html
+2025-05-22 02:37:49,596 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:37:49,596 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:49,596 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:37:49,596 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:49,596 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:49,597 - P14756 - INFO - Após processar URL 14 Uso de memória: 108.68 MB
+2025-05-22 02:37:49,597 - P14756 - INFO - Processando URL 15/15: https://consultacrm.com.br/
+2025-05-22 02:37:52,797 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:37:52,808 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:37:52,809 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:52,809 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:37:52,809 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:52,809 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:52,809 - P14756 - INFO - Após processar URL 15 Uso de memória: 107.84 MB
+2025-05-22 02:37:52,810 - P14756 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:37:52,810 - P14756 - INFO - Ranked address: 1 items
+2025-05-22 02:37:52,810 - P14756 - INFO - Ranked phone: 3 items
+2025-05-22 02:37:52,810 - P14756 - INFO - Ranked email: 1 items
+2025-05-22 02:37:52,810 - P14756 - INFO - Ranked complement: 1 items
+2025-05-22 02:37:52,810 - P14756 - INFO - Ranked cep: 5 items
+2025-05-22 02:37:52,811 - P14756 - INFO - Após agregação Uso de memória: 107.84 MB
+2025-05-22 02:37:52,811 - P14756 - INFO - Validando endereço: ['Rua Frei Caneca, 1282']
+2025-05-22 02:37:52,811 - P14756 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 02:37:52,812 - P14756 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 02:37:52,812 - P14756 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 02:37:52,812 - P14756 - INFO - Validando telefone: ['(21) 3184-7050', '(21) 98491-1522', '(11) 4349-9900']
+2025-05-22 02:37:52,812 - P14756 - INFO - Limpando texto extenso para campo phone: (21) 3184-7050...
+2025-05-22 02:37:52,812 - P14756 - INFO - Texto limpo: 21) 3184-7050
+2025-05-22 02:37:52,813 - P14756 - INFO - Telefone validado: 21) 3184-7050
+2025-05-22 02:37:52,813 - P14756 - INFO - Validando email: ['cfm@portalmedico.org.br']
+2025-05-22 02:37:52,813 - P14756 - INFO - Limpando texto extenso para campo email: cfm@portalmedico.org.br...
+2025-05-22 02:37:52,813 - P14756 - INFO - Texto limpo: cfm@portalmedico.org.br
+2025-05-22 02:37:52,813 - P14756 - INFO - Email validado: cfm@portalmedico.org.br
+2025-05-22 02:37:52,814 - P14756 - INFO - Validando complemento: ['Conjunto D']
+2025-05-22 02:37:52,814 - P14756 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 02:37:52,814 - P14756 - INFO - Texto limpo: Conjunto D
+2025-05-22 02:37:52,814 - P14756 - INFO - Complemento validado: Conjunto D
+2025-05-22 02:37:52,814 - P14756 - INFO - Descobrindo cidade
+2025-05-22 02:37:52,814 - P14756 - INFO - Buscando cidade: Rua Frei Caneca cidade RJ
+2025-05-22 02:37:55,353 - P14756 - WARNING - Cidade não encontrada
+2025-05-22 02:37:55,354 - P14756 - INFO - Cidade descoberta: 
+2025-05-22 02:37:55,354 - P14756 - INFO - Tempo de execução de processamento completo do médico: 57.87 segundos
+2025-05-22 02:37:55,354 - P14756 - INFO - Resultado processado: {'Hash': 'e80c395abc3749e3f4a337dd013ed2a008fb9659856f6269812850e233c615ab', 'CRM': '1218280', 'UF': 'RJ', 'Firstname': 'MARIA', 'LastName': 'EDUARDA RAGGHIANTE FERREIRA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Conjunto D', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '21) 3184-7050', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cfm@portalmedico.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:37:55,355 - P14756 - INFO - Progresso: 30.1%
+2025-05-22 02:37:55,355 - P14756 - INFO - Tempo de execução de processamento do médico 2: 57.88 segundos
+2025-05-22 02:37:55,355 - P14756 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 02:37:55,356 - P14756 - INFO - Nome: FABRICIO ANTUNES MAYER
+2025-05-22 02:37:55,356 - P14756 - INFO - Início do processamento Uso de memória: 108.35 MB
+2025-05-22 02:37:55,356 - P14756 - INFO - Iniciando busca para: FABRICIO ANTUNES MAYER CRM 1218344 RJ telefone e-mail endereço
+2025-05-22 02:37:55,788 - P14756 - INFO - SearX results: 0 URLs
+2025-05-22 02:37:55,788 - P14756 - INFO - Após SearX Uso de memória: 108.35 MB
+2025-05-22 02:37:59,230 - P14756 - INFO - Google results: 3 URLs
+2025-05-22 02:37:59,231 - P14756 - INFO - Após Google Uso de memória: 110.35 MB
+2025-05-22 02:38:01,749 - P14756 - INFO - Bing results: 9 URLs
+2025-05-22 02:38:01,750 - P14756 - INFO - Após Bing Uso de memória: 111.90 MB
+2025-05-22 02:38:01,750 - P14756 - INFO - Total de URLs únicas: 12
+2025-05-22 02:38:01,750 - P14756 - INFO - Processando URL 1/12: https://www.doctoralia.com.br/fabricio-mayer/psiquiatra/rio-de-janeiro?utm_source=google&utm_medium=gmb&utm_campaign=836141&utm_content=url_appointment
+2025-05-22 02:38:01,750 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/fabricio-mayer/psiquiatra/rio-de-janeiro?utm_source=google&utm_medium=gmb&utm_campaign=836141&utm_content=url_appointment
+2025-05-22 02:38:01,751 - P14756 - INFO - Após processar URL 1 Uso de memória: 111.90 MB
+2025-05-22 02:38:01,751 - P14756 - INFO - Processando URL 2/12: https://www.doctoralia.com.br/fabricio-mayer/psiquiatra/curitiba
+2025-05-22 02:38:01,751 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/fabricio-mayer/psiquiatra/curitiba
+2025-05-22 02:38:01,751 - P14756 - INFO - Após processar URL 2 Uso de memória: 111.90 MB
+2025-05-22 02:38:01,751 - P14756 - INFO - Processando URL 3/12: https://www.consultacrm.com.br/index/medicos/uid-9b63c82d-f5c5-11ec-9e74-0a4aa568c625/fabricio_antunes_zanete
+2025-05-22 02:38:06,048 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\85fd04136070e673f4dfdabf029bf3bf.html
+2025-05-22 02:38:06,059 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:38:06,060 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:38:06,060 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:38:06,060 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:38:06,060 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:38:06,060 - P14756 - INFO - Após processar URL 3 Uso de memória: 111.95 MB
+2025-05-22 02:38:06,060 - P14756 - INFO - Processando URL 4/12: https://www.cremerj.org.br/
+2025-05-22 02:38:09,258 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\57d5b230cbdcf7d719e9b2b2f238c4f1.html
+2025-05-22 02:38:09,318 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:38:09,318 - P14756 - INFO - Candidates phone: 2 items
+2025-05-22 02:38:09,319 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:38:09,319 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:38:09,319 - P14756 - INFO - Candidates cep: 3 items
+2025-05-22 02:38:09,319 - P14756 - INFO - Após processar URL 4 Uso de memória: 110.91 MB
+2025-05-22 02:38:09,319 - P14756 - INFO - Processando URL 5/12: https://www.doctoralia.com.br/psiquiatra/cruzeiro/asa-norte-8
+2025-05-22 02:38:09,319 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/cruzeiro/asa-norte-8
+2025-05-22 02:38:09,320 - P14756 - INFO - Após processar URL 5 Uso de memória: 103.30 MB
+2025-05-22 02:38:09,320 - P14756 - INFO - Processando URL 6/12: https://www.doctoralia.com.br/fabricio-mayer/psiquiatra/curitiba?prevent-patient-app-banner=true&utm_source=google&utm_medium=gmb&utm_campaign=836141&utm_content=book_visit&hl=pt-BR&gei=uLguaJm9Cp6R1sQPoKfEiA4&rwg_token=AAiGsoZZW254PC-SdHRrMrs26XiwCvPbRmq5Hrhw2Y1toV46sut4SDDlCxi0rZRobWxLXAeYrrT04eEVV0D2zHDh-yIwONaAhw%3D%3D#highlight-calendar
+2025-05-22 02:38:09,320 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/fabricio-mayer/psiquiatra/curitiba?prevent-patient-app-banner=true&utm_source=google&utm_medium=gmb&utm_campaign=836141&utm_content=book_visit&hl=pt-BR&gei=uLguaJm9Cp6R1sQPoKfEiA4&rwg_token=AAiGsoZZW254PC-SdHRrMrs26XiwCvPbRmq5Hrhw2Y1toV46sut4SDDlCxi0rZRobWxLXAeYrrT04eEVV0D2zHDh-yIwONaAhw%3D%3D#highlight-calendar
+2025-05-22 02:38:09,321 - P14756 - INFO - Após processar URL 6 Uso de memória: 103.30 MB
+2025-05-22 02:38:09,321 - P14756 - INFO - Processando URL 7/12: https://cnpj.biz/54673098000177
+2025-05-22 02:38:11,439 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e68aaad0e3ada7bf9536a4faefe9cfb7.html
+2025-05-22 02:38:11,441 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:38:11,441 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:38:11,441 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:38:11,441 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:38:11,441 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:38:11,442 - P14756 - INFO - Após processar URL 7 Uso de memória: 103.55 MB
+2025-05-22 02:38:11,442 - P14756 - INFO - Processando URL 8/12: https://portal.cfm.org.br/busca-medicos
+2025-05-22 02:38:15,001 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 02:38:15,037 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:38:15,038 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:38:15,038 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 02:38:15,038 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 02:38:15,038 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 02:38:15,038 - P14756 - INFO - Após processar URL 8 Uso de memória: 105.58 MB
+2025-05-22 02:38:15,038 - P14756 - INFO - Processando URL 9/12: https://www.doctoralia.com.br/fabricio-mayer/psiquiatra/rio-de-janeiro?utm_source=google&utm_medium=gmb&utm_campaign=836141&utm_content=website
+2025-05-22 02:38:15,039 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/fabricio-mayer/psiquiatra/rio-de-janeiro?utm_source=google&utm_medium=gmb&utm_campaign=836141&utm_content=website
+2025-05-22 02:38:15,039 - P14756 - INFO - Após processar URL 9 Uso de memória: 105.58 MB
+2025-05-22 02:38:15,039 - P14756 - INFO - Processando URL 10/12: https://cnpj.biz/12801045000144
+2025-05-22 02:38:17,168 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\59aa4b533fd23b4088e82e9c7642ddd9.html
+2025-05-22 02:38:17,171 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:38:17,171 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:38:17,172 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:38:17,172 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:38:17,172 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:38:17,172 - P14756 - INFO - Após processar URL 10 Uso de memória: 105.59 MB
+2025-05-22 02:38:17,173 - P14756 - INFO - Processando URL 11/12: https://doutorcrm.com/fabricio-ferreira
+2025-05-22 02:38:21,686 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\50cd203476442e2fb91e2455def1dff5.html
+2025-05-22 02:38:21,695 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 02:38:21,695 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:38:21,695 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:38:21,695 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:38:21,695 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 02:38:21,696 - P14756 - INFO - Após processar URL 11 Uso de memória: 106.30 MB
+2025-05-22 02:38:21,696 - P14756 - INFO - Processando URL 12/12: https://consultacrm.com.br/
+2025-05-22 02:38:24,775 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:38:24,787 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 02:38:24,787 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 02:38:24,787 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 02:38:24,787 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 02:38:24,788 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 02:38:24,788 - P14756 - INFO - Após processar URL 12 Uso de memória: 107.16 MB
+2025-05-22 02:38:24,788 - P14756 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:38:24,788 - P14756 - INFO - Ranked address: 1 items
+2025-05-22 02:38:24,788 - P14756 - INFO - Ranked phone: 2 items
+2025-05-22 02:38:24,788 - P14756 - INFO - Ranked email: 1 items
+2025-05-22 02:38:24,789 - P14756 - INFO - Ranked complement: 1 items
+2025-05-22 02:38:24,790 - P14756 - INFO - Ranked cep: 6 items
+2025-05-22 02:38:24,790 - P14756 - INFO - Após agregação Uso de memória: 107.16 MB
+2025-05-22 02:38:24,790 - P14756 - INFO - Validando endereço: ['Rua da Conceicao, 188']
+2025-05-22 02:38:24,791 - P14756 - INFO - Endereço validado: Rua da Conceicao, 188
+2025-05-22 02:38:24,792 - P14756 - INFO - Limpando texto extenso para campo address: Rua da Conceicao, 188...
+2025-05-22 02:38:24,793 - P14756 - INFO - Texto limpo: Rua da Conceicao, 188
+2025-05-22 02:38:24,793 - P14756 - INFO - Validando telefone: ['(21) 3184-7050', '(21) 98491-1522']
+2025-05-22 02:38:24,793 - P14756 - INFO - Limpando texto extenso para campo phone: (21) 3184-7050...
+2025-05-22 02:38:24,794 - P14756 - INFO - Texto limpo: 21) 3184-7050
+2025-05-22 02:38:24,795 - P14756 - INFO - Telefone validado: 21) 3184-7050
+2025-05-22 02:38:24,796 - P14756 - INFO - Validando email: ['cfm@portalmedico.org.br']
+2025-05-22 02:38:24,796 - P14756 - INFO - Limpando texto extenso para campo email: cfm@portalmedico.org.br...
+2025-05-22 02:38:24,796 - P14756 - INFO - Texto limpo: cfm@portalmedico.org.br
+2025-05-22 02:38:24,797 - P14756 - INFO - Email validado: cfm@portalmedico.org.br
+2025-05-22 02:38:24,797 - P14756 - INFO - Validando complemento: ['Conjunto D']
+2025-05-22 02:38:24,797 - P14756 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 02:38:24,798 - P14756 - INFO - Texto limpo: Conjunto D
+2025-05-22 02:38:24,798 - P14756 - INFO - Complemento validado: Conjunto D
+2025-05-22 02:38:24,798 - P14756 - INFO - Descobrindo cidade
+2025-05-22 02:38:24,798 - P14756 - INFO - Buscando cidade: Rua da Conceicao cidade RJ
+2025-05-22 02:38:27,396 - P14756 - WARNING - Cidade não encontrada
+2025-05-22 02:38:27,397 - P14756 - INFO - Cidade descoberta: 
+2025-05-22 02:38:27,397 - P14756 - INFO - Tempo de execução de processamento completo do médico: 32.04 segundos
+2025-05-22 02:38:27,398 - P14756 - INFO - Resultado processado: {'Hash': 'c999ac40e51c815d7abd8f1cd1a251590df2afd843af7812f6c39c70c54e29a0', 'CRM': '1218344', 'UF': 'RJ', 'Firstname': 'FABRICIO', 'LastName': 'ANTUNES MAYER', 'Medical specialty': '', 'Endereco Completo A1': 'Rua da Conceicao, 188', 'Address A1': 'Rua da Conceicao', 'Numero A1': '188', 'Complement A1': 'Conjunto D', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '21) 3184-7050', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cfm@portalmedico.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:38:27,398 - P14756 - INFO - Salvando lote de resultados
+2025-05-22 02:38:27,399 - P14756 - INFO - Após salvar resultados Uso de memória: 105.80 MB
+2025-05-22 02:38:27,399 - P14756 - INFO - Progresso: 30.4%
+2025-05-22 02:38:27,400 - P14756 - INFO - Tempo de execução de processamento do médico 3: 32.04 segundos
+2025-05-22 02:38:27,400 - P14756 - INFO - Tempo de execução de processamento do lote completo: 136.98 segundos

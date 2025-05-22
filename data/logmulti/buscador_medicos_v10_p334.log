@@ -1,0 +1,506 @@
+2025-05-22 05:03:20,938 - P17320 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 05:03:20,939 - P17320 - INFO - Nome: EDUARDO FERRAZ HAGE
+2025-05-22 05:03:20,939 - P17320 - INFO - Reiniciando driver do Chrome
+2025-05-22 05:03:22,533 - P17320 - INFO - Após reiniciar driver Uso de memória: 128.54 MB
+2025-05-22 05:03:22,533 - P17320 - INFO - Início do processamento Uso de memória: 128.54 MB
+2025-05-22 05:03:22,533 - P17320 - INFO - Iniciando busca para: EDUARDO FERRAZ HAGE CRM 63545 SP telefone e-mail endereço
+2025-05-22 05:03:23,310 - P17320 - INFO - SearX results: 14 URLs
+2025-05-22 05:03:23,310 - P17320 - INFO - Após SearX Uso de memória: 128.55 MB
+2025-05-22 05:03:25,676 - P17320 - INFO - Google results: 10 URLs
+2025-05-22 05:03:25,676 - P17320 - INFO - Após Google Uso de memória: 128.55 MB
+2025-05-22 05:03:30,014 - P17320 - INFO - Bing results: 9 URLs
+2025-05-22 05:03:30,015 - P17320 - INFO - Após Bing Uso de memória: 129.95 MB
+2025-05-22 05:03:30,015 - P17320 - INFO - Total de URLs únicas: 20
+2025-05-22 05:03:30,015 - P17320 - INFO - Processando URL 1/20: https://cnpj.biz/01242430000182
+2025-05-22 05:03:34,414 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\33f63b40f8a6d076bab313986f6d30f8.html
+2025-05-22 05:03:34,438 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 05:03:34,439 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 05:03:34,439 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:03:34,439 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:03:34,439 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 05:03:34,439 - P17320 - INFO - Após processar URL 1 Uso de memória: 129.96 MB
+2025-05-22 05:03:34,439 - P17320 - INFO - Processando URL 2/20: https://www.helpsaude.com/Eduardo-Ferraz-Hage.SP
+2025-05-22 05:03:41,245 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\557dafe8b0d5f39a95b68d54227e653b.html
+2025-05-22 05:03:41,257 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:03:41,257 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:03:41,258 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:03:41,258 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:03:41,258 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:03:41,258 - P17320 - INFO - Após processar URL 2 Uso de memória: 130.02 MB
+2025-05-22 05:03:41,258 - P17320 - INFO - Processando URL 3/20: https://www6.oab.org.br/decisoes/informativo/BI%20262%20marco.pdf
+2025-05-22 05:03:41,258 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www6.oab.org.br/decisoes/informativo/BI%20262%20marco.pdf
+2025-05-22 05:03:41,259 - P17320 - INFO - Após processar URL 3 Uso de memória: 130.02 MB
+2025-05-22 05:03:41,259 - P17320 - INFO - Processando URL 4/20: https://clinica.work/especialista/eduardo-ferraz-hage-pneumologista-araraquara-sp
+2025-05-22 05:03:47,155 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\aea09b2aa16b05e7dd4d5cf17dc40637.html
+2025-05-22 05:03:47,172 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:03:47,172 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:03:47,172 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:03:47,172 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:03:47,173 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:03:47,173 - P17320 - INFO - Após processar URL 4 Uso de memória: 131.48 MB
+2025-05-22 05:03:47,173 - P17320 - INFO - Processando URL 5/20: https://www.doctoralia.com.br/eduardo-ferraz-hage/pneumologista/araraquara
+2025-05-22 05:03:47,173 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/eduardo-ferraz-hage/pneumologista/araraquara
+2025-05-22 05:03:47,173 - P17320 - INFO - Após processar URL 5 Uso de memória: 130.11 MB
+2025-05-22 05:03:47,173 - P17320 - INFO - Processando URL 6/20: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 05:03:47,174 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 05:03:47,174 - P17320 - INFO - Após processar URL 6 Uso de memória: 130.11 MB
+2025-05-22 05:03:47,174 - P17320 - INFO - Processando URL 7/20: https://cliniguia.com/profissionais/eduardo-ferraz-hage-201554286610000/
+2025-05-22 05:03:52,954 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\c2c698f8c6271c03e7575b75a6a780b6.html
+2025-05-22 05:03:53,003 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:03:53,003 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:03:53,003 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:03:53,003 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:03:53,003 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:03:53,004 - P17320 - INFO - Após processar URL 7 Uso de memória: 130.15 MB
+2025-05-22 05:03:53,004 - P17320 - INFO - Processando URL 8/20: https://www.doctoralia.com.br/pneumologista/araraquara
+2025-05-22 05:03:53,005 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/pneumologista/araraquara
+2025-05-22 05:03:53,005 - P17320 - INFO - Após processar URL 8 Uso de memória: 130.15 MB
+2025-05-22 05:03:53,005 - P17320 - INFO - Processando URL 9/20: https://www.consultacrm.com.br/index/medicos/uid-12c3a969-f5c5-11ec-9e74-0a4aa568c625/eduardo_ferraz_hage
+2025-05-22 05:03:58,159 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\1fb34a24bac164da98869f1c4ffee506.html
+2025-05-22 05:03:58,170 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:03:58,171 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:03:58,171 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:03:58,171 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:03:58,171 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:03:58,171 - P17320 - INFO - Após processar URL 9 Uso de memória: 130.20 MB
+2025-05-22 05:03:58,172 - P17320 - INFO - Processando URL 10/20: https://www.doklist.com.br/dok/85793/
+2025-05-22 05:04:00,520 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\2164e5b662ec5fb5fcb6c84e1d144867.html
+2025-05-22 05:04:00,533 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:04:00,533 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:04:00,533 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:04:00,534 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:00,534 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:04:00,534 - P17320 - INFO - Após processar URL 10 Uso de memória: 130.26 MB
+2025-05-22 05:04:00,534 - P17320 - INFO - Processando URL 11/20: https://www.redescredenciadas.com.br/perfil/eduardo-ferraz-hage-sp-63545
+2025-05-22 05:04:03,854 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\acdcc27fe28925307074fd6d19a3ea8c.html
+2025-05-22 05:04:03,860 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:04:03,860 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 05:04:03,861 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:04:03,861 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:03,861 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:04:03,861 - P17320 - INFO - Após processar URL 11 Uso de memória: 130.27 MB
+2025-05-22 05:04:03,861 - P17320 - INFO - Processando URL 12/20: https://www.catalogo.med.br/doutor/eduardo-ferraz-hage-1578762.htm
+2025-05-22 05:04:06,025 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7200ce809d25d19be6b7030a8f80ec74.html
+2025-05-22 05:04:06,026 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:04:06,026 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:04:06,026 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:04:06,027 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:06,027 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:04:06,027 - P17320 - INFO - Após processar URL 12 Uso de memória: 130.27 MB
+2025-05-22 05:04:06,027 - P17320 - INFO - Processando URL 13/20: https://www.helpsaude.com/eduardo-ferraz-hage-crmsp-63545
+2025-05-22 05:04:10,563 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\4cb9c861915fcbd73e9b5a676751ab94.html
+2025-05-22 05:04:10,576 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:04:10,576 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:04:10,576 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:04:10,577 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:10,577 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:04:10,577 - P17320 - INFO - Após processar URL 13 Uso de memória: 130.27 MB
+2025-05-22 05:04:10,577 - P17320 - INFO - Processando URL 14/20: https://ecrie.com.br/sistema/conteudos/arquivo/a_138_0_1_04062024084057.pdf
+2025-05-22 05:04:10,577 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://ecrie.com.br/sistema/conteudos/arquivo/a_138_0_1_04062024084057.pdf
+2025-05-22 05:04:10,577 - P17320 - INFO - Após processar URL 14 Uso de memória: 130.27 MB
+2025-05-22 05:04:10,578 - P17320 - INFO - Processando URL 15/20: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/721550191.pdf
+2025-05-22 05:04:10,578 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/721550191.pdf
+2025-05-22 05:04:10,578 - P17320 - INFO - Após processar URL 15 Uso de memória: 130.27 MB
+2025-05-22 05:04:10,578 - P17320 - INFO - Processando URL 16/20: https://listamedicos.com/medico/eduardo-ferraz-hage
+2025-05-22 05:04:14,364 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9363b7e8252a6e0d713b6642888c942b.html
+2025-05-22 05:04:14,383 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:04:14,384 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:04:14,385 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:04:14,385 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:14,386 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 05:04:14,386 - P17320 - INFO - Após processar URL 16 Uso de memória: 131.38 MB
+2025-05-22 05:04:14,386 - P17320 - INFO - Processando URL 17/20: https://diskfone.com.br/cliente/VQzd
+2025-05-22 05:04:19,862 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9cc9cbd236d703a792ff82d30863d773.html
+2025-05-22 05:04:19,886 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 05:04:19,886 - P17320 - INFO - Candidates phone: 8 items
+2025-05-22 05:04:19,887 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:04:19,887 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:19,888 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 05:04:19,889 - P17320 - INFO - Após processar URL 17 Uso de memória: 130.27 MB
+2025-05-22 05:04:19,890 - P17320 - INFO - Processando URL 18/20: https://ecrie.com.br/sistema/conteudos/arquivo/a_138_2_20_13032023124540.pdf
+2025-05-22 05:04:19,890 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://ecrie.com.br/sistema/conteudos/arquivo/a_138_2_20_13032023124540.pdf
+2025-05-22 05:04:19,890 - P17320 - INFO - Após processar URL 18 Uso de memória: 130.27 MB
+2025-05-22 05:04:19,890 - P17320 - INFO - Processando URL 19/20: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/2033044786.pdf
+2025-05-22 05:04:19,891 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/2033044786.pdf
+2025-05-22 05:04:19,891 - P17320 - INFO - Após processar URL 19 Uso de memória: 130.27 MB
+2025-05-22 05:04:19,891 - P17320 - INFO - Processando URL 20/20: https://www6.oab.org.br/decisoes/informativo/BI%20267%20agosto.pdf
+2025-05-22 05:04:19,891 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www6.oab.org.br/decisoes/informativo/BI%20267%20agosto.pdf
+2025-05-22 05:04:19,891 - P17320 - INFO - Após processar URL 20 Uso de memória: 130.27 MB
+2025-05-22 05:04:19,892 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:04:19,892 - P17320 - INFO - Ranked address: 5 items
+2025-05-22 05:04:19,892 - P17320 - INFO - Ranked phone: 12 items
+2025-05-22 05:04:19,892 - P17320 - INFO - Ranked email: 4 items
+2025-05-22 05:04:19,893 - P17320 - INFO - Ranked complement: 0 items
+2025-05-22 05:04:19,893 - P17320 - INFO - Ranked cep: 6 items
+2025-05-22 05:04:19,894 - P17320 - INFO - Após agregação Uso de memória: 130.27 MB
+2025-05-22 05:04:19,894 - P17320 - INFO - Validando endereço: ['Avenida Queiroz Filho, 1020', 'Avenida Queiroz Filho 1020 Vila Harmonia Araraquara SP', 'Rua Professor Dorival de Oliveira, 77']
+2025-05-22 05:04:19,895 - P17320 - INFO - Endereço validado: Avenida Queiroz Filho, 1020
+2025-05-22 05:04:19,895 - P17320 - INFO - Limpando texto extenso para campo address: Avenida Queiroz Filho, 1020...
+2025-05-22 05:04:19,895 - P17320 - INFO - Texto limpo: Avenida Queiroz Filho, 1020
+2025-05-22 05:04:19,895 - P17320 - INFO - Validando telefone: ['(16) 3336-8953', '(16) 3332-4530', '(16) 3331-6109']
+2025-05-22 05:04:19,896 - P17320 - INFO - Limpando texto extenso para campo phone: (16) 3336-8953...
+2025-05-22 05:04:19,896 - P17320 - INFO - Texto limpo: 16) 3336-8953
+2025-05-22 05:04:19,896 - P17320 - INFO - Telefone validado: 16) 3336-8953
+2025-05-22 05:04:19,896 - P17320 - INFO - Validando email: ['progressocontabi@gmail.com', 'info@doklist.com.br', 'webmaster@catalogo.med.br']
+2025-05-22 05:04:19,896 - P17320 - INFO - Limpando texto extenso para campo email: progressocontabi@gmail.com...
+2025-05-22 05:04:19,897 - P17320 - INFO - Texto limpo: progressocontabi@gmail.com
+2025-05-22 05:04:19,897 - P17320 - INFO - Email validado: progressocontabi@gmail.com
+2025-05-22 05:04:19,897 - P17320 - INFO - Descobrindo cidade
+2025-05-22 05:04:19,897 - P17320 - INFO - Buscando cidade: Avenida Queiroz Filho cidade SP
+2025-05-22 05:04:22,745 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 05:04:22,746 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 05:04:22,746 - P17320 - INFO - Tempo de execução de processamento completo do médico: 60.21 segundos
+2025-05-22 05:04:22,746 - P17320 - INFO - Resultado processado: {'Hash': '2b26f21943460de27c0c032e9d2335ead4f4ba49a7c6e5267a7c8a1b453c614b', 'CRM': '63545', 'UF': 'SP', 'Firstname': 'EDUARDO', 'LastName': 'FERRAZ HAGE', 'Medical specialty': '', 'Endereco Completo A1': 'Avenida Queiroz Filho, 1020', 'Address A1': 'Avenida Queiroz Filho', 'Numero A1': '1020', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '16) 3336-8953', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'progressocontabi@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:04:22,747 - P17320 - INFO - Progresso: 81.7%
+2025-05-22 05:04:22,747 - P17320 - INFO - Executando coleta de lixo
+2025-05-22 05:04:22,782 - P17320 - INFO - Após coleta de lixo Uso de memória: 119.59 MB
+2025-05-22 05:04:22,782 - P17320 - INFO - Tempo de execução de processamento do médico 1: 61.84 segundos
+2025-05-22 05:04:22,783 - P17320 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 05:04:22,783 - P17320 - INFO - Nome: KARINE SCHLUTER
+2025-05-22 05:04:22,785 - P17320 - INFO - Início do processamento Uso de memória: 119.59 MB
+2025-05-22 05:04:22,785 - P17320 - INFO - Iniciando busca para: KARINE SCHLUTER CRM 65171 SP telefone e-mail endereço
+2025-05-22 05:04:23,712 - P17320 - INFO - SearX results: 14 URLs
+2025-05-22 05:04:23,712 - P17320 - INFO - Após SearX Uso de memória: 119.59 MB
+2025-05-22 05:04:26,370 - P17320 - INFO - Google results: 7 URLs
+2025-05-22 05:04:26,371 - P17320 - INFO - Após Google Uso de memória: 122.98 MB
+2025-05-22 05:04:28,872 - P17320 - INFO - Bing results: 11 URLs
+2025-05-22 05:04:28,873 - P17320 - INFO - Após Bing Uso de memória: 126.34 MB
+2025-05-22 05:04:28,873 - P17320 - INFO - Total de URLs únicas: 18
+2025-05-22 05:04:28,873 - P17320 - INFO - Processando URL 1/18: https://www.solutudo.com.br/empresas/sp/indaiatuba/ginecologia-e-obstetricia/karine-schluter-nunes-21727603
+2025-05-22 05:04:35,313 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7f96c00a458f5477dbbca00e802b8b96.html
+2025-05-22 05:04:35,358 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:04:35,359 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:04:35,360 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:04:35,360 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:35,361 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:04:35,361 - P17320 - INFO - Após processar URL 1 Uso de memória: 126.95 MB
+2025-05-22 05:04:35,362 - P17320 - INFO - Processando URL 2/18: https://br.todosnegocios.com/pt/karine-schluter-nunes-19-3875-5268
+2025-05-22 05:04:38,910 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\aabe3d547eef508a966f7f0781f5a7a3.html
+2025-05-22 05:04:38,924 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:04:38,924 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:04:38,924 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:04:38,924 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:38,924 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 05:04:38,925 - P17320 - INFO - Após processar URL 2 Uso de memória: 127.41 MB
+2025-05-22 05:04:38,925 - P17320 - INFO - Processando URL 3/18: https://me.med.br/dra-karine-schluter/
+2025-05-22 05:04:42,467 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e8db960019cd4d4610ef78ba3a957bbf.html
+2025-05-22 05:04:42,490 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:04:42,491 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 05:04:42,491 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:04:42,491 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:42,491 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 05:04:42,491 - P17320 - INFO - Após processar URL 3 Uso de memória: 127.72 MB
+2025-05-22 05:04:42,492 - P17320 - INFO - Processando URL 4/18: https://www.helpsaude.com/Karine-Schluter.SP
+2025-05-22 05:04:44,683 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9749784221f234bc6166875a0e4b395d.html
+2025-05-22 05:04:44,685 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:04:44,686 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:04:44,687 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:04:44,687 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:44,688 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:04:44,688 - P17320 - INFO - Após processar URL 4 Uso de memória: 127.75 MB
+2025-05-22 05:04:44,689 - P17320 - INFO - Processando URL 5/18: https://www.boaconsulta.com/especialista/karine-schluter-6106ceb5a2e00a632e0023b9
+2025-05-22 05:04:47,937 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\fa16538d3d59e647d714d44c7c45ab89.html
+2025-05-22 05:04:48,009 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:04:48,010 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:04:48,010 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:04:48,010 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:48,010 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:04:48,010 - P17320 - INFO - Após processar URL 5 Uso de memória: 128.55 MB
+2025-05-22 05:04:48,010 - P17320 - INFO - Processando URL 6/18: https://www.apontador.com.br/local/sp/indaiatuba/enderecos_empresariais/C405506A0C1D5C1D51/karine_schluter_nunes.html
+2025-05-22 05:04:51,970 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\f72efbe4a39c1d44b6b24ff686b5fe2c.html
+2025-05-22 05:04:52,025 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 05:04:52,029 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 05:04:52,034 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:04:52,035 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 05:04:52,036 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:04:52,038 - P17320 - INFO - Após processar URL 6 Uso de memória: 128.86 MB
+2025-05-22 05:04:52,042 - P17320 - INFO - Processando URL 7/18: https://www.indaiatuba.sp.gov.br/download/6591/
+2025-05-22 05:04:54,282 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\6192952b8ebee10ac219ed3d84e6e52e.html
+2025-05-22 05:04:54,330 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 05:04:54,332 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 05:04:54,332 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:04:54,332 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 05:04:54,332 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:04:54,333 - P17320 - INFO - Após processar URL 7 Uso de memória: 128.86 MB
+2025-05-22 05:04:54,333 - P17320 - INFO - Processando URL 8/18: https://www.escavador.com/sobre/277606144/karine-schluter
+2025-05-22 05:04:58,427 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\37da2c663e6c15c5c226d6e0f9ddf5ad.html
+2025-05-22 05:04:58,447 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:04:58,448 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:04:58,448 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:04:58,448 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:04:58,449 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:04:58,450 - P17320 - INFO - Após processar URL 8 Uso de memória: 129.11 MB
+2025-05-22 05:04:58,452 - P17320 - INFO - Processando URL 9/18: https://me.med.br/especialistas/
+2025-05-22 05:05:01,400 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\c49b14451e346e23835aaf1ba92a1060.html
+2025-05-22 05:05:01,460 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:05:01,460 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:05:01,460 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:05:01,461 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:05:01,461 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:05:01,462 - P17320 - INFO - Após processar URL 9 Uso de memória: 129.14 MB
+2025-05-22 05:05:01,462 - P17320 - INFO - Processando URL 10/18: https://clinica.work/especialista/karine-schluter-ginecologista-e-obstetra-indaiatuba-sp
+2025-05-22 05:05:05,275 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\157bc51b7692db20fa09fca92078274d.html
+2025-05-22 05:05:05,293 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:05:05,293 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:05:05,294 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:05:05,294 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:05:05,294 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:05:05,294 - P17320 - INFO - Após processar URL 10 Uso de memória: 130.15 MB
+2025-05-22 05:05:05,295 - P17320 - INFO - Processando URL 11/18: https://media.unimedcampinas.com.br/guia-medico/guia-medico-completo.pdf
+2025-05-22 05:05:05,295 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://media.unimedcampinas.com.br/guia-medico/guia-medico-completo.pdf
+2025-05-22 05:05:05,296 - P17320 - INFO - Após processar URL 11 Uso de memória: 129.21 MB
+2025-05-22 05:05:05,296 - P17320 - INFO - Processando URL 12/18: https://guiamedico.cremesp.org.br/
+2025-05-22 05:05:23,441 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 05:05:23,448 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:05:23,449 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:05:23,450 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:05:23,450 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:05:23,450 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:05:23,451 - P17320 - INFO - Após processar URL 12 Uso de memória: 129.28 MB
+2025-05-22 05:05:23,451 - P17320 - INFO - Processando URL 13/18: https://www.indaiatubafacil.com.br/guia/saude/karine-schluter-crm-65171-588-3664
+2025-05-22 05:05:27,429 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\619433c907c6bc9ba5ab05b60434ac3d.html
+2025-05-22 05:05:27,463 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:05:27,469 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 05:05:27,470 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:05:27,470 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:05:27,470 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:05:27,472 - P17320 - INFO - Após processar URL 13 Uso de memória: 129.32 MB
+2025-05-22 05:05:27,472 - P17320 - INFO - Processando URL 14/18: https://listamedicos.com/medico/karine-schluter
+2025-05-22 05:05:29,781 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ed4e312b0f21539389a7d2262cde238a.html
+2025-05-22 05:05:29,791 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:05:29,791 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:05:29,791 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:05:29,791 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:05:29,791 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 05:05:29,792 - P17320 - INFO - Após processar URL 14 Uso de memória: 130.36 MB
+2025-05-22 05:05:29,792 - P17320 - INFO - Processando URL 15/18: https://www.doctoralia.com.br/karine-schluter/ginecologista/campinas
+2025-05-22 05:05:29,792 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/karine-schluter/ginecologista/campinas
+2025-05-22 05:05:29,792 - P17320 - INFO - Após processar URL 15 Uso de memória: 129.32 MB
+2025-05-22 05:05:29,792 - P17320 - INFO - Processando URL 16/18: https://cliniguia.com/profissionais/karine-schluter-980016295277018/
+2025-05-22 05:05:34,865 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7e2d8285c8c585bbba2006ddd92bac69.html
+2025-05-22 05:05:34,905 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:05:34,906 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:05:34,906 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:05:34,906 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:05:34,906 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:05:34,906 - P17320 - INFO - Após processar URL 16 Uso de memória: 130.29 MB
+2025-05-22 05:05:34,907 - P17320 - INFO - Processando URL 17/18: https://www.medicosbrasil.com/profissional/karine-schluter
+2025-05-22 05:05:37,194 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\73df9e641875678d99d9563807f1ec32.html
+2025-05-22 05:05:37,224 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:05:37,225 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:05:37,225 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:05:37,225 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:05:37,225 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:05:37,225 - P17320 - INFO - Após processar URL 17 Uso de memória: 130.57 MB
+2025-05-22 05:05:37,225 - P17320 - INFO - Processando URL 18/18: https://www.consultacrm.com.br/index/medicos/uid-916d18f6-f5c5-11ec-9e74-0a4aa568c625/karine_schluter
+2025-05-22 05:05:41,366 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\0fb0446cc207db9a1039842bb8bfe688.html
+2025-05-22 05:05:41,378 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:05:41,378 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:05:41,378 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:05:41,378 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:05:41,378 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:05:41,378 - P17320 - INFO - Após processar URL 18 Uso de memória: 129.80 MB
+2025-05-22 05:05:41,379 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:05:41,379 - P17320 - INFO - Ranked address: 7 items
+2025-05-22 05:05:41,379 - P17320 - INFO - Ranked phone: 6 items
+2025-05-22 05:05:41,379 - P17320 - INFO - Ranked email: 1 items
+2025-05-22 05:05:41,380 - P17320 - INFO - Ranked complement: 1 items
+2025-05-22 05:05:41,380 - P17320 - INFO - Ranked cep: 7 items
+2025-05-22 05:05:41,381 - P17320 - INFO - Após agregação Uso de memória: 129.80 MB
+2025-05-22 05:05:41,381 - P17320 - INFO - Validando endereço: ['R. das Orquídeas, 677', 'Rua Das Orquídeas , 677', 'Rua Das Orquídeas, 677']
+2025-05-22 05:05:41,381 - P17320 - INFO - Endereço validado: R. das Orquídeas, 677
+2025-05-22 05:05:41,381 - P17320 - INFO - Limpando texto extenso para campo address: R. das Orquídeas, 677...
+2025-05-22 05:05:41,381 - P17320 - INFO - Texto limpo: R. das Orquídeas, 677
+2025-05-22 05:05:41,382 - P17320 - INFO - Validando telefone: ['(19) 3875-5268', '+55 19 3875-5268', '']
+2025-05-22 05:05:41,382 - P17320 - INFO - Limpando texto extenso para campo phone: (19) 3875-5268...
+2025-05-22 05:05:41,382 - P17320 - INFO - Texto limpo: 19) 3875-5268
+2025-05-22 05:05:41,382 - P17320 - INFO - Telefone validado: 19) 3875-5268
+2025-05-22 05:05:41,383 - P17320 - INFO - Validando email: ['relacionamento@apontador.com']
+2025-05-22 05:05:41,383 - P17320 - INFO - Limpando texto extenso para campo email: relacionamento@apontador.com...
+2025-05-22 05:05:41,383 - P17320 - INFO - Texto limpo: relacionamento@apontador.com
+2025-05-22 05:05:41,383 - P17320 - INFO - Email validado: relacionamento@apontador.com
+2025-05-22 05:05:41,383 - P17320 - INFO - Validando complemento: ['Saladas ']
+2025-05-22 05:05:41,383 - P17320 - INFO - Limpando texto extenso para campo complement: Saladas ...
+2025-05-22 05:05:41,384 - P17320 - INFO - Texto limpo: Saladas
+2025-05-22 05:05:41,384 - P17320 - INFO - Complemento validado: Saladas
+2025-05-22 05:05:41,384 - P17320 - INFO - Descobrindo cidade
+2025-05-22 05:05:41,384 - P17320 - INFO - Buscando cidade: R. das Orquídeas cidade SP
+2025-05-22 05:05:43,649 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 05:05:43,650 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 05:05:43,650 - P17320 - INFO - Tempo de execução de processamento completo do médico: 80.87 segundos
+2025-05-22 05:05:43,650 - P17320 - INFO - Resultado processado: {'Hash': '6c944b131ecc857079d91e777782a49f6b66a6f04759e5fb7f7a59b2449a1c37', 'CRM': '65171', 'UF': 'SP', 'Firstname': 'KARINE', 'LastName': 'SCHLUTER', 'Medical specialty': '', 'Endereco Completo A1': 'R. das Orquídeas, 677', 'Address A1': 'R. das Orquídeas', 'Numero A1': '677', 'Complement A1': 'Saladas', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '19) 3875-5268', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'relacionamento@apontador.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:05:43,651 - P17320 - INFO - Progresso: 82.1%
+2025-05-22 05:05:43,651 - P17320 - INFO - Tempo de execução de processamento do médico 2: 80.87 segundos
+2025-05-22 05:05:43,651 - P17320 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 05:05:43,651 - P17320 - INFO - Nome: ANA CLAUDIA PICCOLO
+2025-05-22 05:05:43,651 - P17320 - INFO - Início do processamento Uso de memória: 129.00 MB
+2025-05-22 05:05:43,652 - P17320 - INFO - Iniciando busca para: ANA CLAUDIA PICCOLO CRM 65895 SP telefone e-mail endereço
+2025-05-22 05:05:44,455 - P17320 - INFO - SearX results: 15 URLs
+2025-05-22 05:05:44,455 - P17320 - INFO - Após SearX Uso de memória: 129.00 MB
+2025-05-22 05:05:47,091 - P17320 - INFO - Google results: 8 URLs
+2025-05-22 05:05:47,092 - P17320 - INFO - Após Google Uso de memória: 129.84 MB
+2025-05-22 05:05:49,599 - P17320 - INFO - Bing results: 9 URLs
+2025-05-22 05:05:49,600 - P17320 - INFO - Após Bing Uso de memória: 130.66 MB
+2025-05-22 05:05:49,600 - P17320 - INFO - Total de URLs únicas: 19
+2025-05-22 05:05:49,600 - P17320 - INFO - Processando URL 1/19: https://www.saopauloguiafacil.com.br/zona-norte/distrito-santana/bairro-santana/saude-e-medicina/neurologia/17455/dra-ana-claudia-piccolo/
+2025-05-22 05:05:52,947 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\0b4c4ff4107237e3db2682f61c0efd6d.html
+2025-05-22 05:05:52,963 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:05:52,964 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:05:52,964 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:05:52,965 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 05:05:52,965 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:05:52,965 - P17320 - INFO - Após processar URL 1 Uso de memória: 130.66 MB
+2025-05-22 05:05:52,965 - P17320 - INFO - Processando URL 2/19: https://www.boaconsulta.com/especialista/ana-claudia-piccolo-6106da03a2e00a653a00c04e
+2025-05-22 05:05:56,132 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\8e57c92c7caa6cdbda8af0075412a785.html
+2025-05-22 05:05:56,203 - P17320 - INFO - Candidates address: 7 items
+2025-05-22 05:05:56,203 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:05:56,203 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:05:56,203 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:05:56,204 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:05:56,204 - P17320 - INFO - Após processar URL 2 Uso de memória: 130.66 MB
+2025-05-22 05:05:56,204 - P17320 - INFO - Processando URL 3/19: https://www.helpsaude.com/Ana-Claudia-Piccolo.SP
+2025-05-22 05:05:58,382 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\563a72541fd329455d43448e3f2b8472.html
+2025-05-22 05:05:58,384 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:05:58,384 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:05:58,384 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:05:58,384 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:05:58,384 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:05:58,385 - P17320 - INFO - Após processar URL 3 Uso de memória: 130.67 MB
+2025-05-22 05:05:58,385 - P17320 - INFO - Processando URL 4/19: https://www.saopauloaqui.com.br/1/17455/neurologia/dra-ana-claudia-piccolo.html
+2025-05-22 05:06:01,738 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\edeb565f46f8809188fe3a4d6c349b56.html
+2025-05-22 05:06:01,777 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:06:01,788 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:06:01,789 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:06:01,790 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 05:06:01,790 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:06:01,791 - P17320 - INFO - Após processar URL 4 Uso de memória: 130.68 MB
+2025-05-22 05:06:01,791 - P17320 - INFO - Processando URL 5/19: https://www.catalogo.med.br/doutor/ana-claudia-piccolo-1625037.htm
+2025-05-22 05:06:04,046 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\82d46221feebc3ac2b9795243b483b5b.html
+2025-05-22 05:06:04,046 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:06:04,046 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:06:04,047 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:06:04,047 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:06:04,047 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:06:04,047 - P17320 - INFO - Após processar URL 5 Uso de memória: 130.68 MB
+2025-05-22 05:06:04,047 - P17320 - INFO - Processando URL 6/19: https://www.doctoralia.com.br/ana-claudia-piccolo/neurologista-neurocirurgiao/sao-paulo
+2025-05-22 05:06:04,047 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/ana-claudia-piccolo/neurologista-neurocirurgiao/sao-paulo
+2025-05-22 05:06:04,048 - P17320 - INFO - Após processar URL 6 Uso de memória: 130.68 MB
+2025-05-22 05:06:04,048 - P17320 - INFO - Processando URL 7/19: https://cliniguia.com/profissionais/ana-claudia-piccolo-180044447550002/
+2025-05-22 05:06:08,623 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\6bf445689b5e215f82f4c98c8dbe1deb.html
+2025-05-22 05:06:08,666 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:06:08,666 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:06:08,666 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:06:08,666 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:06:08,666 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:06:08,667 - P17320 - INFO - Após processar URL 7 Uso de memória: 131.59 MB
+2025-05-22 05:06:08,667 - P17320 - INFO - Processando URL 8/19: https://guiasaudebrasil.com.br/profissional/430b93c07b326d9e-ana-claudia-piccolo/
+2025-05-22 05:06:12,583 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\0f3078ddc59138dd320511b640d7ffe9.html
+2025-05-22 05:06:12,594 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:06:12,595 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:06:12,595 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:06:12,595 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:06:12,596 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:06:12,596 - P17320 - INFO - Após processar URL 8 Uso de memória: 130.68 MB
+2025-05-22 05:06:12,596 - P17320 - INFO - Processando URL 9/19: https://www.saopauloaqui.com.br/search.php?results=Telefone+Dra.+Ana+Cl%E1udia+Piccolo
+2025-05-22 05:06:14,949 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\1e4955cc8c22d2826a262367973a130a.html
+2025-05-22 05:06:14,965 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:06:14,966 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:06:14,966 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:06:14,968 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 05:06:14,968 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:06:14,970 - P17320 - INFO - Após processar URL 9 Uso de memória: 130.68 MB
+2025-05-22 05:06:14,971 - P17320 - INFO - Processando URL 10/19: https://iprejun.sp.gov.br/S/arquivos/Imprensa_Oficial/Imprensa_Oficial_Jundiai_2023-12-15_5381.pdf
+2025-05-22 05:06:14,973 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://iprejun.sp.gov.br/S/arquivos/Imprensa_Oficial/Imprensa_Oficial_Jundiai_2023-12-15_5381.pdf
+2025-05-22 05:06:14,974 - P17320 - INFO - Após processar URL 10 Uso de memória: 130.68 MB
+2025-05-22 05:06:14,975 - P17320 - INFO - Processando URL 11/19: https://www.medicosbrasil.com/profissional/ana-claudia-piccolo
+2025-05-22 05:06:17,230 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\cbc390ec73ab0562e24131e348d89c54.html
+2025-05-22 05:06:17,231 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:06:17,232 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:06:17,232 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:06:17,232 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:06:17,232 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:06:17,232 - P17320 - INFO - Após processar URL 11 Uso de memória: 130.68 MB
+2025-05-22 05:06:17,232 - P17320 - INFO - Processando URL 12/19: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2024/12/5db70bc3-ca80-49bc-a352-a113fa0fa5c7_Edicao-5569-26-12-2024.pdf
+2025-05-22 05:06:17,232 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2024/12/5db70bc3-ca80-49bc-a352-a113fa0fa5c7_Edicao-5569-26-12-2024.pdf
+2025-05-22 05:06:17,233 - P17320 - INFO - Após processar URL 12 Uso de memória: 130.68 MB
+2025-05-22 05:06:17,233 - P17320 - INFO - Processando URL 13/19: https://abneuro.org.br/encontre-seu-medico/ana-claudia-piccolo/
+2025-05-22 05:06:21,593 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\f375a4dd5a87d4de1e984709cca243e0.html
+2025-05-22 05:06:21,668 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 05:06:21,668 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 05:06:21,668 - P17320 - INFO - Candidates email: 4 items
+2025-05-22 05:06:21,669 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:06:21,669 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 05:06:21,669 - P17320 - INFO - Após processar URL 13 Uso de memória: 124.49 MB
+2025-05-22 05:06:21,669 - P17320 - INFO - Processando URL 14/19: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/2033044786.pdf
+2025-05-22 05:06:21,669 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/2033044786.pdf
+2025-05-22 05:06:21,670 - P17320 - INFO - Após processar URL 14 Uso de memória: 122.89 MB
+2025-05-22 05:06:21,670 - P17320 - INFO - Processando URL 15/19: https://www.classemedica.com.br/medico/18786-ana-claudia-piccolo.htm
+2025-05-22 05:06:26,894 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d399c6a16e0faaa6a235d60caaac5ed8.html
+2025-05-22 05:06:26,933 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:06:26,933 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:06:26,933 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:06:26,933 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:06:26,934 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:06:26,934 - P17320 - INFO - Após processar URL 15 Uso de memória: 126.27 MB
+2025-05-22 05:06:26,934 - P17320 - INFO - Processando URL 16/19: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2023/12/1491e4b0-be86-4a52-82c7-0872e2572556_Edicao-5381-15-12-2023.pdf
+2025-05-22 05:06:26,934 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2023/12/1491e4b0-be86-4a52-82c7-0872e2572556_Edicao-5381-15-12-2023.pdf
+2025-05-22 05:06:26,934 - P17320 - INFO - Após processar URL 16 Uso de memória: 126.27 MB
+2025-05-22 05:06:26,934 - P17320 - INFO - Processando URL 17/19: https://consultacrm.com.br/
+2025-05-22 05:06:30,353 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:06:30,363 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:06:30,364 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:06:30,364 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:06:30,364 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:06:30,364 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:06:30,364 - P17320 - INFO - Após processar URL 17 Uso de memória: 126.41 MB
+2025-05-22 05:06:30,365 - P17320 - INFO - Processando URL 18/19: https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/cgp/CGP_MEDICOS_MAR2012.pdf
+2025-05-22 05:06:30,365 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/cgp/CGP_MEDICOS_MAR2012.pdf
+2025-05-22 05:06:30,365 - P17320 - INFO - Após processar URL 18 Uso de memória: 126.41 MB
+2025-05-22 05:06:30,365 - P17320 - INFO - Processando URL 19/19: https://www.escavador.com/sobre/1329257/ana-claudia-piccolo
+2025-05-22 05:06:34,005 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\a71f1471b02e040f0099704d6e7edbd1.html
+2025-05-22 05:06:34,024 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:06:34,025 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:06:34,025 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:06:34,025 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:06:34,025 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:06:34,025 - P17320 - INFO - Após processar URL 19 Uso de memória: 126.84 MB
+2025-05-22 05:06:34,025 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:06:34,026 - P17320 - INFO - Ranked address: 10 items
+2025-05-22 05:06:34,026 - P17320 - INFO - Ranked phone: 2 items
+2025-05-22 05:06:34,026 - P17320 - INFO - Ranked email: 5 items
+2025-05-22 05:06:34,027 - P17320 - INFO - Ranked complement: 2 items
+2025-05-22 05:06:34,027 - P17320 - INFO - Ranked cep: 4 items
+2025-05-22 05:06:34,030 - P17320 - INFO - Após agregação Uso de memória: 126.84 MB
+2025-05-22 05:06:34,032 - P17320 - INFO - Validando endereço: ['Rua Banco das Palmas, 70', 'Rua Conselheiro Cotegipe, 543', 'Rua Do Oratorio, 1369']
+2025-05-22 05:06:34,032 - P17320 - INFO - Endereço validado: Rua Banco das Palmas, 70
+2025-05-22 05:06:34,032 - P17320 - INFO - Limpando texto extenso para campo address: Rua Banco das Palmas, 70...
+2025-05-22 05:06:34,033 - P17320 - INFO - Texto limpo: Rua Banco das Palmas, 70
+2025-05-22 05:06:34,035 - P17320 - INFO - Validando telefone: ['(11) 5084-9463', '(11) 5083-3876']
+2025-05-22 05:06:34,036 - P17320 - INFO - Limpando texto extenso para campo phone: (11) 5084-9463...
+2025-05-22 05:06:34,037 - P17320 - INFO - Texto limpo: 11) 5084-9463
+2025-05-22 05:06:34,037 - P17320 - INFO - Telefone validado: 11) 5084-9463
+2025-05-22 05:06:34,038 - P17320 - INFO - Validando email: ['webmaster@catalogo.med.br', 'anaclaudiapiccolo@gmail.com', 'contato@abneuro.org.br']
+2025-05-22 05:06:34,040 - P17320 - INFO - Limpando texto extenso para campo email: webmaster@catalogo.med.br...
+2025-05-22 05:06:34,040 - P17320 - INFO - Texto limpo: webmaster@catalogo.med.br
+2025-05-22 05:06:34,041 - P17320 - INFO - Email validado: webmaster@catalogo.med.br
+2025-05-22 05:06:34,044 - P17320 - INFO - Validando complemento: ['Bloco A ', 'Bloco A -   Santana - São Paulo - SP']
+2025-05-22 05:06:34,046 - P17320 - INFO - Limpando texto extenso para campo complement: Bloco A ...
+2025-05-22 05:06:34,048 - P17320 - INFO - Texto limpo: Bloco A
+2025-05-22 05:06:34,048 - P17320 - INFO - Complemento validado: Bloco A
+2025-05-22 05:06:34,048 - P17320 - INFO - Descobrindo cidade
+2025-05-22 05:06:34,049 - P17320 - INFO - Buscando cidade: Rua Banco das Palmas cidade SP
+2025-05-22 05:06:36,766 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 05:06:36,767 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 05:06:36,767 - P17320 - INFO - Tempo de execução de processamento completo do médico: 53.12 segundos
+2025-05-22 05:06:36,767 - P17320 - INFO - Resultado processado: {'Hash': '7865053f2cf8dce66b566333a43b064a27c4c2ebf8824bb2b432c1df2e66f53a', 'CRM': '65895', 'UF': 'SP', 'Firstname': 'ANA', 'LastName': 'CLAUDIA PICCOLO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Banco das Palmas, 70', 'Address A1': 'Rua Banco das Palmas', 'Numero A1': '70', 'Complement A1': 'Bloco A', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 5084-9463', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'webmaster@catalogo.med.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:06:36,768 - P17320 - INFO - Salvando lote de resultados
+2025-05-22 05:06:36,769 - P17320 - INFO - Após salvar resultados Uso de memória: 125.86 MB
+2025-05-22 05:06:36,770 - P17320 - INFO - Progresso: 82.5%
+2025-05-22 05:06:36,770 - P17320 - INFO - Tempo de execução de processamento do médico 3: 53.12 segundos
+2025-05-22 05:06:36,771 - P17320 - INFO - Tempo de execução de processamento do lote completo: 195.83 segundos

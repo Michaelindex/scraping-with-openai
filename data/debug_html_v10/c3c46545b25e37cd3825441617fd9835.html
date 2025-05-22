@@ -1,0 +1,1177 @@
+<html class="js sizes customelements history pointerevents postmessage webgl websockets cssanimations csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox picture srcset webworkers" lang="zxx"><head><meta http-equiv="content-type" content="text/html;charset=UTF-8">
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CRM-PI</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://obitos.crmpi.org.br/front/assets/img/favicon.ico">
+
+
+    <link rel="stylesheet" href="https://obitos.crmpi.org.br/front/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://obitos.crmpi.org.br/front/assets/css/owl.carousel.min.css">
+    <!--<link rel="stylesheet" href="https://obitos.crmpi.org.br/front/assets/css/magnific-popup.css">-->
+    <link rel="stylesheet" href="https://obitos.crmpi.org.br/front/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://obitos.crmpi.org.br/front/assets/css/themify-icons.css">
+    <link rel="stylesheet" href="https://obitos.crmpi.org.br/front/assets/css/nice-select.css">
+    <link rel="stylesheet" href="https://obitos.crmpi.org.br/front/assets/css/flaticon.css">
+    <link rel="stylesheet" href="https://obitos.crmpi.org.br/front/assets/css/animate.min.css">
+    <link rel="stylesheet" href="https://obitos.crmpi.org.br/front/assets/css/slicknav.css">
+    <link href="https://obitos.crmpi.org.br/front/assets/css/select2-4.1.min.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://obitos.crmpi.org.br/front/assets/css/gijgo.css">
+    <link href="https://obitos.crmpi.org.br/front/assets/plugins/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet" />
+    <link href="https://obitos.crmpi.org.br/front/assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet" />
+    -->
+
+    <link rel="stylesheet" href="https://obitos.crmpi.org.br/front/assets/css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+    <div class="header-area">
+        <div id="sticky-header" class="main-header-area">
+            <div class="container-fluid">
+                <div class="socail_links">
+                    <ul>
+                        <li>
+                            <a target="_blank" href="https://www.facebook.com/Conselho-Regional-de-Medicina-Piau%C3%AD-173782112826557/">
+                                <i class="ti-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.instagram.com/crmpiaui/?hl=pt">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.youtube.com/channel/UCYL8LtWbAomtzNrs70GbNHg">
+                                <i class="fa fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>    
+    <div class="slider_area">
+        <div class="logo h-100 container-banner">
+ 			<a href="/"><img class="img-fluid" src="https://obitos.crmpi.org.br/front/assets/img/logos/logo.png" alt="Logo CRM"></a>
+ 			<a href="/"><img class="img-fluid" src="https://obitos.crmpi.org.br/front/assets/img/logos/pi.png" alt="Logo do CRM"></a>
+ 		</div>
+    </div>
+    
+    <div class="catagory_area" id="scroll-catagory-area">
+        <div class="container-title-form-search">
+            <h3 id="title-form-search" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInLeft;" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
+                Selecione os filtros para sua pesquisa
+            </h3>
+        </div>
+
+        <div class="container-form-search wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInLeft;">
+            
+            <form id="form-search" style="">
+                <!--
+                <div class="row cat_search mb-1" style="justify-content: unset;">
+                    
+                    <div class="col-12 col-lg-3 col-md-4">
+                        <div class="single_input">
+                            <label class="label-form-search">Selecione um período <small style="font-style: italic;">(opcional)</small></label>
+                            <input type="text" name="data_inicial_final" value="" placeholder="00/00/0000 à 00/00/0000" />
+                        </div>
+                    </div>
+                </div>
+                -->
+                <div class="row cat_search mb-1" style="justify-content: unset;">
+                    
+                    <div class="col-12 col-lg-3 col-md-4">
+                        <div class="single_input">
+                            <label class="label-form-search">Data Inicial <small style="font-style: italic;">(opcional)</small></label>
+                            <input type="text" inputmode="numeric" id="startDate" name="data_inicial" placeholder="__/__/____" maxlength="10">
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-lg-3 col-md-4">
+                        <div class="single_input">
+                            <label class="label-form-search">Data Final <small style="font-style: italic;">(opcional)</small></label>
+                            <input type="text" inputmode="numeric" id="endDate" name="data_final" placeholder="__/__/____" maxlength="10">
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="row cat_search">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="single_input">
+                            <label class="label-form-search">Causa da Morte</label>
+                            <select class="select2-element wide select2-hidden-accessible" name="causa_morte[]" multiple="" data-select2-id="select2-data-1-xeo0" tabindex="-1" aria-hidden="true">
+                                <!--<option value="" data-display="Causa da Morte">Causa da Morte</option>-->
+                                <option class="selected-todos" value="-1" selected="" data-select2-id="select2-data-3-6x7f">Todos</option>
+                                                                                                            <option class="" value="698">DISFUNÇÃO DE MÚLTIPLOS ÓRGÃOS E SISTEMAS</option>
+                                                                            <option class="" value="699">DISFUNÇÃO MÚLTIPLA DE ÓRGÃOS</option>
+                                                                            <option class="" value="700">INSUFICIÊNCIA CARDIO RESPIRATÓRIA AGUDA</option>
+                                                                            <option class="" value="701">FALÊNCIA CARDIO RESPIRATÓRIA</option>
+                                                                            <option class="" value="702">EDEMA AGUDO DE PULMÃO</option>
+                                                                            <option class="" value="703">NEOPLASMA PULMONAR AVANÇADA</option>
+                                                                            <option class="" value="704">CÂNCER DE PULMÃO</option>
+                                                                            <option class="" value="705">CHOQUE SÉPTICO REFRATÁRIO</option>
+                                                                            <option class="" value="706">CIRROSE HEPÁTICA</option>
+                                                                            <option class="" value="707">CHOQUE SÉPTICO FOCO PULMONAR</option>
+                                                                            <option class="" value="708">CHOQUE NEUROGÊNICO</option>
+                                                                            <option class="" value="709">INSUFUCIÊNCIA RESPIRATÓRIA AGUDA</option>
+                                                                            <option class="" value="710">FIBRILAÇÃO VENTRICULAR</option>
+                                                                            <option class="" value="711">DERRAME PLEURAL NEOPLÁSICO</option>
+                                                                            <option class="" value="712">ACIDENTE VASCULAR HEMORRÁGICO</option>
+                                                                            <option class="" value="713">ACIDENTE VASCULAR CEREBRAL HEMORRÁGICO</option>
+                                                                            <option class="" value="714">FALÊNCIA DE MÚLTIPLOS ÓRGÃOS</option>
+                                                                            <option class="" value="715">CHOQUE SÉPTICO VACO PULMONAR</option>
+                                                                            <option class="" value="716">CHOQUE REFRATÁRIO</option>
+                                                                            <option class="" value="717">CHOQUE SÉPTICO DE FOCO ABDOMINAL</option>
+                                                                            <option class="" value="718">CAUSA A ESCLARECER</option>
+                                                                            <option class="" value="719">SÍNDROME RESPIRATÓRIA AGUDA GRAVE</option>
+                                                                            <option class="" value="720">LESÃO RENAL AGUDA</option>
+                                                                            <option class="" value="721">CALCULOSE DE VIA BILIAR COM COLANGITE</option>
+                                                                            <option class="" value="722">CHOQUE HEMORRÁGICO E VASOPLÉGICO</option>
+                                                                            <option class="" value="723">CHOQUE CARDIOGÊNICO</option>
+                                                                            <option class="" value="724">CHOQUE SÉPTICO DE FOCO PULMONAR</option>
+                                                                            <option class="" value="725">ANEURISMA CARÓTIDA</option>
+                                                                            <option class="" value="726">INSUFICIÊNCIA VENTILATÓRIA</option>
+                                                                            <option class="" value="727">FALÊNCIA MÚLTIPLA DOS ÓRGÃOS</option>
+                                                                            <option class="" value="728">CHOQUE SÉPTICO</option>
+                                                                            <option class="" value="729">NEOPLASIA CABEÇA E PESCOÇO ESTÁDIO 4</option>
+                                                                            <option class="" value="730">TRAUMATISMO INTRACRANIANO</option>
+                                                                            <option class="" value="731">INFARTO AGUDO DO MIOCÁRDIO</option>
+                                                                            <option class="" value="732">MORTE SÚBITA</option>
+                                                                            <option class="" value="733">FALÊNCIA DE MÚLTIPLOS ÓRGÃOS E SISTEMAS</option>
+                                                                            <option class="" value="734">MORTE ENCEFÁLICA</option>
+                                                                            <option class="" value="735">INSUFICIÊNCIA CARDIO RESPIRATÓRIA</option>
+                                                                            <option class="" value="736">ACIDENTE VASCULAR ISQUÊMICO CEREBRAL</option>
+                                                                            <option class="" value="737">HIPOGLICEMIA POR DIABETES MÉLLITUS, TIPO 1</option>
+                                                                            <option class="" value="738">ACIDENTE VASCULAR CEREBRAL AGUDO</option>
+                                                                            <option class="" value="739">FALÊNCIA MIOCÁRDICA</option>
+                                                                            <option class="" value="740">ENFORCAMENTO</option>
+                                                                            <option class="" value="741">ASFIXIA</option>
+                                                                            <option class="" value="742">TRAUMATISMO CRANIANO E TORÁCICO</option>
+                                                                            <option class="" value="743">TRAUMATISMO CRANIOENCEFÁLICO</option>
+                                                                            <option class="" value="744">INTOXICAÇÃO EXÓGENA</option>
+                                                                            <option class="" value="745">TRAUMATISMO CRÂNIO ENCEFÁLICO</option>
+                                                                            <option class="" value="746">PARADA CARDIORESPIRATÓRIA</option>
+                                                                            <option class="" value="747">INFARTO DO MIOCÁRDIO</option>
+                                                                            <option class="" value="748">CHOQUE HIPOVOLÊMICO</option>
+                                                                            <option class="" value="749">BRONCO PNEUMONIA</option>
+                                                                            <option class="" value="750">ASTEROSCLEROSE CORONARIANA</option>
+                                                                            <option class="" value="751">RINOFARINGE</option>
+                                                                            <option class="" value="752">SEPSE PULMONAR E PARTES MOLES</option>
+                                                                            <option class="" value="753">BRONCOPNEUMONIA GRAVE</option>
+                                                                            <option class="" value="754">METÁSTASE SUPRA RENAL</option>
+                                                                            <option class="" value="755">NEOPLASIA DE PULMÃO</option>
+                                                                            <option class="" value="756">INJURIA RENAL AGUDA</option>
+                                                                            <option class="" value="757">SANGRAMENTO DE AORTA TORACOABDOMINAL</option>
+                                                                            <option class="" value="758">NEOPLASIA HEPÁTICA</option>
+                                                                            <option class="" value="759">CÂNCER DE VIAS BILIARES</option>
+                                                                            <option class="" value="760">DOENÇA RESPIRATÓRIA AGUDA</option>
+                                                                            <option class="" value="761">CARCINOMA ADRENAL METASTÁTICO</option>
+                                                                            <option class="" value="762">FERIMENTO POR ARMA DE FOGO EM CRÂNIO (TRANSFIXANTE)</option>
+                                                                            <option class="" value="763">PERITONITE BACTERIANA</option>
+                                                                            <option class="" value="764">DIABETES MELLITOS DESCOMPENSADA</option>
+                                                                            <option class="" value="765">DERRAME PLEURAL</option>
+                                                                            <option class="" value="766">TAQUIARRITMIA</option>
+                                                                            <option class="" value="767">CARCINOMA BRÔNQUICO</option>
+                                                                            <option class="" value="768">INFECÇÃO BACTERIANA DE LOCALIZAÇÃO NÃO ESPECIFICADA</option>
+                                                                            <option class="" value="769">HIPERTENSÃO INTRACRANIANA</option>
+                                                                            <option class="" value="770">CARCINOMATOSE PERITONIAL</option>
+                                                                            <option class="" value="771">EDEMA AGUDO PULMONAR</option>
+                                                                            <option class="" value="772">MIOCARDIOPATIA DILATADA</option>
+                                                                            <option class="" value="773">SEPSE ABDOMINAL</option>
+                                                                            <option class="" value="774">PROJETIL DE ARMA DE FOGO</option>
+                                                                            <option class="" value="775">COMA PROLONGADO</option>
+                                                                            <option class="" value="776">EDEMA AGULDO DE PULMÃO</option>
+                                                                            <option class="" value="777">COLANGIOCARCINOMA AVANÇADO</option>
+                                                                            <option class="" value="778">INSUFICIÊNCIA MITRAL</option>
+                                                                            <option class="" value="779">METÁSTASES PULMONARES</option>
+                                                                            <option class="" value="780">CIRURGIA DE REVASCULARIZAÇÃO DO MIOCÁRDIO</option>
+                                                                            <option class="" value="781">ADBOME AGUDO</option>
+                                                                            <option class="" value="782">METÁSTASE HEPÁTICA E PULMONAR</option>
+                                                                            <option class="" value="783">HIPERTENSÃO PULMONAR SECUNDÁRIA</option>
+                                                                            <option class="" value="784">ACIDENTE DE TRÂNSITO</option>
+                                                                            <option class="" value="785">TOXOPLASMOSE</option>
+                                                                            <option class="" value="786">OUTROS TRAUMATISMOS ENVOLVENDO REGIÕES MÚLTIPLAS DO CORPO NÃO CLASSIFICADOS EM OUTRA PARTE</option>
+                                                                            <option class="" value="787">INSUFICIÊNCIA RESPIRATÓRIA AGUDA</option>
+                                                                            <option class="" value="788">INFARTO AGUDO DO MIOCÁRDIO COM SUPRA DE ST LATERAL</option>
+                                                                            <option class="" value="789">EDEMA CEREBRAL DIFUSO</option>
+                                                                            <option class="" value="790">COLANGITE</option>
+                                                                            <option class="" value="791">INSUFICIÊNCIA CORONARIANA</option>
+                                                                            <option class="" value="792">SÍNDROME HEPATORENAL</option>
+                                                                            <option class="" value="793">NEOPLASIA CEREBRAL METASTÁTICA</option>
+                                                                            <option class="" value="794">AFOGAMENTO</option>
+                                                                            <option class="" value="795">QUEDA DE ELEVADA ALTURA</option>
+                                                                            <option class="" value="796">FRATURA DE COLUNA CERVICAL</option>
+                                                                            <option class="" value="797">DEPRESSÃO PSÍQUICA</option>
+                                                                            <option class="" value="798">AÇÃO PERFURO CONTUNDENTE</option>
+                                                                            <option class="" value="799">HIPERTENSÃO ARTERIAL SEVERA</option>
+                                                                            <option class="" value="800">ROTURA DE ANEURISMA AÓRTICA</option>
+                                                                            <option class="" value="801">INSUFICIÊNCIA RENAL CRÔNICA AGUDIZADA</option>
+                                                                            <option class="" value="802">ERISIPELA</option>
+                                                                            <option class="" value="803">PNEUMONIA</option>
+                                                                            <option class="" value="804">HIPERTENSÃO ARTERIAL SISTEMÁTICA</option>
+                                                                            <option class="" value="805">MENINGITE</option>
+                                                                            <option class="" value="806">ANEURISMA DE AORTA TORACOABDOMINAL</option>
+                                                                            <option class="" value="807">ABDOME AGUDO OBSTRUTIVO OPERADO</option>
+                                                                            <option class="" value="808">SEQUELA DE AVC</option>
+                                                                            <option class="" value="809">LINFANGITE CARCINOMATOSA</option>
+                                                                            <option class="" value="810">CARCINOMA PRIMÁRIO DE OVÁRIO</option>
+                                                                            <option class="" value="811">ARRITMIA CARDÍACA</option>
+                                                                            <option class="" value="812">DOENÇA DE CHAGAS</option>
+                                                                            <option class="" value="813">ENCEFALOPATIA HEPÁTICA</option>
+                                                                            <option class="" value="814">PÓS-OPERATÓRIO MICROCIRURGIA DE TUMOR CEREBRAL</option>
+                                                                            <option class="" value="815">COVID-19</option>
+                                                                            <option class="" value="816">INSUFICIÊNCIA CARDIACA</option>
+                                                                            <option class="" value="817">ANGINA INSTÁVEL</option>
+                                                                            <option class="" value="818">HEPATOPATIA CRÔNICA</option>
+                                                                            <option class="" value="819">DISPLIDEMIA</option>
+                                                                            <option class="" value="820">NEOPLASIA DE CÓLON AVANÇADA</option>
+                                                                            <option class="" value="821">INFECÇÃO RESPIRATÓRIA(PNEUMONIA)</option>
+                                                                            <option class="" value="822">ACIDENTE AUTOMOBILÍSTICO</option>
+                                                                            <option class="" value="823">METÁSTASE FÍGADO</option>
+                                                                            <option class="" value="824">CARDIOPATIA GRAVE</option>
+                                                                            <option class="" value="825">INSUFICIÊNCIA RESPIRATÓRIA</option>
+                                                                            <option class="" value="826">OCUPANTE QUALQUER DE UM ÔNIBUS TRAUMATIZADO EM UM ACIDENTE DE TRÂNSITO NÃO ESPECIFICADO</option>
+                                                                            <option class="" value="827">SEPTICEMIA</option>
+                                                                            <option class="" value="828">ACIDENTE VASCULAR CEREBRAL</option>
+                                                                            <option class="" value="829">NEOPLASIA CEREBRAL MALIGNA</option>
+                                                                            <option class="" value="830">INFECÇÃO PULMONAR</option>
+                                                                            <option class="" value="831">ACIDENTE DE TRÁFEGO</option>
+                                                                            <option class="" value="832">COLEDOCOLITÍASE</option>
+                                                                            <option class="" value="833">DIABETE MÉLLITUS</option>
+                                                                            <option class="" value="834">INSUFICIÊNCIA HEPÁTICA</option>
+                                                                            <option class="" value="835">NEOPLASIA PULMONAR</option>
+                                                                            <option class="" value="836">ACIDENTE DE CARRO</option>
+                                                                            <option class="" value="837">POLITRAUMATISMO</option>
+                                                                            <option class="" value="838">SOROPOSITIVO</option>
+                                                                            <option class="" value="839">COLECISTITE AGUDA</option>
+                                                                            <option class="" value="840">ANEURISMA DE AORTA ABDOMINAL</option>
+                                                                            <option class="" value="841">INSUFICIÊNCIA CARDÍACA CONGESTIVA</option>
+                                                                            <option class="" value="842">TROMBOCITOPENIA</option>
+                                                                            <option class="" value="843">SEPSE</option>
+                                                                            <option class="" value="844">INFECÇÃO RESPIRATÓRIA</option>
+                                                                            <option class="" value="845">SÍNDROME DEMENCIAL</option>
+                                                                            <option class="" value="846">FIBROSE PULMONAR</option>
+                                                                            <option class="" value="847">ENCEFALOPATIA HIPÓXICO-ISQUÊMICA</option>
+                                                                            <option class="" value="848">IMUNOSSUPRESSÃO</option>
+                                                                            <option class="" value="849">DOENÇA ARTERIAL CORONARIANA</option>
+                                                                            <option class="" value="850">VISCERA SACRAL GRAU II</option>
+                                                                            <option class="" value="851">PNEUMONIA VIRAL POR COVID-19</option>
+                                                                            <option class="" value="852">PÓS-OPERATÓRIO CORREÇÃO CIRURGICA DE ANEURISMA</option>
+                                                                            <option class="" value="853">HIPERTENSÃO ATERIAL SISTÊMICA</option>
+                                                                            <option class="" value="854">ADERÊNCIAS INTESTINAIS COM OBSTRUÇÃO</option>
+                                                                            <option class="" value="855">CARCINOMA METASTÁTICO</option>
+                                                                            <option class="" value="856">CÂNCER DE PRÓSTATA</option>
+                                                                            <option class="" value="857">BRONCOPNEUMONIA</option>
+                                                                            <option class="" value="858">HEPATOCARCINOMA</option>
+                                                                            <option class="" value="859">MENINGIOMA</option>
+                                                                            <option class="" value="860">HIPERTENSÃO ARTERIAL</option>
+                                                                            <option class="" value="861">DOENÇA RENAL CRÔNICA DIALÍTICA</option>
+                                                                            <option class="" value="862">SEPSE DE FOCO PULMONAR</option>
+                                                                            <option class="" value="863">DOENÇA PULMONAR OBSTRUTIVA CRÔNICA</option>
+                                                                            <option class="" value="864">CÂNCER DE MAMA</option>
+                                                                            <option class="" value="865">OBSTRUÇÃO INTESTINAL</option>
+                                                                            <option class="" value="866">ICTERICIA OBSTRUTIVA</option>
+                                                                            <option class="" value="867">HIPERTENSÃO ATERIAL</option>
+                                                                            <option class="" value="868">MIOCARDIOPATIA ISQUÊMICA</option>
+                                                                            <option class="" value="869">HEPATOPATIA POR VÍRUS O</option>
+                                                                            <option class="" value="870">ACIDENTE RODOVIÁRIO</option>
+                                                                            <option class="" value="871">INSUFICIÊNCIA RENAL</option>
+                                                                            <option class="" value="872">INSUFICIÊNCIA RENAL CRÔNICA</option>
+                                                                            <option class="" value="873">FOCO PULMONAR</option>
+                                                                            <option class="" value="874">HIPOTEROIDISMO</option>
+                                                                            <option class="" value="875">DIABETES MÉLLITUS TIPO II</option>
+                                                                            <option class="" value="876">TABAGISMO</option>
+                                                                            <option class="" value="877">TAQUICARDIA VENTRICULAR</option>
+                                                                            <option class="" value="878">HEPATITE C</option>
+                                                                            <option class="" value="879">ASMA GRAVE</option>
+                                                                            <option class="" value="880">LEUCEMIA LINFOCÍTICA AGUDA</option>
+                                                                            <option class="" value="881">HEMORRAGIA DIGESTIVA</option>
+                                                                            <option class="" value="882">ACIDENTE VASCULAR CEREBRAL ISQUÊMICO</option>
+                                                                            <option class="" value="883">HIPERTENSÃO ARTERIAL SISTÊMICA</option>
+                                                                            <option class="" value="884">DESNUTRIÇÃO</option>
+                                                                            <option class="" value="885">DIABETES MELLITUS</option>
+                                                                            <option class="" value="886">COLISÃO ENTRE CARRO E ANIMAL</option>
+                                                                            <option class="" value="887">DEMÊNCIA DE ALZHEIMER</option>
+                                                                            <option class="" value="888">INSUFICIÊNCIA RENAL DIALÍTICA</option>
+                                                                            <option class="" value="889">INSUFICIÊNCIA RENAL AGUDA</option>
+                                                                            <option class="" value="890">HEPATITE B</option>
+                                                                            <option class="" value="891">OBESIDADE</option>
+                                                                            <option class="" value="892">ACIDENTE AEREO</option>
+                                                                                                </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="select2-data-2-frqf" style="width: auto;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered" id="select2-causa_morte-y7-container"><li class="select2-selection__choice" title="Todos" data-select2-id="select2-data-4-lvfe"><button type="button" class="select2-selection__choice__remove" tabindex="-1" title="Remove item" aria-label="Remove item" aria-describedby="select2-causa_morte-y7-container-choice-9nt6--1"><span aria-hidden="true">×</span></button><span class="select2-selection__choice__display" id="select2-causa_morte-y7-container-choice-9nt6--1">Todos</span></li></ul><span class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" autocomplete="off" aria-describedby="select2-causa_morte-y7-container" placeholder="" style="width: 0.75em;"></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="single_input">
+                            <label class="label-form-search">Especialidade</label>
+                            <select class="select2-element wide select2-hidden-accessible" name="especialidade[]" multiple="" data-select2-id="select2-data-5-crdl" tabindex="-1" aria-hidden="true">
+                                <!--<option value="" data-display="Causa da Morte">Especialidade</option>-->
+                                <option class="selected-todos" value="-1" selected="" data-select2-id="select2-data-7-m2ms">Todos</option>
+                                                                                                            <option class="" value="1">Acupuntura</option>
+                                                                            <option class="" value="2">Alergia e imunologia</option>
+                                                                            <option class="" value="3">Anestesiologia</option>
+                                                                            <option class="" value="4">Angiologia</option>
+                                                                            <option class="" value="5">Cardiologia</option>
+                                                                            <option class="" value="6">Cirurgia cardiovascular</option>
+                                                                            <option class="" value="7">Cirurgia da mão</option>
+                                                                            <option class="" value="8">Cirurgia de cabeça e pescoço</option>
+                                                                            <option class="" value="9">Cirurgia do aparelho digestivo</option>
+                                                                            <option class="" value="10">Cirurgia geral</option>
+                                                                            <option class="" value="11">Cirurgia oncológica</option>
+                                                                            <option class="" value="12">Cirurgia pediátrica</option>
+                                                                            <option class="" value="13">Cirurgia plástica</option>
+                                                                            <option class="" value="14">Cirurgia torácica</option>
+                                                                            <option class="" value="15">Cirurgia vascular</option>
+                                                                            <option class="" value="16">Clínica médica</option>
+                                                                            <option class="" value="17">Coloproctologia</option>
+                                                                            <option class="" value="18">Dermatologia</option>
+                                                                            <option class="" value="19">Endocrinologia e metabologia</option>
+                                                                            <option class="" value="20">Endoscopia</option>
+                                                                            <option class="" value="21">Gastroenterologia</option>
+                                                                            <option class="" value="22">Genética médica</option>
+                                                                            <option class="" value="23">Geriatria</option>
+                                                                            <option class="" value="24">Ginecologia e obstetrícia</option>
+                                                                            <option class="" value="25">Hematologia e hemoterapia</option>
+                                                                            <option class="" value="26">Homeopatia</option>
+                                                                            <option class="" value="27">Infectologia</option>
+                                                                            <option class="" value="28">Mastologia</option>
+                                                                            <option class="" value="29">Medicina de emergência</option>
+                                                                            <option class="" value="30">Medicina de família e comunidade</option>
+                                                                            <option class="" value="31">Medicina do trabalho</option>
+                                                                            <option class="" value="32">Medicina de tráfego</option>
+                                                                            <option class="" value="33">Medicina esportiva</option>
+                                                                            <option class="" value="34">Medicina física e reabilitação</option>
+                                                                            <option class="" value="35">Medicina intensiva</option>
+                                                                            <option class="" value="36">Medicina legal e perícia médica</option>
+                                                                            <option class="" value="37">Medicina nuclear</option>
+                                                                            <option class="" value="38">Medicina preventiva e social</option>
+                                                                            <option class="" value="39">Nefrologia</option>
+                                                                            <option class="" value="40">Neurocirurgia</option>
+                                                                            <option class="" value="41">Neurologia</option>
+                                                                            <option class="" value="42">Nutrologia</option>
+                                                                            <option class="" value="43">Oftalmologia</option>
+                                                                            <option class="" value="44">Oncologia clínica</option>
+                                                                            <option class="" value="45">Ortopedia e traumatologia</option>
+                                                                            <option class="" value="46">Otorrinolaringologia</option>
+                                                                            <option class="" value="47">Patologia</option>
+                                                                            <option class="" value="48">Patologia clínica</option>
+                                                                            <option class="" value="49">Pediatria</option>
+                                                                            <option class="" value="50">Pneumologia</option>
+                                                                            <option class="" value="51">Psiquiatria</option>
+                                                                            <option class="" value="52">Radiologia e diagnóstico por imagem</option>
+                                                                            <option class="" value="53">Radioterapia</option>
+                                                                            <option class="" value="54">Reumatologia</option>
+                                                                            <option class="" value="55">Urologia</option>
+                                                                            <option class="" value="56">Cancerologia</option>
+                                                                            <option class="" value="57">Cancerologia pediátrica</option>
+                                                                            <option class="" value="58">Endoscopia digestiva</option>
+                                                                            <option class="" value="59">Medicina laboratorial</option>
+                                                                                                </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="select2-data-6-f88t" style="width: auto;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered" id="select2-especialidade-rz-container"><li class="select2-selection__choice" title="Todos" data-select2-id="select2-data-8-k6is"><button type="button" class="select2-selection__choice__remove" tabindex="-1" title="Remove item" aria-label="Remove item" aria-describedby="select2-especialidade-rz-container-choice-7u5y--1"><span aria-hidden="true">×</span></button><span class="select2-selection__choice__display" id="select2-especialidade-rz-container-choice-7u5y--1">Todos</span></li></ul><span class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" autocomplete="off" aria-describedby="select2-especialidade-rz-container" placeholder="" style="width: 0.75em;"></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="single_input">
+                            <label class="label-form-search">Local da Ocorrência</label>
+                            <select class="wide select2-element select2-hidden-accessible" name="local_ocorrencia[]" multiple="" data-select2-id="select2-data-9-j1ds" tabindex="-1" aria-hidden="true">
+                                <!--<option value="" data-display="Category">Local da Ocorrência</option>-->
+                                <option class="selected-todos" value="-1" selected="" data-select2-id="select2-data-11-m2jq">Todos</option>
+                                                                                                            <option class="" value="1">Hospital</option>
+                                                                            <option class="" value="2">Outro estabelecimento de saúde</option>
+                                                                            <option class="" value="3">Domicílio</option>
+                                                                            <option class="" value="4">Via pública</option>
+                                                                            <option class="" value="5">Outros</option>
+                                                                            <option class="" value="6">Ignorado</option>
+                                                                                                </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="select2-data-10-m6kn" style="width: auto;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered" id="select2-local_ocorrencia-l1-container"><li class="select2-selection__choice" title="Todos" data-select2-id="select2-data-12-pmgk"><button type="button" class="select2-selection__choice__remove" tabindex="-1" title="Remove item" aria-label="Remove item" aria-describedby="select2-local_ocorrencia-l1-container-choice-rtc6--1"><span aria-hidden="true">×</span></button><span class="select2-selection__choice__display" id="select2-local_ocorrencia-l1-container-choice-rtc6--1">Todos</span></li></ul><span class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" autocomplete="off" aria-describedby="select2-local_ocorrencia-l1-container" placeholder="" style="width: 0.75em;"></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="single_input">
+                            <label class="label-form-search">Cor Raça</label>
+                            <select class="wide select2-element select2-hidden-accessible" name="cor_raca[]" multiple="" data-select2-id="select2-data-13-hgal" tabindex="-1" aria-hidden="true">
+                                <!--<option value="" data-display="Category">Cor Raça</option>-->
+                                <option class="selected-todos" value="-1" selected="" data-select2-id="select2-data-15-x929">Todos</option>
+                                                                                                            <option class="" value="1">Branca</option>
+                                                                            <option class="" value="2">Preta</option>
+                                                                            <option class="" value="3">Amarela</option>
+                                                                            <option class="" value="4">Parda</option>
+                                                                            <option class="" value="5">Indígena</option>
+                                                                            <option class="" value="6">Ignorado</option>
+                                                                                                </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="select2-data-14-kxe8" style="width: auto;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered" id="select2-cor_raca-kt-container"><li class="select2-selection__choice" title="Todos" data-select2-id="select2-data-16-wh9h"><button type="button" class="select2-selection__choice__remove" tabindex="-1" title="Remove item" aria-label="Remove item" aria-describedby="select2-cor_raca-kt-container-choice-8dg6--1"><span aria-hidden="true">×</span></button><span class="select2-selection__choice__display" id="select2-cor_raca-kt-container-choice-8dg6--1">Todos</span></li></ul><span class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" autocomplete="off" aria-describedby="select2-cor_raca-kt-container" placeholder="" style="width: 0.75em;"></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="single_input">
+                            <label class="label-form-search">Faixa Etária</label>
+                            <select class="wide select2-element select2-hidden-accessible" name="faixa_etaria[]" multiple="" data-select2-id="select2-data-17-z08w" tabindex="-1" aria-hidden="true">
+                                <!--<option value="" data-display="Category">Faixa Etária</option>-->
+                                <option class="selected-todos" value="-1" selected="" data-select2-id="select2-data-19-m5ai">Todos</option>
+                                                                                                            <option class="" value="6">20 a 29 anos</option>
+                                                                            <option class="" value="7">30 a 39 anos</option>
+                                                                            <option class="" value="8">40 a 49 anos</option>
+                                                                            <option class="" value="9">50 a 59 anos</option>
+                                                                            <option class="" value="10">60 a 69 anos</option>
+                                                                            <option class="" value="11">70 a 79 anos</option>
+                                                                            <option class="" value="12">80 anos e mais</option>
+                                                                            <option class="" value="13">Idade ignorada</option>
+                                                                                                </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="select2-data-18-rja7" style="width: auto;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered" id="select2-faixa_etaria-zj-container"><li class="select2-selection__choice" title="Todos" data-select2-id="select2-data-20-f3fx"><button type="button" class="select2-selection__choice__remove" tabindex="-1" title="Remove item" aria-label="Remove item" aria-describedby="select2-faixa_etaria-zj-container-choice-1mc1--1"><span aria-hidden="true">×</span></button><span class="select2-selection__choice__display" id="select2-faixa_etaria-zj-container-choice-1mc1--1">Todos</span></li></ul><span class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" autocomplete="off" aria-describedby="select2-faixa_etaria-zj-container" placeholder="" style="width: 0.75em;"></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="single_input">
+                            <label class="label-form-search">Sexo</label>
+                            <select class="wide select2-element select2-hidden-accessible" name="sexo[]" multiple="" data-select2-id="select2-data-21-wowx" tabindex="-1" aria-hidden="true">
+                                <!--<option value="" data-display="Sexo">Sexo</option>-->
+                                <option class="selected-todos" value="-1" selected="" data-select2-id="select2-data-23-p2u8">Todos</option>
+                                                                                                            <option class="" value="1">Masculino</option>
+                                                                            <option class="" value="2">Feminino</option>
+                                                                            <option class="" value="3">Ignorado</option>
+                                                                                                </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="select2-data-22-mfiu" style="width: auto;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered" id="select2-sexo-wo-container"><li class="select2-selection__choice" title="Todos" data-select2-id="select2-data-24-176q"><button type="button" class="select2-selection__choice__remove" tabindex="-1" title="Remove item" aria-label="Remove item" aria-describedby="select2-sexo-wo-container-choice-zwz0--1"><span aria-hidden="true">×</span></button><span class="select2-selection__choice__display" id="select2-sexo-wo-container-choice-zwz0--1">Todos</span></li></ul><span class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" autocomplete="off" aria-describedby="select2-sexo-wo-container" placeholder="" style="width: 0.75em;"></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4" id="select-estado-civil">
+                        <div class="single_input">
+                            <label class="label-form-search">Estado Civil</label>
+                            <select class="wide select2-element select2-hidden-accessible" name="estado_civil[]" multiple="" data-select2-id="select2-data-25-jkah" tabindex="-1" aria-hidden="true">
+                                <!--<option value="" data-display="Category">Estado Civil</option>-->
+                                <option class="selected-todos" value="-1" selected="" data-select2-id="select2-data-27-2g3g">Todos</option>
+                                                                                                            <option class="" value="1">Solteiro(a)</option>
+                                                                            <option class="" value="2">Casado(a)</option>
+                                                                            <option class="" value="3">Viúvo(a)</option>
+                                                                            <option class="" value="4">Separado judicialmente</option>
+                                                                            <option class="" value="5">Divorciado(a)</option>
+                                                                            <option class="" value="6">Separado(a)</option>
+                                                                            <option class="" value="7">Ignorado</option>
+                                                                            <option class="" value="9">Outro</option>
+                                                                                                </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="select2-data-26-2sxq" style="width: auto;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false"><ul class="select2-selection__rendered" id="select2-estado_civil-8d-container"><li class="select2-selection__choice" title="Todos" data-select2-id="select2-data-28-16p2"><button type="button" class="select2-selection__choice__remove" tabindex="-1" title="Remove item" aria-label="Remove item" aria-describedby="select2-estado_civil-8d-container-choice-espd--1"><span aria-hidden="true">×</span></button><span class="select2-selection__choice__display" id="select2-estado_civil-8d-container-choice-espd--1">Todos</span></li></ul><span class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" autocomplete="off" aria-describedby="select2-estado_civil-8d-container" placeholder="" style="width: 0.75em;"></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row cat_search">
+                    <div class="col-lg-3 col-md-12" id="container-btn-search">
+                        <div class="job_btn">
+                            <a href="javascript:void(0);" id="btn-submit" class="boxed-btn3">Pesquisar</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--                    
+    <div id="sub-footer" class="popular_catagory_area">
+        <div class="container">
+            <div id="result-search">
+            </div>
+        </div>
+    </div>
+    -->
+
+    <div class="popular_catagory_area" style="display: none;" id="scroll-result">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class=" mb-20">
+                        <h3 style="color:#6f6f6f;font-size: 23px;">Resultado da pesquisa</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="result-search">
+                
+            </div>
+        </div>
+    </div>
+
+    <!--
+    <div class="job_listing_area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="section_title">
+                        <h3>Job Listing</h3>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="brouse_job text-right">
+                        <a href="jobs.html" class="boxed-btn4">Browse More Job</a>
+                    </div>
+                </div>
+            </div>
+            <div class="job_lists">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="single_jobs white-bg d-flex justify-content-between">
+                            <div class="jobs_left d-flex align-items-center">
+                                <div class="thumb">
+                                    <img src="https://obitos.crmpi.org.br/front/assets/img/svg_icon/1.svg" alt="">
+                                </div>
+                                <div class="jobs_conetent">
+                                    <a href="job_details.html">
+                                        <h4>Software Engineer</h4>
+                                    </a>
+                                    <div class="links_locat d-flex align-items-center">
+                                        <div class="location">
+                                            <p> <i class="fa fa-map-marker"></i> California, USA</p>
+                                        </div>
+                                        <div class="location">
+                                            <p> <i class="fa fa-clock-o"></i> Part-time</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jobs_right">
+                                <div class="apply_now">
+                                    <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a>
+                                    <a href="job_details.html" class="boxed-btn3">Apply Now</a>
+                                </div>
+                                <div class="date">
+                                    <p>Date line: 31 Jan 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12">
+                        <div class="single_jobs white-bg d-flex justify-content-between">
+                            <div class="jobs_left d-flex align-items-center">
+                                <div class="thumb">
+                                    <img src="https://obitos.crmpi.org.br/front/assets/img/svg_icon/2.svg" alt="">
+                                </div>
+                                <div class="jobs_conetent">
+                                    <a href="job_details.html">
+                                        <h4>Digital Marketer</h4>
+                                    </a>
+                                    <div class="links_locat d-flex align-items-center">
+                                        <div class="location">
+                                            <p> <i class="fa fa-map-marker"></i> California, USA</p>
+                                        </div>
+                                        <div class="location">
+                                            <p> <i class="fa fa-clock-o"></i> Part-time</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jobs_right">
+                                <div class="apply_now">
+                                    <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a>
+                                    <a href="job_details.html" class="boxed-btn3">Apply Now</a>
+                                </div>
+                                <div class="date">
+                                    <p>Date line: 31 Jan 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12">
+                        <div class="single_jobs white-bg d-flex justify-content-between">
+                            <div class="jobs_left d-flex align-items-center">
+                                <div class="thumb">
+                                    <img src="https://obitos.crmpi.org.br/front/assets/img/svg_icon/3.svg" alt="">
+                                </div>
+                                <div class="jobs_conetent">
+                                    <a href="job_details.html">
+                                        <h4>Wordpress Developer</h4>
+                                    </a>
+                                    <div class="links_locat d-flex align-items-center">
+                                        <div class="location">
+                                            <p> <i class="fa fa-map-marker"></i> California, USA</p>
+                                        </div>
+                                        <div class="location">
+                                            <p> <i class="fa fa-clock-o"></i> Part-time</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jobs_right">
+                                <div class="apply_now">
+                                    <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a>
+                                    <a href="job_details.html" class="boxed-btn3">Apply Now</a>
+                                </div>
+                                <div class="date">
+                                    <p>Date line: 31 Jan 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12">
+                        <div class="single_jobs white-bg d-flex justify-content-between">
+                            <div class="jobs_left d-flex align-items-center">
+                                <div class="thumb">
+                                    <img src="https://obitos.crmpi.org.br/front/assets/img/svg_icon/4.svg" alt="">
+                                </div>
+                                <div class="jobs_conetent">
+                                    <a href="job_details.html">
+                                        <h4>Visual Designer</h4>
+                                    </a>
+                                    <div class="links_locat d-flex align-items-center">
+                                        <div class="location">
+                                            <p> <i class="fa fa-map-marker"></i> California, USA</p>
+                                        </div>
+                                        <div class="location">
+                                            <p> <i class="fa fa-clock-o"></i> Part-time</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jobs_right">
+                                <div class="apply_now">
+                                    <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a>
+                                    <a href="job_details.html" class="boxed-btn3">Apply Now</a>
+                                </div>
+                                <div class="date">
+                                    <p>Date line: 31 Jan 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12">
+                        <div class="single_jobs white-bg d-flex justify-content-between">
+                            <div class="jobs_left d-flex align-items-center">
+                                <div class="thumb">
+                                    <img src="https://obitos.crmpi.org.br/front/assets/img/svg_icon/5.svg" alt="">
+                                </div>
+                                <div class="jobs_conetent">
+                                    <a href="job_details.html">
+                                        <h4>Software Engineer</h4>
+                                    </a>
+                                    <div class="links_locat d-flex align-items-center">
+                                        <div class="location">
+                                            <p> <i class="fa fa-map-marker"></i> California, USA</p>
+                                        </div>
+                                        <div class="location">
+                                            <p> <i class="fa fa-clock-o"></i> Part-time</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jobs_right">
+                                <div class="apply_now">
+                                    <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a>
+                                    <a href="job_details.html" class="boxed-btn3">Apply Now</a>
+                                </div>
+                                <div class="date">
+                                    <p>Date line: 31 Jan 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12">
+                        <div class="single_jobs white-bg d-flex justify-content-between">
+                            <div class="jobs_left d-flex align-items-center">
+                                <div class="thumb">
+                                    <img src="https://obitos.crmpi.org.br/front/assets/img/svg_icon/1.svg" alt="">
+                                </div>
+                                <div class="jobs_conetent">
+                                    <a href="job_details.html">
+                                        <h4>Creative Designer</h4>
+                                    </a>
+                                    <div class="links_locat d-flex align-items-center">
+                                        <div class="location">
+                                            <p> <i class="fa fa-map-marker"></i> California, USA</p>
+                                        </div>
+                                        <div class="location">
+                                            <p> <i class="fa fa-clock-o"></i> Part-time</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jobs_right">
+                                <div class="apply_now">
+                                    <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a>
+                                    <a href="job_details.html" class="boxed-btn3">Apply Now</a>
+                                </div>
+                                <div class="date">
+                                    <p>Date line: 31 Jan 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="featured_candidates_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title text-center mb-40">
+                        <h3>Featured Candidates</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="candidate_active owl-carousel">
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/1.png" alt="">
+                            </div>
+                            <a href="#">
+                                <h4>Markary Jondon</h4>
+                            </a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/2.png" alt="">
+                            </div>
+                            <a href="#">
+                                <h4>Markary Jondon</h4>
+                            </a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/3.png" alt="">
+                            </div>
+                            <a href="#">
+                                <h4>Markary Jondon</h4>
+                            </a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/4.png" alt="">
+                            </div>
+                            <a href="#">
+                                <h4>Markary Jondon</h4>
+                            </a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/5.png" alt="">
+                            </div>
+                            <a href="#">
+                                <h4>Markary Jondon</h4>
+                            </a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/6.png" alt="">
+                            </div>
+                            <a href="#">
+                                <h4>Markary Jondon</h4>
+                            </a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/7.png" alt="">
+                            </div>
+                            <a href="#">
+                                <h4>Markary Jondon</h4>
+                            </a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/8.png" alt="">
+                            </div>
+                            <a href="#">
+                                <h4>Markary Jondon</h4>
+                            </a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/9.png" alt="">
+                            </div>
+                            <a href="#">
+                                <h4>Markary Jondon</h4>
+                            </a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/9.png" alt="">
+                            </div>
+                            <a href="#">
+                                <h4>Markary Jondon</h4>
+                            </a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/10.png" alt="">
+                            </div>
+                            <a href="#">
+                                <h4>Markary Jondon</h4>
+                            </a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/3.png" alt="">
+                            </div>
+                            <a href="#">
+                                <h4>Markary Jondon</h4>
+                            </a>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/4.png" alt="">
+                            </div>
+                            <a href="#">
+                                <h4>Markary Jondon</h4>
+                            </a>
+                            <p>Software Engineer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+    <!--
+    <div class="top_companies_area">
+        <div class="container">
+            <div class="row align-items-center mb-40">
+                <div class="col-lg-6 col-md-6">
+                    <div class="section_title">
+                        <h3>Top Companies</h3>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="brouse_job text-right">
+                        <a href="jobs.html" class="boxed-btn4">Browse More Job</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-xl-3 col-md-6">
+                    <div class="single_company">
+                        <div class="thumb">
+                            <img src="img/svg_icon/5.svg" alt="">
+                        </div>
+                        <a href="jobs.html">
+                            <h3>Snack Studio</h3>
+                        </a>
+                        <p> <span>50</span> Available position</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xl-3 col-md-6">
+                    <div class="single_company">
+                        <div class="thumb">
+                            <img src="img/svg_icon/4.svg" alt="">
+                        </div>
+                        <a href="jobs.html">
+                            <h3>Snack Studio</h3>
+                        </a>
+                        <p> <span>50</span> Available position</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xl-3 col-md-6">
+                    <div class="single_company">
+                        <div class="thumb">
+                            <img src="img/svg_icon/3.svg" alt="">
+                        </div>
+                        <a href="jobs.html">
+                            <h3>Snack Studio</h3>
+                        </a>
+                        <p> <span>50</span> Available position</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xl-3 col-md-6">
+                    <div class="single_company">
+                        <div class="thumb">
+                            <img src="img/svg_icon/1.svg" alt="">
+                        </div>
+                        <a href="jobs.html">
+                            <h3>Snack Studio</h3>
+                        </a>
+                        <p> <span>50</span> Available position</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+
+    <!--
+    <div class="job_searcing_wrap overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 offset-lg-1 col-md-6">
+                    <div class="searching_text">
+                        <h3>Looking for a Job?</h3>
+                        <p>We provide online instant cash loans with quick approval </p>
+                        <a href="#" class="boxed-btn3">Browse Job</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-md-6">
+                    <div class="searching_text">
+                        <h3>Looking for a Expert?</h3>
+                        <p>We provide online instant cash loans with quick approval </p>
+                        <a href="#" class="boxed-btn3">Post a Job</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+
+    <!--
+    <div class="testimonial_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title text-center mb-40">
+                        <h3>Testimonial</h3>
+                    </div>
+                </div>
+                <div class="col-xl-12">
+                    <div class="testmonial_active owl-carousel">
+                        <div class="single_carousel">
+                            <div class="row">
+                                <div class="col-lg-11">
+                                    <div class="single_testmonial d-flex align-items-center">
+                                        <div class="thumb">
+                                            <img src="img/testmonial/author.png" alt="">
+                                            <div class="quote_icon">
+                                                <i class="Flaticon flaticon-quote"></i>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <p>"Working in conjunction with humanitarian aid agencies, we have supported
+                                                programmes to help alleviate human suffering through animal welfare when
+                                                people might depend on livestock as their only source of income or food.
+                                            </p>
+                                            <span>- Micky Mouse</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single_carousel">
+                            <div class="row">
+                                <div class="col-lg-11">
+                                    <div class="single_testmonial d-flex align-items-center">
+                                        <div class="thumb">
+                                            <img src="img/testmonial/author.png" alt="">
+                                            <div class="quote_icon">
+                                                <i class=" Flaticon flaticon-quote"></i>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <p>"Working in conjunction with humanitarian aid agencies, we have supported
+                                                programmes to help alleviate human suffering through animal welfare when
+                                                people might depend on livestock as their only source of income or food.
+                                            </p>
+                                            <span>- Micky Mouse</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single_carousel">
+                            <div class="row">
+                                <div class="col-lg-11">
+                                    <div class="single_testmonial d-flex align-items-center">
+                                        <div class="thumb">
+                                            <img src="img/testmonial/author.png" alt="">
+                                            <div class="quote_icon">
+                                                <i class="Flaticon flaticon-quote"></i>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <p>"Working in conjunction with humanitarian aid agencies, we have supported
+                                                programmes to help alleviate human suffering through animal welfare when
+                                                people might depend on livestock as their only source of income or food.
+                                            </p>
+                                            <span>- Micky Mouse</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <!--
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="footer_widget wow fadeInUp" style="text-align: center;" data-wow-duration="1s" data-wow-delay=".3s">
+                            <div class="footer_logo">
+                                <a href="https://obitos.crmpi.org.br" style="color: white;">
+                                    CRM-PI                                </a>
+                            </div>
+                            <p>
+                                <a href="#" class="__cf_email__">[email&#160;protected]</a>
+                                <br>
+                                99 99999-9999<br>
+                                Teste
+                            </p>
+                            <div class="socail_links">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+                    
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="footer_widget wow fadeInUp" data-wow-duration="1.1s" data-wow-delay=".4s" style="visibility: hidden; animation-duration: 1.1s; animation-delay: 0.4s; animation-name: none;">
+                            <h3 class="footer_title" style="margin-bottom: 30px;">
+                            Conselho Regional de Medicina do Estado do Piauí
+                            </h3>
+                            <p>
+                                Rua Goiás nº 991 - Ilhotas - Teresina/PI | CEP - 64014- 055
+                                <br>
+                                Fone: (86) 3216-6100
+                                <br>
+                                E-mail: <a style="font-weigth: bold;" href="emailto:atendimento@crmpi.org.br">atendimento@crmpi.org.br</a>
+                            </p>
+                            <!--
+                            <div class="socail_links">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                    
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="footer_widget wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".5s" style="visibility: hidden; animation-duration: 1.2s; animation-delay: 0.5s; animation-name: none;">
+                            <h3 class="footer_title" style="margin-bottom: 30px;">
+                                Delegacia Regional de Parnaíba - PI
+                            </h3>
+                            <p>
+                                Av. Álvaro Mendes, nº 1813, bairro Nova Parnaíba, CEP 64218-375
+                                <br>
+                                Fone: (86) 3321-1830
+                                <br>
+                                E-mail: <a style="font-weigth: bold;" href="emailto:delegaciaparnaiba@crmpi.org.br">delegaciaparnaiba@crmpi.org.br</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="footer_widget wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".6s" style="visibility: hidden; animation-duration: 1.3s; animation-delay: 0.6s; animation-name: none;">
+                            <h3 class="footer_title" style="margin-bottom: 30px;">
+                                Delegacia Regional de Picos - PI
+                            </h3>
+                            <p>
+                                Rua João XXIII, N º 305, Centro, Picos Piauí - CEP 64600-312
+                                <br>
+                                Fone: (89) 3422-5488
+                                <br>
+                                E-mail: <a style="font-weigth: bold;" href="emailto:delegaciapicos@crmpi.org.br">delegaciapicos@crmpi.org.br</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="footer_widget wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".6s">
+                            <h3 class="footer_title">
+                                Subscribe
+                            </h3>
+                            <form action="#" class="newsletter_form">
+                                <input type="text" placeholder="Enter your mail">
+                                <button type="submit">Subscribe</button>
+                            </form>
+                            <p class="newsletter_text">Esteem spirit temper too say adieus who direct esteem esteems
+                                luckily.</p>
+                        </div>
+                    </div>
+                    -->
+                    
+                </div>
+            </div>
+        </div>
+        <div class="copy-right_text wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".3s" style="visibility: hidden; animation-duration: 1.4s; animation-delay: 0.3s; animation-name: none;">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            © 2020 Todos os direitos reservados CRM-PI
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://obitos.crmpi.org.br/front/assets/js/vendor/modernizr-3.5.0.min.js" type="text/javascript"></script>
+    <script src="https://obitos.crmpi.org.br/front/assets/js/jquery-3.5.min.js"></script>    
+    <script src="https://obitos.crmpi.org.br/front/assets/js/jquery.mask.min.js"></script>    
+    <script src="https://obitos.crmpi.org.br/front/assets/js/popper.min.js" type="text/javascript"></script>
+    <script src="https://obitos.crmpi.org.br/front/assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="https://obitos.crmpi.org.br/front/assets/js/owl.carousel.min.js" type="text/javascript"></script>
+    <!--<script src="https://obitos.crmpi.org.br/front/assets/js/ajax-form.js" type="text/javascript"></script>-->
+    <!--<script src="https://obitos.crmpi.org.br/front/assets/js/waypoints.min.js" type="text/javascript"></script>-->
+    <script src="https://obitos.crmpi.org.br/front/assets/js/jquery.counterup.min.js" type="text/javascript"></script>
+    <!--<script src="https://obitos.crmpi.org.br/front/assets/js/imagesloaded.pkgd.min.js" type="text/javascript"></script>-->
+    <script src="https://obitos.crmpi.org.br/front/assets/js/scrollIt.js" type="text/javascript"></script>
+    <script src="https://obitos.crmpi.org.br/front/assets/js/jquery.scrollUp.min.js" type="text/javascript"></script>
+    <script src="https://obitos.crmpi.org.br/front/assets/js/wow.min.js" type="text/javascript"></script>
+    <script src="https://obitos.crmpi.org.br/front/assets/js/nice-select.min.js" type="text/javascript"></script>
+    <script src="https://obitos.crmpi.org.br/front/assets/js/jquery.slicknav.min.js" type="text/javascript"></script>
+    <script src="https://obitos.crmpi.org.br/front/assets/js/select2-4.1.min.js"></script>
+
+   <!-- <script src="https://obitos.crmpi.org.br/front/assets/js/jquery.magnific-popup.min.js" type="text/javascript"></script>-->
+    <!--<script src="https://obitos.crmpi.org.br/front/assets/js/plugins.js" type="text/javascript"></script>-->
+    <!--<script src="https://obitos.crmpi.org.br/front/assets/js/gijgo.min.js" type="text/javascript"></script>-->
+    <!--<script src="https://obitos.crmpi.org.br/front/assets/js/jquery.form.js" type="text/javascript"></script>-->
+    <!--<script src="https://obitos.crmpi.org.br/front/assets/js/jquery.validate.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://obitos.crmpi.org.br/front/assets/js/moment.min.js"></script>
+    <script src="https://obitos.crmpi.org.br/front/assets/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <script src="https://obitos.crmpi.org.br/front/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+    -->
+    <script src="https://obitos.crmpi.org.br/front/assets/js/main.js" type="text/javascript"></script>
+    <script src="https://obitos.crmpi.org.br/front/assets/js/functions.js" type="text/javascript"></script>
+
+
+</body></html>

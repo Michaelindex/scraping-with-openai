@@ -1,0 +1,497 @@
+2025-05-22 04:39:14,306 - P17020 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 04:39:14,307 - P17020 - INFO - Nome: ALICE LOPES DE ALMEIDA
+2025-05-22 04:39:14,307 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 04:39:15,593 - P17020 - INFO - Após reiniciar driver Uso de memória: 128.07 MB
+2025-05-22 04:39:15,593 - P17020 - INFO - Início do processamento Uso de memória: 128.07 MB
+2025-05-22 04:39:15,593 - P17020 - INFO - Iniciando busca para: ALICE LOPES DE ALMEIDA CRM 50474 RS telefone e-mail endereço
+2025-05-22 04:39:16,557 - P17020 - INFO - SearX results: 13 URLs
+2025-05-22 04:39:16,557 - P17020 - INFO - Após SearX Uso de memória: 128.07 MB
+2025-05-22 04:39:19,324 - P17020 - INFO - Google results: 8 URLs
+2025-05-22 04:39:19,324 - P17020 - INFO - Após Google Uso de memória: 129.00 MB
+2025-05-22 04:39:21,948 - P17020 - INFO - Bing results: 14 URLs
+2025-05-22 04:39:21,948 - P17020 - INFO - Após Bing Uso de memória: 130.81 MB
+2025-05-22 04:39:21,948 - P17020 - INFO - Total de URLs únicas: 26
+2025-05-22 04:39:21,949 - P17020 - INFO - Processando URL 1/26: https://www.doctoralia.com.br/carla-bezerra-lopes-almeida/geriatra/eusebio
+2025-05-22 04:39:21,949 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/carla-bezerra-lopes-almeida/geriatra/eusebio
+2025-05-22 04:39:21,949 - P17020 - INFO - Após processar URL 1 Uso de memória: 130.81 MB
+2025-05-22 04:39:21,949 - P17020 - INFO - Processando URL 2/26: https://www.crmpr.org.br/atualiza/listar.php/1000
+2025-05-22 04:39:24,564 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ef9ecbfd4e4ebf12f11d844e151b4f0b.html
+2025-05-22 04:39:24,695 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:39:24,696 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:39:24,696 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:39:24,696 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:39:24,696 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:39:24,697 - P17020 - INFO - Após processar URL 2 Uso de memória: 130.81 MB
+2025-05-22 04:39:24,697 - P17020 - INFO - Processando URL 3/26: https://consultacrm.com.br/
+2025-05-22 04:39:29,035 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:39:29,046 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:39:29,046 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:39:29,046 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:39:29,047 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:39:29,047 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:39:29,047 - P17020 - INFO - Após processar URL 3 Uso de memória: 130.80 MB
+2025-05-22 04:39:29,047 - P17020 - INFO - Processando URL 4/26: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2022/06/ac2ccf37-fbed-4bd5-aa27-1d77ab7b31f1_Edicao-5105-24-06-2022-1-1.pdf
+2025-05-22 04:39:29,048 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2022/06/ac2ccf37-fbed-4bd5-aa27-1d77ab7b31f1_Edicao-5105-24-06-2022-1-1.pdf
+2025-05-22 04:39:29,048 - P17020 - INFO - Após processar URL 4 Uso de memória: 130.80 MB
+2025-05-22 04:39:29,048 - P17020 - INFO - Processando URL 5/26: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 04:39:29,048 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 04:39:29,048 - P17020 - INFO - Após processar URL 5 Uso de memória: 130.80 MB
+2025-05-22 04:39:29,049 - P17020 - INFO - Processando URL 6/26: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/120698/Caderno_JUD_MG_2016-05-12_VIII_86.pdf?sequence=1&isAllowed=y
+2025-05-22 04:39:29,049 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/120698/Caderno_JUD_MG_2016-05-12_VIII_86.pdf?sequence=1&isAllowed=y
+2025-05-22 04:39:29,049 - P17020 - INFO - Após processar URL 6 Uso de memória: 130.80 MB
+2025-05-22 04:39:29,049 - P17020 - INFO - Processando URL 7/26: https://www.consultacrm.com.br/index/especialidades
+2025-05-22 04:39:32,564 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3cb327d5e0f962fa7a1db5a948fb6f40.html
+2025-05-22 04:39:32,687 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:39:32,687 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:39:32,687 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:39:32,688 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:39:32,688 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:39:32,688 - P17020 - INFO - Após processar URL 7 Uso de memória: 131.55 MB
+2025-05-22 04:39:32,688 - P17020 - INFO - Processando URL 8/26: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 04:39:35,689 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 04:39:35,699 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:39:35,699 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:39:35,700 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:39:35,700 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:39:35,700 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:39:35,700 - P17020 - INFO - Após processar URL 8 Uso de memória: 131.55 MB
+2025-05-22 04:39:35,700 - P17020 - INFO - Processando URL 9/26: https://www.consultacrm.com.br/?uf=SP
+2025-05-22 04:39:38,801 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\60d20285cf74ceed0f862951f9b2b598.html
+2025-05-22 04:39:38,818 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:39:38,818 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:39:38,818 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:39:38,818 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:39:38,818 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:39:38,818 - P17020 - INFO - Após processar URL 9 Uso de memória: 132.05 MB
+2025-05-22 04:39:38,819 - P17020 - INFO - Processando URL 10/26: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo591.pdf
+2025-05-22 04:39:38,819 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo591.pdf
+2025-05-22 04:39:38,819 - P17020 - INFO - Após processar URL 10 Uso de memória: 132.05 MB
+2025-05-22 04:39:38,819 - P17020 - INFO - Processando URL 11/26: https://www.threads.net/@dra_alicealmeida
+2025-05-22 04:39:41,959 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ad0cd4b59275bb98a9afafbede3fedfa.html
+2025-05-22 04:39:41,988 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:39:41,989 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:39:41,989 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:39:41,989 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:39:41,990 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:39:41,990 - P17020 - INFO - Após processar URL 11 Uso de memória: 134.32 MB
+2025-05-22 04:39:41,990 - P17020 - INFO - Processando URL 12/26: https://www.avaliamed.com.br/provider/dra-maricy-almeida-viol-ferreira-lopes
+2025-05-22 04:39:44,785 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3a88660ff47aedc42eaedb276c9926df.html
+2025-05-22 04:39:44,809 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:39:44,812 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:39:44,813 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:39:44,813 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:39:44,814 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:39:44,814 - P17020 - INFO - Após processar URL 12 Uso de memória: 132.05 MB
+2025-05-22 04:39:44,814 - P17020 - INFO - Processando URL 13/26: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/227220/Caderno_JUD_MG_2017-05-10_IX_81.pdf?sequence=2&isAllowed=y
+2025-05-22 04:39:44,815 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/227220/Caderno_JUD_MG_2017-05-10_IX_81.pdf?sequence=2&isAllowed=y
+2025-05-22 04:39:44,815 - P17020 - INFO - Após processar URL 13 Uso de memória: 132.05 MB
+2025-05-22 04:39:44,816 - P17020 - INFO - Processando URL 14/26: https://www.ioepa.com.br/pages/2018/2018.11.07.DOE.pdf
+2025-05-22 04:39:44,816 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2018/2018.11.07.DOE.pdf
+2025-05-22 04:39:44,816 - P17020 - INFO - Após processar URL 14 Uso de memória: 132.05 MB
+2025-05-22 04:39:44,816 - P17020 - INFO - Processando URL 15/26: https://www.doctoralia.com.br/marcia-de-almeida-lopes-picanco/cardiologista-medico-clinico-geral/niteroi
+2025-05-22 04:39:44,817 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/marcia-de-almeida-lopes-picanco/cardiologista-medico-clinico-geral/niteroi
+2025-05-22 04:39:44,817 - P17020 - INFO - Após processar URL 15 Uso de memória: 132.05 MB
+2025-05-22 04:39:44,817 - P17020 - INFO - Processando URL 16/26: https://portal.cfm.org.br/busca-medicos
+2025-05-22 04:39:47,611 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 04:39:47,649 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:39:47,649 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:39:47,649 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:39:47,650 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:39:47,650 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:39:47,650 - P17020 - INFO - Após processar URL 16 Uso de memória: 132.05 MB
+2025-05-22 04:39:47,650 - P17020 - INFO - Processando URL 17/26: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2011/08/do_20110811_1992.pdf
+2025-05-22 04:39:47,650 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2011/08/do_20110811_1992.pdf
+2025-05-22 04:39:47,651 - P17020 - INFO - Após processar URL 17 Uso de memória: 132.05 MB
+2025-05-22 04:39:47,651 - P17020 - INFO - Processando URL 18/26: https://www.consultacrm.com.br/index/contato
+2025-05-22 04:39:51,113 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\770622092e11df0ef8d0ed5d383f74a3.html
+2025-05-22 04:39:51,124 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:39:51,125 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:39:51,125 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:39:51,125 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:39:51,126 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:39:51,126 - P17020 - INFO - Após processar URL 18 Uso de memória: 132.05 MB
+2025-05-22 04:39:51,127 - P17020 - INFO - Processando URL 19/26: https://www.escavador.com/sobre/379469041/alice-lopes-de-almeida
+2025-05-22 04:39:55,342 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e2144710e3d101614b6ac4c185933778.html
+2025-05-22 04:39:55,358 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:39:55,359 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:39:55,359 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:39:55,359 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:39:55,359 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:39:55,359 - P17020 - INFO - Após processar URL 19 Uso de memória: 132.05 MB
+2025-05-22 04:39:55,359 - P17020 - INFO - Processando URL 20/26: https://diario.oab.org.br/assets/diarios/diario-eletronico-oab-31-10-2024.pdf
+2025-05-22 04:39:55,360 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diario.oab.org.br/assets/diarios/diario-eletronico-oab-31-10-2024.pdf
+2025-05-22 04:39:55,360 - P17020 - INFO - Após processar URL 20 Uso de memória: 132.05 MB
+2025-05-22 04:39:55,361 - P17020 - INFO - Processando URL 21/26: https://www.consultacrm.com.br/index/maisvistos
+2025-05-22 04:39:57,473 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\9a17d88beef1266c6e4649221409a571.html
+2025-05-22 04:39:57,484 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:39:57,484 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:39:57,484 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:39:57,485 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:39:57,485 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:39:57,485 - P17020 - INFO - Após processar URL 21 Uso de memória: 132.05 MB
+2025-05-22 04:39:57,485 - P17020 - INFO - Processando URL 22/26: https://crmvirtual.cfm.org.br/ES/servico/pesquisar-por-medico
+2025-05-22 04:40:00,381 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\0ff8b0bf2c6dbb46c836bac9c0cf4a16.html
+2025-05-22 04:40:00,392 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:40:00,392 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:40:00,393 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:40:00,393 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:40:00,393 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:40:00,393 - P17020 - INFO - Após processar URL 22 Uso de memória: 132.05 MB
+2025-05-22 04:40:00,394 - P17020 - INFO - Processando URL 23/26: https://www.consultacrm.com.br/index/sis_login
+2025-05-22 04:40:04,219 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e56926aa25e0582d5c5b8aa167ed4b53.html
+2025-05-22 04:40:04,233 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:40:04,233 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:40:04,233 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:40:04,233 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:40:04,234 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:40:04,234 - P17020 - INFO - Após processar URL 23 Uso de memória: 132.05 MB
+2025-05-22 04:40:04,234 - P17020 - INFO - Processando URL 24/26: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 04:40:07,698 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 04:40:07,801 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:40:07,801 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:40:07,801 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:40:07,801 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:40:07,802 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:40:07,802 - P17020 - INFO - Após processar URL 24 Uso de memória: 132.05 MB
+2025-05-22 04:40:07,802 - P17020 - INFO - Processando URL 25/26: https://ioepa.com.br/pages/2015/2015.10.06.DOE.pdf
+2025-05-22 04:40:07,802 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://ioepa.com.br/pages/2015/2015.10.06.DOE.pdf
+2025-05-22 04:40:07,802 - P17020 - INFO - Após processar URL 25 Uso de memória: 132.05 MB
+2025-05-22 04:40:07,802 - P17020 - INFO - Processando URL 26/26: https://www.consultacrm.com.br/index/api
+2025-05-22 04:40:11,107 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a1f22ffdf7e0eb1c02e28e1e38d3db87.html
+2025-05-22 04:40:11,119 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:40:11,119 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:40:11,119 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:40:11,120 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:40:11,120 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:40:11,120 - P17020 - INFO - Após processar URL 26 Uso de memória: 132.07 MB
+2025-05-22 04:40:11,120 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:40:11,120 - P17020 - INFO - Ranked address: 1 items
+2025-05-22 04:40:11,120 - P17020 - INFO - Ranked phone: 2 items
+2025-05-22 04:40:11,121 - P17020 - INFO - Ranked email: 2 items
+2025-05-22 04:40:11,122 - P17020 - INFO - Ranked complement: 1 items
+2025-05-22 04:40:11,122 - P17020 - INFO - Ranked cep: 1 items
+2025-05-22 04:40:11,127 - P17020 - INFO - Após agregação Uso de memória: 132.07 MB
+2025-05-22 04:40:11,127 - P17020 - INFO - Validando endereço: ['Rua Marechal Deodoro, 1060']
+2025-05-22 04:40:11,128 - P17020 - INFO - Endereço validado: Rua Marechal Deodoro, 1060
+2025-05-22 04:40:11,128 - P17020 - INFO - Limpando texto extenso para campo address: Rua Marechal Deodoro, 1060...
+2025-05-22 04:40:11,128 - P17020 - INFO - Texto limpo: Rua Marechal Deodoro, 1060
+2025-05-22 04:40:11,129 - P17020 - INFO - Validando telefone: ['(41) 3240-4039', '5518991049661']
+2025-05-22 04:40:11,129 - P17020 - INFO - Limpando texto extenso para campo phone: (41) 3240-4039...
+2025-05-22 04:40:11,129 - P17020 - INFO - Texto limpo: 41) 3240-4039
+2025-05-22 04:40:11,129 - P17020 - INFO - Telefone validado: 41) 3240-4039
+2025-05-22 04:40:11,129 - P17020 - INFO - Validando email: ['atualiza@crmpr.org.br', 'cfm@portalmedico.org.br']
+2025-05-22 04:40:11,129 - P17020 - INFO - Limpando texto extenso para campo email: atualiza@crmpr.org.br...
+2025-05-22 04:40:11,129 - P17020 - INFO - Texto limpo: atualiza@crmpr.org.br
+2025-05-22 04:40:11,131 - P17020 - INFO - Email validado: atualiza@crmpr.org.br
+2025-05-22 04:40:11,146 - P17020 - INFO - Validando complemento: ['Conjunto D']
+2025-05-22 04:40:11,155 - P17020 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 04:40:11,159 - P17020 - INFO - Texto limpo: Conjunto D
+2025-05-22 04:40:11,160 - P17020 - INFO - Complemento validado: Conjunto D
+2025-05-22 04:40:11,160 - P17020 - INFO - Descobrindo cidade
+2025-05-22 04:40:11,161 - P17020 - INFO - Buscando cidade: Rua Marechal Deodoro cidade RS
+2025-05-22 04:40:13,894 - P17020 - INFO - Cidade encontrada: Rio Grande
+2025-05-22 04:40:13,894 - P17020 - INFO - Limpando texto extenso para campo city: Rio Grande...
+2025-05-22 04:40:13,894 - P17020 - INFO - Texto limpo: Rio Grande
+2025-05-22 04:40:13,894 - P17020 - INFO - Cidade descoberta: Rio Grande
+2025-05-22 04:40:13,894 - P17020 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 04:40:13,895 - P17020 - INFO - Iniciando busca de CEP em cascata para: Rua Marechal Deodoro, Rio Grande, RS
+2025-05-22 04:40:13,895 - P17020 - INFO - Método 1: ViaCEP API
+2025-05-22 04:40:13,895 - P17020 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/RS/rio%20grande/rua%20marechal%20deodoro/json/
+2025-05-22 04:40:14,533 - P17020 - INFO - Dados encontrados no ViaCEP: {'cep': '96211-480', 'logradouro': 'Rua Marechal Deodoro', 'complemento': '', 'unidade': '', 'bairro': 'Cidade Nova', 'localidade': 'Rio Grande', 'uf': 'RS', 'estado': 'Rio Grande do Sul', 'regiao': 'Sul', 'ibge': '4315602', 'gia': '', 'ddd': '53', 'siafi': '8815'}
+2025-05-22 04:40:14,537 - P17020 - INFO - CEP encontrado via ViaCEP: 96211-480
+2025-05-22 04:40:14,537 - P17020 - INFO - Dados de CEP encontrados: {'cep': '96211-480', 'logradouro': 'Rua Marechal Deodoro', 'complemento': '', 'unidade': '', 'bairro': 'Cidade Nova', 'localidade': 'Rio Grande', 'uf': 'RS', 'estado': 'Rio Grande do Sul', 'regiao': 'Sul', 'ibge': '4315602', 'gia': '', 'ddd': '53', 'siafi': '8815'}
+2025-05-22 04:40:14,538 - P17020 - INFO - Limpando texto extenso para campo bairro: Cidade Nova...
+2025-05-22 04:40:14,538 - P17020 - INFO - Texto limpo: Cidade Nova
+2025-05-22 04:40:14,541 - P17020 - INFO - Limpando texto extenso para campo city: Rio Grande...
+2025-05-22 04:40:14,542 - P17020 - INFO - Texto limpo: Rio Grande
+2025-05-22 04:40:14,544 - P17020 - INFO - Limpando texto extenso para campo state: RS...
+2025-05-22 04:40:14,545 - P17020 - INFO - Texto limpo: RS
+2025-05-22 04:40:14,546 - P17020 - INFO - Tempo de execução de processamento completo do médico: 58.95 segundos
+2025-05-22 04:40:14,546 - P17020 - INFO - Resultado processado: {'Hash': '51538a4d797481e3d23b03b2953818027eaba9eddec8bfa1081bcc79326b987c', 'CRM': '50474', 'UF': 'RS', 'Firstname': 'ALICE', 'LastName': 'LOPES DE ALMEIDA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Marechal Deodoro, 1060', 'Address A1': 'Rua Marechal Deodoro', 'Numero A1': '1060', 'Complement A1': 'Conjunto D', 'Bairro A1': 'Cidade Nova', 'postal code A1': '96211-480', 'City A1': 'Rio Grande', 'State A1': 'RS', 'Phone A1': '41) 3240-4039', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'atualiza@crmpr.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:40:14,552 - P17020 - INFO - Progresso: 74.0%
+2025-05-22 04:40:14,553 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 04:40:14,576 - P17020 - INFO - Após coleta de lixo Uso de memória: 129.40 MB
+2025-05-22 04:40:14,576 - P17020 - INFO - Tempo de execução de processamento do médico 1: 60.27 segundos
+2025-05-22 04:40:14,577 - P17020 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 04:40:14,577 - P17020 - INFO - Nome: ADVIDES SILVA INGRE
+2025-05-22 04:40:14,578 - P17020 - INFO - Início do processamento Uso de memória: 129.40 MB
+2025-05-22 04:40:14,580 - P17020 - INFO - Iniciando busca para: ADVIDES SILVA INGRE CRM 50732 RS telefone e-mail endereço
+2025-05-22 04:40:15,376 - P17020 - INFO - SearX results: 8 URLs
+2025-05-22 04:40:15,377 - P17020 - INFO - Após SearX Uso de memória: 129.40 MB
+2025-05-22 04:40:17,843 - P17020 - INFO - Google results: 1 URLs
+2025-05-22 04:40:17,843 - P17020 - INFO - Após Google Uso de memória: 131.74 MB
+2025-05-22 04:40:20,382 - P17020 - INFO - Bing results: 8 URLs
+2025-05-22 04:40:20,383 - P17020 - INFO - Após Bing Uso de memória: 133.57 MB
+2025-05-22 04:40:20,383 - P17020 - INFO - Total de URLs únicas: 8
+2025-05-22 04:40:20,383 - P17020 - INFO - Processando URL 1/8: https://consultacrm.com.br/
+2025-05-22 04:40:23,413 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:40:23,425 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:40:23,425 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:40:23,425 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:40:23,425 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:40:23,426 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:40:23,426 - P17020 - INFO - Após processar URL 1 Uso de memória: 133.57 MB
+2025-05-22 04:40:23,427 - P17020 - INFO - Processando URL 2/8: https://www.doctoralia.com.br/generalista/santiago
+2025-05-22 04:40:23,428 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/generalista/santiago
+2025-05-22 04:40:23,428 - P17020 - INFO - Após processar URL 2 Uso de memória: 133.57 MB
+2025-05-22 04:40:23,433 - P17020 - INFO - Processando URL 3/8: https://www.informecadastral.com.br/cnpj/advides-silva-ingre-ltda-43550054000133
+2025-05-22 04:40:27,779 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\534f8aa8a41c2b7f81ef0d3091032591.html
+2025-05-22 04:40:27,805 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:40:27,805 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 04:40:27,805 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:40:27,805 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:40:27,806 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 04:40:27,806 - P17020 - INFO - Após processar URL 3 Uso de memória: 133.57 MB
+2025-05-22 04:40:27,806 - P17020 - INFO - Processando URL 4/8: https://www.consultascnpj.com/advides-silva-ingre-ltda/43550054000133
+2025-05-22 04:40:30,883 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d8ac4c3e097063b5544eb6255def2cb4.html
+2025-05-22 04:40:30,894 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:40:30,894 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:40:30,894 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:40:30,895 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:40:30,895 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 04:40:30,895 - P17020 - INFO - Após processar URL 4 Uso de memória: 133.57 MB
+2025-05-22 04:40:30,895 - P17020 - INFO - Processando URL 5/8: https://cnpj.biz/43550054000133
+2025-05-22 04:40:35,274 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a974e3aea081104ae6bfb393ad0fcf06.html
+2025-05-22 04:40:35,289 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:40:35,289 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:40:35,289 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:40:35,290 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:40:35,290 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 04:40:35,290 - P17020 - INFO - Após processar URL 5 Uso de memória: 133.58 MB
+2025-05-22 04:40:35,290 - P17020 - INFO - Processando URL 6/8: https://www.doctoralia.com.br/advides-ingre/generalista/santiago
+2025-05-22 04:40:35,290 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/advides-ingre/generalista/santiago
+2025-05-22 04:40:35,291 - P17020 - INFO - Após processar URL 6 Uso de memória: 133.58 MB
+2025-05-22 04:40:35,291 - P17020 - INFO - Processando URL 7/8: https://www.medicosbrasil.com/profissional/advides-silva-ingre
+2025-05-22 04:40:39,040 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3eab1b1c6298f95ac33f1791304812c8.html
+2025-05-22 04:40:39,069 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:40:39,070 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:40:39,070 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:40:39,071 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:40:39,071 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:40:39,071 - P17020 - INFO - Após processar URL 7 Uso de memória: 133.58 MB
+2025-05-22 04:40:39,071 - P17020 - INFO - Processando URL 8/8: https://cliniguia.com/profissionais/advides-silva-ingre-707403042276870/
+2025-05-22 04:40:44,304 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\215a35ff4b70d7c60e014eb7ee9445cc.html
+2025-05-22 04:40:44,355 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:40:44,359 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:40:44,363 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:40:44,364 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:40:44,364 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:40:44,367 - P17020 - INFO - Após processar URL 8 Uso de memória: 133.59 MB
+2025-05-22 04:40:44,369 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:40:44,370 - P17020 - INFO - Ranked address: 1 items
+2025-05-22 04:40:44,371 - P17020 - INFO - Ranked phone: 3 items
+2025-05-22 04:40:44,371 - P17020 - INFO - Ranked email: 1 items
+2025-05-22 04:40:44,372 - P17020 - INFO - Ranked complement: 0 items
+2025-05-22 04:40:44,374 - P17020 - INFO - Ranked cep: 5 items
+2025-05-22 04:40:44,376 - P17020 - INFO - Após agregação Uso de memória: 133.59 MB
+2025-05-22 04:40:44,378 - P17020 - INFO - Validando endereço: ['Rua Padre Arnaldo Jansen, 200']
+2025-05-22 04:40:44,378 - P17020 - INFO - Endereço validado: Rua Padre Arnaldo Jansen, 200
+2025-05-22 04:40:44,378 - P17020 - INFO - Limpando texto extenso para campo address: Rua Padre Arnaldo Jansen, 200...
+2025-05-22 04:40:44,379 - P17020 - INFO - Texto limpo: Rua Padre Arnaldo Jansen, 200
+2025-05-22 04:40:44,381 - P17020 - INFO - Validando telefone: ['(55) 9954-8948', '(32) 99195-6532', '(55) 99954-8948']
+2025-05-22 04:40:44,390 - P17020 - INFO - Limpando texto extenso para campo phone: (55) 9954-8948...
+2025-05-22 04:40:44,393 - P17020 - INFO - Texto limpo: 55) 9954-8948
+2025-05-22 04:40:44,398 - P17020 - INFO - Telefone validado: 55) 9954-8948
+2025-05-22 04:40:44,403 - P17020 - INFO - Validando email: ['ade_ingre@hotmail.com']
+2025-05-22 04:40:44,404 - P17020 - INFO - Limpando texto extenso para campo email: ade_ingre@hotmail.com...
+2025-05-22 04:40:44,405 - P17020 - INFO - Texto limpo: ade_ingre@hotmail.com
+2025-05-22 04:40:44,405 - P17020 - INFO - Email validado: ade_ingre@hotmail.com
+2025-05-22 04:40:44,406 - P17020 - INFO - Descobrindo cidade
+2025-05-22 04:40:44,406 - P17020 - INFO - Buscando cidade: Rua Padre Arnaldo Jansen cidade RS
+2025-05-22 04:40:47,163 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 04:40:47,164 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 04:40:47,164 - P17020 - INFO - Tempo de execução de processamento completo do médico: 32.59 segundos
+2025-05-22 04:40:47,164 - P17020 - INFO - Resultado processado: {'Hash': 'cc9af86f0b67f59b5c5923e1a0b4f9038bef760af6868480930a163c3fd3ee3b', 'CRM': '50732', 'UF': 'RS', 'Firstname': 'ADVIDES', 'LastName': 'SILVA INGRE', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Padre Arnaldo Jansen, 200', 'Address A1': 'Rua Padre Arnaldo Jansen', 'Numero A1': '200', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '55) 9954-8948', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'ade_ingre@hotmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:40:47,165 - P17020 - INFO - Progresso: 74.3%
+2025-05-22 04:40:47,165 - P17020 - INFO - Tempo de execução de processamento do médico 2: 32.59 segundos
+2025-05-22 04:40:47,165 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 04:40:47,165 - P17020 - INFO - Nome: ANDERSON CAMARGO PAESANO
+2025-05-22 04:40:47,166 - P17020 - INFO - Início do processamento Uso de memória: 129.43 MB
+2025-05-22 04:40:47,166 - P17020 - INFO - Iniciando busca para: ANDERSON CAMARGO PAESANO CRM 52435 RS telefone e-mail endereço
+2025-05-22 04:40:47,954 - P17020 - INFO - SearX results: 11 URLs
+2025-05-22 04:40:47,955 - P17020 - INFO - Após SearX Uso de memória: 129.43 MB
+2025-05-22 04:40:50,969 - P17020 - INFO - Google results: 7 URLs
+2025-05-22 04:40:50,970 - P17020 - INFO - Após Google Uso de memória: 131.11 MB
+2025-05-22 04:40:53,348 - P17020 - INFO - Bing results: 7 URLs
+2025-05-22 04:40:53,349 - P17020 - INFO - Após Bing Uso de memória: 132.02 MB
+2025-05-22 04:40:53,349 - P17020 - INFO - Total de URLs únicas: 16
+2025-05-22 04:40:53,349 - P17020 - INFO - Processando URL 1/16: https://consultacrm.com.br/
+2025-05-22 04:40:56,632 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:40:56,645 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:40:56,645 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:40:56,645 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:40:56,645 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:40:56,645 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:40:56,646 - P17020 - INFO - Após processar URL 1 Uso de memória: 132.89 MB
+2025-05-22 04:40:56,646 - P17020 - INFO - Processando URL 2/16: https://www.achecerto.com.br/
+2025-05-22 04:41:02,944 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ceb96e5663cace6f7b35fee1716d7561.html
+2025-05-22 04:41:02,960 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:41:02,960 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:02,960 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:41:02,960 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:02,961 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:41:02,961 - P17020 - INFO - Após processar URL 2 Uso de memória: 132.01 MB
+2025-05-22 04:41:02,961 - P17020 - INFO - Processando URL 3/16: https://cnpj.biz/54674958000197
+2025-05-22 04:41:05,325 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\bd7622b4ec67dc71b49df53e41296a2c.html
+2025-05-22 04:41:05,327 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:41:05,328 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:05,328 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:41:05,328 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:05,328 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:41:05,328 - P17020 - INFO - Após processar URL 3 Uso de memória: 132.01 MB
+2025-05-22 04:41:05,328 - P17020 - INFO - Processando URL 4/16: https://www.infobel.com/pt/brazil/anderson_camargo_paesano/sao_borja/BR132803003/businessdetails.aspx
+2025-05-22 04:41:08,700 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\eaa4d1ccfdc5a66b069df53112ab86ab.html
+2025-05-22 04:41:08,730 - P17020 - INFO - Candidates address: 10 items
+2025-05-22 04:41:08,731 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:08,731 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:41:08,731 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:08,731 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:41:08,731 - P17020 - INFO - Após processar URL 4 Uso de memória: 132.01 MB
+2025-05-22 04:41:08,732 - P17020 - INFO - Processando URL 5/16: https://www.econodata.com.br/consulta-empresa/54674958000197-ANDERSON-CAMARGO-PAESANO-LTDA
+2025-05-22 04:41:15,573 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b3cdbf0981c1636272dc099a9b8a83f1.html
+2025-05-22 04:41:15,640 - P17020 - INFO - Candidates address: 6 items
+2025-05-22 04:41:15,640 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:15,641 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:41:15,641 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:15,643 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:41:15,643 - P17020 - INFO - Após processar URL 5 Uso de memória: 132.01 MB
+2025-05-22 04:41:15,643 - P17020 - INFO - Processando URL 6/16: https://cnpj.biz/41506518000189
+2025-05-22 04:41:17,888 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2a1260bcccffb90ef2965c61d2dfd0a7.html
+2025-05-22 04:41:17,890 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:41:17,891 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:17,891 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:41:17,891 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:17,891 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:41:17,891 - P17020 - INFO - Após processar URL 6 Uso de memória: 132.01 MB
+2025-05-22 04:41:17,891 - P17020 - INFO - Processando URL 7/16: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 04:41:22,618 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 04:41:22,629 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:41:22,629 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:22,630 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:41:22,630 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:22,630 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:41:22,630 - P17020 - INFO - Após processar URL 7 Uso de memória: 132.01 MB
+2025-05-22 04:41:22,630 - P17020 - INFO - Processando URL 8/16: https://sistemadje.tjmt.jus.br/publicacoes/8890-2012.pdf
+2025-05-22 04:41:22,630 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/8890-2012.pdf
+2025-05-22 04:41:22,631 - P17020 - INFO - Após processar URL 8 Uso de memória: 132.01 MB
+2025-05-22 04:41:22,631 - P17020 - INFO - Processando URL 9/16: https://www.findhealthclinics.com/BR/S%C3%A3o-Borja/160331707171171/Dr.-Anderson-Paesano---M%C3%A9dico-em-S%C3%A3o-Borja
+2025-05-22 04:41:25,035 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\087c0a741f683f85363361a185073a4c.html
+2025-05-22 04:41:25,049 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:41:25,050 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:41:25,050 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:41:25,050 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:25,050 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 04:41:25,050 - P17020 - INFO - Após processar URL 9 Uso de memória: 132.01 MB
+2025-05-22 04:41:25,050 - P17020 - INFO - Processando URL 10/16: https://b2bleads.com.br/empresa/anderson-camargo-paesano-41506518000189
+2025-05-22 04:41:29,747 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6e30c8259fa687700633adaec54a026c.html
+2025-05-22 04:41:29,766 - P17020 - INFO - Candidates address: 8 items
+2025-05-22 04:41:29,766 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:41:29,766 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:41:29,767 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:29,767 - P17020 - INFO - Candidates cep: 10 items
+2025-05-22 04:41:29,767 - P17020 - INFO - Após processar URL 10 Uso de memória: 132.01 MB
+2025-05-22 04:41:29,767 - P17020 - INFO - Processando URL 11/16: https://crmvirtual.cfm.org.br/ES/servico/pesquisar-por-medico
+2025-05-22 04:41:32,224 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\0ff8b0bf2c6dbb46c836bac9c0cf4a16.html
+2025-05-22 04:41:32,241 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:41:32,241 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:32,242 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:41:32,242 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:32,242 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:41:32,245 - P17020 - INFO - Após processar URL 11 Uso de memória: 132.01 MB
+2025-05-22 04:41:32,245 - P17020 - INFO - Processando URL 12/16: https://b2bleads.com.br/empresa/anderson-camargo-paesano-ltda-54674958000197
+2025-05-22 04:41:34,443 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\bac08c912c39b5a4f0f7f77e0cb303d3.html
+2025-05-22 04:41:34,445 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:41:34,445 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:34,446 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:41:34,446 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:34,446 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:41:34,446 - P17020 - INFO - Após processar URL 12 Uso de memória: 132.01 MB
+2025-05-22 04:41:34,446 - P17020 - INFO - Processando URL 13/16: https://sistemadje.tjmt.jus.br/publicacoes/10293-2018%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 04:41:34,446 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/10293-2018%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 04:41:34,446 - P17020 - INFO - Após processar URL 13 Uso de memória: 132.01 MB
+2025-05-22 04:41:34,447 - P17020 - INFO - Processando URL 14/16: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 04:41:37,567 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 04:41:37,613 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:41:37,614 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:37,614 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:41:37,614 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:37,614 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:41:37,614 - P17020 - INFO - Após processar URL 14 Uso de memória: 132.01 MB
+2025-05-22 04:41:37,614 - P17020 - INFO - Processando URL 15/16: https://aboutcompany.info/country/brazil/officer/566871/anderson-camargo-paesano/
+2025-05-22 04:41:41,392 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e4691b026cced8c4b85005b27d3babb4.html
+2025-05-22 04:41:41,413 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:41:41,413 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:41,414 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:41:41,414 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:41,414 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:41:41,414 - P17020 - INFO - Após processar URL 15 Uso de memória: 132.01 MB
+2025-05-22 04:41:41,414 - P17020 - INFO - Processando URL 16/16: https://drandersonpaesano.com.br/
+2025-05-22 04:41:41,707 - P17020 - ERROR - Erro ao baixar HTML de https://drandersonpaesano.com.br/: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7574059F4]
+	(No symbol) [0x00007FF7573F6789]
+	(No symbol) [0x00007FF7573F84F8]
+	(No symbol) [0x00007FF7573F6A96]
+	(No symbol) [0x00007FF7573F6516]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F465C]
+	(No symbol) [0x00007FF75740CF3A]
+	(No symbol) [0x00007FF7574B013E]
+	(No symbol) [0x00007FF75748737A]
+	(No symbol) [0x00007FF7574AF39C]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 04:41:41,710 - P17020 - INFO - Após processar URL 16 Uso de memória: 132.01 MB
+2025-05-22 04:41:41,710 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:41:41,710 - P17020 - INFO - Ranked address: 26 items
+2025-05-22 04:41:41,710 - P17020 - INFO - Ranked phone: 2 items
+2025-05-22 04:41:41,710 - P17020 - INFO - Ranked email: 2 items
+2025-05-22 04:41:41,711 - P17020 - INFO - Ranked complement: 0 items
+2025-05-22 04:41:41,711 - P17020 - INFO - Ranked cep: 11 items
+2025-05-22 04:41:41,711 - P17020 - INFO - Após agregação Uso de memória: 132.01 MB
+2025-05-22 04:41:41,711 - P17020 - INFO - Validando endereço: ['Av. Santos Dumont, 123', 'Rua Henrique Dias 2095 94830 São Borja Rio Grande do Sul - Brazil Exibir telefone kkztw4V69GyRIrsrRh5', 'Avenida Jaime Vignoli 455 90200 Porto Alegre 13,40']
+2025-05-22 04:41:41,711 - P17020 - INFO - Endereço validado: Av. Santos Dumont, 123
+2025-05-22 04:41:41,711 - P17020 - INFO - Limpando texto extenso para campo address: Av. Santos Dumont, 123...
+2025-05-22 04:41:41,712 - P17020 - INFO - Texto limpo: Av. Santos Dumont, 123
+2025-05-22 04:41:41,712 - P17020 - INFO - Validando telefone: ['+5555999452002', '(55) 99962-4686']
+2025-05-22 04:41:41,712 - P17020 - INFO - Limpando texto extenso para campo phone: (55) 99962-4686...
+2025-05-22 04:41:41,712 - P17020 - INFO - Texto limpo: 55) 99962-4686
+2025-05-22 04:41:41,712 - P17020 - INFO - Telefone validado: 55) 99962-4686
+2025-05-22 04:41:41,712 - P17020 - INFO - Validando email: ['falecom@achecerto.com.br', 'andersonpaesano@gmail.com']
+2025-05-22 04:41:41,713 - P17020 - INFO - Limpando texto extenso para campo email: falecom@achecerto.com.br...
+2025-05-22 04:41:41,713 - P17020 - INFO - Texto limpo: falecom@achecerto.com.br
+2025-05-22 04:41:41,713 - P17020 - INFO - Email validado: falecom@achecerto.com.br
+2025-05-22 04:41:41,713 - P17020 - INFO - Descobrindo cidade
+2025-05-22 04:41:41,713 - P17020 - INFO - Buscando cidade: Av. Santos Dumont cidade RS
+2025-05-22 04:41:44,427 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 04:41:44,428 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 04:41:44,428 - P17020 - INFO - Tempo de execução de processamento completo do médico: 57.26 segundos
+2025-05-22 04:41:44,429 - P17020 - INFO - Resultado processado: {'Hash': '219a89c3a24b42e04353151ed4a4f180e1b2d47f8d24fd93f9ff5a64d69acdd9', 'CRM': '52435', 'UF': 'RS', 'Firstname': 'ANDERSON', 'LastName': 'CAMARGO PAESANO', 'Medical specialty': '', 'Endereco Completo A1': 'Av. Santos Dumont, 123', 'Address A1': 'Av. Santos Dumont', 'Numero A1': '123', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '55) 99962-4686', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'falecom@achecerto.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:41:44,430 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 04:41:44,430 - P17020 - INFO - Após salvar resultados Uso de memória: 129.43 MB
+2025-05-22 04:41:44,431 - P17020 - INFO - Progresso: 74.5%
+2025-05-22 04:41:44,432 - P17020 - INFO - Tempo de execução de processamento do médico 3: 57.27 segundos
+2025-05-22 04:41:44,432 - P17020 - INFO - Tempo de execução de processamento do lote completo: 150.13 segundos

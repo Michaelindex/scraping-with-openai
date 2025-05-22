@@ -1,0 +1,542 @@
+2025-05-22 04:17:29,829 - P17020 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 04:17:29,829 - P17020 - INFO - Nome: JOSÉ JORGE DA SILVA
+2025-05-22 04:17:29,829 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 04:17:31,345 - P17020 - INFO - Após reiniciar driver Uso de memória: 128.95 MB
+2025-05-22 04:17:31,346 - P17020 - INFO - Início do processamento Uso de memória: 128.95 MB
+2025-05-22 04:17:31,348 - P17020 - INFO - Iniciando busca para: JOSÉ JORGE DA SILVA CRM 357875 RJ telefone e-mail endereço
+2025-05-22 04:17:32,153 - P17020 - INFO - SearX results: 15 URLs
+2025-05-22 04:17:32,155 - P17020 - INFO - Após SearX Uso de memória: 128.95 MB
+2025-05-22 04:17:34,976 - P17020 - INFO - Google results: 5 URLs
+2025-05-22 04:17:34,976 - P17020 - INFO - Após Google Uso de memória: 129.93 MB
+2025-05-22 04:17:37,661 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 04:17:37,661 - P17020 - INFO - Após Bing Uso de memória: 130.99 MB
+2025-05-22 04:17:37,661 - P17020 - INFO - Total de URLs únicas: 22
+2025-05-22 04:17:37,661 - P17020 - INFO - Processando URL 1/22: https://www.consultacrm.com.br/index/profissionais/uid-821a6f57-f5c5-11ec-9e74-0a4aa568c625/jose_jorge_da_silva
+2025-05-22 04:17:43,102 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\abc1ec23732956fc992b239ccc9a4e6b.html
+2025-05-22 04:17:43,112 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:17:43,113 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:17:43,113 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:17:43,113 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:17:43,113 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:17:43,113 - P17020 - INFO - Após processar URL 1 Uso de memória: 130.99 MB
+2025-05-22 04:17:43,113 - P17020 - INFO - Processando URL 2/22: https://www.escavador.com/sobre/2179211/jose-jorge-da-silva
+2025-05-22 04:17:46,119 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\19dfa6877b3b91c35eb7db59ac1a165c.html
+2025-05-22 04:17:46,139 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:17:46,139 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:17:46,140 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:17:46,140 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:17:46,140 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:17:46,140 - P17020 - INFO - Após processar URL 2 Uso de memória: 130.99 MB
+2025-05-22 04:17:46,140 - P17020 - INFO - Processando URL 3/22: http://www.transparencia.cremerj.org.br:8098/planejamento/registroMedico/pesquisar
+2025-05-22 04:17:48,784 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\19128e1d0b16c1bd37c280ce751655f7.html
+2025-05-22 04:17:48,805 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:17:48,805 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:17:48,805 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:17:48,806 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:17:48,806 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:17:48,806 - P17020 - INFO - Após processar URL 3 Uso de memória: 130.99 MB
+2025-05-22 04:17:48,806 - P17020 - INFO - Processando URL 4/22: https://transparencia.cremesp.org.br/?siteAcao=delegacias
+2025-05-22 04:17:51,321 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c27e4b3d05f0bd19761139db27f910cc.html
+2025-05-22 04:17:51,369 - P17020 - INFO - Candidates address: 24 items
+2025-05-22 04:17:51,369 - P17020 - INFO - Candidates phone: 56 items
+2025-05-22 04:17:51,369 - P17020 - INFO - Candidates email: 28 items
+2025-05-22 04:17:51,369 - P17020 - INFO - Candidates complement: 5 items
+2025-05-22 04:17:51,370 - P17020 - INFO - Candidates cep: 28 items
+2025-05-22 04:17:51,370 - P17020 - INFO - Após processar URL 4 Uso de memória: 130.99 MB
+2025-05-22 04:17:51,370 - P17020 - INFO - Processando URL 5/22: https://www.classemedica.com.br/medico/167180-jose-jorge-da-silva.htm
+2025-05-22 04:18:00,692 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\48acca6cc33a19cb7d0ff8f121ea4982.html
+2025-05-22 04:18:00,721 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:18:00,721 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:18:00,721 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:18:00,721 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:18:00,722 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:18:00,722 - P17020 - INFO - Após processar URL 5 Uso de memória: 130.99 MB
+2025-05-22 04:18:00,722 - P17020 - INFO - Processando URL 6/22: https://consultacrm.com.br/
+2025-05-22 04:18:02,899 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:18:02,911 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:18:02,912 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:18:02,912 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:18:02,912 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:18:02,912 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:18:02,913 - P17020 - INFO - Após processar URL 6 Uso de memória: 130.99 MB
+2025-05-22 04:18:02,913 - P17020 - INFO - Processando URL 7/22: https://guiasaudebrasil.com.br/profissional/f0eb1c975beb26f4-jose-jorge-da-silva
+2025-05-22 04:18:09,329 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5def9fc1c1998ffffebc4d45e799546b.html
+2025-05-22 04:18:09,340 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:18:09,340 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:18:09,340 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:18:09,340 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:18:09,340 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:18:09,340 - P17020 - INFO - Após processar URL 7 Uso de memória: 130.99 MB
+2025-05-22 04:18:09,341 - P17020 - INFO - Processando URL 8/22: https://www.ioepa.com.br/pages/2012/2012.03.27.DOE.pdf
+2025-05-22 04:18:09,341 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2012/2012.03.27.DOE.pdf
+2025-05-22 04:18:09,341 - P17020 - INFO - Após processar URL 8 Uso de memória: 130.99 MB
+2025-05-22 04:18:09,341 - P17020 - INFO - Processando URL 9/22: https://www.cremerj.org.br/
+2025-05-22 04:18:13,070 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\57d5b230cbdcf7d719e9b2b2f238c4f1.html
+2025-05-22 04:18:13,119 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:18:13,119 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 04:18:13,119 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:18:13,119 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:18:13,119 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 04:18:13,120 - P17020 - INFO - Após processar URL 9 Uso de memória: 130.99 MB
+2025-05-22 04:18:13,120 - P17020 - INFO - Processando URL 10/22: https://www.doctoralia.com.br/jose-jorge-da-silva-4/cirurgiao-geral/vitoria
+2025-05-22 04:18:13,120 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/jose-jorge-da-silva-4/cirurgiao-geral/vitoria
+2025-05-22 04:18:13,120 - P17020 - INFO - Após processar URL 10 Uso de memória: 130.99 MB
+2025-05-22 04:18:13,120 - P17020 - INFO - Processando URL 11/22: https://www.consultacrm.com.br/index/medicos/uid-9b011e82-f5c5-11ec-9e74-0a4aa568c625/jose_jorge_da_silva
+2025-05-22 04:18:20,400 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e857d8f00db663e54401056e4597497b.html
+2025-05-22 04:18:20,412 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:18:20,412 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:18:20,413 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:18:20,413 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:18:20,413 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:18:20,413 - P17020 - INFO - Após processar URL 11 Uso de memória: 130.99 MB
+2025-05-22 04:18:20,414 - P17020 - INFO - Processando URL 12/22: https://sistemacremerj.com.br/crmonline/SifaOnLineServicosPublicosAction.do?metodo=servicoPublicoProfissionais
+2025-05-22 04:18:24,782 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\00ef532bee75671887e028b1935f98b3.html
+2025-05-22 04:18:24,801 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:18:24,802 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:18:24,802 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:18:24,802 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:18:24,802 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:18:24,803 - P17020 - INFO - Após processar URL 12 Uso de memória: 130.99 MB
+2025-05-22 04:18:24,803 - P17020 - INFO - Processando URL 13/22: https://sistemadje.tjmt.jus.br/publicacoes/8706-2011.pdf
+2025-05-22 04:18:24,803 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/8706-2011.pdf
+2025-05-22 04:18:24,803 - P17020 - INFO - Após processar URL 13 Uso de memória: 130.99 MB
+2025-05-22 04:18:24,803 - P17020 - INFO - Processando URL 14/22: https://doutorcrm.com/jorge-rodrigues-da-silva
+2025-05-22 04:18:29,910 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7a8c4967a561a912160daebec1852255.html
+2025-05-22 04:18:29,919 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:18:29,920 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:18:29,920 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:18:29,920 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:18:29,920 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:18:29,920 - P17020 - INFO - Após processar URL 14 Uso de memória: 130.99 MB
+2025-05-22 04:18:29,921 - P17020 - INFO - Processando URL 15/22: https://ioepa.com.br/pages/2012/2012.03.27.DOE.pdf
+2025-05-22 04:18:29,921 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://ioepa.com.br/pages/2012/2012.03.27.DOE.pdf
+2025-05-22 04:18:29,921 - P17020 - INFO - Após processar URL 15 Uso de memória: 130.99 MB
+2025-05-22 04:18:29,921 - P17020 - INFO - Processando URL 16/22: https://portal.cfm.org.br/busca-medicos
+2025-05-22 04:18:33,895 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 04:18:33,936 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:18:33,937 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:18:33,937 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:18:33,937 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:18:33,937 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:18:33,937 - P17020 - INFO - Após processar URL 16 Uso de memória: 130.99 MB
+2025-05-22 04:18:33,938 - P17020 - INFO - Processando URL 17/22: https://www.boaconsulta.com/especialista/jose-jorge-da-silva-6105babc9b22ae234800160e
+2025-05-22 04:18:37,413 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e9ac5371ca410a3f7af108b218cd9e82.html
+2025-05-22 04:18:37,463 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 04:18:37,463 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:18:37,463 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:18:37,463 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:18:37,463 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:18:37,464 - P17020 - INFO - Após processar URL 17 Uso de memória: 130.99 MB
+2025-05-22 04:18:37,464 - P17020 - INFO - Processando URL 18/22: https://www.doctoralia.com.br/leonardo-jorge-da-silva/ortopedista-traumatologista/goiania
+2025-05-22 04:18:37,464 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/leonardo-jorge-da-silva/ortopedista-traumatologista/goiania
+2025-05-22 04:18:37,464 - P17020 - INFO - Após processar URL 18 Uso de memória: 130.99 MB
+2025-05-22 04:18:37,464 - P17020 - INFO - Processando URL 19/22: https://www.desenvolvimentosocial.sp.gov.br/wp-content/uploads/2020/09/enderecos-cras-no-estado-de-sp.pdf
+2025-05-22 04:18:37,464 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.desenvolvimentosocial.sp.gov.br/wp-content/uploads/2020/09/enderecos-cras-no-estado-de-sp.pdf
+2025-05-22 04:18:37,465 - P17020 - INFO - Após processar URL 19 Uso de memória: 130.99 MB
+2025-05-22 04:18:37,465 - P17020 - INFO - Processando URL 20/22: https://www.achecerto.com.br/
+2025-05-22 04:18:43,769 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ceb96e5663cace6f7b35fee1716d7561.html
+2025-05-22 04:18:43,786 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:18:43,786 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:18:43,786 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:18:43,787 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:18:43,787 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:18:43,787 - P17020 - INFO - Após processar URL 20 Uso de memória: 130.99 MB
+2025-05-22 04:18:43,787 - P17020 - INFO - Processando URL 21/22: https://cdlsurubim.com.br/site/2023/09/cdl-emite-nota-de-pesar-pela-morte-do-empresario-jose-jorge-da-silva-o-popular-conterraneo/
+2025-05-22 04:18:46,239 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\fe4e78ed66e7f66ad3b36042eb1b9a87.html
+2025-05-22 04:18:46,258 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:18:46,259 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 04:18:46,259 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:18:46,259 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:18:46,259 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:18:46,259 - P17020 - INFO - Após processar URL 21 Uso de memória: 130.99 MB
+2025-05-22 04:18:46,259 - P17020 - INFO - Processando URL 22/22: https://www.doctoralia.com.br/jose-jorge-da-silva-2/medico-do-trabalho-medico-do-esporte-especialista-em-medicina-fisica-e-reabilitacao/sao-goncalo-rio-de-janeiro
+2025-05-22 04:18:46,260 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/jose-jorge-da-silva-2/medico-do-trabalho-medico-do-esporte-especialista-em-medicina-fisica-e-reabilitacao/sao-goncalo-rio-de-janeiro
+2025-05-22 04:18:46,260 - P17020 - INFO - Após processar URL 22 Uso de memória: 130.99 MB
+2025-05-22 04:18:46,261 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:18:46,261 - P17020 - INFO - Ranked address: 29 items
+2025-05-22 04:18:46,261 - P17020 - INFO - Ranked phone: 60 items
+2025-05-22 04:18:46,261 - P17020 - INFO - Ranked email: 31 items
+2025-05-22 04:18:46,262 - P17020 - INFO - Ranked complement: 6 items
+2025-05-22 04:18:46,262 - P17020 - INFO - Ranked cep: 34 items
+2025-05-22 04:18:46,262 - P17020 - INFO - Após agregação Uso de memória: 130.99 MB
+2025-05-22 04:18:46,262 - P17020 - INFO - Validando endereço: ['Rua Conselheiro Oscar Rodrigues Alves, 55', 'Av. Rodrigo Fernando Grillo, 207', 'Av. Vinte e Cinco, 1426']
+2025-05-22 04:18:46,263 - P17020 - INFO - Endereço validado: Rua Conselheiro Oscar Rodrigues Alves, 55
+2025-05-22 04:18:46,263 - P17020 - INFO - Limpando texto extenso para campo address: Rua Conselheiro Oscar Rodrigues Alves, 55...
+2025-05-22 04:18:46,263 - P17020 - INFO - Texto limpo: Rua Conselheiro Oscar Rodrigues Alves, 55
+2025-05-22 04:18:46,263 - P17020 - INFO - Validando telefone: ['(21) 3184-7050', '(18) 3622-6194', '(18) 3622-9559']
+2025-05-22 04:18:46,264 - P17020 - INFO - Limpando texto extenso para campo phone: (21) 3184-7050...
+2025-05-22 04:18:46,264 - P17020 - INFO - Texto limpo: 21) 3184-7050
+2025-05-22 04:18:46,264 - P17020 - INFO - Telefone validado: 21) 3184-7050
+2025-05-22 04:18:46,265 - P17020 - INFO - Validando email: ['drata@cremesp.org.br', 'draqa@cremesp.org.br', 'drbts@cremesp.org.br']
+2025-05-22 04:18:46,265 - P17020 - INFO - Limpando texto extenso para campo email: drata@cremesp.org.br...
+2025-05-22 04:18:46,266 - P17020 - INFO - Texto limpo: drata@cremesp.org.br
+2025-05-22 04:18:46,266 - P17020 - INFO - Email validado: drata@cremesp.org.br
+2025-05-22 04:18:46,266 - P17020 - INFO - Validando complemento: ['Sala - CRM 72671 ', 'Conjunto 84 - CEP: 07011-060 ', 'Conjuntos 1201 e 1210 - Centro - CEP 06016-901 ']
+2025-05-22 04:18:46,267 - P17020 - INFO - Limpando texto extenso para campo complement: Sala - CRM 72671 ...
+2025-05-22 04:18:46,267 - P17020 - INFO - Texto limpo: Sala - CRM 72671
+2025-05-22 04:18:46,267 - P17020 - INFO - Complemento validado: Sala - CRM 72671
+2025-05-22 04:18:46,267 - P17020 - INFO - Descobrindo cidade
+2025-05-22 04:18:46,267 - P17020 - INFO - Buscando cidade: Rua Conselheiro Oscar Rodrigues Alves cidade RJ
+2025-05-22 04:18:48,886 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 04:18:48,886 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 04:18:48,886 - P17020 - INFO - Tempo de execução de processamento completo do médico: 77.54 segundos
+2025-05-22 04:18:48,887 - P17020 - INFO - Resultado processado: {'Hash': '012fb7f69b8f57ac039609afbe57c8b95bc2b50f9bbcd34ff354861f5a9423eb', 'CRM': '357875', 'UF': 'RJ', 'Firstname': 'JOSÉ', 'LastName': 'JORGE DA SILVA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Conselheiro Oscar Rodrigues Alves, 55', 'Address A1': 'Rua Conselheiro Oscar Rodrigues Alves', 'Numero A1': '55', 'Complement A1': 'Sala - CRM 72671', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '21) 3184-7050', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'drata@cremesp.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:18:48,888 - P17020 - INFO - Progresso: 66.1%
+2025-05-22 04:18:48,888 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 04:18:48,944 - P17020 - INFO - Após coleta de lixo Uso de memória: 128.95 MB
+2025-05-22 04:18:48,945 - P17020 - INFO - Tempo de execução de processamento do médico 1: 79.12 segundos
+2025-05-22 04:18:48,945 - P17020 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 04:18:48,946 - P17020 - INFO - Nome: UBIRATAN XAVIER DA SILVA
+2025-05-22 04:18:48,946 - P17020 - INFO - Início do processamento Uso de memória: 128.95 MB
+2025-05-22 04:18:48,946 - P17020 - INFO - Iniciando busca para: UBIRATAN XAVIER DA SILVA CRM 381610 RJ telefone e-mail endereço
+2025-05-22 04:18:49,708 - P17020 - INFO - SearX results: 10 URLs
+2025-05-22 04:18:49,708 - P17020 - INFO - Após SearX Uso de memória: 128.95 MB
+2025-05-22 04:18:52,441 - P17020 - INFO - Google results: 5 URLs
+2025-05-22 04:18:52,442 - P17020 - INFO - Após Google Uso de memória: 131.37 MB
+2025-05-22 04:18:55,005 - P17020 - INFO - Bing results: 12 URLs
+2025-05-22 04:18:55,006 - P17020 - INFO - Após Bing Uso de memória: 133.52 MB
+2025-05-22 04:18:55,006 - P17020 - INFO - Total de URLs únicas: 18
+2025-05-22 04:18:55,006 - P17020 - INFO - Processando URL 1/18: https://consultacrm.com.br/
+2025-05-22 04:18:57,116 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:18:57,130 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:18:57,130 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:18:57,130 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:18:57,130 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:18:57,131 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:18:57,131 - P17020 - INFO - Após processar URL 1 Uso de memória: 133.52 MB
+2025-05-22 04:18:57,131 - P17020 - INFO - Processando URL 2/18: https://zapia.digital/rio-de-janeiro-rj/meier/sistemas-de-venda-de-credito/ubiratan-xavier-da-silva/2646968
+2025-05-22 04:19:02,076 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3f6ef3c8e2937fbbfa4a63c7814c435e.html
+2025-05-22 04:19:02,089 - P17020 - INFO - Candidates address: 3 items
+2025-05-22 04:19:02,089 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:19:02,089 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:19:02,089 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:19:02,090 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 04:19:02,090 - P17020 - INFO - Após processar URL 2 Uso de memória: 133.52 MB
+2025-05-22 04:19:02,090 - P17020 - INFO - Processando URL 3/18: https://guiatelesul.com.br/anuncios/ubiratan+xavier+da+silva-rio+de+janeiro-rj-2851806
+2025-05-22 04:19:06,825 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\28049eebe23549989345262de8f3d0aa.html
+2025-05-22 04:19:06,837 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:19:06,837 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:19:06,837 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:19:06,838 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:19:06,838 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:19:06,838 - P17020 - INFO - Após processar URL 3 Uso de memória: 133.52 MB
+2025-05-22 04:19:06,838 - P17020 - INFO - Processando URL 4/18: https://www.classemedica.com.br/medico/326861-ubiratan-xavier-da-silva.htm
+2025-05-22 04:19:13,347 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\30585e48c9e12759c9d879071a59ccdf.html
+2025-05-22 04:19:13,378 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:19:13,378 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:19:13,378 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:19:13,378 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:19:13,379 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:19:13,379 - P17020 - INFO - Após processar URL 4 Uso de memória: 134.72 MB
+2025-05-22 04:19:13,379 - P17020 - INFO - Processando URL 5/18: https://clinicanina.com.br/site/equipe.html
+2025-05-22 04:19:16,849 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6ad9428441bb2f0c9732aec6d09c63d5.html
+2025-05-22 04:19:16,861 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:19:16,862 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:19:16,862 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:19:16,862 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:19:16,862 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:19:16,862 - P17020 - INFO - Após processar URL 5 Uso de memória: 133.52 MB
+2025-05-22 04:19:16,862 - P17020 - INFO - Processando URL 6/18: https://cnpj.biz/48224974000185
+2025-05-22 04:19:21,435 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\46a129da392e05de65ca5dad9541b114.html
+2025-05-22 04:19:21,454 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 04:19:21,455 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:19:21,456 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:19:21,458 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:19:21,459 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 04:19:21,461 - P17020 - INFO - Após processar URL 6 Uso de memória: 133.52 MB
+2025-05-22 04:19:21,472 - P17020 - INFO - Processando URL 7/18: https://eguias.net/empresa/ubiratan-xavier-da-silva/rio-de-janeiro/rj/2642467
+2025-05-22 04:19:23,792 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d85b01a893000eb26f96d13ba62639ea.html
+2025-05-22 04:19:23,810 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:19:23,810 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 04:19:23,810 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:19:23,811 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:19:23,811 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 04:19:23,811 - P17020 - INFO - Após processar URL 7 Uso de memória: 133.52 MB
+2025-05-22 04:19:23,811 - P17020 - INFO - Processando URL 8/18: https://cimrad.com.br/time-medico/
+2025-05-22 04:19:28,988 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\377d21defe78ec624a3568cb772ee7cb.html
+2025-05-22 04:19:29,015 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:19:29,023 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:19:29,024 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:19:29,025 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:19:29,025 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:19:29,035 - P17020 - INFO - Após processar URL 8 Uso de memória: 133.52 MB
+2025-05-22 04:19:29,035 - P17020 - INFO - Processando URL 9/18: https://www.comxport.com/co/ubiratan_xavier_da_silva-brasil-7630037.php
+2025-05-22 04:19:33,589 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\74d0dfe540b8887422ba90879b181b49.html
+2025-05-22 04:19:33,612 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:19:33,613 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:19:33,614 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:19:33,614 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:19:33,614 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:19:33,615 - P17020 - INFO - Após processar URL 9 Uso de memória: 123.95 MB
+2025-05-22 04:19:33,615 - P17020 - INFO - Processando URL 10/18: https://www.listamais.com.br/local/cad_idX750f7f/ubiratan-xavier-da-silva-credito-sistemas-de-venda-em-rio-de-janeiro-rj
+2025-05-22 04:19:38,115 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\1ce8f2f10976ecd58b80bf5af6801ed0.html
+2025-05-22 04:19:38,139 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:19:38,139 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 04:19:38,141 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:19:38,144 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:19:38,145 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:19:38,146 - P17020 - INFO - Após processar URL 10 Uso de memória: 126.31 MB
+2025-05-22 04:19:38,146 - P17020 - INFO - Processando URL 11/18: https://www.helpsaude.com/Ubiratan-Xavier-da-Silva.RJ
+2025-05-22 04:19:42,578 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a9b89f033fd1ce32b3d287dfe649067f.html
+2025-05-22 04:19:42,592 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:19:42,592 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:19:42,593 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:19:42,594 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:19:42,594 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:19:42,594 - P17020 - INFO - Após processar URL 11 Uso de memória: 127.63 MB
+2025-05-22 04:19:42,595 - P17020 - INFO - Processando URL 12/18: https://www.apontador.com.br/local/rj/rio_de_janeiro/enderecos_empresariais/J5GZZZGJ/ubiratan_xavier_da_silva_meier.html
+2025-05-22 04:19:46,886 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\13b0ba42b757a43e159978c0cd30969f.html
+2025-05-22 04:19:46,933 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 04:19:46,934 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 04:19:46,934 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:19:46,934 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:19:46,934 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:19:46,934 - P17020 - INFO - Após processar URL 12 Uso de memória: 127.97 MB
+2025-05-22 04:19:46,934 - P17020 - INFO - Processando URL 13/18: https://www.planetabrasileiro.com/ubiratan-xavier-da-silva-rio-de-janeiro-rj-F110EC60E1AD843
+2025-05-22 04:19:51,934 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ca696f6fa7e3b26088c52dddea101068.html
+2025-05-22 04:19:51,963 - P17020 - INFO - Candidates address: 7 items
+2025-05-22 04:19:51,977 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:19:51,979 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:19:51,980 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:19:51,980 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:19:51,980 - P17020 - INFO - Após processar URL 13 Uso de memória: 128.31 MB
+2025-05-22 04:19:51,980 - P17020 - INFO - Processando URL 14/18: https://guiaja.net/pt/empresas/rj/rio-de-janeiro/credito-sistemas-de-venda/ubiratan-xavier-da-silva_7476851+2.html
+2025-05-22 04:19:55,804 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4c96cca12af8108f09133f0b4823548d.html
+2025-05-22 04:19:55,869 - P17020 - INFO - Candidates address: 3 items
+2025-05-22 04:19:55,877 - P17020 - INFO - Candidates phone: 9 items
+2025-05-22 04:19:55,881 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:19:55,881 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:19:55,882 - P17020 - INFO - Candidates cep: 6 items
+2025-05-22 04:19:55,882 - P17020 - INFO - Após processar URL 14 Uso de memória: 130.30 MB
+2025-05-22 04:19:55,883 - P17020 - INFO - Processando URL 15/18: https://inct-fna.if.uff.br/cbpf/
+2025-05-22 04:19:59,590 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\8c4c9d59d6d05bc032cd7aec0b7485ee.html
+2025-05-22 04:19:59,604 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:19:59,605 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:19:59,605 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:19:59,605 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:19:59,608 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:19:59,609 - P17020 - INFO - Após processar URL 15 Uso de memória: 130.42 MB
+2025-05-22 04:19:59,609 - P17020 - INFO - Processando URL 16/18: https://www.boaconsulta.com/especialista/ubiratan-xavier-da-silva-6105c4089b22ae27c3002093
+2025-05-22 04:20:01,780 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ac3d958138087dbd1ec9a99d74f523b1.html
+2025-05-22 04:20:01,820 - P17020 - INFO - Candidates address: 3 items
+2025-05-22 04:20:01,820 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:20:01,820 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:20:01,820 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 04:20:01,820 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:20:01,820 - P17020 - INFO - Após processar URL 16 Uso de memória: 130.49 MB
+2025-05-22 04:20:01,821 - P17020 - INFO - Processando URL 17/18: https://www.guia.provik.com.br/guia-comercial/variados/ubiratan-xavier-da-silva-l110993.html
+2025-05-22 04:20:08,501 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\0f501e98b9db3260c335edc01a0c9f9a.html
+2025-05-22 04:20:08,521 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 04:20:08,524 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:20:08,525 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:20:08,526 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:20:08,526 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:20:08,527 - P17020 - INFO - Após processar URL 17 Uso de memória: 130.86 MB
+2025-05-22 04:20:08,527 - P17020 - INFO - Processando URL 18/18: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x838186575&market=pt-BR&src=SERPGB
+2025-05-22 04:20:12,820 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d802f43401cf6244180ca23d3d6d3068.html
+2025-05-22 04:20:12,838 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:20:12,838 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:20:12,838 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:20:12,838 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:20:12,839 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:20:12,839 - P17020 - INFO - Após processar URL 18 Uso de memória: 130.87 MB
+2025-05-22 04:20:12,839 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:20:12,839 - P17020 - INFO - Ranked address: 25 items
+2025-05-22 04:20:12,839 - P17020 - INFO - Ranked phone: 18 items
+2025-05-22 04:20:12,839 - P17020 - INFO - Ranked email: 7 items
+2025-05-22 04:20:12,840 - P17020 - INFO - Ranked complement: 4 items
+2025-05-22 04:20:12,840 - P17020 - INFO - Ranked cep: 18 items
+2025-05-22 04:20:12,840 - P17020 - INFO - Após agregação Uso de memória: 130.87 MB
+2025-05-22 04:20:12,840 - P17020 - INFO - Validando endereço: ['Rua Dias da Cruz, 188', 'Rua Senador Dantas, 80', 'Rua Dias da Cruz - 188 - lj-135 - Méier - Rio de Janeiro/RJ -']
+2025-05-22 04:20:12,840 - P17020 - INFO - Endereço validado: Rua Dias da Cruz, 188
+2025-05-22 04:20:12,840 - P17020 - INFO - Limpando texto extenso para campo address: Rua Dias da Cruz, 188...
+2025-05-22 04:20:12,840 - P17020 - INFO - Texto limpo: Rua Dias da Cruz, 188
+2025-05-22 04:20:12,841 - P17020 - INFO - Validando telefone: ['(21) 2215-6061', '(62) 3357-1401', '(21) 98217-5655']
+2025-05-22 04:20:12,841 - P17020 - INFO - Limpando texto extenso para campo phone: (21) 2215-6061...
+2025-05-22 04:20:12,841 - P17020 - INFO - Texto limpo: 21) 2215-6061
+2025-05-22 04:20:12,841 - P17020 - INFO - Telefone validado: 21) 2215-6061
+2025-05-22 04:20:12,842 - P17020 - INFO - Validando email: ['adm-portais@ubuntuagencia.digital', 'clinicanina@clinicanina.com.br', 'uspalma@msn.com']
+2025-05-22 04:20:12,842 - P17020 - INFO - Limpando texto extenso para campo email: adm-portais@ubuntuagencia.digital...
+2025-05-22 04:20:12,842 - P17020 - INFO - Texto limpo: adm-portais@ubuntuagencia.digital
+2025-05-22 04:20:12,842 - P17020 - INFO - Email validado: adm-portais@ubuntuagencia.digital
+2025-05-22 04:20:12,842 - P17020 - INFO - Validando complemento: ['Saladas ', 'Sala 903/904 Rio De Janeiro - RJ  -  20091-040     ', 'Sala 313 Bloco México']
+2025-05-22 04:20:12,842 - P17020 - INFO - Limpando texto extenso para campo complement: Saladas ...
+2025-05-22 04:20:12,843 - P17020 - INFO - Texto limpo: Saladas
+2025-05-22 04:20:12,843 - P17020 - INFO - Complemento validado: Saladas
+2025-05-22 04:20:12,843 - P17020 - INFO - Descobrindo cidade
+2025-05-22 04:20:12,843 - P17020 - INFO - Buscando cidade: Rua Dias da Cruz cidade RJ
+2025-05-22 04:20:15,516 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 04:20:15,519 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 04:20:15,520 - P17020 - INFO - Tempo de execução de processamento completo do médico: 86.57 segundos
+2025-05-22 04:20:15,521 - P17020 - INFO - Resultado processado: {'Hash': 'b66fb4486dbedf3b9658248c7f8817595939443b4f7b2edd37a7668c539f9c6b', 'CRM': '381610', 'UF': 'RJ', 'Firstname': 'UBIRATAN', 'LastName': 'XAVIER DA SILVA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Dias da Cruz, 188', 'Address A1': 'Rua Dias da Cruz', 'Numero A1': '188', 'Complement A1': 'Saladas', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '21) 2215-6061', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'adm-portais@ubuntuagencia.digital', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:20:15,523 - P17020 - INFO - Progresso: 66.7%
+2025-05-22 04:20:15,523 - P17020 - INFO - Tempo de execução de processamento do médico 2: 86.58 segundos
+2025-05-22 04:20:15,523 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 04:20:15,524 - P17020 - INFO - Nome: TOMAZ MARTINS DE OLIVEIRA
+2025-05-22 04:20:15,524 - P17020 - INFO - Início do processamento Uso de memória: 126.38 MB
+2025-05-22 04:20:15,524 - P17020 - INFO - Iniciando busca para: TOMAZ MARTINS DE OLIVEIRA CRM 388539 RJ telefone e-mail endereço
+2025-05-22 04:20:16,356 - P17020 - INFO - SearX results: 12 URLs
+2025-05-22 04:20:16,356 - P17020 - INFO - Após SearX Uso de memória: 126.38 MB
+2025-05-22 04:20:18,899 - P17020 - INFO - Google results: 1 URLs
+2025-05-22 04:20:18,900 - P17020 - INFO - Após Google Uso de memória: 126.39 MB
+2025-05-22 04:20:21,424 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 04:20:21,424 - P17020 - INFO - Após Bing Uso de memória: 128.29 MB
+2025-05-22 04:20:21,425 - P17020 - INFO - Total de URLs únicas: 13
+2025-05-22 04:20:21,425 - P17020 - INFO - Processando URL 1/13: https://consultacrm.com.br/
+2025-05-22 04:20:24,878 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:20:24,890 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:20:24,892 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:20:24,892 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:20:24,892 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:20:24,893 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:20:24,893 - P17020 - INFO - Após processar URL 1 Uso de memória: 128.36 MB
+2025-05-22 04:20:24,894 - P17020 - INFO - Processando URL 2/13: https://www.achecerto.com.br/
+2025-05-22 04:20:30,499 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ceb96e5663cace6f7b35fee1716d7561.html
+2025-05-22 04:20:30,516 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:20:30,516 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:20:30,517 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:20:30,517 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:20:30,517 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:20:30,517 - P17020 - INFO - Após processar URL 2 Uso de memória: 128.36 MB
+2025-05-22 04:20:30,517 - P17020 - INFO - Processando URL 3/13: https://cliniguia.com/profissionais/tomaz-martins-de-oliveira-980016286577659/
+2025-05-22 04:20:35,698 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d118a8f0e8dfedc93273001dc12fad3d.html
+2025-05-22 04:20:35,743 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:20:35,743 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:20:35,743 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:20:35,743 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:20:35,743 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:20:35,744 - P17020 - INFO - Após processar URL 3 Uso de memória: 129.66 MB
+2025-05-22 04:20:35,744 - P17020 - INFO - Processando URL 4/13: https://www.cremerj.org.br/
+2025-05-22 04:20:40,079 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\57d5b230cbdcf7d719e9b2b2f238c4f1.html
+2025-05-22 04:20:40,130 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:20:40,131 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 04:20:40,131 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:20:40,131 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:20:40,131 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 04:20:40,131 - P17020 - INFO - Após processar URL 4 Uso de memória: 130.09 MB
+2025-05-22 04:20:40,132 - P17020 - INFO - Processando URL 5/13: https://www.boaconsulta.com/especialista/tomaz-martins-de-oliveira-6105c7ae9b22ae2b6b0006be
+2025-05-22 04:20:42,955 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\497c83281f0da003f8c642e3d1603143.html
+2025-05-22 04:20:43,023 - P17020 - INFO - Candidates address: 7 items
+2025-05-22 04:20:43,024 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:20:43,024 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:20:43,024 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:20:43,024 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:20:43,024 - P17020 - INFO - Após processar URL 5 Uso de memória: 130.16 MB
+2025-05-22 04:20:43,024 - P17020 - INFO - Processando URL 6/13: https://www.medicosbrasil.com/profissional/tomaz-martins-de-oliveira
+2025-05-22 04:20:46,471 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\58e1b07353864cb7f916d15e231e1de7.html
+2025-05-22 04:20:46,489 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:20:46,489 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:20:46,489 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:20:46,489 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:20:46,489 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:20:46,490 - P17020 - INFO - Após processar URL 6 Uso de memória: 130.18 MB
+2025-05-22 04:20:46,490 - P17020 - INFO - Processando URL 7/13: http://www.transparencia.cremerj.org.br:8098/planejamento/registroMedico/pesquisar
+2025-05-22 04:20:48,892 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\19128e1d0b16c1bd37c280ce751655f7.html
+2025-05-22 04:20:48,913 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:20:48,913 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:20:48,914 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:20:48,914 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:20:48,914 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:20:48,914 - P17020 - INFO - Após processar URL 7 Uso de memória: 130.18 MB
+2025-05-22 04:20:48,914 - P17020 - INFO - Processando URL 8/13: https://portal.tjpr.jus.br/e-dj/publico/diario/baixar.do;jsessionid=00aca13f137ef3f12af56fd6e6cd?tjpr.url.crypto=eb9aa1f9ff734752
+2025-05-22 04:20:51,032 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\0c00bf05d2228fb06cde3316ea6132a1.html
+2025-05-22 04:20:51,053 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:20:51,055 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:20:51,055 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:20:51,060 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:20:51,061 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:20:51,061 - P17020 - INFO - Após processar URL 8 Uso de memória: 130.18 MB
+2025-05-22 04:20:51,062 - P17020 - INFO - Processando URL 9/13: https://doutorcrm.com/tomaz-martins-de-oliveira
+2025-05-22 04:20:55,729 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\8d2d67742fc0abd9df56149606bc0388.html
+2025-05-22 04:20:55,736 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:20:55,737 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:20:55,737 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:20:55,737 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:20:55,737 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:20:55,738 - P17020 - INFO - Após processar URL 9 Uso de memória: 130.19 MB
+2025-05-22 04:20:55,738 - P17020 - INFO - Processando URL 10/13: https://www.classemedica.com.br/medico/326171-tomaz-martins-de-oliveira.htm
+2025-05-22 04:21:02,091 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5d81aaf22275efc83931c83b56c57874.html
+2025-05-22 04:21:02,133 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:21:02,133 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:21:02,133 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:21:02,133 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:21:02,133 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:21:02,134 - P17020 - INFO - Após processar URL 10 Uso de memória: 130.19 MB
+2025-05-22 04:21:02,134 - P17020 - INFO - Processando URL 11/13: https://guiasaudebrasil.com.br/profissional/e6748291a137fe90-tomaz-martins-de-oliveira
+2025-05-22 04:21:07,505 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\13b17d9d2836148a017eac8ab4ada5d2.html
+2025-05-22 04:21:07,514 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:21:07,514 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:21:07,514 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:21:07,514 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:21:07,514 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:21:07,515 - P17020 - INFO - Após processar URL 11 Uso de memória: 130.20 MB
+2025-05-22 04:21:07,515 - P17020 - INFO - Processando URL 12/13: https://www.consultacrm.com.br/index/medicos/uid-98dba11d-f5c5-11ec-9e74-0a4aa568c625/tomaz_martins_de_oliveira
+2025-05-22 04:21:13,843 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\0a4c2c8f015aae89a984c73ede67db4b.html
+2025-05-22 04:21:13,857 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:21:13,857 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:21:13,857 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:21:13,857 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:21:13,858 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:21:13,858 - P17020 - INFO - Após processar URL 12 Uso de memória: 129.68 MB
+2025-05-22 04:21:13,858 - P17020 - INFO - Processando URL 13/13: https://portal.tjpr.jus.br/e-dj/publico/diario/baixar.do;jsessionid=160125134146aca1ecc9a6053351?tjpr.url.crypto=62d424286d2ddc665aa4ef22398087e31772d2855b57a12ec00ed3382c4c4543
+2025-05-22 04:21:16,009 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ffe1a0f4aa7643e3617559f04bb33228.html
+2025-05-22 04:21:16,010 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:21:16,010 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:21:16,010 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:21:16,010 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:21:16,010 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:21:16,011 - P17020 - INFO - Após processar URL 13 Uso de memória: 129.68 MB
+2025-05-22 04:21:16,011 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:21:16,011 - P17020 - INFO - Ranked address: 8 items
+2025-05-22 04:21:16,011 - P17020 - INFO - Ranked phone: 2 items
+2025-05-22 04:21:16,011 - P17020 - INFO - Ranked email: 2 items
+2025-05-22 04:21:16,012 - P17020 - INFO - Ranked complement: 1 items
+2025-05-22 04:21:16,012 - P17020 - INFO - Ranked cep: 5 items
+2025-05-22 04:21:16,012 - P17020 - INFO - Após agregação Uso de memória: 129.68 MB
+2025-05-22 04:21:16,012 - P17020 - INFO - Validando endereço: ['Av. Santos Dumont, 123', 'Rua Dias Da Cruz, 155', 'Avenida Afonso Arinos De Melo Franco, 222']
+2025-05-22 04:21:16,012 - P17020 - INFO - Endereço validado: Av. Santos Dumont, 123
+2025-05-22 04:21:16,013 - P17020 - INFO - Limpando texto extenso para campo address: Av. Santos Dumont, 123...
+2025-05-22 04:21:16,013 - P17020 - INFO - Texto limpo: Av. Santos Dumont, 123
+2025-05-22 04:21:16,013 - P17020 - INFO - Validando telefone: ['(21) 3184-7050', '(21) 98491-1522']
+2025-05-22 04:21:16,013 - P17020 - INFO - Limpando texto extenso para campo phone: (21) 3184-7050...
+2025-05-22 04:21:16,013 - P17020 - INFO - Texto limpo: 21) 3184-7050
+2025-05-22 04:21:16,013 - P17020 - INFO - Telefone validado: 21) 3184-7050
+2025-05-22 04:21:16,013 - P17020 - INFO - Validando email: ['falecom@achecerto.com.br', 'meyriparracho01@gmail.com']
+2025-05-22 04:21:16,014 - P17020 - INFO - Limpando texto extenso para campo email: falecom@achecerto.com.br...
+2025-05-22 04:21:16,014 - P17020 - INFO - Texto limpo: falecom@achecerto.com.br
+2025-05-22 04:21:16,014 - P17020 - INFO - Email validado: falecom@achecerto.com.br
+2025-05-22 04:21:16,014 - P17020 - INFO - Validando complemento: ['Sala 505']
+2025-05-22 04:21:16,014 - P17020 - INFO - Limpando texto extenso para campo complement: Sala 505...
+2025-05-22 04:21:16,015 - P17020 - INFO - Texto limpo: Sala 505
+2025-05-22 04:21:16,015 - P17020 - INFO - Complemento validado: Sala 505
+2025-05-22 04:21:16,015 - P17020 - INFO - Descobrindo cidade
+2025-05-22 04:21:16,015 - P17020 - INFO - Buscando cidade: Av. Santos Dumont cidade RJ
+2025-05-22 04:21:18,713 - P17020 - INFO - Cidade encontrada: Magé
+2025-05-22 04:21:18,713 - P17020 - INFO - Limpando texto extenso para campo city: Magé...
+2025-05-22 04:21:18,713 - P17020 - INFO - Texto limpo: Magé
+2025-05-22 04:21:18,713 - P17020 - INFO - Cidade descoberta: Magé
+2025-05-22 04:21:18,713 - P17020 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 04:21:18,714 - P17020 - INFO - Iniciando busca de CEP em cascata para: Av. Santos Dumont, Magé, RJ
+2025-05-22 04:21:18,714 - P17020 - INFO - Método 1: ViaCEP API
+2025-05-22 04:21:18,714 - P17020 - INFO - Dados encontrados no cache: {'cep': '25930-540', 'logradouro': 'Avenida Santos Dumont', 'complemento': '', 'unidade': '', 'bairro': 'Bongaba (Vila Inhomirim)', 'localidade': 'Magé', 'uf': 'RJ', 'estado': 'Rio de Janeiro', 'regiao': 'Sudeste', 'ibge': '3302502', 'gia': '', 'ddd': '21', 'siafi': '5849'}
+2025-05-22 04:21:18,714 - P17020 - INFO - CEP encontrado via ViaCEP: 25930-540
+2025-05-22 04:21:18,714 - P17020 - INFO - Dados de CEP encontrados: {'cep': '25930-540', 'logradouro': 'Avenida Santos Dumont', 'complemento': '', 'unidade': '', 'bairro': 'Bongaba (Vila Inhomirim)', 'localidade': 'Magé', 'uf': 'RJ', 'estado': 'Rio de Janeiro', 'regiao': 'Sudeste', 'ibge': '3302502', 'gia': '', 'ddd': '21', 'siafi': '5849'}
+2025-05-22 04:21:18,714 - P17020 - INFO - Limpando texto extenso para campo bairro: Bongaba (Vila Inhomirim)...
+2025-05-22 04:21:18,715 - P17020 - INFO - Texto limpo: Bongaba (Vila Inhomirim
+2025-05-22 04:21:18,715 - P17020 - INFO - Limpando texto extenso para campo city: Magé...
+2025-05-22 04:21:18,715 - P17020 - INFO - Texto limpo: Magé
+2025-05-22 04:21:18,715 - P17020 - INFO - Limpando texto extenso para campo state: RJ...
+2025-05-22 04:21:18,715 - P17020 - INFO - Texto limpo: RJ
+2025-05-22 04:21:18,715 - P17020 - INFO - Tempo de execução de processamento completo do médico: 63.19 segundos
+2025-05-22 04:21:18,716 - P17020 - INFO - Resultado processado: {'Hash': '74a1197b886a75d97871d57a76142b2b97edbf749403c076c3d1d94168f3053d', 'CRM': '388539', 'UF': 'RJ', 'Firstname': 'TOMAZ', 'LastName': 'MARTINS DE OLIVEIRA', 'Medical specialty': '', 'Endereco Completo A1': 'Av. Santos Dumont, 123', 'Address A1': 'Av. Santos Dumont', 'Numero A1': '123', 'Complement A1': 'Sala 505', 'Bairro A1': 'Bongaba (Vila Inhomirim', 'postal code A1': '25930-540', 'City A1': 'Magé', 'State A1': 'RJ', 'Phone A1': '21) 3184-7050', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'falecom@achecerto.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:21:18,716 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 04:21:18,717 - P17020 - INFO - Após salvar resultados Uso de memória: 129.54 MB
+2025-05-22 04:21:18,717 - P17020 - INFO - Progresso: 67.0%
+2025-05-22 04:21:18,718 - P17020 - INFO - Tempo de execução de processamento do médico 3: 63.19 segundos
+2025-05-22 04:21:18,718 - P17020 - INFO - Tempo de execução de processamento do lote completo: 228.89 segundos

@@ -1,0 +1,531 @@
+2025-05-22 05:36:39,702 - P17320 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 05:36:39,702 - P17320 - INFO - Nome: PAMELLA CHAGAS SIQUEIRA
+2025-05-22 05:36:39,702 - P17320 - INFO - Reiniciando driver do Chrome
+2025-05-22 05:36:41,175 - P17320 - INFO - Após reiniciar driver Uso de memória: 139.73 MB
+2025-05-22 05:36:41,175 - P17320 - INFO - Início do processamento Uso de memória: 139.73 MB
+2025-05-22 05:36:41,175 - P17320 - INFO - Iniciando busca para: PAMELLA CHAGAS SIQUEIRA CRM 224012 SP telefone e-mail endereço
+2025-05-22 05:36:42,015 - P17320 - INFO - SearX results: 14 URLs
+2025-05-22 05:36:42,016 - P17320 - INFO - Após SearX Uso de memória: 139.73 MB
+2025-05-22 05:36:44,726 - P17320 - INFO - Google results: 10 URLs
+2025-05-22 05:36:44,726 - P17320 - INFO - Após Google Uso de memória: 140.77 MB
+2025-05-22 05:36:47,250 - P17320 - INFO - Bing results: 11 URLs
+2025-05-22 05:36:47,250 - P17320 - INFO - Após Bing Uso de memória: 141.67 MB
+2025-05-22 05:36:47,250 - P17320 - INFO - Total de URLs únicas: 22
+2025-05-22 05:36:47,250 - P17320 - INFO - Processando URL 1/22: https://www.doctoralia.com.br/psiquiatra/mogi-das-cruzes/jardim-santista2
+2025-05-22 05:36:47,251 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/mogi-das-cruzes/jardim-santista2
+2025-05-22 05:36:47,251 - P17320 - INFO - Após processar URL 1 Uso de memória: 141.67 MB
+2025-05-22 05:36:47,251 - P17320 - INFO - Processando URL 2/22: https://cnpj.biz/45110515000182
+2025-05-22 05:36:51,631 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\76945d64a1f9eeebb2bf721aae900729.html
+2025-05-22 05:36:51,645 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 05:36:51,646 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:36:51,646 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:36:51,646 - P17320 - INFO - Candidates complement: 2 items
+2025-05-22 05:36:51,646 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 05:36:51,646 - P17320 - INFO - Após processar URL 2 Uso de memória: 141.67 MB
+2025-05-22 05:36:51,646 - P17320 - INFO - Processando URL 3/22: https://www.gov.br/mme/pt-br/arquivos/do-27-07-2012-s3.pdf
+2025-05-22 05:36:51,647 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.gov.br/mme/pt-br/arquivos/do-27-07-2012-s3.pdf
+2025-05-22 05:36:51,647 - P17320 - INFO - Após processar URL 3 Uso de memória: 141.67 MB
+2025-05-22 05:36:51,647 - P17320 - INFO - Processando URL 4/22: https://www.doctoralia.com.br/pamella-chagas-siqueira/psiquiatra/mogi-das-cruzes
+2025-05-22 05:36:51,647 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/pamella-chagas-siqueira/psiquiatra/mogi-das-cruzes
+2025-05-22 05:36:51,647 - P17320 - INFO - Após processar URL 4 Uso de memória: 141.67 MB
+2025-05-22 05:36:51,647 - P17320 - INFO - Processando URL 5/22: https://guiamedico.cremesp.org.br/
+2025-05-22 05:37:21,658 - P17320 - ERROR - Erro ao baixar HTML de https://guiamedico.cremesp.org.br/: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7573F64EC]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F465C]
+	(No symbol) [0x00007FF75740CF3A]
+	(No symbol) [0x00007FF7574B013E]
+	(No symbol) [0x00007FF75748737A]
+	(No symbol) [0x00007FF7574AF39C]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 05:37:21,661 - P17320 - INFO - Após processar URL 5 Uso de memória: 141.67 MB
+2025-05-22 05:37:21,662 - P17320 - INFO - Processando URL 6/22: https://www.cpaps.com.br/blog/profissional/dra-pamella-chagas-siqueira/?srsltid=AfmBOor_qo0Uezv4j3J8K-afrbIIC-AluUF3R4qGzxmAiEi87aEjHHt2
+2025-05-22 05:37:25,626 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d464a846c5373c574b8a81259400835b.html
+2025-05-22 05:37:25,645 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:37:25,646 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 05:37:25,646 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:37:25,646 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:37:25,646 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 05:37:25,646 - P17320 - INFO - Após processar URL 6 Uso de memória: 141.67 MB
+2025-05-22 05:37:25,647 - P17320 - INFO - Processando URL 7/22: https://www.doctoralia.com.br/servicos-de-tratamento/consulta-psiquiatra/mogi-das-cruzes
+2025-05-22 05:37:25,647 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/servicos-de-tratamento/consulta-psiquiatra/mogi-das-cruzes
+2025-05-22 05:37:25,647 - P17320 - INFO - Após processar URL 7 Uso de memória: 141.67 MB
+2025-05-22 05:37:25,647 - P17320 - INFO - Processando URL 8/22: https://www.consultasocio.com/q/sa/pamella-chagas-siqueira
+2025-05-22 05:37:31,304 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\2b6de864c929fe43a0ef7b410cd5c0a7.html
+2025-05-22 05:37:31,311 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:37:31,311 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:37:31,311 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:37:31,312 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 05:37:31,312 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 05:37:31,312 - P17320 - INFO - Após processar URL 8 Uso de memória: 141.67 MB
+2025-05-22 05:37:31,312 - P17320 - INFO - Processando URL 9/22: https://clinicamedicaassis.com.br/pamella-chagas/
+2025-05-22 05:37:34,958 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\bf20fc947926390501d7ca2c5807e4ad.html
+2025-05-22 05:37:34,969 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:37:34,970 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:37:34,970 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:37:34,971 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:37:34,971 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:37:34,973 - P17320 - INFO - Após processar URL 9 Uso de memória: 141.67 MB
+2025-05-22 05:37:34,974 - P17320 - INFO - Processando URL 10/22: https://www.boaconsulta.com/especialista/pamella-chagas-siqueira-64a3a82f5a7bb8083101c06a
+2025-05-22 05:37:37,502 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d11e9e8a8738442f9a185f66872bade0.html
+2025-05-22 05:37:37,545 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:37:37,546 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:37:37,546 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:37:37,546 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:37:37,546 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:37:37,546 - P17320 - INFO - Após processar URL 10 Uso de memória: 141.67 MB
+2025-05-22 05:37:37,546 - P17320 - INFO - Processando URL 11/22: https://www.doctoralia.com.br/psiquiatra/mogi/centro1037
+2025-05-22 05:37:37,547 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/mogi/centro1037
+2025-05-22 05:37:37,547 - P17320 - INFO - Após processar URL 11 Uso de memória: 141.67 MB
+2025-05-22 05:37:37,547 - P17320 - INFO - Processando URL 12/22: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1429347189.pdf
+2025-05-22 05:37:37,547 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1429347189.pdf
+2025-05-22 05:37:37,547 - P17320 - INFO - Após processar URL 12 Uso de memória: 141.67 MB
+2025-05-22 05:37:37,547 - P17320 - INFO - Processando URL 13/22: https://www.boaconsulta.com/especialista/pamella-chagas-siqueira-64a3a82f5a7bb8083101c06a?searchId=cm22j864w00025j6tj6nz134o&agendaId=64a3a82f5a7bb8083101c06b
+2025-05-22 05:37:40,092 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\433d6d0d287d282d8a7ec201742bc5d5.html
+2025-05-22 05:37:40,135 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:37:40,135 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:37:40,140 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:37:40,140 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:37:40,141 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:37:40,142 - P17320 - INFO - Após processar URL 13 Uso de memória: 141.67 MB
+2025-05-22 05:37:40,142 - P17320 - INFO - Processando URL 14/22: https://www.saobernardo.sp.gov.br/documents/10181/865801/NM+2095+de+06.12.2019+-+Conteu%CC%81do+Integral.pdf/bcf707a3-ba7a-3b2b-7d5b-6e54bbcfec42
+2025-05-22 05:37:40,143 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/865801/NM+2095+de+06.12.2019+-+Conteu%CC%81do+Integral.pdf/bcf707a3-ba7a-3b2b-7d5b-6e54bbcfec42
+2025-05-22 05:37:40,144 - P17320 - INFO - Após processar URL 14 Uso de memória: 141.67 MB
+2025-05-22 05:37:40,145 - P17320 - INFO - Processando URL 15/22: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1569173245.pdf
+2025-05-22 05:37:40,148 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1569173245.pdf
+2025-05-22 05:37:40,149 - P17320 - INFO - Após processar URL 15 Uso de memória: 141.67 MB
+2025-05-22 05:37:40,149 - P17320 - INFO - Processando URL 16/22: https://www.juntacomercial.pr.gov.br/Pagina/Atos-Decisorios-Abril2022
+2025-05-22 05:37:44,303 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\4e9cdde1e87df858f7b398a3cd86ef1f.html
+2025-05-22 05:37:44,461 - P17320 - INFO - Candidates address: 132 items
+2025-05-22 05:37:44,486 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:37:44,489 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:37:44,490 - P17320 - INFO - Candidates complement: 15 items
+2025-05-22 05:37:44,491 - P17320 - INFO - Candidates cep: 128 items
+2025-05-22 05:37:44,492 - P17320 - INFO - Após processar URL 16 Uso de memória: 143.60 MB
+2025-05-22 05:37:44,494 - P17320 - INFO - Processando URL 17/22: https://www.doctoralia.com.br/psiquiatra/mogi-das-cruzes/vila-oliveira
+2025-05-22 05:37:44,494 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/mogi-das-cruzes/vila-oliveira
+2025-05-22 05:37:44,495 - P17320 - INFO - Após processar URL 17 Uso de memória: 141.78 MB
+2025-05-22 05:37:44,496 - P17320 - INFO - Processando URL 18/22: https://cadastroempresa.com.br/cnpj/45.110.515/0001-82-pamellasiqueira-atividades-medicas-ltda
+2025-05-22 05:37:47,317 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ac0d8bdd34d1f63ebde72e1d3c4e75bd.html
+2025-05-22 05:37:47,337 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:37:47,338 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:37:47,338 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:37:47,338 - P17320 - INFO - Candidates complement: 3 items
+2025-05-22 05:37:47,338 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 05:37:47,338 - P17320 - INFO - Após processar URL 18 Uso de memória: 141.78 MB
+2025-05-22 05:37:47,338 - P17320 - INFO - Processando URL 19/22: http://cnpj.info/Pamellasiqueira-Atividades-Medicas
+2025-05-22 05:37:52,560 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d1d453950f8f76ef8c2c469ae7ea1ab2.html
+2025-05-22 05:37:52,563 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:37:52,564 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:37:52,564 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:37:52,564 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 05:37:52,564 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 05:37:52,565 - P17320 - INFO - Após processar URL 19 Uso de memória: 141.77 MB
+2025-05-22 05:37:52,565 - P17320 - INFO - Processando URL 20/22: https://empresasweb.net/emp/pamellasiqueira-atividades-medicas-ltda-45110515
+2025-05-22 05:37:54,907 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\37ab926371196ba5d264621a2a4a0e60.html
+2025-05-22 05:37:54,919 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:37:54,919 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:37:54,919 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:37:54,920 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 05:37:54,920 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:37:54,920 - P17320 - INFO - Após processar URL 20 Uso de memória: 141.77 MB
+2025-05-22 05:37:54,920 - P17320 - INFO - Processando URL 21/22: https://www.doctoralia.com.br/psiquiatra/mogi-das-cruzes/centro116
+2025-05-22 05:37:54,920 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/mogi-das-cruzes/centro116
+2025-05-22 05:37:54,921 - P17320 - INFO - Após processar URL 21 Uso de memória: 141.77 MB
+2025-05-22 05:37:54,921 - P17320 - INFO - Processando URL 22/22: https://consultacrm.com.br/
+2025-05-22 05:37:59,174 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:37:59,192 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:37:59,192 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:37:59,193 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:37:59,193 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:37:59,193 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:37:59,193 - P17320 - INFO - Após processar URL 22 Uso de memória: 141.77 MB
+2025-05-22 05:37:59,193 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:37:59,193 - P17320 - INFO - Ranked address: 135 items
+2025-05-22 05:37:59,194 - P17320 - INFO - Ranked phone: 4 items
+2025-05-22 05:37:59,194 - P17320 - INFO - Ranked email: 3 items
+2025-05-22 05:37:59,194 - P17320 - INFO - Ranked complement: 22 items
+2025-05-22 05:37:59,194 - P17320 - INFO - Ranked cep: 133 items
+2025-05-22 05:37:59,194 - P17320 - INFO - Após agregação Uso de memória: 141.77 MB
+2025-05-22 05:37:59,194 - P17320 - INFO - Validando endereço: ['Avenida Francisco Rodrigues Filho, 2002', 'Rua Barão De Jaceguai, 650', 'Avenida Francisco Rodrigues Filho 2002 Apt 16 Vila Mogilar Mogi das Cruzes SP']
+2025-05-22 05:37:59,195 - P17320 - INFO - Endereço validado: Avenida Francisco Rodrigues Filho, 2002
+2025-05-22 05:37:59,195 - P17320 - INFO - Limpando texto extenso para campo address: Avenida Francisco Rodrigues Filho, 2002...
+2025-05-22 05:37:59,195 - P17320 - INFO - Texto limpo: Avenida Francisco Rodrigues Filho, 2002
+2025-05-22 05:37:59,195 - P17320 - INFO - Validando telefone: ['(15) 98102-2936', '(32) 98883-0013', '(11)4723-6565']
+2025-05-22 05:37:59,195 - P17320 - INFO - Limpando texto extenso para campo phone: (15) 98102-2936...
+2025-05-22 05:37:59,195 - P17320 - INFO - Texto limpo: 15) 98102-2936
+2025-05-22 05:37:59,195 - P17320 - INFO - Telefone validado: 15) 98102-2936
+2025-05-22 05:37:59,196 - P17320 - INFO - Validando email: ['pamellasiqueira13@hotmail.com', 'PAMELLASIQUEIRA13@HOTMAIL.COM', 'centromedicoleandro@hotmail.com']
+2025-05-22 05:37:59,196 - P17320 - INFO - Limpando texto extenso para campo email: pamellasiqueira13@hotmail.com...
+2025-05-22 05:37:59,196 - P17320 - INFO - Texto limpo: pamellasiqueira13@hotmail.com
+2025-05-22 05:37:59,196 - P17320 - INFO - Email validado: pamellasiqueira13@hotmail.com
+2025-05-22 05:37:59,196 - P17320 - INFO - Validando complemento: ['Apt   16  Vila Mogilar  Mogi das Cruzes SP  08773-380', 'Apt   16  Clique para copiar    Bairro:  Vila Mogilar', 'Apt   16 Vila Mogilar']
+2025-05-22 05:37:59,196 - P17320 - INFO - Limpando texto extenso para campo complement: Apt   16  Vila Mogilar  Mogi das Cruzes SP  08773-...
+2025-05-22 05:37:59,196 - P17320 - INFO - Texto limpo: Apt 16 Vila Mogilar Mogi d
+2025-05-22 05:37:59,197 - P17320 - INFO - Complemento validado: Apt 16 Vila Mogilar Mogi d
+2025-05-22 05:37:59,197 - P17320 - INFO - Descobrindo cidade
+2025-05-22 05:37:59,197 - P17320 - INFO - Buscando cidade: Avenida Francisco Rodrigues Filho cidade SP
+2025-05-22 05:38:01,840 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 05:38:01,840 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 05:38:01,841 - P17320 - INFO - Tempo de execução de processamento completo do médico: 80.67 segundos
+2025-05-22 05:38:01,841 - P17320 - INFO - Resultado processado: {'Hash': '3863fe5846c528ff1d66a7d5025d3cdb3da8b3df73c4f534dcc72cdc6dc87244', 'CRM': '224012', 'UF': 'SP', 'Firstname': 'PAMELLA', 'LastName': 'CHAGAS SIQUEIRA', 'Medical specialty': '', 'Endereco Completo A1': 'Avenida Francisco Rodrigues Filho, 2002', 'Address A1': 'Avenida Francisco Rodrigues Filho', 'Numero A1': '2002', 'Complement A1': 'Apt 16 Vila Mogilar Mogi d', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '15) 98102-2936', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'pamellasiqueira13@hotmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:38:01,843 - P17320 - INFO - Progresso: 93.5%
+2025-05-22 05:38:01,843 - P17320 - INFO - Executando coleta de lixo
+2025-05-22 05:38:01,891 - P17320 - INFO - Após coleta de lixo Uso de memória: 128.78 MB
+2025-05-22 05:38:01,917 - P17320 - INFO - Tempo de execução de processamento do médico 1: 82.22 segundos
+2025-05-22 05:38:01,918 - P17320 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 05:38:01,919 - P17320 - INFO - Nome: CLAUDIA PENA GALVAO DOS ANJOS
+2025-05-22 05:38:01,919 - P17320 - INFO - Início do processamento Uso de memória: 128.78 MB
+2025-05-22 05:38:01,919 - P17320 - INFO - Iniciando busca para: CLAUDIA PENA GALVAO DOS ANJOS CRM 224111 SP telefone e-mail endereço
+2025-05-22 05:38:02,939 - P17320 - INFO - SearX results: 14 URLs
+2025-05-22 05:38:02,939 - P17320 - INFO - Após SearX Uso de memória: 128.78 MB
+2025-05-22 05:38:05,409 - P17320 - INFO - Google results: 3 URLs
+2025-05-22 05:38:05,409 - P17320 - INFO - Após Google Uso de memória: 128.80 MB
+2025-05-22 05:38:07,857 - P17320 - INFO - Bing results: 9 URLs
+2025-05-22 05:38:07,857 - P17320 - INFO - Após Bing Uso de memória: 129.50 MB
+2025-05-22 05:38:07,857 - P17320 - INFO - Total de URLs únicas: 17
+2025-05-22 05:38:07,858 - P17320 - INFO - Processando URL 1/17: https://cnpj.biz/36879293000176
+2025-05-22 05:38:10,216 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\aa66fc48143e7ddc10316457a4ffb4d9.html
+2025-05-22 05:38:10,218 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:38:10,218 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:38:10,219 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:38:10,219 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:38:10,220 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:38:10,220 - P17320 - INFO - Após processar URL 1 Uso de memória: 129.50 MB
+2025-05-22 05:38:10,220 - P17320 - INFO - Processando URL 2/17: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1055880632.pdf
+2025-05-22 05:38:10,220 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1055880632.pdf
+2025-05-22 05:38:10,220 - P17320 - INFO - Após processar URL 2 Uso de memória: 129.50 MB
+2025-05-22 05:38:10,221 - P17320 - INFO - Processando URL 3/17: https://www.mpac.mp.br/wp-content/uploads/DO11282_09042014.pdf
+2025-05-22 05:38:10,221 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.mpac.mp.br/wp-content/uploads/DO11282_09042014.pdf
+2025-05-22 05:38:10,221 - P17320 - INFO - Após processar URL 3 Uso de memória: 129.50 MB
+2025-05-22 05:38:10,221 - P17320 - INFO - Processando URL 4/17: https://www.medicosbrasil.com/profissional/claudia-pena-galvao-dos-anjos
+2025-05-22 05:38:13,987 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\eda321bd5b31b2324ed61ee7fe370e96.html
+2025-05-22 05:38:14,014 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:38:14,014 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:38:14,014 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:38:14,016 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:38:14,016 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:38:14,017 - P17320 - INFO - Após processar URL 4 Uso de memória: 129.50 MB
+2025-05-22 05:38:14,017 - P17320 - INFO - Processando URL 5/17: https://aboutcompany.info/country/brazil/officer/907786/claudia-pena-galvao-dos-anjos/
+2025-05-22 05:38:18,503 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\87c22203a81c70f4808a7624a68cc792.html
+2025-05-22 05:38:18,516 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:38:18,517 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:38:18,517 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:38:18,517 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:38:18,518 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:38:18,518 - P17320 - INFO - Após processar URL 5 Uso de memória: 129.50 MB
+2025-05-22 05:38:18,519 - P17320 - INFO - Processando URL 6/17: https://consultasaj.tjam.jus.br/cdje/downloadCaderno.do?dtDiario=14/08/2008&cdCaderno=2
+2025-05-22 05:38:21,058 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\cda1010ae01c88d6841a8ea365f9e151.html
+2025-05-22 05:38:21,071 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:38:21,071 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:38:21,071 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:38:21,071 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:38:21,072 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:38:21,072 - P17320 - INFO - Após processar URL 6 Uso de memória: 129.50 MB
+2025-05-22 05:38:21,072 - P17320 - INFO - Processando URL 7/17: https://www.intermedicos.com.br/otorrinolaringologistas-em-belo-horizonte/claudia-pena-galvao-dos-anjos
+2025-05-22 05:38:25,722 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\2414544cb992ce7dfd9826cf85d241a2.html
+2025-05-22 05:38:25,738 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:38:25,738 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:38:25,738 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:38:25,738 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:38:25,739 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:38:25,739 - P17320 - INFO - Após processar URL 7 Uso de memória: 129.50 MB
+2025-05-22 05:38:25,739 - P17320 - INFO - Processando URL 8/17: https://www.escavador.com/sobre/3982528/claudia-pena-galvao-dos-anjos
+2025-05-22 05:38:29,431 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\89020ab422c1335250057a98fc771011.html
+2025-05-22 05:38:29,447 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:38:29,447 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:38:29,447 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:38:29,448 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:38:29,448 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:38:29,448 - P17320 - INFO - Após processar URL 8 Uso de memória: 129.50 MB
+2025-05-22 05:38:29,448 - P17320 - INFO - Processando URL 9/17: https://www.sociosbrasil.com/nome/claudia-pena-galvao-dos-anjos
+2025-05-22 05:38:34,266 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\2904d15c88bab78246f65e6a466f3419.html
+2025-05-22 05:38:34,272 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 05:38:34,272 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:38:34,272 - P17320 - INFO - Candidates email: 2 items
+2025-05-22 05:38:34,273 - P17320 - INFO - Candidates complement: 2 items
+2025-05-22 05:38:34,273 - P17320 - INFO - Candidates cep: 4 items
+2025-05-22 05:38:34,273 - P17320 - INFO - Após processar URL 9 Uso de memória: 129.50 MB
+2025-05-22 05:38:34,273 - P17320 - INFO - Processando URL 10/17: https://consultacrm.com.br/
+2025-05-22 05:38:37,899 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:38:37,911 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:38:37,911 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:38:37,911 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:38:37,912 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:38:37,912 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:38:37,912 - P17320 - INFO - Após processar URL 10 Uso de memória: 129.50 MB
+2025-05-22 05:38:37,912 - P17320 - INFO - Processando URL 11/17: https://guiamedico.cremesp.org.br/
+2025-05-22 05:38:50,013 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 05:38:50,018 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:38:50,019 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:38:50,019 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:38:50,019 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:38:50,019 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:38:50,019 - P17320 - INFO - Após processar URL 11 Uso de memória: 129.50 MB
+2025-05-22 05:38:50,019 - P17320 - INFO - Processando URL 12/17: http://www-storage.voxtecnologia.com.br/?m=sigpub.publicacao&f=4410&i=publicado_41720_2016-10-18_4aba23d9f98bf1e4e2a094967514581d.pdf
+2025-05-22 05:38:50,020 - P17320 - INFO - Ignorando URL de arquivo não-HTML: http://www-storage.voxtecnologia.com.br/?m=sigpub.publicacao&f=4410&i=publicado_41720_2016-10-18_4aba23d9f98bf1e4e2a094967514581d.pdf
+2025-05-22 05:38:50,020 - P17320 - INFO - Após processar URL 12 Uso de memória: 129.50 MB
+2025-05-22 05:38:50,020 - P17320 - INFO - Processando URL 13/17: https://consultasaj.tjam.jus.br/cdje/downloadCaderno.do?dtDiario=18/05/2009&cdCaderno=2
+2025-05-22 05:38:52,232 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\02c531a02b548b5e06a487b72d120e5f.html
+2025-05-22 05:38:52,241 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:38:52,241 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:38:52,241 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:38:52,242 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:38:52,242 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:38:52,243 - P17320 - INFO - Após processar URL 13 Uso de memória: 129.50 MB
+2025-05-22 05:38:52,245 - P17320 - INFO - Processando URL 14/17: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1569173245.pdf
+2025-05-22 05:38:52,246 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1569173245.pdf
+2025-05-22 05:38:52,246 - P17320 - INFO - Após processar URL 14 Uso de memória: 129.50 MB
+2025-05-22 05:38:52,247 - P17320 - INFO - Processando URL 15/17: https://listamedicos.com/medico/claudia-pena-galvao-dos-anjos
+2025-05-22 05:38:55,831 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9d36e5316529163ca52d07d2ec93a851.html
+2025-05-22 05:38:55,838 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:38:55,838 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:38:55,838 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:38:55,838 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:38:55,839 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 05:38:55,839 - P17320 - INFO - Após processar URL 15 Uso de memória: 129.50 MB
+2025-05-22 05:38:55,840 - P17320 - INFO - Processando URL 16/17: https://sistemadje.tjmt.jus.br/publicacoes/10102-2017%20C7%20Comarcas%20-%201%C2%AA%202%C2%AA%20e%203%C2%AA%20Entr%C3%A2ncia.pdf
+2025-05-22 05:38:55,840 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/10102-2017%20C7%20Comarcas%20-%201%C2%AA%202%C2%AA%20e%203%C2%AA%20Entr%C3%A2ncia.pdf
+2025-05-22 05:38:55,841 - P17320 - INFO - Após processar URL 16 Uso de memória: 129.50 MB
+2025-05-22 05:38:55,841 - P17320 - INFO - Processando URL 17/17: https://www.saobernardo.sp.gov.br/documents/10181/1018801/NM+2113+de+28.02.2020+-+Conteu%CC%81do+Integral.pdf/1139fb10-45d8-548b-8bc9-a1ee39ce37f5
+2025-05-22 05:38:55,841 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1018801/NM+2113+de+28.02.2020+-+Conteu%CC%81do+Integral.pdf/1139fb10-45d8-548b-8bc9-a1ee39ce37f5
+2025-05-22 05:38:55,842 - P17320 - INFO - Após processar URL 17 Uso de memória: 129.50 MB
+2025-05-22 05:38:55,842 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:38:55,842 - P17320 - INFO - Ranked address: 4 items
+2025-05-22 05:38:55,842 - P17320 - INFO - Ranked phone: 2 items
+2025-05-22 05:38:55,843 - P17320 - INFO - Ranked email: 2 items
+2025-05-22 05:38:55,843 - P17320 - INFO - Ranked complement: 2 items
+2025-05-22 05:38:55,843 - P17320 - INFO - Ranked cep: 7 items
+2025-05-22 05:38:55,843 - P17320 - INFO - Após agregação Uso de memória: 129.50 MB
+2025-05-22 05:38:55,843 - P17320 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'R. Levindo Lopes, 191', 'Rua Da Bahia, 2696']
+2025-05-22 05:38:55,844 - P17320 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 05:38:55,844 - P17320 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 05:38:55,844 - P17320 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 05:38:55,844 - P17320 - INFO - Validando telefone: ['(11) 4349-9900', '(31) 3228-0000']
+2025-05-22 05:38:55,844 - P17320 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 05:38:55,844 - P17320 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 05:38:55,845 - P17320 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 05:38:55,845 - P17320 - INFO - Validando email: ['CONTABIL@HNCONTABIL.COM.BR', 'JOAO@JHMEMPREENDIMENTOS.COM.BR']
+2025-05-22 05:38:55,845 - P17320 - INFO - Limpando texto extenso para campo email: CONTABIL@HNCONTABIL.COM.BR...
+2025-05-22 05:38:55,845 - P17320 - INFO - Texto limpo: contabil@hncontabil.com.br
+2025-05-22 05:38:55,846 - P17320 - INFO - Email validado: contabil@hncontabil.com.br
+2025-05-22 05:38:55,847 - P17320 - INFO - Validando complemento: ['Sala  701                 Pavmto7 Lourdes', 'Sala  1102 Lourdes']
+2025-05-22 05:38:55,847 - P17320 - INFO - Limpando texto extenso para campo complement: Sala  701                 Pavmto7 Lourdes...
+2025-05-22 05:38:55,848 - P17320 - INFO - Texto limpo: Sala 701 Pavm
+2025-05-22 05:38:55,848 - P17320 - INFO - Complemento validado: Sala 701 Pavm
+2025-05-22 05:38:55,848 - P17320 - INFO - Descobrindo cidade
+2025-05-22 05:38:55,849 - P17320 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 05:38:58,500 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 05:38:58,501 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 05:38:58,501 - P17320 - INFO - Tempo de execução de processamento completo do médico: 56.58 segundos
+2025-05-22 05:38:58,502 - P17320 - INFO - Resultado processado: {'Hash': 'a0cd33e26b4b2de9fa24ce7dd74e7ebe6788ac6f1112579e2cadf169bf590904', 'CRM': '224111', 'UF': 'SP', 'Firstname': 'CLAUDIA', 'LastName': 'PENA GALVAO DOS ANJOS', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Sala 701 Pavm', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'contabil@hncontabil.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:38:58,503 - P17320 - INFO - Progresso: 93.8%
+2025-05-22 05:38:58,503 - P17320 - INFO - Tempo de execução de processamento do médico 2: 56.58 segundos
+2025-05-22 05:38:58,503 - P17320 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 05:38:58,504 - P17320 - INFO - Nome: LEONARDO BARALDI LABEGALINI
+2025-05-22 05:38:58,504 - P17320 - INFO - Início do processamento Uso de memória: 128.96 MB
+2025-05-22 05:38:58,504 - P17320 - INFO - Iniciando busca para: LEONARDO BARALDI LABEGALINI CRM 225141 SP telefone e-mail endereço
+2025-05-22 05:38:59,311 - P17320 - INFO - SearX results: 12 URLs
+2025-05-22 05:38:59,311 - P17320 - INFO - Após SearX Uso de memória: 128.96 MB
+2025-05-22 05:39:02,021 - P17320 - INFO - Google results: 0 URLs
+2025-05-22 05:39:02,022 - P17320 - INFO - Após Google Uso de memória: 128.96 MB
+2025-05-22 05:39:04,434 - P17320 - INFO - Bing results: 9 URLs
+2025-05-22 05:39:04,435 - P17320 - INFO - Após Bing Uso de memória: 130.23 MB
+2025-05-22 05:39:04,435 - P17320 - INFO - Total de URLs únicas: 14
+2025-05-22 05:39:04,435 - P17320 - INFO - Processando URL 1/14: https://inteligen.com.br/socio/leonardo-baraldi-labegalini-697628
+2025-05-22 05:39:08,146 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e9a7e6f5a9910475ab6129014b8218a0.html
+2025-05-22 05:39:08,151 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:39:08,152 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:39:08,152 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:39:08,152 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:39:08,152 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:39:08,152 - P17320 - INFO - Após processar URL 1 Uso de memória: 130.23 MB
+2025-05-22 05:39:08,153 - P17320 - INFO - Processando URL 2/14: https://cnpj.biz/07053843000103
+2025-05-22 05:39:10,276 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\0abbe67436f4d544749ac24d5bbb61c5.html
+2025-05-22 05:39:10,278 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:39:10,279 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:39:10,279 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:39:10,279 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:39:10,279 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:39:10,279 - P17320 - INFO - Após processar URL 2 Uso de memória: 130.23 MB
+2025-05-22 05:39:10,279 - P17320 - INFO - Processando URL 3/14: http://cremesp.org.br/
+2025-05-22 05:39:19,311 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\2a967318246f9658edeb1e0469c871fe.html
+2025-05-22 05:39:19,336 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:39:19,336 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:39:19,337 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:39:19,337 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:39:19,337 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 05:39:19,337 - P17320 - INFO - Após processar URL 3 Uso de memória: 130.23 MB
+2025-05-22 05:39:19,337 - P17320 - INFO - Processando URL 4/14: https://cnpj.biz/53174705000191
+2025-05-22 05:39:21,452 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\a2f4a3f1325de62f609b3940b8e82394.html
+2025-05-22 05:39:21,454 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:39:21,454 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:39:21,455 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:39:21,455 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:39:21,455 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:39:21,455 - P17320 - INFO - Após processar URL 4 Uso de memória: 130.23 MB
+2025-05-22 05:39:21,455 - P17320 - INFO - Processando URL 5/14: http://cremesp.org.br/?siteAcao=CertidaoPublica
+2025-05-22 05:39:24,206 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\a3e3c749d4f541c62d159f5973f385ec.html
+2025-05-22 05:39:24,223 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:39:24,223 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:39:24,223 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:39:24,224 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:39:24,224 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:39:24,224 - P17320 - INFO - Após processar URL 5 Uso de memória: 130.24 MB
+2025-05-22 05:39:24,224 - P17320 - INFO - Processando URL 6/14: https://cnpj.biz/11774637000151
+2025-05-22 05:39:26,361 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\77ef92ba973b8dddba408f82d25ae448.html
+2025-05-22 05:39:26,364 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:39:26,364 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:39:26,364 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:39:26,365 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:39:26,365 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:39:26,365 - P17320 - INFO - Após processar URL 6 Uso de memória: 130.24 MB
+2025-05-22 05:39:26,365 - P17320 - INFO - Processando URL 7/14: https://www.econodata.com.br/consulta-empresa/46651186000140-LABEGALINI-SERVICOS-MEDICOS-LTDA
+2025-05-22 05:39:31,259 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\a2c44a85d6aacf1064e0f8ce98dbc0c0.html
+2025-05-22 05:39:31,401 - P17320 - INFO - Candidates address: 26 items
+2025-05-22 05:39:31,401 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:39:31,401 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:39:31,401 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:39:31,401 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:39:31,402 - P17320 - INFO - Após processar URL 7 Uso de memória: 131.26 MB
+2025-05-22 05:39:31,402 - P17320 - INFO - Processando URL 8/14: https://guiamedico.cremesp.org.br/
+2025-05-22 05:39:34,017 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 05:39:34,023 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:39:34,023 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:39:34,024 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:39:34,024 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:39:34,024 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:39:34,024 - P17320 - INFO - Após processar URL 8 Uso de memória: 130.44 MB
+2025-05-22 05:39:34,024 - P17320 - INFO - Processando URL 9/14: https://cnpj.biz/57788811000116
+2025-05-22 05:39:36,159 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\0028f4ff9615018123640603ebf361ae.html
+2025-05-22 05:39:36,161 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:39:36,162 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:39:36,162 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:39:36,162 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:39:36,162 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:39:36,162 - P17320 - INFO - Após processar URL 9 Uso de memória: 130.44 MB
+2025-05-22 05:39:36,162 - P17320 - INFO - Processando URL 10/14: https://www.escavador.com/sobre/1902403349/leonardo-baraldi-labegalini
+2025-05-22 05:39:39,319 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\21dd89e780b2d2e9cbe884a1c5a9056e.html
+2025-05-22 05:39:39,335 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:39:39,335 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:39:39,335 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:39:39,335 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:39:39,335 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:39:39,336 - P17320 - INFO - Após processar URL 10 Uso de memória: 130.44 MB
+2025-05-22 05:39:39,336 - P17320 - INFO - Processando URL 11/14: http://www.leonardobaraldi.com.br/contato/
+2025-05-22 05:39:39,567 - P17320 - ERROR - Erro ao baixar HTML de http://www.leonardobaraldi.com.br/contato/: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7574059F4]
+	(No symbol) [0x00007FF7573F6789]
+	(No symbol) [0x00007FF7573F84F8]
+	(No symbol) [0x00007FF7573F6A96]
+	(No symbol) [0x00007FF7573F6516]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F465C]
+	(No symbol) [0x00007FF75740CF3A]
+	(No symbol) [0x00007FF7574B013E]
+	(No symbol) [0x00007FF75748737A]
+	(No symbol) [0x00007FF7574AF39C]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 05:39:39,569 - P17320 - INFO - Após processar URL 11 Uso de memória: 130.44 MB
+2025-05-22 05:39:39,569 - P17320 - INFO - Processando URL 12/14: https://empresasweb.net/emp/ab-labegalini-servicos-medicos-ltda-53174705
+2025-05-22 05:39:42,618 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\fefa3ce503f329f918a591f3746afa75.html
+2025-05-22 05:39:42,630 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:39:42,630 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:39:42,631 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:39:42,631 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 05:39:42,631 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:39:42,632 - P17320 - INFO - Após processar URL 12 Uso de memória: 130.45 MB
+2025-05-22 05:39:42,632 - P17320 - INFO - Processando URL 13/14: https://consultacrm.com.br/
+2025-05-22 05:39:46,660 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:39:46,671 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:39:46,671 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:39:46,671 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:39:46,671 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:39:46,672 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:39:46,672 - P17320 - INFO - Após processar URL 13 Uso de memória: 130.45 MB
+2025-05-22 05:39:46,672 - P17320 - INFO - Processando URL 14/14: https://cnpj.biz/07893632000170
+2025-05-22 05:39:49,001 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d2220759137b410842a6add45bcb5119.html
+2025-05-22 05:39:49,004 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:39:49,004 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:39:49,005 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:39:49,005 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:39:49,006 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:39:49,006 - P17320 - INFO - Após processar URL 14 Uso de memória: 130.45 MB
+2025-05-22 05:39:49,006 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:39:49,007 - P17320 - INFO - Ranked address: 27 items
+2025-05-22 05:39:49,008 - P17320 - INFO - Ranked phone: 2 items
+2025-05-22 05:39:49,008 - P17320 - INFO - Ranked email: 1 items
+2025-05-22 05:39:49,009 - P17320 - INFO - Ranked complement: 1 items
+2025-05-22 05:39:49,010 - P17320 - INFO - Ranked cep: 4 items
+2025-05-22 05:39:49,011 - P17320 - INFO - Após agregação Uso de memória: 130.45 MB
+2025-05-22 05:39:49,012 - P17320 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Rua Santo Bassan, 217', 'Rua Maria Antonia, 100']
+2025-05-22 05:39:49,013 - P17320 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 05:39:49,014 - P17320 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 05:39:49,015 - P17320 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 05:39:49,015 - P17320 - INFO - Validando telefone: ['(11) 4349-9900', '+551636232373']
+2025-05-22 05:39:49,016 - P17320 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 05:39:49,016 - P17320 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 05:39:49,017 - P17320 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 05:39:49,017 - P17320 - INFO - Validando email: ['SOCIETARIO@GRUPOMSCONTABILIDADE.COM.BR']
+2025-05-22 05:39:49,017 - P17320 - INFO - Limpando texto extenso para campo email: SOCIETARIO@GRUPOMSCONTABILIDADE.COM.BR...
+2025-05-22 05:39:49,018 - P17320 - INFO - Texto limpo: societario@grupomscontabilidade.com.br
+2025-05-22 05:39:49,018 - P17320 - INFO - Email validado: societario@grupomscontabilidade.com.br
+2025-05-22 05:39:49,018 - P17320 - INFO - Validando complemento: ['Apt 32']
+2025-05-22 05:39:49,018 - P17320 - INFO - Limpando texto extenso para campo complement: Apt 32...
+2025-05-22 05:39:49,018 - P17320 - INFO - Texto limpo: Apt 32
+2025-05-22 05:39:49,053 - P17320 - INFO - Complemento validado: Apt 32
+2025-05-22 05:39:49,056 - P17320 - INFO - Descobrindo cidade
+2025-05-22 05:39:49,057 - P17320 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 05:39:51,944 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 05:39:51,944 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 05:39:51,945 - P17320 - INFO - Tempo de execução de processamento completo do médico: 53.44 segundos
+2025-05-22 05:39:51,945 - P17320 - INFO - Resultado processado: {'Hash': '7ff10bb6a2def221537de1eebc72851fd99da4e99c127a98b5bda8e3e530e2b2', 'CRM': '225141', 'UF': 'SP', 'Firstname': 'LEONARDO', 'LastName': 'BARALDI LABEGALINI', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Apt 32', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'societario@grupomscontabilidade.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:39:51,945 - P17320 - INFO - Salvando lote de resultados
+2025-05-22 05:39:51,946 - P17320 - INFO - Após salvar resultados Uso de memória: 129.76 MB
+2025-05-22 05:39:51,946 - P17320 - INFO - Progresso: 94.1%
+2025-05-22 05:39:51,947 - P17320 - INFO - Tempo de execução de processamento do médico 3: 53.44 segundos
+2025-05-22 05:39:51,947 - P17320 - INFO - Tempo de execução de processamento do lote completo: 192.25 segundos

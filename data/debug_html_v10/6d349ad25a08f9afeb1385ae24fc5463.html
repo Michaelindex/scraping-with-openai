@@ -1,0 +1,964 @@
+<html lang="pt-BR"><head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.v="1.2.3",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",t=>{this.persisted=t.persisted}),window.addEventListener("DOMContentLoaded",()=>{this._preconnect3rdParties()}),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}_addUserInteractionListener(t){if(document.hidden){t._triggerListener();return}this.triggerEvents.forEach(e=>window.addEventListener(e,t.userEventHandler,{passive:!0})),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler)}_removeUserInteractionListener(){this.triggerEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!0})),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"onclick","rocket-onclick"),this._pendingClickStarted())}_onTouchMove(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"rocket-onclick","onclick"),this._pendingClickFinished()}_onTouchEnd(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(t){t.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this._pendingClickFinished()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach(t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))})}_waitForPendingClicks(){return new Promise(t=>{this._isClickPending?this._pendingClickFinished=t:t()})}_pendingClickStarted(){this._isClickPending=!0}_pendingClickFinished(){this._isClickPending=!1}_renameDOMAttribute(t,e,r){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(r,event.target.getAttribute(e)),event.target.removeAttribute(e))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(e=>{if(e.hasAttribute("src")){let r=new URL(e.src).origin;r!==location.origin&&t.push({src:r,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this._batchInjectResourceHints(t,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(this),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._waitForPendingClicks().then(()=>{this._replayClicks()}),this._emptyTrash()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _transformScript(t){return new Promise((await this._littleBreath(),navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor)?e=>{let r=document.createElement("script");[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),r.setAttribute(e,t.nodeValue))}),t.text&&(r.text=t.text),r.hasAttribute("src")?(r.addEventListener("load",e),r.addEventListener("error",e)):(r.text=t.text,e());try{t.parentNode.replaceChild(r,t)}catch(i){e()}}:async e=>{function r(){t.setAttribute("data-rocket-status","failed"),e()}try{let i=t.getAttribute("data-rocket-type"),n=t.getAttribute("data-rocket-src");t.text,i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",function r(){t.setAttribute("data-rocket-status","executed"),e()}),t.addEventListener("error",r),n?(t.removeAttribute("data-rocket-src"),t.src=n):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}catch(s){r()}})}async _loadScriptsFromList(t){let e=t.shift();return e&&e.isConnected?(await this._transformScript(e),this._loadScriptsFromList(t)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(t,e){var r=document.createDocumentFragment();t.forEach(t=>{let i=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(i){let n=document.createElement("link");n.href=i,n.rel=e,"preconnect"!==e&&(n.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),r.appendChild(n),this.trash.push(n)}}),document.head.appendChild(r)}_delayEventListeners(t){let e={};function r(t,r){!function t(r){!e[r]&&(e[r]={originalFunctions:{add:r.addEventListener,remove:r.removeEventListener},eventsToRewrite:[]},r.addEventListener=function(){arguments[0]=i(arguments[0]),e[r].originalFunctions.add.apply(r,arguments)},r.removeEventListener=function(){arguments[0]=i(arguments[0]),e[r].originalFunctions.remove.apply(r,arguments)});function i(t){return e[r].eventsToRewrite.indexOf(t)>=0?"rocket-"+t:t}}(t),e[t].eventsToRewrite.push(r)}function i(t,e){let r=t[e];Object.defineProperty(t,e,{get:()=>r||function(){},set(i){t["rocket"+e]=r=i}})}r(document,"DOMContentLoaded"),r(window,"DOMContentLoaded"),r(window,"load"),r(window,"pageshow"),r(document,"readystatechange"),i(document,"onreadystatechange"),i(window,"onload"),i(window,"onpageshow")}_delayJQueryReady(t){let e;function r(r){if(r&&r.fn&&!t.allJQueries.includes(r)){r.fn.ready=r.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(r):document.addEventListener("rocket-DOMContentLoaded",()=>e.bind(document)(r)),r([])};let i=r.fn.on;r.fn.on=r.fn.init.prototype.on=function(){if(this[0]===window){function t(t){return t.split(" ").map(t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=t(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(e=>{let r=arguments[0][e];delete arguments[0][e],arguments[0][t(e)]=r})}return i.apply(this,arguments),this},t.allJQueries.push(r)}e=r}r(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){r(t)}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this._littleBreath();let t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){let t=new Map;document.write=document.writeln=function(e){let r=document.currentScript;r||console.error("WPRocket unable to document.write this: "+e);let i=document.createRange(),n=r.parentElement,s=t.get(r);void 0===s&&(s=r.nextSibling,t.set(r,s));let a=document.createDocumentFragment();i.setStart(a,0),a.appendChild(i.createContextualFragment(e)),n.insertBefore(a,s)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}_emptyTrash(){this.trash.forEach(t=>t.remove())}static run(){let t=new RocketLazyLoadScripts;t._addUserInteractionListener(t)}}RocketLazyLoadScripts.run();</script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<title>Dra. Priscila Celles - Ginecologista e Rejuvenescimento Íntimo</title><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Lato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CAbril%20Fatface%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CAbril%20Fatface%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap" media="all" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CAbril%20Fatface%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap" /></noscript><link rel="stylesheet" href="https://drapriscilacelles.com.br/wp-content/cache/min/1/0fae3d88a6577d3d4cc34fced4b0f210.css" media="all" data-minify="1">
+<meta name="robots" content="max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link href="https://fonts.gstatic.com" crossorigin="" rel="preconnect">
+<style id="joinchat-button-style-inline-css">
+.wp-block-joinchat-button{border:none!important;text-align:center}.wp-block-joinchat-button figure{display:table;margin:0 auto;padding:0}.wp-block-joinchat-button figcaption{font:normal normal 400 .6em/2em var(--wp--preset--font-family--system-font,sans-serif);margin:0;padding:0}.wp-block-joinchat-button .joinchat-button__qr{background-color:#fff;border:6px solid #25d366;border-radius:30px;box-sizing:content-box;display:block;height:200px;margin:auto;overflow:hidden;padding:10px;width:200px}.wp-block-joinchat-button .joinchat-button__qr canvas,.wp-block-joinchat-button .joinchat-button__qr img{display:block;margin:auto}.wp-block-joinchat-button .joinchat-button__link{align-items:center;background-color:#25d366;border:6px solid #25d366;border-radius:30px;display:inline-flex;flex-flow:row nowrap;justify-content:center;line-height:1.25em;margin:0 auto;text-decoration:none}.wp-block-joinchat-button .joinchat-button__link:before{background:transparent var(--joinchat-ico) no-repeat center;background-size:100%;content:"";display:block;height:1.5em;margin:-.75em .75em -.75em 0;width:1.5em}.wp-block-joinchat-button figure+.joinchat-button__link{margin-top:10px}@media (orientation:landscape)and (min-height:481px),(orientation:portrait)and (min-width:481px){.wp-block-joinchat-button.joinchat-button--qr-only figure+.joinchat-button__link{display:none}}@media (max-width:480px),(orientation:landscape)and (max-height:480px){.wp-block-joinchat-button figure{display:none}}
+
+</style>
+
+
+
+
+
+<link rel="stylesheet" id="elementor-frontend-css" href="https://drapriscilacelles.com.br/wp-content/uploads/elementor/css/custom-frontend-lite.min.css?ver=1707329656" media="all">
+
+<link rel="stylesheet" id="elementor-post-12-css" href="https://drapriscilacelles.com.br/wp-content/uploads/elementor/css/post-12.css?ver=1707329653" media="all">
+<link rel="stylesheet" id="elementor-pro-css" href="https://drapriscilacelles.com.br/wp-content/uploads/elementor/css/custom-pro-frontend-lite.min.css?ver=1707329659" media="all">
+
+
+
+<link rel="stylesheet" id="elementor-global-css" href="https://drapriscilacelles.com.br/wp-content/uploads/elementor/css/global.css?ver=1707329657" media="all">
+<link rel="stylesheet" id="elementor-post-10-css" href="https://drapriscilacelles.com.br/wp-content/uploads/elementor/css/post-10.css?ver=1710942237" media="all">
+<link rel="stylesheet" id="elementor-post-90-css" href="https://drapriscilacelles.com.br/wp-content/uploads/elementor/css/post-90.css?ver=1707329654" media="all">
+<link rel="stylesheet" id="elementor-post-241-css" href="https://drapriscilacelles.com.br/wp-content/uploads/elementor/css/post-241.css?ver=1707329654" media="all">
+
+<style id="joinchat-inline-css">
+.joinchat{--red:37;--green:211;--blue:102;--bw:100}
+</style>
+
+<link rel="stylesheet" id="elementor-post-145-css" href="https://drapriscilacelles.com.br/wp-content/uploads/elementor/css/post-145.css?ver=1654264417" media="all">
+<link rel="stylesheet" id="elementor-post-180-css" href="https://drapriscilacelles.com.br/wp-content/uploads/elementor/css/post-180.css?ver=1710930344" media="all">
+<style id="rocket-lazyload-inline-css">
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://drapriscilacelles.com.br/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}
+</style>
+
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><script type="rocketlazyloadscript" data-rocket-src="https://drapriscilacelles.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://drapriscilacelles.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" defer=""></script>
+<script id="cookie-law-info-js-extra">
+var Cli_Data = {"nn_cookie_ids":[],"cookielist":[],"non_necessary_cookies":[],"ccpaEnabled":"","ccpaRegionBased":"","ccpaBarEnabled":"","strictlyEnabled":["necessary","obligatoire"],"ccpaType":"gdpr","js_blocking":"","custom_integration":"","triggerDomRefresh":"","secure_cookies":""};
+var cli_cookiebar_settings = {"animate_speed_hide":"500","animate_speed_show":"500","background":"#FFF","border":"#b1a6a6c2","border_on":"","button_1_button_colour":"#000","button_1_button_hover":"#000000","button_1_link_colour":"#fff","button_1_as_button":"1","button_1_new_win":"","button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#444","button_2_as_button":"","button_2_hidebar":"","button_3_button_colour":"#000","button_3_button_hover":"#000000","button_3_link_colour":"#fff","button_3_as_button":"1","button_3_new_win":"","button_4_button_colour":"#000","button_4_button_hover":"#000000","button_4_link_colour":"#db5755","button_4_as_button":"","button_7_button_colour":"#db5755","button_7_button_hover":"#af4644","button_7_link_colour":"#fff","button_7_as_button":"1","button_7_new_win":"","font_family":"inherit","header_fix":"","notify_animate_hide":"1","notify_animate_show":"1","notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"left","notify_position_vertical":"bottom","scroll_close":"","scroll_close_reload":"","accept_close_reload":"","reject_close_reload":"","showagain_tab":"","showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#000","show_once_yn":"","show_once":"10000","logging_on":"","as_popup":"","popup_overlay":"","bar_heading_text":"","cookie_bar_as":"widget","popup_showagain_position":"bottom-right","widget_position":"left"};
+var log_object = {"ajax_url":"https:\/\/drapriscilacelles.com.br\/wp-admin\/admin-ajax.php"};
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://drapriscilacelles.com.br/wp-content/cache/min/1/wp-content/plugins/cookie-law-info/legacy/public/js/cookie-law-info-public.js?ver=1725971435" id="cookie-law-info-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://drapriscilacelles.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.23.4" id="font-awesome-4-shim-js" defer=""></script>
+<script id="ecs_ajax_load-js-extra">
+var ecs_ajax_params = {"ajaxurl":"https:\/\/drapriscilacelles.com.br\/wp-admin\/admin-ajax.php","posts":"{\"error\":\"\",\"m\":\"\",\"p\":\"10\",\"post_parent\":\"\",\"subpost\":\"\",\"subpost_id\":\"\",\"attachment\":\"\",\"attachment_id\":0,\"name\":\"\",\"pagename\":\"\",\"page_id\":\"10\",\"second\":\"\",\"minute\":\"\",\"hour\":\"\",\"day\":0,\"monthnum\":0,\"year\":0,\"w\":0,\"category_name\":\"\",\"tag\":\"\",\"cat\":\"\",\"tag_id\":\"\",\"author\":\"\",\"author_name\":\"\",\"feed\":\"\",\"tb\":\"\",\"paged\":0,\"meta_key\":\"\",\"meta_value\":\"\",\"preview\":\"\",\"s\":\"\",\"sentence\":\"\",\"title\":\"\",\"fields\":\"\",\"menu_order\":\"\",\"embed\":\"\",\"category__in\":[],\"category__not_in\":[],\"category__and\":[],\"post__in\":[],\"post__not_in\":[],\"post_name__in\":[],\"tag__in\":[],\"tag__not_in\":[],\"tag__and\":[],\"tag_slug__in\":[],\"tag_slug__and\":[],\"post_parent__in\":[],\"post_parent__not_in\":[],\"author__in\":[],\"author__not_in\":[],\"search_columns\":[],\"orderby\":\"menu_order\",\"order\":\"ASC\",\"ignore_sticky_posts\":false,\"suppress_filters\":false,\"cache_results\":true,\"update_post_term_cache\":true,\"update_menu_item_cache\":false,\"lazy_load_term_meta\":true,\"update_post_meta_cache\":true,\"post_type\":\"\",\"posts_per_page\":10,\"nopaging\":false,\"comments_per_page\":\"50\",\"no_found_rows\":false}"};
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://drapriscilacelles.com.br/wp-content/cache/min/1/wp-content/plugins/ele-custom-skin/assets/js/ecs_ajax_pagination.js?ver=1725971435" id="ecs_ajax_load-js" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://drapriscilacelles.com.br/wp-content/cache/min/1/wp-content/plugins/ele-custom-skin/assets/js/ecs.js?ver=1725971435" id="ecs-script-js" defer=""></script>
+<link rel="https://api.w.org/" href="https://drapriscilacelles.com.br/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://drapriscilacelles.com.br/wp-json/wp/v2/pages/10"><link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://drapriscilacelles.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdrapriscilacelles.com.br%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://drapriscilacelles.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdrapriscilacelles.com.br%2F&amp;format=xml">
+<!-- browser-theme-color for WordPress --><meta name="theme-color" content="#c98381"><meta name="msapplication-navbutton-color" content="#c98381"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><link rel="apple-touch-icon" sizes="180x180" href="/wp-content/uploads/fbrfg/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/wp-content/uploads/fbrfg/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/wp-content/uploads/fbrfg/favicon-16x16.png">
+<link rel="manifest" href="/wp-content/uploads/fbrfg/site.webmanifest">
+<link rel="mask-icon" href="/wp-content/uploads/fbrfg/safari-pinned-tab.svg" color="#c17a78">
+<link rel="shortcut icon" href="/wp-content/uploads/fbrfg/favicon.ico">
+<meta name="msapplication-TileColor" content="#c17a78">
+<meta name="msapplication-config" content="/wp-content/uploads/fbrfg/browserconfig.xml">
+<meta name="theme-color" content="#c17a78"><meta name="generator" content="Elementor 3.23.4; features: e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints, e_lazyload; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<!-- Google Tag Manager -->
+<script type="rocketlazyloadscript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NH7H8QV');</script>
+<!-- End Google Tag Manager -->
+<link rel="canonical" href="https://drapriscilacelles.com.br/">
+<meta name="description" content="Com conhecimento e tecnologia nós te ajudamos a se redescobrir. A ginecologia e obstetrícia me ensinam diariamente que é possível ajudar mulheres a se descobrirem, se realizarem e terem mais qualidade de vida.">
+<meta property="og:title" content="Dra. Priscila Celles - Ginecologista e Rejuvenescimento Íntimo">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://drapriscilacelles.com.br/wp-content/uploads/2022/05/Equipe-Priscila-Celles.jpg">
+<meta property="og:image:width" content="1000">
+<meta property="og:image:height" content="667">
+<meta property="og:image:alt" content="Equipe Priscila Celles">
+<meta property="og:description" content="Com conhecimento e tecnologia nós te ajudamos a se redescobrir. A ginecologia e obstetrícia me ensinam diariamente que é possível ajudar mulheres a se descobrirem, se realizarem e terem mais qualidade de vida.">
+<meta property="og:url" content="https://drapriscilacelles.com.br/">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Dra. Priscila Celles - Ginecologista e Rejuvenescimento Íntimo">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://drapriscilacelles.com.br/wp-content/uploads/2022/05/Equipe-Priscila-Celles.jpg">
+<meta name="author" content="Nuna">
+<meta name="date" content="2021-04-28T16:52:09+00:00">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+<body class="home page-template page-template-elementor_header_footer page page-id-10 elementor-default elementor-template-full-width elementor-kit-12 elementor-page elementor-page-10">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NH7H8QV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<a class="skip-link screen-reader-text" href="#content">Ir para o conteúdo</a>
+
+		<div data-elementor-type="header" data-elementor-id="90" class="elementor elementor-90 elementor-location-header" data-elementor-post-type="elementor_library">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-f933f5f elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="f933f5f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6c523b9" data-id="6c523b9" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-2d12489 elementor-icon-list--layout-inline elementor-align-left e-transform elementor-list-item-link-full_width ob-has-background-overlay ob-got-stalker elementor-widget elementor-widget-icon-list animated fadeInDown" data-id="2d12489" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;yes&quot;,&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.1,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_widescreen&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://drapriscilacelles.com.br/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css?ver=1707329658">		<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://www.instagram.com/drapriscilacelles/" target="_blank">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>						</span>
+										<span class="elementor-icon-list-text"></span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://www.facebook.com/drapriscilacelles/" target="_blank">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fab-facebook-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path></svg>						</span>
+										<span class="elementor-icon-list-text"></span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-17ae3f5 elementor-mobile-align-center elementor-tablet_extra-align-left dc-has-condition dc-condition-empty elementor-icon-list--layout-traditional elementor-list-item-link-full_width ob-has-background-overlay ob-got-stalker elementor-widget elementor-widget-icon-list animated fadeInDown" data-id="17ae3f5" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;yes&quot;,&quot;_animation_delay&quot;:300,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://goo.gl/maps/GCzEHVH5LBdsSNmU9" target="_blank">
+
+												<span class="elementor-icon-list-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 253.03 323.79"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M126.59,0C222.81-.07,281.47,101.1,239,188.45,215.27,241.57,174.6,284.94,130.51,322c-2.85,2.36-4.74,2.44-7.63,0C69.87,276.49,16.67,220.69,2.45,149.92-13.27,73.82,48.9-1.22,126.59,0Zm-.26,66.69c-33.69,1-59.3,26.63-59.19,59.76,2.11,79.33,117.16,78.34,119.05.44C186.33,92.32,159.69,67.29,126.33,66.7Z"></path></g></g></svg>						</span>
+										<span class="elementor-icon-list-text">R. Petit Carneiro, 414 - Água Verde</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-91f5da6 elementor-mobile-align-center elementor-tablet_extra-align-center dc-has-condition dc-condition-empty elementor-icon-list--layout-traditional elementor-list-item-link-full_width ob-has-background-overlay ob-got-stalker elementor-widget elementor-widget-icon-list animated fadeInDown" data-id="91f5da6" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;yes&quot;,&quot;_animation_delay&quot;:300,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://goo.gl/maps/kAthBz8vhExdFDDw5" target="_blank">
+
+												<span class="elementor-icon-list-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 253.03 323.79"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M126.59,0C222.81-.07,281.47,101.1,239,188.45,215.27,241.57,174.6,284.94,130.51,322c-2.85,2.36-4.74,2.44-7.63,0C69.87,276.49,16.67,220.69,2.45,149.92-13.27,73.82,48.9-1.22,126.59,0Zm-.26,66.69c-33.69,1-59.3,26.63-59.19,59.76,2.11,79.33,117.16,78.34,119.05.44C186.33,92.32,159.69,67.29,126.33,66.7Z"></path></g></g></svg>						</span>
+										<span class="elementor-icon-list-text">R. Dr. Alexandre Gutierrez, 826 - Água Verde</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+		<!-- hidden widget 10-3d5e3cc -->		<div class="elementor-element elementor-element-b8c904a elementor-tablet_extra-align-right elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width ob-has-background-overlay ob-got-stalker elementor-widget elementor-widget-icon-list animated fadeInDown" data-id="b8c904a" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;yes&quot;,&quot;_animation_delay&quot;:300,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://wa.me/554130265854?text=Visitei%20o%20seu%20site%20e%20gostaria%20de%20entrar%20em%20contato." target="_blank">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fab-whatsapp" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Fale conosco: (41) 3026-5854</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-70c12e1 elementor-fixed dc-has-condition dc-condition-equal ob-has-background-overlay elementor-widget elementor-widget-menu-anchor" data-id="70c12e1" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;fixed&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+body.elementor-page .elementor-widget-menu-anchor{margin-bottom:0}</style>		<div class="elementor-menu-anchor" id="home"></div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4b1913f elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="4b1913f" data-element_type="section" data-settings="{&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d15ff35" data-id="d15ff35" data-element_type="column" data-settings="{&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-88f048d ob-has-background-overlay ob-got-stalker elementor-widget elementor-widget-image" data-id="88f048d" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;yes&quot;,&quot;_ob_photomorph_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>											<a href="https://drapriscilacelles.com.br/#home">
+							<img width="487" height="73" src="https://drapriscilacelles.com.br/wp-content/uploads/2022/05/Priscila-Celles-Logo-1.svg" class="attachment-large size-large wp-image-117 entered lazyloading" alt="Priscila Celles Logo 1" data-lazy-src="https://drapriscilacelles.com.br/wp-content/uploads/2022/05/Priscila-Celles-Logo-1.svg" data-ll-status="loading"><noscript><img width="487" height="73" src="https://drapriscilacelles.com.br/wp-content/uploads/2022/05/Priscila-Celles-Logo-1.svg" class="attachment-large size-large wp-image-117" alt="Priscila Celles Logo 1" /></noscript>								</a>
+													</div>
+				</div>
+				<div class="elementor-element elementor-element-b3714db elementor-nav-menu__align-end elementor-nav-menu--stretch elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger ob-has-background-overlay ob-got-stalker elementor-widget elementor-widget-nav-menu" data-id="b3714db" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;yes&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;<svg class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;><path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;><\/path><\/svg>&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://drapriscilacelles.com.br/wp-content/uploads/elementor/css/custom-pro-widget-nav-menu.min.css?ver=1707329658?ver=1707329658">			<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
+				<ul id="menu-1-b3714db" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-112"><a href="https://drapriscilacelles.com.br/" aria-current="page" class="elementor-item elementor-item-active">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="https://drapriscilacelles.com.br/sobre-mim/" class="elementor-item">Sobre mim</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="https://drapriscilacelles.com.br/clinica/" class="elementor-item">Clínica</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="https://drapriscilacelles.com.br/estetica-intima/" class="elementor-item">Estética Íntima</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="https://drapriscilacelles.com.br/procedimentos/" class="elementor-item">Procedimentos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="https://drapriscilacelles.com.br/blog/" class="elementor-item">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="https://drapriscilacelles.com.br/contato/" class="elementor-item">Contato</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<svg aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open e-font-icon-svg e-eicon-menu-bar" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M104 333H896C929 333 958 304 958 271S929 208 896 208H104C71 208 42 237 42 271S71 333 104 333ZM104 583H896C929 583 958 554 958 521S929 458 896 458H104C71 458 42 487 42 521S71 583 104 583ZM104 833H896C929 833 958 804 958 771S929 708 896 708H104C71 708 42 737 42 771S71 833 104 833Z"></path></svg><svg aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close e-font-icon-svg e-eicon-close" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z"></path></svg>			<span class="elementor-screen-only">Menu</span>
+		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-b3714db" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-112"><a href="https://drapriscilacelles.com.br/" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="https://drapriscilacelles.com.br/sobre-mim/" class="elementor-item" tabindex="-1">Sobre mim</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="https://drapriscilacelles.com.br/clinica/" class="elementor-item" tabindex="-1">Clínica</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="https://drapriscilacelles.com.br/estetica-intima/" class="elementor-item" tabindex="-1">Estética Íntima</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="https://drapriscilacelles.com.br/procedimentos/" class="elementor-item" tabindex="-1">Procedimentos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="https://drapriscilacelles.com.br/blog/" class="elementor-item" tabindex="-1">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="https://drapriscilacelles.com.br/contato/" class="elementor-item" tabindex="-1">Contato</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+				<div data-elementor-type="wp-page" data-elementor-id="10" class="elementor elementor-10" data-elementor-post-type="page">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-8feb3a3 elementor-section-height-min-height elementor-section-items-stretch elementor-section-content-space-between elementor-section-boxed elementor-section-height-default" data-id="8feb3a3" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3bb3f9f" data-id="3bb3f9f" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-e197f1d elementor-widget__width-auto elementor-hidden-mobile ob-has-background-overlay elementor-widget elementor-widget-image" data-id="e197f1d" data-element_type="widget" data-settings="{&quot;_ob_photomorph_use&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img decoding="async" width="300" height="45" src="https://drapriscilacelles.com.br/wp-content/uploads/2022/05/Priscila-Celles-Logo-1.svg" class="attachment-medium size-medium wp-image-117 entered lazyloading" alt="Priscila Celles Logo 1" data-lazy-src="https://drapriscilacelles.com.br/wp-content/uploads/2022/05/Priscila-Celles-Logo-1.svg" data-ll-status="loading"><noscript><img decoding="async" width="300" height="45" src="https://drapriscilacelles.com.br/wp-content/uploads/2022/05/Priscila-Celles-Logo-1.svg" class="attachment-medium size-medium wp-image-117" alt="Priscila Celles Logo 1" /></noscript>													</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-40b20ce elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="40b20ce" data-element_type="section" data-settings="{&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-aff6d37" data-id="aff6d37" data-element_type="column" data-settings="{&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-b1f361f ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-heading" data-id="b1f361f" data-element_type="widget" data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_harakiri_text_clip&quot;:&quot;none&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default">Apresentação</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-18b8d97 elementor-widget-divider--view-line ob-has-background-overlay elementor-widget elementor-widget-divider" data-id="18b8d97" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#0c0d0e;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(--divider-element-spacing);flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(--divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:flex;margin:0;direction:ltr}.elementor-widget-divider--view-line_icon .elementor-divider-separator,.elementor-widget-divider--view-line_text .elementor-divider-separator{align-items:center}.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,.elementor-widget-divider--view-line_text .elementor-divider-separator:after,.elementor-widget-divider--view-line_text .elementor-divider-separator:before{display:block;content:"";border-block-end:0;flex-grow:1;border-block-start:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider--element-align-start .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-start .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-start .elementor-divider__element{margin-inline-start:0}.elementor-widget-divider--element-align-end .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-end .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-end .elementor-divider__element{margin-inline-end:0}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-block-start:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--separator-type-pattern{--divider-border-style:none}.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator{width:100%;min-height:var(--divider-pattern-height);-webkit-mask-size:var(--divider-pattern-size) 100%;mask-size:var(--divider-pattern-size) 100%;-webkit-mask-repeat:var(--divider-pattern-repeat);mask-repeat:var(--divider-pattern-repeat);background-color:var(--divider-color);-webkit-mask-image:var(--divider-pattern-url);mask-image:var(--divider-pattern-url)}.elementor-widget-divider--no-spacing{--divider-pattern-size:auto}.elementor-widget-divider--bg-round{--divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}.e-con-inner>.elementor-widget-divider,.e-con>.elementor-widget-divider{width:var(--container-widget-width,100%);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d0f725d elementor-widget__width-initial ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-text-editor" data-id="d0f725d" data-element_type="widget" data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>Ginecologista e Obstetra, com especialização em patologias do trato genital inferior e vasta experiência em rejuvenescimento e estética íntima. Possui registro no CRM PR 26555 e é detentora do RQE 2900.</p><p>Atualmente, exerce sua profissão como médica ginecologista e obstetra no Hospital das Clínicas da UFPR, onde contribui para a excelência dos cuidados médicos. Além disso, mantém uma próspera prática em consultório, com foco especializado em rejuvenescimento e estética íntima.</p><p>Com seu compromisso com a saúde feminina e sua expertise, a Dra. Priscila Celles dedica-se a proporcionar o mais alto nível de atendimento e cuidado às suas pacientes, garantindo seu bem-estar e saúde ao longo de todas as fases da vida.</p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ecfe0ba elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ecfe0ba" data-element_type="section" data-settings="{&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d51dbb0" data-id="d51dbb0" data-element_type="column" data-settings="{&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-bc2fcb0 ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-heading" data-id="bc2fcb0" data-element_type="widget" data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_harakiri_text_clip&quot;:&quot;none&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Áreas de Atuação</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-362f4cb elementor-widget-divider--view-line ob-has-background-overlay elementor-widget elementor-widget-divider" data-id="362f4cb" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a4c06a5 elementor-widget__width-initial ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-text-editor" data-id="a4c06a5" data-element_type="widget" data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Com o avanço da tecnologia, é possível realizar diversos procedimentos dentro da estética íntima, que contribuem para o bem-estar e aumentam a autoestima feminina.</p>						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-3eb36d5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3eb36d5" data-element_type="section" data-settings="{&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="ob-is-hoveranimator ob-is-pseudo elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3054815" data-id="3054815" data-element_type="column" data-settings="{&quot;_ob_column_hoveranimator&quot;:&quot;yes&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;yes&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-01b42e1 ob-harakiri-inherit ob-has-background-overlay ob-is-hoveranimal ob-got-stalker elementor-widget elementor-widget-text-editor" data-id="01b42e1" data-element_type="widget" data-settings="{&quot;_ob_allow_hoveranimator&quot;:&quot;yes&quot;,&quot;_ob_hoveranimator_scalex&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.91,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_scalex_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.95,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_scaley&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.91,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_scaley_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.95,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_transform_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:450,&quot;sizes&quot;:[]},&quot;_ob_widget_stalker_use&quot;:&quot;yes&quot;,&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator_touch&quot;:&quot;no&quot;,&quot;_ob_hoveranimator_rot&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_rot_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_transform_delay&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_transform_easing&quot;:&quot;ease&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><strong><br>Ginecologia</strong></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-53db12c ob-harakiri-inherit ob-has-background-overlay ob-got-stalker elementor-widget elementor-widget-text-editor" data-id="53db12c" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;yes&quot;,&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Promovemos cuidados ginecológicos abrangentes, visando a saúde da mulher em todas as fases da vida.</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="ob-is-hoveranimator ob-is-pseudo elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-beeda9d" data-id="beeda9d" data-element_type="column" data-settings="{&quot;_ob_column_hoveranimator&quot;:&quot;yes&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;yes&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3e80cba ob-harakiri-inherit ob-has-background-overlay ob-is-hoveranimal ob-got-stalker elementor-widget elementor-widget-text-editor" data-id="3e80cba" data-element_type="widget" data-settings="{&quot;_ob_allow_hoveranimator&quot;:&quot;yes&quot;,&quot;_ob_hoveranimator_scalex&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.91,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_scalex_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.95,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_scaley&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.91,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_scaley_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.95,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_transform_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:450,&quot;sizes&quot;:[]},&quot;_ob_widget_stalker_use&quot;:&quot;yes&quot;,&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator_touch&quot;:&quot;no&quot;,&quot;_ob_hoveranimator_rot&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_rot_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_transform_delay&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_transform_easing&quot;:&quot;ease&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><strong><br>Obstetrícia</strong></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-e58e50c ob-harakiri-inherit ob-has-background-overlay ob-got-stalker elementor-widget elementor-widget-text-editor" data-id="e58e50c" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;yes&quot;,&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Acompanhamos sua jornada na maternidade com cuidado e expertise, tornando cada momento especial e seguro.</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="ob-is-hoveranimator ob-is-pseudo elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-a987bce" data-id="a987bce" data-element_type="column" data-settings="{&quot;_ob_column_hoveranimator&quot;:&quot;yes&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;yes&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-d5fc453 ob-harakiri-inherit ob-has-background-overlay ob-is-hoveranimal ob-got-stalker elementor-widget elementor-widget-text-editor" data-id="d5fc453" data-element_type="widget" data-settings="{&quot;_ob_allow_hoveranimator&quot;:&quot;yes&quot;,&quot;_ob_hoveranimator_scalex&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.91,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_scalex_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.95,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_scaley&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.91,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_scaley_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.95,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_transform_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:450,&quot;sizes&quot;:[]},&quot;_ob_widget_stalker_use&quot;:&quot;yes&quot;,&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator_touch&quot;:&quot;no&quot;,&quot;_ob_hoveranimator_rot&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_rot_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_transform_delay&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_transform_easing&quot;:&quot;ease&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><strong><br>Estética<br>Íntima</strong></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-8ed4fde ob-harakiri-inherit ob-has-background-overlay ob-got-stalker elementor-widget elementor-widget-text-editor" data-id="8ed4fde" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;yes&quot;,&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Nossa abordagem personalizada destaca sua confiança, oferecendo tratamentos discretos para seu bem-estar íntimo.</p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-98c4e78 elementor-align-center ob-has-background-overlay ob-is-hoveranimal elementor-widget elementor-widget-button" data-id="98c4e78" data-element_type="widget" data-settings="{&quot;_ob_allow_hoveranimator&quot;:&quot;yes&quot;,&quot;_ob_hoveranimator_scalex_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.05,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_scaley_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.05,&quot;sizes&quot;:[]},&quot;_ob_butterbutton_use_it&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator_touch&quot;:&quot;no&quot;,&quot;_ob_hoveranimator_scalex&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_scaley&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_rot&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_rot_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_transform_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:250,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_transform_delay&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_transform_easing&quot;:&quot;ease&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="https://drapriscilacelles.com.br/procedimentos/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">TODOS OS PROCEDIMENTOS</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+		<div class="elementor-element elementor-element-07371ee e-flex e-con-boxed e-con e-parent" data-id="07371ee" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_use_container_extras&quot;:&quot;no&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-18abb36 ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-heading" data-id="18abb36" data-element_type="widget" data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_harakiri_text_clip&quot;:&quot;none&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Blog</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-09d1bf7 elementor-widget-divider--view-line ob-has-background-overlay elementor-widget elementor-widget-divider" data-id="09d1bf7" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-dab8f59 ob-harakiri-inherit ob-has-background-overlay ob-got-stalker elementor-widget elementor-widget-text-editor" data-id="dab8f59" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;yes&quot;,&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_postman_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Fique por dentro das novidades da estética íntima e saiba mais sobre os assuntos que pairam sobre esse universo rico em conteúdo.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-70c5ff4 elementor-grid-3 elementor-grid-tablet-2 elementor-grid-mobile-1 ob-has-background-overlay elementor-widget elementor-widget-loop-grid" data-id="70c5ff4" data-element_type="widget" data-settings="{&quot;template_id&quot;:&quot;1008&quot;,&quot;row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_skin&quot;:&quot;post&quot;,&quot;columns&quot;:&quot;3&quot;,&quot;columns_tablet&quot;:&quot;2&quot;,&quot;columns_mobile&quot;:&quot;1&quot;,&quot;edit_handle_selector&quot;:&quot;[data-elementor-type=\&quot;loop-item\&quot;]&quot;,&quot;row_gap_widescreen&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;row_gap_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;row_gap_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;row_gap_mobile_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="loop-grid.post">
+				<div class="elementor-widget-container">
+					<div class="elementor-loop-container elementor-grid">
+		<style id="loop-dynamic-1008">.e-loop-item-1071 .elementor-element.elementor-element-31ddf2d:not(.elementor-motion-effects-element-type-background), .e-loop-item-1071 .elementor-element.elementor-element-31ddf2d > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://drapriscilacelles.com.br/wp-content/uploads/2024/08/15-08-blog.webp");}</style><style id="loop-1008">.elementor-1008 .elementor-element.elementor-element-31ddf2d{--display:flex;--min-height:300px;--flex-direction:column;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--justify-content:flex-end;--align-items:center;--background-transition:0.3s;--overlay-opacity:0.3;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;--padding-top:0px;--padding-bottom:35px;--padding-left:0px;--padding-right:0px;}.elementor-1008 .elementor-element.elementor-element-31ddf2d:not(.elementor-motion-effects-element-type-background), .elementor-1008 .elementor-element.elementor-element-31ddf2d > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-position:center center;background-repeat:no-repeat;background-size:cover;}.elementor-1008 .elementor-element.elementor-element-31ddf2d::before, .elementor-1008 .elementor-element.elementor-element-31ddf2d > .elementor-background-video-container::before, .elementor-1008 .elementor-element.elementor-element-31ddf2d > .e-con-inner > .elementor-background-video-container::before, .elementor-1008 .elementor-element.elementor-element-31ddf2d > .elementor-background-slideshow::before, .elementor-1008 .elementor-element.elementor-element-31ddf2d > .e-con-inner > .elementor-background-slideshow::before, .elementor-1008 .elementor-element.elementor-element-31ddf2d > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{--background-overlay:'';background-color:var( --e-global-color-bb64108 );}.elementor-1008 .elementor-element.elementor-element-31ddf2d:hover::before, .elementor-1008 .elementor-element.elementor-element-31ddf2d:hover > .elementor-background-video-container::before, .elementor-1008 .elementor-element.elementor-element-31ddf2d:hover > .e-con-inner > .elementor-background-video-container::before, .elementor-1008 .elementor-element.elementor-element-31ddf2d > .elementor-background-slideshow:hover::before, .elementor-1008 .elementor-element.elementor-element-31ddf2d > .e-con-inner > .elementor-background-slideshow:hover::before{--background-overlay:'';background-color:var( --e-global-color-bb64108 );}.elementor-1008 .elementor-element.elementor-element-31ddf2d:hover{--overlay-opacity:0.35;}.elementor-1008 .elementor-element.elementor-element-31ddf2d, .elementor-1008 .elementor-element.elementor-element-31ddf2d::before{--border-transition:0.3s;}.elementor-1008 .elementor-element.elementor-element-31ddf2d.e-con{--align-self:flex-end;}.elementor-1008 .elementor-element.elementor-element-abc3fae{text-align:center;}.elementor-1008 .elementor-element.elementor-element-abc3fae .elementor-heading-title{color:var( --e-global-color-3ba8e96 );font-family:"Lato", Sans-serif;font-size:1.1rem;font-weight:600;}@media(min-width:768px){.elementor-1008 .elementor-element.elementor-element-31ddf2d{--content-width:100%;}}</style>		<div data-elementor-type="loop-item" data-elementor-id="1008" class="elementor elementor-1008 e-loop-item e-loop-item-1071 post-1071 post type-post status-publish format-standard has-post-thumbnail hentry category-procedimentos" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<a class="elementor-element elementor-element-31ddf2d e-flex e-con-boxed e-con e-parent" data-id="31ddf2d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_use_container_extras&quot;:&quot;no&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}" href="https://drapriscilacelles.com.br/laser-intimo-existe-uma-idade-certa-para-fazer/">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-abc3fae ob-has-background-overlay elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="abc3fae" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="theme-post-title.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Laser íntimo – Existe uma idade certa para fazer?</h4>		</div>
+				</div>
+					</div>
+				</a>
+				</div>
+		<style id="loop-dynamic-1008">.e-loop-item-1067 .elementor-element.elementor-element-31ddf2d:not(.elementor-motion-effects-element-type-background), .e-loop-item-1067 .elementor-element.elementor-element-31ddf2d > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://drapriscilacelles.com.br/wp-content/uploads/2024/07/25-07-priscila-blog.webp");}</style>		<div data-elementor-type="loop-item" data-elementor-id="1008" class="elementor elementor-1008 e-loop-item e-loop-item-1067 post-1067 post type-post status-publish format-standard has-post-thumbnail hentry category-qualidade-de-vida" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<a class="elementor-element elementor-element-31ddf2d e-flex e-con-boxed e-con e-parent" data-id="31ddf2d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_use_container_extras&quot;:&quot;no&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}" href="https://drapriscilacelles.com.br/tratamentos-para-aliviar-os-sintomas-do-climaterio/">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-abc3fae ob-has-background-overlay elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="abc3fae" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="theme-post-title.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Tratamentos para aliviar os sintomas do Climatério</h4>		</div>
+				</div>
+					</div>
+				</a>
+				</div>
+		<style id="loop-dynamic-1008">.e-loop-item-1063 .elementor-element.elementor-element-31ddf2d:not(.elementor-motion-effects-element-type-background), .e-loop-item-1063 .elementor-element.elementor-element-31ddf2d > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://drapriscilacelles.com.br/wp-content/uploads/2024/07/11-07-saude-blog.webp");}</style>		<div data-elementor-type="loop-item" data-elementor-id="1008" class="elementor elementor-1008 e-loop-item e-loop-item-1063 post-1063 post type-post status-publish format-standard has-post-thumbnail hentry category-qualidade-de-vida" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<a class="elementor-element elementor-element-31ddf2d e-flex e-con-boxed e-con e-parent" data-id="31ddf2d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_use_container_extras&quot;:&quot;no&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}" href="https://drapriscilacelles.com.br/saude-intima-na-adolescencia/">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-abc3fae ob-has-background-overlay elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="abc3fae" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="theme-post-title.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Saúde íntima na adolescência</h4>		</div>
+				</div>
+					</div>
+				</a>
+				</div>
+				</div>
+		
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6479719 elementor-align-center ob-has-background-overlay ob-is-hoveranimal elementor-widget elementor-widget-button" data-id="6479719" data-element_type="widget" data-settings="{&quot;_ob_allow_hoveranimator&quot;:&quot;yes&quot;,&quot;_ob_hoveranimator_scalex_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.05,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_scaley_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.05,&quot;sizes&quot;:[]},&quot;_ob_butterbutton_use_it&quot;:&quot;no&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator_touch&quot;:&quot;no&quot;,&quot;_ob_hoveranimator_scalex&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_scaley&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_rot&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_rot_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_transform_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:250,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_transform_delay&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;_ob_hoveranimator_transform_easing&quot;:&quot;ease&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="https://drapriscilacelles.com.br/blog/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">TODOS OS POSTS</span>
+					</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e4757fe ob-harakiri-inherit ob-has-background-overlay elementor-widget elementor-widget-heading" data-id="e4757fe" data-element_type="widget" data-settings="{&quot;_ob_use_harakiri&quot;:&quot;yes&quot;,&quot;_ob_harakiri_writing_mode&quot;:&quot;inherit&quot;,&quot;_ob_harakiri_text_clip&quot;:&quot;none&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Onde Estamos?</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8295640 elementor-widget-divider--view-line ob-has-background-overlay elementor-widget elementor-widget-divider" data-id="8295640" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-fbb6166 dc-has-condition dc-condition-equal e-flex e-con-boxed e-con e-parent" data-id="fbb6166" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_use_container_extras&quot;:&quot;no&quot;,&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-ad9ab02 elementor-widget__width-inherit elementor-widget-mobile__width-inherit dc-has-condition dc-condition-empty ob-has-background-overlay elementor-widget elementor-widget-google_maps" data-id="ad9ab02" data-element_type="widget" data-settings="{&quot;_ob_shadough_use&quot;:&quot;yes&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="google_maps.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.23.0 - 05-08-2024 */
+.elementor-widget-google_maps .elementor-widget-container{overflow:hidden}.elementor-widget-google_maps .elementor-custom-embed{line-height:0}.elementor-widget-google_maps iframe{height:300px}</style>		<div class="elementor-custom-embed">
+			<iframe loading="lazy" src="about:blank" title="R. Petit Carneiro, 414 - Água Verde" aria-label="R. Petit Carneiro, 414 - Água Verde" data-rocket-lazyload="fitvidscompatible" data-lazy-src="https://maps.google.com/maps?q=R.%20Petit%20Carneiro%2C%20414%20-%20%C3%81gua%20Verde&amp;t=m&amp;z=16&amp;output=embed&amp;iwloc=near"></iframe><noscript><iframe loading="lazy"
+					src="https://maps.google.com/maps?q=R.%20Petit%20Carneiro%2C%20414%20-%20%C3%81gua%20Verde&#038;t=m&#038;z=16&#038;output=embed&#038;iwloc=near"
+					title="R. Petit Carneiro, 414 - Água Verde"
+					aria-label="R. Petit Carneiro, 414 - Água Verde"
+			></iframe></noscript>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-cd2e8af elementor-widget__width-inherit elementor-widget-mobile__width-inherit dc-has-condition dc-condition-empty ob-has-background-overlay elementor-widget elementor-widget-google_maps" data-id="cd2e8af" data-element_type="widget" data-settings="{&quot;_ob_shadough_use&quot;:&quot;yes&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="google_maps.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-custom-embed">
+			<iframe loading="lazy" src="about:blank" title="R. Dr. Alexandre Gutierrez, 826 - Água Verde" aria-label="R. Dr. Alexandre Gutierrez, 826 - Água Verde" data-rocket-lazyload="fitvidscompatible" data-lazy-src="https://maps.google.com/maps?q=R.%20Dr.%20Alexandre%20Gutierrez%2C%20826%20-%20%C3%81gua%20Verde&amp;t=m&amp;z=16&amp;output=embed&amp;iwloc=near"></iframe><noscript><iframe loading="lazy"
+					src="https://maps.google.com/maps?q=R.%20Dr.%20Alexandre%20Gutierrez%2C%20826%20-%20%C3%81gua%20Verde&#038;t=m&#038;z=16&#038;output=embed&#038;iwloc=near"
+					title="R. Dr. Alexandre Gutierrez, 826 - Água Verde"
+					aria-label="R. Dr. Alexandre Gutierrez, 826 - Água Verde"
+			></iframe></noscript>
+		</div>
+				</div>
+				</div>
+		<!-- hidden widget 10-3ffe32b -->			</div>
+				</div>
+				</div>
+				<div data-elementor-type="footer" data-elementor-id="241" class="elementor elementor-241 elementor-location-footer" data-elementor-post-type="elementor_library">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-243b0df elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="243b0df" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8ba2905" data-id="8ba2905" data-element_type="column" data-settings="{&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-f753b2b ob-has-background-overlay ob-got-stalker elementor-widget elementor-widget-image" data-id="f753b2b" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;yes&quot;,&quot;_ob_photomorph_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+														<a href="https://drapriscilacelles.com.br/#home">
+							<img width="487" height="73" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20487%2073'%3E%3C/svg%3E" class="attachment-large size-large wp-image-117" alt="Priscila Celles Logo 1" data-lazy-src="https://drapriscilacelles.com.br/wp-content/uploads/2022/05/Priscila-Celles-Logo-1.svg"><noscript><img width="487" height="73" src="https://drapriscilacelles.com.br/wp-content/uploads/2022/05/Priscila-Celles-Logo-1.svg" class="attachment-large size-large wp-image-117" alt="Priscila Celles Logo 1" /></noscript>								</a>
+													</div>
+				</div>
+				<div class="elementor-element elementor-element-638c1a3 elementor-nav-menu__align-end elementor-nav-menu--stretch elementor-hidden-tablet_extra elementor-hidden-tablet elementor-hidden-mobile_extra elementor-hidden-mobile elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger ob-has-background-overlay ob-got-stalker elementor-widget elementor-widget-nav-menu" data-id="638c1a3" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;_ob_widget_stalker_use&quot;:&quot;yes&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;<svg class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;><path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;><\/path><\/svg>&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
+				<ul id="menu-1-638c1a3" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-112"><a href="https://drapriscilacelles.com.br/" aria-current="page" class="elementor-item elementor-item-active">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="https://drapriscilacelles.com.br/sobre-mim/" class="elementor-item">Sobre mim</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="https://drapriscilacelles.com.br/clinica/" class="elementor-item">Clínica</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="https://drapriscilacelles.com.br/estetica-intima/" class="elementor-item">Estética Íntima</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="https://drapriscilacelles.com.br/procedimentos/" class="elementor-item">Procedimentos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="https://drapriscilacelles.com.br/blog/" class="elementor-item">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="https://drapriscilacelles.com.br/contato/" class="elementor-item">Contato</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<svg aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open e-font-icon-svg e-eicon-menu-bar" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M104 333H896C929 333 958 304 958 271S929 208 896 208H104C71 208 42 237 42 271S71 333 104 333ZM104 583H896C929 583 958 554 958 521S929 458 896 458H104C71 458 42 487 42 521S71 583 104 583ZM104 833H896C929 833 958 804 958 771S929 708 896 708H104C71 708 42 737 42 771S71 833 104 833Z"></path></svg><svg aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close e-font-icon-svg e-eicon-close" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z"></path></svg>			<span class="elementor-screen-only">Menu</span>
+		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-638c1a3" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-112"><a href="https://drapriscilacelles.com.br/" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="https://drapriscilacelles.com.br/sobre-mim/" class="elementor-item" tabindex="-1">Sobre mim</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="https://drapriscilacelles.com.br/clinica/" class="elementor-item" tabindex="-1">Clínica</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="https://drapriscilacelles.com.br/estetica-intima/" class="elementor-item" tabindex="-1">Estética Íntima</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="https://drapriscilacelles.com.br/procedimentos/" class="elementor-item" tabindex="-1">Procedimentos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="https://drapriscilacelles.com.br/blog/" class="elementor-item" tabindex="-1">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="https://drapriscilacelles.com.br/contato/" class="elementor-item" tabindex="-1">Contato</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-a384372 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="a384372" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ob_glider_is_slider&quot;:&quot;no&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4927a95" data-id="4927a95" data-element_type="column" data-settings="{&quot;_ob_column_hoveranimator&quot;:&quot;no&quot;,&quot;_ob_column_has_pseudo&quot;:&quot;no&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-032ea0a elementor-widget__width-auto elementor-icon-list--layout-traditional elementor-list-item-link-full_width ob-has-background-overlay elementor-widget elementor-widget-icon-list" data-id="032ea0a" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://www.nuna.com.br" target="_blank">
+
+												<span class="elementor-icon-list-icon">
+							<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 293.58 206.53"><title>Nuna logo</title><g id="Layer_2" data-name="Layer 2"><g id="Logos"><circle cx="44.95" cy="58.68" r="15.98"></circle><path d="M281.47.1c-6.65-.38-19,0-34.11,5.79l-.83.33-1.43.57c-2.86,1.17-5.8,2.53-8.82,4.11a118.3,118.3,0,0,0-17.67,11.44A142.33,142.33,0,0,0,202.52,37q-2.21,2.34-4.32,4.71c-23.85,26.73-40,56.9-63.16,76.73-10.83,9.28-23.18,16.3-38.56,19.62a98.16,98.16,0,0,1-20.93,2.14,71.59,71.59,0,0,1-24.39-4.12C24.33,126.51,8.57,102,0,82.78a147,147,0,0,0,11.8,38.27q1.77,3.8,3.74,7.47a148,148,0,0,0,164.14,74.1,99.74,99.74,0,0,0,23.57-7.68,148.07,148.07,0,0,0,79.13-79.69q1.23-3,2.33-6A148.13,148.13,0,0,0,281.47.1ZM246.64,42.69a10.26,10.26,0,0,1,1.57.08,15.79,15.79,0,0,1,5.34,1.51,15.95,15.95,0,1,1-6.91-1.59Z" transform="translate(0 0.01)"></path></g></g></svg>						</span>
+										<span class="elementor-icon-list-text">Nuna Marketing e Comunicação</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-64d3782 elementor-widget__width-auto dc-has-condition dc-condition-equal elementor-icon-list--layout-traditional elementor-list-item-link-full_width ob-has-background-overlay elementor-widget elementor-widget-icon-list" data-id="64d3782" data-element_type="widget" data-settings="{&quot;_ob_widget_stalker_use&quot;:&quot;no&quot;,&quot;_ob_poopart_use&quot;:&quot;yes&quot;,&quot;_ob_shadough_use&quot;:&quot;no&quot;,&quot;_ob_allow_hoveranimator&quot;:&quot;no&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://drapriscilacelles.com.br/politica-de-privacidade">
+
+											<span class="elementor-icon-list-text">Política de Privacidade</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		
+<!--googleoff: all--><div id="cookie-law-info-bar" data-nosnippet="true"><span><div class="cli-bar-container cli-style-v2"><div class="cli-bar-message">Usamos cookies em nosso site para oferecer a você uma experiência mais relevante, lembrando suas preferências e visitas repetidas. Ao clicar em “Aceitar todos”, você concorda com o uso de TODOS os cookies. No entanto, você pode clicar em "Configurações" para fornecer um consentimento personalizado.</div><div class="cli-bar-btn_container"><a role="button" class="cli_settings_button" style="margin:0px 5px 0px 0px">Configurações</a><a id="wt-cli-accept-all-btn" role="button" data-cli_action="accept_all" class="wt-cli-element medium cli-plugin-button wt-cli-accept-all-btn cookie_action_close_header cli_action_button">Aceitar Todos</a></div></div></span></div><div id="cookie-law-info-again" style="display:none" data-nosnippet="true"><span id="cookie_hdr_showagain"></span></div><div class="cli-modal" data-nosnippet="true" id="cliSettingsPopup" tabindex="-1" role="dialog" aria-labelledby="cliSettingsPopup" aria-hidden="true">
+  <div class="cli-modal-dialog" role="document">
+	<div class="cli-modal-content cli-bar-popup">
+		  <button type="button" class="cli-modal-close" id="cliModalClose">
+			<svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"></path><path d="M0 0h24v24h-24z" fill="none"></path></svg>
+			<span class="wt-cli-sr-only">Fechar</span>
+		  </button>
+		  <div class="cli-modal-body">
+			<div class="cli-container-fluid cli-tab-container">
+	<div class="cli-row">
+		<div class="cli-col-12 cli-align-items-stretch cli-px-0">
+			<div class="cli-privacy-overview">
+				<h4>Visão geral de privacidade</h4>				<div class="cli-privacy-content">
+					<div class="cli-privacy-content-text"><div data-pm-slice="1 1 []" data-en-clipboard="true">Este site usa cookies para melhorar sua experiência enquanto você navega pelo site. Destes, os cookies categorizados conforme necessário são armazenados no seu navegador, pois são essenciais para o funcionamento das funcionalidades básicas do site. Também usamos cookies de terceiros que nos ajudam a analisar e entender como você usa este site. Esses cookies serão armazenados no seu navegador apenas com o seu consentimento. Você também tem a opção de desativar esses cookies. Mas a desativação de alguns desses cookies pode afetar sua experiência de navegação.</div></div>
+				</div>
+				<a class="cli-privacy-readmore" aria-label="Mostrar mais" role="button" data-readmore-text="Mostrar mais" data-readless-text="Mostrar menos"></a>			</div>
+		</div>
+		<div class="cli-col-12 cli-align-items-stretch cli-px-0 cli-tab-section-container">
+												<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="funcionais" data-toggle="cli-toggle-tab">
+								Funcionais							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-funcionais" class="cli-user-preference-checkbox" data-id="checkbox-funcionais" checked="checked">
+									<label for="wt-cli-checkbox-funcionais" class="cli-slider" data-cli-enable="Ativado" data-cli-disable="Desativado"><span class="wt-cli-sr-only">Funcionais</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="funcionais">
+								<div class="wt-cli-cookie-description">
+									Os cookies funcionais ajudam a executar certas funcionalidades, como compartilhar o conteúdo do site em plataformas de mídia social, coletar feedbacks e outros recursos de terceiros. 								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="desempenho" data-toggle="cli-toggle-tab">
+								Desempenho							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-desempenho" class="cli-user-preference-checkbox" data-id="checkbox-desempenho" checked="checked">
+									<label for="wt-cli-checkbox-desempenho" class="cli-slider" data-cli-enable="Ativado" data-cli-disable="Desativado"><span class="wt-cli-sr-only">Desempenho</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="desempenho">
+								<div class="wt-cli-cookie-description">
+									Os cookies de desempenho são usados para entender e analisar os principais índices de desempenho do site, o que ajuda a oferecer uma melhor experiência de usuário aos visitantes. 								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="analiticos" data-toggle="cli-toggle-tab">
+								Analíticos							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-analiticos" class="cli-user-preference-checkbox" data-id="checkbox-analiticos" checked="checked">
+									<label for="wt-cli-checkbox-analiticos" class="cli-slider" data-cli-enable="Ativado" data-cli-disable="Desativado"><span class="wt-cli-sr-only">Analíticos</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="analiticos">
+								<div class="wt-cli-cookie-description">
+									Os cookies analíticos são usados para entender como os visitantes interagem com o site. Esses cookies ajudam a fornecer informações sobre métricas de número de visitantes, taxa de rejeição, origem de tráfego, etc. 								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="publicidade" data-toggle="cli-toggle-tab">
+								Publicidade							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-publicidade" class="cli-user-preference-checkbox" data-id="checkbox-publicidade" checked="checked">
+									<label for="wt-cli-checkbox-publicidade" class="cli-slider" data-cli-enable="Ativado" data-cli-disable="Desativado"><span class="wt-cli-sr-only">Publicidade</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="publicidade">
+								<div class="wt-cli-cookie-description">
+									Os cookies de publicidade são usados para fornecer aos visitantes anúncios e campanhas de marketing relevantes. Esses cookies rastreiam os visitantes em sites e coletam informações para fornecer anúncios personalizados. 								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="outros" data-toggle="cli-toggle-tab">
+								Outros							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-outros" class="cli-user-preference-checkbox" data-id="checkbox-outros" checked="checked">
+									<label for="wt-cli-checkbox-outros" class="cli-slider" data-cli-enable="Ativado" data-cli-disable="Desativado"><span class="wt-cli-sr-only">Outros</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="outros">
+								<div class="wt-cli-cookie-description">
+									Outros cookies não categorizados são aqueles que estão sendo analisados e ainda não foram classificados em uma categoria. 								</div>
+							</div>
+						</div>
+					</div>
+																	<div class="cli-tab-section">
+						<div class="cli-tab-header">
+							<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="necessarios" data-toggle="cli-toggle-tab">
+								Necessários							</a>
+															<div class="cli-switch">
+									<input type="checkbox" id="wt-cli-checkbox-necessarios" class="cli-user-preference-checkbox" data-id="checkbox-necessarios" checked="checked">
+									<label for="wt-cli-checkbox-necessarios" class="cli-slider" data-cli-enable="Ativado" data-cli-disable="Desativado"><span class="wt-cli-sr-only">Necessários</span></label>
+								</div>
+													</div>
+						<div class="cli-tab-content">
+							<div class="cli-tab-pane cli-fade" data-id="necessarios">
+								<div class="wt-cli-cookie-description">
+									Os cookies necessários são absolutamente essenciais para o bom funcionamento do site. Esses cookies garantem funcionalidades básicas e recursos de segurança do site, anonimamente. 								</div>
+							</div>
+						</div>
+					</div>
+										</div>
+	</div>
+</div>
+		  </div>
+		  <div class="cli-modal-footer">
+			<div class="wt-cli-element cli-container-fluid cli-tab-container">
+				<div class="cli-row">
+					<div class="cli-col-12 cli-align-items-stretch cli-px-0">
+						<div class="cli-tab-footer wt-cli-privacy-overview-actions">
+						
+															<a id="wt-cli-privacy-save-btn" role="button" tabindex="0" data-cli-action="accept" class="wt-cli-privacy-btn cli_setting_save_button wt-cli-privacy-accept-btn cli-btn">SALVAR E ACEITAR</a>
+													</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  </div>
+</div>
+<div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+<!--googleon: all-->        <script type="rocketlazyloadscript">
+            (function () {
+                document.addEventListener("DOMContentLoaded", function (e) {
+                    if (document.hasOwnProperty("visibilityState") && document.visibilityState === "prerender") {
+                        return;
+                    }
+
+                                            if (navigator.webdriver || /bot|crawler|spider|crawling|semrushbot|chrome-lighthouse/i.test(navigator.userAgent)) {
+                            return;
+                        }
+                                        
+                    let referrer_url = null;
+
+                    if (typeof document.referrer === 'string' && document.referrer.length > 0) {
+                        referrer_url = document.referrer;
+                    }
+
+                    const params = location.search.slice(1).split('&').reduce((acc, s) => {
+                        const [k, v] = s.split('=');
+                        return Object.assign(acc, {[k]: v});
+                    }, {});
+
+                    const url = "https://drapriscilacelles.com.br/wp-json/iawp/search";
+                    const body = {
+                        referrer_url,
+                        utm_source: params.utm_source,
+                        utm_medium: params.utm_medium,
+                        utm_campaign: params.utm_campaign,
+                        utm_term: params.utm_term,
+                        utm_content: params.utm_content,
+                        gclid: params.gclid,
+                        ...{"payload":{"resource":"singular","singular_id":10,"page":1},"signature":"eb82eaec363ed8a65abb4f8e825087ed"}                    };
+                    const xhr = new XMLHttpRequest();
+                    xhr.open("POST", url, true);
+                    xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+                    xhr.send(JSON.stringify(body));
+                });
+            })();
+        </script>
+        <script type="application/ld+json" id="slim-seo-schema">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://drapriscilacelles.com.br/#website","url":"https://drapriscilacelles.com.br/","name":"Dra. Priscila Celles - Ginecologista e Rejuvenescimento Íntimo","potentialAction":{"@id":"https://drapriscilacelles.com.br/#searchaction"},"publisher":{"@id":"https://drapriscilacelles.com.br/#organization"}},{"@type":"SearchAction","@id":"https://drapriscilacelles.com.br/#searchaction","target":"https://drapriscilacelles.com.br/?s={search_term_string}","query-input":"required name=search_term_string"},{"@type":"WebPage","@id":"https://drapriscilacelles.com.br/#webpage","url":"https://drapriscilacelles.com.br/","inLanguage":"pt_BR","name":"Dra. Priscila Celles - Ginecologista e Rejuvenescimento Íntimo","description":"Com conhecimento e tecnologia nós te ajudamos a se redescobrir. A ginecologia e obstetrícia me ensinam diariamente que é possível ajudar mulheres a se descobrirem, se realizarem e terem mais qualidade de vida.","datePublished":"2021-04-28T16:52:09+00:00","dateModified":"2024-03-20T13:41:25+00:00","isPartOf":{"@id":"https://drapriscilacelles.com.br/#website"},"primaryImageOfPage":{"@id":"https://drapriscilacelles.com.br/#thumbnail"},"image":{"@id":"https://drapriscilacelles.com.br/#thumbnail"}},{"@type":"Organization","@id":"https://drapriscilacelles.com.br/#organization","url":"https://drapriscilacelles.com.br/","name":"Dra. Priscila Celles - Ginecologista e Rejuvenescimento Íntimo"},{"@type":"ImageObject","@id":"https://drapriscilacelles.com.br/#thumbnail","url":"https://drapriscilacelles.com.br/wp-content/uploads/2022/05/Priscila-Celles-Logo-1.svg","width":487,"height":73}]}</script>
+<div class="joinchat joinchat--right" data-settings="{&quot;telephone&quot;:&quot;554130265854&quot;,&quot;mobile_only&quot;:false,&quot;button_delay&quot;:3,&quot;whatsapp_web&quot;:false,&quot;qr&quot;:false,&quot;message_views&quot;:2,&quot;message_delay&quot;:-1,&quot;message_badge&quot;:false,&quot;message_send&quot;:&quot;Visitei o site da Dra. Priscila Celles e gostaria de entrar em contato.&quot;,&quot;message_hash&quot;:&quot;60cc2674&quot;}">
+	<div class="joinchat__button">
+		<div class="joinchat__button__open"></div>
+											<div class="joinchat__button__sendtext">Enviar mensagem.</div>
+						<svg class="joinchat__button__send" width="60" height="60" viewBox="0 0 400 400" stroke-linecap="round" stroke-width="33">
+				<path class="joinchat_svg__plain" d="M168.83 200.504H79.218L33.04 44.284a1 1 0 0 1 1.386-1.188L365.083 199.04a1 1 0 0 1 .003 1.808L34.432 357.903a1 1 0 0 1-1.388-1.187l29.42-99.427"></path>
+				<path class="joinchat_svg__chat" d="M318.087 318.087c-52.982 52.982-132.708 62.922-195.725 29.82l-80.449 10.18 10.358-80.112C18.956 214.905 28.836 134.99 81.913 81.913c65.218-65.217 170.956-65.217 236.174 0 42.661 42.661 57.416 102.661 44.265 157.316"></path>
+			</svg>
+										<div class="joinchat__tooltip"><div>Vamos conversar?</div></div>
+					</div>
+			<div class="joinchat__box">
+			<div class="joinchat__header">
+									<svg class="joinchat__wa" width="120" height="28" viewBox="0 0 120 28"><title>WhatsApp</title><path d="M117.2 17c0 .4-.2.7-.4 1-.1.3-.4.5-.7.7l-1 .2c-.5 0-.9 0-1.2-.2l-.7-.7a3 3 0 0 1-.4-1 5.4 5.4 0 0 1 0-2.3c0-.4.2-.7.4-1l.7-.7a2 2 0 0 1 1.1-.3 2 2 0 0 1 1.8 1l.4 1a5.3 5.3 0 0 1 0 2.3zm2.5-3c-.1-.7-.4-1.3-.8-1.7a4 4 0 0 0-1.3-1.2c-.6-.3-1.3-.4-2-.4-.6 0-1.2.1-1.7.4a3 3 0 0 0-1.2 1.1V11H110v13h2.7v-4.5c.4.4.8.8 1.3 1 .5.3 1 .4 1.6.4a4 4 0 0 0 3.2-1.5c.4-.5.7-1 .8-1.6.2-.6.3-1.2.3-1.9s0-1.3-.3-2zm-13.1 3c0 .4-.2.7-.4 1l-.7.7-1.1.2c-.4 0-.8 0-1-.2-.4-.2-.6-.4-.8-.7a3 3 0 0 1-.4-1 5.4 5.4 0 0 1 0-2.3c0-.4.2-.7.4-1 .1-.3.4-.5.7-.7a2 2 0 0 1 1-.3 2 2 0 0 1 1.9 1l.4 1a5.4 5.4 0 0 1 0 2.3zm1.7-4.7a4 4 0 0 0-3.3-1.6c-.6 0-1.2.1-1.7.4a3 3 0 0 0-1.2 1.1V11h-2.6v13h2.7v-4.5c.3.4.7.8 1.2 1 .6.3 1.1.4 1.7.4a4 4 0 0 0 3.2-1.5c.4-.5.6-1 .8-1.6.2-.6.3-1.2.3-1.9s-.1-1.3-.3-2c-.2-.6-.4-1.2-.8-1.6zm-17.5 3.2l1.7-5 1.7 5h-3.4zm.2-8.2l-5 13.4h3l1-3h5l1 3h3L94 7.3h-3zm-5.3 9.1l-.6-.8-1-.5a11.6 11.6 0 0 0-2.3-.5l-1-.3a2 2 0 0 1-.6-.3.7.7 0 0 1-.3-.6c0-.2 0-.4.2-.5l.3-.3h.5l.5-.1c.5 0 .9 0 1.2.3.4.1.6.5.6 1h2.5c0-.6-.2-1.1-.4-1.5a3 3 0 0 0-1-1 4 4 0 0 0-1.3-.5 7.7 7.7 0 0 0-3 0c-.6.1-1 .3-1.4.5l-1 1a3 3 0 0 0-.4 1.5 2 2 0 0 0 1 1.8l1 .5 1.1.3 2.2.6c.6.2.8.5.8 1l-.1.5-.4.4a2 2 0 0 1-.6.2 2.8 2.8 0 0 1-1.4 0 2 2 0 0 1-.6-.3l-.5-.5-.2-.8H77c0 .7.2 1.2.5 1.6.2.5.6.8 1 1 .4.3.9.5 1.4.6a8 8 0 0 0 3.3 0c.5 0 1-.2 1.4-.5a3 3 0 0 0 1-1c.3-.5.4-1 .4-1.6 0-.5 0-.9-.3-1.2zM74.7 8h-2.6v3h-1.7v1.7h1.7v5.8c0 .5 0 .9.2 1.2l.7.7 1 .3a7.8 7.8 0 0 0 2 0h.7v-2.1a3.4 3.4 0 0 1-.8 0l-1-.1-.2-1v-4.8h2V11h-2V8zm-7.6 9v.5l-.3.8-.7.6c-.2.2-.7.2-1.2.2h-.6l-.5-.2a1 1 0 0 1-.4-.4l-.1-.6.1-.6.4-.4.5-.3a4.8 4.8 0 0 1 1.2-.2 8.3 8.3 0 0 0 1.2-.2l.4-.3v1zm2.6 1.5v-5c0-.6 0-1.1-.3-1.5l-1-.8-1.4-.4a10.9 10.9 0 0 0-3.1 0l-1.5.6c-.4.2-.7.6-1 1a3 3 0 0 0-.5 1.5h2.7c0-.5.2-.9.5-1a2 2 0 0 1 1.3-.4h.6l.6.2.3.4.2.7c0 .3 0 .5-.3.6-.1.2-.4.3-.7.4l-1 .1a21.9 21.9 0 0 0-2.4.4l-1 .5c-.3.2-.6.5-.8.9-.2.3-.3.8-.3 1.3s.1 1 .3 1.3c.1.4.4.7.7 1l1 .4c.4.2.9.2 1.3.2a6 6 0 0 0 1.8-.2c.6-.2 1-.5 1.5-1a4 4 0 0 0 .2 1H70l-.3-1v-1.2zm-11-6.7c-.2-.4-.6-.6-1-.8-.5-.2-1-.3-1.8-.3-.5 0-1 .1-1.5.4a3 3 0 0 0-1.3 1.2v-5h-2.7v13.4H53v-5.1c0-1 .2-1.7.5-2.2.3-.4.9-.6 1.6-.6.6 0 1 .2 1.3.6.3.4.4 1 .4 1.8v5.5h2.7v-6c0-.6 0-1.2-.2-1.6 0-.5-.3-1-.5-1.3zm-14 4.7l-2.3-9.2h-2.8l-2.3 9-2.2-9h-3l3.6 13.4h3l2.2-9.2 2.3 9.2h3l3.6-13.4h-3l-2.1 9.2zm-24.5.2L18 15.6c-.3-.1-.6-.2-.8.2A20 20 0 0 1 16 17c-.2.2-.4.3-.7.1-.4-.2-1.5-.5-2.8-1.7-1-1-1.7-2-2-2.4-.1-.4 0-.5.2-.7l.5-.6.4-.6v-.6L10.4 8c-.3-.6-.6-.5-.8-.6H9c-.2 0-.6.1-.9.5C7.8 8.2 7 9 7 10.7c0 1.7 1.3 3.4 1.4 3.6.2.3 2.5 3.7 6 5.2l1.9.8c.8.2 1.6.2 2.2.1.6-.1 2-.8 2.3-1.6.3-.9.3-1.5.2-1.7l-.7-.4zM14 25.3c-2 0-4-.5-5.8-1.6l-.4-.2-4.4 1.1 1.2-4.2-.3-.5A11.5 11.5 0 0 1 22.1 5.7 11.5 11.5 0 0 1 14 25.3zM14 0A13.8 13.8 0 0 0 2 20.7L0 28l7.3-2A13.8 13.8 0 1 0 14 0z"></path></svg>
+								<div class="joinchat__close" title="Fechar"></div>
+			</div>
+			<div class="joinchat__box__scroll">
+				<div class="joinchat__box__content">
+					<div class="joinchat__message">Olá, no que posso te ajudar?</div>				</div>
+			</div>
+		</div>
+		<svg style="width:0;height:0;position:absolute"><defs><clipPath id="joinchat__peak_l"><path d="M17 25V0C17 12.877 6.082 14.9 1.031 15.91c-1.559.31-1.179 2.272.004 2.272C9.609 18.182 17 18.088 17 25z"></path></clipPath><clipPath id="joinchat__peak_r"><path d="M0 25.68V0c0 13.23 10.92 15.3 15.97 16.34 1.56.32 1.18 2.34 0 2.34-8.58 0-15.97-.1-15.97 7Z"></path></clipPath></defs></svg>
+	</div>
+			<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			
+
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://drapriscilacelles.com.br/wp-content/cache/min/1/wp-content/plugins/dynamicconditions/Public/js/dynamic-conditions-public.js?ver=1725971435" id="dynamic-conditions-js" defer=""></script>
+<script type="rocketlazyloadscript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/drapriscilacelles.com.br","onHoverDelay":"100","rateThrottle":"3"};
+</script>
+<script type="rocketlazyloadscript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://drapriscilacelles.com.br/wp-content/cache/min/1/wp-content/plugins/ooohboi-steroids-for-elementor/assets/js/ooohboi-steroids.js?ver=1725971435" id="ooohboi-steroids-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://drapriscilacelles.com.br/wp-content/plugins/creame-whatsapp-me/public/js/joinchat.min.js?ver=5.1.7" id="joinchat-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://drapriscilacelles.com.br/wp-content/uploads/wpmss/wpmssab.min.js?ver=1626039354" id="wpmssab-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://drapriscilacelles.com.br/wp-content/plugins/mousewheel-smooth-scroll/js/SmoothScroll.min.js?ver=1.4.10" id="SmoothScroll-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://drapriscilacelles.com.br/wp-content/uploads/wpmss/wpmss.min.js?ver=1626039354" id="wpmss-js" defer=""></script>
+<script id="wpfront-scroll-top-js-extra">
+var wpfront_scroll_top_data = {"data":{"css":"#wpfront-scroll-top-container{display:none;position:fixed;cursor:pointer;z-index:9999;opacity:0}#wpfront-scroll-top-container div.text-holder{padding:3px 10px;border-radius:3px;-webkit-border-radius:3px;-webkit-box-shadow:4px 4px 5px 0 rgba(50,50,50,.5);-moz-box-shadow:4px 4px 5px 0 rgba(50,50,50,.5);box-shadow:4px 4px 5px 0 rgba(50,50,50,.5)}#wpfront-scroll-top-container a{outline-style:none;box-shadow:none;text-decoration:none}#wpfront-scroll-top-container {left: 20px;bottom: 20px;}        #wpfront-scroll-top-container img {\n            width: auto;\n            height: auto;\n        }\n        ","html":"<div id=\"wpfront-scroll-top-container\"><img src=\"https:\/\/drapriscilacelles.com.br\/wp-content\/plugins\/wpfront-scroll-top\/images\/icons\/1.png\" alt=\"\" title=\"\" \/><\/div>","data":{"hide_iframe":false,"button_fade_duration":200,"auto_hide":false,"auto_hide_after":2,"scroll_offset":100,"button_opacity":0.8,"button_action":"top","button_action_element_selector":"","button_action_container_selector":"html, body","button_action_element_offset":"0","scroll_duration":400}}};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://drapriscilacelles.com.br/wp-content/plugins/wpfront-scroll-top/js/wpfront-scroll-top.min.js?ver=2.2.10081" id="wpfront-scroll-top-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://drapriscilacelles.com.br/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1" id="smartmenus-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://drapriscilacelles.com.br/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://drapriscilacelles.com.br/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.23.4" id="elementor-webpack-runtime-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://drapriscilacelles.com.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.23.4" id="elementor-frontend-modules-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://drapriscilacelles.com.br/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://drapriscilacelles.com.br/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js" defer=""></script>
+<script type="rocketlazyloadscript" id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Pr\u00f3ximo","close":"Fechar","a11yCarouselWrapperAriaLabel":"Carrossel | Rolagem horizontal: Setas para esquerda e direita","a11yCarouselPrevSlideMessage":"Slide anterior","a11yCarouselNextSlideMessage":"Pr\u00f3ximo slide","a11yCarouselFirstSlideMessage":"Este \u00e9 o primeiro slide","a11yCarouselLastSlideMessage":"Este \u00e9 o \u00faltimo slide","a11yCarouselPaginationBulletMessage":"Ir para o slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Dispositivos m\u00f3veis no modo retrato","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Dispositivos m\u00f3veis no modo paisagem","value":880,"default_value":880,"direction":"max","is_enabled":true},"tablet":{"label":"Tablet no modo retrato","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet no modo paisagem","value":1200,"default_value":1200,"direction":"max","is_enabled":true},"laptop":{"label":"Notebook","value":1366,"default_value":1366,"direction":"max","is_enabled":true},"widescreen":{"label":"Tela ampla (widescreen)","value":2400,"default_value":2400,"direction":"min","is_enabled":true}}},"version":"3.23.4","is_static":false,"experimentalFeatures":{"e_optimized_css_loading":true,"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"container_grid":true,"e_swiper_latest":true,"e_nested_atomic_repeaters":true,"e_onboarding":true,"theme_builder_v2":true,"home_screen":true,"ai-layout":true,"landing-pages":true,"e_lazyload":true,"display-conditions":true,"form-submissions":true,"taxonomy-filter":true},"urls":{"assets":"https:\/\/drapriscilacelles.com.br\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/drapriscilacelles.com.br\/wp-admin\/admin-ajax.php"},"nonces":{"floatingButtonsClickTracking":"28f481ece8"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_mobile_extra","viewport_tablet","viewport_tablet_extra","viewport_laptop","viewport_widescreen"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":10,"title":"Dra.%20Priscila%20Celles%20-%20Ginecologista%20e%20Rejuvenescimento%20%C3%8Dntimo","excerpt":"","featuredImage":false}};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://drapriscilacelles.com.br/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.23.4" id="elementor-frontend-js" defer=""></script>
+<script type="rocketlazyloadscript" id="elementor-frontend-js-after">window.addEventListener('DOMContentLoaded', function() {
+"use strict";!function(e,t){e(t).on("elementor/frontend/init",(function(){var t,i=elementorModules.frontend.handlers.Base;t=i.extend({onInit:function(){i.prototype.onInit.apply(this,arguments),this.isHarakiri()&&(this.$element.addClass("ob-harakiri"),"clip"===this.getElementSettings("_ob_harakiri_text_clip")&&this.updateCSS("add"))},isHarakiri:function(){return"yes"===this.getElementSettings("_ob_use_harakiri")},onElementChange:function(e){"_ob_harakiri_writing_mode"===e&&("inherit"!==this.getElementSettings("_ob_harakiri_writing_mode")?this.$element.addClass("ob-harakiri"):this.$element.removeClass("ob-harakiri")),"_ob_harakiri_text_clip"===e&&("clip"===this.getElementSettings("_ob_harakiri_text_clip")?this.updateCSS("add"):""===this.getElementSettings("_ob_harakiri_text_clip")&&this.updateCSS("remove"))},updateCSS:function(e){"add"===e&&this.$element.find(".elementor-heading-title").css("background-clip","text").css("-webkit-text-fill-color","transparent"),"remove"===e&&this.$element.find(".elementor-heading-title").css("background-clip","unset").css("-webkit-text-fill-color","unset")}});var n={"heading.default":t,"text-editor.default":t};e.each(n,(function(e,t){elementorFrontend.hooks.addAction("frontend/element_ready/"+e,(function(e){elementorFrontend.elementsHandler.addHandler(t,{$element:e})}))}))}))}(jQuery,window);
+"use strict";jQuery(window).on("elementor/frontend/init",(function(){var e;e=elementorModules.frontend.handlers.Base.extend({onInit:function(){elementorModules.frontend.handlers.Base.prototype.onInit.apply(this,arguments),this.isWidgetStalker()&&this.$element.addClass("ob-got-stalker")},isWidgetStalker:function(){return"yes"===this.getElementSettings("_ob_widget_stalker_use")},onElementChange:function(e){"_ob_widget_stalker_use"===e&&("yes"===this.getElementSettings("_ob_widget_stalker_use")?this.$element.addClass("ob-got-stalker"):this.$element.removeClass("ob-got-stalker"))}}),elementorFrontend.hooks.addAction("frontend/element_ready/widget",(function(t){elementorFrontend.elementsHandler.addHandler(e,{$element:t})}))}));
+"use strict";!function(e,n){e(n).on("elementor/frontend/init",(function(){var n,o;n=elementorModules.frontend.handlers.Base.extend({onInit:function(){elementorModules.frontend.handlers.Base.prototype.onInit.apply(this,arguments),this.isPseudo()&&this.$element.addClass("ob-is-pseudo")},isPseudo:function(){return"yes"===this.getElementSettings("_ob_column_has_pseudo")},onElementChange:function(e){"_ob_column_has_pseudo"===e&&("yes"===this.getElementSettings("_ob_column_has_pseudo")?this.$element.addClass("ob-is-pseudo"):this.$element.removeClass("ob-is-pseudo"))}}),o=elementorModules.frontend.handlers.Base.extend({onInit:function(){elementorModules.frontend.handlers.Base.prototype.onInit.apply(this,arguments),this.isPseudoContainer()&&(this.$element.addClass("ob-is-pseudo"),this.removePseudos(),this.runPseudos())},isPseudoContainer:function(){return"yes"===this.getElementSettings("_ob_column_has_pseudo")},onElementChange:function(e){"_ob_column_has_pseudo"===e&&("yes"===this.getElementSettings("_ob_column_has_pseudo")?(this.$element.addClass("ob-is-pseudo"),this.runPseudos()):(this.removePseudos(),this.$element.removeClass("ob-is-pseudo")))},runPseudos:function(){this.$element.children(".ob-pseudo-before").first().length||e("<div>",{class:"ob-pseudo-before"}).appendTo(this.$element),this.$element.children(".ob-pseudo-after").first().length||e("<div>",{class:"ob-pseudo-after"}).appendTo(this.$element)},removePseudos:function(){this.$element.children(".ob-pseudo-before").first().remove(),this.$element.children(".ob-pseudo-after").first().remove()}}),elementorFrontend.hooks.addAction("frontend/element_ready/column",(function(e){elementorFrontend.elementsHandler.addHandler(n,{$element:e})})),elementorFrontend.hooks.addAction("frontend/element_ready/container",(function(e){elementorFrontend.elementsHandler.addHandler(o,{$element:e})}))}))}(jQuery,window);
+'use strict';
+
+( function ( $, w ) {
+    
+    var $window = $( w ); 
+
+	function debounce(func, wait, immediate) {
+		var timeout;
+		return function() {
+			var context = this, args = arguments;
+			var later = function() {
+				timeout = null;
+				if (!immediate) func.apply(context, args);
+			};
+			var callNow = immediate && !timeout;
+			clearTimeout(timeout);
+			timeout = setTimeout(later, wait);
+			if (callNow) func.apply(context, args);
+		};
+	}
+
+    $window.on( 'elementor/frontend/init', function() {
+
+        var ModuleHandler = elementorModules.frontend.handlers.Base, 
+        HoverAnimator; 
+
+        HoverAnimator = ModuleHandler.extend( {
+
+            can_hover: window.matchMedia( '(hover: hover)' ).matches, 
+
+            onInit: function() {
+
+                ModuleHandler.prototype.onInit.apply( this, arguments );
+
+                if( this.isHoverAnimatorContainer() ) {
+                    this.$element.addClass( 'ob-is-hoveranimator' );
+                } 
+                if( this.isHoverAnimatorWidget() ) {
+
+                    if( ! this.isEdit && ! this.can_hover && 'yes' === this.getElementSettings( '_ob_allow_hoveranimator_touch' ) ) {
+                        this.$element.removeClass( 'ob-is-hoveranimal' ); 
+                        return;
+                    }
+
+                    this.$element.addClass( 'ob-is-hoveranimal' );
+                    this.run();
+                }
+
+            },
+
+            isHoverAnimatorContainer: function() {
+                return ( this.getElementSettings( '_ob_column_hoveranimator' ) === 'yes' );
+            }, 
+
+            isHoverAnimatorWidget: function() {
+                return ( this.getElementSettings( '_ob_allow_hoveranimator' ) === 'yes' );
+            }, 
+
+            onElementChange: function( changedProp ) {
+                /* Column / Container */
+                if( changedProp === '_ob_column_hoveranimator' ) { 
+                    if( 'yes' === this.getElementSettings( '_ob_column_hoveranimator' ) ) this.$element.addClass( 'ob-is-hoveranimator' ); 
+                    else this.$element.removeClass( 'ob-is-hoveranimator' );
+                } 
+                /* Widgets */
+                if( changedProp === '_ob_allow_hoveranimator' ) { 
+                    if( 'yes' === this.getElementSettings( '_ob_allow_hoveranimator' ) ) {
+                        this.$element.addClass( 'ob-is-hoveranimal' );
+                        this.run();
+                    } else this.$element.removeClass( 'ob-is-hoveranimal' );
+                } 
+                /* Widget props */
+                if( [ '_ob_hoveranimator_opacity_hover', '_ob_hoveranimator_y_hover', '_ob_hoveranimator_y_hover_alt', '_ob_hoveranimator_x_hover', '_ob_hoveranimator_x_hover_alt', '_ob_hoveranimator_rot_hover', '_ob_hoveranimator_scalex_hover', '_ob_hoveranimator_scaley_hover', '_ob_hoveranimator_blur_hover' ].indexOf( changedProp ) !== -1 ) {
+                    debounce( function() { 
+                        this.run();
+                    }, 500 );
+                }
+            }, 
+
+			runHoverAnimator: function() {
+
+                var myself = this.$element.find( '.elementor-widget-container' );
+
+                var parent_column = myself.parent().closest( '.ob-is-hoveranimator' );
+                if( parent_column.length ) {
+
+                    var top_alt, left_alt, text_node;
+                    var col_id  = parent_column.data( 'id' );
+
+                    var opacity = this.getElementSettings( '_ob_hoveranimator_opacity_hover' ) || 1; 
+                    var pos_y   = this.getElementSettings( '_ob_hoveranimator_y_hover' ) || 0; 
+                    var pos_y_alt = this.getElementSettings( '_ob_hoveranimator_y_hover_alt' ) || '';
+                    var pos_x   = this.getElementSettings( '_ob_hoveranimator_x_hover' ) || 0;
+                    var pos_x_alt = this.getElementSettings( '_ob_hoveranimator_x_hover_alt' ) || '';
+                    var rot     = this.getElementSettings( '_ob_hoveranimator_rot_hover' ) || 0;
+                    var scale_x = this.getElementSettings( '_ob_hoveranimator_scalex_hover' ) || 1;
+                    var scale_y = this.getElementSettings( '_ob_hoveranimator_scaley_hover' ) || 1;
+                    var blur    = this.getElementSettings( '_ob_hoveranimator_blur_hover' ) || 0; 
+
+                    // alt values chckpoint
+                    if( '' != $.trim( pos_x_alt ) && undefined !== pos_x_alt ) left_alt = 'calc(' + pos_x_alt + ')';
+                    else left_alt = pos_x.size + pos_x.unit;
+                    if( '' != $.trim( pos_y_alt ) && undefined !== pos_y_alt ) top_alt = 'calc(' + pos_y_alt + ')';
+                    else top_alt  = pos_y.size + pos_y.unit;
+
+                    var hover_css = {
+                        'opacity': opacity.size, 
+                        'top': top_alt, 
+                        'left': left_alt, 
+                        'transform': 'rotate(' + rot.size + 'deg) scaleX(' + scale_x.size + ') scaleY(' + scale_y.size + ')', 
+                        'filter': 'blur(' + blur.size + blur.unit + ')'
+                    };
+
+                    parent_column.on( 'mouseenter.' + col_id, function() {
+                        myself.css( hover_css );
+                    } );
+                    parent_column.on( 'mouseleave.' + col_id, function() {
+                        myself.removeAttr( 'style' );
+                    } );
+
+                }
+
+			},
+
+            run: function() {
+                if( this.isHoverAnimatorWidget() ) this.runHoverAnimator(); 
+            }, 
+
+        } );
+
+        var handlersList = {
+            'container': HoverAnimator, 
+            'column': HoverAnimator, 
+            'widget': HoverAnimator, 
+        };
+
+        $.each( handlersList, function( widgetName, handlerClass ) {
+            elementorFrontend.hooks.addAction( 'frontend/element_ready/' + widgetName, function( $scope ) {
+                elementorFrontend.elementsHandler.addHandler( handlerClass, { $element: $scope } );
+            } );
+        } );
+
+    } ); 
+
+
+} ( jQuery, window ) );
+});</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://drapriscilacelles.com.br/wp-content/cache/min/1/wp-content/plugins/ele-custom-skin-pro/assets/js/ecspro.js?ver=1725971435" id="ecspro-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://drapriscilacelles.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.23.3" id="elementor-pro-webpack-runtime-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://drapriscilacelles.com.br/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18" id="wp-hooks-js"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://drapriscilacelles.com.br/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="rocketlazyloadscript" id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type="rocketlazyloadscript" id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/drapriscilacelles.com.br\/wp-admin\/admin-ajax.php","nonce":"7729f4312c","urls":{"assets":"https:\/\/drapriscilacelles.com.br\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/drapriscilacelles.com.br\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"pt_BR","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/drapriscilacelles.com.br\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://drapriscilacelles.com.br/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.23.3" id="elementor-pro-frontend-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://drapriscilacelles.com.br/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.23.3" id="pro-elements-handlers-js" defer=""></script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async="" src="https://drapriscilacelles.com.br/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script><script>function lazyLoadThumb(e){var t='<img data-lazy-src="https://i.ytimg.com/vi_webp/ID/hqdefault.webp" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi_webp/ID/hqdefault.webp" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="play Youtube video"></button>';return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?'':'&'+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var e,t,p,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)e=document.createElement("div"),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query", a[t].dataset.query),e.setAttribute("data-src", a[t].dataset.src),e.innerHTML=lazyLoadThumb(a[t].dataset.id),a[t].appendChild(e),p=e.querySelector('.play'),p.onclick=lazyLoadYoutubeIframe});</script>
+<script>class RocketElementorAnimation{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode-wpr",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}_detectAnimations(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this._listAnimationSettingsKeys(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach(t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this._animateElement(t)}catch(t){}})}_animateElement(t){const e=JSON.parse(t.dataset.settings),i=e._animation_delay||e.animation_delay||0,n=e[this.animationSettingKeys.find(t=>e[t])];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let s=setTimeout(()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this._removeAnimationSettings(t,e)},i);window.addEventListener("rocket-startLoading",function(){clearTimeout(s)})}_listAnimationSettingsKeys(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach(t=>{e.forEach(e=>{i.push(t+e)})}),i}_removeAnimationSettings(t,e){this._listAnimationSettingsKeys().forEach(t=>delete e[t]),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorAnimation;requestAnimationFrame(t._detectAnimations.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorAnimation.run);</script>
+
+
+<span id="elementor-device-mode-wpr" class="elementor-screen-only"></span></body></html>

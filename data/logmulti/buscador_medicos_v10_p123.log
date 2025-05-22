@@ -1,0 +1,518 @@
+2025-05-22 02:36:38,243 - P17020 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 02:36:38,244 - P17020 - INFO - Nome: DANILO SILVA SENDEM
+2025-05-22 02:36:38,245 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 02:36:39,581 - P17020 - INFO - Após reiniciar driver Uso de memória: 120.02 MB
+2025-05-22 02:36:39,581 - P17020 - INFO - Início do processamento Uso de memória: 120.02 MB
+2025-05-22 02:36:39,581 - P17020 - INFO - Iniciando busca para: DANILO SILVA SENDEM CRM 1219960 RJ telefone e-mail endereço
+2025-05-22 02:36:40,212 - P17020 - INFO - SearX results: 0 URLs
+2025-05-22 02:36:40,212 - P17020 - INFO - Após SearX Uso de memória: 120.02 MB
+2025-05-22 02:36:42,799 - P17020 - INFO - Google results: 0 URLs
+2025-05-22 02:36:42,799 - P17020 - INFO - Após Google Uso de memória: 122.30 MB
+2025-05-22 02:36:45,465 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 02:36:45,465 - P17020 - INFO - Após Bing Uso de memória: 124.62 MB
+2025-05-22 02:36:45,465 - P17020 - INFO - Total de URLs únicas: 10
+2025-05-22 02:36:45,465 - P17020 - INFO - Processando URL 1/10: https://consultacrm.com.br/
+2025-05-22 02:36:49,747 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:36:49,759 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:36:49,760 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:36:49,760 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:36:49,760 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:36:49,760 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:36:49,761 - P17020 - INFO - Após processar URL 1 Uso de memória: 125.72 MB
+2025-05-22 02:36:49,761 - P17020 - INFO - Processando URL 2/10: https://sistemacremerj.com.br/crmonline/SifaOnLineServicosPublicosAction.do?metodo=servicoPublicoProfissionais
+2025-05-22 02:36:54,169 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\00ef532bee75671887e028b1935f98b3.html
+2025-05-22 02:36:54,191 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:36:54,193 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:36:54,194 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:36:54,194 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:36:54,194 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:36:54,195 - P17020 - INFO - Após processar URL 2 Uso de memória: 126.07 MB
+2025-05-22 02:36:54,195 - P17020 - INFO - Processando URL 3/10: https://www.cremerj.org.br/
+2025-05-22 02:36:57,169 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\57d5b230cbdcf7d719e9b2b2f238c4f1.html
+2025-05-22 02:36:57,261 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:36:57,283 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:36:57,284 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:36:57,289 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:36:57,294 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 02:36:57,295 - P17020 - INFO - Após processar URL 3 Uso de memória: 126.23 MB
+2025-05-22 02:36:57,295 - P17020 - INFO - Processando URL 4/10: https://portal.cremerj.org.br/busca-medicos
+2025-05-22 02:37:01,057 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ab6f68f41af4828372f06cf31ba7acaa.html
+2025-05-22 02:37:01,101 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:37:01,102 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:37:01,102 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:37:01,102 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:01,104 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 02:37:01,104 - P17020 - INFO - Após processar URL 4 Uso de memória: 126.61 MB
+2025-05-22 02:37:01,105 - P17020 - INFO - Processando URL 5/10: https://cnpj.biz/42976898000188
+2025-05-22 02:37:05,862 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\00461b6ba3e7f8c10017ae5e28316f30.html
+2025-05-22 02:37:05,878 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 02:37:05,878 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:37:05,879 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:37:05,879 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:05,879 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:37:05,880 - P17020 - INFO - Após processar URL 5 Uso de memória: 126.67 MB
+2025-05-22 02:37:05,880 - P17020 - INFO - Processando URL 6/10: http://www.transparencia.cremerj.org.br:8098/planejamento/registroMedico/pesquisar
+2025-05-22 02:37:07,971 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\19128e1d0b16c1bd37c280ce751655f7.html
+2025-05-22 02:37:07,992 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:37:07,992 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:37:07,993 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:37:07,993 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:07,993 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:37:07,993 - P17020 - INFO - Após processar URL 6 Uso de memória: 126.68 MB
+2025-05-22 02:37:07,994 - P17020 - INFO - Processando URL 7/10: https://www.consultacrm.com.br/index/medicos/uid-81f4e492-f5c5-11ec-9e74-0a4aa568c625/jose_danilo_da_silva_rangel
+2025-05-22 02:37:13,008 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2b95251c9535b416babeba3f33234300.html
+2025-05-22 02:37:13,019 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:37:13,019 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:13,019 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:37:13,019 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:13,019 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:13,020 - P17020 - INFO - Após processar URL 7 Uso de memória: 126.77 MB
+2025-05-22 02:37:13,020 - P17020 - INFO - Processando URL 8/10: https://doutorcrm.com/jose-danilo-da-silva-rangel
+2025-05-22 02:37:17,810 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\61b1d04b429fcb444323edf2e2c7e8fc.html
+2025-05-22 02:37:17,818 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:37:17,818 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:17,819 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:37:17,819 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:17,819 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:37:17,819 - P17020 - INFO - Após processar URL 8 Uso de memória: 126.83 MB
+2025-05-22 02:37:17,819 - P17020 - INFO - Processando URL 9/10: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 02:37:21,540 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 02:37:21,588 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:37:21,604 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:21,604 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:37:21,608 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:21,609 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:21,611 - P17020 - INFO - Após processar URL 9 Uso de memória: 126.83 MB
+2025-05-22 02:37:21,613 - P17020 - INFO - Processando URL 10/10: https://applocal.com.br/empresa/escritorio-dr-danilo-da-silva/rio-de-janeiro/rj/9991766
+2025-05-22 02:37:27,142 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\418887c3e16d0944c50f639e52074e02.html
+2025-05-22 02:37:27,187 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:37:27,188 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:27,188 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:37:27,188 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:27,188 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:27,188 - P17020 - INFO - Após processar URL 10 Uso de memória: 126.83 MB
+2025-05-22 02:37:27,188 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:37:27,188 - P17020 - INFO - Ranked address: 4 items
+2025-05-22 02:37:27,189 - P17020 - INFO - Ranked phone: 3 items
+2025-05-22 02:37:27,189 - P17020 - INFO - Ranked email: 1 items
+2025-05-22 02:37:27,189 - P17020 - INFO - Ranked complement: 0 items
+2025-05-22 02:37:27,189 - P17020 - INFO - Ranked cep: 6 items
+2025-05-22 02:37:27,189 - P17020 - INFO - Após agregação Uso de memória: 126.83 MB
+2025-05-22 02:37:27,189 - P17020 - INFO - Validando endereço: ['Rua Alegria de Nubia , 0', 'Rua Alegria de Nubia  0 Casa Lote 7 Quadra G Santissimo Rio de Janeiro RJ', 'Rua Treze de Maio, 269']
+2025-05-22 02:37:27,190 - P17020 - INFO - Endereço validado: Rua Alegria de Nubia , 0
+2025-05-22 02:37:27,190 - P17020 - INFO - Limpando texto extenso para campo address: Rua Alegria de Nubia , 0...
+2025-05-22 02:37:27,190 - P17020 - INFO - Texto limpo: Rua Alegria de Nubia , 0
+2025-05-22 02:37:27,190 - P17020 - INFO - Validando telefone: ['(21) 3184-7050', '(21) 98491-1522', '(21) 3408-3831']
+2025-05-22 02:37:27,190 - P17020 - INFO - Limpando texto extenso para campo phone: (21) 3184-7050...
+2025-05-22 02:37:27,190 - P17020 - INFO - Texto limpo: 21) 3184-7050
+2025-05-22 02:37:27,191 - P17020 - INFO - Telefone validado: 21) 3184-7050
+2025-05-22 02:37:27,191 - P17020 - INFO - Validando email: ['danilomendonca989@gmail.com']
+2025-05-22 02:37:27,191 - P17020 - INFO - Limpando texto extenso para campo email: danilomendonca989@gmail.com...
+2025-05-22 02:37:27,191 - P17020 - INFO - Texto limpo: danilomendonca989@gmail.com
+2025-05-22 02:37:27,191 - P17020 - INFO - Email validado: danilomendonca989@gmail.com
+2025-05-22 02:37:27,191 - P17020 - INFO - Descobrindo cidade
+2025-05-22 02:37:27,192 - P17020 - INFO - Buscando cidade: Rua Alegria de Nubia cidade RJ
+2025-05-22 02:37:29,900 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 02:37:29,901 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 02:37:29,902 - P17020 - INFO - Tempo de execução de processamento completo do médico: 50.32 segundos
+2025-05-22 02:37:29,902 - P17020 - INFO - Resultado processado: {'Hash': '316426a2ecc1401f0a67697985b7562d2b9119c094407ae8568fff61ec49016d', 'CRM': '1219960', 'UF': 'RJ', 'Firstname': 'DANILO', 'LastName': 'SILVA SENDEM', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Alegria de Nubia , 0', 'Address A1': 'Rua Alegria de Nubia', 'Numero A1': '0', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '21) 3184-7050', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'danilomendonca989@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:37:29,904 - P17020 - INFO - Progresso: 30.0%
+2025-05-22 02:37:29,904 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 02:37:29,944 - P17020 - INFO - Após coleta de lixo Uso de memória: 125.03 MB
+2025-05-22 02:37:29,945 - P17020 - INFO - Tempo de execução de processamento do médico 1: 51.70 segundos
+2025-05-22 02:37:29,945 - P17020 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 02:37:29,946 - P17020 - INFO - Nome: JULIANA POETA DE MENDONÇA COSTA
+2025-05-22 02:37:29,947 - P17020 - INFO - Início do processamento Uso de memória: 125.03 MB
+2025-05-22 02:37:29,947 - P17020 - INFO - Iniciando busca para: JULIANA POETA DE MENDONÇA COSTA CRM 1221639 RJ telefone e-mail endereço
+2025-05-22 02:37:30,455 - P17020 - INFO - SearX results: 0 URLs
+2025-05-22 02:37:30,456 - P17020 - INFO - Após SearX Uso de memória: 125.03 MB
+2025-05-22 02:37:33,681 - P17020 - INFO - Google results: 8 URLs
+2025-05-22 02:37:33,681 - P17020 - INFO - Após Google Uso de memória: 129.22 MB
+2025-05-22 02:37:36,206 - P17020 - INFO - Bing results: 9 URLs
+2025-05-22 02:37:36,206 - P17020 - INFO - Após Bing Uso de memória: 130.01 MB
+2025-05-22 02:37:36,206 - P17020 - INFO - Total de URLs únicas: 17
+2025-05-22 02:37:36,206 - P17020 - INFO - Processando URL 1/17: https://consultacrm.com.br/
+2025-05-22 02:37:39,789 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:37:39,801 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:37:39,801 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:39,801 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:37:39,801 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:39,801 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:39,802 - P17020 - INFO - Após processar URL 1 Uso de memória: 130.01 MB
+2025-05-22 02:37:39,802 - P17020 - INFO - Processando URL 2/17: https://www.doctoralia.com.br/juliana-baptista/ginecologista-especialista-em-diagnostico-por-imagem/rio-de-janeiro
+2025-05-22 02:37:39,802 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/juliana-baptista/ginecologista-especialista-em-diagnostico-por-imagem/rio-de-janeiro
+2025-05-22 02:37:39,802 - P17020 - INFO - Após processar URL 2 Uso de memória: 130.01 MB
+2025-05-22 02:37:39,802 - P17020 - INFO - Processando URL 3/17: https://cnpj.services/qsa/juliana-poeta-de-mendonca-costa
+2025-05-22 02:37:42,715 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6cb81c6f9d2e3e200b0ec2986a71f81a.html
+2025-05-22 02:37:42,731 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:37:42,731 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:42,731 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:37:42,731 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:42,732 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:37:42,732 - P17020 - INFO - Após processar URL 3 Uso de memória: 130.09 MB
+2025-05-22 02:37:42,733 - P17020 - INFO - Processando URL 4/17: http://drajulianavmendonca.com.br/
+2025-05-22 02:37:49,814 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7fdf77535979d6eabc03ed987c8e9ae1.html
+2025-05-22 02:37:49,844 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:37:49,844 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:37:49,844 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:37:49,845 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:49,846 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:37:49,846 - P17020 - INFO - Após processar URL 4 Uso de memória: 130.09 MB
+2025-05-22 02:37:49,846 - P17020 - INFO - Processando URL 5/17: https://drajulianavmendonca.com.br/
+2025-05-22 02:37:53,189 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\0b07132873b73be2e778d40d74504b8a.html
+2025-05-22 02:37:53,222 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:37:53,222 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:37:53,222 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:37:53,222 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:53,223 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:37:53,223 - P17020 - INFO - Após processar URL 5 Uso de memória: 130.09 MB
+2025-05-22 02:37:53,223 - P17020 - INFO - Processando URL 6/17: https://www.doctoralia.com.br/juliana-baptista/ginecologista-especialista-em-diagnostico-por-imagem/rio-de-janeiro?prevent-patient-app-banner=true&utm_source=google&utm_medium=gmb&utm_campaign=812672&utm_content=book_visit&hl=pt-BR&gei=nrguaJS0MJ731sQP277fuQw&rwg_token=AAiGsobLRVIBkxkiAnn8snqx2_ZyWgXLW4Bb8NgOt_LVbkfR_nC_bcEpjE7jhB64NBePx8J9-zdxRlHjdiKSvSqoAAHyxVQPKQ%3D%3D&source=cat#highlight-calendar
+2025-05-22 02:37:53,223 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/juliana-baptista/ginecologista-especialista-em-diagnostico-por-imagem/rio-de-janeiro?prevent-patient-app-banner=true&utm_source=google&utm_medium=gmb&utm_campaign=812672&utm_content=book_visit&hl=pt-BR&gei=nrguaJS0MJ731sQP277fuQw&rwg_token=AAiGsobLRVIBkxkiAnn8snqx2_ZyWgXLW4Bb8NgOt_LVbkfR_nC_bcEpjE7jhB64NBePx8J9-zdxRlHjdiKSvSqoAAHyxVQPKQ%3D%3D&source=cat#highlight-calendar
+2025-05-22 02:37:53,224 - P17020 - INFO - Após processar URL 6 Uso de memória: 130.09 MB
+2025-05-22 02:37:53,224 - P17020 - INFO - Processando URL 7/17: https://www.econodata.com.br/consulta-empresa/47398453000181-JULIANA-POETA-SERVICOS-MEDICOS-LTDA
+2025-05-22 02:37:58,606 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\357d24c6e18d9dedbe515ab3a8842077.html
+2025-05-22 02:37:58,736 - P17020 - INFO - Candidates address: 23 items
+2025-05-22 02:37:58,737 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:58,737 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:37:58,737 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 02:37:58,737 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:37:58,737 - P17020 - INFO - Após processar URL 7 Uso de memória: 131.86 MB
+2025-05-22 02:37:58,738 - P17020 - INFO - Processando URL 8/17: https://cnpj.parafa.com.br/public/rio-de-janeiro-rj/47398453000181
+2025-05-22 02:38:28,753 - P17020 - ERROR - Erro ao baixar HTML de https://cnpj.parafa.com.br/public/rio-de-janeiro-rj/47398453000181: Message: timeout: Timed out receiving message from renderer: -0.012
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7573F64EC]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F483F]
+	(No symbol) [0x00007FF7574033AE]
+	(No symbol) [0x00007FF7574197E1]
+	(No symbol) [0x00007FF75742091A]
+	(No symbol) [0x00007FF7573F4FAD]
+	(No symbol) [0x00007FF7574194D0]
+	(No symbol) [0x00007FF7574AF276]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 02:38:28,756 - P17020 - INFO - Após processar URL 8 Uso de memória: 131.03 MB
+2025-05-22 02:38:28,756 - P17020 - INFO - Processando URL 9/17: https://cnpj.services/47398453000181/juliana-poeta-servicos-medicos-ltda
+2025-05-22 02:38:31,654 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\1a5ce58bce1c3aa6f6cff7be93a1ec7a.html
+2025-05-22 02:38:31,663 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:38:31,663 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:38:31,663 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:38:31,663 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:38:31,664 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:38:31,664 - P17020 - INFO - Após processar URL 9 Uso de memória: 131.03 MB
+2025-05-22 02:38:31,664 - P17020 - INFO - Processando URL 10/17: https://www.doctoralia.com.br/juliana-lopes-do-vale/mastologista/rio-de-janeiro
+2025-05-22 02:38:31,664 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/juliana-lopes-do-vale/mastologista/rio-de-janeiro
+2025-05-22 02:38:31,665 - P17020 - INFO - Após processar URL 10 Uso de memória: 131.03 MB
+2025-05-22 02:38:31,665 - P17020 - INFO - Processando URL 11/17: https://www.solutudo.com.br/empresas/rj/rio-janeiro/medicos/juliana-poeta-servicos-medicos-ltda-25392419
+2025-05-22 02:38:38,865 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\0564d6b4e4d8ce8d1b8b4788243772fa.html
+2025-05-22 02:38:38,908 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:38:38,908 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:38:38,908 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:38:38,908 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:38:38,909 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:38:38,909 - P17020 - INFO - Após processar URL 11 Uso de memória: 131.03 MB
+2025-05-22 02:38:38,909 - P17020 - INFO - Processando URL 12/17: https://consultas.plus/lista-de-empresas/rio-de-janeiro/rio-de-janeiro/47398453000181-juliana-poeta-servicos-medicos-ltda/
+2025-05-22 02:38:42,805 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\fd802e63efed5a45500e65a19627c2bf.html
+2025-05-22 02:38:42,825 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:38:42,826 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:38:42,826 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:38:42,826 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 02:38:42,827 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:38:42,827 - P17020 - INFO - Após processar URL 12 Uso de memória: 131.04 MB
+2025-05-22 02:38:42,827 - P17020 - INFO - Processando URL 13/17: http://www.transparencia.cremerj.org.br:8098/planejamento/registroMedico/pesquisar
+2025-05-22 02:38:45,125 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\19128e1d0b16c1bd37c280ce751655f7.html
+2025-05-22 02:38:45,155 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:38:45,155 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:38:45,155 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:38:45,155 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:38:45,156 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:38:45,156 - P17020 - INFO - Após processar URL 13 Uso de memória: 131.04 MB
+2025-05-22 02:38:45,156 - P17020 - INFO - Processando URL 14/17: https://www.medguias.com.br/public/rj/niteroi/medicina/ginecologia-e-obstetricia/dra-juliana-mendonca
+2025-05-22 02:38:49,965 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\05c29607977768668f83445a0d4e0736.html
+2025-05-22 02:38:50,029 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:38:50,029 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:38:50,030 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:38:50,030 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 02:38:50,030 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:38:50,031 - P17020 - INFO - Após processar URL 14 Uso de memória: 131.05 MB
+2025-05-22 02:38:50,031 - P17020 - INFO - Processando URL 15/17: https://www.doctoralia.com.br/juliana-lopes-do-vale/mastologista/rio-de-janeiro?prevent-patient-app-banner=true&utm_source=google&utm_medium=gmb&utm_campaign=416226&utm_content=book_visit&hl=pt-BR&gei=nrguaJS0MJ731sQP277fuQw&rwg_token=AAiGsobXEy0Y1chu6wc2A8hwu8gkGx92EMds4gTuHG3MgbCdOIAff5swNGz5Yn0nHQIL2U_5fRSN89lNFk_DvfhKQU7lsjTrCg%3D%3D&source=cat#highlight-calendar
+2025-05-22 02:38:50,034 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/juliana-lopes-do-vale/mastologista/rio-de-janeiro?prevent-patient-app-banner=true&utm_source=google&utm_medium=gmb&utm_campaign=416226&utm_content=book_visit&hl=pt-BR&gei=nrguaJS0MJ731sQP277fuQw&rwg_token=AAiGsobXEy0Y1chu6wc2A8hwu8gkGx92EMds4gTuHG3MgbCdOIAff5swNGz5Yn0nHQIL2U_5fRSN89lNFk_DvfhKQU7lsjTrCg%3D%3D&source=cat#highlight-calendar
+2025-05-22 02:38:50,036 - P17020 - INFO - Após processar URL 15 Uso de memória: 131.05 MB
+2025-05-22 02:38:50,036 - P17020 - INFO - Processando URL 16/17: https://empresasweb.net/emp/juliana-poeta-servicos-medicos-ltda-47398453
+2025-05-22 02:38:53,138 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6faa47534bc4202f1fab751143b36b94.html
+2025-05-22 02:38:53,149 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:38:53,150 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:38:53,150 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:38:53,150 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 02:38:53,150 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:38:53,150 - P17020 - INFO - Após processar URL 16 Uso de memória: 131.05 MB
+2025-05-22 02:38:53,151 - P17020 - INFO - Processando URL 17/17: https://www.medguias.com.br/mt/cuiaba/medicina/dermatologia/juliana-mendonca
+2025-05-22 02:38:57,340 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6d430e4067ed2171f03d56c0dcdb6153.html
+2025-05-22 02:38:57,387 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:38:57,387 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:38:57,388 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:38:57,388 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 02:38:57,388 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:38:57,388 - P17020 - INFO - Após processar URL 17 Uso de memória: 131.05 MB
+2025-05-22 02:38:57,388 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:38:57,388 - P17020 - INFO - Ranked address: 26 items
+2025-05-22 02:38:57,388 - P17020 - INFO - Ranked phone: 6 items
+2025-05-22 02:38:57,389 - P17020 - INFO - Ranked email: 4 items
+2025-05-22 02:38:57,389 - P17020 - INFO - Ranked complement: 6 items
+2025-05-22 02:38:57,389 - P17020 - INFO - Ranked cep: 7 items
+2025-05-22 02:38:57,389 - P17020 - INFO - Após agregação Uso de memória: 131.05 MB
+2025-05-22 02:38:57,389 - P17020 - INFO - Validando endereço: ['Rua Gavião Peixoto, 182', 'Rua Marques de Queluz, 100', 'Rua Marcionilio Saraiva da Fonseca, 93']
+2025-05-22 02:38:57,389 - P17020 - INFO - Endereço validado: Rua Gavião Peixoto, 182
+2025-05-22 02:38:57,390 - P17020 - INFO - Limpando texto extenso para campo address: Rua Gavião Peixoto, 182...
+2025-05-22 02:38:57,390 - P17020 - INFO - Texto limpo: Rua Gavião Peixoto, 182
+2025-05-22 02:38:57,390 - P17020 - INFO - Validando telefone: ['(21) 99532-4428', '(21) 6995-5635', '(21) 3184-7050']
+2025-05-22 02:38:57,390 - P17020 - INFO - Limpando texto extenso para campo phone: (21) 99532-4428...
+2025-05-22 02:38:57,390 - P17020 - INFO - Texto limpo: 21) 99532-4428
+2025-05-22 02:38:57,390 - P17020 - INFO - Telefone validado: 21) 99532-4428
+2025-05-22 02:38:57,390 - P17020 - INFO - Validando email: ['drajulianavmendonca@gmail.com', 'julianapoeta@gmail.com', 'a@gmail.com']
+2025-05-22 02:38:57,391 - P17020 - INFO - Limpando texto extenso para campo email: drajulianavmendonca@gmail.com...
+2025-05-22 02:38:57,391 - P17020 - INFO - Texto limpo: drajulianavmendonca@gmail.com
+2025-05-22 02:38:57,391 - P17020 - INFO - Email validado: drajulianavmendonca@gmail.com
+2025-05-22 02:38:57,391 - P17020 - INFO - Validando complemento: ['Apt 204 Bairro: Iraja Município/UF: Rio de Janeiro', 'Apt 204 - Iraja', 'Apt 204 ']
+2025-05-22 02:38:57,391 - P17020 - INFO - Limpando texto extenso para campo complement: Apt 204 Bairro: Iraja Município/UF: Rio de Janeiro...
+2025-05-22 02:38:57,391 - P17020 - INFO - Texto limpo: Apt 204 Bairro: Iraja Municípi
+2025-05-22 02:38:57,391 - P17020 - INFO - Complemento validado: Apt 204 Bairro: Iraja Municípi
+2025-05-22 02:38:57,391 - P17020 - INFO - Descobrindo cidade
+2025-05-22 02:38:57,392 - P17020 - INFO - Buscando cidade: Rua Gavião Peixoto cidade RJ
+2025-05-22 02:39:00,275 - P17020 - INFO - Cidade encontrada: Niterói
+2025-05-22 02:39:00,277 - P17020 - INFO - Limpando texto extenso para campo city: Niterói...
+2025-05-22 02:39:00,277 - P17020 - INFO - Texto limpo: Niterói
+2025-05-22 02:39:00,278 - P17020 - INFO - Cidade descoberta: Niterói
+2025-05-22 02:39:00,279 - P17020 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 02:39:00,279 - P17020 - INFO - Iniciando busca de CEP em cascata para: Rua Gavião Peixoto, Niterói, RJ
+2025-05-22 02:39:00,280 - P17020 - INFO - Método 1: ViaCEP API
+2025-05-22 02:39:00,280 - P17020 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/RJ/niteroi/rua%20gaviao%20peixoto/json/
+2025-05-22 02:39:00,941 - P17020 - INFO - Dados encontrados no ViaCEP: {'cep': '24230-090', 'logradouro': 'Rua Gavião Peixoto', 'complemento': 'até 87 - lado ímpar', 'unidade': '', 'bairro': 'Icaraí', 'localidade': 'Niterói', 'uf': 'RJ', 'estado': 'Rio de Janeiro', 'regiao': 'Sudeste', 'ibge': '3303302', 'gia': '', 'ddd': '21', 'siafi': '5865'}
+2025-05-22 02:39:00,943 - P17020 - INFO - CEP encontrado via ViaCEP: 24230-090
+2025-05-22 02:39:00,943 - P17020 - INFO - Dados de CEP encontrados: {'cep': '24230-090', 'logradouro': 'Rua Gavião Peixoto', 'complemento': 'até 87 - lado ímpar', 'unidade': '', 'bairro': 'Icaraí', 'localidade': 'Niterói', 'uf': 'RJ', 'estado': 'Rio de Janeiro', 'regiao': 'Sudeste', 'ibge': '3303302', 'gia': '', 'ddd': '21', 'siafi': '5865'}
+2025-05-22 02:39:00,944 - P17020 - INFO - Limpando texto extenso para campo bairro: Icaraí...
+2025-05-22 02:39:00,944 - P17020 - INFO - Texto limpo: Icaraí
+2025-05-22 02:39:00,944 - P17020 - INFO - Limpando texto extenso para campo city: Niterói...
+2025-05-22 02:39:00,944 - P17020 - INFO - Texto limpo: Niterói
+2025-05-22 02:39:00,944 - P17020 - INFO - Limpando texto extenso para campo state: RJ...
+2025-05-22 02:39:00,944 - P17020 - INFO - Texto limpo: RJ
+2025-05-22 02:39:00,944 - P17020 - INFO - Tempo de execução de processamento completo do médico: 91.00 segundos
+2025-05-22 02:39:00,945 - P17020 - INFO - Resultado processado: {'Hash': 'd8fc0cdcd8dfcbb04565fb858c9cac2178978b515b70f3f33cace9efa1d5c9cd', 'CRM': '1221639', 'UF': 'RJ', 'Firstname': 'JULIANA', 'LastName': 'POETA DE MENDONÇA COSTA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Gavião Peixoto, 182', 'Address A1': 'Rua Gavião Peixoto', 'Numero A1': '182', 'Complement A1': 'Apt 204 Bairro: Iraja Municípi', 'Bairro A1': 'Icaraí', 'postal code A1': '24230-090', 'City A1': 'Niterói', 'State A1': 'RJ', 'Phone A1': '21) 99532-4428', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'drajulianavmendonca@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:39:00,945 - P17020 - INFO - Progresso: 30.7%
+2025-05-22 02:39:00,946 - P17020 - INFO - Tempo de execução de processamento do médico 2: 91.00 segundos
+2025-05-22 02:39:00,946 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 02:39:00,946 - P17020 - INFO - Nome: ANA PAULA DE SOUZA LIMA
+2025-05-22 02:39:00,946 - P17020 - INFO - Início do processamento Uso de memória: 126.16 MB
+2025-05-22 02:39:00,946 - P17020 - INFO - Iniciando busca para: ANA PAULA DE SOUZA LIMA CRM 1222791 RJ telefone e-mail endereço
+2025-05-22 02:39:01,256 - P17020 - INFO - SearX results: 0 URLs
+2025-05-22 02:39:01,256 - P17020 - INFO - Após SearX Uso de memória: 126.16 MB
+2025-05-22 02:39:03,738 - P17020 - INFO - Google results: 4 URLs
+2025-05-22 02:39:03,739 - P17020 - INFO - Após Google Uso de memória: 127.25 MB
+2025-05-22 02:39:06,315 - P17020 - INFO - Bing results: 15 URLs
+2025-05-22 02:39:06,315 - P17020 - INFO - Após Bing Uso de memória: 128.04 MB
+2025-05-22 02:39:06,318 - P17020 - INFO - Total de URLs únicas: 19
+2025-05-22 02:39:06,318 - P17020 - INFO - Processando URL 1/19: https://www.camara.leg.br/deputados/220556/biografia
+2025-05-22 02:39:09,309 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\53d0fa799b1e61408c49d2a4bc6cc077.html
+2025-05-22 02:39:09,331 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:39:09,332 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:39:09,332 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:39:09,332 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:09,333 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:39:09,333 - P17020 - INFO - Após processar URL 1 Uso de memória: 128.04 MB
+2025-05-22 02:39:09,333 - P17020 - INFO - Processando URL 2/19: https://www.medicosbrasil.com/profissional/ana-paula-de-souza-lima
+2025-05-22 02:39:12,988 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\be43aebcafc68df73aed9486ae5f29f8.html
+2025-05-22 02:39:13,005 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:39:13,005 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:39:13,005 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:39:13,006 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:13,006 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:39:13,006 - P17020 - INFO - Após processar URL 2 Uso de memória: 128.04 MB
+2025-05-22 02:39:13,006 - P17020 - INFO - Processando URL 3/19: https://www.camara.leg.br/deputados/220556?ano=2024
+2025-05-22 02:39:15,862 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3e5afe00a3a01636db2e23043a10c81b.html
+2025-05-22 02:39:15,926 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:39:15,933 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:39:15,934 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:39:15,935 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:15,936 - P17020 - INFO - Candidates cep: 14 items
+2025-05-22 02:39:15,937 - P17020 - INFO - Após processar URL 3 Uso de memória: 128.05 MB
+2025-05-22 02:39:15,939 - P17020 - INFO - Processando URL 4/19: https://consultacrm.com.br/
+2025-05-22 02:39:19,369 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:39:19,382 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:39:19,383 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:39:19,383 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:39:19,384 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:19,384 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:39:19,384 - P17020 - INFO - Após processar URL 4 Uso de memória: 128.05 MB
+2025-05-22 02:39:19,385 - P17020 - INFO - Processando URL 5/19: https://www.consultacrm.com.br/index/especialidades
+2025-05-22 02:39:22,872 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3cb327d5e0f962fa7a1db5a948fb6f40.html
+2025-05-22 02:39:22,984 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:39:22,985 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:39:22,985 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:39:22,985 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:22,985 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:39:22,986 - P17020 - INFO - Após processar URL 5 Uso de memória: 128.71 MB
+2025-05-22 02:39:22,986 - P17020 - INFO - Processando URL 6/19: https://www.cremerj.org.br/
+2025-05-22 02:39:25,860 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\57d5b230cbdcf7d719e9b2b2f238c4f1.html
+2025-05-22 02:39:25,921 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:39:25,921 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:39:25,921 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:39:25,921 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:25,921 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 02:39:25,922 - P17020 - INFO - Após processar URL 6 Uso de memória: 128.71 MB
+2025-05-22 02:39:25,922 - P17020 - INFO - Processando URL 7/19: https://www.camara.leg.br/deputados/220556
+2025-05-22 02:39:28,520 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4c293178f584cc99c8ee39fc1e720028.html
+2025-05-22 02:39:28,565 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:39:28,565 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:39:28,565 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:39:28,566 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:28,566 - P17020 - INFO - Candidates cep: 6 items
+2025-05-22 02:39:28,566 - P17020 - INFO - Após processar URL 7 Uso de memória: 128.75 MB
+2025-05-22 02:39:28,566 - P17020 - INFO - Processando URL 8/19: https://www.consultacrm.com.br/?uf=SP
+2025-05-22 02:39:31,978 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\60d20285cf74ceed0f862951f9b2b598.html
+2025-05-22 02:39:31,988 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:39:31,989 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:39:31,989 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:39:31,989 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:31,989 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:39:31,989 - P17020 - INFO - Após processar URL 8 Uso de memória: 128.75 MB
+2025-05-22 02:39:31,989 - P17020 - INFO - Processando URL 9/19: https://www.consultacrm.com.br/index/medicos/uid-91307f6d-f5c5-11ec-9e74-0a4aa568c625/ana_paula_lima_soares
+2025-05-22 02:39:36,193 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f86400abc89638ff952be330649523b0.html
+2025-05-22 02:39:36,203 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:39:36,203 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:39:36,203 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:39:36,204 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:36,204 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:39:36,204 - P17020 - INFO - Após processar URL 9 Uso de memória: 128.77 MB
+2025-05-22 02:39:36,204 - P17020 - INFO - Processando URL 10/19: https://portal.cremerj.org.br/busca-medicos
+2025-05-22 02:39:39,630 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ab6f68f41af4828372f06cf31ba7acaa.html
+2025-05-22 02:39:39,689 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:39:39,689 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:39:39,690 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:39:39,690 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:39,690 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 02:39:39,691 - P17020 - INFO - Após processar URL 10 Uso de memória: 128.77 MB
+2025-05-22 02:39:39,691 - P17020 - INFO - Processando URL 11/19: https://www.escavador.com/sobre/8591500/ana-paula-de-souza-lima
+2025-05-22 02:39:44,054 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\361b02473f9c655ea47473c7dc915720.html
+2025-05-22 02:39:44,070 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:39:44,071 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:39:44,071 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:39:44,071 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:44,071 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:39:44,071 - P17020 - INFO - Após processar URL 11 Uso de memória: 128.77 MB
+2025-05-22 02:39:44,071 - P17020 - INFO - Processando URL 12/19: https://www.consultacrm.com.br/index/contato
+2025-05-22 02:39:47,142 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\770622092e11df0ef8d0ed5d383f74a3.html
+2025-05-22 02:39:47,153 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:39:47,154 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:39:47,154 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:39:47,154 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:47,154 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:39:47,154 - P17020 - INFO - Após processar URL 12 Uso de memória: 128.78 MB
+2025-05-22 02:39:47,154 - P17020 - INFO - Processando URL 13/19: https://www.consultacrm.com.br/index/maisvistos
+2025-05-22 02:39:50,957 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\9a17d88beef1266c6e4649221409a571.html
+2025-05-22 02:39:50,968 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:39:50,969 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:39:50,969 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:39:50,969 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:50,969 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:39:50,970 - P17020 - INFO - Após processar URL 13 Uso de memória: 128.78 MB
+2025-05-22 02:39:50,970 - P17020 - INFO - Processando URL 14/19: https://cnpj.biz/47091532000145
+2025-05-22 02:39:53,198 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\19ef39121c93a69aeb538ca3957a0494.html
+2025-05-22 02:39:53,201 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:39:53,201 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:39:53,201 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:39:53,201 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:53,201 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:39:53,201 - P17020 - INFO - Após processar URL 14 Uso de memória: 128.78 MB
+2025-05-22 02:39:53,201 - P17020 - INFO - Processando URL 15/19: http://www.anapaulalimasc.com.br/
+2025-05-22 02:39:56,008 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\1185c5c69ae31a3a2d9f84b2e2ca390f.html
+2025-05-22 02:39:56,015 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:39:56,015 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:39:56,015 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:39:56,015 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:56,015 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:39:56,015 - P17020 - INFO - Após processar URL 15 Uso de memória: 128.78 MB
+2025-05-22 02:39:56,016 - P17020 - INFO - Processando URL 16/19: https://www.consultacrm.com.br/index/sis_login
+2025-05-22 02:39:59,651 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e56926aa25e0582d5c5b8aa167ed4b53.html
+2025-05-22 02:39:59,661 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:39:59,661 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:39:59,661 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:39:59,661 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:59,661 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:39:59,662 - P17020 - INFO - Após processar URL 16 Uso de memória: 128.78 MB
+2025-05-22 02:39:59,662 - P17020 - INFO - Processando URL 17/19: https://ndmais.com.br/eleicoes-2024/candidatos/sc/blumenau/prefeito/13-ana-paula-lima/
+2025-05-22 02:40:02,577 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\76bb9416173bd753c111c531d8c9701f.html
+2025-05-22 02:40:02,591 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:40:02,591 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:40:02,591 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:40:02,591 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:40:02,592 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:40:02,592 - P17020 - INFO - Após processar URL 17 Uso de memória: 128.78 MB
+2025-05-22 02:40:02,592 - P17020 - INFO - Processando URL 18/19: https://www.econodata.com.br/consulta-empresa/15417253000132-ANA-PAULA-DE-SOUZA-DE-LIMA
+2025-05-22 02:40:06,708 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2e2444b5010350369b6b88f5890a3ac8.html
+2025-05-22 02:40:06,843 - P17020 - INFO - Candidates address: 25 items
+2025-05-22 02:40:06,843 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:40:06,843 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:40:06,843 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:40:06,843 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:40:06,844 - P17020 - INFO - Após processar URL 18 Uso de memória: 124.34 MB
+2025-05-22 02:40:06,844 - P17020 - INFO - Processando URL 19/19: https://www.consultacrm.com.br/index/api
+2025-05-22 02:40:09,667 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a1f22ffdf7e0eb1c02e28e1e38d3db87.html
+2025-05-22 02:40:09,682 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:40:09,683 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:40:09,683 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:40:09,684 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:40:09,684 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:40:09,685 - P17020 - INFO - Após processar URL 19 Uso de memória: 125.97 MB
+2025-05-22 02:40:09,685 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:40:09,686 - P17020 - INFO - Ranked address: 25 items
+2025-05-22 02:40:09,686 - P17020 - INFO - Ranked phone: 4 items
+2025-05-22 02:40:09,687 - P17020 - INFO - Ranked email: 1 items
+2025-05-22 02:40:09,687 - P17020 - INFO - Ranked complement: 0 items
+2025-05-22 02:40:09,687 - P17020 - INFO - Ranked cep: 23 items
+2025-05-22 02:40:09,688 - P17020 - INFO - Após agregação Uso de memória: 125.97 MB
+2025-05-22 02:40:09,688 - P17020 - INFO - Validando endereço: ['Rua Gilvan Cunha Silva, 19', 'Rua Pocos de Caldas, 59', 'Avenida Ouro Fino, 2840']
+2025-05-22 02:40:09,688 - P17020 - INFO - Endereço validado: Rua Gilvan Cunha Silva, 19
+2025-05-22 02:40:09,688 - P17020 - INFO - Limpando texto extenso para campo address: Rua Gilvan Cunha Silva, 19...
+2025-05-22 02:40:09,688 - P17020 - INFO - Texto limpo: Rua Gilvan Cunha Silva, 19
+2025-05-22 02:40:09,688 - P17020 - INFO - Validando telefone: ['(08) 00061-9619', '(61) 3215-5206', '(21) 3184-7050']
+2025-05-22 02:40:09,689 - P17020 - INFO - Limpando texto extenso para campo phone: (61) 3215-5206...
+2025-05-22 02:40:09,689 - P17020 - INFO - Texto limpo: 61) 3215-5206
+2025-05-22 02:40:09,689 - P17020 - INFO - Telefone validado: 61) 3215-5206
+2025-05-22 02:40:09,690 - P17020 - INFO - Validando email: ['dep.anapaulalima@camara.leg.br']
+2025-05-22 02:40:09,691 - P17020 - INFO - Limpando texto extenso para campo email: dep.anapaulalima@camara.leg.br...
+2025-05-22 02:40:09,692 - P17020 - INFO - Texto limpo: dep.anapaulalima@camara.leg.br
+2025-05-22 02:40:09,692 - P17020 - INFO - Email validado: dep.anapaulalima@camara.leg.br
+2025-05-22 02:40:09,694 - P17020 - INFO - Descobrindo cidade
+2025-05-22 02:40:09,694 - P17020 - INFO - Buscando cidade: Rua Gilvan Cunha Silva cidade RJ
+2025-05-22 02:40:12,245 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 02:40:12,245 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 02:40:12,245 - P17020 - INFO - Tempo de execução de processamento completo do médico: 71.30 segundos
+2025-05-22 02:40:12,246 - P17020 - INFO - Resultado processado: {'Hash': 'ea160bb13faf415831619a84ef9c58407bc2d203bedd73dc7083f928de31c1ba', 'CRM': '1222791', 'UF': 'RJ', 'Firstname': 'ANA', 'LastName': 'PAULA DE SOUZA LIMA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Gilvan Cunha Silva, 19', 'Address A1': 'Rua Gilvan Cunha Silva', 'Numero A1': '19', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '61) 3215-5206', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'dep.anapaulalima@camara.leg.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:40:12,246 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 02:40:12,247 - P17020 - INFO - Após salvar resultados Uso de memória: 125.83 MB
+2025-05-22 02:40:12,247 - P17020 - INFO - Progresso: 31.2%
+2025-05-22 02:40:12,247 - P17020 - INFO - Tempo de execução de processamento do médico 3: 71.30 segundos
+2025-05-22 02:40:12,247 - P17020 - INFO - Tempo de execução de processamento do lote completo: 214.00 segundos

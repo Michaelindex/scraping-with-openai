@@ -1,0 +1,345 @@
+<html lang="pt-BR"><head>
+<meta http-equiv="content-type" content="text/html;">
+<title>Ficha Profissionais</title>
+	<link href="demos.css" rel="stylesheet" type="text/css">
+		<style type="text/css">
+			a.dcontexto{
+				position:relative; 
+				font:12px arial, verdana, helvetica, sans-serif; 
+				padding:0;
+				color: #000;
+				text-decoration:none;
+				border-bottom:2px dotted #039;
+				z-index:50;
+				font-weight:bold;
+			}
+			a.dcontexto:hover{
+				background:transparent;
+				z-index:55; 
+			}
+			a.dcontexto span{
+				display:none;
+			}
+			a.dcontexto:hover span{ 
+				display:block;
+				position:absolute;
+				width:110px; 
+				top:2em;
+				text-align:justify;
+				left:-7em;
+				font: 12px arial, verdana, helvetica, sans-serif; 
+				padding:5px 10px;
+				border:1px solid #0066CC;
+				background:#FFFFFF;
+				color: #CC0000;
+				font-weight:bold
+			}
+			.borda{
+				border-collapse: collapse; 
+				border:1px solid #FFFFFF;;
+				padding: 2px
+			}
+		</style>
+
+
+    <script>
+	function Abre_Janela(Profissional)
+    {
+    	window.open('Mod_prof_desligado.asp?VCod_Profissional=' + Profissional,'Links','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,width=800,height=400, top=130, left=110');
+     }
+
+    function Abre_Janela_Comp(Profissional)
+     {
+     window.location='Mod_Profissional_Comp.asp?VCo_Unidade=' + Profissional;
+     }
+    </script>
+
+	<script type="text/javascript" language="javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" language="javascript" src="jquery.dataTables.js"></script>
+	<script type="text/javascript">
+
+	$(document).ready(function() {
+		$('#example').dataTable({
+		    "sPaginationType": "full_numbers",
+			"bSort": false,
+			"oLanguage": {
+				"sUrl": "pt_BR.txt"
+			}
+		});
+	});
+	
+	</script>
+	
+<!-- saved from url=(0022)http://internet.e-mail -->
+</head><body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" id="dt_example" class="example_alt_pagination" background="img/Fundo-28-01-2003.gif" bgcolor=""><table colspan="2" lign="left" border="0" width="780" cellspacing="0" cellpadding="0">
+ <tbody><tr>
+  <td>
+
+<!--***************************************************************
+// Desenvolvido Por  - DATASUS/CNES - RIO
+// Equipe ...........: CNES 
+// Endereço .........: CNES.DATSUS.GOV.BR 
+// Descricao.........: MENU PRINCIPAL  
+// Criado  por.......: WASHINGTON BELLOTI    
+//  ***************************************************************-->
+
+
+
+
+
+  <title>CnesWeb - Cadastro Nacional de Estabelecimentos de Saúde</title>
+
+<style type="text/css">
+<!--
+A:link    {text-decoration: none; font-weight:normal; color:#333333; }
+A:visited {text-decoration: none; font-weight:normal; color:#333333; }
+A:active  {text-decoration: none; color: #333333; }
+A:hover	  {color: #000066; }
+A.ff      {text-decoration: none; color: #333333; }
+A.ff:visited {text-decoration: none; color: #333333; }
+A.ff:hover	 {text-decoration: none; color:#000066; }
+A.ff:active  {text-decoration: none; color: #333333; }
+-->
+</style>
+
+<script language="JavaScript">
+
+function Abre_Janela2()
+{
+	window.open('Mod_Email.asp','Links','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,width=650,height=480, top=180, left=280');
+}
+
+// Recuperando a configuracao de Video
+
+Tela = screen.width;  
+
+if (Tela == '1024')
+  Posicao = '180'
+else
+  Posicao = '13'
+
+//document.FrmPosicao.Posicao.value = screen.width;    
+
+// -------------------- Funcão para mostrar data e Hora --------------------------- 
+
+ hoje = new Date()
+ dia = hoje.getDate()
+ dias = hoje.getDay()
+ mes = hoje.getMonth()
+ ano = hoje.getYear()
+ if (dia < 10)
+    dia = "0" + dia
+ if (ano < 2000)
+    ano = "19" + ano
+
+ function CriaArray (n) 
+ {
+  this.length = n 
+ }
+
+ NomeDia = new CriaArray(7)
+ NomeDia[0] = "Domingo"
+ NomeDia[1] = "Segunda-feira"
+ NomeDia[2] = "Ter&ccedil;a-feira"
+ NomeDia[3] = "Quarta-feira"
+ NomeDia[4] = "Quinta-feira"
+ NomeDia[5] = "Sexta-feira"
+ NomeDia[6] = "S&aacute;bado"
+
+ NomeMes = new CriaArray(12)
+ NomeMes[0] = "Janeiro"
+ NomeMes[1] = "Fevereiro"
+ NomeMes[2] = "Mar&ccedil;o"
+ NomeMes[3] = "Abril"
+ NomeMes[4] = "Maio"
+ NomeMes[5] = "Junho"
+ NomeMes[6] = "Julho"
+ NomeMes[7] = "Agosto"
+ NomeMes[8] = "Setembro"
+ NomeMes[9] = "Outubro"
+ NomeMes[10] = "Novembro"
+ NomeMes[11] = "Dezembro"
+
+ function EscreveData() 
+
+ {
+ document.write ("<center>" + NomeDia[dias] + ", " + dia + " de " + NomeMes[mes] + " de " + ano + "</center>")
+ }
+ 
+ function Data_Atualizacao() 
+ {
+ dia = hoje.getDate();
+ dia = parseInt(dia);
+ dia = dia - 2 
+ mes = hoje.getMonth()
+ mes = parseInt(mes)
+ mes = mes + 1
+ ano = hoje.getYear()
+ document.write (dia + "/" + mes + "/"  + ano)
+ }
+
+// ---------------------- Fim da Funçaõ Data Hora ----------------------------------
+ 
+  NS4 = (document.layers);
+  IE4 = (document.all);
+  ver4 = (NS4 || IE4);
+  isMac = (navigator.appVersion.indexOf("Mac") != -1);
+  isMenu = (NS4 || (IE4 && !isMac));
+  function popUp(){return};
+  function popDown(){return};
+  function startIt(){return};
+  if (!ver4) event = null;
+
+  if (isMenu)
+   {
+    menuVersion = 3;
+    menuWidth = 150;
+    borWid = 2;
+    borSty = "double";
+    borCol = "#003366";
+    separator = 1;
+    separatorCol = "#003366";
+    fntFam = "sans-serif";
+    fntBold = false;
+    fntItal = false;
+    fntSiz = 8;
+    fntCol = "#003366";
+    overFnt = "#000080";
+    itemPad = 3;
+    backCol = "#cccccc";
+    overCol = "#ADD8E6";
+    
+    imgSrc = "tri.gif";
+    imgSiz = 10;
+
+    childOffset = 6;
+    childOverlap = 60;
+    perCentOver = null;
+
+    clickStart = false;
+    clickKill = false;
+    secondsVisible = 0.5;
+
+    keepHilite = false;
+    NSfontOver = false;
+
+    isFrames = false;
+    navFrLoc = "top";
+    mainFrName = "main";
+  }
+
+</script>
+
+  <script type="text/javascript">
+
+      function Go(){return}
+  </script>
+  <script type="text/javascript" src="exmplmenu_var.js"></script>
+  <script type="text/javascript" src="menu_com.js"></script>
+
+
+
+<table border="0" width="781" cellspacing="0" cellpadding="0">
+	<tbody><tr>
+ 		<td>
+  			<table border="0" cellspacing="0" cellpadding="0">
+   				<tbody><tr>
+     				<!--<td width="781"><IMG  src="img/topo_novo4.jpg" alt="imagem do topo cnes" height=90 width=781 border=0></td>--> 
+     				<td width="781"><img src="img/topo_novo_2014.jpg" alt="imagem do topo cnes" height="90" width="781" border="0"></td> 
+     			</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+<br><br>
+
+
+
+
+
+
+<br>        
+
+	<div id="container">
+		<div class="full_width big">
+			<p align="center"><font size="2" face="verdana,arial" color="#ffcc99">Consulta Estabelecimento - Modulo Profissional - Profissionais por Estabelecimento</font></p>
+		</div>
+		<form name="prof">
+		<table align="center" border="1" cellpadding="1" cellspacing="0" width="745">
+  			<tbody><tr>
+     			<td width="252px"><font size="2" face="verdana,arial" color="#ffcc99">Profissionais</font></td>
+     			<td align="left" colspan="2"><font size="1" face="verdana,arial" color="#ffcc99">LOPES CLINICA MEDICA LTDA</font></td>
+  			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td align="center">
+				<input type="button" name="BtnRejeicao" value="Profissionais Desligados" onclick="Abre_Janela('1200404148002')" style="color:white;background:#003366;font-size:10px">
+				</td>
+				<td align="center">
+				<input type="button" name="BtnRejeicao" value="Profissionais por Competência" onclick="Abre_Janela_Comp('1200404148002')" style="color:white;background:#003366;font-size:10px">				
+				</td>
+			</tr>
+		</tbody></table>
+			<table width="700px" align="center">
+		<tbody><tr>
+			<td align="center">
+				<img src="img/img_excel.jpg" width="31" height="31" border="0" onclick="window.location='Mod_Profissional_XLS.asp'" style="cursor:hand">
+				<br>
+				<font color="white" size="1" face="Verdana, Arial, Helvetica, sans-serif">Exportar XLS</font>
+			</td>
+		</tr>	
+	</tbody></table>  			
+
+		</form>
+		<div id="demo">
+			<div class="dataTables_wrapper" id="example_wrapper"><div id="example_length" class="dataTables_length">Mostrar <select size="1" name="example_length"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> registros</div><div id="example_filter" class="dataTables_filter">Buscar: <input type="text" value=""></div><table cellpadding="1" cellspacing="1" border="1" id="example" style="width: 1057px;">
+				<thead>
+				     <tr> 
+						<td colspan="11" bgcolor="#FFFFFF">
+							<font size="1" face="verdana,arial" color="#FF0000" style="font-weight:bold;">* Esta informação está sendo apresentada apenas para conhecimento do profissional. 
+							</font>
+						</td>
+						<td colspan="3" align="center"><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Vinculo Empregatício</font></td>
+						<td colspan="3"><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">&nbsp;</font></td>
+					 </tr>
+				  
+				  
+					<tr> 
+						<th style="width: 66px;"><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Nome</font></th>
+						<th style="width: 64px;"><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Dt.Entrada</font></th>
+						<th style="width: 99px;"><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">CNS</font></th>
+						<th style="width: 98px;">
+							<font size="1" face="verdana,arial" style="font-weight:bold; color:#FF0000">*</font>
+							<font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">CNS<br>Master/Principal</font>
+						</th>
+						<th style="width: 64px;"><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Dt.<br>Atribuição</font></th>
+						<th style="width: 111px;"><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">CBO</font></th>
+						<th style="width: 42px;"><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">CH Outros</font></th>
+						<th style="width: 33px;"><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">CH Amb.</font></th>
+						<th style="width: 36px;"><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">CH Hosp.</font></th>
+						<th style="width: 33px;"><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Total</font></th>
+						<th style="width: 26px;"><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">SUS</font></th>
+						<th style="width: 65px;"><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Vinculação</font></th>
+						<th style="width: 78px;"><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Tipo</font></th>
+					    <th style="width: 47px;"><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Subtipo</font></th>
+					    <th style="width: 72px;"><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Comp.<br>Desativação</font></th>
+					    <th style="width: 52px;"><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Situação</font></th>
+					    <th style="width: 49px;"><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Portaria 134</font></th>
+					    
+					</tr>
+				</thead>
+ 
+ <tbody><tr class="gradeA odd"><td>
+      <font size="1" face="verdana,arial" color="#003366"><a href="Exibe_Ficha_Prof_Sus.asp?J=1">CHRISTIAN ROBERTO RODRIGUES LOPES JUNIOR</a></font>
+      </td><td><font size="1" face="verdana,arial" color="#003366"></font></td><td><font size="1" face="verdana,arial" color="#003366">708004859059425</font></td><td><font size="1" face="verdana,arial" color="#003366"></font></td><td><font size="1" face="verdana,arial" color="#003366">05/05/2016</font></td><td><font size="1" face="verdana,arial" color="#003366">225155 - MEDICO ENDOCRINOLOGISTA E METABOLOGISTA</font></td><td><font size="1" face="verdana,arial" color="#003366">0Hs.</font></td><td><font size="1" face="verdana,arial" color="#003366">40Hs.</font></td><td><font size="1" face="verdana,arial" color="#003366">00Hs.</font></td><td><font size="1" face="verdana,arial" color="#003366">40Hs.</font></td><td><font size="1" face="verdana,arial" color="#003366">Não</font></td><td><font size="1" face="verdana,arial" color="#003366">INFORMAL</font></td><td><font size="1" face="verdana,arial" color="#003366">CONTRATADO VERBALMENTE</font></td><td><font size="1" face="verdana,arial" color="#003366">NAO SE APLICA</font></td><td align="center"><font size="1" face="verdana,arial" color="red"></font></td><td align="center"><font size="1" face="verdana,arial" color="red">Ativo</font></td><td align="center">&nbsp;</td></tr></tbody><tfoot><tr><th><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Nome</font></th><th><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Dt.Entrada</font></th><th><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">CNS</font></th><th><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">CNS<br>Master/Principal</font></th><th><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Dt.<br>Atribuição</font></th><th><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">CBO</font></th><th><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">CH Outros</font></th><th><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">CH Amb.</font></th><th><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">CH Hosp.</font></th><th><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Total</font></th><th><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">SUS</font></th><th><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Vinculação</font></th><th><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Tipo</font></th><th><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Subtipo</font></th><th><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Comp.<br>Desativação</font></th><th><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Situação</font></th><th><font size="1" face="verdana,arial" color="#003366" style="font-weight:bold; color:#FFFFFF">Portaria 134</font></th></tr></tfoot></table><div id="example_info" class="dataTables_info">Mostrando de 1 até 1 de 1 registros </div><div class="dataTables_paginate"><span class="paginate_button first">Primeiro</span><span class="paginate_button previous">Anterior</span><span><span class="paginate_active">1</span></span><span class="paginate_button next">Seguinte</span><span class="paginate_button last">Último</span></div></div></div><div class="spacer"></div>
+<p align="center"><a href="Exibe_Ficha_Estabelecimento.asp?VCo_Unidade=1200404148002"><img src="img/Voltar.gif" border="0"></a></p>
+<!-- saved from url=(0022)http://internet.e-mail -->
+</div></td>
+</tr>
+</tbody></table>
+
+
+
+
+
+<div style="position: absolute; visibility: visible; background-color: rgb(153, 153, 153); width: 778px; height: 22px; font-family: sans-serif, verdana, &quot;comic sans ms&quot;; font-weight: normal; font-style: normal; font-size: 8pt; z-index: 101; top: 90px; left: 1px;"><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 0, 128); background-color: rgb(204, 204, 204); text-align: left; width: 110px; height: 20px; left: 1px; top: 1px;"><img src="img-btn/Botao_Home1.gif"></div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 0, 128); background-color: rgb(204, 204, 204); text-align: left; width: 110px; height: 20px; left: 112px; top: 1px;"><img src="img-btn/Botao_Institucional1.gif"><img src="tridown.gif" style="position: absolute; width: 5px; height: 5px; top: 13px; left: 103px;"></div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 0, 128); background-color: rgb(204, 204, 204); text-align: left; width: 110px; height: 20px; left: 223px; top: 1px;"><img src="img-btn/botao_Servicos1.gif"><img src="tridown.gif" style="position: absolute; width: 5px; height: 5px; top: 13px; left: 103px;"></div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 0, 128); background-color: rgb(204, 204, 204); text-align: left; width: 110px; height: 20px; left: 334px; top: 1px;"><img src="img-btn/Botao_Indicadores1.gif"><img src="tridown.gif" style="position: absolute; width: 5px; height: 5px; top: 13px; left: 103px;"></div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 0, 128); background-color: rgb(204, 204, 204); text-align: left; width: 110px; height: 20px; left: 445px; top: 1px;"><img src="img-btn/Botao_Consultas1.gif"><img src="tridown.gif" style="position: absolute; width: 5px; height: 5px; top: 13px; left: 103px;"></div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 0, 128); background-color: rgb(204, 204, 204); text-align: left; width: 107px; height: 18px; padding-left: 3px; padding-top: 2px; left: 556px; top: 1px;"></div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 0, 128); background-color: rgb(204, 204, 204); text-align: left; width: 107px; height: 18px; padding-left: 3px; padding-top: 2px; left: 667px; top: 1px;"></div></div><div style="position: absolute; visibility: hidden; background-color: rgb(0, 102, 153); width: 202px; height: 22px; font-family: sans-serif, verdana, &quot;comic sans ms&quot;; font-weight: normal; font-style: normal; font-size: 8pt; z-index: 102; top: 0px; left: 0px;"><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 1px;">SAS/DRAC/CGSI<img src="tri.gif" style="position: absolute; width: 5px; height: 10px; top: 5px; left: 193px;"></div></div><div style="position: absolute; visibility: hidden; background-color: rgb(0, 102, 153); width: 202px; height: 400px; font-family: sans-serif, verdana, &quot;comic sans ms&quot;; font-weight: normal; font-style: normal; font-size: 8pt; z-index: 103; top: 0px; left: 0px;"><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 1px;">Habilitações por Data de Lançamento</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 22px;">Consulta Habilitações</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 43px;">Lançamento de Habilitações</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 64px;">Regras Contratuais/Incentivos</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 85px;">Gestão e Metas</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 106px;">Certificar Hospital de Ensino</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 127px;">Adesão de Hospital Filantrópico</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 148px;">Adesão a Programa/Projeto de Saúde</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 169px;">Incentivos</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 190px;">Incentivos/Adesões Municipais</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 211px;">RAS Rede Atenção à Saúde</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 232px;">Exclusão SAS</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 253px;">Cadastramento de Usuários</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 274px;">Alteração Senha/CPF de Usuários</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 295px;">Inclusão no Pacto de Gestão</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 316px;">Inclusão na Pactuacão CIB</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 337px;">Inclusão Notificantes</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 358px;">Solicitações de desligamento por status</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 379px;">Publicação Mensagens</div></div><div style="position: absolute; visibility: hidden; background-color: rgb(0, 102, 153); width: 202px; height: 85px; font-family: sans-serif, verdana, &quot;comic sans ms&quot;; font-weight: normal; font-style: normal; font-size: 8pt; z-index: 102; top: 0px; left: 0px;"><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 1px;"> Gestores<img src="tri.gif" style="position: absolute; width: 5px; height: 10px; top: 5px; left: 193px;"></div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 22px;">Usuarios<img src="tri.gif" style="position: absolute; width: 5px; height: 10px; top: 5px; left: 193px;"></div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 43px;">Sumário Solicitação Base</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 64px;"> Declaração de não envio de base</div></div><div style="position: absolute; visibility: hidden; background-color: rgb(0, 102, 153); width: 252px; height: 530px; font-family: sans-serif, verdana, &quot;comic sans ms&quot;; font-weight: normal; font-style: normal; font-size: 8pt; z-index: 103; top: 0px; left: 0px;"><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 1px;">Instruções para Cadastramento de Gestor</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 22px;">Cadastramento de Gestor</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 43px;">Cadastramento de Usuários</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 64px;">Exclusão de Usuários</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 85px;">Alteração CPF/Senha de Gestor</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 106px;">Relação de Gestores Cadastrados</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 127px;">Situação Atual dos Municípios</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 148px;">Relação de Municípios com Pacto de Gestão</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 169px;">Relação de Município com Pacto na CIB</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 190px;">Relação de Gestores não Cadastrados</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 211px;">Relação de Gestores Sem Envio de Bases</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 232px;">Recebimento Arquivos(Download)</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 253px;">Autoriza Troca de Gestão</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 274px;">Inclusão de Terceiros</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 295px;">Autoriza Troca de Município DF</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 316px;">Justificativas art 3º PT SAS 134/2011</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 337px;">Justificativas art 5º PT SAS 134/2011</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 28px; padding-left: 3px; padding-top: 2px; left: 1px; top: 358px;">Acompanhamento de Solicitação de Desligamento pelo Profissional por CNES</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 28px; padding-left: 3px; padding-top: 2px; left: 1px; top: 389px;">Acompanhamento de Solicitação de Desligamento pelo Profissional</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 420px;">Download TXT Processamento</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 441px;">Numeração de Equipes On Line</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 23px; padding-left: 3px; padding-top: 2px; left: 1px; top: 462px;">Alteração de Equipes On Line</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 488px;">Gerência/Administração(Terceiro)</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 247px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 509px;">Cadastro de Distritos</div></div><div style="position: absolute; visibility: hidden; background-color: rgb(0, 102, 153); width: 162px; height: 64px; font-family: sans-serif, verdana, &quot;comic sans ms&quot;; font-weight: normal; font-style: normal; font-size: 8pt; z-index: 103; top: 0px; left: 0px;"><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 157px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 1px;">Relação de Usuários/Perfil</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 157px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 22px;">Alteração Senha/CPF de Usuários</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 157px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 43px;">Instruções para Cadastramento de Usuários</div></div><div style="position: absolute; visibility: hidden; background-color: rgb(0, 102, 153); width: 202px; height: 526px; font-family: sans-serif, verdana, &quot;comic sans ms&quot;; font-weight: normal; font-style: normal; font-size: 8pt; z-index: 102; top: 0px; left: 0px;"><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 1px;">Fluxos de Clientela</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 22px;">Leitos</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 43px;">Equipamentos</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 64px;">Níveis de Hierarquia</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 85px;">Turnos de Atendimento</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 106px;">Tipos de Estabelecimentos</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 127px;">Classif. de Estabelecimento</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 148px;">Personalidades Jurídicas</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 169px;">Contratos/Convênios</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 190px;">Atendimentos Prestados</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 211px;">Habilitações</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 232px;">Regras Contratuais</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 253px;">Contratos de Metas</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 274px;">Hospital Filantrópico</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 295px;">Hospital de Ensino</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 316px;">Programa/Projeto de Saúde</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 337px;">Incentivos</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 358px;">Incentivo/Adesão Municipal</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 379px;">Serviços Especializados</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 400px;">Ocupações(CBO)</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 421px;">Atividade de Ensino</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 442px;">Estabelecimentos Notificantes</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 463px;">Ras</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 484px;">Gerência/Administração(Terceiro)</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 505px;">Estabelecimentos Desatualizados</div></div><div style="position: absolute; visibility: hidden; background-color: rgb(0, 102, 153); width: 202px; height: 106px; font-family: sans-serif, verdana, &quot;comic sans ms&quot;; font-weight: normal; font-style: normal; font-size: 8pt; z-index: 102; top: 0px; left: 0px;"><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 1px;">Estabelecimentos<img src="tri.gif" style="position: absolute; width: 5px; height: 10px; top: 5px; left: 193px;"></div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 22px;">Mantenedoras<img src="tri.gif" style="position: absolute; width: 5px; height: 10px; top: 5px; left: 193px;"></div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 43px;">Estabelecimentos Terceiros</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 64px;">Gerência/Administração(Terceiro)</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 85px;">Equipes</div></div><div style="position: absolute; visibility: hidden; background-color: rgb(0, 102, 153); width: 202px; height: 64px; font-family: sans-serif, verdana, &quot;comic sans ms&quot;; font-weight: normal; font-style: normal; font-size: 8pt; z-index: 103; top: 0px; left: 0px;"><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 1px;">Excluídos na Internet</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 22px;">CNES Expirados</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 43px;">Com CNPJ Igual CNPJ Mantenedora</div></div><div style="position: absolute; visibility: hidden; background-color: rgb(0, 102, 153); width: 202px; height: 64px; font-family: sans-serif, verdana, &quot;comic sans ms&quot;; font-weight: normal; font-style: normal; font-size: 8pt; z-index: 103; top: 0px; left: 0px;"><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 1px;">Por Nome - CNPJ</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 22px;">Por Nome - CNPJ / Competência</div><div style="position: absolute; visibility: inherit; overflow: hidden; cursor: default; color: rgb(0, 102, 153); background-color: rgb(204, 204, 204); text-align: left; width: 197px; height: 18px; padding-left: 3px; padding-top: 2px; left: 1px; top: 43px;">Por Localização Geográfica</div></div></body></html>

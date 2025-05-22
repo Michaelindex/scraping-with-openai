@@ -1,0 +1,511 @@
+2025-05-22 01:44:36,726 - P17020 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 01:44:36,727 - P17020 - INFO - Nome: FÁBIO COSTA DA ANUNCIAÇÃO
+2025-05-22 01:44:36,727 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 01:44:38,010 - P17020 - INFO - Após reiniciar driver Uso de memória: 104.82 MB
+2025-05-22 01:44:38,011 - P17020 - INFO - Início do processamento Uso de memória: 104.82 MB
+2025-05-22 01:44:38,011 - P17020 - INFO - Iniciando busca para: FÁBIO COSTA DA ANUNCIAÇÃO CRM 40332 BA telefone e-mail endereço
+2025-05-22 01:44:38,445 - P17020 - INFO - SearX results: 6 URLs
+2025-05-22 01:44:38,447 - P17020 - INFO - Após SearX Uso de memória: 104.82 MB
+2025-05-22 01:44:41,963 - P17020 - INFO - Google results: 0 URLs
+2025-05-22 01:44:41,964 - P17020 - INFO - Após Google Uso de memória: 104.83 MB
+2025-05-22 01:44:44,507 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 01:44:44,508 - P17020 - INFO - Após Bing Uso de memória: 108.76 MB
+2025-05-22 01:44:44,508 - P17020 - INFO - Total de URLs únicas: 16
+2025-05-22 01:44:44,508 - P17020 - INFO - Processando URL 1/16: https://consultacrm.com.br/
+2025-05-22 01:44:48,965 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:44:48,981 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:44:48,982 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:44:48,982 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:44:48,983 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:44:48,984 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:44:48,984 - P17020 - INFO - Após processar URL 1 Uso de memória: 109.73 MB
+2025-05-22 01:44:48,985 - P17020 - INFO - Processando URL 2/16: https://www.ibam.org.br/wp-content/uploads/2022/05/blu13-cpcm-docs.pdf
+2025-05-22 01:44:48,985 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ibam.org.br/wp-content/uploads/2022/05/blu13-cpcm-docs.pdf
+2025-05-22 01:44:48,985 - P17020 - INFO - Após processar URL 2 Uso de memória: 109.73 MB
+2025-05-22 01:44:48,985 - P17020 - INFO - Processando URL 3/16: https://www.escavador.com/sobre/5424246/fabio-costa-da-anunciacao
+2025-05-22 01:44:53,137 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\72451dfe6c91e044e27c7ed9d876e2c3.html
+2025-05-22 01:44:53,171 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:44:53,172 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:44:53,172 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:44:53,172 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 01:44:53,172 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:44:53,172 - P17020 - INFO - Após processar URL 3 Uso de memória: 109.66 MB
+2025-05-22 01:44:53,173 - P17020 - INFO - Processando URL 4/16: https://crmvirtual.cfm.org.br/BA/servico/pesquisa-por-medicos
+2025-05-22 01:44:56,058 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\344d5185fc7be121f6bd5df93a5125ac.html
+2025-05-22 01:44:56,070 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:44:56,070 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:44:56,070 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 01:44:56,071 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:44:56,071 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:44:56,071 - P17020 - INFO - Após processar URL 4 Uso de memória: 109.70 MB
+2025-05-22 01:44:56,071 - P17020 - INFO - Processando URL 5/16: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 01:44:56,071 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 01:44:56,072 - P17020 - INFO - Após processar URL 5 Uso de memória: 109.70 MB
+2025-05-22 01:44:56,072 - P17020 - INFO - Processando URL 6/16: https://www.cremeb.org.br/index.php/buscar-medicos/
+2025-05-22 01:44:59,701 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\baa85b25dd073ee15bf77dd594b13554.html
+2025-05-22 01:44:59,729 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:44:59,729 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:44:59,729 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 01:44:59,729 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:44:59,729 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:44:59,730 - P17020 - INFO - Após processar URL 6 Uso de memória: 105.83 MB
+2025-05-22 01:44:59,730 - P17020 - INFO - Processando URL 7/16: https://transparencia.cremeb.org.br/index.php/sobre-o-cfm/contatos-institucionais
+2025-05-22 01:45:02,736 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2d55238d8ff465d4f590d00b1bcaf169.html
+2025-05-22 01:45:02,754 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:45:02,754 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:45:02,754 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 01:45:02,755 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:45:02,755 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:45:02,755 - P17020 - INFO - Após processar URL 7 Uso de memória: 105.93 MB
+2025-05-22 01:45:02,756 - P17020 - INFO - Processando URL 8/16: https://www.spdo.ms.gov.br/diariodoe/Index/Download/DO9650_08_05_2018
+2025-05-22 01:45:05,229 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\770bf89b4a4dc3b3aece8ea9b80192d7.html
+2025-05-22 01:45:05,230 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:45:05,230 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:45:05,230 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:45:05,230 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:45:05,231 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:45:05,231 - P17020 - INFO - Após processar URL 8 Uso de memória: 105.93 MB
+2025-05-22 01:45:05,231 - P17020 - INFO - Processando URL 9/16: https://www.doctoralia.com.br/fabio-costa-3/ortopedista-traumatologista/salvador
+2025-05-22 01:45:05,231 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/fabio-costa-3/ortopedista-traumatologista/salvador
+2025-05-22 01:45:05,231 - P17020 - INFO - Após processar URL 9 Uso de memória: 105.93 MB
+2025-05-22 01:45:05,231 - P17020 - INFO - Processando URL 10/16: https://ioepa.com.br/pages/2018/2018.10.08.DOE.pdf
+2025-05-22 01:45:05,231 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://ioepa.com.br/pages/2018/2018.10.08.DOE.pdf
+2025-05-22 01:45:05,232 - P17020 - INFO - Após processar URL 10 Uso de memória: 105.93 MB
+2025-05-22 01:45:05,232 - P17020 - INFO - Processando URL 11/16: https://www.mpsp.mp.br/w/do_25_02_2022
+2025-05-22 01:45:09,327 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7b7842f38b9333c682fd0be00373d38a.html
+2025-05-22 01:45:10,271 - P17020 - INFO - Candidates address: 4 items
+2025-05-22 01:45:10,272 - P17020 - INFO - Candidates phone: 3 items
+2025-05-22 01:45:10,272 - P17020 - INFO - Candidates email: 3 items
+2025-05-22 01:45:10,272 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:45:10,272 - P17020 - INFO - Candidates cep: 33 items
+2025-05-22 01:45:10,273 - P17020 - INFO - Após processar URL 11 Uso de memória: 108.41 MB
+2025-05-22 01:45:10,273 - P17020 - INFO - Processando URL 12/16: https://www.findhealthclinics.com/BR/Salvador/1483408915219807/F%C3%A1bio-Costa
+2025-05-22 01:45:13,285 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\79bf5630b62417cf225e7a52146e658f.html
+2025-05-22 01:45:13,302 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:45:13,304 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:45:13,305 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:45:13,306 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 01:45:13,306 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 01:45:13,307 - P17020 - INFO - Após processar URL 12 Uso de memória: 105.55 MB
+2025-05-22 01:45:13,310 - P17020 - INFO - Processando URL 13/16: https://portal.cfm.org.br/busca-medicos
+2025-05-22 01:45:21,403 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 01:45:21,439 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:45:21,439 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:45:21,440 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 01:45:21,440 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 01:45:21,440 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:45:21,440 - P17020 - INFO - Após processar URL 13 Uso de memória: 107.11 MB
+2025-05-22 01:45:21,441 - P17020 - INFO - Processando URL 14/16: https://www.ime.usp.br/~yoshi/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 01:45:21,441 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 01:45:21,442 - P17020 - INFO - Após processar URL 14 Uso de memória: 107.11 MB
+2025-05-22 01:45:21,442 - P17020 - INFO - Processando URL 15/16: https://www.benditoguia.com.br/empresa/dr-fabio-costa-especialista-em-joelho-e-traumatologia-esportiva-candeal-salvador-ba
+2025-05-22 01:45:25,388 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\329f54e3b7cca4efcea20ca42e1b6a04.html
+2025-05-22 01:45:25,409 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:45:25,410 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:45:25,414 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:45:25,416 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 01:45:25,416 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:45:25,416 - P17020 - INFO - Após processar URL 15 Uso de memória: 107.66 MB
+2025-05-22 01:45:25,417 - P17020 - INFO - Processando URL 16/16: https://www.drfabiocosta.com.br/
+2025-05-22 01:45:30,001 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\368b5bb818eb9abd896d0d461af687d6.html
+2025-05-22 01:45:30,022 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:45:30,022 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:45:30,022 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:45:30,023 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 01:45:30,023 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:45:30,023 - P17020 - INFO - Após processar URL 16 Uso de memória: 107.68 MB
+2025-05-22 01:45:30,023 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:45:30,023 - P17020 - INFO - Ranked address: 8 items
+2025-05-22 01:45:30,023 - P17020 - INFO - Ranked phone: 6 items
+2025-05-22 01:45:30,024 - P17020 - INFO - Ranked email: 7 items
+2025-05-22 01:45:30,024 - P17020 - INFO - Ranked complement: 5 items
+2025-05-22 01:45:30,025 - P17020 - INFO - Ranked cep: 38 items
+2025-05-22 01:45:30,025 - P17020 - INFO - Após agregação Uso de memória: 107.68 MB
+2025-05-22 01:45:30,025 - P17020 - INFO - Validando endereço: ['Rua Leonor Calmon, 256', 'Rua Guadalajara, 175', 'Rua Guadalajara,175']
+2025-05-22 01:45:30,025 - P17020 - INFO - Endereço validado: Rua Leonor Calmon, 256
+2025-05-22 01:45:30,026 - P17020 - INFO - Limpando texto extenso para campo address: Rua Leonor Calmon, 256...
+2025-05-22 01:45:30,026 - P17020 - INFO - Texto limpo: Rua Leonor Calmon, 256
+2025-05-22 01:45:30,026 - P17020 - INFO - Validando telefone: ['(71) 3339-2800', '(11) 3775-4121', '(11) 3119-9442']
+2025-05-22 01:45:30,027 - P17020 - INFO - Limpando texto extenso para campo phone: (71) 3339-2800...
+2025-05-22 01:45:30,027 - P17020 - INFO - Texto limpo: 71) 3339-2800
+2025-05-22 01:45:30,028 - P17020 - INFO - Telefone validado: 71) 3339-2800
+2025-05-22 01:45:30,028 - P17020 - INFO - Validando email: ['pfisica@cremeb.org.br', 'protocolo@cremeb.org.br', 'cremeb@cremeb.org.br']
+2025-05-22 01:45:30,029 - P17020 - INFO - Limpando texto extenso para campo email: pfisica@cremeb.org.br...
+2025-05-22 01:45:30,031 - P17020 - INFO - Texto limpo: pfisica@cremeb.org.br
+2025-05-22 01:45:30,031 - P17020 - INFO - Email validado: pfisica@cremeb.org.br
+2025-05-22 01:45:30,032 - P17020 - INFO - Validando complemento: ['Sala de Vacina e Rede de Frio.  (Carga horária: 8h). ', 'Sala 409/Candeal     Salvador ', 'Conjunto D']
+2025-05-22 01:45:30,033 - P17020 - INFO - Limpando texto extenso para campo complement: Sala de Vacina e Rede de Frio.  (Carga horária: 8h...
+2025-05-22 01:45:30,034 - P17020 - INFO - Texto limpo: Sala de Vacina e Rede de Frio.
+2025-05-22 01:45:30,034 - P17020 - INFO - Complemento validado: Sala de Vacina e Rede de Frio.
+2025-05-22 01:45:30,035 - P17020 - INFO - Descobrindo cidade
+2025-05-22 01:45:30,036 - P17020 - INFO - Buscando cidade: Rua Leonor Calmon cidade BA
+2025-05-22 01:45:32,940 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 01:45:32,940 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 01:45:32,940 - P17020 - INFO - Tempo de execução de processamento completo do médico: 54.93 segundos
+2025-05-22 01:45:32,940 - P17020 - INFO - Resultado processado: {'Hash': 'c99ce9a5f394fda8cf356ce1aa408f48ba6ba3cf8e65d1882354ed93b4ecccf3', 'CRM': '40332', 'UF': 'BA', 'Firstname': 'FÁBIO', 'LastName': 'COSTA DA ANUNCIAÇÃO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Leonor Calmon, 256', 'Address A1': 'Rua Leonor Calmon', 'Numero A1': '256', 'Complement A1': 'Sala de Vacina e Rede de Frio.', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '71) 3339-2800', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'pfisica@cremeb.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:45:32,941 - P17020 - INFO - Progresso: 9.4%
+2025-05-22 01:45:32,942 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 01:45:33,009 - P17020 - INFO - Após coleta de lixo Uso de memória: 101.66 MB
+2025-05-22 01:45:33,012 - P17020 - INFO - Tempo de execução de processamento do médico 1: 56.29 segundos
+2025-05-22 01:45:33,013 - P17020 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 01:45:33,013 - P17020 - INFO - Nome: JACQUELINE PEIXOTO DE ABREU BARBOSA
+2025-05-22 01:45:33,014 - P17020 - INFO - Início do processamento Uso de memória: 101.66 MB
+2025-05-22 01:45:33,014 - P17020 - INFO - Iniciando busca para: JACQUELINE PEIXOTO DE ABREU BARBOSA CRM 41835 BA telefone e-mail endereço
+2025-05-22 01:45:33,528 - P17020 - INFO - SearX results: 10 URLs
+2025-05-22 01:45:33,528 - P17020 - INFO - Após SearX Uso de memória: 101.66 MB
+2025-05-22 01:45:36,204 - P17020 - INFO - Google results: 0 URLs
+2025-05-22 01:45:36,204 - P17020 - INFO - Após Google Uso de memória: 101.68 MB
+2025-05-22 01:45:39,037 - P17020 - INFO - Bing results: 13 URLs
+2025-05-22 01:45:39,038 - P17020 - INFO - Após Bing Uso de memória: 105.31 MB
+2025-05-22 01:45:39,038 - P17020 - INFO - Total de URLs únicas: 23
+2025-05-22 01:45:39,038 - P17020 - INFO - Processando URL 1/23: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x13990472907597215051&market=pt-BR&src=SERPGB
+2025-05-22 01:45:43,324 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\99897dd2ef9a04b4a85d552ff8a5148d.html
+2025-05-22 01:45:43,350 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:45:43,350 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:45:43,350 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:45:43,351 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:45:43,351 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:45:43,351 - P17020 - INFO - Após processar URL 1 Uso de memória: 106.11 MB
+2025-05-22 01:45:43,352 - P17020 - INFO - Processando URL 2/23: https://cadastroempresa.com.br/fornecedor/dra-jacqueline-peixoto-19703619000190
+2025-05-22 01:45:45,973 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b34b04ccc064d00064646642309e34f7.html
+2025-05-22 01:45:45,994 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:45:45,995 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 01:45:45,995 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 01:45:45,995 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 01:45:45,995 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 01:45:45,995 - P17020 - INFO - Após processar URL 2 Uso de memória: 106.43 MB
+2025-05-22 01:45:45,996 - P17020 - INFO - Processando URL 3/23: https://consultacrm.com.br/
+2025-05-22 01:45:49,649 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:45:49,660 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:45:49,661 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:45:49,661 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:45:49,661 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:45:49,661 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:45:49,661 - P17020 - INFO - Após processar URL 3 Uso de memória: 107.95 MB
+2025-05-22 01:45:49,662 - P17020 - INFO - Processando URL 4/23: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/19392/Caderno_JUD_MG_2019-08-12_XI_149.pdf?sequence=1&isAllowed=y
+2025-05-22 01:45:49,662 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/19392/Caderno_JUD_MG_2019-08-12_XI_149.pdf?sequence=1&isAllowed=y
+2025-05-22 01:45:49,662 - P17020 - INFO - Após processar URL 4 Uso de memória: 107.95 MB
+2025-05-22 01:45:49,662 - P17020 - INFO - Processando URL 5/23: https://www.medicosbrasil.com/profissional/jacqueline-peixoto-de-abreu-barbosa
+2025-05-22 01:45:53,229 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e0d8e9a7e870c4daa0127de2692a7980.html
+2025-05-22 01:45:53,258 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:45:53,259 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:45:53,260 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:45:53,260 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:45:53,261 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:45:53,261 - P17020 - INFO - Após processar URL 5 Uso de memória: 108.46 MB
+2025-05-22 01:45:53,263 - P17020 - INFO - Processando URL 6/23: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1622244516.pdf
+2025-05-22 01:45:53,264 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1622244516.pdf
+2025-05-22 01:45:53,264 - P17020 - INFO - Após processar URL 6 Uso de memória: 108.46 MB
+2025-05-22 01:45:53,265 - P17020 - INFO - Processando URL 7/23: https://doctoralia.com.br/perguntas-respostas/pe-de-frango-cozido-sem-oleo-aumenta-o-colesterol
+2025-05-22 01:45:56,849 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\9ca476a3d54c054392fa775e9954c9bc.html
+2025-05-22 01:45:56,885 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:45:56,885 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:45:56,886 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:45:56,886 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:45:56,886 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:45:56,886 - P17020 - INFO - Após processar URL 7 Uso de memória: 108.48 MB
+2025-05-22 01:45:56,886 - P17020 - INFO - Processando URL 8/23: https://aboutcompany.info/country/brazil/officer/040456/jacqueline-peixoto-de-abreu-barbosa/
+2025-05-22 01:46:00,932 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f42120452dad2d96d232416559f52f58.html
+2025-05-22 01:46:00,967 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:46:00,967 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:46:00,967 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:46:00,967 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:46:00,968 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:46:00,968 - P17020 - INFO - Após processar URL 8 Uso de memória: 108.57 MB
+2025-05-22 01:46:00,968 - P17020 - INFO - Processando URL 9/23: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2018/08/a1a06f06-816d-4429-a519-cc72d422b48e_Edi%C3%A7%C3%A3o-4435-08-08-2018.pdf
+2025-05-22 01:46:00,968 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2018/08/a1a06f06-816d-4429-a519-cc72d422b48e_Edi%C3%A7%C3%A3o-4435-08-08-2018.pdf
+2025-05-22 01:46:00,969 - P17020 - INFO - Após processar URL 9 Uso de memória: 108.57 MB
+2025-05-22 01:46:00,969 - P17020 - INFO - Processando URL 10/23: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-23-04-2021.pdf
+2025-05-22 01:46:00,969 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-23-04-2021.pdf
+2025-05-22 01:46:00,969 - P17020 - INFO - Após processar URL 10 Uso de memória: 108.57 MB
+2025-05-22 01:46:00,969 - P17020 - INFO - Processando URL 11/23: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2014/08/Imprensa-Oficial-de-Jundia%C3%AD-Edi%C3%A7%C3%A3o-3877.pdf
+2025-05-22 01:46:00,969 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2014/08/Imprensa-Oficial-de-Jundia%C3%AD-Edi%C3%A7%C3%A3o-3877.pdf
+2025-05-22 01:46:00,970 - P17020 - INFO - Após processar URL 11 Uso de memória: 108.57 MB
+2025-05-22 01:46:00,970 - P17020 - INFO - Processando URL 12/23: https://www.doctoralia.com.br/jacqueline-peixoto-de-abreu-barbosa/endocrinologista/salvador
+2025-05-22 01:46:00,970 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/jacqueline-peixoto-de-abreu-barbosa/endocrinologista/salvador
+2025-05-22 01:46:00,970 - P17020 - INFO - Após processar URL 12 Uso de memória: 108.57 MB
+2025-05-22 01:46:00,971 - P17020 - INFO - Processando URL 13/23: https://www.saobernardo.sp.gov.br/documents/10181/542859/16_09_16_NM_1899_otz.pdf/c1fa089b-01ad-404e-a060-0dca86ccb113
+2025-05-22 01:46:00,971 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/542859/16_09_16_NM_1899_otz.pdf/c1fa089b-01ad-404e-a060-0dca86ccb113
+2025-05-22 01:46:00,971 - P17020 - INFO - Após processar URL 13 Uso de memória: 108.57 MB
+2025-05-22 01:46:00,971 - P17020 - INFO - Processando URL 14/23: https://drajacquelinepeixoto.com.br/contato/
+2025-05-22 01:46:08,342 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d9074aefce227080201f9f1c0bf281e2.html
+2025-05-22 01:46:08,352 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:46:08,352 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:46:08,352 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:46:08,352 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:46:08,352 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:46:08,353 - P17020 - INFO - Após processar URL 14 Uso de memória: 108.57 MB
+2025-05-22 01:46:08,353 - P17020 - INFO - Processando URL 15/23: https://crmvsp.gov.br/wp-content/uploads/2020/06/info_crmv_70.pdf
+2025-05-22 01:46:08,353 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://crmvsp.gov.br/wp-content/uploads/2020/06/info_crmv_70.pdf
+2025-05-22 01:46:08,353 - P17020 - INFO - Após processar URL 15 Uso de memória: 108.57 MB
+2025-05-22 01:46:08,354 - P17020 - INFO - Processando URL 16/23: https://www.doctoralia.com.br/endocrinologista/belo-horizonte/santo-agostinho
+2025-05-22 01:46:08,354 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/endocrinologista/belo-horizonte/santo-agostinho
+2025-05-22 01:46:08,354 - P17020 - INFO - Após processar URL 16 Uso de memória: 108.57 MB
+2025-05-22 01:46:08,354 - P17020 - INFO - Processando URL 17/23: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1578332610.pdf
+2025-05-22 01:46:08,354 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1578332610.pdf
+2025-05-22 01:46:08,355 - P17020 - INFO - Após processar URL 17 Uso de memória: 108.57 MB
+2025-05-22 01:46:08,355 - P17020 - INFO - Processando URL 18/23: https://auniao.pb.gov.br/servicos/doe/2025-1/janeiro/diario-oficial-31-01-2025-portal.pdf
+2025-05-22 01:46:08,355 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://auniao.pb.gov.br/servicos/doe/2025-1/janeiro/diario-oficial-31-01-2025-portal.pdf
+2025-05-22 01:46:08,355 - P17020 - INFO - Após processar URL 18 Uso de memória: 108.57 MB
+2025-05-22 01:46:08,355 - P17020 - INFO - Processando URL 19/23: https://doctoralia.com.br/contato
+2025-05-22 01:46:11,181 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\96b3b2a8f88f38e8ba2eb265571e4a31.html
+2025-05-22 01:46:11,201 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:46:11,201 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:46:11,201 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:46:11,201 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:46:11,202 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:46:11,202 - P17020 - INFO - Após processar URL 19 Uso de memória: 108.60 MB
+2025-05-22 01:46:11,202 - P17020 - INFO - Processando URL 20/23: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo579.pdf
+2025-05-22 01:46:11,202 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo579.pdf
+2025-05-22 01:46:11,202 - P17020 - INFO - Após processar URL 20 Uso de memória: 108.60 MB
+2025-05-22 01:46:11,202 - P17020 - INFO - Processando URL 21/23: https://www.intermedicos.com.br/endocrinologistas-em-belo-horizonte/jacqueline-peixoto-de-abreu-barbosa
+2025-05-22 01:46:15,988 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\81d43f4c1b7bbe5a5b760bca2eef3d3f.html
+2025-05-22 01:46:16,004 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:46:16,005 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 01:46:16,005 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:46:16,005 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:46:16,005 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:46:16,005 - P17020 - INFO - Após processar URL 21 Uso de memória: 108.68 MB
+2025-05-22 01:46:16,005 - P17020 - INFO - Processando URL 22/23: https://www.boaconsulta.com/especialista/jacqueline-peixoto-de-abreu-barbosa-6105c3a5ba32c32be2000990
+2025-05-22 01:46:20,427 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\615e7d9b398281e3e1d83b47b124ace6.html
+2025-05-22 01:46:20,503 - P17020 - INFO - Candidates address: 6 items
+2025-05-22 01:46:20,503 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:46:20,503 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:46:20,504 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:46:20,504 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:46:20,504 - P17020 - INFO - Após processar URL 22 Uso de memória: 109.58 MB
+2025-05-22 01:46:20,504 - P17020 - INFO - Processando URL 23/23: https://doctoralia.com.br/endocrinologista/belo-horizonte/fundaffemg
+2025-05-22 01:46:25,647 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\8706e3ea33b51e419cf27899cf2ed903.html
+2025-05-22 01:46:25,721 - P17020 - INFO - Candidates address: 9 items
+2025-05-22 01:46:25,721 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:46:25,721 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:46:25,721 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:46:25,722 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:46:25,722 - P17020 - INFO - Após processar URL 23 Uso de memória: 104.68 MB
+2025-05-22 01:46:25,722 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:46:25,722 - P17020 - INFO - Ranked address: 17 items
+2025-05-22 01:46:25,722 - P17020 - INFO - Ranked phone: 5 items
+2025-05-22 01:46:25,722 - P17020 - INFO - Ranked email: 1 items
+2025-05-22 01:46:25,723 - P17020 - INFO - Ranked complement: 1 items
+2025-05-22 01:46:25,723 - P17020 - INFO - Ranked cep: 7 items
+2025-05-22 01:46:25,723 - P17020 - INFO - Após agregação Uso de memória: 104.68 MB
+2025-05-22 01:46:25,723 - P17020 - INFO - Validando endereço: ['Rua Visconde do Rio Branco, 1488', 'Rua Araguari 1156', 'Av. dos Andradas, 3323']
+2025-05-22 01:46:25,723 - P17020 - INFO - Endereço validado: Rua Visconde do Rio Branco, 1488
+2025-05-22 01:46:25,723 - P17020 - INFO - Limpando texto extenso para campo address: Rua Visconde do Rio Branco, 1488...
+2025-05-22 01:46:25,724 - P17020 - INFO - Texto limpo: Rua Visconde do Rio Branco, 1488
+2025-05-22 01:46:25,724 - P17020 - INFO - Validando telefone: ['(31) 3417-4754', '(31) 3416-8292', '(31) 99797-4833']
+2025-05-22 01:46:25,724 - P17020 - INFO - Limpando texto extenso para campo phone: (31) 3417-4754...
+2025-05-22 01:46:25,724 - P17020 - INFO - Texto limpo: 31) 3417-4754
+2025-05-22 01:46:25,724 - P17020 - INFO - Telefone validado: 31) 3417-4754
+2025-05-22 01:46:25,725 - P17020 - INFO - Validando email: ['lanja@uol.com.br']
+2025-05-22 01:46:25,725 - P17020 - INFO - Limpando texto extenso para campo email: lanja@uol.com.br...
+2025-05-22 01:46:25,725 - P17020 - INFO - Texto limpo: lanja@uol.com.br
+2025-05-22 01:46:25,725 - P17020 - INFO - Email validado: lanja@uol.com.br
+2025-05-22 01:46:25,725 - P17020 - INFO - Validando complemento: ['Sala: 503;  Cidade Nova  Belo Horizonte MG  31170-024 ']
+2025-05-22 01:46:25,725 - P17020 - INFO - Limpando texto extenso para campo complement: Sala: 503;  Cidade Nova  Belo Horizonte MG  31170-...
+2025-05-22 01:46:25,725 - P17020 - INFO - Texto limpo: Sala: 503; Cidade Nova Belo
+2025-05-22 01:46:25,726 - P17020 - INFO - Complemento validado: Sala: 503; Cidade Nova Belo
+2025-05-22 01:46:25,726 - P17020 - INFO - Descobrindo cidade
+2025-05-22 01:46:25,726 - P17020 - INFO - Buscando cidade: Rua Visconde do Rio Branco cidade BA
+2025-05-22 01:46:27,903 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 01:46:27,904 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 01:46:27,904 - P17020 - INFO - Tempo de execução de processamento completo do médico: 54.89 segundos
+2025-05-22 01:46:27,904 - P17020 - INFO - Resultado processado: {'Hash': 'bd292bfaccf4f99a3dc5eee86d00e6c3d32896d292d9ad55546d68382becf158', 'CRM': '41835', 'UF': 'BA', 'Firstname': 'JACQUELINE', 'LastName': 'PEIXOTO DE ABREU BARBOSA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Visconde do Rio Branco, 1488', 'Address A1': 'Rua Visconde do Rio Branco', 'Numero A1': '1488', 'Complement A1': 'Sala: 503; Cidade Nova Belo', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '31) 3417-4754', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'lanja@uol.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:46:27,905 - P17020 - INFO - Progresso: 9.8%
+2025-05-22 01:46:27,905 - P17020 - INFO - Tempo de execução de processamento do médico 2: 54.89 segundos
+2025-05-22 01:46:27,905 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 01:46:27,905 - P17020 - INFO - Nome: PAULO NEY MARTINS
+2025-05-22 01:46:27,906 - P17020 - INFO - Início do processamento Uso de memória: 101.46 MB
+2025-05-22 01:46:27,906 - P17020 - INFO - Iniciando busca para: PAULO NEY MARTINS CRM 750 CE telefone e-mail endereço
+2025-05-22 01:46:28,413 - P17020 - INFO - SearX results: 10 URLs
+2025-05-22 01:46:28,413 - P17020 - INFO - Após SearX Uso de memória: 101.47 MB
+2025-05-22 01:46:31,412 - P17020 - INFO - Google results: 0 URLs
+2025-05-22 01:46:31,412 - P17020 - INFO - Após Google Uso de memória: 101.49 MB
+2025-05-22 01:46:33,922 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 01:46:33,922 - P17020 - INFO - Após Bing Uso de memória: 105.84 MB
+2025-05-22 01:46:33,922 - P17020 - INFO - Total de URLs únicas: 19
+2025-05-22 01:46:33,922 - P17020 - INFO - Processando URL 1/19: https://www.tjrj.jus.br/documents/d/guest/site-planilha-cadastro-de-peritos-atualizada-ate-15-01-2024
+2025-05-22 01:46:36,128 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\54d3d4c14ed3c110722c568872ea42ab.html
+2025-05-22 01:46:36,153 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:46:36,153 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:46:36,153 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:46:36,154 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:46:36,154 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 01:46:36,154 - P17020 - INFO - Após processar URL 1 Uso de memória: 108.37 MB
+2025-05-22 01:46:36,154 - P17020 - INFO - Processando URL 2/19: https://clinica.work/especialista/paulo-ney-martins-clinica-medica-campos-sales-ce
+2025-05-22 01:46:40,150 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f636e8bdb5e0a48b929237205cf32fd8.html
+2025-05-22 01:46:40,166 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:46:40,166 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:46:40,167 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:46:40,167 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:46:40,167 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:46:40,167 - P17020 - INFO - Após processar URL 2 Uso de memória: 106.99 MB
+2025-05-22 01:46:40,167 - P17020 - INFO - Processando URL 3/19: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x14207784443067994473&market=pt-BR&src=SERPGB
+2025-05-22 01:46:43,527 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\dbc874f2bcdca06d8f554cea166575be.html
+2025-05-22 01:46:43,551 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:46:43,551 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:46:43,551 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:46:43,551 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:46:43,551 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:46:43,552 - P17020 - INFO - Após processar URL 3 Uso de memória: 107.41 MB
+2025-05-22 01:46:43,552 - P17020 - INFO - Processando URL 4/19: https://diariooficial.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=edicao_consultar&formato=O&dta=16/07/2024
+2025-05-22 01:46:57,152 - P17020 - WARNING - Página muito grande (6.57MB), truncando
+2025-05-22 01:46:57,170 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a15f974a08228207f17a8fac25fe8254.html
+2025-05-22 01:46:59,463 - P17020 - INFO - Candidates address: 289 items
+2025-05-22 01:46:59,463 - P17020 - INFO - Candidates phone: 38 items
+2025-05-22 01:46:59,463 - P17020 - INFO - Candidates email: 86 items
+2025-05-22 01:46:59,464 - P17020 - INFO - Candidates complement: 6 items
+2025-05-22 01:46:59,464 - P17020 - INFO - Candidates cep: 2678 items
+2025-05-22 01:46:59,464 - P17020 - INFO - Após processar URL 4 Uso de memória: 117.82 MB
+2025-05-22 01:46:59,464 - P17020 - INFO - Processando URL 5/19: https://www.doe.sp.gov.br/executivo/secretaria-da-fazenda-e-planejamento/comunicado-de-5-de-agosto-de-2024-202408051127536199487723
+2025-05-22 01:47:02,543 - P17020 - WARNING - Página muito grande (5.54MB), truncando
+2025-05-22 01:47:02,550 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2758d47aafbf67c893eeda53e7f9c60e.html
+2025-05-22 01:47:03,454 - P17020 - INFO - Candidates address: 163 items
+2025-05-22 01:47:03,454 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:47:03,454 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:47:03,455 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:47:03,455 - P17020 - INFO - Candidates cep: 18072 items
+2025-05-22 01:47:03,455 - P17020 - INFO - Após processar URL 5 Uso de memória: 141.64 MB
+2025-05-22 01:47:03,455 - P17020 - INFO - Processando URL 6/19: https://applocal.com.br/empresa/paulo-ney-martins/campos-sales/ce/13191173
+2025-05-22 01:47:08,422 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c3dcb46658c4eeee4e4fdc8274ce3cb4.html
+2025-05-22 01:47:08,447 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:47:08,447 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:47:08,447 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:47:08,448 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:47:08,448 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:47:08,448 - P17020 - INFO - Após processar URL 6 Uso de memória: 138.91 MB
+2025-05-22 01:47:08,448 - P17020 - INFO - Processando URL 7/19: https://empresasweb.net/emp/clinica-dr-paulo-ney-ltda-54228350
+2025-05-22 01:47:11,680 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\11f634e9c676ee76d22367cf5c6427ab.html
+2025-05-22 01:47:11,836 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:47:11,836 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:47:11,836 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 01:47:11,837 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:47:11,837 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:47:11,837 - P17020 - INFO - Após processar URL 7 Uso de memória: 110.91 MB
+2025-05-22 01:47:11,837 - P17020 - INFO - Processando URL 8/19: https://paginaamarela.com.br/empresa/paulo-ney-martins/campos-sales/ce/13189464
+2025-05-22 01:47:17,203 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\8bdb86f8bc97747a21879780da436bc3.html
+2025-05-22 01:47:17,222 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:47:17,223 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:47:17,223 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:47:17,224 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:47:17,227 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:47:17,228 - P17020 - INFO - Após processar URL 8 Uso de memória: 110.93 MB
+2025-05-22 01:47:17,228 - P17020 - INFO - Processando URL 9/19: https://www.saobernardo.sp.gov.br/documents/10181/2045904/NM+2500+de+24.01.2025+-++Conteu%CC%81do+Integral.pdf/cd953d8d-5479-ab16-aaac-766f0721d543
+2025-05-22 01:47:17,228 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/2045904/NM+2500+de+24.01.2025+-++Conteu%CC%81do+Integral.pdf/cd953d8d-5479-ab16-aaac-766f0721d543
+2025-05-22 01:47:17,228 - P17020 - INFO - Após processar URL 9 Uso de memória: 110.93 MB
+2025-05-22 01:47:17,232 - P17020 - INFO - Processando URL 10/19: https://cadastroempresa.com.br/cnpj/54.228.350/0001-39-clinica-paulo-ney-clinica-dr-paulo-ney-ltda
+2025-05-22 01:47:19,654 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\84863efc23c16099ea325ae319e10fe7.html
+2025-05-22 01:47:19,658 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:47:19,658 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:47:19,658 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:47:19,658 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:47:19,658 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:47:19,659 - P17020 - INFO - Após processar URL 10 Uso de memória: 110.93 MB
+2025-05-22 01:47:19,659 - P17020 - INFO - Processando URL 11/19: https://www.gov.br/trabalho-e-emprego/pt-br/servicos/sindicatos/cadastro-de-entidades/entidade-sindical-registrada/FederaesBrasil.xlsx
+2025-05-22 01:47:19,659 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.gov.br/trabalho-e-emprego/pt-br/servicos/sindicatos/cadastro-de-entidades/entidade-sindical-registrada/FederaesBrasil.xlsx
+2025-05-22 01:47:19,660 - P17020 - INFO - Após processar URL 11 Uso de memória: 110.93 MB
+2025-05-22 01:47:19,660 - P17020 - INFO - Processando URL 12/19: https://listamedicos.com/medico/paulo-ney-martins
+2025-05-22 01:47:23,281 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4aec5a67e9a8dab4a2290718dad2f6aa.html
+2025-05-22 01:47:23,292 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:47:23,292 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:47:23,292 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:47:23,292 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:47:23,292 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 01:47:23,293 - P17020 - INFO - Após processar URL 12 Uso de memória: 108.98 MB
+2025-05-22 01:47:23,294 - P17020 - INFO - Processando URL 13/19: https://diariooficial.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=edicao_consultar&dta=01%2F08%2F2024&formato=O
+2025-05-22 01:47:36,491 - P17020 - WARNING - Página muito grande (5.27MB), truncando
+2025-05-22 01:47:36,518 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d92eb9687d325da093e23503573776cf.html
+2025-05-22 01:47:39,370 - P17020 - INFO - Candidates address: 344 items
+2025-05-22 01:47:39,370 - P17020 - INFO - Candidates phone: 40 items
+2025-05-22 01:47:39,371 - P17020 - INFO - Candidates email: 95 items
+2025-05-22 01:47:39,371 - P17020 - INFO - Candidates complement: 10 items
+2025-05-22 01:47:39,371 - P17020 - INFO - Candidates cep: 2470 items
+2025-05-22 01:47:39,372 - P17020 - INFO - Após processar URL 13 Uso de memória: 122.18 MB
+2025-05-22 01:47:39,372 - P17020 - INFO - Processando URL 14/19: https://cnpj.biz/54228350000139
+2025-05-22 01:47:44,035 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\48211825e6b91d8d6fef68220328cbaf.html
+2025-05-22 01:47:44,055 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 01:47:44,055 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:47:44,055 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 01:47:44,055 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:47:44,056 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 01:47:44,056 - P17020 - INFO - Após processar URL 14 Uso de memória: 110.58 MB
+2025-05-22 01:47:44,056 - P17020 - INFO - Processando URL 15/19: https://agenciadenoticias.ms.gov.br/wp-content/uploads/2025/01/LISTA-DE-AUTORIDADES_06-01-2025.pdf
+2025-05-22 01:47:44,056 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://agenciadenoticias.ms.gov.br/wp-content/uploads/2025/01/LISTA-DE-AUTORIDADES_06-01-2025.pdf
+2025-05-22 01:47:44,056 - P17020 - INFO - Após processar URL 15 Uso de memória: 110.58 MB
+2025-05-22 01:47:44,056 - P17020 - INFO - Processando URL 16/19: https://www.coffito.gov.br/nsite/?s=+474&paged=2
+2025-05-22 01:47:48,033 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b75900291f7f20e4980128474b5ed89e.html
+2025-05-22 01:47:48,291 - P17020 - INFO - Candidates address: 51 items
+2025-05-22 01:47:48,291 - P17020 - INFO - Candidates phone: 51 items
+2025-05-22 01:47:48,292 - P17020 - INFO - Candidates email: 39 items
+2025-05-22 01:47:48,292 - P17020 - INFO - Candidates complement: 6 items
+2025-05-22 01:47:48,292 - P17020 - INFO - Candidates cep: 55 items
+2025-05-22 01:47:48,292 - P17020 - INFO - Após processar URL 16 Uso de memória: 119.57 MB
+2025-05-22 01:47:48,292 - P17020 - INFO - Processando URL 17/19: https://portal.fazenda.sp.gov.br/servicos/cadesp/Documents/rptRelatorioPFE%2017-05-2023.pdf
+2025-05-22 01:47:48,292 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://portal.fazenda.sp.gov.br/servicos/cadesp/Documents/rptRelatorioPFE%2017-05-2023.pdf
+2025-05-22 01:47:48,293 - P17020 - INFO - Após processar URL 17 Uso de memória: 118.46 MB
+2025-05-22 01:47:48,293 - P17020 - INFO - Processando URL 18/19: https://www.redescredenciadas.com.br/perfil/paulo-ney-martins-ce-750
+2025-05-22 01:47:53,552 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4a1c3487af345f7b89f39347e14af799.html
+2025-05-22 01:47:53,558 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:47:53,558 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 01:47:53,558 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:47:53,558 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:47:53,558 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:47:53,559 - P17020 - INFO - Após processar URL 18 Uso de memória: 118.70 MB
+2025-05-22 01:47:53,559 - P17020 - INFO - Processando URL 19/19: https://www.doctoralia.com.br/paulo-ney-martins/medico-clinico-geral/campos-sales
+2025-05-22 01:47:53,559 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/paulo-ney-martins/medico-clinico-geral/campos-sales
+2025-05-22 01:47:53,559 - P17020 - INFO - Após processar URL 19 Uso de memória: 118.70 MB
+2025-05-22 01:47:53,559 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:47:53,561 - P17020 - INFO - Ranked address: 799 items
+2025-05-22 01:47:53,561 - P17020 - INFO - Ranked phone: 99 items
+2025-05-22 01:47:53,561 - P17020 - INFO - Ranked email: 165 items
+2025-05-22 01:47:53,562 - P17020 - INFO - Ranked complement: 22 items
+2025-05-22 01:47:53,569 - P17020 - INFO - Ranked cep: 23257 items
+2025-05-22 01:47:53,569 - P17020 - INFO - Após agregação Uso de memória: 121.08 MB
+2025-05-22 01:47:53,569 - P17020 - INFO - Validando endereço: ['R.São Bento, 405', 'Rua Borges Lagoa, 1230', 'Estrada da Baronesa, 1120']
+2025-05-22 01:47:53,570 - P17020 - INFO - Endereço validado: R.São Bento, 405
+2025-05-22 01:47:53,570 - P17020 - INFO - Limpando texto extenso para campo address: R.São Bento, 405...
+2025-05-22 01:47:53,571 - P17020 - INFO - Texto limpo: R.São Bento, 405
+2025-05-22 01:47:53,572 - P17020 - INFO - Validando telefone: ['(11) 3113-8000', '(11) 3322-4717', '(11) 3396-0175']
+2025-05-22 01:47:53,573 - P17020 - INFO - Limpando texto extenso para campo phone: (11) 3113-8000...
+2025-05-22 01:47:53,573 - P17020 - INFO - Texto limpo: 11) 3113-8000
+2025-05-22 01:47:53,573 - P17020 - INFO - Telefone validado: 11) 3113-8000
+2025-05-22 01:47:53,573 - P17020 - INFO - Validando email: ['casacivil@prefeitura.sp.gov.br', 'seges@prefeitura.sp.gov.br', 'sehabimprensa@prefeitura.sp.gov.br']
+2025-05-22 01:47:53,573 - P17020 - INFO - Limpando texto extenso para campo email: casacivil@prefeitura.sp.gov.br...
+2025-05-22 01:47:53,574 - P17020 - INFO - Texto limpo: casacivil@prefeitura.sp.gov.br
+2025-05-22 01:47:53,574 - P17020 - INFO - Email validado: casacivil@prefeitura.sp.gov.br
+2025-05-22 01:47:53,574 - P17020 - INFO - Validando complemento: ['Salazar ', 'Salaberry de Carvalho ', 'Conjunto Promorar Rio Claro/ São Mateus ']
+2025-05-22 01:47:53,574 - P17020 - INFO - Limpando texto extenso para campo complement: Salazar ...
+2025-05-22 01:47:53,574 - P17020 - INFO - Texto limpo: Salazar
+2025-05-22 01:47:53,574 - P17020 - INFO - Complemento validado: Salazar
+2025-05-22 01:47:53,575 - P17020 - INFO - Descobrindo cidade
+2025-05-22 01:47:53,575 - P17020 - INFO - Buscando cidade: R.São Bento cidade CE
+2025-05-22 01:47:56,082 - P17020 - INFO - Cidade encontrada: Fortaleza
+2025-05-22 01:47:56,089 - P17020 - INFO - Limpando texto extenso para campo city: Fortaleza...
+2025-05-22 01:47:56,090 - P17020 - INFO - Texto limpo: Fortaleza
+2025-05-22 01:47:56,091 - P17020 - INFO - Cidade descoberta: Fortaleza
+2025-05-22 01:47:56,094 - P17020 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 01:47:56,097 - P17020 - INFO - Iniciando busca de CEP em cascata para: R.São Bento, Fortaleza, CE
+2025-05-22 01:47:56,098 - P17020 - INFO - Método 1: ViaCEP API
+2025-05-22 01:47:56,108 - P17020 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/CE/fortaleza/rua%20sao%20bento/json/
+2025-05-22 01:47:56,812 - P17020 - INFO - Dados encontrados no ViaCEP: {'cep': '60863-010', 'logradouro': 'Rua São Bento', 'complemento': '', 'unidade': '', 'bairro': 'Barroso', 'localidade': 'Fortaleza', 'uf': 'CE', 'estado': 'Ceará', 'regiao': 'Nordeste', 'ibge': '2304400', 'gia': '', 'ddd': '85', 'siafi': '1389'}
+2025-05-22 01:47:56,816 - P17020 - INFO - CEP encontrado via ViaCEP: 60863-010
+2025-05-22 01:47:56,816 - P17020 - INFO - Dados de CEP encontrados: {'cep': '60863-010', 'logradouro': 'Rua São Bento', 'complemento': '', 'unidade': '', 'bairro': 'Barroso', 'localidade': 'Fortaleza', 'uf': 'CE', 'estado': 'Ceará', 'regiao': 'Nordeste', 'ibge': '2304400', 'gia': '', 'ddd': '85', 'siafi': '1389'}
+2025-05-22 01:47:56,816 - P17020 - INFO - Limpando texto extenso para campo bairro: Barroso...
+2025-05-22 01:47:56,816 - P17020 - INFO - Texto limpo: Barroso
+2025-05-22 01:47:56,816 - P17020 - INFO - Limpando texto extenso para campo city: Fortaleza...
+2025-05-22 01:47:56,817 - P17020 - INFO - Texto limpo: Fortaleza
+2025-05-22 01:47:56,817 - P17020 - INFO - Limpando texto extenso para campo state: CE...
+2025-05-22 01:47:56,817 - P17020 - INFO - Texto limpo: CE
+2025-05-22 01:47:56,817 - P17020 - INFO - Tempo de execução de processamento completo do médico: 88.91 segundos
+2025-05-22 01:47:56,818 - P17020 - INFO - Resultado processado: {'Hash': '66c2fc894019d36a3005009ba47c77f2ef39a263401b462c0e185d961219cf56', 'CRM': '750', 'UF': 'CE', 'Firstname': 'PAULO', 'LastName': 'NEY MARTINS', 'Medical specialty': '', 'Endereco Completo A1': 'R.São Bento, 405', 'Address A1': 'R.São Bento', 'Numero A1': '405', 'Complement A1': 'Salazar', 'Bairro A1': 'Barroso', 'postal code A1': '60863-010', 'City A1': 'Fortaleza', 'State A1': 'CE', 'Phone A1': '11) 3113-8000', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'casacivil@prefeitura.sp.gov.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:47:56,819 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 01:47:56,820 - P17020 - INFO - Após salvar resultados Uso de memória: 116.86 MB
+2025-05-22 01:47:56,821 - P17020 - INFO - Progresso: 10.4%
+2025-05-22 01:47:56,824 - P17020 - INFO - Tempo de execução de processamento do médico 3: 88.92 segundos
+2025-05-22 01:47:56,824 - P17020 - INFO - Tempo de execução de processamento do lote completo: 200.10 segundos

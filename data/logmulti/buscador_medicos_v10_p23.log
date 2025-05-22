@@ -1,0 +1,518 @@
+2025-05-22 01:32:45,424 - P17320 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 01:32:45,425 - P17320 - INFO - Nome: LINEU ANTUNES ALMAGRO
+2025-05-22 01:32:45,425 - P17320 - INFO - Reiniciando driver do Chrome
+2025-05-22 01:32:46,738 - P17320 - INFO - Após reiniciar driver Uso de memória: 87.19 MB
+2025-05-22 01:32:46,738 - P17320 - INFO - Início do processamento Uso de memória: 87.19 MB
+2025-05-22 01:32:46,738 - P17320 - INFO - Iniciando busca para: LINEU ANTUNES ALMAGRO CRM 45149 SP telefone e-mail endereço
+2025-05-22 01:32:47,445 - P17320 - INFO - SearX results: 0 URLs
+2025-05-22 01:32:47,450 - P17320 - INFO - Após SearX Uso de memória: 87.19 MB
+2025-05-22 01:32:50,245 - P17320 - INFO - Google results: 2 URLs
+2025-05-22 01:32:50,245 - P17320 - INFO - Após Google Uso de memória: 88.89 MB
+2025-05-22 01:32:52,837 - P17320 - INFO - Bing results: 10 URLs
+2025-05-22 01:32:52,838 - P17320 - INFO - Após Bing Uso de memória: 90.37 MB
+2025-05-22 01:32:52,838 - P17320 - INFO - Total de URLs únicas: 11
+2025-05-22 01:32:52,838 - P17320 - INFO - Processando URL 1/11: http://cnpj.info/Almagro-Clinica-Medica-Ltda-Clinica-Almagro
+2025-05-22 01:32:58,078 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\aae149ba1166df3672781f67c1dea9dc.html
+2025-05-22 01:32:58,083 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:32:58,083 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 01:32:58,083 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 01:32:58,083 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 01:32:58,084 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:32:58,084 - P17320 - INFO - Após processar URL 1 Uso de memória: 90.38 MB
+2025-05-22 01:32:58,084 - P17320 - INFO - Processando URL 2/11: https://guiasaudebrasil.com.br/unidade/sao-paulo/sao-paulo/2027054-ubs-j-marilia/profissionais/medico-clinico
+2025-05-22 01:33:03,805 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e54adc308cc0faa9a7745c430197bcbb.html
+2025-05-22 01:33:03,814 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:33:03,815 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 01:33:03,815 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:33:03,815 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:03,815 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 01:33:03,815 - P17320 - INFO - Após processar URL 2 Uso de memória: 90.70 MB
+2025-05-22 01:33:03,816 - P17320 - INFO - Processando URL 3/11: https://www.econodata.com.br/consulta-empresa/28446530000187-ALMAGRO-CLINICA-MEDICA-LTDA
+2025-05-22 01:33:09,734 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ac8ebebe24e76b9c68418c12d58c8acc.html
+2025-05-22 01:33:09,982 - P17320 - INFO - Candidates address: 25 items
+2025-05-22 01:33:09,988 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:10,000 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:33:10,001 - P17320 - INFO - Candidates complement: 2 items
+2025-05-22 01:33:10,002 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:33:10,003 - P17320 - INFO - Após processar URL 3 Uso de memória: 88.50 MB
+2025-05-22 01:33:10,004 - P17320 - INFO - Processando URL 4/11: https://www.helpsaude.com/Lineu-Antunes-Almagro.SP
+2025-05-22 01:33:16,412 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\30fd90ee6e570e63fbdf5f54fcad2768.html
+2025-05-22 01:33:16,422 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:33:16,422 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:16,422 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:33:16,422 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:16,422 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:33:16,423 - P17320 - INFO - Após processar URL 4 Uso de memória: 88.59 MB
+2025-05-22 01:33:16,423 - P17320 - INFO - Processando URL 5/11: https://www.medicosbrasil.com/profissional/lineu-antunes-almagro
+2025-05-22 01:33:20,155 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\805a977111fed45f73aae4fa318721e9.html
+2025-05-22 01:33:20,183 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:33:20,183 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:20,183 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:33:20,183 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:20,184 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:33:20,184 - P17320 - INFO - Após processar URL 5 Uso de memória: 91.68 MB
+2025-05-22 01:33:20,184 - P17320 - INFO - Processando URL 6/11: https://www.classemedica.com.br/medico/190902-lineu-antunes-almagro.htm
+2025-05-22 01:33:26,491 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\894203be1c13e321ca42de816cd29494.html
+2025-05-22 01:33:26,521 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:33:26,521 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:26,521 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:33:26,521 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:26,521 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:33:26,521 - P17320 - INFO - Após processar URL 6 Uso de memória: 90.95 MB
+2025-05-22 01:33:26,522 - P17320 - INFO - Processando URL 7/11: https://guiamedico.cremesp.org.br/
+2025-05-22 01:33:44,696 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 01:33:44,702 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:33:44,702 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 01:33:44,702 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:33:44,703 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:44,703 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:33:44,703 - P17320 - INFO - Após processar URL 7 Uso de memória: 90.28 MB
+2025-05-22 01:33:44,703 - P17320 - INFO - Processando URL 8/11: https://cliniguia.com/profissionais/lineu-antunes-almagro-122603323170018/
+2025-05-22 01:33:50,223 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d4096cfa8f640efff6d3c58f44354b1f.html
+2025-05-22 01:33:50,270 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:33:50,270 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:50,270 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:33:50,270 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:50,271 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:33:50,271 - P17320 - INFO - Após processar URL 8 Uso de memória: 89.73 MB
+2025-05-22 01:33:50,271 - P17320 - INFO - Processando URL 9/11: https://consultacrm.com.br/
+2025-05-22 01:33:54,215 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:33:54,229 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:33:54,229 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:54,230 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:33:54,230 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:54,230 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:33:54,231 - P17320 - INFO - Após processar URL 9 Uso de memória: 90.97 MB
+2025-05-22 01:33:54,231 - P17320 - INFO - Processando URL 10/11: https://www.econodata.com.br/consulta-empresa/28446530000187-almagro-clinica-medica-ltda
+2025-05-22 01:33:57,446 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\f91b19ee818809b8111caa003ef471d0.html
+2025-05-22 01:33:57,612 - P17320 - INFO - Candidates address: 25 items
+2025-05-22 01:33:57,612 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:57,613 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:33:57,613 - P17320 - INFO - Candidates complement: 2 items
+2025-05-22 01:33:57,613 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:33:57,614 - P17320 - INFO - Após processar URL 10 Uso de memória: 90.14 MB
+2025-05-22 01:33:57,615 - P17320 - INFO - Processando URL 11/11: https://www.boaconsulta.com/especialista/lineu-antunes-almagro-6106f062a2e00a756e0008d3
+2025-05-22 01:33:59,930 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\8b1bd03e7c345c77d62f8ec7a98ed5d1.html
+2025-05-22 01:34:00,004 - P17320 - INFO - Candidates address: 13 items
+2025-05-22 01:34:00,007 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:00,007 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:34:00,008 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:00,008 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:34:00,008 - P17320 - INFO - Após processar URL 11 Uso de memória: 91.82 MB
+2025-05-22 01:34:00,008 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:34:00,008 - P17320 - INFO - Ranked address: 40 items
+2025-05-22 01:34:00,008 - P17320 - INFO - Ranked phone: 3 items
+2025-05-22 01:34:00,009 - P17320 - INFO - Ranked email: 1 items
+2025-05-22 01:34:00,009 - P17320 - INFO - Ranked complement: 3 items
+2025-05-22 01:34:00,009 - P17320 - INFO - Ranked cep: 5 items
+2025-05-22 01:34:00,009 - P17320 - INFO - Após agregação Uso de memória: 91.82 MB
+2025-05-22 01:34:00,009 - P17320 - INFO - Validando endereço: ['Rua Emilio Mallet, 420', 'Rua Visconde do Rio Branco, 1717', 'Rua Doutor Milton Bandeira, 111']
+2025-05-22 01:34:00,009 - P17320 - INFO - Endereço validado: Rua Emilio Mallet, 420
+2025-05-22 01:34:00,010 - P17320 - INFO - Limpando texto extenso para campo address: Rua Emilio Mallet, 420...
+2025-05-22 01:34:00,010 - P17320 - INFO - Texto limpo: Rua Emilio Mallet, 420
+2025-05-22 01:34:00,010 - P17320 - INFO - Validando telefone: ['(11) 2222-2222', '(11) 2743-9526', '(11) 4349-9900']
+2025-05-22 01:34:00,010 - P17320 - INFO - Limpando texto extenso para campo phone: (11) 2222-2222...
+2025-05-22 01:34:00,011 - P17320 - INFO - Texto limpo: 11) 2222-2222
+2025-05-22 01:34:00,011 - P17320 - INFO - Telefone validado: 11) 2222-2222
+2025-05-22 01:34:00,011 - P17320 - INFO - Validando email: ['l.almagro58@gmail.com']
+2025-05-22 01:34:00,011 - P17320 - INFO - Limpando texto extenso para campo email: l.almagro58@gmail.com...
+2025-05-22 01:34:00,011 - P17320 - INFO - Texto limpo: l.almagro58@gmail.com
+2025-05-22 01:34:00,012 - P17320 - INFO - Email validado: l.almagro58@gmail.com
+2025-05-22 01:34:00,012 - P17320 - INFO - Validando complemento: ['Apt 124 Bairro: Vila Gomes Cardim Município/UF: São P', 'Apt 124 - Vila Gomes Cardim', 'Apt 124 ']
+2025-05-22 01:34:00,012 - P17320 - INFO - Limpando texto extenso para campo complement: Apt 124 Bairro: Vila Gomes Cardim Município/UF: Sã...
+2025-05-22 01:34:00,012 - P17320 - INFO - Texto limpo: Apt 124 Bairro: Vila Gomes Car
+2025-05-22 01:34:00,012 - P17320 - INFO - Complemento validado: Apt 124 Bairro: Vila Gomes Car
+2025-05-22 01:34:00,013 - P17320 - INFO - Descobrindo cidade
+2025-05-22 01:34:00,013 - P17320 - INFO - Buscando cidade: Rua Emilio Mallet cidade SP
+2025-05-22 01:34:02,928 - P17320 - INFO - Cidade encontrada: São Paulo
+2025-05-22 01:34:02,928 - P17320 - INFO - Limpando texto extenso para campo city: São Paulo...
+2025-05-22 01:34:02,929 - P17320 - INFO - Texto limpo: São Paulo
+2025-05-22 01:34:02,929 - P17320 - INFO - Cidade descoberta: São Paulo
+2025-05-22 01:34:02,929 - P17320 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 01:34:02,929 - P17320 - INFO - Iniciando busca de CEP em cascata para: Rua Emilio Mallet, São Paulo, SP
+2025-05-22 01:34:02,929 - P17320 - INFO - Método 1: ViaCEP API
+2025-05-22 01:34:02,929 - P17320 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SP/sao%20paulo/rua%20emilio%20mallet/json/
+2025-05-22 01:34:03,658 - P17320 - INFO - Dados encontrados no ViaCEP: {'cep': '03320-000', 'logradouro': 'Rua Emílio Mallet', 'complemento': 'até 999/1000', 'unidade': '', 'bairro': 'Vila Gomes Cardim', 'localidade': 'São Paulo', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3550308', 'gia': '1004', 'ddd': '11', 'siafi': '7107'}
+2025-05-22 01:34:03,662 - P17320 - INFO - CEP encontrado via ViaCEP: 03320-000
+2025-05-22 01:34:03,662 - P17320 - INFO - Dados de CEP encontrados: {'cep': '03320-000', 'logradouro': 'Rua Emílio Mallet', 'complemento': 'até 999/1000', 'unidade': '', 'bairro': 'Vila Gomes Cardim', 'localidade': 'São Paulo', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3550308', 'gia': '1004', 'ddd': '11', 'siafi': '7107'}
+2025-05-22 01:34:03,663 - P17320 - INFO - Limpando texto extenso para campo bairro: Vila Gomes Cardim...
+2025-05-22 01:34:03,663 - P17320 - INFO - Texto limpo: Vila Gomes Cardim
+2025-05-22 01:34:03,663 - P17320 - INFO - Limpando texto extenso para campo city: São Paulo...
+2025-05-22 01:34:03,663 - P17320 - INFO - Texto limpo: São Paulo
+2025-05-22 01:34:03,664 - P17320 - INFO - Limpando texto extenso para campo state: SP...
+2025-05-22 01:34:03,664 - P17320 - INFO - Texto limpo: SP
+2025-05-22 01:34:03,664 - P17320 - INFO - Tempo de execução de processamento completo do médico: 76.93 segundos
+2025-05-22 01:34:03,665 - P17320 - INFO - Resultado processado: {'Hash': 'ad1e53c3ef301de59b69f413d24af504f785aa6ebb1956f9e55d6627e5c2044a', 'CRM': '45149', 'UF': 'SP', 'Firstname': 'LINEU', 'LastName': 'ANTUNES ALMAGRO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Emilio Mallet, 420', 'Address A1': 'Rua Emilio Mallet', 'Numero A1': '420', 'Complement A1': 'Apt 124 Bairro: Vila Gomes Car', 'Bairro A1': 'Vila Gomes Cardim', 'postal code A1': '03320-000', 'City A1': 'São Paulo', 'State A1': 'SP', 'Phone A1': '11) 2222-2222', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'l.almagro58@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:34:03,667 - P17320 - INFO - Progresso: 5.4%
+2025-05-22 01:34:03,667 - P17320 - INFO - Executando coleta de lixo
+2025-05-22 01:34:03,737 - P17320 - INFO - Após coleta de lixo Uso de memória: 84.18 MB
+2025-05-22 01:34:03,737 - P17320 - INFO - Tempo de execução de processamento do médico 1: 78.31 segundos
+2025-05-22 01:34:03,738 - P17320 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 01:34:03,738 - P17320 - INFO - Nome: OSWALDO DE LIMA GARCIA
+2025-05-22 01:34:03,738 - P17320 - INFO - Início do processamento Uso de memória: 84.18 MB
+2025-05-22 01:34:03,738 - P17320 - INFO - Iniciando busca para: OSWALDO DE LIMA GARCIA CRM 54565 SP telefone e-mail endereço
+2025-05-22 01:34:04,524 - P17320 - INFO - SearX results: 9 URLs
+2025-05-22 01:34:04,525 - P17320 - INFO - Após SearX Uso de memória: 84.20 MB
+2025-05-22 01:34:07,423 - P17320 - INFO - Google results: 11 URLs
+2025-05-22 01:34:07,423 - P17320 - INFO - Após Google Uso de memória: 90.32 MB
+2025-05-22 01:34:09,990 - P17320 - INFO - Bing results: 11 URLs
+2025-05-22 01:34:09,990 - P17320 - INFO - Após Bing Uso de memória: 92.17 MB
+2025-05-22 01:34:09,991 - P17320 - INFO - Total de URLs únicas: 23
+2025-05-22 01:34:09,991 - P17320 - INFO - Processando URL 1/23: https://www.saobernardo.sp.gov.br/documents/10181/1812128/NM+2430+de+01.03.2024+-++Conte%C3%BAdo+Integral.pdf/d67bd80c-748f-9e37-4fd3-e0fe671a7732
+2025-05-22 01:34:09,991 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1812128/NM+2430+de+01.03.2024+-++Conte%C3%BAdo+Integral.pdf/d67bd80c-748f-9e37-4fd3-e0fe671a7732
+2025-05-22 01:34:09,991 - P17320 - INFO - Após processar URL 1 Uso de memória: 92.17 MB
+2025-05-22 01:34:09,992 - P17320 - INFO - Processando URL 2/23: https://www.consultacrm.com.br/index/medicos/uid-82a924e7-f5c5-11ec-9e74-0a4aa568c625/oswaldo_de_lima_garcia
+2025-05-22 01:34:12,805 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\8b31392f1181d5687f8e4b3bd3917e41.html
+2025-05-22 01:34:12,815 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:34:12,815 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:12,815 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:34:12,815 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:12,815 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:34:12,815 - P17320 - INFO - Após processar URL 2 Uso de memória: 93.03 MB
+2025-05-22 01:34:12,816 - P17320 - INFO - Processando URL 3/23: https://sistemadje.tjmt.jus.br/publicacoes/9842-2016.pdf
+2025-05-22 01:34:12,816 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/9842-2016.pdf
+2025-05-22 01:34:12,816 - P17320 - INFO - Após processar URL 3 Uso de memória: 93.03 MB
+2025-05-22 01:34:12,816 - P17320 - INFO - Processando URL 4/23: https://iprejun.sp.gov.br/S/arquivos/Imprensa_Oficial/Imprensa_Oficial_Jundiai_2018-08-24_4441.pdf
+2025-05-22 01:34:12,816 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://iprejun.sp.gov.br/S/arquivos/Imprensa_Oficial/Imprensa_Oficial_Jundiai_2018-08-24_4441.pdf
+2025-05-22 01:34:12,817 - P17320 - INFO - Após processar URL 4 Uso de memória: 93.03 MB
+2025-05-22 01:34:12,817 - P17320 - INFO - Processando URL 5/23: https://www.catalogo.med.br/doutor/oswaldo-de-lima-garcia-103240.htm
+2025-05-22 01:34:18,353 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\6120b64cb57536a3b785f7b5eb4ded2c.html
+2025-05-22 01:34:18,373 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:34:18,373 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:18,373 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:34:18,373 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:18,374 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:34:18,374 - P17320 - INFO - Após processar URL 5 Uso de memória: 89.39 MB
+2025-05-22 01:34:18,375 - P17320 - INFO - Processando URL 6/23: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2018/08/aa3e7c8c-27db-46cc-82c2-158ebfa993d9_EDI%C3%87%C3%83O-4441-24-08-2018-2.pdf
+2025-05-22 01:34:18,376 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2018/08/aa3e7c8c-27db-46cc-82c2-158ebfa993d9_EDI%C3%87%C3%83O-4441-24-08-2018-2.pdf
+2025-05-22 01:34:18,376 - P17320 - INFO - Após processar URL 6 Uso de memória: 89.39 MB
+2025-05-22 01:34:18,376 - P17320 - INFO - Processando URL 7/23: https://cliniguia.com/profissionais/oswaldo-de-lima-garcia-204314316920009/
+2025-05-22 01:34:23,399 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\c81605a3994960dcfc00704f2e018e3d.html
+2025-05-22 01:34:23,439 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:34:23,439 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:23,439 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:34:23,439 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:23,440 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:34:23,440 - P17320 - INFO - Após processar URL 7 Uso de memória: 91.87 MB
+2025-05-22 01:34:23,440 - P17320 - INFO - Processando URL 8/23: https://www.doctoralia.com.br/ortopedista-traumatologista/sao-joaquim-da-barra/sao-joaquim-da-barra
+2025-05-22 01:34:23,440 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/ortopedista-traumatologista/sao-joaquim-da-barra/sao-joaquim-da-barra
+2025-05-22 01:34:23,440 - P17320 - INFO - Após processar URL 8 Uso de memória: 91.87 MB
+2025-05-22 01:34:23,440 - P17320 - INFO - Processando URL 9/23: https://www.amorsaude.com.br/clinica/saojoaquimdabarra-sp/
+2025-05-22 01:34:31,500 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\dbadb844105c05c6b7594bf9fefa982c.html
+2025-05-22 01:34:31,524 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:34:31,525 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 01:34:31,525 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:34:31,525 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:31,525 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:34:31,525 - P17320 - INFO - Após processar URL 9 Uso de memória: 94.92 MB
+2025-05-22 01:34:31,526 - P17320 - INFO - Processando URL 10/23: https://listamedicos.com/medico/oswaldo-de-lima-garcia-dr
+2025-05-22 01:34:35,196 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\1e217facdd2c921bbb65228b9663d4fc.html
+2025-05-22 01:34:35,212 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:34:35,212 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:35,212 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:34:35,213 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:35,213 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 01:34:35,213 - P17320 - INFO - Após processar URL 10 Uso de memória: 95.26 MB
+2025-05-22 01:34:35,214 - P17320 - INFO - Processando URL 11/23: https://www.doctoralia.com.br/oswaldo-de-lima-garcia/ortopedista-traumatologista/sao-joaquim-da-barra
+2025-05-22 01:34:35,214 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/oswaldo-de-lima-garcia/ortopedista-traumatologista/sao-joaquim-da-barra
+2025-05-22 01:34:35,215 - P17320 - INFO - Após processar URL 11 Uso de memória: 94.50 MB
+2025-05-22 01:34:35,215 - P17320 - INFO - Processando URL 12/23: https://www.helpsaude.com/oswaldo-de-lima-garcia-crmsp-54565
+2025-05-22 01:34:39,277 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\89810b85556badc35d1d3d3c8dd54181.html
+2025-05-22 01:34:39,293 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 01:34:39,293 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:39,293 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:34:39,293 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:39,294 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 01:34:39,294 - P17320 - INFO - Após processar URL 12 Uso de memória: 94.55 MB
+2025-05-22 01:34:39,294 - P17320 - INFO - Processando URL 13/23: https://www.doctoralia.com.br/ortopedista-traumatologista/batatais
+2025-05-22 01:34:39,294 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/ortopedista-traumatologista/batatais
+2025-05-22 01:34:39,295 - P17320 - INFO - Após processar URL 13 Uso de memória: 94.55 MB
+2025-05-22 01:34:39,295 - P17320 - INFO - Processando URL 14/23: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/66666666.pdf
+2025-05-22 01:34:39,295 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/66666666.pdf
+2025-05-22 01:34:39,295 - P17320 - INFO - Após processar URL 14 Uso de memória: 94.55 MB
+2025-05-22 01:34:39,296 - P17320 - INFO - Processando URL 15/23: https://www.boaconsulta.com/especialista/oswaldo-de-lima-garcia-6105f55e2d9858040c000366
+2025-05-22 01:34:42,367 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\f4fe8fb7cdf43c9e2d5f7af5b4c2fafe.html
+2025-05-22 01:34:42,434 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 01:34:42,435 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:42,435 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:34:42,435 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:42,435 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:34:42,435 - P17320 - INFO - Após processar URL 15 Uso de memória: 90.25 MB
+2025-05-22 01:34:42,436 - P17320 - INFO - Processando URL 16/23: https://www.doctoralia.com.br/ortopedista-traumatologista/sao-joaquim-da-barra
+2025-05-22 01:34:42,436 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/ortopedista-traumatologista/sao-joaquim-da-barra
+2025-05-22 01:34:42,436 - P17320 - INFO - Após processar URL 16 Uso de memória: 89.55 MB
+2025-05-22 01:34:42,436 - P17320 - INFO - Processando URL 17/23: https://www.medicosbrasil.com/profissional/oswaldo-de-lima-garcia
+2025-05-22 01:34:44,609 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\559db6486d55b2e29fafb484e9e23a37.html
+2025-05-22 01:34:44,610 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:34:44,610 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:44,611 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:34:44,611 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:44,611 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:34:44,611 - P17320 - INFO - Após processar URL 17 Uso de memória: 89.37 MB
+2025-05-22 01:34:44,611 - P17320 - INFO - Processando URL 18/23: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/648983007.pdf
+2025-05-22 01:34:44,611 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/648983007.pdf
+2025-05-22 01:34:44,612 - P17320 - INFO - Após processar URL 18 Uso de memória: 89.37 MB
+2025-05-22 01:34:44,612 - P17320 - INFO - Processando URL 19/23: https://www.redescredenciadas.com.br/perfil/oswaldo-de-lima-garcia-sp-54565
+2025-05-22 01:34:49,943 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\b445162aa0e65b093129fcd5e9868838.html
+2025-05-22 01:34:49,948 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:34:49,949 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 01:34:49,949 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:34:49,949 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:49,949 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:34:49,949 - P17320 - INFO - Após processar URL 19 Uso de memória: 90.02 MB
+2025-05-22 01:34:49,950 - P17320 - INFO - Processando URL 20/23: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2012/06/do_20120619_2115.pdf
+2025-05-22 01:34:49,950 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2012/06/do_20120619_2115.pdf
+2025-05-22 01:34:49,950 - P17320 - INFO - Após processar URL 20 Uso de memória: 90.02 MB
+2025-05-22 01:34:49,950 - P17320 - INFO - Processando URL 21/23: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1860357569.pdf
+2025-05-22 01:34:49,950 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1860357569.pdf
+2025-05-22 01:34:49,950 - P17320 - INFO - Após processar URL 21 Uso de memória: 90.02 MB
+2025-05-22 01:34:49,951 - P17320 - INFO - Processando URL 22/23: https://servicos.sjc.sp.gov.br/governo/boletim/boletimPDF/20220715175922c08337ca-a5cf-4e36-bd6a-a606cf5a1649.pdf
+2025-05-22 01:34:49,951 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://servicos.sjc.sp.gov.br/governo/boletim/boletimPDF/20220715175922c08337ca-a5cf-4e36-bd6a-a606cf5a1649.pdf
+2025-05-22 01:34:49,951 - P17320 - INFO - Após processar URL 22 Uso de memória: 90.02 MB
+2025-05-22 01:34:49,951 - P17320 - INFO - Processando URL 23/23: https://clinica.work/especialista/oswaldo-de-lima-garcia-reumatologista-sao-joaquim-da-barra-sp
+2025-05-22 01:34:54,147 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\553ce48cc6adefb85c6c437ed922b658.html
+2025-05-22 01:34:54,167 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:34:54,167 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:54,167 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:34:54,168 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:54,168 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:34:54,168 - P17320 - INFO - Após processar URL 23 Uso de memória: 91.93 MB
+2025-05-22 01:34:54,168 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:34:54,168 - P17320 - INFO - Ranked address: 8 items
+2025-05-22 01:34:54,168 - P17320 - INFO - Ranked phone: 3 items
+2025-05-22 01:34:54,169 - P17320 - INFO - Ranked email: 0 items
+2025-05-22 01:34:54,169 - P17320 - INFO - Ranked complement: 0 items
+2025-05-22 01:34:54,169 - P17320 - INFO - Ranked cep: 3 items
+2025-05-22 01:34:54,169 - P17320 - INFO - Após agregação Uso de memória: 91.93 MB
+2025-05-22 01:34:54,170 - P17320 - INFO - Validando endereço: ['Rua Mato Grosso, 775', 'Rua Mato Grosso, 7', 'Rua Piaui N° 1552 Centro - São Joaquim da Barra - CEP:']
+2025-05-22 01:34:54,170 - P17320 - INFO - Endereço validado: Rua Mato Grosso, 775
+2025-05-22 01:34:54,170 - P17320 - INFO - Limpando texto extenso para campo address: Rua Mato Grosso, 775...
+2025-05-22 01:34:54,171 - P17320 - INFO - Texto limpo: Rua Mato Grosso, 775
+2025-05-22 01:34:54,171 - P17320 - INFO - Validando telefone: ['40038773', '(16) 3818-0058', '+551638180058']
+2025-05-22 01:34:54,171 - P17320 - INFO - Limpando texto extenso para campo phone: (16) 3818-0058...
+2025-05-22 01:34:54,171 - P17320 - INFO - Texto limpo: 16) 3818-0058
+2025-05-22 01:34:54,171 - P17320 - INFO - Telefone validado: 16) 3818-0058
+2025-05-22 01:34:54,172 - P17320 - INFO - Descobrindo cidade
+2025-05-22 01:34:54,172 - P17320 - INFO - Buscando cidade: Rua Mato Grosso cidade SP
+2025-05-22 01:34:56,809 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 01:34:56,810 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 01:34:56,810 - P17320 - INFO - Tempo de execução de processamento completo do médico: 53.07 segundos
+2025-05-22 01:34:56,811 - P17320 - INFO - Resultado processado: {'Hash': '17104aa16a5fbfe90bb6ed9c5a08ed8104409917c31cb51a63a95e56847eaca0', 'CRM': '54565', 'UF': 'SP', 'Firstname': 'OSWALDO', 'LastName': 'DE LIMA GARCIA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Mato Grosso, 775', 'Address A1': 'Rua Mato Grosso', 'Numero A1': '775', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '16) 3818-0058', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': '', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:34:56,812 - P17320 - INFO - Progresso: 5.6%
+2025-05-22 01:34:56,813 - P17320 - INFO - Tempo de execução de processamento do médico 2: 53.08 segundos
+2025-05-22 01:34:56,813 - P17320 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 01:34:56,813 - P17320 - INFO - Nome: LUIZ HENRIQUE ANDRADE DE BARROS
+2025-05-22 01:34:56,814 - P17320 - INFO - Início do processamento Uso de memória: 84.75 MB
+2025-05-22 01:34:56,814 - P17320 - INFO - Iniciando busca para: LUIZ HENRIQUE ANDRADE DE BARROS CRM 55763 SP telefone e-mail endereço
+2025-05-22 01:34:57,258 - P17320 - INFO - SearX results: 10 URLs
+2025-05-22 01:34:57,259 - P17320 - INFO - Após SearX Uso de memória: 84.76 MB
+2025-05-22 01:34:59,946 - P17320 - INFO - Google results: 15 URLs
+2025-05-22 01:34:59,946 - P17320 - INFO - Após Google Uso de memória: 88.72 MB
+2025-05-22 01:35:02,740 - P17320 - INFO - Bing results: 10 URLs
+2025-05-22 01:35:02,740 - P17320 - INFO - Após Bing Uso de memória: 90.72 MB
+2025-05-22 01:35:02,741 - P17320 - INFO - Total de URLs únicas: 30
+2025-05-22 01:35:02,741 - P17320 - INFO - Processando URL 1/30: https://www.senado.leg.br/publicacoes/anais/pdf/Anais_Republica/2012/Livro%2041.pdf
+2025-05-22 01:35:02,741 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.senado.leg.br/publicacoes/anais/pdf/Anais_Republica/2012/Livro%2041.pdf
+2025-05-22 01:35:02,742 - P17320 - INFO - Após processar URL 1 Uso de memória: 90.72 MB
+2025-05-22 01:35:02,743 - P17320 - INFO - Processando URL 2/30: https://www.guiamais.com.br/sao-paulo-sp/clinicas-medicos-e-terapias/psiquiatras/14680341-1/luis-henrique-andrade-de-barros
+2025-05-22 01:35:07,829 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\890e81662d469112fe167bf5fb6a765e.html
+2025-05-22 01:35:07,869 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:35:07,869 - P17320 - INFO - Candidates phone: 6 items
+2025-05-22 01:35:07,869 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:35:07,869 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 01:35:07,870 - P17320 - INFO - Candidates cep: 4 items
+2025-05-22 01:35:07,870 - P17320 - INFO - Após processar URL 2 Uso de memória: 88.88 MB
+2025-05-22 01:35:07,870 - P17320 - INFO - Processando URL 3/30: https://www.saobernardo.sp.gov.br/documents/10181/865801/NM+2041+de+18.01.2019+-+Conteu%CC%81do+Integral.pdf
+2025-05-22 01:35:07,870 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/865801/NM+2041+de+18.01.2019+-+Conteu%CC%81do+Integral.pdf
+2025-05-22 01:35:07,870 - P17320 - INFO - Após processar URL 3 Uso de memória: 88.88 MB
+2025-05-22 01:35:07,871 - P17320 - INFO - Processando URL 4/30: https://guiamedico.cremesp.org.br/
+2025-05-22 01:35:10,575 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 01:35:10,583 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:35:10,584 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 01:35:10,585 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:35:10,587 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:10,589 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:35:10,590 - P17320 - INFO - Após processar URL 4 Uso de memória: 89.36 MB
+2025-05-22 01:35:10,591 - P17320 - INFO - Processando URL 5/30: https://cliniguia.com/profissionais/luiz-henrique-andrade-de-barros-980016003715117/
+2025-05-22 01:35:13,616 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\3911791c9e67b7cfdfee81b5d9e66894.html
+2025-05-22 01:35:13,670 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:35:13,675 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:13,675 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:35:13,676 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:13,676 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:35:13,677 - P17320 - INFO - Após processar URL 5 Uso de memória: 87.98 MB
+2025-05-22 01:35:13,677 - P17320 - INFO - Processando URL 6/30: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo606.pdf
+2025-05-22 01:35:13,677 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo606.pdf
+2025-05-22 01:35:13,677 - P17320 - INFO - Após processar URL 6 Uso de memória: 87.98 MB
+2025-05-22 01:35:13,678 - P17320 - INFO - Processando URL 7/30: https://www.saobernardo.sp.gov.br/documents/10181/735644/NM+2004+de+13.07.2018+-+Conteu%CC%81do+Integral.pdf/86c2061e-7664-1487-2a62-d3ab1b7eb56b
+2025-05-22 01:35:13,678 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/735644/NM+2004+de+13.07.2018+-+Conteu%CC%81do+Integral.pdf/86c2061e-7664-1487-2a62-d3ab1b7eb56b
+2025-05-22 01:35:13,678 - P17320 - INFO - Após processar URL 7 Uso de memória: 87.98 MB
+2025-05-22 01:35:13,678 - P17320 - INFO - Processando URL 8/30: https://www.helpsaude.com/Luiz-Henrique-Andrade-de-Barros.SP
+2025-05-22 01:35:16,400 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\252fb3540d0d5357d535bfaacdf88523.html
+2025-05-22 01:35:16,415 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:35:16,416 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:16,416 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:35:16,417 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:16,417 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:35:16,417 - P17320 - INFO - Após processar URL 8 Uso de memória: 90.75 MB
+2025-05-22 01:35:16,417 - P17320 - INFO - Processando URL 9/30: https://www.mpsp.mp.br/w/do_25_02_2022
+2025-05-22 01:35:20,441 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7b7842f38b9333c682fd0be00373d38a.html
+2025-05-22 01:35:21,285 - P17320 - INFO - Candidates address: 4 items
+2025-05-22 01:35:21,285 - P17320 - INFO - Candidates phone: 3 items
+2025-05-22 01:35:21,286 - P17320 - INFO - Candidates email: 3 items
+2025-05-22 01:35:21,286 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:21,286 - P17320 - INFO - Candidates cep: 33 items
+2025-05-22 01:35:21,286 - P17320 - INFO - Após processar URL 9 Uso de memória: 94.39 MB
+2025-05-22 01:35:21,286 - P17320 - INFO - Processando URL 10/30: https://www.misterwhat.com.br/company/1605301-luis-henrique-andrade-de-barros-sao-paulo
+2025-05-22 01:35:24,131 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\478b54bcbe060697079b9b5f585b5f37.html
+2025-05-22 01:35:24,135 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:35:24,137 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:24,139 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:35:24,140 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:24,140 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:35:24,141 - P17320 - INFO - Após processar URL 10 Uso de memória: 91.60 MB
+2025-05-22 01:35:24,141 - P17320 - INFO - Processando URL 11/30: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/796218205.pdf
+2025-05-22 01:35:24,141 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/796218205.pdf
+2025-05-22 01:35:24,141 - P17320 - INFO - Após processar URL 11 Uso de memória: 91.60 MB
+2025-05-22 01:35:24,142 - P17320 - INFO - Processando URL 12/30: https://www.boaconsulta.com/especialista/luiz-henrique-andrade-de-barros-6106ec1ea2e00a7165000aa0
+2025-05-22 01:35:27,021 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\0274bfc86a8f480343dad84758a77614.html
+2025-05-22 01:35:27,087 - P17320 - INFO - Candidates address: 8 items
+2025-05-22 01:35:27,087 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:27,087 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:35:27,087 - P17320 - INFO - Candidates complement: 3 items
+2025-05-22 01:35:27,087 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:35:27,088 - P17320 - INFO - Após processar URL 12 Uso de memória: 92.83 MB
+2025-05-22 01:35:27,088 - P17320 - INFO - Processando URL 13/30: https://www.doctoralia.com.br/ramon-andrade-de-mello-2/oncologista-medico-clinico-geral-internista/sao-paulo
+2025-05-22 01:35:27,088 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/ramon-andrade-de-mello-2/oncologista-medico-clinico-geral-internista/sao-paulo
+2025-05-22 01:35:27,088 - P17320 - INFO - Após processar URL 13 Uso de memória: 91.28 MB
+2025-05-22 01:35:27,088 - P17320 - INFO - Processando URL 14/30: https://www.doctoralia.com.br/francisco-otavio-andrade-de-barros-silva/cirurgiao-geral-homeopata/-
+2025-05-22 01:35:27,088 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/francisco-otavio-andrade-de-barros-silva/cirurgiao-geral-homeopata/-
+2025-05-22 01:35:27,089 - P17320 - INFO - Após processar URL 14 Uso de memória: 91.28 MB
+2025-05-22 01:35:27,089 - P17320 - INFO - Processando URL 15/30: https://www.guiamedicoconquista.com.br/profissional/949/dra-camila-barros-andrade
+2025-05-22 01:35:30,198 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\569947c2ac12483b9724e32b4fa14219.html
+2025-05-22 01:35:30,259 - P17320 - INFO - Candidates address: 3 items
+2025-05-22 01:35:30,259 - P17320 - INFO - Candidates phone: 32 items
+2025-05-22 01:35:30,259 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:35:30,259 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:30,260 - P17320 - INFO - Candidates cep: 9 items
+2025-05-22 01:35:30,260 - P17320 - INFO - Após processar URL 15 Uso de memória: 90.17 MB
+2025-05-22 01:35:30,260 - P17320 - INFO - Processando URL 16/30: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-18-05-2022.pdf?p=1652896800042
+2025-05-22 01:35:30,260 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-18-05-2022.pdf?p=1652896800042
+2025-05-22 01:35:30,260 - P17320 - INFO - Após processar URL 16 Uso de memória: 90.17 MB
+2025-05-22 01:35:30,260 - P17320 - INFO - Processando URL 17/30: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo597.pdf
+2025-05-22 01:35:30,261 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo597.pdf
+2025-05-22 01:35:30,261 - P17320 - INFO - Após processar URL 17 Uso de memória: 90.17 MB
+2025-05-22 01:35:30,261 - P17320 - INFO - Processando URL 18/30: https://diario.carapicuiba.sp.gov.br/uploads/diario_oficial/341/Ld0YfZKQTQcIHekc0Iy2tCWCEqeQS-jk.pdf
+2025-05-22 01:35:30,261 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diario.carapicuiba.sp.gov.br/uploads/diario_oficial/341/Ld0YfZKQTQcIHekc0Iy2tCWCEqeQS-jk.pdf
+2025-05-22 01:35:30,261 - P17320 - INFO - Após processar URL 18 Uso de memória: 90.17 MB
+2025-05-22 01:35:30,261 - P17320 - INFO - Processando URL 19/30: http://www.longevitat.com/louisandrade.html
+2025-05-22 01:35:34,096 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\44e4b06a085534d2ea8cb9cac563f00c.html
+2025-05-22 01:35:34,103 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:35:34,103 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 01:35:34,103 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 01:35:34,103 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:34,104 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:35:34,104 - P17320 - INFO - Após processar URL 19 Uso de memória: 90.19 MB
+2025-05-22 01:35:34,104 - P17320 - INFO - Processando URL 20/30: https://www.helpsaude.com/luiz-henrique-andrade-de-barros.sp
+2025-05-22 01:35:37,152 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\15faf50763ac76fec42176c55fc325e6.html
+2025-05-22 01:35:37,169 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:35:37,169 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:37,169 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:35:37,169 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:37,169 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:35:37,170 - P17320 - INFO - Após processar URL 20 Uso de memória: 91.70 MB
+2025-05-22 01:35:37,170 - P17320 - INFO - Processando URL 21/30: https://www.classemedica.com.br/medico/204380-luiz-henrique-andrade-de-barros.htm
+2025-05-22 01:35:42,888 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\bf423273ae191a732a6866ff1f348de0.html
+2025-05-22 01:35:42,918 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:35:42,918 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:42,919 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:35:42,919 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:42,919 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:35:42,920 - P17320 - INFO - Após processar URL 21 Uso de memória: 93.04 MB
+2025-05-22 01:35:42,920 - P17320 - INFO - Processando URL 22/30: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo604.pdf
+2025-05-22 01:35:42,920 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo604.pdf
+2025-05-22 01:35:42,920 - P17320 - INFO - Após processar URL 22 Uso de memória: 93.04 MB
+2025-05-22 01:35:42,920 - P17320 - INFO - Processando URL 23/30: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/39294117.pdf
+2025-05-22 01:35:42,921 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/39294117.pdf
+2025-05-22 01:35:42,921 - P17320 - INFO - Após processar URL 23 Uso de memória: 93.04 MB
+2025-05-22 01:35:42,921 - P17320 - INFO - Processando URL 24/30: https://doctor.buscaly.com/br/perfil/luis-henrique-andrade-de-barros-sp-50800
+2025-05-22 01:35:45,369 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\a7ee844d53b7cb4fb74f5d8f5469d356.html
+2025-05-22 01:35:45,372 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:35:45,372 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:45,372 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:35:45,372 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:45,372 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:35:45,373 - P17320 - INFO - Após processar URL 24 Uso de memória: 93.04 MB
+2025-05-22 01:35:45,373 - P17320 - INFO - Processando URL 25/30: https://www.doctoralia.com.br/louis-de-andrade-barros/geriatra/rio-de-janeiro
+2025-05-22 01:35:45,373 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/louis-de-andrade-barros/geriatra/rio-de-janeiro
+2025-05-22 01:35:45,373 - P17320 - INFO - Após processar URL 25 Uso de memória: 93.04 MB
+2025-05-22 01:35:45,373 - P17320 - INFO - Processando URL 26/30: https://www.saobernardo.sp.gov.br/documents/10181/735644/NM+2005+de+20.07.2018+-+Conteu%CC%81do+Integral.pdf/a3ebd056-c90a-3b5e-93c4-b9505699c54a
+2025-05-22 01:35:45,373 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/735644/NM+2005+de+20.07.2018+-+Conteu%CC%81do+Integral.pdf/a3ebd056-c90a-3b5e-93c4-b9505699c54a
+2025-05-22 01:35:45,374 - P17320 - INFO - Após processar URL 26 Uso de memória: 93.04 MB
+2025-05-22 01:35:45,374 - P17320 - INFO - Processando URL 27/30: https://www.doctoralia.com.br/rodrigo-andrade-de-barros-2/oftalmologista/sao-paulo
+2025-05-22 01:35:45,374 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/rodrigo-andrade-de-barros-2/oftalmologista/sao-paulo
+2025-05-22 01:35:45,374 - P17320 - INFO - Após processar URL 27 Uso de memória: 93.04 MB
+2025-05-22 01:35:45,374 - P17320 - INFO - Processando URL 28/30: https://www.medicosbrasil.com/profissional/luiz-henrique-andrade-de-barros
+2025-05-22 01:35:47,592 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\c05001b34117370fc569ec9e12f07cbd.html
+2025-05-22 01:35:47,594 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:35:47,594 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:47,595 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:35:47,595 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:47,595 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:35:47,595 - P17320 - INFO - Após processar URL 28 Uso de memória: 93.10 MB
+2025-05-22 01:35:47,596 - P17320 - INFO - Processando URL 29/30: https://consultacrm.com.br/
+2025-05-22 01:35:50,670 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:35:50,682 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:35:50,683 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:50,683 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:35:50,684 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:50,684 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:35:50,685 - P17320 - INFO - Após processar URL 29 Uso de memória: 93.23 MB
+2025-05-22 01:35:50,685 - P17320 - INFO - Processando URL 30/30: https://diariooficial.santos.sp.gov.br/edicoes/inicio/download/2017-10-27
+2025-05-22 01:35:52,816 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\604119d06ef8278aa606291333cf5815.html
+2025-05-22 01:35:52,816 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:35:52,816 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:52,817 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:35:52,817 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:52,817 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:35:52,817 - P17320 - INFO - Após processar URL 30 Uso de memória: 93.23 MB
+2025-05-22 01:35:52,817 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:35:52,818 - P17320 - INFO - Ranked address: 18 items
+2025-05-22 01:35:52,818 - P17320 - INFO - Ranked phone: 43 items
+2025-05-22 01:35:52,818 - P17320 - INFO - Ranked email: 4 items
+2025-05-22 01:35:52,818 - P17320 - INFO - Ranked complement: 4 items
+2025-05-22 01:35:52,818 - P17320 - INFO - Ranked cep: 48 items
+2025-05-22 01:35:52,819 - P17320 - INFO - Após agregação Uso de memória: 93.23 MB
+2025-05-22 01:35:52,819 - P17320 - INFO - Validando endereço: ['R. JULIO MORANDO -PSIQUIATRA  avaliações Psiquiatras Fechado Abre às 08:00', 'Rua Frei Caneca, 1282', 'Rua Riachuelo, 115']
+2025-05-22 01:35:52,819 - P17320 - INFO - Endereço validado: R. JULIO MORANDO -PSIQUIATRA  avaliações Psiquiatras Fechado Abre às 08:00
+2025-05-22 01:35:52,819 - P17320 - INFO - Limpando texto extenso para campo address: R. JULIO MORANDO -PSIQUIATRA  avaliações Psiquiatr...
+2025-05-22 01:35:52,819 - P17320 - INFO - Texto limpo: R. JULIO MORANDO -PSIQUIATRA avaliações Psiquiatras Fechado Abre às 08:00
+2025-05-22 01:35:52,819 - P17320 - INFO - Validando telefone: ['(11) 4332-9077', '(11) 5572-1331', '(11) 5572-9454']
+2025-05-22 01:35:52,820 - P17320 - INFO - Limpando texto extenso para campo phone: (11) 4332-9077...
+2025-05-22 01:35:52,820 - P17320 - INFO - Texto limpo: 11) 4332-9077
+2025-05-22 01:35:52,820 - P17320 - INFO - Telefone validado: 11) 4332-9077
+2025-05-22 01:35:52,820 - P17320 - INFO - Validando email: ['revistajustitia@mpsp.mp.br', 'esmp-secretaria@mpsp.mp.br', 'esmp-escola_virtual@mpsp.mp.br']
+2025-05-22 01:35:52,820 - P17320 - INFO - Limpando texto extenso para campo email: revistajustitia@mpsp.mp.br...
+2025-05-22 01:35:52,820 - P17320 - INFO - Texto limpo: revistajustitia@mpsp.mp.br
+2025-05-22 01:35:52,821 - P17320 - INFO - Email validado: revistajustitia@mpsp.mp.br
+2025-05-22 01:35:52,821 - P17320 - INFO - Validando complemento: ['Conjunto 109 - Pinheiros - São Paulo - SP - 05409-011', 'Sala 701 Torre Norte', 'Conjunto 32']
+2025-05-22 01:35:52,821 - P17320 - INFO - Limpando texto extenso para campo complement: Conjunto 109 - Pinheiros - São Paulo - SP - 05409-...
+2025-05-22 01:35:52,821 - P17320 - INFO - Texto limpo: Conjunto 109 - Pinheiros - São
+2025-05-22 01:35:52,821 - P17320 - INFO - Complemento validado: Conjunto 109 - Pinheiros - São
+2025-05-22 01:35:52,821 - P17320 - INFO - Descobrindo cidade
+2025-05-22 01:35:52,821 - P17320 - INFO - Buscando cidade: R. JULIO MORANDO -PSIQUIATRA avaliações Psiquiatras Fechado Abre às 08:00 cidade SP
+2025-05-22 01:35:55,709 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 01:35:55,709 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 01:35:55,710 - P17320 - INFO - Tempo de execução de processamento completo do médico: 58.90 segundos
+2025-05-22 01:35:55,710 - P17320 - INFO - Resultado processado: {'Hash': '825285762dafe4945e780779e8fc6bedae0134759912acb5e3a3cd06cf8e8b09', 'CRM': '55763', 'UF': 'SP', 'Firstname': 'LUIZ', 'LastName': 'HENRIQUE ANDRADE DE BARROS', 'Medical specialty': '', 'Endereco Completo A1': 'R. JULIO MORANDO -PSIQUIATRA avaliações Psiquiatras Fechado Abre às 08:00', 'Address A1': 'R. JULIO MORANDO -PSIQUIATRA avaliações Psiquiatras Fechado Abre às 08:00', 'Numero A1': '', 'Complement A1': 'Conjunto 109 - Pinheiros - São', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4332-9077', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'revistajustitia@mpsp.mp.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:35:55,710 - P17320 - INFO - Salvando lote de resultados
+2025-05-22 01:35:55,711 - P17320 - INFO - Após salvar resultados Uso de memória: 87.21 MB
+2025-05-22 01:35:55,711 - P17320 - INFO - Progresso: 6.0%
+2025-05-22 01:35:55,712 - P17320 - INFO - Tempo de execução de processamento do médico 3: 58.90 segundos
+2025-05-22 01:35:55,712 - P17320 - INFO - Tempo de execução de processamento do lote completo: 190.29 segundos

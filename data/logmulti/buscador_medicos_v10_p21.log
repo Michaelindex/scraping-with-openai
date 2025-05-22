@@ -1,0 +1,571 @@
+2025-05-22 01:32:02,467 - P11992 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 01:32:02,467 - P11992 - INFO - Nome: CARLA CRISTINA DE FARIA
+2025-05-22 01:32:02,468 - P11992 - INFO - Reiniciando driver do Chrome
+2025-05-22 01:32:03,947 - P11992 - INFO - Após reiniciar driver Uso de memória: 82.99 MB
+2025-05-22 01:32:03,948 - P11992 - INFO - Início do processamento Uso de memória: 82.99 MB
+2025-05-22 01:32:03,948 - P11992 - INFO - Iniciando busca para: CARLA CRISTINA DE FARIA CRM 34313 SC telefone e-mail endereço
+2025-05-22 01:32:04,404 - P11992 - INFO - SearX results: 10 URLs
+2025-05-22 01:32:04,407 - P11992 - INFO - Após SearX Uso de memória: 83.00 MB
+2025-05-22 01:32:06,896 - P11992 - INFO - Google results: 6 URLs
+2025-05-22 01:32:06,897 - P11992 - INFO - Após Google Uso de memória: 85.52 MB
+2025-05-22 01:32:09,447 - P11992 - INFO - Bing results: 10 URLs
+2025-05-22 01:32:09,447 - P11992 - INFO - Após Bing Uso de memória: 88.43 MB
+2025-05-22 01:32:09,447 - P11992 - INFO - Total de URLs únicas: 25
+2025-05-22 01:32:09,448 - P11992 - INFO - Processando URL 1/25: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1325272117.pdf
+2025-05-22 01:32:09,448 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1325272117.pdf
+2025-05-22 01:32:09,448 - P11992 - INFO - Após processar URL 1 Uso de memória: 88.43 MB
+2025-05-22 01:32:09,448 - P11992 - INFO - Processando URL 2/25: https://centrogastroenterologico.med.br/
+2025-05-22 01:32:12,084 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\9de0d8fd2aecae1ce29ef72100858f20.html
+2025-05-22 01:32:12,136 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:32:12,137 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:32:12,138 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:32:12,139 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 01:32:12,140 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:32:12,140 - P11992 - INFO - Após processar URL 2 Uso de memória: 84.22 MB
+2025-05-22 01:32:12,140 - P11992 - INFO - Processando URL 3/25: https://www.socor.com.br/medicos
+2025-05-22 01:32:15,161 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\01bc71231f08449316b5f62bf46bb8c4.html
+2025-05-22 01:32:15,265 - P11992 - INFO - Candidates address: 3 items
+2025-05-22 01:32:15,265 - P11992 - INFO - Candidates phone: 3 items
+2025-05-22 01:32:15,265 - P11992 - INFO - Candidates email: 2 items
+2025-05-22 01:32:15,266 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:32:15,266 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:32:15,266 - P11992 - INFO - Após processar URL 3 Uso de memória: 86.89 MB
+2025-05-22 01:32:15,266 - P11992 - INFO - Processando URL 4/25: https://www.imeegbh.com.br/
+2025-05-22 01:32:21,806 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\d0730b5bc9af26e7831e0fcd1b083964.html
+2025-05-22 01:32:21,859 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:32:21,859 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:32:21,859 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:32:21,860 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:32:21,860 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:32:21,860 - P11992 - INFO - Após processar URL 4 Uso de memória: 87.51 MB
+2025-05-22 01:32:21,860 - P11992 - INFO - Processando URL 5/25: https://www.bertioga.sp.gov.br/wp/wp-content/uploads/2024/01/BOM_1150-compressed.pdf
+2025-05-22 01:32:21,860 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.bertioga.sp.gov.br/wp/wp-content/uploads/2024/01/BOM_1150-compressed.pdf
+2025-05-22 01:32:21,860 - P11992 - INFO - Após processar URL 5 Uso de memória: 87.51 MB
+2025-05-22 01:32:21,860 - P11992 - INFO - Processando URL 6/25: https://www.oncominas.med.br/corpo-clinico/
+2025-05-22 01:32:25,927 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65282e6c6e60bd74a26bea34f57e2a6a.html
+2025-05-22 01:32:25,937 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:32:25,943 - P11992 - INFO - Candidates phone: 4 items
+2025-05-22 01:32:25,950 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:32:25,952 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:32:25,956 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:32:25,957 - P11992 - INFO - Após processar URL 6 Uso de memória: 87.55 MB
+2025-05-22 01:32:25,959 - P11992 - INFO - Processando URL 7/25: https://crmsc.org.br/contatos/
+2025-05-22 01:32:29,677 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\851aac2848c6683a42ea3713a621a332.html
+2025-05-22 01:32:29,710 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:32:29,711 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:32:29,711 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:32:29,711 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 01:32:29,711 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:32:29,711 - P11992 - INFO - Após processar URL 7 Uso de memória: 87.76 MB
+2025-05-22 01:32:29,711 - P11992 - INFO - Processando URL 8/25: https://www.gov.br/mme/pt-br/arquivos/do-10-01-2012-s3.pdf
+2025-05-22 01:32:29,711 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.gov.br/mme/pt-br/arquivos/do-10-01-2012-s3.pdf
+2025-05-22 01:32:29,712 - P11992 - INFO - Após processar URL 8 Uso de memória: 87.76 MB
+2025-05-22 01:32:29,712 - P11992 - INFO - Processando URL 9/25: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/473444651.pdf
+2025-05-22 01:32:29,712 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/473444651.pdf
+2025-05-22 01:32:29,712 - P11992 - INFO - Após processar URL 9 Uso de memória: 87.76 MB
+2025-05-22 01:32:29,712 - P11992 - INFO - Processando URL 10/25: https://crmsc.org.br/
+2025-05-22 01:32:32,776 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\54a7121e05befb5552c466852dc3520e.html
+2025-05-22 01:32:32,839 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:32:32,839 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:32:32,839 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:32:32,839 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 01:32:32,839 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:32:32,840 - P11992 - INFO - Após processar URL 10 Uso de memória: 88.23 MB
+2025-05-22 01:32:32,840 - P11992 - INFO - Processando URL 11/25: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/2083894938.pdf
+2025-05-22 01:32:32,840 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/2083894938.pdf
+2025-05-22 01:32:32,840 - P11992 - INFO - Após processar URL 11 Uso de memória: 87.55 MB
+2025-05-22 01:32:32,840 - P11992 - INFO - Processando URL 12/25: https://portal.doe.sea.sc.gov.br/repositorio/2023/20231016/Jornal/22124.pdf
+2025-05-22 01:32:32,840 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://portal.doe.sea.sc.gov.br/repositorio/2023/20231016/Jornal/22124.pdf
+2025-05-22 01:32:32,841 - P11992 - INFO - Após processar URL 12 Uso de memória: 87.55 MB
+2025-05-22 01:32:32,841 - P11992 - INFO - Processando URL 13/25: https://sistemadje.tjmt.jus.br/publicacoes/8832-2012.pdf
+2025-05-22 01:32:32,841 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/8832-2012.pdf
+2025-05-22 01:32:32,841 - P11992 - INFO - Após processar URL 13 Uso de memória: 87.55 MB
+2025-05-22 01:32:32,841 - P11992 - INFO - Processando URL 14/25: https://ligacontraocancer.com.br/especialidades-medicas/
+2025-05-22 01:32:37,612 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\0c40d85e0813a937d458f1440bac8207.html
+2025-05-22 01:32:38,142 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:32:38,150 - P11992 - INFO - Candidates phone: 9 items
+2025-05-22 01:32:38,151 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:32:38,152 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:32:38,152 - P11992 - INFO - Candidates cep: 5 items
+2025-05-22 01:32:38,153 - P11992 - INFO - Após processar URL 14 Uso de memória: 85.87 MB
+2025-05-22 01:32:38,153 - P11992 - INFO - Processando URL 15/25: https://www.consultasocio.com/q/sa/carla-cristina-de-faria
+2025-05-22 01:32:43,649 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\f5a22ea7bbe683a5cc2a40dc73cbc0e8.html
+2025-05-22 01:32:43,659 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 01:32:43,659 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:32:43,659 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:32:43,659 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 01:32:43,660 - P11992 - INFO - Candidates cep: 3 items
+2025-05-22 01:32:43,660 - P11992 - INFO - Após processar URL 15 Uso de memória: 84.10 MB
+2025-05-22 01:32:43,660 - P11992 - INFO - Processando URL 16/25: https://transparencia.crmsc.org.br/
+2025-05-22 01:32:49,302 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ba3d018366d95fb1f03a42feda18260e.html
+2025-05-22 01:32:49,322 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:32:49,322 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:32:49,322 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:32:49,322 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 01:32:49,322 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:32:49,323 - P11992 - INFO - Após processar URL 16 Uso de memória: 84.32 MB
+2025-05-22 01:32:49,323 - P11992 - INFO - Processando URL 17/25: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 01:32:51,539 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 01:32:51,576 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:32:51,578 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:32:51,579 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:32:51,579 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:32:51,580 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:32:51,580 - P11992 - INFO - Após processar URL 17 Uso de memória: 84.86 MB
+2025-05-22 01:32:51,581 - P11992 - INFO - Processando URL 18/25: https://api.crmsc.org.br/crvirtual-fale-conosco/?setor=3
+2025-05-22 01:32:58,819 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7f23ddc4abd124e98ce45ff01bf37805.html
+2025-05-22 01:32:58,840 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:32:58,841 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:32:58,841 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:32:58,842 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 01:32:58,842 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:32:58,842 - P11992 - INFO - Após processar URL 18 Uso de memória: 85.11 MB
+2025-05-22 01:32:58,843 - P11992 - INFO - Processando URL 19/25: https://www.saobernardo.sp.gov.br/documents/10181/865801/NM+2059+de+10.05.2019+-+Conteu%CC%81do+Integral.pdf/70515d20-1f94-0554-1b59-f6875c438a3e
+2025-05-22 01:32:58,843 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/865801/NM+2059+de+10.05.2019+-+Conteu%CC%81do+Integral.pdf/70515d20-1f94-0554-1b59-f6875c438a3e
+2025-05-22 01:32:58,843 - P11992 - INFO - Após processar URL 19 Uso de memória: 82.75 MB
+2025-05-22 01:32:58,844 - P11992 - INFO - Processando URL 20/25: https://crmsc.org.br/regionais/delegacias-regionais/
+2025-05-22 01:33:01,233 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\4fdceacb77d0ad074a23bf192c406e73.html
+2025-05-22 01:33:01,299 - P11992 - INFO - Candidates address: 8 items
+2025-05-22 01:33:01,299 - P11992 - INFO - Candidates phone: 10 items
+2025-05-22 01:33:01,299 - P11992 - INFO - Candidates email: 14 items
+2025-05-22 01:33:01,299 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 01:33:01,299 - P11992 - INFO - Candidates cep: 9 items
+2025-05-22 01:33:01,300 - P11992 - INFO - Após processar URL 20 Uso de memória: 85.67 MB
+2025-05-22 01:33:01,300 - P11992 - INFO - Processando URL 21/25: https://sistemas.cfm.org.br/delegacias/sc
+2025-05-22 01:33:03,552 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\c4ba496c1a97959529c061c6e9685ed9.html
+2025-05-22 01:33:03,555 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:33:03,556 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:33:03,556 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:33:03,556 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:03,556 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:33:03,557 - P11992 - INFO - Após processar URL 21 Uso de memória: 82.91 MB
+2025-05-22 01:33:03,557 - P11992 - INFO - Processando URL 22/25: https://wwa.tjto.jus.br/diario/diariopublicado/1335.pdf
+2025-05-22 01:33:03,557 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://wwa.tjto.jus.br/diario/diariopublicado/1335.pdf
+2025-05-22 01:33:03,558 - P11992 - INFO - Após processar URL 22 Uso de memória: 82.91 MB
+2025-05-22 01:33:03,558 - P11992 - INFO - Processando URL 23/25: https://sistemas.cfm.org.br/delegacias/listar/SC
+2025-05-22 01:33:05,704 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\8a8679df852fd38897624968d9cbaf5c.html
+2025-05-22 01:33:05,710 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:33:05,710 - P11992 - INFO - Candidates phone: 7 items
+2025-05-22 01:33:05,710 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:33:05,710 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:05,711 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:33:05,711 - P11992 - INFO - Após processar URL 23 Uso de memória: 82.97 MB
+2025-05-22 01:33:05,711 - P11992 - INFO - Processando URL 24/25: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/15741/Caderno_JUD_MG_2018-12-07_X_228.pdf?sequence=1&isAllowed=y
+2025-05-22 01:33:05,711 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/15741/Caderno_JUD_MG_2018-12-07_X_228.pdf?sequence=1&isAllowed=y
+2025-05-22 01:33:05,711 - P11992 - INFO - Após processar URL 24 Uso de memória: 82.97 MB
+2025-05-22 01:33:05,711 - P11992 - INFO - Processando URL 25/25: https://consultacrm.com.br/
+2025-05-22 01:33:09,194 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:33:09,206 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:33:09,206 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:09,206 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:33:09,206 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:09,206 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:33:09,207 - P11992 - INFO - Após processar URL 25 Uso de memória: 86.56 MB
+2025-05-22 01:33:09,207 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:33:09,208 - P11992 - INFO - Ranked address: 16 items
+2025-05-22 01:33:09,208 - P11992 - INFO - Ranked phone: 29 items
+2025-05-22 01:33:09,208 - P11992 - INFO - Ranked email: 21 items
+2025-05-22 01:33:09,208 - P11992 - INFO - Ranked complement: 4 items
+2025-05-22 01:33:09,209 - P11992 - INFO - Ranked cep: 20 items
+2025-05-22 01:33:09,209 - P11992 - INFO - Após agregação Uso de memória: 86.56 MB
+2025-05-22 01:33:09,209 - P11992 - INFO - Validando endereço: ['Rua: Pernambuco 353', 'Av. do Contorno, 10', 'Rua Juiz de Fora, 33']
+2025-05-22 01:33:09,209 - P11992 - INFO - Endereço validado: Rua: Pernambuco 353
+2025-05-22 01:33:09,210 - P11992 - INFO - Limpando texto extenso para campo address: Rua: Pernambuco 353...
+2025-05-22 01:33:09,210 - P11992 - INFO - Texto limpo: Rua: Pernambuco 353
+2025-05-22 01:33:09,210 - P11992 - INFO - Validando telefone: ['(48) 3952-5000', '(49) 3323-0502', '(48) 3433-7223']
+2025-05-22 01:33:09,210 - P11992 - INFO - Limpando texto extenso para campo phone: (48) 3952-5000...
+2025-05-22 01:33:09,210 - P11992 - INFO - Texto limpo: 48) 3952-5000
+2025-05-22 01:33:09,211 - P11992 - INFO - Telefone validado: 48) 3952-5000
+2025-05-22 01:33:09,211 - P11992 - INFO - Validando email: ['protocolo@crmsc.org.br', 'centrogastro@centrogastro.com.br', 'ouvidoria@socor.com.br']
+2025-05-22 01:33:09,211 - P11992 - INFO - Limpando texto extenso para campo email: protocolo@crmsc.org.br...
+2025-05-22 01:33:09,211 - P11992 - INFO - Texto limpo: protocolo@crmsc.org.br
+2025-05-22 01:33:09,211 - P11992 - INFO - Email validado: protocolo@crmsc.org.br
+2025-05-22 01:33:09,212 - P11992 - INFO - Validando complemento: ['Aptidão à RT Vigilância ', 'Sala 507 e 609 - Bairro: Funcionários / Belo Horizonte', 'Sala  1003                      Sb 02 Estreito']
+2025-05-22 01:33:09,212 - P11992 - INFO - Limpando texto extenso para campo complement: Aptidão à RT Vigilância ...
+2025-05-22 01:33:09,212 - P11992 - INFO - Texto limpo: Aptidão à RT Vigilância
+2025-05-22 01:33:09,212 - P11992 - INFO - Complemento validado: Aptidão à RT Vigilância
+2025-05-22 01:33:09,212 - P11992 - INFO - Descobrindo cidade
+2025-05-22 01:33:09,212 - P11992 - INFO - Buscando cidade: Rua: Pernambuco 353 cidade SC
+2025-05-22 01:33:12,006 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 01:33:12,006 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 01:33:12,007 - P11992 - INFO - Tempo de execução de processamento completo do médico: 68.06 segundos
+2025-05-22 01:33:12,007 - P11992 - INFO - Resultado processado: {'Hash': 'd3380ce1b56777fd38c5e18af8f157bf21670a0bc8524fa6e9e816f3a3414e4f', 'CRM': '34313', 'UF': 'SC', 'Firstname': 'CARLA', 'LastName': 'CRISTINA DE FARIA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua: Pernambuco 353', 'Address A1': 'Rua: Pernambuco 353', 'Numero A1': '', 'Complement A1': 'Aptidão à RT Vigilância', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '48) 3952-5000', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'protocolo@crmsc.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:33:12,008 - P11992 - INFO - Progresso: 5.1%
+2025-05-22 01:33:12,009 - P11992 - INFO - Executando coleta de lixo
+2025-05-22 01:33:12,069 - P11992 - INFO - Após coleta de lixo Uso de memória: 81.64 MB
+2025-05-22 01:33:12,069 - P11992 - INFO - Tempo de execução de processamento do médico 1: 69.60 segundos
+2025-05-22 01:33:12,069 - P11992 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 01:33:12,069 - P11992 - INFO - Nome: ELIAS MUTCHNIK
+2025-05-22 01:33:12,070 - P11992 - INFO - Início do processamento Uso de memória: 81.64 MB
+2025-05-22 01:33:12,070 - P11992 - INFO - Iniciando busca para: ELIAS MUTCHNIK CRM 49 SP telefone e-mail endereço
+2025-05-22 01:33:13,029 - P11992 - INFO - SearX results: 15 URLs
+2025-05-22 01:33:13,030 - P11992 - INFO - Após SearX Uso de memória: 81.64 MB
+2025-05-22 01:33:15,519 - P11992 - INFO - Google results: 10 URLs
+2025-05-22 01:33:15,519 - P11992 - INFO - Após Google Uso de memória: 85.10 MB
+2025-05-22 01:33:18,015 - P11992 - INFO - Bing results: 10 URLs
+2025-05-22 01:33:18,015 - P11992 - INFO - Após Bing Uso de memória: 86.10 MB
+2025-05-22 01:33:18,015 - P11992 - INFO - Total de URLs únicas: 22
+2025-05-22 01:33:18,016 - P11992 - INFO - Processando URL 1/22: https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/cgp/CGP_MEDICOS_MAR2012.pdf
+2025-05-22 01:33:18,016 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/cgp/CGP_MEDICOS_MAR2012.pdf
+2025-05-22 01:33:18,016 - P11992 - INFO - Após processar URL 1 Uso de memória: 86.10 MB
+2025-05-22 01:33:18,016 - P11992 - INFO - Processando URL 2/22: https://www.jfsp.jus.br/documentos/administrativo/NUGE/Civel/EDITAL-102-2024-CIVEL.pdf
+2025-05-22 01:33:18,016 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.jfsp.jus.br/documentos/administrativo/NUGE/Civel/EDITAL-102-2024-CIVEL.pdf
+2025-05-22 01:33:18,016 - P11992 - INFO - Após processar URL 2 Uso de memória: 86.10 MB
+2025-05-22 01:33:18,016 - P11992 - INFO - Processando URL 3/22: https://www.gov.br/mme/pt-br/arquivos/do-06-04-2010-s3.pdf
+2025-05-22 01:33:18,017 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.gov.br/mme/pt-br/arquivos/do-06-04-2010-s3.pdf
+2025-05-22 01:33:18,017 - P11992 - INFO - Após processar URL 3 Uso de memória: 86.10 MB
+2025-05-22 01:33:18,017 - P11992 - INFO - Processando URL 4/22: http://cremesp.org.br/
+2025-05-22 01:33:22,326 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\2a967318246f9658edeb1e0469c871fe.html
+2025-05-22 01:33:22,353 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:33:22,353 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:33:22,353 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:33:22,353 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:22,353 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 01:33:22,354 - P11992 - INFO - Após processar URL 4 Uso de memória: 86.42 MB
+2025-05-22 01:33:22,354 - P11992 - INFO - Processando URL 5/22: https://www.classemedica.com.br/medico/92967-elias-mutchnik.htm
+2025-05-22 01:33:27,396 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\f7ad8bbafa006c3f6c222123496787cf.html
+2025-05-22 01:33:27,425 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:33:27,425 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:27,426 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:33:27,426 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:27,426 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:33:27,426 - P11992 - INFO - Após processar URL 5 Uso de memória: 87.97 MB
+2025-05-22 01:33:27,426 - P11992 - INFO - Processando URL 6/22: https://consultacrm.com.br/
+2025-05-22 01:33:30,506 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:33:30,517 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:33:30,518 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:30,518 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:33:30,518 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:30,518 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:33:30,518 - P11992 - INFO - Após processar URL 6 Uso de memória: 84.69 MB
+2025-05-22 01:33:30,518 - P11992 - INFO - Processando URL 7/22: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/12075
+2025-05-22 01:33:32,652 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\77bee7ce552e79ff2e65c7d99a4aefcb.html
+2025-05-22 01:33:32,664 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:33:32,665 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:32,665 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:33:32,665 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:32,665 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:33:32,665 - P11992 - INFO - Após processar URL 7 Uso de memória: 86.73 MB
+2025-05-22 01:33:32,665 - P11992 - INFO - Processando URL 8/22: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/518462467.pdf
+2025-05-22 01:33:32,666 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/518462467.pdf
+2025-05-22 01:33:32,666 - P11992 - INFO - Após processar URL 8 Uso de memória: 83.70 MB
+2025-05-22 01:33:32,666 - P11992 - INFO - Processando URL 9/22: https://www.spdo.ms.gov.br/diariodoe/Index/Download/DO10337_01_12_2020
+2025-05-22 01:33:35,249 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\b31f820a7475c2576a82bd448d7e4dc7.html
+2025-05-22 01:33:35,249 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:33:35,250 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:35,250 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:33:35,250 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:35,250 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:33:35,251 - P11992 - INFO - Após processar URL 9 Uso de memória: 83.70 MB
+2025-05-22 01:33:35,251 - P11992 - INFO - Processando URL 10/22: https://guiamedico.cremesp.org.br/
+2025-05-22 01:33:45,078 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 01:33:45,084 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:33:45,085 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:33:45,085 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:33:45,085 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:45,085 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:33:45,085 - P11992 - INFO - Após processar URL 10 Uso de memória: 84.42 MB
+2025-05-22 01:33:45,086 - P11992 - INFO - Processando URL 11/22: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1895854141.pdf
+2025-05-22 01:33:45,086 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1895854141.pdf
+2025-05-22 01:33:45,086 - P11992 - INFO - Após processar URL 11 Uso de memória: 84.42 MB
+2025-05-22 01:33:45,086 - P11992 - INFO - Processando URL 12/22: https://www.jfsp.jus.br/documentos/administrativo/NUGE/Civel/EDITAL-44-2013-CIVEL.pdf
+2025-05-22 01:33:45,087 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.jfsp.jus.br/documentos/administrativo/NUGE/Civel/EDITAL-44-2013-CIVEL.pdf
+2025-05-22 01:33:45,087 - P11992 - INFO - Após processar URL 12 Uso de memória: 84.42 MB
+2025-05-22 01:33:45,087 - P11992 - INFO - Processando URL 13/22: https://www.helpsaude.com/Elias-Mutchnik.SP/
+2025-05-22 01:33:51,244 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e9b90e5669895f0e720eae3e8d6c8a9f.html
+2025-05-22 01:33:51,259 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:33:51,259 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:51,259 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:33:51,259 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:51,259 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:33:51,260 - P11992 - INFO - Após processar URL 13 Uso de memória: 86.45 MB
+2025-05-22 01:33:51,260 - P11992 - INFO - Processando URL 14/22: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 01:33:54,240 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 01:33:54,287 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:33:54,291 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:54,292 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:33:54,292 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:54,292 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:33:54,293 - P11992 - INFO - Após processar URL 14 Uso de memória: 86.59 MB
+2025-05-22 01:33:54,293 - P11992 - INFO - Processando URL 15/22: https://www.gov.br/mme/pt-br/arquivos/do-28-10-2010-s3.pdf
+2025-05-22 01:33:54,296 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.gov.br/mme/pt-br/arquivos/do-28-10-2010-s3.pdf
+2025-05-22 01:33:54,302 - P11992 - INFO - Após processar URL 15 Uso de memória: 86.59 MB
+2025-05-22 01:33:54,305 - P11992 - INFO - Processando URL 16/22: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/30053
+2025-05-22 01:33:56,420 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\2483c469ac1884c5cb0b76edfd99a3c4.html
+2025-05-22 01:33:56,474 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:33:56,476 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:33:56,477 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:33:56,477 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:33:56,477 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:33:56,478 - P11992 - INFO - Após processar URL 16 Uso de memória: 83.76 MB
+2025-05-22 01:33:56,478 - P11992 - INFO - Processando URL 17/22: https://portal.cfm.org.br/busca-por-estabelecimentos-de-saude
+2025-05-22 01:34:00,495 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e04d54b768122c9fb041900a517087af.html
+2025-05-22 01:34:00,522 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:34:00,523 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:00,523 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:34:00,523 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 01:34:00,523 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:34:00,523 - P11992 - INFO - Após processar URL 17 Uso de memória: 85.29 MB
+2025-05-22 01:34:00,524 - P11992 - INFO - Processando URL 18/22: https://www.consultasocio.com/q/sa/leonora-zveibil-kandelman
+2025-05-22 01:34:05,213 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7ecc322761d0b87a01351be3fa639428.html
+2025-05-22 01:34:05,218 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:34:05,218 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:05,218 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:34:05,219 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:05,219 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:34:05,219 - P11992 - INFO - Após processar URL 18 Uso de memória: 85.50 MB
+2025-05-22 01:34:05,219 - P11992 - INFO - Processando URL 19/22: https://www.cremesp.org.br/?siteAcao=DelegaciasRegionais&id=18
+2025-05-22 01:34:22,433 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\d1e419e2e7af946885c9080f52a28035.html
+2025-05-22 01:34:22,450 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 01:34:22,450 - P11992 - INFO - Candidates phone: 3 items
+2025-05-22 01:34:22,450 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:34:22,450 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:22,450 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 01:34:22,451 - P11992 - INFO - Após processar URL 19 Uso de memória: 85.71 MB
+2025-05-22 01:34:22,451 - P11992 - INFO - Processando URL 20/22: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/14903
+2025-05-22 01:34:24,546 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\b71df0f2a47f6fb1cf56cccc469cbefe.html
+2025-05-22 01:34:24,562 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 01:34:24,562 - P11992 - INFO - Candidates phone: 3 items
+2025-05-22 01:34:24,563 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:34:24,563 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:24,563 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 01:34:24,563 - P11992 - INFO - Após processar URL 20 Uso de memória: 85.75 MB
+2025-05-22 01:34:24,563 - P11992 - INFO - Processando URL 21/22: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1536231689.pdf
+2025-05-22 01:34:24,563 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1536231689.pdf
+2025-05-22 01:34:24,564 - P11992 - INFO - Após processar URL 21 Uso de memória: 85.75 MB
+2025-05-22 01:34:24,564 - P11992 - INFO - Processando URL 22/22: https://www.defensoria.sp.gov.br/pt/web/guest/transparencia/portal-da-transparencia/defensoria-publica-no-diario-oficial?p_p_id=br_def_sp_defensoria_diariooficial_web_DiarioOficialPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_br_def_sp_defensoria_diariooficial_web_DiarioOficialPortlet_jspPage=%2Fhtml%2Fview.jsp&_br_def_sp_defensoria_diariooficial_web_DiarioOficialPortlet_delta=20&_br_def_sp_defensoria_diariooficial_web_DiarioOficialPortlet_resetCur=false&_br_def_sp_defensoria_diariooficial_web_DiarioOficialPortlet_cur=134
+2025-05-22 01:34:26,750 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\0a5ce765270dc16c66464749ac4c0157.html
+2025-05-22 01:34:26,757 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:34:26,758 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:26,762 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:34:26,764 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:26,764 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:34:26,765 - P11992 - INFO - Após processar URL 22 Uso de memória: 85.95 MB
+2025-05-22 01:34:26,765 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:34:26,765 - P11992 - INFO - Ranked address: 3 items
+2025-05-22 01:34:26,765 - P11992 - INFO - Ranked phone: 3 items
+2025-05-22 01:34:26,766 - P11992 - INFO - Ranked email: 2 items
+2025-05-22 01:34:26,766 - P11992 - INFO - Ranked complement: 1 items
+2025-05-22 01:34:26,766 - P11992 - INFO - Ranked cep: 5 items
+2025-05-22 01:34:26,766 - P11992 - INFO - Após agregação Uso de memória: 85.95 MB
+2025-05-22 01:34:26,766 - P11992 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Av. Centenário, 446', 'Avenida Brig Luis Antonio, 3085']
+2025-05-22 01:34:26,766 - P11992 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 01:34:26,767 - P11992 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 01:34:26,767 - P11992 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 01:34:26,767 - P11992 - INFO - Validando telefone: ['(11) 4349-9900', '(19) 3434-7726', '(19) 3433-0807']
+2025-05-22 01:34:26,767 - P11992 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 01:34:26,767 - P11992 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 01:34:26,768 - P11992 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 01:34:26,768 - P11992 - INFO - Validando email: ['drpba@cremesp.org.br', 'cfm@portalmedico.org.br']
+2025-05-22 01:34:26,768 - P11992 - INFO - Limpando texto extenso para campo email: drpba@cremesp.org.br...
+2025-05-22 01:34:26,768 - P11992 - INFO - Texto limpo: drpba@cremesp.org.br
+2025-05-22 01:34:26,768 - P11992 - INFO - Email validado: drpba@cremesp.org.br
+2025-05-22 01:34:26,768 - P11992 - INFO - Validando complemento: ['Conjunto D']
+2025-05-22 01:34:26,769 - P11992 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 01:34:26,769 - P11992 - INFO - Texto limpo: Conjunto D
+2025-05-22 01:34:26,769 - P11992 - INFO - Complemento validado: Conjunto D
+2025-05-22 01:34:26,770 - P11992 - INFO - Descobrindo cidade
+2025-05-22 01:34:26,771 - P11992 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 01:34:29,521 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 01:34:29,522 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 01:34:29,523 - P11992 - INFO - Tempo de execução de processamento completo do médico: 77.45 segundos
+2025-05-22 01:34:29,523 - P11992 - INFO - Resultado processado: {'Hash': '943e01720bfae2bc27441eb0f7411e9a99732a1c7a34cf2d0d788f4d7bc7604d', 'CRM': '49', 'UF': 'SP', 'Firstname': 'ELIAS', 'LastName': 'MUTCHNIK', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Conjunto D', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'drpba@cremesp.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:34:29,524 - P11992 - INFO - Progresso: 5.5%
+2025-05-22 01:34:29,525 - P11992 - INFO - Tempo de execução de processamento do médico 2: 77.46 segundos
+2025-05-22 01:34:29,525 - P11992 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 01:34:29,525 - P11992 - INFO - Nome: JOSE ABDO NETO
+2025-05-22 01:34:29,525 - P11992 - INFO - Início do processamento Uso de memória: 82.25 MB
+2025-05-22 01:34:29,526 - P11992 - INFO - Iniciando busca para: JOSE ABDO NETO CRM 16654 SP telefone e-mail endereço
+2025-05-22 01:34:29,959 - P11992 - INFO - SearX results: 10 URLs
+2025-05-22 01:34:29,960 - P11992 - INFO - Após SearX Uso de memória: 82.25 MB
+2025-05-22 01:34:32,537 - P11992 - INFO - Google results: 10 URLs
+2025-05-22 01:34:32,538 - P11992 - INFO - Após Google Uso de memória: 85.64 MB
+2025-05-22 01:34:35,204 - P11992 - INFO - Bing results: 12 URLs
+2025-05-22 01:34:35,205 - P11992 - INFO - Após Bing Uso de memória: 88.39 MB
+2025-05-22 01:34:35,205 - P11992 - INFO - Total de URLs únicas: 22
+2025-05-22 01:34:35,205 - P11992 - INFO - Processando URL 1/22: https://storage.stwonline.com.br/180graus/uploads/ckeditor/attachments/1232883/3107-dj-07052014.pdf
+2025-05-22 01:34:35,205 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://storage.stwonline.com.br/180graus/uploads/ckeditor/attachments/1232883/3107-dj-07052014.pdf
+2025-05-22 01:34:35,206 - P11992 - INFO - Após processar URL 1 Uso de memória: 88.39 MB
+2025-05-22 01:34:35,206 - P11992 - INFO - Processando URL 2/22: https://www.apontador.com.br/local/sp/birigui/medicos_e_consultorios/H2JNNB88/dr_jose_abdo_neto_medico.html
+2025-05-22 01:34:39,132 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\b6fb21ebe38abfb8af8dd8cb018300b1.html
+2025-05-22 01:34:39,181 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 01:34:39,182 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:39,182 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:34:39,182 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 01:34:39,182 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:34:39,182 - P11992 - INFO - Após processar URL 2 Uso de memória: 88.65 MB
+2025-05-22 01:34:39,182 - P11992 - INFO - Processando URL 3/22: https://www.solutudo.com.br/empresas/sp/birigui/ginecologia-e-obstetricia/dr-jose-abdo-neto-434019
+2025-05-22 01:34:45,185 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\f46a71512a2275eb2a4dbb5a58af9ed1.html
+2025-05-22 01:34:45,226 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:34:45,226 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:34:45,226 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:34:45,227 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:45,227 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:34:45,227 - P11992 - INFO - Após processar URL 3 Uso de memória: 88.74 MB
+2025-05-22 01:34:45,227 - P11992 - INFO - Processando URL 4/22: https://sistemadje.tjmt.jus.br/publicacoes/10271-2018%20C7%20Comarcas%20-%201%C2%AA%202%C2%AA%20e%203%C2%AA%20Entr%C3%A2ncia.pdf
+2025-05-22 01:34:45,227 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/10271-2018%20C7%20Comarcas%20-%201%C2%AA%202%C2%AA%20e%203%C2%AA%20Entr%C3%A2ncia.pdf
+2025-05-22 01:34:45,227 - P11992 - INFO - Após processar URL 4 Uso de memória: 88.74 MB
+2025-05-22 01:34:45,228 - P11992 - INFO - Processando URL 5/22: https://www.medicosbrasil.com/profissional/jose-abdo-neto
+2025-05-22 01:34:48,690 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\83c5b96dcc14c65c929f1c6b82827df3.html
+2025-05-22 01:34:48,717 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:34:48,717 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:34:48,717 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:34:48,717 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:48,717 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:34:48,717 - P11992 - INFO - Após processar URL 5 Uso de memória: 90.05 MB
+2025-05-22 01:34:48,718 - P11992 - INFO - Processando URL 6/22: https://guiamedico.cremesp.org.br/
+2025-05-22 01:34:51,440 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 01:34:51,446 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:34:51,446 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:34:51,446 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:34:51,446 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:51,446 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:34:51,447 - P11992 - INFO - Após processar URL 6 Uso de memória: 88.89 MB
+2025-05-22 01:34:51,447 - P11992 - INFO - Processando URL 7/22: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 01:34:51,447 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 01:34:51,447 - P11992 - INFO - Após processar URL 7 Uso de memória: 88.89 MB
+2025-05-22 01:34:51,447 - P11992 - INFO - Processando URL 8/22: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x16125129582774497240&market=pt-BR&src=SERPGB
+2025-05-22 01:34:55,597 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\46656046120bd058361ff88a5cdca5eb.html
+2025-05-22 01:34:55,619 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:34:55,620 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:34:55,620 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:34:55,620 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:55,621 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:34:55,621 - P11992 - INFO - Após processar URL 8 Uso de memória: 88.89 MB
+2025-05-22 01:34:55,621 - P11992 - INFO - Processando URL 9/22: https://www.listamais.com.br/local/cad_idX5fX99Z/jose-abdo-neto-ginecologista-e-obstetra-em-birigui-sp
+2025-05-22 01:34:57,841 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\dc0cf46baadc132cbd145f422972a940.html
+2025-05-22 01:34:57,862 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:34:57,862 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 01:34:57,863 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:34:57,863 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:34:57,863 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:34:57,863 - P11992 - INFO - Após processar URL 9 Uso de memória: 88.99 MB
+2025-05-22 01:34:57,863 - P11992 - INFO - Processando URL 10/22: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2019/12/5c3b0b8a-448a-44f1-9a39-a234de1147d1_Edi%C3%A7%C3%A3o-4648.pdf
+2025-05-22 01:34:57,863 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2019/12/5c3b0b8a-448a-44f1-9a39-a234de1147d1_Edi%C3%A7%C3%A3o-4648.pdf
+2025-05-22 01:34:57,864 - P11992 - INFO - Após processar URL 10 Uso de memória: 88.99 MB
+2025-05-22 01:34:57,864 - P11992 - INFO - Processando URL 11/22: https://clinica.work/especialista/jose-abdo-neto-ginecologista-birigui-sp
+2025-05-22 01:35:03,249 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\88fd983fcb5356f789f02d38332fc0b0.html
+2025-05-22 01:35:03,266 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:35:03,266 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:03,266 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:35:03,266 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:03,266 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:35:03,267 - P11992 - INFO - Após processar URL 11 Uso de memória: 90.15 MB
+2025-05-22 01:35:03,267 - P11992 - INFO - Processando URL 12/22: https://www.doctoralia.com.br/jose-abdo-neto/ginecologista/birigui
+2025-05-22 01:35:03,267 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/jose-abdo-neto/ginecologista/birigui
+2025-05-22 01:35:03,267 - P11992 - INFO - Após processar URL 12 Uso de memória: 85.07 MB
+2025-05-22 01:35:03,269 - P11992 - INFO - Processando URL 13/22: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2023/02/0819e962-5f55-4471-9b1e-185b7e3efd60_Edicao-5224-03-02-2023.pdf
+2025-05-22 01:35:03,269 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2023/02/0819e962-5f55-4471-9b1e-185b7e3efd60_Edicao-5224-03-02-2023.pdf
+2025-05-22 01:35:03,270 - P11992 - INFO - Após processar URL 13 Uso de memória: 85.07 MB
+2025-05-22 01:35:03,271 - P11992 - INFO - Processando URL 14/22: https://www.mpsp.mp.br/w/14/12/2023
+2025-05-22 01:35:06,044 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e4040283f2a87eb449788bde11e575e0.html
+2025-05-22 01:35:06,535 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 01:35:06,537 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:35:06,537 - P11992 - INFO - Candidates email: 3 items
+2025-05-22 01:35:06,538 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 01:35:06,538 - P11992 - INFO - Candidates cep: 9 items
+2025-05-22 01:35:06,538 - P11992 - INFO - Após processar URL 14 Uso de memória: 88.71 MB
+2025-05-22 01:35:06,538 - P11992 - INFO - Processando URL 15/22: https://www.boaconsulta.com/especialista/jose-abdo-neto-6106c4c4a2e00a5d84001a3f
+2025-05-22 01:35:09,794 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\c87722b751e0b1211f24793649418f75.html
+2025-05-22 01:35:09,858 - P11992 - INFO - Candidates address: 3 items
+2025-05-22 01:35:09,858 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:09,858 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:35:09,858 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:09,858 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:35:09,858 - P11992 - INFO - Após processar URL 15 Uso de memória: 88.70 MB
+2025-05-22 01:35:09,859 - P11992 - INFO - Processando URL 16/22: https://listamedicos.com/medico/jose-abdo-neto
+2025-05-22 01:35:14,080 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\21ff8bdce4d2ad6fdac5b8399456c3f4.html
+2025-05-22 01:35:14,089 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:35:14,089 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:14,089 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:35:14,090 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:14,090 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 01:35:14,090 - P11992 - INFO - Após processar URL 16 Uso de memória: 86.49 MB
+2025-05-22 01:35:14,090 - P11992 - INFO - Processando URL 17/22: https://doutorcrm.com/jose-abdo-neto
+2025-05-22 01:35:18,739 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\cefc7e0623e5aa6eb7711dfe1baa9775.html
+2025-05-22 01:35:18,746 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:35:18,747 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:18,747 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:35:18,747 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:18,747 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:35:18,747 - P11992 - INFO - Após processar URL 17 Uso de memória: 86.82 MB
+2025-05-22 01:35:18,747 - P11992 - INFO - Processando URL 18/22: https://www.catalogo.med.br/doutor/jose-abdo-neto-73555.htm
+2025-05-22 01:35:24,311 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\55997f254c4a134d5664a1a33f357a13.html
+2025-05-22 01:35:24,341 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:35:24,341 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:24,341 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:35:24,341 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 01:35:24,342 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:35:24,342 - P11992 - INFO - Após processar URL 18 Uso de memória: 87.16 MB
+2025-05-22 01:35:24,342 - P11992 - INFO - Processando URL 19/22: https://www6.oab.org.br/decisoes/informativo/BI%20315%20OUTUBRO.pdf
+2025-05-22 01:35:24,342 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www6.oab.org.br/decisoes/informativo/BI%20315%20OUTUBRO.pdf
+2025-05-22 01:35:24,342 - P11992 - INFO - Após processar URL 19 Uso de memória: 87.16 MB
+2025-05-22 01:35:24,342 - P11992 - INFO - Processando URL 20/22: https://iprejun.sp.gov.br/S/arquivos/Imprensa_Oficial/Imprensa_Oficial_Jundiai_2023-02-03_5224.pdf
+2025-05-22 01:35:24,342 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://iprejun.sp.gov.br/S/arquivos/Imprensa_Oficial/Imprensa_Oficial_Jundiai_2023-02-03_5224.pdf
+2025-05-22 01:35:24,343 - P11992 - INFO - Após processar URL 20 Uso de memória: 87.16 MB
+2025-05-22 01:35:24,343 - P11992 - INFO - Processando URL 21/22: https://www.ime.usp.br/~yoshi/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 01:35:24,343 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 01:35:24,343 - P11992 - INFO - Após processar URL 21 Uso de memória: 87.16 MB
+2025-05-22 01:35:24,343 - P11992 - INFO - Processando URL 22/22: https://consultacrm.com.br/
+2025-05-22 01:35:26,449 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:35:26,461 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:35:26,461 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:35:26,462 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:35:26,462 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:26,462 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:35:26,462 - P11992 - INFO - Após processar URL 22 Uso de memória: 87.84 MB
+2025-05-22 01:35:26,462 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:35:26,463 - P11992 - INFO - Ranked address: 10 items
+2025-05-22 01:35:26,463 - P11992 - INFO - Ranked phone: 6 items
+2025-05-22 01:35:26,463 - P11992 - INFO - Ranked email: 5 items
+2025-05-22 01:35:26,463 - P11992 - INFO - Ranked complement: 3 items
+2025-05-22 01:35:26,463 - P11992 - INFO - Ranked cep: 13 items
+2025-05-22 01:35:26,463 - P11992 - INFO - Após agregação Uso de memória: 87.84 MB
+2025-05-22 01:35:26,464 - P11992 - INFO - Validando endereço: ['Rua Braz Sanches Arriaga, 161', 'Rua Braz Sanches Arriaga , 161', 'Rua São José, 635']
+2025-05-22 01:35:26,464 - P11992 - INFO - Endereço validado: Rua Braz Sanches Arriaga, 161
+2025-05-22 01:35:26,464 - P11992 - INFO - Limpando texto extenso para campo address: Rua Braz Sanches Arriaga, 161...
+2025-05-22 01:35:26,465 - P11992 - INFO - Texto limpo: Rua Braz Sanches Arriaga, 161
+2025-05-22 01:35:26,465 - P11992 - INFO - Validando telefone: ['(18) 3642-3755', '(11) 4349-9900', '(18)3642-3755']
+2025-05-22 01:35:26,465 - P11992 - INFO - Limpando texto extenso para campo phone: (18) 3642-3755...
+2025-05-22 01:35:26,465 - P11992 - INFO - Texto limpo: 18) 3642-3755
+2025-05-22 01:35:26,465 - P11992 - INFO - Telefone validado: 18) 3642-3755
+2025-05-22 01:35:26,465 - P11992 - INFO - Validando email: ['relacionamento@apontador.com', 'atendimento@listamais.com.br', 'eleitoral@mpsp.mp.br']
+2025-05-22 01:35:26,465 - P11992 - INFO - Limpando texto extenso para campo email: relacionamento@apontador.com...
+2025-05-22 01:35:26,466 - P11992 - INFO - Texto limpo: relacionamento@apontador.com
+2025-05-22 01:35:26,466 - P11992 - INFO - Email validado: relacionamento@apontador.com
+2025-05-22 01:35:26,466 - P11992 - INFO - Validando complemento: ['Saladas ', 'Conjunto n.º 2340/2016 do Tribunal de Justiça de São Paulo', 'Sala 1 Silvares - Birigui/SP CEP:  16201-006     Ver t']
+2025-05-22 01:35:26,467 - P11992 - INFO - Limpando texto extenso para campo complement: Saladas ...
+2025-05-22 01:35:26,468 - P11992 - INFO - Texto limpo: Saladas
+2025-05-22 01:35:26,468 - P11992 - INFO - Complemento validado: Saladas
+2025-05-22 01:35:26,468 - P11992 - INFO - Descobrindo cidade
+2025-05-22 01:35:26,469 - P11992 - INFO - Buscando cidade: Rua Braz Sanches Arriaga cidade SP
+2025-05-22 01:35:29,243 - P11992 - INFO - Cidade encontrada: Birigui
+2025-05-22 01:35:29,245 - P11992 - INFO - Limpando texto extenso para campo city: Birigui...
+2025-05-22 01:35:29,246 - P11992 - INFO - Texto limpo: Birigui
+2025-05-22 01:35:29,251 - P11992 - INFO - Cidade descoberta: Birigui
+2025-05-22 01:35:29,252 - P11992 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 01:35:29,253 - P11992 - INFO - Iniciando busca de CEP em cascata para: Rua Braz Sanches Arriaga, Birigui, SP
+2025-05-22 01:35:29,253 - P11992 - INFO - Método 1: ViaCEP API
+2025-05-22 01:35:29,253 - P11992 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SP/birigui/rua%20braz%20sanches%20arriaga/json/
+2025-05-22 01:35:29,945 - P11992 - INFO - Dados encontrados no ViaCEP: {'cep': '16202-022', 'logradouro': 'Rua Braz Sanches Arriaga', 'complemento': 'de 1263/1264 a 1498/1499', 'unidade': '', 'bairro': 'Jardim Costa Rica', 'localidade': 'Birigui', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3506508', 'gia': '2148', 'ddd': '18', 'siafi': '6229'}
+2025-05-22 01:35:29,947 - P11992 - INFO - CEP encontrado via ViaCEP: 16202-022
+2025-05-22 01:35:29,947 - P11992 - INFO - Dados de CEP encontrados: {'cep': '16202-022', 'logradouro': 'Rua Braz Sanches Arriaga', 'complemento': 'de 1263/1264 a 1498/1499', 'unidade': '', 'bairro': 'Jardim Costa Rica', 'localidade': 'Birigui', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3506508', 'gia': '2148', 'ddd': '18', 'siafi': '6229'}
+2025-05-22 01:35:29,947 - P11992 - INFO - Limpando texto extenso para campo bairro: Jardim Costa Rica...
+2025-05-22 01:35:29,947 - P11992 - INFO - Texto limpo: Jardim Costa Rica
+2025-05-22 01:35:29,947 - P11992 - INFO - Limpando texto extenso para campo city: Birigui...
+2025-05-22 01:35:29,948 - P11992 - INFO - Texto limpo: Birigui
+2025-05-22 01:35:29,948 - P11992 - INFO - Limpando texto extenso para campo state: SP...
+2025-05-22 01:35:29,948 - P11992 - INFO - Texto limpo: SP
+2025-05-22 01:35:29,948 - P11992 - INFO - Tempo de execução de processamento completo do médico: 60.42 segundos
+2025-05-22 01:35:29,949 - P11992 - INFO - Resultado processado: {'Hash': 'b30e80921c7c9a4e2a5136be17abe9ed45463f9f016dfefa110a92f8c5155ee3', 'CRM': '16654', 'UF': 'SP', 'Firstname': 'JOSE', 'LastName': 'ABDO NETO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Braz Sanches Arriaga, 161', 'Address A1': 'Rua Braz Sanches Arriaga', 'Numero A1': '161', 'Complement A1': 'Saladas', 'Bairro A1': 'Jardim Costa Rica', 'postal code A1': '16202-022', 'City A1': 'Birigui', 'State A1': 'SP', 'Phone A1': '18) 3642-3755', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'relacionamento@apontador.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:35:29,949 - P11992 - INFO - Salvando lote de resultados
+2025-05-22 01:35:29,950 - P11992 - INFO - Após salvar resultados Uso de memória: 84.40 MB
+2025-05-22 01:35:29,951 - P11992 - INFO - Progresso: 5.9%
+2025-05-22 01:35:29,953 - P11992 - INFO - Tempo de execução de processamento do médico 3: 60.43 segundos
+2025-05-22 01:35:29,954 - P11992 - INFO - Tempo de execução de processamento do lote completo: 207.49 segundos

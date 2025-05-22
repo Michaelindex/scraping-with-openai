@@ -1,0 +1,411 @@
+2025-05-22 04:34:50,932 - P14756 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 04:34:50,933 - P14756 - INFO - Nome: GABRIELA RAIMANN
+2025-05-22 04:34:50,933 - P14756 - INFO - Reiniciando driver do Chrome
+2025-05-22 04:34:52,677 - P14756 - INFO - Após reiniciar driver Uso de memória: 120.25 MB
+2025-05-22 04:34:52,677 - P14756 - INFO - Início do processamento Uso de memória: 120.25 MB
+2025-05-22 04:34:52,677 - P14756 - INFO - Iniciando busca para: GABRIELA RAIMANN CRM 1226282 RJ telefone e-mail endereço
+2025-05-22 04:34:53,489 - P14756 - INFO - SearX results: 9 URLs
+2025-05-22 04:34:53,489 - P14756 - INFO - Após SearX Uso de memória: 120.25 MB
+2025-05-22 04:34:56,359 - P14756 - INFO - Google results: 3 URLs
+2025-05-22 04:34:56,360 - P14756 - INFO - Após Google Uso de memória: 122.21 MB
+2025-05-22 04:34:58,960 - P14756 - INFO - Bing results: 8 URLs
+2025-05-22 04:34:58,960 - P14756 - INFO - Após Bing Uso de memória: 123.12 MB
+2025-05-22 04:34:58,960 - P14756 - INFO - Total de URLs únicas: 13
+2025-05-22 04:34:58,960 - P14756 - INFO - Processando URL 1/13: https://rituaali.com.br/
+2025-05-22 04:35:02,657 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\6a23e8c2eb3e0e9502cad4d67d6cc670.html
+2025-05-22 04:35:02,738 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:35:02,739 - P14756 - INFO - Candidates phone: 2 items
+2025-05-22 04:35:02,741 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:35:02,742 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:02,743 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:35:02,743 - P14756 - INFO - Após processar URL 1 Uso de memória: 123.12 MB
+2025-05-22 04:35:02,745 - P14756 - INFO - Processando URL 2/13: https://www.medicosbrasil.com/profissional/gabriela-raimann
+2025-05-22 04:35:06,630 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\cf34d3a50cfee75db721686d33ff3752.html
+2025-05-22 04:35:06,650 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:35:06,651 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:35:06,652 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:35:06,653 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:06,653 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:35:06,654 - P14756 - INFO - Após processar URL 2 Uso de memória: 123.12 MB
+2025-05-22 04:35:06,656 - P14756 - INFO - Processando URL 3/13: https://www.cremerj.org.br/
+2025-05-22 04:35:10,271 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\57d5b230cbdcf7d719e9b2b2f238c4f1.html
+2025-05-22 04:35:10,332 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:35:10,332 - P14756 - INFO - Candidates phone: 2 items
+2025-05-22 04:35:10,333 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:35:10,333 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:10,333 - P14756 - INFO - Candidates cep: 3 items
+2025-05-22 04:35:10,333 - P14756 - INFO - Após processar URL 3 Uso de memória: 123.12 MB
+2025-05-22 04:35:10,333 - P14756 - INFO - Processando URL 4/13: http://www.transparencia.cremerj.org.br:8098/planejamento/registroMedico/pesquisar
+2025-05-22 04:35:12,776 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\19128e1d0b16c1bd37c280ce751655f7.html
+2025-05-22 04:35:12,800 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:35:12,800 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 04:35:12,801 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:35:12,801 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:12,801 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:35:12,801 - P14756 - INFO - Após processar URL 4 Uso de memória: 123.13 MB
+2025-05-22 04:35:12,802 - P14756 - INFO - Processando URL 5/13: https://www.boaconsulta.com/especialista/gabriela-raimann-6105801d9b22ae041e00051a
+2025-05-22 04:35:16,034 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\34257c41653f6b660a522cc42f10c0f0.html
+2025-05-22 04:35:16,117 - P14756 - INFO - Candidates address: 3 items
+2025-05-22 04:35:16,117 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:35:16,118 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:35:16,118 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:16,118 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:35:16,118 - P14756 - INFO - Após processar URL 5 Uso de memória: 123.13 MB
+2025-05-22 04:35:16,119 - P14756 - INFO - Processando URL 6/13: https://rituaali.com.br/reservas/
+2025-05-22 04:35:18,931 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\46f1a7efb47cb3ed79a14d2d990ac783.html
+2025-05-22 04:35:18,957 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:35:18,957 - P14756 - INFO - Candidates phone: 3 items
+2025-05-22 04:35:18,957 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:35:18,958 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:18,958 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:35:18,958 - P14756 - INFO - Após processar URL 6 Uso de memória: 123.14 MB
+2025-05-22 04:35:18,959 - P14756 - INFO - Processando URL 7/13: https://www.consultacrm.com.br/index/medicos/uid-11c1a032-f5c5-11ec-9e74-0a4aa568c625/gabriela_ricordi_bazin
+2025-05-22 04:35:24,070 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\9620d45b064fe7474211d61c4df791fd.html
+2025-05-22 04:35:24,080 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:35:24,080 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:35:24,080 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:35:24,081 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:24,081 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:35:24,081 - P14756 - INFO - Após processar URL 7 Uso de memória: 123.14 MB
+2025-05-22 04:35:24,081 - P14756 - INFO - Processando URL 8/13: https://rituaali.com.br/embaixador/
+2025-05-22 04:35:27,082 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\ed222abc5c59969c585fc86a0fd78788.html
+2025-05-22 04:35:27,102 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:35:27,103 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 04:35:27,104 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:35:27,104 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:27,104 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:35:27,105 - P14756 - INFO - Após processar URL 8 Uso de memória: 123.14 MB
+2025-05-22 04:35:27,105 - P14756 - INFO - Processando URL 9/13: https://rituaali.com.br/galeria/estrutura/
+2025-05-22 04:35:30,475 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\6ad045c4e025ad26cd1e3b7e93a04f23.html
+2025-05-22 04:35:30,494 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:35:30,494 - P14756 - INFO - Candidates phone: 2 items
+2025-05-22 04:35:30,494 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:35:30,494 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:30,494 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:35:30,495 - P14756 - INFO - Após processar URL 9 Uso de memória: 123.14 MB
+2025-05-22 04:35:30,495 - P14756 - INFO - Processando URL 10/13: https://portal.cfm.org.br/busca-medicos
+2025-05-22 04:35:34,953 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 04:35:34,995 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:35:34,995 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:35:34,995 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:35:34,995 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 04:35:34,996 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:35:34,996 - P14756 - INFO - Após processar URL 10 Uso de memória: 123.14 MB
+2025-05-22 04:35:34,996 - P14756 - INFO - Processando URL 11/13: https://doutorcrm.com/
+2025-05-22 04:35:38,318 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\f650e4106d6b0c34ccf0db5be7fc5ddd.html
+2025-05-22 04:35:38,324 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:35:38,324 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:35:38,325 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:35:38,325 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:38,325 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:35:38,325 - P14756 - INFO - Após processar URL 11 Uso de memória: 123.14 MB
+2025-05-22 04:35:38,325 - P14756 - INFO - Processando URL 12/13: https://consultacrm.com.br/
+2025-05-22 04:35:42,908 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:35:42,921 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:35:42,922 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:35:42,922 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:35:42,922 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:42,922 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:35:42,922 - P14756 - INFO - Após processar URL 12 Uso de memória: 123.15 MB
+2025-05-22 04:35:42,923 - P14756 - INFO - Processando URL 13/13: https://rituaali.com.br/programas/
+2025-05-22 04:35:45,135 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\da6f77b421b4271cf2a4947b720c2ca8.html
+2025-05-22 04:35:45,178 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:35:45,178 - P14756 - INFO - Candidates phone: 2 items
+2025-05-22 04:35:45,179 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:35:45,179 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:45,180 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:35:45,180 - P14756 - INFO - Após processar URL 13 Uso de memória: 123.15 MB
+2025-05-22 04:35:45,180 - P14756 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:35:45,181 - P14756 - INFO - Ranked address: 3 items
+2025-05-22 04:35:45,181 - P14756 - INFO - Ranked phone: 5 items
+2025-05-22 04:35:45,181 - P14756 - INFO - Ranked email: 2 items
+2025-05-22 04:35:45,181 - P14756 - INFO - Ranked complement: 1 items
+2025-05-22 04:35:45,181 - P14756 - INFO - Ranked cep: 6 items
+2025-05-22 04:35:45,182 - P14756 - INFO - Após agregação Uso de memória: 123.15 MB
+2025-05-22 04:35:45,182 - P14756 - INFO - Validando endereço: ['Rua Leopoldo Albino Scherer, 374', 'Rua Leopoldo Scherer, 374', 'Rua Rui Barbosa, 90']
+2025-05-22 04:35:45,182 - P14756 - INFO - Endereço validado: Rua Leopoldo Albino Scherer, 374
+2025-05-22 04:35:45,182 - P14756 - INFO - Limpando texto extenso para campo address: Rua Leopoldo Albino Scherer, 374...
+2025-05-22 04:35:45,182 - P14756 - INFO - Texto limpo: Rua Leopoldo Albino Scherer, 374
+2025-05-22 04:35:45,182 - P14756 - INFO - Validando telefone: ['(24) 2107-3883', '(24) 3351-9200', '(21) 3184-7050']
+2025-05-22 04:35:45,183 - P14756 - INFO - Limpando texto extenso para campo phone: (24) 2107-3883...
+2025-05-22 04:35:45,183 - P14756 - INFO - Texto limpo: 24) 2107-3883
+2025-05-22 04:35:45,183 - P14756 - INFO - Telefone validado: 24) 2107-3883
+2025-05-22 04:35:45,183 - P14756 - INFO - Validando email: ['contato@rituaali.com.br', 'cfm@portalmedico.org.br']
+2025-05-22 04:35:45,183 - P14756 - INFO - Limpando texto extenso para campo email: contato@rituaali.com.br...
+2025-05-22 04:35:45,183 - P14756 - INFO - Texto limpo: contato@rituaali.com.br
+2025-05-22 04:35:45,184 - P14756 - INFO - Email validado: contato@rituaali.com.br
+2025-05-22 04:35:45,185 - P14756 - INFO - Validando complemento: ['Conjunto D']
+2025-05-22 04:35:45,187 - P14756 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 04:35:45,188 - P14756 - INFO - Texto limpo: Conjunto D
+2025-05-22 04:35:45,188 - P14756 - INFO - Complemento validado: Conjunto D
+2025-05-22 04:35:45,189 - P14756 - INFO - Descobrindo cidade
+2025-05-22 04:35:45,190 - P14756 - INFO - Buscando cidade: Rua Leopoldo Albino Scherer cidade RJ
+2025-05-22 04:35:48,372 - P14756 - WARNING - Cidade não encontrada
+2025-05-22 04:35:48,372 - P14756 - INFO - Cidade descoberta: 
+2025-05-22 04:35:48,372 - P14756 - INFO - Tempo de execução de processamento completo do médico: 55.70 segundos
+2025-05-22 04:35:48,373 - P14756 - INFO - Resultado processado: {'Hash': '3a4b65e8b6e2fe36dea8a51c850c9ec14e88b2295732cb5ca656a9b9f6e14511', 'CRM': '1226282', 'UF': 'RJ', 'Firstname': 'GABRIELA', 'LastName': 'RAIMANN', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Leopoldo Albino Scherer, 374', 'Address A1': 'Rua Leopoldo Albino Scherer', 'Numero A1': '374', 'Complement A1': 'Conjunto D', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '24) 2107-3883', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'contato@rituaali.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:35:48,374 - P14756 - INFO - Progresso: 72.3%
+2025-05-22 04:35:48,374 - P14756 - INFO - Executando coleta de lixo
+2025-05-22 04:35:48,413 - P14756 - INFO - Após coleta de lixo Uso de memória: 120.28 MB
+2025-05-22 04:35:48,413 - P14756 - INFO - Tempo de execução de processamento do médico 1: 57.48 segundos
+2025-05-22 04:35:48,414 - P14756 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 04:35:48,414 - P14756 - INFO - Nome: JÉSSICA BENEDET FOGAÇA
+2025-05-22 04:35:48,414 - P14756 - INFO - Início do processamento Uso de memória: 120.28 MB
+2025-05-22 04:35:48,415 - P14756 - INFO - Iniciando busca para: JÉSSICA BENEDET FOGAÇA CRM 1226401 RJ telefone e-mail endereço
+2025-05-22 04:35:49,313 - P14756 - INFO - SearX results: 8 URLs
+2025-05-22 04:35:49,314 - P14756 - INFO - Após SearX Uso de memória: 120.28 MB
+2025-05-22 04:35:52,513 - P14756 - INFO - Google results: 3 URLs
+2025-05-22 04:35:52,513 - P14756 - INFO - Após Google Uso de memória: 121.95 MB
+2025-05-22 04:35:55,010 - P14756 - INFO - Bing results: 9 URLs
+2025-05-22 04:35:55,010 - P14756 - INFO - Após Bing Uso de memória: 123.81 MB
+2025-05-22 04:35:55,010 - P14756 - INFO - Total de URLs únicas: 11
+2025-05-22 04:35:55,011 - P14756 - INFO - Processando URL 1/11: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 04:35:58,432 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 04:35:58,443 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:35:58,443 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:35:58,444 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:35:58,444 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:58,445 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:35:58,446 - P14756 - INFO - Após processar URL 1 Uso de memória: 123.81 MB
+2025-05-22 04:35:58,446 - P14756 - INFO - Processando URL 2/11: https://sistemacremerj.com.br/crmonline/SifaOnLineServicosPublicosAction.do?metodo=inicio
+2025-05-22 04:36:02,274 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\9e1e9ea5c933b954f9b8dfac3e0b53d2.html
+2025-05-22 04:36:02,279 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:36:02,279 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 04:36:02,280 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:36:02,280 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:36:02,280 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:36:02,280 - P14756 - INFO - Após processar URL 2 Uso de memória: 123.81 MB
+2025-05-22 04:36:02,280 - P14756 - INFO - Processando URL 3/11: https://www.cremerj.org.br/
+2025-05-22 04:36:05,875 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\57d5b230cbdcf7d719e9b2b2f238c4f1.html
+2025-05-22 04:36:05,953 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:36:05,955 - P14756 - INFO - Candidates phone: 2 items
+2025-05-22 04:36:05,955 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:36:05,955 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:36:05,955 - P14756 - INFO - Candidates cep: 3 items
+2025-05-22 04:36:05,955 - P14756 - INFO - Após processar URL 3 Uso de memória: 123.81 MB
+2025-05-22 04:36:05,956 - P14756 - INFO - Processando URL 4/11: https://www.rededorsaoluiz.com.br/encontre-um-medico/perfil/jessica-benedet-fogaca
+2025-05-22 04:36:12,320 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\976d871652c2a8b8d5beafb4417c3175.html
+2025-05-22 04:36:12,461 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:36:12,461 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 04:36:12,461 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:36:12,461 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:36:12,462 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:36:12,462 - P14756 - INFO - Após processar URL 4 Uso de memória: 126.58 MB
+2025-05-22 04:36:12,462 - P14756 - INFO - Processando URL 5/11: https://www.escavador.com/sobre/7147465/jessica-benedet-fogaca
+2025-05-22 04:36:16,581 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\11ed739c480c33721c80c1f9c00d3e22.html
+2025-05-22 04:36:16,598 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:36:16,598 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:36:16,599 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:36:16,599 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:36:16,600 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:36:16,600 - P14756 - INFO - Após processar URL 5 Uso de memória: 123.82 MB
+2025-05-22 04:36:16,601 - P14756 - INFO - Processando URL 6/11: https://portal.cfm.org.br/busca-medicos
+2025-05-22 04:36:19,900 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 04:36:19,945 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:36:19,945 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:36:19,945 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:36:19,945 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 04:36:19,945 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:36:19,946 - P14756 - INFO - Após processar URL 6 Uso de memória: 123.82 MB
+2025-05-22 04:36:19,946 - P14756 - INFO - Processando URL 7/11: https://aboutcompany.info/country/brazil/officer/066109/jessica-benedet-fogaca/
+2025-05-22 04:36:23,874 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\21222c84f2d6203a744e0633c6917602.html
+2025-05-22 04:36:23,885 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:36:23,886 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:36:23,886 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:36:23,886 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:36:23,886 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:36:23,886 - P14756 - INFO - Após processar URL 7 Uso de memória: 123.82 MB
+2025-05-22 04:36:23,886 - P14756 - INFO - Processando URL 8/11: https://linktr.ee/endocrinojebenedet
+2025-05-22 04:36:26,314 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\d8f70573da1212985ae1b2f10d699f91.html
+2025-05-22 04:36:26,330 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:36:26,330 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:36:26,330 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:36:26,330 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:36:26,331 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:36:26,331 - P14756 - INFO - Após processar URL 8 Uso de memória: 124.70 MB
+2025-05-22 04:36:26,331 - P14756 - INFO - Processando URL 9/11: https://guiamedico.cremesp.org.br/
+2025-05-22 04:36:29,482 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 04:36:29,488 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 04:36:29,489 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 04:36:29,489 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:36:29,489 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:36:29,489 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:36:29,489 - P14756 - INFO - Após processar URL 9 Uso de memória: 123.81 MB
+2025-05-22 04:36:29,489 - P14756 - INFO - Processando URL 10/11: https://www.endocrinologistarj.com.br/
+2025-05-22 04:36:32,441 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\85131d2f12e1f1ec298d3812c21f47e7.html
+2025-05-22 04:36:32,482 - P14756 - INFO - Candidates address: 2 items
+2025-05-22 04:36:32,482 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:36:32,484 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:36:32,486 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:36:32,487 - P14756 - INFO - Candidates cep: 3 items
+2025-05-22 04:36:32,487 - P14756 - INFO - Após processar URL 10 Uso de memória: 124.89 MB
+2025-05-22 04:36:32,488 - P14756 - INFO - Processando URL 11/11: https://consultacrm.com.br/
+2025-05-22 04:36:35,920 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:36:35,933 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:36:35,933 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:36:35,934 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:36:35,934 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:36:35,934 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:36:35,934 - P14756 - INFO - Após processar URL 11 Uso de memória: 123.82 MB
+2025-05-22 04:36:35,934 - P14756 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:36:35,934 - P14756 - INFO - Ranked address: 3 items
+2025-05-22 04:36:35,935 - P14756 - INFO - Ranked phone: 4 items
+2025-05-22 04:36:35,935 - P14756 - INFO - Ranked email: 1 items
+2025-05-22 04:36:35,935 - P14756 - INFO - Ranked complement: 1 items
+2025-05-22 04:36:35,935 - P14756 - INFO - Ranked cep: 8 items
+2025-05-22 04:36:35,935 - P14756 - INFO - Após agregação Uso de memória: 123.82 MB
+2025-05-22 04:36:35,935 - P14756 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Rua Farme de Amoedo, 75', 'Rua Gavião Peixoto 70']
+2025-05-22 04:36:35,936 - P14756 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 04:36:35,936 - P14756 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 04:36:35,936 - P14756 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 04:36:35,936 - P14756 - INFO - Validando telefone: ['(21) 3184-7050', '(21) 98491-1522', '3003-3230']
+2025-05-22 04:36:35,936 - P14756 - INFO - Limpando texto extenso para campo phone: (21) 3184-7050...
+2025-05-22 04:36:35,936 - P14756 - INFO - Texto limpo: 21) 3184-7050
+2025-05-22 04:36:35,937 - P14756 - INFO - Telefone validado: 21) 3184-7050
+2025-05-22 04:36:35,937 - P14756 - INFO - Validando email: ['cfm@portalmedico.org.br']
+2025-05-22 04:36:35,937 - P14756 - INFO - Limpando texto extenso para campo email: cfm@portalmedico.org.br...
+2025-05-22 04:36:35,937 - P14756 - INFO - Texto limpo: cfm@portalmedico.org.br
+2025-05-22 04:36:35,937 - P14756 - INFO - Email validado: cfm@portalmedico.org.br
+2025-05-22 04:36:35,937 - P14756 - INFO - Validando complemento: ['Conjunto D']
+2025-05-22 04:36:35,937 - P14756 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 04:36:35,938 - P14756 - INFO - Texto limpo: Conjunto D
+2025-05-22 04:36:35,938 - P14756 - INFO - Complemento validado: Conjunto D
+2025-05-22 04:36:35,938 - P14756 - INFO - Descobrindo cidade
+2025-05-22 04:36:35,938 - P14756 - INFO - Buscando cidade: Rua Frei Caneca cidade RJ
+2025-05-22 04:36:38,511 - P14756 - WARNING - Cidade não encontrada
+2025-05-22 04:36:38,511 - P14756 - INFO - Cidade descoberta: 
+2025-05-22 04:36:38,511 - P14756 - INFO - Tempo de execução de processamento completo do médico: 50.10 segundos
+2025-05-22 04:36:38,512 - P14756 - INFO - Resultado processado: {'Hash': 'bee8f9576e3a21dbb26ece393924548f7b2bd7d446bc96375656537641296f22', 'CRM': '1226401', 'UF': 'RJ', 'Firstname': 'JÉSSICA', 'LastName': 'BENEDET FOGAÇA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Conjunto D', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '21) 3184-7050', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cfm@portalmedico.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:36:38,512 - P14756 - INFO - Progresso: 72.6%
+2025-05-22 04:36:38,513 - P14756 - INFO - Tempo de execução de processamento do médico 2: 50.10 segundos
+2025-05-22 04:36:38,513 - P14756 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 04:36:38,513 - P14756 - INFO - Nome: AYLLA MEIRA LIMA
+2025-05-22 04:36:38,513 - P14756 - INFO - Início do processamento Uso de memória: 120.29 MB
+2025-05-22 04:36:38,513 - P14756 - INFO - Iniciando busca para: AYLLA MEIRA LIMA CRM 1233742 RJ telefone e-mail endereço
+2025-05-22 04:36:39,280 - P14756 - INFO - SearX results: 8 URLs
+2025-05-22 04:36:39,281 - P14756 - INFO - Após SearX Uso de memória: 120.29 MB
+2025-05-22 04:36:41,843 - P14756 - INFO - Google results: 1 URLs
+2025-05-22 04:36:41,844 - P14756 - INFO - Após Google Uso de memória: 122.24 MB
+2025-05-22 04:36:44,295 - P14756 - INFO - Bing results: 8 URLs
+2025-05-22 04:36:44,296 - P14756 - INFO - Após Bing Uso de memória: 123.85 MB
+2025-05-22 04:36:44,296 - P14756 - INFO - Total de URLs únicas: 10
+2025-05-22 04:36:44,296 - P14756 - INFO - Processando URL 1/10: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 04:36:47,127 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 04:36:47,137 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:36:47,137 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:36:47,137 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:36:47,138 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:36:47,138 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:36:47,138 - P14756 - INFO - Após processar URL 1 Uso de memória: 123.85 MB
+2025-05-22 04:36:47,138 - P14756 - INFO - Processando URL 2/10: https://www.econodata.com.br/consulta-empresa/50678113000119-AYLLA-MEIRA-LIMA-LTDA
+2025-05-22 04:36:52,073 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\b4269a22578b7f370866611880d05782.html
+2025-05-22 04:36:52,199 - P14756 - INFO - Candidates address: 23 items
+2025-05-22 04:36:52,199 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:36:52,199 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:36:52,199 - P14756 - INFO - Candidates complement: 2 items
+2025-05-22 04:36:52,200 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:36:52,200 - P14756 - INFO - Após processar URL 2 Uso de memória: 124.67 MB
+2025-05-22 04:36:52,200 - P14756 - INFO - Processando URL 3/10: http://www.transparencia.cremerj.org.br:8098/planejamento/registroMedico/pesquisar
+2025-05-22 04:36:54,327 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\19128e1d0b16c1bd37c280ce751655f7.html
+2025-05-22 04:36:54,352 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:36:54,352 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 04:36:54,353 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:36:54,353 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:36:54,353 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:36:54,353 - P14756 - INFO - Após processar URL 3 Uso de memória: 123.86 MB
+2025-05-22 04:36:54,353 - P14756 - INFO - Processando URL 4/10: https://b2bleads.com.br/empresa/aylla-meira-lima-ltda-50678113000119
+2025-05-22 04:36:58,546 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\cb92d848f133f1a572b9365dee91669c.html
+2025-05-22 04:36:58,566 - P14756 - INFO - Candidates address: 9 items
+2025-05-22 04:36:58,574 - P14756 - INFO - Candidates phone: 2 items
+2025-05-22 04:36:58,574 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:36:58,574 - P14756 - INFO - Candidates complement: 3 items
+2025-05-22 04:36:58,575 - P14756 - INFO - Candidates cep: 11 items
+2025-05-22 04:36:58,575 - P14756 - INFO - Após processar URL 4 Uso de memória: 123.86 MB
+2025-05-22 04:36:58,576 - P14756 - INFO - Processando URL 5/10: https://empresasweb.net/emp/aylla-meira-lima-ltda-50678113
+2025-05-22 04:37:01,122 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\c8f64d795d21d045600241e3d53fc2ab.html
+2025-05-22 04:37:01,136 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:37:01,137 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 04:37:01,137 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:37:01,137 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 04:37:01,138 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:37:01,138 - P14756 - INFO - Após processar URL 5 Uso de memória: 123.86 MB
+2025-05-22 04:37:01,138 - P14756 - INFO - Processando URL 6/10: https://portal.cfm.org.br/busca-medicos
+2025-05-22 04:37:04,406 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 04:37:04,447 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:37:04,448 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:37:04,448 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:37:04,448 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 04:37:04,449 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:37:04,449 - P14756 - INFO - Após processar URL 6 Uso de memória: 123.86 MB
+2025-05-22 04:37:04,449 - P14756 - INFO - Processando URL 7/10: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 04:37:08,600 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 04:37:08,642 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:37:08,642 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:37:08,642 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:37:08,642 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:37:08,643 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:37:08,643 - P14756 - INFO - Após processar URL 7 Uso de memória: 123.86 MB
+2025-05-22 04:37:08,643 - P14756 - INFO - Processando URL 8/10: https://connect.wecann.academy/medico/aylla-meira-lima/
+2025-05-22 04:37:12,635 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\fa8276569ee9384943863ea927a2f305.html
+2025-05-22 04:37:12,650 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:37:12,650 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 04:37:12,651 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:37:12,651 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:37:12,651 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:37:12,651 - P14756 - INFO - Após processar URL 8 Uso de memória: 123.86 MB
+2025-05-22 04:37:12,651 - P14756 - INFO - Processando URL 9/10: https://empresas.serasaexperian.com.br/consulta-gratis/AYLLA-MEIRA-LIMA-LTDA-50678113000119
+2025-05-22 04:37:17,758 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\916ac8c9660e54c748a2af6abb61173a.html
+2025-05-22 04:37:17,791 - P14756 - INFO - Candidates address: 3 items
+2025-05-22 04:37:17,791 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:37:17,791 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:37:17,792 - P14756 - INFO - Candidates complement: 3 items
+2025-05-22 04:37:17,792 - P14756 - INFO - Candidates cep: 5 items
+2025-05-22 04:37:17,792 - P14756 - INFO - Após processar URL 9 Uso de memória: 123.86 MB
+2025-05-22 04:37:17,792 - P14756 - INFO - Processando URL 10/10: https://consultacrm.com.br/
+2025-05-22 04:37:21,629 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:37:21,641 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:37:21,641 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:37:21,642 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:37:21,642 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:37:21,642 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:37:21,642 - P14756 - INFO - Após processar URL 10 Uso de memória: 123.86 MB
+2025-05-22 04:37:21,642 - P14756 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:37:21,642 - P14756 - INFO - Ranked address: 34 items
+2025-05-22 04:37:21,643 - P14756 - INFO - Ranked phone: 5 items
+2025-05-22 04:37:21,643 - P14756 - INFO - Ranked email: 3 items
+2025-05-22 04:37:21,643 - P14756 - INFO - Ranked complement: 10 items
+2025-05-22 04:37:21,643 - P14756 - INFO - Ranked cep: 19 items
+2025-05-22 04:37:21,643 - P14756 - INFO - Após agregação Uso de memória: 123.86 MB
+2025-05-22 04:37:21,643 - P14756 - INFO - Validando endereço: ['Rua Coronel Joao Olintho, 730', 'Rua Albertina Vieira da Silva Gordo, 640', 'Avenida Jorge Amado, 1565']
+2025-05-22 04:37:21,643 - P14756 - INFO - Endereço validado: Rua Coronel Joao Olintho, 730
+2025-05-22 04:37:21,644 - P14756 - INFO - Limpando texto extenso para campo address: Rua Coronel Joao Olintho, 730...
+2025-05-22 04:37:21,644 - P14756 - INFO - Texto limpo: Rua Coronel Joao Olintho, 730
+2025-05-22 04:37:21,644 - P14756 - INFO - Validando telefone: ['(21) 3184-7050', '(21) 99993-9188', '(99) 99999-9999']
+2025-05-22 04:37:21,644 - P14756 - INFO - Limpando texto extenso para campo phone: (21) 3184-7050...
+2025-05-22 04:37:21,644 - P14756 - INFO - Texto limpo: 21) 3184-7050
+2025-05-22 04:37:21,644 - P14756 - INFO - Telefone validado: 21) 3184-7050
+2025-05-22 04:37:21,645 - P14756 - INFO - Validando email: ['drayllameiralima@gmail.com', 'DRAYLLAMEIRALIMA@GMAIL.COM', 'cfm@portalmedico.org.br']
+2025-05-22 04:37:21,645 - P14756 - INFO - Limpando texto extenso para campo email: drayllameiralima@gmail.com...
+2025-05-22 04:37:21,645 - P14756 - INFO - Texto limpo: drayllameiralima@gmail.com
+2025-05-22 04:37:21,645 - P14756 - INFO - Email validado: drayllameiralima@gmail.com
+2025-05-22 04:37:21,645 - P14756 - INFO - Validando complemento: ['Apt 203 Bairro: Recreio dos Bandeirantes Município/UF', 'Apt 203 - Recreio dos Bandeirantes', 'Apt 203 Recreio Dos Bandeirantes ']
+2025-05-22 04:37:21,645 - P14756 - INFO - Limpando texto extenso para campo complement: Apt 203 Bairro: Recreio dos Bandeirantes Município...
+2025-05-22 04:37:21,646 - P14756 - INFO - Texto limpo: Apt 203 Bairro: Recreio dos Ba
+2025-05-22 04:37:21,646 - P14756 - INFO - Complemento validado: Apt 203 Bairro: Recreio dos Ba
+2025-05-22 04:37:21,646 - P14756 - INFO - Descobrindo cidade
+2025-05-22 04:37:21,646 - P14756 - INFO - Buscando cidade: Rua Coronel Joao Olintho cidade RJ
+2025-05-22 04:37:24,261 - P14756 - WARNING - Cidade não encontrada
+2025-05-22 04:37:24,261 - P14756 - INFO - Cidade descoberta: 
+2025-05-22 04:37:24,262 - P14756 - INFO - Tempo de execução de processamento completo do médico: 45.75 segundos
+2025-05-22 04:37:24,262 - P14756 - INFO - Resultado processado: {'Hash': 'd53b763ff2cbbe5fd96dda4fde12ad3a3a49d0e2da17c761ef096f53f268bf59', 'CRM': '1233742', 'UF': 'RJ', 'Firstname': 'AYLLA', 'LastName': 'MEIRA LIMA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Coronel Joao Olintho, 730', 'Address A1': 'Rua Coronel Joao Olintho', 'Numero A1': '730', 'Complement A1': 'Apt 203 Bairro: Recreio dos Ba', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '21) 3184-7050', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'drayllameiralima@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:37:24,262 - P14756 - INFO - Salvando lote de resultados
+2025-05-22 04:37:24,263 - P14756 - INFO - Após salvar resultados Uso de memória: 120.30 MB
+2025-05-22 04:37:24,264 - P14756 - INFO - Progresso: 73.1%
+2025-05-22 04:37:24,264 - P14756 - INFO - Tempo de execução de processamento do médico 3: 45.75 segundos
+2025-05-22 04:37:24,264 - P14756 - INFO - Tempo de execução de processamento do lote completo: 153.33 segundos

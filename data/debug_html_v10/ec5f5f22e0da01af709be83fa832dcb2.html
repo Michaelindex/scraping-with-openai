@@ -1,0 +1,547 @@
+<html lang="pt-BR"><head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(e){this.triggerEvents=e,this.eventOptions={passive:!0},this.userEventListener=this.triggerListener.bind(this),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventListener,e.eventOptions)))}_removeUserInteractionListener(e){this.triggerEvents.forEach((t=>window.removeEventListener(t,e.userEventListener,e.eventOptions)))}triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}async _loadEverythingNow(){this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async),await this._triggerDOMContentLoaded(),await this._triggerWindowLoad(),window.dispatchEvent(new Event("rocket-allScriptsLoaded"))}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._requestAnimFrame(),new Promise((t=>{const n=document.createElement("script");let r;[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type",r=e.nodeValue),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t()),e.parentNode.replaceChild(n,e)}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){var e=document.createDocumentFragment();[...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async].forEach((t=>{const n=t.getAttribute("src");if(n){const t=document.createElement("link");t.href=n,t.rel="preload",t.as="script",e.appendChild(t)}})),document.head.appendChild(e)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(r){e["rocket"+t]=n=r}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._requestAnimFrame(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-load")),await this._requestAnimFrame(),window.rocketonload&&window.rocketonload(),await this._requestAnimFrame(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),window.dispatchEvent(new Event("rocket-pageshow")),await this._requestAnimFrame(),window.rocketonpageshow&&window.rocketonpageshow()}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,r=document.createRange(),i=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const a=document.createDocumentFragment();r.setStart(a,0),a.appendChild(r.createContextualFragment(t)),i.insertBefore(a,o)}}async _requestAnimFrame(){return new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts(["keydown","mousemove","touchmove","touchstart","touchend","wheel"]);e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();</script>
+	
+		<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer="">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+	<!-- This site is optimized with the Yoast SEO plugin v24.2 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Neurocirurgião Belo Horizonte: como escolher o melhor?</title><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Raleway%3A400%2C500%2C600%2C700%2C300%2C100%2C800%2C900%7COpen%20Sans%3A400%2C300%2C300italic%2C400italic%2C600%2C600italic%2C700%2C700italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CAllerta%20Stencil%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext&amp;display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway%3A400%2C500%2C600%2C700%2C300%2C100%2C800%2C900%7COpen%20Sans%3A400%2C300%2C300italic%2C400italic%2C600%2C600italic%2C700%2C700italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CAllerta%20Stencil%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext&amp;display=swap" media="all" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway%3A400%2C500%2C600%2C700%2C300%2C100%2C800%2C900%7COpen%20Sans%3A400%2C300%2C300italic%2C400italic%2C600%2C600italic%2C700%2C700italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CAllerta%20Stencil%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;subset=latin%2Clatin-ext&#038;display=swap" /></noscript><link rel="stylesheet" href="https://drfelipemendes.com.br/wp-content/cache/min/1/9d95a9ed7281b5cbafcd5bc67ae0ec86.css" media="all" data-minify="1">
+	<meta name="description" content="Saiba como reconhecer e escolher o neurocirurgião Belo Horizonte. Confira o artigo exclusivo elaborado pela equipe médica do Dr. Felipe Mendes!">
+	<link rel="canonical" href="https://drfelipemendes.com.br/neurocirurgiao-belo-horizonte/">
+	<meta property="og:locale" content="pt_BR">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Neurocirurgião Belo Horizonte: como escolher o melhor?">
+	<meta property="og:description" content="Saiba como reconhecer e escolher o neurocirurgião Belo Horizonte. Confira o artigo exclusivo elaborado pela equipe médica do Dr. Felipe Mendes!">
+	<meta property="og:url" content="https://drfelipemendes.com.br/neurocirurgiao-belo-horizonte/">
+	<meta property="og:site_name" content="Dr Felipe Mendes">
+	<meta property="article:publisher" content="https://www.facebook.com/drfelipemendesneuro">
+	<meta property="article:published_time" content="2023-11-17T02:24:32+00:00">
+	<meta property="article:modified_time" content="2025-05-21T14:23:14+00:00">
+	<meta property="og:image" content="https://drfelipemendes.com.br/wp-content/uploads/2023/11/neurocirurgiao-belo-horizonte-ca.jpg">
+	<meta property="og:image:width" content="1280">
+	<meta property="og:image:height" content="853">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta name="author" content="Dr. Felipe Mendes">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:label1" content="Escrito por">
+	<meta name="twitter:data1" content="Dr. Felipe Mendes">
+	<meta name="twitter:label2" content="Est. tempo de leitura">
+	<meta name="twitter:data2" content="8 minutos">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://drfelipemendes.com.br/neurocirurgiao-belo-horizonte/#article","isPartOf":{"@id":"https://drfelipemendes.com.br/neurocirurgiao-belo-horizonte/"},"author":{"name":"Dr. Felipe Mendes","@id":"https://drfelipemendes.com.br/#/schema/person/5302d12b7791230aededebdc893088d9"},"headline":"Neurocirurgião Belo Horizonte: Como escolher o melhor?","datePublished":"2023-11-17T02:24:32+00:00","dateModified":"2025-05-21T14:23:14+00:00","mainEntityOfPage":{"@id":"https://drfelipemendes.com.br/neurocirurgiao-belo-horizonte/"},"wordCount":1365,"commentCount":0,"publisher":{"@id":"https://drfelipemendes.com.br/#organization"},"image":{"@id":"https://drfelipemendes.com.br/neurocirurgiao-belo-horizonte/#primaryimage"},"thumbnailUrl":"https://drfelipemendes.com.br/wp-content/uploads/2023/11/neurocirurgiao-belo-horizonte-ca.jpg","keywords":["cérebro","Neurocirurgião"],"articleSection":["Cérebro"],"inLanguage":"pt-BR","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://drfelipemendes.com.br/neurocirurgiao-belo-horizonte/#respond"]}]},{"@type":"WebPage","@id":"https://drfelipemendes.com.br/neurocirurgiao-belo-horizonte/","url":"https://drfelipemendes.com.br/neurocirurgiao-belo-horizonte/","name":"Neurocirurgião Belo Horizonte: como escolher o melhor?","isPartOf":{"@id":"https://drfelipemendes.com.br/#website"},"primaryImageOfPage":{"@id":"https://drfelipemendes.com.br/neurocirurgiao-belo-horizonte/#primaryimage"},"image":{"@id":"https://drfelipemendes.com.br/neurocirurgiao-belo-horizonte/#primaryimage"},"thumbnailUrl":"https://drfelipemendes.com.br/wp-content/uploads/2023/11/neurocirurgiao-belo-horizonte-ca.jpg","datePublished":"2023-11-17T02:24:32+00:00","dateModified":"2025-05-21T14:23:14+00:00","description":"Saiba como reconhecer e escolher o neurocirurgião Belo Horizonte. Confira o artigo exclusivo elaborado pela equipe médica do Dr. Felipe Mendes!","breadcrumb":{"@id":"https://drfelipemendes.com.br/neurocirurgiao-belo-horizonte/#breadcrumb"},"inLanguage":"pt-BR","potentialAction":[{"@type":"ReadAction","target":["https://drfelipemendes.com.br/neurocirurgiao-belo-horizonte/"]}]},{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https://drfelipemendes.com.br/neurocirurgiao-belo-horizonte/#primaryimage","url":"https://drfelipemendes.com.br/wp-content/uploads/2023/11/neurocirurgiao-belo-horizonte-ca.jpg","contentUrl":"https://drfelipemendes.com.br/wp-content/uploads/2023/11/neurocirurgiao-belo-horizonte-ca.jpg","width":1280,"height":853},{"@type":"BreadcrumbList","@id":"https://drfelipemendes.com.br/neurocirurgiao-belo-horizonte/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://drfelipemendes.com.br/"},{"@type":"ListItem","position":2,"name":"Cérebro","item":"https://drfelipemendes.com.br/category/cerebro/"},{"@type":"ListItem","position":3,"name":"Neurocirurgião Belo Horizonte: Como escolher o melhor?"}]},{"@type":"WebSite","@id":"https://drfelipemendes.com.br/#website","url":"https://drfelipemendes.com.br/","name":"Dr Felipe Mendes","description":"Neurocirurgião","publisher":{"@id":"https://drfelipemendes.com.br/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://drfelipemendes.com.br/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"pt-BR"},{"@type":"Organization","@id":"https://drfelipemendes.com.br/#organization","name":"Dr. Felipe Mendes","alternateName":"Dr. Felipe Mendes Ferreira","url":"https://drfelipemendes.com.br/","logo":{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https://drfelipemendes.com.br/#/schema/logo/image/","url":"https://drfelipemendes.com.br/wp-content/uploads/2021/03/logo-colorida-2.png","contentUrl":"https://drfelipemendes.com.br/wp-content/uploads/2021/03/logo-colorida-2.png","width":1659,"height":827,"caption":"Dr. Felipe Mendes"},"image":{"@id":"https://drfelipemendes.com.br/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/drfelipemendesneuro","https://www.instagram.com/drfelipemendesneuro/"]},{"@type":"Person","@id":"https://drfelipemendes.com.br/#/schema/person/5302d12b7791230aededebdc893088d9","name":"Dr. Felipe Mendes","image":{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https://drfelipemendes.com.br/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/51cb0450642ceb3ea1d05562b07be89a56fe111828676edf1de5384fb0f18686?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/51cb0450642ceb3ea1d05562b07be89a56fe111828676edf1de5384fb0f18686?s=96&d=mm&r=g","caption":"Dr. Felipe Mendes"},"description":"Dr. Felipe Mendes Ferreira, neurocirurgião e cirurgião de coluna, oferece um atendimento diferenciado, atencioso, focado na escuta e na compreensão do problema para propor soluções personalizadas em busca de melhor qualidade de vida para seus pacientes.","sameAs":["https://drfelipemendes.com.br"],"url":"https://drfelipemendes.com.br/author/admin/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<script type="rocketlazyloadscript" data-rocket-type="application/javascript">console.log('PixelYourSite Free version 9.1.1');</script>
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link href="https://fonts.gstatic.com" crossorigin="" rel="preconnect">
+<link rel="alternate" type="application/rss+xml" title="Feed para Dr Felipe Mendes »" href="https://drfelipemendes.com.br/feed/">
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Dr Felipe Mendes »" href="https://drfelipemendes.com.br/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Dr Felipe Mendes » Neurocirurgião Belo Horizonte: Como escolher o melhor?" href="https://drfelipemendes.com.br/neurocirurgiao-belo-horizonte/feed/">
+
+<style id="wp-emoji-styles-inline-css" type="text/css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css" type="text/css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+
+
+
+
+
+<style id="onepress-style-inline-css" type="text/css">
+#main .video-section section.hero-slideshow-wrapper{background:transparent}.hero-slideshow-wrapper:after{position:absolute;top:0px;left:0px;width:100%;height:100%;background-color:rgba(0,0,0,0.3);display:block;content:""}.body-desktop .parallax-hero .hero-slideshow-wrapper:after{display:none!important}#parallax-hero>.parallax-bg::before{background-color:rgba(0,0,0,0.3);opacity:1}.body-desktop .parallax-hero .hero-slideshow-wrapper:after{display:none!important}#footer-widgets{}.gallery-carousel .g-item{padding:0px 10px}.gallery-carousel{margin-left:-10px;margin-right:-10px}.gallery-grid .g-item,.gallery-masonry .g-item .inner{padding:10px}.gallery-grid,.gallery-masonry{margin:-10px}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-content/plugins/pixelyoursite/dist/scripts/jquery.bind-first-0.2.3.min.js?ver=6.8.1" id="jquery-bind-first-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-content/plugins/pixelyoursite/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3" id="js-cookie-js" defer=""></script>
+<script type="text/javascript" id="pys-js-extra">
+/* <![CDATA[ */
+var pysOptions = {"staticEvents":{"facebook":{"init_event":[{"delay":0,"type":"static","name":"PageView","pixelIds":["363033261942165"],"eventID":"11fa1216-873c-4e74-a118-32472468ece2","params":{"post_category":"C\u00e9rebro","page_title":"Neurocirurgi\u00e3o Belo Horizonte: Como escolher o melhor?","post_type":"post","post_id":1717,"plugin":"PixelYourSite","user_role":"guest","event_url":"drfelipemendes.com.br\/neurocirurgiao-belo-horizonte\/"},"e_id":"init_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}]}},"dynamicEvents":{"automatic_event_form":{"facebook":{"delay":0,"type":"dyn","name":"Form","pixelIds":["363033261942165"],"eventID":"b96c4945-0286-4ab5-9f56-25d3e945d160","params":{"page_title":"Neurocirurgi\u00e3o Belo Horizonte: Como escolher o melhor?","post_type":"post","post_id":1717,"plugin":"PixelYourSite","user_role":"guest","event_url":"drfelipemendes.com.br\/neurocirurgiao-belo-horizonte\/"},"e_id":"automatic_event_form","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_download":{"facebook":{"delay":0,"type":"dyn","name":"Download","extensions":["","doc","exe","js","pdf","ppt","tgz","zip","xls"],"pixelIds":["363033261942165"],"eventID":"0549c940-f31a-4b50-bcc0-1c5946414e21","params":{"page_title":"Neurocirurgi\u00e3o Belo Horizonte: Como escolher o melhor?","post_type":"post","post_id":1717,"plugin":"PixelYourSite","user_role":"guest","event_url":"drfelipemendes.com.br\/neurocirurgiao-belo-horizonte\/"},"e_id":"automatic_event_download","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_comment":{"facebook":{"delay":0,"type":"dyn","name":"Comment","pixelIds":["363033261942165"],"eventID":"a3fe709a-6dec-4556-afd2-361687162f6b","params":{"page_title":"Neurocirurgi\u00e3o Belo Horizonte: Como escolher o melhor?","post_type":"post","post_id":1717,"plugin":"PixelYourSite","user_role":"guest","event_url":"drfelipemendes.com.br\/neurocirurgiao-belo-horizonte\/"},"e_id":"automatic_event_comment","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}}},"triggerEvents":[],"triggerEventTypes":[],"facebook":{"pixelIds":["363033261942165"],"advancedMatching":[],"removeMetadata":false,"contentParams":{"post_type":"post","post_id":1717,"content_name":"Neurocirurgi\u00e3o Belo Horizonte: Como escolher o melhor?","categories":"C\u00e9rebro","tags":"c\u00e9rebro, Neurocirurgi\u00e3o"},"commentEventEnabled":true,"wooVariableAsSimple":false,"downloadEnabled":true,"formEventEnabled":true,"ajaxForServerEvent":true,"serverApiEnabled":true,"wooCRSendFromServer":false},"debug":"","siteUrl":"https:\/\/drfelipemendes.com.br","ajaxUrl":"https:\/\/drfelipemendes.com.br\/wp-admin\/admin-ajax.php","enable_remove_download_url_param":"1","gdpr":{"ajax_enabled":false,"all_disabled_by_api":false,"facebook_disabled_by_api":false,"analytics_disabled_by_api":false,"google_ads_disabled_by_api":false,"pinterest_disabled_by_api":false,"bing_disabled_by_api":false,"facebook_prior_consent_enabled":true,"analytics_prior_consent_enabled":true,"google_ads_prior_consent_enabled":null,"pinterest_prior_consent_enabled":true,"bing_prior_consent_enabled":true,"cookiebot_integration_enabled":false,"cookiebot_facebook_consent_category":"marketing","cookiebot_analytics_consent_category":"statistics","cookiebot_google_ads_consent_category":null,"cookiebot_pinterest_consent_category":"marketing","cookiebot_bing_consent_category":"marketing","consent_magic_integration_enabled":false,"real_cookie_banner_integration_enabled":false,"cookie_notice_integration_enabled":false,"cookie_law_info_integration_enabled":false},"woo":{"enabled":false},"edd":{"enabled":false}};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-content/cache/min/1/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=1702495807" id="pys-js" defer=""></script>
+<link rel="https://api.w.org/" href="https://drfelipemendes.com.br/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://drfelipemendes.com.br/wp-json/wp/v2/posts/1717"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://drfelipemendes.com.br/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.8.1">
+<link rel="shortlink" href="https://drfelipemendes.com.br/?p=1717">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://drfelipemendes.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdrfelipemendes.com.br%2Fneurocirurgiao-belo-horizonte%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://drfelipemendes.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdrfelipemendes.com.br%2Fneurocirurgiao-belo-horizonte%2F&amp;format=xml">
+<meta name="facebook-domain-verification" content="424hwyyw39yn4oovhhiy1xcdgsnrjw">
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- GTM Container placement set to automatic -->
+<script data-cfasync="false" data-pagespeed-no-defer="" type="text/javascript">
+	var dataLayer_content = {"pageTitle":"Neurocirurgião Belo Horizonte: como escolher o melhor?","pagePostType":"post","pagePostType2":"single-post","pageCategory":["cerebro"],"pageAttributes":["cerebro","neurocirurgiao"],"pagePostAuthorID":1,"pagePostAuthor":"Dr. Felipe Mendes","pagePostDate":"novembro 17, 2023","pagePostDateYear":"2023","pagePostDateMonth":"11","pagePostDateDay":"17","pagePostDateDayName":"sexta-feira","pagePostDateHour":"02","pagePostDateMinute":"24","pagePostDateIso":"2023-11-17T02:24:32+00:00","pagePostDateUnix":1700187872,"pagePostTerms":{"category":["Cérebro"],"post_tag":["cérebro","Neurocirurgião"]},"postCountOnPage":1,"postCountTotal":1,"postID":1717,"postFormat":"standard"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script type="rocketlazyloadscript" data-cfasync="false">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5DDW3WW');
+</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><link rel="pingback" href="https://drfelipemendes.com.br/xmlrpc.php"><meta name="generator" content="Elementor 3.25.11; features: additional_custom_breakpoints, e_optimized_control_loading; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<style type="text/css">.saboxplugin-wrap{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;border:1px solid #eee;width:100%;clear:both;display:block;overflow:hidden;word-wrap:break-word;position:relative}.saboxplugin-wrap .saboxplugin-gravatar{float:left;padding:0 20px 20px 20px}.saboxplugin-wrap .saboxplugin-gravatar img{max-width:100px;height:auto;border-radius:0;}.saboxplugin-wrap .saboxplugin-authorname{font-size:18px;line-height:1;margin:20px 0 0 20px;display:block}.saboxplugin-wrap .saboxplugin-authorname a{text-decoration:none}.saboxplugin-wrap .saboxplugin-authorname a:focus{outline:0}.saboxplugin-wrap .saboxplugin-desc{display:block;margin:5px 20px}.saboxplugin-wrap .saboxplugin-desc a{text-decoration:underline}.saboxplugin-wrap .saboxplugin-desc p{margin:5px 0 12px}.saboxplugin-wrap .saboxplugin-web{margin:0 20px 15px;text-align:left}.saboxplugin-wrap .sab-web-position{text-align:right}.saboxplugin-wrap .saboxplugin-web a{color:#ccc;text-decoration:none}.saboxplugin-wrap .saboxplugin-socials{position:relative;display:block;background:#fcfcfc;padding:5px;border-top:1px solid #eee}.saboxplugin-wrap .saboxplugin-socials a svg{width:20px;height:20px}.saboxplugin-wrap .saboxplugin-socials a svg .st2{fill:#fff; transform-origin:center center;}.saboxplugin-wrap .saboxplugin-socials a svg .st1{fill:rgba(0,0,0,.3)}.saboxplugin-wrap .saboxplugin-socials a:hover{opacity:.8;-webkit-transition:opacity .4s;-moz-transition:opacity .4s;-o-transition:opacity .4s;transition:opacity .4s;box-shadow:none!important;-webkit-box-shadow:none!important}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-color{box-shadow:none;padding:0;border:0;-webkit-transition:opacity .4s;-moz-transition:opacity .4s;-o-transition:opacity .4s;transition:opacity .4s;display:inline-block;color:#fff;font-size:0;text-decoration:inherit;margin:5px;-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0;border-radius:0;overflow:hidden}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-grey{text-decoration:inherit;box-shadow:none;position:relative;display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1;margin:10px 5px;color:#444;fill:#444}.clearfix:after,.clearfix:before{content:' ';display:table;line-height:0;clear:both}.ie7 .clearfix{zoom:1}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-twitch{border-color:#38245c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-addthis{border-color:#e91c00}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-behance{border-color:#003eb0}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-delicious{border-color:#06c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-deviantart{border-color:#036824}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-digg{border-color:#00327c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-dribbble{border-color:#ba1655}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-facebook{border-color:#1e2e4f}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-flickr{border-color:#003576}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-github{border-color:#264874}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-google{border-color:#0b51c5}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-googleplus{border-color:#96271a}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-html5{border-color:#902e13}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-instagram{border-color:#1630aa}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-linkedin{border-color:#00344f}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-pinterest{border-color:#5b040e}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-reddit{border-color:#992900}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-rss{border-color:#a43b0a}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-sharethis{border-color:#5d8420}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-skype{border-color:#00658a}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-soundcloud{border-color:#995200}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-spotify{border-color:#0f612c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-stackoverflow{border-color:#a95009}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-steam{border-color:#006388}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-user_email{border-color:#b84e05}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-stumbleUpon{border-color:#9b280e}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-tumblr{border-color:#10151b}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-twitter{border-color:#0967a0}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-vimeo{border-color:#0d7091}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-windows{border-color:#003f71}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-whatsapp{border-color:#003f71}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-wordpress{border-color:#0f3647}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-yahoo{border-color:#14002d}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-youtube{border-color:#900}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-xing{border-color:#000202}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-mixcloud{border-color:#2475a0}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-vk{border-color:#243549}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-medium{border-color:#00452c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-quora{border-color:#420e00}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-meetup{border-color:#9b181c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-goodreads{border-color:#000}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-snapchat{border-color:#999700}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-500px{border-color:#00557f}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-mastodont{border-color:#185886}.sabox-plus-item{margin-bottom:20px}@media screen and (max-width:480px){.saboxplugin-wrap{text-align:center}.saboxplugin-wrap .saboxplugin-gravatar{float:none;padding:20px 0;text-align:center;margin:0 auto;display:block}.saboxplugin-wrap .saboxplugin-gravatar img{float:none;display:inline-block;display:-moz-inline-stack;vertical-align:middle;zoom:1}.saboxplugin-wrap .saboxplugin-desc{margin:0 10px 20px;text-align:center}.saboxplugin-wrap .saboxplugin-authorname{text-align:center;margin:10px 0 20px}}body .saboxplugin-authorname a,body .saboxplugin-authorname a:hover{box-shadow:none;-webkit-box-shadow:none}a.sab-profile-edit{font-size:16px!important;line-height:1!important}.sab-edit-settings a,a.sab-profile-edit{color:#0073aa!important;box-shadow:none!important;-webkit-box-shadow:none!important}.sab-edit-settings{margin-right:15px;position:absolute;right:0;z-index:2;bottom:10px;line-height:20px}.sab-edit-settings i{margin-left:5px}.saboxplugin-socials{line-height:1!important}.rtl .saboxplugin-wrap .saboxplugin-gravatar{float:right}.rtl .saboxplugin-wrap .saboxplugin-authorname{display:flex;align-items:center}.rtl .saboxplugin-wrap .saboxplugin-authorname .sab-profile-edit{margin-right:10px}.rtl .sab-edit-settings{right:auto;left:0}img.sab-custom-avatar{max-width:75px;}.saboxplugin-wrap {margin-top:0px; margin-bottom:0px; padding: 0px 0px }.saboxplugin-wrap .saboxplugin-authorname {font-size:18px; line-height:25px;}.saboxplugin-wrap .saboxplugin-desc p, .saboxplugin-wrap .saboxplugin-desc {font-size:14px !important; line-height:21px !important;}.saboxplugin-wrap .saboxplugin-web {font-size:14px;}.saboxplugin-wrap .saboxplugin-socials a svg {width:18px;height:18px;}</style><link rel="icon" href="https://drfelipemendes.com.br/wp-content/uploads/2021/03/cropped-icon-32x32.png" sizes="32x32">
+<link rel="icon" href="https://drfelipemendes.com.br/wp-content/uploads/2021/03/cropped-icon-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://drfelipemendes.com.br/wp-content/uploads/2021/03/cropped-icon-180x180.png">
+<meta name="msapplication-TileImage" content="https://drfelipemendes.com.br/wp-content/uploads/2021/03/cropped-icon-270x270.png">
+		<style type="text/css" id="wp-custom-css">
+			.page-id-802 .site-header {
+display: none;
+}
+.page-id-802 .site-footer {
+display: none;
+}
+
+.page-id-869 .site-header {
+display: none;
+}
+.page-id-869 .site-footer {
+display: none;
+}
+
+.page-id-863 .site-header {
+display: none;
+}
+.page-id-863 .site-footer {
+display: none;
+}
+
+.page-id-867 .site-header {
+display: none;
+}
+.page-id-867 .site-footer {
+display: none;
+}
+
+.page-id-868 .site-header {
+display: none;
+}
+.page-id-868 .site-footer {
+display: none;
+}
+
+.page-id-865 .site-header {
+display: none;
+}
+.page-id-865 .site-footer {
+display: none;
+}
+
+.page-id-870 .site-header {
+display: none;
+}
+.page-id-870 .site-footer {
+display: none;
+}
+
+.page-id-864 .site-header {
+display: none;
+}
+.page-id-864 .site-footer {
+display: none;
+}
+
+.page-id-862 .site-header {
+display: none;
+}
+.page-id-862 .site-footer {
+display: none;
+}
+
+.page-id-866 .site-header {
+display: none;
+}
+.page-id-866 .site-footer {
+display: none;
+}
+
+.page-id-856 .site-header {
+display: none;
+}
+.page-id-856 .site-footer {
+display: none;
+}
+
+.single footer {
+	display: none;
+}		</style>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"></head>
+<body data-rsssl="1" class="wp-singular post-template-default single single-post postid-1717 single-format-standard wp-theme-onepress elementor-default elementor-template-canvas elementor-kit-16 elementor-page-1058">
+	
+<!-- GTM Container placement set to automatic -->
+<!-- Google Tag Manager (noscript) -->
+				<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DDW3WW" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- GTM Container placement set to automatic -->
+<!-- Google Tag Manager (noscript) -->		<div data-elementor-type="single-post" data-elementor-id="1058" class="elementor elementor-1058 elementor-location-single post-1717 post type-post status-publish format-standard has-post-thumbnail hentry category-cerebro tag-cerebro tag-neurocirurgiao" data-elementor-post-type="elementor_library">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-343b5275 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="343b5275" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-ebc61c0" data-id="ebc61c0" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-455bfd7b elementor-widget elementor-widget-image" data-id="455bfd7b" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+														<a href="#">
+							<img width="800" height="398" src="https://drfelipemendes.com.br/wp-content/uploads/2021/03/logo-colorida-2-1024x510.png" class="attachment-large size-large wp-image-12" alt="" srcset="https://drfelipemendes.com.br/wp-content/uploads/2021/03/logo-colorida-2-1024x510.png 1024w, https://drfelipemendes.com.br/wp-content/uploads/2021/03/logo-colorida-2-300x150.png 300w, https://drfelipemendes.com.br/wp-content/uploads/2021/03/logo-colorida-2-768x383.png 768w, https://drfelipemendes.com.br/wp-content/uploads/2021/03/logo-colorida-2-1536x766.png 1536w, https://drfelipemendes.com.br/wp-content/uploads/2021/03/logo-colorida-2.png 1659w" sizes="(max-width: 800px) 100vw, 800px">								</a>
+													</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-db51ac2" data-id="db51ac2" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-44fb990b elementor-nav-menu__align-center elementor-nav-menu--dropdown-mobile elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="44fb990b" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;<i class=\&quot;fas fa-caret-down\&quot;><\/i>&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-44fb990b" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-254"><a href="https://drfelipemendes.com.br/" class="elementor-item">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-258"><a href="https://drfelipemendes.com.br/#Tratamentos" class="elementor-item elementor-item-anchor">Agendamento</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-519"><a href="https://drfelipemendes.com.br/#Agendamento" class="elementor-item elementor-item-anchor">Telemedicina</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-256"><a href="https://drfelipemendes.com.br/tratamentos/" class="elementor-item">Tratamentos</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-612"><a href="https://drfelipemendes.com.br/blog" class="elementor-item">Blog</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menu</span>
+		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-44fb990b" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-254"><a href="https://drfelipemendes.com.br/" class="elementor-item" tabindex="-1">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-258"><a href="https://drfelipemendes.com.br/#Tratamentos" class="elementor-item elementor-item-anchor" tabindex="-1">Agendamento</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-519"><a href="https://drfelipemendes.com.br/#Agendamento" class="elementor-item elementor-item-anchor" tabindex="-1">Telemedicina</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-256"><a href="https://drfelipemendes.com.br/tratamentos/" class="elementor-item" tabindex="-1">Tratamentos</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-612"><a href="https://drfelipemendes.com.br/blog" class="elementor-item" tabindex="-1">Blog</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-79fe1996" data-id="79fe1996" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-137cf9b5 e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="137cf9b5" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-a34e397" href="https://www.facebook.com/drfelipemendesneuro" target="_blank">
+						<span class="elementor-screen-only">Facebook</span>
+						<i class="fab fa-facebook"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-a105ee0" href="https://www.instagram.com/drfelipemendesneuro/" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<i class="fab fa-instagram"></i>					</a>
+				</span>
+					</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-76d7e0e0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="76d7e0e0" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-605641f3" data-id="605641f3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-ba51a19 elementor-widget elementor-widget-breadcrumbs" data-id="ba51a19" data-element_type="widget" data-widget_type="breadcrumbs.default">
+				<div class="elementor-widget-container">
+			<p id="breadcrumbs"><span><span><a href="https://drfelipemendes.com.br/">Início</a></span> » <span><a href="https://drfelipemendes.com.br/category/cerebro/">Cérebro</a></span> » <span class="breadcrumb_last" aria-current="page">Neurocirurgião Belo Horizonte: Como escolher o melhor?</span></span></p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3ebf206 elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="3ebf206" data-element_type="widget" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+													<img width="768" height="512" src="https://drfelipemendes.com.br/wp-content/uploads/2023/11/neurocirurgiao-belo-horizonte-ca-768x512.jpg" class="attachment-medium_large size-medium_large wp-image-1718" alt="" srcset="https://drfelipemendes.com.br/wp-content/uploads/2023/11/neurocirurgiao-belo-horizonte-ca-768x512.jpg 768w, https://drfelipemendes.com.br/wp-content/uploads/2023/11/neurocirurgiao-belo-horizonte-ca-300x200.jpg 300w, https://drfelipemendes.com.br/wp-content/uploads/2023/11/neurocirurgiao-belo-horizonte-ca-1024x682.jpg 1024w, https://drfelipemendes.com.br/wp-content/uploads/2023/11/neurocirurgiao-belo-horizonte-ca.jpg 1280w" sizes="(max-width: 768px) 100vw, 768px">													</div>
+				</div>
+				<div class="elementor-element elementor-element-aac0852 elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="aac0852" data-element_type="widget" data-widget_type="theme-post-title.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Neurocirurgião Belo Horizonte: Como escolher o melhor?</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-705f2ab elementor-widget elementor-widget-theme-post-content" data-id="705f2ab" data-element_type="widget" data-widget_type="theme-post-content.default">
+				<div class="elementor-widget-container">
+			<div class="bialty-container"><p><span style="font-weight: 400;">O Estado de Minas Gerais, de acordo com dados do estudo </span><strong><a href="https://amb.org.br/wp-content/uploads/2023/02/DemografiaMedica2023_8fev-1.pdf" target="_blank" rel="noopener">Demografia Médica no Brasil</a></strong><span style="font-weight: 400;">, concentra </span><b>mais de 10% dos neurocirurgiões registrados no Brasil em 2023.</b><span style="font-weight: 400;"> Por isso, você pode estar se perguntando como escolher o melhor </span><span style="font-weight: 400;">neurocirurgião em Belo Horizonte</span><span style="font-weight: 400;">?</span></p>
+<p><span style="font-weight: 400;">Responder a essa pergunta pode não ser uma tarefa simples. A neurocirurgia é a especialidade médica que lida com o diagnóstico </span><b>e o tratamento das doenças e problemas que afetam o Sistema Nervoso, formado pelo cérebro, coluna e nervos. </b><span style="font-weight: 400;">Em Belo Horizonte, existem ótimos neurocirurgiões que se destacam em diversas áreas dentro da Neurocirurgia.</span></p>
+<p>Neste artigo, a equipe médica do Dr. Felipe Mendes apresenta como funciona a Neurocirurgia como especialidade, em quais situações é indicado procurar um neurocirurgião e por que ele é hoje um dos nomes mais procurados e recomendados da área em Belo Horizonte.</p>
+<p><span style="font-weight: 400;">Continue no artigo e tenha uma ótima leitura!</span></p>
+<p><span style="font-weight: 400;">&nbsp;</span></p>
+<h2><b>Qual o momento para buscar um neurocirurgião?</b></h2>
+<p><span style="font-weight: 400;">A identificação precoce e o tratamento apropriado são cruciais para a melhora e recuperação da maioria dos problemas de saúde. Dessa forma, ao apresentar qualquer queixa relacionada a algum problema de saúde, é sempre aconselhável </span><b>buscar a orientação de um especialista</b><span style="font-weight: 400;">, para obter um diagnóstico rápido e preciso, indicando o melhor plano de tratamento.</span></p>
+<p><span style="font-weight: 400;">A neurocirurgia é uma especialidade médica que tem por objetivo diagnosticar e tratar todas as doenças relacionadas ao sistema nervoso central e periférico – compostos pelo crânio, cérebro, </span><strong><a href="https://drfelipemendes.com.br/neurocirurgiao-especialista-em-coluna-2/" target="_blank" rel="noopener">coluna vertebral</a></strong><span style="font-weight: 400;">, medula e nervos.</span></p>
+<p><span style="font-weight: 400;">Engana-se quem pensa que o neurocirurgião só realiza cirurgia. Muitos tratamentos podem ser realizados apenas com medicações ou orientações.</span></p>
+<p><span style="font-weight: 400;">Caso apresente sintomas ou problemas que possam estar associados a doenças que afetam essas áreas, um </span><span style="font-weight: 400;">neurocirurgião em Belo Horizonte</span><span style="font-weight: 400;"> é o </span><b>médico especialista</b><span style="font-weight: 400;"> que você deve procurar.</span></p>
+<p><span style="font-weight: 400;">Exemplos disso são dores agudas ou crônicas que iniciam na região da coluna cervical ou lombar, com ou sem irradiação para os membros superiores ou inferiores, perda de força em braços e pernas, dificuldade de caminhar, dores de cabeça, entre outros. Diante de situações como essas, é recomendável procurar um médico </span><b>especializado em neurocirurgia</b><span style="font-weight: 400;"> o mais rapidamente possível.</span></p>
+<p><span style="font-weight: 400;">&nbsp;</span></p>
+<h2><b>Como encontrar um bom </b><b>neurocirurgião em Belo Horizonte</b><b>?</b></h2>
+<p><span style="font-weight: 400;">De acordo com o estudo </span><strong><a href="https://amb.org.br/wp-content/uploads/2023/02/DemografiaMedica2023_8fev-1.pdf" target="_blank" rel="noopener">Demografia Médica no Brasil em 2023</a></strong><span style="font-weight: 400;"><strong>,</strong> publicado pela Associação Médica Brasileira (AMB), a Capital Mineira apresenta uma proporção de 8,63 médicos por mil habitantes.</span></p>
+<p><span style="font-weight: 400;">Estes dados colocam Belo Horizonte como uma das </span><b>cinco capitais com a maior oferta de médicos</b><span style="font-weight: 400;"> no Brasil, ultrapassando cidades como São Paulo e Rio de Janeiro.</span></p>
+<p><span style="font-weight: 400;">Somente em Belo Horizonte, atuam mais de 20.000 médicos. Em Minas Gerais, existem 447 médicos especializados em Neurocirurgia, sendo que a maioria desses profissionais atuam na Capital.</span></p>
+<p><span style="font-weight: 400;">Portanto, quais os critérios necessários para encontrar um bom </span><span style="font-weight: 400;">neurocirurgião em Belo Horizonte</span><span style="font-weight: 400;">?</span></p>
+<p><span style="font-weight: 400;">Quando se procura um médico com expertise e qualificação acadêmica de destaque, experiência na prática médica em neurocirurgia e relatos de sucesso nos procedimentos conduzidos, alguns aspectos devem ser analisados, como:</span></p>
+<ul>
+<li><span style="font-weight: 400;"> &nbsp; &nbsp; </span><span style="font-weight: 400;">Conferência do RQE (Registro de Qualificação de Especialidade) condizente com a Neurocirurgia</span></li>
+<li><span style="font-weight: 400;"> &nbsp; &nbsp; </span><span style="font-weight: 400;">Processo de formação médica e qualificações posteriores em procedimentos, técnicas, áreas ou campos de atuação da Neurocirurgia</span></li>
+<li><span style="font-weight: 400;"> &nbsp; &nbsp; </span><span style="font-weight: 400;">Trajetória na área da saúde, com procedimentos exitosos, reconhecido acadêmica e profissionalmente por colegas</span></li>
+<li><span style="font-weight: 400;"> &nbsp; &nbsp; </span><span style="font-weight: 400;">Diálogo, parcerias e rede profissional do </span><span style="font-weight: 400;">neurocirurgião em Belo Horizonte</span><span style="font-weight: 400;">,&nbsp; atuando de forma colaborativa com colegas de outras especialidades, em prol do tratamento de seus pacientes</span></li>
+<li><span style="font-weight: 400;"> &nbsp; &nbsp; </span><span style="font-weight: 400;">Prática médica atenciosa, humana, focada na escuta e na compreensão, de modo a restaurar a qualidade de vida de seus pacientes</span></li>
+<li><span style="font-weight: 400;"> &nbsp; &nbsp; </span><span style="font-weight: 400;">Ética e compromisso com a saúde humana</span></li>
+</ul>
+<p><span style="font-weight: 400;">O</span><strong><a href="https://drfelipemendes.com.br/" target="_blank" rel="noopener"> Dr. Felipe Mendes</a></strong><span style="font-weight: 400;"> possui uma </span><b>trajetória profissional nacionalmente reconhecida, é </b><span style="font-weight: 400;">membro titular da Sociedade Brasileira de Neurocirurgia. Além disso, conta com aperfeiçoamentos acadêmicos realizados em instituições brasileiras, canadenses, estadunidenses e russas.</span></p>
+<p><span style="font-weight: 400;">Adotando uma prática humanizada da medicina, o Dr. Felipe Mendes conta com uma equipe de saúde auxiliar altamente qualificada, proporcionando aos seus pacientes toda a atenção, escuta, cuidado e carinho necessários&nbsp; para que seus programas personalizados de tratamento permitam a melhora </span><b>efetiva na qualidade de vida daqueles que o procuram</b><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">&nbsp;</span></p>
+<h2><b>Afinal, o que faz um </b><b>neurocirurgião em Belo Horizonte</b><b>?</b></h2>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;"> <img fetchpriority="high" decoding="async" class=" wp-image-1719 aligncenter" src="https://drfelipemendes.com.br/wp-content/uploads/2023/11/neurocirurgiao-belo-horizonte-af-300x200.jpg" alt="Neurocirurgião Belo Horizonte: Como escolher o melhor?" width="701" height="467" srcset="https://drfelipemendes.com.br/wp-content/uploads/2023/11/neurocirurgiao-belo-horizonte-af-300x200.jpg 300w, https://drfelipemendes.com.br/wp-content/uploads/2023/11/neurocirurgiao-belo-horizonte-af-1024x682.jpg 1024w, https://drfelipemendes.com.br/wp-content/uploads/2023/11/neurocirurgiao-belo-horizonte-af-768x512.jpg 768w, https://drfelipemendes.com.br/wp-content/uploads/2023/11/neurocirurgiao-belo-horizonte-af.jpg 1280w" sizes="(max-width: 701px) 100vw, 701px"></span></p>
+<p><span style="font-weight: 400;">&nbsp;</span></p>
+<p><span style="font-weight: 400;">Um neurocirurgião possui todo o conhecimento acadêmico e habilidades técnicas necessárias para realizar o diagnóstico e tratamento das doenças relacionadas ao Sistema Nervoso.</span></p>
+<p><span style="font-weight: 400;">Confira abaixo alguns sintomas e doenças que o neurocirurgião acompanha:</span></p>
+<ul>
+<li><span style="font-weight: 400;"> &nbsp; &nbsp; </span><span style="font-weight: 400;">Avaliação de dores na coluna</span></li>
+<li><span style="font-weight: 400;"> &nbsp; &nbsp; </span><span style="font-weight: 400;">Hérnia de Disco</span></li>
+<li><span style="font-weight: 400;"> &nbsp; &nbsp; </span><span style="font-weight: 400;">Lombalgia</span></li>
+<li><span style="font-weight: 400;"> &nbsp; &nbsp; </span><span style="font-weight: 400;">Aneurismas cerebrais</span></li>
+<li><span style="font-weight: 400;"> &nbsp; &nbsp; </span><strong><a href="https://drfelipemendes.com.br/cirurgia-hidrocefalia/" target="_blank" rel="noopener">Hidrocefalia</a></strong></li>
+<li><span style="font-weight: 400;"> &nbsp; &nbsp; </span><span style="font-weight: 400;">Doenças da coluna vertebral</span></li>
+<li><span style="font-weight: 400;"> &nbsp; &nbsp; </span><span style="font-weight: 400;">Síndrome do túnel do carpo</span></li>
+<li><span style="font-weight: 400;"> &nbsp; &nbsp; </span><span style="font-weight: 400;">Cefaleia</span></li>
+<li><span style="font-weight: 400;"> &nbsp; &nbsp; </span><span style="font-weight: 400;">Cervicalgia</span></li>
+<li><span style="font-weight: 400;"> &nbsp; &nbsp; </span><span style="font-weight: 400;">Tumores cerebrais e da coluna</span></li>
+<li><span style="font-weight: 400;"> &nbsp; &nbsp; </span><span style="font-weight: 400;">Escoliose</span></li>
+<li><span style="font-weight: 400;"> &nbsp; &nbsp; </span><span style="font-weight: 400;">Craniossinostose&nbsp;</span></li>
+</ul>
+<h2><b>Qual a diferença entre neurologista e neurocirurgião?</b></h2>
+<p><span style="font-weight: 400;">A Neurologia e a Neurocirurgia são </span><b>especialidades médicas distintas</b><span style="font-weight: 400;">, mas que, tradicionalmente, atuam de maneira conjunta.</span></p>
+<p><span style="font-weight: 400;">Tendo em vista a organização do </span><b>conhecimento e da prática médica</b><span style="font-weight: 400;"> em áreas de especialização, cada formação segue uma trajetória de aprendizado e aperfeiçoamento própria.</span></p>
+<h3><b>Neurologista</b></h3>
+<p><span style="font-weight: 400;">A Neurologia lida com as doenças relacionadas ao </span><b>sistema nervoso central e periférico</b><span style="font-weight: 400;">, além de distúrbios que podem afetar os músculos. Desse modo, engloba a investigação, o diagnóstico e o tratamento de problemas como acidentes vasculares cerebrais, os AVCs, perda de memória, demências, epilepsias, dores de cabeça, ataxias, doenças genéticas, entre outros.</span></p>
+<p><span style="font-weight: 400;">Por lidar com doenças que também fazem parte da prática clínica de outras especialidades, os neurologistas, normalmente, dialogam bastante com equipes formadas por neurocirurgiões, geriatras, psiquiatras e pediatras.</span><b>&nbsp;</b></p>
+<h3><b>Neurocirurgião</b></h3>
+<p><span style="font-weight: 400;">Entre as especialidades médicas, a Neurocirurgia também tem por objetivo diagnosticar e tratar doenças relacionadas ao sistema nervoso central e periférico, adotando </span><b>terapêutica via intervenção cirúrgica</b><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">Desse modo, atua nos tratamentos cirúrgicos de problemas como AVCs, traumatismos cranianos, traumatismo raquimedular, aneurismas cerebrais, hidrocefalia, tumores, hernias de disco, dores cervicais e lombares, entre outros.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Considerando muitas evoluções e melhorias tecnológicas, atualmente, os muitos neurocirurgiões realizam seus tratamentos a partir de </span><b>procedimentos minimamente invasivos</b><span style="font-weight: 400;">, como endoscopia de coluna, por exemplo.&nbsp;</span></p>
+<p><span style="font-weight: 400;">&nbsp;</span></p>
+<h2><b>Entenda a importância de um bom profissional</b></h2>
+<p><span style="font-weight: 400;">Em qualquer campo ou atividade, contar com profissionais qualificados e experientes, com resultados reconhecidos é fundamental. No entanto, quando o assunto é a nossa saúde, esses </span><b>aspectos devem ser ainda mais valorizados.</b></p>
+<p><span style="font-weight: 400;">Na área médica, um profissional que reúne as qualidades e características que o destacam, merece uma atenção especial, pois ele é capaz de causar um </span><b>impacto positivo na vida das pessoas</b><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">Por conta disso, encontrar um médico qualificado e capaz de efetivamente propor o tratamento correto é&nbsp; essencial. A partir de uma intervenção médica eficiente, as </span><b>pessoas têm a possibilidade de restaurar sua saúde</b><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">O</span><strong><a href="https://drfelipemendes.com.br/" target="_blank" rel="noopener"> Dr. Felipe Mendes</a></strong><span style="font-weight: 400;"> assume como </span><b>compromisso identificar e desenvolver as melhores soluções</b><span style="font-weight: 400;"> para os seus pacientes, adotando uma escuta ativa e cuidadosa, na busca pela recuperação da qualidade de vida daqueles que o procuram.</span></p>
+<p><span style="font-weight: 400;">&nbsp;</span></p>
+<h2><b>Conclusão</b></h2>
+<p><span style="font-weight: 400;">&nbsp;</span></p>
+<p><img decoding="async" class=" wp-image-1720 aligncenter" src="https://drfelipemendes.com.br/wp-content/uploads/2023/11/neurocirurgiao-belo-horizonte-co-300x200.jpg" alt="Neurocirurgião Belo Horizonte: Como escolher o melhor?" width="701" height="467" srcset="https://drfelipemendes.com.br/wp-content/uploads/2023/11/neurocirurgiao-belo-horizonte-co-300x200.jpg 300w, https://drfelipemendes.com.br/wp-content/uploads/2023/11/neurocirurgiao-belo-horizonte-co-1024x682.jpg 1024w, https://drfelipemendes.com.br/wp-content/uploads/2023/11/neurocirurgiao-belo-horizonte-co-768x512.jpg 768w, https://drfelipemendes.com.br/wp-content/uploads/2023/11/neurocirurgiao-belo-horizonte-co.jpg 1280w" sizes="(max-width: 701px) 100vw, 701px"></p>
+<p><span style="font-weight: 400;">&nbsp;</span></p>
+<p><span style="font-weight: 400;">Neste artigo exclusivo, você aprendeu como escolher o melhor </span><span style="font-weight: 400;">neurocirurgião em Belo Horizonte</span><span style="font-weight: 400;">, considerando aspectos como qualificação acadêmica, nível de comprometimento, rede de relacionamento e parcerias com outros colegas da área da saúde, além da importância do </span><b>reconhecimento dos resultados de sucesso</b><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">Como visto ao longo do texto, os neurocirurgiões são médicos que apresentam uma formação específica, com ênfase no diagnóstico e tratamento das doenças relacionadas ao crânio, cérebro, coluna vertebral, medula e nervos.</span></p>
+<p><span style="font-weight: 400;">O Dr. Felipe Mendes é Neurocirurgião, sendo nacionalmente reconhecido pelos seus </span><b>resultados de sucesso</b><span style="font-weight: 400;">, compartilhando com a comunidade médica os avanços no campo da Neurocirurgia.</span></p>
+<p><span style="font-weight: 400;">Entre em</span><strong><a href="https://api.whatsapp.com/send?phone=5531991249411&amp;text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20com%20o%20Dr.%20Felipe%20Mendes" target="_blank" rel="noopener"> contato</a></strong><span style="font-weight: 400;"> com o time de atendimento do Dr. Felipe Mendes e agende uma consulta para ter o melhor tratamento possível!</span></p>
+<div class="saboxplugin-wrap" itemtype="http://schema.org/Person" itemscope="" itemprop="author"><div class="saboxplugin-tab"><div class="saboxplugin-gravatar"><img decoding="async" src="https://drfelipemendes.com.br/wp-content/uploads/2023/05/image.png" width="100" height="100" alt="foto-dr-felipe" itemprop="image"></div><div class="saboxplugin-authorname"><a href="https://drfelipemendes.com.br/author/admin/" class="vcard author" rel="author"><span class="fn">Dr. Felipe Mendes</span></a></div><div class="saboxplugin-desc"><div itemprop="description"><div class="elementor-element elementor-element-142073a elementor-widget elementor-widget-text-editor" data-id="142073a" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<div class="elementor-text-editor elementor-clearfix">
+<p>Dr. Felipe Mendes Ferreira, neurocirurgião e cirurgião de coluna, oferece um atendimento diferenciado, atencioso, focado na escuta e na compreensão do problema para propor soluções personalizadas em busca de melhor qualidade de vida para seus pacientes.</p>
+</div>
+</div>
+</div>
+</div></div><div class="clearfix"></div></div></div></div>
+		</div>
+				</div>
+				<div class="elementor-element elementor-element-1247787b elementor-align-center elementor-widget elementor-widget-button" data-id="1247787b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float" href="https://drfelipemendes.com.br/blog" target="_blank">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Voltar ao Blog</span>
+					</span>
+					</a>
+				</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-66a4c345 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="66a4c345" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-22ca54b9" data-id="22ca54b9" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-2e0a5ce2 elementor-widget elementor-widget-heading" data-id="2e0a5ce2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Contato</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-791bccee elementor-widget elementor-widget-text-editor" data-id="791bccee" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>(31) 99124-9411</p><p>drfelipe@drfelipemendes.com.br</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2e3c0734" data-id="2e3c0734" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-602b0944 elementor-widget elementor-widget-image" data-id="602b0944" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+														<a href="#">
+							<img width="300" height="150" src="https://drfelipemendes.com.br/wp-content/uploads/2021/03/logo-colorida-2-300x150.png" class="attachment-medium size-medium wp-image-12" alt="" srcset="https://drfelipemendes.com.br/wp-content/uploads/2021/03/logo-colorida-2-300x150.png 300w, https://drfelipemendes.com.br/wp-content/uploads/2021/03/logo-colorida-2-1024x510.png 1024w, https://drfelipemendes.com.br/wp-content/uploads/2021/03/logo-colorida-2-768x383.png 768w, https://drfelipemendes.com.br/wp-content/uploads/2021/03/logo-colorida-2-1536x766.png 1536w, https://drfelipemendes.com.br/wp-content/uploads/2021/03/logo-colorida-2.png 1659w" sizes="(max-width: 300px) 100vw, 300px">								</a>
+													</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-694c7af9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="694c7af9" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-764babf2" data-id="764babf2" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-58f74c3e elementor-widget elementor-widget-text-editor" data-id="58f74c3e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>@2022 Todos os Direitos Reservados. Dr. Felipe Mendes.</p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/onepress\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<!-- Instagram Feed JS -->
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+var sbiajaxurl = "https://drfelipemendes.com.br/wp-admin/admin-ajax.php";
+</script>
+			<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<noscript><img height="1" width="1" style="display: none;" src="https://www.facebook.com/tr?id=363033261942165&ev=PageView&noscript=1&cd%5Bpost_category%5D=C%C3%A9rebro&cd%5Bpage_title%5D=Neurocirurgi%C3%A3o+Belo+Horizonte%3A+Como+escolher+o+melhor%3F&cd%5Bpost_type%5D=post&cd%5Bpost_id%5D=1717&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=drfelipemendes.com.br%2Fneurocirurgiao-belo-horizonte%2F" alt="facebook_pixel"></noscript>
+
+
+
+
+
+
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-content/cache/min/1/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-contact-form-7-tracker.js?ver=1702495807" id="gtm4wp-contact-form-7-tracker-js" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-content/cache/min/1/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1702495807" id="gtm4wp-form-move-tracker-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="rocket-browser-checker-js-after">
+/* <![CDATA[ */
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(.+\/)?feed\/?.+\/?|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin\/|\/logout\/|\/wp-login.php","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm","siteUrl":"https:\/\/drfelipemendes.com.br","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="rocket-preload-links-js-after">
+/* <![CDATA[ */
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-content/cache/min/1/wp-content/themes/onepress/assets/js/plugins.js?ver=1702495807" id="onepress-js-plugins-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-content/themes/onepress/assets/js/bootstrap.min.js?ver=2.2.7" id="onepress-js-bootstrap-js" defer=""></script>
+<script type="text/javascript" id="onepress-theme-js-extra">
+/* <![CDATA[ */
+var onepress_js_settings = {"onepress_disable_animation":"","onepress_disable_sticky_header":"1","onepress_vertical_align_menu":"","hero_animation":"flipInX","hero_speed":"5000","hero_fade":"750","hero_duration":"5000","hero_disable_preload":"","is_home":"","gallery_enable":"1","is_rtl":""};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-content/cache/min/1/wp-content/themes/onepress/assets/js/theme.js?ver=1702495807" id="onepress-theme-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-includes/js/comment-reply.min.js?ver=6.8.1" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1" id="smartmenus-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.23.3" id="e-sticky-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.23.3" id="elementor-pro-webpack-runtime-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.25.11" id="elementor-webpack-runtime-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.25.11" id="elementor-frontend-modules-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="elementor-pro-frontend-js-before">
+/* <![CDATA[ */
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/drfelipemendes.com.br\/wp-admin\/admin-ajax.php","nonce":"cbd89c8175","urls":{"assets":"https:\/\/drfelipemendes.com.br\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/drfelipemendes.com.br\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"pt_BR","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/drfelipemendes.com.br\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.23.3" id="elementor-pro-frontend-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="elementor-frontend-js-before">
+/* <![CDATA[ */
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Pr\u00f3ximo","close":"Fechar","a11yCarouselWrapperAriaLabel":"Carrossel | Rolagem horizontal: Setas para esquerda e direita","a11yCarouselPrevSlideMessage":"Slide anterior","a11yCarouselNextSlideMessage":"Pr\u00f3ximo slide","a11yCarouselFirstSlideMessage":"Este \u00e9 o primeiro slide","a11yCarouselLastSlideMessage":"Este \u00e9 o \u00faltimo slide","a11yCarouselPaginationBulletMessage":"Ir para o slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Dispositivos m\u00f3veis no modo retrato","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Dispositivos m\u00f3veis no modo paisagem","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet no modo retrato","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet no modo paisagem","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Notebook","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Tela ampla (widescreen)","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"3.25.11","is_static":false,"experimentalFeatures":{"additional_custom_breakpoints":true,"e_swiper_latest":true,"e_nested_atomic_repeaters":true,"e_optimized_control_loading":true,"e_onboarding":true,"e_css_smooth_scroll":true,"theme_builder_v2":true,"home_screen":true,"landing-pages":true,"nested-elements":true,"editor_v2":true,"link-in-bio":true,"floating-buttons":true,"display-conditions":true,"form-submissions":true,"taxonomy-filter":true},"urls":{"assets":"https:\/\/drfelipemendes.com.br\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/drfelipemendes.com.br\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/drfelipemendes.com.br\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"53a2fdce42"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":1717,"title":"Neurocirurgi%C3%A3o%20Belo%20Horizonte%3A%20como%20escolher%20o%20melhor%3F","excerpt":"","featuredImage":"https:\/\/drfelipemendes.com.br\/wp-content\/uploads\/2023\/11\/neurocirurgiao-belo-horizonte-ca-1024x682.jpg"}};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.25.11" id="elementor-frontend-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://drfelipemendes.com.br/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.23.3" id="pro-elements-handlers-js" defer=""></script>
+	<script>class RocketElementorAnimation{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}_detectAnimations(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this._listAnimationSettingsKeys(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach(t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this._animateElement(t)}catch(t){}})}_animateElement(t){const e=JSON.parse(t.dataset.settings),i=e._animation_delay||e.animation_delay||0,n=e[this.animationSettingKeys.find(t=>e[t])];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let s=setTimeout(()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this._removeAnimationSettings(t,e)},i);window.addEventListener("rocket-startLoading",function(){clearTimeout(s)})}_listAnimationSettingsKeys(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach(t=>{e.forEach(e=>{i.push(t+e)})}),i}_removeAnimationSettings(t,e){this._listAnimationSettingsKeys().forEach(t=>delete e[t]),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorAnimation;requestAnimationFrame(t._detectAnimations.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorAnimation.run);</script>
+
+
+<span id="elementor-device-mode" class="elementor-screen-only"></span></body></html>

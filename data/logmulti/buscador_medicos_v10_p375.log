@@ -1,0 +1,515 @@
+2025-05-22 05:32:35,476 - P17020 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 05:32:35,477 - P17020 - INFO - Nome: LUCAS ROSSI DOS SANTOS
+2025-05-22 05:32:35,477 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 05:32:36,776 - P17020 - INFO - Após reiniciar driver Uso de memória: 128.95 MB
+2025-05-22 05:32:36,776 - P17020 - INFO - Início do processamento Uso de memória: 128.95 MB
+2025-05-22 05:32:36,776 - P17020 - INFO - Iniciando busca para: LUCAS ROSSI DOS SANTOS CRM 217760 SP telefone e-mail endereço
+2025-05-22 05:32:37,828 - P17020 - INFO - SearX results: 14 URLs
+2025-05-22 05:32:37,828 - P17020 - INFO - Após SearX Uso de memória: 128.95 MB
+2025-05-22 05:32:40,662 - P17020 - INFO - Google results: 7 URLs
+2025-05-22 05:32:40,663 - P17020 - INFO - Após Google Uso de memória: 130.10 MB
+2025-05-22 05:32:43,180 - P17020 - INFO - Bing results: 9 URLs
+2025-05-22 05:32:43,223 - P17020 - INFO - Após Bing Uso de memória: 131.03 MB
+2025-05-22 05:32:43,223 - P17020 - INFO - Total de URLs únicas: 20
+2025-05-22 05:32:43,223 - P17020 - INFO - Processando URL 1/20: https://transparencia.cremesp.org.br/?siteAcao=guia_medico
+2025-05-22 05:32:52,725 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\cb80cc007a72cc7a378681a92a58906a.html
+2025-05-22 05:32:52,780 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 05:32:52,781 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:32:52,781 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:32:52,781 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:32:52,781 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 05:32:52,781 - P17020 - INFO - Após processar URL 1 Uso de memória: 131.03 MB
+2025-05-22 05:32:52,781 - P17020 - INFO - Processando URL 2/20: https://consultasaj.tjam.jus.br/cdje/downloadCaderno.do?dtDiario=01/07/2013&cdCaderno=2
+2025-05-22 05:32:55,149 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a4998751e1dd70bfcd44537ed5568cbe.html
+2025-05-22 05:32:55,196 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 05:32:55,196 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:32:55,196 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:32:55,196 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:32:55,196 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 05:32:55,197 - P17020 - INFO - Após processar URL 2 Uso de memória: 131.03 MB
+2025-05-22 05:32:55,197 - P17020 - INFO - Processando URL 3/20: https://empresadois.com.br/cnpj/lucas-rossi-sts-servicos-medicos-44959255000151
+2025-05-22 05:32:59,035 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e7da053bb18f709cccd594a3dfecce39.html
+2025-05-22 05:32:59,056 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 05:32:59,057 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 05:32:59,057 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 05:32:59,057 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 05:32:59,057 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 05:32:59,058 - P17020 - INFO - Após processar URL 3 Uso de memória: 131.03 MB
+2025-05-22 05:32:59,058 - P17020 - INFO - Processando URL 4/20: https://consultacrm.com.br/
+2025-05-22 05:33:01,290 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:33:01,304 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:33:01,305 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:33:01,305 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:33:01,305 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:33:01,306 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:33:01,306 - P17020 - INFO - Após processar URL 4 Uso de memória: 131.03 MB
+2025-05-22 05:33:01,306 - P17020 - INFO - Processando URL 5/20: https://osasco.sp.gov.br/site/wp-content/uploads/2016/05/httposasco.sp_.gov_.brcompsec1atosEd1242.pdf
+2025-05-22 05:33:01,307 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2016/05/httposasco.sp_.gov_.brcompsec1atosEd1242.pdf
+2025-05-22 05:33:01,308 - P17020 - INFO - Após processar URL 5 Uso de memória: 131.03 MB
+2025-05-22 05:33:01,309 - P17020 - INFO - Processando URL 6/20: https://47.mostra.org/diretores/lucas-h-rossi-dos-santos
+2025-05-22 05:33:03,686 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a04af6e60b0ae6073a46dfb0fcfa0a69.html
+2025-05-22 05:33:03,800 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:33:03,801 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:33:03,801 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 05:33:03,801 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:33:03,803 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:33:03,803 - P17020 - INFO - Após processar URL 6 Uso de memória: 135.25 MB
+2025-05-22 05:33:03,803 - P17020 - INFO - Processando URL 7/20: https://www.doctoralia.com.br/lucas-felix-rossi/cirurgiao-do-aparelho-digestivo-cirurgiao-geral/porto-alegre
+2025-05-22 05:33:03,804 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/lucas-felix-rossi/cirurgiao-do-aparelho-digestivo-cirurgiao-geral/porto-alegre
+2025-05-22 05:33:03,804 - P17020 - INFO - Após processar URL 7 Uso de memória: 131.23 MB
+2025-05-22 05:33:03,804 - P17020 - INFO - Processando URL 8/20: https://consultas.plus/lista-de-empresas/sao-paulo/sao-paulo/44959255000151-lucas-rossi-sts-servios-medicos-ltda/
+2025-05-22 05:33:07,737 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\1e3a341630763bdc7089b07ce83a4945.html
+2025-05-22 05:33:07,759 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:33:07,759 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 05:33:07,760 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 05:33:07,760 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 05:33:07,760 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 05:33:07,760 - P17020 - INFO - Após processar URL 8 Uso de memória: 131.23 MB
+2025-05-22 05:33:07,760 - P17020 - INFO - Processando URL 9/20: https://iomat.mt.gov.br/portal/edicoes/download/2470
+2025-05-22 05:33:10,200 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\48cbd5e006fda4478c2826d52158faa9.html
+2025-05-22 05:33:10,219 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:33:10,219 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 05:33:10,219 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 05:33:10,219 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 05:33:10,220 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 05:33:10,220 - P17020 - INFO - Após processar URL 9 Uso de memória: 131.23 MB
+2025-05-22 05:33:10,220 - P17020 - INFO - Processando URL 10/20: https://www.boaconsulta.com/especialista/lucas-rossi-dos-santos-6106d674a2e00a653a007686
+2025-05-22 05:33:13,725 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c955d2b4f8f2d635211f1a10111b249f.html
+2025-05-22 05:33:13,793 - P17020 - INFO - Candidates address: 9 items
+2025-05-22 05:33:13,793 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:33:13,793 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:33:13,793 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 05:33:13,794 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:33:13,794 - P17020 - INFO - Após processar URL 10 Uso de memória: 131.23 MB
+2025-05-22 05:33:13,794 - P17020 - INFO - Processando URL 11/20: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1784770513.pdf
+2025-05-22 05:33:13,794 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1784770513.pdf
+2025-05-22 05:33:13,794 - P17020 - INFO - Após processar URL 11 Uso de memória: 131.23 MB
+2025-05-22 05:33:13,795 - P17020 - INFO - Processando URL 12/20: https://portal.cfm.org.br/busca-medicos
+2025-05-22 05:33:18,133 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 05:33:18,186 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:33:18,186 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:33:18,186 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 05:33:18,188 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 05:33:18,188 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 05:33:18,189 - P17020 - INFO - Após processar URL 12 Uso de memória: 131.23 MB
+2025-05-22 05:33:18,189 - P17020 - INFO - Processando URL 13/20: https://www.doctoralia.com.br/lucas-emmanuel-lopes-e-santos/psicologo/ribeirao-preto
+2025-05-22 05:33:18,189 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/lucas-emmanuel-lopes-e-santos/psicologo/ribeirao-preto
+2025-05-22 05:33:18,190 - P17020 - INFO - Após processar URL 13 Uso de memória: 131.23 MB
+2025-05-22 05:33:18,190 - P17020 - INFO - Processando URL 14/20: https://guiamedico.cremesp.org.br/
+2025-05-22 05:33:20,282 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 05:33:20,293 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 05:33:20,295 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 05:33:20,298 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:33:20,302 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:33:20,305 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 05:33:20,307 - P17020 - INFO - Após processar URL 14 Uso de memória: 131.23 MB
+2025-05-22 05:33:20,309 - P17020 - INFO - Processando URL 15/20: https://www.doctoralia.com.br/lucas-rossi-dos-santos/psiquiatra/sao-paulo
+2025-05-22 05:33:20,314 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/lucas-rossi-dos-santos/psiquiatra/sao-paulo
+2025-05-22 05:33:20,319 - P17020 - INFO - Após processar URL 15 Uso de memória: 131.23 MB
+2025-05-22 05:33:20,320 - P17020 - INFO - Processando URL 16/20: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1350597119.pdf
+2025-05-22 05:33:20,322 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1350597119.pdf
+2025-05-22 05:33:20,325 - P17020 - INFO - Após processar URL 16 Uso de memória: 131.23 MB
+2025-05-22 05:33:20,326 - P17020 - INFO - Processando URL 17/20: https://cadastroempresa.com.br/fornecedor/lucas-rossi-sts-servicos-medicos-44959255000151
+2025-05-22 05:33:22,682 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7269566d6b5efb187b734626334e770c.html
+2025-05-22 05:33:22,707 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:33:22,707 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 05:33:22,708 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 05:33:22,708 - P17020 - INFO - Candidates complement: 3 items
+2025-05-22 05:33:22,709 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 05:33:22,709 - P17020 - INFO - Após processar URL 17 Uso de memória: 131.23 MB
+2025-05-22 05:33:22,709 - P17020 - INFO - Processando URL 18/20: https://cnpj.biz/38150820000132
+2025-05-22 05:33:26,982 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f344bd7ffd254ae0941fe7ae688df4c3.html
+2025-05-22 05:33:26,998 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:33:26,999 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 05:33:26,999 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 05:33:26,999 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:33:26,999 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 05:33:26,999 - P17020 - INFO - Após processar URL 18 Uso de memória: 131.23 MB
+2025-05-22 05:33:26,999 - P17020 - INFO - Processando URL 19/20: https://www.cineesquemanovo.org/pt-br/caderno-de-artista/615/lucas-h-rossi-dos-santos
+2025-05-22 05:33:31,543 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\86f9647c12570108f5daf775f07d62c6.html
+2025-05-22 05:33:31,553 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:33:31,554 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:33:31,556 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:33:31,559 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:33:31,559 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:33:31,560 - P17020 - INFO - Após processar URL 19 Uso de memória: 131.23 MB
+2025-05-22 05:33:31,560 - P17020 - INFO - Processando URL 20/20: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/b/0/a/b0aec445f3c50317cf1581e21f5827c877bd2cfef2acab6bf04d1354e9716529/2dc97006-55ed-450a-a940-342c7eb8de52-28037-DOE_17711_29_08_2005_36F_JUCESC_17711_08F.pdf
+2025-05-22 05:33:31,561 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/b/0/a/b0aec445f3c50317cf1581e21f5827c877bd2cfef2acab6bf04d1354e9716529/2dc97006-55ed-450a-a940-342c7eb8de52-28037-DOE_17711_29_08_2005_36F_JUCESC_17711_08F.pdf
+2025-05-22 05:33:31,561 - P17020 - INFO - Após processar URL 20 Uso de memória: 131.23 MB
+2025-05-22 05:33:31,561 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:33:31,562 - P17020 - INFO - Ranked address: 12 items
+2025-05-22 05:33:31,562 - P17020 - INFO - Ranked phone: 4 items
+2025-05-22 05:33:31,562 - P17020 - INFO - Ranked email: 4 items
+2025-05-22 05:33:31,562 - P17020 - INFO - Ranked complement: 8 items
+2025-05-22 05:33:31,566 - P17020 - INFO - Ranked cep: 6 items
+2025-05-22 05:33:31,569 - P17020 - INFO - Após agregação Uso de memória: 131.23 MB
+2025-05-22 05:33:31,570 - P17020 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Rua Majuruna, 9', 'R.C. Neves Consultoria e Engenharia LTDA Tecnoneves 46.961.863/0001-26']
+2025-05-22 05:33:31,575 - P17020 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 05:33:31,575 - P17020 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 05:33:31,576 - P17020 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 05:33:31,576 - P17020 - INFO - Validando telefone: ['(11) 8905-5732', '(11) 4349-9900', '(11) 98905-5732']
+2025-05-22 05:33:31,577 - P17020 - INFO - Limpando texto extenso para campo phone: (11) 8905-5732...
+2025-05-22 05:33:31,578 - P17020 - INFO - Texto limpo: 11) 8905-5732
+2025-05-22 05:33:31,580 - P17020 - INFO - Telefone validado: 11) 8905-5732
+2025-05-22 05:33:31,582 - P17020 - INFO - Validando email: ['lucasrossisantos@gmail.com', 'patronos@mostra.org', 'cfm@portalmedico.org.br']
+2025-05-22 05:33:31,583 - P17020 - INFO - Limpando texto extenso para campo email: lucasrossisantos@gmail.com...
+2025-05-22 05:33:31,583 - P17020 - INFO - Texto limpo: lucasrossisantos@gmail.com
+2025-05-22 05:33:31,584 - P17020 - INFO - Email validado: lucasrossisantos@gmail.com
+2025-05-22 05:33:31,584 - P17020 - INFO - Validando complemento: ['Sala 10 ', 'Sala  10 Vila Gomes Cardim ', 'Sala  10 Vila Gomes Cardim  na cidade de  Sao Paulo']
+2025-05-22 05:33:31,584 - P17020 - INFO - Limpando texto extenso para campo complement: Sala 10 ...
+2025-05-22 05:33:31,585 - P17020 - INFO - Texto limpo: Sala 10
+2025-05-22 05:33:31,586 - P17020 - INFO - Complemento validado: Sala 10
+2025-05-22 05:33:31,589 - P17020 - INFO - Descobrindo cidade
+2025-05-22 05:33:31,590 - P17020 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 05:33:34,084 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 05:33:34,088 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 05:33:34,089 - P17020 - INFO - Tempo de execução de processamento completo do médico: 57.31 segundos
+2025-05-22 05:33:34,090 - P17020 - INFO - Resultado processado: {'Hash': '187b430ebea3496f03ba6dfa6ffba94cce19263d7a40e73c53e07bc988047078', 'CRM': '217760', 'UF': 'SP', 'Firstname': 'LUCAS', 'LastName': 'ROSSI DOS SANTOS', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Sala 10', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 8905-5732', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'lucasrossisantos@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:33:34,092 - P17020 - INFO - Progresso: 91.8%
+2025-05-22 05:33:34,093 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 05:33:34,149 - P17020 - INFO - Após coleta de lixo Uso de memória: 119.40 MB
+2025-05-22 05:33:34,155 - P17020 - INFO - Tempo de execução de processamento do médico 1: 58.68 segundos
+2025-05-22 05:33:34,156 - P17020 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 05:33:34,157 - P17020 - INFO - Nome: RAFAEL MULLER DE CARVALHO
+2025-05-22 05:33:34,158 - P17020 - INFO - Início do processamento Uso de memória: 119.40 MB
+2025-05-22 05:33:34,161 - P17020 - INFO - Iniciando busca para: RAFAEL MULLER DE CARVALHO CRM 218482 SP telefone e-mail endereço
+2025-05-22 05:33:34,962 - P17020 - INFO - SearX results: 15 URLs
+2025-05-22 05:33:34,964 - P17020 - INFO - Após SearX Uso de memória: 119.40 MB
+2025-05-22 05:33:37,804 - P17020 - INFO - Google results: 8 URLs
+2025-05-22 05:33:37,805 - P17020 - INFO - Após Google Uso de memória: 123.28 MB
+2025-05-22 05:33:40,423 - P17020 - INFO - Bing results: 12 URLs
+2025-05-22 05:33:40,423 - P17020 - INFO - Após Bing Uso de memória: 125.68 MB
+2025-05-22 05:33:40,424 - P17020 - INFO - Total de URLs únicas: 20
+2025-05-22 05:33:40,424 - P17020 - INFO - Processando URL 1/20: https://cdn.estadaomatogrosso.com.br/storage/webdisco/pageflip/1330/source.pdf
+2025-05-22 05:33:40,424 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://cdn.estadaomatogrosso.com.br/storage/webdisco/pageflip/1330/source.pdf
+2025-05-22 05:33:40,424 - P17020 - INFO - Após processar URL 1 Uso de memória: 125.68 MB
+2025-05-22 05:33:40,425 - P17020 - INFO - Processando URL 2/20: https://www.drrafaelcarvalho.com.br/remocao-de-estrias-pirassununga
+2025-05-22 05:33:43,435 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a839943ea96f5231219d5f679458bad5.html
+2025-05-22 05:33:43,454 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:33:43,454 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:33:43,454 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:33:43,454 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:33:43,454 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:33:43,454 - P17020 - INFO - Após processar URL 2 Uso de memória: 128.50 MB
+2025-05-22 05:33:43,455 - P17020 - INFO - Processando URL 3/20: https://www.drrafaelcarvalho.com.br/blog/categories/ultraformer
+2025-05-22 05:33:47,987 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4e6d46a9fea322194bfab7808602e750.html
+2025-05-22 05:33:48,003 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:33:48,004 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:33:48,004 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:33:48,004 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:33:48,004 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:33:48,004 - P17020 - INFO - Após processar URL 3 Uso de memória: 130.60 MB
+2025-05-22 05:33:48,005 - P17020 - INFO - Processando URL 4/20: https://www.doctoralia.com.br/matheus-carvalho-muller/cardiologista/rio-de-janeiro
+2025-05-22 05:33:48,005 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/matheus-carvalho-muller/cardiologista/rio-de-janeiro
+2025-05-22 05:33:48,005 - P17020 - INFO - Após processar URL 4 Uso de memória: 128.72 MB
+2025-05-22 05:33:48,005 - P17020 - INFO - Processando URL 5/20: https://www.drrafaelcarvalho.com.br/
+2025-05-22 05:33:50,291 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\bb1dd92972d38a1625a4423db1f857d1.html
+2025-05-22 05:33:50,315 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:33:50,315 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:33:50,315 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:33:50,315 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:33:50,316 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:33:50,316 - P17020 - INFO - Após processar URL 5 Uso de memória: 132.04 MB
+2025-05-22 05:33:50,316 - P17020 - INFO - Processando URL 6/20: https://www.catalogo.med.br/doutor/rafael-muller-de-carvalho-2548575.htm
+2025-05-22 05:33:52,474 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\068f16249a161e3a2f826a20946e26f4.html
+2025-05-22 05:33:52,475 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:33:52,475 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:33:52,476 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 05:33:52,476 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:33:52,476 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:33:52,476 - P17020 - INFO - Após processar URL 6 Uso de memória: 130.48 MB
+2025-05-22 05:33:52,476 - P17020 - INFO - Processando URL 7/20: https://cnpj.biz/56863193000169
+2025-05-22 05:33:54,810 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5e4511fa8819546f3382d0e3935a7ec4.html
+2025-05-22 05:33:54,812 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:33:54,812 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:33:54,812 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:33:54,813 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:33:54,813 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:33:54,813 - P17020 - INFO - Após processar URL 7 Uso de memória: 130.55 MB
+2025-05-22 05:33:54,813 - P17020 - INFO - Processando URL 8/20: https://consultacrm.com.br/
+2025-05-22 05:33:58,415 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:33:58,428 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:33:58,428 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:33:58,429 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:33:58,429 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:33:58,429 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:33:58,429 - P17020 - INFO - Após processar URL 8 Uso de memória: 131.58 MB
+2025-05-22 05:33:58,429 - P17020 - INFO - Processando URL 9/20: https://www.stf.jus.br/arquivo/djEletronico/DJE_20220810_159.pdf
+2025-05-22 05:33:58,429 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.stf.jus.br/arquivo/djEletronico/DJE_20220810_159.pdf
+2025-05-22 05:33:58,430 - P17020 - INFO - Após processar URL 9 Uso de memória: 131.58 MB
+2025-05-22 05:33:58,430 - P17020 - INFO - Processando URL 10/20: https://www.drrafaelcarvalho.com.br/sobre-mim
+2025-05-22 05:34:03,243 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\31d5457b47a52b61cb718f84fb79b91c.html
+2025-05-22 05:34:03,262 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:34:03,263 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:34:03,263 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:34:03,263 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:03,263 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:34:03,266 - P17020 - INFO - Após processar URL 10 Uso de memória: 133.07 MB
+2025-05-22 05:34:03,266 - P17020 - INFO - Processando URL 11/20: https://siarq.ufrj.br/wp-content/uploads/2024/09/Compilado-semanal-36-2024.pdf
+2025-05-22 05:34:03,267 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://siarq.ufrj.br/wp-content/uploads/2024/09/Compilado-semanal-36-2024.pdf
+2025-05-22 05:34:03,268 - P17020 - INFO - Após processar URL 11 Uso de memória: 131.71 MB
+2025-05-22 05:34:03,268 - P17020 - INFO - Processando URL 12/20: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 05:34:06,497 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 05:34:06,509 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:34:06,509 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:34:06,509 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:34:06,509 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:06,509 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:34:06,509 - P17020 - INFO - Após processar URL 12 Uso de memória: 131.91 MB
+2025-05-22 05:34:06,510 - P17020 - INFO - Processando URL 13/20: https://www.juntacomercial.pr.gov.br/Pagina/Atos-Decisorios-Abril2022
+2025-05-22 05:34:10,815 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4e9cdde1e87df858f7b398a3cd86ef1f.html
+2025-05-22 05:34:10,945 - P17020 - INFO - Candidates address: 132 items
+2025-05-22 05:34:10,946 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:34:10,946 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:34:10,946 - P17020 - INFO - Candidates complement: 15 items
+2025-05-22 05:34:10,946 - P17020 - INFO - Candidates cep: 128 items
+2025-05-22 05:34:10,946 - P17020 - INFO - Após processar URL 13 Uso de memória: 134.05 MB
+2025-05-22 05:34:10,947 - P17020 - INFO - Processando URL 14/20: https://www.boaconsulta.com/especialista/rafael-muller-de-carvalho-64a3a86c5a7bb8083101d9d6
+2025-05-22 05:34:13,830 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7fc1556581f74da6a3ed506d7c3b6844.html
+2025-05-22 05:34:13,897 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 05:34:13,897 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:34:13,897 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:34:13,898 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:13,898 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:34:13,898 - P17020 - INFO - Após processar URL 14 Uso de memória: 131.25 MB
+2025-05-22 05:34:13,898 - P17020 - INFO - Processando URL 15/20: https://www.medicosbrasil.com/profissional/rafael-muller-de-carvalho
+2025-05-22 05:34:17,597 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f974d5642a30ea0dadb8b66f62071bd0.html
+2025-05-22 05:34:17,620 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:34:17,620 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:34:17,620 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:34:17,621 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:17,621 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 05:34:17,621 - P17020 - INFO - Após processar URL 15 Uso de memória: 131.27 MB
+2025-05-22 05:34:17,621 - P17020 - INFO - Processando URL 16/20: https://guiamedico.cremesp.org.br/
+2025-05-22 05:34:20,345 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 05:34:20,351 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 05:34:20,351 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 05:34:20,351 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:34:20,351 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:20,351 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 05:34:20,351 - P17020 - INFO - Após processar URL 16 Uso de memória: 131.27 MB
+2025-05-22 05:34:20,352 - P17020 - INFO - Processando URL 17/20: https://www.drrafaelcarvalho.com.br/contato
+2025-05-22 05:34:22,663 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\99e3c9e41c72fdfd536d3e2015debbb2.html
+2025-05-22 05:34:22,680 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:34:22,680 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:34:22,681 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:34:22,681 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:22,681 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:34:22,681 - P17020 - INFO - Após processar URL 17 Uso de memória: 132.70 MB
+2025-05-22 05:34:22,681 - P17020 - INFO - Processando URL 18/20: https://crmma.org.br/busca-medicos
+2025-05-22 05:34:26,749 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\dc6d41f225059e32b35cbcafd8abd332.html
+2025-05-22 05:34:26,805 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:34:26,806 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:34:26,809 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:34:26,811 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:26,812 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 05:34:26,813 - P17020 - INFO - Após processar URL 18 Uso de memória: 131.31 MB
+2025-05-22 05:34:26,815 - P17020 - INFO - Processando URL 19/20: https://www.drrafaelcarvalho.com.br/blog
+2025-05-22 05:34:32,047 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\8e983c6f8bb7abae5d82c82d33a21ae3.html
+2025-05-22 05:34:32,074 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:34:32,074 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:34:32,074 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:34:32,074 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:32,075 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:34:32,075 - P17020 - INFO - Após processar URL 19 Uso de memória: 133.55 MB
+2025-05-22 05:34:32,075 - P17020 - INFO - Processando URL 20/20: https://www.consultasocio.com/q/sa/rafael-muller-de-carvalho
+2025-05-22 05:34:37,646 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\dc1f94ce72988e0048a416cefbdb10fc.html
+2025-05-22 05:34:37,651 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 05:34:37,651 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:34:37,651 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 05:34:37,652 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:37,652 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 05:34:37,652 - P17020 - INFO - Após processar URL 20 Uso de memória: 131.33 MB
+2025-05-22 05:34:37,652 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:34:37,652 - P17020 - INFO - Ranked address: 134 items
+2025-05-22 05:34:37,653 - P17020 - INFO - Ranked phone: 1 items
+2025-05-22 05:34:37,653 - P17020 - INFO - Ranked email: 2 items
+2025-05-22 05:34:37,653 - P17020 - INFO - Ranked complement: 15 items
+2025-05-22 05:34:37,653 - P17020 - INFO - Ranked cep: 133 items
+2025-05-22 05:34:37,653 - P17020 - INFO - Após agregação Uso de memória: 131.33 MB
+2025-05-22 05:34:37,654 - P17020 - INFO - Validando endereço: ['Rua Iolanda Del Nero Barco, 101', 'R.G. Empreendimentos Imobiliarios Ltda, 22', 'R.A.E. Estetica E Beleza Ltda, 22']
+2025-05-22 05:34:37,654 - P17020 - INFO - Endereço validado: Rua Iolanda Del Nero Barco, 101
+2025-05-22 05:34:37,654 - P17020 - INFO - Limpando texto extenso para campo address: Rua Iolanda Del Nero Barco, 101...
+2025-05-22 05:34:37,654 - P17020 - INFO - Texto limpo: Rua Iolanda Del Nero Barco, 101
+2025-05-22 05:34:37,655 - P17020 - INFO - Validando telefone: ['(11) 4349-9900']
+2025-05-22 05:34:37,655 - P17020 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 05:34:37,655 - P17020 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 05:34:37,656 - P17020 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 05:34:37,656 - P17020 - INFO - Validando email: ['webmaster@catalogo.med.br', 'RAFAMUCARVALHO@HOTMAIL.COM']
+2025-05-22 05:34:37,656 - P17020 - INFO - Limpando texto extenso para campo email: webmaster@catalogo.med.br...
+2025-05-22 05:34:37,656 - P17020 - INFO - Texto limpo: webmaster@catalogo.med.br
+2025-05-22 05:34:37,656 - P17020 - INFO - Email validado: webmaster@catalogo.med.br
+2025-05-22 05:34:37,657 - P17020 - INFO - Validando complemento: ['Salao De Beleza Cm Concept Ltda', 'Salao De Beleza E Estetica Ltda', 'Salao De Beleza Ltda']
+2025-05-22 05:34:37,657 - P17020 - INFO - Limpando texto extenso para campo complement: Salao De Beleza Cm Concept Ltda...
+2025-05-22 05:34:37,657 - P17020 - INFO - Texto limpo: Salao De Beleza Cm Concept Ltd
+2025-05-22 05:34:37,657 - P17020 - INFO - Complemento validado: Salao De Beleza Cm Concept Ltd
+2025-05-22 05:34:37,657 - P17020 - INFO - Descobrindo cidade
+2025-05-22 05:34:37,657 - P17020 - INFO - Buscando cidade: Rua Iolanda Del Nero Barco cidade SP
+2025-05-22 05:34:40,244 - P17020 - INFO - Cidade encontrada: São Paulo
+2025-05-22 05:34:40,245 - P17020 - INFO - Limpando texto extenso para campo city: São Paulo...
+2025-05-22 05:34:40,245 - P17020 - INFO - Texto limpo: São Paulo
+2025-05-22 05:34:40,246 - P17020 - INFO - Cidade descoberta: São Paulo
+2025-05-22 05:34:40,246 - P17020 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 05:34:40,246 - P17020 - INFO - Iniciando busca de CEP em cascata para: Rua Iolanda Del Nero Barco, São Paulo, SP
+2025-05-22 05:34:40,247 - P17020 - INFO - Método 1: ViaCEP API
+2025-05-22 05:34:40,248 - P17020 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SP/sao%20paulo/rua%20iolanda%20del%20nero%20barco/json/
+2025-05-22 05:34:40,957 - P17020 - WARNING - ViaCEP retornou status 200 ou nenhum resultado
+2025-05-22 05:34:40,959 - P17020 - INFO - Método 2: BrasilAPI
+2025-05-22 05:34:40,959 - P17020 - INFO - Buscando na BrasilAPI: Rua Iolanda Del Nero Barco, São Paulo, SP
+2025-05-22 05:34:41,480 - P17020 - INFO - Consultando BrasilAPI: https://brasilapi.com.br/api/cep/v2/53581382
+2025-05-22 05:34:41,791 - P17020 - WARNING - BrasilAPI retornou status 404
+2025-05-22 05:34:41,793 - P17020 - INFO - Método 3: Web Scraping do Google
+2025-05-22 05:34:41,793 - P17020 - INFO - Buscando CEP: CEP da Rua Iolanda Del Nero Barco, São Paulo
+2025-05-22 05:34:43,411 - P17020 - INFO - CEP encontrado: 13631-064
+2025-05-22 05:34:43,416 - P17020 - INFO - CEP encontrado via Google: 13631-064
+2025-05-22 05:34:43,423 - P17020 - INFO - Dados de CEP encontrados: {'cep': '13631-064', 'logradouro': 'Rua Iolanda Del Nero Barco', 'bairro': '', 'localidade': 'São Paulo', 'uf': 'SP', 'complemento': ''}
+2025-05-22 05:34:43,431 - P17020 - INFO - Limpando texto extenso para campo city: São Paulo...
+2025-05-22 05:34:43,435 - P17020 - INFO - Texto limpo: São Paulo
+2025-05-22 05:34:43,445 - P17020 - INFO - Limpando texto extenso para campo state: SP...
+2025-05-22 05:34:43,447 - P17020 - INFO - Texto limpo: SP
+2025-05-22 05:34:43,453 - P17020 - INFO - Tempo de execução de processamento completo do médico: 69.29 segundos
+2025-05-22 05:34:43,456 - P17020 - INFO - Resultado processado: {'Hash': 'a37721a62a9053349435b05e5f0e1fbaa887a99409ff595eeea7988ea54bcb05', 'CRM': '218482', 'UF': 'SP', 'Firstname': 'RAFAEL', 'LastName': 'MULLER DE CARVALHO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Iolanda Del Nero Barco, 101', 'Address A1': 'Rua Iolanda Del Nero Barco', 'Numero A1': '101', 'Complement A1': 'Salao De Beleza Cm Concept Ltd', 'Bairro A1': '', 'postal code A1': '13631-064', 'City A1': 'São Paulo', 'State A1': 'SP', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'webmaster@catalogo.med.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:34:43,461 - P17020 - INFO - Progresso: 92.2%
+2025-05-22 05:34:43,463 - P17020 - INFO - Tempo de execução de processamento do médico 2: 69.31 segundos
+2025-05-22 05:34:43,464 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 05:34:43,464 - P17020 - INFO - Nome: MARIA EDUARDA ANGELI GALVANI
+2025-05-22 05:34:43,464 - P17020 - INFO - Início do processamento Uso de memória: 128.88 MB
+2025-05-22 05:34:43,465 - P17020 - INFO - Iniciando busca para: MARIA EDUARDA ANGELI GALVANI CRM 219071 SP telefone e-mail endereço
+2025-05-22 05:34:44,244 - P17020 - INFO - SearX results: 8 URLs
+2025-05-22 05:34:44,245 - P17020 - INFO - Após SearX Uso de memória: 128.88 MB
+2025-05-22 05:34:46,799 - P17020 - INFO - Google results: 1 URLs
+2025-05-22 05:34:46,799 - P17020 - INFO - Após Google Uso de memória: 129.79 MB
+2025-05-22 05:34:49,225 - P17020 - INFO - Bing results: 9 URLs
+2025-05-22 05:34:49,225 - P17020 - INFO - Após Bing Uso de memória: 130.50 MB
+2025-05-22 05:34:49,226 - P17020 - INFO - Total de URLs únicas: 12
+2025-05-22 05:34:49,226 - P17020 - INFO - Processando URL 1/12: https://consultacrm.com.br/
+2025-05-22 05:34:53,028 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:34:53,041 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:34:53,041 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:34:53,042 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:34:53,042 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:53,042 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:34:53,043 - P17020 - INFO - Após processar URL 1 Uso de memória: 130.54 MB
+2025-05-22 05:34:53,043 - P17020 - INFO - Processando URL 2/12: https://www.boaconsulta.com/especialista/maria-eduarda-angeli-galvani-6106cb2ba2e00a617b000e47
+2025-05-22 05:34:55,860 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\48af35aef498de0597d0f0986444d305.html
+2025-05-22 05:34:55,931 - P17020 - INFO - Candidates address: 8 items
+2025-05-22 05:34:55,931 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:34:55,931 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:34:55,932 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:55,932 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:34:55,932 - P17020 - INFO - Após processar URL 2 Uso de memória: 130.54 MB
+2025-05-22 05:34:55,932 - P17020 - INFO - Processando URL 3/12: http://cremesp.org.br/
+2025-05-22 05:35:03,323 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2a967318246f9658edeb1e0469c871fe.html
+2025-05-22 05:35:03,348 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 05:35:03,349 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 05:35:03,349 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:35:03,349 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:35:03,349 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 05:35:03,349 - P17020 - INFO - Após processar URL 3 Uso de memória: 130.54 MB
+2025-05-22 05:35:03,349 - P17020 - INFO - Processando URL 4/12: https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2023/11/manual_eletronico2024.pdf
+2025-05-22 05:35:03,350 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2023/11/manual_eletronico2024.pdf
+2025-05-22 05:35:03,350 - P17020 - INFO - Após processar URL 4 Uso de memória: 130.54 MB
+2025-05-22 05:35:03,350 - P17020 - INFO - Processando URL 5/12: https://guiasaudebrasil.com.br/profissional/5d3de92c717c2bad-maria-eduarda-angeli-galvani
+2025-05-22 05:35:09,067 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\dd66432f6e15ffdbafe852a003d73f2d.html
+2025-05-22 05:35:09,076 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:35:09,078 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:35:09,078 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:35:09,078 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:35:09,078 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 05:35:09,079 - P17020 - INFO - Após processar URL 5 Uso de memória: 130.54 MB
+2025-05-22 05:35:09,079 - P17020 - INFO - Processando URL 6/12: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 05:35:12,376 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 05:35:12,386 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:35:12,387 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:35:12,387 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:35:12,387 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:35:12,387 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:35:12,387 - P17020 - INFO - Após processar URL 6 Uso de memória: 130.54 MB
+2025-05-22 05:35:12,387 - P17020 - INFO - Processando URL 7/12: https://cnpj.biz/57878843000102
+2025-05-22 05:35:14,714 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e524f9c5df3cc97b9a88a0ba902502ae.html
+2025-05-22 05:35:14,716 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:35:14,716 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:35:14,716 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:35:14,717 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:35:14,717 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:35:14,717 - P17020 - INFO - Após processar URL 7 Uso de memória: 130.54 MB
+2025-05-22 05:35:14,717 - P17020 - INFO - Processando URL 8/12: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 05:35:18,410 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 05:35:18,450 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:35:18,450 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:35:18,450 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:35:18,450 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:35:18,450 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:35:18,451 - P17020 - INFO - Após processar URL 8 Uso de memória: 130.54 MB
+2025-05-22 05:35:18,451 - P17020 - INFO - Processando URL 9/12: https://cadastroempresa.com.br/fornecedor/boas-novas-gestao-de-saude-ltda-44568747000116
+2025-05-22 05:35:20,816 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d364780048e1c099e2e503ac88eb2db1.html
+2025-05-22 05:35:20,818 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:35:20,818 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:35:20,818 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:35:20,819 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:35:20,819 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:35:20,819 - P17020 - INFO - Após processar URL 9 Uso de memória: 130.54 MB
+2025-05-22 05:35:20,819 - P17020 - INFO - Processando URL 10/12: https://portal.cfm.org.br/busca-medicos
+2025-05-22 05:35:24,253 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 05:35:24,295 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 05:35:24,296 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:35:24,296 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 05:35:24,296 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 05:35:24,296 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 05:35:24,296 - P17020 - INFO - Após processar URL 10 Uso de memória: 130.54 MB
+2025-05-22 05:35:24,297 - P17020 - INFO - Processando URL 11/12: https://guiamedico.cremesp.org.br/
+2025-05-22 05:35:27,027 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 05:35:27,033 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 05:35:27,034 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 05:35:27,034 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:35:27,034 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:35:27,034 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 05:35:27,035 - P17020 - INFO - Após processar URL 11 Uso de memória: 130.55 MB
+2025-05-22 05:35:27,035 - P17020 - INFO - Processando URL 12/12: https://aboutcompany.info/country/brazil/officer/799301/maria-eduarda-angeli-galvani/
+2025-05-22 05:35:31,722 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b6c916ed497db53e07b971fd1414e1b0.html
+2025-05-22 05:35:32,467 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 05:35:32,468 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 05:35:32,468 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 05:35:32,468 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 05:35:32,468 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 05:35:32,469 - P17020 - INFO - Após processar URL 12 Uso de memória: 134.58 MB
+2025-05-22 05:35:32,469 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:35:32,469 - P17020 - INFO - Ranked address: 10 items
+2025-05-22 05:35:32,469 - P17020 - INFO - Ranked phone: 1 items
+2025-05-22 05:35:32,469 - P17020 - INFO - Ranked email: 1 items
+2025-05-22 05:35:32,469 - P17020 - INFO - Ranked complement: 1 items
+2025-05-22 05:35:32,470 - P17020 - INFO - Ranked cep: 4 items
+2025-05-22 05:35:32,470 - P17020 - INFO - Após agregação Uso de memória: 134.58 MB
+2025-05-22 05:35:32,470 - P17020 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Rua Dona Primitiva Vianco, 244', 'Rua Presidente Castelo Branco, 45']
+2025-05-22 05:35:32,470 - P17020 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 05:35:32,470 - P17020 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 05:35:32,471 - P17020 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 05:35:32,471 - P17020 - INFO - Validando telefone: ['(11) 4349-9900']
+2025-05-22 05:35:32,471 - P17020 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 05:35:32,471 - P17020 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 05:35:32,471 - P17020 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 05:35:32,472 - P17020 - INFO - Validando email: ['cfm@portalmedico.org.br']
+2025-05-22 05:35:32,472 - P17020 - INFO - Limpando texto extenso para campo email: cfm@portalmedico.org.br...
+2025-05-22 05:35:32,472 - P17020 - INFO - Texto limpo: cfm@portalmedico.org.br
+2025-05-22 05:35:32,472 - P17020 - INFO - Email validado: cfm@portalmedico.org.br
+2025-05-22 05:35:32,473 - P17020 - INFO - Validando complemento: ['Conjunto D']
+2025-05-22 05:35:32,473 - P17020 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 05:35:32,473 - P17020 - INFO - Texto limpo: Conjunto D
+2025-05-22 05:35:32,474 - P17020 - INFO - Complemento validado: Conjunto D
+2025-05-22 05:35:32,475 - P17020 - INFO - Descobrindo cidade
+2025-05-22 05:35:32,476 - P17020 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 05:35:35,006 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 05:35:35,006 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 05:35:35,007 - P17020 - INFO - Tempo de execução de processamento completo do médico: 51.54 segundos
+2025-05-22 05:35:35,007 - P17020 - INFO - Resultado processado: {'Hash': '45428bbb4d03f3f84fb5f820edde9a709da55b58e5b599841988848a55b3cb5f', 'CRM': '219071', 'UF': 'SP', 'Firstname': 'MARIA', 'LastName': 'EDUARDA ANGELI GALVANI', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Conjunto D', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cfm@portalmedico.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:35:35,008 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 05:35:35,009 - P17020 - INFO - Após salvar resultados Uso de memória: 129.18 MB
+2025-05-22 05:35:35,009 - P17020 - INFO - Progresso: 92.4%
+2025-05-22 05:35:35,010 - P17020 - INFO - Tempo de execução de processamento do médico 3: 51.55 segundos
+2025-05-22 05:35:35,010 - P17020 - INFO - Tempo de execução de processamento do lote completo: 179.53 segundos

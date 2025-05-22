@@ -1,0 +1,537 @@
+2025-05-22 04:56:47,135 - P17320 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 04:56:47,135 - P17320 - INFO - Nome: THOMAZ IERVOLINO
+2025-05-22 04:56:47,135 - P17320 - INFO - Reiniciando driver do Chrome
+2025-05-22 04:56:48,419 - P17320 - INFO - Após reiniciar driver Uso de memória: 127.77 MB
+2025-05-22 04:56:48,419 - P17320 - INFO - Início do processamento Uso de memória: 127.77 MB
+2025-05-22 04:56:48,420 - P17320 - INFO - Iniciando busca para: THOMAZ IERVOLINO CRM 26619 SP telefone e-mail endereço
+2025-05-22 04:56:49,269 - P17320 - INFO - SearX results: 11 URLs
+2025-05-22 04:56:49,270 - P17320 - INFO - Após SearX Uso de memória: 127.77 MB
+2025-05-22 04:56:51,818 - P17320 - INFO - Google results: 1 URLs
+2025-05-22 04:56:51,818 - P17320 - INFO - Após Google Uso de memória: 127.77 MB
+2025-05-22 04:56:54,407 - P17320 - INFO - Bing results: 10 URLs
+2025-05-22 04:56:54,407 - P17320 - INFO - Após Bing Uso de memória: 128.60 MB
+2025-05-22 04:56:54,408 - P17320 - INFO - Total de URLs únicas: 11
+2025-05-22 04:56:54,408 - P17320 - INFO - Processando URL 1/11: https://www.medicosbrasil.com/profissional/thomaz-iervolino
+2025-05-22 04:56:58,231 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\76d60384d3a001bef352d01749fdd728.html
+2025-05-22 04:56:58,260 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:56:58,261 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:56:58,261 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:56:58,262 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:56:58,262 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:56:58,262 - P17320 - INFO - Após processar URL 1 Uso de memória: 128.94 MB
+2025-05-22 04:56:58,262 - P17320 - INFO - Processando URL 2/11: https://www.doctuo.com.br/medicos/thomaz-iervolino
+2025-05-22 04:56:58,262 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctuo.com.br/medicos/thomaz-iervolino
+2025-05-22 04:56:58,263 - P17320 - INFO - Após processar URL 2 Uso de memória: 128.94 MB
+2025-05-22 04:56:58,263 - P17320 - INFO - Processando URL 3/11: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/655130264.pdf
+2025-05-22 04:56:58,263 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/655130264.pdf
+2025-05-22 04:56:58,263 - P17320 - INFO - Após processar URL 3 Uso de memória: 128.94 MB
+2025-05-22 04:56:58,264 - P17320 - INFO - Processando URL 4/11: https://www.boaconsulta.com/especialista/thomaz-iervolino-6106eca6a2e00a7165001b26
+2025-05-22 04:57:01,868 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\261622e6cfd3e7d2769dafdd39f41bb9.html
+2025-05-22 04:57:01,914 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 04:57:01,915 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:57:01,915 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:57:01,915 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 04:57:01,916 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:57:01,916 - P17320 - INFO - Após processar URL 4 Uso de memória: 129.38 MB
+2025-05-22 04:57:01,916 - P17320 - INFO - Processando URL 5/11: https://cnpj.biz/29399543000105
+2025-05-22 04:57:06,220 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\f00cff4f0fef6f852ae856caa872a699.html
+2025-05-22 04:57:06,235 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:57:06,235 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 04:57:06,235 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 04:57:06,235 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:57:06,235 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 04:57:06,236 - P17320 - INFO - Após processar URL 5 Uso de memória: 129.38 MB
+2025-05-22 04:57:06,236 - P17320 - INFO - Processando URL 6/11: https://cnpj.services/14525617000135/tp-iervolino-servicos-medicos-ltda
+2025-05-22 04:57:09,173 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\888ba899614156a70e9c5e08a27b5659.html
+2025-05-22 04:57:09,188 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:57:09,192 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 04:57:09,193 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 04:57:09,195 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:57:09,196 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 04:57:09,196 - P17320 - INFO - Após processar URL 6 Uso de memória: 129.38 MB
+2025-05-22 04:57:09,196 - P17320 - INFO - Processando URL 7/11: https://www.consultacrm.com.br/index/medicos/uid-974b516e-f5c5-11ec-9e74-0a4aa568c625/thomaz_iervolino
+2025-05-22 04:57:13,734 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\5fc63a6a76c805092e2f8bd0bf563737.html
+2025-05-22 04:57:13,743 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:57:13,743 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:57:13,744 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:57:13,744 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:57:13,744 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:57:13,744 - P17320 - INFO - Após processar URL 7 Uso de memória: 129.46 MB
+2025-05-22 04:57:13,745 - P17320 - INFO - Processando URL 8/11: https://guiadocnpj.com.br/sp/sao-paulo/tp-iervolino-servicos-medicos-sociedade-simples-ltda/14525617000135
+2025-05-22 04:57:21,040 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\2c614da14c88dae1eda53d334dc212cb.html
+2025-05-22 04:57:21,061 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:57:21,062 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 04:57:21,062 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 04:57:21,063 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:57:21,063 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:57:21,063 - P17320 - INFO - Após processar URL 8 Uso de memória: 129.46 MB
+2025-05-22 04:57:21,063 - P17320 - INFO - Processando URL 9/11: https://cliniguia.com/profissionais/thomaz-iervolino-120234865740006/
+2025-05-22 04:57:26,217 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\f551164f3204d168301e48312994c66d.html
+2025-05-22 04:57:26,278 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:57:26,278 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:57:26,278 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:57:26,278 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:57:26,278 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:57:26,279 - P17320 - INFO - Após processar URL 9 Uso de memória: 129.10 MB
+2025-05-22 04:57:26,279 - P17320 - INFO - Processando URL 10/11: https://guiasaudebrasil.com.br/profissional/40d347a7f6e6d03d-thomaz-iervolino
+2025-05-22 04:57:29,911 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\5f705bc443f048113ec400c262d2894e.html
+2025-05-22 04:57:29,920 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:57:29,920 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:57:29,920 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:57:29,921 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:57:29,921 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:57:29,921 - P17320 - INFO - Após processar URL 10 Uso de memória: 128.48 MB
+2025-05-22 04:57:29,921 - P17320 - INFO - Processando URL 11/11: https://cadastroempresa.com.br/fornecedor/iervolino-servicos-medicos-sociedade-empresaria-ltda-29399543000105
+2025-05-22 04:57:32,663 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\efe559d3790454563c0855a04f42e9c3.html
+2025-05-22 04:57:32,681 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:57:32,682 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 04:57:32,682 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 04:57:32,682 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:57:32,682 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 04:57:32,682 - P17320 - INFO - Após processar URL 11 Uso de memória: 128.48 MB
+2025-05-22 04:57:32,683 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:57:32,683 - P17320 - INFO - Ranked address: 2 items
+2025-05-22 04:57:32,683 - P17320 - INFO - Ranked phone: 4 items
+2025-05-22 04:57:32,683 - P17320 - INFO - Ranked email: 3 items
+2025-05-22 04:57:32,683 - P17320 - INFO - Ranked complement: 1 items
+2025-05-22 04:57:32,683 - P17320 - INFO - Ranked cep: 6 items
+2025-05-22 04:57:32,683 - P17320 - INFO - Após agregação Uso de memória: 128.48 MB
+2025-05-22 04:57:32,684 - P17320 - INFO - Validando endereço: ['Rua Itapeva, 202', 'Avenida Dr Arnaldo, 165']
+2025-05-22 04:57:32,684 - P17320 - INFO - Endereço validado: Rua Itapeva, 202
+2025-05-22 04:57:32,684 - P17320 - INFO - Limpando texto extenso para campo address: Rua Itapeva, 202...
+2025-05-22 04:57:32,684 - P17320 - INFO - Texto limpo: Rua Itapeva, 202
+2025-05-22 04:57:32,684 - P17320 - INFO - Validando telefone: ['(11) 98261-7744', '(11) 2936-9457', '(01) 12936-9457']
+2025-05-22 04:57:32,684 - P17320 - INFO - Limpando texto extenso para campo phone: (11) 98261-7744...
+2025-05-22 04:57:32,685 - P17320 - INFO - Texto limpo: 11) 98261-7744
+2025-05-22 04:57:32,685 - P17320 - INFO - Telefone validado: 11) 98261-7744
+2025-05-22 04:57:32,685 - P17320 - INFO - Validando email: ['iervol@uol.com.br', 'legalizacao@vivahcontabil.com.br', 'contato@guiadocnpj.com.br']
+2025-05-22 04:57:32,685 - P17320 - INFO - Limpando texto extenso para campo email: iervol@uol.com.br...
+2025-05-22 04:57:32,685 - P17320 - INFO - Texto limpo: iervol@uol.com.br
+2025-05-22 04:57:32,685 - P17320 - INFO - Email validado: iervol@uol.com.br
+2025-05-22 04:57:32,686 - P17320 - INFO - Validando complemento: ['Bloco B']
+2025-05-22 04:57:32,686 - P17320 - INFO - Limpando texto extenso para campo complement: Bloco B...
+2025-05-22 04:57:32,686 - P17320 - INFO - Texto limpo: Bloco B
+2025-05-22 04:57:32,686 - P17320 - INFO - Complemento validado: Bloco B
+2025-05-22 04:57:32,686 - P17320 - INFO - Descobrindo cidade
+2025-05-22 04:57:32,686 - P17320 - INFO - Buscando cidade: Rua Itapeva cidade SP
+2025-05-22 04:57:35,339 - P17320 - INFO - Cidade encontrada: São Paulo
+2025-05-22 04:57:35,339 - P17320 - INFO - Limpando texto extenso para campo city: São Paulo...
+2025-05-22 04:57:35,340 - P17320 - INFO - Texto limpo: São Paulo
+2025-05-22 04:57:35,340 - P17320 - INFO - Cidade descoberta: São Paulo
+2025-05-22 04:57:35,340 - P17320 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 04:57:35,340 - P17320 - INFO - Iniciando busca de CEP em cascata para: Rua Itapeva, São Paulo, SP
+2025-05-22 04:57:35,340 - P17320 - INFO - Método 1: ViaCEP API
+2025-05-22 04:57:35,341 - P17320 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SP/sao%20paulo/rua%20itapeva/json/
+2025-05-22 04:57:36,202 - P17320 - INFO - Dados encontrados no ViaCEP: {'cep': '01332-000', 'logradouro': 'Rua Itapeva', 'complemento': '', 'unidade': '', 'bairro': 'Bela Vista', 'localidade': 'São Paulo', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3550308', 'gia': '1004', 'ddd': '11', 'siafi': '7107'}
+2025-05-22 04:57:36,207 - P17320 - INFO - CEP encontrado via ViaCEP: 01332-000
+2025-05-22 04:57:36,207 - P17320 - INFO - Dados de CEP encontrados: {'cep': '01332-000', 'logradouro': 'Rua Itapeva', 'complemento': '', 'unidade': '', 'bairro': 'Bela Vista', 'localidade': 'São Paulo', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3550308', 'gia': '1004', 'ddd': '11', 'siafi': '7107'}
+2025-05-22 04:57:36,208 - P17320 - INFO - Limpando texto extenso para campo bairro: Bela Vista...
+2025-05-22 04:57:36,208 - P17320 - INFO - Texto limpo: Bela Vista
+2025-05-22 04:57:36,208 - P17320 - INFO - Limpando texto extenso para campo city: São Paulo...
+2025-05-22 04:57:36,208 - P17320 - INFO - Texto limpo: São Paulo
+2025-05-22 04:57:36,210 - P17320 - INFO - Limpando texto extenso para campo state: SP...
+2025-05-22 04:57:36,210 - P17320 - INFO - Texto limpo: SP
+2025-05-22 04:57:36,210 - P17320 - INFO - Tempo de execução de processamento completo do médico: 47.79 segundos
+2025-05-22 04:57:36,211 - P17320 - INFO - Resultado processado: {'Hash': '466548a0ab4c10e0f32b514d7c2a572641033eb25ee8df09524a90f13277e98d', 'CRM': '26619', 'UF': 'SP', 'Firstname': 'THOMAZ', 'LastName': 'IERVOLINO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Itapeva, 202', 'Address A1': 'Rua Itapeva', 'Numero A1': '202', 'Complement A1': 'Bloco B', 'Bairro A1': 'Bela Vista', 'postal code A1': '01332-000', 'City A1': 'São Paulo', 'State A1': 'SP', 'Phone A1': '11) 98261-7744', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'iervol@uol.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:57:36,214 - P17320 - INFO - Progresso: 79.5%
+2025-05-22 04:57:36,215 - P17320 - INFO - Executando coleta de lixo
+2025-05-22 04:57:36,256 - P17320 - INFO - Após coleta de lixo Uso de memória: 119.63 MB
+2025-05-22 04:57:36,256 - P17320 - INFO - Tempo de execução de processamento do médico 1: 49.12 segundos
+2025-05-22 04:57:36,256 - P17320 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 04:57:36,257 - P17320 - INFO - Nome: SONIA MARIA DAS DORES
+2025-05-22 04:57:36,257 - P17320 - INFO - Início do processamento Uso de memória: 119.63 MB
+2025-05-22 04:57:36,258 - P17320 - INFO - Iniciando busca para: SONIA MARIA DAS DORES CRM 27108 SP telefone e-mail endereço
+2025-05-22 04:57:37,184 - P17320 - INFO - SearX results: 15 URLs
+2025-05-22 04:57:37,184 - P17320 - INFO - Após SearX Uso de memória: 119.63 MB
+2025-05-22 04:57:39,932 - P17320 - INFO - Google results: 15 URLs
+2025-05-22 04:57:39,933 - P17320 - INFO - Após Google Uso de memória: 123.52 MB
+2025-05-22 04:57:42,438 - P17320 - INFO - Bing results: 11 URLs
+2025-05-22 04:57:42,438 - P17320 - INFO - Após Bing Uso de memória: 125.56 MB
+2025-05-22 04:57:42,439 - P17320 - INFO - Total de URLs únicas: 24
+2025-05-22 04:57:42,439 - P17320 - INFO - Processando URL 1/24: https://www.infosaude.com.br/cnes/197789-cons-medico-sonia-maria-das-dores
+2025-05-22 04:57:44,936 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\cb6fb2c0dbe86aa814690bd124a1d7f9.html
+2025-05-22 04:57:44,970 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:57:44,971 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 04:57:44,971 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 04:57:44,971 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:57:44,971 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 04:57:44,971 - P17320 - INFO - Após processar URL 1 Uso de memória: 126.28 MB
+2025-05-22 04:57:44,971 - P17320 - INFO - Processando URL 2/24: https://ecrie.com.br/sistema/conteudos/arquivo/a_138_1_13_13032023124222.pdf
+2025-05-22 04:57:44,972 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://ecrie.com.br/sistema/conteudos/arquivo/a_138_1_13_13032023124222.pdf
+2025-05-22 04:57:44,972 - P17320 - INFO - Após processar URL 2 Uso de memória: 126.28 MB
+2025-05-22 04:57:44,972 - P17320 - INFO - Processando URL 3/24: https://clinica.work/especialista/sonia-maria-bortolini-scarparo-pediatra-jundiai-sp
+2025-05-22 04:57:47,835 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\5dad184c5ef95fdf6fe8a28e0ab81f0e.html
+2025-05-22 04:57:47,854 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 04:57:47,854 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:57:47,854 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:57:47,854 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:57:47,855 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:57:47,855 - P17320 - INFO - Após processar URL 3 Uso de memória: 128.12 MB
+2025-05-22 04:57:47,855 - P17320 - INFO - Processando URL 4/24: https://www.catalogo.med.br/doutor/sonia-maria-das-dores-2003195.htm
+2025-05-22 04:57:50,119 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\4b2fd8954bcbd6c32248dfe1ac2522eb.html
+2025-05-22 04:57:50,119 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:57:50,120 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:57:50,120 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 04:57:50,120 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:57:50,120 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:57:50,120 - P17320 - INFO - Após processar URL 4 Uso de memória: 126.77 MB
+2025-05-22 04:57:50,120 - P17320 - INFO - Processando URL 5/24: https://www.crmpr.org.br/Nota-de-pesar-Dra-Sonia-Maria-Barbosa-Braga-11-48648.shtml
+2025-05-22 04:57:52,288 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\993b89fe787b7a2bce586c0a8cdc3fbd.html
+2025-05-22 04:57:52,312 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 04:57:52,312 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 04:57:52,313 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 04:57:52,313 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:57:52,313 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:57:52,313 - P17320 - INFO - Após processar URL 5 Uso de memória: 127.07 MB
+2025-05-22 04:57:52,314 - P17320 - INFO - Processando URL 6/24: https://www.doctoralia.com.br/sonia-maria-das-dores/ginecologista/sao-paulo
+2025-05-22 04:57:52,314 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/sonia-maria-das-dores/ginecologista/sao-paulo
+2025-05-22 04:57:52,314 - P17320 - INFO - Após processar URL 6 Uso de memória: 127.07 MB
+2025-05-22 04:57:52,314 - P17320 - INFO - Processando URL 7/24: https://osasco.sp.gov.br/site/wp-content/uploads/2015/12/httposasco.sp_.gov_.brcompsec1atosEd1203.pdf
+2025-05-22 04:57:52,314 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2015/12/httposasco.sp_.gov_.brcompsec1atosEd1203.pdf
+2025-05-22 04:57:52,315 - P17320 - INFO - Após processar URL 7 Uso de memória: 127.07 MB
+2025-05-22 04:57:52,315 - P17320 - INFO - Processando URL 8/24: https://www.consultacrm.com.br/index/medicos/uid-128bc7f1-f5c5-11ec-9e74-0a4aa568c625/sonia_maria_das_dores
+2025-05-22 04:57:56,472 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\f9d212d970838bcb7e84900744138ff6.html
+2025-05-22 04:57:56,482 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:57:56,482 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:57:56,482 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:57:56,482 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:57:56,483 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:57:56,483 - P17320 - INFO - Após processar URL 8 Uso de memória: 128.11 MB
+2025-05-22 04:57:56,483 - P17320 - INFO - Processando URL 9/24: https://ubs.med.br/cons-medico-sonia-maria-das-dores-6095887/#:~:text=Para%20entrar%20em%20contato%20com%20consult%C3%B3rio%20Cons%20M%C3%A9dico,o%20endere%C3%A7o%20do%20estabelecimento%20%C3%A9%20Rua%20Cubatao%2C%2086.
+2025-05-22 04:58:00,836 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\6e56fd690a54e8934a5b52f3ceedcc7f.html
+2025-05-22 04:58:00,860 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 04:58:00,861 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:58:00,862 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:58:00,875 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:58:00,876 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 04:58:00,877 - P17320 - INFO - Após processar URL 9 Uso de memória: 128.15 MB
+2025-05-22 04:58:00,878 - P17320 - INFO - Processando URL 10/24: https://www.medicosbrasil.com/profissional/sonia-maria-das-dores
+2025-05-22 04:58:03,638 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\49d693e685b92b7a3834c4cfb43c4e39.html
+2025-05-22 04:58:03,640 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:58:03,640 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:58:03,641 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:58:03,641 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:58:03,641 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:58:03,641 - P17320 - INFO - Após processar URL 10 Uso de memória: 128.15 MB
+2025-05-22 04:58:03,641 - P17320 - INFO - Processando URL 11/24: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/14747/Caderno_JUD_GO_2018-10-09_X_189.pdf?sequence=1&isAllowed=y
+2025-05-22 04:58:03,641 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/14747/Caderno_JUD_GO_2018-10-09_X_189.pdf?sequence=1&isAllowed=y
+2025-05-22 04:58:03,642 - P17320 - INFO - Após processar URL 11 Uso de memória: 128.15 MB
+2025-05-22 04:58:03,642 - P17320 - INFO - Processando URL 12/24: https://www.empresafone.com.br/empresa/sonia-dores-medicos-ginecologia-paraiso-sao-paulo-sp-1055146
+2025-05-22 04:58:07,229 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\b6defac11e82e33d1785422ea82d9e11.html
+2025-05-22 04:58:07,268 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 04:58:07,268 - P17320 - INFO - Candidates phone: 6 items
+2025-05-22 04:58:07,268 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:58:07,268 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:58:07,269 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:58:07,269 - P17320 - INFO - Após processar URL 12 Uso de memória: 128.56 MB
+2025-05-22 04:58:07,269 - P17320 - INFO - Processando URL 13/24: https://www.classemedica.com.br/medico/316350-sonia-maria-alves-dutra.htm
+2025-05-22 04:58:12,865 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\374bd9517bc101ce267ea71ba8a7640f.html
+2025-05-22 04:58:12,905 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:58:12,905 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:58:12,905 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:58:12,905 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:58:12,905 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:58:12,905 - P17320 - INFO - Após processar URL 13 Uso de memória: 128.85 MB
+2025-05-22 04:58:12,906 - P17320 - INFO - Processando URL 14/24: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo540.pdf
+2025-05-22 04:58:12,906 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo540.pdf
+2025-05-22 04:58:12,906 - P17320 - INFO - Após processar URL 14 Uso de memória: 128.85 MB
+2025-05-22 04:58:12,906 - P17320 - INFO - Processando URL 15/24: https://www.demneuropsy.com.br/editor/sonia-maria-dozzi-brucki/
+2025-05-22 04:58:18,674 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\28a523b273ae8a0c14c8b6f6833763ab.html
+2025-05-22 04:58:18,744 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 04:58:18,745 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:58:18,745 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 04:58:18,745 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:58:18,746 - P17320 - INFO - Candidates cep: 4 items
+2025-05-22 04:58:18,746 - P17320 - INFO - Após processar URL 15 Uso de memória: 128.87 MB
+2025-05-22 04:58:18,746 - P17320 - INFO - Processando URL 16/24: https://ubs.med.br/cons-medico-sonia-maria-das-dores-6095887/
+2025-05-22 04:58:21,204 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\2f69618304de332dde9b69758e089b87.html
+2025-05-22 04:58:21,228 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 04:58:21,229 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:58:21,229 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:58:21,229 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:58:21,229 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 04:58:21,229 - P17320 - INFO - Após processar URL 16 Uso de memória: 128.87 MB
+2025-05-22 04:58:21,230 - P17320 - INFO - Processando URL 17/24: https://dosp.com.br/exibe_do.php?i=NTU5MTE=
+2025-05-22 04:58:23,468 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ccbdd3b8a5bd27f98a285c59bf2c49e0.html
+2025-05-22 04:58:23,469 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:58:23,470 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:58:23,470 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:58:23,471 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:58:23,471 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:58:23,471 - P17320 - INFO - Após processar URL 17 Uso de memória: 128.87 MB
+2025-05-22 04:58:23,471 - P17320 - INFO - Processando URL 18/24: https://www.classemedica.com.br/medico/426611-sonia-maria-das-dores.htm
+2025-05-22 04:58:28,401 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\35a8aa77d6bfaecb4c5a7b3864ffea98.html
+2025-05-22 04:58:28,436 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 04:58:28,437 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:58:28,437 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:58:28,437 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:58:28,437 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 04:58:28,437 - P17320 - INFO - Após processar URL 18 Uso de memória: 129.41 MB
+2025-05-22 04:58:28,438 - P17320 - INFO - Processando URL 19/24: https://iprejun.sp.gov.br/S/arquivos/Imprensa_Oficial/Imprensa_Oficial_Jundiai_2023-12-15_5381.pdf
+2025-05-22 04:58:28,438 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://iprejun.sp.gov.br/S/arquivos/Imprensa_Oficial/Imprensa_Oficial_Jundiai_2023-12-15_5381.pdf
+2025-05-22 04:58:28,438 - P17320 - INFO - Após processar URL 19 Uso de memória: 128.61 MB
+2025-05-22 04:58:28,438 - P17320 - INFO - Processando URL 20/24: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/191882/Caderno_JUD_PA_2017-01-23_IX_11.pdf?sequence=2&isAllowed=y
+2025-05-22 04:58:28,438 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/191882/Caderno_JUD_PA_2017-01-23_IX_11.pdf?sequence=2&isAllowed=y
+2025-05-22 04:58:28,439 - P17320 - INFO - Após processar URL 20 Uso de memória: 128.61 MB
+2025-05-22 04:58:28,439 - P17320 - INFO - Processando URL 21/24: https://eguias.net/empresa/sonia-dores/sao-paulo/sp/3343720
+2025-05-22 04:58:30,774 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\f9773e491079198aa93d26744ccba4e0.html
+2025-05-22 04:58:30,795 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 04:58:30,795 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 04:58:30,795 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:58:30,795 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:58:30,795 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 04:58:30,796 - P17320 - INFO - Após processar URL 21 Uso de memória: 128.62 MB
+2025-05-22 04:58:30,796 - P17320 - INFO - Processando URL 22/24: https://cebes.com.br/saude/httpscebes-com-brcons-medico-sonia-maria-das-dores-6095887/
+2025-05-22 04:58:33,819 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\799680e8749d239ad2944836c552464e.html
+2025-05-22 04:58:33,852 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:58:33,852 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:58:33,852 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:58:33,853 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:58:33,853 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:58:33,853 - P17320 - INFO - Após processar URL 22 Uso de memória: 128.63 MB
+2025-05-22 04:58:33,853 - P17320 - INFO - Processando URL 23/24: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2023/12/1491e4b0-be86-4a52-82c7-0872e2572556_Edicao-5381-15-12-2023.pdf
+2025-05-22 04:58:33,853 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2023/12/1491e4b0-be86-4a52-82c7-0872e2572556_Edicao-5381-15-12-2023.pdf
+2025-05-22 04:58:33,854 - P17320 - INFO - Após processar URL 23 Uso de memória: 128.63 MB
+2025-05-22 04:58:33,854 - P17320 - INFO - Processando URL 24/24: http://sonia-maria-das-dores.guiareunimedicos.med.br/
+2025-05-22 04:58:38,439 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\3a4ea866b6e454e69f47c912aac65923.html
+2025-05-22 04:58:38,453 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 04:58:38,453 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:58:38,454 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:58:38,454 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:58:38,454 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:58:38,454 - P17320 - INFO - Após processar URL 24 Uso de memória: 128.63 MB
+2025-05-22 04:58:38,454 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:58:38,455 - P17320 - INFO - Ranked address: 9 items
+2025-05-22 04:58:38,455 - P17320 - INFO - Ranked phone: 10 items
+2025-05-22 04:58:38,455 - P17320 - INFO - Ranked email: 4 items
+2025-05-22 04:58:38,455 - P17320 - INFO - Ranked complement: 0 items
+2025-05-22 04:58:38,456 - P17320 - INFO - Ranked cep: 13 items
+2025-05-22 04:58:38,456 - P17320 - INFO - Após agregação Uso de memória: 128.63 MB
+2025-05-22 04:58:38,456 - P17320 - INFO - Validando endereço: ['Rua Cubatao, 86', 'Rua Tibirica 000259', 'Rua Victório Viezzer, 84']
+2025-05-22 04:58:38,456 - P17320 - INFO - Endereço validado: Rua Cubatao, 86
+2025-05-22 04:58:38,456 - P17320 - INFO - Limpando texto extenso para campo address: Rua Cubatao, 86...
+2025-05-22 04:58:38,457 - P17320 - INFO - Texto limpo: Rua Cubatao, 86
+2025-05-22 04:58:38,457 - P17320 - INFO - Validando telefone: ['38898998', '(41) 3240-4000', '(11) 3057-1856']
+2025-05-22 04:58:38,457 - P17320 - INFO - Limpando texto extenso para campo phone: (41) 3240-4000...
+2025-05-22 04:58:38,457 - P17320 - INFO - Texto limpo: 41) 3240-4000
+2025-05-22 04:58:38,457 - P17320 - INFO - Telefone validado: 41) 3240-4000
+2025-05-22 04:58:38,457 - P17320 - INFO - Validando email: ['sm.dores@uol.com.br', 'webmaster@catalogo.med.br', 'protocolo@crmpr.org.br']
+2025-05-22 04:58:38,458 - P17320 - INFO - Limpando texto extenso para campo email: sm.dores@uol.com.br...
+2025-05-22 04:58:38,458 - P17320 - INFO - Texto limpo: sm.dores@uol.com.br
+2025-05-22 04:58:38,458 - P17320 - INFO - Email validado: sm.dores@uol.com.br
+2025-05-22 04:58:38,458 - P17320 - INFO - Descobrindo cidade
+2025-05-22 04:58:38,458 - P17320 - INFO - Buscando cidade: Rua Cubatao cidade SP
+2025-05-22 04:58:41,121 - P17320 - INFO - Cidade encontrada: Cubatão
+2025-05-22 04:58:41,122 - P17320 - INFO - Limpando texto extenso para campo city: Cubatão...
+2025-05-22 04:58:41,122 - P17320 - INFO - Texto limpo: Cubatão
+2025-05-22 04:58:41,122 - P17320 - INFO - Cidade descoberta: Cubatão
+2025-05-22 04:58:41,122 - P17320 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 04:58:41,122 - P17320 - INFO - Iniciando busca de CEP em cascata para: Rua Cubatao, Cubatão, SP
+2025-05-22 04:58:41,123 - P17320 - INFO - Método 1: ViaCEP API
+2025-05-22 04:58:41,123 - P17320 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SP/cubatao/rua%20cubatao/json/
+2025-05-22 04:58:41,802 - P17320 - WARNING - ViaCEP retornou status 200 ou nenhum resultado
+2025-05-22 04:58:41,803 - P17320 - INFO - Método 2: BrasilAPI
+2025-05-22 04:58:41,803 - P17320 - INFO - Buscando na BrasilAPI: Rua Cubatao, Cubatão, SP
+2025-05-22 04:58:42,290 - P17320 - INFO - Consultando BrasilAPI: https://brasilapi.com.br/api/cep/v2/53581382
+2025-05-22 04:58:42,557 - P17320 - WARNING - BrasilAPI retornou status 404
+2025-05-22 04:58:42,559 - P17320 - INFO - Método 3: Web Scraping do Google
+2025-05-22 04:58:42,560 - P17320 - INFO - Buscando CEP: CEP da Rua Cubatao, Cubatão
+2025-05-22 04:58:44,303 - P17320 - INFO - CEP encontrado: 11330-680
+2025-05-22 04:58:44,309 - P17320 - INFO - CEP encontrado via Google: 11330-680
+2025-05-22 04:58:44,312 - P17320 - INFO - Dados de CEP encontrados: {'cep': '11330-680', 'logradouro': 'Rua Cubatao', 'bairro': '', 'localidade': 'Cubatão', 'uf': 'SP', 'complemento': ''}
+2025-05-22 04:58:44,314 - P17320 - INFO - Limpando texto extenso para campo city: Cubatão...
+2025-05-22 04:58:44,315 - P17320 - INFO - Texto limpo: Cubatão
+2025-05-22 04:58:44,316 - P17320 - INFO - Limpando texto extenso para campo state: SP...
+2025-05-22 04:58:44,316 - P17320 - INFO - Texto limpo: SP
+2025-05-22 04:58:44,320 - P17320 - INFO - Tempo de execução de processamento completo do médico: 68.06 segundos
+2025-05-22 04:58:44,322 - P17320 - INFO - Resultado processado: {'Hash': 'f8226825e6263f4ff2d593843dc58354870099bd3cfe9ca8ce297c5eddc4d92b', 'CRM': '27108', 'UF': 'SP', 'Firstname': 'SONIA', 'LastName': 'MARIA DAS DORES', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Cubatao, 86', 'Address A1': 'Rua Cubatao', 'Numero A1': '86', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '11330-680', 'City A1': 'Cubatão', 'State A1': 'SP', 'Phone A1': '41) 3240-4000', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'sm.dores@uol.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:58:44,323 - P17320 - INFO - Progresso: 79.9%
+2025-05-22 04:58:44,324 - P17320 - INFO - Tempo de execução de processamento do médico 2: 68.07 segundos
+2025-05-22 04:58:44,324 - P17320 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 04:58:44,324 - P17320 - INFO - Nome: LUIZ FRANCA NETO
+2025-05-22 04:58:44,324 - P17320 - INFO - Início do processamento Uso de memória: 128.04 MB
+2025-05-22 04:58:44,325 - P17320 - INFO - Iniciando busca para: LUIZ FRANCA NETO CRM 32002 SP telefone e-mail endereço
+2025-05-22 04:58:45,089 - P17320 - INFO - SearX results: 15 URLs
+2025-05-22 04:58:45,089 - P17320 - INFO - Após SearX Uso de memória: 128.04 MB
+2025-05-22 04:58:47,898 - P17320 - INFO - Google results: 14 URLs
+2025-05-22 04:58:47,899 - P17320 - INFO - Após Google Uso de memória: 128.99 MB
+2025-05-22 04:58:50,416 - P17320 - INFO - Bing results: 10 URLs
+2025-05-22 04:58:50,416 - P17320 - INFO - Após Bing Uso de memória: 129.01 MB
+2025-05-22 04:58:50,417 - P17320 - INFO - Total de URLs únicas: 22
+2025-05-22 04:58:50,417 - P17320 - INFO - Processando URL 1/22: https://pesquisa.apps.tcu.gov.br/#/documento/ata-sessao/exig%25C3%25AAncia%2520n%25C3%25A3o%2520justificada%2520onerosa%2520competitividade/%2520/DTRELEVANCIA%2520desc/13/%2520
+2025-05-22 04:58:55,940 - P17320 - WARNING - Página muito grande (3.33MB), truncando
+2025-05-22 04:58:55,952 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d3b27f3ac7ebf8365451c25649c8fa1c.html
+2025-05-22 04:58:57,300 - P17320 - INFO - Candidates address: 3 items
+2025-05-22 04:58:57,300 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:58:57,300 - P17320 - INFO - Candidates email: 3 items
+2025-05-22 04:58:57,300 - P17320 - INFO - Candidates complement: 5 items
+2025-05-22 04:58:57,300 - P17320 - INFO - Candidates cep: 18 items
+2025-05-22 04:58:57,301 - P17320 - INFO - Após processar URL 1 Uso de memória: 135.44 MB
+2025-05-22 04:58:57,301 - P17320 - INFO - Processando URL 2/22: https://www.camara.leg.br/Internet/Agencia/pdf/volume01.pdf
+2025-05-22 04:58:57,301 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.camara.leg.br/Internet/Agencia/pdf/volume01.pdf
+2025-05-22 04:58:57,302 - P17320 - INFO - Após processar URL 2 Uso de memória: 129.43 MB
+2025-05-22 04:58:57,302 - P17320 - INFO - Processando URL 3/22: https://www.classemedica.com.br/medico/406037-luiz-franca-neto.htm
+2025-05-22 04:59:06,715 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\a5b6660b1f1bd08ab4761be34d09ac96.html
+2025-05-22 04:59:06,749 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:59:06,750 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:59:06,750 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:59:06,750 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:59:06,750 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:59:06,751 - P17320 - INFO - Após processar URL 3 Uso de memória: 130.66 MB
+2025-05-22 04:59:06,751 - P17320 - INFO - Processando URL 4/22: https://guiamedico.cremesp.org.br/
+2025-05-22 04:59:13,099 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 04:59:13,107 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 04:59:13,108 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 04:59:13,108 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:59:13,108 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:59:13,108 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:59:13,109 - P17320 - INFO - Após processar URL 4 Uso de memória: 129.46 MB
+2025-05-22 04:59:13,109 - P17320 - INFO - Processando URL 5/22: https://www.guaruja.sp.gov.br/plataforma/wp-content/uploads/2025/02/04-0aO42pL92-2025.pdf
+2025-05-22 04:59:13,109 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.guaruja.sp.gov.br/plataforma/wp-content/uploads/2025/02/04-0aO42pL92-2025.pdf
+2025-05-22 04:59:13,109 - P17320 - INFO - Após processar URL 5 Uso de memória: 129.46 MB
+2025-05-22 04:59:13,109 - P17320 - INFO - Processando URL 6/22: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/10240490079029007910240422.pdf
+2025-05-22 04:59:13,110 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/10240490079029007910240422.pdf
+2025-05-22 04:59:13,110 - P17320 - INFO - Após processar URL 6 Uso de memória: 129.46 MB
+2025-05-22 04:59:13,110 - P17320 - INFO - Processando URL 7/22: https://rocketreach.co/luiz-franca-neto-email_8813922
+2025-05-22 04:59:15,319 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\92dc19943bcb14b693cb6fc161633908.html
+2025-05-22 04:59:15,321 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:59:15,321 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:59:15,321 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:59:15,321 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:59:15,321 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:59:15,322 - P17320 - INFO - Após processar URL 7 Uso de memória: 129.46 MB
+2025-05-22 04:59:15,322 - P17320 - INFO - Processando URL 8/22: https://www.boaconsulta.com/especialista/luiz-franca-neto-61062422a2e00a0bbf005029
+2025-05-22 04:59:18,076 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d301361f2acd193995606092d406d575.html
+2025-05-22 04:59:18,124 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 04:59:18,129 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:59:18,131 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:59:18,131 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:59:18,132 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:59:18,133 - P17320 - INFO - Após processar URL 8 Uso de memória: 129.46 MB
+2025-05-22 04:59:18,135 - P17320 - INFO - Processando URL 9/22: https://www.tjrj.jus.br/documents/d/guest/site-planilha-cadastro-de-peritos-atualizada-ate-15-01-2024
+2025-05-22 04:59:20,420 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\54d3d4c14ed3c110722c568872ea42ab.html
+2025-05-22 04:59:20,458 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 04:59:20,459 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:59:20,459 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:59:20,459 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:59:20,459 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:59:20,459 - P17320 - INFO - Após processar URL 9 Uso de memória: 129.46 MB
+2025-05-22 04:59:20,460 - P17320 - INFO - Processando URL 10/22: https://www.justsell.com.br/blog/crm-cardiologista-luiz-franca-neto/
+2025-05-22 04:59:30,215 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d1ef89d830c915465eae12034d5a6cd0.html
+2025-05-22 04:59:30,231 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:59:30,231 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:59:30,231 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:59:30,231 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:59:30,232 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:59:30,232 - P17320 - INFO - Após processar URL 10 Uso de memória: 129.47 MB
+2025-05-22 04:59:30,232 - P17320 - INFO - Processando URL 11/22: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1615573362.pdf
+2025-05-22 04:59:30,233 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1615573362.pdf
+2025-05-22 04:59:30,233 - P17320 - INFO - Após processar URL 11 Uso de memória: 129.47 MB
+2025-05-22 04:59:30,233 - P17320 - INFO - Processando URL 12/22: https://www.doctoralia.com.br/luiz-de-franca-cardoso-ramalho-pinto/otorrino/santos
+2025-05-22 04:59:30,233 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/luiz-de-franca-cardoso-ramalho-pinto/otorrino/santos
+2025-05-22 04:59:30,233 - P17320 - INFO - Após processar URL 12 Uso de memória: 129.47 MB
+2025-05-22 04:59:30,233 - P17320 - INFO - Processando URL 13/22: https://bvsms.saude.gov.br/bvs/publicacoes/seguranca_transfusional_hemoterapia_centro_oeste_norte_brasil.pdf
+2025-05-22 04:59:30,234 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://bvsms.saude.gov.br/bvs/publicacoes/seguranca_transfusional_hemoterapia_centro_oeste_norte_brasil.pdf
+2025-05-22 04:59:30,234 - P17320 - INFO - Após processar URL 13 Uso de memória: 129.47 MB
+2025-05-22 04:59:30,235 - P17320 - INFO - Processando URL 14/22: https://www.medicosbrasil.com/profissional/luiz-de-melo-santos-neto
+2025-05-22 04:59:32,391 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\890ced1fab5e8cfd76006942dab888df.html
+2025-05-22 04:59:32,392 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:59:32,393 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:59:32,393 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:59:32,393 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:59:32,393 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:59:32,394 - P17320 - INFO - Após processar URL 14 Uso de memória: 129.47 MB
+2025-05-22 04:59:32,394 - P17320 - INFO - Processando URL 15/22: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/2033044786.pdf
+2025-05-22 04:59:32,394 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/2033044786.pdf
+2025-05-22 04:59:32,395 - P17320 - INFO - Após processar URL 15 Uso de memória: 129.47 MB
+2025-05-22 04:59:32,395 - P17320 - INFO - Processando URL 16/22: https://www.medicosbrasil.com/profissional/luiz-franca-neto
+2025-05-22 04:59:34,484 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\c34a8cb83e332a147989fbc001c1f4de.html
+2025-05-22 04:59:34,486 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:59:34,486 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:59:34,486 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:59:34,486 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:59:34,487 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:59:34,487 - P17320 - INFO - Após processar URL 16 Uso de memória: 129.47 MB
+2025-05-22 04:59:34,487 - P17320 - INFO - Processando URL 17/22: https://www.consultasocio.com/q/sa/luiz-franca-neto
+2025-05-22 04:59:39,785 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ef1d9ab55d757f236d7c96b6f7c6f79f.html
+2025-05-22 04:59:39,794 - P17320 - INFO - Candidates address: 5 items
+2025-05-22 04:59:39,794 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:59:39,794 - P17320 - INFO - Candidates email: 2 items
+2025-05-22 04:59:39,794 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 04:59:39,795 - P17320 - INFO - Candidates cep: 12 items
+2025-05-22 04:59:39,795 - P17320 - INFO - Após processar URL 17 Uso de memória: 129.47 MB
+2025-05-22 04:59:39,795 - P17320 - INFO - Processando URL 18/22: https://cliniguia.com/profissionais/luiz-franca-neto-105549645270009/
+2025-05-22 04:59:45,752 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\81335e40c1687ab893494f5e8b47ccc3.html
+2025-05-22 04:59:45,791 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:59:45,791 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:59:45,791 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:59:45,791 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:59:45,791 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:59:45,792 - P17320 - INFO - Após processar URL 18 Uso de memória: 129.51 MB
+2025-05-22 04:59:45,792 - P17320 - INFO - Processando URL 19/22: https://cnpj.biz/17780918000101
+2025-05-22 04:59:48,367 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\a5edb4205352bf0914d1a537ddcd04f2.html
+2025-05-22 04:59:48,370 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:59:48,375 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:59:48,375 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:59:48,375 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:59:48,376 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:59:48,376 - P17320 - INFO - Após processar URL 19 Uso de memória: 129.52 MB
+2025-05-22 04:59:48,379 - P17320 - INFO - Processando URL 20/22: https://consultacrm.com.br/
+2025-05-22 04:59:51,487 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:59:51,503 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:59:51,503 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:59:51,504 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:59:51,504 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:59:51,505 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:59:51,505 - P17320 - INFO - Após processar URL 20 Uso de memória: 129.52 MB
+2025-05-22 04:59:51,505 - P17320 - INFO - Processando URL 21/22: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo621.pdf
+2025-05-22 04:59:51,506 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo621.pdf
+2025-05-22 04:59:51,506 - P17320 - INFO - Após processar URL 21 Uso de memória: 129.52 MB
+2025-05-22 04:59:51,506 - P17320 - INFO - Processando URL 22/22: https://www.catalogo.med.br/doutor/luiz-franca-neto-1800537.htm
+2025-05-22 04:59:53,659 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\c038a568bfea6d822acadfb03fcc0f23.html
+2025-05-22 04:59:53,660 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:59:53,662 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:59:53,662 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 04:59:53,663 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:59:53,663 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:59:53,664 - P17320 - INFO - Após processar URL 22 Uso de memória: 129.52 MB
+2025-05-22 04:59:53,664 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:59:53,664 - P17320 - INFO - Ranked address: 10 items
+2025-05-22 04:59:53,664 - P17320 - INFO - Ranked phone: 1 items
+2025-05-22 04:59:53,664 - P17320 - INFO - Ranked email: 6 items
+2025-05-22 04:59:53,665 - P17320 - INFO - Ranked complement: 6 items
+2025-05-22 04:59:53,666 - P17320 - INFO - Ranked cep: 31 items
+2025-05-22 04:59:53,666 - P17320 - INFO - Após agregação Uso de memória: 129.52 MB
+2025-05-22 04:59:53,666 - P17320 - INFO - Validando endereço: ['Rua Francisco De Mario, 777', 'Estradas de Rodagem do Estado do Mato Grosso do Sul  3', 'R. Em Nota Explicativa das Demonstrações Financeiras do Exercício de 2015']
+2025-05-22 04:59:53,666 - P17320 - INFO - Endereço validado: Rua Francisco De Mario, 777
+2025-05-22 04:59:53,667 - P17320 - INFO - Limpando texto extenso para campo address: Rua Francisco De Mario, 777...
+2025-05-22 04:59:53,667 - P17320 - INFO - Texto limpo: Rua Francisco De Mario, 777
+2025-05-22 04:59:53,667 - P17320 - INFO - Validando telefone: ['(11) 4349-9900']
+2025-05-22 04:59:53,667 - P17320 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 04:59:53,667 - P17320 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 04:59:53,668 - P17320 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 04:59:53,668 - P17320 - INFO - Validando email: ['seaq@tre-am.jus.br', 'marcelo.rego@tre-am.jus.br', 'marcelo.rego@tream.jus.br']
+2025-05-22 04:59:53,668 - P17320 - INFO - Limpando texto extenso para campo email: seaq@tre-am.jus.br...
+2025-05-22 04:59:53,668 - P17320 - INFO - Texto limpo: seaq@tre-am.jus.br
+2025-05-22 04:59:53,668 - P17320 - INFO - Email validado: seaq@tre-am.jus.br
+2025-05-22 04:59:53,668 - P17320 - INFO - Validando complemento: ['Salazar dos Santos (OAB/AM 10.166)', 'Sala das Sessões Ministro Luciano Brandão Alves de Sou', 'Sala das Sessões']
+2025-05-22 04:59:53,668 - P17320 - INFO - Limpando texto extenso para campo complement: Salazar dos Santos (OAB/AM 10.166)...
+2025-05-22 04:59:53,669 - P17320 - INFO - Texto limpo: Salazar dos Santos (OAB/AM 10.
+2025-05-22 04:59:53,670 - P17320 - INFO - Complemento validado: Salazar dos Santos (OAB/AM 10.
+2025-05-22 04:59:53,670 - P17320 - INFO - Descobrindo cidade
+2025-05-22 04:59:53,670 - P17320 - INFO - Buscando cidade: Rua Francisco De Mario cidade SP
+2025-05-22 04:59:56,343 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 04:59:56,343 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 04:59:56,344 - P17320 - INFO - Tempo de execução de processamento completo do médico: 72.02 segundos
+2025-05-22 04:59:56,344 - P17320 - INFO - Resultado processado: {'Hash': '47cbc667c87976ef49f1549ec3aa106a5e724042c1d09035cde5c795276f4617', 'CRM': '32002', 'UF': 'SP', 'Firstname': 'LUIZ', 'LastName': 'FRANCA NETO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Francisco De Mario, 777', 'Address A1': 'Rua Francisco De Mario', 'Numero A1': '777', 'Complement A1': 'Salazar dos Santos (OAB/AM 10.', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'seaq@tre-am.jus.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:59:56,344 - P17320 - INFO - Salvando lote de resultados
+2025-05-22 04:59:56,345 - P17320 - INFO - Após salvar resultados Uso de memória: 129.31 MB
+2025-05-22 04:59:56,345 - P17320 - INFO - Progresso: 80.3%
+2025-05-22 04:59:56,346 - P17320 - INFO - Tempo de execução de processamento do médico 3: 72.02 segundos
+2025-05-22 04:59:56,346 - P17320 - INFO - Tempo de execução de processamento do lote completo: 189.21 segundos

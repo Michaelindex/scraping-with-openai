@@ -1,0 +1,422 @@
+2025-05-22 04:32:38,140 - P17320 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 04:32:38,141 - P17320 - INFO - Nome: JULIANO DA SILVA DANELON
+2025-05-22 04:32:38,141 - P17320 - INFO - Reiniciando driver do Chrome
+2025-05-22 04:32:39,407 - P17320 - INFO - Após reiniciar driver Uso de memória: 127.15 MB
+2025-05-22 04:32:39,407 - P17320 - INFO - Início do processamento Uso de memória: 127.15 MB
+2025-05-22 04:32:39,407 - P17320 - INFO - Iniciando busca para: JULIANO DA SILVA DANELON CRM 1199501 RJ telefone e-mail endereço
+2025-05-22 04:32:40,272 - P17320 - INFO - SearX results: 10 URLs
+2025-05-22 04:32:40,273 - P17320 - INFO - Após SearX Uso de memória: 127.15 MB
+2025-05-22 04:32:42,829 - P17320 - INFO - Google results: 0 URLs
+2025-05-22 04:32:42,829 - P17320 - INFO - Após Google Uso de memória: 127.71 MB
+2025-05-22 04:32:45,363 - P17320 - INFO - Bing results: 10 URLs
+2025-05-22 04:32:45,363 - P17320 - INFO - Após Bing Uso de memória: 129.52 MB
+2025-05-22 04:32:45,363 - P17320 - INFO - Total de URLs únicas: 12
+2025-05-22 04:32:45,363 - P17320 - INFO - Processando URL 1/12: https://portal.cremerj.org.br/busca-medicos
+2025-05-22 04:32:49,352 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ab6f68f41af4828372f06cf31ba7acaa.html
+2025-05-22 04:32:49,396 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:32:49,397 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 04:32:49,397 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:32:49,397 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:32:49,397 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 04:32:49,397 - P17320 - INFO - Após processar URL 1 Uso de memória: 129.52 MB
+2025-05-22 04:32:49,397 - P17320 - INFO - Processando URL 2/12: https://aboutcompany.info/country/brazil/officer/139940/juliano-da-silva-danelon/
+2025-05-22 04:32:53,231 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\613a3d8bb432f6709d066b3c0f4dea7f.html
+2025-05-22 04:32:53,244 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:32:53,244 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:32:53,244 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:32:53,245 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:32:53,245 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:32:53,245 - P17320 - INFO - Após processar URL 2 Uso de memória: 129.52 MB
+2025-05-22 04:32:53,245 - P17320 - INFO - Processando URL 3/12: https://www.informecadastral.com.br/cnpj/ao-danelon-servicos-medicos-ltda-49087642000169
+2025-05-22 04:32:57,959 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\17efad898be93e588835b71851608b0f.html
+2025-05-22 04:32:57,981 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 04:32:57,981 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 04:32:57,982 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 04:32:57,982 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:32:57,982 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 04:32:57,982 - P17320 - INFO - Após processar URL 3 Uso de memória: 129.65 MB
+2025-05-22 04:32:57,982 - P17320 - INFO - Processando URL 4/12: https://www.solutudo.com.br/empresas/rj/rio-janeiro/clinica-medica-ou-medicina-interna/ao-danelon-servicos-medicos-ltda-25576763
+2025-05-22 04:33:02,396 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d82e1ee8be85ca42ae48bccb7d125cbe.html
+2025-05-22 04:33:02,439 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 04:33:02,440 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 04:33:02,440 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 04:33:02,441 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:33:02,441 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:33:02,441 - P17320 - INFO - Após processar URL 4 Uso de memória: 129.76 MB
+2025-05-22 04:33:02,441 - P17320 - INFO - Processando URL 5/12: https://www.vriconsulting.com.br/empresa.php?cnpj=49087642000169
+2025-05-22 04:33:08,086 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\3c43c9ab1a43e01a113a05a6c183b39e.html
+2025-05-22 04:33:08,152 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 04:33:08,152 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:33:08,153 - P17320 - INFO - Candidates email: 3 items
+2025-05-22 04:33:08,153 - P17320 - INFO - Candidates complement: 2 items
+2025-05-22 04:33:08,153 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:33:08,153 - P17320 - INFO - Após processar URL 5 Uso de memória: 129.76 MB
+2025-05-22 04:33:08,154 - P17320 - INFO - Processando URL 6/12: https://cnpj.biz/49087642000169
+2025-05-22 04:33:16,428 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\bcb4876d71b60691b365313f55e110c8.html
+2025-05-22 04:33:16,446 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 04:33:16,446 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 04:33:16,446 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 04:33:16,447 - P17320 - INFO - Candidates complement: 2 items
+2025-05-22 04:33:16,447 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 04:33:16,447 - P17320 - INFO - Após processar URL 6 Uso de memória: 129.76 MB
+2025-05-22 04:33:16,447 - P17320 - INFO - Processando URL 7/12: https://guiasaudebrasil.com.br/profissional/3add0d2c514d50bb-juliano-da-silva-danelon
+2025-05-22 04:33:21,834 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\5ff47cb3ba39dd057703afea78555995.html
+2025-05-22 04:33:21,842 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:33:21,842 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:33:21,842 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:33:21,843 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:33:21,843 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:33:21,843 - P17320 - INFO - Após processar URL 7 Uso de memória: 129.85 MB
+2025-05-22 04:33:21,843 - P17320 - INFO - Processando URL 8/12: https://empresasweb.net/emp/ao-danelon-servicos-medicos-ltda-49087642
+2025-05-22 04:33:24,285 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\8de282dbd30f21056cd27266898e6eeb.html
+2025-05-22 04:33:24,307 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:33:24,309 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 04:33:24,309 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 04:33:24,309 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 04:33:24,311 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:33:24,311 - P17320 - INFO - Após processar URL 8 Uso de memória: 129.85 MB
+2025-05-22 04:33:24,312 - P17320 - INFO - Processando URL 9/12: https://www.sociosbrasil.com/nome/juliano-da-silva-danelon
+2025-05-22 04:33:29,394 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\c67053798f445830c5df5025c4e07acd.html
+2025-05-22 04:33:29,399 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 04:33:29,399 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:33:29,399 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 04:33:29,399 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 04:33:29,399 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 04:33:29,399 - P17320 - INFO - Após processar URL 9 Uso de memória: 129.85 MB
+2025-05-22 04:33:29,399 - P17320 - INFO - Processando URL 10/12: https://consultacrm.com.br/
+2025-05-22 04:33:31,878 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:33:31,893 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:33:31,894 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:33:31,895 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:33:31,895 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:33:31,895 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:33:31,895 - P17320 - INFO - Após processar URL 10 Uso de memória: 130.93 MB
+2025-05-22 04:33:31,896 - P17320 - INFO - Processando URL 11/12: http://www.transparencia.cremerj.org.br:8098/planejamento/registroMedico/pesquisar
+2025-05-22 04:33:34,263 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\19128e1d0b16c1bd37c280ce751655f7.html
+2025-05-22 04:33:34,288 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:33:34,288 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 04:33:34,289 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:33:34,289 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:33:34,293 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:33:34,293 - P17320 - INFO - Após processar URL 11 Uso de memória: 129.85 MB
+2025-05-22 04:33:34,293 - P17320 - INFO - Processando URL 12/12: https://cnpj.services/qsa/juliano-da-silva-danelon
+2025-05-22 04:33:37,335 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\326bc449a7c7bc716cd1596549978acf.html
+2025-05-22 04:33:37,345 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:33:37,345 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:33:37,345 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:33:37,346 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:33:37,346 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:33:37,349 - P17320 - INFO - Após processar URL 12 Uso de memória: 129.88 MB
+2025-05-22 04:33:37,350 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:33:37,350 - P17320 - INFO - Ranked address: 3 items
+2025-05-22 04:33:37,351 - P17320 - INFO - Ranked phone: 6 items
+2025-05-22 04:33:37,351 - P17320 - INFO - Ranked email: 5 items
+2025-05-22 04:33:37,351 - P17320 - INFO - Ranked complement: 6 items
+2025-05-22 04:33:37,351 - P17320 - INFO - Ranked cep: 10 items
+2025-05-22 04:33:37,351 - P17320 - INFO - Após agregação Uso de memória: 129.88 MB
+2025-05-22 04:33:37,352 - P17320 - INFO - Validando endereço: ['Rua Oscar Valdetaro, 00094', 'Rua Padre Arnaldo Jansen, 200', 'Rua Oscar Valdetaro 00094 Apt 1806 Barra da Tijuca Rio de Janeiro RJ']
+2025-05-22 04:33:37,352 - P17320 - INFO - Endereço validado: Rua Oscar Valdetaro, 00094
+2025-05-22 04:33:37,353 - P17320 - INFO - Limpando texto extenso para campo address: Rua Oscar Valdetaro, 00094...
+2025-05-22 04:33:37,354 - P17320 - INFO - Texto limpo: Rua Oscar Valdetaro, 00094
+2025-05-22 04:33:37,355 - P17320 - INFO - Validando telefone: ['(21) 3184-7050', '(21) 7302-6807', '(21) 98491-1522']
+2025-05-22 04:33:37,355 - P17320 - INFO - Limpando texto extenso para campo phone: (21) 3184-7050...
+2025-05-22 04:33:37,356 - P17320 - INFO - Texto limpo: 21) 3184-7050
+2025-05-22 04:33:37,357 - P17320 - INFO - Telefone validado: 21) 3184-7050
+2025-05-22 04:33:37,357 - P17320 - INFO - Validando email: ['juliano.danelon@gmail.com', 'JULIANO.DANELON@GMAIL.COM', 'n@gmail.com']
+2025-05-22 04:33:37,358 - P17320 - INFO - Limpando texto extenso para campo email: juliano.danelon@gmail.com...
+2025-05-22 04:33:37,360 - P17320 - INFO - Texto limpo: juliano.danelon@gmail.com
+2025-05-22 04:33:37,360 - P17320 - INFO - Email validado: juliano.danelon@gmail.com
+2025-05-22 04:33:37,361 - P17320 - INFO - Validando complemento: ['Blocos e Registros\t\t\t\t\t\t\t\t\t\t ', 'Apt 1806 -  Bairro:  Barra da Tijuca\t\t\t\t\t\t\t\t\t\t\t\t\t ', 'Apt 1806  Clique para copiar    Bairro:  Barra da Tij']
+2025-05-22 04:33:37,361 - P17320 - INFO - Limpando texto extenso para campo complement: Blocos e Registros										 ...
+2025-05-22 04:33:37,362 - P17320 - INFO - Texto limpo: Blocos e Registros
+2025-05-22 04:33:37,362 - P17320 - INFO - Complemento validado: Blocos e Registros
+2025-05-22 04:33:37,363 - P17320 - INFO - Descobrindo cidade
+2025-05-22 04:33:37,363 - P17320 - INFO - Buscando cidade: Rua Oscar Valdetaro cidade RJ
+2025-05-22 04:33:40,084 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 04:33:40,084 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 04:33:40,085 - P17320 - INFO - Tempo de execução de processamento completo do médico: 60.68 segundos
+2025-05-22 04:33:40,085 - P17320 - INFO - Resultado processado: {'Hash': '183022817dcc0a68f72b19088e582346f60dcee22208b946bbea40f5da927f06', 'CRM': '1199501', 'UF': 'RJ', 'Firstname': 'JULIANO', 'LastName': 'DA SILVA DANELON', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Oscar Valdetaro, 00094', 'Address A1': 'Rua Oscar Valdetaro', 'Numero A1': '00094', 'Complement A1': 'Blocos e Registros', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '21) 3184-7050', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'juliano.danelon@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:33:40,086 - P17320 - INFO - Progresso: 71.6%
+2025-05-22 04:33:40,087 - P17320 - INFO - Executando coleta de lixo
+2025-05-22 04:33:40,125 - P17320 - INFO - Após coleta de lixo Uso de memória: 120.90 MB
+2025-05-22 04:33:40,125 - P17320 - INFO - Tempo de execução de processamento do médico 1: 61.99 segundos
+2025-05-22 04:33:40,126 - P17320 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 04:33:40,126 - P17320 - INFO - Nome: CRISANE PRATA NETO MACHADO
+2025-05-22 04:33:40,127 - P17320 - INFO - Início do processamento Uso de memória: 120.90 MB
+2025-05-22 04:33:40,130 - P17320 - INFO - Iniciando busca para: CRISANE PRATA NETO MACHADO CRM 1201450 RJ telefone e-mail endereço
+2025-05-22 04:33:41,035 - P17320 - INFO - SearX results: 8 URLs
+2025-05-22 04:33:41,035 - P17320 - INFO - Após SearX Uso de memória: 120.90 MB
+2025-05-22 04:33:43,641 - P17320 - INFO - Google results: 1 URLs
+2025-05-22 04:33:43,641 - P17320 - INFO - Após Google Uso de memória: 123.40 MB
+2025-05-22 04:33:53,064 - P17320 - INFO - Bing results: 8 URLs
+2025-05-22 04:33:53,064 - P17320 - INFO - Após Bing Uso de memória: 125.65 MB
+2025-05-22 04:33:53,065 - P17320 - INFO - Total de URLs únicas: 9
+2025-05-22 04:33:53,065 - P17320 - INFO - Processando URL 1/9: https://inteligen.com.br/socio/crisane-prata-neto-machado-370177
+2025-05-22 04:33:56,522 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\01ef5a5cc329aed9e5e34d6c70c5857e.html
+2025-05-22 04:33:56,573 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:33:56,574 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:33:56,574 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:33:56,574 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:33:56,574 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:33:56,574 - P17320 - INFO - Após processar URL 1 Uso de memória: 126.06 MB
+2025-05-22 04:33:56,574 - P17320 - INFO - Processando URL 2/9: https://cannabismedicinal.com.br/?medicos=crisane-prata-neto-machado
+2025-05-22 04:34:04,244 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\bd58df4302d4bcbe9a037be8e744bd36.html
+2025-05-22 04:34:04,277 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 04:34:04,277 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:04,277 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 04:34:04,278 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:04,278 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:34:04,278 - P17320 - INFO - Após processar URL 2 Uso de memória: 127.38 MB
+2025-05-22 04:34:04,278 - P17320 - INFO - Processando URL 3/9: https://aboutcompany.info/country/brazil/officer/370177/crisane-prata-neto-machado/
+2025-05-22 04:34:06,357 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\3bc27bfe29cedbf5b25ab2edde1c824e.html
+2025-05-22 04:34:06,368 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:34:06,368 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:06,369 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:34:06,369 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:06,369 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:34:06,369 - P17320 - INFO - Após processar URL 3 Uso de memória: 126.62 MB
+2025-05-22 04:34:06,369 - P17320 - INFO - Processando URL 4/9: https://cremec.org.br/busca-medicos
+2025-05-22 04:34:11,018 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\3c9ece8b802bc598dd007727d971a7d5.html
+2025-05-22 04:34:11,067 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 04:34:11,070 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 04:34:11,074 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 04:34:11,079 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:11,080 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:34:11,080 - P17320 - INFO - Após processar URL 4 Uso de memória: 126.94 MB
+2025-05-22 04:34:11,080 - P17320 - INFO - Processando URL 5/9: https://psiquiatriaparaty.com.br/crisaneprata/
+2025-05-22 04:34:15,385 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\17b9918baa9b37763cfbad8e4a848432.html
+2025-05-22 04:34:15,406 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:34:15,406 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:15,406 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 04:34:15,406 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:15,406 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:34:15,407 - P17320 - INFO - Após processar URL 5 Uso de memória: 127.02 MB
+2025-05-22 04:34:15,407 - P17320 - INFO - Processando URL 6/9: https://guiasaudebrasil.com.br/profissional/3916c37371acaf07-crisane-prata-neto-machado
+2025-05-22 04:34:21,781 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\5edca40d6fae0dff7458892a0ccc3875.html
+2025-05-22 04:34:21,799 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:34:21,800 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:21,801 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:34:21,804 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:21,805 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:34:21,805 - P17320 - INFO - Após processar URL 6 Uso de memória: 127.27 MB
+2025-05-22 04:34:21,806 - P17320 - INFO - Processando URL 7/9: https://consultacrm.com.br/
+2025-05-22 04:34:25,072 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:34:25,083 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:34:25,084 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:25,084 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:34:25,084 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:25,084 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:34:25,084 - P17320 - INFO - Após processar URL 7 Uso de memória: 129.90 MB
+2025-05-22 04:34:25,085 - P17320 - INFO - Processando URL 8/9: https://psiquiatriaparaty.com.br/contato/
+2025-05-22 04:34:30,013 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\0b2358cce7092e626fc3620b84f5b85e.html
+2025-05-22 04:34:30,034 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:34:30,035 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 04:34:30,035 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 04:34:30,036 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:30,036 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:34:30,036 - P17320 - INFO - Após processar URL 8 Uso de memória: 129.04 MB
+2025-05-22 04:34:30,037 - P17320 - INFO - Processando URL 9/9: http://www.transparencia.cremerj.org.br:8098/planejamento/registroMedico/pesquisar
+2025-05-22 04:34:32,342 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\19128e1d0b16c1bd37c280ce751655f7.html
+2025-05-22 04:34:32,366 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:34:32,367 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 04:34:32,368 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:34:32,368 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:32,369 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:34:32,369 - P17320 - INFO - Após processar URL 9 Uso de memória: 129.04 MB
+2025-05-22 04:34:32,370 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:34:32,370 - P17320 - INFO - Ranked address: 2 items
+2025-05-22 04:34:32,370 - P17320 - INFO - Ranked phone: 3 items
+2025-05-22 04:34:32,370 - P17320 - INFO - Ranked email: 3 items
+2025-05-22 04:34:32,371 - P17320 - INFO - Ranked complement: 0 items
+2025-05-22 04:34:32,372 - P17320 - INFO - Ranked cep: 5 items
+2025-05-22 04:34:32,373 - P17320 - INFO - Após agregação Uso de memória: 129.04 MB
+2025-05-22 04:34:32,374 - P17320 - INFO - Validando endereço: ['Rua taruma, 31', 'Av. Antônio Sales, 485']
+2025-05-22 04:34:32,374 - P17320 - INFO - Endereço validado: Rua taruma, 31
+2025-05-22 04:34:32,374 - P17320 - INFO - Limpando texto extenso para campo address: Rua taruma, 31...
+2025-05-22 04:34:32,375 - P17320 - INFO - Texto limpo: Rua taruma, 31
+2025-05-22 04:34:32,375 - P17320 - INFO - Validando telefone: ['(85) 3198-3700', '(24) 9982-3211', '(21) 3184-7050']
+2025-05-22 04:34:32,375 - P17320 - INFO - Limpando texto extenso para campo phone: (85) 3198-3700...
+2025-05-22 04:34:32,375 - P17320 - INFO - Texto limpo: 85) 3198-3700
+2025-05-22 04:34:32,376 - P17320 - INFO - Telefone validado: 85) 3198-3700
+2025-05-22 04:34:32,376 - P17320 - INFO - Validando email: ['dracrisane@psiquiatriaparaty.com.br', 'contato@cannabismedicinal.com.br', 'cremec@cremec.org.br']
+2025-05-22 04:34:32,376 - P17320 - INFO - Limpando texto extenso para campo email: dracrisane@psiquiatriaparaty.com.br...
+2025-05-22 04:34:32,376 - P17320 - INFO - Texto limpo: dracrisane@psiquiatriaparaty.com.br
+2025-05-22 04:34:32,376 - P17320 - INFO - Email validado: dracrisane@psiquiatriaparaty.com.br
+2025-05-22 04:34:32,376 - P17320 - INFO - Descobrindo cidade
+2025-05-22 04:34:32,377 - P17320 - INFO - Buscando cidade: Rua taruma cidade RJ
+2025-05-22 04:34:35,008 - P17320 - INFO - Cidade encontrada: Belford Roxo
+2025-05-22 04:34:35,008 - P17320 - INFO - Limpando texto extenso para campo city: Belford Roxo...
+2025-05-22 04:34:35,009 - P17320 - INFO - Texto limpo: Belford Roxo
+2025-05-22 04:34:35,009 - P17320 - INFO - Cidade descoberta: Belford Roxo
+2025-05-22 04:34:35,009 - P17320 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 04:34:35,009 - P17320 - INFO - Iniciando busca de CEP em cascata para: Rua taruma, Belford Roxo, RJ
+2025-05-22 04:34:35,009 - P17320 - INFO - Método 1: ViaCEP API
+2025-05-22 04:34:35,010 - P17320 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/RJ/belford%20roxo/rua%20taruma/json/
+2025-05-22 04:34:35,658 - P17320 - INFO - Dados encontrados no ViaCEP: {'cep': '26123-190', 'logradouro': 'Rua Tarumã', 'complemento': '', 'unidade': '', 'bairro': 'Heliópolis', 'localidade': 'Belford Roxo', 'uf': 'RJ', 'estado': 'Rio de Janeiro', 'regiao': 'Sudeste', 'ibge': '3300456', 'gia': '', 'ddd': '21', 'siafi': '2909'}
+2025-05-22 04:34:35,660 - P17320 - INFO - CEP encontrado via ViaCEP: 26123-190
+2025-05-22 04:34:35,661 - P17320 - INFO - Dados de CEP encontrados: {'cep': '26123-190', 'logradouro': 'Rua Tarumã', 'complemento': '', 'unidade': '', 'bairro': 'Heliópolis', 'localidade': 'Belford Roxo', 'uf': 'RJ', 'estado': 'Rio de Janeiro', 'regiao': 'Sudeste', 'ibge': '3300456', 'gia': '', 'ddd': '21', 'siafi': '2909'}
+2025-05-22 04:34:35,661 - P17320 - INFO - Limpando texto extenso para campo bairro: Heliópolis...
+2025-05-22 04:34:35,661 - P17320 - INFO - Texto limpo: Heliópolis
+2025-05-22 04:34:35,661 - P17320 - INFO - Limpando texto extenso para campo city: Belford Roxo...
+2025-05-22 04:34:35,661 - P17320 - INFO - Texto limpo: Belford Roxo
+2025-05-22 04:34:35,662 - P17320 - INFO - Limpando texto extenso para campo state: RJ...
+2025-05-22 04:34:35,662 - P17320 - INFO - Texto limpo: RJ
+2025-05-22 04:34:35,662 - P17320 - INFO - Tempo de execução de processamento completo do médico: 55.54 segundos
+2025-05-22 04:34:35,662 - P17320 - INFO - Resultado processado: {'Hash': '557a4af08956713aae267d56ecac94ade78ea7eb42f4c5258ecd83d5f28a3be3', 'CRM': '1201450', 'UF': 'RJ', 'Firstname': 'CRISANE', 'LastName': 'PRATA NETO MACHADO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua taruma, 31', 'Address A1': 'Rua taruma', 'Numero A1': '31', 'Complement A1': '', 'Bairro A1': 'Heliópolis', 'postal code A1': '26123-190', 'City A1': 'Belford Roxo', 'State A1': 'RJ', 'Phone A1': '85) 3198-3700', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'dracrisane@psiquiatriaparaty.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:34:35,663 - P17320 - INFO - Progresso: 72.0%
+2025-05-22 04:34:35,664 - P17320 - INFO - Tempo de execução de processamento do médico 2: 55.54 segundos
+2025-05-22 04:34:35,664 - P17320 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 04:34:35,665 - P17320 - INFO - Nome: LUIS FILIPE GUILAM TAVARES
+2025-05-22 04:34:35,665 - P17320 - INFO - Início do processamento Uso de memória: 126.70 MB
+2025-05-22 04:34:35,665 - P17320 - INFO - Iniciando busca para: LUIS FILIPE GUILAM TAVARES CRM 1205102 RJ telefone e-mail endereço
+2025-05-22 04:34:36,569 - P17320 - INFO - SearX results: 9 URLs
+2025-05-22 04:34:36,570 - P17320 - INFO - Após SearX Uso de memória: 126.70 MB
+2025-05-22 04:34:39,234 - P17320 - INFO - Google results: 4 URLs
+2025-05-22 04:34:39,234 - P17320 - INFO - Após Google Uso de memória: 129.48 MB
+2025-05-22 04:34:41,783 - P17320 - INFO - Bing results: 8 URLs
+2025-05-22 04:34:41,784 - P17320 - INFO - Após Bing Uso de memória: 130.15 MB
+2025-05-22 04:34:41,785 - P17320 - INFO - Total de URLs únicas: 13
+2025-05-22 04:34:41,785 - P17320 - INFO - Processando URL 1/13: https://www.econodata.com.br/contato/luis-filipe-guilam-tavares-18fe4f4e72c69385c308b42cb0933260
+2025-05-22 04:34:45,534 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\1aba74f18f13f78479d167c998bbe5e4.html
+2025-05-22 04:34:45,600 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:34:45,605 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:45,624 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:34:45,627 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:45,641 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:34:45,642 - P17320 - INFO - Após processar URL 1 Uso de memória: 130.43 MB
+2025-05-22 04:34:45,643 - P17320 - INFO - Processando URL 2/13: https://empresadois.com.br/cnpj/luis-filipe-g-tavares-ltda-46134630000150
+2025-05-22 04:34:49,848 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\dd4ff5e4750788e4a70402388bff7345.html
+2025-05-22 04:34:49,865 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 04:34:49,865 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 04:34:49,865 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 04:34:49,866 - P17320 - INFO - Candidates complement: 2 items
+2025-05-22 04:34:49,866 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 04:34:49,866 - P17320 - INFO - Após processar URL 2 Uso de memória: 130.47 MB
+2025-05-22 04:34:49,867 - P17320 - INFO - Processando URL 3/13: https://www.jschneider.com.br/depoimentos
+2025-05-22 04:34:53,389 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\96be78351efbaf90aeae9d28309c5f1b.html
+2025-05-22 04:34:53,406 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:34:53,406 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:53,407 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:34:53,407 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:53,407 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:34:53,407 - P17320 - INFO - Após processar URL 3 Uso de memória: 130.78 MB
+2025-05-22 04:34:53,407 - P17320 - INFO - Processando URL 4/13: https://crmvirtual.cfm.org.br/ES/servico/pesquisar-por-medico
+2025-05-22 04:34:55,712 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\0ff8b0bf2c6dbb46c836bac9c0cf4a16.html
+2025-05-22 04:34:55,726 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:34:55,726 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:55,726 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:34:55,726 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:55,727 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:34:55,727 - P17320 - INFO - Após processar URL 4 Uso de memória: 130.14 MB
+2025-05-22 04:34:55,727 - P17320 - INFO - Processando URL 5/13: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 04:34:59,557 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 04:34:59,594 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:34:59,595 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:34:59,595 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:34:59,595 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:34:59,595 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:34:59,596 - P17320 - INFO - Após processar URL 5 Uso de memória: 130.17 MB
+2025-05-22 04:34:59,596 - P17320 - INFO - Processando URL 6/13: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 04:35:03,650 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 04:35:03,665 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:35:03,665 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:35:03,665 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:35:03,666 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:03,666 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:35:03,666 - P17320 - INFO - Após processar URL 6 Uso de memória: 130.18 MB
+2025-05-22 04:35:03,666 - P17320 - INFO - Processando URL 7/13: https://portal.cfm.org.br/busca-medicos
+2025-05-22 04:35:07,630 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 04:35:07,669 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:35:07,670 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:35:07,670 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 04:35:07,670 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 04:35:07,670 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:35:07,671 - P17320 - INFO - Após processar URL 7 Uso de memória: 130.18 MB
+2025-05-22 04:35:07,671 - P17320 - INFO - Processando URL 8/13: https://guiamedico.cremesp.org.br/
+2025-05-22 04:35:10,781 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 04:35:10,787 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 04:35:10,788 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 04:35:10,788 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:35:10,788 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:10,788 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:35:10,788 - P17320 - INFO - Após processar URL 8 Uso de memória: 130.25 MB
+2025-05-22 04:35:10,788 - P17320 - INFO - Processando URL 9/13: https://cnpj.biz/59692083000170
+2025-05-22 04:35:12,987 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\60dd31df067c458b3addbf09ab44b76b.html
+2025-05-22 04:35:12,989 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:35:12,989 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:35:12,989 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:35:12,989 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:12,990 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:35:12,990 - P17320 - INFO - Após processar URL 9 Uso de memória: 130.25 MB
+2025-05-22 04:35:12,990 - P17320 - INFO - Processando URL 10/13: https://www.econodata.com.br/consulta-empresa/46134630000150-LUIS-FILIPE-G-TAVARES-LTDA
+2025-05-22 04:35:17,667 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\051fd9552ab6c4ae904021ab91de8920.html
+2025-05-22 04:35:17,857 - P17320 - INFO - Candidates address: 22 items
+2025-05-22 04:35:17,878 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:35:17,879 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:35:17,879 - P17320 - INFO - Candidates complement: 3 items
+2025-05-22 04:35:17,882 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:35:17,882 - P17320 - INFO - Após processar URL 10 Uso de memória: 132.07 MB
+2025-05-22 04:35:17,883 - P17320 - INFO - Processando URL 11/13: https://consultacrm.com.br/
+2025-05-22 04:35:20,015 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:35:20,026 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:35:20,026 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:35:20,027 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:35:20,027 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:20,027 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 04:35:20,027 - P17320 - INFO - Após processar URL 11 Uso de memória: 130.98 MB
+2025-05-22 04:35:20,027 - P17320 - INFO - Processando URL 12/13: https://www.cremerj.org.br/
+2025-05-22 04:35:23,463 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\57d5b230cbdcf7d719e9b2b2f238c4f1.html
+2025-05-22 04:35:23,518 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:35:23,521 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 04:35:23,523 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:35:23,523 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:23,523 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 04:35:23,524 - P17320 - INFO - Após processar URL 12 Uso de memória: 130.99 MB
+2025-05-22 04:35:23,524 - P17320 - INFO - Processando URL 13/13: https://guiasaudebrasil.com.br/profissional/0fd492d4c57a6eb5-luis-filipe-guilam-tavares
+2025-05-22 04:35:29,689 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\762756c6f1d12aa57fb77d504a9e7a55.html
+2025-05-22 04:35:29,699 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 04:35:29,700 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 04:35:29,700 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 04:35:29,700 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 04:35:29,701 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 04:35:29,701 - P17320 - INFO - Após processar URL 13 Uso de memória: 131.01 MB
+2025-05-22 04:35:29,703 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:35:29,706 - P17320 - INFO - Ranked address: 24 items
+2025-05-22 04:35:29,711 - P17320 - INFO - Ranked phone: 4 items
+2025-05-22 04:35:29,711 - P17320 - INFO - Ranked email: 2 items
+2025-05-22 04:35:29,712 - P17320 - INFO - Ranked complement: 6 items
+2025-05-22 04:35:29,712 - P17320 - INFO - Ranked cep: 8 items
+2025-05-22 04:35:29,712 - P17320 - INFO - Após agregação Uso de memória: 131.01 MB
+2025-05-22 04:35:29,713 - P17320 - INFO - Validando endereço: ['Rua Humaita, 00012', 'Rua Frei Caneca, 1282', 'Rua do Humaita, 12']
+2025-05-22 04:35:29,713 - P17320 - INFO - Endereço validado: Rua Humaita, 00012
+2025-05-22 04:35:29,713 - P17320 - INFO - Limpando texto extenso para campo address: Rua Humaita, 00012...
+2025-05-22 04:35:29,714 - P17320 - INFO - Texto limpo: Rua Humaita, 00012
+2025-05-22 04:35:29,715 - P17320 - INFO - Validando telefone: ['(41) 9242-8304', '(11) 4349-9900', '(21) 3184-7050']
+2025-05-22 04:35:29,715 - P17320 - INFO - Limpando texto extenso para campo phone: (41) 9242-8304...
+2025-05-22 04:35:29,716 - P17320 - INFO - Texto limpo: 41) 9242-8304
+2025-05-22 04:35:29,716 - P17320 - INFO - Telefone validado: 41) 9242-8304
+2025-05-22 04:35:29,716 - P17320 - INFO - Validando email: ['donno@donnocontabilidade.com.br', 'cfm@portalmedico.org.br']
+2025-05-22 04:35:29,716 - P17320 - INFO - Limpando texto extenso para campo email: donno@donnocontabilidade.com.br...
+2025-05-22 04:35:29,718 - P17320 - INFO - Texto limpo: donno@donnocontabilidade.com.br
+2025-05-22 04:35:29,718 - P17320 - INFO - Email validado: donno@donnocontabilidade.com.br
+2025-05-22 04:35:29,719 - P17320 - INFO - Validando complemento: ['Apt 303 Humaita ', 'Apt 303 Humaita  na cidade de  Rio de Janeiro', 'Conjunto D']
+2025-05-22 04:35:29,719 - P17320 - INFO - Limpando texto extenso para campo complement: Apt 303 Humaita ...
+2025-05-22 04:35:29,721 - P17320 - INFO - Texto limpo: Apt 303 Humaita
+2025-05-22 04:35:29,722 - P17320 - INFO - Complemento validado: Apt 303 Humaita
+2025-05-22 04:35:29,722 - P17320 - INFO - Descobrindo cidade
+2025-05-22 04:35:29,723 - P17320 - INFO - Buscando cidade: Rua Humaita cidade RJ
+2025-05-22 04:35:32,364 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 04:35:32,364 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 04:35:32,365 - P17320 - INFO - Tempo de execução de processamento completo do médico: 56.70 segundos
+2025-05-22 04:35:32,365 - P17320 - INFO - Resultado processado: {'Hash': '721f65158901a7c6cab9d2f689819a23d472eb6d317075f31a818d892aa7c0f3', 'CRM': '1205102', 'UF': 'RJ', 'Firstname': 'LUIS', 'LastName': 'FILIPE GUILAM TAVARES', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Humaita, 00012', 'Address A1': 'Rua Humaita', 'Numero A1': '00012', 'Complement A1': 'Apt 303 Humaita', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '41) 9242-8304', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'donno@donnocontabilidade.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:35:32,365 - P17320 - INFO - Salvando lote de resultados
+2025-05-22 04:35:32,366 - P17320 - INFO - Após salvar resultados Uso de memória: 127.73 MB
+2025-05-22 04:35:32,366 - P17320 - INFO - Progresso: 72.2%
+2025-05-22 04:35:32,367 - P17320 - INFO - Tempo de execução de processamento do médico 3: 56.70 segundos
+2025-05-22 04:35:32,367 - P17320 - INFO - Tempo de execução de processamento do lote completo: 174.23 segundos

@@ -1,0 +1,581 @@
+2025-05-22 02:52:08,845 - P17020 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 02:52:08,845 - P17020 - INFO - Nome: REGINA ELISABETH LORDELLO COIMBRA
+2025-05-22 02:52:08,846 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 02:52:10,102 - P17020 - INFO - Após reiniciar driver Uso de memória: 125.13 MB
+2025-05-22 02:52:10,103 - P17020 - INFO - Início do processamento Uso de memória: 125.13 MB
+2025-05-22 02:52:10,103 - P17020 - INFO - Iniciando busca para: REGINA ELISABETH LORDELLO COIMBRA CRM 20145 SP telefone e-mail endereço
+2025-05-22 02:52:10,523 - P17020 - INFO - SearX results: 14 URLs
+2025-05-22 02:52:10,524 - P17020 - INFO - Após SearX Uso de memória: 125.13 MB
+2025-05-22 02:52:13,220 - P17020 - INFO - Google results: 12 URLs
+2025-05-22 02:52:13,220 - P17020 - INFO - Após Google Uso de memória: 126.06 MB
+2025-05-22 02:52:16,618 - P17020 - INFO - Bing results: 9 URLs
+2025-05-22 02:52:16,618 - P17020 - INFO - Após Bing Uso de memória: 126.84 MB
+2025-05-22 02:52:16,619 - P17020 - INFO - Total de URLs únicas: 23
+2025-05-22 02:52:16,619 - P17020 - INFO - Processando URL 1/23: https://www.sbpsp.org.br/blog/busca/?autor=regina-elisabeth-lordello-coimbra&ordenacao=recentes
+2025-05-22 02:52:19,859 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4e9636cdf8299534d2a7360da135f1a4.html
+2025-05-22 02:52:19,898 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:52:19,898 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:52:19,898 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:52:19,898 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:52:19,898 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:52:19,899 - P17020 - INFO - Após processar URL 1 Uso de memória: 127.70 MB
+2025-05-22 02:52:19,899 - P17020 - INFO - Processando URL 2/23: https://pt.scribd.com/document/533600605/Lista-Medicos-Veterinarios-Cadastrados-08-07-2020
+2025-05-22 02:52:29,375 - P17020 - WARNING - Página muito grande (5.65MB), truncando
+2025-05-22 02:52:29,386 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5e55b0a732198971b45ce49a4c2a9b3e.html
+2025-05-22 02:52:30,337 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:52:30,337 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:52:30,337 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:52:30,337 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:52:30,337 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:52:30,338 - P17020 - INFO - Após processar URL 2 Uso de memória: 134.08 MB
+2025-05-22 02:52:30,338 - P17020 - INFO - Processando URL 3/23: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2016/dou3_2016_02_19.pdf
+2025-05-22 02:52:30,338 - P17020 - INFO - Ignorando URL de arquivo não-HTML: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2016/dou3_2016_02_19.pdf
+2025-05-22 02:52:30,339 - P17020 - INFO - Após processar URL 3 Uso de memória: 128.08 MB
+2025-05-22 02:52:30,339 - P17020 - INFO - Processando URL 4/23: https://cadastroempresa.com.br/fornecedor/clinica-medica-lordello-coimbra-psicoterapia-e-psicanalise-ltda-13378246000143
+2025-05-22 02:52:33,320 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a22fbc4ef5e6f9b88d595189a28920cc.html
+2025-05-22 02:52:33,349 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:52:33,350 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:52:33,350 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:52:33,350 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:52:33,350 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:52:33,351 - P17020 - INFO - Após processar URL 4 Uso de memória: 128.08 MB
+2025-05-22 02:52:33,351 - P17020 - INFO - Processando URL 5/23: https://www.gov.br/mme/pt-br/arquivos/do-11-05-2010-s3.pdf
+2025-05-22 02:52:33,352 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.gov.br/mme/pt-br/arquivos/do-11-05-2010-s3.pdf
+2025-05-22 02:52:33,352 - P17020 - INFO - Após processar URL 5 Uso de memória: 128.08 MB
+2025-05-22 02:52:33,352 - P17020 - INFO - Processando URL 6/23: https://www.boaconsulta.com/especialista/regina-elisabeth-lordello-coimbra-64a6d3625a7bb832dd020c68
+2025-05-22 02:52:36,602 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\dbc7e8b8c4261acda6894fdbdc7ae34b.html
+2025-05-22 02:52:36,755 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:52:36,755 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:52:36,755 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:52:36,755 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:52:36,756 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:52:36,756 - P17020 - INFO - Após processar URL 6 Uso de memória: 127.56 MB
+2025-05-22 02:52:36,756 - P17020 - INFO - Processando URL 7/23: https://guiadocnpj.com.br/sp/sao-paulo/clinica-medica-lordello-coimbra-psicoterapia-e-psicanalise-ltda/13378246000143
+2025-05-22 02:52:43,851 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\515ecc5fa3ebb5d897e305935ad6bed2.html
+2025-05-22 02:52:43,874 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:52:43,874 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:52:43,874 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:52:43,874 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:52:43,875 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:52:43,875 - P17020 - INFO - Após processar URL 7 Uso de memória: 127.56 MB
+2025-05-22 02:52:43,875 - P17020 - INFO - Processando URL 8/23: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2014/dou3_2014_02_06.pdf
+2025-05-22 02:52:43,875 - P17020 - INFO - Ignorando URL de arquivo não-HTML: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2014/dou3_2014_02_06.pdf
+2025-05-22 02:52:43,876 - P17020 - INFO - Após processar URL 8 Uso de memória: 127.56 MB
+2025-05-22 02:52:43,876 - P17020 - INFO - Processando URL 9/23: https://www.sociosbrasil.com/nome/regina-elisabeth-lordello-coimbra
+2025-05-22 02:52:48,720 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\17a0daa5e5265bfec3b33f9f336c6f0f.html
+2025-05-22 02:52:48,726 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:52:48,726 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:52:48,726 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:52:48,727 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:52:48,727 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:52:48,728 - P17020 - INFO - Após processar URL 9 Uso de memória: 127.56 MB
+2025-05-22 02:52:48,728 - P17020 - INFO - Processando URL 10/23: https://www.classemedica.com.br/medico/279981-regina-elisabeth-lordello-coimbra.htm
+2025-05-22 02:53:09,586 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6e2a2900dbf5caa8201a42dafe90cebf.html
+2025-05-22 02:53:09,616 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:53:09,616 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:53:09,616 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:53:09,617 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:53:09,617 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:53:09,617 - P17020 - INFO - Após processar URL 10 Uso de memória: 127.59 MB
+2025-05-22 02:53:09,617 - P17020 - INFO - Processando URL 11/23: https://sistemas.tjes.jus.br/ediario/index.php/component/ediario/?view=contents&layout=fulltext&data=20180319&idorgao=766
+2025-05-22 02:53:12,227 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e815445659d38aaf713e02f483dea15f.html
+2025-05-22 02:53:13,585 - P17020 - INFO - Candidates address: 25 items
+2025-05-22 02:53:13,585 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:53:13,585 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:53:13,586 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 02:53:13,586 - P17020 - INFO - Candidates cep: 154 items
+2025-05-22 02:53:13,586 - P17020 - INFO - Após processar URL 11 Uso de memória: 131.88 MB
+2025-05-22 02:53:13,586 - P17020 - INFO - Processando URL 12/23: https://mpsp.mp.br/w/dic3a1riooficialmpsp07052013htm
+2025-05-22 02:53:17,439 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\42484f76ab71c47e1d1f8bb8b9080d65.html
+2025-05-22 02:53:18,097 - P17020 - INFO - Candidates address: 4 items
+2025-05-22 02:53:18,097 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:53:18,097 - P17020 - INFO - Candidates email: 4 items
+2025-05-22 02:53:18,097 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:53:18,097 - P17020 - INFO - Candidates cep: 13 items
+2025-05-22 02:53:18,098 - P17020 - INFO - Após processar URL 12 Uso de memória: 129.30 MB
+2025-05-22 02:53:18,098 - P17020 - INFO - Processando URL 13/23: https://doutorcrm.com/regina-elisabeth-lordello-coimbra
+2025-05-22 02:53:22,641 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d2e4b7ff616c6bdbf35ee59331ee0b77.html
+2025-05-22 02:53:22,652 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:53:22,652 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:53:22,652 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:53:22,652 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:53:22,653 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:53:22,653 - P17020 - INFO - Após processar URL 13 Uso de memória: 127.09 MB
+2025-05-22 02:53:22,653 - P17020 - INFO - Processando URL 14/23: https://www.gov.br/mme/pt-br/arquivos/do-22-05-2012-s3.pdf
+2025-05-22 02:53:22,653 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.gov.br/mme/pt-br/arquivos/do-22-05-2012-s3.pdf
+2025-05-22 02:53:22,653 - P17020 - INFO - Após processar URL 14 Uso de memória: 127.09 MB
+2025-05-22 02:53:22,653 - P17020 - INFO - Processando URL 15/23: https://www.saobernardo.sp.gov.br/documents/10181/60130/NM+2007+1419.pdf.pdf/0bd0ac64-7c8f-4273-9bea-59e237cae93a
+2025-05-22 02:53:22,654 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/60130/NM+2007+1419.pdf.pdf/0bd0ac64-7c8f-4273-9bea-59e237cae93a
+2025-05-22 02:53:22,654 - P17020 - INFO - Após processar URL 15 Uso de memória: 127.09 MB
+2025-05-22 02:53:22,654 - P17020 - INFO - Processando URL 16/23: https://empresadois.com.br/cnpj/clinica-medica-lordello-coimbra-psicoterapia-e-psicanalise-ltda-13378246000143
+2025-05-22 02:53:26,492 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\73c9909523650324b34281a629008017.html
+2025-05-22 02:53:26,509 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:53:26,510 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:53:26,510 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:53:26,510 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:53:26,510 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:53:26,510 - P17020 - INFO - Após processar URL 16 Uso de memória: 127.09 MB
+2025-05-22 02:53:26,510 - P17020 - INFO - Processando URL 17/23: https://infonet.com.br/entretenimento-infonet/aracaju-recebe-curso-baseado-em-psicanalise-da-crianca-e-adolescente/
+2025-05-22 02:53:36,993 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5bfc1487ffdbf8e1e5d93ae2209f820f.html
+2025-05-22 02:53:37,110 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:53:37,111 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:53:37,111 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 02:53:37,111 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:53:37,111 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:53:37,111 - P17020 - INFO - Após processar URL 17 Uso de memória: 129.01 MB
+2025-05-22 02:53:37,111 - P17020 - INFO - Processando URL 18/23: https://febrapsi.org/members/regina-elisabeth-lordello-coimbra/
+2025-05-22 02:53:43,622 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\da2e74ef17ab6faeb1d5263c4fa3f22c.html
+2025-05-22 02:53:43,676 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 02:53:43,711 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:53:43,722 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 02:53:43,726 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:53:43,755 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:53:43,759 - P17020 - INFO - Após processar URL 18 Uso de memória: 127.11 MB
+2025-05-22 02:53:43,780 - P17020 - INFO - Processando URL 19/23: https://guiasaudebrasil.com.br/profissional/687c4761e870b671-regina-elisabeth-lordello-coimbra
+2025-05-22 02:53:48,638 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a45a4dbc550005545b883ff7a9b89cb6.html
+2025-05-22 02:53:48,647 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:53:48,647 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:53:48,647 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:53:48,648 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:53:48,648 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:53:48,648 - P17020 - INFO - Após processar URL 19 Uso de memória: 127.12 MB
+2025-05-22 02:53:48,648 - P17020 - INFO - Processando URL 20/23: https://www.mpsp.mp.br/w/dic3a1riooficialmpsp07052013htm
+2025-05-22 02:53:51,243 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f4c97cb1716d4a14b305fb3f6bc8642c.html
+2025-05-22 02:53:51,245 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:53:51,245 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:53:51,246 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:53:51,246 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:53:51,246 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:53:51,246 - P17020 - INFO - Após processar URL 20 Uso de memória: 127.12 MB
+2025-05-22 02:53:51,247 - P17020 - INFO - Processando URL 21/23: https://guiamedico.cremesp.org.br/
+2025-05-22 02:53:54,385 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 02:53:54,391 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:53:54,391 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:53:54,392 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:53:54,392 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:53:54,392 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:53:54,392 - P17020 - INFO - Após processar URL 21 Uso de memória: 127.12 MB
+2025-05-22 02:53:54,392 - P17020 - INFO - Processando URL 22/23: https://www.econodata.com.br/consulta-empresa/13378246000143-CLINICA-MEDICA-LORDELLO-COIMBRA-PSICOTERAPIA-E-PSICANALISE-LTDA
+2025-05-22 02:53:59,489 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\dbb5a13100fc2e0d72f0a2bd7004a1b0.html
+2025-05-22 02:53:59,629 - P17020 - INFO - Candidates address: 26 items
+2025-05-22 02:53:59,629 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:53:59,630 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:53:59,630 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:53:59,630 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:53:59,630 - P17020 - INFO - Após processar URL 22 Uso de memória: 128.91 MB
+2025-05-22 02:53:59,630 - P17020 - INFO - Processando URL 23/23: https://bacanudo.com/leitura/2522/Psicanalise_da_Crianca_e_do_Adolescente
+2025-05-22 02:54:02,437 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\02d4294e9f0c01151310260515ca292d.html
+2025-05-22 02:54:02,452 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:54:02,458 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:54:02,459 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:54:02,460 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:54:02,461 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:54:02,461 - P17020 - INFO - Após processar URL 23 Uso de memória: 128.07 MB
+2025-05-22 02:54:02,462 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:54:02,463 - P17020 - INFO - Ranked address: 60 items
+2025-05-22 02:54:02,463 - P17020 - INFO - Ranked phone: 9 items
+2025-05-22 02:54:02,464 - P17020 - INFO - Ranked email: 11 items
+2025-05-22 02:54:02,464 - P17020 - INFO - Ranked complement: 2 items
+2025-05-22 02:54:02,465 - P17020 - INFO - Ranked cep: 175 items
+2025-05-22 02:54:02,466 - P17020 - INFO - Após agregação Uso de memória: 128.07 MB
+2025-05-22 02:54:02,467 - P17020 - INFO - Validando endereço: ['Rua Nazare Paulista, 231', 'R. E. Ruiz - Locacao de Maquinas 13.378.202/0001-13 R.m.r Pinturas e Reformas LTDA 13.378.220/0001', 'R. CARLOS GUILHERME MACEDO PAGIOLA CORDEIRO – OAB-ES Nº. 16.203']
+2025-05-22 02:54:02,467 - P17020 - INFO - Endereço validado: Rua Nazare Paulista, 231
+2025-05-22 02:54:02,468 - P17020 - INFO - Limpando texto extenso para campo address: Rua Nazare Paulista, 231...
+2025-05-22 02:54:02,468 - P17020 - INFO - Texto limpo: Rua Nazare Paulista, 231
+2025-05-22 02:54:02,468 - P17020 - INFO - Validando telefone: ['(11) 3022-3319', '(01) 13022-3319', '0']
+2025-05-22 02:54:02,468 - P17020 - INFO - Limpando texto extenso para campo phone: (11) 3022-3319...
+2025-05-22 02:54:02,469 - P17020 - INFO - Texto limpo: 11) 3022-3319
+2025-05-22 02:54:02,469 - P17020 - INFO - Telefone validado: 11) 3022-3319
+2025-05-22 02:54:02,469 - P17020 - INFO - Validando email: ['bethcoimbra07@gmail.com', 'navegantespsi@gmail.com', 'contato@guiadocnpj.com.br']
+2025-05-22 02:54:02,469 - P17020 - INFO - Limpando texto extenso para campo email: bethcoimbra07@gmail.com...
+2025-05-22 02:54:02,469 - P17020 - INFO - Texto limpo: bethcoimbra07@gmail.com
+2025-05-22 02:54:02,469 - P17020 - INFO - Email validado: bethcoimbra07@gmail.com
+2025-05-22 02:54:02,470 - P17020 - INFO - Validando complemento: ['Conjunto nº 16', 'Conjunto nº 16 do e. TJES. ']
+2025-05-22 02:54:02,470 - P17020 - INFO - Limpando texto extenso para campo complement: Conjunto nº 16...
+2025-05-22 02:54:02,470 - P17020 - INFO - Texto limpo: Conjunto nº 16
+2025-05-22 02:54:02,471 - P17020 - INFO - Complemento validado: Conjunto nº 16
+2025-05-22 02:54:02,472 - P17020 - INFO - Descobrindo cidade
+2025-05-22 02:54:02,472 - P17020 - INFO - Buscando cidade: Rua Nazare Paulista cidade SP
+2025-05-22 02:54:05,227 - P17020 - INFO - Cidade encontrada: São Paulo
+2025-05-22 02:54:05,227 - P17020 - INFO - Limpando texto extenso para campo city: São Paulo...
+2025-05-22 02:54:05,227 - P17020 - INFO - Texto limpo: São Paulo
+2025-05-22 02:54:05,227 - P17020 - INFO - Cidade descoberta: São Paulo
+2025-05-22 02:54:05,227 - P17020 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 02:54:05,227 - P17020 - INFO - Iniciando busca de CEP em cascata para: Rua Nazare Paulista, São Paulo, SP
+2025-05-22 02:54:05,228 - P17020 - INFO - Método 1: ViaCEP API
+2025-05-22 02:54:05,228 - P17020 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SP/sao%20paulo/rua%20nazare%20paulista/json/
+2025-05-22 02:54:05,974 - P17020 - INFO - Dados encontrados no ViaCEP: {'cep': '05448-000', 'logradouro': 'Rua Nazaré Paulista', 'complemento': '', 'unidade': '', 'bairro': 'Vila Madalena', 'localidade': 'São Paulo', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3550308', 'gia': '1004', 'ddd': '11', 'siafi': '7107'}
+2025-05-22 02:54:05,977 - P17020 - INFO - CEP encontrado via ViaCEP: 05448-000
+2025-05-22 02:54:05,978 - P17020 - INFO - Dados de CEP encontrados: {'cep': '05448-000', 'logradouro': 'Rua Nazaré Paulista', 'complemento': '', 'unidade': '', 'bairro': 'Vila Madalena', 'localidade': 'São Paulo', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3550308', 'gia': '1004', 'ddd': '11', 'siafi': '7107'}
+2025-05-22 02:54:05,979 - P17020 - INFO - Limpando texto extenso para campo bairro: Vila Madalena...
+2025-05-22 02:54:05,979 - P17020 - INFO - Texto limpo: Vila Madalena
+2025-05-22 02:54:05,980 - P17020 - INFO - Limpando texto extenso para campo city: São Paulo...
+2025-05-22 02:54:05,980 - P17020 - INFO - Texto limpo: São Paulo
+2025-05-22 02:54:05,980 - P17020 - INFO - Limpando texto extenso para campo state: SP...
+2025-05-22 02:54:05,980 - P17020 - INFO - Texto limpo: SP
+2025-05-22 02:54:05,980 - P17020 - INFO - Tempo de execução de processamento completo do médico: 115.88 segundos
+2025-05-22 02:54:05,981 - P17020 - INFO - Resultado processado: {'Hash': '3b8dc5249a2c119ab6bac320b21dc14428fca14a0c44c1bd0da5caa9dabc2730', 'CRM': '20145', 'UF': 'SP', 'Firstname': 'REGINA', 'LastName': 'ELISABETH LORDELLO COIMBRA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Nazare Paulista, 231', 'Address A1': 'Rua Nazare Paulista', 'Numero A1': '231', 'Complement A1': 'Conjunto nº 16', 'Bairro A1': 'Vila Madalena', 'postal code A1': '05448-000', 'City A1': 'São Paulo', 'State A1': 'SP', 'Phone A1': '11) 3022-3319', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'bethcoimbra07@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:54:05,982 - P17020 - INFO - Progresso: 36.2%
+2025-05-22 02:54:05,982 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 02:54:06,057 - P17020 - INFO - Após coleta de lixo Uso de memória: 119.60 MB
+2025-05-22 02:54:06,057 - P17020 - INFO - Tempo de execução de processamento do médico 1: 117.21 segundos
+2025-05-22 02:54:06,057 - P17020 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 02:54:06,059 - P17020 - INFO - Nome: EDSON GARCIA SOARES
+2025-05-22 02:54:06,060 - P17020 - INFO - Início do processamento Uso de memória: 119.60 MB
+2025-05-22 02:54:06,061 - P17020 - INFO - Iniciando busca para: EDSON GARCIA SOARES CRM 21544 SP telefone e-mail endereço
+2025-05-22 02:54:06,668 - P17020 - INFO - SearX results: 10 URLs
+2025-05-22 02:54:06,669 - P17020 - INFO - Após SearX Uso de memória: 119.60 MB
+2025-05-22 02:54:09,301 - P17020 - INFO - Google results: 10 URLs
+2025-05-22 02:54:09,301 - P17020 - INFO - Após Google Uso de memória: 122.33 MB
+2025-05-22 02:54:11,728 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 02:54:11,729 - P17020 - INFO - Após Bing Uso de memória: 124.21 MB
+2025-05-22 02:54:11,729 - P17020 - INFO - Total de URLs únicas: 24
+2025-05-22 02:54:11,729 - P17020 - INFO - Processando URL 1/24: https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/cgp/CGP_MEDICOS_MAR2012.pdf
+2025-05-22 02:54:11,729 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/cgp/CGP_MEDICOS_MAR2012.pdf
+2025-05-22 02:54:11,730 - P17020 - INFO - Após processar URL 1 Uso de memória: 124.21 MB
+2025-05-22 02:54:11,730 - P17020 - INFO - Processando URL 2/24: https://www.classemedica.com.br/medico/86646-edson-garcia-soares.htm
+2025-05-22 02:54:28,542 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\8ac41ecc161bc21a3a2fce07701e784b.html
+2025-05-22 02:54:28,575 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:54:28,576 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:54:28,576 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:54:28,584 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:54:28,585 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:54:28,598 - P17020 - INFO - Após processar URL 2 Uso de memória: 124.77 MB
+2025-05-22 02:54:28,598 - P17020 - INFO - Processando URL 3/24: https://www.catalogo.med.br/doutor/edson-garcia-soares-2063479.htm
+2025-05-22 02:54:30,825 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\45c9ca0b9adff7d996d831c0c996a9a4.html
+2025-05-22 02:54:30,833 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:54:30,834 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:54:30,834 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:54:30,834 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:54:30,834 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:54:30,835 - P17020 - INFO - Após processar URL 3 Uso de memória: 124.78 MB
+2025-05-22 02:54:30,835 - P17020 - INFO - Processando URL 4/24: https://www.somospopular.com.br/especialistas/edson-garcia-soares-anatomopatologista-em-ribeirao-preto-sp/
+2025-05-22 02:54:33,264 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2e0a42e3878b0dc0bcf1ea0c27133327.html
+2025-05-22 02:54:33,269 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:54:33,270 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:54:33,270 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:54:33,270 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:54:33,270 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:54:33,270 - P17020 - INFO - Após processar URL 4 Uso de memória: 125.68 MB
+2025-05-22 02:54:33,271 - P17020 - INFO - Processando URL 5/24: https://www.medicosbrasil.com/profissional/edson-garcia-soares
+2025-05-22 02:54:36,464 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\793eedb5b356f1ad89ea85069a1c7a98.html
+2025-05-22 02:54:36,482 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:54:36,482 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:54:36,482 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:54:36,483 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:54:36,483 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:54:36,483 - P17020 - INFO - Após processar URL 5 Uso de memória: 126.51 MB
+2025-05-22 02:54:36,483 - P17020 - INFO - Processando URL 6/24: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2004/07/do_20040717_959.pdf
+2025-05-22 02:54:36,483 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2004/07/do_20040717_959.pdf
+2025-05-22 02:54:36,483 - P17020 - INFO - Após processar URL 6 Uso de memória: 126.51 MB
+2025-05-22 02:54:36,484 - P17020 - INFO - Processando URL 7/24: https://consultacrm.com.br/
+2025-05-22 02:54:40,920 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:54:40,934 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:54:40,934 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:54:40,934 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:54:40,935 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:54:40,935 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:54:40,935 - P17020 - INFO - Após processar URL 7 Uso de memória: 127.07 MB
+2025-05-22 02:54:40,935 - P17020 - INFO - Processando URL 8/24: https://uspdigital.usp.br/especialistas/especialistaObter?codpub=47A0B6D1C9B4
+2025-05-22 02:54:45,041 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f398a69b393ea12a5a9562d6938ddc82.html
+2025-05-22 02:54:45,050 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:54:45,050 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:54:45,050 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:54:45,050 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:54:45,050 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:54:45,050 - P17020 - INFO - Após processar URL 8 Uso de memória: 127.11 MB
+2025-05-22 02:54:45,051 - P17020 - INFO - Processando URL 9/24: http://cremesp.org.br/
+2025-05-22 02:54:49,259 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2a967318246f9658edeb1e0469c871fe.html
+2025-05-22 02:54:49,287 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:54:49,288 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:54:49,290 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:54:49,290 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:54:49,291 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:54:49,291 - P17020 - INFO - Após processar URL 9 Uso de memória: 127.21 MB
+2025-05-22 02:54:49,291 - P17020 - INFO - Processando URL 10/24: https://educacao.mogimirim.sp.gov.br/uploads/jornal/24044/RAjFYZEJiakE0NO1YpThyCLaccHA_Bvt.pdf
+2025-05-22 02:54:49,292 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://educacao.mogimirim.sp.gov.br/uploads/jornal/24044/RAjFYZEJiakE0NO1YpThyCLaccHA_Bvt.pdf
+2025-05-22 02:54:49,292 - P17020 - INFO - Após processar URL 10 Uso de memória: 127.21 MB
+2025-05-22 02:54:49,292 - P17020 - INFO - Processando URL 11/24: https://www.imprensaoficial.com.br/downloads/pdf/edicao/20231215EXEC1.pdf
+2025-05-22 02:54:49,292 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.imprensaoficial.com.br/downloads/pdf/edicao/20231215EXEC1.pdf
+2025-05-22 02:54:49,292 - P17020 - INFO - Após processar URL 11 Uso de memória: 127.21 MB
+2025-05-22 02:54:49,293 - P17020 - INFO - Processando URL 12/24: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1746722633.pdf
+2025-05-22 02:54:49,293 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1746722633.pdf
+2025-05-22 02:54:49,293 - P17020 - INFO - Após processar URL 12 Uso de memória: 127.21 MB
+2025-05-22 02:54:49,293 - P17020 - INFO - Processando URL 13/24: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2013/09/do_20130905_2291.pdf
+2025-05-22 02:54:49,293 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2013/09/do_20130905_2291.pdf
+2025-05-22 02:54:49,293 - P17020 - INFO - Após processar URL 13 Uso de memória: 127.21 MB
+2025-05-22 02:54:49,294 - P17020 - INFO - Processando URL 14/24: https://www.doctoralia.com.br/edson-garcia-soares/anatomopatologista/ribeirao-preto
+2025-05-22 02:54:49,294 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/edson-garcia-soares/anatomopatologista/ribeirao-preto
+2025-05-22 02:54:49,294 - P17020 - INFO - Após processar URL 14 Uso de memória: 127.21 MB
+2025-05-22 02:54:49,295 - P17020 - INFO - Processando URL 15/24: https://www.curvelandia.mt.gov.br/exportador.php?formato=pdf&tipo=ano&q=2021&ids=24,316,317,318,319,320,321,322,323,324,280,166,243,183,184,185,179,171,174,167,39,244,256,255,246,247,383,384,409,218,48,382,424,226,70,334,416,335,59,60,61,110,336,420,419,436,282,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,329,331,330,440,418,438,439,326,437,423,311,413,415,405,414,337,47,394,133,134,338,339,340,341,62,325,309,131,162,66,411,410,65,308,138,139,140,46,49,408,385,422,347,348,349,350,351,352,353,354,355,356,360,357,358,361,359,388,389,365,362,363,364,366,367,368,379,51,56,57,55,332,380,3,406,333,407,4,381,5,7,257,6,8,9,10,11,12,412,328,312,313,314,315,111,43,253,250,251,252,248,249,163,112,387,281,306,307,283,305,69,346,310,395,404,403,399,398,421,396,400,397,390,401,391,392,417,393,402&pagina=37&categorias=0&numero=2021&ano=&categoria=&subcategoria=&dataexata=&datainicio=&datafim=&classificar=date&ordenar=desc
+2025-05-22 02:55:08,757 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\23bd76ebbf65fd912018bc36ddc5c727.html
+2025-05-22 02:55:08,757 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:55:08,758 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:55:08,758 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:55:08,758 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:55:08,758 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:55:08,758 - P17020 - INFO - Após processar URL 15 Uso de memória: 127.21 MB
+2025-05-22 02:55:08,759 - P17020 - INFO - Processando URL 16/24: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1735348720.pdf
+2025-05-22 02:55:08,759 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1735348720.pdf
+2025-05-22 02:55:08,759 - P17020 - INFO - Após processar URL 16 Uso de memória: 127.21 MB
+2025-05-22 02:55:08,759 - P17020 - INFO - Processando URL 17/24: https://osasco.sp.gov.br/site/wp-content/uploads/2015/07/httposasco.sp_.gov_.brcompsec1atosEd1156.pdf
+2025-05-22 02:55:08,759 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2015/07/httposasco.sp_.gov_.brcompsec1atosEd1156.pdf
+2025-05-22 02:55:08,759 - P17020 - INFO - Após processar URL 17 Uso de memória: 127.21 MB
+2025-05-22 02:55:08,760 - P17020 - INFO - Processando URL 18/24: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/17485/Cadernos_JUD_PA_2019-04-11_XI_67.pdf?sequence=1&isAllowed=y
+2025-05-22 02:55:08,760 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/17485/Cadernos_JUD_PA_2019-04-11_XI_67.pdf?sequence=1&isAllowed=y
+2025-05-22 02:55:08,760 - P17020 - INFO - Após processar URL 18 Uso de memória: 127.21 MB
+2025-05-22 02:55:08,760 - P17020 - INFO - Processando URL 19/24: https://www6.oab.org.br/decisoes/informativo/BI%20262%20marco.pdf
+2025-05-22 02:55:08,760 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www6.oab.org.br/decisoes/informativo/BI%20262%20marco.pdf
+2025-05-22 02:55:08,761 - P17020 - INFO - Após processar URL 19 Uso de memória: 127.21 MB
+2025-05-22 02:55:08,761 - P17020 - INFO - Processando URL 20/24: https://sistemas.tjes.jus.br/ediario/index.php/component/ediario/?view=contents&layout=fulltext&data=20180216&idorgao=347
+2025-05-22 02:55:12,262 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ec1dc16c2d0ba6968a8697e0f1fc33f4.html
+2025-05-22 02:55:13,712 - P17020 - INFO - Candidates address: 43 items
+2025-05-22 02:55:13,712 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:55:13,712 - P17020 - INFO - Candidates email: 4 items
+2025-05-22 02:55:13,713 - P17020 - INFO - Candidates complement: 3 items
+2025-05-22 02:55:13,713 - P17020 - INFO - Candidates cep: 37 items
+2025-05-22 02:55:13,713 - P17020 - INFO - Após processar URL 20 Uso de memória: 125.37 MB
+2025-05-22 02:55:13,713 - P17020 - INFO - Processando URL 21/24: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20150504&idorgao=545
+2025-05-22 02:55:19,957 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4bbb7574a64c1eae9fcf7137db6bf75c.html
+2025-05-22 02:55:20,704 - P17020 - INFO - Candidates address: 103 items
+2025-05-22 02:55:20,704 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:55:20,704 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:55:20,704 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 02:55:20,705 - P17020 - INFO - Candidates cep: 57 items
+2025-05-22 02:55:20,705 - P17020 - INFO - Após processar URL 21 Uso de memória: 127.14 MB
+2025-05-22 02:55:20,705 - P17020 - INFO - Processando URL 22/24: https://www.curvelandia.mt.gov.br/exportador.php?formato=pdf&tipo=ano&q=2021&ids=24,316,317,318,319,320,321,322,323,324,280,166,243,183,184,185,179,171,174,167,39,244,256,255,246,247,383,384,409,218,48,382,424,226,70,334,416,335,59,60,61,110,336,420,419,436,282,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,329,331,330,440,418,438,439,326,437,423,311,413,415,405,414,337,47,394,133,134,338,339,340,341,62,325,309,131,162,66,411,410,65,308,138,139,140,46,49,408,385,422,347,348,349,350,351,352,353,354,355,356,360,357,358,361,359,388,389,365,362,363,364,366,367,368,379,51,56,57,55,332,380,3,406,333,407,4,381,5,7,257,6,8,9,10,11,12,412,328,312,313,314,315,111,43,253,250,251,252,248,249,163,112,387,281,306,307,283,305,69,346,310,395,404,403,399,398,421,396,400,397,390,401,391,392,417,393,402&pagina=14&categorias=0&numero=2021&ano=&categoria=&subcategoria=&dataexata=&datainicio=&datafim=&classificar=data&ordenar=desc
+2025-05-22 02:55:40,349 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\1477b58fefacb37b0309a90296d476be.html
+2025-05-22 02:55:40,349 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:55:40,349 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:55:40,350 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:55:40,350 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:55:40,350 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:55:40,350 - P17020 - INFO - Após processar URL 22 Uso de memória: 124.74 MB
+2025-05-22 02:55:40,350 - P17020 - INFO - Processando URL 23/24: https://www.escavador.com/sobre/740734/edson-garcia-soares
+2025-05-22 02:55:43,438 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\fb509c5463f387e2da13706252987cb5.html
+2025-05-22 02:55:43,454 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:55:43,455 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:55:43,456 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:55:43,463 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:55:43,463 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:55:43,463 - P17020 - INFO - Após processar URL 23 Uso de memória: 125.73 MB
+2025-05-22 02:55:43,467 - P17020 - INFO - Processando URL 24/24: https://www.pm.pa.gov.br/phocadownload/userupload/userupload/elma.36452/BG%20N%20190%20de%2010%20OUT%202024.pdf
+2025-05-22 02:55:43,473 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.pm.pa.gov.br/phocadownload/userupload/userupload/elma.36452/BG%20N%20190%20de%2010%20OUT%202024.pdf
+2025-05-22 02:55:43,475 - P17020 - INFO - Após processar URL 24 Uso de memória: 125.73 MB
+2025-05-22 02:55:43,476 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:55:43,478 - P17020 - INFO - Ranked address: 146 items
+2025-05-22 02:55:43,478 - P17020 - INFO - Ranked phone: 4 items
+2025-05-22 02:55:43,479 - P17020 - INFO - Ranked email: 5 items
+2025-05-22 02:55:43,479 - P17020 - INFO - Ranked complement: 5 items
+2025-05-22 02:55:43,479 - P17020 - INFO - Ranked cep: 95 items
+2025-05-22 02:55:43,480 - P17020 - INFO - Após agregação Uso de memória: 125.73 MB
+2025-05-22 02:55:43,480 - P17020 - INFO - Validando endereço: ['Rua Desembargador Homero Mafra, 60', 'Rua Frei Caneca, 1282', 'R. HENRIQUE ROCHA FRAGA (OAB/ES 9.138']
+2025-05-22 02:55:43,480 - P17020 - INFO - Endereço validado: Rua Desembargador Homero Mafra, 60
+2025-05-22 02:55:43,480 - P17020 - INFO - Limpando texto extenso para campo address: Rua Desembargador Homero Mafra, 60...
+2025-05-22 02:55:43,480 - P17020 - INFO - Texto limpo: Rua Desembargador Homero Mafra, 60
+2025-05-22 02:55:43,481 - P17020 - INFO - Validando telefone: ['(11) 4349-9900', '(27) 3345-0499', '(27) 99979-1801']
+2025-05-22 02:55:43,482 - P17020 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 02:55:43,483 - P17020 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 02:55:43,484 - P17020 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 02:55:43,484 - P17020 - INFO - Validando email: ['seixas64@yahoo.com.br', '7criminal-vitoria@tjes.jus.br', '8criminal-vitoria@tjes.jus.br']
+2025-05-22 02:55:43,484 - P17020 - INFO - Limpando texto extenso para campo email: seixas64@yahoo.com.br...
+2025-05-22 02:55:43,484 - P17020 - INFO - Texto limpo: seixas64@yahoo.com.br
+2025-05-22 02:55:43,484 - P17020 - INFO - Email validado: seixas64@yahoo.com.br
+2025-05-22 02:55:43,485 - P17020 - INFO - Validando complemento: ['Salame" e MAYKI HENRIQUE OLIVEIRA', 'Sala 1.904\xa0 Enseada do Suá', 'Sala 1804']
+2025-05-22 02:55:43,485 - P17020 - INFO - Limpando texto extenso para campo complement: Salame" e MAYKI HENRIQUE OLIVEIRA...
+2025-05-22 02:55:43,485 - P17020 - INFO - Texto limpo: Salame" e MAYKI HENRIQUE OLIVE
+2025-05-22 02:55:43,485 - P17020 - INFO - Complemento validado: Salame" e MAYKI HENRIQUE OLIVE
+2025-05-22 02:55:43,485 - P17020 - INFO - Descobrindo cidade
+2025-05-22 02:55:43,486 - P17020 - INFO - Buscando cidade: Rua Desembargador Homero Mafra cidade SP
+2025-05-22 02:55:45,810 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 02:55:45,811 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 02:55:45,812 - P17020 - INFO - Tempo de execução de processamento completo do médico: 99.75 segundos
+2025-05-22 02:55:45,812 - P17020 - INFO - Resultado processado: {'Hash': '4691ab4274652be43f4fb6216fd10f0a570000a62db5e922b0949d7697c597a4', 'CRM': '21544', 'UF': 'SP', 'Firstname': 'EDSON', 'LastName': 'GARCIA SOARES', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Desembargador Homero Mafra, 60', 'Address A1': 'Rua Desembargador Homero Mafra', 'Numero A1': '60', 'Complement A1': 'Salame" e MAYKI HENRIQUE OLIVE', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'seixas64@yahoo.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:55:45,813 - P17020 - INFO - Progresso: 36.7%
+2025-05-22 02:55:45,814 - P17020 - INFO - Tempo de execução de processamento do médico 2: 99.76 segundos
+2025-05-22 02:55:45,814 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 02:55:45,814 - P17020 - INFO - Nome: MARIO SATO
+2025-05-22 02:55:45,814 - P17020 - INFO - Início do processamento Uso de memória: 124.75 MB
+2025-05-22 02:55:45,815 - P17020 - INFO - Iniciando busca para: MARIO SATO CRM 22132 SP telefone e-mail endereço
+2025-05-22 02:55:46,255 - P17020 - INFO - SearX results: 10 URLs
+2025-05-22 02:55:46,255 - P17020 - INFO - Após SearX Uso de memória: 124.75 MB
+2025-05-22 02:55:48,951 - P17020 - INFO - Google results: 11 URLs
+2025-05-22 02:55:48,951 - P17020 - INFO - Após Google Uso de memória: 126.80 MB
+2025-05-22 02:55:52,104 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 02:55:52,104 - P17020 - INFO - Após Bing Uso de memória: 128.66 MB
+2025-05-22 02:55:52,104 - P17020 - INFO - Total de URLs únicas: 23
+2025-05-22 02:55:52,105 - P17020 - INFO - Processando URL 1/23: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/175162901.pdf
+2025-05-22 02:55:52,105 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/175162901.pdf
+2025-05-22 02:55:52,105 - P17020 - INFO - Após processar URL 1 Uso de memória: 128.66 MB
+2025-05-22 02:55:52,105 - P17020 - INFO - Processando URL 2/23: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1102912340.pdf
+2025-05-22 02:55:52,106 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1102912340.pdf
+2025-05-22 02:55:52,106 - P17020 - INFO - Após processar URL 2 Uso de memória: 128.66 MB
+2025-05-22 02:55:52,106 - P17020 - INFO - Processando URL 3/23: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-06-12-2022.pdf?p=1670284800051
+2025-05-22 02:55:52,106 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-06-12-2022.pdf?p=1670284800051
+2025-05-22 02:55:52,106 - P17020 - INFO - Após processar URL 3 Uso de memória: 128.66 MB
+2025-05-22 02:55:52,107 - P17020 - INFO - Processando URL 4/23: https://www.rbojournal.org/editor/mario-teruo-sato/
+2025-05-22 02:55:59,206 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\bb0c41bf5fb5c150ac405d6ac2485d51.html
+2025-05-22 02:55:59,336 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:55:59,338 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:55:59,338 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 02:55:59,342 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:55:59,345 - P17020 - INFO - Candidates cep: 4 items
+2025-05-22 02:55:59,346 - P17020 - INFO - Após processar URL 4 Uso de memória: 128.67 MB
+2025-05-22 02:55:59,347 - P17020 - INFO - Processando URL 5/23: https://guiadocnpj.com.br/sp/sao-paulo/mario-sato-medicina-ltda/05390339000165
+2025-05-22 02:56:05,031 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4a9c736abf1e53d90bff751998038e25.html
+2025-05-22 02:56:05,062 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:56:05,062 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:56:05,063 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:56:05,063 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:05,063 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:56:05,063 - P17020 - INFO - Após processar URL 5 Uso de memória: 128.74 MB
+2025-05-22 02:56:05,064 - P17020 - INFO - Processando URL 6/23: https://www.solutudo.com.br/empresas/sp/s-paulo/clinica-medica-ou-medicina-interna/mario-sato-medicina-ltda-17717805
+2025-05-22 02:56:11,526 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\9d681a7da4369877194aa014143f0278.html
+2025-05-22 02:56:11,569 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:56:11,569 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:56:11,569 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:56:11,570 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:11,570 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:56:11,570 - P17020 - INFO - Após processar URL 6 Uso de memória: 128.74 MB
+2025-05-22 02:56:11,570 - P17020 - INFO - Processando URL 7/23: https://www.consultacrm.com.br/index/profissionais/uid-1280dce6-f5c5-11ec-9e74-0a4aa568c625/mario_sato
+2025-05-22 02:56:16,532 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f01abd7f528730cbf5698be1de6eae94.html
+2025-05-22 02:56:16,544 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:56:16,544 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:56:16,544 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:56:16,544 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:16,545 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:56:16,545 - P17020 - INFO - Após processar URL 7 Uso de memória: 128.75 MB
+2025-05-22 02:56:16,545 - P17020 - INFO - Processando URL 8/23: https://consultacrm.com.br/
+2025-05-22 02:56:18,662 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:56:18,675 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:56:18,676 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:56:18,676 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:56:18,676 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:18,676 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:56:18,677 - P17020 - INFO - Após processar URL 8 Uso de memória: 128.82 MB
+2025-05-22 02:56:18,681 - P17020 - INFO - Processando URL 9/23: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2009/03/do_20090311_1639.pdf
+2025-05-22 02:56:18,683 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2009/03/do_20090311_1639.pdf
+2025-05-22 02:56:18,685 - P17020 - INFO - Após processar URL 9 Uso de memória: 128.82 MB
+2025-05-22 02:56:18,686 - P17020 - INFO - Processando URL 10/23: https://www.listamais.com.br/local/cad_idXX5B70Z/mario-sato-medicina-jd-namba-clinica-medica-em-sao-paulo-sp
+2025-05-22 02:56:23,887 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\eef6633f0fccbd3328a88265103f605c.html
+2025-05-22 02:56:23,909 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:56:23,909 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:56:23,910 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:56:23,910 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:23,910 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:56:23,910 - P17020 - INFO - Após processar URL 10 Uso de memória: 128.83 MB
+2025-05-22 02:56:23,910 - P17020 - INFO - Processando URL 11/23: https://www.consultacrm.com.br/index/profissionais/uid-939587e1-f5c5-11ec-9e74-0a4aa568c625/mario_makoto_sato
+2025-05-22 02:56:29,497 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5d9f9e78fced1521341f07279921ca2a.html
+2025-05-22 02:56:29,513 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:56:29,513 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:56:29,513 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:56:29,514 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:29,514 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:56:29,514 - P17020 - INFO - Após processar URL 11 Uso de memória: 129.41 MB
+2025-05-22 02:56:29,514 - P17020 - INFO - Processando URL 12/23: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2016/dou1_2016_05_25.pdf
+2025-05-22 02:56:29,514 - P17020 - INFO - Ignorando URL de arquivo não-HTML: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2016/dou1_2016_05_25.pdf
+2025-05-22 02:56:29,514 - P17020 - INFO - Após processar URL 12 Uso de memória: 129.41 MB
+2025-05-22 02:56:29,514 - P17020 - INFO - Processando URL 13/23: https://ndmais.com.br/saude/medicina-e-culto-as-tradicoes-duas-das-atividades-de-mario-sato/
+2025-05-22 02:56:36,875 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\32e000dcf0c23b6c2afca366b0952a14.html
+2025-05-22 02:56:36,916 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:56:36,917 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:56:36,917 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:56:36,917 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:36,917 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:56:36,917 - P17020 - INFO - Após processar URL 13 Uso de memória: 129.41 MB
+2025-05-22 02:56:36,918 - P17020 - INFO - Processando URL 14/23: https://www.saobernardo.sp.gov.br/documents/10181/46759/NM+1169+21_01_2003.pdf/6102858e-e7ce-4409-8137-2989d03c3e8d
+2025-05-22 02:56:36,918 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/46759/NM+1169+21_01_2003.pdf/6102858e-e7ce-4409-8137-2989d03c3e8d
+2025-05-22 02:56:36,918 - P17020 - INFO - Após processar URL 14 Uso de memória: 129.41 MB
+2025-05-22 02:56:36,918 - P17020 - INFO - Processando URL 15/23: https://www.cremesp.org.br/?siteAcao=DelegaciasRegionais&id=26
+2025-05-22 02:56:40,285 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4657657b8beb8f07f856d3aabe107e1c.html
+2025-05-22 02:56:40,300 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:56:40,301 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:56:40,301 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:56:40,301 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:40,301 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:56:40,301 - P17020 - INFO - Após processar URL 15 Uso de memória: 129.41 MB
+2025-05-22 02:56:40,301 - P17020 - INFO - Processando URL 16/23: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo513.pdf
+2025-05-22 02:56:40,302 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo513.pdf
+2025-05-22 02:56:40,302 - P17020 - INFO - Após processar URL 16 Uso de memória: 129.41 MB
+2025-05-22 02:56:40,302 - P17020 - INFO - Processando URL 17/23: https://www.doctoralia.com.br/mario-sato/medico-clinico-geral/assai
+2025-05-22 02:56:40,302 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/mario-sato/medico-clinico-geral/assai
+2025-05-22 02:56:40,302 - P17020 - INFO - Após processar URL 17 Uso de memória: 129.41 MB
+2025-05-22 02:56:40,302 - P17020 - INFO - Processando URL 18/23: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/22132
+2025-05-22 02:56:42,404 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\300c3b12f120ff614a7ea8a79b2258fc.html
+2025-05-22 02:56:42,423 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:56:42,424 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:56:42,424 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:56:42,424 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:42,424 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:56:42,424 - P17020 - INFO - Após processar URL 18 Uso de memória: 129.41 MB
+2025-05-22 02:56:42,425 - P17020 - INFO - Processando URL 19/23: https://applocal.com.br/empresa/mario-sato-medicina-jardim-namba/sao-paulo/sp/13072534
+2025-05-22 02:56:46,921 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ed6ca65c3af7a5d34df4e974c1f1dc9d.html
+2025-05-22 02:56:46,972 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:56:46,972 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:56:46,972 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:56:46,972 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:46,972 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:56:46,973 - P17020 - INFO - Após processar URL 19 Uso de memória: 129.42 MB
+2025-05-22 02:56:46,973 - P17020 - INFO - Processando URL 20/23: https://guiamedico.cremesp.org.br/
+2025-05-22 02:56:49,666 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 02:56:49,679 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:56:49,680 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:56:49,680 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:56:49,680 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:49,680 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:56:49,681 - P17020 - INFO - Após processar URL 20 Uso de memória: 129.42 MB
+2025-05-22 02:56:49,681 - P17020 - INFO - Processando URL 21/23: http://retinaevitreoconsul1.hospedagemdesites.ws/novosite/our-team/professor-dr-mario-teruo-sato/
+2025-05-22 02:56:53,048 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ad387e961200bd9ac49612e253e669ba.html
+2025-05-22 02:56:53,049 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:56:53,049 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:56:53,049 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:56:53,049 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:53,049 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:56:53,050 - P17020 - INFO - Após processar URL 21 Uso de memória: 129.42 MB
+2025-05-22 02:56:53,050 - P17020 - INFO - Processando URL 22/23: https://www.saobernardo.sp.gov.br/documents/10181/1598718/NM+2377+de+21.07.2023+-++Conte%C3%BAdo+Integral.pdf/a4187432-d1ec-c006-63d4-f49091328fc6
+2025-05-22 02:56:53,050 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1598718/NM+2377+de+21.07.2023+-++Conte%C3%BAdo+Integral.pdf/a4187432-d1ec-c006-63d4-f49091328fc6
+2025-05-22 02:56:53,051 - P17020 - INFO - Após processar URL 22 Uso de memória: 129.42 MB
+2025-05-22 02:56:53,051 - P17020 - INFO - Processando URL 23/23: https://hjsc.com.br/palavras-do-presidente-mario-sato/
+2025-05-22 02:56:58,608 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6b9eece57a40ab1754fed46c8ce179b4.html
+2025-05-22 02:56:58,681 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 02:56:58,681 - P17020 - INFO - Candidates phone: 9 items
+2025-05-22 02:56:58,682 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:56:58,682 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:58,682 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:56:58,682 - P17020 - INFO - Após processar URL 23 Uso de memória: 129.50 MB
+2025-05-22 02:56:58,682 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:56:58,683 - P17020 - INFO - Ranked address: 6 items
+2025-05-22 02:56:58,683 - P17020 - INFO - Ranked phone: 14 items
+2025-05-22 02:56:58,683 - P17020 - INFO - Ranked email: 5 items
+2025-05-22 02:56:58,683 - P17020 - INFO - Ranked complement: 0 items
+2025-05-22 02:56:58,683 - P17020 - INFO - Ranked cep: 8 items
+2025-05-22 02:56:58,684 - P17020 - INFO - Após agregação Uso de memória: 129.50 MB
+2025-05-22 02:56:58,684 - P17020 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Rua São Salvador, 107', 'Rua Engenheiro Affonso Bauer, 96']
+2025-05-22 02:56:58,684 - P17020 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 02:56:58,684 - P17020 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 02:56:58,685 - P17020 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 02:56:58,685 - P17020 - INFO - Validando telefone: ['(11) 4349-9900', '(21) 96432-0271', '0']
+2025-05-22 02:56:58,685 - P17020 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 02:56:58,685 - P17020 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 02:56:58,685 - P17020 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 02:56:58,686 - P17020 - INFO - Validando email: ['rbo@sboportal.org.br', 'rv.publicidade@uol.com.br', 'contato@guiadocnpj.com.br']
+2025-05-22 02:56:58,686 - P17020 - INFO - Limpando texto extenso para campo email: rbo@sboportal.org.br...
+2025-05-22 02:56:58,686 - P17020 - INFO - Texto limpo: rbo@sboportal.org.br
+2025-05-22 02:56:58,686 - P17020 - INFO - Email validado: rbo@sboportal.org.br
+2025-05-22 02:56:58,686 - P17020 - INFO - Descobrindo cidade
+2025-05-22 02:56:58,687 - P17020 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 02:57:01,416 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 02:57:01,416 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 02:57:01,416 - P17020 - INFO - Tempo de execução de processamento completo do médico: 75.60 segundos
+2025-05-22 02:57:01,417 - P17020 - INFO - Resultado processado: {'Hash': 'f47b3e82926239a256a94a9081b46e5d04b59a9bcd7cc060c2e0f4ea85d2a910', 'CRM': '22132', 'UF': 'SP', 'Firstname': 'MARIO', 'LastName': 'SATO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'rbo@sboportal.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:57:01,417 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 02:57:01,418 - P17020 - INFO - Após salvar resultados Uso de memória: 124.91 MB
+2025-05-22 02:57:01,418 - P17020 - INFO - Progresso: 37.1%
+2025-05-22 02:57:01,419 - P17020 - INFO - Tempo de execução de processamento do médico 3: 75.60 segundos
+2025-05-22 02:57:01,419 - P17020 - INFO - Tempo de execução de processamento do lote completo: 292.57 segundos

@@ -1,0 +1,484 @@
+2025-05-22 05:24:19,531 - P14756 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 05:24:19,531 - P14756 - INFO - Nome: RODRIGO DOS REIS CADIOLI
+2025-05-22 05:24:19,531 - P14756 - INFO - Reiniciando driver do Chrome
+2025-05-22 05:24:20,805 - P14756 - INFO - Após reiniciar driver Uso de memória: 126.96 MB
+2025-05-22 05:24:20,806 - P14756 - INFO - Início do processamento Uso de memória: 126.96 MB
+2025-05-22 05:24:20,806 - P14756 - INFO - Iniciando busca para: RODRIGO DOS REIS CADIOLI CRM 184072 SP telefone e-mail endereço
+2025-05-22 05:24:21,643 - P14756 - INFO - SearX results: 9 URLs
+2025-05-22 05:24:21,643 - P14756 - INFO - Após SearX Uso de memória: 126.96 MB
+2025-05-22 05:24:24,194 - P14756 - INFO - Google results: 0 URLs
+2025-05-22 05:24:24,195 - P14756 - INFO - Após Google Uso de memória: 126.96 MB
+2025-05-22 05:24:26,903 - P14756 - INFO - Bing results: 9 URLs
+2025-05-22 05:24:26,903 - P14756 - INFO - Após Bing Uso de memória: 127.99 MB
+2025-05-22 05:24:26,903 - P14756 - INFO - Total de URLs únicas: 9
+2025-05-22 05:24:26,904 - P14756 - INFO - Processando URL 1/9: https://www.vriconsulting.com.br/empresa.php?cnpj=27045663000189
+2025-05-22 05:24:31,259 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\61159f187059577af403368552e0f46f.html
+2025-05-22 05:24:31,324 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:24:31,324 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:24:31,324 - P14756 - INFO - Candidates email: 2 items
+2025-05-22 05:24:31,324 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 05:24:31,325 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 05:24:31,325 - P14756 - INFO - Após processar URL 1 Uso de memória: 127.99 MB
+2025-05-22 05:24:31,325 - P14756 - INFO - Processando URL 2/9: https://www.econodata.com.br/consulta-empresa/27045663000189-RODRIGO-DOS-REIS-CADIOLI
+2025-05-22 05:24:38,870 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\7b7fdc348800b1863d4b7eb1f0affe0d.html
+2025-05-22 05:24:38,995 - P14756 - INFO - Candidates address: 6 items
+2025-05-22 05:24:39,004 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:24:39,021 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:24:39,028 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:24:39,040 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:24:39,040 - P14756 - INFO - Após processar URL 2 Uso de memória: 128.25 MB
+2025-05-22 05:24:39,041 - P14756 - INFO - Processando URL 3/9: https://cnpj.biz/27045663000189
+2025-05-22 05:24:44,028 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\3674be1629ef7e931dc8be3cf0adbc38.html
+2025-05-22 05:24:44,048 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:24:44,050 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 05:24:44,051 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:24:44,052 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:24:44,055 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 05:24:44,066 - P14756 - INFO - Após processar URL 3 Uso de memória: 128.25 MB
+2025-05-22 05:24:44,068 - P14756 - INFO - Processando URL 4/9: https://www.medicosbrasil.com/profissional/rodrigo-dos-reis-cadioli
+2025-05-22 05:24:47,881 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\d175f9307bd9b660419bff873031610c.html
+2025-05-22 05:24:47,900 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:24:47,900 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:24:47,900 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:24:47,901 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:24:47,901 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:24:47,901 - P14756 - INFO - Após processar URL 4 Uso de memória: 128.25 MB
+2025-05-22 05:24:47,901 - P14756 - INFO - Processando URL 5/9: https://www.rodrigocadioli.com/
+2025-05-22 05:24:52,722 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\aabc5b2652d13f450fbf6231911f2562.html
+2025-05-22 05:24:52,859 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 05:24:52,860 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 05:24:52,860 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:24:52,860 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:24:52,860 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 05:24:52,860 - P14756 - INFO - Após processar URL 5 Uso de memória: 128.25 MB
+2025-05-22 05:24:52,861 - P14756 - INFO - Processando URL 6/9: https://cliniguia.com/profissionais/rodrigo-dos-reis-cadioli-706404158824281/
+2025-05-22 05:24:58,137 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\306dd75bc074765ae4ec02a05b78d1d0.html
+2025-05-22 05:24:58,186 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:24:58,186 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:24:58,186 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:24:58,187 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:24:58,187 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:24:58,187 - P14756 - INFO - Após processar URL 6 Uso de memória: 129.34 MB
+2025-05-22 05:24:58,188 - P14756 - INFO - Processando URL 7/9: https://www.locaisdobrasil.com.br/encontre/psiquiatra/campinas-sp/dr-rodrigo-cadioli/651bfddd075f005dac6cc473
+2025-05-22 05:25:08,041 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\9a4a113b97ec40c0a65ada8ff94187ba.html
+2025-05-22 05:25:08,061 - P14756 - INFO - Candidates address: 2 items
+2025-05-22 05:25:08,064 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 05:25:08,065 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:25:08,065 - P14756 - INFO - Candidates complement: 2 items
+2025-05-22 05:25:08,069 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 05:25:08,070 - P14756 - INFO - Após processar URL 7 Uso de memória: 128.02 MB
+2025-05-22 05:25:08,072 - P14756 - INFO - Processando URL 8/9: https://www.doctoralia.com.br/rodrigo-cadioli/psiquiatra/campinas
+2025-05-22 05:25:08,080 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/rodrigo-cadioli/psiquiatra/campinas
+2025-05-22 05:25:08,081 - P14756 - INFO - Após processar URL 8 Uso de memória: 128.02 MB
+2025-05-22 05:25:08,095 - P14756 - INFO - Processando URL 9/9: https://consultacrm.com.br/
+2025-05-22 05:25:10,254 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:25:10,266 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:25:10,267 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:25:10,267 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:25:10,267 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:25:10,267 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:25:10,268 - P14756 - INFO - Após processar URL 9 Uso de memória: 128.02 MB
+2025-05-22 05:25:10,268 - P14756 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:25:10,268 - P14756 - INFO - Ranked address: 9 items
+2025-05-22 05:25:10,268 - P14756 - INFO - Ranked phone: 3 items
+2025-05-22 05:25:10,268 - P14756 - INFO - Ranked email: 2 items
+2025-05-22 05:25:10,268 - P14756 - INFO - Ranked complement: 3 items
+2025-05-22 05:25:10,268 - P14756 - INFO - Ranked cep: 6 items
+2025-05-22 05:25:10,269 - P14756 - INFO - Após agregação Uso de memória: 128.02 MB
+2025-05-22 05:25:10,269 - P14756 - INFO - Validando endereço: ['Rua da Consolacao, 2302', 'Avenida Ataulfo de Paiva, 153', 'Rua Tocantins, 13']
+2025-05-22 05:25:10,269 - P14756 - INFO - Endereço validado: Rua da Consolacao, 2302
+2025-05-22 05:25:10,269 - P14756 - INFO - Limpando texto extenso para campo address: Rua da Consolacao, 2302...
+2025-05-22 05:25:10,269 - P14756 - INFO - Texto limpo: Rua da Consolacao, 2302
+2025-05-22 05:25:10,269 - P14756 - INFO - Validando telefone: ['(16) 3382-2245', '+55 14 98174-4909', '(19) 99108-9139']
+2025-05-22 05:25:10,269 - P14756 - INFO - Limpando texto extenso para campo phone: (16) 3382-2245...
+2025-05-22 05:25:10,270 - P14756 - INFO - Texto limpo: 16) 3382-2245
+2025-05-22 05:25:10,270 - P14756 - INFO - Telefone validado: 16) 3382-2245
+2025-05-22 05:25:10,270 - P14756 - INFO - Validando email: ['contato@vriConsulting.com.br', 'contato@vriconsulting.com.br']
+2025-05-22 05:25:10,270 - P14756 - INFO - Limpando texto extenso para campo email: contato@vriConsulting.com.br...
+2025-05-22 05:25:10,270 - P14756 - INFO - Texto limpo: contato@vriconsulting.com.br
+2025-05-22 05:25:10,270 - P14756 - INFO - Email validado: contato@vriconsulting.com.br
+2025-05-22 05:25:10,270 - P14756 - INFO - Validando complemento: ['Blocos e Registros\t\t\t\t\t\t\t\t\t\t ', 'Sala 1114 - Vila Itapura', 'Sala 1114 -  Vila Itapura ']
+2025-05-22 05:25:10,270 - P14756 - INFO - Limpando texto extenso para campo complement: Blocos e Registros										 ...
+2025-05-22 05:25:10,271 - P14756 - INFO - Texto limpo: Blocos e Registros
+2025-05-22 05:25:10,271 - P14756 - INFO - Complemento validado: Blocos e Registros
+2025-05-22 05:25:10,271 - P14756 - INFO - Descobrindo cidade
+2025-05-22 05:25:10,271 - P14756 - INFO - Buscando cidade: Rua da Consolacao cidade SP
+2025-05-22 05:25:12,728 - P14756 - WARNING - Cidade não encontrada
+2025-05-22 05:25:12,754 - P14756 - INFO - Cidade descoberta: 
+2025-05-22 05:25:12,791 - P14756 - INFO - Tempo de execução de processamento completo do médico: 51.98 segundos
+2025-05-22 05:25:12,802 - P14756 - INFO - Resultado processado: {'Hash': 'b00b9db75fa657f3f2748121819b29230590a4b6b400a5d977e9544fccffafdb', 'CRM': '184072', 'UF': 'SP', 'Firstname': 'RODRIGO', 'LastName': 'DOS REIS CADIOLI', 'Medical specialty': '', 'Endereco Completo A1': 'Rua da Consolacao, 2302', 'Address A1': 'Rua da Consolacao', 'Numero A1': '2302', 'Complement A1': 'Blocos e Registros', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '16) 3382-2245', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'contato@vriconsulting.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:25:12,804 - P14756 - INFO - Progresso: 88.7%
+2025-05-22 05:25:12,805 - P14756 - INFO - Executando coleta de lixo
+2025-05-22 05:25:12,892 - P14756 - INFO - Após coleta de lixo Uso de memória: 126.30 MB
+2025-05-22 05:25:12,893 - P14756 - INFO - Tempo de execução de processamento do médico 1: 53.36 segundos
+2025-05-22 05:25:12,893 - P14756 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 05:25:12,894 - P14756 - INFO - Nome: CAMILA DE OLIVEIRA SOUZA
+2025-05-22 05:25:12,894 - P14756 - INFO - Início do processamento Uso de memória: 126.30 MB
+2025-05-22 05:25:12,894 - P14756 - INFO - Iniciando busca para: CAMILA DE OLIVEIRA SOUZA CRM 184774 SP telefone e-mail endereço
+2025-05-22 05:25:13,869 - P14756 - INFO - SearX results: 12 URLs
+2025-05-22 05:25:13,869 - P14756 - INFO - Após SearX Uso de memória: 126.30 MB
+2025-05-22 05:25:16,441 - P14756 - INFO - Google results: 3 URLs
+2025-05-22 05:25:16,441 - P14756 - INFO - Após Google Uso de memória: 128.29 MB
+2025-05-22 05:25:18,872 - P14756 - INFO - Bing results: 10 URLs
+2025-05-22 05:25:18,872 - P14756 - INFO - Após Bing Uso de memória: 128.29 MB
+2025-05-22 05:25:18,872 - P14756 - INFO - Total de URLs únicas: 18
+2025-05-22 05:25:18,872 - P14756 - INFO - Processando URL 1/18: https://cliniguia.com/profissionais/camila-de-oliveira-souza-706607559552410/
+2025-05-22 05:25:27,186 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\4a8d500ca00a24470a5053f16f17c5b4.html
+2025-05-22 05:25:27,229 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:25:27,229 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:25:27,229 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:25:27,229 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:25:27,230 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:25:27,230 - P14756 - INFO - Após processar URL 1 Uso de memória: 129.01 MB
+2025-05-22 05:25:27,230 - P14756 - INFO - Processando URL 2/18: https://www.medicosbrasil.com/profissional/camila-oliveira-de-souza
+2025-05-22 05:25:29,435 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\f8ec2f9a37a26353e67f39da6967d150.html
+2025-05-22 05:25:29,437 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:25:29,439 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:25:29,440 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:25:29,441 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:25:29,441 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:25:29,442 - P14756 - INFO - Após processar URL 2 Uso de memória: 128.29 MB
+2025-05-22 05:25:29,442 - P14756 - INFO - Processando URL 3/18: https://ioepa.com.br/pages/2018/2018.05.29.DOE.pdf
+2025-05-22 05:25:29,443 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://ioepa.com.br/pages/2018/2018.05.29.DOE.pdf
+2025-05-22 05:25:29,443 - P14756 - INFO - Após processar URL 3 Uso de memória: 128.29 MB
+2025-05-22 05:25:29,443 - P14756 - INFO - Processando URL 4/18: https://www.consultasocio.com/q/sa/camila-de-souza-oliveira
+2025-05-22 05:25:34,669 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\2f3bb7aca14606882d5f6fbc9306788a.html
+2025-05-22 05:25:34,677 - P14756 - INFO - Candidates address: 5 items
+2025-05-22 05:25:34,677 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:25:34,677 - P14756 - INFO - Candidates email: 4 items
+2025-05-22 05:25:34,678 - P14756 - INFO - Candidates complement: 4 items
+2025-05-22 05:25:34,678 - P14756 - INFO - Candidates cep: 10 items
+2025-05-22 05:25:34,678 - P14756 - INFO - Após processar URL 4 Uso de memória: 128.29 MB
+2025-05-22 05:25:34,679 - P14756 - INFO - Processando URL 5/18: https://clinicadamama.com.br/medicos/dra-adriana-de-oliveira-souza/
+2025-05-22 05:25:39,918 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\a22a5f58d50e999adc2dae9638067145.html
+2025-05-22 05:25:39,955 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:25:39,955 - P14756 - INFO - Candidates phone: 2 items
+2025-05-22 05:25:39,955 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:25:39,955 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 05:25:39,955 - P14756 - INFO - Candidates cep: 3 items
+2025-05-22 05:25:39,956 - P14756 - INFO - Após processar URL 5 Uso de memória: 128.29 MB
+2025-05-22 05:25:39,956 - P14756 - INFO - Processando URL 6/18: https://www.boaconsulta.com/especialista/camila-de-oliveira-souza-6106d316a2e00a653a002f81
+2025-05-22 05:25:43,477 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\26f557a084b879ddd20772aa40dd3b38.html
+2025-05-22 05:25:43,564 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 05:25:43,565 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:25:43,570 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:25:43,571 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:25:43,572 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:25:43,573 - P14756 - INFO - Após processar URL 6 Uso de memória: 129.01 MB
+2025-05-22 05:25:43,573 - P14756 - INFO - Processando URL 7/18: https://www.boaconsulta.com/especialista/camila-yume-asato-shimabukuro-6106c630a2e00a5d84003bd6
+2025-05-22 05:25:46,858 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\ef27db73f1385711ffe7e9b7cc891176.html
+2025-05-22 05:25:46,927 - P14756 - INFO - Candidates address: 2 items
+2025-05-22 05:25:46,928 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:25:46,928 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:25:46,928 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:25:46,928 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:25:46,928 - P14756 - INFO - Após processar URL 7 Uso de memória: 129.77 MB
+2025-05-22 05:25:46,929 - P14756 - INFO - Processando URL 8/18: https://www.ioepa.com.br/pages/2018/2018.05.29.DOE.pdf
+2025-05-22 05:25:46,929 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2018/2018.05.29.DOE.pdf
+2025-05-22 05:25:46,929 - P14756 - INFO - Após processar URL 8 Uso de memória: 128.30 MB
+2025-05-22 05:25:46,929 - P14756 - INFO - Processando URL 9/18: https://cnpj.biz/37554132000175
+2025-05-22 05:25:49,101 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\939c104dde0a3a55c5d279bbe7b5177c.html
+2025-05-22 05:25:49,104 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:25:49,104 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:25:49,104 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:25:49,104 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:25:49,104 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:25:49,105 - P14756 - INFO - Após processar URL 9 Uso de memória: 128.30 MB
+2025-05-22 05:25:49,105 - P14756 - INFO - Processando URL 10/18: https://www.doctoralia.com.br/camila-souza-10/psiquiatra/fortaleza
+2025-05-22 05:25:49,105 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/camila-souza-10/psiquiatra/fortaleza
+2025-05-22 05:25:49,105 - P14756 - INFO - Após processar URL 10 Uso de memória: 128.30 MB
+2025-05-22 05:25:49,105 - P14756 - INFO - Processando URL 11/18: https://www.helpsaude.com/camila-de-oliveira-souza-crmsp-184774
+2025-05-22 05:25:55,139 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\319a6f00b873cf5345dfbc9a850cf8ca.html
+2025-05-22 05:25:55,149 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:25:55,149 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:25:55,149 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:25:55,149 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:25:55,149 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:25:55,150 - P14756 - INFO - Após processar URL 11 Uso de memória: 128.31 MB
+2025-05-22 05:25:55,150 - P14756 - INFO - Processando URL 12/18: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 05:25:58,924 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 05:25:58,966 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:25:58,966 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:25:58,967 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:25:58,967 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:25:58,967 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:25:58,967 - P14756 - INFO - Após processar URL 12 Uso de memória: 128.31 MB
+2025-05-22 05:25:58,967 - P14756 - INFO - Processando URL 13/18: https://www.medicosbrasil.com/profissional/camila-de-oliveira-souza
+2025-05-22 05:26:01,202 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\f76f3178e561958d978fc11a57d2830b.html
+2025-05-22 05:26:01,204 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:26:01,204 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:26:01,204 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:26:01,204 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:26:01,204 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:26:01,205 - P14756 - INFO - Após processar URL 13 Uso de memória: 128.31 MB
+2025-05-22 05:26:01,205 - P14756 - INFO - Processando URL 14/18: https://www.doctoranytime.com.br/d/nutricionista/camila-souza-2
+2025-05-22 05:26:01,205 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoranytime.com.br/d/nutricionista/camila-souza-2
+2025-05-22 05:26:01,205 - P14756 - INFO - Após processar URL 14 Uso de memória: 128.31 MB
+2025-05-22 05:26:01,205 - P14756 - INFO - Processando URL 15/18: https://guiamedico.cremesp.org.br/
+2025-05-22 05:26:05,701 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 05:26:05,707 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 05:26:05,707 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 05:26:05,707 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:26:05,707 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:26:05,708 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 05:26:05,708 - P14756 - INFO - Após processar URL 15 Uso de memória: 128.31 MB
+2025-05-22 05:26:05,708 - P14756 - INFO - Processando URL 16/18: https://www.doctoralia.com.br/camila-de-souza-oliveira/medico-clinico-geral/joinville
+2025-05-22 05:26:05,708 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/camila-de-souza-oliveira/medico-clinico-geral/joinville
+2025-05-22 05:26:05,708 - P14756 - INFO - Após processar URL 16 Uso de memória: 128.31 MB
+2025-05-22 05:26:05,708 - P14756 - INFO - Processando URL 17/18: https://cnpj.biz/45068986000170
+2025-05-22 05:26:07,858 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\7facbe81870f41c792fa4e34af2c8d3c.html
+2025-05-22 05:26:07,860 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:26:07,862 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:26:07,862 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:26:07,862 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:26:07,863 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:26:07,863 - P14756 - INFO - Após processar URL 17 Uso de memória: 128.31 MB
+2025-05-22 05:26:07,864 - P14756 - INFO - Processando URL 18/18: https://consultacrm.com.br/
+2025-05-22 05:26:11,569 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:26:11,594 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:26:11,594 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:26:11,595 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:26:11,595 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:26:11,595 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:26:11,595 - P14756 - INFO - Após processar URL 18 Uso de memória: 128.86 MB
+2025-05-22 05:26:11,595 - P14756 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:26:11,596 - P14756 - INFO - Ranked address: 9 items
+2025-05-22 05:26:11,596 - P14756 - INFO - Ranked phone: 3 items
+2025-05-22 05:26:11,596 - P14756 - INFO - Ranked email: 4 items
+2025-05-22 05:26:11,597 - P14756 - INFO - Ranked complement: 5 items
+2025-05-22 05:26:11,603 - P14756 - INFO - Ranked cep: 14 items
+2025-05-22 05:26:11,604 - P14756 - INFO - Após agregação Uso de memória: 128.86 MB
+2025-05-22 05:26:11,604 - P14756 - INFO - Validando endereço: ['Avenida Antonio Artioli, 570', 'Avenida Avenida Antonio Artioli, 570', 'Rua Joao Pereira De Oliveira, 96']
+2025-05-22 05:26:11,604 - P14756 - INFO - Endereço validado: Avenida Antonio Artioli, 570
+2025-05-22 05:26:11,604 - P14756 - INFO - Limpando texto extenso para campo address: Avenida Antonio Artioli, 570...
+2025-05-22 05:26:11,605 - P14756 - INFO - Texto limpo: Avenida Antonio Artioli, 570
+2025-05-22 05:26:11,605 - P14756 - INFO - Validando telefone: ['(61)%203213.6625', '(61) 3213-6625', '(11) 4349-9900']
+2025-05-22 05:26:11,606 - P14756 - INFO - Limpando texto extenso para campo phone: (61) 3213-6625...
+2025-05-22 05:26:11,606 - P14756 - INFO - Texto limpo: 61) 3213-6625
+2025-05-22 05:26:11,606 - P14756 - INFO - Telefone validado: 61) 3213-6625
+2025-05-22 05:26:11,607 - P14756 - INFO - Validando email: ['BPO@DIRECIONACONTABIL.COM.BR', 'RODRIGO@DIRECIONACONTABIL.COM.BR', 'CONTATO@FLYCAPITAL.COM.BR']
+2025-05-22 05:26:11,607 - P14756 - INFO - Limpando texto extenso para campo email: BPO@DIRECIONACONTABIL.COM.BR...
+2025-05-22 05:26:11,607 - P14756 - INFO - Texto limpo: bpo@direcionacontabil.com.br
+2025-05-22 05:26:11,608 - P14756 - INFO - Email validado: bpo@direcionacontabil.com.br
+2025-05-22 05:26:11,609 - P14756 - INFO - Validando complemento: ['Bloco F Vernier           Conj  223 B Swiss Park', 'Bloco F                   Conj  223 Swiss Park', 'Sala  2 Centro']
+2025-05-22 05:26:11,610 - P14756 - INFO - Limpando texto extenso para campo complement: Bloco F Vernier           Conj  223 B Swiss Park...
+2025-05-22 05:26:11,610 - P14756 - INFO - Texto limpo: Bloco F Vernier Conj
+2025-05-22 05:26:11,611 - P14756 - INFO - Complemento validado: Bloco F Vernier Conj
+2025-05-22 05:26:11,611 - P14756 - INFO - Descobrindo cidade
+2025-05-22 05:26:11,611 - P14756 - INFO - Buscando cidade: Avenida Antonio Artioli cidade SP
+2025-05-22 05:26:14,349 - P14756 - WARNING - Cidade não encontrada
+2025-05-22 05:26:14,349 - P14756 - INFO - Cidade descoberta: 
+2025-05-22 05:26:14,350 - P14756 - INFO - Tempo de execução de processamento completo do médico: 61.46 segundos
+2025-05-22 05:26:14,350 - P14756 - INFO - Resultado processado: {'Hash': 'd1bb5e0fe87a1127ec7984f3f6ed27bf28d7d46c733cf90a4ed0e8858323412c', 'CRM': '184774', 'UF': 'SP', 'Firstname': 'CAMILA', 'LastName': 'DE OLIVEIRA SOUZA', 'Medical specialty': '', 'Endereco Completo A1': 'Avenida Antonio Artioli, 570', 'Address A1': 'Avenida Antonio Artioli', 'Numero A1': '570', 'Complement A1': 'Bloco F Vernier Conj', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '61) 3213-6625', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'bpo@direcionacontabil.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:26:14,351 - P14756 - INFO - Progresso: 89.1%
+2025-05-22 05:26:14,351 - P14756 - INFO - Tempo de execução de processamento do médico 2: 61.46 segundos
+2025-05-22 05:26:14,351 - P14756 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 05:26:14,351 - P14756 - INFO - Nome: GERMANA VASCONCELOS MESQUITA MARTINIANO
+2025-05-22 05:26:14,351 - P14756 - INFO - Início do processamento Uso de memória: 126.32 MB
+2025-05-22 05:26:14,352 - P14756 - INFO - Iniciando busca para: GERMANA VASCONCELOS MESQUITA MARTINIANO CRM 185365 SP telefone e-mail endereço
+2025-05-22 05:26:15,225 - P14756 - INFO - SearX results: 9 URLs
+2025-05-22 05:26:15,226 - P14756 - INFO - Após SearX Uso de memória: 126.32 MB
+2025-05-22 05:26:17,891 - P14756 - INFO - Google results: 9 URLs
+2025-05-22 05:26:17,892 - P14756 - INFO - Após Google Uso de memória: 128.29 MB
+2025-05-22 05:26:20,398 - P14756 - INFO - Bing results: 10 URLs
+2025-05-22 05:26:20,398 - P14756 - INFO - Após Bing Uso de memória: 129.48 MB
+2025-05-22 05:26:20,399 - P14756 - INFO - Total de URLs únicas: 20
+2025-05-22 05:26:20,399 - P14756 - INFO - Processando URL 1/20: https://guiasaudebrasil.com.br/unidade/ceara/eusebio/9476458-clinica-medica-dra-germana-martiniano/profissionais
+2025-05-22 05:26:26,055 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\6dc1c607a7a6a9511c6503d2c9cc628d.html
+2025-05-22 05:26:26,065 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:26:26,065 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 05:26:26,065 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:26:26,065 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 05:26:26,066 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 05:26:26,066 - P14756 - INFO - Após processar URL 1 Uso de memória: 129.48 MB
+2025-05-22 05:26:26,066 - P14756 - INFO - Processando URL 2/20: https://www.boaconsulta.com/especialista/germana-vasconcelos-mesquita-martiniano-6105ff76a2e00a759700042c
+2025-05-22 05:26:28,839 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e03aecd7ae3337cac9fc1ebc598acb73.html
+2025-05-22 05:26:28,911 - P14756 - INFO - Candidates address: 14 items
+2025-05-22 05:26:28,911 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:26:28,911 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:26:28,911 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 05:26:28,912 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:26:28,912 - P14756 - INFO - Após processar URL 2 Uso de memória: 130.27 MB
+2025-05-22 05:26:28,912 - P14756 - INFO - Processando URL 3/20: https://www.bp.org.br/especialidades/cirurgia-vascular
+2025-05-22 05:26:36,705 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\06cb250e5bc62fde687447483f7b4f78.html
+2025-05-22 05:26:36,875 - P14756 - INFO - Candidates address: 3 items
+2025-05-22 05:26:36,876 - P14756 - INFO - Candidates phone: 3 items
+2025-05-22 05:26:36,876 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 05:26:36,876 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:26:36,876 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 05:26:36,876 - P14756 - INFO - Após processar URL 3 Uso de memória: 131.30 MB
+2025-05-22 05:26:36,876 - P14756 - INFO - Processando URL 4/20: https://www.lei13019.com.br/plano-de-trabalho-anexos/arquivo/202100110029_caderno_de_totalizacao___sta_casa_dez2021___2.pdf
+2025-05-22 05:26:36,877 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.lei13019.com.br/plano-de-trabalho-anexos/arquivo/202100110029_caderno_de_totalizacao___sta_casa_dez2021___2.pdf
+2025-05-22 05:26:36,877 - P14756 - INFO - Após processar URL 4 Uso de memória: 130.27 MB
+2025-05-22 05:26:36,877 - P14756 - INFO - Processando URL 5/20: https://dragermanamartiniano.com.br/
+2025-05-22 05:26:42,615 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\b8f52fcd7043a5cefa27217519f7b90d.html
+2025-05-22 05:26:42,625 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 05:26:42,625 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 05:26:42,625 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:26:42,625 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:26:42,626 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 05:26:42,626 - P14756 - INFO - Após processar URL 5 Uso de memória: 130.27 MB
+2025-05-22 05:26:42,626 - P14756 - INFO - Processando URL 6/20: https://cadastroempresa.com.br/cnpj/26.639.639/0001-05-clinica-medica-dra-germana-martiniano-clinica-medica-martiniano-ltda
+2025-05-22 05:26:45,470 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\a84e245a3e7434289f1f1a89e8dae303.html
+2025-05-22 05:26:45,498 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:26:45,498 - P14756 - INFO - Candidates phone: 2 items
+2025-05-22 05:26:45,498 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 05:26:45,498 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:26:45,499 - P14756 - INFO - Candidates cep: 3 items
+2025-05-22 05:26:45,499 - P14756 - INFO - Após processar URL 6 Uso de memória: 130.27 MB
+2025-05-22 05:26:45,499 - P14756 - INFO - Processando URL 7/20: https://www.researchgate.net/profile/Lorena-Martiniano
+2025-05-22 05:26:49,756 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\339b4ab32bfc445adb17580f00ffa5f2.html
+2025-05-22 05:26:49,818 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:26:49,819 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:26:49,819 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:26:49,819 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:26:49,819 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:26:49,819 - P14756 - INFO - Após processar URL 7 Uso de memória: 131.00 MB
+2025-05-22 05:26:49,819 - P14756 - INFO - Processando URL 8/20: https://advdinamico.com.br/empresas/26639639000105
+2025-05-22 05:26:52,595 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\338b576a2d3a241471909ecdd983aed8.html
+2025-05-22 05:26:52,609 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:26:52,609 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:26:52,610 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 05:26:52,610 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:26:52,610 - P14756 - INFO - Candidates cep: 10 items
+2025-05-22 05:26:52,611 - P14756 - INFO - Após processar URL 8 Uso de memória: 130.27 MB
+2025-05-22 05:26:52,611 - P14756 - INFO - Processando URL 9/20: https://germanabrito.com.br/
+2025-05-22 05:26:55,253 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\a8e047b55dc0b1d8c00d5e2289da4640.html
+2025-05-22 05:26:55,289 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 05:26:55,290 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 05:26:55,290 - P14756 - INFO - Candidates email: 2 items
+2025-05-22 05:26:55,290 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:26:55,290 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 05:26:55,291 - P14756 - INFO - Após processar URL 9 Uso de memória: 130.27 MB
+2025-05-22 05:26:55,291 - P14756 - INFO - Processando URL 10/20: https://www.doctoralia.com.br/germana-martiniano/medico-do-esporte/sao-paulo?utm_source=google&utm_medium=gmb&utm_campaign=102093
+2025-05-22 05:26:55,291 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/germana-martiniano/medico-do-esporte/sao-paulo?utm_source=google&utm_medium=gmb&utm_campaign=102093
+2025-05-22 05:26:55,291 - P14756 - INFO - Após processar URL 10 Uso de memória: 130.27 MB
+2025-05-22 05:26:55,291 - P14756 - INFO - Processando URL 11/20: https://cliniguia.com/profissionais/germana-vasconcelos-mesquita-martiniano-980016286682541/
+2025-05-22 05:26:59,947 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\3d0bfbb55499ec6e0d9461e8cfaa4f4c.html
+2025-05-22 05:26:59,984 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:26:59,984 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:26:59,985 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:26:59,985 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:26:59,985 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:26:59,985 - P14756 - INFO - Após processar URL 11 Uso de memória: 131.00 MB
+2025-05-22 05:26:59,985 - P14756 - INFO - Processando URL 12/20: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x18138375487279995296&market=pt-BR&src=SERPIC
+2025-05-22 05:27:04,222 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\5f9d2cb677c8ca40785178526f41afae.html
+2025-05-22 05:27:04,238 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 05:27:04,239 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 05:27:04,239 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:27:04,239 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:27:04,239 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 05:27:04,239 - P14756 - INFO - Após processar URL 12 Uso de memória: 130.27 MB
+2025-05-22 05:27:04,240 - P14756 - INFO - Processando URL 13/20: https://policlinsaude.com.br/gmpspdf/GUIA_MEDICO_REDE_PLUS_ESPECIAL_-_PLANOS_COL-IND-FAM.pdf
+2025-05-22 05:27:04,240 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://policlinsaude.com.br/gmpspdf/GUIA_MEDICO_REDE_PLUS_ESPECIAL_-_PLANOS_COL-IND-FAM.pdf
+2025-05-22 05:27:04,240 - P14756 - INFO - Após processar URL 13 Uso de memória: 130.27 MB
+2025-05-22 05:27:04,240 - P14756 - INFO - Processando URL 14/20: https://cnpj.biz/43928107000107
+2025-05-22 05:27:06,388 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\8f8e3f74b1863e761024d23dc23ce7bb.html
+2025-05-22 05:27:06,391 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:27:06,391 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:27:06,392 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:27:06,392 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:27:06,392 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:27:06,392 - P14756 - INFO - Após processar URL 14 Uso de memória: 130.27 MB
+2025-05-22 05:27:06,393 - P14756 - INFO - Processando URL 15/20: https://cnpj.biz/26639639000105
+2025-05-22 05:27:08,495 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\63127048996cdca55464c02a709a310f.html
+2025-05-22 05:27:08,497 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:27:08,497 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:27:08,497 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:27:08,497 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:27:08,497 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:27:08,498 - P14756 - INFO - Após processar URL 15 Uso de memória: 130.27 MB
+2025-05-22 05:27:08,498 - P14756 - INFO - Processando URL 16/20: https://empresasweb.net/emp/nucleo-gero-saude-e-medicina-ltda-43928107
+2025-05-22 05:27:11,576 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\8bcfa32841475692ca09d3a501eb1221.html
+2025-05-22 05:27:11,591 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:27:11,591 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 05:27:11,591 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 05:27:11,591 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:27:11,591 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 05:27:11,592 - P14756 - INFO - Após processar URL 16 Uso de memória: 130.27 MB
+2025-05-22 05:27:11,592 - P14756 - INFO - Processando URL 17/20: https://www.descubraonline.com/guia/sp/sao-paulo/clinica-medica-dra-germana-martiniano-26639639000105/
+2025-05-22 05:27:16,926 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\2b052ebfa65ed466128b0392a7b1c85b.html
+2025-05-22 05:27:16,969 - P14756 - INFO - Candidates address: 2 items
+2025-05-22 05:27:16,969 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 05:27:16,970 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 05:27:16,970 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:27:16,970 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 05:27:16,970 - P14756 - INFO - Após processar URL 17 Uso de memória: 130.27 MB
+2025-05-22 05:27:16,970 - P14756 - INFO - Processando URL 18/20: https://www.econodata.com.br/consulta-empresa/26639639000105-CLINICA-MEDICA-MARTINIANO-LTDA
+2025-05-22 05:27:21,205 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\b80ed4a28c789c2216dce3aae4330fcf.html
+2025-05-22 05:27:21,371 - P14756 - INFO - Candidates address: 26 items
+2025-05-22 05:27:21,371 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:27:21,371 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:27:21,371 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:27:21,372 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 05:27:21,372 - P14756 - INFO - Após processar URL 18 Uso de memória: 131.11 MB
+2025-05-22 05:27:21,372 - P14756 - INFO - Processando URL 19/20: https://www.consultascnpj.com/clinica-medica-martiniano-ltda/26639639000105
+2025-05-22 05:27:24,440 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\67cca7586094e0eeec277e7b08e9e711.html
+2025-05-22 05:27:24,456 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:27:24,456 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 05:27:24,456 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 05:27:24,456 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:27:24,457 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 05:27:24,458 - P14756 - INFO - Após processar URL 19 Uso de memória: 130.27 MB
+2025-05-22 05:27:24,459 - P14756 - INFO - Processando URL 20/20: https://consultacrm.com.br/
+2025-05-22 05:27:28,181 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:27:28,192 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 05:27:28,193 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 05:27:28,193 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 05:27:28,193 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 05:27:28,193 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 05:27:28,193 - P14756 - INFO - Após processar URL 20 Uso de memória: 130.27 MB
+2025-05-22 05:27:28,194 - P14756 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:27:28,194 - P14756 - INFO - Ranked address: 47 items
+2025-05-22 05:27:28,194 - P14756 - INFO - Ranked phone: 11 items
+2025-05-22 05:27:28,194 - P14756 - INFO - Ranked email: 7 items
+2025-05-22 05:27:28,194 - P14756 - INFO - Ranked complement: 2 items
+2025-05-22 05:27:28,195 - P14756 - INFO - Ranked cep: 20 items
+2025-05-22 05:27:28,195 - P14756 - INFO - Após agregação Uso de memória: 130.27 MB
+2025-05-22 05:27:28,195 - P14756 - INFO - Validando endereço: ['Rua Joaquim Floriano, 871', 'Rua Augusto Tolle, 901', 'Rua Borges Lagoa, 564']
+2025-05-22 05:27:28,195 - P14756 - INFO - Endereço validado: Rua Joaquim Floriano, 871
+2025-05-22 05:27:28,196 - P14756 - INFO - Limpando texto extenso para campo address: Rua Joaquim Floriano, 871...
+2025-05-22 05:27:28,196 - P14756 - INFO - Texto limpo: Rua Joaquim Floriano, 871
+2025-05-22 05:27:28,196 - P14756 - INFO - Validando telefone: ['(31) 3029-5200', '(85) 2181-5963', '(11) 3505-1000']
+2025-05-22 05:27:28,196 - P14756 - INFO - Limpando texto extenso para campo phone: (31) 3029-5200...
+2025-05-22 05:27:28,196 - P14756 - INFO - Texto limpo: 31) 3029-5200
+2025-05-22 05:27:28,196 - P14756 - INFO - Telefone validado: 31) 3029-5200
+2025-05-22 05:27:28,197 - P14756 - INFO - Validando email: ['ge@dragermanamartiniano.com.br', 'ouvidoria@bp.org.br', 'GE@DRAGERMANAMARTINIANO.COM.BR']
+2025-05-22 05:27:28,197 - P14756 - INFO - Limpando texto extenso para campo email: ge@dragermanamartiniano.com.br...
+2025-05-22 05:27:28,197 - P14756 - INFO - Texto limpo: ge@dragermanamartiniano.com.br
+2025-05-22 05:27:28,197 - P14756 - INFO - Email validado: ge@dragermanamartiniano.com.br
+2025-05-22 05:27:28,197 - P14756 - INFO - Validando complemento: ['Sala 66 A Bairro:  Coacu CEP:  61760-000 Municipio:  E', 'Conjunto 204']
+2025-05-22 05:27:28,197 - P14756 - INFO - Limpando texto extenso para campo complement: Sala 66 A Bairro:  Coacu CEP:  61760-000 Municipio...
+2025-05-22 05:27:28,198 - P14756 - INFO - Texto limpo: Sala 66 A Bairro: Coacu CEP:
+2025-05-22 05:27:28,198 - P14756 - INFO - Complemento validado: Sala 66 A Bairro: Coacu CEP:
+2025-05-22 05:27:28,198 - P14756 - INFO - Descobrindo cidade
+2025-05-22 05:27:28,198 - P14756 - INFO - Buscando cidade: Rua Joaquim Floriano cidade SP
+2025-05-22 05:27:30,806 - P14756 - INFO - Cidade encontrada: São Paulo
+2025-05-22 05:27:30,807 - P14756 - INFO - Limpando texto extenso para campo city: São Paulo...
+2025-05-22 05:27:30,807 - P14756 - INFO - Texto limpo: São Paulo
+2025-05-22 05:27:30,807 - P14756 - INFO - Cidade descoberta: São Paulo
+2025-05-22 05:27:30,808 - P14756 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 05:27:30,809 - P14756 - INFO - Iniciando busca de CEP em cascata para: Rua Joaquim Floriano, São Paulo, SP
+2025-05-22 05:27:30,810 - P14756 - INFO - Método 1: ViaCEP API
+2025-05-22 05:27:30,812 - P14756 - INFO - Dados encontrados no cache: {'cep': '04534-901', 'logradouro': 'Rua Joaquim Floriano', 'complemento': '397', 'unidade': 'Edifício Fuad Lutfala', 'bairro': 'Itaim Bibi', 'localidade': 'São Paulo', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3550308', 'gia': '1004', 'ddd': '11', 'siafi': '7107'}
+2025-05-22 05:27:30,813 - P14756 - INFO - CEP encontrado via ViaCEP: 04534-901
+2025-05-22 05:27:30,813 - P14756 - INFO - Dados de CEP encontrados: {'cep': '04534-901', 'logradouro': 'Rua Joaquim Floriano', 'complemento': '397', 'unidade': 'Edifício Fuad Lutfala', 'bairro': 'Itaim Bibi', 'localidade': 'São Paulo', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3550308', 'gia': '1004', 'ddd': '11', 'siafi': '7107'}
+2025-05-22 05:27:30,813 - P14756 - INFO - Limpando texto extenso para campo bairro: Itaim Bibi...
+2025-05-22 05:27:30,813 - P14756 - INFO - Texto limpo: Itaim Bibi
+2025-05-22 05:27:30,813 - P14756 - INFO - Limpando texto extenso para campo city: São Paulo...
+2025-05-22 05:27:30,814 - P14756 - INFO - Texto limpo: São Paulo
+2025-05-22 05:27:30,814 - P14756 - INFO - Limpando texto extenso para campo state: SP...
+2025-05-22 05:27:30,814 - P14756 - INFO - Texto limpo: SP
+2025-05-22 05:27:30,814 - P14756 - INFO - Tempo de execução de processamento completo do médico: 76.46 segundos
+2025-05-22 05:27:30,815 - P14756 - INFO - Resultado processado: {'Hash': '16d2cfdefd3c2619c863dfdf29c6bae161401b49074f9df5570d23b847d26add', 'CRM': '185365', 'UF': 'SP', 'Firstname': 'GERMANA', 'LastName': 'VASCONCELOS MESQUITA MARTINIANO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Joaquim Floriano, 871', 'Address A1': 'Rua Joaquim Floriano', 'Numero A1': '871', 'Complement A1': 'Sala 66 A Bairro: Coacu CEP:', 'Bairro A1': 'Itaim Bibi', 'postal code A1': '04534-901', 'City A1': 'São Paulo', 'State A1': 'SP', 'Phone A1': '31) 3029-5200', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'ge@dragermanamartiniano.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:27:30,815 - P14756 - INFO - Salvando lote de resultados
+2025-05-22 05:27:30,816 - P14756 - INFO - Após salvar resultados Uso de memória: 127.11 MB
+2025-05-22 05:27:30,816 - P14756 - INFO - Progresso: 89.6%
+2025-05-22 05:27:30,817 - P14756 - INFO - Tempo de execução de processamento do médico 3: 76.47 segundos
+2025-05-22 05:27:30,817 - P14756 - INFO - Tempo de execução de processamento do lote completo: 191.29 segundos

@@ -1,0 +1,203 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script language="javascript">
+// valida e-mail
+function Valida_mail(campo,div) {
+
+
+	if (document.getElementById(campo).value != "") {
+		
+		if (document.getElementById(campo).value.search(/^\w+((-\w+)|(\.\w+))*\@\w+((\.|-)\w+)*\.\w+$/) == -1) {
+			if(div){
+				document.getElementById(div).innerHTML = "<img src='https://www.cremesp.org.br/Templates/v200901/images/ico_correto.gif'>";
+			}
+			document.getElementById(campo).style.borderColor = "#FF0000";
+			document.getElementById(campo).style.backgroundImage = "none";
+			return false;
+		} else {
+			if(div){
+				document.getElementById(div).innerHTML = "<img src='https://www.cremesp.org.br/Templates/v200901/images/ico_correto.gif'>";
+			}
+			document.getElementById(campo).style.borderColor = "#7BB33A";
+			document.getElementById(campo).style.backgroundImage = "url(Templates/v200901/images/ico_correto.gif)";
+			document.getElementById(campo).style.backgroundRepeat="no-repeat";
+			document.getElementById(campo).style.backgroundPosition="center right";
+			document.getElementById(campo).style.paddingRight="15px";
+			return true;
+		}
+	} else {
+			if(div){
+		 		document.getElementById(div).innerHTML = "";
+			}
+			document.getElementById(campo).style.borderColor = "#CCCCCC";
+			document.getElementById(campo).style.backgroundImage = "none";
+			return false;
+	}
+}
+</script>
+<script language="JavaScript">
+function SomenteNumero(e){
+    var tecla=(window.event)?event.keyCode:e.which;
+    if((tecla > 47 && tecla < 58)) return true;
+    else{
+    if (tecla != 8 && tecla!=0) return false;
+    else return true;
+    }
+}
+//exemplo de uso
+//<input type='text' onkeypress='return SomenteNumero(event)'>
+</script>
+       
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>CREMESP - Conselho Regional de Medicina do Estado de São Paulo</title>
+<link rel="stylesheet" href="/Templates/v201108/css/style.min.css" type="text/css">
+<link rel="shortcut icon" href="/Templates/v201108/crm.ico" type="image/x-icon">
+<script type="text/javascript" src="/Templates/v201108/js/jquery_1.6.1.js"></script>
+<script type="text/javascript" src="/Templates/v201108/js/tinydropdown.min.js"></script>
+<script type="text/javascript" src="/Templates/v201108/js/scripts.min.js"></script>
+<script type="text/javascript">
+//mapeamento do google não remover
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23291907-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+//-----------------------------------------------------------
+</script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-DJ0N9KCXK3"></script>
+<script>
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-DJ0N9KCXK3');
+</script>
+</head>
+<body>
+<noscript>
+<div align='center'>
+  <div id='sem_javascript'><span>Aten&ccedil;&atilde;o!</span> <br />
+    O seu navegador est&aacute; com <b>javascript desativado</b> ou n&atilde;o possui suporte ao recurso. <br />
+    Alguns recursos de navega&ccedil;&atilde;o podem n&atilde;o funcionar corretamente. </div>
+</div>
+</noscript>
+<div align="center" id="top_menu">
+  <div class="noPrint" id="top_menu_container">
+    <ul id="menu" class="menu">
+      <li><a href="#">Institucional</a>
+        <ul>
+          <li><a href="?siteAcao=Historia">Quem Somos</a></li>
+          <li><a href="?siteAcao=Diretoria">Diretoria</a></li>
+          <li><a href="?siteAcao=Plenaria">Conselheiros</a></li>
+          <li><a href="?siteAcao=DelegaciasRegionais">Regionais do Cremesp</a></li>
+          <li><a href="?siteAcao=CamaraTecnica&amp;tipo=E">Câmaras do Cremesp</a></li>
+          <li><a href="?siteAcao=Agenda">Agenda dos conselheiros</a></li>
+          <li><a href="https://transparencia.cremesp.org.br/?siteAcao=protecao_dados">Proteção de Dados</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Serviços</a>
+        <ul>
+          <li><a href="https://www.cremesp.org.br/?siteAcao=AreaDaEmpresa" target="_blank">Área da empresa</a></li>
+          <li><a href="https://www.cremesp.org.br/?siteAcao=AreaDoMedico" target="_blank">Área do médico</a></li>
+          <li><a href="?siteAcao=GuiaMedico&amp;pesquisa=avancada">Pesquisar médicos</a></li>
+          <li><a href="?siteAcao=ServicosMedicos">Serviços aos médicos</a></li>
+          <li><a href="?siteAcao=ServicosEmpresas">Serviços às empresas</a></li>
+          <li><a href="https://www.cremesp.org.br/?siteAcao=DefensoresDativos">Defensores Dativos</a></li>
+          <li><a href="?siteAcao=Editais">Editais</a></li>
+          <li><a href="?siteAcao=CanalCidadao">Cidadão</a></li>
+          <li><a href="?siteAcao=PreInscricoes">Inscrições</a></li>
+          <!--li><a href='?siteAcao=SessaoSolene'>Entrega de CRM</a></li-->
+          <li><a href="http://webmail.cremesp.org.br/">Webmail</a></li>
+        </ul>
+      </li>
+      <li><a href="https://www.cremesp.org.br/?siteAcao=BibliotecaLegislacao">Legislação</a>
+      </li>
+      <li><a href="#">Transparência</a>
+        <ul style="width: 250px;">
+        <li style="border-top: 1px solid #fff; width:100%; text-align:center"><a style="width: 250px;" href="https://transparencia.cremesp.org.br">Transparência e prestação de contas</a></li>
+          <li style="border-top: 1px solid #fff; width:100%; text-align:center"><a style="width: 250px;" href="?siteAcao=CalendarioAdm">Calendário administrativo</a></li>
+          <!--li><a href='?siteAcao=ContasPublicas'>Contas p&uacute;blicas</a></li>
+          <li><a href='?siteAcao=Licitacoes'>Licita&ccedil;&otilde;es</a></li>
+          <li><a href='?siteAcao=ConcursoPublico'>Concurso p&uacute;blico</a></li-->
+          <li style="border-top: 1px solid #fff; width:100%; text-align:center"><a style="width: 250px;" href="/library/modulos/legislacao/versao_impressao.php?id=21353&amp;versao=integra" target="_blank">Ato administrativo</a></li>
+          <!--li><a href='?siteAcao=PlanoCargos'>PCS dos Funcion&aacute;rios</a></li-->
+        </ul>
+      </li>
+      <li><a href="#">Links</a>
+        <ul>
+          <li>
+            <a href="?siteAcao=cid10">
+              <!--href='http://www.datasus.gov.br/cid10/V2008/cid10.htm' target='_blank'-->
+              CID 10
+            </a>
+          </li>
+          <li><a href="http://portal.anvisa.gov.br/farmacopeia-brasileira" target="_blank">Farmacopeia brasileira</a></li>
+          <li><a href="http://portal.anvisa.gov.br/notivisa" target="_blank">Notivisa</a></li>
+          <li><a href="?siteAcao=OutrosLinks" target="_blank">Veja +</a></li>
+        </ul>
+      </li>
+    </ul>
+    <script type="text/javascript">var dropdown=new TINY.dropdown.init('dropdown', {id:'menu', active:'menuhover'});</script> 
+  </div>
+</div>
+<div id="header_top_menu_bottom"></div>
+<div align="center">
+  <div align="left" id="main_container">
+    <div class="noPrint" id="header">
+  <div style="position:absolute; margin:108px 0 0 522px">
+    <ul id="header_section_button">
+      <li style="background-color: #afd8b5"> <a href="http://www.bioetica.org.br" targe="_blank"><strong>BIOÉTICA</strong></a> </li>
+      <li style="background-color:#e0a477"> <a href="/?siteAcao=BibliotecaCRM"><strong>BIBLIOTECA</strong></a> </li>
+      <li style="background-color: #91ae56"> <a href="/?siteAcao=AgendaEventos"><strong>EVENTOS</strong></a> </li>
+      <li style="background-color:#9f9572"> <a href="/?siteAcao=MedicinaEmFoco"><strong>ARTIGOS</strong></a> </li>
+      <li style="background-color:#ec5b5b"> <a href="/?siteAcao=Imprensa"><strong>IMPRENSA</strong></a> </li>
+      <li style="background-color: #9a9a9a"> <a href="/?siteAcao=Contatos"><strong>CONTATOS</strong></a> </li>
+    </ul>
+  </div>
+  <!-- 02/09/2021 -  Todos os selos foram movidos para o footer da pagina -  SDC-12740 -->
+  
+  <!-- <div id="iso9001_vanzolini"><img src="/Templates/v201108/images/iso_9001_vanzolini.gif" width="88" height="62" alt="ISO 9001" /></div> -->
+  <a href="/"> <img src="/Templates/v201108/images/logo-cremesp.png" alt="CREMESP" title="CREMESP - Conselho Regional de Medicina do Estado de São Paulo" id="logo_top" height="70px" width=""> </a>
+  <div style="float:right; padding-right:10px; margin-top:20px"> <a href="http://www.facebook.com/?ref=logo#!/pages/CREMESP-Conselho-Regional-de-Medicina-do-Estado-de-S%C3%A3o-Paulo/247267831967026" target="_blank"><img src="/Templates/v201108/images/ico_header_facebook.gif" width="28" height="28" alt="Facebook"></a> <a href="https://br.linkedin.com/company/cremesp" target="_blank"><img src="/Templates/v201108/images/ico_header_linkedin.gif" width="28" height="28" alt="LinkedIn"></a> <a href="https://www.instagram.com/cremesp_crm/?hl=pt-br" target="_blank"><img src="/Templates/v201108/images/ico_header_instagram.gif" width="28" height="28" alt="Instagram"></a> <a href="https://twitter.com/cremesp_crm" target="_blank"><img src="/Templates/v201108/images/ico_header_twitter.gif" width="28" height="28" alt="Twitter"></a> <a href="https://www.youtube.com/channel/UCFOAzz5og50J0jwRBoAoR5Q/featured" target="_blank"><img src="/Templates/v201108/images/ico_header_youtube.gif" width="28" height="28" alt="Youtube"></a> <a href="https://flickr.com/photos/cremesp/albums" target="_blank"><img src="/Templates/v201108/images/ico_header_flickr.gif" width="28" height="28" alt="Flickr"></a> </div>
+  <br style="clear:both">
+  <div style="float:right; padding-right:10px; margin-top:15px">
+    <form action="/pesquisar.php" method="get" name="formHeaderPesquisar" id="searchbox_004922888165698411403:9ye_t7p51gk">
+      <input style="width:230px; height:20px; padding-left:5px" name="q" type="text" maxlength="100" id="header_pesquisar_box" value="" placeholder="Pesquisar">
+      <a style="padding:5px; background-color: #666; color: #fff; text-decoration:none; cursor:pointer" onclick="document.formHeaderPesquisar.submit()"> OK </a>
+    </form>
+  </div>
+</div>
+<div id="header_shadow_bottom"> </div>
+    <div style="padding:10px">
+      <h1>Fale Conosco</h1><br>
+
+     <style>
+	.divRespostaRequest {
+		background-color: #FFFFBF;
+		padding: 2%;
+		border: solid 1px red;
+		border-radius: 5px;
+		margin: 10px;
+		font-size: medium;
+		text-align: justify;
+		text-justify: inter-word;
+		width: 77%;
+	}
+</style>
+<script charset="utf-8" type="text/javascript" language="javascript" src="/resources/lib/jquery/jquery.js"></script>
+	<div class="divRespostaRequest">
+		Acesse pela pagina inicial do site, menu <b>CONTATOS</b>.
+	</div>
+	<form id="frmRetornarAoPortal" action="./" method="get"></form>
+	<script>
+		setTimeout(function() {
+			$("#frmRetornarAoPortal").submit()
+		}, 2000);
+	</script>
+	</div></div></div></body></html>

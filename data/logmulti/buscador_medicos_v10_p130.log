@@ -1,0 +1,587 @@
+2025-05-22 02:40:18,523 - P17020 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 02:40:18,524 - P17020 - INFO - Nome: ABCAEL MARTINS SANTOS ALVES
+2025-05-22 02:40:18,524 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 02:40:19,760 - P17020 - INFO - Após reiniciar driver Uso de memória: 125.84 MB
+2025-05-22 02:40:19,760 - P17020 - INFO - Início do processamento Uso de memória: 125.84 MB
+2025-05-22 02:40:19,761 - P17020 - INFO - Iniciando busca para: ABCAEL MARTINS SANTOS ALVES CRM 50281 RS telefone e-mail endereço
+2025-05-22 02:40:20,526 - P17020 - INFO - SearX results: 10 URLs
+2025-05-22 02:40:20,527 - P17020 - INFO - Após SearX Uso de memória: 125.85 MB
+2025-05-22 02:40:23,061 - P17020 - INFO - Google results: 15 URLs
+2025-05-22 02:40:23,062 - P17020 - INFO - Após Google Uso de memória: 127.00 MB
+2025-05-22 02:40:25,768 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 02:40:25,768 - P17020 - INFO - Após Bing Uso de memória: 127.19 MB
+2025-05-22 02:40:25,768 - P17020 - INFO - Total de URLs únicas: 28
+2025-05-22 02:40:25,768 - P17020 - INFO - Processando URL 1/28: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2012/03/do_20120329_2083.pdf
+2025-05-22 02:40:25,768 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2012/03/do_20120329_2083.pdf
+2025-05-22 02:40:25,769 - P17020 - INFO - Após processar URL 1 Uso de memória: 127.19 MB
+2025-05-22 02:40:25,769 - P17020 - INFO - Processando URL 2/28: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1078621344.pdf
+2025-05-22 02:40:25,769 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1078621344.pdf
+2025-05-22 02:40:25,769 - P17020 - INFO - Após processar URL 2 Uso de memória: 127.19 MB
+2025-05-22 02:40:25,769 - P17020 - INFO - Processando URL 3/28: https://cremers.org.br/medicos-ativos/
+2025-05-22 02:40:32,932 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\777397bf998db710dbfefead0cd8d042.html
+2025-05-22 02:40:33,048 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:40:33,049 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:40:33,049 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:40:33,050 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:40:33,050 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:40:33,050 - P17020 - INFO - Após processar URL 3 Uso de memória: 127.21 MB
+2025-05-22 02:40:33,050 - P17020 - INFO - Processando URL 4/28: https://crmsc.org.br/vistos-provisorios1/
+2025-05-22 02:40:36,269 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\546dd7a4bd74b20b2ceb9e723ef13f21.html
+2025-05-22 02:40:36,319 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:40:36,319 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:40:36,319 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 02:40:36,319 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 02:40:36,319 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:40:36,320 - P17020 - INFO - Após processar URL 4 Uso de memória: 127.55 MB
+2025-05-22 02:40:36,320 - P17020 - INFO - Processando URL 5/28: https://www.medicosbrasil.com/profissional/maria-fernanda-azevedo-santos-alves
+2025-05-22 02:40:39,771 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5171d9f85f87b0b6cdd49ee0c6fbe690.html
+2025-05-22 02:40:39,797 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:40:39,797 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:40:39,797 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:40:39,798 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:40:39,798 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:40:39,798 - P17020 - INFO - Após processar URL 5 Uso de memória: 129.14 MB
+2025-05-22 02:40:39,798 - P17020 - INFO - Processando URL 6/28: https://consultacrm.com.br/
+2025-05-22 02:40:43,198 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:40:43,209 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:40:43,209 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:40:43,209 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:40:43,209 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:40:43,210 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:40:43,210 - P17020 - INFO - Após processar URL 6 Uso de memória: 127.45 MB
+2025-05-22 02:40:43,210 - P17020 - INFO - Processando URL 7/28: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/b/d/6/bd6d55a6ed7002c93440474ec77ccfc604799a6c1fc7f04c99e40f5efca2dac4/f353d13f-89bb-4dde-ae99-5bdaf86ccba7-19098-DOE_17179_24_06_2003_28F.pdf
+2025-05-22 02:40:43,211 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/b/d/6/bd6d55a6ed7002c93440474ec77ccfc604799a6c1fc7f04c99e40f5efca2dac4/f353d13f-89bb-4dde-ae99-5bdaf86ccba7-19098-DOE_17179_24_06_2003_28F.pdf
+2025-05-22 02:40:43,212 - P17020 - INFO - Após processar URL 7 Uso de memória: 127.45 MB
+2025-05-22 02:40:43,212 - P17020 - INFO - Processando URL 8/28: https://sistemadje.tjmt.jus.br/publicacoes/8340-2010.pdf
+2025-05-22 02:40:43,212 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/8340-2010.pdf
+2025-05-22 02:40:43,212 - P17020 - INFO - Após processar URL 8 Uso de memória: 127.45 MB
+2025-05-22 02:40:43,213 - P17020 - INFO - Processando URL 9/28: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 02:40:46,516 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 02:40:46,527 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:40:46,527 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:40:46,527 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:40:46,527 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:40:46,527 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:40:46,527 - P17020 - INFO - Após processar URL 9 Uso de memória: 127.46 MB
+2025-05-22 02:40:46,528 - P17020 - INFO - Processando URL 10/28: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1595727998.pdf
+2025-05-22 02:40:46,528 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1595727998.pdf
+2025-05-22 02:40:46,528 - P17020 - INFO - Após processar URL 10 Uso de memória: 127.46 MB
+2025-05-22 02:40:46,528 - P17020 - INFO - Processando URL 11/28: https://gastrogerais.com.br/equipe/joao-paulo-santos-alves
+2025-05-22 02:40:55,647 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\01737c83eb2e2abc8849a7fca06dcde5.html
+2025-05-22 02:40:55,673 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:40:55,674 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:40:55,674 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:40:55,674 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:40:55,674 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:40:55,674 - P17020 - INFO - Após processar URL 11 Uso de memória: 127.48 MB
+2025-05-22 02:40:55,675 - P17020 - INFO - Processando URL 12/28: https://www.escavador.com/sobre/277656415/abcael-martins-santos-alves
+2025-05-22 02:40:59,769 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4ac169a9bf15525f3ebd2c1cdfa26727.html
+2025-05-22 02:40:59,798 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:40:59,800 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:40:59,800 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:40:59,800 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:40:59,800 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:40:59,801 - P17020 - INFO - Após processar URL 12 Uso de memória: 127.95 MB
+2025-05-22 02:40:59,801 - P17020 - INFO - Processando URL 13/28: https://cnpj.biz/46527740000181
+2025-05-22 02:41:04,903 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\be751ef2a432653e022f702eefeb0bd9.html
+2025-05-22 02:41:04,925 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 02:41:04,925 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:41:04,925 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:41:04,925 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:41:04,926 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 02:41:04,926 - P17020 - INFO - Após processar URL 13 Uso de memória: 128.04 MB
+2025-05-22 02:41:04,926 - P17020 - INFO - Processando URL 14/28: http://www3.maringa.pr.gov.br/construtor/arquivos/070823141452_edital_05_eleicao_conselho_tutelar__resultado_prova_escrita_pdf.pdf
+2025-05-22 02:41:04,927 - P17020 - INFO - Ignorando URL de arquivo não-HTML: http://www3.maringa.pr.gov.br/construtor/arquivos/070823141452_edital_05_eleicao_conselho_tutelar__resultado_prova_escrita_pdf.pdf
+2025-05-22 02:41:04,927 - P17020 - INFO - Após processar URL 14 Uso de memória: 128.04 MB
+2025-05-22 02:41:04,928 - P17020 - INFO - Processando URL 15/28: https://docs.trt10.jus.br/docs/pub/pub000000503.pdf
+2025-05-22 02:41:04,928 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://docs.trt10.jus.br/docs/pub/pub000000503.pdf
+2025-05-22 02:41:04,928 - P17020 - INFO - Após processar URL 15 Uso de memória: 128.04 MB
+2025-05-22 02:41:04,928 - P17020 - INFO - Processando URL 16/28: https://www.boaconsulta.com/especialista/abcael-martins-santos-alves-6105797d9b22ae00a1001b98
+2025-05-22 02:41:08,464 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ea96382bdd0b079915e688b3554cd349.html
+2025-05-22 02:41:08,534 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 02:41:08,534 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:41:08,534 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:41:08,535 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:41:08,535 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:41:08,535 - P17020 - INFO - Após processar URL 16 Uso de memória: 128.46 MB
+2025-05-22 02:41:08,535 - P17020 - INFO - Processando URL 17/28: https://www.econodata.com.br/consulta-empresa/46527740000181-ABCAEL-MARTINS-SANTOS-ALVES
+2025-05-22 02:41:11,650 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\78ad4b4eff356a7c03d562d39c8df7b8.html
+2025-05-22 02:41:11,776 - P17020 - INFO - Candidates address: 21 items
+2025-05-22 02:41:11,777 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:41:11,777 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:41:11,777 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:41:11,777 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:41:11,777 - P17020 - INFO - Após processar URL 17 Uso de memória: 129.25 MB
+2025-05-22 02:41:11,778 - P17020 - INFO - Processando URL 18/28: https://portal.cfm.org.br/busca-medicos
+2025-05-22 02:41:16,745 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 02:41:16,834 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:41:16,834 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:41:16,835 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:41:16,835 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 02:41:16,835 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:41:16,835 - P17020 - INFO - Após processar URL 18 Uso de memória: 121.91 MB
+2025-05-22 02:41:16,835 - P17020 - INFO - Processando URL 19/28: https://www.medguias.com.br/sc/florianopolis/medicina/endocrinologia-e-metabologia/dra-debora-monteiro-dos-santos-alves
+2025-05-22 02:41:21,405 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\9d05e3d6db834d1cdafa5935a5aeaba4.html
+2025-05-22 02:41:21,462 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:41:21,462 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:41:21,463 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:41:21,463 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 02:41:21,463 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:41:21,463 - P17020 - INFO - Após processar URL 19 Uso de memória: 124.16 MB
+2025-05-22 02:41:21,464 - P17020 - INFO - Processando URL 20/28: https://iomat.mt.gov.br/portal/edicoes/download/2164
+2025-05-22 02:41:23,901 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d43aaa46b144900f7b7375bb6202fa4e.html
+2025-05-22 02:41:23,966 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:41:23,966 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:41:23,966 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:41:23,967 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 02:41:23,967 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:41:23,967 - P17020 - INFO - Após processar URL 20 Uso de memória: 124.46 MB
+2025-05-22 02:41:23,967 - P17020 - INFO - Processando URL 21/28: https://www.achecerto.com.br/
+2025-05-22 02:41:28,236 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ceb96e5663cace6f7b35fee1716d7561.html
+2025-05-22 02:41:28,253 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:41:28,253 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:41:28,254 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:41:28,254 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:41:28,254 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:41:28,254 - P17020 - INFO - Após processar URL 21 Uso de memória: 126.00 MB
+2025-05-22 02:41:28,254 - P17020 - INFO - Processando URL 22/28: https://balsanova.pr.gov.br/uploads/pagina/arquivos/Proposta-HERA-Servicos-Medicos-3-3.pdf
+2025-05-22 02:41:28,254 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://balsanova.pr.gov.br/uploads/pagina/arquivos/Proposta-HERA-Servicos-Medicos-3-3.pdf
+2025-05-22 02:41:28,254 - P17020 - INFO - Após processar URL 22 Uso de memória: 126.00 MB
+2025-05-22 02:41:28,255 - P17020 - INFO - Processando URL 23/28: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/154926/Caderno_JUD_MG_2016-08-30_VIII_162.pdf?sequence=1&isAllowed=y
+2025-05-22 02:41:28,255 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/154926/Caderno_JUD_MG_2016-08-30_VIII_162.pdf?sequence=1&isAllowed=y
+2025-05-22 02:41:28,255 - P17020 - INFO - Após processar URL 23 Uso de memória: 126.00 MB
+2025-05-22 02:41:28,255 - P17020 - INFO - Processando URL 24/28: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/163901/Caderno_JUD_DF_2016-09-27_VIII_181.pdf?sequence=3&isAllowed=y
+2025-05-22 02:41:28,255 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/163901/Caderno_JUD_DF_2016-09-27_VIII_181.pdf?sequence=3&isAllowed=y
+2025-05-22 02:41:28,256 - P17020 - INFO - Após processar URL 24 Uso de memória: 126.00 MB
+2025-05-22 02:41:28,256 - P17020 - INFO - Processando URL 25/28: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2019/dou3_2019_03_29.pdf
+2025-05-22 02:41:28,256 - P17020 - INFO - Ignorando URL de arquivo não-HTML: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2019/dou3_2019_03_29.pdf
+2025-05-22 02:41:28,256 - P17020 - INFO - Após processar URL 25 Uso de memória: 126.00 MB
+2025-05-22 02:41:28,256 - P17020 - INFO - Processando URL 26/28: https://crmvirtual.cfm.org.br/ES/servico/pesquisar-por-medico
+2025-05-22 02:41:31,166 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\0ff8b0bf2c6dbb46c836bac9c0cf4a16.html
+2025-05-22 02:41:31,178 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:41:31,179 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:41:31,179 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:41:31,179 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:41:31,179 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:41:31,179 - P17020 - INFO - Após processar URL 26 Uso de memória: 126.14 MB
+2025-05-22 02:41:31,180 - P17020 - INFO - Processando URL 27/28: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 02:41:34,872 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 02:41:34,914 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:41:34,915 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:41:34,916 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:41:34,917 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:41:34,920 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:41:34,921 - P17020 - INFO - Após processar URL 27 Uso de memória: 126.25 MB
+2025-05-22 02:41:34,921 - P17020 - INFO - Processando URL 28/28: https://www.ccem.med.br/corpoclinico/
+2025-05-22 02:41:38,226 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d18220952f9ca2eda945861c6d2c4196.html
+2025-05-22 02:41:38,247 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:41:38,254 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:41:38,255 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:41:38,255 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:41:38,256 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:41:38,257 - P17020 - INFO - Após processar URL 28 Uso de memória: 126.38 MB
+2025-05-22 02:41:38,257 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:41:38,257 - P17020 - INFO - Ranked address: 28 items
+2025-05-22 02:41:38,257 - P17020 - INFO - Ranked phone: 6 items
+2025-05-22 02:41:38,257 - P17020 - INFO - Ranked email: 6 items
+2025-05-22 02:41:38,258 - P17020 - INFO - Ranked complement: 3 items
+2025-05-22 02:41:38,258 - P17020 - INFO - Ranked cep: 11 items
+2025-05-22 02:41:38,259 - P17020 - INFO - Após agregação Uso de memória: 126.38 MB
+2025-05-22 02:41:38,259 - P17020 - INFO - Validando endereço: ['Rua Amabile Zimmermann, 151', 'Av. Osmar Cunha com a Av. Rio Branco) - Avenida Prefeito Osmar Cunha, 416', 'Av. Princesa Isabel, 921']
+2025-05-22 02:41:38,259 - P17020 - INFO - Endereço validado: Rua Amabile Zimmermann, 151
+2025-05-22 02:41:38,259 - P17020 - INFO - Limpando texto extenso para campo address: Rua Amabile Zimmermann, 151...
+2025-05-22 02:41:38,260 - P17020 - INFO - Texto limpo: Rua Amabile Zimmermann, 151
+2025-05-22 02:41:38,261 - P17020 - INFO - Validando telefone: ['(48) 3365-5355', '(48) 98839-6733', '(51) 3300-5400']
+2025-05-22 02:41:38,261 - P17020 - INFO - Limpando texto extenso para campo phone: (48) 3365-5355...
+2025-05-22 02:41:38,261 - P17020 - INFO - Texto limpo: 48) 3365-5355
+2025-05-22 02:41:38,262 - P17020 - INFO - Telefone validado: 48) 3365-5355
+2025-05-22 02:41:38,262 - P17020 - INFO - Validando email: ['cremers@cremers.org.br', 'pessoafisica@crmsc.org.br', 'protocolo@crmsc.org.br']
+2025-05-22 02:41:38,263 - P17020 - INFO - Limpando texto extenso para campo email: cremers@cremers.org.br...
+2025-05-22 02:41:38,263 - P17020 - INFO - Texto limpo: cremers@cremers.org.br
+2025-05-22 02:41:38,263 - P17020 - INFO - Email validado: cremers@cremers.org.br
+2025-05-22 02:41:38,273 - P17020 - INFO - Validando complemento: ['Sala 708 - Centro', 'Aptidão à RT Vigilância ', 'Conjunto D']
+2025-05-22 02:41:38,274 - P17020 - INFO - Limpando texto extenso para campo complement: Sala 708 - Centro...
+2025-05-22 02:41:38,275 - P17020 - INFO - Texto limpo: Sala 708 - Centro
+2025-05-22 02:41:38,277 - P17020 - INFO - Complemento validado: Sala 708 - Centro
+2025-05-22 02:41:38,278 - P17020 - INFO - Descobrindo cidade
+2025-05-22 02:41:38,279 - P17020 - INFO - Buscando cidade: Rua Amabile Zimmermann cidade RS
+2025-05-22 02:41:40,894 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 02:41:40,894 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 02:41:40,895 - P17020 - INFO - Tempo de execução de processamento completo do médico: 81.13 segundos
+2025-05-22 02:41:40,895 - P17020 - INFO - Resultado processado: {'Hash': '4fa838a91cadb05957872d38eaf2afe0ac1002eca3604b789403e0dffc81017f', 'CRM': '50281', 'UF': 'RS', 'Firstname': 'ABCAEL', 'LastName': 'MARTINS SANTOS ALVES', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Amabile Zimmermann, 151', 'Address A1': 'Rua Amabile Zimmermann', 'Numero A1': '151', 'Complement A1': 'Sala 708 - Centro', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '48) 3365-5355', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cremers@cremers.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:41:40,896 - P17020 - INFO - Progresso: 31.7%
+2025-05-22 02:41:40,896 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 02:41:40,918 - P17020 - INFO - Após coleta de lixo Uso de memória: 120.03 MB
+2025-05-22 02:41:40,918 - P17020 - INFO - Tempo de execução de processamento do médico 1: 82.40 segundos
+2025-05-22 02:41:40,919 - P17020 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 02:41:40,919 - P17020 - INFO - Nome: ROBERTO DA COSTA TELLES FERREIRA
+2025-05-22 02:41:40,919 - P17020 - INFO - Início do processamento Uso de memória: 120.03 MB
+2025-05-22 02:41:40,919 - P17020 - INFO - Iniciando busca para: ROBERTO DA COSTA TELLES FERREIRA CRM 2201 SC telefone e-mail endereço
+2025-05-22 02:41:41,451 - P17020 - INFO - SearX results: 10 URLs
+2025-05-22 02:41:41,451 - P17020 - INFO - Após SearX Uso de memória: 120.03 MB
+2025-05-22 02:41:44,004 - P17020 - INFO - Google results: 10 URLs
+2025-05-22 02:41:44,004 - P17020 - INFO - Após Google Uso de memória: 123.36 MB
+2025-05-22 02:41:46,785 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 02:41:46,786 - P17020 - INFO - Após Bing Uso de memória: 125.09 MB
+2025-05-22 02:41:46,786 - P17020 - INFO - Total de URLs únicas: 24
+2025-05-22 02:41:46,789 - P17020 - INFO - Processando URL 1/24: https://www.tjrj.jus.br/documents/d/guest/site-planilha-cadastro-de-peritos-atualizada-ate-15-01-2024
+2025-05-22 02:41:48,987 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\54d3d4c14ed3c110722c568872ea42ab.html
+2025-05-22 02:41:49,008 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:41:49,010 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:41:49,011 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:41:49,012 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:41:49,013 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:41:49,015 - P17020 - INFO - Após processar URL 1 Uso de memória: 126.01 MB
+2025-05-22 02:41:49,017 - P17020 - INFO - Processando URL 2/24: http://www.ioepa.com.br/arquivos/2025/2025.05.15.DOE.pdf
+2025-05-22 02:41:49,018 - P17020 - INFO - Ignorando URL de arquivo não-HTML: http://www.ioepa.com.br/arquivos/2025/2025.05.15.DOE.pdf
+2025-05-22 02:41:49,018 - P17020 - INFO - Após processar URL 2 Uso de memória: 124.94 MB
+2025-05-22 02:41:49,019 - P17020 - INFO - Processando URL 3/24: https://www.gov.br/pf/pt-br/assuntos/armas/psicologos/psicologos-crediciados/sao-paulo
+2025-05-22 02:41:51,202 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a4feb3308d15202ece511a76d749b3f8.html
+2025-05-22 02:41:51,933 - P17020 - INFO - Candidates address: 673 items
+2025-05-22 02:41:51,934 - P17020 - INFO - Candidates phone: 827 items
+2025-05-22 02:41:51,934 - P17020 - INFO - Candidates email: 822 items
+2025-05-22 02:41:51,934 - P17020 - INFO - Candidates complement: 188 items
+2025-05-22 02:41:51,934 - P17020 - INFO - Candidates cep: 657 items
+2025-05-22 02:41:51,934 - P17020 - INFO - Após processar URL 3 Uso de memória: 127.20 MB
+2025-05-22 02:41:51,935 - P17020 - INFO - Processando URL 4/24: https://www.doctoralia.com.br/roberto-da-costa-telles-ferreira/especialista-em-administracao-em-saude-ginecologista/florianopolis
+2025-05-22 02:41:51,935 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/roberto-da-costa-telles-ferreira/especialista-em-administracao-em-saude-ginecologista/florianopolis
+2025-05-22 02:41:51,935 - P17020 - INFO - Após processar URL 4 Uso de memória: 126.14 MB
+2025-05-22 02:41:51,935 - P17020 - INFO - Processando URL 5/24: https://crmsc.org.br/busca-medico/
+2025-05-22 02:41:54,755 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\718935d8acf3120593504f2d6f7f3e0a.html
+2025-05-22 02:41:54,793 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:41:54,793 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:41:54,793 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:41:54,793 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 02:41:54,793 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:41:54,794 - P17020 - INFO - Após processar URL 5 Uso de memória: 126.28 MB
+2025-05-22 02:41:54,794 - P17020 - INFO - Processando URL 6/24: https://www.classemedica.com.br/medico/290397-roberto-da-costa-telles-ferreira.htm
+2025-05-22 02:41:58,671 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c8b2c1cc87b256f86a63f718e0871d9b.html
+2025-05-22 02:41:58,702 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:41:58,703 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:41:58,703 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:41:58,703 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:41:58,703 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:41:58,704 - P17020 - INFO - Após processar URL 6 Uso de memória: 126.81 MB
+2025-05-22 02:41:58,704 - P17020 - INFO - Processando URL 7/24: https://saopedrodosul.rs.gov.br/wp-content/uploads/2025/03/publicado_81396_2021-07-01_1d7739b7ba027924ee781e64db0de0de.pdf
+2025-05-22 02:41:58,704 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://saopedrodosul.rs.gov.br/wp-content/uploads/2025/03/publicado_81396_2021-07-01_1d7739b7ba027924ee781e64db0de0de.pdf
+2025-05-22 02:41:58,704 - P17020 - INFO - Após processar URL 7 Uso de memória: 126.81 MB
+2025-05-22 02:41:58,704 - P17020 - INFO - Processando URL 8/24: https://www.bigua.sc.gov.br/uploads/sites/277/2022/06/2407102_fls_193_194___Publicacao_de_reabertura_de_sessao___24022022.pdf
+2025-05-22 02:41:58,704 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.bigua.sc.gov.br/uploads/sites/277/2022/06/2407102_fls_193_194___Publicacao_de_reabertura_de_sessao___24022022.pdf
+2025-05-22 02:41:58,705 - P17020 - INFO - Após processar URL 8 Uso de memória: 126.81 MB
+2025-05-22 02:41:58,705 - P17020 - INFO - Processando URL 9/24: https://www.somospopular.com.br/especialistas/dr-roberto-da-costa-telles-ferreira-especialista-em-administracao-em-saude-em-florianopolis-sc/
+2025-05-22 02:42:02,191 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\734b16f7727eafdb563f0390ab39f26b.html
+2025-05-22 02:42:02,195 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:42:02,196 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:42:02,196 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:42:02,196 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:42:02,196 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:42:02,197 - P17020 - INFO - Após processar URL 9 Uso de memória: 126.83 MB
+2025-05-22 02:42:02,197 - P17020 - INFO - Processando URL 10/24: https://www.tjsp.jus.br/Download/Portal/PrimeiraInstancia/GestaoDocumental/Edital-2024-041.pdf
+2025-05-22 02:42:02,197 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.tjsp.jus.br/Download/Portal/PrimeiraInstancia/GestaoDocumental/Edital-2024-041.pdf
+2025-05-22 02:42:02,197 - P17020 - INFO - Após processar URL 10 Uso de memória: 126.83 MB
+2025-05-22 02:42:02,197 - P17020 - INFO - Processando URL 11/24: https://consultacrm.com.br/
+2025-05-22 02:42:05,678 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:42:05,689 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:42:05,689 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:42:05,690 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:42:05,690 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:42:05,690 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:42:05,690 - P17020 - INFO - Após processar URL 11 Uso de memória: 126.87 MB
+2025-05-22 02:42:05,690 - P17020 - INFO - Processando URL 12/24: https://clinica.work/especialista/roberto-da-costa-telles-ferreira-ginecologista-florianopolis-sc
+2025-05-22 02:42:08,425 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5a1a75387760bea7a74bd0f775bb0dab.html
+2025-05-22 02:42:08,445 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:42:08,445 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:42:08,445 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:42:08,445 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:42:08,446 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:42:08,446 - P17020 - INFO - Após processar URL 12 Uso de memória: 126.60 MB
+2025-05-22 02:42:08,446 - P17020 - INFO - Processando URL 13/24: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo696.pdf
+2025-05-22 02:42:08,446 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo696.pdf
+2025-05-22 02:42:08,446 - P17020 - INFO - Após processar URL 13 Uso de memória: 126.60 MB
+2025-05-22 02:42:08,447 - P17020 - INFO - Processando URL 14/24: https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/arquivos/pessoaidosa/GuiaMedicamentos-MP-SMS-2013.pdf
+2025-05-22 02:42:08,447 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/arquivos/pessoaidosa/GuiaMedicamentos-MP-SMS-2013.pdf
+2025-05-22 02:42:08,447 - P17020 - INFO - Após processar URL 14 Uso de memória: 126.60 MB
+2025-05-22 02:42:08,447 - P17020 - INFO - Processando URL 15/24: https://www.conveniosocial.com.br/especialistas/especialista-em-administracao-em-saude-em-florianopolis-sc-dr-roberto-da-costa-telles-ferreira/
+2025-05-22 02:42:14,077 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\599eea0e150ab3b773ce3ae5d9afbaf3.html
+2025-05-22 02:42:14,088 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:42:14,088 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:42:14,089 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:42:14,089 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:42:14,089 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:42:14,089 - P17020 - INFO - Após processar URL 15 Uso de memória: 127.98 MB
+2025-05-22 02:42:14,089 - P17020 - INFO - Processando URL 16/24: https://www.tjrj.jus.br/documents/d/guest/site-planilha-de-cadastro-peritos-ate-29-02-2024
+2025-05-22 02:42:16,256 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\99c4b8f6cfb14f9ed0d29d0662477036.html
+2025-05-22 02:42:16,268 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:42:16,268 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:42:16,269 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:42:16,269 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:42:16,269 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:42:16,269 - P17020 - INFO - Após processar URL 16 Uso de memória: 128.00 MB
+2025-05-22 02:42:16,269 - P17020 - INFO - Processando URL 17/24: https://objetivas.com.br/docs/2012_01_edital_prosseguimento_concurso_arroio_grande.pdf
+2025-05-22 02:42:16,269 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://objetivas.com.br/docs/2012_01_edital_prosseguimento_concurso_arroio_grande.pdf
+2025-05-22 02:42:16,270 - P17020 - INFO - Após processar URL 17 Uso de memória: 126.81 MB
+2025-05-22 02:42:16,270 - P17020 - INFO - Processando URL 18/24: https://medicos.floripa.br/especialidade/especialista-em-administracao-em-saude
+2025-05-22 02:42:16,661 - P17020 - ERROR - Erro ao baixar HTML de https://medicos.floripa.br/especialidade/especialista-em-administracao-em-saude: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7574059F4]
+	(No symbol) [0x00007FF7573F6789]
+	(No symbol) [0x00007FF7573F84F8]
+	(No symbol) [0x00007FF7573F6A96]
+	(No symbol) [0x00007FF7573F6516]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F465C]
+	(No symbol) [0x00007FF75740CF3A]
+	(No symbol) [0x00007FF7574B013E]
+	(No symbol) [0x00007FF75748737A]
+	(No symbol) [0x00007FF7574AF39C]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 02:42:16,664 - P17020 - INFO - Após processar URL 18 Uso de memória: 126.81 MB
+2025-05-22 02:42:16,664 - P17020 - INFO - Processando URL 19/24: https://portal.cfm.org.br/busca-medicos
+2025-05-22 02:42:20,072 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 02:42:20,110 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:42:20,110 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:42:20,111 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:42:20,111 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 02:42:20,111 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:42:20,111 - P17020 - INFO - Após processar URL 19 Uso de memória: 126.82 MB
+2025-05-22 02:42:20,111 - P17020 - INFO - Processando URL 20/24: https://www.escolasmedicas.com.br/metodologia.php?orderby=esc_sigla&order=ASC
+2025-05-22 02:42:23,246 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\873f98b2b38374aa9aa9511b60cd9e0a.html
+2025-05-22 02:42:23,958 - P17020 - INFO - Candidates address: 212 items
+2025-05-22 02:42:23,958 - P17020 - INFO - Candidates phone: 67 items
+2025-05-22 02:42:23,958 - P17020 - INFO - Candidates email: 272 items
+2025-05-22 02:42:23,959 - P17020 - INFO - Candidates complement: 8 items
+2025-05-22 02:42:23,959 - P17020 - INFO - Candidates cep: 575 items
+2025-05-22 02:42:23,959 - P17020 - INFO - Após processar URL 20 Uso de memória: 128.72 MB
+2025-05-22 02:42:23,959 - P17020 - INFO - Processando URL 21/24: https://contenda.pr.gov.br/uploads/licitacao/18-Doc-Hab-Deltamed.pdf
+2025-05-22 02:42:23,959 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://contenda.pr.gov.br/uploads/licitacao/18-Doc-Hab-Deltamed.pdf
+2025-05-22 02:42:23,960 - P17020 - INFO - Após processar URL 21 Uso de memória: 126.86 MB
+2025-05-22 02:42:23,960 - P17020 - INFO - Processando URL 22/24: https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/controladoria_geral/Edital_Chamamento_SMS_diagnosticolaboratorial_AFIP.pdf
+2025-05-22 02:42:23,960 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/controladoria_geral/Edital_Chamamento_SMS_diagnosticolaboratorial_AFIP.pdf
+2025-05-22 02:42:23,960 - P17020 - INFO - Após processar URL 22 Uso de memória: 126.86 MB
+2025-05-22 02:42:23,960 - P17020 - INFO - Processando URL 23/24: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 02:42:26,995 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 02:42:27,113 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:42:27,113 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:42:27,113 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:42:27,114 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:42:27,114 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:42:27,114 - P17020 - INFO - Após processar URL 23 Uso de memória: 126.88 MB
+2025-05-22 02:42:27,115 - P17020 - INFO - Processando URL 24/24: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2013/08/do_20130813_2281.pdf
+2025-05-22 02:42:27,115 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2013/08/do_20130813_2281.pdf
+2025-05-22 02:42:27,115 - P17020 - INFO - Após processar URL 24 Uso de memória: 126.88 MB
+2025-05-22 02:42:27,116 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:42:27,116 - P17020 - INFO - Ranked address: 886 items
+2025-05-22 02:42:27,117 - P17020 - INFO - Ranked phone: 894 items
+2025-05-22 02:42:27,117 - P17020 - INFO - Ranked email: 1096 items
+2025-05-22 02:42:27,117 - P17020 - INFO - Ranked complement: 198 items
+2025-05-22 02:42:27,118 - P17020 - INFO - Ranked cep: 1234 items
+2025-05-22 02:42:27,118 - P17020 - INFO - Após agregação Uso de memória: 126.88 MB
+2025-05-22 02:42:27,118 - P17020 - INFO - Validando endereço: ['Rua Clélia, 329', 'Rua Clélia, 1738', 'Rua Cincinato Braga, 340']
+2025-05-22 02:42:27,118 - P17020 - INFO - Endereço validado: Rua Clélia, 329
+2025-05-22 02:42:27,118 - P17020 - INFO - Limpando texto extenso para campo address: Rua Clélia, 329...
+2025-05-22 02:42:27,119 - P17020 - INFO - Texto limpo: Rua Clélia, 329
+2025-05-22 02:42:27,119 - P17020 - INFO - Validando telefone: ['(11) 98948-4939', '(11) 3865-0443', '(11) 3862-8971']
+2025-05-22 02:42:27,119 - P17020 - INFO - Limpando texto extenso para campo phone: (11) 98948-4939...
+2025-05-22 02:42:27,120 - P17020 - INFO - Texto limpo: 11) 98948-4939
+2025-05-22 02:42:27,120 - P17020 - INFO - Telefone validado: 11) 98948-4939
+2025-05-22 02:42:27,120 - P17020 - INFO - Validando email: ['protocolo@crmsc.org.br', 'alfredomchaves@hotmail.com', 'gabimgspsi@gmail.com']
+2025-05-22 02:42:27,120 - P17020 - INFO - Limpando texto extenso para campo email: protocolo@crmsc.org.br...
+2025-05-22 02:42:27,121 - P17020 - INFO - Texto limpo: protocolo@crmsc.org.br
+2025-05-22 02:42:27,121 - P17020 - INFO - Email validado: protocolo@crmsc.org.br
+2025-05-22 02:42:27,121 - P17020 - INFO - Validando complemento: ['Conjunto 504  Telefones: 3864-9827 /\xa097680-1588 E-mail: ye', 'Sala 22 Telefone: (11) 95086-5532 E-mail: claugroti@gm', 'Conjuntos 51 e 52  Telefone: (11) 91015-7977  E-mail: marc']
+2025-05-22 02:42:27,121 - P17020 - INFO - Limpando texto extenso para campo complement: Conjunto 504  Telefones: 3864-9827 / 97680-1588 E-...
+2025-05-22 02:42:27,121 - P17020 - INFO - Texto limpo: Conjunto 504 Telefones: 3864-
+2025-05-22 02:42:27,121 - P17020 - INFO - Complemento validado: Conjunto 504 Telefones: 3864-
+2025-05-22 02:42:27,121 - P17020 - INFO - Descobrindo cidade
+2025-05-22 02:42:27,122 - P17020 - INFO - Buscando cidade: Rua Clélia cidade SC
+2025-05-22 02:42:30,035 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 02:42:30,036 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 02:42:30,036 - P17020 - INFO - Tempo de execução de processamento completo do médico: 49.12 segundos
+2025-05-22 02:42:30,037 - P17020 - INFO - Resultado processado: {'Hash': 'd7e129a3e69820293ef8c80ed232e50b64e1502f4df81c498c48f9caebf2b311', 'CRM': '2201', 'UF': 'SC', 'Firstname': 'ROBERTO', 'LastName': 'DA COSTA TELLES FERREIRA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Clélia, 329', 'Address A1': 'Rua Clélia', 'Numero A1': '329', 'Complement A1': 'Conjunto 504 Telefones: 3864-', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 98948-4939', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'protocolo@crmsc.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:42:30,037 - P17020 - INFO - Progresso: 31.9%
+2025-05-22 02:42:30,038 - P17020 - INFO - Tempo de execução de processamento do médico 2: 49.12 segundos
+2025-05-22 02:42:30,038 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 02:42:30,038 - P17020 - INFO - Nome: JULIO ANTONIO PRZYBYLSKI BECKER
+2025-05-22 02:42:30,038 - P17020 - INFO - Início do processamento Uso de memória: 119.47 MB
+2025-05-22 02:42:30,038 - P17020 - INFO - Iniciando busca para: JULIO ANTONIO PRZYBYLSKI BECKER CRM 4959 SC telefone e-mail endereço
+2025-05-22 02:42:30,715 - P17020 - INFO - SearX results: 1 URLs
+2025-05-22 02:42:30,715 - P17020 - INFO - Após SearX Uso de memória: 119.47 MB
+2025-05-22 02:42:33,615 - P17020 - INFO - Google results: 3 URLs
+2025-05-22 02:42:33,616 - P17020 - INFO - Após Google Uso de memória: 122.64 MB
+2025-05-22 02:42:36,122 - P17020 - INFO - Bing results: 9 URLs
+2025-05-22 02:42:36,122 - P17020 - INFO - Após Bing Uso de memória: 125.19 MB
+2025-05-22 02:42:36,122 - P17020 - INFO - Total de URLs únicas: 12
+2025-05-22 02:42:36,122 - P17020 - INFO - Processando URL 1/12: https://consultacrm.com.br/
+2025-05-22 02:42:39,638 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:42:39,649 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:42:39,649 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:42:39,649 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:42:39,649 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:42:39,650 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:42:39,650 - P17020 - INFO - Após processar URL 1 Uso de memória: 126.59 MB
+2025-05-22 02:42:39,650 - P17020 - INFO - Processando URL 2/12: https://www.classemedica.com.br/medico/176738-julio-antonio-przybylski-becker.htm
+2025-05-22 02:42:45,167 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6a9819b6f62485ec2a89a7b0e273521e.html
+2025-05-22 02:42:45,198 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:42:45,199 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:42:45,199 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:42:45,199 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:42:45,199 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:42:45,199 - P17020 - INFO - Após processar URL 2 Uso de memória: 126.98 MB
+2025-05-22 02:42:45,199 - P17020 - INFO - Processando URL 3/12: https://www.catalogo.med.br/medicos/angiologistas/em-gaspar-sc/
+2025-05-22 02:42:51,047 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\68a7a6615f548d5401232cf17eea7114.html
+2025-05-22 02:42:51,067 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:42:51,068 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:42:51,068 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:42:51,069 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:42:51,069 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:42:51,069 - P17020 - INFO - Após processar URL 3 Uso de memória: 126.98 MB
+2025-05-22 02:42:51,070 - P17020 - INFO - Processando URL 4/12: https://www.consultacrm.com.br/index/medicos/uid-9100e41c-f5c5-11ec-9e74-0a4aa568c625/julio_antonio_przybylski_becker
+2025-05-22 02:42:55,850 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\67be6ac46852335f58d2a7a5ed68dba1.html
+2025-05-22 02:42:55,867 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:42:55,867 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:42:55,868 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:42:55,868 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:42:55,868 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:42:55,868 - P17020 - INFO - Após processar URL 4 Uso de memória: 127.05 MB
+2025-05-22 02:42:55,868 - P17020 - INFO - Processando URL 5/12: https://www.catalogo.med.br/medicos/angiologues/em-sc
+2025-05-22 02:43:00,037 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\1d89ba65fb88128363ca89597e19230d.html
+2025-05-22 02:43:00,082 - P17020 - INFO - Candidates address: 9 items
+2025-05-22 02:43:00,083 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:43:00,083 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:43:00,083 - P17020 - INFO - Candidates complement: 9 items
+2025-05-22 02:43:00,083 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:43:00,083 - P17020 - INFO - Após processar URL 5 Uso de memória: 127.21 MB
+2025-05-22 02:43:00,084 - P17020 - INFO - Processando URL 6/12: https://www.catalogo.med.br/medicos/cirurgioes-vasculares/em-sc
+2025-05-22 02:43:07,921 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\fe9b2dc275306a56f93026096f5877c4.html
+2025-05-22 02:43:07,968 - P17020 - INFO - Candidates address: 11 items
+2025-05-22 02:43:07,968 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:43:07,968 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:43:07,968 - P17020 - INFO - Candidates complement: 7 items
+2025-05-22 02:43:07,969 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:43:07,969 - P17020 - INFO - Após processar URL 6 Uso de memória: 127.24 MB
+2025-05-22 02:43:07,969 - P17020 - INFO - Processando URL 7/12: https://cnpj.biz/50355928000167
+2025-05-22 02:43:10,168 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2e55f3abf2157184b21ad1d03d427a4f.html
+2025-05-22 02:43:10,170 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:43:10,170 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:43:10,170 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:43:10,170 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:43:10,171 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:43:10,171 - P17020 - INFO - Após processar URL 7 Uso de memória: 127.25 MB
+2025-05-22 02:43:10,171 - P17020 - INFO - Processando URL 8/12: https://doutorcrm.com/julio-antonio-przybylski-becker
+2025-05-22 02:43:14,842 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e200a3cb4dae262ce7af8a626c6df15a.html
+2025-05-22 02:43:14,850 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:43:14,850 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:43:14,850 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:43:14,850 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:43:14,851 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:43:14,851 - P17020 - INFO - Após processar URL 8 Uso de memória: 127.27 MB
+2025-05-22 02:43:14,851 - P17020 - INFO - Processando URL 9/12: https://crmsc.org.br/busca-medico/
+2025-05-22 02:43:17,671 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\718935d8acf3120593504f2d6f7f3e0a.html
+2025-05-22 02:43:17,724 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:43:17,725 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:43:17,726 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:43:17,726 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 02:43:17,727 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:43:17,727 - P17020 - INFO - Após processar URL 9 Uso de memória: 127.30 MB
+2025-05-22 02:43:17,728 - P17020 - INFO - Processando URL 10/12: https://www.catalogo.med.br/doutor/julio-antonio-przybylski-becker-455703.htm
+2025-05-22 02:43:19,837 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\0dc176bfc92e94d43e1ade4e7d0977e6.html
+2025-05-22 02:43:19,838 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:43:19,839 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:43:19,839 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:43:19,839 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:43:19,839 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:43:19,839 - P17020 - INFO - Após processar URL 10 Uso de memória: 127.30 MB
+2025-05-22 02:43:19,839 - P17020 - INFO - Processando URL 11/12: http://www.guiareunimedicos.med.br/c/sc/gaspar/angiologistas/julio-antonio-przybylski-becker-455703.htm
+2025-05-22 02:43:22,010 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\8e9e52548bef20a4a9367729436f7d27.html
+2025-05-22 02:43:22,010 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:43:22,011 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:43:22,011 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:43:22,011 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:43:22,011 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:43:22,011 - P17020 - INFO - Após processar URL 11 Uso de memória: 127.30 MB
+2025-05-22 02:43:22,011 - P17020 - INFO - Processando URL 12/12: https://pt.scribd.com/document/434638018/Lista-de-Autoridades-Foz-Do-Iguacu-2019
+2025-05-22 02:43:26,111 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c8dbc189005cfccaef124980c94bc202.html
+2025-05-22 02:43:26,330 - P17020 - INFO - Candidates address: 3 items
+2025-05-22 02:43:26,330 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:43:26,330 - P17020 - INFO - Candidates email: 26 items
+2025-05-22 02:43:26,330 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:43:26,331 - P17020 - INFO - Candidates cep: 10 items
+2025-05-22 02:43:26,331 - P17020 - INFO - Após processar URL 12 Uso de memória: 131.77 MB
+2025-05-22 02:43:26,331 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:43:26,331 - P17020 - INFO - Ranked address: 23 items
+2025-05-22 02:43:26,331 - P17020 - INFO - Ranked phone: 2 items
+2025-05-22 02:43:26,332 - P17020 - INFO - Ranked email: 27 items
+2025-05-22 02:43:26,332 - P17020 - INFO - Ranked complement: 17 items
+2025-05-22 02:43:26,332 - P17020 - INFO - Ranked cep: 11 items
+2025-05-22 02:43:26,333 - P17020 - INFO - Após agregação Uso de memória: 131.77 MB
+2025-05-22 02:43:26,333 - P17020 - INFO - Validando endereço: ['Rua Pref. Frederico Busch Junior, 220', 'Rua Blumenau, 594', 'Av. Madre Benvenuta, 1377']
+2025-05-22 02:43:26,333 - P17020 - INFO - Endereço validado: Rua Pref. Frederico Busch Junior, 220
+2025-05-22 02:43:26,334 - P17020 - INFO - Limpando texto extenso para campo address: Rua Pref. Frederico Busch Junior, 220...
+2025-05-22 02:43:26,334 - P17020 - INFO - Texto limpo: Rua Pref. Frederico Busch Junior, 220
+2025-05-22 02:43:26,334 - P17020 - INFO - Validando telefone: ['(45) 3521-1000', '(91) 98764-0830']
+2025-05-22 02:43:26,335 - P17020 - INFO - Limpando texto extenso para campo phone: (45) 3521-1000...
+2025-05-22 02:43:26,335 - P17020 - INFO - Texto limpo: 45) 3521-1000
+2025-05-22 02:43:26,335 - P17020 - INFO - Telefone validado: 45) 3521-1000
+2025-05-22 02:43:26,336 - P17020 - INFO - Validando email: ['protocolo@crmsc.org.br', 'prefeito@pmfi.pr.gov.br', 'prefeito.pmfi@gmail.com']
+2025-05-22 02:43:26,336 - P17020 - INFO - Limpando texto extenso para campo email: protocolo@crmsc.org.br...
+2025-05-22 02:43:26,336 - P17020 - INFO - Texto limpo: protocolo@crmsc.org.br
+2025-05-22 02:43:26,336 - P17020 - INFO - Email validado: protocolo@crmsc.org.br
+2025-05-22 02:43:26,336 - P17020 - INFO - Validando complemento: ['Sala 408 Centro - Chapecó/SC   Convênios atendidos nes', 'Sala 601 Ribeirao Fresco - Blumenau/SC   Convênios ate', 'Bloco A Centro - Florianópolis/SC   Convênios atendidos']
+2025-05-22 02:43:26,338 - P17020 - INFO - Limpando texto extenso para campo complement: Sala 408 Centro - Chapecó/SC   Convênios atendidos...
+2025-05-22 02:43:26,339 - P17020 - INFO - Texto limpo: Sala 408 Centro - Chapecó/SC
+2025-05-22 02:43:26,341 - P17020 - INFO - Complemento validado: Sala 408 Centro - Chapecó/SC
+2025-05-22 02:43:26,342 - P17020 - INFO - Descobrindo cidade
+2025-05-22 02:43:26,342 - P17020 - INFO - Buscando cidade: Rua Pref. Frederico Busch Junior cidade SC
+2025-05-22 02:43:29,441 - P17020 - INFO - Cidade encontrada: Blumenau
+2025-05-22 02:43:29,458 - P17020 - INFO - Limpando texto extenso para campo city: Blumenau...
+2025-05-22 02:43:29,459 - P17020 - INFO - Texto limpo: Blumenau
+2025-05-22 02:43:29,459 - P17020 - INFO - Cidade descoberta: Blumenau
+2025-05-22 02:43:29,460 - P17020 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 02:43:29,460 - P17020 - INFO - Iniciando busca de CEP em cascata para: Rua Pref. Frederico Busch Junior, Blumenau, SC
+2025-05-22 02:43:29,461 - P17020 - INFO - Método 1: ViaCEP API
+2025-05-22 02:43:29,461 - P17020 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SC/blumenau/rua%20pref%20frederico%20busch%20junior/json/
+2025-05-22 02:43:30,164 - P17020 - WARNING - ViaCEP retornou status 200 ou nenhum resultado
+2025-05-22 02:43:30,165 - P17020 - INFO - Método 2: BrasilAPI
+2025-05-22 02:43:30,169 - P17020 - INFO - Buscando na BrasilAPI: Rua Pref. Frederico Busch Junior, Blumenau, SC
+2025-05-22 02:43:30,686 - P17020 - INFO - Consultando BrasilAPI: https://brasilapi.com.br/api/cep/v2/35135084
+2025-05-22 02:43:30,997 - P17020 - WARNING - BrasilAPI retornou status 404
+2025-05-22 02:43:31,000 - P17020 - INFO - Método 3: Web Scraping do Google
+2025-05-22 02:43:31,000 - P17020 - INFO - Buscando CEP: CEP da Rua Pref. Frederico Busch Junior, Blumenau
+2025-05-22 02:43:32,201 - P17020 - INFO - CEP encontrado: 89020-400
+2025-05-22 02:43:32,211 - P17020 - INFO - CEP encontrado via Google: 89020-400
+2025-05-22 02:43:32,212 - P17020 - INFO - Dados de CEP encontrados: {'cep': '89020-400', 'logradouro': 'Rua Pref. Frederico Busch Junior', 'bairro': '', 'localidade': 'Blumenau', 'uf': 'SC', 'complemento': ''}
+2025-05-22 02:43:32,212 - P17020 - INFO - Limpando texto extenso para campo city: Blumenau...
+2025-05-22 02:43:32,213 - P17020 - INFO - Texto limpo: Blumenau
+2025-05-22 02:43:32,213 - P17020 - INFO - Limpando texto extenso para campo state: SC...
+2025-05-22 02:43:32,213 - P17020 - INFO - Texto limpo: SC
+2025-05-22 02:43:32,213 - P17020 - INFO - Tempo de execução de processamento completo do médico: 62.17 segundos
+2025-05-22 02:43:32,214 - P17020 - INFO - Resultado processado: {'Hash': '85ef7e0643c46a5c851c255f9f66bbb5f3d5d8e24e93d7690a4fb7127fae6f83', 'CRM': '4959', 'UF': 'SC', 'Firstname': 'JULIO', 'LastName': 'ANTONIO PRZYBYLSKI BECKER', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Pref. Frederico Busch Junior, 220', 'Address A1': 'Rua Pref. Frederico Busch Junior', 'Numero A1': '220', 'Complement A1': 'Sala 408 Centro - Chapecó/SC', 'Bairro A1': '', 'postal code A1': '89020-400', 'City A1': 'Blumenau', 'State A1': 'SC', 'Phone A1': '45) 3521-1000', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'protocolo@crmsc.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:43:32,214 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 02:43:32,216 - P17020 - INFO - Após salvar resultados Uso de memória: 128.50 MB
+2025-05-22 02:43:32,218 - P17020 - INFO - Progresso: 32.4%
+2025-05-22 02:43:32,219 - P17020 - INFO - Tempo de execução de processamento do médico 3: 62.18 segundos
+2025-05-22 02:43:32,220 - P17020 - INFO - Tempo de execução de processamento do lote completo: 193.70 segundos

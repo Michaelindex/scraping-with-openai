@@ -1,0 +1,124 @@
+<html lang="pt-BR"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Não encontrado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #008A6D;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .error {
+            width: 60%;
+            box-shadow: 0px 0px 6px #00000029;
+            background-color: #ffffff;
+            border-radius: 5px;
+            padding: 30px 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .error h1 {
+            font-size: 40px;
+            font-weight: 700;
+            text-align: center;
+            color: #2DB29A;
+        }
+
+        .error div {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .error p {
+            font-size: 16px;
+            font-weight: 500;
+            color: #707070;
+			text-align: justify
+        }
+
+        .error ul {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-left: 60px
+        }
+
+        .error li {
+            font-size: 16px;
+            font-weight: 500;
+            color: #707070;
+        }
+
+        .error span {
+            cursor: pointer;
+            color: #2DB29A;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .error button {
+            padding: 10px;
+            background-color: #2DB29A;
+            border: 2px solid #2DB29A;
+            border-radius: 5px;
+            transition: all 0.5s;
+            padding-right: 4px;
+            font-weight: 600;
+            font-size: 1rem;
+            color: #FFFFFF;
+            width: 300px;
+            align-self: center;
+        }
+
+        .error button:hover {
+            background-color: #ffffff;
+            cursor: pointer;
+            color: #2DB29A;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="error">
+        <h1 class="title">Ops! Página Não Encontrada</h1>
+        <div>
+            <p>Parece que a página que você está procurando não existe. Isso pode ter ocorrido porque:</p>
+            <ul>
+                <li>A página foi movida ou deletada.</li>
+                <li>A URL foi digitada incorretamente.</li>
+            </ul>
+        </div>
+
+        <div>
+            <p> O que você pode fazer?</p>
+            <ul>
+                <li>Verifique a URL para possíveis erros de digitação.</li>
+                <li>Procure o que você está buscando usando a barra de pesquisa.</li>
+            </ul>
+        </div>
+        <button class="error__button error__button--active" onclick="return window.location.href = 'https://www.medguias.com.br'">Voltar para HOME</button>
+    </div>
+
+
+
+
+</body></html>

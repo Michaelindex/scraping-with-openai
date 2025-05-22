@@ -1,0 +1,500 @@
+2025-05-22 03:31:29,098 - P17020 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 03:31:29,099 - P17020 - INFO - Nome: RODRIGO CARNEIRO ARANTES NEVES
+2025-05-22 03:31:29,099 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 03:31:30,634 - P17020 - INFO - Após reiniciar driver Uso de memória: 128.61 MB
+2025-05-22 03:31:30,635 - P17020 - INFO - Início do processamento Uso de memória: 128.61 MB
+2025-05-22 03:31:30,635 - P17020 - INFO - Iniciando busca para: RODRIGO CARNEIRO ARANTES NEVES CRM 231321 SP telefone e-mail endereço
+2025-05-22 03:31:31,616 - P17020 - INFO - SearX results: 15 URLs
+2025-05-22 03:31:31,617 - P17020 - INFO - Após SearX Uso de memória: 128.61 MB
+2025-05-22 03:31:34,383 - P17020 - INFO - Google results: 8 URLs
+2025-05-22 03:31:34,383 - P17020 - INFO - Após Google Uso de memória: 130.89 MB
+2025-05-22 03:31:36,923 - P17020 - INFO - Bing results: 9 URLs
+2025-05-22 03:31:36,923 - P17020 - INFO - Após Bing Uso de memória: 130.92 MB
+2025-05-22 03:31:36,923 - P17020 - INFO - Total de URLs únicas: 17
+2025-05-22 03:31:36,923 - P17020 - INFO - Processando URL 1/17: https://consultacrm.com.br/
+2025-05-22 03:31:41,152 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:31:41,172 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:31:41,174 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:31:41,175 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:31:41,175 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:31:41,176 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:31:41,176 - P17020 - INFO - Após processar URL 1 Uso de memória: 130.96 MB
+2025-05-22 03:31:41,178 - P17020 - INFO - Processando URL 2/17: https://www.escavador.com/sobre/3129364/rodrigo-carneiro-arantes-neves
+2025-05-22 03:31:44,810 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\fe5f99a3bf214db3ac449104cd8060cd.html
+2025-05-22 03:31:44,827 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:31:44,827 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:31:44,828 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:31:44,828 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:31:44,828 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:31:44,828 - P17020 - INFO - Após processar URL 2 Uso de memória: 131.57 MB
+2025-05-22 03:31:44,828 - P17020 - INFO - Processando URL 3/17: http://cremesp.org.br/
+2025-05-22 03:31:51,991 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2a967318246f9658edeb1e0469c871fe.html
+2025-05-22 03:31:52,027 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:31:52,027 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:31:52,027 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:31:52,028 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:31:52,028 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 03:31:52,028 - P17020 - INFO - Após processar URL 3 Uso de memória: 130.42 MB
+2025-05-22 03:31:52,028 - P17020 - INFO - Processando URL 4/17: https://www.doctoralia.com.br/rodrigo-carneiro-arantes-neves/psiquiatra/sao-paulo
+2025-05-22 03:31:52,028 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/rodrigo-carneiro-arantes-neves/psiquiatra/sao-paulo
+2025-05-22 03:31:52,028 - P17020 - INFO - Após processar URL 4 Uso de memória: 130.42 MB
+2025-05-22 03:31:52,029 - P17020 - INFO - Processando URL 5/17: https://consultasaj.tjam.jus.br/cdje/downloadCaderno.do?dtDiario=08/09/2010&cdCaderno=2
+2025-05-22 03:31:54,340 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c8e4eb0efe6b17112dc7409a7d93fccb.html
+2025-05-22 03:31:54,369 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:31:54,369 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:31:54,369 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:31:54,370 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:31:54,370 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 03:31:54,370 - P17020 - INFO - Após processar URL 5 Uso de memória: 130.42 MB
+2025-05-22 03:31:54,373 - P17020 - INFO - Processando URL 6/17: https://transparencia.cremesp.org.br/?siteAcao=guia_medico
+2025-05-22 03:31:59,941 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\cb80cc007a72cc7a378681a92a58906a.html
+2025-05-22 03:31:59,988 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:31:59,988 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:31:59,989 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:31:59,989 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:31:59,989 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:31:59,989 - P17020 - INFO - Após processar URL 6 Uso de memória: 130.43 MB
+2025-05-22 03:31:59,989 - P17020 - INFO - Processando URL 7/17: https://www.boaconsulta.com/especialista/rodrigo-carneiro-arantes-neves-6105e2afba32c33cf90000f1
+2025-05-22 03:32:03,286 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ddb1ad3ca3f7f0d92eb2d28cf92eb857.html
+2025-05-22 03:32:03,376 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:32:03,378 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:32:03,379 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:32:03,379 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:32:03,380 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:32:03,380 - P17020 - INFO - Após processar URL 7 Uso de memória: 132.65 MB
+2025-05-22 03:32:03,380 - P17020 - INFO - Processando URL 8/17: https://guiasaudebrasil.com.br/profissional/ba73b8ea1f7c4aaf-rodrigo-carneiro-arantes-neves
+2025-05-22 03:32:09,363 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7a9059850221b0caa486364563d458c4.html
+2025-05-22 03:32:09,377 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:32:09,378 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:32:09,378 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:32:09,378 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:32:09,378 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:32:09,378 - P17020 - INFO - Após processar URL 8 Uso de memória: 131.07 MB
+2025-05-22 03:32:09,379 - P17020 - INFO - Processando URL 9/17: https://ioepa.com.br/pages/2012/2012.04.30.DOE.pdf
+2025-05-22 03:32:09,379 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://ioepa.com.br/pages/2012/2012.04.30.DOE.pdf
+2025-05-22 03:32:09,379 - P17020 - INFO - Após processar URL 9 Uso de memória: 131.07 MB
+2025-05-22 03:32:09,379 - P17020 - INFO - Processando URL 10/17: https://www.crm-sp.org.br/?siteAcao=Contatos&dep=cad
+2025-05-22 03:32:26,621 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\9d7a012bd98a105b7c4d3b953105f1bf.html
+2025-05-22 03:32:26,628 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:32:26,628 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:32:26,628 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:32:26,629 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:32:26,629 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:32:26,629 - P17020 - INFO - Após processar URL 10 Uso de memória: 131.07 MB
+2025-05-22 03:32:26,629 - P17020 - INFO - Processando URL 11/17: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2014/08/Imprensa-Oficial-de-Jundia%C3%AD-Edi%C3%A7%C3%A3o-3894.pdf
+2025-05-22 03:32:26,629 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2014/08/Imprensa-Oficial-de-Jundia%C3%AD-Edi%C3%A7%C3%A3o-3894.pdf
+2025-05-22 03:32:26,630 - P17020 - INFO - Após processar URL 11 Uso de memória: 131.07 MB
+2025-05-22 03:32:26,630 - P17020 - INFO - Processando URL 12/17: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/0/f/8/0f80757ef7fe8de2e8778f42b125f5f934173496f3f0f1f8d421fc86ffaa7fa8/d44f28ac-2b0b-4c81-9e24-6f79884f15aa-27008-DOE_16864_13_03_2002_64F.pdf
+2025-05-22 03:32:26,630 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/0/f/8/0f80757ef7fe8de2e8778f42b125f5f934173496f3f0f1f8d421fc86ffaa7fa8/d44f28ac-2b0b-4c81-9e24-6f79884f15aa-27008-DOE_16864_13_03_2002_64F.pdf
+2025-05-22 03:32:26,631 - P17020 - INFO - Após processar URL 12 Uso de memória: 131.07 MB
+2025-05-22 03:32:26,631 - P17020 - INFO - Processando URL 13/17: https://www.doctoralia.com.br/psiquiatra/unimed-central-nacional
+2025-05-22 03:32:26,631 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/unimed-central-nacional
+2025-05-22 03:32:26,632 - P17020 - INFO - Após processar URL 13 Uso de memória: 131.07 MB
+2025-05-22 03:32:26,632 - P17020 - INFO - Processando URL 14/17: https://guiamedico.cremesp.org.br/
+2025-05-22 03:32:29,890 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 03:32:29,897 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:32:29,897 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:32:29,897 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:32:29,898 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:32:29,898 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:32:29,898 - P17020 - INFO - Após processar URL 14 Uso de memória: 131.07 MB
+2025-05-22 03:32:29,899 - P17020 - INFO - Processando URL 15/17: https://www.ioepa.com.br/pages/2010/2010.10.27.DOE.pdf
+2025-05-22 03:32:29,900 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2010/2010.10.27.DOE.pdf
+2025-05-22 03:32:29,900 - P17020 - INFO - Após processar URL 15 Uso de memória: 131.07 MB
+2025-05-22 03:32:29,900 - P17020 - INFO - Processando URL 16/17: https://www.medicosbrasil.com/profissional/rodrigo-carneiro-arantes-neves
+2025-05-22 03:32:32,253 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\11888c6ed95a1865298fbede9c8b0f64.html
+2025-05-22 03:32:32,280 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:32:32,281 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:32:32,282 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:32:32,282 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:32:32,282 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:32:32,283 - P17020 - INFO - Após processar URL 16 Uso de memória: 131.68 MB
+2025-05-22 03:32:32,283 - P17020 - INFO - Processando URL 17/17: https://www.ioepa.com.br/pages/2010/2010.04.26.DOE.pdf
+2025-05-22 03:32:32,283 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2010/2010.04.26.DOE.pdf
+2025-05-22 03:32:32,283 - P17020 - INFO - Após processar URL 17 Uso de memória: 131.68 MB
+2025-05-22 03:32:32,284 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:32:32,285 - P17020 - INFO - Ranked address: 2 items
+2025-05-22 03:32:32,285 - P17020 - INFO - Ranked phone: 1 items
+2025-05-22 03:32:32,286 - P17020 - INFO - Ranked email: 0 items
+2025-05-22 03:32:32,287 - P17020 - INFO - Ranked complement: 0 items
+2025-05-22 03:32:32,288 - P17020 - INFO - Ranked cep: 3 items
+2025-05-22 03:32:32,288 - P17020 - INFO - Após agregação Uso de memória: 131.68 MB
+2025-05-22 03:32:32,288 - P17020 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Avenida Vinte E Um De Novembro, 129']
+2025-05-22 03:32:32,288 - P17020 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 03:32:32,289 - P17020 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 03:32:32,289 - P17020 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 03:32:32,289 - P17020 - INFO - Validando telefone: ['(11) 4349-9900']
+2025-05-22 03:32:32,290 - P17020 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 03:32:32,290 - P17020 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 03:32:32,290 - P17020 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 03:32:32,291 - P17020 - INFO - Descobrindo cidade
+2025-05-22 03:32:32,291 - P17020 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 03:32:35,053 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 03:32:35,054 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 03:32:35,055 - P17020 - INFO - Tempo de execução de processamento completo do médico: 64.42 segundos
+2025-05-22 03:32:35,056 - P17020 - INFO - Resultado processado: {'Hash': 'f6a595936c3b227f3b8e58c8d276d410fc3abd1778b0e0b05a71e7ead867b254', 'CRM': '231321', 'UF': 'SP', 'Firstname': 'RODRIGO', 'LastName': 'CARNEIRO ARANTES NEVES', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': '', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:32:35,058 - P17020 - INFO - Progresso: 49.6%
+2025-05-22 03:32:35,059 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 03:32:35,143 - P17020 - INFO - Após coleta de lixo Uso de memória: 120.04 MB
+2025-05-22 03:32:35,144 - P17020 - INFO - Tempo de execução de processamento do médico 1: 66.05 segundos
+2025-05-22 03:32:35,144 - P17020 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 03:32:35,144 - P17020 - INFO - Nome: JULIA DOMINGUES GATTI
+2025-05-22 03:32:35,144 - P17020 - INFO - Início do processamento Uso de memória: 120.04 MB
+2025-05-22 03:32:35,144 - P17020 - INFO - Iniciando busca para: JULIA DOMINGUES GATTI CRM 231456 SP telefone e-mail endereço
+2025-05-22 03:32:35,981 - P17020 - INFO - SearX results: 11 URLs
+2025-05-22 03:32:35,981 - P17020 - INFO - Após SearX Uso de memória: 120.04 MB
+2025-05-22 03:32:38,672 - P17020 - INFO - Google results: 3 URLs
+2025-05-22 03:32:38,672 - P17020 - INFO - Após Google Uso de memória: 123.92 MB
+2025-05-22 03:32:41,153 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 03:32:41,153 - P17020 - INFO - Após Bing Uso de memória: 126.79 MB
+2025-05-22 03:32:41,154 - P17020 - INFO - Total de URLs únicas: 12
+2025-05-22 03:32:41,154 - P17020 - INFO - Processando URL 1/12: https://consultacrm.com.br/
+2025-05-22 03:32:44,553 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:32:44,565 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:32:44,566 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:32:44,566 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:32:44,566 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:32:44,566 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:32:44,566 - P17020 - INFO - Após processar URL 1 Uso de memória: 128.64 MB
+2025-05-22 03:32:44,567 - P17020 - INFO - Processando URL 2/12: http://cremesp.org.br/
+2025-05-22 03:32:47,690 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2a967318246f9658edeb1e0469c871fe.html
+2025-05-22 03:32:47,714 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:32:47,714 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:32:47,714 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:32:47,715 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:32:47,715 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 03:32:47,715 - P17020 - INFO - Após processar URL 2 Uso de memória: 128.90 MB
+2025-05-22 03:32:47,715 - P17020 - INFO - Processando URL 3/12: https://transparencia.cremesp.org.br/?siteAcao=guia_medico
+2025-05-22 03:33:17,726 - P17020 - ERROR - Erro ao baixar HTML de https://transparencia.cremesp.org.br/?siteAcao=guia_medico: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7573F64EC]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F465C]
+	(No symbol) [0x00007FF75740CF3A]
+	(No symbol) [0x00007FF7574B013E]
+	(No symbol) [0x00007FF75748737A]
+	(No symbol) [0x00007FF7574AF39C]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 03:33:17,728 - P17020 - INFO - Após processar URL 3 Uso de memória: 128.90 MB
+2025-05-22 03:33:17,729 - P17020 - INFO - Processando URL 4/12: https://www.procuroacho.com/empresas/sp/campinas/45.959.995/0001-50/julia-domingues-gatti-ltda
+2025-05-22 03:33:20,622 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ce043ca18f63f0cf34b936c4d510a1d0.html
+2025-05-22 03:33:20,630 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:33:20,631 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:33:20,632 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:33:20,632 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 03:33:20,632 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:33:20,632 - P17020 - INFO - Após processar URL 4 Uso de memória: 128.91 MB
+2025-05-22 03:33:20,634 - P17020 - INFO - Processando URL 5/12: https://www.cismetro.com.br/credenciado/julia-domingues-gatti-ltda/
+2025-05-22 03:33:26,060 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a1d7e14a9efd4f822836e0526dfb5edc.html
+2025-05-22 03:33:26,142 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 03:33:26,143 - P17020 - INFO - Candidates phone: 3 items
+2025-05-22 03:33:26,143 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:33:26,143 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:33:26,144 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 03:33:26,144 - P17020 - INFO - Após processar URL 5 Uso de memória: 130.18 MB
+2025-05-22 03:33:26,145 - P17020 - INFO - Processando URL 6/12: https://www.econodata.com.br/consulta-empresa/45959995000150-JULIA-DOMINGUES-GATTI-LTDA
+2025-05-22 03:33:31,480 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\cd0158a6da067c74b84f94ff1e8e3978.html
+2025-05-22 03:33:31,639 - P17020 - INFO - Candidates address: 26 items
+2025-05-22 03:33:31,644 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:33:31,646 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:33:31,647 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 03:33:31,678 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:33:31,680 - P17020 - INFO - Após processar URL 6 Uso de memória: 130.07 MB
+2025-05-22 03:33:31,682 - P17020 - INFO - Processando URL 7/12: https://www.rededorsaoluiz.com.br/encontre-um-medico/perfil/julia-domingues-gatti
+2025-05-22 03:33:37,931 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\1630aeecb6bdea1537b6f1175f41c7e2.html
+2025-05-22 03:33:38,058 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:33:38,058 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:33:38,059 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:33:38,059 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:33:38,059 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:33:38,059 - P17020 - INFO - Após processar URL 7 Uso de memória: 132.22 MB
+2025-05-22 03:33:38,059 - P17020 - INFO - Processando URL 8/12: https://www.solutudo.com.br/empresas/sp/campinas/hospitais/julia-domingues-gatti-ltda-25233175
+2025-05-22 03:33:44,207 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\25aaf73c698634909a360de4c2bb3705.html
+2025-05-22 03:33:44,246 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:33:44,246 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:33:44,246 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:33:44,247 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:33:44,247 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:33:44,247 - P17020 - INFO - Após processar URL 8 Uso de memória: 129.60 MB
+2025-05-22 03:33:44,247 - P17020 - INFO - Processando URL 9/12: https://www.infobel.com/pt/brazil/julia_domingues_gatti/campinas/BR138417212-1930287554/businessdetails.aspx
+2025-05-22 03:33:47,472 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\cad0f1c9510d83ef7dee207767b01b01.html
+2025-05-22 03:33:47,529 - P17020 - INFO - Candidates address: 11 items
+2025-05-22 03:33:47,530 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:33:47,530 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:33:47,530 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 03:33:47,532 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 03:33:47,536 - P17020 - INFO - Após processar URL 9 Uso de memória: 129.84 MB
+2025-05-22 03:33:47,538 - P17020 - INFO - Processando URL 10/12: https://cnpj.biz/45959995000150
+2025-05-22 03:33:52,188 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\985d5404f440b2eeee4c9f6b671e6afa.html
+2025-05-22 03:33:52,208 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 03:33:52,208 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:33:52,209 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:33:52,209 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 03:33:52,209 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 03:33:52,209 - P17020 - INFO - Após processar URL 10 Uso de memória: 129.96 MB
+2025-05-22 03:33:52,209 - P17020 - INFO - Processando URL 11/12: https://guiamedico.cremesp.org.br/
+2025-05-22 03:33:54,906 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 03:33:54,912 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:33:54,912 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:33:54,912 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:33:54,912 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:33:54,912 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:33:54,913 - P17020 - INFO - Após processar URL 11 Uso de memória: 129.97 MB
+2025-05-22 03:33:54,913 - P17020 - INFO - Processando URL 12/12: https://www.juntacomercial.pr.gov.br/Pagina/Atos-Decisorios-Abril2022
+2025-05-22 03:33:59,175 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4e9cdde1e87df858f7b398a3cd86ef1f.html
+2025-05-22 03:33:59,302 - P17020 - INFO - Candidates address: 132 items
+2025-05-22 03:33:59,303 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:33:59,303 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:33:59,303 - P17020 - INFO - Candidates complement: 15 items
+2025-05-22 03:33:59,303 - P17020 - INFO - Candidates cep: 128 items
+2025-05-22 03:33:59,304 - P17020 - INFO - Após processar URL 12 Uso de memória: 132.78 MB
+2025-05-22 03:33:59,304 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:33:59,304 - P17020 - INFO - Ranked address: 173 items
+2025-05-22 03:33:59,304 - P17020 - INFO - Ranked phone: 6 items
+2025-05-22 03:33:59,304 - P17020 - INFO - Ranked email: 2 items
+2025-05-22 03:33:59,304 - P17020 - INFO - Ranked complement: 21 items
+2025-05-22 03:33:59,305 - P17020 - INFO - Ranked cep: 135 items
+2025-05-22 03:33:59,305 - P17020 - INFO - Após agregação Uso de memória: 132.78 MB
+2025-05-22 03:33:59,305 - P17020 - INFO - Validando endereço: ['Rua Izabel Negrao Bertotti, 100', 'Rua Frei Caneca, 1282', 'Rua Izabel Negrão Bertotti, 100']
+2025-05-22 03:33:59,305 - P17020 - INFO - Endereço validado: Rua Izabel Negrao Bertotti, 100
+2025-05-22 03:33:59,305 - P17020 - INFO - Limpando texto extenso para campo address: Rua Izabel Negrao Bertotti, 100...
+2025-05-22 03:33:59,305 - P17020 - INFO - Texto limpo: Rua Izabel Negrao Bertotti, 100
+2025-05-22 03:33:59,306 - P17020 - INFO - Validando telefone: ['(11) 3028-7554', '(11) 4349-9900', '(19) 3802-2300']
+2025-05-22 03:33:59,306 - P17020 - INFO - Limpando texto extenso para campo phone: (11) 3028-7554...
+2025-05-22 03:33:59,306 - P17020 - INFO - Texto limpo: 11) 3028-7554
+2025-05-22 03:33:59,306 - P17020 - INFO - Telefone validado: 11) 3028-7554
+2025-05-22 03:33:59,306 - P17020 - INFO - Validando email: ['suporte@alume.com', 'e@alume.com']
+2025-05-22 03:33:59,306 - P17020 - INFO - Limpando texto extenso para campo email: suporte@alume.com...
+2025-05-22 03:33:59,306 - P17020 - INFO - Texto limpo: suporte@alume.com
+2025-05-22 03:33:59,307 - P17020 - INFO - Email validado: suporte@alume.com
+2025-05-22 03:33:59,307 - P17020 - INFO - Validando complemento: ['Apt   51                  Bloco 02 - Mansoes Santo An', 'Apt 51 Bloco 02 Bairro: Mansoes Santo Antonio Municíp', 'Apt 51 Bloco 02 - Mansoes Santo Antonio']
+2025-05-22 03:33:59,307 - P17020 - INFO - Limpando texto extenso para campo complement: Apt   51                  Bloco 02 - Mansoes Santo...
+2025-05-22 03:33:59,307 - P17020 - INFO - Texto limpo: Apt 51 Bloc
+2025-05-22 03:33:59,307 - P17020 - INFO - Complemento validado: Apt 51 Bloc
+2025-05-22 03:33:59,307 - P17020 - INFO - Descobrindo cidade
+2025-05-22 03:33:59,307 - P17020 - INFO - Buscando cidade: Rua Izabel Negrao Bertotti cidade SP
+2025-05-22 03:34:01,622 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 03:34:01,622 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 03:34:01,623 - P17020 - INFO - Tempo de execução de processamento completo do médico: 86.48 segundos
+2025-05-22 03:34:01,623 - P17020 - INFO - Resultado processado: {'Hash': '653ae27db54d750222c34f771d063c343b34e7bc53a524b51ae0923810d3688a', 'CRM': '231456', 'UF': 'SP', 'Firstname': 'JULIA', 'LastName': 'DOMINGUES GATTI', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Izabel Negrao Bertotti, 100', 'Address A1': 'Rua Izabel Negrao Bertotti', 'Numero A1': '100', 'Complement A1': 'Apt 51 Bloc', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 3028-7554', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'suporte@alume.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:34:01,624 - P17020 - INFO - Progresso: 50.0%
+2025-05-22 03:34:01,624 - P17020 - INFO - Tempo de execução de processamento do médico 2: 86.48 segundos
+2025-05-22 03:34:01,624 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 03:34:01,625 - P17020 - INFO - Nome: ANA MARIA GARCIA CASTRO RACHID
+2025-05-22 03:34:01,625 - P17020 - INFO - Início do processamento Uso de memória: 127.43 MB
+2025-05-22 03:34:01,625 - P17020 - INFO - Iniciando busca para: ANA MARIA GARCIA CASTRO RACHID CRM 232058 SP telefone e-mail endereço
+2025-05-22 03:34:02,473 - P17020 - INFO - SearX results: 12 URLs
+2025-05-22 03:34:02,473 - P17020 - INFO - Após SearX Uso de memória: 127.43 MB
+2025-05-22 03:34:05,359 - P17020 - INFO - Google results: 6 URLs
+2025-05-22 03:34:05,360 - P17020 - INFO - Após Google Uso de memória: 129.41 MB
+2025-05-22 03:34:07,924 - P17020 - INFO - Bing results: 13 URLs
+2025-05-22 03:34:07,924 - P17020 - INFO - Após Bing Uso de memória: 131.33 MB
+2025-05-22 03:34:07,924 - P17020 - INFO - Total de URLs únicas: 20
+2025-05-22 03:34:07,924 - P17020 - INFO - Processando URL 1/20: https://www.doctoralia.com.br/servicos-de-tratamento/consulta-psiquiatra/barueri
+2025-05-22 03:34:07,925 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/servicos-de-tratamento/consulta-psiquiatra/barueri
+2025-05-22 03:34:07,925 - P17020 - INFO - Após processar URL 1 Uso de memória: 131.33 MB
+2025-05-22 03:34:07,925 - P17020 - INFO - Processando URL 2/20: https://www.reclameaqui.com.br/centro-medico-alphaview/29-07-2023-consulta-psiquiatra-centro-medico-alphaview-dra-ana-maria_ATwcl4lt_CIdI8fk/
+2025-05-22 03:34:13,820 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\0b6bb9b5a5fdedc3fdaef67da82bff51.html
+2025-05-22 03:34:13,846 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:34:13,846 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:34:13,847 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:34:13,847 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:34:13,847 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:34:13,847 - P17020 - INFO - Após processar URL 2 Uso de memória: 133.31 MB
+2025-05-22 03:34:13,847 - P17020 - INFO - Processando URL 3/20: https://cmalphaview.com.br/especialidades/psiquiatria
+2025-05-22 03:34:17,009 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\044afd0c0e9b8584f21609d4401cc201.html
+2025-05-22 03:34:17,051 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 03:34:17,051 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 03:34:17,051 - P17020 - INFO - Candidates email: 4 items
+2025-05-22 03:34:17,051 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 03:34:17,051 - P17020 - INFO - Candidates cep: 5 items
+2025-05-22 03:34:17,051 - P17020 - INFO - Após processar URL 3 Uso de memória: 124.40 MB
+2025-05-22 03:34:17,052 - P17020 - INFO - Processando URL 4/20: https://www.doctoralia.com.br/psiquiatra/barueri/alphaville-industrial
+2025-05-22 03:34:17,052 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/barueri/alphaville-industrial
+2025-05-22 03:34:17,052 - P17020 - INFO - Após processar URL 4 Uso de memória: 124.40 MB
+2025-05-22 03:34:17,052 - P17020 - INFO - Processando URL 5/20: https://consultacrm.com.br/
+2025-05-22 03:34:19,128 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:34:19,139 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:34:19,140 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:34:19,140 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:34:19,140 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:34:19,140 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:34:19,141 - P17020 - INFO - Após processar URL 5 Uso de memória: 127.55 MB
+2025-05-22 03:34:19,141 - P17020 - INFO - Processando URL 6/20: https://www.reclameaqui.com.br//centro-medico-alphaview/29-07-2023-consulta-psiquiatra-centro-medico-alphaview-dra-ana-maria_ATwcl4lt_CIdI8fk/
+2025-05-22 03:34:21,290 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5ba08c323b0d0db00bebb78f1f3a8c3d.html
+2025-05-22 03:34:21,293 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:34:21,293 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:34:21,293 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:34:21,293 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:34:21,293 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:34:21,294 - P17020 - INFO - Após processar URL 6 Uso de memória: 127.63 MB
+2025-05-22 03:34:21,294 - P17020 - INFO - Processando URL 7/20: https://inteligen.com.br/empresa/ana-maria-garcia-castro-rachid-ltda-46186204000160
+2025-05-22 03:34:25,081 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ea95f1bcbc823a998365167d63e07bb1.html
+2025-05-22 03:34:25,095 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:34:25,095 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:34:25,095 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:34:25,095 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:34:25,095 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 03:34:25,096 - P17020 - INFO - Após processar URL 7 Uso de memória: 127.73 MB
+2025-05-22 03:34:25,096 - P17020 - INFO - Processando URL 8/20: https://www.sociosbrasil.com/nome/ana-maria-garcia-castro-rachid
+2025-05-22 03:34:30,159 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ceffc7d6af3adf389f6d000f3df212c1.html
+2025-05-22 03:34:30,163 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:34:30,164 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:34:30,164 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:34:30,164 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 03:34:30,164 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 03:34:30,164 - P17020 - INFO - Após processar URL 8 Uso de memória: 128.05 MB
+2025-05-22 03:34:30,165 - P17020 - INFO - Processando URL 9/20: https://aboutcompany.info/country/brazil/company/46186204000160-SP-ana-maria-garcia-castro-rachid-ltda/
+2025-05-22 03:34:33,274 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\45c9798118a77128f7c7b53ee6306178.html
+2025-05-22 03:34:33,285 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:34:33,285 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:34:33,286 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:34:33,286 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 03:34:33,286 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:34:33,286 - P17020 - INFO - Após processar URL 9 Uso de memória: 128.19 MB
+2025-05-22 03:34:33,286 - P17020 - INFO - Processando URL 10/20: https://empresas.serasaexperian.com.br/consulta-gratis/ANA-MARIA-GARCIA-CASTRO-RACHID-LTDA-46186204000160
+2025-05-22 03:34:36,244 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2cb03c366dcbe3a8278174559ce7f5c9.html
+2025-05-22 03:34:36,279 - P17020 - INFO - Candidates address: 3 items
+2025-05-22 03:34:36,279 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:34:36,279 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:34:36,280 - P17020 - INFO - Candidates complement: 3 items
+2025-05-22 03:34:36,280 - P17020 - INFO - Candidates cep: 5 items
+2025-05-22 03:34:36,280 - P17020 - INFO - Após processar URL 10 Uso de memória: 129.25 MB
+2025-05-22 03:34:36,280 - P17020 - INFO - Processando URL 11/20: https://www.informecadastral.com.br/cnpj/ana-maria-garcia-castro-rachid-ltda-46186204000160
+2025-05-22 03:34:41,046 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\91a2f11d1b5300755a7027f9f1efa4e5.html
+2025-05-22 03:34:41,071 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:34:41,072 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 03:34:41,073 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:34:41,073 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:34:41,075 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 03:34:41,075 - P17020 - INFO - Após processar URL 11 Uso de memória: 129.29 MB
+2025-05-22 03:34:41,076 - P17020 - INFO - Processando URL 12/20: https://www.reclameaqui.com.br/empresa/centro-medico-alphaview/lista-reclamacoes/?problema=0000000000001628
+2025-05-22 03:34:43,239 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\095bbd254ff2979aaa02ab69d6b423d1.html
+2025-05-22 03:34:43,240 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:34:43,240 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:34:43,240 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:34:43,241 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:34:43,241 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:34:43,241 - P17020 - INFO - Após processar URL 12 Uso de memória: 129.29 MB
+2025-05-22 03:34:43,241 - P17020 - INFO - Processando URL 13/20: https://consultas.plus/lista-de-empresas/sao-paulo/barueri/46186204000160-ana-maria-garcia-castro-rachid-ltda/
+2025-05-22 03:34:47,284 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\603b83e6aa2261dfe9733af3b4b844d7.html
+2025-05-22 03:34:47,310 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:34:47,310 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:34:47,310 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:34:47,310 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 03:34:47,311 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:34:47,311 - P17020 - INFO - Após processar URL 13 Uso de memória: 129.35 MB
+2025-05-22 03:34:47,311 - P17020 - INFO - Processando URL 14/20: https://www.doctoralia.com.br/psiquiatra/barueri/centro106
+2025-05-22 03:34:47,311 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/barueri/centro106
+2025-05-22 03:34:47,311 - P17020 - INFO - Após processar URL 14 Uso de memória: 129.35 MB
+2025-05-22 03:34:47,311 - P17020 - INFO - Processando URL 15/20: https://www.doctoralia.com.br/psiquiatra/barueri/alphaville-comercial
+2025-05-22 03:34:47,312 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/barueri/alphaville-comercial
+2025-05-22 03:34:47,312 - P17020 - INFO - Após processar URL 15 Uso de memória: 129.35 MB
+2025-05-22 03:34:47,312 - P17020 - INFO - Processando URL 16/20: https://guiamedico.cremesp.org.br/
+2025-05-22 03:34:50,014 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 03:34:50,021 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:34:50,022 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:34:50,022 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:34:50,022 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:34:50,022 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:34:50,023 - P17020 - INFO - Após processar URL 16 Uso de memória: 129.36 MB
+2025-05-22 03:34:50,023 - P17020 - INFO - Processando URL 17/20: https://www.doctoralia.com.br/doencas/autismo/barueri
+2025-05-22 03:34:50,023 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/doencas/autismo/barueri
+2025-05-22 03:34:50,024 - P17020 - INFO - Após processar URL 17 Uso de memória: 129.36 MB
+2025-05-22 03:34:50,025 - P17020 - INFO - Processando URL 18/20: https://www.boaconsulta.com/especialista/ana-maria-garcia-castro-rachid-61060ff8a2e00a7ce100530c
+2025-05-22 03:34:53,106 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\89c8900e7de2520cc1424788bf39e1a3.html
+2025-05-22 03:34:53,173 - P17020 - INFO - Candidates address: 3 items
+2025-05-22 03:34:53,173 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:34:53,174 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:34:53,174 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:34:53,174 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:34:53,174 - P17020 - INFO - Após processar URL 18 Uso de memória: 129.64 MB
+2025-05-22 03:34:53,174 - P17020 - INFO - Processando URL 19/20: https://www.cmalphaview.com.br/medicos?especialidade=psiquiatria
+2025-05-22 03:34:55,799 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b62bc5b373a25a120b6f82ac506950dc.html
+2025-05-22 03:34:55,827 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 03:34:55,827 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 03:34:55,827 - P17020 - INFO - Candidates email: 4 items
+2025-05-22 03:34:55,827 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 03:34:55,828 - P17020 - INFO - Candidates cep: 5 items
+2025-05-22 03:34:55,828 - P17020 - INFO - Após processar URL 19 Uso de memória: 128.89 MB
+2025-05-22 03:34:55,828 - P17020 - INFO - Processando URL 20/20: https://www.doctoralia.com.br/ana-maria-garcia/psiquiatra/barueri
+2025-05-22 03:34:55,828 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/ana-maria-garcia/psiquiatra/barueri
+2025-05-22 03:34:55,828 - P17020 - INFO - Após processar URL 20 Uso de memória: 128.89 MB
+2025-05-22 03:34:55,828 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:34:55,829 - P17020 - INFO - Ranked address: 11 items
+2025-05-22 03:34:55,829 - P17020 - INFO - Ranked phone: 6 items
+2025-05-22 03:34:55,829 - P17020 - INFO - Ranked email: 6 items
+2025-05-22 03:34:55,829 - P17020 - INFO - Ranked complement: 7 items
+2025-05-22 03:34:55,829 - P17020 - INFO - Ranked cep: 17 items
+2025-05-22 03:34:55,829 - P17020 - INFO - Após agregação Uso de memória: 128.89 MB
+2025-05-22 03:34:55,830 - P17020 - INFO - Validando endereço: ['Avenida Alphaville, 779', 'Rua Doutor Carlos de Morais Barros, 450', 'Avenida Trindade, 404']
+2025-05-22 03:34:55,830 - P17020 - INFO - Endereço validado: Avenida Alphaville, 779
+2025-05-22 03:34:55,830 - P17020 - INFO - Limpando texto extenso para campo address: Avenida Alphaville, 779...
+2025-05-22 03:34:55,830 - P17020 - INFO - Texto limpo: Avenida Alphaville, 779
+2025-05-22 03:34:55,830 - P17020 - INFO - Validando telefone: ['(41) 9686-9828', '(11) 97161-3003', '(11) 2970-1770']
+2025-05-22 03:34:55,830 - P17020 - INFO - Limpando texto extenso para campo phone: (41) 9686-9828...
+2025-05-22 03:34:55,830 - P17020 - INFO - Texto limpo: 41) 9686-9828
+2025-05-22 03:34:55,831 - P17020 - INFO - Telefone validado: 41) 9686-9828
+2025-05-22 03:34:55,831 - P17020 - INFO - Validando email: ['meucnpj@contabilizei.com.br', 'contato@cmalphaview.com.br', 'trabalheconosco@alphaview.com.br']
+2025-05-22 03:34:55,831 - P17020 - INFO - Limpando texto extenso para campo email: meucnpj@contabilizei.com.br...
+2025-05-22 03:34:55,831 - P17020 - INFO - Texto limpo: meucnpj@contabilizei.com.br
+2025-05-22 03:34:55,831 - P17020 - INFO - Email validado: meucnpj@contabilizei.com.br
+2025-05-22 03:34:55,831 - P17020 - INFO - Validando complemento: ['Sala 1401 Edifício Pravda', 'Sala 207/210 Edifício Bradesco Seguros', 'Apt 22 Andar 2 Bloco Aruba ']
+2025-05-22 03:34:55,832 - P17020 - INFO - Limpando texto extenso para campo complement: Sala 1401 Edifício Pravda...
+2025-05-22 03:34:55,832 - P17020 - INFO - Texto limpo: Sala 1401 Edifício Pravda
+2025-05-22 03:34:55,832 - P17020 - INFO - Complemento validado: Sala 1401 Edifício Pravda
+2025-05-22 03:34:55,832 - P17020 - INFO - Descobrindo cidade
+2025-05-22 03:34:55,832 - P17020 - INFO - Buscando cidade: Avenida Alphaville cidade SP
+2025-05-22 03:34:58,476 - P17020 - INFO - Cidade encontrada: Alphaville
+2025-05-22 03:34:58,476 - P17020 - INFO - Limpando texto extenso para campo city: Alphaville...
+2025-05-22 03:34:58,477 - P17020 - INFO - Texto limpo: Alphaville
+2025-05-22 03:34:58,477 - P17020 - INFO - Cidade descoberta: Alphaville
+2025-05-22 03:34:58,477 - P17020 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 03:34:58,477 - P17020 - INFO - Iniciando busca de CEP em cascata para: Avenida Alphaville, Alphaville, SP
+2025-05-22 03:34:58,477 - P17020 - INFO - Método 1: ViaCEP API
+2025-05-22 03:34:58,477 - P17020 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SP/alphaville/avenida%20alphaville/json/
+2025-05-22 03:34:59,152 - P17020 - WARNING - ViaCEP retornou status 200 ou nenhum resultado
+2025-05-22 03:34:59,154 - P17020 - INFO - Método 2: BrasilAPI
+2025-05-22 03:34:59,155 - P17020 - INFO - Buscando na BrasilAPI: Avenida Alphaville, Alphaville, SP
+2025-05-22 03:34:59,673 - P17020 - INFO - Consultando BrasilAPI: https://brasilapi.com.br/api/cep/v2/35135084
+2025-05-22 03:34:59,992 - P17020 - WARNING - BrasilAPI retornou status 404
+2025-05-22 03:34:59,994 - P17020 - INFO - Método 3: Web Scraping do Google
+2025-05-22 03:34:59,994 - P17020 - INFO - Buscando CEP: CEP da Avenida Alphaville, Alphaville
+2025-05-22 03:35:01,478 - P17020 - INFO - CEP encontrado: 06472-020
+2025-05-22 03:35:01,478 - P17020 - INFO - CEP encontrado via Google: 06472-020
+2025-05-22 03:35:01,479 - P17020 - INFO - Dados de CEP encontrados: {'cep': '06472-020', 'logradouro': 'Avenida Alphaville', 'bairro': '', 'localidade': 'Alphaville', 'uf': 'SP', 'complemento': ''}
+2025-05-22 03:35:01,479 - P17020 - INFO - Limpando texto extenso para campo city: Alphaville...
+2025-05-22 03:35:01,479 - P17020 - INFO - Texto limpo: Alphaville
+2025-05-22 03:35:01,479 - P17020 - INFO - Limpando texto extenso para campo state: SP...
+2025-05-22 03:35:01,479 - P17020 - INFO - Texto limpo: SP
+2025-05-22 03:35:01,479 - P17020 - INFO - Tempo de execução de processamento completo do médico: 59.85 segundos
+2025-05-22 03:35:01,480 - P17020 - INFO - Resultado processado: {'Hash': '875b043d662f42e1c63950df26494642224de38fd0aa02a0c5d788098991f6e9', 'CRM': '232058', 'UF': 'SP', 'Firstname': 'ANA', 'LastName': 'MARIA GARCIA CASTRO RACHID', 'Medical specialty': '', 'Endereco Completo A1': 'Avenida Alphaville, 779', 'Address A1': 'Avenida Alphaville', 'Numero A1': '779', 'Complement A1': 'Sala 1401 Edifício Pravda', 'Bairro A1': '', 'postal code A1': '06472-020', 'City A1': 'Alphaville', 'State A1': 'SP', 'Phone A1': '41) 9686-9828', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'meucnpj@contabilizei.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:35:01,480 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 03:35:01,481 - P17020 - INFO - Após salvar resultados Uso de memória: 127.13 MB
+2025-05-22 03:35:01,481 - P17020 - INFO - Progresso: 50.4%
+2025-05-22 03:35:01,482 - P17020 - INFO - Tempo de execução de processamento do médico 3: 59.86 segundos
+2025-05-22 03:35:01,482 - P17020 - INFO - Tempo de execução de processamento do lote completo: 212.38 segundos

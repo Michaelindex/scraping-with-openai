@@ -1,0 +1,427 @@
+2025-05-22 02:05:56,746 - P17320 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 02:05:56,746 - P17320 - INFO - Nome: LORENA ELEONORA LOPES ALVES
+2025-05-22 02:05:56,746 - P17320 - INFO - Reiniciando driver do Chrome
+2025-05-22 02:05:58,354 - P17320 - INFO - Após reiniciar driver Uso de memória: 99.34 MB
+2025-05-22 02:05:58,355 - P17320 - INFO - Início do processamento Uso de memória: 99.34 MB
+2025-05-22 02:05:58,355 - P17320 - INFO - Iniciando busca para: LORENA ELEONORA LOPES ALVES CRM 84634 MG telefone e-mail endereço
+2025-05-22 02:05:58,731 - P17320 - INFO - SearX results: 0 URLs
+2025-05-22 02:05:58,732 - P17320 - INFO - Após SearX Uso de memória: 99.34 MB
+2025-05-22 02:06:01,388 - P17320 - INFO - Google results: 1 URLs
+2025-05-22 02:06:01,388 - P17320 - INFO - Após Google Uso de memória: 99.52 MB
+2025-05-22 02:06:03,965 - P17320 - INFO - Bing results: 8 URLs
+2025-05-22 02:06:03,965 - P17320 - INFO - Após Bing Uso de memória: 100.32 MB
+2025-05-22 02:06:03,966 - P17320 - INFO - Total de URLs únicas: 9
+2025-05-22 02:06:03,966 - P17320 - INFO - Processando URL 1/9: https://crmvirtual.cfm.org.br/MG/servico/procure-medicos
+2025-05-22 02:06:07,640 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\c2af9904acdad6295c60ad1b50d74554.html
+2025-05-22 02:06:07,654 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:06:07,654 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:06:07,654 - P17320 - INFO - Candidates email: 2 items
+2025-05-22 02:06:07,654 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:06:07,654 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:06:07,655 - P17320 - INFO - Após processar URL 1 Uso de memória: 100.32 MB
+2025-05-22 02:06:07,655 - P17320 - INFO - Processando URL 2/9: https://crmmg.org.br/
+2025-05-22 02:06:12,995 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\359238310c9096afb1ec9e794f848700.html
+2025-05-22 02:06:13,058 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:06:13,058 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:06:13,059 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:06:13,062 - P17320 - INFO - Candidates complement: 2 items
+2025-05-22 02:06:13,064 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:06:13,065 - P17320 - INFO - Após processar URL 2 Uso de memória: 96.63 MB
+2025-05-22 02:06:13,066 - P17320 - INFO - Processando URL 3/9: https://crmmg.org.br/institucional/delegacias/
+2025-05-22 02:06:19,764 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\a8c03d70d0ba3b52ed1072ef18039d2f.html
+2025-05-22 02:06:20,337 - P17320 - INFO - Candidates address: 25 items
+2025-05-22 02:06:20,341 - P17320 - INFO - Candidates phone: 11 items
+2025-05-22 02:06:20,342 - P17320 - INFO - Candidates email: 26 items
+2025-05-22 02:06:20,342 - P17320 - INFO - Candidates complement: 15 items
+2025-05-22 02:06:20,342 - P17320 - INFO - Candidates cep: 26 items
+2025-05-22 02:06:20,342 - P17320 - INFO - Após processar URL 3 Uso de memória: 100.17 MB
+2025-05-22 02:06:20,342 - P17320 - INFO - Processando URL 4/9: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 02:06:24,198 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 02:06:24,241 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:06:24,241 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:06:24,241 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:06:24,241 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:06:24,242 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:06:24,242 - P17320 - INFO - Após processar URL 4 Uso de memória: 98.70 MB
+2025-05-22 02:06:24,242 - P17320 - INFO - Processando URL 5/9: https://www.threads.net/@_lorenalopesalves
+2025-05-22 02:06:27,621 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\0c0a38a8c3f6da0134387bc401520ef6.html
+2025-05-22 02:06:27,653 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:06:27,654 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:06:27,654 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:06:27,654 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:06:27,654 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:06:27,655 - P17320 - INFO - Após processar URL 5 Uso de memória: 102.72 MB
+2025-05-22 02:06:27,655 - P17320 - INFO - Processando URL 6/9: https://rhetory.com/antconc/wordlist.txt
+2025-05-22 02:06:27,655 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://rhetory.com/antconc/wordlist.txt
+2025-05-22 02:06:27,655 - P17320 - INFO - Após processar URL 6 Uso de memória: 99.70 MB
+2025-05-22 02:06:27,655 - P17320 - INFO - Processando URL 7/9: https://portal.cfm.org.br/busca-medicos
+2025-05-22 02:06:31,527 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 02:06:31,563 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:06:31,564 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:06:31,564 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:06:31,564 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:06:31,564 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:06:31,564 - P17320 - INFO - Após processar URL 7 Uso de memória: 100.27 MB
+2025-05-22 02:06:31,565 - P17320 - INFO - Processando URL 8/9: https://consultacrm.com.br/
+2025-05-22 02:06:35,980 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:06:35,992 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:06:35,993 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:06:35,993 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:06:35,993 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:06:35,993 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:06:35,994 - P17320 - INFO - Após processar URL 8 Uso de memória: 99.94 MB
+2025-05-22 02:06:35,994 - P17320 - INFO - Processando URL 9/9: https://www.boaconsulta.com/especialista/lorena-eleonora-lopes-alves-610597a7ba32c3136f001b04
+2025-05-22 02:06:40,303 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\8a6809c4126466246603da77341f1657.html
+2025-05-22 02:06:40,379 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 02:06:40,379 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:06:40,379 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:06:40,379 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:06:40,379 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:06:40,380 - P17320 - INFO - Após processar URL 9 Uso de memória: 102.34 MB
+2025-05-22 02:06:40,380 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:06:40,380 - P17320 - INFO - Ranked address: 27 items
+2025-05-22 02:06:40,380 - P17320 - INFO - Ranked phone: 11 items
+2025-05-22 02:06:40,381 - P17320 - INFO - Ranked email: 29 items
+2025-05-22 02:06:40,381 - P17320 - INFO - Ranked complement: 17 items
+2025-05-22 02:06:40,381 - P17320 - INFO - Ranked cep: 27 items
+2025-05-22 02:06:40,381 - P17320 - INFO - Após agregação Uso de memória: 102.34 MB
+2025-05-22 02:06:40,381 - P17320 - INFO - Validando endereço: ['Rua dos Timbiras, 1200', 'Rua Dom José Gaspar, 225', 'Rua Afrânio de Castro Costa, 55']
+2025-05-22 02:06:40,381 - P17320 - INFO - Endereço validado: Rua dos Timbiras, 1200
+2025-05-22 02:06:40,382 - P17320 - INFO - Limpando texto extenso para campo address: Rua dos Timbiras, 1200...
+2025-05-22 02:06:40,382 - P17320 - INFO - Texto limpo: Rua dos Timbiras, 1200
+2025-05-22 02:06:40,382 - P17320 - INFO - Validando telefone: ['(33) 99839-3367', '(32) 99861-6375', '(31) 98410-6121']
+2025-05-22 02:06:40,382 - P17320 - INFO - Limpando texto extenso para campo phone: (33) 99839-3367...
+2025-05-22 02:06:40,382 - P17320 - INFO - Texto limpo: 33) 99839-3367
+2025-05-22 02:06:40,382 - P17320 - INFO - Telefone validado: 33) 99839-3367
+2025-05-22 02:06:40,383 - P17320 - INFO - Validando email: ['medicos@crmmg.org.br', 'informatica@crmmg.org.br', 'alfenas@crmmg.org.br']
+2025-05-22 02:06:40,383 - P17320 - INFO - Limpando texto extenso para campo email: medicos@crmmg.org.br...
+2025-05-22 02:06:40,383 - P17320 - INFO - Texto limpo: medicos@crmmg.org.br
+2025-05-22 02:06:40,383 - P17320 - INFO - Email validado: medicos@crmmg.org.br
+2025-05-22 02:06:40,383 - P17320 - INFO - Validando complemento: ['Sala de Imprensa ', 'Sala de Imprensa   Notícias do CFM   Saiu na imprensa ', 'Sala 102 - Centro — 38183-188 ']
+2025-05-22 02:06:40,383 - P17320 - INFO - Limpando texto extenso para campo complement: Sala de Imprensa ...
+2025-05-22 02:06:40,384 - P17320 - INFO - Texto limpo: Sala de Imprensa
+2025-05-22 02:06:40,384 - P17320 - INFO - Complemento validado: Sala de Imprensa
+2025-05-22 02:06:40,384 - P17320 - INFO - Descobrindo cidade
+2025-05-22 02:06:40,384 - P17320 - INFO - Buscando cidade: Rua dos Timbiras cidade MG
+2025-05-22 02:06:42,917 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 02:06:42,917 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 02:06:42,917 - P17320 - INFO - Tempo de execução de processamento completo do médico: 44.56 segundos
+2025-05-22 02:06:42,917 - P17320 - INFO - Resultado processado: {'Hash': '0c870ba8f627be9f5795b628f206238537bb2ad2ac6541fa3eae19a9ddda050b', 'CRM': '84634', 'UF': 'MG', 'Firstname': 'LORENA', 'LastName': 'ELEONORA LOPES ALVES', 'Medical specialty': '', 'Endereco Completo A1': 'Rua dos Timbiras, 1200', 'Address A1': 'Rua dos Timbiras', 'Numero A1': '1200', 'Complement A1': 'Sala de Imprensa', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '33) 99839-3367', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'medicos@crmmg.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:06:42,918 - P17320 - INFO - Progresso: 17.4%
+2025-05-22 02:06:42,919 - P17320 - INFO - Executando coleta de lixo
+2025-05-22 02:06:42,992 - P17320 - INFO - Após coleta de lixo Uso de memória: 93.40 MB
+2025-05-22 02:06:42,992 - P17320 - INFO - Tempo de execução de processamento do médico 1: 46.25 segundos
+2025-05-22 02:06:42,993 - P17320 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 02:06:42,994 - P17320 - INFO - Nome: VICTÓRIA ALMEIDA VIANA
+2025-05-22 02:06:42,994 - P17320 - INFO - Início do processamento Uso de memória: 93.40 MB
+2025-05-22 02:06:42,994 - P17320 - INFO - Iniciando busca para: VICTÓRIA ALMEIDA VIANA CRM 85637 MG telefone e-mail endereço
+2025-05-22 02:06:43,690 - P17320 - INFO - SearX results: 9 URLs
+2025-05-22 02:06:43,691 - P17320 - INFO - Após SearX Uso de memória: 93.40 MB
+2025-05-22 02:06:46,220 - P17320 - INFO - Google results: 8 URLs
+2025-05-22 02:06:46,221 - P17320 - INFO - Após Google Uso de memória: 96.57 MB
+2025-05-22 02:06:48,718 - P17320 - INFO - Bing results: 9 URLs
+2025-05-22 02:06:48,718 - P17320 - INFO - Após Bing Uso de memória: 98.24 MB
+2025-05-22 02:06:48,718 - P17320 - INFO - Total de URLs únicas: 18
+2025-05-22 02:06:48,718 - P17320 - INFO - Processando URL 1/18: https://cnpj.biz/46169457000125
+2025-05-22 02:06:53,039 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\be13357a69790d406f209c2462bc6084.html
+2025-05-22 02:06:53,053 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:06:53,055 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:06:53,057 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:06:53,058 - P17320 - INFO - Candidates complement: 3 items
+2025-05-22 02:06:53,058 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 02:06:53,059 - P17320 - INFO - Após processar URL 1 Uso de memória: 98.61 MB
+2025-05-22 02:06:53,062 - P17320 - INFO - Processando URL 2/18: https://www2.senado.leg.br/bdsf/bitstream/handle/id/189812/eroic.pdf
+2025-05-22 02:06:53,064 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www2.senado.leg.br/bdsf/bitstream/handle/id/189812/eroic.pdf
+2025-05-22 02:06:53,065 - P17320 - INFO - Após processar URL 2 Uso de memória: 98.61 MB
+2025-05-22 02:06:53,066 - P17320 - INFO - Processando URL 3/18: https://louveira.sp.gov.br/painel/dbanexos/dbarquivo/08-2020/d0b52a2fff2355519c20346ec5c4a3b1.pdf
+2025-05-22 02:06:53,066 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://louveira.sp.gov.br/painel/dbanexos/dbarquivo/08-2020/d0b52a2fff2355519c20346ec5c4a3b1.pdf
+2025-05-22 02:06:53,066 - P17320 - INFO - Após processar URL 3 Uso de memória: 98.61 MB
+2025-05-22 02:06:53,066 - P17320 - INFO - Processando URL 4/18: https://www.econodata.com.br/empresas/sp-sao-vicente
+2025-05-22 02:06:57,214 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\54ba8333263b51a5aebb48e809fbd464.html
+2025-05-22 02:06:57,525 - P17320 - INFO - Candidates address: 36 items
+2025-05-22 02:06:57,525 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:06:57,525 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:06:57,525 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:06:57,526 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:06:57,526 - P17320 - INFO - Após processar URL 4 Uso de memória: 98.96 MB
+2025-05-22 02:06:57,526 - P17320 - INFO - Processando URL 5/18: https://www.econodata.com.br/consulta-empresa/46169457000125-VICTORIA-ALMEIDA-VIANA-LTDA
+2025-05-22 02:07:02,310 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\c32cfa29788da3e9125c838105ab978b.html
+2025-05-22 02:07:02,431 - P17320 - INFO - Candidates address: 24 items
+2025-05-22 02:07:02,431 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:02,431 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:07:02,431 - P17320 - INFO - Candidates complement: 2 items
+2025-05-22 02:07:02,431 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:07:02,431 - P17320 - INFO - Após processar URL 5 Uso de memória: 99.67 MB
+2025-05-22 02:07:02,432 - P17320 - INFO - Processando URL 6/18: https://crmvirtual.cfm.org.br/MG/servico/procure-medicos
+2025-05-22 02:07:04,875 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\c2af9904acdad6295c60ad1b50d74554.html
+2025-05-22 02:07:04,888 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:07:04,888 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:04,888 - P17320 - INFO - Candidates email: 2 items
+2025-05-22 02:07:04,888 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:04,888 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:07:04,888 - P17320 - INFO - Após processar URL 6 Uso de memória: 98.95 MB
+2025-05-22 02:07:04,889 - P17320 - INFO - Processando URL 7/18: https://www.solutudo.com.br/empresas/mg/patos-minas/clinica-medica-ou-medicina-interna/victoria-almeida-viana-11570649650-ltda-25255717
+2025-05-22 02:07:11,360 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\b3ee8dfdbe7646dbaefdacee6b077999.html
+2025-05-22 02:07:11,396 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:07:11,396 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:07:11,397 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:07:11,397 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:11,397 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:07:11,397 - P17320 - INFO - Após processar URL 7 Uso de memória: 99.17 MB
+2025-05-22 02:07:11,397 - P17320 - INFO - Processando URL 8/18: http://radiomoc.imprensa.ws/mural/cronistas.asp?cronista=Jos%E9%20Ponciano%20Neto
+2025-05-22 02:07:14,032 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d405e6b7487849217d6ab6029e10aad6.html
+2025-05-22 02:07:16,670 - P17320 - INFO - Candidates address: 42 items
+2025-05-22 02:07:16,670 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:07:16,670 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:07:16,671 - P17320 - INFO - Candidates complement: 8 items
+2025-05-22 02:07:16,671 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:07:16,671 - P17320 - INFO - Após processar URL 8 Uso de memória: 104.30 MB
+2025-05-22 02:07:16,671 - P17320 - INFO - Processando URL 9/18: https://ridi.ibict.br/bitstream/123456789/36/1/eroic.pdf
+2025-05-22 02:07:16,671 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://ridi.ibict.br/bitstream/123456789/36/1/eroic.pdf
+2025-05-22 02:07:16,672 - P17320 - INFO - Após processar URL 9 Uso de memória: 99.52 MB
+2025-05-22 02:07:16,672 - P17320 - INFO - Processando URL 10/18: https://crmmg.org.br/institucional/delegacias/
+2025-05-22 02:07:22,210 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\a8c03d70d0ba3b52ed1072ef18039d2f.html
+2025-05-22 02:07:22,774 - P17320 - INFO - Candidates address: 25 items
+2025-05-22 02:07:22,775 - P17320 - INFO - Candidates phone: 11 items
+2025-05-22 02:07:22,775 - P17320 - INFO - Candidates email: 26 items
+2025-05-22 02:07:22,775 - P17320 - INFO - Candidates complement: 15 items
+2025-05-22 02:07:22,775 - P17320 - INFO - Candidates cep: 26 items
+2025-05-22 02:07:22,775 - P17320 - INFO - Após processar URL 10 Uso de memória: 101.34 MB
+2025-05-22 02:07:22,775 - P17320 - INFO - Processando URL 11/18: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 02:07:25,803 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 02:07:25,841 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:07:25,842 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:25,842 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:07:25,842 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:25,842 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:07:25,842 - P17320 - INFO - Após processar URL 11 Uso de memória: 99.56 MB
+2025-05-22 02:07:25,842 - P17320 - INFO - Processando URL 12/18: https://portal.cfm.org.br/busca-medicos
+2025-05-22 02:07:29,221 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 02:07:29,256 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:07:29,256 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:29,256 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:07:29,257 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:07:29,257 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:07:29,257 - P17320 - INFO - Após processar URL 12 Uso de memória: 99.65 MB
+2025-05-22 02:07:29,257 - P17320 - INFO - Processando URL 13/18: https://www.ioepa.com.br/pages/2010/2010.03.29.DOE.pdf
+2025-05-22 02:07:29,258 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2010/2010.03.29.DOE.pdf
+2025-05-22 02:07:29,258 - P17320 - INFO - Após processar URL 13 Uso de memória: 99.65 MB
+2025-05-22 02:07:29,258 - P17320 - INFO - Processando URL 14/18: https://iomat.mt.gov.br/portal/edicoes/download/15304
+2025-05-22 02:07:31,698 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\2dc12bc443d45052ae71682f38cbf323.html
+2025-05-22 02:07:31,738 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:07:31,738 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:31,739 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:07:31,739 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:07:31,739 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:07:31,739 - P17320 - INFO - Após processar URL 14 Uso de memória: 99.65 MB
+2025-05-22 02:07:31,739 - P17320 - INFO - Processando URL 15/18: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/675902931.pdf
+2025-05-22 02:07:31,740 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/675902931.pdf
+2025-05-22 02:07:31,740 - P17320 - INFO - Após processar URL 15 Uso de memória: 99.65 MB
+2025-05-22 02:07:31,740 - P17320 - INFO - Processando URL 16/18: https://consultacrm.com.br/
+2025-05-22 02:07:35,937 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:07:35,952 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:07:35,953 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:35,953 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:07:35,953 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:35,953 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:07:35,953 - P17320 - INFO - Após processar URL 16 Uso de memória: 99.89 MB
+2025-05-22 02:07:35,954 - P17320 - INFO - Processando URL 17/18: https://www.boaconsulta.com/especialista/victoria-almeida-viana-64ab978b5a7bb8702401ec2b
+2025-05-22 02:07:38,970 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\af572904db974081fdec1013706aaad7.html
+2025-05-22 02:07:39,033 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:07:39,033 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:39,033 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:07:39,033 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:39,034 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:07:39,034 - P17320 - INFO - Após processar URL 17 Uso de memória: 100.82 MB
+2025-05-22 02:07:39,034 - P17320 - INFO - Processando URL 18/18: https://www.saobernardo.sp.gov.br/documents/10181/1441964/NM+2289+de+14.04.2022+-+Conteu%CC%81do+Integral.pdf/18ff476d-4ede-4aa1-0bfa-2b45bcee1e9e
+2025-05-22 02:07:39,034 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1441964/NM+2289+de+14.04.2022+-+Conteu%CC%81do+Integral.pdf/18ff476d-4ede-4aa1-0bfa-2b45bcee1e9e
+2025-05-22 02:07:39,034 - P17320 - INFO - Após processar URL 18 Uso de memória: 100.82 MB
+2025-05-22 02:07:39,034 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:07:39,035 - P17320 - INFO - Ranked address: 129 items
+2025-05-22 02:07:39,035 - P17320 - INFO - Ranked phone: 14 items
+2025-05-22 02:07:39,035 - P17320 - INFO - Ranked email: 32 items
+2025-05-22 02:07:39,036 - P17320 - INFO - Ranked complement: 29 items
+2025-05-22 02:07:39,036 - P17320 - INFO - Ranked cep: 34 items
+2025-05-22 02:07:39,036 - P17320 - INFO - Após agregação Uso de memória: 100.82 MB
+2025-05-22 02:07:39,036 - P17320 - INFO - Validando endereço: ['Avenida Presidente Wilson, 1473', 'Rua Professor Andre Retz, 208', 'Avenida Mota Lima, 246']
+2025-05-22 02:07:39,036 - P17320 - INFO - Endereço validado: Avenida Presidente Wilson, 1473
+2025-05-22 02:07:39,036 - P17320 - INFO - Limpando texto extenso para campo address: Avenida Presidente Wilson, 1473...
+2025-05-22 02:07:39,037 - P17320 - INFO - Texto limpo: Avenida Presidente Wilson, 1473
+2025-05-22 02:07:39,037 - P17320 - INFO - Validando telefone: ['(34) 99830-9130', '(34) 9830-9130', '(38) 3229-9800']
+2025-05-22 02:07:39,037 - P17320 - INFO - Limpando texto extenso para campo phone: (34) 99830-9130...
+2025-05-22 02:07:39,037 - P17320 - INFO - Texto limpo: 34) 99830-9130
+2025-05-22 02:07:39,037 - P17320 - INFO - Telefone validado: 34) 99830-9130
+2025-05-22 02:07:39,037 - P17320 - INFO - Validando email: ['cfm@portalmedico.org.br', 'dravictoriaviana@gmail.com', 'medicos@crmmg.org.br']
+2025-05-22 02:07:39,037 - P17320 - INFO - Limpando texto extenso para campo email: cfm@portalmedico.org.br...
+2025-05-22 02:07:39,037 - P17320 - INFO - Texto limpo: cfm@portalmedico.org.br
+2025-05-22 02:07:39,038 - P17320 - INFO - Email validado: cfm@portalmedico.org.br
+2025-05-22 02:07:39,038 - P17320 - INFO - Validando complemento: ['Conjunto D', 'Sala  602  Clique para copiar    Bairro:  Centro  Cliq', 'Sala  602  Centro  Patos de Minas MG  38700-084  Cliqu']
+2025-05-22 02:07:39,038 - P17320 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 02:07:39,038 - P17320 - INFO - Texto limpo: Conjunto D
+2025-05-22 02:07:39,038 - P17320 - INFO - Complemento validado: Conjunto D
+2025-05-22 02:07:39,039 - P17320 - INFO - Descobrindo cidade
+2025-05-22 02:07:39,039 - P17320 - INFO - Buscando cidade: Avenida Presidente Wilson cidade MG
+2025-05-22 02:07:41,713 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 02:07:41,714 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 02:07:41,714 - P17320 - INFO - Tempo de execução de processamento completo do médico: 58.72 segundos
+2025-05-22 02:07:41,714 - P17320 - INFO - Resultado processado: {'Hash': '8c0df0ede0ce637be6c6958f1d4af4aa1c63ebc828b9daf280a30e47ba20530e', 'CRM': '85637', 'UF': 'MG', 'Firstname': 'VICTÓRIA', 'LastName': 'ALMEIDA VIANA', 'Medical specialty': '', 'Endereco Completo A1': 'Avenida Presidente Wilson, 1473', 'Address A1': 'Avenida Presidente Wilson', 'Numero A1': '1473', 'Complement A1': 'Conjunto D', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '34) 99830-9130', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cfm@portalmedico.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:07:41,715 - P17320 - INFO - Progresso: 17.8%
+2025-05-22 02:07:41,715 - P17320 - INFO - Tempo de execução de processamento do médico 2: 58.72 segundos
+2025-05-22 02:07:41,715 - P17320 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 02:07:41,716 - P17320 - INFO - Nome: ANDRESSA RIBEIRO VEIGA LIMA
+2025-05-22 02:07:41,716 - P17320 - INFO - Início do processamento Uso de memória: 100.18 MB
+2025-05-22 02:07:41,716 - P17320 - INFO - Iniciando busca para: ANDRESSA RIBEIRO VEIGA LIMA CRM 87459 MG telefone e-mail endereço
+2025-05-22 02:07:42,154 - P17320 - INFO - SearX results: 5 URLs
+2025-05-22 02:07:42,155 - P17320 - INFO - Após SearX Uso de memória: 100.18 MB
+2025-05-22 02:07:44,615 - P17320 - INFO - Google results: 5 URLs
+2025-05-22 02:07:44,615 - P17320 - INFO - Após Google Uso de memória: 100.86 MB
+2025-05-22 02:07:47,229 - P17320 - INFO - Bing results: 9 URLs
+2025-05-22 02:07:47,229 - P17320 - INFO - Após Bing Uso de memória: 101.56 MB
+2025-05-22 02:07:47,229 - P17320 - INFO - Total de URLs únicas: 14
+2025-05-22 02:07:47,229 - P17320 - INFO - Processando URL 1/14: https://louveira.sp.gov.br/painel/dbanexos/dbarquivo/08-2020/d0b52a2fff2355519c20346ec5c4a3b1.pdf
+2025-05-22 02:07:47,229 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://louveira.sp.gov.br/painel/dbanexos/dbarquivo/08-2020/d0b52a2fff2355519c20346ec5c4a3b1.pdf
+2025-05-22 02:07:47,230 - P17320 - INFO - Após processar URL 1 Uso de memória: 101.56 MB
+2025-05-22 02:07:47,230 - P17320 - INFO - Processando URL 2/14: https://www.econodata.com.br/consulta-empresa/41963824000144-ANDRESSA-RIBEIRO-VEIGA-LIMA
+2025-05-22 02:07:50,808 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e3789d1f8a8e12f98d9d0ca4b7e21cfe.html
+2025-05-22 02:07:50,935 - P17320 - INFO - Candidates address: 23 items
+2025-05-22 02:07:50,936 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:50,936 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:07:50,937 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:07:50,937 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:07:50,937 - P17320 - INFO - Após processar URL 2 Uso de memória: 103.29 MB
+2025-05-22 02:07:50,938 - P17320 - INFO - Processando URL 3/14: https://crmvirtual.cfm.org.br/MG/servico/procure-medicos
+2025-05-22 02:07:53,413 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\c2af9904acdad6295c60ad1b50d74554.html
+2025-05-22 02:07:53,432 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:07:53,432 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:53,433 - P17320 - INFO - Candidates email: 2 items
+2025-05-22 02:07:53,433 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:53,433 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:07:53,433 - P17320 - INFO - Após processar URL 3 Uso de memória: 102.48 MB
+2025-05-22 02:07:53,433 - P17320 - INFO - Processando URL 4/14: https://www.achecerto.com.br/
+2025-05-22 02:07:59,383 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ceb96e5663cace6f7b35fee1716d7561.html
+2025-05-22 02:07:59,398 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:07:59,398 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:59,399 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:07:59,399 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:59,399 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:07:59,399 - P17320 - INFO - Após processar URL 4 Uso de memória: 102.48 MB
+2025-05-22 02:07:59,399 - P17320 - INFO - Processando URL 5/14: https://cadastroempresa.com.br/fornecedor/clinica-medica-veiga-lima-41963824000144
+2025-05-22 02:08:02,071 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\859ad5be71c9245ba7baed7d13282c02.html
+2025-05-22 02:08:02,096 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:08:02,100 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:08:02,106 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:08:02,107 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:02,111 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:08:02,111 - P17320 - INFO - Após processar URL 5 Uso de memória: 102.48 MB
+2025-05-22 02:08:02,111 - P17320 - INFO - Processando URL 6/14: https://www.boaconsulta.com/especialista/andressa-ribeiro-veiga-lima-61059b4bba32c315a200156e
+2025-05-22 02:08:05,065 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ba549e88365117134208956d92cb072b.html
+2025-05-22 02:08:05,147 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:08:05,148 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:08:05,148 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:08:05,149 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:05,149 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:08:05,150 - P17320 - INFO - Após processar URL 6 Uso de memória: 103.20 MB
+2025-05-22 02:08:05,150 - P17320 - INFO - Processando URL 7/14: https://ioepa.com.br/pages/2015/2015.01.22.DOE.pdf
+2025-05-22 02:08:05,150 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://ioepa.com.br/pages/2015/2015.01.22.DOE.pdf
+2025-05-22 02:08:05,151 - P17320 - INFO - Após processar URL 7 Uso de memória: 103.20 MB
+2025-05-22 02:08:05,151 - P17320 - INFO - Processando URL 8/14: https://www.ibam.org.br/wp-content/uploads/2022/05/blu-diversos-docs.pdf
+2025-05-22 02:08:05,151 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.ibam.org.br/wp-content/uploads/2022/05/blu-diversos-docs.pdf
+2025-05-22 02:08:05,151 - P17320 - INFO - Após processar URL 8 Uso de memória: 103.20 MB
+2025-05-22 02:08:05,152 - P17320 - INFO - Processando URL 9/14: https://www.solutudo.com.br/empresas/mg/carmo-cachoeira/clinica-medica-ou-medicina-interna/andressa-ribeiro-veiga-lima-24696959
+2025-05-22 02:08:09,044 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\53ef6e5261725d9f5632df058ba63e65.html
+2025-05-22 02:08:09,078 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:08:09,078 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:08:09,078 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:08:09,078 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:09,079 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:08:09,079 - P17320 - INFO - Após processar URL 9 Uso de memória: 103.20 MB
+2025-05-22 02:08:09,079 - P17320 - INFO - Processando URL 10/14: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 02:08:11,893 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 02:08:11,947 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:08:11,947 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:08:11,948 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:08:11,948 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:11,948 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:08:11,948 - P17320 - INFO - Após processar URL 10 Uso de memória: 103.21 MB
+2025-05-22 02:08:11,949 - P17320 - INFO - Processando URL 11/14: https://www.ioepa.com.br/pages/2020/2020.10.16.DOE.pdf
+2025-05-22 02:08:11,949 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2020/2020.10.16.DOE.pdf
+2025-05-22 02:08:11,949 - P17320 - INFO - Após processar URL 11 Uso de memória: 103.21 MB
+2025-05-22 02:08:11,950 - P17320 - INFO - Processando URL 12/14: https://consultacrm.com.br/
+2025-05-22 02:08:15,275 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:08:15,284 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:08:15,285 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:08:15,285 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:08:15,285 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:15,285 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:08:15,285 - P17320 - INFO - Após processar URL 12 Uso de memória: 103.21 MB
+2025-05-22 02:08:15,286 - P17320 - INFO - Processando URL 13/14: https://www.consultascnpj.com/andressa-ribeiro-veiga-lima/41963824000144
+2025-05-22 02:08:18,385 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\f8f6d25eba6635b52b0ff6e4bd4aeca8.html
+2025-05-22 02:08:18,396 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:08:18,396 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:08:18,396 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:08:18,396 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:18,397 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:08:18,397 - P17320 - INFO - Após processar URL 13 Uso de memória: 103.21 MB
+2025-05-22 02:08:18,397 - P17320 - INFO - Processando URL 14/14: https://www.altofeliz.rs.gov.br/web/imgs/arquivos/publicacao-famurs-n-86-de-17-de-agosto-de-20231692271232.pdf
+2025-05-22 02:08:18,397 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.altofeliz.rs.gov.br/web/imgs/arquivos/publicacao-famurs-n-86-de-17-de-agosto-de-20231692271232.pdf
+2025-05-22 02:08:18,397 - P17320 - INFO - Após processar URL 14 Uso de memória: 103.21 MB
+2025-05-22 02:08:18,397 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:08:18,398 - P17320 - INFO - Ranked address: 25 items
+2025-05-22 02:08:18,398 - P17320 - INFO - Ranked phone: 1 items
+2025-05-22 02:08:18,398 - P17320 - INFO - Ranked email: 5 items
+2025-05-22 02:08:18,398 - P17320 - INFO - Ranked complement: 1 items
+2025-05-22 02:08:18,399 - P17320 - INFO - Ranked cep: 2 items
+2025-05-22 02:08:18,399 - P17320 - INFO - Após agregação Uso de memória: 103.21 MB
+2025-05-22 02:08:18,399 - P17320 - INFO - Validando endereço: ['Rua Urbano Reis, 98', 'Rua Isidoro Gaida, 5', 'Rua Ferminiano Cardoso de Fraga, 1047']
+2025-05-22 02:08:18,399 - P17320 - INFO - Endereço validado: Rua Urbano Reis, 98
+2025-05-22 02:08:18,399 - P17320 - INFO - Limpando texto extenso para campo address: Rua Urbano Reis, 98...
+2025-05-22 02:08:18,400 - P17320 - INFO - Texto limpo: Rua Urbano Reis, 98
+2025-05-22 02:08:18,400 - P17320 - INFO - Validando telefone: ['(35) 3255-1587']
+2025-05-22 02:08:18,400 - P17320 - INFO - Limpando texto extenso para campo phone: (35) 3255-1587...
+2025-05-22 02:08:18,400 - P17320 - INFO - Texto limpo: 35) 3255-1587
+2025-05-22 02:08:18,400 - P17320 - INFO - Telefone validado: 35) 3255-1587
+2025-05-22 02:08:18,400 - P17320 - INFO - Validando email: ['marciacfrancisco@yahoo.com.br', 'medicos@crmmg.org.br', 'informatica@crmmg.org.br']
+2025-05-22 02:08:18,401 - P17320 - INFO - Limpando texto extenso para campo email: marciacfrancisco@yahoo.com.br...
+2025-05-22 02:08:18,401 - P17320 - INFO - Texto limpo: marciacfrancisco@yahoo.com.br
+2025-05-22 02:08:18,401 - P17320 - INFO - Email validado: marciacfrancisco@yahoo.com.br
+2025-05-22 02:08:18,401 - P17320 - INFO - Validando complemento: ["Conjunto 3 - Fazenda Mestre D'armas (Etapa Ii - Planaltina"]
+2025-05-22 02:08:18,401 - P17320 - INFO - Limpando texto extenso para campo complement: Conjunto 3 - Fazenda Mestre D'armas (Etapa Ii - Pl...
+2025-05-22 02:08:18,401 - P17320 - INFO - Texto limpo: Conjunto 3 - Fazenda Mestre D'
+2025-05-22 02:08:18,401 - P17320 - INFO - Complemento validado: Conjunto 3 - Fazenda Mestre D'
+2025-05-22 02:08:18,401 - P17320 - INFO - Descobrindo cidade
+2025-05-22 02:08:18,402 - P17320 - INFO - Buscando cidade: Rua Urbano Reis cidade MG
+2025-05-22 02:08:20,623 - P17320 - INFO - Cidade encontrada: Belo Horizonte
+2025-05-22 02:08:20,623 - P17320 - INFO - Limpando texto extenso para campo city: Belo Horizonte...
+2025-05-22 02:08:20,623 - P17320 - INFO - Texto limpo: Belo Horizonte
+2025-05-22 02:08:20,624 - P17320 - INFO - Cidade descoberta: Belo Horizonte
+2025-05-22 02:08:20,624 - P17320 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 02:08:20,624 - P17320 - INFO - Iniciando busca de CEP em cascata para: Rua Urbano Reis, Belo Horizonte, MG
+2025-05-22 02:08:20,624 - P17320 - INFO - Método 1: ViaCEP API
+2025-05-22 02:08:20,624 - P17320 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/MG/belo%20horizonte/rua%20urbano%20reis/json/
+2025-05-22 02:08:21,279 - P17320 - WARNING - ViaCEP retornou status 200 ou nenhum resultado
+2025-05-22 02:08:21,281 - P17320 - INFO - Método 2: BrasilAPI
+2025-05-22 02:08:21,281 - P17320 - INFO - Buscando na BrasilAPI: Rua Urbano Reis, Belo Horizonte, MG
+2025-05-22 02:08:21,804 - P17320 - INFO - Consultando BrasilAPI: https://brasilapi.com.br/api/cep/v2/35135084
+2025-05-22 02:08:22,116 - P17320 - WARNING - BrasilAPI retornou status 404
+2025-05-22 02:08:22,119 - P17320 - INFO - Método 3: Web Scraping do Google
+2025-05-22 02:08:22,119 - P17320 - INFO - Buscando CEP: CEP da Rua Urbano Reis, Belo Horizonte
+2025-05-22 02:08:23,802 - P17320 - INFO - CEP encontrado: 37185-014
+2025-05-22 02:08:23,803 - P17320 - INFO - CEP encontrado via Google: 37185-014
+2025-05-22 02:08:23,803 - P17320 - INFO - Dados de CEP encontrados: {'cep': '37185-014', 'logradouro': 'Rua Urbano Reis', 'bairro': '', 'localidade': 'Belo Horizonte', 'uf': 'MG', 'complemento': ''}
+2025-05-22 02:08:23,803 - P17320 - INFO - Limpando texto extenso para campo city: Belo Horizonte...
+2025-05-22 02:08:23,803 - P17320 - INFO - Texto limpo: Belo Horizonte
+2025-05-22 02:08:23,804 - P17320 - INFO - Limpando texto extenso para campo state: MG...
+2025-05-22 02:08:23,804 - P17320 - INFO - Texto limpo: MG
+2025-05-22 02:08:23,804 - P17320 - INFO - Tempo de execução de processamento completo do médico: 42.09 segundos
+2025-05-22 02:08:23,804 - P17320 - INFO - Resultado processado: {'Hash': 'b83456573a7ab3b014ddc3f18682ef3f841d0a2309aa57ec43a503586a88ac6a', 'CRM': '87459', 'UF': 'MG', 'Firstname': 'ANDRESSA', 'LastName': 'RIBEIRO VEIGA LIMA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Urbano Reis, 98', 'Address A1': 'Rua Urbano Reis', 'Numero A1': '98', 'Complement A1': "Conjunto 3 - Fazenda Mestre D'", 'Bairro A1': '', 'postal code A1': '37185-014', 'City A1': 'Belo Horizonte', 'State A1': 'MG', 'Phone A1': '35) 3255-1587', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'marciacfrancisco@yahoo.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:08:23,805 - P17320 - INFO - Salvando lote de resultados
+2025-05-22 02:08:23,806 - P17320 - INFO - Após salvar resultados Uso de memória: 101.33 MB
+2025-05-22 02:08:23,807 - P17320 - INFO - Progresso: 18.2%
+2025-05-22 02:08:23,807 - P17320 - INFO - Tempo de execução de processamento do médico 3: 42.09 segundos
+2025-05-22 02:08:23,807 - P17320 - INFO - Tempo de execução de processamento do lote completo: 147.06 segundos

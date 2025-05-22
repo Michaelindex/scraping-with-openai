@@ -1,0 +1,532 @@
+2025-05-22 02:18:10,668 - P17320 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 02:18:10,668 - P17320 - INFO - Nome: VALERIA SCHINCARIOL
+2025-05-22 02:18:10,669 - P17320 - INFO - Reiniciando driver do Chrome
+2025-05-22 02:18:11,985 - P17320 - INFO - Após reiniciar driver Uso de memória: 101.27 MB
+2025-05-22 02:18:11,985 - P17320 - INFO - Início do processamento Uso de memória: 101.27 MB
+2025-05-22 02:18:11,986 - P17320 - INFO - Iniciando busca para: VALERIA SCHINCARIOL CRM 449793 RJ telefone e-mail endereço
+2025-05-22 02:18:12,442 - P17320 - INFO - SearX results: 10 URLs
+2025-05-22 02:18:12,443 - P17320 - INFO - Após SearX Uso de memória: 101.27 MB
+2025-05-22 02:18:15,475 - P17320 - INFO - Google results: 7 URLs
+2025-05-22 02:18:15,475 - P17320 - INFO - Após Google Uso de memória: 102.42 MB
+2025-05-22 02:18:18,190 - P17320 - INFO - Bing results: 14 URLs
+2025-05-22 02:18:18,190 - P17320 - INFO - Após Bing Uso de memória: 102.42 MB
+2025-05-22 02:18:18,190 - P17320 - INFO - Total de URLs únicas: 22
+2025-05-22 02:18:18,191 - P17320 - INFO - Processando URL 1/22: https://doutorcrm.com/valeria-schincariol
+2025-05-22 02:18:21,653 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\cba9cfef3331bd8d8467a820abffd032.html
+2025-05-22 02:18:21,662 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:18:21,662 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:18:21,662 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:18:21,662 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:18:21,662 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:18:21,663 - P17320 - INFO - Após processar URL 1 Uso de memória: 102.41 MB
+2025-05-22 02:18:21,663 - P17320 - INFO - Processando URL 2/22: https://www.cremerj.org.br/servicomedico/informacoes/48441
+2025-05-22 02:18:26,571 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d3e5aee9aa0cd7d33240df71e7a36254.html
+2025-05-22 02:18:26,621 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:18:26,621 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 02:18:26,622 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:18:26,622 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:18:26,622 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 02:18:26,622 - P17320 - INFO - Após processar URL 2 Uso de memória: 102.41 MB
+2025-05-22 02:18:26,622 - P17320 - INFO - Processando URL 3/22: https://www.medicosbrasil.com/profissional/valeria-schincariol
+2025-05-22 02:18:30,534 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\79a56700f9d059b30829b328473fe8a3.html
+2025-05-22 02:18:30,560 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:18:30,635 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:18:30,635 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:18:30,636 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:18:30,636 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:18:30,636 - P17320 - INFO - Após processar URL 3 Uso de memória: 102.11 MB
+2025-05-22 02:18:30,637 - P17320 - INFO - Processando URL 4/22: https://medicos2.online/dra-valeria-schincariol/
+2025-05-22 02:18:31,713 - P17320 - ERROR - Erro ao baixar HTML de https://medicos2.online/dra-valeria-schincariol/: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7574059F4]
+	(No symbol) [0x00007FF7573F6789]
+	(No symbol) [0x00007FF7573F84F8]
+	(No symbol) [0x00007FF7573F6A96]
+	(No symbol) [0x00007FF7573F6516]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F465C]
+	(No symbol) [0x00007FF75740CF3A]
+	(No symbol) [0x00007FF7574B013E]
+	(No symbol) [0x00007FF75748737A]
+	(No symbol) [0x00007FF7574AF39C]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 02:18:31,717 - P17320 - INFO - Após processar URL 4 Uso de memória: 102.11 MB
+2025-05-22 02:18:31,717 - P17320 - INFO - Processando URL 5/22: https://soperj.com.br/simposio-de-endocrinologia-pediatrica-da-soperj/
+2025-05-22 02:18:35,464 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\eb8de8603440294e1484d60b6ee8c5b9.html
+2025-05-22 02:18:35,477 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:18:35,477 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 02:18:35,478 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:18:35,478 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:18:35,478 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:18:35,478 - P17320 - INFO - Após processar URL 5 Uso de memória: 102.11 MB
+2025-05-22 02:18:35,478 - P17320 - INFO - Processando URL 6/22: https://www.escavador.com/sobre/1748370/valeria-schincariol
+2025-05-22 02:18:39,192 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\6914f225acb71d890c775075e5a77ac4.html
+2025-05-22 02:18:39,210 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:18:39,211 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:18:39,211 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:18:39,211 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:18:39,211 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:18:39,211 - P17320 - INFO - Após processar URL 6 Uso de memória: 102.11 MB
+2025-05-22 02:18:39,212 - P17320 - INFO - Processando URL 7/22: https://www.doctoralia.com.br/endocrinologista-pediatrico/rio-de-janeiro/barra-da-tijuca
+2025-05-22 02:18:39,212 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/endocrinologista-pediatrico/rio-de-janeiro/barra-da-tijuca
+2025-05-22 02:18:39,212 - P17320 - INFO - Após processar URL 7 Uso de memória: 102.11 MB
+2025-05-22 02:18:39,213 - P17320 - INFO - Processando URL 8/22: https://www.doctoralia.com.br/valeria-s-cezar/pediatra/rio-de-janeiro
+2025-05-22 02:18:39,213 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/valeria-s-cezar/pediatra/rio-de-janeiro
+2025-05-22 02:18:39,214 - P17320 - INFO - Após processar URL 8 Uso de memória: 102.11 MB
+2025-05-22 02:18:39,214 - P17320 - INFO - Processando URL 9/22: https://www.classemedica.com.br/medico/328657-valeria-schincariol.htm
+2025-05-22 02:18:45,240 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\c3fb5f6be09a6b2192da37adc5f3b8c2.html
+2025-05-22 02:18:45,278 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:18:45,278 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:18:45,279 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:18:45,279 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:18:45,279 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:18:45,279 - P17320 - INFO - Após processar URL 9 Uso de memória: 102.11 MB
+2025-05-22 02:18:45,279 - P17320 - INFO - Processando URL 10/22: https://www.apontador.com.br/local/rj/rio_de_janeiro/medicos_endocrinologia/SB6KS232/dr_valeria_schincariol_medico.html
+2025-05-22 02:18:49,183 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\c590790d88dee4ae96ecfc6557c56db6.html
+2025-05-22 02:18:49,230 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 02:18:49,230 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:18:49,231 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:18:49,231 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:18:49,231 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:18:49,232 - P17320 - INFO - Após processar URL 10 Uso de memória: 97.51 MB
+2025-05-22 02:18:49,232 - P17320 - INFO - Processando URL 11/22: https://guiasaudebrasil.com.br/profissional/720a71c1f01398a9-valeria-schincariol
+2025-05-22 02:18:52,905 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\cc4e94bba8c3c7804afbceea03b9b385.html
+2025-05-22 02:18:52,924 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:18:52,925 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:18:52,926 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:18:52,926 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:18:52,928 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:18:52,931 - P17320 - INFO - Após processar URL 11 Uso de memória: 99.32 MB
+2025-05-22 02:18:52,933 - P17320 - INFO - Processando URL 12/22: https://cliniguia.com/profissionais/valeria-schincariol-201552003770018/
+2025-05-22 02:19:13,120 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9bd1aeeaab898284417347dcf93ea021.html
+2025-05-22 02:19:13,190 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:19:13,195 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:19:13,198 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:19:13,199 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:19:13,200 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:19:13,203 - P17320 - INFO - Após processar URL 12 Uso de memória: 100.25 MB
+2025-05-22 02:19:13,210 - P17320 - INFO - Processando URL 13/22: https://www.boaconsulta.com/especialista/valeria-schincariol-6105bef27b3c9427ea00044f
+2025-05-22 02:19:15,368 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\a98a5b6e58ddb8d8eb26bb5e8aee4087.html
+2025-05-22 02:19:15,426 - P17320 - INFO - Candidates address: 7 items
+2025-05-22 02:19:15,426 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:19:15,426 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:19:15,427 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:19:15,427 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:19:15,427 - P17320 - INFO - Após processar URL 13 Uso de memória: 101.58 MB
+2025-05-22 02:19:15,427 - P17320 - INFO - Processando URL 14/22: https://www.endocrino.org.br/noticias-de-departam/discutindo-endocrinologia-pediatrica-2021/
+2025-05-22 02:19:22,165 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\3611cecfc96bcd603d2fa8409b8ea038.html
+2025-05-22 02:19:22,200 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 02:19:22,201 - P17320 - INFO - Candidates phone: 4 items
+2025-05-22 02:19:22,201 - P17320 - INFO - Candidates email: 4 items
+2025-05-22 02:19:22,201 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:19:22,201 - P17320 - INFO - Candidates cep: 6 items
+2025-05-22 02:19:22,201 - P17320 - INFO - Após processar URL 14 Uso de memória: 101.91 MB
+2025-05-22 02:19:22,201 - P17320 - INFO - Processando URL 15/22: https://www.helpsaude.com/valeria-schincariol-crmrj-449793
+2025-05-22 02:19:27,818 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\87ae8b75c7eb7f8c4dc2f026e9233780.html
+2025-05-22 02:19:27,832 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:19:27,832 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:19:27,833 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:19:27,834 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:19:27,834 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:19:27,834 - P17320 - INFO - Após processar URL 15 Uso de memória: 102.15 MB
+2025-05-22 02:19:27,835 - P17320 - INFO - Processando URL 16/22: https://www.doctoralia.com.br/valeria-schincariol/endocrinologista-pediatrico-pediatra/rio-de-janeiro
+2025-05-22 02:19:27,835 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/valeria-schincariol/endocrinologista-pediatrico-pediatra/rio-de-janeiro
+2025-05-22 02:19:27,835 - P17320 - INFO - Após processar URL 16 Uso de memória: 102.15 MB
+2025-05-22 02:19:27,836 - P17320 - INFO - Processando URL 17/22: https://www.doctoralia.com.br/endocrinologista-pediatrico/rio-de-janeiro
+2025-05-22 02:19:27,836 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/endocrinologista-pediatrico/rio-de-janeiro
+2025-05-22 02:19:27,837 - P17320 - INFO - Após processar URL 17 Uso de memória: 102.15 MB
+2025-05-22 02:19:27,837 - P17320 - INFO - Processando URL 18/22: https://www.doctoralia.com.br/valeria-fonseca-bruno/ginecologista/rio-de-janeiro
+2025-05-22 02:19:27,837 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/valeria-fonseca-bruno/ginecologista/rio-de-janeiro
+2025-05-22 02:19:27,838 - P17320 - INFO - Após processar URL 18 Uso de memória: 102.15 MB
+2025-05-22 02:19:27,838 - P17320 - INFO - Processando URL 19/22: https://consultacrm.com.br/
+2025-05-22 02:19:31,297 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:19:31,308 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:19:31,308 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:19:31,309 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:19:31,309 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:19:31,309 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:19:31,309 - P17320 - INFO - Após processar URL 19 Uso de memória: 102.18 MB
+2025-05-22 02:19:31,309 - P17320 - INFO - Processando URL 20/22: https://www.doctoralia.com.br/servicos-de-tratamento/tratamento-da-obesidade-infanto-juvenil/rio-de-janeiro
+2025-05-22 02:19:31,310 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/servicos-de-tratamento/tratamento-da-obesidade-infanto-juvenil/rio-de-janeiro
+2025-05-22 02:19:31,310 - P17320 - INFO - Após processar URL 20 Uso de memória: 102.18 MB
+2025-05-22 02:19:31,310 - P17320 - INFO - Processando URL 21/22: https://www.doctoralia.com.br/servicos-de-tratamento/tratamento-com-hormonio-de-crescimento-gh/rio-de-janeiro
+2025-05-22 02:19:31,310 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/servicos-de-tratamento/tratamento-com-hormonio-de-crescimento-gh/rio-de-janeiro
+2025-05-22 02:19:31,311 - P17320 - INFO - Após processar URL 21 Uso de memória: 102.18 MB
+2025-05-22 02:19:31,312 - P17320 - INFO - Processando URL 22/22: https://www.doctuo.com.br/medicos/valeria-schincariol
+2025-05-22 02:19:31,312 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctuo.com.br/medicos/valeria-schincariol
+2025-05-22 02:19:31,312 - P17320 - INFO - Após processar URL 22 Uso de memória: 102.18 MB
+2025-05-22 02:19:31,312 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:19:31,313 - P17320 - INFO - Ranked address: 13 items
+2025-05-22 02:19:31,313 - P17320 - INFO - Ranked phone: 8 items
+2025-05-22 02:19:31,314 - P17320 - INFO - Ranked email: 5 items
+2025-05-22 02:19:31,314 - P17320 - INFO - Ranked complement: 2 items
+2025-05-22 02:19:31,314 - P17320 - INFO - Ranked cep: 11 items
+2025-05-22 02:19:31,315 - P17320 - INFO - Após agregação Uso de memória: 102.18 MB
+2025-05-22 02:19:31,315 - P17320 - INFO - Validando endereço: ['Rua de Conde Bonfim - 232 S/506 CEP: 21-2284-2904', 'Rua Cd. de Bonfim , 232', 'Rua Cd. de Bonfim, 232']
+2025-05-22 02:19:31,315 - P17320 - INFO - Endereço validado: Rua de Conde Bonfim - 232 S/506 CEP: 21-2284-2904
+2025-05-22 02:19:31,315 - P17320 - INFO - Limpando texto extenso para campo address: Rua de Conde Bonfim - 232 S/506 CEP: 21-2284-2904...
+2025-05-22 02:19:31,316 - P17320 - INFO - Texto limpo: Rua de Conde Bonfim - 232 S/506 CEP: 21-2284-2904
+2025-05-22 02:19:31,316 - P17320 - INFO - Validando telefone: ['(21) 3184-7050', '(21) 98491-1522', '(21) 3923-5234']
+2025-05-22 02:19:31,316 - P17320 - INFO - Limpando texto extenso para campo phone: (21) 3184-7050...
+2025-05-22 02:19:31,316 - P17320 - INFO - Texto limpo: 21) 3184-7050
+2025-05-22 02:19:31,316 - P17320 - INFO - Telefone validado: 21) 3184-7050
+2025-05-22 02:19:31,316 - P17320 - INFO - Validando email: ['relacionamento@apontador.com', 'secretaria@endocrino.org.br', 'secretaria.sbem@endocrino.org.br']
+2025-05-22 02:19:31,316 - P17320 - INFO - Limpando texto extenso para campo email: relacionamento@apontador.com...
+2025-05-22 02:19:31,317 - P17320 - INFO - Texto limpo: relacionamento@apontador.com
+2025-05-22 02:19:31,317 - P17320 - INFO - Email validado: relacionamento@apontador.com
+2025-05-22 02:19:31,317 - P17320 - INFO - Validando complemento: ['Saladas ', 'Sala 504 Icaraí']
+2025-05-22 02:19:31,317 - P17320 - INFO - Limpando texto extenso para campo complement: Saladas ...
+2025-05-22 02:19:31,317 - P17320 - INFO - Texto limpo: Saladas
+2025-05-22 02:19:31,317 - P17320 - INFO - Complemento validado: Saladas
+2025-05-22 02:19:31,317 - P17320 - INFO - Descobrindo cidade
+2025-05-22 02:19:31,317 - P17320 - INFO - Buscando cidade: Rua de Conde Bonfim - 232 S/506 CEP: 21-2284-2904 cidade RJ
+2025-05-22 02:19:34,701 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 02:19:34,704 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 02:19:34,704 - P17320 - INFO - Tempo de execução de processamento completo do médico: 82.72 segundos
+2025-05-22 02:19:34,705 - P17320 - INFO - Resultado processado: {'Hash': 'c2f5f6624a2e005a9f5df6c57fe79a7c84f16166169caed160db3624e2f936a8', 'CRM': '449793', 'UF': 'RJ', 'Firstname': 'VALERIA', 'LastName': 'SCHINCARIOL', 'Medical specialty': '', 'Endereco Completo A1': 'Rua de Conde Bonfim - 232 S/506 CEP: 21-2284-2904', 'Address A1': 'Rua de Conde Bonfim - 232 S/506 CEP: 21-2284-2904', 'Numero A1': '', 'Complement A1': 'Saladas', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '21) 3184-7050', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'relacionamento@apontador.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:19:34,708 - P17320 - INFO - Progresso: 22.6%
+2025-05-22 02:19:34,709 - P17320 - INFO - Executando coleta de lixo
+2025-05-22 02:19:34,768 - P17320 - INFO - Após coleta de lixo Uso de memória: 93.76 MB
+2025-05-22 02:19:34,776 - P17320 - INFO - Tempo de execução de processamento do médico 1: 84.11 segundos
+2025-05-22 02:19:34,781 - P17320 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 02:19:34,786 - P17320 - INFO - Nome: LUCIANA BARRETO CARNEIRO
+2025-05-22 02:19:34,787 - P17320 - INFO - Início do processamento Uso de memória: 93.76 MB
+2025-05-22 02:19:34,788 - P17320 - INFO - Iniciando busca para: LUCIANA BARRETO CARNEIRO CRM 464982 RJ telefone e-mail endereço
+2025-05-22 02:19:35,155 - P17320 - INFO - SearX results: 13 URLs
+2025-05-22 02:19:35,157 - P17320 - INFO - Após SearX Uso de memória: 93.77 MB
+2025-05-22 02:19:37,796 - P17320 - INFO - Google results: 8 URLs
+2025-05-22 02:19:37,796 - P17320 - INFO - Após Google Uso de memória: 97.29 MB
+2025-05-22 02:19:40,255 - P17320 - INFO - Bing results: 10 URLs
+2025-05-22 02:19:40,255 - P17320 - INFO - Após Bing Uso de memória: 99.52 MB
+2025-05-22 02:19:40,255 - P17320 - INFO - Total de URLs únicas: 17
+2025-05-22 02:19:40,256 - P17320 - INFO - Processando URL 1/17: https://www.consultacrm.com.br/index/medicos/uid-82213265-f5c5-11ec-9e74-0a4aa568c625/luciana_barreto_carneiro
+2025-05-22 02:19:44,483 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\87c173ebf01452610aedaa6543bbb020.html
+2025-05-22 02:19:44,494 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:19:44,494 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:19:44,494 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:19:44,495 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:19:44,495 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:19:44,496 - P17320 - INFO - Após processar URL 1 Uso de memória: 101.12 MB
+2025-05-22 02:19:44,496 - P17320 - INFO - Processando URL 2/17: https://www.ioepa.com.br/pages/2017/2017.11.07.DOE.pdf
+2025-05-22 02:19:44,497 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2017/2017.11.07.DOE.pdf
+2025-05-22 02:19:44,498 - P17320 - INFO - Após processar URL 2 Uso de memória: 101.12 MB
+2025-05-22 02:19:44,498 - P17320 - INFO - Processando URL 3/17: http://luciana.guiareunimedicos.med.br/index.pl?C=A&V=713D6C756369616E6126737465705365617263685F696E6465783D3730
+2025-05-22 02:19:46,721 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d6780667a0fa54dfbee4e988bd8f2e5b.html
+2025-05-22 02:19:46,722 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:19:46,722 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:19:46,722 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:19:46,722 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:19:46,722 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:19:46,723 - P17320 - INFO - Após processar URL 3 Uso de memória: 101.12 MB
+2025-05-22 02:19:46,723 - P17320 - INFO - Processando URL 4/17: https://www.classemedica.com.br/medico/424353-luciana-barreto-carneiro.htm
+2025-05-22 02:19:51,509 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e50b256cdc9256ddde34ab8fd338a720.html
+2025-05-22 02:19:51,540 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:19:51,540 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:19:51,540 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:19:51,540 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:19:51,541 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 02:19:51,541 - P17320 - INFO - Após processar URL 4 Uso de memória: 102.30 MB
+2025-05-22 02:19:51,542 - P17320 - INFO - Processando URL 5/17: https://ioepa.com.br/pages/2019/2019.08.20.DOE.pdf
+2025-05-22 02:19:51,542 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://ioepa.com.br/pages/2019/2019.08.20.DOE.pdf
+2025-05-22 02:19:51,542 - P17320 - INFO - Após processar URL 5 Uso de memória: 102.30 MB
+2025-05-22 02:19:51,543 - P17320 - INFO - Processando URL 6/17: https://www.helpsaude.com/Luciana-Barreto-Carneiro.RJ
+2025-05-22 02:19:55,714 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\bacf100e4fe7a9395c12d53c65a04bd2.html
+2025-05-22 02:19:55,728 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:19:55,728 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:19:55,729 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:19:55,729 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:19:55,729 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:19:55,729 - P17320 - INFO - Após processar URL 6 Uso de memória: 102.36 MB
+2025-05-22 02:19:55,729 - P17320 - INFO - Processando URL 7/17: https://www.ioepa.com.br/pages/2013/2013.07.17.DOE.pdf
+2025-05-22 02:19:55,730 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2013/2013.07.17.DOE.pdf
+2025-05-22 02:19:55,730 - P17320 - INFO - Após processar URL 7 Uso de memória: 102.36 MB
+2025-05-22 02:19:55,730 - P17320 - INFO - Processando URL 8/17: https://dralucianacarneiro.com.br/
+2025-05-22 02:19:57,985 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\2ab27b1a0deb497335fdd10cc88e4373.html
+2025-05-22 02:19:57,992 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:19:57,993 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:19:57,993 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:19:57,993 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:19:57,994 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:19:57,994 - P17320 - INFO - Após processar URL 8 Uso de memória: 102.46 MB
+2025-05-22 02:19:57,994 - P17320 - INFO - Processando URL 9/17: https://www.ibam.org.br/wp-content/uploads/2024/10/04-cf-cp-ed042020-docs.pdf
+2025-05-22 02:19:57,994 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.ibam.org.br/wp-content/uploads/2024/10/04-cf-cp-ed042020-docs.pdf
+2025-05-22 02:19:57,995 - P17320 - INFO - Após processar URL 9 Uso de memória: 102.46 MB
+2025-05-22 02:19:57,995 - P17320 - INFO - Processando URL 10/17: https://doutorcrm.com/luciana-barreto-carneiro
+2025-05-22 02:20:02,497 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\4eb32e6348d94cfeeeb9fcd9732b6a1c.html
+2025-05-22 02:20:02,508 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:20:02,508 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:20:02,508 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:20:02,508 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:20:02,509 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:20:02,509 - P17320 - INFO - Após processar URL 10 Uso de memória: 102.52 MB
+2025-05-22 02:20:02,509 - P17320 - INFO - Processando URL 11/17: https://www.catalogo.med.br/medicos/em-rio-de-janeiro-rj/consultorio-dra+-luciana-carneiro-e1270052.htm
+2025-05-22 02:20:04,725 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\0d14e0a14dfc16234f1d648be8d7d7fb.html
+2025-05-22 02:20:04,726 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:20:04,726 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:20:04,727 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:20:04,729 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:20:04,729 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:20:04,730 - P17320 - INFO - Após processar URL 11 Uso de memória: 102.52 MB
+2025-05-22 02:20:04,730 - P17320 - INFO - Processando URL 12/17: https://consultacrm.com.br/
+2025-05-22 02:20:07,906 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:20:07,918 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:20:07,918 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:20:07,918 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:20:07,918 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:20:07,919 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:20:07,919 - P17320 - INFO - Após processar URL 12 Uso de memória: 102.68 MB
+2025-05-22 02:20:07,919 - P17320 - INFO - Processando URL 13/17: https://www.catalogo.med.br/doutor/luciana-barreto-carneiro-1354328.htm
+2025-05-22 02:20:09,991 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ce30011db410a650751bc742de8791d5.html
+2025-05-22 02:20:09,992 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:20:09,992 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:20:09,992 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:20:09,992 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:20:09,992 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:20:09,993 - P17320 - INFO - Após processar URL 13 Uso de memória: 102.68 MB
+2025-05-22 02:20:09,993 - P17320 - INFO - Processando URL 14/17: https://www.doctoralia.com.br/luciana-barreto-carneiro/nutrologo/rio-de-janeiro
+2025-05-22 02:20:09,993 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/luciana-barreto-carneiro/nutrologo/rio-de-janeiro
+2025-05-22 02:20:09,993 - P17320 - INFO - Após processar URL 14 Uso de memória: 102.68 MB
+2025-05-22 02:20:09,993 - P17320 - INFO - Processando URL 15/17: https://www.ioepa.com.br/pages/2012/2012.11.30.DOE.pdf
+2025-05-22 02:20:09,993 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2012/2012.11.30.DOE.pdf
+2025-05-22 02:20:09,993 - P17320 - INFO - Após processar URL 15 Uso de memória: 102.68 MB
+2025-05-22 02:20:09,994 - P17320 - INFO - Processando URL 16/17: https://www.benditoguia.com.br/empresa/dra-luciana-carneiro-botafogo-rio-de-janeiro-rj
+2025-05-22 02:20:14,865 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\cee43386852d43d1d349a951e2719d22.html
+2025-05-22 02:20:14,907 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:20:14,908 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:20:14,909 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:20:14,909 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:20:14,911 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:20:14,912 - P17320 - INFO - Após processar URL 16 Uso de memória: 102.70 MB
+2025-05-22 02:20:14,913 - P17320 - INFO - Processando URL 17/17: https://diabetesnovavisao.com.br/luciana-barreto-carneiro/
+2025-05-22 02:20:17,515 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\16b1d8e054f88a1a558b9ead41eecac7.html
+2025-05-22 02:20:17,533 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:20:17,533 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:20:17,533 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:20:17,533 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:20:17,534 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:20:17,534 - P17320 - INFO - Após processar URL 17 Uso de memória: 102.71 MB
+2025-05-22 02:20:17,534 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:20:17,534 - P17320 - INFO - Ranked address: 5 items
+2025-05-22 02:20:17,534 - P17320 - INFO - Ranked phone: 2 items
+2025-05-22 02:20:17,534 - P17320 - INFO - Ranked email: 0 items
+2025-05-22 02:20:17,534 - P17320 - INFO - Ranked complement: 1 items
+2025-05-22 02:20:17,535 - P17320 - INFO - Ranked cep: 6 items
+2025-05-22 02:20:17,535 - P17320 - INFO - Após agregação Uso de memória: 102.71 MB
+2025-05-22 02:20:17,535 - P17320 - INFO - Validando endereço: ['Rua Bambina 124 sala 02', 'Rua Bambina , 124', 'Rua Bambina 124 sala 02 21-']
+2025-05-22 02:20:17,535 - P17320 - INFO - Endereço validado: Rua Bambina 124 sala 02
+2025-05-22 02:20:17,535 - P17320 - INFO - Limpando texto extenso para campo address: Rua Bambina 124 sala 02...
+2025-05-22 02:20:17,536 - P17320 - INFO - Texto limpo: Rua Bambina 124 sala 02
+2025-05-22 02:20:17,536 - P17320 - INFO - Validando telefone: ['+55 21 99150-8071', '(21) 99150-8071']
+2025-05-22 02:20:17,536 - P17320 - INFO - Limpando texto extenso para campo phone: (21) 99150-8071...
+2025-05-22 02:20:17,536 - P17320 - INFO - Texto limpo: 21) 99150-8071
+2025-05-22 02:20:17,536 - P17320 - INFO - Telefone validado: 21) 99150-8071
+2025-05-22 02:20:17,536 - P17320 - INFO - Validando complemento: ['Sala 02 – Botafogo – RJ ']
+2025-05-22 02:20:17,536 - P17320 - INFO - Limpando texto extenso para campo complement: Sala 02 – Botafogo – RJ ...
+2025-05-22 02:20:17,537 - P17320 - INFO - Texto limpo: Sala 02 – Botafogo – RJ
+2025-05-22 02:20:17,537 - P17320 - INFO - Complemento validado: Sala 02 – Botafogo – RJ
+2025-05-22 02:20:17,537 - P17320 - INFO - Descobrindo cidade
+2025-05-22 02:20:17,537 - P17320 - INFO - Buscando cidade: Rua Bambina 124 sala 02 cidade RJ
+2025-05-22 02:20:20,151 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 02:20:20,151 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 02:20:20,151 - P17320 - INFO - Tempo de execução de processamento completo do médico: 45.36 segundos
+2025-05-22 02:20:20,152 - P17320 - INFO - Resultado processado: {'Hash': 'cadee2bf8b7836a7bfeee555b1d080310f1321fc4a5dfc101dc21a46fd220258', 'CRM': '464982', 'UF': 'RJ', 'Firstname': 'LUCIANA', 'LastName': 'BARRETO CARNEIRO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Bambina 124 sala 02', 'Address A1': 'Rua Bambina 124 sala 02', 'Numero A1': '', 'Complement A1': 'Sala 02 – Botafogo – RJ', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '21) 99150-8071', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': '', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:20:20,153 - P17320 - INFO - Progresso: 22.9%
+2025-05-22 02:20:20,153 - P17320 - INFO - Tempo de execução de processamento do médico 2: 45.37 segundos
+2025-05-22 02:20:20,154 - P17320 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 02:20:20,154 - P17320 - INFO - Nome: MARIA DAS GRACAS LOPES LADEIRA
+2025-05-22 02:20:20,154 - P17320 - INFO - Início do processamento Uso de memória: 93.79 MB
+2025-05-22 02:20:20,155 - P17320 - INFO - Iniciando busca para: MARIA DAS GRACAS LOPES LADEIRA CRM 473248 RJ telefone e-mail endereço
+2025-05-22 02:20:21,192 - P17320 - INFO - SearX results: 10 URLs
+2025-05-22 02:20:21,192 - P17320 - INFO - Após SearX Uso de memória: 93.79 MB
+2025-05-22 02:20:23,841 - P17320 - INFO - Google results: 4 URLs
+2025-05-22 02:20:23,841 - P17320 - INFO - Após Google Uso de memória: 99.37 MB
+2025-05-22 02:20:26,365 - P17320 - INFO - Bing results: 14 URLs
+2025-05-22 02:20:26,366 - P17320 - INFO - Após Bing Uso de memória: 102.50 MB
+2025-05-22 02:20:26,366 - P17320 - INFO - Total de URLs únicas: 18
+2025-05-22 02:20:26,366 - P17320 - INFO - Processando URL 1/18: https://doctoralia.com.br/contato
+2025-05-22 02:20:29,447 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\96b3b2a8f88f38e8ba2eb265571e4a31.html
+2025-05-22 02:20:29,467 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:20:29,467 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:20:29,468 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:20:29,468 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:20:29,468 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:20:29,468 - P17320 - INFO - Após processar URL 1 Uso de memória: 102.55 MB
+2025-05-22 02:20:29,468 - P17320 - INFO - Processando URL 2/18: https://www.achecerto.com.br/
+2025-05-22 02:20:32,304 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ceb96e5663cace6f7b35fee1716d7561.html
+2025-05-22 02:20:32,320 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:20:32,320 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:20:32,322 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:20:32,322 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:20:32,323 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:20:32,323 - P17320 - INFO - Após processar URL 2 Uso de memória: 104.20 MB
+2025-05-22 02:20:32,323 - P17320 - INFO - Processando URL 3/18: https://www.doklist.com.br/dok/244300/
+2025-05-22 02:20:38,231 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\99ff4de2c8ed79750d0a40396c1095b5.html
+2025-05-22 02:20:38,256 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:20:38,257 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:20:38,257 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:20:38,257 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:20:38,257 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:20:38,258 - P17320 - INFO - Após processar URL 3 Uso de memória: 104.32 MB
+2025-05-22 02:20:38,258 - P17320 - INFO - Processando URL 4/18: https://rodolfopsiquiatrabh.com/
+2025-05-22 02:21:10,239 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\6be531b8f0c29107fe30a89c40621a25.html
+2025-05-22 02:21:10,268 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:21:10,268 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:21:10,269 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:21:10,269 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:21:10,269 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 02:21:10,269 - P17320 - INFO - Após processar URL 4 Uso de memória: 104.42 MB
+2025-05-22 02:21:10,269 - P17320 - INFO - Processando URL 5/18: https://www.medicosbrasil.com/profissional/maria-das-gracas-lopes-ladeira
+2025-05-22 02:21:12,457 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\8f73a560fea288b4e75c0c836df72cc2.html
+2025-05-22 02:21:12,459 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:21:12,459 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:21:12,459 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:21:12,460 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:21:12,460 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:21:12,460 - P17320 - INFO - Após processar URL 5 Uso de memória: 104.45 MB
+2025-05-22 02:21:12,460 - P17320 - INFO - Processando URL 6/18: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x3297577828240643532&market=pt-BR&src=SERPGB
+2025-05-22 02:21:16,810 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9153b520a097cf2159cbe23294cc5076.html
+2025-05-22 02:21:16,836 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:21:16,837 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:21:16,838 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:21:16,838 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:21:16,839 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:21:16,842 - P17320 - INFO - Após processar URL 6 Uso de memória: 104.46 MB
+2025-05-22 02:21:16,843 - P17320 - INFO - Processando URL 7/18: https://cremec.org.br/busca-medicos
+2025-05-22 02:21:21,061 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\3c9ece8b802bc598dd007727d971a7d5.html
+2025-05-22 02:21:21,107 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:21:21,108 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:21:21,108 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:21:21,108 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:21:21,108 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:21:21,109 - P17320 - INFO - Após processar URL 7 Uso de memória: 104.51 MB
+2025-05-22 02:21:21,109 - P17320 - INFO - Processando URL 8/18: https://www.doctoralia.com.br/maria-das-gracas-lopes-ladeira/psiquiatra/rio-de-janeiro
+2025-05-22 02:21:21,109 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/maria-das-gracas-lopes-ladeira/psiquiatra/rio-de-janeiro
+2025-05-22 02:21:21,109 - P17320 - INFO - Após processar URL 8 Uso de memória: 104.51 MB
+2025-05-22 02:21:21,109 - P17320 - INFO - Processando URL 9/18: https://cliniguia.com/profissionais/maria-das-gracas-lopes-ladeira-107049454840006/
+2025-05-22 02:21:26,216 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\b3636ec0a44d7214e7380f120e31c49c.html
+2025-05-22 02:21:26,266 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:21:26,267 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:21:26,267 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:21:26,267 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:21:26,267 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:21:26,267 - P17320 - INFO - Após processar URL 9 Uso de memória: 105.93 MB
+2025-05-22 02:21:26,268 - P17320 - INFO - Processando URL 10/18: https://www.boaconsulta.com/especialista/maria-das-gracas-lopes-ladeira-6105df6e9b22ae37a2000aee
+2025-05-22 02:21:29,187 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d495935df6308aab0e27ac9af1b15110.html
+2025-05-22 02:21:29,263 - P17320 - INFO - Candidates address: 9 items
+2025-05-22 02:21:29,263 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:21:29,263 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:21:29,264 - P17320 - INFO - Candidates complement: 3 items
+2025-05-22 02:21:29,264 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:21:29,266 - P17320 - INFO - Após processar URL 10 Uso de memória: 105.04 MB
+2025-05-22 02:21:29,267 - P17320 - INFO - Processando URL 11/18: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 02:21:32,782 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 02:21:32,834 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:21:32,834 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:21:32,835 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:21:32,835 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:21:32,835 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:21:32,836 - P17320 - INFO - Após processar URL 11 Uso de memória: 105.10 MB
+2025-05-22 02:21:32,836 - P17320 - INFO - Processando URL 12/18: https://doutorcrm.com/maria-das-gracas-leite-muniz
+2025-05-22 02:21:37,186 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\fc29cb9869f613edf82f7c020955be31.html
+2025-05-22 02:21:37,192 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:21:37,192 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:21:37,192 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:21:37,193 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:21:37,193 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:21:37,193 - P17320 - INFO - Após processar URL 12 Uso de memória: 105.13 MB
+2025-05-22 02:21:37,193 - P17320 - INFO - Processando URL 13/18: https://www.classemedica.com.br/medico/227239-maria-das-gracas-lopes-ladeira.htm
+2025-05-22 02:21:42,595 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\b33ad30c1085c3f1401cfeda0ee32fa1.html
+2025-05-22 02:21:42,622 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:21:42,623 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:21:42,623 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:21:42,623 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:21:42,623 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:21:42,623 - P17320 - INFO - Após processar URL 13 Uso de memória: 105.14 MB
+2025-05-22 02:21:42,624 - P17320 - INFO - Processando URL 14/18: https://www.doctoralia.com.br/psiquiatra/rio-de-janeiro/barra-da-tijuca?page=7
+2025-05-22 02:21:42,624 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/rio-de-janeiro/barra-da-tijuca?page=7
+2025-05-22 02:21:42,624 - P17320 - INFO - Após processar URL 14 Uso de memória: 105.14 MB
+2025-05-22 02:21:42,624 - P17320 - INFO - Processando URL 15/18: https://dramarianabarros.com.br/
+2025-05-22 02:21:45,264 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\0e2be34e40363dcacb05e3c67edb3fc8.html
+2025-05-22 02:21:45,288 - P17320 - INFO - Candidates address: 3 items
+2025-05-22 02:21:45,295 - P17320 - INFO - Candidates phone: 4 items
+2025-05-22 02:21:45,297 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:21:45,299 - P17320 - INFO - Candidates complement: 2 items
+2025-05-22 02:21:45,300 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:21:45,300 - P17320 - INFO - Após processar URL 15 Uso de memória: 105.14 MB
+2025-05-22 02:21:45,301 - P17320 - INFO - Processando URL 16/18: https://www.apontador.com.br/local/rj/rio_de_janeiro/hospitais_e_postos_de_saude/C40772775D314E3149/maria_das_gracas_t_l_silva.html
+2025-05-22 02:21:48,612 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\c8f3a21e7dc206ebd220d7a0d5caf81d.html
+2025-05-22 02:21:48,662 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:21:48,663 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:21:48,663 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:21:48,663 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:21:48,663 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:21:48,664 - P17320 - INFO - Após processar URL 16 Uso de memória: 105.16 MB
+2025-05-22 02:21:48,664 - P17320 - INFO - Processando URL 17/18: https://consultacrm.com.br/
+2025-05-22 02:21:52,562 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:21:52,575 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:21:52,575 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:21:52,575 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:21:52,576 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:21:52,576 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:21:52,577 - P17320 - INFO - Após processar URL 17 Uso de memória: 105.16 MB
+2025-05-22 02:21:52,577 - P17320 - INFO - Processando URL 18/18: https://pro.doctoralia.com.br/conteudos/faq/como-trabalhamos
+2025-05-22 02:21:52,577 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://pro.doctoralia.com.br/conteudos/faq/como-trabalhamos
+2025-05-22 02:21:52,578 - P17320 - INFO - Após processar URL 18 Uso de memória: 105.16 MB
+2025-05-22 02:21:52,578 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:21:52,578 - P17320 - INFO - Ranked address: 16 items
+2025-05-22 02:21:52,578 - P17320 - INFO - Ranked phone: 8 items
+2025-05-22 02:21:52,579 - P17320 - INFO - Ranked email: 4 items
+2025-05-22 02:21:52,579 - P17320 - INFO - Ranked complement: 6 items
+2025-05-22 02:21:52,579 - P17320 - INFO - Ranked cep: 9 items
+2025-05-22 02:21:52,579 - P17320 - INFO - Após agregação Uso de memória: 105.16 MB
+2025-05-22 02:21:52,579 - P17320 - INFO - Validando endereço: ['Rua Visconde do Rio Branco, 1488', 'Av. Santos Dumont, 123', 'Avenida Ayrton Senna, 2000']
+2025-05-22 02:21:52,579 - P17320 - INFO - Endereço validado: Rua Visconde do Rio Branco, 1488
+2025-05-22 02:21:52,580 - P17320 - INFO - Limpando texto extenso para campo address: Rua Visconde do Rio Branco, 1488...
+2025-05-22 02:21:52,580 - P17320 - INFO - Texto limpo: Rua Visconde do Rio Branco, 1488
+2025-05-22 02:21:52,580 - P17320 - INFO - Validando telefone: ['(21) 3111-4600', '(31) 99360-2240', '(21)2487-1717']
+2025-05-22 02:21:52,580 - P17320 - INFO - Limpando texto extenso para campo phone: (21) 3111-4600...
+2025-05-22 02:21:52,581 - P17320 - INFO - Texto limpo: 21) 3111-4600
+2025-05-22 02:21:52,581 - P17320 - INFO - Telefone validado: 21) 3111-4600
+2025-05-22 02:21:52,582 - P17320 - INFO - Validando email: ['falecom@achecerto.com.br', 'info@doklist.com.br', 'cremec@cremec.org.br']
+2025-05-22 02:21:52,582 - P17320 - INFO - Limpando texto extenso para campo email: falecom@achecerto.com.br...
+2025-05-22 02:21:52,583 - P17320 - INFO - Texto limpo: falecom@achecerto.com.br
+2025-05-22 02:21:52,583 - P17320 - INFO - Email validado: falecom@achecerto.com.br
+2025-05-22 02:21:52,583 - P17320 - INFO - Validando complemento: ['Sala 1009 Copacabana', 'Sala 101 - Térreo', 'Sala 925 Botafogo']
+2025-05-22 02:21:52,584 - P17320 - INFO - Limpando texto extenso para campo complement: Sala 1009 Copacabana...
+2025-05-22 02:21:52,584 - P17320 - INFO - Texto limpo: Sala 1009 Copacabana
+2025-05-22 02:21:52,584 - P17320 - INFO - Complemento validado: Sala 1009 Copacabana
+2025-05-22 02:21:52,584 - P17320 - INFO - Descobrindo cidade
+2025-05-22 02:21:52,584 - P17320 - INFO - Buscando cidade: Rua Visconde do Rio Branco cidade RJ
+2025-05-22 02:21:55,762 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 02:21:55,762 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 02:21:55,762 - P17320 - INFO - Tempo de execução de processamento completo do médico: 95.61 segundos
+2025-05-22 02:21:55,763 - P17320 - INFO - Resultado processado: {'Hash': '52561eaf529a576dfcc88f17bdc2f05be8299e11cdf365b976724cc9bd7e4df2', 'CRM': '473248', 'UF': 'RJ', 'Firstname': 'MARIA', 'LastName': 'DAS GRACAS LOPES LADEIRA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Visconde do Rio Branco, 1488', 'Address A1': 'Rua Visconde do Rio Branco', 'Numero A1': '1488', 'Complement A1': 'Sala 1009 Copacabana', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '21) 3111-4600', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'falecom@achecerto.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:21:55,763 - P17320 - INFO - Salvando lote de resultados
+2025-05-22 02:21:55,764 - P17320 - INFO - Após salvar resultados Uso de memória: 100.23 MB
+2025-05-22 02:21:55,764 - P17320 - INFO - Progresso: 23.5%
+2025-05-22 02:21:55,765 - P17320 - INFO - Tempo de execução de processamento do médico 3: 95.61 segundos
+2025-05-22 02:21:55,765 - P17320 - INFO - Tempo de execução de processamento do lote completo: 225.10 segundos

@@ -1,0 +1,548 @@
+2025-05-22 02:06:12,294 - P17020 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 02:06:12,294 - P17020 - INFO - Nome: SABRINA STHEFANY MEIRELES ARAÚJO
+2025-05-22 02:06:12,294 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 02:06:13,578 - P17020 - INFO - Após reiniciar driver Uso de memória: 123.55 MB
+2025-05-22 02:06:13,578 - P17020 - INFO - Início do processamento Uso de memória: 123.55 MB
+2025-05-22 02:06:13,578 - P17020 - INFO - Iniciando busca para: SABRINA STHEFANY MEIRELES ARAÚJO CRM 88812 MG telefone e-mail endereço
+2025-05-22 02:06:13,925 - P17020 - INFO - SearX results: 0 URLs
+2025-05-22 02:06:13,926 - P17020 - INFO - Após SearX Uso de memória: 123.55 MB
+2025-05-22 02:06:16,764 - P17020 - INFO - Google results: 5 URLs
+2025-05-22 02:06:16,765 - P17020 - INFO - Após Google Uso de memória: 126.80 MB
+2025-05-22 02:06:19,363 - P17020 - INFO - Bing results: 8 URLs
+2025-05-22 02:06:19,363 - P17020 - INFO - Após Bing Uso de memória: 128.65 MB
+2025-05-22 02:06:19,363 - P17020 - INFO - Total de URLs únicas: 12
+2025-05-22 02:06:19,363 - P17020 - INFO - Processando URL 1/12: https://consultacrm.com.br/
+2025-05-22 02:06:23,389 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:06:23,402 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:06:23,402 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:06:23,402 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:06:23,402 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:06:23,403 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:06:23,403 - P17020 - INFO - Após processar URL 1 Uso de memória: 128.36 MB
+2025-05-22 02:06:23,403 - P17020 - INFO - Processando URL 2/12: https://www.escavador.com/sobre/490168311/sabrina-sthefany-meireles-arajo
+2025-05-22 02:06:29,952 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2c6ed0c73f177125b7c5eacfb1bb1241.html
+2025-05-22 02:06:29,980 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:06:29,980 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:06:29,980 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:06:29,981 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:06:29,981 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:06:29,981 - P17020 - INFO - Após processar URL 2 Uso de memória: 128.96 MB
+2025-05-22 02:06:29,981 - P17020 - INFO - Processando URL 3/12: https://cnpj.services/43782867000159/sabrina-araujo-servicos-medicos-ltda
+2025-05-22 02:06:32,897 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ba300e4f485081fa9bccf7155a509159.html
+2025-05-22 02:06:32,915 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:06:32,916 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:06:32,916 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:06:32,916 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:06:32,917 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:06:32,917 - P17020 - INFO - Após processar URL 3 Uso de memória: 123.39 MB
+2025-05-22 02:06:32,917 - P17020 - INFO - Processando URL 4/12: https://cnpj.biz/43782867000159
+2025-05-22 02:06:37,582 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\86d9a462f7281db142c1df55da2f0813.html
+2025-05-22 02:06:37,599 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 02:06:37,599 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:06:37,599 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:06:37,600 - P17020 - INFO - Candidates complement: 3 items
+2025-05-22 02:06:37,600 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:06:37,600 - P17020 - INFO - Após processar URL 4 Uso de memória: 124.30 MB
+2025-05-22 02:06:37,600 - P17020 - INFO - Processando URL 5/12: https://www.catalogo.med.br/doutor/sabrina-araujo-gomes-cabral-2531138.htm
+2025-05-22 02:06:42,835 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\8e911185c8261a3f15b25269633a78c7.html
+2025-05-22 02:06:42,853 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:06:42,853 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:06:42,854 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:06:42,854 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:06:42,854 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:06:42,854 - P17020 - INFO - Após processar URL 5 Uso de memória: 124.78 MB
+2025-05-22 02:06:42,855 - P17020 - INFO - Processando URL 6/12: https://www.boaconsulta.com/especialista/sabrina-sthefany-meireles-araujo-64a6dc5e5a7bb832dd0300a9?searchId=clwy7fa4m00025j6q134oneyi&agendaId=64a9df545a7bb86bc9023971
+2025-05-22 02:06:46,456 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a709320792a509d7b73a3162b14d6f41.html
+2025-05-22 02:06:46,526 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:06:46,527 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:06:46,527 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:06:46,528 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:06:46,529 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:06:46,529 - P17020 - INFO - Após processar URL 6 Uso de memória: 128.10 MB
+2025-05-22 02:06:46,529 - P17020 - INFO - Processando URL 7/12: https://www.sociosbrasil.com/nome/sabrina-sthefany-meireles-araujo
+2025-05-22 02:06:49,544 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\75bbc7472ba19bae3229a86f5dc94292.html
+2025-05-22 02:06:49,553 - P17020 - INFO - Candidates address: 5 items
+2025-05-22 02:06:49,553 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:06:49,554 - P17020 - INFO - Candidates email: 3 items
+2025-05-22 02:06:49,554 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 02:06:49,554 - P17020 - INFO - Candidates cep: 6 items
+2025-05-22 02:06:49,555 - P17020 - INFO - Após processar URL 7 Uso de memória: 128.41 MB
+2025-05-22 02:06:49,556 - P17020 - INFO - Processando URL 8/12: https://www.sbd.org.br/mm/cms/2018/12/14/cirurgioes-de-mohsuf.pdf
+2025-05-22 02:06:49,556 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.sbd.org.br/mm/cms/2018/12/14/cirurgioes-de-mohsuf.pdf
+2025-05-22 02:06:49,557 - P17020 - INFO - Após processar URL 8 Uso de memória: 128.41 MB
+2025-05-22 02:06:49,557 - P17020 - INFO - Processando URL 9/12: https://www.econodata.com.br/consulta-empresa/43782867000159-SABRINA-ARAUJO-SERVICOS-MEDICOS-LTDA
+2025-05-22 02:06:54,161 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\621745f7d14a9f6a146dced0684f179b.html
+2025-05-22 02:06:54,284 - P17020 - INFO - Candidates address: 24 items
+2025-05-22 02:06:54,284 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:06:54,284 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:06:54,284 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 02:06:54,285 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 02:06:54,285 - P17020 - INFO - Após processar URL 9 Uso de memória: 129.82 MB
+2025-05-22 02:06:54,285 - P17020 - INFO - Processando URL 10/12: https://aboutcompany.info/country/brazil/officer/954426/sabrina-sthefany-meireles-araujo/
+2025-05-22 02:06:58,202 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c5dbe8b16a741052962e48d8bd641bff.html
+2025-05-22 02:06:58,240 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:06:58,240 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:06:58,240 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:06:58,241 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:06:58,241 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:06:58,241 - P17020 - INFO - Após processar URL 10 Uso de memória: 129.01 MB
+2025-05-22 02:06:58,241 - P17020 - INFO - Processando URL 11/12: https://indicacao.rhem.com.br/mapa-de-indicacoes/mg/
+2025-05-22 02:07:00,414 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\83224cb0e572a30234a889024274ff9f.html
+2025-05-22 02:07:00,423 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:07:00,423 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:00,423 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:07:00,424 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:00,424 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:07:00,424 - P17020 - INFO - Após processar URL 11 Uso de memória: 129.11 MB
+2025-05-22 02:07:00,424 - P17020 - INFO - Processando URL 12/12: https://www.escavador.com/sobre/470424477/sabrina-sthefany-meireles-araujo
+2025-05-22 02:07:06,575 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a2ca1017059bfe03870f5de4d4a2c2b9.html
+2025-05-22 02:07:06,605 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:07:06,606 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:06,606 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:07:06,606 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:06,606 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:07:06,606 - P17020 - INFO - Após processar URL 12 Uso de memória: 128.95 MB
+2025-05-22 02:07:06,607 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:07:06,607 - P17020 - INFO - Ranked address: 30 items
+2025-05-22 02:07:06,607 - P17020 - INFO - Ranked phone: 1 items
+2025-05-22 02:07:06,607 - P17020 - INFO - Ranked email: 4 items
+2025-05-22 02:07:06,607 - P17020 - INFO - Ranked complement: 6 items
+2025-05-22 02:07:06,607 - P17020 - INFO - Ranked cep: 8 items
+2025-05-22 02:07:06,608 - P17020 - INFO - Após agregação Uso de memória: 128.95 MB
+2025-05-22 02:07:06,608 - P17020 - INFO - Validando endereço: ['Rua Engenheiro Aluisio Rocha, 90', 'Rua Engenheiro Aluisio Rocha 90 Apt 602 Buritis Belo Horizonte MG', 'Avenida Mestra Fininha, 621']
+2025-05-22 02:07:06,608 - P17020 - INFO - Endereço validado: Rua Engenheiro Aluisio Rocha, 90
+2025-05-22 02:07:06,608 - P17020 - INFO - Limpando texto extenso para campo address: Rua Engenheiro Aluisio Rocha, 90...
+2025-05-22 02:07:06,608 - P17020 - INFO - Texto limpo: Rua Engenheiro Aluisio Rocha, 90
+2025-05-22 02:07:06,609 - P17020 - INFO - Validando telefone: ['(31) 2555-1912']
+2025-05-22 02:07:06,609 - P17020 - INFO - Limpando texto extenso para campo phone: (31) 2555-1912...
+2025-05-22 02:07:06,609 - P17020 - INFO - Texto limpo: 31) 2555-1912
+2025-05-22 02:07:06,609 - P17020 - INFO - Telefone validado: 31) 2555-1912
+2025-05-22 02:07:06,609 - P17020 - INFO - Validando email: ['regularizacao@medcapital.com.br', 'FERNANDA@CONTAMAR.COM.BR', 'REGISTRO@CONSPER.COM.BR']
+2025-05-22 02:07:06,610 - P17020 - INFO - Limpando texto extenso para campo email: regularizacao@medcapital.com.br...
+2025-05-22 02:07:06,610 - P17020 - INFO - Texto limpo: regularizacao@medcapital.com.br
+2025-05-22 02:07:06,610 - P17020 - INFO - Email validado: regularizacao@medcapital.com.br
+2025-05-22 02:07:06,610 - P17020 - INFO - Validando complemento: ['Apt   602  Clique para copiar    Bairro:  Buritis  Cl', 'Apt   602  Buritis  Belo Horizonte MG  30575-260  Cli', 'Apt   602  Buritis  Belo Horizonte MG  30575-260     ']
+2025-05-22 02:07:06,610 - P17020 - INFO - Limpando texto extenso para campo complement: Apt   602  Clique para copiar    Bairro:  Buritis ...
+2025-05-22 02:07:06,610 - P17020 - INFO - Texto limpo: Apt 602 Clique para copiar
+2025-05-22 02:07:06,610 - P17020 - INFO - Complemento validado: Apt 602 Clique para copiar
+2025-05-22 02:07:06,611 - P17020 - INFO - Descobrindo cidade
+2025-05-22 02:07:06,611 - P17020 - INFO - Buscando cidade: Rua Engenheiro Aluisio Rocha cidade MG
+2025-05-22 02:07:09,295 - P17020 - INFO - Cidade encontrada: Belo Horizonte
+2025-05-22 02:07:09,297 - P17020 - INFO - Limpando texto extenso para campo city: Belo Horizonte...
+2025-05-22 02:07:09,298 - P17020 - INFO - Texto limpo: Belo Horizonte
+2025-05-22 02:07:09,298 - P17020 - INFO - Cidade descoberta: Belo Horizonte
+2025-05-22 02:07:09,298 - P17020 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 02:07:09,298 - P17020 - INFO - Iniciando busca de CEP em cascata para: Rua Engenheiro Aluisio Rocha, Belo Horizonte, MG
+2025-05-22 02:07:09,298 - P17020 - INFO - Método 1: ViaCEP API
+2025-05-22 02:07:09,299 - P17020 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/MG/belo%20horizonte/rua%20engenheiro%20aluisio%20rocha/json/
+2025-05-22 02:07:09,987 - P17020 - INFO - Dados encontrados no ViaCEP: {'cep': '30575-260', 'logradouro': 'Rua Engenheiro Aluísio Rocha', 'complemento': '', 'unidade': '', 'bairro': 'Buritis', 'localidade': 'Belo Horizonte', 'uf': 'MG', 'estado': 'Minas Gerais', 'regiao': 'Sudeste', 'ibge': '3106200', 'gia': '', 'ddd': '31', 'siafi': '4123'}
+2025-05-22 02:07:09,989 - P17020 - INFO - CEP encontrado via ViaCEP: 30575-260
+2025-05-22 02:07:09,989 - P17020 - INFO - Dados de CEP encontrados: {'cep': '30575-260', 'logradouro': 'Rua Engenheiro Aluísio Rocha', 'complemento': '', 'unidade': '', 'bairro': 'Buritis', 'localidade': 'Belo Horizonte', 'uf': 'MG', 'estado': 'Minas Gerais', 'regiao': 'Sudeste', 'ibge': '3106200', 'gia': '', 'ddd': '31', 'siafi': '4123'}
+2025-05-22 02:07:09,990 - P17020 - INFO - Limpando texto extenso para campo bairro: Buritis...
+2025-05-22 02:07:09,990 - P17020 - INFO - Texto limpo: Buritis
+2025-05-22 02:07:09,990 - P17020 - INFO - Limpando texto extenso para campo city: Belo Horizonte...
+2025-05-22 02:07:09,990 - P17020 - INFO - Texto limpo: Belo Horizonte
+2025-05-22 02:07:09,990 - P17020 - INFO - Limpando texto extenso para campo state: MG...
+2025-05-22 02:07:09,991 - P17020 - INFO - Texto limpo: MG
+2025-05-22 02:07:09,991 - P17020 - INFO - Tempo de execução de processamento completo do médico: 56.41 segundos
+2025-05-22 02:07:09,991 - P17020 - INFO - Resultado processado: {'Hash': 'fdd9a6e2f9d402f2e0622eec0132b35f4b04599ff00a142455582751bbca484c', 'CRM': '88812', 'UF': 'MG', 'Firstname': 'SABRINA', 'LastName': 'STHEFANY MEIRELES ARAÚJO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Engenheiro Aluisio Rocha, 90', 'Address A1': 'Rua Engenheiro Aluisio Rocha', 'Numero A1': '90', 'Complement A1': 'Apt 602 Clique para copiar', 'Bairro A1': 'Buritis', 'postal code A1': '30575-260', 'City A1': 'Belo Horizonte', 'State A1': 'MG', 'Phone A1': '31) 2555-1912', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'regularizacao@medcapital.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:07:09,993 - P17020 - INFO - Progresso: 17.6%
+2025-05-22 02:07:09,993 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 02:07:10,070 - P17020 - INFO - Após coleta de lixo Uso de memória: 120.13 MB
+2025-05-22 02:07:10,097 - P17020 - INFO - Tempo de execução de processamento do médico 1: 57.80 segundos
+2025-05-22 02:07:10,099 - P17020 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 02:07:10,102 - P17020 - INFO - Nome: LETICIA COSTA
+2025-05-22 02:07:10,103 - P17020 - INFO - Início do processamento Uso de memória: 120.13 MB
+2025-05-22 02:07:10,104 - P17020 - INFO - Iniciando busca para: LETICIA COSTA CRM 88814 MG telefone e-mail endereço
+2025-05-22 02:07:10,534 - P17020 - INFO - SearX results: 9 URLs
+2025-05-22 02:07:10,535 - P17020 - INFO - Após SearX Uso de memória: 120.14 MB
+2025-05-22 02:07:13,211 - P17020 - INFO - Google results: 11 URLs
+2025-05-22 02:07:13,212 - P17020 - INFO - Após Google Uso de memória: 125.66 MB
+2025-05-22 02:07:15,667 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 02:07:15,667 - P17020 - INFO - Após Bing Uso de memória: 127.61 MB
+2025-05-22 02:07:15,667 - P17020 - INFO - Total de URLs únicas: 22
+2025-05-22 02:07:15,668 - P17020 - INFO - Processando URL 1/22: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1941038914.pdf
+2025-05-22 02:07:15,668 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1941038914.pdf
+2025-05-22 02:07:15,668 - P17020 - INFO - Após processar URL 1 Uso de memória: 127.61 MB
+2025-05-22 02:07:15,668 - P17020 - INFO - Processando URL 2/22: https://www.informecadastral.com.br/cnpj/clinica-medica-dra-leticia-costa-ltda-49886894000158
+2025-05-22 02:07:19,230 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\68cbfd9d1fcccc765b338ff4eb523904.html
+2025-05-22 02:07:19,253 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:07:19,254 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 02:07:19,254 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:07:19,254 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:19,254 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 02:07:19,254 - P17020 - INFO - Após processar URL 2 Uso de memória: 128.04 MB
+2025-05-22 02:07:19,254 - P17020 - INFO - Processando URL 3/22: https://cnpj.biz/45869208000180
+2025-05-22 02:07:21,603 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6d16a440cc40d6eadcd244e1dfd3af54.html
+2025-05-22 02:07:21,605 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:07:21,605 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:21,605 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:07:21,605 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:21,606 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:07:21,606 - P17020 - INFO - Após processar URL 3 Uso de memória: 128.16 MB
+2025-05-22 02:07:21,606 - P17020 - INFO - Processando URL 4/22: https://diariooficial.santos.sp.gov.br/edicoes/inicio/download/2008-09-19
+2025-05-22 02:07:23,722 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2d06e098d923378d47da6b8bd94aae30.html
+2025-05-22 02:07:23,723 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:07:23,723 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:23,724 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:07:23,724 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:23,725 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:07:23,727 - P17020 - INFO - Após processar URL 4 Uso de memória: 128.20 MB
+2025-05-22 02:07:23,728 - P17020 - INFO - Processando URL 5/22: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/10240490079029007910240422.pdf
+2025-05-22 02:07:23,728 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/10240490079029007910240422.pdf
+2025-05-22 02:07:23,729 - P17020 - INFO - Após processar URL 5 Uso de memória: 128.20 MB
+2025-05-22 02:07:23,729 - P17020 - INFO - Processando URL 6/22: https://consultacrm.com.br/
+2025-05-22 02:07:25,835 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:07:25,847 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:07:25,848 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:25,848 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:07:25,851 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:25,851 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:07:25,851 - P17020 - INFO - Após processar URL 6 Uso de memória: 130.52 MB
+2025-05-22 02:07:25,851 - P17020 - INFO - Processando URL 7/22: https://portal.doe.sea.sc.gov.br/repositorio/2022/20221011/Jornal/3003.pdf
+2025-05-22 02:07:25,852 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://portal.doe.sea.sc.gov.br/repositorio/2022/20221011/Jornal/3003.pdf
+2025-05-22 02:07:25,852 - P17020 - INFO - Após processar URL 7 Uso de memória: 129.52 MB
+2025-05-22 02:07:25,852 - P17020 - INFO - Processando URL 8/22: https://louveira.sp.gov.br/painel/dbanexos/dbarquivo/08-2020/d0b52a2fff2355519c20346ec5c4a3b1.pdf
+2025-05-22 02:07:25,853 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://louveira.sp.gov.br/painel/dbanexos/dbarquivo/08-2020/d0b52a2fff2355519c20346ec5c4a3b1.pdf
+2025-05-22 02:07:25,853 - P17020 - INFO - Após processar URL 8 Uso de memória: 129.52 MB
+2025-05-22 02:07:25,853 - P17020 - INFO - Processando URL 9/22: https://www.tjmg.jus.br/data/files/BC/21/CC/48/1D83E510B2C1B1E5A04E08A8/Edital%2009-2017%20-%20Listagem_eliminacao.pdf
+2025-05-22 02:07:25,854 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.tjmg.jus.br/data/files/BC/21/CC/48/1D83E510B2C1B1E5A04E08A8/Edital%2009-2017%20-%20Listagem_eliminacao.pdf
+2025-05-22 02:07:25,854 - P17020 - INFO - Após processar URL 9 Uso de memória: 129.52 MB
+2025-05-22 02:07:25,854 - P17020 - INFO - Processando URL 10/22: https://www.consultascnpj.com/clinica-medica-dra-leticia-costa-ltda/49886894000158
+2025-05-22 02:07:28,911 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6a033be0b464cdffa09ef3cf784b047a.html
+2025-05-22 02:07:28,921 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:07:28,922 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:07:28,922 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:07:28,922 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:28,922 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:07:28,922 - P17020 - INFO - Após processar URL 10 Uso de memória: 129.60 MB
+2025-05-22 02:07:28,923 - P17020 - INFO - Processando URL 11/22: https://www.doctoralia.com.br/leticia-costa/cirurgiao-vascular/arapongas
+2025-05-22 02:07:28,923 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/leticia-costa/cirurgiao-vascular/arapongas
+2025-05-22 02:07:28,923 - P17020 - INFO - Após processar URL 11 Uso de memória: 129.60 MB
+2025-05-22 02:07:28,923 - P17020 - INFO - Processando URL 12/22: https://www.consultasocio.com/q/sa/leticia-costa
+2025-05-22 02:07:34,107 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ff1827e0fdeaaf0f0e85caca2704ee94.html
+2025-05-22 02:07:34,118 - P17020 - INFO - Candidates address: 8 items
+2025-05-22 02:07:34,119 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:34,119 - P17020 - INFO - Candidates email: 6 items
+2025-05-22 02:07:34,119 - P17020 - INFO - Candidates complement: 3 items
+2025-05-22 02:07:34,120 - P17020 - INFO - Candidates cep: 20 items
+2025-05-22 02:07:34,120 - P17020 - INFO - Após processar URL 12 Uso de memória: 129.63 MB
+2025-05-22 02:07:34,120 - P17020 - INFO - Processando URL 13/22: http://draleticiacosta.com.br/
+2025-05-22 02:07:59,352 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a5c77e90b5f84768a975a973c8670b85.html
+2025-05-22 02:07:59,365 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:07:59,365 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:59,365 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:07:59,366 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:59,366 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:07:59,366 - P17020 - INFO - Após processar URL 13 Uso de memória: 129.70 MB
+2025-05-22 02:07:59,366 - P17020 - INFO - Processando URL 14/22: https://www.doctoralia.com.br/leticia-rocha-costa/psiquiatra/belo-horizonte
+2025-05-22 02:07:59,366 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/leticia-rocha-costa/psiquiatra/belo-horizonte
+2025-05-22 02:07:59,367 - P17020 - INFO - Após processar URL 14 Uso de memória: 129.70 MB
+2025-05-22 02:07:59,367 - P17020 - INFO - Processando URL 15/22: https://crmmg.org.br/contato/
+2025-05-22 02:08:04,668 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\8b782fbc7fe3c59e356e34916a7ce54c.html
+2025-05-22 02:08:04,711 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 02:08:04,712 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:08:04,712 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:08:04,713 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 02:08:04,713 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:08:04,714 - P17020 - INFO - Após processar URL 15 Uso de memória: 129.77 MB
+2025-05-22 02:08:04,714 - P17020 - INFO - Processando URL 16/22: https://www.teledoc.med.br/web-files/usuarios/248/CRM%20LETICIA%20COSTA.pdf
+2025-05-22 02:08:04,716 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.teledoc.med.br/web-files/usuarios/248/CRM%20LETICIA%20COSTA.pdf
+2025-05-22 02:08:04,716 - P17020 - INFO - Após processar URL 16 Uso de memória: 129.77 MB
+2025-05-22 02:08:04,716 - P17020 - INFO - Processando URL 17/22: https://www.institutodeotorrino.com.br/sobre/
+2025-05-22 02:08:07,250 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2726e6097004a9096a3b4bb42d8f2f5d.html
+2025-05-22 02:08:07,325 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:08:07,325 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:08:07,326 - P17020 - INFO - Candidates email: 3 items
+2025-05-22 02:08:07,326 - P17020 - INFO - Candidates complement: 8 items
+2025-05-22 02:08:07,326 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:08:07,327 - P17020 - INFO - Após processar URL 17 Uso de memória: 130.72 MB
+2025-05-22 02:08:07,327 - P17020 - INFO - Processando URL 18/22: https://www.unesc.net/portal/resources/files/301/livros_da_area_de_administracao.pdf
+2025-05-22 02:08:07,327 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.unesc.net/portal/resources/files/301/livros_da_area_de_administracao.pdf
+2025-05-22 02:08:07,327 - P17020 - INFO - Após processar URL 18 Uso de memória: 129.49 MB
+2025-05-22 02:08:07,327 - P17020 - INFO - Processando URL 19/22: https://crmmg.org.br/
+2025-05-22 02:08:10,862 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\359238310c9096afb1ec9e794f848700.html
+2025-05-22 02:08:10,905 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:08:10,905 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:08:10,905 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:08:10,905 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 02:08:10,905 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:08:10,906 - P17020 - INFO - Após processar URL 19 Uso de memória: 129.52 MB
+2025-05-22 02:08:10,906 - P17020 - INFO - Processando URL 20/22: https://www.altofeliz.rs.gov.br/web/imgs/arquivos/publicacao-famurs-n-56-de-08-de-novembro-de-20241731064938.pdf
+2025-05-22 02:08:10,906 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.altofeliz.rs.gov.br/web/imgs/arquivos/publicacao-famurs-n-56-de-08-de-novembro-de-20241731064938.pdf
+2025-05-22 02:08:10,906 - P17020 - INFO - Após processar URL 20 Uso de memória: 129.52 MB
+2025-05-22 02:08:10,906 - P17020 - INFO - Processando URL 21/22: https://draleticiacosta.com.br/dra-leticia-costa-arapongas-3/
+2025-05-22 02:08:14,285 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f7e530f5150c8ffe5cfc81f1c6bc516f.html
+2025-05-22 02:08:14,293 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:08:14,293 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:08:14,294 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:08:14,294 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:14,294 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:08:14,294 - P17020 - INFO - Após processar URL 21 Uso de memória: 129.69 MB
+2025-05-22 02:08:14,294 - P17020 - INFO - Processando URL 22/22: https://varizes.draleticiacosta.com.br/
+2025-05-22 02:08:16,914 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\be00cf838849d0c0ecb3a43531bccfb0.html
+2025-05-22 02:08:16,957 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:08:16,957 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:08:16,958 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:08:16,958 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 02:08:16,958 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:08:16,958 - P17020 - INFO - Após processar URL 22 Uso de memória: 129.69 MB
+2025-05-22 02:08:16,958 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:08:16,959 - P17020 - INFO - Ranked address: 13 items
+2025-05-22 02:08:16,959 - P17020 - INFO - Ranked phone: 4 items
+2025-05-22 02:08:16,959 - P17020 - INFO - Ranked email: 11 items
+2025-05-22 02:08:16,959 - P17020 - INFO - Ranked complement: 14 items
+2025-05-22 02:08:16,960 - P17020 - INFO - Ranked cep: 26 items
+2025-05-22 02:08:16,960 - P17020 - INFO - Após agregação Uso de memória: 129.69 MB
+2025-05-22 02:08:16,960 - P17020 - INFO - Validando endereço: ['Rua dos Timbiras, 1200', 'Rua Padre Arnaldo Jansen, 200', 'Avenida Pavao, 950']
+2025-05-22 02:08:16,960 - P17020 - INFO - Endereço validado: Rua dos Timbiras, 1200
+2025-05-22 02:08:16,960 - P17020 - INFO - Limpando texto extenso para campo address: Rua dos Timbiras, 1200...
+2025-05-22 02:08:16,960 - P17020 - INFO - Texto limpo: Rua dos Timbiras, 1200
+2025-05-22 02:08:16,960 - P17020 - INFO - Validando telefone: ['(17) 9155-5552', '(32) 99195-6532', '31940084']
+2025-05-22 02:08:16,961 - P17020 - INFO - Limpando texto extenso para campo phone: (17) 9155-5552...
+2025-05-22 02:08:16,961 - P17020 - INFO - Texto limpo: 17) 9155-5552
+2025-05-22 02:08:16,961 - P17020 - INFO - Telefone validado: 17) 9155-5552
+2025-05-22 02:08:16,961 - P17020 - INFO - Validando email: ['leticiaolivacosta@gmail.com', 'LETCHVET@GMAIL.COM', 'alpharic@uol.com.br']
+2025-05-22 02:08:16,961 - P17020 - INFO - Limpando texto extenso para campo email: leticiaolivacosta@gmail.com...
+2025-05-22 02:08:16,961 - P17020 - INFO - Texto limpo: leticiaolivacosta@gmail.com
+2025-05-22 02:08:16,961 - P17020 - INFO - Email validado: leticiaolivacosta@gmail.com
+2025-05-22 02:08:16,962 - P17020 - INFO - Validando complemento: ['Sala de Imprensa   Notícias do CFM   Saiu na imprensa ', 'Sala de Imprensa ', 'Sala  4 Chacara Santo Antonio']
+2025-05-22 02:08:16,962 - P17020 - INFO - Limpando texto extenso para campo complement: Sala de Imprensa   Notícias do CFM   Saiu na impre...
+2025-05-22 02:08:16,962 - P17020 - INFO - Texto limpo: Sala de Imprensa Notícias do
+2025-05-22 02:08:16,962 - P17020 - INFO - Complemento validado: Sala de Imprensa Notícias do
+2025-05-22 02:08:16,962 - P17020 - INFO - Descobrindo cidade
+2025-05-22 02:08:16,962 - P17020 - INFO - Buscando cidade: Rua dos Timbiras cidade MG
+2025-05-22 02:08:19,484 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 02:08:19,484 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 02:08:19,485 - P17020 - INFO - Tempo de execução de processamento completo do médico: 69.38 segundos
+2025-05-22 02:08:19,485 - P17020 - INFO - Resultado processado: {'Hash': '95f2e3ed9cc5468f98456245776b7cd79a7d17a417af2c3689c645d13b80aba5', 'CRM': '88814', 'UF': 'MG', 'Firstname': 'LETICIA', 'LastName': 'COSTA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua dos Timbiras, 1200', 'Address A1': 'Rua dos Timbiras', 'Numero A1': '1200', 'Complement A1': 'Sala de Imprensa Notícias do', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '17) 9155-5552', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'leticiaolivacosta@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:08:19,486 - P17020 - INFO - Progresso: 18.1%
+2025-05-22 02:08:19,486 - P17020 - INFO - Tempo de execução de processamento do médico 2: 69.39 segundos
+2025-05-22 02:08:19,487 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 02:08:19,487 - P17020 - INFO - Nome: ALLYSON JOSÉ BORGES NEVES
+2025-05-22 02:08:19,487 - P17020 - INFO - Início do processamento Uso de memória: 124.82 MB
+2025-05-22 02:08:19,487 - P17020 - INFO - Iniciando busca para: ALLYSON JOSÉ BORGES NEVES CRM 89110 MG telefone e-mail endereço
+2025-05-22 02:08:19,990 - P17020 - INFO - SearX results: 9 URLs
+2025-05-22 02:08:19,990 - P17020 - INFO - Após SearX Uso de memória: 124.82 MB
+2025-05-22 02:08:22,386 - P17020 - INFO - Google results: 14 URLs
+2025-05-22 02:08:22,386 - P17020 - INFO - Após Google Uso de memória: 127.18 MB
+2025-05-22 02:08:24,807 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 02:08:24,807 - P17020 - INFO - Após Bing Uso de memória: 127.66 MB
+2025-05-22 02:08:24,807 - P17020 - INFO - Total de URLs únicas: 25
+2025-05-22 02:08:24,808 - P17020 - INFO - Processando URL 1/25: https://medico.drconecta.com.br/public/doctor/c9f5bca4-c9a9-11ec-9ac5-0242ac120004
+2025-05-22 02:08:29,171 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\21908f6b6744aab3593864a1ed1d2901.html
+2025-05-22 02:08:29,174 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:08:29,174 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:08:29,174 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:08:29,174 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:29,174 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:08:29,175 - P17020 - INFO - Após processar URL 1 Uso de memória: 127.66 MB
+2025-05-22 02:08:29,175 - P17020 - INFO - Processando URL 2/25: https://cdn-fecam.gestorlgpd.com.br/wp-content/uploads/2023/05/Guia-dos-Municipios_versao_online.pdf
+2025-05-22 02:08:29,175 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://cdn-fecam.gestorlgpd.com.br/wp-content/uploads/2023/05/Guia-dos-Municipios_versao_online.pdf
+2025-05-22 02:08:29,175 - P17020 - INFO - Após processar URL 2 Uso de memória: 127.66 MB
+2025-05-22 02:08:29,175 - P17020 - INFO - Processando URL 3/25: https://aboutcompany.info/country/brazil/officer/910676/allyson-jose-borges-neves/
+2025-05-22 02:08:30,612 - P17020 - ERROR - Erro ao baixar HTML de https://aboutcompany.info/country/brazil/officer/910676/allyson-jose-borges-neves/: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7574059F4]
+	(No symbol) [0x00007FF7573F6789]
+	(No symbol) [0x00007FF7573F84F8]
+	(No symbol) [0x00007FF7573F6A96]
+	(No symbol) [0x00007FF7573F6516]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F465C]
+	(No symbol) [0x00007FF75740CF3A]
+	(No symbol) [0x00007FF7574B013E]
+	(No symbol) [0x00007FF75748737A]
+	(No symbol) [0x00007FF7574AF39C]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 02:08:30,615 - P17020 - INFO - Após processar URL 3 Uso de memória: 127.66 MB
+2025-05-22 02:08:30,615 - P17020 - INFO - Processando URL 4/25: https://www.escavador.com/sobre/3703986/allyson-jose-borges-neves
+2025-05-22 02:08:37,693 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a2b25e33d0c6db75e4345e6408401f73.html
+2025-05-22 02:08:37,726 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:08:37,726 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:08:37,727 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:08:37,727 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 02:08:37,727 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:08:37,727 - P17020 - INFO - Após processar URL 4 Uso de memória: 127.62 MB
+2025-05-22 02:08:37,727 - P17020 - INFO - Processando URL 5/25: https://consultacrm.com.br/
+2025-05-22 02:08:41,661 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:08:41,672 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:08:41,672 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:08:41,673 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:08:41,673 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:41,673 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:08:41,673 - P17020 - INFO - Após processar URL 5 Uso de memória: 127.70 MB
+2025-05-22 02:08:41,673 - P17020 - INFO - Processando URL 6/25: https://iomat.mt.gov.br/portal/edicoes/download/3361
+2025-05-22 02:08:44,158 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\59bccfea9feaddeb674036d3c51e8bb5.html
+2025-05-22 02:08:44,169 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:08:44,169 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:08:44,169 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:08:44,169 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:44,169 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:08:44,170 - P17020 - INFO - Após processar URL 6 Uso de memória: 127.70 MB
+2025-05-22 02:08:44,170 - P17020 - INFO - Processando URL 7/25: https://portal.doe.sea.sc.gov.br/repositorio/2022/20221011/Jornal/3003.pdf
+2025-05-22 02:08:44,172 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://portal.doe.sea.sc.gov.br/repositorio/2022/20221011/Jornal/3003.pdf
+2025-05-22 02:08:44,172 - P17020 - INFO - Após processar URL 7 Uso de memória: 127.70 MB
+2025-05-22 02:08:44,173 - P17020 - INFO - Processando URL 8/25: https://diario.oab.org.br/assets/diarios/diario-eletronico-oab-23-07-2024.pdf
+2025-05-22 02:08:44,173 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diario.oab.org.br/assets/diarios/diario-eletronico-oab-23-07-2024.pdf
+2025-05-22 02:08:44,173 - P17020 - INFO - Após processar URL 8 Uso de memória: 127.70 MB
+2025-05-22 02:08:44,173 - P17020 - INFO - Processando URL 9/25: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/3/1/8/31838cd774fb3aa76996726db23235fd2213af0142a0de6a08f79ac64eca5551/705e0f48-554d-4cf4-a910-edf999fb23fd-25948-DOE_17973_25_09_2006_76F_JUCESC_17973_08F.pdf
+2025-05-22 02:08:44,174 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/3/1/8/31838cd774fb3aa76996726db23235fd2213af0142a0de6a08f79ac64eca5551/705e0f48-554d-4cf4-a910-edf999fb23fd-25948-DOE_17973_25_09_2006_76F_JUCESC_17973_08F.pdf
+2025-05-22 02:08:44,174 - P17020 - INFO - Após processar URL 9 Uso de memória: 127.70 MB
+2025-05-22 02:08:44,174 - P17020 - INFO - Processando URL 10/25: https://sistemadje.tjmt.jus.br/publicacoes/9853-2016.pdf
+2025-05-22 02:08:44,174 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/9853-2016.pdf
+2025-05-22 02:08:44,174 - P17020 - INFO - Após processar URL 10 Uso de memória: 127.70 MB
+2025-05-22 02:08:44,175 - P17020 - INFO - Processando URL 11/25: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/33737/Caderno_JUD_MG_2015-06-22_VII_115.pdf?sequence=2&isAllowed=y
+2025-05-22 02:08:44,175 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/33737/Caderno_JUD_MG_2015-06-22_VII_115.pdf?sequence=2&isAllowed=y
+2025-05-22 02:08:44,175 - P17020 - INFO - Após processar URL 11 Uso de memória: 127.70 MB
+2025-05-22 02:08:44,175 - P17020 - INFO - Processando URL 12/25: https://cnpj.biz/23020713000112
+2025-05-22 02:08:46,403 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d150f3697dd968f4f522e89d1c53a045.html
+2025-05-22 02:08:46,406 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:08:46,407 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:08:46,407 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:08:46,407 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:46,407 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:08:46,407 - P17020 - INFO - Após processar URL 12 Uso de memória: 127.70 MB
+2025-05-22 02:08:46,408 - P17020 - INFO - Processando URL 13/25: https://crmmg.org.br/institucional/delegacias/
+2025-05-22 02:08:54,545 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a8c03d70d0ba3b52ed1072ef18039d2f.html
+2025-05-22 02:08:55,076 - P17020 - INFO - Candidates address: 25 items
+2025-05-22 02:08:55,076 - P17020 - INFO - Candidates phone: 11 items
+2025-05-22 02:08:55,077 - P17020 - INFO - Candidates email: 26 items
+2025-05-22 02:08:55,078 - P17020 - INFO - Candidates complement: 15 items
+2025-05-22 02:08:55,078 - P17020 - INFO - Candidates cep: 26 items
+2025-05-22 02:08:55,079 - P17020 - INFO - Após processar URL 13 Uso de memória: 129.51 MB
+2025-05-22 02:08:55,079 - P17020 - INFO - Processando URL 14/25: https://pt.scribd.com/document/624340301/30155135-Lista-Nacional-Dentistas-Atualizada
+2025-05-22 02:08:59,383 - P17020 - WARNING - Página muito grande (3.29MB), truncando
+2025-05-22 02:08:59,394 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a99b6033101371070fbf81b4beae7e46.html
+2025-05-22 02:09:00,412 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 02:09:00,413 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:09:00,413 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:09:00,413 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:09:00,413 - P17020 - INFO - Candidates cep: 5 items
+2025-05-22 02:09:00,413 - P17020 - INFO - Após processar URL 14 Uso de memória: 134.95 MB
+2025-05-22 02:09:00,413 - P17020 - INFO - Processando URL 15/25: https://www.gov.br/mme/pt-br/arquivos/do-06-08-2019-s3.pdf
+2025-05-22 02:09:00,413 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.gov.br/mme/pt-br/arquivos/do-06-08-2019-s3.pdf
+2025-05-22 02:09:00,414 - P17020 - INFO - Após processar URL 15 Uso de memória: 128.94 MB
+2025-05-22 02:09:00,414 - P17020 - INFO - Processando URL 16/25: https://crmmg.org.br/contato/
+2025-05-22 02:09:02,652 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\8b782fbc7fe3c59e356e34916a7ce54c.html
+2025-05-22 02:09:02,684 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 02:09:02,684 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:09:02,684 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:09:02,684 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 02:09:02,684 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:09:02,684 - P17020 - INFO - Após processar URL 16 Uso de memória: 128.94 MB
+2025-05-22 02:09:02,685 - P17020 - INFO - Processando URL 17/25: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2014/dou3_2014_05_21.pdf
+2025-05-22 02:09:02,685 - P17020 - INFO - Ignorando URL de arquivo não-HTML: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2014/dou3_2014_05_21.pdf
+2025-05-22 02:09:02,685 - P17020 - INFO - Após processar URL 17 Uso de memória: 128.94 MB
+2025-05-22 02:09:02,685 - P17020 - INFO - Processando URL 18/25: https://www.consultasocio.com/q/sa/allyson-jose-borges-neves
+2025-05-22 02:09:07,325 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\dbabf67bb35ccde83e118ec606898295.html
+2025-05-22 02:09:07,330 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:09:07,330 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:09:07,330 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:09:07,331 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:09:07,331 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:09:07,331 - P17020 - INFO - Após processar URL 18 Uso de memória: 128.95 MB
+2025-05-22 02:09:07,331 - P17020 - INFO - Processando URL 19/25: https://www.achecerto.com.br/
+2025-05-22 02:09:13,058 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ceb96e5663cace6f7b35fee1716d7561.html
+2025-05-22 02:09:13,081 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:09:13,081 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:09:13,082 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 02:09:13,093 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:09:13,093 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:09:13,094 - P17020 - INFO - Após processar URL 19 Uso de memória: 129.41 MB
+2025-05-22 02:09:13,094 - P17020 - INFO - Processando URL 20/25: https://crmmg.org.br/
+2025-05-22 02:09:15,555 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\359238310c9096afb1ec9e794f848700.html
+2025-05-22 02:09:15,601 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:09:15,604 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:09:15,604 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:09:15,605 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 02:09:15,605 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:09:15,605 - P17020 - INFO - Após processar URL 20 Uso de memória: 130.27 MB
+2025-05-22 02:09:15,605 - P17020 - INFO - Processando URL 21/25: https://pt.scribd.com/document/593712811/PCMSO-AESCLEANDOBRASILLTDA-CONSTELLATION-AMARALINASTARAESDOBRASIL-ANL00-2022-1
+2025-05-22 02:09:19,512 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\531e1044605e7deffea940c38cc837b6.html
+2025-05-22 02:09:19,888 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 02:09:19,892 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 02:09:19,894 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:09:19,898 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:09:19,906 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:09:19,911 - P17020 - INFO - Após processar URL 21 Uso de memória: 133.80 MB
+2025-05-22 02:09:19,918 - P17020 - INFO - Processando URL 22/25: https://crmvirtual.cfm.org.br/MG/servico/procure-medicos
+2025-05-22 02:09:22,560 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c2af9904acdad6295c60ad1b50d74554.html
+2025-05-22 02:09:22,577 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:09:22,578 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:09:22,579 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 02:09:22,579 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:09:22,579 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 02:09:22,580 - P17020 - INFO - Após processar URL 22 Uso de memória: 130.11 MB
+2025-05-22 02:09:22,581 - P17020 - INFO - Processando URL 23/25: https://www.gov.br/mme/pt-br/arquivos/do-03-09-2013-s3.pdf
+2025-05-22 02:09:22,581 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.gov.br/mme/pt-br/arquivos/do-03-09-2013-s3.pdf
+2025-05-22 02:09:22,581 - P17020 - INFO - Após processar URL 23 Uso de memória: 130.11 MB
+2025-05-22 02:09:22,581 - P17020 - INFO - Processando URL 24/25: https://pt.scribd.com/document/746050697/GUIA-MEDICO
+2025-05-22 02:09:26,038 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e0ed2cfed1fe072aa2ab0e340510503a.html
+2025-05-22 02:09:26,212 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 02:09:26,212 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 02:09:26,212 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 02:09:26,212 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 02:09:26,212 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 02:09:26,213 - P17020 - INFO - Após processar URL 24 Uso de memória: 134.36 MB
+2025-05-22 02:09:26,213 - P17020 - INFO - Processando URL 25/25: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/5055/Caderno_JUD_MG_2015-03-13_VII50.pdf?sequence=1&isAllowed=y
+2025-05-22 02:09:26,213 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/5055/Caderno_JUD_MG_2015-03-13_VII50.pdf?sequence=1&isAllowed=y
+2025-05-22 02:09:26,213 - P17020 - INFO - Após processar URL 25 Uso de memória: 131.25 MB
+2025-05-22 02:09:26,213 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:09:26,213 - P17020 - INFO - Ranked address: 30 items
+2025-05-22 02:09:26,214 - P17020 - INFO - Ranked phone: 12 items
+2025-05-22 02:09:26,214 - P17020 - INFO - Ranked email: 31 items
+2025-05-22 02:09:26,214 - P17020 - INFO - Ranked complement: 17 items
+2025-05-22 02:09:26,214 - P17020 - INFO - Ranked cep: 35 items
+2025-05-22 02:09:26,214 - P17020 - INFO - Após agregação Uso de memória: 131.25 MB
+2025-05-22 02:09:26,214 - P17020 - INFO - Validando endereço: ['Rua dos Timbiras, 1200', 'Rua dos Timbiras 1.200', 'Rua Dom José Gaspar, 225']
+2025-05-22 02:09:26,214 - P17020 - INFO - Endereço validado: Rua dos Timbiras, 1200
+2025-05-22 02:09:26,214 - P17020 - INFO - Limpando texto extenso para campo address: Rua dos Timbiras, 1200...
+2025-05-22 02:09:26,215 - P17020 - INFO - Texto limpo: Rua dos Timbiras, 1200
+2025-05-22 02:09:26,215 - P17020 - INFO - Validando telefone: ['(33) 99839-3367', '(32) 99861-6375', '(31) 98410-6121']
+2025-05-22 02:09:26,215 - P17020 - INFO - Limpando texto extenso para campo phone: (33) 99839-3367...
+2025-05-22 02:09:26,215 - P17020 - INFO - Texto limpo: 33) 99839-3367
+2025-05-22 02:09:26,215 - P17020 - INFO - Telefone validado: 33) 99839-3367
+2025-05-22 02:09:26,216 - P17020 - INFO - Validando email: ['alfenas@crmmg.org.br', 'araxa@crmmg.org.br', 'barbacena@crmmg.org.br']
+2025-05-22 02:09:26,216 - P17020 - INFO - Limpando texto extenso para campo email: alfenas@crmmg.org.br...
+2025-05-22 02:09:26,216 - P17020 - INFO - Texto limpo: alfenas@crmmg.org.br
+2025-05-22 02:09:26,216 - P17020 - INFO - Email validado: alfenas@crmmg.org.br
+2025-05-22 02:09:26,217 - P17020 - INFO - Validando complemento: ['Sala de Imprensa ', 'Sala de Imprensa   Notícias do CFM   Saiu na imprensa ', 'Salazar Cuzcano ; José Braz Costa Castro Junior ; SOUS']
+2025-05-22 02:09:26,217 - P17020 - INFO - Limpando texto extenso para campo complement: Sala de Imprensa ...
+2025-05-22 02:09:26,217 - P17020 - INFO - Texto limpo: Sala de Imprensa
+2025-05-22 02:09:26,219 - P17020 - INFO - Complemento validado: Sala de Imprensa
+2025-05-22 02:09:26,219 - P17020 - INFO - Descobrindo cidade
+2025-05-22 02:09:26,220 - P17020 - INFO - Buscando cidade: Rua dos Timbiras cidade MG
+2025-05-22 02:09:28,738 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 02:09:28,738 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 02:09:28,738 - P17020 - INFO - Tempo de execução de processamento completo do médico: 69.25 segundos
+2025-05-22 02:09:28,739 - P17020 - INFO - Resultado processado: {'Hash': 'b2f44557b0eed0154af3be0a97ac2ee039030ba8adcab4787c9185f6b8b2d401', 'CRM': '89110', 'UF': 'MG', 'Firstname': 'ALLYSON', 'LastName': 'JOSÉ BORGES NEVES', 'Medical specialty': '', 'Endereco Completo A1': 'Rua dos Timbiras, 1200', 'Address A1': 'Rua dos Timbiras', 'Numero A1': '1200', 'Complement A1': 'Sala de Imprensa', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '33) 99839-3367', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'alfenas@crmmg.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:09:28,739 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 02:09:28,740 - P17020 - INFO - Após salvar resultados Uso de memória: 129.27 MB
+2025-05-22 02:09:28,741 - P17020 - INFO - Progresso: 18.6%
+2025-05-22 02:09:28,741 - P17020 - INFO - Tempo de execução de processamento do médico 3: 69.25 segundos
+2025-05-22 02:09:28,741 - P17020 - INFO - Tempo de execução de processamento do lote completo: 196.45 segundos

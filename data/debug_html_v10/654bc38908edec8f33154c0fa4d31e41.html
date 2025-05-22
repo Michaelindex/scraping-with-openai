@@ -1,0 +1,2402 @@
+<html lang="pt-BR"><head>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+    <meta name="description" content="Sistema para gestão de rankings, torneios, barragens, aulas, locações e agenda de quadras. Também disponibilizamos para os jogadores H2H, painel de desempenho e histórico de todos os jogos">
+    <meta name="og:description" content="Sistema para gestão de rankings, torneios, barragens, aulas, locações e agenda de quadras. Também disponibilizamos para os jogadores H2H, painel de desempenho e histórico de todos os jogos">
+    <meta name="twitter:description" content="Sistema para gestão de rankings, torneios, barragens, aulas, locações e agenda de quadras. Também disponibilizamos para os jogadores H2H, painel de desempenho e histórico de todos os jogos">
+
+    <meta property="og:title" content="Walter Magalhaes Neto">    
+    <meta name="twitter:title" content="Walter Magalhaes Neto">
+
+<meta property="og:site_name" content="LetzPlay.me">
+
+<meta property="og:image" content="https://letzplay.me/assets/LetzPlay-me-plataforma-de-gestao-303603820c683f2e3f1dde391532d4ce160b52d211c1b9ca96b2b1a214234c25.png">
+<meta name="twitter:image" content="https://letzplay.me/assets/LetzPlay-me-plataforma-de-gestao-303603820c683f2e3f1dde391532d4ce160b52d211c1b9ca96b2b1a214234c25.png">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="http://letzplay.me">
+<meta name="twitter:label1" content="Written by">
+<meta name="twitter:data1" content="LetzPlay.me">
+<meta name="twitter:label2" content="Filed under">
+
+<title>Walter Magalhaes Neto - LetzPlay</title>
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin" rel="stylesheet">
+
+	<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-PC9RNJ4"></script><script>
+//<![CDATA[
+window.gon={};gon.profile={};
+//]]>
+</script>
+	<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="Vy4qb95JOb3+oxTLBVYBVnnUVJf5JgonY3wzUNb6LLUCHHThqDnOP9Qz98w9K+7pwmQRJ7Kvf74nS1Cl19gACw==">
+	<link rel="shortcut icon" type="image/png" href="/assets/favicon-d477659224062607f55e0489c9dd4cd26a06b551f0682e48936365f48d87ccc3.png">
+
+	<link rel="stylesheet" media="all" href="/assets/user-0d72fee2829958d08d1c1ca587d924edc78b3c78bd9bb925a123b2a8dbd779f0.css" data-turbolinks-track="true">
+	    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PC9RNJ4');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) --> 
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2XN3BM4P07"></script> 
+    <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-2XN3BM4P07'); </script>
+
+	    <!-- Hotjar Tracking Code for https://letzplay.me -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:5246835,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script><script async="" src="https://static.hotjar.com/c/hotjar-5246835.js?sv=6"></script>
+
+
+<script async="" src="https://script.hotjar.com/modules.c04774c5aa909f60fd61.js" charset="utf-8"></script></head>
+<body class="nifty-ready">
+	<img src="https://res.cloudinary.com/lptennis/image/upload/v1610937105/LetzPlay/LetzPlay-me-plataforma-de-gestao.png" class="hidden">
+
+	<div class="loader-container hidden-md hidden-lg" style="display:none">
+		<div class="loader-content"></div>
+	</div>
+
+
+	<div id="container" class="effect mainnav-out navbar-fixed">
+
+		<header id="navbar" class="navbar-profile smart-scroll scrolled-up">
+	<div id="navbar-container" class="boxed layout-boxed navbar-profile ">
+		<div class="layout-boxed layout-boxed-profile-user">
+				<div class="row navbar-pad-top">
+	<div class="col-xs-4 col-md-3">
+		<a class="nav-text-primary" href="/u">
+			<img class="brand-logo-navbar" src="/assets/static/logo-6fb57a7fcdcd3d3e96a93389fa0b202e0145beb5998e19bff2f14dcbe609a1b3.png">
+</a>	</div>
+
+	<div class="col-xs-4 col-md-4 hidden-xs hidden-sm">
+	</div>
+
+
+	<div class="col-xs-8 col-md-5">
+		<a onclick="modalUserSignin();" class="btn btn-info btn-action btn-login-nav pull-right" href="#/">Entrar</a>
+		&nbsp;
+		
+	</div>
+</div>
+		</div>
+	</div>
+</header>
+
+
+		<div id="content-container" class="bg-layout">
+			<div id="page-content">
+
+				<div class="layout-boxed content-profile layout-boxed-profile-user">
+
+					<div class="row">
+						<div class="col-xs-12">
+							
+
+
+<div class="bg-white bg-profile">
+
+	<div class="row profile-cover user profile-cover-bg-7" style="background: url(&quot;http://res.cloudinary.com/lptennis/image/upload/c_fit,h_321,q_auto,w_965/v1711388819/oojvzmzwldilkm59pnlo.jpg&quot;) center center / cover no-repeat transparent; opacity: 1; height: 321.667px;">
+	</div>
+
+
+	<div class="row">
+		<div class="col-xs-12 col-md-12 pad-lft-no-xs">
+			<div class="media">
+	            <div class="media-left profile-avatar">
+	                
+
+	
+
+		<a href="/WalterNeto2"><img class="img-lg img-border img-circle center bg-avatar size-large " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1711388898/pdun8scnmsg3ph4da1vf.png"></a>
+	
+
+
+
+	            </div>
+
+	            <div class="media-body">
+	            	<div class="row">
+						<div class="col-xs-12 col-md-6 profile-title">
+							<span class="text-bold">Walter Magalhaes Neto</span><br>
+							<small class="text-semibold  text-muted">
+								<a class="text-muted" href="/WalterNeto2">@WalterNeto2</a>
+
+							</small>
+						</div>
+
+
+						<div class="col-xs-12 col-md-6">
+							<div class="row">
+								<div class="col-xs-4 profile-title text-right text-left-xs">
+									<a class="text-normal" href="/WalterNeto2/matches">
+                    <span class="text-bold ">124</span><br>
+										<small class="text-semibold text-muted">Jogos</small>
+</a>								</div>
+
+
+								<div class="col-xs-4 profile-title text-right text-center-xs">
+									<a class="text-normal" href="/WalterNeto2/rankings">
+										<span class="text-bold     ">7</span><br>
+										<small class="text-semibold text-muted">Rankings</small>
+</a>								</div>
+
+
+								<div class="col-xs-4 profile-title text-right text-right-xs">
+									<a class="text-normal" href="/WalterNeto2/tournaments">
+										<span class="text-bold     ">31</span><br>
+										<small class="text-semibold text-muted">Torneios</small>
+</a>								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+						<div class="row">
+							<div class="col-xs-12">
+								<a onclick="modalUserSignin();" class="btn btn-default btn-action profile-title-action mobile hidden-md hidden-lg" href="#/"><i class="fa fa-user-plus"><span>&nbsp;&nbsp;Solicitar Amizade</span></i></a>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="row">
+		<div class="col-xs-12">
+			<hr class="profile-menu-hr">
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<div class="row">
+		<div class="col-xs-12 col-md-8 profile-menu">
+
+			<div class="profile-menu-bar">
+
+				<div class="profile-menu-item">
+					<a class="text-normal text-semibold" href="/WalterNeto2">
+						<span class="menu-selected">Principal</span>
+</a>				</div>
+
+
+				<div class="profile-menu-item">
+						<a onclick="modalUserSignin();" class="text-normal text-semibold" href="#/">
+							<span class="">Amigos</span>
+</a>				</div>
+
+
+				<div class="profile-menu-item">
+						<a onclick="modalUserSignin();" class="text-normal text-semibold" href="#/">
+							<span class="">Seguindo</span>
+</a>				</div>
+
+
+				<div class="profile-menu-item">
+					<a class="text-normal text-semibold" href="/WalterNeto2/photos">
+						<span class="">Fotos</span>
+</a>				</div>
+
+
+				<div class="profile-menu-item">
+						<a onclick="modalUserSignin();" class="text-normal text-semibold" href="#/">
+							<span class="">Onde Joga</span>
+</a>				</div>
+			</div>
+		</div>
+
+
+		<div class="col-md-4 text-right hidden-xs hidden-sm">
+				<a onclick="modalUserSignin();" class="btn btn-success btn-action profile-menu-action" href="#/"><i class="fa fa-user-plus"><span>&nbsp;&nbsp;Solicitar Amizade</span></i></a>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+							
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="application-page-alert">
+								
+							</div>
+						</div>
+					</div>
+
+
+					<div class="row">
+						<div class="col-xs-12">
+							
+	<div id="mentionable-data" data-values="[]" class="hidden"></div>
+
+	<style class="embedly-css">
+	.hdr { display:none; }
+
+	.embedly-card { margin: -7px -17px; }
+
+	.pair-bd { background-color: #E9EBEE; }
+	.txt-bd {
+		
+		margin-right: 17px;
+		margin-left: 17px;
+		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		color: #515151;
+	}
+
+	.txt-bd h1.title      {font-size:   16px;margin-top: 10px;line-height: 18px;color:#000;}
+	.txt-bd p.description {line-height: 18px;margin-top: 10px;}
+	.txt-bd a.action      {display:none;}
+
+	.tweet { margin: 20px 0px 20px 0px !important; }
+</style>
+
+
+	<div class="row">
+	<div class="col-sm-5 sidebar-pad mar-btm pad-btm">
+		<div class="bg-white">
+			
+
+
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="section-title" style="margin-top: 0px;">Informações</h3>
+      <hr class="section-divider">
+    </div>
+  </div>
+
+
+<div class="row">
+  <div class="col-xs-12">
+
+
+
+
+
+
+      <div class="row" style="margin-bottom: 10px;">
+        <div class="col-xs-3 text-right">Jogou</div>
+        <div class="col-xs-9 text-semibold">há 1 mês</div>
+      </div>
+
+
+    <div class="row" style="margin-bottom: 10px;">
+      <div class="col-xs-3 text-right">Entrou</div>
+      <div class="col-xs-9 text-semibold">em Novembro de 2021</div>
+    </div>
+
+
+      <div class="row">
+        <div class="col-xs-3 text-right">Instagram</div>
+        <div class="col-xs-9 text-semibold"><a class="btn-link text-default text-semibold" target="_blank" href="https://www.instagram.com/walter_goiaba">@walter_goiaba</a></div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="row">
+  <div class="col-xs-12">
+    <h3 class="section-title section-profile-title">Últimos 20 jogos em</h3>
+    <hr class="section-divider">
+  </div>
+</div>
+
+
+<div class="row pad-btm">
+  <div class="col-xs-3 text-semibold text-right">
+    Simples
+  </div>
+
+  <div class="col-xs-9">
+    <div class="progress progress-lg mar-no">
+      <div style="width: 50%" class="progress-bar progress-bar-success">
+        <span class="pull-right">0&nbsp;&nbsp;</span>
+      </div>
+      <div style="width: 50%" class="progress-bar progress-bar-danger opacity">
+        <span class="pull-left">&nbsp;&nbsp;0</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row pad-btm">
+  <div class="col-xs-3 text-semibold text-right">
+    Duplas
+  </div>
+
+  <div class="col-xs-9">
+    <div class="progress progress-lg mar-no">
+      <div style="width: 55.0%" class="progress-bar progress-bar-success">
+        <span class="pull-right">11&nbsp;&nbsp;</span>
+      </div>
+      <div style="width: 45.0%" class="progress-bar progress-bar-danger opacity">
+        <span class="pull-left">&nbsp;&nbsp;9</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row pad-btm">
+  <div class="col-xs-3 text-semibold text-right">
+    Rankings
+  </div>
+
+  <div class="col-xs-9">
+    <div class="progress progress-lg mar-no">
+      <div style="width: 55.0%" class="progress-bar progress-bar-success">
+        <span class="pull-right">11&nbsp;&nbsp;</span>
+      </div>
+      <div style="width: 45.0%" class="progress-bar progress-bar-danger opacity">
+        <span class="pull-left">&nbsp;&nbsp;9</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-xs-3 text-semibold text-right">
+    Torneios
+  </div>
+
+  <div class="col-xs-9">
+    <div class="progress progress-lg mar-no">
+      <div style="width: 40.0%" class="progress-bar progress-bar-success">
+        <span class="pull-right">8&nbsp;&nbsp;</span>
+      </div>
+      <div style="width: 60.0%" class="progress-bar progress-bar-danger opacity">
+        <span class="pull-left">&nbsp;&nbsp;12</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="row">
+  <div class="col-xs-12">
+    <h3 class="section-title section-profile-title">Resultado dos últimos 20 jogos</h3>
+    <hr class="section-divider">
+  </div>
+</div>
+
+<div class="row pad-btm">
+
+  <div class="col-xs-4 col-sm-4 text-center text-semibold text-success" style="line-height: 25px;">
+    <span class="fa-lg">
+      <i class="fa fa-check-circle opacity"></i>
+      &nbsp;<big>11</big>
+    </span>
+    <br><b>Jogado</b>
+  </div>
+  <div class="col-xs-4 col-sm-4 text-center text-semibold text-success" style="line-height: 25px;">
+    <span class="fa-lg">
+      <i class="fa fa-user-times opacity"></i>
+      &nbsp;<big>0</big>
+    </span>
+    <br><b>W.O.</b>
+  </div>
+  <div class="col-xs-4 col-sm-4 text-center text-semibold text-success" style="line-height: 25px;">
+    <span class="fa-lg">
+      <i class="fa fa-ambulance opacity"></i>
+      &nbsp;<big>0</big>
+    </span>
+    <br><b>Desistência</b>
+  </div>
+</div>
+
+<div class="row pad-top">
+  <div class="col-xs-4 col-sm-4 text-center text-semibold text-danger opacity" style="line-height: 25px;">
+    <span class="fa-lg">
+      <i class="fa fa-check-circle"></i>
+      &nbsp;<big>9</big>
+    </span>
+    <br>Jogado
+  </div>
+  <div class="col-xs-4 col-sm-4 text-center text-semibold text-danger opacity" style="line-height: 25px;">
+    <span class="fa-lg">
+      <i class="fa fa-user-times"></i>
+      &nbsp;<big>0</big>
+    </span>
+    <br><b>W.O.</b>
+  </div>
+  <div class="col-xs-4 col-sm-4 text-center text-semibold text-danger opacity" style="line-height: 25px;">
+    <span class="fa-lg">
+      <i class="fa fa-ambulance"></i>
+      &nbsp;<big>0</big>
+    </span>
+    <br><b>Desistência</b>
+  </div>
+</div>
+
+
+
+
+
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h3 class="section-title section-profile-title">Jogos nos últimos 12 meses</h3>
+      <hr class="section-divider">
+    </div>
+
+    <div class="col-xs-12">
+      <div id="matches-all-data" data-values="[{&quot;month&quot;:&quot;Jun/2024&quot;,&quot;count&quot;:2},{&quot;month&quot;:&quot;Jul/2024&quot;,&quot;count&quot;:2},{&quot;month&quot;:&quot;Ago/2024&quot;,&quot;count&quot;:5},{&quot;month&quot;:&quot;Set/2024&quot;,&quot;count&quot;:6},{&quot;month&quot;:&quot;Out/2024&quot;,&quot;count&quot;:3},{&quot;month&quot;:&quot;Nov/2024&quot;,&quot;count&quot;:13},{&quot;month&quot;:&quot;Fev/2025&quot;,&quot;count&quot;:8},{&quot;month&quot;:&quot;Abr/2025&quot;,&quot;count&quot;:3}]" class="profile-graph-user-matches" style="position: relative; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><svg height="200" version="1.1" width="371" xmlns="http://www.w3.org/2000/svg" style="overflow: hidden; position: relative; top: -0.65625px;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.1.2</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs><text x="26.173828125" y="161" text-anchor="end" font="10px &quot;Arial&quot;" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font: 12px sans-serif;" font-size="12px" font-family="sans-serif" font-weight="normal"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">0</tspan></text><path fill="none" stroke="#000000" d="M38.673828125,161H345.906" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" stroke-opacity="0" stroke-width="0.5"></path><text x="26.173828125" y="127" text-anchor="end" font="10px &quot;Arial&quot;" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font: 12px sans-serif;" font-size="12px" font-family="sans-serif" font-weight="normal"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">5</tspan></text><path fill="none" stroke="#000000" d="M38.673828125,127H345.906" stroke-opacity="0" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="26.173828125" y="93" text-anchor="end" font="10px &quot;Arial&quot;" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font: 12px sans-serif;" font-size="12px" font-family="sans-serif" font-weight="normal"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">10</tspan></text><path fill="none" stroke="#000000" d="M38.673828125,93H345.906" stroke-opacity="0" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="26.173828125" y="59" text-anchor="end" font="10px &quot;Arial&quot;" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font: 12px sans-serif;" font-size="12px" font-family="sans-serif" font-weight="normal"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">15</tspan></text><path fill="none" stroke="#000000" d="M38.673828125,59H345.906" stroke-opacity="0" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="26.173828125" y="25" text-anchor="end" font="10px &quot;Arial&quot;" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font: 12px sans-serif;" font-size="12px" font-family="sans-serif" font-weight="normal"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">20</tspan></text><path fill="none" stroke="#000000" d="M38.673828125,25H345.906" stroke-opacity="0" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="326.7039892578125" y="173.5" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font: 12px sans-serif;" font-size="12px" font-family="sans-serif" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Abr/2025</tspan></text><text x="211.4919248046875" y="173.5" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font: 12px sans-serif;" font-size="12px" font-family="sans-serif" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Out/2024</tspan></text><text x="96.2798603515625" y="173.5" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font: 12px sans-serif;" font-size="12px" font-family="sans-serif" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Jul/2024</tspan></text><path fill="#0b62a4" stroke="none" d="M43.474330810546874,150.4Q43.474330810546874,147.4,46.474330810546874,147.4L69.27734692382813,147.4Q72.27734692382813,147.4,72.27734692382813,150.4L72.27734692382813,161Q72.27734692382813,161,72.27734692382813,161L43.474330810546874,161Q43.474330810546874,161,43.474330810546874,161Z" fill-opacity="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;"></path><path fill="#0b62a4" stroke="none" d="M81.87835229492187,150.4Q81.87835229492187,147.4,84.87835229492187,147.4L107.68136840820313,147.4Q110.68136840820313,147.4,110.68136840820313,150.4L110.68136840820313,161Q110.68136840820313,161,110.68136840820313,161L81.87835229492187,161Q81.87835229492187,161,81.87835229492187,161Z" fill-opacity="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;"></path><path fill="#0b62a4" stroke="none" d="M120.28237377929688,130Q120.28237377929688,127,123.28237377929688,127L146.08538989257812,127Q149.08538989257812,127,149.08538989257812,130L149.08538989257812,161Q149.08538989257812,161,149.08538989257812,161L120.28237377929688,161Q120.28237377929688,161,120.28237377929688,161Z" fill-opacity="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;"></path><path fill="#0b62a4" stroke="none" d="M158.6863952636719,123.2Q158.6863952636719,120.2,161.6863952636719,120.2L184.48941137695314,120.2Q187.48941137695314,120.2,187.48941137695314,123.2L187.48941137695314,161Q187.48941137695314,161,187.48941137695314,161L158.6863952636719,161Q158.6863952636719,161,158.6863952636719,161Z" fill-opacity="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;"></path><path fill="#0b62a4" stroke="none" d="M197.0904167480469,143.6Q197.0904167480469,140.6,200.0904167480469,140.6L222.89343286132814,140.6Q225.89343286132814,140.6,225.89343286132814,143.6L225.89343286132814,161Q225.89343286132814,161,225.89343286132814,161L197.0904167480469,161Q197.0904167480469,161,197.0904167480469,161Z" fill-opacity="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;"></path><path fill="#0b62a4" stroke="none" d="M235.49443823242189,75.60000000000001Q235.49443823242189,72.60000000000001,238.49443823242189,72.60000000000001L261.29745434570316,72.60000000000001Q264.29745434570316,72.60000000000001,264.29745434570316,75.60000000000001L264.29745434570316,161Q264.29745434570316,161,264.29745434570316,161L235.49443823242189,161Q235.49443823242189,161,235.49443823242189,161Z" fill-opacity="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;"></path><path fill="#0b62a4" stroke="none" d="M273.8984597167969,109.6Q273.8984597167969,106.6,276.8984597167969,106.6L299.70147583007815,106.6Q302.70147583007815,106.6,302.70147583007815,109.6L302.70147583007815,161Q302.70147583007815,161,302.70147583007815,161L273.8984597167969,161Q273.8984597167969,161,273.8984597167969,161Z" fill-opacity="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;"></path><path fill="#0b62a4" stroke="none" d="M312.3024812011719,143.6Q312.3024812011719,140.6,315.3024812011719,140.6L338.10549731445315,140.6Q341.10549731445315,140.6,341.10549731445315,143.6L341.10549731445315,161Q341.10549731445315,161,341.10549731445315,161L312.3024812011719,161Q312.3024812011719,161,312.3024812011719,161Z" fill-opacity="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;"></path></svg><div class="morris-hover morris-default-style" style="display: none;"></div></div>
+    </div>
+  </div>
+
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h3 class="section-title section-profile-title">
+          <i class="fa fa-users"></i> Amigos
+        </h3>
+        <hr class="section-divider">
+      </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-xs-3 profile-small-pad-btm">
+          <a href="/RafaelTavares7">
+            
+<div class="bg-profile-small-card">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="user-card-cover" style="background:transparent url('https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1650993883/gz3bmebxx2z1avdseolv.jpg') no-repeat center center /cover">
+				</div>
+			</div>
+		</div>
+
+	<div class="row text-center">
+		<div class="col-xs-12">
+			<small class="text-semibold text-normal text-overflow">Rafael</small>
+			<small class="text-semibold text-muted  text-overflow">Tavares</small>
+		</div>
+	</div>
+</div>
+</a>        </div>
+        <div class="col-xs-3 profile-small-pad-btm">
+          <a href="/FabioCastro7">
+            
+<div class="bg-profile-small-card">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="user-card-cover bg-warning">
+					<div>FP</div>
+				</div>
+			</div>
+		</div>
+
+	<div class="row text-center">
+		<div class="col-xs-12">
+			<small class="text-semibold text-normal text-overflow">Fabio</small>
+			<small class="text-semibold text-muted  text-overflow">Castro</small>
+		</div>
+	</div>
+</div>
+</a>        </div>
+        <div class="col-xs-3 profile-small-pad-btm">
+          <a href="/AdemarRodrigues">
+            
+<div class="bg-profile-small-card">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="user-card-cover" style="background:transparent url('https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1732490546/ebbsfpyqntm8wzp5vree.jpg') no-repeat center center /cover">
+				</div>
+			</div>
+		</div>
+
+	<div class="row text-center">
+		<div class="col-xs-12">
+			<small class="text-semibold text-normal text-overflow">Deco</small>
+			<small class="text-semibold text-muted  text-overflow">Rodrigues</small>
+		</div>
+	</div>
+</div>
+</a>        </div>
+        <div class="col-xs-3 profile-small-pad-btm">
+          <a href="/MFGC">
+            
+<div class="bg-profile-small-card">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="user-card-cover" style="background:transparent url('https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1732485930/hfrawotsemf7v6dnvwlk.jpg') no-repeat center center /cover">
+				</div>
+			</div>
+		</div>
+
+	<div class="row text-center">
+		<div class="col-xs-12">
+			<small class="text-semibold text-normal text-overflow">Matheus</small>
+			<small class="text-semibold text-muted  text-overflow">Castro</small>
+		</div>
+	</div>
+</div>
+</a>        </div>
+        <div class="col-xs-3 profile-small-pad-btm">
+          <a href="/ClaudiaBettoni">
+            
+<div class="bg-profile-small-card">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="user-card-cover" style="background:transparent url('https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1654784580/ssa74panbvuro8ep9bwb.jpg') no-repeat center center /cover">
+				</div>
+			</div>
+		</div>
+
+	<div class="row text-center">
+		<div class="col-xs-12">
+			<small class="text-semibold text-normal text-overflow">Claudia</small>
+			<small class="text-semibold text-muted  text-overflow">Bettoni</small>
+		</div>
+	</div>
+</div>
+</a>        </div>
+        <div class="col-xs-3 profile-small-pad-btm">
+          <a href="/WaldirJunior2">
+            
+<div class="bg-profile-small-card">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="user-card-cover bg-pink">
+					<div>WJ</div>
+				</div>
+			</div>
+		</div>
+
+	<div class="row text-center">
+		<div class="col-xs-12">
+			<small class="text-semibold text-normal text-overflow">Waldir</small>
+			<small class="text-semibold text-muted  text-overflow">Junior</small>
+		</div>
+	</div>
+</div>
+</a>        </div>
+        <div class="col-xs-3 profile-small-pad-btm">
+          <a href="/JoaoXavier6">
+            
+<div class="bg-profile-small-card">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="user-card-cover" style="background:transparent url('https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1711121074/ukezpsqy48m7aij9fkq0.jpg') no-repeat center center /cover">
+				</div>
+			</div>
+		</div>
+
+	<div class="row text-center">
+		<div class="col-xs-12">
+			<small class="text-semibold text-normal text-overflow">João</small>
+			<small class="text-semibold text-muted  text-overflow">Xavier</small>
+		</div>
+	</div>
+</div>
+</a>        </div>
+        <div class="col-xs-3 profile-small-pad-btm">
+          <a href="/Carlosdrummond">
+            
+<div class="bg-profile-small-card">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="user-card-cover" style="background:transparent url('https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1687283246/z3oog67fqnjtwctjl1up.jpg') no-repeat center center /cover">
+				</div>
+			</div>
+		</div>
+
+	<div class="row text-center">
+		<div class="col-xs-12">
+			<small class="text-semibold text-normal text-overflow">Carlos</small>
+			<small class="text-semibold text-muted  text-overflow">Drummond</small>
+		</div>
+	</div>
+</div>
+</a>        </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-xs-12">
+          <a onclick="modalUserSignin();" class="text-muted text-semibold" href="#/">Ver todos os 36 amigos</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h3 class="section-title section-profile-title">
+          <i class="fa fa-map-marker"></i> Onde  joga
+        </h3>
+        <hr class="section-divider">
+      </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-xs-6 profile-small-pad-btm">
+          <a href="/sand-arena">
+            
+<div class="bg-profile-small-card">
+	<div class="row place-small-card-cover profile-cover-bg-7" style="background:transparent url('http://res.cloudinary.com/lptennis/image/upload/c_fit,h_420,q_auto,w_1260/v1698157268/xiuji9yqeda8jcroxgnl.jpg') no-repeat center center /cover;opacity: 1;">
+	</div>
+
+	<div class="row">
+		<div class="col-xs-2 place-small-card-avatar">
+			
+
+	
+
+		<img class="img-sm img-border img-circle center bg-avatar size-small " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1698156741/geevkofqgl4zqdeexu8f.png">
+	
+
+
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12">
+			<small class="text-semibold text-overflow">The Sand Arena Cotia</small>
+			<small class="text-semibold text-muted text-overflow">@sand-arena • Academia</small>
+		</div>
+	</div>
+</div>
+</a>        </div>
+        <div class="col-xs-6 profile-small-pad-btm">
+          <a href="/liga-proativa-bt">
+            
+<div class="bg-profile-small-card">
+	<div class="row place-small-card-cover profile-cover-bg-0" style="">
+	</div>
+
+	<div class="row">
+		<div class="col-xs-2 place-small-card-avatar">
+			
+
+	
+
+		<img class="img-sm img-border img-circle center bg-avatar size-small " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1554992760/x62hpuqsuwj69tlw9rqk.png">
+	
+
+
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12">
+			<small class="text-semibold text-overflow">Liga ProAtiva de Beach Tennis</small>
+			<small class="text-semibold text-muted text-overflow">@liga-proativa-bt • Liga</small>
+		</div>
+	</div>
+</div>
+</a>        </div>
+        <div class="col-xs-6 profile-small-pad-btm">
+          <a href="/circuitobeachtennis">
+            
+<div class="bg-profile-small-card">
+	<div class="row place-small-card-cover profile-cover-bg-1" style="background:transparent url('http://res.cloudinary.com/lptennis/image/upload/c_fit,h_420,q_auto,w_1260/v1733842535/vkdukmzgqmogfgkmperf.jpg') no-repeat center center /cover;opacity: 1;">
+	</div>
+
+	<div class="row">
+		<div class="col-xs-2 place-small-card-avatar">
+			
+
+	
+
+		<img class="img-sm img-border img-circle center bg-avatar size-small " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1704465004/uvfqrhw8oztx45ayta7t.png">
+	
+
+
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12">
+			<small class="text-semibold text-overflow">Circuito Beach Tennis</small>
+			<small class="text-semibold text-muted text-overflow">@circuitobeachtennis • Liga</small>
+		</div>
+	</div>
+</div>
+</a>        </div>
+        <div class="col-xs-6 profile-small-pad-btm">
+          <a href="/ibt-brasil">
+            
+<div class="bg-profile-small-card">
+	<div class="row place-small-card-cover profile-cover-bg-6" style="background:transparent url('http://res.cloudinary.com/lptennis/image/upload/c_fit,h_420,q_auto,w_1260/v1740064423/liagqasw4404zyxip2q5.jpg') no-repeat center center /cover;opacity: 1;">
+	</div>
+
+	<div class="row">
+		<div class="col-xs-2 place-small-card-avatar">
+			
+
+	
+
+		<img class="img-sm img-border img-circle center bg-avatar size-small " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1704906591/gl4ytymuptxnlxt17yru.png">
+	
+
+
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12">
+			<small class="text-semibold text-overflow">Inovação Beach Tennis Brasil (IBT Brasil)</small>
+			<small class="text-semibold text-muted text-overflow">@ibt-brasil • Liga</small>
+		</div>
+	</div>
+</div>
+</a>        </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+          <a onclick="modalUserSignin();" class="text-muted text-semibold" href="#/">Ver todos os 4 lugares</a>
+      </div>
+    </div>
+
+<br>
+
+		</div>
+		<br>
+	</div>
+	<div class="col-sm-7">
+			<div id="activities-list">
+					<div id="activity-preload-c277cd20-a11c-409e-90bf-4312369994ee">
+	<div id="activity-c277cd20-a11c-409e-90bf-4312369994ee" class="bg-social">
+		
+		<div class="row">
+			<div class="col-xs-12">
+
+					
+<div class="row">
+	<div class="col-xs-11">
+		<div class="media">
+            <div class="media-left activity-title-avatar">
+                
+
+	
+
+		<a href="/sand-arena"><img class="img-sm img-border img-circle center bg-avatar size-small " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1698156741/geevkofqgl4zqdeexu8f.png"></a>
+	
+
+
+            </div>
+
+            <div class="media-body middle activity-title-name text-muted">
+			
+						<a class="btn-link text-default text-semibold" href="/sand-arena/rankings/34310">
+							
+							<i class="fa fa-list-ol"></i>
+							
+							Rodada 6
+							
+							<small>•</small> 
+							
+							RANKING LIGA THE SAND (MASC OURO)
+</a>
+
+					
+
+				
+				<br>
+				<small>
+					<a class="text-muted btn-link-default text-semibold" href="/sand-arena">@sand-arena</a>
+					há 1 mês
+
+
+						
+				</small>
+            </div>
+        </div>
+	</div>
+
+
+
+
+
+	<div class="col-xs-1" style="padding-top: 6px;">
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-xs-12">
+		<hr class="activity-divider" style="margin-bottom:0px;">
+	</div>
+</div>
+			</div>
+		</div>
+		
+
+		<div class="row">
+			<div class="col-xs-12">
+				
+				
+<div class="row">
+	<div class="col-xs-12 mar-top mar-btm">
+
+			
+			
+
+<div class="row pad-top">
+
+	<div class="col-xs-5">
+		<div class="row">
+				<div class="col-xs-6">
+					<div class="row">
+						<div class="col-md-12 col-md-12 pad-no">
+							<span class="hidden-xs hidden-sm">
+
+	
+
+		<a href="/RobertoFilho44"><img class="img-md img-border img-circle center bg-avatar size-medium pull-right" src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1721063397/gmlqoezijygggfyfhxxp.png"></a>
+	
+
+</span>
+							<span class="hidden-lg hidden-md">
+
+	
+
+		<a href="/RobertoFilho44"><img class="img-md img-border img-circle center bg-avatar size-medium " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1721063397/gmlqoezijygggfyfhxxp.png"></a>
+	
+
+</span>
+						</div>
+					</div>
+					<div class="row" style="padding-top:8px;">
+						<div class="col-xs-12 pad-rgt-no text-right pad-no-xs text-center-xs small" style="line-height:16px;">
+							<a class="text-normal text-semibold" href="/RobertoFilho44">
+								<span class="text-overflow hidden-xs hidden-sm">
+									
+									Roberto Filho
+									<span class="text-muted">
+										<br>@RobertoFilho44
+										<br>75 Jogos
+									</span>
+								</span>
+
+								<span class="text-overflow hidden-lg hidden-md">
+									
+									Roberto
+									<br>Filho
+								</span>
+</a>						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="row">
+						<div class="col-md-12 col-md-12 pad-no">
+							<span class="hidden-xs hidden-sm">
+
+	
+
+		<a href="/ViniciusLara2"><img class="img-md img-border img-circle center bg-avatar size-medium pull-right" src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1747494323/whxrj5wravvaylg6tllu.png"></a>
+	
+
+</span>
+							<span class="hidden-lg hidden-md">
+
+	
+
+		<a href="/ViniciusLara2"><img class="img-md img-border img-circle center bg-avatar size-medium " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1747494323/whxrj5wravvaylg6tllu.png"></a>
+	
+
+</span>
+						</div>
+					</div>
+					<div class="row" style="padding-top:8px;">
+						<div class="col-xs-12 pad-rgt-no text-right pad-no-xs text-center-xs small" style="line-height:16px;">
+							<a class="text-normal text-semibold" href="/ViniciusLara2">
+								<span class="text-overflow hidden-xs hidden-sm">
+									
+									Vinicius Lara
+									<span class="text-muted">
+										<br>@ViniciusLara2
+										<br>78 Jogos
+									</span>
+								</span>
+
+								<span class="text-overflow hidden-lg hidden-md">
+									
+									Vinicius
+									<br>Lara
+								</span>
+</a>						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+
+
+	<div class="col-xs-2 text-center text-bold text-muted text-lg" style="margin-top: 25px;">
+		VS
+	</div>
+
+
+	<div class="col-xs-5">
+		<div class="row">
+				<div class="col-xs-6">
+					<div class="row">
+						<div class="col-md-12 col-md-3 pad-no">
+							<span class="hidden-xs hidden-sm">
+
+	
+
+		<a href="/HugoAmaro"><img class="img-md img-border img-circle center bg-avatar size-medium " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1690406948/ao0r7v1vdcerpozzc6rc.png"></a>
+	
+
+</span>
+							<span class="hidden-lg hidden-md">
+
+	
+
+		<a href="/HugoAmaro"><img class="img-md img-border img-circle center bg-avatar size-medium " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1690406948/ao0r7v1vdcerpozzc6rc.png"></a>
+	
+
+</span>
+						</div>
+					</div>
+					<div class="row" style="padding-top:8px;">
+						<div class="col-xs-12 pad-lft-no text-left  pad-no-xs text-center-xs small" style="line-height:16px;">
+							<a class="text-normal text-semibold" href="/HugoAmaro">
+								<span class="text-overflow hidden-xs hidden-sm">
+									
+									Hugo Amaro
+									<span class="text-muted">
+										<br>@HugoAmaro
+                    <br>91 Jogos
+									</span>
+								</span>
+
+								<span class="text-overflow hidden-lg hidden-md">
+									
+									Hugo
+									<br>Amaro
+								</span>
+</a>						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="row">
+						<div class="col-md-12 col-md-3 pad-no">
+							<span class="hidden-xs hidden-sm">
+
+	
+
+		<a href="/WalterNeto2"><img class="img-md img-border img-circle center bg-avatar size-medium " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1711388898/pdun8scnmsg3ph4da1vf.png"></a>
+	
+
+</span>
+							<span class="hidden-lg hidden-md">
+
+	
+
+		<a href="/WalterNeto2"><img class="img-md img-border img-circle center bg-avatar size-medium " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1711388898/pdun8scnmsg3ph4da1vf.png"></a>
+	
+
+</span>
+						</div>
+					</div>
+					<div class="row" style="padding-top:8px;">
+						<div class="col-xs-12 pad-lft-no text-left  pad-no-xs text-center-xs small" style="line-height:16px;">
+							<a class="text-normal text-semibold" href="/WalterNeto2">
+								<span class="text-overflow hidden-xs hidden-sm">
+									
+									Walter Neto
+									<span class="text-muted">
+										<br>@WalterNeto2
+                    <br>124 Jogos
+									</span>
+								</span>
+
+								<span class="text-overflow hidden-lg hidden-md">
+									
+									Walter
+									<br>Neto
+								</span>
+</a>						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+	<div class="row" style="padding-top:20px;">
+		<div class="col-xs-5 text-right" style="padding-right:0px;">
+				<a onclick="modalUserSignin();" class="btn btn-default btn-action btn-fan" href="#/"><i class="fa fa-flag text-semibold"><span>&nbsp;&nbsp;Torcer</span></i></a>
+		</div>
+
+		<div class="col-xs-2"></div>
+
+		<div class="col-xs-5" style="padding-left:0px;">
+				<a onclick="modalUserSignin();" class="btn btn-default btn-action btn-fan" href="#/"><i class="fa fa-flag text-semibold"><span>&nbsp;&nbsp;Torcer</span></i></a>
+		</div>
+	</div>
+
+
+
+
+<div class="row pad-top">
+	<div class="col-xs-12">
+		<div class="progress progress-lg mar-no ">
+			<div style="width: 90%" class="progress-bar progress-bar-success" id="match-6162053-fans-one-progressbar" data-fans-count="1">
+				<span class="pull-right pad-rgt">1</span>
+			</div>
+			<div style="width: 10%" class="progress-bar progress-bar-info   " id="match-6162053-fans-two-progressbar" data-fans-count="0">
+				<span class="pull-left pad-lft">0</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="row pad-top pad-btm">
+	<div class="col-xs-12 text-center small text-muted text-semibold">
+			<i class="fa fa-clock-o"></i> Sem data e local definido
+	</div>
+</div>
+
+
+	</div>
+</div>
+				
+				
+				
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-xs-12">
+				
+
+<div class="row">
+	<div class="col-xs-12">
+		<hr class="activity-divider-small" style="margin-bottom: 7px; margin-top:0px;">
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-xs-6">
+
+
+			<button class="interaction winner" onclick="modalUserSignin();" data-activity-id="c277cd20-a11c-409e-90bf-4312369994ee" id="winner-c277cd20-a11c-409e-90bf-4312369994ee">
+				<i class="fa fa-thumbs-o-up"></i>
+				<span id="winner-text-c277cd20-a11c-409e-90bf-4312369994ee" class="interaction-text winner"></span>
+			</button>
+			&nbsp;
+
+			<button class="interaction out" onclick="modalUserSignin();" data-activity-id="c277cd20-a11c-409e-90bf-4312369994ee" id="out-c277cd20-a11c-409e-90bf-4312369994ee">
+				<i class="fa fa-thumbs-o-down"></i>
+				<span id="out-text-c277cd20-a11c-409e-90bf-4312369994ee" class="interaction-text out"></span>
+			</button>
+			&nbsp;
+
+
+
+		<a onclick="goShareActivity('https://letzplay.me/a/c277cd20-a11c-409e-90bf-4312369994ee');" href="#/">
+			<button class="interaction share-out">
+				<i class="fa fa-share-alt"></i>
+			</button>
+</a>		&nbsp;
+
+	</div>
+
+	
+	<div class="col-xs-6 pad-lft-no text-right" id="toolbar-interaction-c277cd20-a11c-409e-90bf-4312369994ee">
+		
+
+<div class="row">
+	<div class="col-xs-9 col-md-9">
+		<div class="row">
+			<div class="col-xs-3 col-md-5 text-right"></div>
+
+
+				
+				<div class="col-xs-1 col-md-1 text-right"></div>
+				<div class="col-xs-1 col-md-1 text-right"></div>
+				<div class="col-xs-1 col-md-1 text-right"></div>
+				<div class="col-xs-1 col-md-1 text-right">
+
+	
+
+		<img class="img-xs img-border img-circle center thumb-interaction bg-avatar size-thumb_interaction " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1747674336/uan7ti6dmagfsgbjqfye.png">
+	
+
+</div>
+		</div>
+	</div>
+
+
+	<div class="col-xs-3 col-md-3 text-right ">
+
+			<button id="interactions-counter-15114890" onclick="modalUserSignin();" class="interaction counter">
+				1
+			</button>
+		
+	</div>
+</div>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-xs-12">
+		<hr class="activity-divider" style="margin-top: 7px;margin-bottom:0px;">
+	</div>
+</div>
+			</div>
+		</div>
+
+
+		<div class="row activity-comment-section 15114890" style="max-height: 655px;overflow-y: auto;padding-top:0px;">
+			<div class="col-xs-12">
+
+
+
+
+				<div id="comments-15114890">
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row activity-comment-section-form">
+			<div class="col-xs-12">
+				<div id="comments-15114890-form">
+					<div id="comment-15114890" class="row" style="padding-top:16px;padding-bottom:9px;">
+
+		<div class="col-xs-12 mar-btm activity-post text-semibold">
+			<small>
+				<a onclick="modalUserSignin();" class="btn-link text-default text-semibold" href="#/">Faça login</a>
+				ou
+				<a class="btn-link text-default text-semibold" href="/create-account/email">cadastre-se</a>
+				para comentar
+			</small>
+		</div>
+
+</div>
+
+<script>
+//<![CDATA[
+
+	// improve - verify why this function doesnt exists at this moment in some cases
+	if (typeof mentionableComment === "function") {
+		mentionableComment();
+	}
+
+//]]>
+</script>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+					<div id="activity-preload-f7b3f806-a507-433e-ba61-457d7ed0ea98">
+	<div id="activity-f7b3f806-a507-433e-ba61-457d7ed0ea98" class="bg-social">
+		
+		<div class="row">
+			<div class="col-xs-12">
+
+					
+<div class="row">
+	<div class="col-xs-11">
+		<div class="media">
+            <div class="media-left activity-title-avatar">
+                
+
+	
+
+		<a href="/sand-arena"><img class="img-sm img-border img-circle center bg-avatar size-small " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1698156741/geevkofqgl4zqdeexu8f.png"></a>
+	
+
+
+            </div>
+
+            <div class="media-body middle activity-title-name text-muted">
+			
+						<a class="btn-link text-default text-semibold" href="/sand-arena/rankings/34310">
+							
+							<i class="fa fa-list-ol"></i>
+							
+							Rodada 6
+							
+							<small>•</small> 
+							
+							RANKING LIGA THE SAND (MASC OURO)
+</a>
+
+					
+
+				
+				<br>
+				<small>
+					<a class="text-muted btn-link-default text-semibold" href="/sand-arena">@sand-arena</a>
+					há 1 mês
+
+
+						
+				</small>
+            </div>
+        </div>
+	</div>
+
+
+
+
+
+	<div class="col-xs-1" style="padding-top: 6px;">
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-xs-12">
+		<hr class="activity-divider" style="margin-bottom:0px;">
+	</div>
+</div>
+			</div>
+		</div>
+		
+
+		<div class="row">
+			<div class="col-xs-12">
+				
+				
+<div class="row">
+	<div class="col-xs-12 mar-top mar-btm">
+
+			
+			
+
+<div class="row pad-top">
+
+	<div class="col-xs-5">
+		<div class="row">
+				<div class="col-xs-6">
+					<div class="row">
+						<div class="col-md-12 col-md-12 pad-no">
+							<span class="hidden-xs hidden-sm">
+
+	
+
+		<a href="/HugoAmaro"><img class="img-md img-border img-circle center bg-avatar size-medium pull-right" src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1690406948/ao0r7v1vdcerpozzc6rc.png"></a>
+	
+
+</span>
+							<span class="hidden-lg hidden-md">
+
+	
+
+		<a href="/HugoAmaro"><img class="img-md img-border img-circle center bg-avatar size-medium " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1690406948/ao0r7v1vdcerpozzc6rc.png"></a>
+	
+
+</span>
+						</div>
+					</div>
+					<div class="row" style="padding-top:8px;">
+						<div class="col-xs-12 pad-rgt-no text-right pad-no-xs text-center-xs small" style="line-height:16px;">
+							<a class="text-normal text-semibold" href="/HugoAmaro">
+								<span class="text-overflow hidden-xs hidden-sm">
+									
+									Hugo Amaro
+									<span class="text-muted">
+										<br>@HugoAmaro
+										<br>91 Jogos
+									</span>
+								</span>
+
+								<span class="text-overflow hidden-lg hidden-md">
+									
+									Hugo
+									<br>Amaro
+								</span>
+</a>						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="row">
+						<div class="col-md-12 col-md-12 pad-no">
+							<span class="hidden-xs hidden-sm">
+
+	
+
+		<a href="/ViniciusLara2"><img class="img-md img-border img-circle center bg-avatar size-medium pull-right" src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1747494323/whxrj5wravvaylg6tllu.png"></a>
+	
+
+</span>
+							<span class="hidden-lg hidden-md">
+
+	
+
+		<a href="/ViniciusLara2"><img class="img-md img-border img-circle center bg-avatar size-medium " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1747494323/whxrj5wravvaylg6tllu.png"></a>
+	
+
+</span>
+						</div>
+					</div>
+					<div class="row" style="padding-top:8px;">
+						<div class="col-xs-12 pad-rgt-no text-right pad-no-xs text-center-xs small" style="line-height:16px;">
+							<a class="text-normal text-semibold" href="/ViniciusLara2">
+								<span class="text-overflow hidden-xs hidden-sm">
+									
+									Vinicius Lara
+									<span class="text-muted">
+										<br>@ViniciusLara2
+										<br>78 Jogos
+									</span>
+								</span>
+
+								<span class="text-overflow hidden-lg hidden-md">
+									
+									Vinicius
+									<br>Lara
+								</span>
+</a>						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+
+
+	<div class="col-xs-2 text-center text-bold text-muted text-lg" style="margin-top: 25px;">
+		VS
+	</div>
+
+
+	<div class="col-xs-5">
+		<div class="row">
+				<div class="col-xs-6">
+					<div class="row">
+						<div class="col-md-12 col-md-3 pad-no">
+							<span class="hidden-xs hidden-sm">
+
+	
+
+		<a href="/RobertoFilho44"><img class="img-md img-border img-circle center bg-avatar size-medium " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1721063397/gmlqoezijygggfyfhxxp.png"></a>
+	
+
+</span>
+							<span class="hidden-lg hidden-md">
+
+	
+
+		<a href="/RobertoFilho44"><img class="img-md img-border img-circle center bg-avatar size-medium " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1721063397/gmlqoezijygggfyfhxxp.png"></a>
+	
+
+</span>
+						</div>
+					</div>
+					<div class="row" style="padding-top:8px;">
+						<div class="col-xs-12 pad-lft-no text-left  pad-no-xs text-center-xs small" style="line-height:16px;">
+							<a class="text-normal text-semibold" href="/RobertoFilho44">
+								<span class="text-overflow hidden-xs hidden-sm">
+									
+									Roberto Filho
+									<span class="text-muted">
+										<br>@RobertoFilho44
+                    <br>75 Jogos
+									</span>
+								</span>
+
+								<span class="text-overflow hidden-lg hidden-md">
+									
+									Roberto
+									<br>Filho
+								</span>
+</a>						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="row">
+						<div class="col-md-12 col-md-3 pad-no">
+							<span class="hidden-xs hidden-sm">
+
+	
+
+		<a href="/WalterNeto2"><img class="img-md img-border img-circle center bg-avatar size-medium " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1711388898/pdun8scnmsg3ph4da1vf.png"></a>
+	
+
+</span>
+							<span class="hidden-lg hidden-md">
+
+	
+
+		<a href="/WalterNeto2"><img class="img-md img-border img-circle center bg-avatar size-medium " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1711388898/pdun8scnmsg3ph4da1vf.png"></a>
+	
+
+</span>
+						</div>
+					</div>
+					<div class="row" style="padding-top:8px;">
+						<div class="col-xs-12 pad-lft-no text-left  pad-no-xs text-center-xs small" style="line-height:16px;">
+							<a class="text-normal text-semibold" href="/WalterNeto2">
+								<span class="text-overflow hidden-xs hidden-sm">
+									
+									Walter Neto
+									<span class="text-muted">
+										<br>@WalterNeto2
+                    <br>124 Jogos
+									</span>
+								</span>
+
+								<span class="text-overflow hidden-lg hidden-md">
+									
+									Walter
+									<br>Neto
+								</span>
+</a>						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+	<div class="row" style="padding-top:20px;">
+		<div class="col-xs-5 text-right" style="padding-right:0px;">
+				<a onclick="modalUserSignin();" class="btn btn-default btn-action btn-fan" href="#/"><i class="fa fa-flag text-semibold"><span>&nbsp;&nbsp;Torcer</span></i></a>
+		</div>
+
+		<div class="col-xs-2"></div>
+
+		<div class="col-xs-5" style="padding-left:0px;">
+				<a onclick="modalUserSignin();" class="btn btn-default btn-action btn-fan" href="#/"><i class="fa fa-flag text-semibold"><span>&nbsp;&nbsp;Torcer</span></i></a>
+		</div>
+	</div>
+
+
+
+
+<div class="row pad-top">
+	<div class="col-xs-12">
+		<div class="progress progress-lg mar-no ">
+			<div style="width: 90%" class="progress-bar progress-bar-success" id="match-6162052-fans-one-progressbar" data-fans-count="1">
+				<span class="pull-right pad-rgt">1</span>
+			</div>
+			<div style="width: 10%" class="progress-bar progress-bar-info   " id="match-6162052-fans-two-progressbar" data-fans-count="0">
+				<span class="pull-left pad-lft">0</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="row pad-top pad-btm">
+	<div class="col-xs-12 text-center small text-muted text-semibold">
+			<i class="fa fa-clock-o"></i> Sem data e local definido
+	</div>
+</div>
+
+
+	</div>
+</div>
+				
+				
+				
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-xs-12">
+				
+
+<div class="row">
+	<div class="col-xs-12">
+		<hr class="activity-divider-small" style="margin-bottom: 7px; margin-top:0px;">
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-xs-6">
+
+
+			<button class="interaction winner" onclick="modalUserSignin();" data-activity-id="f7b3f806-a507-433e-ba61-457d7ed0ea98" id="winner-f7b3f806-a507-433e-ba61-457d7ed0ea98">
+				<i class="fa fa-thumbs-o-up"></i>
+				<span id="winner-text-f7b3f806-a507-433e-ba61-457d7ed0ea98" class="interaction-text winner"></span>
+			</button>
+			&nbsp;
+
+			<button class="interaction out" onclick="modalUserSignin();" data-activity-id="f7b3f806-a507-433e-ba61-457d7ed0ea98" id="out-f7b3f806-a507-433e-ba61-457d7ed0ea98">
+				<i class="fa fa-thumbs-o-down"></i>
+				<span id="out-text-f7b3f806-a507-433e-ba61-457d7ed0ea98" class="interaction-text out"></span>
+			</button>
+			&nbsp;
+
+
+
+		<a onclick="goShareActivity('https://letzplay.me/a/f7b3f806-a507-433e-ba61-457d7ed0ea98');" href="#/">
+			<button class="interaction share-out">
+				<i class="fa fa-share-alt"></i>
+			</button>
+</a>		&nbsp;
+
+	</div>
+
+	
+	<div class="col-xs-6 pad-lft-no text-right" id="toolbar-interaction-f7b3f806-a507-433e-ba61-457d7ed0ea98">
+		
+
+<div class="row">
+	<div class="col-xs-9 col-md-9">
+		<div class="row">
+			<div class="col-xs-3 col-md-5 text-right"></div>
+
+
+				
+				<div class="col-xs-1 col-md-1 text-right"></div>
+				<div class="col-xs-1 col-md-1 text-right"></div>
+				<div class="col-xs-1 col-md-1 text-right"></div>
+				<div class="col-xs-1 col-md-1 text-right">
+
+	
+
+		<img class="img-xs img-border img-circle center thumb-interaction bg-avatar size-thumb_interaction " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1747674336/uan7ti6dmagfsgbjqfye.png">
+	
+
+</div>
+		</div>
+	</div>
+
+
+	<div class="col-xs-3 col-md-3 text-right ">
+
+			<button id="interactions-counter-15114889" onclick="modalUserSignin();" class="interaction counter">
+				1
+			</button>
+		
+	</div>
+</div>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-xs-12">
+		<hr class="activity-divider" style="margin-top: 7px;margin-bottom:0px;">
+	</div>
+</div>
+			</div>
+		</div>
+
+
+		<div class="row activity-comment-section 15114889" style="max-height: 655px;overflow-y: auto;padding-top:0px;">
+			<div class="col-xs-12">
+
+
+
+
+				<div id="comments-15114889">
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row activity-comment-section-form">
+			<div class="col-xs-12">
+				<div id="comments-15114889-form">
+					<div id="comment-15114889" class="row" style="padding-top:16px;padding-bottom:9px;">
+
+		<div class="col-xs-12 mar-btm activity-post text-semibold">
+			<small>
+				<a onclick="modalUserSignin();" class="btn-link text-default text-semibold" href="#/">Faça login</a>
+				ou
+				<a class="btn-link text-default text-semibold" href="/create-account/email">cadastre-se</a>
+				para comentar
+			</small>
+		</div>
+
+</div>
+
+<script>
+//<![CDATA[
+
+	// improve - verify why this function doesnt exists at this moment in some cases
+	if (typeof mentionableComment === "function") {
+		mentionableComment();
+	}
+
+//]]>
+</script>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+					<div id="activity-preload-fe5776f1-ae57-47fd-b389-71aa90501c93">
+	<div id="activity-fe5776f1-ae57-47fd-b389-71aa90501c93" class="bg-social">
+		
+		<div class="row">
+			<div class="col-xs-12">
+
+					
+<div class="row">
+	<div class="col-xs-11">
+		<div class="media">
+            <div class="media-left activity-title-avatar">
+                
+
+	
+
+		<a href="/sand-arena"><img class="img-sm img-border img-circle center bg-avatar size-small " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1698156741/geevkofqgl4zqdeexu8f.png"></a>
+	
+
+
+            </div>
+
+            <div class="media-body middle activity-title-name text-muted">
+			
+						<a class="btn-link text-default text-semibold" href="/sand-arena/rankings/34310">
+							
+							<i class="fa fa-list-ol"></i>
+							
+							Rodada 6
+							
+							<small>•</small> 
+							
+							RANKING LIGA THE SAND (MASC OURO)
+</a>
+
+					
+
+				
+				<br>
+				<small>
+					<a class="text-muted btn-link-default text-semibold" href="/sand-arena">@sand-arena</a>
+					há 1 mês
+
+
+						
+				</small>
+            </div>
+        </div>
+	</div>
+
+
+
+
+
+	<div class="col-xs-1" style="padding-top: 6px;">
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-xs-12">
+		<hr class="activity-divider" style="margin-bottom:0px;">
+	</div>
+</div>
+			</div>
+		</div>
+		
+
+		<div class="row">
+			<div class="col-xs-12">
+				
+				
+<div class="row">
+	<div class="col-xs-12 mar-top mar-btm">
+
+			
+			
+
+<div class="row pad-top">
+
+	<div class="col-xs-5">
+		<div class="row">
+				<div class="col-xs-6">
+					<div class="row">
+						<div class="col-md-12 col-md-12 pad-no">
+							<span class="hidden-xs hidden-sm">
+
+	
+
+		<a href="/HugoAmaro"><img class="img-md img-border img-circle center bg-avatar size-medium pull-right" src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1690406948/ao0r7v1vdcerpozzc6rc.png"></a>
+	
+
+</span>
+							<span class="hidden-lg hidden-md">
+
+	
+
+		<a href="/HugoAmaro"><img class="img-md img-border img-circle center bg-avatar size-medium " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1690406948/ao0r7v1vdcerpozzc6rc.png"></a>
+	
+
+</span>
+						</div>
+					</div>
+					<div class="row" style="padding-top:8px;">
+						<div class="col-xs-12 pad-rgt-no text-right pad-no-xs text-center-xs small" style="line-height:16px;">
+							<a class="text-normal text-semibold" href="/HugoAmaro">
+								<span class="text-overflow hidden-xs hidden-sm">
+									
+									Hugo Amaro
+									<span class="text-muted">
+										<br>@HugoAmaro
+										<br>91 Jogos
+									</span>
+								</span>
+
+								<span class="text-overflow hidden-lg hidden-md">
+									
+									Hugo
+									<br>Amaro
+								</span>
+</a>						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="row">
+						<div class="col-md-12 col-md-12 pad-no">
+							<span class="hidden-xs hidden-sm">
+
+	
+
+		<a href="/RobertoFilho44"><img class="img-md img-border img-circle center bg-avatar size-medium pull-right" src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1721063397/gmlqoezijygggfyfhxxp.png"></a>
+	
+
+</span>
+							<span class="hidden-lg hidden-md">
+
+	
+
+		<a href="/RobertoFilho44"><img class="img-md img-border img-circle center bg-avatar size-medium " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1721063397/gmlqoezijygggfyfhxxp.png"></a>
+	
+
+</span>
+						</div>
+					</div>
+					<div class="row" style="padding-top:8px;">
+						<div class="col-xs-12 pad-rgt-no text-right pad-no-xs text-center-xs small" style="line-height:16px;">
+							<a class="text-normal text-semibold" href="/RobertoFilho44">
+								<span class="text-overflow hidden-xs hidden-sm">
+									
+									Roberto Filho
+									<span class="text-muted">
+										<br>@RobertoFilho44
+										<br>75 Jogos
+									</span>
+								</span>
+
+								<span class="text-overflow hidden-lg hidden-md">
+									
+									Roberto
+									<br>Filho
+								</span>
+</a>						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+
+
+	<div class="col-xs-2 text-center text-bold text-muted text-lg" style="margin-top: 25px;">
+		VS
+	</div>
+
+
+	<div class="col-xs-5">
+		<div class="row">
+				<div class="col-xs-6">
+					<div class="row">
+						<div class="col-md-12 col-md-3 pad-no">
+							<span class="hidden-xs hidden-sm">
+
+	
+
+		<a href="/ViniciusLara2"><img class="img-md img-border img-circle center bg-avatar size-medium " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1747494323/whxrj5wravvaylg6tllu.png"></a>
+	
+
+</span>
+							<span class="hidden-lg hidden-md">
+
+	
+
+		<a href="/ViniciusLara2"><img class="img-md img-border img-circle center bg-avatar size-medium " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1747494323/whxrj5wravvaylg6tllu.png"></a>
+	
+
+</span>
+						</div>
+					</div>
+					<div class="row" style="padding-top:8px;">
+						<div class="col-xs-12 pad-lft-no text-left  pad-no-xs text-center-xs small" style="line-height:16px;">
+							<a class="text-normal text-semibold" href="/ViniciusLara2">
+								<span class="text-overflow hidden-xs hidden-sm">
+									
+									Vinicius Lara
+									<span class="text-muted">
+										<br>@ViniciusLara2
+                    <br>78 Jogos
+									</span>
+								</span>
+
+								<span class="text-overflow hidden-lg hidden-md">
+									
+									Vinicius
+									<br>Lara
+								</span>
+</a>						</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="row">
+						<div class="col-md-12 col-md-3 pad-no">
+							<span class="hidden-xs hidden-sm">
+
+	
+
+		<a href="/WalterNeto2"><img class="img-md img-border img-circle center bg-avatar size-medium " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1711388898/pdun8scnmsg3ph4da1vf.png"></a>
+	
+
+</span>
+							<span class="hidden-lg hidden-md">
+
+	
+
+		<a href="/WalterNeto2"><img class="img-md img-border img-circle center bg-avatar size-medium " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1711388898/pdun8scnmsg3ph4da1vf.png"></a>
+	
+
+</span>
+						</div>
+					</div>
+					<div class="row" style="padding-top:8px;">
+						<div class="col-xs-12 pad-lft-no text-left  pad-no-xs text-center-xs small" style="line-height:16px;">
+							<a class="text-normal text-semibold" href="/WalterNeto2">
+								<span class="text-overflow hidden-xs hidden-sm">
+									
+									Walter Neto
+									<span class="text-muted">
+										<br>@WalterNeto2
+                    <br>124 Jogos
+									</span>
+								</span>
+
+								<span class="text-overflow hidden-lg hidden-md">
+									
+									Walter
+									<br>Neto
+								</span>
+</a>						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+	<div class="row" style="padding-top:20px;">
+		<div class="col-xs-5 text-right" style="padding-right:0px;">
+				<a onclick="modalUserSignin();" class="btn btn-default btn-action btn-fan" href="#/"><i class="fa fa-flag text-semibold"><span>&nbsp;&nbsp;Torcer</span></i></a>
+		</div>
+
+		<div class="col-xs-2"></div>
+
+		<div class="col-xs-5" style="padding-left:0px;">
+				<a onclick="modalUserSignin();" class="btn btn-default btn-action btn-fan" href="#/"><i class="fa fa-flag text-semibold"><span>&nbsp;&nbsp;Torcer</span></i></a>
+		</div>
+	</div>
+
+
+
+
+<div class="row pad-top">
+	<div class="col-xs-12">
+		<div class="progress progress-lg mar-no ">
+			<div style="width: 10%" class="progress-bar progress-bar-success" id="match-6162051-fans-one-progressbar" data-fans-count="0">
+				<span class="pull-right pad-rgt">0</span>
+			</div>
+			<div style="width: 90%" class="progress-bar progress-bar-info   " id="match-6162051-fans-two-progressbar" data-fans-count="1">
+				<span class="pull-left pad-lft">1</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="row pad-top pad-btm">
+	<div class="col-xs-12 text-center small text-muted text-semibold">
+			<i class="fa fa-clock-o"></i> Sem data e local definido
+	</div>
+</div>
+
+
+	</div>
+</div>
+				
+				
+				
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-xs-12">
+				
+
+<div class="row">
+	<div class="col-xs-12">
+		<hr class="activity-divider-small" style="margin-bottom: 7px; margin-top:0px;">
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-xs-6">
+
+
+			<button class="interaction winner" onclick="modalUserSignin();" data-activity-id="fe5776f1-ae57-47fd-b389-71aa90501c93" id="winner-fe5776f1-ae57-47fd-b389-71aa90501c93">
+				<i class="fa fa-thumbs-o-up"></i>
+				<span id="winner-text-fe5776f1-ae57-47fd-b389-71aa90501c93" class="interaction-text winner"></span>
+			</button>
+			&nbsp;
+
+			<button class="interaction out" onclick="modalUserSignin();" data-activity-id="fe5776f1-ae57-47fd-b389-71aa90501c93" id="out-fe5776f1-ae57-47fd-b389-71aa90501c93">
+				<i class="fa fa-thumbs-o-down"></i>
+				<span id="out-text-fe5776f1-ae57-47fd-b389-71aa90501c93" class="interaction-text out"></span>
+			</button>
+			&nbsp;
+
+
+
+		<a onclick="goShareActivity('https://letzplay.me/a/fe5776f1-ae57-47fd-b389-71aa90501c93');" href="#/">
+			<button class="interaction share-out">
+				<i class="fa fa-share-alt"></i>
+			</button>
+</a>		&nbsp;
+
+	</div>
+
+	
+	<div class="col-xs-6 pad-lft-no text-right" id="toolbar-interaction-fe5776f1-ae57-47fd-b389-71aa90501c93">
+		
+
+<div class="row">
+	<div class="col-xs-9 col-md-9">
+		<div class="row">
+			<div class="col-xs-3 col-md-5 text-right"></div>
+
+
+				
+				<div class="col-xs-1 col-md-1 text-right"></div>
+				<div class="col-xs-1 col-md-1 text-right"></div>
+				<div class="col-xs-1 col-md-1 text-right"></div>
+				<div class="col-xs-1 col-md-1 text-right">
+
+	
+
+		<img class="img-xs img-border img-circle center thumb-interaction bg-avatar size-thumb_interaction " src="https://res.cloudinary.com/lptennis/image/upload/c_fit,h_250,q_auto,w_250/v1747674336/uan7ti6dmagfsgbjqfye.png">
+	
+
+</div>
+		</div>
+	</div>
+
+
+	<div class="col-xs-3 col-md-3 text-right ">
+
+			<button id="interactions-counter-15114888" onclick="modalUserSignin();" class="interaction counter">
+				1
+			</button>
+		
+	</div>
+</div>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="col-xs-12">
+		<hr class="activity-divider" style="margin-top: 7px;margin-bottom:0px;">
+	</div>
+</div>
+			</div>
+		</div>
+
+
+		<div class="row activity-comment-section 15114888" style="max-height: 655px;overflow-y: auto;padding-top:0px;">
+			<div class="col-xs-12">
+
+
+
+
+				<div id="comments-15114888">
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row activity-comment-section-form">
+			<div class="col-xs-12">
+				<div id="comments-15114888-form">
+					<div id="comment-15114888" class="row" style="padding-top:16px;padding-bottom:9px;">
+
+		<div class="col-xs-12 mar-btm activity-post text-semibold">
+			<small>
+				<a onclick="modalUserSignin();" class="btn-link text-default text-semibold" href="#/">Faça login</a>
+				ou
+				<a class="btn-link text-default text-semibold" href="/create-account/email">cadastre-se</a>
+				para comentar
+			</small>
+		</div>
+
+</div>
+
+<script>
+//<![CDATA[
+
+	// improve - verify why this function doesnt exists at this moment in some cases
+	if (typeof mentionableComment === "function") {
+		mentionableComment();
+	}
+
+//]]>
+</script>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+			</div>
+			<div id="loading-activities" class="row" style="display: none;">
+				<div class="col-sm-12 text-center"><i class="fa fa-refresh fa-spin fa-3x fa-fw"></i></div>
+			</div>
+			<div style="display: none;"><div role="navigation" aria-label="Pagination" class="pagination"><span class="previous_page disabled" aria-label="Previous page">Anterior</span> <em class="current" aria-label="Page 1" aria-current="page">1</em> <a rel="next" aria-label="Page 2" href="/WalterNeto2?page=2">2</a> <a class="next_page" aria-label="Next page" rel="next" href="/WalterNeto2?page=2">Próxima</a></div></div>
+			<a onclick="modalUserSignin();" href="#/">
+				<div style="margin: 0px -6px;">
+					
+
+<div class="row">
+	<div class="col-sm-12">
+		<div class="alert-wrap in animated jellyIn" style="">
+			<div class="alert alert-dark" role="alert">
+				<div class="media">
+					<div class="media-left">
+							<span class="icon-wrap icon-wrap-xs icon-circle alert-icon"><i class="fa fa-sign-in fa-lg"></i></span>
+
+					</div>
+					<div class="media-body">
+						<p class="alert-message text-large">Faça o login para visualizar mais</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+				</div>
+</a>	</div>
+</div>
+
+	
+
+
+	<div class="modal fade" id="modal-match-h2h" tabindex="-1" role="dialog">
+    <div id="modal-match-h2h-size" class="modal-dialog modal-dialog-centered modal-sm" role="document" style="max-width: 890px;">
+    	<div class="modal-content">
+	    	
+	    	<div class="hidden" id="modal-match-h2h-loading">
+	    		<div class="modal-body">
+	    			<div class="row">
+	    				<div class="col-xs-12 text-center text-semibold" style="padding-top:15px;padding-bottom:15px;">
+	    					<div class="loader-content-small"></div>
+	    					<br>Carregando o Head to Head
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+
+	    	<div id="modal-match-h2h-content">
+	    	</div>
+	    </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-player-trail" tabindex="-1" role="dialog">
+    <div id="modal-player-trail-size" class="modal-dialog modal-dialog-centered modal-sm" role="document" style="max-width: 890px;">
+    	<div class="modal-content">
+	    	
+	    	<div class="hidden" id="modal-player-trail-loading">
+	    		<div class="modal-body">
+	    			<div class="row">
+	    				<div class="col-xs-12 text-center text-semibold" style="padding-top:15px;padding-bottom:15px;">
+	    					<div class="loader-content-small"></div>
+	    					<br>Carregando a trilha de desempenho
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+
+	    	<div id="modal-player-trail-content">
+	    	</div>
+	    </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal-activity-share" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-md" role="document" style="width: 280px;">
+        <div class="modal-content">
+            <div class="modal-header" style="padding-bottom:10px;">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="font-size:18px;margin-top:-6px;"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="myModalLabel" style="font-size:12px;font-weight:500;">Compartilhar</h4>
+            </div>
+            <div class="modal-body">
+
+            	<div class="row text-center">
+            		<div class="col-xs-12 small text-muted text-semibold">
+            			Clique na rede social que você deseja compartilhar ou <a onclick="goShareActivityCopyLink();" class="btn-link text-default text-semibold" href="#/">copie o link</a>
+            		</div>
+            	</div>
+
+
+            	<div class="row text-center mar-top mar-btm">
+            		<div class="col-xs-3">
+		            	<a target="_blank" rel="nofollow" id="activity-share-whatsapp" href="#/">
+							<i class="fa fa-whatsapp fa-2x"></i>
+</a>					</div>
+					<div class="col-xs-3">
+						<a target="_blank" rel="nofollow" id="activity-share-facebook" href="#/">
+							<i class="fa fa-facebook-square fa-2x"></i>
+</a>					</div>
+					<div class="col-xs-3">
+						<a target="_blank" rel="nofollow" id="activity-share-linkedin" href="#/">
+							<i class="fa fa-linkedin-square fa-2x"></i>
+</a>					</div>
+					<div class="col-xs-3">
+						<a target="_blank" rel="nofollow" id="activity-share-twitter" href="#/">
+							<i class="fa fa-twitter-square fa-2x"></i>
+</a>					</div>
+				</div>
+
+				<div class="row mar-top pad-top">
+                    <div class="col-xs-12 col-md-12">
+                        <div class="row pad-btm">
+                            <div class="form-group date_picker">
+                                <label class="col-sm-12 control-label date_picker">Link da Atividade</label>
+                                <div class="col-sm-12">
+                                    <div class="input-group">
+                                        <input id="share-activity-url-base" class="string form-control" type="text" value="">
+                                        <span id="share-activity-url-link" class="input-group-addon"><i class="fa fa-files-o fa-lg"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="modal-activity-share-link-copy-success" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-md" role="document" style="width: 280px;">
+        <div class="modal-content">
+            <div class="modal-header" style="padding-bottom:10px;">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="font-size:18px;margin-top:-6px;"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="myModalLabel" style="font-size:12px;font-weight:500;">Compartilhar</h4>
+            </div>
+            <div class="modal-body">
+
+            	<div class="row">
+            		<div class="col-xs-12 text-semibold">
+            			Link copiado com sucesso
+            		</div>
+            	</div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-action" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-views" tabindex="-1" role="dialog">
+    <div id="modal-views-size" class="modal-dialog modal-dialog-centered modal-sm" role="document" style="max-width: 480px;">
+    	<div class="modal-content">
+	    	
+	    	<div class="hidden" id="modal-views-loading">
+	    		<div class="modal-body">
+	    			<div class="row">
+	    				<div class="col-xs-12 text-center text-semibold" style="padding-top:15px;padding-bottom:15px;">
+	    					<div class="loader-content-small"></div>
+	    					<br>Carregando as estatísticas
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+
+	    	<div id="modal-views-content">
+	    	</div>
+	    </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-comments" tabindex="-1" role="dialog">
+    <div id="modal-comments-size" class="modal-dialog modal-dialog-centered modal-sm" role="document" style="max-width: 543px;">
+    	<div class="modal-content">
+	    	
+	    	<div class="hidden" id="modal-comments-loading">
+	    		<div class="modal-body">
+	    			<div class="row">
+	    				<div class="col-xs-12 text-center text-semibold" style="padding-top:15px;padding-bottom:15px;">
+	    					<div class="loader-content-small"></div>
+	    					<br>Carregando os comentários
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+
+	    	<div id="modal-comments-content">
+	    	</div>
+	    </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-interactions" tabindex="-1" role="dialog">
+    <div id="modal-interactions-size" class="modal-dialog modal-dialog-centered modal-sm" role="document" style="max-width: 480px;">
+    	<div class="modal-content">
+	    	
+	    	<div class="hidden" id="modal-interactions-loading">
+	    		<div class="modal-body">
+	    			<div class="row">
+	    				<div class="col-xs-12 text-center text-semibold" style="padding-top:15px;padding-bottom:15px;">
+	    					<div class="loader-content-small"></div>
+	    					<br>Carregando as interações
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+
+	    	<div id="modal-interactions-content">
+	    	</div>
+	    </div>
+    </div>
+</div>
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+			
+<div class="modal fade" id="modal-user-signin" tabindex="-1" role="dialog">
+    <div id="modal-user-signin-size" class="modal-dialog modal-dialog-centered modal-md" role="document" style="max-width: 400px;">
+    	<div class="modal-content" style="padding: 35px 45px;">
+    		
+
+		    	<div class="row">
+		    		<div class="col-xs-12 text-center">
+		    			<img class="brand-logo-signin" src="/assets/static/logo-6fb57a7fcdcd3d3e96a93389fa0b202e0145beb5998e19bff2f14dcbe609a1b3.png">
+		    		</div>
+		    	</div>
+
+
+	    	<div class="row" style="margin-top: 40px;">
+	    		<div class="col-xs-12 text-center">
+	    			Para continuar é necessário realizar o login
+	    			<br><br>
+	    		</div>
+
+	    		<div class="col-xs-12">
+
+	                <form class="simple_form registration-form" id="new_user" autocomplete="off" novalidate="novalidate" action="/login" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Vy4qb95JOb3+oxTLBVYBVnnUVJf5JgonY3wzUNb6LLUCHHThqDnOP9Qz98w9K+7pwmQRJ7Kvf74nS1Cl19gACw==" autocomplete="off">
+	                    
+	                    <div class="form-group string optional user_login"><input class="form-control string optional input-box" autofocus="autofocus" placeholder="Informe seu perfil ou e-mail" type="text" name="user[login]" id="user_login"></div>
+	                    <div class="form-group password optional user_password"><input class="form-control password optional input-box" placeholder="Informe sua senha" type="password" name="user[password]" id="user_password"></div>
+	                    
+	                    <input type="submit" name="commit" value="Entrar" class="btn btn-default btn btn-info btn-action btn-login btn-login" data-disable-with="Entrar">
+</form>	    		</div>
+	    	</div>
+
+
+	    	<div class="row mar-top mar-btm">
+				<div class="col-xs-12">
+					<hr class="modal-divider">
+				</div>
+			</div>
+
+
+			<div class="row">
+	    		<div class="col-xs-12">
+	    			<a class="btn-link text-default text-semibold" href="/create-account/email">Criar uma conta gratuita</a>
+
+	    			<br><br>
+	    			<a class="btn-link text-default text-semibold text-normal" href="/nao-consigo-acessar">Esqueceu sua senha?</a>
+	    		</div>
+	    	</div>
+    		
+
+	    </div>
+    </div>
+</div>
+	</div>
+
+
+	<script src="https://maps.google.com/maps/api/js?sensor=true"></script><iframe id="_hjSafeContext_88968532" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="about:blank" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe>
+	<script src="https://cdn.jsdelivr.net/npm/@mojs/core"></script><div></div>
+	<script src="/assets/application-user-f840f9b6c018920184130387ed8c7bf2bf90d75126d4b544ef2971b117072b6c.js" media="all" data-turbolinks-track="true"></script><i title="Raphaël Colour Picker" style="display: none; color: transparent;"></i>
+	<script type="text/javascript">$.cloudinary.config({"api_key":715385853129631,"cloud_name":"lptennis"});</script>
+
+
+	    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC9RNJ4"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'943ae7ff7e36799d',t:'MTc0NzkwMjE1Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
+
+</body></html>

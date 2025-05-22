@@ -1,0 +1,751 @@
+2025-05-22 04:47:49,593 - P17020 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 04:47:49,593 - P17020 - INFO - Nome: GILBERTO ALONSO
+2025-05-22 04:47:49,593 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 04:47:50,966 - P17020 - INFO - Após reiniciar driver Uso de memória: 129.38 MB
+2025-05-22 04:47:50,966 - P17020 - INFO - Início do processamento Uso de memória: 129.38 MB
+2025-05-22 04:47:50,966 - P17020 - INFO - Iniciando busca para: GILBERTO ALONSO CRM 12395 SP telefone e-mail endereço
+2025-05-22 04:47:51,793 - P17020 - INFO - SearX results: 15 URLs
+2025-05-22 04:47:51,794 - P17020 - INFO - Após SearX Uso de memória: 129.38 MB
+2025-05-22 04:47:54,466 - P17020 - INFO - Google results: 9 URLs
+2025-05-22 04:47:54,467 - P17020 - INFO - Após Google Uso de memória: 129.38 MB
+2025-05-22 04:47:57,157 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 04:47:57,158 - P17020 - INFO - Após Bing Uso de memória: 130.17 MB
+2025-05-22 04:47:57,158 - P17020 - INFO - Total de URLs únicas: 28
+2025-05-22 04:47:57,158 - P17020 - INFO - Processando URL 1/28: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2017/11/do_20171123_2902.pdf
+2025-05-22 04:47:57,159 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2017/11/do_20171123_2902.pdf
+2025-05-22 04:47:57,159 - P17020 - INFO - Após processar URL 1 Uso de memória: 130.17 MB
+2025-05-22 04:47:57,159 - P17020 - INFO - Processando URL 2/28: https://www.consultacrm.com.br/index/medicos/uid-992836da-f5c5-11ec-9e74-0a4aa568c625/gilberto_de_lima_branco
+2025-05-22 04:48:02,620 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3a9e137a57a98f95d32d5d402674c084.html
+2025-05-22 04:48:02,630 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:48:02,630 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:48:02,631 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:48:02,631 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:48:02,631 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:48:02,631 - P17020 - INFO - Após processar URL 2 Uso de memória: 130.18 MB
+2025-05-22 04:48:02,631 - P17020 - INFO - Processando URL 3/28: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1880439768.pdf
+2025-05-22 04:48:02,632 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1880439768.pdf
+2025-05-22 04:48:02,632 - P17020 - INFO - Após processar URL 3 Uso de memória: 130.18 MB
+2025-05-22 04:48:02,632 - P17020 - INFO - Processando URL 4/28: https://transparencia.cremesp.org.br/?siteAcao=guia_medico
+2025-05-22 04:48:05,152 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\cb80cc007a72cc7a378681a92a58906a.html
+2025-05-22 04:48:05,203 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:48:05,204 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:48:05,204 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:48:05,204 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:48:05,205 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:48:05,205 - P17020 - INFO - Após processar URL 4 Uso de memória: 130.18 MB
+2025-05-22 04:48:05,205 - P17020 - INFO - Processando URL 5/28: https://www.classemedica.com.br/medico/124306-gilberto-alonso.htm
+2025-05-22 04:48:15,224 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f9a9796ed168dfabf93b35aad4ae2305.html
+2025-05-22 04:48:15,263 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:48:15,263 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:48:15,263 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:48:15,263 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:48:15,264 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:48:15,264 - P17020 - INFO - Após processar URL 5 Uso de memória: 130.29 MB
+2025-05-22 04:48:15,264 - P17020 - INFO - Processando URL 6/28: https://www.consultacrm.com.br/index/profissionais/uid-1273a741-f5c5-11ec-9e74-0a4aa568c625/gilberto_alonso
+2025-05-22 04:48:19,986 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\92c1fe4528d49837a00b60f257394390.html
+2025-05-22 04:48:19,995 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:48:19,996 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:48:19,996 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:48:19,996 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:48:19,996 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:48:19,996 - P17020 - INFO - Após processar URL 6 Uso de memória: 130.36 MB
+2025-05-22 04:48:19,996 - P17020 - INFO - Processando URL 7/28: https://www.encontrasaopaulo.com.br/agenda/crm-sp/
+2025-05-22 04:48:26,120 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f96a157f3cde736c20a7c87f788a1d0b.html
+2025-05-22 04:48:26,161 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 04:48:26,174 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 04:48:26,181 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:48:26,190 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:48:26,196 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:48:26,197 - P17020 - INFO - Após processar URL 7 Uso de memória: 132.52 MB
+2025-05-22 04:48:26,198 - P17020 - INFO - Processando URL 8/28: https://www.cremesp.org.br/?siteAcao=CMDesatualizado&pg=33
+2025-05-22 04:48:30,688 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\82f84439adf4fcbced506a3a3e30e747.html
+2025-05-22 04:48:30,711 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:48:30,711 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:48:30,712 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 04:48:30,712 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:48:30,712 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:48:30,712 - P17020 - INFO - Após processar URL 8 Uso de memória: 130.37 MB
+2025-05-22 04:48:30,712 - P17020 - INFO - Processando URL 9/28: https://consultacrm.com.br/
+2025-05-22 04:48:33,909 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:48:33,922 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:48:33,922 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:48:33,923 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:48:33,923 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:48:33,923 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:48:33,923 - P17020 - INFO - Após processar URL 9 Uso de memória: 130.44 MB
+2025-05-22 04:48:33,923 - P17020 - INFO - Processando URL 10/28: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2019/09/270afa32-d4d1-4bdb-a446-a9d19f7bfa35_4608-13-09-2019.pdf
+2025-05-22 04:48:33,924 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2019/09/270afa32-d4d1-4bdb-a446-a9d19f7bfa35_4608-13-09-2019.pdf
+2025-05-22 04:48:33,924 - P17020 - INFO - Após processar URL 10 Uso de memória: 130.44 MB
+2025-05-22 04:48:33,926 - P17020 - INFO - Processando URL 11/28: https://portal.tjpr.jus.br/e-dj/publico/diario/baixar.do;jsessionid=45df55dc4d2eb776bc3a2ce442fe?tjpr.url.crypto=de372df18257891b
+2025-05-22 04:48:36,052 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\bf04bbe48f7347bb1d12c836a850055c.html
+2025-05-22 04:48:36,063 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:48:36,064 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:48:36,064 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:48:36,064 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:48:36,064 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:48:36,064 - P17020 - INFO - Após processar URL 11 Uso de memória: 130.44 MB
+2025-05-22 04:48:36,065 - P17020 - INFO - Processando URL 12/28: https://www.saobernardo.sp.gov.br/documents/10181/2045904/NM+2518+de+25.04.2025+-++Conteu%CC%81do+Integral.pdf/96edc0b3-5834-1a2b-794a-f0693fd8d0da
+2025-05-22 04:48:36,065 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/2045904/NM+2518+de+25.04.2025+-++Conteu%CC%81do+Integral.pdf/96edc0b3-5834-1a2b-794a-f0693fd8d0da
+2025-05-22 04:48:36,065 - P17020 - INFO - Após processar URL 12 Uso de memória: 130.44 MB
+2025-05-22 04:48:36,065 - P17020 - INFO - Processando URL 13/28: https://www.unimed.coop.br/site/documents/23634461/23917875/Guia+M%C3%A9dico+26032024.pdf/e2361a18-1138-447c-3360-4f0f1440e6e1?t=1711464740925
+2025-05-22 04:48:36,065 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.unimed.coop.br/site/documents/23634461/23917875/Guia+M%C3%A9dico+26032024.pdf/e2361a18-1138-447c-3360-4f0f1440e6e1?t=1711464740925
+2025-05-22 04:48:36,066 - P17020 - INFO - Após processar URL 13 Uso de memória: 130.44 MB
+2025-05-22 04:48:36,066 - P17020 - INFO - Processando URL 14/28: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/159205/Caderno_JUD_BA_2016-09-13_VIII_171.pdf?sequence=2&isAllowed=y
+2025-05-22 04:48:36,066 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/159205/Caderno_JUD_BA_2016-09-13_VIII_171.pdf?sequence=2&isAllowed=y
+2025-05-22 04:48:36,066 - P17020 - INFO - Após processar URL 14 Uso de memória: 130.44 MB
+2025-05-22 04:48:36,066 - P17020 - INFO - Processando URL 15/28: https://www.consultacrm.com.br/index/medicos/uid-1273a741-f5c5-11ec-9e74-0a4aa568c625/gilberto_alonso
+2025-05-22 04:48:39,115 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\72f74a4dfa52a3454bd9c3035022ee8b.html
+2025-05-22 04:48:39,127 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:48:39,127 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:48:39,128 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:48:39,128 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:48:39,128 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:48:39,128 - P17020 - INFO - Após processar URL 15 Uso de memória: 130.44 MB
+2025-05-22 04:48:39,129 - P17020 - INFO - Processando URL 16/28: https://portal.fazenda.sp.gov.br/servicos/icms/Downloads/03%20DEC%20Credenciados%20de%20Oficio%20DOE%202013%2011%2023.pdf
+2025-05-22 04:48:39,129 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://portal.fazenda.sp.gov.br/servicos/icms/Downloads/03%20DEC%20Credenciados%20de%20Oficio%20DOE%202013%2011%2023.pdf
+2025-05-22 04:48:39,130 - P17020 - INFO - Após processar URL 16 Uso de memória: 130.44 MB
+2025-05-22 04:48:39,130 - P17020 - INFO - Processando URL 17/28: https://portal.tjpr.jus.br/e-dj/publico/diario/baixar.do;jsessionid=5601525094f8cab5957f6db72a1e?tjpr.url.crypto=a0374447706f2f3e
+2025-05-22 04:48:41,206 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c19b47d542364652647ec137046977c3.html
+2025-05-22 04:48:41,217 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:48:41,217 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:48:41,218 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:48:41,218 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:48:41,218 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:48:41,218 - P17020 - INFO - Após processar URL 17 Uso de memória: 130.44 MB
+2025-05-22 04:48:41,218 - P17020 - INFO - Processando URL 18/28: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/21808
+2025-05-22 04:48:43,343 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\04b79c9bab6448b281fa8415face03a8.html
+2025-05-22 04:48:43,352 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:48:43,353 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:48:43,353 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:48:43,354 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:48:43,354 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:48:43,354 - P17020 - INFO - Após processar URL 18 Uso de memória: 130.47 MB
+2025-05-22 04:48:43,354 - P17020 - INFO - Processando URL 19/28: https://noticias.sorocaba.sp.gov.br/wp-content/uploads/2022/03/noticias.sorocaba.sp.gov.br-2948-18-de-marco-de-2022.pdf
+2025-05-22 04:48:43,354 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://noticias.sorocaba.sp.gov.br/wp-content/uploads/2022/03/noticias.sorocaba.sp.gov.br-2948-18-de-marco-de-2022.pdf
+2025-05-22 04:48:43,355 - P17020 - INFO - Após processar URL 19 Uso de memória: 130.47 MB
+2025-05-22 04:48:43,355 - P17020 - INFO - Processando URL 20/28: https://diariooficial.santos.sp.gov.br/edicoes/inicio/download/2017-09-29
+2025-05-22 04:48:45,488 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\34ae81344577dfa3297a1532a500e18b.html
+2025-05-22 04:48:45,488 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:48:45,488 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:48:45,488 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:48:45,489 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:48:45,489 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:48:45,489 - P17020 - INFO - Após processar URL 20 Uso de memória: 130.47 MB
+2025-05-22 04:48:45,489 - P17020 - INFO - Processando URL 21/28: https://www.crm-sp.org.br/?siteAcao=Contatos&dep=cad
+2025-05-22 04:48:47,630 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\9d7a012bd98a105b7c4d3b953105f1bf.html
+2025-05-22 04:48:47,637 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:48:47,637 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:48:47,637 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:48:47,637 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:48:47,637 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:48:47,638 - P17020 - INFO - Após processar URL 21 Uso de memória: 130.49 MB
+2025-05-22 04:48:47,638 - P17020 - INFO - Processando URL 22/28: https://www.indaiatuba.sp.gov.br/download/53419/
+2025-05-22 04:48:49,784 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\760388738545aefed9b33a48cfe74078.html
+2025-05-22 04:48:49,791 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:48:49,792 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:48:49,792 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:48:49,792 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:48:49,792 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:48:49,792 - P17020 - INFO - Após processar URL 22 Uso de memória: 130.49 MB
+2025-05-22 04:48:49,793 - P17020 - INFO - Processando URL 23/28: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2013/dou1_2013_01_16.pdf
+2025-05-22 04:48:49,793 - P17020 - INFO - Ignorando URL de arquivo não-HTML: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2013/dou1_2013_01_16.pdf
+2025-05-22 04:48:49,793 - P17020 - INFO - Após processar URL 23 Uso de memória: 130.49 MB
+2025-05-22 04:48:49,793 - P17020 - INFO - Processando URL 24/28: https://guiamedico.cremesp.org.br/
+2025-05-22 04:48:59,994 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 04:49:00,001 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:49:00,001 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:49:00,002 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:49:00,002 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:49:00,002 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:49:00,004 - P17020 - INFO - Após processar URL 24 Uso de memória: 130.49 MB
+2025-05-22 04:49:00,005 - P17020 - INFO - Processando URL 25/28: https://www.escavador.com/sobre/2214200/gilberto-alonso
+2025-05-22 04:49:03,950 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b668031b5091ef3e93ba6fd5415f564d.html
+2025-05-22 04:49:03,970 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:49:03,971 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:49:03,971 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:49:03,972 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:49:03,972 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:49:03,973 - P17020 - INFO - Após processar URL 25 Uso de memória: 130.50 MB
+2025-05-22 04:49:03,973 - P17020 - INFO - Processando URL 26/28: https://iprejun.sp.gov.br/S/arquivos/Imprensa_Oficial/Imprensa_Oficial_Jundiai_2019-09-13_4608.pdf
+2025-05-22 04:49:03,973 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://iprejun.sp.gov.br/S/arquivos/Imprensa_Oficial/Imprensa_Oficial_Jundiai_2019-09-13_4608.pdf
+2025-05-22 04:49:03,973 - P17020 - INFO - Após processar URL 26 Uso de memória: 130.50 MB
+2025-05-22 04:49:03,974 - P17020 - INFO - Processando URL 27/28: https://www.consultacrm.com.br/index/medicos/uid-8279c868-f5c5-11ec-9e74-0a4aa568c625/gilberto_lavras
+2025-05-22 04:49:07,422 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2b6480745a9b1bf7e883047d2b9324c6.html
+2025-05-22 04:49:07,436 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:49:07,437 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:49:07,437 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:49:07,437 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:49:07,437 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:49:07,438 - P17020 - INFO - Após processar URL 27 Uso de memória: 130.50 MB
+2025-05-22 04:49:07,438 - P17020 - INFO - Processando URL 28/28: https://www.cremesp.org.br/?siteAcao=DelegaciasRegionais&id=33
+2025-05-22 04:49:24,603 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f89528df70462629a24f2b4171f0fc34.html
+2025-05-22 04:49:24,623 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 04:49:24,624 - P17020 - INFO - Candidates phone: 3 items
+2025-05-22 04:49:24,624 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:49:24,624 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:49:24,624 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 04:49:24,624 - P17020 - INFO - Após processar URL 28 Uso de memória: 130.50 MB
+2025-05-22 04:49:24,624 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:49:24,625 - P17020 - INFO - Ranked address: 4 items
+2025-05-22 04:49:24,625 - P17020 - INFO - Ranked phone: 4 items
+2025-05-22 04:49:24,625 - P17020 - INFO - Ranked email: 3 items
+2025-05-22 04:49:24,625 - P17020 - INFO - Ranked complement: 0 items
+2025-05-22 04:49:24,625 - P17020 - INFO - Ranked cep: 2 items
+2025-05-22 04:49:24,625 - P17020 - INFO - Após agregação Uso de memória: 130.50 MB
+2025-05-22 04:49:24,625 - P17020 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'R. Frei Caneca, 1282', 'R. Domingos de Morais, 2187']
+2025-05-22 04:49:24,626 - P17020 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 04:49:24,626 - P17020 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 04:49:24,626 - P17020 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 04:49:24,626 - P17020 - INFO - Validando telefone: ['(11) 4349-9900', '(11) 3675-7104', '(11) 5084-1352']
+2025-05-22 04:49:24,627 - P17020 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 04:49:24,627 - P17020 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 04:49:24,627 - P17020 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 04:49:24,627 - P17020 - INFO - Validando email: ['cad@cremesp.org.br', 'cadastro@cremesp.org.br', 'drvma@cremesp.org.br']
+2025-05-22 04:49:24,627 - P17020 - INFO - Limpando texto extenso para campo email: cad@cremesp.org.br...
+2025-05-22 04:49:24,627 - P17020 - INFO - Texto limpo: cad@cremesp.org.br
+2025-05-22 04:49:24,628 - P17020 - INFO - Email validado: cad@cremesp.org.br
+2025-05-22 04:49:24,628 - P17020 - INFO - Descobrindo cidade
+2025-05-22 04:49:24,628 - P17020 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 04:49:27,387 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 04:49:27,388 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 04:49:27,388 - P17020 - INFO - Tempo de execução de processamento completo do médico: 96.42 segundos
+2025-05-22 04:49:27,388 - P17020 - INFO - Resultado processado: {'Hash': '78749d313efd2a2a5748df7ee23d1bbfec3fd6d4b5e6ba38ede9f387f754da8c', 'CRM': '12395', 'UF': 'SP', 'Firstname': 'GILBERTO', 'LastName': 'ALONSO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cad@cremesp.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:49:27,389 - P17020 - INFO - Progresso: 77.2%
+2025-05-22 04:49:27,389 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 04:49:27,423 - P17020 - INFO - Após coleta de lixo Uso de memória: 129.72 MB
+2025-05-22 04:49:27,424 - P17020 - INFO - Tempo de execução de processamento do médico 1: 97.83 segundos
+2025-05-22 04:49:27,424 - P17020 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 04:49:27,424 - P17020 - INFO - Nome: ANA MARIA ASSUMPTA CURTI THOME
+2025-05-22 04:49:27,424 - P17020 - INFO - Início do processamento Uso de memória: 129.72 MB
+2025-05-22 04:49:27,424 - P17020 - INFO - Iniciando busca para: ANA MARIA ASSUMPTA CURTI THOME CRM 12855 SP telefone e-mail endereço
+2025-05-22 04:49:28,218 - P17020 - INFO - SearX results: 15 URLs
+2025-05-22 04:49:28,218 - P17020 - INFO - Após SearX Uso de memória: 129.72 MB
+2025-05-22 04:49:31,036 - P17020 - INFO - Google results: 13 URLs
+2025-05-22 04:49:31,036 - P17020 - INFO - Após Google Uso de memória: 132.16 MB
+2025-05-22 04:49:33,738 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 04:49:33,738 - P17020 - INFO - Após Bing Uso de memória: 132.17 MB
+2025-05-22 04:49:33,738 - P17020 - INFO - Total de URLs únicas: 30
+2025-05-22 04:49:33,738 - P17020 - INFO - Processando URL 1/30: https://contreal.com.br/como-fazer-a-consulta-do-crm-saiba-agora/#:~:text=Como%20realizar%20a%20consulta%20do%20CRM?,%C3%81rea%20de%20atua%C3%A7%C3%A3o%2C%20etc.
+2025-05-22 04:49:36,660 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\aca48531b69e2bb01e9c08881b8a98b4.html
+2025-05-22 04:49:36,714 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:49:36,714 - P17020 - INFO - Candidates phone: 3 items
+2025-05-22 04:49:36,714 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:49:36,714 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:49:36,714 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 04:49:36,715 - P17020 - INFO - Após processar URL 1 Uso de memória: 132.17 MB
+2025-05-22 04:49:36,715 - P17020 - INFO - Processando URL 2/30: http://cremesp.org.br/?siteAcao=CMDesatualizado&pg=6
+2025-05-22 04:49:39,914 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c758d2798aa3207ddcdce4ba7bcf7c51.html
+2025-05-22 04:49:39,937 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:49:39,937 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:49:39,937 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 04:49:39,938 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:49:39,938 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:49:39,938 - P17020 - INFO - Após processar URL 2 Uso de memória: 132.17 MB
+2025-05-22 04:49:39,938 - P17020 - INFO - Processando URL 3/30: https://transparencia.cremesp.org.br/?siteAcao=guia_medico
+2025-05-22 04:50:09,954 - P17020 - ERROR - Erro ao baixar HTML de https://transparencia.cremesp.org.br/?siteAcao=guia_medico: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7573F64EC]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F465C]
+	(No symbol) [0x00007FF75740CF3A]
+	(No symbol) [0x00007FF7574B013E]
+	(No symbol) [0x00007FF75748737A]
+	(No symbol) [0x00007FF7574AF39C]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 04:50:09,955 - P17020 - INFO - Após processar URL 3 Uso de memória: 132.17 MB
+2025-05-22 04:50:09,956 - P17020 - INFO - Processando URL 4/30: https://guiamedico.cremesp.org.br/#:~:text=Pesquisa%20de%20m%C3%A9dicos%20inscritos%20no%20Cremesp
+2025-05-22 04:50:12,716 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c34ea45ca54012f538f9d66ac538236e.html
+2025-05-22 04:50:12,722 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:50:12,722 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:50:12,722 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:50:12,722 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:50:12,723 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:50:12,723 - P17020 - INFO - Após processar URL 4 Uso de memória: 132.17 MB
+2025-05-22 04:50:12,723 - P17020 - INFO - Processando URL 5/30: http://www.otorrinodr.com.br/
+2025-05-22 04:50:15,274 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2735093f78d2534a96b68dd4744fb731.html
+2025-05-22 04:50:15,297 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:50:15,297 - P17020 - INFO - Candidates phone: 3 items
+2025-05-22 04:50:15,297 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:50:15,298 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:50:15,298 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:50:15,298 - P17020 - INFO - Após processar URL 5 Uso de memória: 132.17 MB
+2025-05-22 04:50:15,298 - P17020 - INFO - Processando URL 6/30: https://consultacrm.com.br/
+2025-05-22 04:50:18,618 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:50:18,637 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:50:18,637 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:50:18,637 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:50:18,637 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:50:18,638 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:50:18,638 - P17020 - INFO - Após processar URL 6 Uso de memória: 132.27 MB
+2025-05-22 04:50:18,638 - P17020 - INFO - Processando URL 7/30: https://www.cremesp.gov.br/pdfs/lista_homenageados_nov2016.pdf
+2025-05-22 04:50:18,638 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.cremesp.gov.br/pdfs/lista_homenageados_nov2016.pdf
+2025-05-22 04:50:18,638 - P17020 - INFO - Após processar URL 7 Uso de memória: 132.27 MB
+2025-05-22 04:50:18,639 - P17020 - INFO - Processando URL 8/30: https://gb.kompass.com/c/ana-maria-assumpta-curti-thome/br13455469000167/
+2025-05-22 04:50:21,266 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\49e0914413cdca5189706333f6b37a15.html
+2025-05-22 04:50:21,267 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:50:21,268 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:50:21,268 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:50:21,268 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:50:21,268 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:50:21,269 - P17020 - INFO - Após processar URL 8 Uso de memória: 132.27 MB
+2025-05-22 04:50:21,269 - P17020 - INFO - Processando URL 9/30: https://www.cremesp.org.br/?siteAcao=CMDesatualizado&pg=6
+2025-05-22 04:50:52,357 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4cbee3899b166bc05320440ed261cbe4.html
+2025-05-22 04:50:52,390 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:50:52,390 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:50:52,390 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 04:50:52,390 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:50:52,391 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:50:52,391 - P17020 - INFO - Após processar URL 9 Uso de memória: 132.28 MB
+2025-05-22 04:50:52,391 - P17020 - INFO - Processando URL 10/30: https://www.solutudo.com.br/empresas/sp/paulo-faria/cultivo/ana-maria-assumpta-curti-thome-7166846
+2025-05-22 04:50:56,522 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2cd1368620cb5426944b5ea6da1c09eb.html
+2025-05-22 04:50:56,562 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:50:56,564 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:50:56,566 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 04:50:56,567 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:50:56,567 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:50:56,567 - P17020 - INFO - Após processar URL 10 Uso de memória: 132.28 MB
+2025-05-22 04:50:56,568 - P17020 - INFO - Processando URL 11/30: https://feegowclinic.com.br/blog/registro-medico
+2025-05-22 04:51:01,828 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a329edfcb4222f96e2d3379fedcb4785.html
+2025-05-22 04:51:01,857 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:51:01,858 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:51:01,859 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 04:51:01,859 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:51:01,859 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:51:01,859 - P17020 - INFO - Após processar URL 11 Uso de memória: 132.28 MB
+2025-05-22 04:51:01,860 - P17020 - INFO - Processando URL 12/30: https://www.cremesp.org.br/?siteAcao=Contatos&dep=rod#:~:text=Em%20caso%20de%20d%C3%BAvidas%2C%20entre,%40cremesp.org.br.
+2025-05-22 04:51:19,141 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c3b929f3ec1e7b5e1fd5b5d9676291d2.html
+2025-05-22 04:51:19,160 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:51:19,161 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:51:19,161 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:51:19,162 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:51:19,162 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:51:19,162 - P17020 - INFO - Após processar URL 12 Uso de memória: 132.28 MB
+2025-05-22 04:51:19,162 - P17020 - INFO - Processando URL 13/30: https://www.econodata.com.br/consulta-empresa/13455469000167-ANA-MARIA-ASSUMPTA-CURTI-THOME
+2025-05-22 04:51:23,951 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\faaf3d5e7c24a947d6c8cae1f1fe6f0d.html
+2025-05-22 04:51:24,075 - P17020 - INFO - Candidates address: 20 items
+2025-05-22 04:51:24,075 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:51:24,075 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:51:24,076 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 04:51:24,076 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:51:24,077 - P17020 - INFO - Após processar URL 13 Uso de memória: 133.07 MB
+2025-05-22 04:51:24,077 - P17020 - INFO - Processando URL 14/30: https://www.classemedica.com.br/medico/21003-ana-maria-assumpta-curti.htm
+2025-05-22 04:51:32,371 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\42e65e121ce6ee62d9e776acea330f9e.html
+2025-05-22 04:51:32,401 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:51:32,401 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:51:32,401 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:51:32,401 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:51:32,402 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:51:32,402 - P17020 - INFO - Após processar URL 14 Uso de memória: 132.29 MB
+2025-05-22 04:51:32,402 - P17020 - INFO - Processando URL 15/30: https://www.doctoralia.com.br/nataly-caroline-de-almeida-albornoz/otorrino/sao-paulo?utm_source=google&utm_medium=gmb&utm_campaign=447828&utm_content=website
+2025-05-22 04:51:32,402 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/nataly-caroline-de-almeida-albornoz/otorrino/sao-paulo?utm_source=google&utm_medium=gmb&utm_campaign=447828&utm_content=website
+2025-05-22 04:51:32,402 - P17020 - INFO - Após processar URL 15 Uso de memória: 132.29 MB
+2025-05-22 04:51:32,403 - P17020 - INFO - Processando URL 16/30: https://crmvirtual.cfm.org.br/SP/servico/certificado-digital---cfm---cremesp
+2025-05-22 04:51:35,260 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7529aff398f139761cb9abefe17c6f61.html
+2025-05-22 04:51:35,277 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:51:35,278 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:51:35,278 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:51:35,278 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:51:35,278 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:51:35,279 - P17020 - INFO - Após processar URL 16 Uso de memória: 132.29 MB
+2025-05-22 04:51:35,280 - P17020 - INFO - Processando URL 17/30: https://www.cremesp.org.br/pdfs/lista_homenageados_nov2016.pdf
+2025-05-22 04:51:35,280 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.cremesp.org.br/pdfs/lista_homenageados_nov2016.pdf
+2025-05-22 04:51:35,280 - P17020 - INFO - Após processar URL 17 Uso de memória: 132.29 MB
+2025-05-22 04:51:35,281 - P17020 - INFO - Processando URL 18/30: https://www.dnb.com/business-directory/company-profiles.ana_maria_assumpta_curti_thome.73df64627e5851718ad1c296b06526df.html
+2025-05-22 04:51:39,835 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a4ec214d71c9327ec8a4130b4651fcdf.html
+2025-05-22 04:51:40,010 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:51:40,011 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:51:40,011 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:51:40,012 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:51:40,012 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:51:40,012 - P17020 - INFO - Após processar URL 18 Uso de memória: 136.79 MB
+2025-05-22 04:51:40,013 - P17020 - INFO - Processando URL 19/30: https://cnpj.parafa.com.br/paulo-de-faria-sp/13455469000167/ana-maria-assumpta-curti-thome
+2025-05-22 04:52:10,022 - P17020 - ERROR - Erro ao baixar HTML de https://cnpj.parafa.com.br/paulo-de-faria-sp/13455469000167/ana-maria-assumpta-curti-thome: Message: timeout: Timed out receiving message from renderer: 18.841
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7573F64EC]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F483F]
+	(No symbol) [0x00007FF7574033AE]
+	(No symbol) [0x00007FF7574197E1]
+	(No symbol) [0x00007FF75742091A]
+	(No symbol) [0x00007FF7573F4FAD]
+	(No symbol) [0x00007FF7574194D0]
+	(No symbol) [0x00007FF7574AF732]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 04:52:10,026 - P17020 - INFO - Após processar URL 19 Uso de memória: 132.31 MB
+2025-05-22 04:52:10,027 - P17020 - INFO - Processando URL 20/30: https://www.cremesp.org.br/?siteAcao=Noticias&id=5180#:~:text=A%20consulta%20pode%20ser%20realizada,pelo%20nome%20completo%20do%20profissional.
+2025-05-22 04:52:12,957 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\aaf360cb0ee684245b1c80a5aa040618.html
+2025-05-22 04:52:12,981 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:52:12,982 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:52:12,982 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:52:12,983 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:52:12,983 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:52:12,983 - P17020 - INFO - Após processar URL 20 Uso de memória: 132.31 MB
+2025-05-22 04:52:12,983 - P17020 - INFO - Processando URL 21/30: https://portal.cfm.org.br/busca-medicos
+2025-05-22 04:52:16,789 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 04:52:16,824 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:52:16,824 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:52:16,824 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:52:16,824 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:52:16,825 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:52:16,825 - P17020 - INFO - Após processar URL 21 Uso de memória: 132.32 MB
+2025-05-22 04:52:16,825 - P17020 - INFO - Processando URL 22/30: https://guiamedico.cremesp.org.br/
+2025-05-22 04:52:19,595 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 04:52:19,603 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:52:19,603 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:52:19,603 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:52:19,603 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:52:19,604 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:52:19,604 - P17020 - INFO - Após processar URL 22 Uso de memória: 132.32 MB
+2025-05-22 04:52:19,604 - P17020 - INFO - Processando URL 23/30: https://cnpjrocks.com/cnpj/13455469000167/ana-maria-assumpta-curti-thome.html
+2025-05-22 04:52:22,598 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2b93b6f952bcf56421e1242ff1deeafe.html
+2025-05-22 04:52:22,611 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:52:22,612 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:52:22,612 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:52:22,612 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:52:22,613 - P17020 - INFO - Candidates cep: 9 items
+2025-05-22 04:52:22,613 - P17020 - INFO - Após processar URL 23 Uso de memória: 132.32 MB
+2025-05-22 04:52:22,613 - P17020 - INFO - Processando URL 24/30: https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2014/04/04/busca-por-crm-garante-que-medico-esta-em-condicoes-de-atuar.htm#:~:text=Para%20saber%20se%20um%20m%C3%A9dico,dispon%C3%ADvel%20no%20portal%20do%20CFM).
+2025-05-22 04:52:28,726 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b00045c75cba1f01ecb8fb0c407bb67f.html
+2025-05-22 04:52:28,824 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:52:28,825 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:52:28,825 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:52:28,825 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:52:28,825 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:52:28,826 - P17020 - INFO - Após processar URL 24 Uso de memória: 133.86 MB
+2025-05-22 04:52:28,826 - P17020 - INFO - Processando URL 25/30: https://br.kompass.com/c/ana-maria-assumpta-curti-thome/br13455469000167/
+2025-05-22 04:52:34,612 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5042dfb9b3d54e1f52017f23f9f03a96.html
+2025-05-22 04:52:34,686 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:52:34,686 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:52:34,686 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:52:34,686 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:52:34,686 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 04:52:34,687 - P17020 - INFO - Após processar URL 25 Uso de memória: 131.96 MB
+2025-05-22 04:52:34,687 - P17020 - INFO - Processando URL 26/30: https://cremesp.org.br/?siteAcao=CMDesatualizado&pg=6
+2025-05-22 04:52:37,472 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\9d62a7d1757cb9f7a8e800d7cd40bbf5.html
+2025-05-22 04:52:37,494 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:52:37,494 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:52:37,494 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 04:52:37,495 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:52:37,495 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:52:37,495 - P17020 - INFO - Após processar URL 26 Uso de memória: 131.96 MB
+2025-05-22 04:52:37,495 - P17020 - INFO - Processando URL 27/30: https://portal.cfm.org.br/servicos-para-medicos/certidao/#:~:text=Nesta%20%C3%A1rea%20do%20site%2C%20pode,contato%20com%20o%20respectivo%20CRM.
+2025-05-22 04:52:40,655 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e2f07ea4ecea98ffcbdce7f6ffa770ba.html
+2025-05-22 04:52:40,686 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:52:40,687 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:52:40,687 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:52:40,687 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:52:40,687 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:52:40,687 - P17020 - INFO - Após processar URL 27 Uso de memória: 131.96 MB
+2025-05-22 04:52:40,688 - P17020 - INFO - Processando URL 28/30: https://crmdigital.cfm.org.br/#:~:text=Para%20obter%20o%20CRM%20Digital,para%20solicita%C3%A7%C3%A3o%20do%20CRM%20Digital.
+2025-05-22 04:52:43,280 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\10f22eb20f29e87d5813c3a6c78e45ca.html
+2025-05-22 04:52:43,298 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:52:43,298 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:52:43,298 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:52:43,298 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:52:43,299 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:52:43,299 - P17020 - INFO - Após processar URL 28 Uso de memória: 131.96 MB
+2025-05-22 04:52:43,299 - P17020 - INFO - Processando URL 29/30: https://www.consultascnpj.com/ana-maria-assumpta-curti-thome/13455469000167
+2025-05-22 04:52:46,439 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\1b2179253a9018074222801ec34366ad.html
+2025-05-22 04:52:46,449 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:52:46,449 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:52:46,450 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:52:46,450 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:52:46,450 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 04:52:46,450 - P17020 - INFO - Após processar URL 29 Uso de memória: 131.96 MB
+2025-05-22 04:52:46,450 - P17020 - INFO - Processando URL 30/30: https://portal.cfm.org.br/noticias/cfm-implanta-servico-0800-para-os-medicos/#:~:text=Ficou%20mais%20f%C3%A1cil%20falar%20com,n%C3%BAmero%200800%2070%2075%20018.
+2025-05-22 04:52:49,117 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\782bd99e582a14bc4a376d366720b8dc.html
+2025-05-22 04:52:49,145 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:52:49,146 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:52:49,146 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:52:49,146 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:52:49,146 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:52:49,146 - P17020 - INFO - Após processar URL 30 Uso de memória: 131.96 MB
+2025-05-22 04:52:49,147 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:52:49,147 - P17020 - INFO - Ranked address: 23 items
+2025-05-22 04:52:49,147 - P17020 - INFO - Ranked phone: 10 items
+2025-05-22 04:52:49,147 - P17020 - INFO - Ranked email: 10 items
+2025-05-22 04:52:49,148 - P17020 - INFO - Ranked complement: 4 items
+2025-05-22 04:52:49,148 - P17020 - INFO - Ranked cep: 16 items
+2025-05-22 04:52:49,149 - P17020 - INFO - Após agregação Uso de memória: 131.96 MB
+2025-05-22 04:52:49,149 - P17020 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'R. Eng. Prudente, 465', 'Rua Dona Adma Jafet, 50']
+2025-05-22 04:52:49,149 - P17020 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 04:52:49,149 - P17020 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 04:52:49,149 - P17020 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 04:52:49,150 - P17020 - INFO - Validando telefone: ['(11) 4349-9900', '(11) 3286-0894', '(11) 93033-1091']
+2025-05-22 04:52:49,150 - P17020 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 04:52:49,150 - P17020 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 04:52:49,151 - P17020 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 04:52:49,151 - P17020 - INFO - Validando email: ['cad@cremesp.org.br', 'cadastro@cremesp.org.br', 'escrin@bol.com.br']
+2025-05-22 04:52:49,151 - P17020 - INFO - Limpando texto extenso para campo email: cad@cremesp.org.br...
+2025-05-22 04:52:49,151 - P17020 - INFO - Texto limpo: cad@cremesp.org.br
+2025-05-22 04:52:49,152 - P17020 - INFO - Email validado: cad@cremesp.org.br
+2025-05-22 04:52:49,152 - P17020 - INFO - Validando complemento: ['Conjunto D', 'Bloco 003', 'Conjunto Habitacional Hugo Lacorte Vitalle']
+2025-05-22 04:52:49,152 - P17020 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 04:52:49,152 - P17020 - INFO - Texto limpo: Conjunto D
+2025-05-22 04:52:49,153 - P17020 - INFO - Complemento validado: Conjunto D
+2025-05-22 04:52:49,153 - P17020 - INFO - Descobrindo cidade
+2025-05-22 04:52:49,154 - P17020 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 04:52:51,549 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 04:52:51,550 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 04:52:51,550 - P17020 - INFO - Tempo de execução de processamento completo do médico: 204.13 segundos
+2025-05-22 04:52:51,551 - P17020 - INFO - Resultado processado: {'Hash': '6e803a41e597be34c7d4a5ad3956bc6de3d32db2998aca040ba931a3bf4f2c91', 'CRM': '12855', 'UF': 'SP', 'Firstname': 'ANA', 'LastName': 'MARIA ASSUMPTA CURTI THOME', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Conjunto D', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cad@cremesp.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:52:51,551 - P17020 - INFO - Progresso: 78.0%
+2025-05-22 04:52:51,552 - P17020 - INFO - Tempo de execução de processamento do médico 2: 204.13 segundos
+2025-05-22 04:52:51,552 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 04:52:51,552 - P17020 - INFO - Nome: JAMIL MURAD
+2025-05-22 04:52:51,553 - P17020 - INFO - Início do processamento Uso de memória: 128.93 MB
+2025-05-22 04:52:51,553 - P17020 - INFO - Iniciando busca para: JAMIL MURAD CRM 14158 SP telefone e-mail endereço
+2025-05-22 04:52:52,289 - P17020 - INFO - SearX results: 15 URLs
+2025-05-22 04:52:52,290 - P17020 - INFO - Após SearX Uso de memória: 128.93 MB
+2025-05-22 04:52:55,522 - P17020 - INFO - Google results: 12 URLs
+2025-05-22 04:52:55,527 - P17020 - INFO - Após Google Uso de memória: 130.97 MB
+2025-05-22 04:52:58,057 - P17020 - INFO - Bing results: 11 URLs
+2025-05-22 04:52:58,057 - P17020 - INFO - Após Bing Uso de memória: 131.85 MB
+2025-05-22 04:52:58,057 - P17020 - INFO - Total de URLs únicas: 27
+2025-05-22 04:52:58,057 - P17020 - INFO - Processando URL 1/27: https://cliniguia.com/profissionais/jamil-murad-100433211910002/
+2025-05-22 04:53:03,457 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\085a492080791cce4d724cd0b76c2637.html
+2025-05-22 04:53:03,501 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:53:03,501 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:53:03,501 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:53:03,501 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:53:03,501 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:53:03,501 - P17020 - INFO - Após processar URL 1 Uso de memória: 131.85 MB
+2025-05-22 04:53:03,501 - P17020 - INFO - Processando URL 2/27: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20181206&idorgao=766
+2025-05-22 04:53:06,203 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\51d12cb3a474ec6ebbf9118e7996ac4f.html
+2025-05-22 04:53:07,624 - P17020 - INFO - Candidates address: 37 items
+2025-05-22 04:53:07,624 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 04:53:07,625 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:53:07,625 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 04:53:07,625 - P17020 - INFO - Candidates cep: 123 items
+2025-05-22 04:53:07,625 - P17020 - INFO - Após processar URL 2 Uso de memória: 135.65 MB
+2025-05-22 04:53:07,625 - P17020 - INFO - Processando URL 3/27: https://www.medicosbrasil.com/profissional/jamil-murad
+2025-05-22 04:53:11,662 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\783aecef5b18df34b7573e95dec30c1c.html
+2025-05-22 04:53:11,693 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:53:11,693 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:53:11,693 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:53:11,693 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:53:11,694 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:53:11,694 - P17020 - INFO - Após processar URL 3 Uso de memória: 131.86 MB
+2025-05-22 04:53:11,694 - P17020 - INFO - Processando URL 4/27: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20230807&idorgao=766
+2025-05-22 04:53:14,942 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\dd3298125db06a6252ea8c5861276707.html
+2025-05-22 04:53:15,962 - P17020 - INFO - Candidates address: 11 items
+2025-05-22 04:53:15,962 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 04:53:15,963 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:53:15,963 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:53:15,963 - P17020 - INFO - Candidates cep: 59 items
+2025-05-22 04:53:15,963 - P17020 - INFO - Após processar URL 4 Uso de memória: 135.28 MB
+2025-05-22 04:53:15,964 - P17020 - INFO - Processando URL 5/27: https://consultacrm.com.br/
+2025-05-22 04:53:19,683 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:53:19,695 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:53:19,696 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:53:19,696 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:53:19,696 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:53:19,696 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:53:19,697 - P17020 - INFO - Após processar URL 5 Uso de memória: 131.88 MB
+2025-05-22 04:53:19,697 - P17020 - INFO - Processando URL 6/27: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 04:53:19,697 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 04:53:19,698 - P17020 - INFO - Após processar URL 6 Uso de memória: 131.88 MB
+2025-05-22 04:53:19,698 - P17020 - INFO - Processando URL 7/27: https://pcdob.org.br/noticias/jamil-murad-80-anos-de-luta-e-dedicacao-ao-povo-brasileiro/
+2025-05-22 04:53:44,022 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f07901b55b8fcef7c906a131a0b75f9f.html
+2025-05-22 04:53:44,048 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:53:44,048 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:53:44,048 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:53:44,048 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:53:44,049 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:53:44,049 - P17020 - INFO - Após processar URL 7 Uso de memória: 131.88 MB
+2025-05-22 04:53:44,049 - P17020 - INFO - Processando URL 8/27: https://odontologiamurad.com.br/contato/
+2025-05-22 04:53:50,047 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b47e8e57f8d107a7f37c45009497a2be.html
+2025-05-22 04:53:50,077 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 04:53:50,078 - P17020 - INFO - Candidates phone: 4 items
+2025-05-22 04:53:50,079 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:53:50,079 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:53:50,080 - P17020 - INFO - Candidates cep: 4 items
+2025-05-22 04:53:50,080 - P17020 - INFO - Após processar URL 8 Uso de memória: 131.88 MB
+2025-05-22 04:53:50,081 - P17020 - INFO - Processando URL 9/27: https://cnpj.biz/35857873000108
+2025-05-22 04:53:54,831 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3d0785398cfe83e263b82401755185ee.html
+2025-05-22 04:53:54,851 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 04:53:54,851 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:53:54,851 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:53:54,851 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 04:53:54,852 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 04:53:54,852 - P17020 - INFO - Após processar URL 9 Uso de memória: 131.88 MB
+2025-05-22 04:53:54,852 - P17020 - INFO - Processando URL 10/27: https://www.doctoralia.com.br/jamil-murad/medico-clinico-geral/brasilia
+2025-05-22 04:53:54,852 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/jamil-murad/medico-clinico-geral/brasilia
+2025-05-22 04:53:54,852 - P17020 - INFO - Após processar URL 10 Uso de memória: 131.88 MB
+2025-05-22 04:53:54,853 - P17020 - INFO - Processando URL 11/27: https://www.classemedica.com.br/medico/147943-jamil-murad.htm
+2025-05-22 04:54:00,820 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\cf5118c33c3f1cbe691609eb4c75e5c0.html
+2025-05-22 04:54:00,862 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:54:00,862 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:54:00,862 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:54:00,863 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:54:00,864 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:54:00,864 - P17020 - INFO - Após processar URL 11 Uso de memória: 131.88 MB
+2025-05-22 04:54:00,864 - P17020 - INFO - Processando URL 12/27: https://www.cylex.com.br/jundiai/cl%C3%ADnica-mourad---dr--jamil-jorge-abou-mourad-12422386.html
+2025-05-22 04:54:05,591 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\261e435cfafd7612ed2415f344c5a13a.html
+2025-05-22 04:54:05,619 - P17020 - INFO - Candidates address: 7 items
+2025-05-22 04:54:05,619 - P17020 - INFO - Candidates phone: 8 items
+2025-05-22 04:54:05,619 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:54:05,619 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:54:05,619 - P17020 - INFO - Candidates cep: 9 items
+2025-05-22 04:54:05,620 - P17020 - INFO - Após processar URL 12 Uso de memória: 132.04 MB
+2025-05-22 04:54:05,620 - P17020 - INFO - Processando URL 13/27: https://www.cremesp.org.br/?siteAcao=OutrosLinks&todos=ok
+2025-05-22 04:54:10,989 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\8e299a444d7c2235b2b1c1ff5f5d49cb.html
+2025-05-22 04:54:11,018 - P17020 - INFO - Candidates address: 8 items
+2025-05-22 04:54:11,018 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:54:11,019 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:54:11,019 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:54:11,019 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:54:11,019 - P17020 - INFO - Após processar URL 13 Uso de memória: 132.04 MB
+2025-05-22 04:54:11,019 - P17020 - INFO - Processando URL 14/27: https://www.doctoralia.com.br/selim-jamil-murad/medico-clinico-geral/olimpia
+2025-05-22 04:54:11,019 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/selim-jamil-murad/medico-clinico-geral/olimpia
+2025-05-22 04:54:11,019 - P17020 - INFO - Após processar URL 14 Uso de memória: 132.04 MB
+2025-05-22 04:54:11,020 - P17020 - INFO - Processando URL 15/27: https://www.boaconsulta.com/especialista/jamil-murad-6106ee88a2e00a7165004b46
+2025-05-22 04:54:14,282 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\48d25cc2b06eeb6b173b658e15f6a9c1.html
+2025-05-22 04:54:14,322 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:54:14,323 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:54:14,324 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:54:14,325 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:54:14,325 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:54:14,325 - P17020 - INFO - Após processar URL 15 Uso de memória: 132.48 MB
+2025-05-22 04:54:14,327 - P17020 - INFO - Processando URL 16/27: https://iprejun.sp.gov.br/S/arquivos/Imprensa_Oficial/Imprensa_Oficial_Jundiai_2024-09-20_5522.pdf
+2025-05-22 04:54:14,327 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://iprejun.sp.gov.br/S/arquivos/Imprensa_Oficial/Imprensa_Oficial_Jundiai_2024-09-20_5522.pdf
+2025-05-22 04:54:14,329 - P17020 - INFO - Após processar URL 16 Uso de memória: 132.48 MB
+2025-05-22 04:54:14,330 - P17020 - INFO - Processando URL 17/27: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/208410/Caderno_JUD_MG_2017-03-13_IX_44.pdf?sequence=2&isAllowed=y
+2025-05-22 04:54:14,331 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/208410/Caderno_JUD_MG_2017-03-13_IX_44.pdf?sequence=2&isAllowed=y
+2025-05-22 04:54:14,332 - P17020 - INFO - Após processar URL 17 Uso de memória: 132.48 MB
+2025-05-22 04:54:14,334 - P17020 - INFO - Processando URL 18/27: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2024/09/6c7fee8d-a5cc-4710-a230-c7ce25050a15_Edicao-5522-20-09-2024.pdf
+2025-05-22 04:54:14,344 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2024/09/6c7fee8d-a5cc-4710-a230-c7ce25050a15_Edicao-5522-20-09-2024.pdf
+2025-05-22 04:54:14,346 - P17020 - INFO - Após processar URL 18 Uso de memória: 132.48 MB
+2025-05-22 04:54:14,346 - P17020 - INFO - Processando URL 19/27: https://www.doctoralia.com.br/jamil-alli-murad-junior/cardiologista/sao-jose-do-rio-preto
+2025-05-22 04:54:14,346 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/jamil-alli-murad-junior/cardiologista/sao-jose-do-rio-preto
+2025-05-22 04:54:14,347 - P17020 - INFO - Após processar URL 19 Uso de memória: 132.48 MB
+2025-05-22 04:54:14,348 - P17020 - INFO - Processando URL 20/27: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20210702&idorgao=766
+2025-05-22 04:54:18,276 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b5ccb0ee97a45f54b2c5f558a066b60f.html
+2025-05-22 04:54:20,234 - P17020 - INFO - Candidates address: 32 items
+2025-05-22 04:54:20,234 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 04:54:20,235 - P17020 - INFO - Candidates email: 3 items
+2025-05-22 04:54:20,235 - P17020 - INFO - Candidates complement: 4 items
+2025-05-22 04:54:20,235 - P17020 - INFO - Candidates cep: 143 items
+2025-05-22 04:54:20,235 - P17020 - INFO - Após processar URL 20 Uso de memória: 137.97 MB
+2025-05-22 04:54:20,235 - P17020 - INFO - Processando URL 21/27: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x15338586591536675280&market=pt-BR&src=SERPGB
+2025-05-22 04:54:24,504 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\cc737d6e979440a910860028b4fedf27.html
+2025-05-22 04:54:24,526 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:54:24,526 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:54:24,527 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:54:24,527 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:54:24,527 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:54:24,527 - P17020 - INFO - Após processar URL 21 Uso de memória: 132.50 MB
+2025-05-22 04:54:24,527 - P17020 - INFO - Processando URL 22/27: https://www.saosebastiao.sp.gov.br/doem/DOEM_960_20210412.pdf
+2025-05-22 04:54:24,527 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.saosebastiao.sp.gov.br/doem/DOEM_960_20210412.pdf
+2025-05-22 04:54:24,528 - P17020 - INFO - Após processar URL 22 Uso de memória: 132.50 MB
+2025-05-22 04:54:24,528 - P17020 - INFO - Processando URL 23/27: https://www.benditoguia.com.br/empresa/dr-jamil-jorge-abou-mourad-vila-virginia-jundiai-sp
+2025-05-22 04:54:28,371 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c505d6204574cbd5a582481c8db6d851.html
+2025-05-22 04:54:28,388 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:54:28,389 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:54:28,389 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:54:28,389 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:54:28,389 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:54:28,389 - P17020 - INFO - Após processar URL 23 Uso de memória: 132.54 MB
+2025-05-22 04:54:28,390 - P17020 - INFO - Processando URL 24/27: https://vermelho.org.br/2010/10/30/mais-de-300-medicos-lancam-manifesto-e-declaram-voto-em-dilma/
+2025-05-22 04:54:33,059 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\dc705f9a1a9088ffc8b732865fdbd859.html
+2025-05-22 04:54:33,083 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:54:33,083 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:54:33,083 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 04:54:33,084 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:54:33,084 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:54:33,084 - P17020 - INFO - Após processar URL 24 Uso de memória: 132.54 MB
+2025-05-22 04:54:33,084 - P17020 - INFO - Processando URL 25/27: https://www.consultacrm.com.br/index/medicos/uid-12997a78-f5c5-11ec-9e74-0a4aa568c625/selim_jamil_murad
+2025-05-22 04:54:36,696 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\91a24d7d9d7ef35cab7d28d01656c675.html
+2025-05-22 04:54:36,706 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:54:36,706 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:54:36,707 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:54:36,707 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:54:36,707 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:54:36,707 - P17020 - INFO - Após processar URL 25 Uso de memória: 132.54 MB
+2025-05-22 04:54:36,707 - P17020 - INFO - Processando URL 26/27: https://doutorcrm.com/selim-jamil-murad
+2025-05-22 04:54:41,374 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\89282d84346898096fbe20d8f5fb5a17.html
+2025-05-22 04:54:41,383 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 04:54:41,384 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:54:41,384 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:54:41,384 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:54:41,385 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:54:41,385 - P17020 - INFO - Após processar URL 26 Uso de memória: 132.54 MB
+2025-05-22 04:54:41,386 - P17020 - INFO - Processando URL 27/27: https://imagem.camara.gov.br/Imagem/d/pdf/DCD26ABR2005.pdf
+2025-05-22 04:54:41,387 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://imagem.camara.gov.br/Imagem/d/pdf/DCD26ABR2005.pdf
+2025-05-22 04:54:41,389 - P17020 - INFO - Após processar URL 27 Uso de memória: 132.54 MB
+2025-05-22 04:54:41,390 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:54:41,391 - P17020 - INFO - Ranked address: 99 items
+2025-05-22 04:54:41,392 - P17020 - INFO - Ranked phone: 21 items
+2025-05-22 04:54:41,392 - P17020 - INFO - Ranked email: 7 items
+2025-05-22 04:54:41,393 - P17020 - INFO - Ranked complement: 11 items
+2025-05-22 04:54:41,394 - P17020 - INFO - Ranked cep: 330 items
+2025-05-22 04:54:41,398 - P17020 - INFO - Após agregação Uso de memória: 132.54 MB
+2025-05-22 04:54:41,401 - P17020 - INFO - Validando endereço: ['Rua Desembargador Homero Mafra, 60', 'Rua Desembargador Homero Mafra 60, 60', 'R. SUBSTITUIÇÃO DO VEÍCULO DA VÍTIMA. RESPONSABILIDADE DA LOCADORA. SÚMULA 492']
+2025-05-22 04:54:41,402 - P17020 - INFO - Endereço validado: Rua Desembargador Homero Mafra, 60
+2025-05-22 04:54:41,414 - P17020 - INFO - Limpando texto extenso para campo address: Rua Desembargador Homero Mafra, 60...
+2025-05-22 04:54:41,415 - P17020 - INFO - Texto limpo: Rua Desembargador Homero Mafra, 60
+2025-05-22 04:54:41,420 - P17020 - INFO - Validando telefone: ['(27) 3334-2172', '(27) 3334-2109', '(27) 3334-2150']
+2025-05-22 04:54:41,422 - P17020 - INFO - Limpando texto extenso para campo phone: (27) 3334-2172...
+2025-05-22 04:54:41,423 - P17020 - INFO - Texto limpo: 27) 3334-2172
+2025-05-22 04:54:41,423 - P17020 - INFO - Telefone validado: 27) 3334-2172
+2025-05-22 04:54:41,424 - P17020 - INFO - Validando email: ['contratacao@tjes.jus.br', 'cpp@tjes.jus.br', 'atendimento@odontologiamurad.com.br']
+2025-05-22 04:54:41,424 - P17020 - INFO - Limpando texto extenso para campo email: contratacao@tjes.jus.br...
+2025-05-22 04:54:41,424 - P17020 - INFO - Texto limpo: contratacao@tjes.jus.br
+2025-05-22 04:54:41,425 - P17020 - INFO - Email validado: contratacao@tjes.jus.br
+2025-05-22 04:54:41,425 - P17020 - INFO - Validando complemento: ['Bloco de “Autorização de Viagem”', 'Sala de estado-maior. Superveniência de execução provi', 'Conjunto nº 007/2022. ']
+2025-05-22 04:54:41,425 - P17020 - INFO - Limpando texto extenso para campo complement: Bloco de “Autorização de Viagem”...
+2025-05-22 04:54:41,426 - P17020 - INFO - Texto limpo: Bloco de “Autorização de Viage
+2025-05-22 04:54:41,431 - P17020 - INFO - Complemento validado: Bloco de “Autorização de Viage
+2025-05-22 04:54:41,434 - P17020 - INFO - Descobrindo cidade
+2025-05-22 04:54:41,435 - P17020 - INFO - Buscando cidade: Rua Desembargador Homero Mafra cidade SP
+2025-05-22 04:54:44,036 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 04:54:44,036 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 04:54:44,036 - P17020 - INFO - Tempo de execução de processamento completo do médico: 112.48 segundos
+2025-05-22 04:54:44,037 - P17020 - INFO - Resultado processado: {'Hash': 'a3a8502fb0cea6a7e3d65e299d27f5e06f315ab2484f7a083e0132de43708fd1', 'CRM': '14158', 'UF': 'SP', 'Firstname': 'JAMIL', 'LastName': 'MURAD', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Desembargador Homero Mafra, 60', 'Address A1': 'Rua Desembargador Homero Mafra', 'Numero A1': '60', 'Complement A1': 'Bloco de “Autorização de Viage', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '27) 3334-2172', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'contratacao@tjes.jus.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:54:44,037 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 04:54:44,038 - P17020 - INFO - Após salvar resultados Uso de memória: 129.62 MB
+2025-05-22 04:54:44,038 - P17020 - INFO - Progresso: 78.6%
+2025-05-22 04:54:44,038 - P17020 - INFO - Tempo de execução de processamento do médico 3: 112.49 segundos
+2025-05-22 04:54:44,039 - P17020 - INFO - Tempo de execução de processamento do lote completo: 414.45 segundos

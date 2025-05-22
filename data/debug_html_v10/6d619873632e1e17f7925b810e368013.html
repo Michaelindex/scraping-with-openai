@@ -1,0 +1,580 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script language="javascript">
+// valida e-mail
+function Valida_mail(campo,div) {
+
+
+	if (document.getElementById(campo).value != "") {
+		
+		if (document.getElementById(campo).value.search(/^\w+((-\w+)|(\.\w+))*\@\w+((\.|-)\w+)*\.\w+$/) == -1) {
+			if(div){
+				document.getElementById(div).innerHTML = "<img src='https://www.cremesp.org.br/Templates/v200901/images/ico_correto.gif'>";
+			}
+			document.getElementById(campo).style.borderColor = "#FF0000";
+			document.getElementById(campo).style.backgroundImage = "none";
+			return false;
+		} else {
+			if(div){
+				document.getElementById(div).innerHTML = "<img src='https://www.cremesp.org.br/Templates/v200901/images/ico_correto.gif'>";
+			}
+			document.getElementById(campo).style.borderColor = "#7BB33A";
+			document.getElementById(campo).style.backgroundImage = "url(Templates/v200901/images/ico_correto.gif)";
+			document.getElementById(campo).style.backgroundRepeat="no-repeat";
+			document.getElementById(campo).style.backgroundPosition="center right";
+			document.getElementById(campo).style.paddingRight="15px";
+			return true;
+		}
+	} else {
+			if(div){
+		 		document.getElementById(div).innerHTML = "";
+			}
+			document.getElementById(campo).style.borderColor = "#CCCCCC";
+			document.getElementById(campo).style.backgroundImage = "none";
+			return false;
+	}
+}
+</script>
+<script language="JavaScript">
+function SomenteNumero(e){
+    var tecla=(window.event)?event.keyCode:e.which;
+    if((tecla > 47 && tecla < 58)) return true;
+    else{
+    if (tecla != 8 && tecla!=0) return false;
+    else return true;
+    }
+}
+//exemplo de uso
+//<input type='text' onkeypress='return SomenteNumero(event)'>
+</script>
+       
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>CREMESP - Conselho Regional de Medicina do Estado de São Paulo</title>
+<link rel="stylesheet" href="/Templates/v201108/css/style.min.css" type="text/css">
+<link rel="shortcut icon" href="/Templates/v201108/crm.ico" type="image/x-icon">
+<script type="text/javascript" src="/Templates/v201108/js/jquery_1.6.1.js"></script>
+<script type="text/javascript" src="/Templates/v201108/js/tinydropdown.min.js"></script>
+<script type="text/javascript" src="/Templates/v201108/js/scripts.min.js"></script>
+<script type="text/javascript">
+//mapeamento do google não remover
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23291907-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+//-----------------------------------------------------------
+</script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-DJ0N9KCXK3"></script>
+<script>
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-DJ0N9KCXK3');
+</script>
+<style>#rybena-sidebar{position:fixed;z-index:2147483647;top:40%;right:5px;display:flex}
+                
+                #rybena-sidebar .options{display: grid;grid-template-columns: 45px;grid-row-gap: 5px;}
+                
+                #rybena-sidebar .options button{outline:0;border:none;padding:0;margin:0;display: flex;align-items: center;border-radius: 5px; background: #316181;width:fit-content;max-width:45px;overflow:hidden;transition:max-width 0.8s ease 0s;white-space:nowrap}
+                
+                #rybena-sidebar .options button img{box-sizing:border-box;display:block;width:45px;height:45px; padding: 5px; max-width: unset !important;}
+                #rybena-sidebar .options button .ryb-line{position: absolute;background: linear-gradient(0deg,rgba(255, 255, 255, 0) 13.69%, #FFFFFF 51.52%, rgba(255, 255, 255, 0) 82.91%);width: 1px;height: 45px;right: 6px;top: 0}
+                #rybena-sidebar .options button .ryb-label{position:relative; margin-left:-5px;padding: 13px 25px 12px 20px; background: #316181;border-radius: 0px 5px 5px 0px;font-size: 16px;line-height: 20px;color: white}                                
+                #rybena-sidebar .options .btn-rybena-sign-language:hover{max-width:130px}
+                #rybena-sidebar .options .btn-rybena-voice:hover{max-width:112px}
+                #rybena-sidebar .options .btn-rybena-vision:hover{max-width:200px}</style><style>.loading{display:none}.loading .lds-ring{position:relative;width:35px;height:86px;background-color:#363e72;border-radius:0 10px 10px 0;display:flex;justify-content:center;align-items:center}.loading .lds-ring div{padding-top:50%;box-sizing:border-box;display:block;position:absolute;width:20px;height:20px;margin:0;border:2px solid #fff;border-radius:50%;animation:lds-ring 1.2s cubic-bezier(.5,0,.5,1) infinite;border-color:#fff transparent transparent transparent}.loading .lds-ring div:nth-child(1){animation-delay:-0.45s}.loading .lds-ring div:nth-child(2){animation-delay:-0.3s}.loading .lds-ring div:nth-child(3){animation-delay:-0.15s}@keyframes lds-ring{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}</style><style>#rybena-sidebar {transform: scaleX(-1)}#rybena-sidebar .options img {transform: scaleX(-1)}#rybena-sidebar .options div {transform: scaleX(-1)}</style></head>
+<body>
+<noscript>
+<div align='center'>
+  <div id='sem_javascript'><span>Aten&ccedil;&atilde;o!</span> <br />
+    O seu navegador est&aacute; com <b>javascript desativado</b> ou n&atilde;o possui suporte ao recurso. <br />
+    Alguns recursos de navega&ccedil;&atilde;o podem n&atilde;o funcionar corretamente. </div>
+</div>
+</noscript>
+<div align="center" id="top_menu">
+  <div class="noPrint" id="top_menu_container">
+    <ul id="menu" class="menu">
+      <li><a href="#">Institucional</a>
+        <ul>
+          <li><a href="?siteAcao=Historia">Quem Somos</a></li>
+          <li><a href="?siteAcao=Diretoria">Diretoria</a></li>
+          <li><a href="?siteAcao=Plenaria">Conselheiros</a></li>
+          <li><a href="?siteAcao=DelegaciasRegionais">Regionais do Cremesp</a></li>
+          <li><a href="?siteAcao=CamaraTecnica&amp;tipo=E">Câmaras do Cremesp</a></li>
+          <li><a href="?siteAcao=Agenda">Agenda dos conselheiros</a></li>
+          <li><a href="https://transparencia.cremesp.org.br/?siteAcao=protecao_dados">Proteção de Dados</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Serviços</a>
+        <ul>
+          <li><a href="https://www.cremesp.org.br/?siteAcao=AreaDaEmpresa" target="_blank">Área da empresa</a></li>
+          <li><a href="https://www.cremesp.org.br/?siteAcao=AreaDoMedico" target="_blank">Área do médico</a></li>
+          <li><a href="?siteAcao=GuiaMedico&amp;pesquisa=avancada">Pesquisar médicos</a></li>
+          <li><a href="?siteAcao=ServicosMedicos">Serviços aos médicos</a></li>
+          <li><a href="?siteAcao=ServicosEmpresas">Serviços às empresas</a></li>
+          <li><a href="https://www.cremesp.org.br/?siteAcao=DefensoresDativos">Defensores Dativos</a></li>
+          <li><a href="?siteAcao=Editais">Editais</a></li>
+          <li><a href="?siteAcao=CanalCidadao">Cidadão</a></li>
+          <li><a href="?siteAcao=PreInscricoes">Inscrições</a></li>
+          <!--li><a href='?siteAcao=SessaoSolene'>Entrega de CRM</a></li-->
+          <li><a href="http://webmail.cremesp.org.br/">Webmail</a></li>
+        </ul>
+      </li>
+      <li><a href="https://www.cremesp.org.br/?siteAcao=BibliotecaLegislacao">Legislação</a>
+      </li>
+      <li><a href="#">Transparência</a>
+        <ul style="width: 250px;">
+        <li style="border-top: 1px solid #fff; width:100%; text-align:center"><a style="width: 250px;" href="https://transparencia.cremesp.org.br">Transparência e prestação de contas</a></li>
+          <li style="border-top: 1px solid #fff; width:100%; text-align:center"><a style="width: 250px;" href="?siteAcao=CalendarioAdm">Calendário administrativo</a></li>
+          <!--li><a href='?siteAcao=ContasPublicas'>Contas p&uacute;blicas</a></li>
+          <li><a href='?siteAcao=Licitacoes'>Licita&ccedil;&otilde;es</a></li>
+          <li><a href='?siteAcao=ConcursoPublico'>Concurso p&uacute;blico</a></li-->
+          <li style="border-top: 1px solid #fff; width:100%; text-align:center"><a style="width: 250px;" href="/library/modulos/legislacao/versao_impressao.php?id=21353&amp;versao=integra" target="_blank">Ato administrativo</a></li>
+          <!--li><a href='?siteAcao=PlanoCargos'>PCS dos Funcion&aacute;rios</a></li-->
+        </ul>
+      </li>
+      <li><a href="#">Links</a>
+        <ul>
+          <li>
+            <a href="?siteAcao=cid10">
+              <!--href='http://www.datasus.gov.br/cid10/V2008/cid10.htm' target='_blank'-->
+              CID 10
+            </a>
+          </li>
+          <li><a href="http://portal.anvisa.gov.br/farmacopeia-brasileira" target="_blank">Farmacopeia brasileira</a></li>
+          <li><a href="http://portal.anvisa.gov.br/notivisa" target="_blank">Notivisa</a></li>
+          <li><a href="?siteAcao=OutrosLinks" target="_blank">Veja +</a></li>
+        </ul>
+      </li>
+    </ul>
+    <script type="text/javascript">var dropdown=new TINY.dropdown.init('dropdown', {id:'menu', active:'menuhover'});</script> 
+  </div>
+</div>
+<div id="header_top_menu_bottom"></div>
+<div align="center">
+  <div align="left" id="main_container">
+    <div class="noPrint" id="header">
+  <div style="position:absolute; margin:108px 0 0 522px">
+    <ul id="header_section_button">
+      <li style="background-color: #afd8b5"> <a href="http://www.bioetica.org.br" targe="_blank"><strong>BIOÉTICA</strong></a> </li>
+      <li style="background-color:#e0a477"> <a href="/?siteAcao=BibliotecaCRM"><strong>BIBLIOTECA</strong></a> </li>
+      <li style="background-color: #91ae56"> <a href="/?siteAcao=AgendaEventos"><strong>EVENTOS</strong></a> </li>
+      <li style="background-color:#9f9572"> <a href="/?siteAcao=MedicinaEmFoco"><strong>ARTIGOS</strong></a> </li>
+      <li style="background-color:#ec5b5b"> <a href="/?siteAcao=Imprensa"><strong>IMPRENSA</strong></a> </li>
+      <li style="background-color: #9a9a9a"> <a href="/?siteAcao=Contatos"><strong>CONTATOS</strong></a> </li>
+    </ul>
+  </div>
+  <!-- 02/09/2021 -  Todos os selos foram movidos para o footer da pagina -  SDC-12740 -->
+  
+  <!-- <div id="iso9001_vanzolini"><img src="/Templates/v201108/images/iso_9001_vanzolini.gif" width="88" height="62" alt="ISO 9001" /></div> -->
+  <a href="/"> <img src="/Templates/v201108/images/logo-cremesp.png" alt="CREMESP" title="CREMESP - Conselho Regional de Medicina do Estado de São Paulo" id="logo_top" height="70px" width=""> </a>
+  <div style="float:right; padding-right:10px; margin-top:20px"> <a href="http://www.facebook.com/?ref=logo#!/pages/CREMESP-Conselho-Regional-de-Medicina-do-Estado-de-S%C3%A3o-Paulo/247267831967026" target="_blank"><img src="/Templates/v201108/images/ico_header_facebook.gif" width="28" height="28" alt="Facebook"></a> <a href="https://br.linkedin.com/company/cremesp" target="_blank"><img src="/Templates/v201108/images/ico_header_linkedin.gif" width="28" height="28" alt="LinkedIn"></a> <a href="https://www.instagram.com/cremesp_crm/?hl=pt-br" target="_blank"><img src="/Templates/v201108/images/ico_header_instagram.gif" width="28" height="28" alt="Instagram"></a> <a href="https://twitter.com/cremesp_crm" target="_blank"><img src="/Templates/v201108/images/ico_header_twitter.gif" width="28" height="28" alt="Twitter"></a> <a href="https://www.youtube.com/channel/UCFOAzz5og50J0jwRBoAoR5Q/featured" target="_blank"><img src="/Templates/v201108/images/ico_header_youtube.gif" width="28" height="28" alt="Youtube"></a> <a href="https://flickr.com/photos/cremesp/albums" target="_blank"><img src="/Templates/v201108/images/ico_header_flickr.gif" width="28" height="28" alt="Flickr"></a> </div>
+  <br style="clear:both">
+  <div style="float:right; padding-right:10px; margin-top:15px">
+    <form action="/pesquisar.php" method="get" name="formHeaderPesquisar" id="searchbox_004922888165698411403:9ye_t7p51gk">
+      <input style="width:230px; height:20px; padding-left:5px" name="q" type="text" maxlength="100" id="header_pesquisar_box" value="" placeholder="Pesquisar">
+      <a style="padding:5px; background-color: #666; color: #fff; text-decoration:none; cursor:pointer" onclick="document.formHeaderPesquisar.submit()"> OK </a>
+    </form>
+  </div>
+</div>
+<div id="header_shadow_bottom"> </div>
+    <div style="padding:10px">
+      <h1>Fale Conosco</h1><br>
+
+      
+    <div style="float:left; width:65%; min-height:300px;"><br><h3>REGISTRO DE PROFISSIONAIS</h3><br>
+	<p>Esclarece  dúvidas sobre:</p>
+<ul>
+  <li>Inscrição  de registro profissional – Pessoa Física;</li>
+  <li>Inscrição  para estrangeiros;</li>
+  <li>Cancelamento  da inscrição;</li>
+  <li>Transferência/Inscrição  secundária para outros Estados;</li>
+  <li>Registro  de especialidades;</li>
+  <li>Emissão  de certidões e 2ª via de documentos;</li>
+  <li>Averbações  e/ou mudança de nome</li>
+</ul><br>
+
+<p>Para  orientação detalhada, acesse <a href="?siteAcao=ServicosMedicos">serviços aos médicos</a> no site.<br><br>
+
+  Contate: <a href="mailto:srp@cremesp.org.br">srp@cremesp.org.br</a></p>
+
+	</div><div style="float:right; width:300px;"><img src="/Templates/v201108/images/img_bullet_padrao.gif" style="padding-right:5px;"><a href="?siteAcao=Contatos&amp;dep=cad">ALTERAÇÃO DE ENDEREÇO</a><br><br>
+			<img src="/Templates/v201108/images/img_bullet_padrao.gif" style="padding-right:5px;"><a href="?siteAcao=Contatos&amp;dep=bib">BIBLIOTECA</a><br><br>
+			<img src="/Templates/v201108/images/img_bullet_padrao.gif" style="padding-right:5px;"><a href="?siteAcao=Contatos&amp;dep=scb">COBRANÇA DE ANUIDADES PF e PJ</a><br><br>
+			<img src="/Templates/v201108/images/img_bullet_padrao.gif" style="padding-right:5px;"><a href="?siteAcao=Contatos&amp;dep=asc">COMUNICAÇÃO</a><br><br>
+			<img src="/Templates/v201108/images/img_bullet_padrao.gif" style="padding-right:5px;"><a href="?siteAcao=Contatos&amp;dep=scn">CONSULTAS ÉTICAS</a><br><br>
+  			<img src="/Templates/v201108/images/img_bullet_padrao.gif" style="padding-right:5px;"><a href="?siteAcao=Contatos&amp;dep=delegacias">DELEGACIAS</a><br><br>
+			<img src="/Templates/v201108/images/img_bullet_padrao.gif" style="padding-right:5px;"><a href="?siteAcao=Contatos&amp;dep=ssi">DENÚNCIAS</a><br><br>
+			<img src="/Templates/v201108/images/img_bullet_padrao.gif" style="padding-right:5px;"><a href="?siteAcao=Contatos&amp;dep=eve">EVENTOS</a><br><br>			
+  			<img src="/Templates/v201108/images/img_bullet_padrao.gif" style="padding-right:5px;"><a href="?siteAcao=Contatos&amp;dep=def">FISCALIZAÇÃO</a><br><br>
+			<img src="/Templates/v201108/images/img_bullet_padrao.gif" style="padding-right:5px;"><a href="?siteAcao=Contatos&amp;dep=spep">PROCESSOS ÉTICO-PROFISSIONAIS</a><br><br>
+			<img src="/Templates/v201108/images/img_bullet_padrao.gif" style="padding-right:5px;"><a href="?siteAcao=Contatos&amp;dep=scr">RECEBIMENTO DE PAGAMENTOS</a><br><br>			
+			<img src="/Templates/v201108/images/img_bullet_padrao.gif" style="padding-right:5px;"><a href="?siteAcao=Contatos&amp;dep=srh">RECURSOS HUMANOS – CONCURSOS PÚBLICOS</a><br><br>
+			<img src="/Templates/v201108/images/img_bullet_padrao.gif" style="padding-right:5px;"><a href="?siteAcao=Contatos&amp;dep=sre">REGISTRO DE EMPRESAS</a><br><br>
+			<img src="/Templates/v201108/images/img_bullet_padrao.gif" style="padding-right:5px;"><a href="?siteAcao=Contatos&amp;dep=srp">REGISTRO DE PROFISSIONAIS</a><br><br>
+			<img src="/Templates/v201108/images/img_bullet_padrao.gif" style="padding-right:5px;"><a href="?siteAcao=Contatos&amp;dep=rod">RODÍZIO DE VEÍCULO/CARTÃO – DSV</a><br><br>
+			<img src="/Templates/v201108/images/img_bullet_padrao.gif" style="padding-right:5px;"><a href="?siteAcao=Contatos&amp;dep=transparencia">PORTAL TRANSPARÊNCIA</a><br><br>	
+			</div> 
+    <div class="spacer"></div> 
+      </div>
+    </div>
+  </div>
+
+
+
+<style>
+  .cookieConsentContainer{
+    z-index:9999;
+    width:96%;
+    min-height:20px;
+    box-sizing:border-box;
+    padding:15px 20px 20px 20px;
+    background:#026156;
+    overflow:hidden;
+    position:fixed;
+    bottom:30px;
+    right:30px;
+    display: none;
+    border-radius: 10px;
+    border: 1px solid #000;
+  }
+  .cookieConsentContainer.hide {
+    display: none !important;
+  }
+  .cookieConsentContainer table, tr, td, th{
+    border:none;
+  }
+  .cookieConsentContainer .cookieTitle a{
+    font-family:OpenSans,arial,sans-serif;
+    color:#fff;
+    font-size:22px;
+    line-height:20px;
+    display:block;
+  }
+  .cookieConsentContainer .cookieDesc p{
+    margin:0;
+    padding:0;
+    font-family:OpenSans,arial,sans-serif;
+    color:#fff;
+    font-size:13px;
+    line-height:20px;
+    display:block;
+    margin-top:10px;
+  }
+  .cookieConsentContainer .cookieDesc a{
+    font-family:OpenSans,arial,sans-serif;
+    color:#fff;
+    text-decoration:underline;
+  }
+  .cookieConsentContainer .cookieButton{
+    position: relative;
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+  }
+  .cookieConsentContainer .cookieButton a{
+    display:inline-block;
+    font-family:OpenSans,arial,sans-serif;
+    color:#fff;
+    font-size:14px;
+    font-weight:700;
+    margin-top:14px;
+    background:#024c44;
+    box-sizing:border-box;
+    padding:15px 24px;
+    text-align:center;
+    transition:background .3s;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+  }
+  .cookieConsentContainer .cookieButton a:hover{
+    cursor:pointer;
+    background:#009267;
+  }
+  @media (max-width:980px){
+    .cookieConsentContainer{
+      bottom:0!important;
+      left:0!important;
+      width:100%!important;
+    }
+  }
+</style>
+
+<script>
+  
+  function pureFadeIn(e,o){
+    var i=document.getElementById(e);
+    i.style.opacity=0,i.style.display=o||"block",function e(){
+      var o=parseFloat(i.style.opacity);
+      (o+=.02)>1||(i.style.opacity=o,requestAnimationFrame(e))
+    }();
+  }
+  
+  function pureFadeOut(e){
+    var o=document.getElementById(e);
+    o.style.opacity=1,function e(){
+      (o.style.opacity-=.02)<0?o.style.display="none":requestAnimationFrame(e)
+    }()
+  }
+  
+  function setCookie(e,o,i){
+    var t="";
+    if(i){
+      var n=new Date;
+      n.setTime(n.getTime()+24*i*60*60*1e3),t="; expires="+n.toUTCString()
+    }
+    document.cookie=e+"="+(o||"")+t+"; path=/"
+  }
+  
+  function getCookie(e){
+    for(var o=e+"=",i=document.cookie.split(";"),t=0;t<i.length;t++){
+      for(var n=i[t];" "==n.charAt(0);)
+        n=n.substring(1,n.length);
+      if(0==n.indexOf(o))
+        return n.substring(o.length,n.length)
+    }
+    return null
+  }
+
+  function eraseCookie(e){
+    document.cookie=e+"=; Max-Age=-99999999;"
+  }
+  
+  
+  function purecookieDismiss(){
+    setCookie("purecookieDismiss","1",7),pureFadeOut("cookieConsentContainer")
+  }
+
+
+    function cookieConsent(){
+      getCookie("purecookieDismiss")||(document.querySelector(".cookieConsentContainer").classList.remove('hide'),pureFadeIn("cookieConsentContainer"))
+    }
+</script>
+
+
+<div align="center" id="bottom" class="noPrint" style="clear:both">
+  <div align="left" id="bottom_container">
+    <div class="bottom_sitemap" style="width: 200px;">
+      <h3>INSTITUCIONAL</h3>
+      <div class="bottom_topicos">
+        <p>› <a href="?siteAcao=Historia">Missão, Visão e Valores</a></p>
+        <p>› <a href="?siteAcao=Diretoria">Diretoria</a></p>
+        <p>› <a href="?siteAcao=Plenaria">Conselheiros</a></p>
+        <p>› <a href="?siteAcao=DelegaciasRegionais">Regionais do Cremesp</a></p>
+        <p>› <a href="?siteAcao=CamaraTecnica&amp;tipo=E">Câmaras Técnicas</a></p>
+        <p>› <a href="?siteAcao=Agenda">Agenda dos conselheiros</a></p>
+        <p>› <a href="https://transparencia.cremesp.org.br/?siteAcao=protecao_dados">Proteção de Dados</a></p>
+      </div>
+      <h3>SERVIÇOS</h3>
+      <div class="bottom_topicos">
+        <p>› <a href="?siteAcao=AreaMedicoInstrucao">Área do médico</a></p>
+        <p>› <a href="?siteAcao=GuiaMedico&amp;pesquisa=avancada">Pesquisar médicos</a></p>
+        <p>› <a href="?siteAcao=ServicosMedicos">Serviços aos médicos</a></p>
+        <p>› <a href="?siteAcao=ServicosEmpresas">Serviços às empresas</a></p>
+        <p>› <a href="/?siteAcao=DefensoresDativos">Defensores Dativos</a></p>
+        <p>› <a href="/?siteAcao=Editais">Editais</a></p>
+        <p>› <a href="/?siteAcao=CanalCidadao">Cidadão</a></p>
+        <p>› <a href="/?siteAcao=ServicosMedicos&amp;id=26">Inscrições</a></p>
+        <p>› <a href="/?siteAcao=SessaoSolene">Entrega de CRM</a></p>
+        <p>› <a href="https://webmail.cremesp.org.br/">Webmail</a></p>
+      </div>
+      <h3><a href="?siteAcao=AgendaEventos">EVENTOS</a></h3>
+      <h3><a href="?siteAcao=BibliotecaCRM">BIBLIOTECA</a></h3>
+      <h3><a href="?siteAcao=Imprensa">IMPRENSA</a></h3>
+    </div>
+    <div class="bottom_sitemap" style="width: 220px;">
+      <h3>LEGISLAÇÃO</h3>
+      <div class="bottom_topicos">
+        <p>› <a href="?siteAcao=PesquisaLegislacao&amp;dif=s&amp;ficha=1&amp;id=15535&amp;tipo=RESOLU%C7%C3O&amp;orgao=Conselho%20Federal%20de%20Medicina&amp;numero=2217&amp;situacao=VIGENTE&amp;data=27-09-2018">Código de Ética Médica</a></p>
+        <p>› <a href="/?siteAcao=PublicidadeMedica">Publicidade médica</a></p>
+        <p>› <a href="?siteAcao=PesquisaLegislacao&amp;dif=s&amp;ficha=1&amp;id=19362&amp;tipo=RESOLU%C7%C3O&amp;orgao=Conselho%20Federal%20de%20Medicina&amp;numero=2306&amp;situacao=VIGENTE&amp;data=17-03-2022">Cód. de Proc. Ético-profissional</a></p>
+        <p>› <a href="/library/modulos/legislacao/versao_impressao.php?id=16374&amp;versao=integra">Regimento interno</a></p>
+        <p>› <a href="/?siteAcao=PesquisaLegislacao&amp;dif=s">Buscar legislação</a></p>
+        <p>› <a href="/?siteAcao=Pareceres&amp;dif=s">Buscar pareceres</a></p>
+
+      </div>
+      <h3>TRANSPARÊNCIA</h3>
+      <div class="bottom_topicos">
+        <p>› <a href="https://transparencia.cremesp.org.br">Transparência e prestação de contas</a></p>
+        <p>› <a href="/?siteAcao=CalendarioAdm">Calendário administrativo</a></p>
+        <p>› <a href="/library/modulos/legislacao/versao_impressao.php?id=21353&amp;versao=integra">Ato administrativo</a></p>
+      </div>
+      <h3>LINKS</h3>
+      <div class="bottom_topicos">
+        <p>› <a href="http://www.datasus.gov.br/cid10/V2008/cid10.htm" target="_blank">CID 10</a></p>
+        <p>› <a href="/?siteAcao=Noticias&amp;id=1918" target="_blank">Boletins pró-Sus e Comsu </a></p>
+        <p>› <a href="http://www.anvisa.gov.br/hotsite/farmacopeiabrasileira/index.htm" target="_blank">Farmacopeia brasileira</a></p>
+        <p>› <a href="http://www.anvisa.gov.br/hotsite/notivisa/index.htm" target="_blank">Notivisa</a></p>
+        <p>› <a href="/?siteAcao=OutrosLinks" target="_blank">Veja +</a></p>
+        <p>› <a href="https://cremesp.org.br/?siteAcao=CMDesatualizado" target="_blank">Médicos com endereço desatualizado</a></p>
+        <p>› <a href="https://cremesp.org.br/?siteAcao=PoliticaPrivacidade" target="_blank">Política de privacidade</a></p>
+      </div>
+
+
+
+    </div>
+    <div id="bottom_info" style="padding-left: 30px;">
+      <p> <strong>CONSELHO REGIONAL DE MEDICINA DO ESTADO DE SÃO PAULO</strong><br>
+        CNPJ: 63.106.843/0001-97</p>
+      <p><strong>Sede</strong>: Rua Frei Caneca, 1282<br>
+        Consolação - São Paulo/SP - CEP 01307-002</p>
+      <!--p><strong>Delegacia da Vila Mariana</strong>: <br>Rua Domingos de Moraes, 2187 - cj. 223 - Edifício Xangai<br />
+        Vila Mariana – S&atilde;o Paulo/SP - CEP 04035-000</p-->
+      <p><strong>CENTRAL DE ATENDIMENTO TELEFÔNICO</strong><br>
+      </p><div>
+          <div style="display: inline-block;vertical-align: middle;">
+              <img src="/Templates/v201108/images/whats.png" width="20" style="object-fit: scale-down;" alt="Imagem">
+          </div>
+          <span style="display: inline-block;vertical-align: middle;">(11) 4349-9900 (de segunda a sexta feira, das 8h às 20h)</span>
+      </div>
+      <p></p>
+      <!-- <img src="/Templates/v201108/images/whats.png" width="20" style="object-fit: scale-down" />(11) 4349-9900 (de segunda a sexta feira, das 8h às 20h)</p> -->
+      <p><strong>HORÁRIO DE EXPEDIENTE PARA PROTOCOLOS</strong><br>
+        De segunda a sexta-feira, das 9h às 18h</p>
+      <p><a href="?siteAcao=Contatos"><strong>CONTATOS</strong></a></p>
+      <div>
+        <div style="width:140px; display:inline; float:left">Regionais do Cremesp:</div>
+        <select name="id" onchange="window.location.href = this.value" class="select">
+          <option>Selecione</option>
+          <option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=4">ARAÇATUBA</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=3">ARARAQUARA</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=6">BARRETOS</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=7">BAURU</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=8">BOTUCATU</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=9">CAMPINAS</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=10">FRANCA</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=22">GRANDE ABC</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=11">GUARULHOS</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=13">JUNDIAÍ</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=14">LIMEIRA</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=15">MARÍLIA</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=35">MOGI DAS CRUZES</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=17">OSASCO</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=18">PIRACICABA</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=20">PRESIDENTE PRUDENTE</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=31">REGIONAL LESTE</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=29">REGIONAL NORTE</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=32">REGIONAL OESTE</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=30">REGIONAL SUL</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=21">REGISTRO</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=19">RIBEIRÃO PRETO</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=27">SANTOS</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=37">SÃO JOÃO DA BOA VISTA</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=25">SÃO JOSÉ DOS CAMPOS</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=38">SEDE - FREI CANECA</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=23">SOROCABA</option>
+<option value="https://www.cremesp.org.br?siteAcao=DelegaciasRegionais&amp;id=33">VILA MARIANA</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <div style="width:140px; display:inline; float:left">Conselhos de Medicina:</div>
+        <select id="selectregionais" onchange="window.location.href = this.value" class="select">
+          <option value="#">Selecione</option>
+          <option value="">São Paulo</option>
+          <option value="https://portal.cfm.org.br/">Federal</option>
+          <option value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=AC">Acre</option>
+          <option value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=AL">Alagoas</option>
+          <option value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=AM">Amazonas</option>
+          <option value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=AP">Amapá</option>
+          <option value="http://www.cremeb.org.br/cremeb.php?m=site.home">Bahia</option>
+          <option value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=CE">Ceará</option>
+          <option value="http://www.crmdf.org.br/">Distrito Federal</option>
+          <option value="http://www.crm-es.org.br/">Espírito Santo</option>
+          <option value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=GO">Goiás</option>
+          <option value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=MA">Maranhão</option>
+          <option value="http://www.crmmg.org.br/">Minas Gerais</option>
+          <option value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=MT">Mato Grosso</option>
+          <option value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=MS">Mato Grosso do Sul</option>
+          <option value="http://www.cremepa.org.br/">Pará</option>
+          <option value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=PB">Paraíba</option>
+          <option value="http://www.cremepe.org.br/">Pernambuco</option>
+          <option value="http://www.crmpi.com.br/">Piauí</option>
+          <option value="http://www.crmpr.org.br/">Paraná</option>
+          <option value="http://www.cremerj.org.br/skel.php">Rio de Janeiro</option>
+          <option value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=RN">Rio Grande do Norte</option>
+          <option value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=RO">Rondônia</option>
+          <option value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=RR">Roraima</option>
+          <option value="http://www.cremers.org.br/">Rio Grande do Sul</option>
+          <option value="http://www.cremesc.org.br/">Santa Catarina</option>
+          <option value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=SE">Sergipe</option>
+          <option value="http://www.portalmedico.org.br/novoportal/index5.asp?portal=TO">Tocantins</option>
+        </select>
+        <br>
+      </div>
+      <br>
+
+      <div style="margin-top: 5vw;">
+     	 <div style="float:left"><img src="/Templates/v201108/images/Marca_Participacao_SELO.png" width="90" height="90" style="object-fit: scale-down"></div>
+        <!-- <div style="float:left"><img src="/Templates/v201108/images/iso_9001_vanzolini.gif" width="90" height="90" style="object-fit: scale-down" /></div> -->
+        <div style="float:left; padding-left:15px;"><a href="https://transparencia.cremesp.org.br" target="_blank"><img src="/Templates/v201108/images/acesso_informacao.png" width="90" height="90" style="object-fit: scale-down"></a></div>
+      </div>
+    </div>
+    <div class="spacer"></div>
+    <div align="center" style="padding:10px; margin:10px 25px 0 25px; border-top:dashed 1px #D7D7D7">© 2001-2025 cremesp.org.br <b>Todos os direitos reservados</b>. <a href="?siteAcao=CodigoConduta">Código de conduta online</a>. 364 usuários on-line - 401 </div>
+    <div align="center" style="padding:10px; margin:0px 25px 0 25px; border-top:dashed 1px #D7D7D7"> Este site é melhor visualizado em Internet Explorer 8 ou superior, Firefox 40 ou superior e Chrome 46 ou superior </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="/Templates/v201108/js/rybena.js?positionPlayer=right&amp;positionBar=right&amp;enableCloseBarWeb=true&amp;enableCloseBarMobile=true"></script>
+
+
+<div class="cookieConsentContainer" id="cookieConsentContainer" style="opacity: 1; display: block;">
+  <table>
+    <tbody><tr>
+      <th style="width: 5%;background:#026156;"></th>
+      <th style="width: 80%;background:#026156;">
+        <div class="cookieDesc"><p>O CREMESP utiliza cookies, armazenados apenas em caráter temporário, a fim de obter estatísticas para aprimorar a experiência do usuário. A navegação no site implica concordância com esse procedimento, em linha com a <a href="/pdfs/lgpd/politicadecookies.pdf" target="_blank">Política de Cookies</a> do CREMESP. Saiba mais em nossa <a href="https://transparencia.cremesp.org.br/library/modulos/protecao_dados/pdf/2021/POLITICA_DE_PRIVACIDADE_E_PROTECAO_DE_DADOS_CREMESP.pdf" target="_blank">Política de Privacidade e Proteção de Dados</a>.</p></div>
+      </th>
+      <th style="width: 10%;background:#026156;">
+        <div class="cookieButton"><a onclick="purecookieDismiss();">Ciente</a></div>
+      </th>
+      <th style="width: 5%;background:#026156;"></th>
+    </tr>
+  </tbody></table>
+</div>
+ 
+<script>
+  (() => {
+
+    cookieConsent();
+    
+  })();
+</script>
+<div id="rybena-sidebar" class="ryb-final">
+      <div class="options ryb-final">
+        
+        <button class="btn-rybena-sign-language ryb-final">
+          <img class="ryb-final" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAiCAYAAADVhWD8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAO8SURBVHgBxZdrqE1bFMfHvlxXLhe5bh25HCkiOqHknTzyKMkHfJFH3oqDDlI6HkUeUSQhJYQPnvHB+y3PvF85KUeSD8pzKx2c6TeaY2edddY+Z78c//rt2Vp7jjHHmnPMucYSyYGcc7vgKTSS3ykCmOp+qp/8LjH4AIgHgumZhm1r+FtyIRwtgO+BQK6nYNMIRsN9s7ki2QgHdWGnqygNqkMVNl1gDbwL2e2TTIVxfX0aV1lzIvrWhkFwDspD/TWo+fCHZCqM90cEUmz/6RIMgVlwNJRLwSBWuWx3HQ7muWidghJXMX+iglgCjZP4jkmqonNH+ObSlwa4DhomBoU2MMKCOwFvre/p2lUEkEfTBTrDJKgl6UsTdC9Mxp/6GghNkvTNiwUG18GmQ6EZNJbU5CAWupbQvWQqhQtwFM4EZ2YXvIbRMBPGhZy60IBvIQ5f4RXchUPQH4olWur/CDyBY7FYrKRSD2alEDaH7nWD585vy3Jb26XQG+onGUztDrqKyayH41BoIdVIE6oBrZ6E3Yj0c4RzzZkv/Pe4Kkf060szD4ZIxSVaB/fgDXyC9+Jn9SM+42En42GlZCDsFsJ2eOQqH2yp7rZXcNLp2cPPIWglaUptnD/YMgkiSn11mR4yXR0kA2GbT7MExopP6uDxXio+kTXB60Bd+BP+En9M1LHr73CTGI5LWVnZI8lSBFXg/KuiPICqxJZgGQyG1tU5emBPmLXUD6yHZxGBJfQCxiRzoG/WJ7AJmkiOhK9eMAMuWKIGg9tTnfE0uA49JEM5X731hOYR/2lNMxfuulTe2jbNd6pd22jbBvDB+eL8ls32XpsdDbCp9TsAfaJ8xCKcjqTpTnbPlfQDWkvTCQ7DGdAaV+tiHVxnQ3fUNXzPSdVhLbimuSRpiP71rP0PJsINWAHNJBvZcumOKE6x/zZ4qTMD/9o9LTunWFCLE8tUlSJrUKaxlKYd1MPJ4RS2/gM4C89BS85VtM3xs1X8Mr0DPW8KJRvhYCBcgqLg/Xg8vsBmpJn108ptj/O18HhLYL0usP8b2hlUJNnI+XJxJVxNzBLtbPhoOydxT7fuTWhp17qLtKR4DKNsZ22QXMj5Wlg/VYbZtT7pbgtogN0ba4PnB+w0B1c7/4bPl1wJZ//b0y+2a12KLc6XEUV2rz1c1FZ+tSwvzjtfz+iH3W0YDhthmfVpazNWIDUhBjpi2zbPlu8fS+TLmjfOf5acl5qQnSU7bEZOJY55578s9T13FpZLTYoBJ8Ci0L2m0FXS0A/Ap1pB6G+/mgAAAABJRU5ErkJggg==" alt="Botão Rybená LIBRAS">
+          <div class="ryb-label ryb-final">
+            <span class="ryb-final">Libras</span>
+            <div class="ryb-line ryb-final"></div>
+          </div>
+        </button>
+        <button class="btn-rybena-voice ryb-final"> 
+            <img class="ryb-final" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAK7SURBVHgBxVdNSBVRGP1ePYog0AfRD4VNSEW0qKBFGJYRBBGR0KJl+Ai3GRRSkTxbWBBEQasg3j7oD2rVzysICoKsIHPTMw03hvrcSFk2ncucwa9xnm+8jtwDh885c+69Z96db7iKWMD3/WZwDOyQFLFE7HAQzIGbJEXYhtnKWpYUYRtmLetHSRG2YX6wrpcUYRvmK2uzuAa6aL8fYALcLq6BEM8Z6JG4BkI0gJMM1CKugRCXGaYMLhWXQIA6cICBzotrIMQxhhkH14hrIESJge6IK2DxevAkWPRnsKrGmDfgZzAnaQGTHeHWaAwkGFem95WkBfXivgZvg2eSPC08HjjEsZ2yULCLDKYSeK+Ab00IpR1WL/06WSjUFnk1fM/CbQGXKf0F9R5JIUwvJztRw2e2ZZjei0pvUb/OCrEIYLqnQ7WyQWvEcxx8CG5UWiu9wxHvCPW9Mh9gwDWwokKYJ7oe43vA+yWlZdS27lF6kdppSQo/OICHKPlB59RX8TaohbfELHxKaeeoFc110sNVH/iXf3vgYCaTqcQZoQ+hPOXlLnXruxofIjwxZhOHwQKjKLvBb5zsHp7m6hxDwuPoqNKWs04qLewuP3EYBupFaQQLlDoRaHXUBy2P0gT+Bt+rWztZ+2R26Mq8wjCQ2arwyQZl5mfWOMpagH+MAT2UQ9Q/KO8+1pdiA0zcz5cuX+X+BvBARLvBMfeVlgOnqDeKDVR7ewn97aoTtyk9T+1dqGVjBpsPkNnfleBP8Bc4LcFLthmsA/9I/BbFoZ21G9v2hWuYz8Il6rekylNc8JOhIAkBbxPYFtFucp7/jhwZZTD/P/fz8q4EbWza0bRflt4J8AmesCSWwDpdKN283IG5PsWZivpruFjA/NNc52w1g6e2wJNFhB8cU9vmMvQwyGNxiPCjNwKOg13iEP8A9EL4pzO+srIAAAAASUVORK5CYII=" alt="Botão Rybená LIBRAS">
+            <div class="ryb-label ryb-final">
+               <span class="ryb-final">Voz</span>
+                <div class="ryb-line ryb-final"></div>
+            </div>
+        </button>
+        <button class="btn-rybena-vision ryb-final"> 
+            <img class="ryb-final" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAM8SURBVHgB7ZdNSFRRFMfvLNoU6ChUCwsMaeGigtJKCtSwTX60UVvVFLUupIIWhlL7NkFRm4gg7IuKalFYtlCMNn1ZVlojERWYStDoJj39D++85syd++bDCd/GP/x48+4799z/O/e++94Ys6gsIqIicATUmrAFEx3kKQHqTZiCgc3gNyXVZMIUDLQpQ1yhdrOAitgNMNCIw305nQF7IpHIPStmLQ67wDpQCkrAHBgDz0A/+gyb/yE2ZE1ZM4iCE+At5abPIAZWm0IlU+ZrGkw5BvwFRkE/eClTaysOjplCxUkcyXnQLlAR0Gc9eVvEJ4epSpOv0CkCusmt1jzyxBymunLtzwl4bVyzEtwGc/Kb11KdxHEFroA+iYmBZY6cR618N0FxNiMrwAurtHFpO0Cpi9q1hvw+ux25K+SaryFQFmSkDHxUwTPgA6gB42LokGWINSmViVvtjY4xloOHKmY0zRAaSij9kW2gZGW2gjHwzhqUn55mlecgeU8YiysXdRji9Xhe5XiTEoeTXnWxR5molyObaBZDLrWrXDtV+2ETvCQuqrgnfuMp1fgHvJdKxIU6McGVexxghivUpAaakParGcxwhW6oHJ3cOCkns6BWDAyDLcqQ355J/wyRt4ZYfSaDcL1cxmVNcEOnSngdrKHk1NQpQzsouyFWu4q7lcXMXdXvtN/4SDVeEEP+1FQrQ2coP8UyGDmr4nr1hSil3jWvdn9f4P2gSn5PUu7i+KUOE0vAJRXHM1BiB/E+M6qC7pC3kL+Q9/htotymyRfvR63WGKVgUMXwvrYqqHRsaMi6uwYx9ApspKSh2QATU5ahWsldSak3wy/clSbLoiom792hdU4SvVaGfoCTaoCn4Dt4TunfQ5ct8/zui5pcRcFvba7QBjHB07odfJM7rZHKDIB9lHy5anWb+chRWl3iFko+ZdvkOAL2SsxPR7/jplBxEsq8eL8GDE5SqWl13mgKFXm75X5K/1gKEj8I/M3M20aLak8EGYqYeYi8z8cqwH/2yiXPFBgHg2AA/w5GrD78du8B/t7ThJgHJiyR96pIqAq1mTAlhvSUVZswRd53kr8PdZiwRd4XAX/QF5lFZdFftt33J/Oku5UAAAAASUVORK5CYII=" alt="Botão Rybená LIBRAS">
+            <div class="ryb-label ryb-final">
+               <span class="ryb-final">+ Acessibilidade</span>
+                <div class="ryb-line ryb-final"></div> 
+            </div>
+        </button>
+      </div>
+      <div class="loading ryb-final">
+        
+        <div class="lds-ring ryb-final"><div></div><div></div><div></div><div></div></div>
+        
+      </div>
+    </div></body></html>

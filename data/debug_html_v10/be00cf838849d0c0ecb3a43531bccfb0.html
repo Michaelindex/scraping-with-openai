@@ -1,0 +1,1159 @@
+<html lang="pt-PT" prefix="og: https://ogp.me/ns#"><head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.v="1.2.3",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",t=>{this.persisted=t.persisted}),window.addEventListener("DOMContentLoaded",()=>{this._preconnect3rdParties()}),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}_addUserInteractionListener(t){if(document.hidden){t._triggerListener();return}this.triggerEvents.forEach(e=>window.addEventListener(e,t.userEventHandler,{passive:!0})),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler)}_removeUserInteractionListener(){this.triggerEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!0})),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"onclick","rocket-onclick"),this._pendingClickStarted())}_onTouchMove(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"rocket-onclick","onclick"),this._pendingClickFinished()}_onTouchEnd(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(t){t.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this._pendingClickFinished()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach(t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))})}_waitForPendingClicks(){return new Promise(t=>{this._isClickPending?this._pendingClickFinished=t:t()})}_pendingClickStarted(){this._isClickPending=!0}_pendingClickFinished(){this._isClickPending=!1}_renameDOMAttribute(t,e,r){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(r,event.target.getAttribute(e)),event.target.removeAttribute(e))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(e=>{if(e.hasAttribute("src")){let r=new URL(e.src).origin;r!==location.origin&&t.push({src:r,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this._batchInjectResourceHints(t,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(this),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._waitForPendingClicks().then(()=>{this._replayClicks()}),this._emptyTrash()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _transformScript(t){return new Promise((await this._littleBreath(),navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor)?e=>{let r=document.createElement("script");[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),r.setAttribute(e,t.nodeValue))}),t.text&&(r.text=t.text),r.hasAttribute("src")?(r.addEventListener("load",e),r.addEventListener("error",e)):(r.text=t.text,e());try{t.parentNode.replaceChild(r,t)}catch(i){e()}}:async e=>{function r(){t.setAttribute("data-rocket-status","failed"),e()}try{let i=t.getAttribute("data-rocket-type"),n=t.getAttribute("data-rocket-src");t.text,i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",function r(){t.setAttribute("data-rocket-status","executed"),e()}),t.addEventListener("error",r),n?(t.removeAttribute("data-rocket-src"),t.src=n):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}catch(s){r()}})}async _loadScriptsFromList(t){let e=t.shift();return e&&e.isConnected?(await this._transformScript(e),this._loadScriptsFromList(t)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(t,e){var r=document.createDocumentFragment();t.forEach(t=>{let i=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(i){let n=document.createElement("link");n.href=i,n.rel=e,"preconnect"!==e&&(n.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),r.appendChild(n),this.trash.push(n)}}),document.head.appendChild(r)}_delayEventListeners(t){let e={};function r(t,r){!function t(r){!e[r]&&(e[r]={originalFunctions:{add:r.addEventListener,remove:r.removeEventListener},eventsToRewrite:[]},r.addEventListener=function(){arguments[0]=i(arguments[0]),e[r].originalFunctions.add.apply(r,arguments)},r.removeEventListener=function(){arguments[0]=i(arguments[0]),e[r].originalFunctions.remove.apply(r,arguments)});function i(t){return e[r].eventsToRewrite.indexOf(t)>=0?"rocket-"+t:t}}(t),e[t].eventsToRewrite.push(r)}function i(t,e){let r=t[e];Object.defineProperty(t,e,{get:()=>r||function(){},set(i){t["rocket"+e]=r=i}})}r(document,"DOMContentLoaded"),r(window,"DOMContentLoaded"),r(window,"load"),r(window,"pageshow"),r(document,"readystatechange"),i(document,"onreadystatechange"),i(window,"onload"),i(window,"onpageshow")}_delayJQueryReady(t){let e;function r(r){if(r&&r.fn&&!t.allJQueries.includes(r)){r.fn.ready=r.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(r):document.addEventListener("rocket-DOMContentLoaded",()=>e.bind(document)(r)),r([])};let i=r.fn.on;r.fn.on=r.fn.init.prototype.on=function(){if(this[0]===window){function t(t){return t.split(" ").map(t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=t(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(e=>{let r=arguments[0][e];delete arguments[0][e],arguments[0][t(e)]=r})}return i.apply(this,arguments),this},t.allJQueries.push(r)}e=r}r(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){r(t)}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this._littleBreath();let t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){let t=new Map;document.write=document.writeln=function(e){let r=document.currentScript;r||console.error("WPRocket unable to document.write this: "+e);let i=document.createRange(),n=r.parentElement,s=t.get(r);void 0===s&&(s=r.nextSibling,t.set(r,s));let a=document.createDocumentFragment();i.setStart(a,0),a.appendChild(i.createContextualFragment(e)),n.insertBefore(a,s)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}_emptyTrash(){this.trash.forEach(t=>t.remove())}static run(){let t=new RocketLazyLoadScripts;t._addUserInteractionListener(t)}}RocketLazyLoadScripts.run();</script>
+	
+			<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+<!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
+<title>Tratamento de varizes sem cirurgia - Dra. Leticia Costa</title><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMarcellus%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMarcellus%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap" media="all" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%20Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMarcellus%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap" /></noscript>
+<meta name="description" content="Diga adeus às varizes e dê as boas-vindas a uma nova jornada de autoestima e bem-estar. Tratamentos minimamente invasivos que permitem uma recuperação rápida">
+<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+<link rel="canonical" href="https://varizes.draleticiacosta.com.br/">
+<meta property="og:locale" content="pt_PT">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tratamento de varizes sem cirurgia - Dra. Leticia Costa">
+<meta property="og:description" content="Diga adeus às varizes e dê as boas-vindas a uma nova jornada de autoestima e bem-estar. Tratamentos minimamente invasivos que permitem uma recuperação rápida">
+<meta property="og:url" content="https://varizes.draleticiacosta.com.br/">
+<meta property="og:site_name" content="Dra. Leticia Costa">
+<meta property="og:updated_time" content="2024-06-03T23:58:56+00:00">
+<meta property="og:image" content="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Logo-Horizontal_2-26-1.jpg">
+<meta property="og:image:secure_url" content="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Logo-Horizontal_2-26-1.jpg">
+<meta property="og:image:width" content="864">
+<meta property="og:image:height" content="327">
+<meta property="og:image:alt" content="Tratamento de varizes sem cirurgia">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="article:published_time" content="2023-06-23T19:27:43+00:00">
+<meta property="article:modified_time" content="2024-06-03T23:58:56+00:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tratamento de varizes sem cirurgia - Dra. Leticia Costa">
+<meta name="twitter:description" content="Diga adeus às varizes e dê as boas-vindas a uma nova jornada de autoestima e bem-estar. Tratamentos minimamente invasivos que permitem uma recuperação rápida">
+<meta name="twitter:image" content="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Logo-Horizontal_2-26-1.jpg">
+<meta name="twitter:label1" content="Written by">
+<meta name="twitter:data1" content="Karine">
+<meta name="twitter:label2" content="Time to read">
+<meta name="twitter:data2" content="7 minutes">
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":["Person","Organization"],"@id":"https://varizes.draleticiacosta.com.br/#person","name":"Karine","logo":{"@type":"ImageObject","@id":"https://varizes.draleticiacosta.com.br/#logo","url":"https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Logo-Horizontal_2-26-1.jpg","contentUrl":"https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Logo-Horizontal_2-26-1.jpg","caption":"Dra. Leticia Costa","inLanguage":"pt-PT","width":"864","height":"327"},"image":{"@type":"ImageObject","@id":"https://varizes.draleticiacosta.com.br/#logo","url":"https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Logo-Horizontal_2-26-1.jpg","contentUrl":"https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Logo-Horizontal_2-26-1.jpg","caption":"Dra. Leticia Costa","inLanguage":"pt-PT","width":"864","height":"327"}},{"@type":"WebSite","@id":"https://varizes.draleticiacosta.com.br/#website","url":"https://varizes.draleticiacosta.com.br","name":"Dra. Leticia Costa","publisher":{"@id":"https://varizes.draleticiacosta.com.br/#person"},"inLanguage":"pt-PT","potentialAction":{"@type":"SearchAction","target":"https://varizes.draleticiacosta.com.br/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Logo_Horizontal_2-25__1___1_-removebg-preview.png","url":"https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Logo_Horizontal_2-25__1___1_-removebg-preview.png","width":"200","height":"200","inLanguage":"pt-PT"},{"@type":"WebPage","@id":"https://varizes.draleticiacosta.com.br/#webpage","url":"https://varizes.draleticiacosta.com.br/","name":"Tratamento de varizes sem cirurgia - Dra. Leticia Costa","datePublished":"2023-06-23T19:27:43+00:00","dateModified":"2024-06-03T23:58:56+00:00","about":{"@id":"https://varizes.draleticiacosta.com.br/#person"},"isPartOf":{"@id":"https://varizes.draleticiacosta.com.br/#website"},"primaryImageOfPage":{"@id":"https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Logo_Horizontal_2-25__1___1_-removebg-preview.png"},"inLanguage":"pt-PT"},{"@type":"Person","@id":"https://varizes.draleticiacosta.com.br/author/karine/","name":"Karine","url":"https://varizes.draleticiacosta.com.br/author/karine/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/337125b0a818818964d1ed3e2e5f3ffcd42b31f9bbdb53078ef7aa60091c108f?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/337125b0a818818964d1ed3e2e5f3ffcd42b31f9bbdb53078ef7aa60091c108f?s=96&amp;d=mm&amp;r=g","caption":"Karine","inLanguage":"pt-PT"},"sameAs":["https://varizes.draleticiacosta.com.br"]},{"@type":"Article","headline":"Tratamento de varizes sem cirurgia - Dra. Leticia Costa","datePublished":"2023-06-23T19:27:43+00:00","dateModified":"2024-06-03T23:58:56+00:00","author":{"@id":"https://varizes.draleticiacosta.com.br/author/karine/","name":"Karine"},"publisher":{"@id":"https://varizes.draleticiacosta.com.br/#person"},"description":"Diga adeus \u00e0s varizes e d\u00ea as boas-vindas a uma nova jornada de autoestima e bem-estar. Tratamentos minimamente invasivos que permitem uma recupera\u00e7\u00e3o r\u00e1pida","name":"Tratamento de varizes sem cirurgia - Dra. Leticia Costa","@id":"https://varizes.draleticiacosta.com.br/#richSnippet","isPartOf":{"@id":"https://varizes.draleticiacosta.com.br/#webpage"},"image":{"@id":"https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Logo_Horizontal_2-25__1___1_-removebg-preview.png"},"inLanguage":"pt-PT","mainEntityOfPage":{"@id":"https://varizes.draleticiacosta.com.br/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<script type="rocketlazyloadscript" data-rocket-type="application/javascript">console.log('PixelYourSite Free version 9.3.9');</script>
+<link href="https://fonts.gstatic.com" crossorigin="" rel="preconnect">
+<link rel="alternate" type="application/rss+xml" title="Dra. Leticia Costa » Feed" href="https://varizes.draleticiacosta.com.br/feed/">
+<link rel="alternate" type="application/rss+xml" title="Dra. Leticia Costa » Feed de comentários" href="https://varizes.draleticiacosta.com.br/comments/feed/">
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="https://varizes.draleticiacosta.com.br/wp-includes/css/dist/block-library/style.min.css?ver=6.8.1" media="all">
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="hello-elementor-css" href="https://varizes.draleticiacosta.com.br/wp-content/themes/hello-elementor/style.min.css?ver=2.7.1" media="all">
+<link rel="stylesheet" id="hello-elementor-theme-style-css" href="https://varizes.draleticiacosta.com.br/wp-content/themes/hello-elementor/theme.min.css?ver=2.7.1" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="https://varizes.draleticiacosta.com.br/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.13.2" media="all">
+<link rel="stylesheet" id="elementor-post-5-css" href="https://varizes.draleticiacosta.com.br/wp-content/uploads/elementor/css/post-5.css?ver=1684993446" media="all">
+<link data-minify="1" rel="stylesheet" id="elementor-icons-css" href="https://varizes.draleticiacosta.com.br/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=1708711065" media="all">
+<link data-minify="1" rel="stylesheet" id="swiper-css" href="https://varizes.draleticiacosta.com.br/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=1708711065" media="all">
+<link rel="stylesheet" id="elementor-pro-css" href="https://varizes.draleticiacosta.com.br/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.12.0" media="all">
+<link rel="stylesheet" id="elementor-post-1604-css" href="https://varizes.draleticiacosta.com.br/wp-content/uploads/elementor/css/post-1604.css?ver=1717459164" media="all">
+<style id="rocket-lazyload-inline-css">
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://varizes.draleticiacosta.com.br/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}
+</style>
+
+<link rel="stylesheet" id="elementor-icons-shared-0-css" href="https://varizes.draleticiacosta.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3" media="all">
+<link data-minify="1" rel="stylesheet" id="elementor-icons-fa-brands-css" href="https://varizes.draleticiacosta.com.br/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=1708711065" media="all">
+<link data-minify="1" rel="stylesheet" id="elementor-icons-fa-solid-css" href="https://varizes.draleticiacosta.com.br/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=1708711065" media="all">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><script type="rocketlazyloadscript" data-rocket-src="https://varizes.draleticiacosta.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://varizes.draleticiacosta.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://varizes.draleticiacosta.com.br/wp-content/plugins/pixelyoursite/dist/scripts/jquery.bind-first-0.2.3.min.js?ver=6.8.1" id="jquery-bind-first-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://varizes.draleticiacosta.com.br/wp-content/plugins/pixelyoursite/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3" id="js-cookie-pys-js" defer=""></script>
+<script id="pys-js-extra">
+var pysOptions = {"staticEvents":{"facebook":{"init_event":[{"delay":0,"type":"static","name":"PageView","pixelIds":["1649266082236351"],"eventID":"2c682fa5-e06f-4f51-aed4-26ca27592b48","params":{"page_title":"Tratamento de varizes sem cirurgia","post_type":"page","post_id":1604,"plugin":"PixelYourSite","user_role":"guest","event_url":"varizes.draleticiacosta.com.br\/"},"e_id":"init_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}]}},"dynamicEvents":{"automatic_event_form":{"facebook":{"delay":0,"type":"dyn","name":"Form","pixelIds":["1649266082236351"],"eventID":"4fbc8145-91f7-4e92-87bf-a4d05cbbed20","params":{"page_title":"Tratamento de varizes sem cirurgia","post_type":"page","post_id":1604,"plugin":"PixelYourSite","user_role":"guest","event_url":"varizes.draleticiacosta.com.br\/"},"e_id":"automatic_event_form","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_download":{"facebook":{"delay":0,"type":"dyn","name":"Download","extensions":["","doc","exe","js","pdf","ppt","tgz","zip","xls"],"pixelIds":["1649266082236351"],"eventID":"de52d515-d714-4318-bcfd-f36e818d805f","params":{"page_title":"Tratamento de varizes sem cirurgia","post_type":"page","post_id":1604,"plugin":"PixelYourSite","user_role":"guest","event_url":"varizes.draleticiacosta.com.br\/"},"e_id":"automatic_event_download","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_comment":{"facebook":{"delay":0,"type":"dyn","name":"Comment","pixelIds":["1649266082236351"],"eventID":"9fdb5ce0-5bcb-4f05-ab45-e777a89a4694","params":{"page_title":"Tratamento de varizes sem cirurgia","post_type":"page","post_id":1604,"plugin":"PixelYourSite","user_role":"guest","event_url":"varizes.draleticiacosta.com.br\/"},"e_id":"automatic_event_comment","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}}},"triggerEvents":[],"triggerEventTypes":[],"facebook":{"pixelIds":["1649266082236351"],"advancedMatching":[],"removeMetadata":false,"contentParams":{"post_type":"page","post_id":1604,"content_name":"Tratamento de varizes sem cirurgia"},"commentEventEnabled":true,"wooVariableAsSimple":false,"downloadEnabled":true,"formEventEnabled":true,"ajaxForServerEvent":true,"serverApiEnabled":true,"wooCRSendFromServer":false},"debug":"","siteUrl":"https:\/\/varizes.draleticiacosta.com.br","ajaxUrl":"https:\/\/varizes.draleticiacosta.com.br\/wp-admin\/admin-ajax.php","ajax_event":"3e89a215ce","enable_remove_download_url_param":"1","cookie_duration":"7","last_visit_duration":"60","enable_success_send_form":"","gdpr":{"ajax_enabled":false,"all_disabled_by_api":false,"facebook_disabled_by_api":false,"analytics_disabled_by_api":false,"google_ads_disabled_by_api":false,"pinterest_disabled_by_api":false,"bing_disabled_by_api":false,"facebook_prior_consent_enabled":true,"analytics_prior_consent_enabled":true,"google_ads_prior_consent_enabled":null,"pinterest_prior_consent_enabled":true,"bing_prior_consent_enabled":true,"cookiebot_integration_enabled":false,"cookiebot_facebook_consent_category":"marketing","cookiebot_analytics_consent_category":"statistics","cookiebot_tiktok_consent_category":"marketing","cookiebot_google_ads_consent_category":null,"cookiebot_pinterest_consent_category":"marketing","cookiebot_bing_consent_category":"marketing","consent_magic_integration_enabled":false,"real_cookie_banner_integration_enabled":false,"cookie_notice_integration_enabled":false,"cookie_law_info_integration_enabled":false},"cookie":{"disabled_all_cookie":false,"disabled_advanced_form_data_cookie":false,"disabled_landing_page_cookie":false,"disabled_first_visit_cookie":false,"disabled_trafficsource_cookie":false,"disabled_utmTerms_cookie":false,"disabled_utmId_cookie":false},"woo":{"enabled":false},"edd":{"enabled":false}};
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://varizes.draleticiacosta.com.br/wp-content/cache/min/1/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=1708711065" id="pys-js" defer=""></script>
+<link rel="https://api.w.org/" href="https://varizes.draleticiacosta.com.br/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://varizes.draleticiacosta.com.br/wp-json/wp/v2/pages/1604"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://varizes.draleticiacosta.com.br/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.8.1">
+<link rel="shortlink" href="https://varizes.draleticiacosta.com.br/">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://varizes.draleticiacosta.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvarizes.draleticiacosta.com.br%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://varizes.draleticiacosta.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fvarizes.draleticiacosta.com.br%2F&amp;format=xml">
+<meta name="generator" content="Elementor 3.13.2; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<!-- Meta Pixel Code -->
+<script type="rocketlazyloadscript">
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1649266082236351');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1649266082236351&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"></head>
+<body class="home wp-singular page-template page-template-elementor_canvas page page-id-1604 wp-theme-hello-elementor elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-1604">
+			<div data-elementor-type="wp-page" data-elementor-id="1604" class="elementor elementor-1604">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-7460b8c2 elementor-section-height-full elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="7460b8c2" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_bottom&quot;:&quot;curve&quot;,&quot;shape_divider_bottom_negative&quot;:&quot;yes&quot;}">
+					<div class="elementor-shape elementor-shape-bottom" data-negative="true">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"></path>
+</svg>		</div>
+					<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-63f37fa3" data-id="63f37fa3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6324bdaa elementor-widget elementor-widget-image" data-id="6324bdaa" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.13.2 - 11-05-2023 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img fetchpriority="high" decoding="async" width="826" height="302" src="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Logo_Horizontal_2-25__1___1_-removebg-preview.png" class="attachment-full size-full wp-image-1215" alt="" srcset="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Logo_Horizontal_2-25__1___1_-removebg-preview.png 826w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Logo_Horizontal_2-25__1___1_-removebg-preview-300x110.png 300w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Logo_Horizontal_2-25__1___1_-removebg-preview-768x281.png 768w" sizes="(max-width: 826px) 100vw, 826px">															</div>
+				</div>
+				<div class="elementor-element elementor-element-2c6b2c71 elementor-widget elementor-widget-heading" data-id="2c6b2c71" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.13.2 - 11-05-2023 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h1 class="elementor-heading-title elementor-size-default">Pernas lindas, leves e saudáveis, sem cirurgia e sem repouso.</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-2b894be7 elementor-widget elementor-widget-text-editor" data-id="2b894be7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.13.2 - 11-05-2023 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>Diga adeus às varizes e dê as boas-vindas a uma nova jornada de autoestima e bem-estar. Tratamentos minimamente invasivos que permitem uma recuperação rápida e um retorno sem demora às suas atividades diárias.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-2a9e4a68 elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="2a9e4a68" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://api.whatsapp.com/send?phone=554391202019&amp;text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20com%20a%20Dra.%20Let%C3%ADcia%20Costa." class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+							<span class="elementor-button-icon elementor-align-icon-right">
+				<i aria-hidden="true" class="fab fa-whatsapp"></i>			</span>
+						<span class="elementor-button-text">ENTRAR EM CONTATO</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-747af813" data-id="747af813" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-354438e9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="354438e9" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-66d61608" data-id="66d61608" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-33d90cb6 elementor-widget elementor-widget-heading" data-id="33d90cb6" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Tratamento de varizes a LASER com retorno imediato a suas atividades.</h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-76276686 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="76276686" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-25a1b23c" data-id="25a1b23c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-36c52db1 elementor-widget elementor-widget-video" data-id="36c52db1" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/www.youtube.com\/watch?v=kWnIZoY88xY&quot;,&quot;modestbranding&quot;:&quot;yes&quot;,&quot;lazy_load&quot;:&quot;yes&quot;,&quot;show_image_overlay&quot;:&quot;yes&quot;,&quot;image_overlay&quot;:{&quot;url&quot;:&quot;https:\/\/varizes.draleticiacosta.com.br\/wp-content\/uploads\/2023\/05\/IMG_8146-1-1.jpg&quot;,&quot;id&quot;:1076,&quot;size&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;source&quot;:&quot;library&quot;},&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.13.2 - 11-05-2023 */
+.elementor-widget-video .elementor-widget-container{overflow:hidden;transform:translateZ(0)}.elementor-widget-video .elementor-wrapper{aspect-ratio:var(--video-aspect-ratio)}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{height:100%;width:100%;display:flex;border:none;background-color:#000}@supports not (aspect-ratio:1/1){.elementor-widget-video .elementor-wrapper{position:relative;overflow:hidden;height:0;padding-bottom:calc(100% / var(--video-aspect-ratio))}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{position:absolute;top:0;right:0;bottom:0;left:0}}.elementor-widget-video .elementor-open-inline .elementor-custom-embed-image-overlay{position:absolute;top:0;left:0;width:100%;height:100%;background-size:cover;background-position:50%}.elementor-widget-video .elementor-custom-embed-image-overlay{cursor:pointer;text-align:center}.elementor-widget-video .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play i{opacity:1}.elementor-widget-video .elementor-custom-embed-image-overlay img{display:block;width:100%}.elementor-widget-video .e-hosted-video .elementor-video{-o-object-fit:cover;object-fit:cover}.e-con-inner>.elementor-widget-video,.e-con>.elementor-widget-video{width:var(--container-widget-width);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-wrapper elementor-open-inline">
+			<div class="elementor-video"></div>				<div class="elementor-custom-embed-image-overlay" style="background-image: url(https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/IMG_8146-1-1.jpg);">
+																<div class="elementor-custom-embed-play" role="button" aria-label="Reproduzir vídeo" tabindex="0">
+							<i aria-hidden="true" class="eicon-play"></i>							<span class="elementor-screen-only">Reproduzir vídeo</span>
+						</div>
+									</div>
+					</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-76d43aca" data-id="76d43aca" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-72d3438c elementor-widget elementor-widget-heading" data-id="72d3438c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Entenda sobre o</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-9c0e27 elementor-widget elementor-widget-heading" data-id="9c0e27" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">nosso método</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7a1c17 elementor-widget elementor-widget-text-editor" data-id="7a1c17" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<div class="ql-block" data-block-id="block-062086f7-899d-42df-809c-20bd43053bd1">Nossa abordagem vai além do tratamento dos vasinhos superficiais. Nosso foco está em abordar a lesão mais complexa de forma completa, garantindo resultados satisfatórios e duradouros. Vamos te devolver a liberdade de escolha, eliminando até mesmo as varizes mais grossas e te livrando de vez da sensação de peso, inchaço e desconforto das pernas.</div>
+<div class="ql-block" data-block-id="block-551e57ef-a4b3-4cf7-b3f9-674b3fb3af8f">Agende sua consulta.</div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-555a9100 elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="555a9100" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://api.whatsapp.com/send?phone=554391202019&amp;text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20com%20a%20Dra.%20Let%C3%ADcia%20Costa." class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">AGENDAR</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-72d09773 elementor-section-height-full elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="72d09773" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2a8ab050" data-id="2a8ab050" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5877bd5 elementor-widget elementor-widget-heading" data-id="5877bd5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Benefícios de tratar varizes com o uso do laser associado a outras técnicas:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-48da172f elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="48da172f" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://varizes.draleticiacosta.com.br/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">		<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Menos sessões para eliminar os vasinhos</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Procedimentos sem pontos na pele, com melhor resultado estético</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Rápida recuperação, sem a necessidade de internação e/ou repouso prolongado</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-1c34c1d5 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="1c34c1d5" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Menor dor no período pós operatório</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Melhor controle da doença venosa no longo prazo</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Menor índice de complicações, comparadas à cirurgia tradicional</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-13982e8b" data-id="13982e8b" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-3e3d48cc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3e3d48cc" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5694408f" data-id="5694408f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-31a89e67 elementor-widget elementor-widget-text-editor" data-id="31a89e67" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>processo</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-164d1344 elementor-widget elementor-widget-heading" data-id="164d1344" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Como funciona o tratamento:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-18c721a elementor-widget elementor-widget-text-editor" data-id="18c721a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>O processo é estruturado para oferecer o máximo conforto às nossas pacientes com um tratamento personalizado, humanizado e transformador que garante resultados muito melhores e mais duradouros. Entenda como funciona:</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-44102139 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="44102139" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-316a7e62" data-id="316a7e62" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5e022b60 elementor-widget elementor-widget-image" data-id="5e022b60" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="519" height="882" src="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/passo-1.png" class="attachment-full size-full wp-image-1597" alt="" srcset="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/passo-1.png 519w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/passo-1-177x300.png 177w" sizes="(max-width: 519px) 100vw, 519px">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-236fd66" data-id="236fd66" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-306fa329 elementor-widget elementor-widget-image" data-id="306fa329" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="519" height="882" src="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/passo-2.png" class="attachment-full size-full wp-image-1598" alt="" srcset="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/passo-2.png 519w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/passo-2-177x300.png 177w" sizes="(max-width: 519px) 100vw, 519px">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-711b09ef" data-id="711b09ef" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-698be4ad elementor-widget elementor-widget-image" data-id="698be4ad" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="519" height="882" src="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/passo-3.png" class="attachment-large size-large wp-image-1599" alt="" srcset="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/passo-3.png 519w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/passo-3-177x300.png 177w" sizes="auto, (max-width: 519px) 100vw, 519px">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-6fb78d64" data-id="6fb78d64" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-70341d5f elementor-widget elementor-widget-image" data-id="70341d5f" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="519" height="882" src="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/passo-4.png" class="attachment-large size-large wp-image-1600" alt="" srcset="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/passo-4.png 519w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/passo-4-177x300.png 177w" sizes="auto, (max-width: 519px) 100vw, 519px">															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-14096bfe elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="14096bfe" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-78cf05b9" data-id="78cf05b9" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1c82393c elementor-align-center elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="1c82393c" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://api.whatsapp.com/send?phone=554391202019&amp;text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20com%20a%20Dra.%20Let%C3%ADcia%20Costa." class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+							<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fab fa-whatsapp"></i>			</span>
+						<span class="elementor-button-text">AGENDAR AVALIAÇÃO</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-1e56a413 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1e56a413" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-64a605d6" data-id="64a605d6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-28321afb elementor-widget elementor-widget-heading" data-id="28321afb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Muito além da estética...</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c0de151 elementor-widget elementor-widget-text-editor" data-id="c0de151" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<h4 class="ql-block" data-block-id="block-02e9c829-205e-4231-af68-b9f3bbc7ce00">Você já sentiu vergonha de usar roupas mais curtas ou de ir à praia por causa das veias salientes em suas pernas?</h4><div class="ql-block" data-block-id="block-02e9c829-205e-4231-af68-b9f3bbc7ce00">&nbsp;As varizes também vão muito além da preocupação estética. Elas têm o poder de afetar profundamente a sua saúde e bem-estar.</div><div class="ql-block" data-block-id="block-2f1e7a15-adf4-45e6-8178-464b881dcd54">Algumas das consequências das varizes vão além das veias visíveis:</div>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-637ade1b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="637ade1b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3f9dd7ce" data-id="3f9dd7ce" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-360bbc26 elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="360bbc26" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.13.2 - 11-05-2023 */
+.elementor-widget-image-box .elementor-image-box-content{width:100%}@media (min-width:768px){.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{display:flex}.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{text-align:right;flex-direction:row-reverse}.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper{text-align:left;flex-direction:row}.elementor-widget-image-box.elementor-position-top .elementor-image-box-img{margin:auto}.elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper{align-items:flex-start}.elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper{align-items:center}.elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper{align-items:flex-end}}@media (max-width:767px){.elementor-widget-image-box .elementor-image-box-img{margin-left:auto!important;margin-right:auto!important;margin-bottom:15px}}.elementor-widget-image-box .elementor-image-box-img{display:inline-block}.elementor-widget-image-box .elementor-image-box-title a{color:inherit}.elementor-widget-image-box .elementor-image-box-wrapper{text-align:center}.elementor-widget-image-box .elementor-image-box-description{margin:0}</style><div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="256" height="256" src="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/blood.png" class="attachment-full size-full wp-image-1131" alt="" srcset="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/blood.png 256w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/blood-150x150.png 150w" sizes="auto, (max-width: 256px) 100vw, 256px"></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Problemas na circulação de retorno.</h3></div></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-28ffaca1" data-id="28ffaca1" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-755c9f39 elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="755c9f39" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="256" height="256" src="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/leg.png" class="attachment-full size-full wp-image-1141" alt="" srcset="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/leg.png 256w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/leg-150x150.png 150w" sizes="auto, (max-width: 256px) 100vw, 256px"></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Inchaços e edemas.</h3></div></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-1f4b8762" data-id="1f4b8762" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7dfb87d7 elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="7dfb87d7" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="256" height="256" src="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/metabolism.png" class="attachment-full size-full wp-image-1130" alt="" srcset="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/metabolism.png 256w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/metabolism-150x150.png 150w" sizes="auto, (max-width: 256px) 100vw, 256px"></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Sensação de queimação nas pernas.</h3></div></div>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-17b8a5d8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="17b8a5d8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-1472686a" data-id="1472686a" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-743b8057 elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="743b8057" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="256" height="256" src="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/veins.png" class="attachment-full size-full wp-image-1143" alt="" srcset="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/veins.png 256w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/veins-150x150.png 150w" sizes="auto, (max-width: 256px) 100vw, 256px"></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Feridas que demoram a cicatrizar.</h3></div></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-6ebb648c" data-id="6ebb648c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-16c037f elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="16c037f" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="256" height="256" src="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/hives.png" class="attachment-full size-full wp-image-1144" alt="" srcset="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/hives.png 256w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/hives-150x150.png 150w" sizes="auto, (max-width: 256px) 100vw, 256px"></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Risco aumentado de erisipela, uma infecção na pele.</h3></div></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-43581836" data-id="43581836" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2e1de45f elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="2e1de45f" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="256" height="256" src="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/leg.png" class="attachment-full size-full wp-image-1141" alt="" srcset="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/leg.png 256w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/leg-150x150.png 150w" sizes="auto, (max-width: 256px) 100vw, 256px"></figure><div class="elementor-image-box-content"><h3 class="elementor-image-box-title">Maior propensão à trombose, formação de coágulos sanguíneos.</h3></div></div>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-5996936b elementor-section-height-min-height elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="5996936b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_mouse&quot;:&quot;yes&quot;,&quot;shape_divider_top&quot;:&quot;arrow&quot;}">
+							<div class="elementor-background-overlay"></div>
+						<div class="elementor-shape elementor-shape-top" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 10" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M350,10L340,0h20L350,10z"></path>
+</svg>		</div>
+					<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-35476d64" data-id="35476d64" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-74fcbbe2 elementor-widget elementor-widget-heading" data-id="74fcbbe2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Alguma destas questões também te preocupam?</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-764eeb22 elementor-widget elementor-widget-text-editor" data-id="764eeb22" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Diariamente, acolho em meu consultório pacientes que estão incomodadas com os sinais das varizes. No entanto, é importante ressaltar que esse quadro pode ser mudado!</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-1be45f8c elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="1be45f8c" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://api.whatsapp.com/send?phone=554391202019&amp;text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20com%20a%20Dra.%20Let%C3%ADcia%20Costa." class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+							<span class="elementor-button-icon elementor-align-icon-right">
+				<i aria-hidden="true" class="fab fa-whatsapp"></i>			</span>
+						<span class="elementor-button-text">ENTRAR EM CONTATO</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-60256643" data-id="60256643" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-340e54e3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="340e54e3" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7f8367a8" data-id="7f8367a8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6ea26838 elementor-widget elementor-widget-text-editor" data-id="6ea26838" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p class="elementor-heading-title elementor-size-default">Procedimentos</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-4f35dd16 elementor-widget elementor-widget-heading" data-id="4f35dd16" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Tratamentos Modernos com Conforto </h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4be9ef2f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4be9ef2f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-2ef347b7" data-id="2ef347b7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6b1181ff elementor-widget elementor-widget-spacer" data-id="6b1181ff" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.13.2 - 11-05-2023 */
+.elementor-column .elementor-spacer-inner{height:var(--spacer-size)}.e-con{--container-widget-width:100%}.e-con-inner>.elementor-widget-spacer,.e-con>.elementor-widget-spacer{width:var(--container-widget-width,var(--spacer-size));--align-self:var(--container-widget-align-self,initial);--flex-shrink:0}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container,.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer,.e-con>.elementor-widget-spacer>.elementor-widget-container,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer{height:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner{height:var(--container-widget-height,var(--spacer-size))}</style>		<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-103ca37f" data-id="103ca37f" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-101b7ad6 elementor-widget elementor-widget-heading" data-id="101b7ad6" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Laser Transdérmico</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3e8ef295 elementor-widget elementor-widget-text-editor" data-id="3e8ef295" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Pode ser utilizado para tratar casos de varizes e vasinhos de menor calibre de forma confortável e conveniente, sem a necessidade de agulhas, sem risco de alergias e sem causar manchas na pele. Uma das principais vantagens do Laser Transdérmico é que ele é um procedimento não invasivo, o que significa que não há necessidade de incisões, suturas ou anestesia.&nbsp;</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-4bf14c46" data-id="4bf14c46" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7dcad622 elementor-widget elementor-widget-spacer" data-id="7dcad622" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-3560d325" data-id="3560d325" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6a89c96b elementor-widget elementor-widget-heading" data-id="6a89c96b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Endolaser</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c77bb8c elementor-widget elementor-widget-text-editor" data-id="c77bb8c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<div class="ql-block" data-block-id="block-ccb1d03c-f24e-4e07-93bd-73799c5e2ebf">O Laser Endovenoso, ou Endolaser, é um método usado no tratamento de varizes em veias maiores, como as safenas e as perfurantes. Realizado de forma minimamente invasiva e oferece uma alternativa eficaz às abordagens cirúrgicas tradicionais, com&nbsp;precisão e capacidade de tratar as varizes de forma seletiva, preservando as veias saudáveis ao redor.</div>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-434e5424 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="434e5424" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1fca48e7" data-id="1fca48e7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-242d378c elementor-widget elementor-widget-text-editor" data-id="242d378c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>REFERÊNCIA</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-23af907e elementor-widget elementor-widget-heading" data-id="23af907e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">SOMOS REFERÊNCIA  NO </h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-393b85c2 elementor-widget elementor-widget-heading" data-id="393b85c2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">TRATAMENTO MODERNO DE VARIZES</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5f1d4f99 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="5f1d4f99" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Ao longo do tempo, o tratamento das varizes costumava se concentrar principalmente nos vasinhos superficiais, sem abordar a <strong>lesão mais complexa.</strong> No entanto, os avanços na área médica permitiram o desenvolvimento de um <span style="text-decoration: underline;">tratamento mais abrangente e eficaz.</span></span></span></p><p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Esse tratamento multidisciplinar, com o uso do laser associado a outras técnicas, <strong>evita a necessidade de cirurgias invasivas.</strong> Em vez disso, oferece um procedimento minimamente invasivo, com resultados mais duradouros. Essa abordagem visa tratar a causa raiz das varizes, melhorando a circulação sanguínea, fechando as veias afetadas e aliviando os sintomas associados.</span></span></p><p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Não apenas tratamos os vasinhos superficiais, mas também abordamos a lesão mais complexa, garantindo um resultado mais completo e satisfatório.</span></span></p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-57eec21d" data-id="57eec21d" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-26c96564 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="26c96564" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-2e53191b" data-id="2e53191b" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b948de6 elementor-widget elementor-widget-text-editor" data-id="b948de6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Sensibilidade a dor</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-1f67ec1b elementor-widget elementor-widget-heading" data-id="1f67ec1b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Conforto durante o tratamento</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6623190f elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="6623190f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Compreendemos a importância do seu conforto durante o tratamento das varizes e estamos comprometidos em oferecer uma experiência agradável para pacientes que tenham mais sensibilidade a dor. Para isso, adotamos diversas medidas cuidadosamente selecionadas, incluindo:</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-b080dad" data-id="b080dad" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-14c9c2e elementor-widget elementor-widget-image" data-id="14c9c2e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="500" height="500" src="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Freddo_01_v2-500x500-1.jpeg" class="attachment-large size-large wp-image-1358" alt="" srcset="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Freddo_01_v2-500x500-1.jpeg 500w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Freddo_01_v2-500x500-1-300x300.jpeg 300w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Freddo_01_v2-500x500-1-150x150.jpeg 150w" sizes="auto, (max-width: 500px) 100vw, 500px">															</div>
+				</div>
+				<div class="elementor-element elementor-element-a3eb784 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="a3eb784" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><strong>Resfriador de pele:&nbsp;</strong>é um dispositivo que utiliza ar frio para resfriar a superfície da pele antes e durante o tratamento. Isso pode ajudar a reduzir a sensibilidade e o desconforto durante os procedimentos, tornando a experiência mais suportável.</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-5bb8ce0" data-id="5bb8ce0" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2545831a elementor-widget elementor-widget-image" data-id="2545831a" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="163" height="185" src="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Preto.png" class="attachment-full size-full wp-image-1367" alt="">															</div>
+				</div>
+				<div class="elementor-element elementor-element-796030c2 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="796030c2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><strong>Sedação consciente: </strong>Os gases oxigênio e óxido nitroso aumentam o limiar de dor,&nbsp;mantendo o paciente consciente e calmo&nbsp;durante todo o procedimento. A técnica de sedação pode ser usada em diversos pacientes que normalmente possuem diversas restrições, como cardíacos, diabéticos, ansiosos, especiais e crianças.</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-eb2ec72 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="eb2ec72" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1cef226" data-id="1cef226" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c8590b4 elementor-widget elementor-widget-heading" data-id="c8590b4" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Veja alguns resultados:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a571614 elementor-widget elementor-widget-text-editor" data-id="a571614" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Importante: Esses resultados não dão garantia de que o seu será assim. Cada caso é individual.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-76b31ef elementor-widget elementor-widget-gallery" data-id="76b31ef" data-element_type="widget" data-settings="{&quot;gallery_layout&quot;:&quot;justified&quot;,&quot;ideal_row_height&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:231,&quot;sizes&quot;:[]},&quot;gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:5,&quot;sizes&quot;:[]},&quot;lazyload&quot;:&quot;yes&quot;,&quot;ideal_row_height_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:150,&quot;sizes&quot;:[]},&quot;ideal_row_height_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:150,&quot;sizes&quot;:[]},&quot;gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;link_to&quot;:&quot;file&quot;,&quot;overlay_background&quot;:&quot;yes&quot;,&quot;content_hover_animation&quot;:&quot;fade-in&quot;}" data-widget_type="gallery.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor-pro - v3.12.0 - 29-03-2023 */
+.elementor-gallery__container{min-height:1px}.elementor-gallery-item{position:relative;overflow:hidden;display:block;text-decoration:none;border:solid var(--image-border-width) var(--image-border-color);border-radius:var(--image-border-radius)}.elementor-gallery-item__content,.elementor-gallery-item__overlay{height:100%;width:100%;position:absolute;top:0;left:0}.elementor-gallery-item__overlay{mix-blend-mode:var(--overlay-mix-blend-mode);transition-duration:var(--overlay-transition-duration);transition-property:mix-blend-mode,transform,opacity,background-color}.elementor-gallery-item__image.e-gallery-image{transition-duration:var(--image-transition-duration);transition-property:filter,transform}.elementor-gallery-item__content{display:flex;flex-direction:column;justify-content:var(--content-justify-content,center);align-items:center;text-align:var(--content-text-align);padding:var(--content-padding)}.elementor-gallery-item__content>div{transition-duration:var(--content-transition-duration)}.elementor-gallery-item__content.elementor-gallery--sequenced-animation>div:nth-child(2){transition-delay:calc(var(--content-transition-delay) / 3)}.elementor-gallery-item__content.elementor-gallery--sequenced-animation>div:nth-child(3){transition-delay:calc(var(--content-transition-delay) / 3 * 2)}.elementor-gallery-item__content.elementor-gallery--sequenced-animation>div:nth-child(4){transition-delay:calc(var(--content-transition-delay) / 3 * 3)}.elementor-gallery-item__description{color:var(--description-text-color,#fff);width:100%}.elementor-gallery-item__title{color:var(--title-text-color,#fff);font-weight:700;width:100%}.elementor-gallery__titles-container{display:flex;flex-wrap:wrap;justify-content:var(--titles-container-justify-content,center);margin-bottom:20px}.elementor-gallery__titles-container:not(.e--pointer-framed) .elementor-item:after,.elementor-gallery__titles-container:not(.e--pointer-framed) .elementor-item:before{background-color:var(--galleries-pointer-bg-color-hover)}.elementor-gallery__titles-container:not(.e--pointer-framed) .elementor-item.elementor-item-active:after,.elementor-gallery__titles-container:not(.e--pointer-framed) .elementor-item.elementor-item-active:before{background-color:var(--galleries-pointer-bg-color-active)}.elementor-gallery__titles-container.e--pointer-framed .elementor-item:before{border-color:var(--galleries-pointer-bg-color-hover);border-width:var(--galleries-pointer-border-width)}.elementor-gallery__titles-container.e--pointer-framed .elementor-item:after{border-color:var(--galleries-pointer-bg-color-hover)}.elementor-gallery__titles-container.e--pointer-framed .elementor-item.elementor-item-active:after,.elementor-gallery__titles-container.e--pointer-framed .elementor-item.elementor-item-active:before{border-color:var(--galleries-pointer-bg-color-active)}.elementor-gallery__titles-container.e--pointer-framed.e--animation-draw .elementor-item:before{border-left-width:var(--galleries-pointer-border-width);border-bottom-width:var(--galleries-pointer-border-width);border-right-width:0;border-top-width:0}.elementor-gallery__titles-container.e--pointer-framed.e--animation-draw .elementor-item:after{border-left-width:0;border-bottom-width:0;border-right-width:var(--galleries-pointer-border-width);border-top-width:var(--galleries-pointer-border-width)}.elementor-gallery__titles-container.e--pointer-framed.e--animation-corners .elementor-item:before{border-left-width:var(--galleries-pointer-border-width);border-bottom-width:0;border-right-width:0;border-top-width:var(--galleries-pointer-border-width)}.elementor-gallery__titles-container.e--pointer-framed.e--animation-corners .elementor-item:after{border-left-width:0;border-bottom-width:var(--galleries-pointer-border-width);border-right-width:var(--galleries-pointer-border-width);border-top-width:0}.elementor-gallery__titles-container .e--pointer-double-line .elementor-item:after,.elementor-gallery__titles-container .e--pointer-double-line .elementor-item:before,.elementor-gallery__titles-container .e--pointer-overline .elementor-item:before,.elementor-gallery__titles-container .e--pointer-underline .elementor-item:after{height:var(--galleries-pointer-border-width)}.elementor-gallery-title{--space-between:10px;cursor:pointer;color:#6d7882;font-weight:500;position:relative;padding:7px 14px;transition:all .3s}.elementor-gallery-title--active{color:#495157}.elementor-gallery-title:not(:last-child){margin-right:var(--space-between)}.elementor-gallery-item__title+.elementor-gallery-item__description{margin-top:var(--description-margin-top)}.e-gallery-item.elementor-gallery-item{transition-property:all}.e-gallery-item.elementor-animated-content .elementor-animated-item--enter-from-bottom,.e-gallery-item.elementor-animated-content .elementor-animated-item--enter-from-left,.e-gallery-item.elementor-animated-content .elementor-animated-item--enter-from-right,.e-gallery-item.elementor-animated-content .elementor-animated-item--enter-from-top,.e-gallery-item:hover .elementor-gallery__item-overlay-bg,.e-gallery-item:hover .elementor-gallery__item-overlay-content,.e-gallery-item:hover .elementor-gallery__item-overlay-content__description,.e-gallery-item:hover .elementor-gallery__item-overlay-content__title{opacity:1}a.elementor-item.elementor-gallery-title{color:var(--galleries-title-color-normal)}a.elementor-item.elementor-gallery-title.elementor-item-active,a.elementor-item.elementor-gallery-title.highlighted,a.elementor-item.elementor-gallery-title:focus,a.elementor-item.elementor-gallery-title:hover{color:var(--galleries-title-color-hover)}a.elementor-item.elementor-gallery-title.elementor-item-active{color:var(--gallery-title-color-active)}.e-con-inner>.elementor-widget-gallery,.e-con>.elementor-widget-gallery{width:var(--container-widget-width);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-gallery__container">
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/5ab1d8e1-a66f-4bd5-9cb6-39a1d5907ea9.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-76b31ef" data-elementor-lightbox-title="5ab1d8e1-a66f-4bd5-9cb6-39a1d5907ea9" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTYxMywidXJsIjoiaHR0cHM6XC9cL3Zhcml6ZXMuZHJhbGV0aWNpYWNvc3RhLmNvbS5iclwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyM1wvMDZcLzVhYjFkOGUxLWE2NmYtNGJkNS05Y2I2LTM5YTFkNTkwN2VhOS5qcGciLCJzbGlkZXNob3ciOiJhbGwtNzZiMzFlZiJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/5ab1d8e1-a66f-4bd5-9cb6-39a1d5907ea9-300x300.jpg" data-width="300" data-height="300" aria-label="" role="img"></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/5bcbbc58-b5fb-479e-a81e-ff498352e129.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-76b31ef" data-elementor-lightbox-title="5bcbbc58-b5fb-479e-a81e-ff498352e129" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTYxNCwidXJsIjoiaHR0cHM6XC9cL3Zhcml6ZXMuZHJhbGV0aWNpYWNvc3RhLmNvbS5iclwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyM1wvMDZcLzViY2JiYzU4LWI1ZmItNDc5ZS1hODFlLWZmNDk4MzUyZTEyOS5qcGciLCJzbGlkZXNob3ciOiJhbGwtNzZiMzFlZiJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/5bcbbc58-b5fb-479e-a81e-ff498352e129-300x292.jpg" data-width="300" data-height="292" aria-label="" role="img"></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/6c4baac5-ebf6-481c-9022-23c0f8621b5e.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-76b31ef" data-elementor-lightbox-title="6c4baac5-ebf6-481c-9022-23c0f8621b5e" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTYxNSwidXJsIjoiaHR0cHM6XC9cL3Zhcml6ZXMuZHJhbGV0aWNpYWNvc3RhLmNvbS5iclwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyM1wvMDZcLzZjNGJhYWM1LWViZjYtNDgxYy05MDIyLTIzYzBmODYyMWI1ZS5qcGciLCJzbGlkZXNob3ciOiJhbGwtNzZiMzFlZiJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/6c4baac5-ebf6-481c-9022-23c0f8621b5e-278x300.jpg" data-width="278" data-height="300" aria-label="" role="img"></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/6db9f1ef-4b32-41dd-9591-69594ec967bb.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-76b31ef" data-elementor-lightbox-title="6db9f1ef-4b32-41dd-9591-69594ec967bb" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTYxNiwidXJsIjoiaHR0cHM6XC9cL3Zhcml6ZXMuZHJhbGV0aWNpYWNvc3RhLmNvbS5iclwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyM1wvMDZcLzZkYjlmMWVmLTRiMzItNDFkZC05NTkxLTY5NTk0ZWM5NjdiYi5qcGciLCJzbGlkZXNob3ciOiJhbGwtNzZiMzFlZiJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/6db9f1ef-4b32-41dd-9591-69594ec967bb-300x300.jpg" data-width="300" data-height="300" aria-label="" role="img"></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/7f765bbe-b50c-402c-b691-2206b490fbb7.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-76b31ef" data-elementor-lightbox-title="7f765bbe-b50c-402c-b691-2206b490fbb7" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTYxNywidXJsIjoiaHR0cHM6XC9cL3Zhcml6ZXMuZHJhbGV0aWNpYWNvc3RhLmNvbS5iclwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyM1wvMDZcLzdmNzY1YmJlLWI1MGMtNDAyYy1iNjkxLTIyMDZiNDkwZmJiNy5qcGciLCJzbGlkZXNob3ciOiJhbGwtNzZiMzFlZiJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/7f765bbe-b50c-402c-b691-2206b490fbb7-300x272.jpg" data-width="300" data-height="272" aria-label="" role="img"></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/8a8966e6-678e-489c-ae45-c6176030d50e.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-76b31ef" data-elementor-lightbox-title="8a8966e6-678e-489c-ae45-c6176030d50e" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTYxOCwidXJsIjoiaHR0cHM6XC9cL3Zhcml6ZXMuZHJhbGV0aWNpYWNvc3RhLmNvbS5iclwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyM1wvMDZcLzhhODk2NmU2LTY3OGUtNDg5Yy1hZTQ1LWM2MTc2MDMwZDUwZS5qcGciLCJzbGlkZXNob3ciOiJhbGwtNzZiMzFlZiJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/8a8966e6-678e-489c-ae45-c6176030d50e-300x284.jpg" data-width="300" data-height="284" aria-label="" role="img"></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/8f878e07-1312-44be-807d-a190773e386e.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-76b31ef" data-elementor-lightbox-title="8f878e07-1312-44be-807d-a190773e386e" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTYxOSwidXJsIjoiaHR0cHM6XC9cL3Zhcml6ZXMuZHJhbGV0aWNpYWNvc3RhLmNvbS5iclwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyM1wvMDZcLzhmODc4ZTA3LTEzMTItNDRiZS04MDdkLWExOTA3NzNlMzg2ZS5qcGciLCJzbGlkZXNob3ciOiJhbGwtNzZiMzFlZiJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/8f878e07-1312-44be-807d-a190773e386e-300x228.jpg" data-width="300" data-height="228" aria-label="" role="img"></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/97b42203-0833-4544-8850-f407f138f22a.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-76b31ef" data-elementor-lightbox-title="97b42203-0833-4544-8850-f407f138f22a" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTYyMCwidXJsIjoiaHR0cHM6XC9cL3Zhcml6ZXMuZHJhbGV0aWNpYWNvc3RhLmNvbS5iclwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyM1wvMDZcLzk3YjQyMjAzLTA4MzMtNDU0NC04ODUwLWY0MDdmMTM4ZjIyYS5qcGciLCJzbGlkZXNob3ciOiJhbGwtNzZiMzFlZiJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/97b42203-0833-4544-8850-f407f138f22a-300x293.jpg" data-width="300" data-height="293" aria-label="" role="img"></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/495cd5c8-83d6-4cdc-acda-4f27dbe398c4.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-76b31ef" data-elementor-lightbox-title="495cd5c8-83d6-4cdc-acda-4f27dbe398c4" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTYyMiwidXJsIjoiaHR0cHM6XC9cL3Zhcml6ZXMuZHJhbGV0aWNpYWNvc3RhLmNvbS5iclwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyM1wvMDZcLzQ5NWNkNWM4LTgzZDYtNGNkYy1hY2RhLTRmMjdkYmUzOThjNC5qcGciLCJzbGlkZXNob3ciOiJhbGwtNzZiMzFlZiJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/495cd5c8-83d6-4cdc-acda-4f27dbe398c4-300x293.jpg" data-width="300" data-height="293" aria-label="" role="img"></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/5769a47d-4cd5-46ac-b911-84aae0d55416.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-76b31ef" data-elementor-lightbox-title="5769a47d-4cd5-46ac-b911-84aae0d55416" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTYyMywidXJsIjoiaHR0cHM6XC9cL3Zhcml6ZXMuZHJhbGV0aWNpYWNvc3RhLmNvbS5iclwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyM1wvMDZcLzU3NjlhNDdkLTRjZDUtNDZhYy1iOTExLTg0YWFlMGQ1NTQxNi5qcGciLCJzbGlkZXNob3ciOiJhbGwtNzZiMzFlZiJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/5769a47d-4cd5-46ac-b911-84aae0d55416-300x300.jpg" data-width="300" data-height="300" aria-label="" role="img"></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/34879b21-c24e-4667-a881-39d707d47902.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-76b31ef" data-elementor-lightbox-title="34879b21-c24e-4667-a881-39d707d47902" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTYyNCwidXJsIjoiaHR0cHM6XC9cL3Zhcml6ZXMuZHJhbGV0aWNpYWNvc3RhLmNvbS5iclwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyM1wvMDZcLzM0ODc5YjIxLWMyNGUtNDY2Ny1hODgxLTM5ZDcwN2Q0NzkwMi5qcGciLCJzbGlkZXNob3ciOiJhbGwtNzZiMzFlZiJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/34879b21-c24e-4667-a881-39d707d47902-300x294.jpg" data-width="300" data-height="294" aria-label="" role="img"></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/a3b55524-bd8d-4bda-ba0d-0ff25cc0b882.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-76b31ef" data-elementor-lightbox-title="a3b55524-bd8d-4bda-ba0d-0ff25cc0b882" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTYyNiwidXJsIjoiaHR0cHM6XC9cL3Zhcml6ZXMuZHJhbGV0aWNpYWNvc3RhLmNvbS5iclwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyM1wvMDZcL2EzYjU1NTI0LWJkOGQtNGJkYS1iYTBkLTBmZjI1Y2MwYjg4Mi5qcGciLCJzbGlkZXNob3ciOiJhbGwtNzZiMzFlZiJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/a3b55524-bd8d-4bda-ba0d-0ff25cc0b882-300x270.jpg" data-width="300" data-height="270" aria-label="" role="img"></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/a19ad9fd-b8a5-40f6-b63a-044308a342a2.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-76b31ef" data-elementor-lightbox-title="a19ad9fd-b8a5-40f6-b63a-044308a342a2" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTYyNywidXJsIjoiaHR0cHM6XC9cL3Zhcml6ZXMuZHJhbGV0aWNpYWNvc3RhLmNvbS5iclwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyM1wvMDZcL2ExOWFkOWZkLWI4YTUtNDBmNi1iNjNhLTA0NDMwOGEzNDJhMi5qcGciLCJzbGlkZXNob3ciOiJhbGwtNzZiMzFlZiJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/a19ad9fd-b8a5-40f6-b63a-044308a342a2-300x300.jpg" data-width="300" data-height="300" aria-label="" role="img"></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/e58a6070-cf29-4fdc-ae6b-5a53e2f8659e.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-76b31ef" data-elementor-lightbox-title="e58a6070-cf29-4fdc-ae6b-5a53e2f8659e" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTYyOCwidXJsIjoiaHR0cHM6XC9cL3Zhcml6ZXMuZHJhbGV0aWNpYWNvc3RhLmNvbS5iclwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyM1wvMDZcL2U1OGE2MDcwLWNmMjktNGZkYy1hZTZiLTVhNTNlMmY4NjU5ZS5qcGciLCJzbGlkZXNob3ciOiJhbGwtNzZiMzFlZiJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/e58a6070-cf29-4fdc-ae6b-5a53e2f8659e-300x280.jpg" data-width="300" data-height="280" aria-label="" role="img"></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/e7053ef9-3045-4d50-a5f5-6ba51740fe67.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-76b31ef" data-elementor-lightbox-title="e7053ef9-3045-4d50-a5f5-6ba51740fe67" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTYyOSwidXJsIjoiaHR0cHM6XC9cL3Zhcml6ZXMuZHJhbGV0aWNpYWNvc3RhLmNvbS5iclwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyM1wvMDZcL2U3MDUzZWY5LTMwNDUtNGQ1MC1hNWY1LTZiYTUxNzQwZmU2Ny5qcGciLCJzbGlkZXNob3ciOiJhbGwtNzZiMzFlZiJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/e7053ef9-3045-4d50-a5f5-6ba51740fe67-300x291.jpg" data-width="300" data-height="291" aria-label="" role="img"></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/f17097d6-ed9a-4986-8dcf-95126af7964d.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-76b31ef" data-elementor-lightbox-title="f17097d6-ed9a-4986-8dcf-95126af7964d" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTYzMCwidXJsIjoiaHR0cHM6XC9cL3Zhcml6ZXMuZHJhbGV0aWNpYWNvc3RhLmNvbS5iclwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyM1wvMDZcL2YxNzA5N2Q2LWVkOWEtNDk4Ni04ZGNmLTk1MTI2YWY3OTY0ZC5qcGciLCJzbGlkZXNob3ciOiJhbGwtNzZiMzFlZiJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/06/f17097d6-ed9a-4986-8dcf-95126af7964d-300x300.jpg" data-width="300" data-height="300" aria-label="" role="img"></div>
+											<div class="elementor-gallery-item__overlay"></div>
+														</a>
+					</div>
+			</div>
+				</div>
+				<div class="elementor-element elementor-element-3857bc7 elementor-mobile-align-center elementor-align-center elementor-widget elementor-widget-button" data-id="3857bc7" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://api.whatsapp.com/send?phone=554391202019&amp;text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20com%20a%20Dra.%20Let%C3%ADcia%20Costa." class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+							<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fab fa-whatsapp"></i>			</span>
+						<span class="elementor-button-text">AGENDAR AVALIAÇÃO</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4102230e elementor-section-height-full elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="4102230e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3895a6f4" data-id="3895a6f4" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-205f3e45" data-id="205f3e45" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4c2455dd elementor-widget elementor-widget-heading" data-id="4c2455dd" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Para quem é o tratamento de varizes sem cirurgia:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4037dce4 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="4037dce4" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Quer finalmente tratar de maneira eficiente as varizes</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Não quer enfrentar uma cirurgia</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Quer pernas bonitas, saudáveis e vigorosas</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Quer ter um tratamento moderno e inovador</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Quer um atendimento médico profissional personalizado</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Não quer enfrentar um período de repouso</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-27f8a66c elementor-mobile-align-left elementor-widget elementor-widget-button" data-id="27f8a66c" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://api.whatsapp.com/send?phone=554391202019&amp;text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20com%20a%20Dra.%20Let%C3%ADcia%20Costa." class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+							<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fab fa-whatsapp"></i>			</span>
+						<span class="elementor-button-text">AGENDAR AVALIAÇÃO</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-1b61a2e5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1b61a2e5" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-60e558c4" data-id="60e558c4" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-53fe600c elementor-widget elementor-widget-image" data-id="53fe600c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="431" height="117" src="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/download_-_2023-05-12T173940.987-removebg-preview-1.png" class="attachment-large size-large wp-image-1183" alt="" srcset="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/download_-_2023-05-12T173940.987-removebg-preview-1.png 431w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/download_-_2023-05-12T173940.987-removebg-preview-1-300x81.png 300w" sizes="auto, (max-width: 431px) 100vw, 431px">															</div>
+				</div>
+				<div class="elementor-element elementor-element-188e5027 elementor-widget elementor-widget-heading" data-id="188e5027" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">O que dizem os pacientes:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-44b67c09 elementor-widget elementor-widget-text-editor" data-id="44b67c09" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>A cada atendimento, prezo pela recepção e satisfação de cada um dos meus pacientes. Abaixo está o relato de algumas pessoas que já atendi:</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4ab10943" data-id="4ab10943" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3f57a47f elementor-widget elementor-widget-shortcode" data-id="3f57a47f" data-element_type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-shortcode"><div class="ti-widget ti-goog" data-layout-id="34" data-set-id="ligth-border" data-pid="" data-pager-autoplay-timeout="6" data-review-target-width="300" data-language="pt"> <div class="ti-widget-container ti-col-3"> <div class="ti-header source-Google"> <div class="ti-rating-text"> <strong class="ti-rating ti-rating-large"> Excelente </strong> </div> <span class="ti-stars star-lg"> <span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span> </span> <div class="ti-rating-text"> <span class="nowrap">Com base em <strong>46 avaliações</strong></span> </div> <div class="ti-large-logo"> <div class="ti-v-center"> <img loading="lazy" decoding="async" class="ti-logo-fb" src="https://cdn.trustindex.io/assets/platform/Google/logo.svg" width="150" height="25" alt="Google"> </div> </div> </div> <div class="ti-reviews-container"> <div class="ti-controls"> <div class="ti-next" aria-label="Próxima avaliação" role="button"></div> <div class="ti-prev" aria-label="Avaliação anterior" role="button"></div> </div> <div class="ti-reviews-container-wrapper">  <div data-empty="0" class="ti-review-item source-Google"> <div class="ti-inner"> <div class="ti-review-header"> <div class="ti-profile-img"> <img decoding="async" src="https://lh3.googleusercontent.com/a/AGNmyxbTGijQqUok4jVFNQA8vv9_7BGHaODPCNBx75Ln=s120-c-c-rp-w64-h64-mo-br100" alt="Anésia Cândido"> </div> <div class="ti-profile-details"> <div class="ti-name"> Anésia Cândido </div> <div class="ti-date">2023-04-28</div> </div> </div> <span class="ti-stars"><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span></span> <div class="ti-review-text-container ti-review-content"><!-- R-CONTENT -->Tive uma experiência ótima, pois minhas pernas estavam horríveis,  eu tinha vergonha de usar short, vestido e ir em piscinas, tive vergonha de mostrar até para a doutora na primeira consulta, mas com o tratamento melhorou 100% estou me sentindo muito feliz e satisfeita com o resultado, obrigada doutora por me proporcionar a ter auto estima com esse tratamento, hoje eu posso usar as roupas que eu sempre gostei, foi Deus que colocou a doutora no meu caminho, que você possa realizar esse sonho em várias mulheres que tem baixa autoestima por causa de varizes. Deus abençoe sempre você e seu trabalho!!!<!-- R-CONTENT --></div> <span class="ti-read-more" data-container=".ti-review-content" data-collapse-text="Esconder" data-open-text="Consulte Mais informação"></span> </div> </div>  <div data-empty="0" class="ti-review-item source-Google"> <div class="ti-inner"> <div class="ti-review-header"> <div class="ti-profile-img"> <img decoding="async" src="https://lh3.googleusercontent.com/a/AGNmyxZc4vpacN_U6Gas-MYXGpAgxZQZu4h4c6ZffL1U=s120-c-c-rp-w64-h64-mo-br100" alt="MARIA APARECIDA LEITÃO"> </div> <div class="ti-profile-details"> <div class="ti-name"> MARIA APARECIDA LEITÃO </div> <div class="ti-date">2023-04-28</div> </div> </div> <span class="ti-stars"><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span></span> <div class="ti-review-text-container ti-review-content"><!-- R-CONTENT -->A minha experiência foi ótima, pois a Dra Letícia é uma excelente profissional, explica tudo deixando-nos à vontade. Gostei dos meus resultados, vou para a segunda fase agora, o refinamento.<!-- R-CONTENT --></div> <span class="ti-read-more" data-container=".ti-review-content" data-collapse-text="Esconder" data-open-text="Consulte Mais informação"></span> </div> </div>  <div data-empty="0" class="ti-review-item source-Google"> <div class="ti-inner"> <div class="ti-review-header"> <div class="ti-profile-img"> <img decoding="async" src="https://lh3.googleusercontent.com/a-/ACB-R5T3pqTJM-34TRSu5g8XPZYefwCtDsYncS6HyLOh=s120-c-c-rp-w64-h64-mo-br100" alt="CLEIDE FARAGO DE LIMA"> </div> <div class="ti-profile-details"> <div class="ti-name"> CLEIDE FARAGO DE LIMA </div> <div class="ti-date">2023-04-19</div> </div> </div> <span class="ti-stars"><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span></span> <div class="ti-review-text-container ti-review-content"><!-- R-CONTENT -->Sempre tive muitas dores nas pernas em consequência das varizes. Como trabalho muito em pé, essas dores vinham aumentado a cada ano. Conheci o trabalho da Drª Letícia pelo Instagram e entrei em contato para uma avaliação. Ela foi bastante “pedagógica “ em me explicar o diagnóstico e as opções de tratamento. No meu caso, por ter muitas varizes e vazinhos , foi um processo longo, mas fiquei muito satisfeita com os resultados. Não sinto mais dores nas pernas, e isso é o mais importante. Sei que ainda necessito de mais algumas seções para alcançar o objetivo, o que certamente valerá a pena.
+Gratidão a Drª Letícia! Seu profissionalismo e seu carisma me encantam.<!-- R-CONTENT --></div> <span class="ti-read-more" data-container=".ti-review-content" data-collapse-text="Esconder" data-open-text="Consulte Mais informação"></span> </div> </div>  <div data-empty="0" class="ti-review-item source-Google"> <div class="ti-inner"> <div class="ti-review-header"> <div class="ti-profile-img"> <img decoding="async" src="https://lh3.googleusercontent.com/a/AGNmyxZMjprilBwdqu9mz7857VlX2s0HQw7M432f1ffN=s120-c-c-rp-w64-h64-mo-ba2-br100" alt="Cleonice Gabriel"> </div> <div class="ti-profile-details"> <div class="ti-name"> Cleonice Gabriel </div> <div class="ti-date">2023-04-15</div> </div> </div> <span class="ti-stars"><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span></span> <div class="ti-review-text-container ti-review-content"><!-- R-CONTENT -->Ótimo atendimento a doutora super gentil,esclareceu todas as minhas dúvidas. Super recomendo.<!-- R-CONTENT --></div> <span class="ti-read-more" data-container=".ti-review-content" data-collapse-text="Esconder" data-open-text="Consulte Mais informação"></span> </div> </div>  <div data-empty="0" class="ti-review-item source-Google"> <div class="ti-inner"> <div class="ti-review-header"> <div class="ti-profile-img"> <img decoding="async" src="https://lh3.googleusercontent.com/a-/ACB-R5RsZXaHRv6xYqpySYIREgHajgIjHL38gZB5tHn6=s120-c-c-rp-w64-h64-mo-br100" alt="Rose Navarro"> </div> <div class="ti-profile-details"> <div class="ti-name"> Rose Navarro </div> <div class="ti-date">2023-03-10</div> </div> </div> <span class="ti-stars"><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span></span> <div class="ti-review-text-container ti-review-content"><!-- R-CONTENT -->dra muito atenciosa, tira todas as dúvidas sobre o melhor tratamento e o resultado fica maravilhoso.<!-- R-CONTENT --></div> <span class="ti-read-more" data-container=".ti-review-content" data-collapse-text="Esconder" data-open-text="Consulte Mais informação"></span> </div> </div>  <div data-empty="0" class="ti-review-item source-Google"> <div class="ti-inner"> <div class="ti-review-header"> <div class="ti-profile-img"> <img decoding="async" src="https://lh3.googleusercontent.com/a/AGNmyxbCQkCFhfgkSJ3jXP98uE5GsvqEaUcwmnYLVh96=s120-c-c-rp-w64-h64-mo-br100" alt="deolina fernandes"> </div> <div class="ti-profile-details"> <div class="ti-name"> deolina fernandes </div> <div class="ti-date">2022-11-10</div> </div> </div> <span class="ti-stars"><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span></span> <div class="ti-review-text-container ti-review-content"><!-- R-CONTENT -->Excelente profissional! Muito satisfeita com a linha de tratamento e o resultado! Recomendo a Dra.<!-- R-CONTENT --></div> <span class="ti-read-more" data-container=".ti-review-content" data-collapse-text="Esconder" data-open-text="Consulte Mais informação"></span> </div> </div>  <div data-empty="0" class="ti-review-item source-Google"> <div class="ti-inner"> <div class="ti-review-header"> <div class="ti-profile-img"> <img decoding="async" src="https://lh3.googleusercontent.com/a-/ACB-R5RjU_izymBoXllApYNw_D42r-UFwrGIhTzUkqnzRw=s120-c-c-rp-w64-h64-mo-br100" alt="Michelle Cassia Brice"> </div> <div class="ti-profile-details"> <div class="ti-name"> Michelle Cassia Brice </div> <div class="ti-date">2022-11-09</div> </div> </div> <span class="ti-stars"><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span></span> <div class="ti-review-text-container ti-review-content"><!-- R-CONTENT -->Atendimento maravilhoso. Resultado perfeito.<!-- R-CONTENT --></div> <span class="ti-read-more" data-container=".ti-review-content" data-collapse-text="Esconder" data-open-text="Consulte Mais informação"></span> </div> </div>  <div data-empty="0" class="ti-review-item source-Google"> <div class="ti-inner"> <div class="ti-review-header"> <div class="ti-profile-img"> <img decoding="async" src="https://lh3.googleusercontent.com/a/AGNmyxbIh3Uwkj1OrzlLvKdNue4vRK6yU0ube3nVDVhl=s120-c-c-rp-w64-h64-mo-br100" alt="Marina Fagundes"> </div> <div class="ti-profile-details"> <div class="ti-name"> Marina Fagundes </div> <div class="ti-date">2022-10-27</div> </div> </div> <span class="ti-stars"><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span><span class="ti-star f"></span></span> <div class="ti-review-text-container ti-review-content"><!-- R-CONTENT -->Só tenho a agradecer pelo ótimo atendimento... Obrigada doutora Letícia profissional excelente<!-- R-CONTENT --></div> <span class="ti-read-more" data-container=".ti-review-content" data-collapse-text="Esconder" data-open-text="Consulte Mais informação"></span> </div> </div>  </div> <div class="ti-controls-line"> <div class="dot"></div> </div> </div> <div class="ti-footer-filter-text"><!-- FOOTER FILTER TEXT --></div> </div> </div> </div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-62d60aa9 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="62d60aa9" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1ed5ee5c" data-id="1ed5ee5c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5f856718 elementor-widget elementor-widget-heading" data-id="5f856718" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Conquiste de volta a qualidade de vida que você merece.</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6aa58d31 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="6aa58d31" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<div class="ql-block" data-block-id="block-e6d62655-df7c-49bc-b22e-139ab9e5f7e7">Não deixe que as varizes limitem sua vida. Agende uma consulta e descubra como nossos tratamentos personalizados podem ajudá-la a conquistar pernas saudáveis e esteticamente agradáveis. Nossa equipe especializada está pronta para oferecer o cuidado necessário para restaurar a saúde e a beleza das suas pernas, permitindo que você viva sua vida ao máximo, com confiança e liberdade.</div>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-56c852d" data-id="56c852d" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-1ebaed6b elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="1ebaed6b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6199594e" data-id="6199594e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-399f2979 elementor-widget elementor-widget-heading" data-id="399f2979" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Resgate a beleza das suas pernas! </h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6b951590 elementor-widget__width-inherit elementor-widget elementor-widget-text-editor" data-id="6b951590" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Agende sua consulta agora mesmo! Não perca mais tempo, dê o primeiro passo em direção a uma aparência e saúde vascular melhor. Nossa equipe está pronta para ajudá-lo a se livrar das varizes e obter pernas lisas, suaves e radiantes.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-54ff330c elementor-mobile-align-left elementor-widget elementor-widget-button" data-id="54ff330c" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://api.whatsapp.com/send?phone=554391202019&amp;text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20com%20a%20Dra.%20Let%C3%ADcia%20Costa." class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+							<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fab fa-whatsapp"></i>			</span>
+						<span class="elementor-button-text">AGENDAR AVALIAÇÃO</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2c24feb6" data-id="2c24feb6" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-6dda1db5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6dda1db5" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2995e3dc" data-id="2995e3dc" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5a41622b elementor-widget elementor-widget-image" data-id="5a41622b" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="800" height="534" src="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/IMG_8147-1-1024x683.jpg" class="attachment-large size-large wp-image-226" alt="" srcset="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/IMG_8147-1-1024x683.jpg 1024w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/IMG_8147-1-300x200.jpg 300w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/IMG_8147-1-768x512.jpg 768w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/IMG_8147-1-1536x1024.jpg 1536w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/IMG_8147-1-2048x1365.jpg 2048w" sizes="auto, (max-width: 800px) 100vw, 800px">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a2d31fe" data-id="6a2d31fe" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-318e8ad1 elementor-widget elementor-widget-heading" data-id="318e8ad1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Dra. Letícia Costa</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-64d92d41 elementor-widget elementor-widget-text-editor" data-id="64d92d41" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Médica, formada em 2010, pela Faculdade de Saúde e Ecologia Humana (FASEH) em Vespasiano, interior de Minas Gerais. Residência em Cirurgia Geral, formada em 2014, no Hospital Cristiano Machado, hospital da Fundação Hospitalar do Estado de Minas Gerais (FHEMIG).</p><p>Especialista em Cirurgia Geral pelo Ministério da Educação (MEC) e pelo Conselho Regional de Medicina (CRM). Especialização em Cirurgia Vascular, formada em 2017, na Santa Casa de Misericórdia de Belo Horizonte. Especialista em Cirurgia Vascular pela Sociedade Brasileira de Angiologia e Cirurgia Vascular (SBACV) e pela Associação Médica Brasileira (AMB). Especialista em Ecografia Vascular com Doppler pelo Colégio Brasileiro de Radiologia (CBR) e pela Associação Médica Brasileira (AMB).</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-1b7479f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1b7479f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6947fd6" data-id="6947fd6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1e601b4a elementor-widget elementor-widget-heading" data-id="1e601b4a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">CLÍNICA ANGIOLOGIA E VARIZES EM Arapongas,</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7125d59c elementor-widget elementor-widget-text-editor" data-id="7125d59c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>A clínica está localizada no coração de Arapongas, Paraná – Brasil. Nossa instalação possui uma estrutura aconchegante e contemporânea projetada para atender a todas as suas necessidades.&nbsp;</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-42c3d399 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="42c3d399" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-34f117cb" data-id="34f117cb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-e8534df elementor-widget elementor-widget-gallery" data-id="e8534df" data-element_type="widget" data-settings="{&quot;columns&quot;:3,&quot;gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;lazyload&quot;:&quot;yes&quot;,&quot;gallery_layout&quot;:&quot;grid&quot;,&quot;columns_tablet&quot;:2,&quot;columns_mobile&quot;:1,&quot;gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;aspect_ratio&quot;:&quot;3:2&quot;,&quot;content_hover_animation&quot;:&quot;fade-in&quot;}" data-widget_type="gallery.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-gallery__container">
+							<div class="e-gallery-item elementor-gallery-item elementor-animated-content">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/IMG_8146-1.jpg" data-width="2487" data-height="1658" aria-label="" role="img"></div>
+														</div>
+							<div class="e-gallery-item elementor-gallery-item elementor-animated-content">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/IMG_8147-1-1.jpg" data-width="1680" data-height="1120" aria-label="" role="img"></div>
+														</div>
+							<div class="e-gallery-item elementor-gallery-item elementor-animated-content">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/IMG_8146-1-1.jpg" data-width="1658" data-height="1105" aria-label="" role="img"></div>
+														</div>
+					</div>
+			</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-59d86594 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="59d86594" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-653baea8" data-id="653baea8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-148c7432 elementor-widget elementor-widget-heading" data-id="148c7432" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">FAQ - Dúvidas frequentes</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-30b78646 elementor-widget elementor-widget-toggle" data-id="30b78646" data-element_type="widget" data-widget_type="toggle.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.13.2 - 11-05-2023 */
+.elementor-toggle{text-align:left}.elementor-toggle .elementor-tab-title{font-weight:700;line-height:1;margin:0;padding:15px;border-bottom:1px solid #d5d8dc;cursor:pointer;outline:none}.elementor-toggle .elementor-tab-title .elementor-toggle-icon{display:inline-block;width:1em}.elementor-toggle .elementor-tab-title .elementor-toggle-icon svg{-webkit-margin-start:-5px;margin-inline-start:-5px;width:1em;height:1em}.elementor-toggle .elementor-tab-title .elementor-toggle-icon.elementor-toggle-icon-right{float:right;text-align:right}.elementor-toggle .elementor-tab-title .elementor-toggle-icon.elementor-toggle-icon-left{float:left;text-align:left}.elementor-toggle .elementor-tab-title .elementor-toggle-icon .elementor-toggle-icon-closed{display:block}.elementor-toggle .elementor-tab-title .elementor-toggle-icon .elementor-toggle-icon-opened{display:none}.elementor-toggle .elementor-tab-title.elementor-active{border-bottom:none}.elementor-toggle .elementor-tab-title.elementor-active .elementor-toggle-icon-closed{display:none}.elementor-toggle .elementor-tab-title.elementor-active .elementor-toggle-icon-opened{display:block}.elementor-toggle .elementor-tab-content{padding:15px;border-bottom:1px solid #d5d8dc;display:none}@media (max-width:767px){.elementor-toggle .elementor-tab-title{padding:12px}.elementor-toggle .elementor-tab-content{padding:12px 10px}}.e-con-inner>.elementor-widget-toggle,.e-con>.elementor-widget-toggle{width:var(--container-widget-width);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-toggle" role="tablist">
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-8171" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-8171" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+													</span>
+												<a href="" class="elementor-toggle-title">Como saber qual o melhor tratamento para mim?</a>
+					</div>
+
+					<div id="elementor-tab-content-8171" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-8171"><p>Durante nossa primeira consulta, vamos avaliar seu quadro e seu histórico familiar. Somente a partir da análise do seu quadro é que podemos decidir qual o melhor tratamento para você.</p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-8172" class="elementor-tab-title" data-tab="2" role="tab" aria-controls="elementor-tab-content-8172" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+													</span>
+												<a href="" class="elementor-toggle-title">Posso iniciar o tratamento no dia da primeira consulta?</a>
+					</div>
+
+					<div id="elementor-tab-content-8172" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-8172"><p>Sim, desde a primeira consulta já podemos iniciar o tratamento.</p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-8173" class="elementor-tab-title" data-tab="3" role="tab" aria-controls="elementor-tab-content-8173" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+													</span>
+												<a href="" class="elementor-toggle-title">Preciso fazer repouso?</a>
+					</div>
+
+					<div id="elementor-tab-content-8173" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-8173"><p>Não. Nosso método não é invasivo e por isso não há necessidade de fazer período de repouso. Após o tratamento você já poderá retornar às suas atividades diárias.</p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-8174" class="elementor-tab-title" data-tab="4" role="tab" aria-controls="elementor-tab-content-8174" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+													</span>
+												<a href="" class="elementor-toggle-title">Quais os cuidados antes do tratamento?</a>
+					</div>
+
+					<div id="elementor-tab-content-8174" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-8174"><p>Não há necessidade de cuidados prévios, por isso já podemos começar na primeira consulta.</p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-8175" class="elementor-tab-title" data-tab="5" role="tab" aria-controls="elementor-tab-content-8175" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+													</span>
+												<a href="" class="elementor-toggle-title">Preciso de cirurgia e internação?</a>
+					</div>
+
+					<div id="elementor-tab-content-8175" class="elementor-tab-content elementor-clearfix" data-tab="5" role="tabpanel" aria-labelledby="elementor-tab-title-8175"><p>Nosso método não exige cirurgia e nem internação.</p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-8176" class="elementor-tab-title" data-tab="6" role="tab" aria-controls="elementor-tab-content-8176" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+													</span>
+												<a href="" class="elementor-toggle-title">Posso ter manchas depois do tratamento?</a>
+					</div>
+
+					<div id="elementor-tab-content-8176" class="elementor-tab-content elementor-clearfix" data-tab="6" role="tabpanel" aria-labelledby="elementor-tab-title-8176"><p>O risco de manchas é baixíssimo, e o método pode ser aplicado inclusive em peles negras.</p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-8177" class="elementor-tab-title" data-tab="7" role="tab" aria-controls="elementor-tab-content-8177" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+													</span>
+												<a href="" class="elementor-toggle-title">Qual é a principal causa das varizes?</a>
+					</div>
+
+					<div id="elementor-tab-content-8177" class="elementor-tab-content elementor-clearfix" data-tab="7" role="tabpanel" aria-labelledby="elementor-tab-title-8177"><p>Diversos fatores podem ser causadores de varizes, desde pré-disposição genética a hábitos como o de usar calçados inadequados ou ficar longos períodos em uma mesma posição podem certamente influenciam em seu surgimento.</p></div>
+				</div>
+							<div class="elementor-toggle-item">
+					<div id="elementor-tab-title-8178" class="elementor-tab-title" data-tab="8" role="tab" aria-controls="elementor-tab-content-8178" aria-expanded="false">
+												<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+								<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+													</span>
+												<a href="" class="elementor-toggle-title">Varizes aumentam durante a gravidez?</a>
+					</div>
+
+					<div id="elementor-tab-content-8178" class="elementor-tab-content elementor-clearfix" data-tab="8" role="tabpanel" aria-labelledby="elementor-tab-title-8178"><p>Sim, na maioria dos casos as varizes aumentam durante a gravidez, e isso se deve a diversos fatores, como alterações no equilíbrio hormonal, aumento do peso e do volume sanguíneo.</p></div>
+				</div>
+								</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-42e87921 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="42e87921" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7266f9c0" data-id="7266f9c0" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3a8c532a elementor-widget elementor-widget-text-editor" data-id="3a8c532a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><strong>CONTATOS</strong><br><span style="color: #000000;">(43) 99120-2019</span><br><strong>HORÁRIO DE FUNCIONAMENTO</strong><br>SEG A SEX 8:00-17:30 e SAB 8:00 – 12 horas <br><strong>ENDEREÇO</strong><br><span style="color: #000000;"><a style="color: #000000;" href="https://www.google.com/maps/place/R.+Marabu,+1290+-+Sala+2+-+Centro,+Arapongas+-+PR,+86700-160,+Brasil/@-23.405444,-51.440187,14z/data=!4m6!3m5!1s0x94eca3e56d455555:0xfbde26684f760701!8m2!3d-23.4054436!4d-51.4401869!16s%2Fg%2F11snnyqnr1?hl=pt-BR&amp;entry=ttu" target="_blank" rel="noopener">Rua Marabu, 1290 – Sala 2 – Centro – Arapongas – PR, CEP 86700-160, Brasil.</a></span></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-4c53f010 elementor-mobile-align-center elementor-align-left elementor-widget elementor-widget-button" data-id="4c53f010" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://api.whatsapp.com/send?phone=554391202019&amp;text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20com%20a%20Dra.%20Let%C3%ADcia%20Costa." class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+							<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fab fa-whatsapp"></i>			</span>
+						<span class="elementor-button-text">AGENDAR AVALIAÇÃO</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5160661e" data-id="5160661e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-48291249 elementor-widget elementor-widget-google_maps" data-id="48291249" data-element_type="widget" data-widget_type="google_maps.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.13.2 - 11-05-2023 */
+.elementor-widget-google_maps .elementor-widget-container{overflow:hidden}.elementor-widget-google_maps .elementor-custom-embed{line-height:0}.elementor-widget-google_maps iframe{height:300px}</style>		<div class="elementor-custom-embed">
+			<iframe loading="lazy" src="about:blank" title="Rua Marabu, 1290 - Sala 2 - Centro - Arapongas - PR, CEP 86700-160, Brasil." aria-label="Rua Marabu, 1290 - Sala 2 - Centro - Arapongas - PR, CEP 86700-160, Brasil." data-rocket-lazyload="fitvidscompatible" data-lazy-src="https://maps.google.com/maps?q=Rua%20Marabu%2C%201290%20-%20Sala%202%20-%20Centro%20-%20Arapongas%20-%20PR%2C%20CEP%2086700-160%2C%20Brasil.&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near"></iframe><noscript><iframe loading="lazy"
+					src="https://maps.google.com/maps?q=Rua%20Marabu%2C%201290%20-%20Sala%202%20-%20Centro%20-%20Arapongas%20-%20PR%2C%20CEP%2086700-160%2C%20Brasil.&#038;t=m&#038;z=14&#038;output=embed&#038;iwloc=near"
+					title="Rua Marabu, 1290 - Sala 2 - Centro - Arapongas - PR, CEP 86700-160, Brasil."
+					aria-label="Rua Marabu, 1290 - Sala 2 - Centro - Arapongas - PR, CEP 86700-160, Brasil."
+			></iframe></noscript>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-1070f7ac elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1070f7ac" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-29496ba3" data-id="29496ba3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-23856d60 elementor-widget elementor-widget-image" data-id="23856d60" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="800" height="293" src="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Logo-Horizontal_2-25-1-1.jpg" class="attachment-large size-large wp-image-560" alt="" srcset="https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Logo-Horizontal_2-25-1-1.jpg 864w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Logo-Horizontal_2-25-1-1-300x110.jpg 300w,   https://varizes.draleticiacosta.com.br/wp-content/uploads/2023/05/Logo-Horizontal_2-25-1-1-768x281.jpg 768w" sizes="auto, (max-width: 800px) 100vw, 800px">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7e1e86ad" data-id="7e1e86ad" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2fce771c elementor-widget elementor-widget-text-editor" data-id="2fce771c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Copyrigth Dra. Letícia Costa – Todos os direitos reservados. Desenvolvido com&nbsp;<i class="fa fa-heart" aria-hidden="true"></i>&nbsp;por&nbsp;<span style="color: #ffffff;"><a style="color: #ffffff;" href="https://fysilabdigital.com.br/bio/" target="_blank" rel="noopener">Fyslabdigital.</a></span></p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/hello-elementor\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+		<meta http-equiv="imagetoolbar" content="no"><!-- disable image toolbar (if any) -->
+		<style>
+			:root {
+				-webkit-user-select: none;
+				-webkit-touch-callout: none;
+				-ms-user-select: none;
+				-moz-user-select: none;
+				user-select: none;
+			}
+		</style>
+		<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+			/*<![CDATA[*/
+			document.oncontextmenu = function(event) {
+				if (event.target.tagName != 'INPUT' && event.target.tagName != 'TEXTAREA') {
+					event.preventDefault();
+				}
+			};
+			document.ondragstart = function() {
+				if (event.target.tagName != 'INPUT' && event.target.tagName != 'TEXTAREA') {
+					event.preventDefault();
+				}
+			};
+			/*]]>*/
+		</script>
+		<noscript><img height="1" width="1" style="display: none;" src="https://www.facebook.com/tr?id=1649266082236351&ev=PageView&noscript=1&cd%5Bpage_title%5D=Tratamento+de+varizes+sem+cirurgia&cd%5Bpost_type%5D=page&cd%5Bpost_id%5D=1604&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=varizes.draleticiacosta.com.br%2F" alt=""></noscript>
+<link rel="stylesheet" id="elementor-gallery-css" href="https://varizes.draleticiacosta.com.br/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css?ver=1.2.0" media="all">
+<link data-minify="1" rel="stylesheet" id="ti-widget-css-google-css" href="https://varizes.draleticiacosta.com.br/wp-content/cache/min/1/wp-content/uploads/trustindex-google-widget.css?ver=1708711065" media="all">
+<script type="rocketlazyloadscript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/varizes.draleticiacosta.com.br","onHoverDelay":"100","rateThrottle":"3"};
+</script>
+<script type="rocketlazyloadscript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://varizes.draleticiacosta.com.br/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=1.0.0" id="hello-theme-frontend-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://varizes.draleticiacosta.com.br/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js?ver=1.2.0" id="elementor-gallery-js" defer=""></script>
+<script type="rocketlazyloadscript" defer="" async="" data-rocket-src="https://cdn.trustindex.io/loader.js?ver=6.8.1" id="trustindex-js-js"></script>
+<script type="rocketlazyloadscript" id="trustindex-js-js-after">
+(function ti_init() {
+if(typeof Trustindex == "undefined"){setTimeout(ti_init, 1985);return false;}
+if(typeof Trustindex.pager_inited != "undefined"){return false;}
+Trustindex.init_pager(document.querySelectorAll(".ti-widget"));
+})();
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://varizes.draleticiacosta.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.12.0" id="elementor-pro-webpack-runtime-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://varizes.draleticiacosta.com.br/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.13.2" id="elementor-webpack-runtime-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://varizes.draleticiacosta.com.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.13.2" id="elementor-frontend-modules-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://varizes.draleticiacosta.com.br/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://varizes.draleticiacosta.com.br/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="rocketlazyloadscript" id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type="rocketlazyloadscript" id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/varizes.draleticiacosta.com.br\/wp-admin\/admin-ajax.php","nonce":"4e7a3b06f2","urls":{"assets":"https:\/\/varizes.draleticiacosta.com.br\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/varizes.draleticiacosta.com.br\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"pt_PT","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/varizes.draleticiacosta.com.br\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://varizes.draleticiacosta.com.br/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.12.0" id="elementor-pro-frontend-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://varizes.draleticiacosta.com.br/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://varizes.draleticiacosta.com.br/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js" defer=""></script>
+<script type="rocketlazyloadscript" id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Partilhar no Facebook","shareOnTwitter":"Partilhar no Twitter","pinIt":"Fix\u00e1-lo","download":"Download","downloadImage":"Descarregar Imagem","fullscreen":"\u00c9cr\u00e3 Inteiro","zoom":"Zoom","share":"Partilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Seguinte","close":"Fechar"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile ao alto","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile ao baixo","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Port\u00e1til","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.13.2","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"e_swiper_latest":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"landing-pages":true,"page-transitions":true,"notes":true,"loop":true,"e_scroll_snap":true,"mega-menu":true},"urls":{"assets":"https:\/\/varizes.draleticiacosta.com.br\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_footer_logo_type":"logo"},"post":{"id":1604,"title":"Tratamento%20de%20varizes%20sem%20cirurgia%20-%20Dra.%20Leticia%20Costa","excerpt":"","featuredImage":false}};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://varizes.draleticiacosta.com.br/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.13.2" id="elementor-frontend-js" defer=""></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://varizes.draleticiacosta.com.br/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.12.0" id="pro-elements-handlers-js" defer=""></script>
+<script>window.lazyLoadOptions={elements_selector:"iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async="" src="https://varizes.draleticiacosta.com.br/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script><script>function lazyLoadThumb(e){var t='<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360">',a='<button class="play" aria-label="play Youtube video"></button>';return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?'':'&'+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var e,t,p,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)e=document.createElement("div"),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query", a[t].dataset.query),e.setAttribute("data-src", a[t].dataset.src),e.innerHTML=lazyLoadThumb(a[t].dataset.id),a[t].appendChild(e),p=e.querySelector('.play'),p.onclick=lazyLoadYoutubeIframe});</script>	<script>class RocketElementorAnimation{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode-wpr",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}_detectAnimations(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this._listAnimationSettingsKeys(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach(t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this._animateElement(t)}catch(t){}})}_animateElement(t){const e=JSON.parse(t.dataset.settings),i=e._animation_delay||e.animation_delay||0,n=e[this.animationSettingKeys.find(t=>e[t])];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let s=setTimeout(()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this._removeAnimationSettings(t,e)},i);window.addEventListener("rocket-startLoading",function(){clearTimeout(s)})}_listAnimationSettingsKeys(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach(t=>{e.forEach(e=>{i.push(t+e)})}),i}_removeAnimationSettings(t,e){this._listAnimationSettingsKeys().forEach(t=>delete e[t]),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorAnimation;requestAnimationFrame(t._detectAnimations.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorAnimation.run);</script>
+
+<span id="elementor-device-mode-wpr" class="elementor-screen-only"></span></body></html>

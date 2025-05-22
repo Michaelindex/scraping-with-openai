@@ -1,0 +1,506 @@
+2025-05-22 02:42:12,991 - P17320 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 02:42:12,992 - P17320 - INFO - Nome: REGIANE GOMES DA SILVA
+2025-05-22 02:42:12,992 - P17320 - INFO - Reiniciando driver do Chrome
+2025-05-22 02:42:14,291 - P17320 - INFO - Após reiniciar driver Uso de memória: 100.45 MB
+2025-05-22 02:42:14,291 - P17320 - INFO - Início do processamento Uso de memória: 100.45 MB
+2025-05-22 02:42:14,292 - P17320 - INFO - Iniciando busca para: REGIANE GOMES DA SILVA CRM 14219 SC telefone e-mail endereço
+2025-05-22 02:42:15,072 - P17320 - INFO - SearX results: 9 URLs
+2025-05-22 02:42:15,072 - P17320 - INFO - Após SearX Uso de memória: 100.45 MB
+2025-05-22 02:42:17,773 - P17320 - INFO - Google results: 6 URLs
+2025-05-22 02:42:17,774 - P17320 - INFO - Após Google Uso de memória: 101.66 MB
+2025-05-22 02:42:20,262 - P17320 - INFO - Bing results: 9 URLs
+2025-05-22 02:42:20,262 - P17320 - INFO - Após Bing Uso de memória: 102.77 MB
+2025-05-22 02:42:20,263 - P17320 - INFO - Total de URLs únicas: 22
+2025-05-22 02:42:20,263 - P17320 - INFO - Processando URL 1/22: https://www.crmpr.org.br/Pesar-pelo-falecimento-do-medico-Antonio-de-Padua-Gomes-da-Silva-11-59875.shtml
+2025-05-22 02:42:23,418 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\945689a3e7db0538f82547f9ea2084bc.html
+2025-05-22 02:42:23,444 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 02:42:23,444 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:42:23,444 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:42:23,444 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:42:23,444 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:42:23,445 - P17320 - INFO - Após processar URL 1 Uso de memória: 102.77 MB
+2025-05-22 02:42:23,445 - P17320 - INFO - Processando URL 2/22: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1350597119.pdf
+2025-05-22 02:42:23,445 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1350597119.pdf
+2025-05-22 02:42:23,445 - P17320 - INFO - Após processar URL 2 Uso de memória: 102.77 MB
+2025-05-22 02:42:23,445 - P17320 - INFO - Processando URL 3/22: https://www.escavador.com/sobre/1013409/regiane-gomes-da-silva
+2025-05-22 02:42:27,062 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\3f5b8173e1c6ad604446477f1ab1cec1.html
+2025-05-22 02:42:27,078 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:42:27,079 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:42:27,079 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:42:27,079 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:42:27,079 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:42:27,079 - P17320 - INFO - Após processar URL 3 Uso de memória: 102.86 MB
+2025-05-22 02:42:27,079 - P17320 - INFO - Processando URL 4/22: https://www.doctoralia.com.br/regiane-gomes-da-silva/medico-clinico-geral/joinville
+2025-05-22 02:42:27,080 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/regiane-gomes-da-silva/medico-clinico-geral/joinville
+2025-05-22 02:42:27,080 - P17320 - INFO - Após processar URL 4 Uso de memória: 102.86 MB
+2025-05-22 02:42:27,080 - P17320 - INFO - Processando URL 5/22: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 02:42:29,436 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 02:42:29,485 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:42:29,487 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:42:29,487 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:42:29,487 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:42:29,487 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:42:29,488 - P17320 - INFO - Após processar URL 5 Uso de memória: 102.90 MB
+2025-05-22 02:42:29,488 - P17320 - INFO - Processando URL 6/22: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-07-12-2023.pdf?p=1701975600031
+2025-05-22 02:42:29,488 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-07-12-2023.pdf?p=1701975600031
+2025-05-22 02:42:29,488 - P17320 - INFO - Após processar URL 6 Uso de memória: 102.90 MB
+2025-05-22 02:42:29,489 - P17320 - INFO - Processando URL 7/22: https://portal.cfm.org.br/busca-medicos
+2025-05-22 02:42:33,417 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 02:42:33,454 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:42:33,454 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:42:33,454 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:42:33,455 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:42:33,455 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:42:33,455 - P17320 - INFO - Após processar URL 7 Uso de memória: 102.90 MB
+2025-05-22 02:42:33,455 - P17320 - INFO - Processando URL 8/22: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1393386040.pdf
+2025-05-22 02:42:33,455 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1393386040.pdf
+2025-05-22 02:42:33,455 - P17320 - INFO - Após processar URL 8 Uso de memória: 102.90 MB
+2025-05-22 02:42:33,456 - P17320 - INFO - Processando URL 9/22: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/166192/Caderno_JUD_BA_2016-10-04_VIII_186.pdf?sequence=3&isAllowed=y
+2025-05-22 02:42:33,456 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/166192/Caderno_JUD_BA_2016-10-04_VIII_186.pdf?sequence=3&isAllowed=y
+2025-05-22 02:42:33,456 - P17320 - INFO - Após processar URL 9 Uso de memória: 102.90 MB
+2025-05-22 02:42:33,456 - P17320 - INFO - Processando URL 10/22: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/929798911.pdf
+2025-05-22 02:42:33,456 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/929798911.pdf
+2025-05-22 02:42:33,456 - P17320 - INFO - Após processar URL 10 Uso de memória: 102.90 MB
+2025-05-22 02:42:33,457 - P17320 - INFO - Processando URL 11/22: https://www.consultasocio.com/q/sa/regiane-gomes-da-silva
+2025-05-22 02:42:36,745 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\94d1016a6457da2cffcfcd16673ea266.html
+2025-05-22 02:42:36,753 - P17320 - INFO - Candidates address: 4 items
+2025-05-22 02:42:36,753 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:42:36,753 - P17320 - INFO - Candidates email: 4 items
+2025-05-22 02:42:36,753 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:42:36,754 - P17320 - INFO - Candidates cep: 13 items
+2025-05-22 02:42:36,754 - P17320 - INFO - Após processar URL 11 Uso de memória: 102.92 MB
+2025-05-22 02:42:36,754 - P17320 - INFO - Processando URL 12/22: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/854161925.pdf
+2025-05-22 02:42:36,754 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/854161925.pdf
+2025-05-22 02:42:36,754 - P17320 - INFO - Após processar URL 12 Uso de memória: 102.92 MB
+2025-05-22 02:42:36,754 - P17320 - INFO - Processando URL 13/22: https://crmpi.org.br/noticias/crm-pi-lamenta-o-falecimento-do-dermatologista-dr-jose-gomes-da-silva/
+2025-05-22 02:42:39,581 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e9b2f941b9c4c80216b84e8fe45e5177.html
+2025-05-22 02:42:39,608 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:42:39,608 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:42:39,608 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:42:39,608 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:42:39,608 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:42:39,609 - P17320 - INFO - Após processar URL 13 Uso de memória: 102.92 MB
+2025-05-22 02:42:39,609 - P17320 - INFO - Processando URL 14/22: https://crmsc.org.br/regionais/delegacias-regionais/
+2025-05-22 02:42:42,983 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\4fdceacb77d0ad074a23bf192c406e73.html
+2025-05-22 02:42:43,059 - P17320 - INFO - Candidates address: 8 items
+2025-05-22 02:42:43,060 - P17320 - INFO - Candidates phone: 10 items
+2025-05-22 02:42:43,060 - P17320 - INFO - Candidates email: 14 items
+2025-05-22 02:42:43,060 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:42:43,060 - P17320 - INFO - Candidates cep: 9 items
+2025-05-22 02:42:43,061 - P17320 - INFO - Após processar URL 14 Uso de memória: 102.96 MB
+2025-05-22 02:42:43,061 - P17320 - INFO - Processando URL 15/22: https://doutorcrm.com/regiane-gomes-da-silva
+2025-05-22 02:42:47,618 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\3254d3395e658b5d751b01212e43e568.html
+2025-05-22 02:42:47,640 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:42:47,645 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:42:47,646 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:42:47,648 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:42:47,649 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:42:47,650 - P17320 - INFO - Após processar URL 15 Uso de memória: 102.98 MB
+2025-05-22 02:42:47,651 - P17320 - INFO - Processando URL 16/22: https://cnpj.biz/58503006000161
+2025-05-22 02:42:52,577 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9b69670d7d462b1365935d082c9325f7.html
+2025-05-22 02:42:52,595 - P17320 - INFO - Candidates address: 3 items
+2025-05-22 02:42:52,595 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:42:52,595 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:42:52,595 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:42:52,595 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:42:52,596 - P17320 - INFO - Após processar URL 16 Uso de memória: 102.99 MB
+2025-05-22 02:42:52,596 - P17320 - INFO - Processando URL 17/22: https://www.saobernardo.sp.gov.br/documents/10181/1812128/NM+2482+de+01.11.2024+-++Conteu%CC%81do+Integral.pdf/293fb6cd-336f-efe7-f0e2-310803b1a486
+2025-05-22 02:42:52,596 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1812128/NM+2482+de+01.11.2024+-++Conteu%CC%81do+Integral.pdf/293fb6cd-336f-efe7-f0e2-310803b1a486
+2025-05-22 02:42:52,596 - P17320 - INFO - Após processar URL 17 Uso de memória: 102.99 MB
+2025-05-22 02:42:52,597 - P17320 - INFO - Processando URL 18/22: https://www.diariomunicipal.sc.gov.br/atos/3373339
+2025-05-22 02:42:56,218 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\c4d5cc5564047c19ff8083f82874be00.html
+2025-05-22 02:42:57,973 - P17320 - INFO - Candidates address: 11 items
+2025-05-22 02:42:57,975 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:42:57,975 - P17320 - INFO - Candidates email: 2 items
+2025-05-22 02:42:57,976 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:42:57,978 - P17320 - INFO - Candidates cep: 1396 items
+2025-05-22 02:42:57,982 - P17320 - INFO - Após processar URL 18 Uso de memória: 98.71 MB
+2025-05-22 02:42:57,987 - P17320 - INFO - Processando URL 19/22: https://www.sbnpp.org.br/associados
+2025-05-22 02:43:02,934 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\b2caa3b3ca953c11e7eec84dffe90e1b.html
+2025-05-22 02:43:03,556 - P17320 - INFO - Candidates address: 262 items
+2025-05-22 02:43:03,557 - P17320 - INFO - Candidates phone: 54 items
+2025-05-22 02:43:03,557 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:43:03,557 - P17320 - INFO - Candidates complement: 33 items
+2025-05-22 02:43:03,557 - P17320 - INFO - Candidates cep: 257 items
+2025-05-22 02:43:03,557 - P17320 - INFO - Após processar URL 19 Uso de memória: 107.40 MB
+2025-05-22 02:43:03,557 - P17320 - INFO - Processando URL 20/22: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2021/05/397382f8-a605-44c2-bb9f-6cb00295d16c_Edicao-4916-28-05-2021.pdf
+2025-05-22 02:43:03,558 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2021/05/397382f8-a605-44c2-bb9f-6cb00295d16c_Edicao-4916-28-05-2021.pdf
+2025-05-22 02:43:03,558 - P17320 - INFO - Após processar URL 20 Uso de memória: 105.55 MB
+2025-05-22 02:43:03,558 - P17320 - INFO - Processando URL 21/22: https://consultacrm.com.br/
+2025-05-22 02:43:08,077 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:43:08,090 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:43:08,090 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:43:08,091 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:43:08,091 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:43:08,092 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:43:08,092 - P17320 - INFO - Após processar URL 21 Uso de memória: 107.35 MB
+2025-05-22 02:43:08,093 - P17320 - INFO - Processando URL 22/22: https://www.classemedica.com.br/medico/279550-regiane-gomes-da-silva.htm
+2025-05-22 02:43:14,568 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\1923b68c78e00865f7bf3fd8bd3f782f.html
+2025-05-22 02:43:14,598 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:43:14,598 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:43:14,598 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:43:14,598 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:43:14,599 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:43:14,599 - P17320 - INFO - Após processar URL 22 Uso de memória: 107.79 MB
+2025-05-22 02:43:14,599 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:43:14,599 - P17320 - INFO - Ranked address: 290 items
+2025-05-22 02:43:14,599 - P17320 - INFO - Ranked phone: 67 items
+2025-05-22 02:43:14,600 - P17320 - INFO - Ranked email: 24 items
+2025-05-22 02:43:14,600 - P17320 - INFO - Ranked complement: 38 items
+2025-05-22 02:43:14,600 - P17320 - INFO - Ranked cep: 1680 items
+2025-05-22 02:43:14,600 - P17320 - INFO - Após agregação Uso de memória: 107.79 MB
+2025-05-22 02:43:14,600 - P17320 - INFO - Validando endereço: ['Avenida Desembargador Hugo Simas 26', 'Rua Victório Viezzer, 84', 'Rua Doutor Joao Colin, 1285']
+2025-05-22 02:43:14,601 - P17320 - INFO - Endereço validado: Avenida Desembargador Hugo Simas 26
+2025-05-22 02:43:14,601 - P17320 - INFO - Limpando texto extenso para campo address: Avenida Desembargador Hugo Simas 26...
+2025-05-22 02:43:14,601 - P17320 - INFO - Texto limpo: Avenida Desembargador Hugo Simas 26
+2025-05-22 02:43:14,601 - P17320 - INFO - Validando telefone: ['(41) 3240-4000', '(47) 3326-4554', '(49) 3323-0502']
+2025-05-22 02:43:14,601 - P17320 - INFO - Limpando texto extenso para campo phone: (41) 3240-4000...
+2025-05-22 02:43:14,601 - P17320 - INFO - Texto limpo: 41) 3240-4000
+2025-05-22 02:43:14,602 - P17320 - INFO - Telefone validado: 41) 3240-4000
+2025-05-22 02:43:14,602 - P17320 - INFO - Validando email: ['protocolo@crmpr.org.br', 'cfm@portalmedico.org.br', 'CONTABIL.SOMAR@NETUNO.COM.BR']
+2025-05-22 02:43:14,602 - P17320 - INFO - Limpando texto extenso para campo email: protocolo@crmpr.org.br...
+2025-05-22 02:43:14,602 - P17320 - INFO - Texto limpo: protocolo@crmpr.org.br
+2025-05-22 02:43:14,602 - P17320 - INFO - Email validado: protocolo@crmpr.org.br
+2025-05-22 02:43:14,602 - P17320 - INFO - Validando complemento: ['Sala Esmeralda Avenida Desembargador Hugo Simas 26', 'Conjunto D', 'Sala  03 America']
+2025-05-22 02:43:14,602 - P17320 - INFO - Limpando texto extenso para campo complement: Sala Esmeralda Avenida Desembargador Hugo Simas 26...
+2025-05-22 02:43:14,602 - P17320 - INFO - Texto limpo: Sala Esmeralda Avenida Desemba
+2025-05-22 02:43:14,603 - P17320 - INFO - Complemento validado: Sala Esmeralda Avenida Desemba
+2025-05-22 02:43:14,603 - P17320 - INFO - Descobrindo cidade
+2025-05-22 02:43:14,603 - P17320 - INFO - Buscando cidade: Avenida Desembargador Hugo Simas 26 cidade SC
+2025-05-22 02:43:17,915 - P17320 - INFO - Cidade encontrada: Balneário Camboriú
+2025-05-22 02:43:17,915 - P17320 - INFO - Limpando texto extenso para campo city: Balneário Camboriú...
+2025-05-22 02:43:17,916 - P17320 - INFO - Texto limpo: Balneário Camboriú
+2025-05-22 02:43:17,916 - P17320 - INFO - Cidade descoberta: Balneário Camboriú
+2025-05-22 02:43:17,916 - P17320 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 02:43:17,916 - P17320 - INFO - Iniciando busca de CEP em cascata para: Avenida Desembargador Hugo Simas 26, Balneário Camboriú, SC
+2025-05-22 02:43:17,916 - P17320 - INFO - Método 1: ViaCEP API
+2025-05-22 02:43:17,916 - P17320 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SC/balneario%20camboriu/avenida%20desembargador%20hugo%20simas%2026/json/
+2025-05-22 02:43:18,553 - P17320 - WARNING - ViaCEP retornou status 200 ou nenhum resultado
+2025-05-22 02:43:18,556 - P17320 - INFO - Método 2: BrasilAPI
+2025-05-22 02:43:18,556 - P17320 - INFO - Buscando na BrasilAPI: Avenida Desembargador Hugo Simas 26, Balneário Camboriú, SC
+2025-05-22 02:43:19,050 - P17320 - INFO - Consultando BrasilAPI: https://brasilapi.com.br/api/cep/v2/35135084
+2025-05-22 02:43:19,348 - P17320 - WARNING - BrasilAPI retornou status 404
+2025-05-22 02:43:19,351 - P17320 - INFO - Método 3: Web Scraping do Google
+2025-05-22 02:43:19,351 - P17320 - INFO - Buscando CEP: CEP da Avenida Desembargador Hugo Simas 26, Balneário Camboriú
+2025-05-22 02:43:21,246 - P17320 - INFO - CEP encontrado: 80520-250
+2025-05-22 02:43:21,248 - P17320 - INFO - CEP encontrado via Google: 80520-250
+2025-05-22 02:43:21,249 - P17320 - INFO - Dados de CEP encontrados: {'cep': '80520-250', 'logradouro': 'Avenida Desembargador Hugo Simas 26', 'bairro': '', 'localidade': 'Balneário Camboriú', 'uf': 'SC', 'complemento': ''}
+2025-05-22 02:43:21,250 - P17320 - INFO - Limpando texto extenso para campo city: Balneário Camboriú...
+2025-05-22 02:43:21,250 - P17320 - INFO - Texto limpo: Balneário Camboriú
+2025-05-22 02:43:21,252 - P17320 - INFO - Limpando texto extenso para campo state: SC...
+2025-05-22 02:43:21,254 - P17320 - INFO - Texto limpo: SC
+2025-05-22 02:43:21,254 - P17320 - INFO - Tempo de execução de processamento completo do médico: 66.96 segundos
+2025-05-22 02:43:21,256 - P17320 - INFO - Resultado processado: {'Hash': '8f7ee203ef1a5601781e37793e7a607cbfba944863124fcd8d489d6370c96616', 'CRM': '14219', 'UF': 'SC', 'Firstname': 'REGIANE', 'LastName': 'GOMES DA SILVA', 'Medical specialty': '', 'Endereco Completo A1': 'Avenida Desembargador Hugo Simas 26', 'Address A1': 'Avenida Desembargador Hugo Simas 26', 'Numero A1': '', 'Complement A1': 'Sala Esmeralda Avenida Desemba', 'Bairro A1': '', 'postal code A1': '80520-250', 'City A1': 'Balneário Camboriú', 'State A1': 'SC', 'Phone A1': '41) 3240-4000', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'protocolo@crmpr.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:43:21,259 - P17320 - INFO - Progresso: 32.3%
+2025-05-22 02:43:21,260 - P17320 - INFO - Executando coleta de lixo
+2025-05-22 02:43:21,342 - P17320 - INFO - Após coleta de lixo Uso de memória: 92.51 MB
+2025-05-22 02:43:21,343 - P17320 - INFO - Tempo de execução de processamento do médico 1: 68.35 segundos
+2025-05-22 02:43:21,343 - P17320 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 02:43:21,343 - P17320 - INFO - Nome: GUSTAVO FEIER
+2025-05-22 02:43:21,343 - P17320 - INFO - Início do processamento Uso de memória: 92.51 MB
+2025-05-22 02:43:21,343 - P17320 - INFO - Iniciando busca para: GUSTAVO FEIER CRM 14317 SC telefone e-mail endereço
+2025-05-22 02:43:21,944 - P17320 - INFO - SearX results: 10 URLs
+2025-05-22 02:43:21,945 - P17320 - INFO - Após SearX Uso de memória: 92.51 MB
+2025-05-22 02:43:24,901 - P17320 - INFO - Google results: 2 URLs
+2025-05-22 02:43:24,902 - P17320 - INFO - Após Google Uso de memória: 97.65 MB
+2025-05-22 02:43:27,496 - P17320 - INFO - Bing results: 11 URLs
+2025-05-22 02:43:27,497 - P17320 - INFO - Após Bing Uso de memória: 100.51 MB
+2025-05-22 02:43:27,497 - P17320 - INFO - Total de URLs únicas: 13
+2025-05-22 02:43:27,497 - P17320 - INFO - Processando URL 1/13: https://www.benditoguia.com.br/empresa/dr-gustavo-feier-centro-criciuma-sc
+2025-05-22 02:43:31,448 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\1cd988d20ebd8cd4067ffa7c32cf477c.html
+2025-05-22 02:43:31,476 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:43:31,476 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:43:31,476 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:43:31,476 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:43:31,477 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:43:31,477 - P17320 - INFO - Após processar URL 1 Uso de memória: 101.73 MB
+2025-05-22 02:43:31,477 - P17320 - INFO - Processando URL 2/13: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x2781970931295570469&market=pt-BR&src=SERPGB
+2025-05-22 02:43:35,978 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\74c149a43f56c42f59581b48f48ae03a.html
+2025-05-22 02:43:36,000 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:43:36,000 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:43:36,000 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:43:36,000 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:43:36,000 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:43:36,001 - P17320 - INFO - Após processar URL 2 Uso de memória: 102.09 MB
+2025-05-22 02:43:36,001 - P17320 - INFO - Processando URL 3/13: https://www.locaisdobrasil.com.br/encontre/psiquiatra/criciuma-sc/dr-gustavo-feier/6508ecc8333c0d54ed60e7e5
+2025-05-22 02:43:42,100 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\c792210fbe3fbd729cb34bce44de8e93.html
+2025-05-22 02:43:42,118 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 02:43:42,118 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:43:42,118 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:43:42,118 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:43:42,119 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:43:42,119 - P17320 - INFO - Após processar URL 3 Uso de memória: 102.52 MB
+2025-05-22 02:43:42,119 - P17320 - INFO - Processando URL 4/13: https://www.medicosbrasil.com/profissional/gustavo-feier
+2025-05-22 02:43:45,803 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\b7301f2a359e6f9b32674bbb8e083d50.html
+2025-05-22 02:43:45,836 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:43:45,836 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:43:45,837 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:43:45,838 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:43:45,838 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:43:45,838 - P17320 - INFO - Após processar URL 4 Uso de memória: 102.82 MB
+2025-05-22 02:43:45,839 - P17320 - INFO - Processando URL 5/13: https://www.doctoralia.com.br/psiquiatra/criciuma
+2025-05-22 02:43:45,839 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/criciuma
+2025-05-22 02:43:45,839 - P17320 - INFO - Após processar URL 5 Uso de memória: 102.82 MB
+2025-05-22 02:43:45,839 - P17320 - INFO - Processando URL 6/13: https://www.doctoralia.com.br/gustavo-feier/psiquiatra/criciuma
+2025-05-22 02:43:45,840 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/gustavo-feier/psiquiatra/criciuma
+2025-05-22 02:43:45,840 - P17320 - INFO - Após processar URL 6 Uso de memória: 102.82 MB
+2025-05-22 02:43:45,840 - P17320 - INFO - Processando URL 7/13: https://br.todosnegocios.com/pt/dr-gustavo-feier-0800-006-2307
+2025-05-22 02:43:49,198 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\b77f7895aeae817e988f261d5681d809.html
+2025-05-22 02:43:49,214 - P17320 - INFO - Candidates address: 7 items
+2025-05-22 02:43:49,214 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:43:49,214 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:43:49,214 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:43:49,214 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:43:49,214 - P17320 - INFO - Após processar URL 7 Uso de memória: 102.88 MB
+2025-05-22 02:43:49,215 - P17320 - INFO - Processando URL 8/13: https://www.scribd.com/document/766827938/Davi-Luiz-Ghislandi
+2025-05-22 02:43:55,465 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9ce6ef33170b2203abc3656c62220aca.html
+2025-05-22 02:43:55,592 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:43:55,592 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:43:55,593 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:43:55,596 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:43:55,601 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:43:55,603 - P17320 - INFO - Após processar URL 8 Uso de memória: 106.89 MB
+2025-05-22 02:43:55,605 - P17320 - INFO - Processando URL 9/13: http://www.injq.com.br/
+2025-05-22 02:44:02,815 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\c56d58459f49db5ec29ff04332041121.html
+2025-05-22 02:44:02,845 - P17320 - INFO - Candidates address: 4 items
+2025-05-22 02:44:02,846 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 02:44:02,846 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:44:02,846 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:44:02,846 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:44:02,846 - P17320 - INFO - Após processar URL 9 Uso de memória: 105.20 MB
+2025-05-22 02:44:02,847 - P17320 - INFO - Processando URL 10/13: https://cliniguia.com/profissionais/gustavo-feier-980016283209179/
+2025-05-22 02:44:08,354 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d116200c6ef0012ab7b3ff0fb786daf9.html
+2025-05-22 02:44:08,405 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:44:08,405 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:44:08,405 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:44:08,405 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:44:08,405 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:44:08,405 - P17320 - INFO - Após processar URL 10 Uso de memória: 104.35 MB
+2025-05-22 02:44:08,406 - P17320 - INFO - Processando URL 11/13: https://consultacrm.com.br/
+2025-05-22 02:44:11,756 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:44:11,771 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:44:11,772 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:44:11,772 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:44:11,773 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:44:11,773 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:44:11,773 - P17320 - INFO - Após processar URL 11 Uso de memória: 104.56 MB
+2025-05-22 02:44:11,774 - P17320 - INFO - Processando URL 12/13: https://www.classemedica.com.br/medico/131363-gustavo-feier.htm
+2025-05-22 02:44:17,266 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\0ab5a223b6fa7c6089ffbfb95190325f.html
+2025-05-22 02:44:17,308 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:44:17,308 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:44:17,308 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:44:17,308 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:44:17,308 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:44:17,309 - P17320 - INFO - Após processar URL 12 Uso de memória: 105.00 MB
+2025-05-22 02:44:17,309 - P17320 - INFO - Processando URL 13/13: https://www.escavador.com/sobre/7268243/gustavo-feier
+2025-05-22 02:44:21,007 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\82776959dbbf70225b51eba5bc2b75b6.html
+2025-05-22 02:44:21,028 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:44:21,028 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:44:21,029 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:44:21,029 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:44:21,029 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:44:21,029 - P17320 - INFO - Após processar URL 13 Uso de memória: 105.05 MB
+2025-05-22 02:44:21,030 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:44:21,030 - P17320 - INFO - Ranked address: 12 items
+2025-05-22 02:44:21,033 - P17320 - INFO - Ranked phone: 4 items
+2025-05-22 02:44:21,034 - P17320 - INFO - Ranked email: 0 items
+2025-05-22 02:44:21,035 - P17320 - INFO - Ranked complement: 2 items
+2025-05-22 02:44:21,035 - P17320 - INFO - Ranked cep: 6 items
+2025-05-22 02:44:21,036 - P17320 - INFO - Após agregação Uso de memória: 105.05 MB
+2025-05-22 02:44:21,038 - P17320 - INFO - Validando endereço: ['R. Cel. Pedro Benedet, 505', 'Rua Cel. Pedro Benedet, 505', 'Rua Cel. Pedro Benedet 505']
+2025-05-22 02:44:21,040 - P17320 - INFO - Endereço validado: R. Cel. Pedro Benedet, 505
+2025-05-22 02:44:21,040 - P17320 - INFO - Limpando texto extenso para campo address: R. Cel. Pedro Benedet, 505...
+2025-05-22 02:44:21,041 - P17320 - INFO - Texto limpo: R. Cel. Pedro Benedet, 505
+2025-05-22 02:44:21,042 - P17320 - INFO - Validando telefone: ['+55 800 006 2307', '(08) 00006-2307', '(48) 3045-9450']
+2025-05-22 02:44:21,042 - P17320 - INFO - Limpando texto extenso para campo phone: (48) 3045-9450...
+2025-05-22 02:44:21,042 - P17320 - INFO - Texto limpo: 48) 3045-9450
+2025-05-22 02:44:21,043 - P17320 - INFO - Telefone validado: 48) 3045-9450
+2025-05-22 02:44:21,043 - P17320 - INFO - Validando complemento: ['Sala 104 - Centro', 'Sala 104']
+2025-05-22 02:44:21,043 - P17320 - INFO - Limpando texto extenso para campo complement: Sala 104 - Centro...
+2025-05-22 02:44:21,044 - P17320 - INFO - Texto limpo: Sala 104 - Centro
+2025-05-22 02:44:21,044 - P17320 - INFO - Complemento validado: Sala 104 - Centro
+2025-05-22 02:44:21,045 - P17320 - INFO - Descobrindo cidade
+2025-05-22 02:44:21,045 - P17320 - INFO - Buscando cidade: R. Cel. Pedro Benedet cidade SC
+2025-05-22 02:44:23,570 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 02:44:23,570 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 02:44:23,571 - P17320 - INFO - Tempo de execução de processamento completo do médico: 62.23 segundos
+2025-05-22 02:44:23,571 - P17320 - INFO - Resultado processado: {'Hash': '7a523e79869d4662dfed905e81c13230430fdb46f8977c126c0dd83b899c29ad', 'CRM': '14317', 'UF': 'SC', 'Firstname': 'GUSTAVO', 'LastName': 'FEIER', 'Medical specialty': '', 'Endereco Completo A1': 'R. Cel. Pedro Benedet, 505', 'Address A1': 'R. Cel. Pedro Benedet', 'Numero A1': '505', 'Complement A1': 'Sala 104 - Centro', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '48) 3045-9450', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': '', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:44:23,572 - P17320 - INFO - Progresso: 32.7%
+2025-05-22 02:44:23,572 - P17320 - INFO - Tempo de execução de processamento do médico 2: 62.23 segundos
+2025-05-22 02:44:23,572 - P17320 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 02:44:23,572 - P17320 - INFO - Nome: RAFAEL FRANCO
+2025-05-22 02:44:23,573 - P17320 - INFO - Início do processamento Uso de memória: 102.13 MB
+2025-05-22 02:44:23,573 - P17320 - INFO - Iniciando busca para: RAFAEL FRANCO CRM 15584 SC telefone e-mail endereço
+2025-05-22 02:44:24,005 - P17320 - INFO - SearX results: 15 URLs
+2025-05-22 02:44:24,005 - P17320 - INFO - Após SearX Uso de memória: 102.13 MB
+2025-05-22 02:44:26,620 - P17320 - INFO - Google results: 10 URLs
+2025-05-22 02:44:26,620 - P17320 - INFO - Após Google Uso de memória: 103.13 MB
+2025-05-22 02:44:29,137 - P17320 - INFO - Bing results: 12 URLs
+2025-05-22 02:44:29,138 - P17320 - INFO - Após Bing Uso de memória: 103.13 MB
+2025-05-22 02:44:29,138 - P17320 - INFO - Total de URLs únicas: 22
+2025-05-22 02:44:29,138 - P17320 - INFO - Processando URL 1/22: https://www.classemedica.com.br/medico/422915-rafael-franco.htm
+2025-05-22 02:44:34,035 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\b4c69eec3a7f83fc13553da19a4bf51d.html
+2025-05-22 02:44:34,068 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:44:34,069 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:44:34,069 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:44:34,069 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:44:34,069 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:44:34,070 - P17320 - INFO - Após processar URL 1 Uso de memória: 103.13 MB
+2025-05-22 02:44:34,070 - P17320 - INFO - Processando URL 2/22: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/17936/Cadernos_JUD_BA_2019-05-15_XI_87.pdf?sequence=1&isAllowed=y
+2025-05-22 02:44:34,070 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/17936/Cadernos_JUD_BA_2019-05-15_XI_87.pdf?sequence=1&isAllowed=y
+2025-05-22 02:44:34,070 - P17320 - INFO - Após processar URL 2 Uso de memória: 103.13 MB
+2025-05-22 02:44:34,071 - P17320 - INFO - Processando URL 3/22: https://sbpt.org.br/portal/associados-com-certificacao-em-espirometria/
+2025-05-22 02:44:36,993 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\4362ad2010b8d4ba7cb486115ad90c12.html
+2025-05-22 02:44:37,115 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:44:37,115 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:44:37,116 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:44:37,116 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:44:37,116 - P17320 - INFO - Candidates cep: 27 items
+2025-05-22 02:44:37,116 - P17320 - INFO - Após processar URL 3 Uso de memória: 103.13 MB
+2025-05-22 02:44:37,116 - P17320 - INFO - Processando URL 4/22: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1569687706.pdf
+2025-05-22 02:44:37,116 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1569687706.pdf
+2025-05-22 02:44:37,117 - P17320 - INFO - Após processar URL 4 Uso de memória: 103.13 MB
+2025-05-22 02:44:37,117 - P17320 - INFO - Processando URL 5/22: https://www.doctoralia.com.br/psiquiatra/brusque/centro-1
+2025-05-22 02:44:37,117 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/brusque/centro-1
+2025-05-22 02:44:37,117 - P17320 - INFO - Após processar URL 5 Uso de memória: 103.13 MB
+2025-05-22 02:44:37,117 - P17320 - INFO - Processando URL 6/22: https://www.benditoguia.com.br/empresa/medicina-do-sono-dr-rafael-franco-techy-medicina-integrada-centro-i-brusque-sc
+2025-05-22 02:44:40,726 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\b66c902ec10b0803b47008184d6ec78d.html
+2025-05-22 02:44:40,749 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:44:40,750 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:44:40,752 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:44:40,753 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:44:40,753 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:44:40,755 - P17320 - INFO - Após processar URL 6 Uso de memória: 103.14 MB
+2025-05-22 02:44:40,765 - P17320 - INFO - Processando URL 7/22: https://www.doctoralia.com.br/rafael-franco-2/psiquiatra/brusque
+2025-05-22 02:44:40,767 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/rafael-franco-2/psiquiatra/brusque
+2025-05-22 02:44:40,771 - P17320 - INFO - Após processar URL 7 Uso de memória: 103.14 MB
+2025-05-22 02:44:40,772 - P17320 - INFO - Processando URL 8/22: https://www.ibam.org.br/wp-content/uploads/2022/05/gaspar04-15-docs1.pdf
+2025-05-22 02:44:40,773 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.ibam.org.br/wp-content/uploads/2022/05/gaspar04-15-docs1.pdf
+2025-05-22 02:44:40,778 - P17320 - INFO - Após processar URL 8 Uso de memória: 103.14 MB
+2025-05-22 02:44:40,779 - P17320 - INFO - Processando URL 9/22: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20141119&idorgao=347
+2025-05-22 02:44:47,803 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\f2fcb656e3cb3ec313ba10954714ee04.html
+2025-05-22 02:44:49,804 - P17320 - INFO - Candidates address: 198 items
+2025-05-22 02:44:49,836 - P17320 - INFO - Candidates phone: 3 items
+2025-05-22 02:44:49,838 - P17320 - INFO - Candidates email: 2 items
+2025-05-22 02:44:49,841 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:44:49,853 - P17320 - INFO - Candidates cep: 503 items
+2025-05-22 02:44:49,879 - P17320 - INFO - Após processar URL 9 Uso de memória: 106.69 MB
+2025-05-22 02:44:49,881 - P17320 - INFO - Processando URL 10/22: https://www.consultacrm.com.br/index/profissionais/uid-98fc71e2-f5c5-11ec-9e74-0a4aa568c625/rafael_franco
+2025-05-22 02:44:53,223 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9812e4874443e18eb0e1ff850c9432a3.html
+2025-05-22 02:44:53,234 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:44:53,247 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:44:53,248 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:44:53,249 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:44:53,249 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:44:53,249 - P17320 - INFO - Após processar URL 10 Uso de memória: 102.05 MB
+2025-05-22 02:44:53,249 - P17320 - INFO - Processando URL 11/22: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20190211&idorgao=347
+2025-05-22 02:44:58,766 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d69c9f9307e2b1bf92b2b3a63412fd89.html
+2025-05-22 02:45:00,346 - P17320 - INFO - Candidates address: 55 items
+2025-05-22 02:45:00,346 - P17320 - INFO - Candidates phone: 4 items
+2025-05-22 02:45:00,346 - P17320 - INFO - Candidates email: 4 items
+2025-05-22 02:45:00,346 - P17320 - INFO - Candidates complement: 3 items
+2025-05-22 02:45:00,346 - P17320 - INFO - Candidates cep: 56 items
+2025-05-22 02:45:00,347 - P17320 - INFO - Após processar URL 11 Uso de memória: 120.09 MB
+2025-05-22 02:45:00,347 - P17320 - INFO - Processando URL 12/22: http://www.guiareunimedicos.med.br/c/sc/brusque/psiquiatras/rafael-franco-2531158.htm
+2025-05-22 02:45:02,536 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\31fb095593e954d5327adbf07d489ff6.html
+2025-05-22 02:45:02,537 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:45:02,538 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:45:02,538 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:45:02,538 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:45:02,539 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:45:02,539 - P17320 - INFO - Após processar URL 12 Uso de memória: 116.49 MB
+2025-05-22 02:45:02,539 - P17320 - INFO - Processando URL 13/22: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1451706343.pdf
+2025-05-22 02:45:02,539 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1451706343.pdf
+2025-05-22 02:45:02,539 - P17320 - INFO - Após processar URL 13 Uso de memória: 116.49 MB
+2025-05-22 02:45:02,539 - P17320 - INFO - Processando URL 14/22: https://www.doctoralia.com.br/psiquiatra/brusque
+2025-05-22 02:45:02,540 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/brusque
+2025-05-22 02:45:02,540 - P17320 - INFO - Após processar URL 14 Uso de memória: 116.49 MB
+2025-05-22 02:45:02,540 - P17320 - INFO - Processando URL 15/22: https://www.boaconsulta.com/especialista/rafael-franco-61062b81a2e00a12a9000cca
+2025-05-22 02:45:04,674 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\2966e1eb96f1a943b80d471073c4cd1e.html
+2025-05-22 02:45:04,743 - P17320 - INFO - Candidates address: 3 items
+2025-05-22 02:45:04,743 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:45:04,743 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:45:04,744 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:45:04,744 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:45:04,744 - P17320 - INFO - Após processar URL 15 Uso de memória: 119.02 MB
+2025-05-22 02:45:04,744 - P17320 - INFO - Processando URL 16/22: https://www.catalogo.med.br/doutor/rafael-franco-2531158.htm
+2025-05-22 02:45:06,976 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\89c7ed698a09c6b413977c40ee221083.html
+2025-05-22 02:45:06,977 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:45:06,977 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:45:06,977 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:45:06,978 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:45:06,978 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:45:06,978 - P17320 - INFO - Após processar URL 16 Uso de memória: 119.03 MB
+2025-05-22 02:45:06,978 - P17320 - INFO - Processando URL 17/22: http://techymedicinaintegrada.com.br/
+2025-05-22 02:45:09,807 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\2774f712dda1fdb59738317b4c36fdb9.html
+2025-05-22 02:45:09,809 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:45:09,809 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:45:09,809 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:45:09,809 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:45:09,810 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:45:09,810 - P17320 - INFO - Após processar URL 17 Uso de memória: 119.08 MB
+2025-05-22 02:45:09,810 - P17320 - INFO - Processando URL 18/22: https://medbook.com.br/drrafaelfranco
+2025-05-22 02:45:13,821 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\3a009a11d93328d4b5137583ea13cd59.html
+2025-05-22 02:45:13,831 - P17320 - INFO - Candidates address: 3 items
+2025-05-22 02:45:13,831 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:45:13,832 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:45:13,832 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:45:13,832 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:45:13,832 - P17320 - INFO - Após processar URL 18 Uso de memória: 119.41 MB
+2025-05-22 02:45:13,832 - P17320 - INFO - Processando URL 19/22: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2025/04/57930c2f-2285-49b5-8cd1-8c833c780552_Edicao-5624-30-04-2025.pdf
+2025-05-22 02:45:13,833 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2025/04/57930c2f-2285-49b5-8cd1-8c833c780552_Edicao-5624-30-04-2025.pdf
+2025-05-22 02:45:13,833 - P17320 - INFO - Após processar URL 19 Uso de memória: 119.41 MB
+2025-05-22 02:45:13,835 - P17320 - INFO - Processando URL 20/22: https://www.doctoralia.com.br/psiquiatra/brusque?page=2
+2025-05-22 02:45:13,835 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/brusque?page=2
+2025-05-22 02:45:13,836 - P17320 - INFO - Após processar URL 20 Uso de memória: 119.41 MB
+2025-05-22 02:45:13,837 - P17320 - INFO - Processando URL 21/22: https://www.doctoralia.com.br/rafael-franco/dentista/descalvado
+2025-05-22 02:45:13,837 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/rafael-franco/dentista/descalvado
+2025-05-22 02:45:13,838 - P17320 - INFO - Após processar URL 21 Uso de memória: 119.41 MB
+2025-05-22 02:45:13,838 - P17320 - INFO - Processando URL 22/22: https://consultacrm.com.br/
+2025-05-22 02:45:17,633 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:45:17,645 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:45:17,645 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:45:17,645 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:45:17,645 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:45:17,646 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:45:17,646 - P17320 - INFO - Após processar URL 22 Uso de memória: 119.52 MB
+2025-05-22 02:45:17,646 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:45:17,646 - P17320 - INFO - Ranked address: 258 items
+2025-05-22 02:45:17,646 - P17320 - INFO - Ranked phone: 8 items
+2025-05-22 02:45:17,647 - P17320 - INFO - Ranked email: 8 items
+2025-05-22 02:45:17,647 - P17320 - INFO - Ranked complement: 5 items
+2025-05-22 02:45:17,647 - P17320 - INFO - Ranked cep: 583 items
+2025-05-22 02:45:17,647 - P17320 - INFO - Após agregação Uso de memória: 119.52 MB
+2025-05-22 02:45:17,647 - P17320 - INFO - Validando endereço: ['Rua Desembargador Homero Mafra, 60', 'R. DR. __ MM. Juiz de Direito da VITÓRIA - 10', 'R. JEFERSON AUGUSTO LEITE VELTEN  PROC. Nº 001.697.978.2014']
+2025-05-22 02:45:17,647 - P17320 - INFO - Endereço validado: Rua Desembargador Homero Mafra, 60
+2025-05-22 02:45:17,648 - P17320 - INFO - Limpando texto extenso para campo address: Rua Desembargador Homero Mafra, 60...
+2025-05-22 02:45:17,648 - P17320 - INFO - Texto limpo: Rua Desembargador Homero Mafra, 60
+2025-05-22 02:45:17,648 - P17320 - INFO - Validando telefone: ['+55 47 99257-1054', '(27) 3223-6708', '(27) 3222-2646']
+2025-05-22 02:45:17,648 - P17320 - INFO - Limpando texto extenso para campo phone: (27) 3223-6708...
+2025-05-22 02:45:17,648 - P17320 - INFO - Texto limpo: 27) 3223-6708
+2025-05-22 02:45:17,648 - P17320 - INFO - Telefone validado: 27) 3223-6708
+2025-05-22 02:45:17,648 - P17320 - INFO - Validando email: ['sbpt@sbpt.org.br', 'inqueritos-vitoria@tjes.jus.br', '2criminal-vitoria@tjes.jus.br']
+2025-05-22 02:45:17,649 - P17320 - INFO - Limpando texto extenso para campo email: sbpt@sbpt.org.br...
+2025-05-22 02:45:17,649 - P17320 - INFO - Texto limpo: sbpt@sbpt.org.br
+2025-05-22 02:45:17,649 - P17320 - INFO - Email validado: sbpt@sbpt.org.br
+2025-05-22 02:45:17,649 - P17320 - INFO - Validando complemento: ['Bloco K - Sala 203 - Ed. Denasa - Brasília - DF - 70398', 'Conjunto Habitacional Atlantica Ville)', 'Bloco “B”']
+2025-05-22 02:45:17,649 - P17320 - INFO - Limpando texto extenso para campo complement: Bloco K - Sala 203 - Ed. Denasa - Brasília - DF - ...
+2025-05-22 02:45:17,650 - P17320 - INFO - Texto limpo: Bloco K - Sala 203 - Ed. Denas
+2025-05-22 02:45:17,650 - P17320 - INFO - Complemento validado: Bloco K - Sala 203 - Ed. Denas
+2025-05-22 02:45:17,650 - P17320 - INFO - Descobrindo cidade
+2025-05-22 02:45:17,651 - P17320 - INFO - Buscando cidade: Rua Desembargador Homero Mafra cidade SC
+2025-05-22 02:45:19,905 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 02:45:19,905 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 02:45:19,906 - P17320 - INFO - Tempo de execução de processamento completo do médico: 56.33 segundos
+2025-05-22 02:45:19,906 - P17320 - INFO - Resultado processado: {'Hash': 'b52386a9d6a7ba223861542f70af4a3213138aa1a9255d1991a5bb59fe870729', 'CRM': '15584', 'UF': 'SC', 'Firstname': 'RAFAEL', 'LastName': 'FRANCO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Desembargador Homero Mafra, 60', 'Address A1': 'Rua Desembargador Homero Mafra', 'Numero A1': '60', 'Complement A1': 'Bloco K - Sala 203 - Ed. Denas', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '27) 3223-6708', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'sbpt@sbpt.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:45:19,906 - P17320 - INFO - Salvando lote de resultados
+2025-05-22 02:45:19,907 - P17320 - INFO - Após salvar resultados Uso de memória: 117.69 MB
+2025-05-22 02:45:19,908 - P17320 - INFO - Progresso: 33.1%
+2025-05-22 02:45:19,908 - P17320 - INFO - Tempo de execução de processamento do médico 3: 56.34 segundos
+2025-05-22 02:45:19,908 - P17320 - INFO - Tempo de execução de processamento do lote completo: 186.92 segundos

@@ -1,0 +1,454 @@
+2025-05-22 04:45:20,386 - P17020 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 04:45:20,391 - P17020 - INFO - Nome: VICTOR NATALE CARDOSO
+2025-05-22 04:45:20,391 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 04:45:21,855 - P17020 - INFO - Após reiniciar driver Uso de memória: 129.46 MB
+2025-05-22 04:45:21,856 - P17020 - INFO - Início do processamento Uso de memória: 129.46 MB
+2025-05-22 04:45:21,856 - P17020 - INFO - Iniciando busca para: VICTOR NATALE CARDOSO CRM 35692 SC telefone e-mail endereço
+2025-05-22 04:45:22,680 - P17020 - INFO - SearX results: 15 URLs
+2025-05-22 04:45:22,681 - P17020 - INFO - Após SearX Uso de memória: 129.46 MB
+2025-05-22 04:45:25,364 - P17020 - INFO - Google results: 9 URLs
+2025-05-22 04:45:25,365 - P17020 - INFO - Após Google Uso de memória: 130.51 MB
+2025-05-22 04:45:27,993 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 04:45:27,993 - P17020 - INFO - Após Bing Uso de memória: 131.45 MB
+2025-05-22 04:45:27,993 - P17020 - INFO - Total de URLs únicas: 22
+2025-05-22 04:45:27,994 - P17020 - INFO - Processando URL 1/22: https://crmvsp.gov.br/wp-content/uploads/2020/06/info_crmv_58.pdf
+2025-05-22 04:45:27,994 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://crmvsp.gov.br/wp-content/uploads/2020/06/info_crmv_58.pdf
+2025-05-22 04:45:27,994 - P17020 - INFO - Após processar URL 1 Uso de memória: 131.45 MB
+2025-05-22 04:45:27,994 - P17020 - INFO - Processando URL 2/22: https://doutorcrm.com/
+2025-05-22 04:45:31,315 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f650e4106d6b0c34ccf0db5be7fc5ddd.html
+2025-05-22 04:45:31,321 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:45:31,322 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:45:31,323 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:45:31,323 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:45:31,323 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:45:31,324 - P17020 - INFO - Após processar URL 2 Uso de memória: 131.45 MB
+2025-05-22 04:45:31,324 - P17020 - INFO - Processando URL 3/22: https://consultacrm.com.br/
+2025-05-22 04:45:33,819 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:45:33,833 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:45:33,834 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:45:33,834 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:45:33,835 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:45:33,836 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:45:33,836 - P17020 - INFO - Após processar URL 3 Uso de memória: 131.45 MB
+2025-05-22 04:45:33,836 - P17020 - INFO - Processando URL 4/22: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 04:45:33,836 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 04:45:33,837 - P17020 - INFO - Após processar URL 4 Uso de memória: 131.45 MB
+2025-05-22 04:45:33,837 - P17020 - INFO - Processando URL 5/22: https://telemedicinamorsch.com.br/marcar-consulta-online/victor-natale-cardoso-clinico-geral
+2025-05-22 04:45:37,422 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a1b3ea749281be8810207bbf985f7e9d.html
+2025-05-22 04:45:37,438 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:45:37,439 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:45:37,443 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:45:37,443 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:45:37,444 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:45:37,445 - P17020 - INFO - Após processar URL 5 Uso de memória: 131.46 MB
+2025-05-22 04:45:37,461 - P17020 - INFO - Processando URL 6/22: https://telemedicinamorsch.com.br/especialidade/clinico-geral/florianopolis-sc
+2025-05-22 04:45:40,144 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\696bc969220e92752b2c7a7ae019adad.html
+2025-05-22 04:45:40,172 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:45:40,173 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:45:40,173 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:45:40,173 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:45:40,173 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:45:40,173 - P17020 - INFO - Após processar URL 6 Uso de memória: 131.51 MB
+2025-05-22 04:45:40,173 - P17020 - INFO - Processando URL 7/22: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 04:45:43,590 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 04:45:43,606 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:45:43,607 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:45:43,608 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:45:43,612 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:45:43,613 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:45:43,614 - P17020 - INFO - Após processar URL 7 Uso de memória: 131.61 MB
+2025-05-22 04:45:43,614 - P17020 - INFO - Processando URL 8/22: https://telemedicinamorsch.com.br/marcar-consulta-online/victor-natale-cardoso-clinico-geral?srsltid=AfmBOop2Sm7d_1EvM-Teb_qlHmdMsJPhdu-ltJxmIiIEGN6AME8TH33N
+2025-05-22 04:45:46,297 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\473e7c5359c6ab4f0b94dfb014be50aa.html
+2025-05-22 04:45:46,311 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:45:46,311 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:45:46,311 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:45:46,312 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:45:46,312 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:45:46,312 - P17020 - INFO - Após processar URL 8 Uso de memória: 131.71 MB
+2025-05-22 04:45:46,312 - P17020 - INFO - Processando URL 9/22: https://telemedicinamorsch.com.br/especialidade/clinico-geral/florianopolis-sc?srsltid=AfmBOoq8N5dztqUAsG4bSTvPhStLqq5i4yVh3CRa-Q2_8s_UjKVK5FeC
+2025-05-22 04:45:48,940 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f3bd348730455d2094fc01ede1d3501b.html
+2025-05-22 04:45:48,976 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:45:48,977 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:45:48,977 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:45:48,977 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:45:48,977 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:45:48,977 - P17020 - INFO - Após processar URL 9 Uso de memória: 131.71 MB
+2025-05-22 04:45:48,978 - P17020 - INFO - Processando URL 10/22: https://www.doctoralia.com.br/victor-natale-cardoso/generalista/florianopolis
+2025-05-22 04:45:48,978 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/victor-natale-cardoso/generalista/florianopolis
+2025-05-22 04:45:48,978 - P17020 - INFO - Após processar URL 10 Uso de memória: 131.71 MB
+2025-05-22 04:45:48,978 - P17020 - INFO - Processando URL 11/22: https://telemedicinamorsch.com.br/especialidade/clinico-geral/florianopolis-sc?srsltid=AfmBOooIlg3zc8NyThc1oco4Dq4jS3X71oXAkmqQAioZHHiu1fEY-qpT
+2025-05-22 04:45:51,602 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\9f617de1dde5ade55312773e053dad62.html
+2025-05-22 04:45:51,635 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:45:51,636 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:45:51,636 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:45:51,636 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:45:51,637 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:45:51,637 - P17020 - INFO - Após processar URL 11 Uso de memória: 131.73 MB
+2025-05-22 04:45:51,637 - P17020 - INFO - Processando URL 12/22: https://telemedicinamorsch.com.br/cidade/florianopolis-sc
+2025-05-22 04:45:54,163 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\10db82ea14e16772ffe6bbf19cd75ef0.html
+2025-05-22 04:45:54,206 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:45:54,210 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:45:54,211 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:45:54,212 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:45:54,212 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:45:54,212 - P17020 - INFO - Após processar URL 12 Uso de memória: 131.73 MB
+2025-05-22 04:45:54,213 - P17020 - INFO - Processando URL 13/22: https://api.crmsc.org.br/crvirtual-fale-conosco/?setor=3
+2025-05-22 04:46:01,601 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7f23ddc4abd124e98ce45ff01bf37805.html
+2025-05-22 04:46:01,620 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:46:01,621 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:46:01,621 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:46:01,621 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:46:01,621 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:46:01,621 - P17020 - INFO - Após processar URL 13 Uso de memória: 131.73 MB
+2025-05-22 04:46:01,621 - P17020 - INFO - Processando URL 14/22: https://www.medicosbrasil.com/profissional/lucas-natale-cardoso
+2025-05-22 04:46:04,858 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\112b52be5a5f4b31fa4f08a1246c19ea.html
+2025-05-22 04:46:04,888 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:46:04,888 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:46:04,888 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:46:04,888 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:46:04,888 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:46:04,888 - P17020 - INFO - Após processar URL 14 Uso de memória: 131.73 MB
+2025-05-22 04:46:04,888 - P17020 - INFO - Processando URL 15/22: https://portal.cfm.org.br/busca-medicos
+2025-05-22 04:46:09,019 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 04:46:09,151 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:46:09,151 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:46:09,151 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:46:09,152 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:46:09,152 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:46:09,152 - P17020 - INFO - Após processar URL 15 Uso de memória: 121.55 MB
+2025-05-22 04:46:09,152 - P17020 - INFO - Processando URL 16/22: https://crmsc.org.br/fale-conosco-2/
+2025-05-22 04:46:13,948 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f01b3cc850fef20f8d1a096da8ab0da6.html
+2025-05-22 04:46:14,035 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:46:14,035 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:46:14,036 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:46:14,036 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:46:14,036 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:46:14,036 - P17020 - INFO - Após processar URL 16 Uso de memória: 125.49 MB
+2025-05-22 04:46:14,036 - P17020 - INFO - Processando URL 17/22: https://files.pmp.sp.gov.br/semad/diariooficial/2021/05/20210514.pdf
+2025-05-22 04:46:14,037 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://files.pmp.sp.gov.br/semad/diariooficial/2021/05/20210514.pdf
+2025-05-22 04:46:14,037 - P17020 - INFO - Após processar URL 17 Uso de memória: 125.49 MB
+2025-05-22 04:46:14,037 - P17020 - INFO - Processando URL 18/22: https://transparencia.crmsc.org.br/index.php/sobre-o-crmsc/conselheiros-mandatos-encerrados
+2025-05-22 04:46:16,630 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\9780485b56e79b31ed96a829fd7b6af0.html
+2025-05-22 04:46:16,687 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:46:16,687 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:46:16,688 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:46:16,688 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:46:16,688 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:46:16,688 - P17020 - INFO - Após processar URL 18 Uso de memória: 125.96 MB
+2025-05-22 04:46:16,688 - P17020 - INFO - Processando URL 19/22: https://telemedicinamorsch.com.br/marcar-consulta-online/victor-natale-cardoso-clinico-geral?srsltid=AfmBOoqC7A3BDLBMyf7RTfMOUS3LgjIBF6juqcxmKt9N5hGiLimJERuY
+2025-05-22 04:46:19,289 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\fd9b5d5d173b3ec725100308fd74faaa.html
+2025-05-22 04:46:19,303 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:46:19,303 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:46:19,304 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:46:19,304 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:46:19,304 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:46:19,304 - P17020 - INFO - Após processar URL 19 Uso de memória: 126.17 MB
+2025-05-22 04:46:19,304 - P17020 - INFO - Processando URL 20/22: https://crmsc.org.br/contatos/
+2025-05-22 04:46:22,141 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\851aac2848c6683a42ea3713a621a332.html
+2025-05-22 04:46:22,190 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:46:22,194 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:46:22,197 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:46:22,198 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:46:22,198 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:46:22,200 - P17020 - INFO - Após processar URL 20 Uso de memória: 127.12 MB
+2025-05-22 04:46:22,201 - P17020 - INFO - Processando URL 21/22: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 04:46:26,035 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 04:46:26,075 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:46:26,102 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:46:26,106 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:46:26,107 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:46:26,107 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:46:26,108 - P17020 - INFO - Após processar URL 21 Uso de memória: 127.32 MB
+2025-05-22 04:46:26,108 - P17020 - INFO - Processando URL 22/22: https://www.ime.usp.br/~yoshi/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 04:46:26,108 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 04:46:26,122 - P17020 - INFO - Após processar URL 22 Uso de memória: 127.32 MB
+2025-05-22 04:46:26,123 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:46:26,125 - P17020 - INFO - Ranked address: 0 items
+2025-05-22 04:46:26,135 - P17020 - INFO - Ranked phone: 2 items
+2025-05-22 04:46:26,135 - P17020 - INFO - Ranked email: 3 items
+2025-05-22 04:46:26,136 - P17020 - INFO - Ranked complement: 4 items
+2025-05-22 04:46:26,141 - P17020 - INFO - Ranked cep: 3 items
+2025-05-22 04:46:26,141 - P17020 - INFO - Após agregação Uso de memória: 127.32 MB
+2025-05-22 04:46:26,142 - P17020 - INFO - Validando telefone: ['+55-54-3321-3815', '(48) 3952-5000']
+2025-05-22 04:46:26,150 - P17020 - INFO - Limpando texto extenso para campo phone: (48) 3952-5000...
+2025-05-22 04:46:26,151 - P17020 - INFO - Texto limpo: 48) 3952-5000
+2025-05-22 04:46:26,154 - P17020 - INFO - Telefone validado: 48) 3952-5000
+2025-05-22 04:46:26,154 - P17020 - INFO - Validando email: ['josemorsch@telemedicinamorsch.com.br', 'protocolo@crmsc.org.br', 'cfm@portalmedico.org.br']
+2025-05-22 04:46:26,156 - P17020 - INFO - Limpando texto extenso para campo email: josemorsch@telemedicinamorsch.com.br...
+2025-05-22 04:46:26,157 - P17020 - INFO - Texto limpo: josemorsch@telemedicinamorsch.com.br
+2025-05-22 04:46:26,158 - P17020 - INFO - Email validado: josemorsch@telemedicinamorsch.com.br
+2025-05-22 04:46:26,172 - P17020 - INFO - Validando complemento: ['Sala 301 ', 'Aptidão à RT Vigilância ', 'Conjunto D']
+2025-05-22 04:46:26,173 - P17020 - INFO - Limpando texto extenso para campo complement: Sala 301 ...
+2025-05-22 04:46:26,174 - P17020 - INFO - Texto limpo: Sala 301
+2025-05-22 04:46:26,175 - P17020 - INFO - Complemento validado: Sala 301
+2025-05-22 04:46:26,187 - P17020 - INFO - Tempo de execução de processamento completo do médico: 64.33 segundos
+2025-05-22 04:46:26,202 - P17020 - INFO - Resultado processado: {'Hash': '62b778818a2983ec69fe39a28dfaff8ae7c51c4b4bbf8b10c72cd8291d628235', 'CRM': '35692', 'UF': 'SC', 'Firstname': 'VICTOR', 'LastName': 'NATALE CARDOSO', 'Medical specialty': '', 'Endereco Completo A1': '', 'Address A1': '', 'Numero A1': '', 'Complement A1': 'Sala 301', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '48) 3952-5000', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'josemorsch@telemedicinamorsch.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:46:26,212 - P17020 - INFO - Progresso: 76.2%
+2025-05-22 04:46:26,213 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 04:46:26,257 - P17020 - INFO - Após coleta de lixo Uso de memória: 125.38 MB
+2025-05-22 04:46:26,263 - P17020 - INFO - Tempo de execução de processamento do médico 1: 65.88 segundos
+2025-05-22 04:46:26,272 - P17020 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 04:46:26,282 - P17020 - INFO - Nome: VINYCIUS MARIN DE LIZ
+2025-05-22 04:46:26,287 - P17020 - INFO - Início do processamento Uso de memória: 125.38 MB
+2025-05-22 04:46:26,291 - P17020 - INFO - Iniciando busca para: VINYCIUS MARIN DE LIZ CRM 35988 SC telefone e-mail endereço
+2025-05-22 04:46:27,065 - P17020 - INFO - SearX results: 9 URLs
+2025-05-22 04:46:27,066 - P17020 - INFO - Após SearX Uso de memória: 125.38 MB
+2025-05-22 04:46:30,225 - P17020 - INFO - Google results: 5 URLs
+2025-05-22 04:46:30,225 - P17020 - INFO - Após Google Uso de memória: 128.17 MB
+2025-05-22 04:46:32,759 - P17020 - INFO - Bing results: 5 URLs
+2025-05-22 04:46:32,759 - P17020 - INFO - Após Bing Uso de memória: 129.71 MB
+2025-05-22 04:46:32,759 - P17020 - INFO - Total de URLs únicas: 13
+2025-05-22 04:46:32,759 - P17020 - INFO - Processando URL 1/13: https://consultacrm.com.br/
+2025-05-22 04:46:36,305 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:46:36,318 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:46:36,318 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:46:36,319 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:46:36,319 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:46:36,319 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:46:36,319 - P17020 - INFO - Após processar URL 1 Uso de memória: 130.46 MB
+2025-05-22 04:46:36,319 - P17020 - INFO - Processando URL 2/13: https://cnpj.biz/29424107000149
+2025-05-22 04:46:40,677 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2c3f2246ea4e449accd74dfd2bbbe4dc.html
+2025-05-22 04:46:40,697 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 04:46:40,698 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:46:40,698 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:46:40,698 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:46:40,698 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 04:46:40,698 - P17020 - INFO - Após processar URL 2 Uso de memória: 130.47 MB
+2025-05-22 04:46:40,698 - P17020 - INFO - Processando URL 3/13: https://lumendatabase.org/notices/51585316
+2025-05-22 04:46:44,475 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ed772e53819c48673d41f683fbaef46d.html
+2025-05-22 04:46:44,584 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:46:44,584 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:46:44,585 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:46:44,585 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:46:44,585 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:46:44,585 - P17020 - INFO - Após processar URL 3 Uso de memória: 130.57 MB
+2025-05-22 04:46:44,585 - P17020 - INFO - Processando URL 4/13: https://www.jusbrasil.com.br/processos/nome/332137784/vinycius-marin-de-liz
+2025-05-22 04:46:49,226 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\225a9c87f55202f65f0940cfb5705e60.html
+2025-05-22 04:46:49,235 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:46:49,236 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:46:49,236 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:46:49,236 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:46:49,236 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:46:49,236 - P17020 - INFO - Após processar URL 4 Uso de memória: 130.64 MB
+2025-05-22 04:46:49,236 - P17020 - INFO - Processando URL 5/13: https://www.escavador.com/sobre/9304053/vinycius-marin-de-liz
+2025-05-22 04:46:53,292 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4d34c932a810aca0b16305dd92a070a3.html
+2025-05-22 04:46:53,307 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:46:53,307 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:46:53,308 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:46:53,308 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:46:53,308 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:46:53,308 - P17020 - INFO - Após processar URL 5 Uso de memória: 130.68 MB
+2025-05-22 04:46:53,308 - P17020 - INFO - Processando URL 6/13: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 04:46:53,309 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 04:46:53,309 - P17020 - INFO - Após processar URL 6 Uso de memória: 130.68 MB
+2025-05-22 04:46:53,309 - P17020 - INFO - Processando URL 7/13: https://rhetory.com/antconc/wordlist.txt
+2025-05-22 04:46:53,309 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://rhetory.com/antconc/wordlist.txt
+2025-05-22 04:46:53,309 - P17020 - INFO - Após processar URL 7 Uso de memória: 130.68 MB
+2025-05-22 04:46:53,309 - P17020 - INFO - Processando URL 8/13: https://crmsc.org.br/regionais/delegacias-regionais/
+2025-05-22 04:46:56,205 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4fdceacb77d0ad074a23bf192c406e73.html
+2025-05-22 04:46:56,275 - P17020 - INFO - Candidates address: 8 items
+2025-05-22 04:46:56,276 - P17020 - INFO - Candidates phone: 10 items
+2025-05-22 04:46:56,276 - P17020 - INFO - Candidates email: 14 items
+2025-05-22 04:46:56,277 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:46:56,278 - P17020 - INFO - Candidates cep: 9 items
+2025-05-22 04:46:56,278 - P17020 - INFO - Após processar URL 8 Uso de memória: 130.96 MB
+2025-05-22 04:46:56,279 - P17020 - INFO - Processando URL 9/13: https://sistemadje.tjmt.jus.br/publicacoes/8823-2012.pdf
+2025-05-22 04:46:56,279 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/8823-2012.pdf
+2025-05-22 04:46:56,279 - P17020 - INFO - Após processar URL 9 Uso de memória: 130.96 MB
+2025-05-22 04:46:56,279 - P17020 - INFO - Processando URL 10/13: https://saudelages.sc.gov.br/files/edital/194/20231205122614.pdf
+2025-05-22 04:46:56,280 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://saudelages.sc.gov.br/files/edital/194/20231205122614.pdf
+2025-05-22 04:46:56,281 - P17020 - INFO - Após processar URL 10 Uso de memória: 130.96 MB
+2025-05-22 04:46:56,281 - P17020 - INFO - Processando URL 11/13: https://crmsc.org.br/informes/orientacao-juridica/
+2025-05-22 04:46:59,160 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f3a7df0672db79c5eaf11fd5f68044d5.html
+2025-05-22 04:46:59,213 - P17020 - INFO - Candidates address: 6 items
+2025-05-22 04:46:59,213 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:46:59,213 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:46:59,213 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:46:59,213 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:46:59,214 - P17020 - INFO - Após processar URL 11 Uso de memória: 131.14 MB
+2025-05-22 04:46:59,214 - P17020 - INFO - Processando URL 12/13: https://www.jusbrasil.com.br/processos/nome/332137784/vinycius-marin-de-liz?msockid=170c800d8107690709d995ff80f1689d
+2025-05-22 04:47:01,374 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e09a5ee65e25d482c7217d5fd099b0c1.html
+2025-05-22 04:47:01,376 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:47:01,377 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:47:01,378 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:47:01,378 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:47:01,378 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:47:01,378 - P17020 - INFO - Após processar URL 12 Uso de memória: 131.14 MB
+2025-05-22 04:47:01,379 - P17020 - INFO - Processando URL 13/13: https://www.ime.usp.br/~yoshi/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 04:47:01,379 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 04:47:01,379 - P17020 - INFO - Após processar URL 13 Uso de memória: 131.14 MB
+2025-05-22 04:47:01,379 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:47:01,379 - P17020 - INFO - Ranked address: 16 items
+2025-05-22 04:47:01,380 - P17020 - INFO - Ranked phone: 11 items
+2025-05-22 04:47:01,380 - P17020 - INFO - Ranked email: 15 items
+2025-05-22 04:47:01,380 - P17020 - INFO - Ranked complement: 1 items
+2025-05-22 04:47:01,380 - P17020 - INFO - Ranked cep: 12 items
+2025-05-22 04:47:01,380 - P17020 - INFO - Após agregação Uso de memória: 131.14 MB
+2025-05-22 04:47:01,380 - P17020 - INFO - Validando endereço: ['Rua Otacilio Vieira da Costa, 276', 'Rua Otacilio Vieira da Costa 276 Centro Lages SC', 'Rua Luiz de Freitas Melro, 395']
+2025-05-22 04:47:01,381 - P17020 - INFO - Endereço validado: Rua Otacilio Vieira da Costa, 276
+2025-05-22 04:47:01,381 - P17020 - INFO - Limpando texto extenso para campo address: Rua Otacilio Vieira da Costa, 276...
+2025-05-22 04:47:01,381 - P17020 - INFO - Texto limpo: Rua Otacilio Vieira da Costa, 276
+2025-05-22 04:47:01,381 - P17020 - INFO - Validando telefone: ['(49) 99977-4688', '(47) 3326-4554', '(49) 3323-0502']
+2025-05-22 04:47:01,381 - P17020 - INFO - Limpando texto extenso para campo phone: (49) 99977-4688...
+2025-05-22 04:47:01,382 - P17020 - INFO - Texto limpo: 49) 99977-4688
+2025-05-22 04:47:01,382 - P17020 - INFO - Telefone validado: 49) 99977-4688
+2025-05-22 04:47:01,382 - P17020 - INFO - Validando email: ['protocolo@crmsc.org.br', 'vinycius.marin@gmail.com', 'blumenau02@crmsc.org.br']
+2025-05-22 04:47:01,382 - P17020 - INFO - Limpando texto extenso para campo email: protocolo@crmsc.org.br...
+2025-05-22 04:47:01,382 - P17020 - INFO - Texto limpo: protocolo@crmsc.org.br
+2025-05-22 04:47:01,382 - P17020 - INFO - Email validado: protocolo@crmsc.org.br
+2025-05-22 04:47:01,383 - P17020 - INFO - Validando complemento: ['Aptidão à RT Vigilância ']
+2025-05-22 04:47:01,383 - P17020 - INFO - Limpando texto extenso para campo complement: Aptidão à RT Vigilância ...
+2025-05-22 04:47:01,383 - P17020 - INFO - Texto limpo: Aptidão à RT Vigilância
+2025-05-22 04:47:01,384 - P17020 - INFO - Complemento validado: Aptidão à RT Vigilância
+2025-05-22 04:47:01,385 - P17020 - INFO - Descobrindo cidade
+2025-05-22 04:47:01,385 - P17020 - INFO - Buscando cidade: Rua Otacilio Vieira da Costa cidade SC
+2025-05-22 04:47:04,058 - P17020 - INFO - Cidade encontrada: Lages
+2025-05-22 04:47:04,058 - P17020 - INFO - Limpando texto extenso para campo city: Lages...
+2025-05-22 04:47:04,058 - P17020 - INFO - Texto limpo: Lages
+2025-05-22 04:47:04,058 - P17020 - INFO - Cidade descoberta: Lages
+2025-05-22 04:47:04,059 - P17020 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 04:47:04,059 - P17020 - INFO - Iniciando busca de CEP em cascata para: Rua Otacilio Vieira da Costa, Lages, SC
+2025-05-22 04:47:04,059 - P17020 - INFO - Método 1: ViaCEP API
+2025-05-22 04:47:04,059 - P17020 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SC/lages/rua%20otacilio%20vieira%20da%20costa/json/
+2025-05-22 04:47:04,722 - P17020 - INFO - Dados encontrados no ViaCEP: {'cep': '88501-050', 'logradouro': 'Rua Otacílio Vieira da Costa', 'complemento': '', 'unidade': '', 'bairro': 'Centro', 'localidade': 'Lages', 'uf': 'SC', 'estado': 'Santa Catarina', 'regiao': 'Sul', 'ibge': '4209300', 'gia': '', 'ddd': '49', 'siafi': '8183'}
+2025-05-22 04:47:04,724 - P17020 - INFO - CEP encontrado via ViaCEP: 88501-050
+2025-05-22 04:47:04,725 - P17020 - INFO - Dados de CEP encontrados: {'cep': '88501-050', 'logradouro': 'Rua Otacílio Vieira da Costa', 'complemento': '', 'unidade': '', 'bairro': 'Centro', 'localidade': 'Lages', 'uf': 'SC', 'estado': 'Santa Catarina', 'regiao': 'Sul', 'ibge': '4209300', 'gia': '', 'ddd': '49', 'siafi': '8183'}
+2025-05-22 04:47:04,725 - P17020 - INFO - Limpando texto extenso para campo bairro: Centro...
+2025-05-22 04:47:04,725 - P17020 - INFO - Texto limpo: Centro
+2025-05-22 04:47:04,726 - P17020 - INFO - Limpando texto extenso para campo city: Lages...
+2025-05-22 04:47:04,726 - P17020 - INFO - Texto limpo: Lages
+2025-05-22 04:47:04,727 - P17020 - INFO - Limpando texto extenso para campo state: SC...
+2025-05-22 04:47:04,727 - P17020 - INFO - Texto limpo: SC
+2025-05-22 04:47:04,727 - P17020 - INFO - Tempo de execução de processamento completo do médico: 38.44 segundos
+2025-05-22 04:47:04,728 - P17020 - INFO - Resultado processado: {'Hash': '6a76ea5b6cd1a8ec1eb981390c7e411e9f14b634434b6f0188b8fa3120c268be', 'CRM': '35988', 'UF': 'SC', 'Firstname': 'VINYCIUS', 'LastName': 'MARIN DE LIZ', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Otacilio Vieira da Costa, 276', 'Address A1': 'Rua Otacilio Vieira da Costa', 'Numero A1': '276', 'Complement A1': 'Aptidão à RT Vigilância', 'Bairro A1': 'Centro', 'postal code A1': '88501-050', 'City A1': 'Lages', 'State A1': 'SC', 'Phone A1': '49) 99977-4688', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'protocolo@crmsc.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:47:04,729 - P17020 - INFO - Progresso: 76.6%
+2025-05-22 04:47:04,730 - P17020 - INFO - Tempo de execução de processamento do médico 2: 38.46 segundos
+2025-05-22 04:47:04,730 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 04:47:04,731 - P17020 - INFO - Nome: ANDRÉ LUÍS OENNING TSCHIEDEL
+2025-05-22 04:47:04,731 - P17020 - INFO - Início do processamento Uso de memória: 127.27 MB
+2025-05-22 04:47:04,731 - P17020 - INFO - Iniciando busca para: ANDRÉ LUÍS OENNING TSCHIEDEL CRM 36564 SC telefone e-mail endereço
+2025-05-22 04:47:05,515 - P17020 - INFO - SearX results: 9 URLs
+2025-05-22 04:47:05,517 - P17020 - INFO - Após SearX Uso de memória: 127.27 MB
+2025-05-22 04:47:08,000 - P17020 - INFO - Google results: 1 URLs
+2025-05-22 04:47:08,000 - P17020 - INFO - Após Google Uso de memória: 127.32 MB
+2025-05-22 04:47:10,452 - P17020 - INFO - Bing results: 7 URLs
+2025-05-22 04:47:10,452 - P17020 - INFO - Após Bing Uso de memória: 127.32 MB
+2025-05-22 04:47:10,452 - P17020 - INFO - Total de URLs únicas: 11
+2025-05-22 04:47:10,452 - P17020 - INFO - Processando URL 1/11: https://consultacrm.com.br/
+2025-05-22 04:47:14,066 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:47:14,081 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:47:14,081 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:47:14,081 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:47:14,081 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:47:14,082 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:47:14,082 - P17020 - INFO - Após processar URL 1 Uso de memória: 128.76 MB
+2025-05-22 04:47:14,082 - P17020 - INFO - Processando URL 2/11: https://cadastroempresa.com.br/cnpj/54.703.024/0001-36-andre-tschiedel-servicos-medicos-ltda
+2025-05-22 04:47:16,931 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\82521e1e239d98174dd41a50648053dc.html
+2025-05-22 04:47:16,955 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:47:16,955 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:47:16,955 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:47:16,955 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:47:16,955 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 04:47:16,956 - P17020 - INFO - Após processar URL 2 Uso de memória: 128.76 MB
+2025-05-22 04:47:16,956 - P17020 - INFO - Processando URL 3/11: https://www.escavador.com/sobre/5159708/andre-luis-oenning-tschiedel
+2025-05-22 04:47:20,197 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4af21702ead964322d0370e5fca3a193.html
+2025-05-22 04:47:20,222 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:47:20,224 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:47:20,238 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:47:20,240 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:47:20,249 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:47:20,250 - P17020 - INFO - Após processar URL 3 Uso de memória: 128.78 MB
+2025-05-22 04:47:20,250 - P17020 - INFO - Processando URL 4/11: https://advdinamico.com.br/socios/andre-luis-oenning-tschiedel-e4f7e9e3
+2025-05-22 04:47:23,205 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\90b3b37a33ea7f77dcc0f6573b640c8e.html
+2025-05-22 04:47:23,242 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:47:23,245 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:47:23,245 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:47:23,245 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:47:23,246 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:47:23,246 - P17020 - INFO - Após processar URL 4 Uso de memória: 128.79 MB
+2025-05-22 04:47:23,247 - P17020 - INFO - Processando URL 5/11: https://crmsc.org.br/regionais/delegacias-regionais/
+2025-05-22 04:47:25,633 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4fdceacb77d0ad074a23bf192c406e73.html
+2025-05-22 04:47:25,698 - P17020 - INFO - Candidates address: 8 items
+2025-05-22 04:47:25,699 - P17020 - INFO - Candidates phone: 10 items
+2025-05-22 04:47:25,699 - P17020 - INFO - Candidates email: 14 items
+2025-05-22 04:47:25,699 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 04:47:25,699 - P17020 - INFO - Candidates cep: 9 items
+2025-05-22 04:47:25,699 - P17020 - INFO - Após processar URL 5 Uso de memória: 128.80 MB
+2025-05-22 04:47:25,700 - P17020 - INFO - Processando URL 6/11: https://www.sbd.org.br/mm/cms/2019/04/11/cirurgioes-de-mohsv5.pdf
+2025-05-22 04:47:25,700 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.sbd.org.br/mm/cms/2019/04/11/cirurgioes-de-mohsv5.pdf
+2025-05-22 04:47:25,700 - P17020 - INFO - Após processar URL 6 Uso de memória: 128.80 MB
+2025-05-22 04:47:25,700 - P17020 - INFO - Processando URL 7/11: https://www.sbd.org.br/mm/cms/2019/02/12/cirurgioes-de-mohsufv2.pdf
+2025-05-22 04:47:25,700 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.sbd.org.br/mm/cms/2019/02/12/cirurgioes-de-mohsufv2.pdf
+2025-05-22 04:47:25,701 - P17020 - INFO - Após processar URL 7 Uso de memória: 128.80 MB
+2025-05-22 04:47:25,701 - P17020 - INFO - Processando URL 8/11: https://basecnpj.com.br/empresa/andre-tschiedel-servicos-medicos-ltda-54703024000136
+2025-05-22 04:47:31,075 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b59af3e5857d94d0c068fc7dff8d2c0f.html
+2025-05-22 04:47:31,094 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 04:47:31,094 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:47:31,094 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:47:31,095 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:47:31,095 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:47:31,095 - P17020 - INFO - Após processar URL 8 Uso de memória: 128.80 MB
+2025-05-22 04:47:31,095 - P17020 - INFO - Processando URL 9/11: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 04:47:34,214 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 04:47:34,256 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:47:34,257 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:47:34,257 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:47:34,258 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:47:34,258 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:47:34,258 - P17020 - INFO - Após processar URL 9 Uso de memória: 128.80 MB
+2025-05-22 04:47:34,258 - P17020 - INFO - Processando URL 10/11: https://empresasweb.net/emp/tschiedel-servicos-medicos-ltda-53119960
+2025-05-22 04:47:37,570 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b14a179464d03ca8dc377dceb44e23ad.html
+2025-05-22 04:47:37,587 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:47:37,587 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 04:47:37,587 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 04:47:37,587 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:47:37,587 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 04:47:37,588 - P17020 - INFO - Após processar URL 10 Uso de memória: 128.79 MB
+2025-05-22 04:47:37,588 - P17020 - INFO - Processando URL 11/11: https://www.escavador.com/sobre/1589737181/andre-luis-oenning-tschiedel-e-nathalia-freitas-batista
+2025-05-22 04:47:40,619 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\94b4a3f5490ca4301f236d03f48a1312.html
+2025-05-22 04:47:40,638 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 04:47:40,641 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 04:47:40,642 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 04:47:40,642 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 04:47:40,642 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 04:47:40,643 - P17020 - INFO - Após processar URL 11 Uso de memória: 128.79 MB
+2025-05-22 04:47:40,644 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:47:40,644 - P17020 - INFO - Ranked address: 10 items
+2025-05-22 04:47:40,645 - P17020 - INFO - Ranked phone: 12 items
+2025-05-22 04:47:40,645 - P17020 - INFO - Ranked email: 16 items
+2025-05-22 04:47:40,645 - P17020 - INFO - Ranked complement: 1 items
+2025-05-22 04:47:40,646 - P17020 - INFO - Ranked cep: 11 items
+2025-05-22 04:47:40,647 - P17020 - INFO - Após agregação Uso de memória: 128.79 MB
+2025-05-22 04:47:40,647 - P17020 - INFO - Validando endereço: ['Rua Luiz de Freitas Melro, 395', 'Rua Marechal Deodoro da Fonseca – 400', 'Rua Germano Magrin, 100']
+2025-05-22 04:47:40,647 - P17020 - INFO - Endereço validado: Rua Luiz de Freitas Melro, 395
+2025-05-22 04:47:40,648 - P17020 - INFO - Limpando texto extenso para campo address: Rua Luiz de Freitas Melro, 395...
+2025-05-22 04:47:40,648 - P17020 - INFO - Texto limpo: Rua Luiz de Freitas Melro, 395
+2025-05-22 04:47:40,648 - P17020 - INFO - Validando telefone: ['(31) 2942-0361', '(47) 3326-4554', '(49) 3323-0502']
+2025-05-22 04:47:40,648 - P17020 - INFO - Limpando texto extenso para campo phone: (31) 2942-0361...
+2025-05-22 04:47:40,649 - P17020 - INFO - Texto limpo: 31) 2942-0361
+2025-05-22 04:47:40,649 - P17020 - INFO - Telefone validado: 31) 2942-0361
+2025-05-22 04:47:40,649 - P17020 - INFO - Validando email: ['registro@fordoctor.com.br', 'blumenau02@crmsc.org.br', 'chapeco@crmsc.org.br']
+2025-05-22 04:47:40,649 - P17020 - INFO - Limpando texto extenso para campo email: registro@fordoctor.com.br...
+2025-05-22 04:47:40,650 - P17020 - INFO - Texto limpo: registro@fordoctor.com.br
+2025-05-22 04:47:40,650 - P17020 - INFO - Email validado: registro@fordoctor.com.br
+2025-05-22 04:47:40,650 - P17020 - INFO - Validando complemento: ['Aptidão à RT Vigilância ']
+2025-05-22 04:47:40,650 - P17020 - INFO - Limpando texto extenso para campo complement: Aptidão à RT Vigilância ...
+2025-05-22 04:47:40,650 - P17020 - INFO - Texto limpo: Aptidão à RT Vigilância
+2025-05-22 04:47:40,651 - P17020 - INFO - Complemento validado: Aptidão à RT Vigilância
+2025-05-22 04:47:40,651 - P17020 - INFO - Descobrindo cidade
+2025-05-22 04:47:40,651 - P17020 - INFO - Buscando cidade: Rua Luiz de Freitas Melro cidade SC
+2025-05-22 04:47:43,245 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 04:47:43,246 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 04:47:43,246 - P17020 - INFO - Tempo de execução de processamento completo do médico: 38.52 segundos
+2025-05-22 04:47:43,246 - P17020 - INFO - Resultado processado: {'Hash': 'b27b2793cb9506715d7256f4fe7cfcace316f1c264270eae716f338a582c551b', 'CRM': '36564', 'UF': 'SC', 'Firstname': 'ANDRÉ', 'LastName': 'LUÍS OENNING TSCHIEDEL', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Luiz de Freitas Melro, 395', 'Address A1': 'Rua Luiz de Freitas Melro', 'Numero A1': '395', 'Complement A1': 'Aptidão à RT Vigilância', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '31) 2942-0361', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'registro@fordoctor.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:47:43,247 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 04:47:43,248 - P17020 - INFO - Após salvar resultados Uso de memória: 129.37 MB
+2025-05-22 04:47:43,250 - P17020 - INFO - Progresso: 76.8%
+2025-05-22 04:47:43,251 - P17020 - INFO - Tempo de execução de processamento do médico 3: 38.52 segundos
+2025-05-22 04:47:43,251 - P17020 - INFO - Tempo de execução de processamento do lote completo: 142.86 segundos

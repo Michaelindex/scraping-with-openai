@@ -1,0 +1,544 @@
+2025-05-22 01:26:26,146 - P17020 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 01:26:26,147 - P17020 - INFO - Nome: SÁVIO AUGUSTO TEIXEIRA E SILVA
+2025-05-22 01:26:26,147 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 01:26:27,401 - P17020 - INFO - Após reiniciar driver Uso de memória: 100.22 MB
+2025-05-22 01:26:27,402 - P17020 - INFO - Início do processamento Uso de memória: 100.22 MB
+2025-05-22 01:26:27,402 - P17020 - INFO - Iniciando busca para: SÁVIO AUGUSTO TEIXEIRA E SILVA CRM 19338 GO telefone e-mail endereço
+2025-05-22 01:26:27,906 - P17020 - INFO - SearX results: 9 URLs
+2025-05-22 01:26:27,906 - P17020 - INFO - Após SearX Uso de memória: 100.24 MB
+2025-05-22 01:26:30,528 - P17020 - INFO - Google results: 8 URLs
+2025-05-22 01:26:30,529 - P17020 - INFO - Após Google Uso de memória: 101.36 MB
+2025-05-22 01:26:34,054 - P17020 - INFO - Bing results: 9 URLs
+2025-05-22 01:26:34,055 - P17020 - INFO - Após Bing Uso de memória: 102.32 MB
+2025-05-22 01:26:34,055 - P17020 - INFO - Total de URLs únicas: 21
+2025-05-22 01:26:34,056 - P17020 - INFO - Processando URL 1/21: https://cliniguia.com/profissionais/savio-augusto-teixeira-e-silva-700503309794555/
+2025-05-22 01:26:39,868 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\aca50b19f9572103f62b7d5f3588996f.html
+2025-05-22 01:26:39,915 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:26:39,915 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:26:39,915 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:26:39,916 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:26:39,916 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:26:39,916 - P17020 - INFO - Após processar URL 1 Uso de memória: 103.96 MB
+2025-05-22 01:26:39,916 - P17020 - INFO - Processando URL 2/21: https://cnpj.biz/36984437000154
+2025-05-22 01:26:44,712 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\50ead1bbf435b44ee37d79b76d74fb96.html
+2025-05-22 01:26:44,726 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:26:44,726 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:26:44,726 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 01:26:44,726 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:26:44,726 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 01:26:44,727 - P17020 - INFO - Após processar URL 2 Uso de memória: 104.23 MB
+2025-05-22 01:26:44,727 - P17020 - INFO - Processando URL 3/21: https://pesquisadje-api.tjdft.jus.br/v1/diarios/pdf/2019/246.pdf
+2025-05-22 01:26:44,727 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://pesquisadje-api.tjdft.jus.br/v1/diarios/pdf/2019/246.pdf
+2025-05-22 01:26:44,727 - P17020 - INFO - Após processar URL 3 Uso de memória: 104.23 MB
+2025-05-22 01:26:44,727 - P17020 - INFO - Processando URL 4/21: https://fundacaoculturaldevarginha.com.br/wp-content/uploads/2024/07/ed_1538_09110943.pdf
+2025-05-22 01:26:44,728 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://fundacaoculturaldevarginha.com.br/wp-content/uploads/2024/07/ed_1538_09110943.pdf
+2025-05-22 01:26:44,728 - P17020 - INFO - Após processar URL 4 Uso de memória: 104.23 MB
+2025-05-22 01:26:44,728 - P17020 - INFO - Processando URL 5/21: https://www.saobernardo.sp.gov.br/documents/10181/60130/NM+2007+1422.pdf.pdf/af17e328-48d4-4080-a87a-3723d76a5f16
+2025-05-22 01:26:44,728 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/60130/NM+2007+1422.pdf.pdf/af17e328-48d4-4080-a87a-3723d76a5f16
+2025-05-22 01:26:44,728 - P17020 - INFO - Após processar URL 5 Uso de memória: 104.23 MB
+2025-05-22 01:26:44,728 - P17020 - INFO - Processando URL 6/21: https://app.4.events/palestrante-savioaugustoteixeiraesilva-34-c21298
+2025-05-22 01:26:48,027 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5ebff3852d1c3800adbf1e78085290f5.html
+2025-05-22 01:26:48,035 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:26:48,036 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:26:48,036 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:26:48,036 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:26:48,036 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:26:48,037 - P17020 - INFO - Após processar URL 6 Uso de memória: 104.24 MB
+2025-05-22 01:26:48,037 - P17020 - INFO - Processando URL 7/21: https://consultacrm.com.br/
+2025-05-22 01:26:51,380 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:26:51,397 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:26:51,398 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:26:51,398 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:26:51,398 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:26:51,398 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:26:51,398 - P17020 - INFO - Após processar URL 7 Uso de memória: 104.80 MB
+2025-05-22 01:26:51,399 - P17020 - INFO - Processando URL 8/21: http://hemeroteca.ciasc.sc.gov.br/oestadofpolis/1977/EST197718708.pdf
+2025-05-22 01:26:51,399 - P17020 - INFO - Ignorando URL de arquivo não-HTML: http://hemeroteca.ciasc.sc.gov.br/oestadofpolis/1977/EST197718708.pdf
+2025-05-22 01:26:51,399 - P17020 - INFO - Após processar URL 8 Uso de memória: 104.32 MB
+2025-05-22 01:26:51,400 - P17020 - INFO - Processando URL 9/21: https://www.saobernardo.sp.gov.br/documents/10181/735644/NM+2006+de+27.07.2018+-+Conteu%CC%81do+Integral.pdf/435ed212-c838-1028-12c2-05040321766d
+2025-05-22 01:26:51,400 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/735644/NM+2006+de+27.07.2018+-+Conteu%CC%81do+Integral.pdf/435ed212-c838-1028-12c2-05040321766d
+2025-05-22 01:26:51,400 - P17020 - INFO - Após processar URL 9 Uso de memória: 104.32 MB
+2025-05-22 01:26:51,400 - P17020 - INFO - Processando URL 10/21: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 01:26:53,464 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 01:26:53,476 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:26:53,477 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:26:53,477 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:26:53,477 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:26:53,477 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:26:53,477 - P17020 - INFO - Após processar URL 10 Uso de memória: 103.95 MB
+2025-05-22 01:26:53,478 - P17020 - INFO - Processando URL 11/21: https://guiasaudebrasil.com.br/profissional/2bcf12af1cb6c367-savio-augusto-teixeira-e-silva
+2025-05-22 01:26:59,132 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\202151a1ae04efec2508c7844979084d.html
+2025-05-22 01:26:59,141 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:26:59,141 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:26:59,141 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:26:59,141 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:26:59,142 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:26:59,142 - P17020 - INFO - Após processar URL 11 Uso de memória: 103.61 MB
+2025-05-22 01:26:59,142 - P17020 - INFO - Processando URL 12/21: https://www.boaconsulta.com/especialista/savio-augusto-teixeira-e-silva-64accd825a7bb819aa039748
+2025-05-22 01:27:02,469 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\845e959075675efc50cc2ec524e5ef1d.html
+2025-05-22 01:27:02,509 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:27:02,509 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:27:02,509 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:27:02,509 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:27:02,509 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:27:02,509 - P17020 - INFO - Após processar URL 12 Uso de memória: 102.46 MB
+2025-05-22 01:27:02,510 - P17020 - INFO - Processando URL 13/21: https://iomat.mt.gov.br/portal/edicoes/download/2408
+2025-05-22 01:27:04,960 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\af6ac1d3bc4f21f3c60baeb64ad94a27.html
+2025-05-22 01:27:04,997 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:27:04,998 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:27:04,998 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:27:04,998 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:27:04,998 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:27:04,998 - P17020 - INFO - Após processar URL 13 Uso de memória: 102.77 MB
+2025-05-22 01:27:04,998 - P17020 - INFO - Processando URL 14/21: https://oabsc.s3-sa-east-1.amazonaws.com/arquivo/update/582f37807201b.pdf
+2025-05-22 01:27:04,999 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://oabsc.s3-sa-east-1.amazonaws.com/arquivo/update/582f37807201b.pdf
+2025-05-22 01:27:04,999 - P17020 - INFO - Após processar URL 14 Uso de memória: 102.77 MB
+2025-05-22 01:27:04,999 - P17020 - INFO - Processando URL 15/21: https://portal.cfm.org.br/busca-medicos
+2025-05-22 01:27:09,107 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 01:27:09,144 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:27:09,144 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:27:09,144 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 01:27:09,144 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 01:27:09,145 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:27:09,145 - P17020 - INFO - Após processar URL 15 Uso de memória: 104.11 MB
+2025-05-22 01:27:09,145 - P17020 - INFO - Processando URL 16/21: https://mapannabis.com/medico/goias/savio-augusto-teixeira-e-silva/
+2025-05-22 01:27:15,124 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\acb367695568144c9e070eef3c0da84b.html
+2025-05-22 01:27:15,186 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:27:15,186 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:27:15,186 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:27:15,187 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:27:15,187 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:27:15,187 - P17020 - INFO - Após processar URL 16 Uso de memória: 105.33 MB
+2025-05-22 01:27:15,187 - P17020 - INFO - Processando URL 17/21: https://brasil.docalist.com/medics/psiquiatra/todos-os-seguros/goiania/savio-augusto-teixeira-e-silva
+2025-05-22 01:27:15,187 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://brasil.docalist.com/medics/psiquiatra/todos-os-seguros/goiania/savio-augusto-teixeira-e-silva
+2025-05-22 01:27:15,187 - P17020 - INFO - Após processar URL 17 Uso de memória: 103.23 MB
+2025-05-22 01:27:15,188 - P17020 - INFO - Processando URL 18/21: https://sistemadje.tjmt.jus.br/publicacoes/10472-2019%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 01:27:15,188 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/10472-2019%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 01:27:15,188 - P17020 - INFO - Após processar URL 18 Uso de memória: 103.23 MB
+2025-05-22 01:27:15,188 - P17020 - INFO - Processando URL 19/21: https://www.escavador.com/sobre/2699930/savio-augusto-teixeira-e-silva
+2025-05-22 01:27:20,555 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\625539c67d595612e19cc6654a139f79.html
+2025-05-22 01:27:20,583 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:27:20,583 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:27:20,583 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:27:20,583 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:27:20,583 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 01:27:20,584 - P17020 - INFO - Após processar URL 19 Uso de memória: 104.34 MB
+2025-05-22 01:27:20,584 - P17020 - INFO - Processando URL 20/21: https://www.doctoralia.com.br/savio-augusto-teixeira-e-silva/psiquiatra/goiania
+2025-05-22 01:27:20,584 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/savio-augusto-teixeira-e-silva/psiquiatra/goiania
+2025-05-22 01:27:20,584 - P17020 - INFO - Após processar URL 20 Uso de memória: 104.34 MB
+2025-05-22 01:27:20,584 - P17020 - INFO - Processando URL 21/21: https://sistemadje.tjmt.jus.br/publicacoes/9908-2016%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 01:27:20,584 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/9908-2016%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 01:27:20,584 - P17020 - INFO - Após processar URL 21 Uso de memória: 104.34 MB
+2025-05-22 01:27:20,585 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:27:20,585 - P17020 - INFO - Ranked address: 1 items
+2025-05-22 01:27:20,585 - P17020 - INFO - Ranked phone: 1 items
+2025-05-22 01:27:20,585 - P17020 - INFO - Ranked email: 2 items
+2025-05-22 01:27:20,585 - P17020 - INFO - Ranked complement: 1 items
+2025-05-22 01:27:20,585 - P17020 - INFO - Ranked cep: 6 items
+2025-05-22 01:27:20,585 - P17020 - INFO - Após agregação Uso de memória: 104.34 MB
+2025-05-22 01:27:20,586 - P17020 - INFO - Validando endereço: ['R. A. Marcos Lovera Saude Mental LTDA - 36.984.435/0001-65']
+2025-05-22 01:27:20,586 - P17020 - INFO - Endereço validado: R. A. Marcos Lovera Saude Mental LTDA - 36.984.435/0001-65
+2025-05-22 01:27:20,586 - P17020 - INFO - Limpando texto extenso para campo address: R. A. Marcos Lovera Saude Mental LTDA - 36.984.435...
+2025-05-22 01:27:20,586 - P17020 - INFO - Texto limpo: R. A. Marcos Lovera Saude Mental LTDA - 36.984.435/0001-65
+2025-05-22 01:27:20,586 - P17020 - INFO - Validando telefone: ['(62) 98117-7364']
+2025-05-22 01:27:20,586 - P17020 - INFO - Limpando texto extenso para campo phone: (62) 98117-7364...
+2025-05-22 01:27:20,587 - P17020 - INFO - Texto limpo: 62) 98117-7364
+2025-05-22 01:27:20,587 - P17020 - INFO - Telefone validado: 62) 98117-7364
+2025-05-22 01:27:20,587 - P17020 - INFO - Validando email: ['contato@drsavioteixeira.com', 'cfm@portalmedico.org.br']
+2025-05-22 01:27:20,588 - P17020 - INFO - Limpando texto extenso para campo email: contato@drsavioteixeira.com...
+2025-05-22 01:27:20,588 - P17020 - INFO - Texto limpo: contato@drsavioteixeira.com
+2025-05-22 01:27:20,588 - P17020 - INFO - Email validado: contato@drsavioteixeira.com
+2025-05-22 01:27:20,588 - P17020 - INFO - Validando complemento: ['Conjunto D']
+2025-05-22 01:27:20,588 - P17020 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 01:27:20,589 - P17020 - INFO - Texto limpo: Conjunto D
+2025-05-22 01:27:20,589 - P17020 - INFO - Complemento validado: Conjunto D
+2025-05-22 01:27:20,589 - P17020 - INFO - Descobrindo cidade
+2025-05-22 01:27:20,589 - P17020 - INFO - Buscando cidade: R. A. Marcos Lovera Saude Mental LTDA - 36.984.435/0001-65 cidade GO
+2025-05-22 01:27:23,260 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 01:27:23,263 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 01:27:23,267 - P17020 - INFO - Tempo de execução de processamento completo do médico: 55.87 segundos
+2025-05-22 01:27:23,269 - P17020 - INFO - Resultado processado: {'Hash': 'f4fb19ef16c098096961d6f03469f7ef0f4b11158a32ddc2302830358c042cbc', 'CRM': '19338', 'UF': 'GO', 'Firstname': 'SÁVIO', 'LastName': 'AUGUSTO TEIXEIRA E SILVA', 'Medical specialty': '', 'Endereco Completo A1': 'R. A. Marcos Lovera Saude Mental LTDA - 36.984.435/0001-65', 'Address A1': 'R. A. Marcos Lovera Saude Mental LTDA - 36.984.435/0001-65', 'Numero A1': '', 'Complement A1': 'Conjunto D', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '62) 98117-7364', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'contato@drsavioteixeira.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:27:23,278 - P17020 - INFO - Progresso: 2.9%
+2025-05-22 01:27:23,285 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 01:27:23,398 - P17020 - INFO - Após coleta de lixo Uso de memória: 66.89 MB
+2025-05-22 01:27:23,400 - P17020 - INFO - Tempo de execução de processamento do médico 1: 57.25 segundos
+2025-05-22 01:27:23,402 - P17020 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 01:27:23,408 - P17020 - INFO - Nome: ISABEL MARIA ARAÚJO GUIMARÃES
+2025-05-22 01:27:23,409 - P17020 - INFO - Início do processamento Uso de memória: 66.89 MB
+2025-05-22 01:27:23,411 - P17020 - INFO - Iniciando busca para: ISABEL MARIA ARAÚJO GUIMARÃES CRM 19999 GO telefone e-mail endereço
+2025-05-22 01:27:23,904 - P17020 - INFO - SearX results: 10 URLs
+2025-05-22 01:27:23,906 - P17020 - INFO - Após SearX Uso de memória: 66.89 MB
+2025-05-22 01:27:26,785 - P17020 - INFO - Google results: 10 URLs
+2025-05-22 01:27:26,785 - P17020 - INFO - Após Google Uso de memória: 72.43 MB
+2025-05-22 01:27:29,257 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 01:27:29,257 - P17020 - INFO - Após Bing Uso de memória: 74.11 MB
+2025-05-22 01:27:29,257 - P17020 - INFO - Total de URLs únicas: 26
+2025-05-22 01:27:29,258 - P17020 - INFO - Processando URL 1/26: https://crmvirtual.cfm.org.br/GO
+2025-05-22 01:27:33,824 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\78696ed8e947d3b5ca95dd957d050d26.html
+2025-05-22 01:27:33,842 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:27:33,842 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:27:33,842 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:27:33,842 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:27:33,843 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:27:33,843 - P17020 - INFO - Após processar URL 1 Uso de memória: 74.37 MB
+2025-05-22 01:27:33,843 - P17020 - INFO - Processando URL 2/26: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20171129&idorgao=347
+2025-05-22 01:27:40,082 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6b4019252d5ed6ef043c02c122736cb6.html
+2025-05-22 01:27:40,767 - P17020 - INFO - Candidates address: 28 items
+2025-05-22 01:27:40,767 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 01:27:40,767 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 01:27:40,767 - P17020 - INFO - Candidates complement: 7 items
+2025-05-22 01:27:40,767 - P17020 - INFO - Candidates cep: 38 items
+2025-05-22 01:27:40,768 - P17020 - INFO - Após processar URL 2 Uso de memória: 77.37 MB
+2025-05-22 01:27:40,768 - P17020 - INFO - Processando URL 3/26: https://goias.gov.br/saude/wp-content/uploads/sites/34/files/acesso_a_informacao/escala-saude/policlinica-posse/2024/poli-posse-abril.pdf
+2025-05-22 01:27:40,768 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://goias.gov.br/saude/wp-content/uploads/sites/34/files/acesso_a_informacao/escala-saude/policlinica-posse/2024/poli-posse-abril.pdf
+2025-05-22 01:27:40,769 - P17020 - INFO - Após processar URL 3 Uso de memória: 74.93 MB
+2025-05-22 01:27:40,769 - P17020 - INFO - Processando URL 4/26: https://crmvirtual.cfm.org.br/GO/servico/busca-medico
+2025-05-22 01:27:43,122 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3f7e1325196fca85b8ce10bf510cb018.html
+2025-05-22 01:27:43,133 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:27:43,133 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:27:43,134 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 01:27:43,134 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:27:43,134 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:27:43,134 - P17020 - INFO - Após processar URL 4 Uso de memória: 74.98 MB
+2025-05-22 01:27:43,134 - P17020 - INFO - Processando URL 5/26: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20210729&idorgao=347
+2025-05-22 01:27:46,626 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6f69eeb7bd89c06969a29cf812b826a6.html
+2025-05-22 01:27:47,767 - P17020 - INFO - Candidates address: 98 items
+2025-05-22 01:27:47,768 - P17020 - INFO - Candidates phone: 9 items
+2025-05-22 01:27:47,768 - P17020 - INFO - Candidates email: 8 items
+2025-05-22 01:27:47,768 - P17020 - INFO - Candidates complement: 6 items
+2025-05-22 01:27:47,768 - P17020 - INFO - Candidates cep: 50 items
+2025-05-22 01:27:47,768 - P17020 - INFO - Após processar URL 5 Uso de memória: 95.77 MB
+2025-05-22 01:27:47,768 - P17020 - INFO - Processando URL 6/26: https://aboutcompany.info/country/brazil/officer/720751/isabel-maria-araujo-guimaraes/
+2025-05-22 01:27:49,846 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\580ea3c938a23fea366009322216bd3a.html
+2025-05-22 01:27:49,944 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 01:27:49,944 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:27:49,944 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:27:49,944 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:27:49,944 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:27:49,945 - P17020 - INFO - Após processar URL 6 Uso de memória: 96.29 MB
+2025-05-22 01:27:49,945 - P17020 - INFO - Processando URL 7/26: https://consultacrm.com.br/
+2025-05-22 01:27:53,007 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:27:53,020 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:27:53,020 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:27:53,021 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:27:53,021 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:27:53,021 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:27:53,021 - P17020 - INFO - Após processar URL 7 Uso de memória: 96.98 MB
+2025-05-22 01:27:53,022 - P17020 - INFO - Processando URL 8/26: https://iomat.mt.gov.br/portal/edicoes/download/2787
+2025-05-22 01:27:55,368 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\fa868040d7cd2eb8713a5da1db477c15.html
+2025-05-22 01:27:55,382 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:27:55,382 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:27:55,382 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:27:55,382 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:27:55,383 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:27:55,384 - P17020 - INFO - Após processar URL 8 Uso de memória: 96.28 MB
+2025-05-22 01:27:55,386 - P17020 - INFO - Processando URL 9/26: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 01:27:59,059 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 01:27:59,173 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:27:59,173 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:27:59,173 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:27:59,174 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:27:59,174 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:27:59,174 - P17020 - INFO - Após processar URL 9 Uso de memória: 81.21 MB
+2025-05-22 01:27:59,174 - P17020 - INFO - Processando URL 10/26: https://guiasaudebrasil.com.br/profissional/f4c01938a34f991b-isabel-maria-araujo-guimaraes
+2025-05-22 01:28:04,580 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\bd54c520d8b6674ac5708740d6997d34.html
+2025-05-22 01:28:04,591 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:28:04,592 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:28:04,592 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:28:04,592 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:28:04,592 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:28:04,593 - P17020 - INFO - Após processar URL 10 Uso de memória: 84.38 MB
+2025-05-22 01:28:04,593 - P17020 - INFO - Processando URL 11/26: https://www.medicosbrasil.com/profissional/ana-carolina-pimenta-de-araujo-guimaraes
+2025-05-22 01:28:08,414 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6ec0432e395916790d5f6a21d53a7b0f.html
+2025-05-22 01:28:08,435 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:28:08,437 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:28:08,437 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:28:08,437 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:28:08,438 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:28:08,438 - P17020 - INFO - Após processar URL 11 Uso de memória: 82.71 MB
+2025-05-22 01:28:08,438 - P17020 - INFO - Processando URL 12/26: https://itu.sp.gov.br/wp-content/uploads/2015/imprensa_oficial/imprensa_276.pdf
+2025-05-22 01:28:08,438 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://itu.sp.gov.br/wp-content/uploads/2015/imprensa_oficial/imprensa_276.pdf
+2025-05-22 01:28:08,439 - P17020 - INFO - Após processar URL 12 Uso de memória: 82.71 MB
+2025-05-22 01:28:08,439 - P17020 - INFO - Processando URL 13/26: https://www.cremego.org.br/wp-content/uploads/2025/01/Resultado-06.01.25-ATLS-ACLS-e-PALS.pdf
+2025-05-22 01:28:08,439 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.cremego.org.br/wp-content/uploads/2025/01/Resultado-06.01.25-ATLS-ACLS-e-PALS.pdf
+2025-05-22 01:28:08,439 - P17020 - INFO - Após processar URL 13 Uso de memória: 82.71 MB
+2025-05-22 01:28:08,439 - P17020 - INFO - Processando URL 14/26: https://diariooficial.santos.sp.gov.br/edicoes/inicio/download/2017-10-30
+2025-05-22 01:28:10,573 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\49529d17a5352b91fb44dd0f3e0df4d3.html
+2025-05-22 01:28:10,573 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:28:10,573 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:28:10,573 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:28:10,574 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:28:10,574 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:28:10,574 - P17020 - INFO - Após processar URL 14 Uso de memória: 82.71 MB
+2025-05-22 01:28:10,574 - P17020 - INFO - Processando URL 15/26: https://www.boaconsulta.com/especialista/isabel-maria-araujo-guimaraes-61060434a2e00a78ff001600
+2025-05-22 01:28:13,379 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\68e6473d55fd2125181e6e153a246500.html
+2025-05-22 01:28:13,429 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 01:28:13,429 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:28:13,429 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:28:13,430 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:28:13,430 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:28:13,430 - P17020 - INFO - Após processar URL 15 Uso de memória: 82.71 MB
+2025-05-22 01:28:13,430 - P17020 - INFO - Processando URL 16/26: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/14069/Caderno_JUD_GO_2018-08-27_X_159.pdf?sequence=1&isAllowed=y
+2025-05-22 01:28:13,431 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/14069/Caderno_JUD_GO_2018-08-27_X_159.pdf?sequence=1&isAllowed=y
+2025-05-22 01:28:13,431 - P17020 - INFO - Após processar URL 16 Uso de memória: 82.71 MB
+2025-05-22 01:28:13,432 - P17020 - INFO - Processando URL 17/26: https://www.saobernardo.sp.gov.br/documents/10181/53276/NM+2008+1444+148+a+172.pdf.pdf/3b03ae85-fb4e-4eb2-a466-a937b93a272d
+2025-05-22 01:28:13,432 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/53276/NM+2008+1444+148+a+172.pdf.pdf/3b03ae85-fb4e-4eb2-a466-a937b93a272d
+2025-05-22 01:28:13,432 - P17020 - INFO - Após processar URL 17 Uso de memória: 82.71 MB
+2025-05-22 01:28:13,432 - P17020 - INFO - Processando URL 18/26: https://portal.cfm.org.br/busca-medicos
+2025-05-22 01:28:16,757 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 01:28:16,797 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:28:16,798 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:28:16,798 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 01:28:16,798 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 01:28:16,798 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:28:16,798 - P17020 - INFO - Após processar URL 18 Uso de memória: 84.40 MB
+2025-05-22 01:28:16,799 - P17020 - INFO - Processando URL 19/26: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/c/6/9/c6967b1b6ceed2edc093ee649a0629332f324d022f02da0cbbc8f442277dca42/cd281b8c-df87-405c-9beb-a6a8d497eae7-17342-DOE_16852_25_02_2002_64F_JUCESC_16852_08F.pdf
+2025-05-22 01:28:16,799 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/c/6/9/c6967b1b6ceed2edc093ee649a0629332f324d022f02da0cbbc8f442277dca42/cd281b8c-df87-405c-9beb-a6a8d497eae7-17342-DOE_16852_25_02_2002_64F_JUCESC_16852_08F.pdf
+2025-05-22 01:28:16,799 - P17020 - INFO - Após processar URL 19 Uso de memória: 81.56 MB
+2025-05-22 01:28:16,800 - P17020 - INFO - Processando URL 20/26: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/308556807.pdf
+2025-05-22 01:28:16,800 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/308556807.pdf
+2025-05-22 01:28:16,800 - P17020 - INFO - Após processar URL 20 Uso de memória: 81.56 MB
+2025-05-22 01:28:16,800 - P17020 - INFO - Processando URL 21/26: https://dom.ro.gov.br/portal/edicoes/download/320
+2025-05-22 01:28:20,158 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2b76cf61dba66bb2d51d9aa1c7338a5d.html
+2025-05-22 01:28:20,206 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:28:20,206 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:28:20,208 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 01:28:20,208 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 01:28:20,208 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:28:20,209 - P17020 - INFO - Após processar URL 21 Uso de memória: 81.47 MB
+2025-05-22 01:28:20,209 - P17020 - INFO - Processando URL 22/26: https://dodf.df.gov.br/dodf/jornal/visualizar-pdf?pasta=2014%7C08_Agosto%7CDODF%20169%2018-08-2014%7C&arquivo=DODF%20169%2018-08-2014%20SECAO1.pdf
+2025-05-22 01:28:20,209 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://dodf.df.gov.br/dodf/jornal/visualizar-pdf?pasta=2014%7C08_Agosto%7CDODF%20169%2018-08-2014%7C&arquivo=DODF%20169%2018-08-2014%20SECAO1.pdf
+2025-05-22 01:28:20,211 - P17020 - INFO - Após processar URL 22 Uso de memória: 81.47 MB
+2025-05-22 01:28:20,212 - P17020 - INFO - Processando URL 23/26: https://www.consultasocio.com/q/sa/isabel-maria-araujo-guimaraes
+2025-05-22 01:28:25,634 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7830b2ddaa5250e7240a53bc24d1f801.html
+2025-05-22 01:28:25,644 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:28:25,644 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:28:25,644 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 01:28:25,644 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 01:28:25,644 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 01:28:25,645 - P17020 - INFO - Após processar URL 23 Uso de memória: 81.82 MB
+2025-05-22 01:28:25,645 - P17020 - INFO - Processando URL 24/26: https://crmvirtual.cfm.org.br/ES/servico/pesquisar-por-medico
+2025-05-22 01:28:28,173 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\0ff8b0bf2c6dbb46c836bac9c0cf4a16.html
+2025-05-22 01:28:28,184 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:28:28,185 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:28:28,185 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:28:28,185 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:28:28,185 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:28:28,186 - P17020 - INFO - Após processar URL 24 Uso de memória: 82.00 MB
+2025-05-22 01:28:28,186 - P17020 - INFO - Processando URL 25/26: https://www.goiania.go.gov.br/Download/legislacao/diariooficial/2022/do_20221007_000007901.pdf
+2025-05-22 01:28:28,186 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.goiania.go.gov.br/Download/legislacao/diariooficial/2022/do_20221007_000007901.pdf
+2025-05-22 01:28:28,186 - P17020 - INFO - Após processar URL 25 Uso de memória: 82.00 MB
+2025-05-22 01:28:28,186 - P17020 - INFO - Processando URL 26/26: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/415930631.pdf
+2025-05-22 01:28:28,187 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/415930631.pdf
+2025-05-22 01:28:28,187 - P17020 - INFO - Após processar URL 26 Uso de memória: 82.00 MB
+2025-05-22 01:28:28,187 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:28:28,187 - P17020 - INFO - Ranked address: 130 items
+2025-05-22 01:28:28,187 - P17020 - INFO - Ranked phone: 11 items
+2025-05-22 01:28:28,188 - P17020 - INFO - Ranked email: 13 items
+2025-05-22 01:28:28,188 - P17020 - INFO - Ranked complement: 15 items
+2025-05-22 01:28:28,188 - P17020 - INFO - Ranked cep: 90 items
+2025-05-22 01:28:28,188 - P17020 - INFO - Após agregação Uso de memória: 82.00 MB
+2025-05-22 01:28:28,188 - P17020 - INFO - Validando endereço: ['Rua Desembargador Homero Mafra, 60', 'R.T.F. Para tomar ciência da decisão: Suspendo o feito pelo prazo de 60', 'R.F.E.R.L.M. Intimo os Drs advogados Advogado: 5946']
+2025-05-22 01:28:28,188 - P17020 - INFO - Endereço validado: Rua Desembargador Homero Mafra, 60
+2025-05-22 01:28:28,189 - P17020 - INFO - Limpando texto extenso para campo address: Rua Desembargador Homero Mafra, 60...
+2025-05-22 01:28:28,189 - P17020 - INFO - Texto limpo: Rua Desembargador Homero Mafra, 60
+2025-05-22 01:28:28,189 - P17020 - INFO - Validando telefone: ['(27) 3222-2888', '(27) 2125-0250', '(27) 3198-3035']
+2025-05-22 01:28:28,189 - P17020 - INFO - Limpando texto extenso para campo phone: (27) 3222-2888...
+2025-05-22 01:28:28,189 - P17020 - INFO - Texto limpo: 27) 3222-2888
+2025-05-22 01:28:28,189 - P17020 - INFO - Telefone validado: 27) 3222-2888
+2025-05-22 01:28:28,189 - P17020 - INFO - Validando email: ['cfm@portalmedico.org.br', 'rospitz@hotmail.com', 'adjud@aempresarial.adv.br']
+2025-05-22 01:28:28,190 - P17020 - INFO - Limpando texto extenso para campo email: cfm@portalmedico.org.br...
+2025-05-22 01:28:28,190 - P17020 - INFO - Texto limpo: cfm@portalmedico.org.br
+2025-05-22 01:28:28,190 - P17020 - INFO - Email validado: cfm@portalmedico.org.br
+2025-05-22 01:28:28,190 - P17020 - INFO - Validando complemento: ['Conjunto D', 'Conjunto nº 06/2013.     \xa0\xa0\xa0 Por fim', 'Conjunto nº 06/2013.     \xa0\xa0 Em seguida']
+2025-05-22 01:28:28,190 - P17020 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 01:28:28,190 - P17020 - INFO - Texto limpo: Conjunto D
+2025-05-22 01:28:28,190 - P17020 - INFO - Complemento validado: Conjunto D
+2025-05-22 01:28:28,191 - P17020 - INFO - Descobrindo cidade
+2025-05-22 01:28:28,191 - P17020 - INFO - Buscando cidade: Rua Desembargador Homero Mafra cidade GO
+2025-05-22 01:28:30,698 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 01:28:30,698 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 01:28:30,698 - P17020 - INFO - Tempo de execução de processamento completo do médico: 67.29 segundos
+2025-05-22 01:28:30,699 - P17020 - INFO - Resultado processado: {'Hash': 'b1ab690009504eaacc4339c7fd825071344f2b674a787768ce7003d9d7552711', 'CRM': '19999', 'UF': 'GO', 'Firstname': 'ISABEL', 'LastName': 'MARIA ARAÚJO GUIMARÃES', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Desembargador Homero Mafra, 60', 'Address A1': 'Rua Desembargador Homero Mafra', 'Numero A1': '60', 'Complement A1': 'Conjunto D', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '27) 3222-2888', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cfm@portalmedico.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:28:30,699 - P17020 - INFO - Progresso: 3.3%
+2025-05-22 01:28:30,700 - P17020 - INFO - Tempo de execução de processamento do médico 2: 67.30 segundos
+2025-05-22 01:28:30,700 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 01:28:30,700 - P17020 - INFO - Nome: FELIPE GOMES SOUSA DA SILVA
+2025-05-22 01:28:30,700 - P17020 - INFO - Início do processamento Uso de memória: 76.50 MB
+2025-05-22 01:28:30,701 - P17020 - INFO - Iniciando busca para: FELIPE GOMES SOUSA DA SILVA CRM 10136 MA telefone e-mail endereço
+2025-05-22 01:28:31,159 - P17020 - INFO - SearX results: 10 URLs
+2025-05-22 01:28:31,159 - P17020 - INFO - Após SearX Uso de memória: 76.51 MB
+2025-05-22 01:28:33,731 - P17020 - INFO - Google results: 10 URLs
+2025-05-22 01:28:33,732 - P17020 - INFO - Após Google Uso de memória: 77.07 MB
+2025-05-22 01:28:36,270 - P17020 - INFO - Bing results: 9 URLs
+2025-05-22 01:28:36,270 - P17020 - INFO - Após Bing Uso de memória: 79.31 MB
+2025-05-22 01:28:36,270 - P17020 - INFO - Total de URLs únicas: 23
+2025-05-22 01:28:36,270 - P17020 - INFO - Processando URL 1/23: https://cliniguia.com/profissionais/felipe-gomes-sousa-da-silva-700800925645580/
+2025-05-22 01:28:41,546 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b34e69b63a9448d9269aa1169317f08b.html
+2025-05-22 01:28:41,587 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:28:41,587 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:28:41,587 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:28:41,587 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:28:41,587 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:28:41,588 - P17020 - INFO - Após processar URL 1 Uso de memória: 80.04 MB
+2025-05-22 01:28:41,588 - P17020 - INFO - Processando URL 2/23: https://crmvirtual.cfm.org.br/MA/servico/28---pesquisar-por-medico
+2025-05-22 01:28:43,819 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d4e00b779ce6733eb7e53960e04732e0.html
+2025-05-22 01:28:43,829 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:28:43,829 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:28:43,830 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 01:28:43,830 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:28:43,830 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:28:43,830 - P17020 - INFO - Após processar URL 2 Uso de memória: 80.28 MB
+2025-05-22 01:28:43,830 - P17020 - INFO - Processando URL 3/23: https://www.unimed.coop.br/documents/669471/0/GUIA+M%C3%89DICO+%282021%29/4e7c2096-8028-462a-9a21-e31e5e384805
+2025-05-22 01:28:45,963 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\bf6c255b5574c6e64a56adc251a59caa.html
+2025-05-22 01:28:45,964 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:28:45,964 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:28:45,964 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:28:45,964 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:28:45,964 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:28:45,964 - P17020 - INFO - Após processar URL 3 Uso de memória: 80.28 MB
+2025-05-22 01:28:45,965 - P17020 - INFO - Processando URL 4/23: https://portaltj.tjrj.jus.br/documents/10136/208811210/SITE-PLANILHA-DE-CADASTRO-PERITOS-ATE-04-10-2023.xlsx
+2025-05-22 01:28:45,965 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://portaltj.tjrj.jus.br/documents/10136/208811210/SITE-PLANILHA-DE-CADASTRO-PERITOS-ATE-04-10-2023.xlsx
+2025-05-22 01:28:45,965 - P17020 - INFO - Após processar URL 4 Uso de memória: 80.28 MB
+2025-05-22 01:28:45,965 - P17020 - INFO - Processando URL 5/23: https://dodf.df.gov.br/dodf/jornal/visualizar-pdf?pasta=2012%7C12_Dezembro%7CDODF%20244%2005-12-2012%7C&arquivo=DODF%20244%2005-12-2012%20SECAO3.pdf
+2025-05-22 01:28:45,965 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://dodf.df.gov.br/dodf/jornal/visualizar-pdf?pasta=2012%7C12_Dezembro%7CDODF%20244%2005-12-2012%7C&arquivo=DODF%20244%2005-12-2012%20SECAO3.pdf
+2025-05-22 01:28:45,965 - P17020 - INFO - Após processar URL 5 Uso de memória: 80.28 MB
+2025-05-22 01:28:45,966 - P17020 - INFO - Processando URL 6/23: https://consultacrm.com.br/
+2025-05-22 01:28:48,930 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:28:48,942 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:28:48,943 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:28:48,943 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:28:48,943 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:28:48,944 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:28:48,944 - P17020 - INFO - Após processar URL 6 Uso de memória: 82.23 MB
+2025-05-22 01:28:48,944 - P17020 - INFO - Processando URL 7/23: http://www.rio.rj.gov.br/documents/91325/7584086/manual_rede_medica_rioserv_top.pdf
+2025-05-22 01:28:48,944 - P17020 - INFO - Ignorando URL de arquivo não-HTML: http://www.rio.rj.gov.br/documents/91325/7584086/manual_rede_medica_rioserv_top.pdf
+2025-05-22 01:28:48,945 - P17020 - INFO - Após processar URL 7 Uso de memória: 82.23 MB
+2025-05-22 01:28:48,945 - P17020 - INFO - Processando URL 8/23: https://www.altafloresta.mt.gov.br/fotos_noticias_downloads/109.pdf
+2025-05-22 01:28:48,946 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.altafloresta.mt.gov.br/fotos_noticias_downloads/109.pdf
+2025-05-22 01:28:48,946 - P17020 - INFO - Após processar URL 8 Uso de memória: 82.23 MB
+2025-05-22 01:28:48,946 - P17020 - INFO - Processando URL 9/23: https://transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2025/DMPF-EXTRAJUDICIAL-2025-04-01.pdf
+2025-05-22 01:28:48,947 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2025/DMPF-EXTRAJUDICIAL-2025-04-01.pdf
+2025-05-22 01:28:48,948 - P17020 - INFO - Após processar URL 9 Uso de memória: 82.23 MB
+2025-05-22 01:28:48,949 - P17020 - INFO - Processando URL 10/23: https://www.casacaresc.org.br/guia/lista-rede-direta.php
+2025-05-22 01:28:52,658 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\64516240511215a825b2de94ca3ed950.html
+2025-05-22 01:28:54,489 - P17020 - INFO - Candidates address: 36 items
+2025-05-22 01:28:54,489 - P17020 - INFO - Candidates phone: 90 items
+2025-05-22 01:28:54,489 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 01:28:54,490 - P17020 - INFO - Candidates complement: 15 items
+2025-05-22 01:28:54,490 - P17020 - INFO - Candidates cep: 166 items
+2025-05-22 01:28:54,490 - P17020 - INFO - Após processar URL 10 Uso de memória: 82.00 MB
+2025-05-22 01:28:54,490 - P17020 - INFO - Processando URL 11/23: https://www.rondonopolis.mt.gov.br/media/docs/edicoes/2021/July/a06fa09e-ef98-4638-8167-07a2aa96aa28.pdf
+2025-05-22 01:28:54,490 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.rondonopolis.mt.gov.br/media/docs/edicoes/2021/July/a06fa09e-ef98-4638-8167-07a2aa96aa28.pdf
+2025-05-22 01:28:54,491 - P17020 - INFO - Após processar URL 11 Uso de memória: 80.81 MB
+2025-05-22 01:28:54,491 - P17020 - INFO - Processando URL 12/23: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/27249
+2025-05-22 01:28:56,652 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\645f72cf6a08a9cc0115664baed552b9.html
+2025-05-22 01:28:58,384 - P17020 - INFO - Candidates address: 36 items
+2025-05-22 01:28:58,385 - P17020 - INFO - Candidates phone: 90 items
+2025-05-22 01:28:58,385 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 01:28:58,385 - P17020 - INFO - Candidates complement: 15 items
+2025-05-22 01:28:58,385 - P17020 - INFO - Candidates cep: 166 items
+2025-05-22 01:28:58,385 - P17020 - INFO - Após processar URL 12 Uso de memória: 83.58 MB
+2025-05-22 01:28:58,386 - P17020 - INFO - Processando URL 13/23: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo696.pdf
+2025-05-22 01:28:58,386 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo696.pdf
+2025-05-22 01:28:58,386 - P17020 - INFO - Após processar URL 13 Uso de memória: 82.39 MB
+2025-05-22 01:28:58,386 - P17020 - INFO - Processando URL 14/23: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo569.pdf
+2025-05-22 01:28:58,386 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo569.pdf
+2025-05-22 01:28:58,386 - P17020 - INFO - Após processar URL 14 Uso de memória: 82.39 MB
+2025-05-22 01:28:58,386 - P17020 - INFO - Processando URL 15/23: https://crmvirtual.cfm.org.br/MA/servico/27---pesquisar-por-estabelecimento-de-saude
+2025-05-22 01:29:00,583 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\bb0fcb9ce5e0227617b41a407d1447b7.html
+2025-05-22 01:29:00,594 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:29:00,594 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:29:00,594 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 01:29:00,594 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:29:00,595 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:29:00,595 - P17020 - INFO - Após processar URL 15 Uso de memória: 82.44 MB
+2025-05-22 01:29:00,595 - P17020 - INFO - Processando URL 16/23: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2023/01/do_20230119_3650.pdf
+2025-05-22 01:29:00,595 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2023/01/do_20230119_3650.pdf
+2025-05-22 01:29:00,596 - P17020 - INFO - Após processar URL 16 Uso de memória: 82.44 MB
+2025-05-22 01:29:00,596 - P17020 - INFO - Processando URL 17/23: https://diario.tjrr.jus.br/dpj/dpj-20220726.pdf
+2025-05-22 01:29:00,596 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diario.tjrr.jus.br/dpj/dpj-20220726.pdf
+2025-05-22 01:29:00,597 - P17020 - INFO - Após processar URL 17 Uso de memória: 82.44 MB
+2025-05-22 01:29:00,597 - P17020 - INFO - Processando URL 18/23: https://crmma.org.br/busca-medicos
+2025-05-22 01:29:04,982 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\dc6d41f225059e32b35cbcafd8abd332.html
+2025-05-22 01:29:05,024 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:29:05,026 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:29:05,026 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:29:05,027 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:29:05,028 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:29:05,028 - P17020 - INFO - Após processar URL 18 Uso de memória: 83.69 MB
+2025-05-22 01:29:05,029 - P17020 - INFO - Processando URL 19/23: https://crmma.org.br/busca-por-estabelecimentos-de-saude
+2025-05-22 01:29:08,146 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\dc684cd0505baf9ab6ed6b1126a2ff9f.html
+2025-05-22 01:29:08,174 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:29:08,175 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:29:08,175 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:29:08,175 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:29:08,175 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:29:08,175 - P17020 - INFO - Após processar URL 19 Uso de memória: 80.11 MB
+2025-05-22 01:29:08,175 - P17020 - INFO - Processando URL 20/23: https://www.consultacrm.com.br/index/medicos/uid-9b08b95f-f5c5-11ec-9e74-0a4aa568c625/felipe_gomes_da_silva_neto
+2025-05-22 01:29:12,501 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\cf55bcc76084cf8260c51daa8999dbe2.html
+2025-05-22 01:29:12,513 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:29:12,513 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:29:12,514 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:29:12,514 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:29:12,514 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:29:12,514 - P17020 - INFO - Após processar URL 20 Uso de memória: 82.99 MB
+2025-05-22 01:29:12,514 - P17020 - INFO - Processando URL 21/23: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1506189977.pdf
+2025-05-22 01:29:12,515 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1506189977.pdf
+2025-05-22 01:29:12,515 - P17020 - INFO - Após processar URL 21 Uso de memória: 80.37 MB
+2025-05-22 01:29:12,516 - P17020 - INFO - Processando URL 22/23: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 01:29:15,562 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 01:29:15,606 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:29:15,606 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:29:15,606 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:29:15,606 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:29:15,607 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:29:15,607 - P17020 - INFO - Após processar URL 22 Uso de memória: 80.02 MB
+2025-05-22 01:29:15,607 - P17020 - INFO - Processando URL 23/23: https://www.boaconsulta.com/especialista/felipe-gomes-sousa-da-silva-61060f76a2e00a7ce10046c6
+2025-05-22 01:29:18,429 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3214196e5119f7d5d8809194ea3574dc.html
+2025-05-22 01:29:18,524 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:29:18,525 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:29:18,526 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:29:18,526 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:29:18,527 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:29:18,527 - P17020 - INFO - Após processar URL 23 Uso de memória: 80.52 MB
+2025-05-22 01:29:18,527 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:29:18,528 - P17020 - INFO - Ranked address: 36 items
+2025-05-22 01:29:18,528 - P17020 - INFO - Ranked phone: 90 items
+2025-05-22 01:29:18,529 - P17020 - INFO - Ranked email: 5 items
+2025-05-22 01:29:18,529 - P17020 - INFO - Ranked complement: 15 items
+2025-05-22 01:29:18,529 - P17020 - INFO - Ranked cep: 167 items
+2025-05-22 01:29:18,529 - P17020 - INFO - Após agregação Uso de memória: 80.52 MB
+2025-05-22 01:29:18,530 - P17020 - INFO - Validando endereço: ['Rua Dom Jaime Camara, 77', 'Rua Crispim Mira, 359', 'Rua Madalena Barbi, 125']
+2025-05-22 01:29:18,530 - P17020 - INFO - Endereço validado: Rua Dom Jaime Camara, 77
+2025-05-22 01:29:18,530 - P17020 - INFO - Limpando texto extenso para campo address: Rua Dom Jaime Camara, 77...
+2025-05-22 01:29:18,530 - P17020 - INFO - Texto limpo: Rua Dom Jaime Camara, 77
+2025-05-22 01:29:18,534 - P17020 - INFO - Validando telefone: ['(48) 99143-2816', '(48) 3241-0006', '(48) 98813-6191']
+2025-05-22 01:29:18,535 - P17020 - INFO - Limpando texto extenso para campo phone: (48) 99143-2816...
+2025-05-22 01:29:18,535 - P17020 - INFO - Texto limpo: 48) 99143-2816
+2025-05-22 01:29:18,536 - P17020 - INFO - Telefone validado: 48) 99143-2816
+2025-05-22 01:29:18,536 - P17020 - INFO - Validando email: ['ti@crmma.org.br', 'ouvidoria@casacaresc.org.br', 'dpo@casacaresc.org.br']
+2025-05-22 01:29:18,536 - P17020 - INFO - Limpando texto extenso para campo email: ti@crmma.org.br...
+2025-05-22 01:29:18,536 - P17020 - INFO - Texto limpo: ti@crmma.org.br
+2025-05-22 01:29:18,537 - P17020 - INFO - Email validado: ti@crmma.org.br
+2025-05-22 01:29:18,538 - P17020 - INFO - Validando complemento: ['Sala 211 Bairro: Centro Municipio: Biguacu - SC | CEP:', 'Sala 310" Bairro: Centro Municipio: Florianopolis - SC', 'Sala 212 Bairro: Centro Municipio: Florianopolis - SC ']
+2025-05-22 01:29:18,539 - P17020 - INFO - Limpando texto extenso para campo complement: Sala 211 Bairro: Centro Municipio: Biguacu - SC | ...
+2025-05-22 01:29:18,539 - P17020 - INFO - Texto limpo: Sala 211 Bairro: Centro Munici
+2025-05-22 01:29:18,539 - P17020 - INFO - Complemento validado: Sala 211 Bairro: Centro Munici
+2025-05-22 01:29:18,540 - P17020 - INFO - Descobrindo cidade
+2025-05-22 01:29:18,540 - P17020 - INFO - Buscando cidade: Rua Dom Jaime Camara cidade MA
+2025-05-22 01:29:20,784 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 01:29:20,784 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 01:29:20,784 - P17020 - INFO - Tempo de execução de processamento completo do médico: 50.08 segundos
+2025-05-22 01:29:20,784 - P17020 - INFO - Resultado processado: {'Hash': '5112de79cc6c43edf83bc8a86274d2badb9e6936acb0e3c5a2f81b570155af64', 'CRM': '10136', 'UF': 'MA', 'Firstname': 'FELIPE', 'LastName': 'GOMES SOUSA DA SILVA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Dom Jaime Camara, 77', 'Address A1': 'Rua Dom Jaime Camara', 'Numero A1': '77', 'Complement A1': 'Sala 211 Bairro: Centro Munici', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '48) 99143-2816', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'ti@crmma.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:29:20,785 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 01:29:20,785 - P17020 - INFO - Após salvar resultados Uso de memória: 78.55 MB
+2025-05-22 01:29:20,786 - P17020 - INFO - Progresso: 3.6%
+2025-05-22 01:29:20,786 - P17020 - INFO - Tempo de execução de processamento do médico 3: 50.09 segundos
+2025-05-22 01:29:20,786 - P17020 - INFO - Tempo de execução de processamento do lote completo: 174.64 segundos

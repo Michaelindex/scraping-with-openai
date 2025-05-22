@@ -1,0 +1,453 @@
+2025-05-22 05:42:45,870 - P17320 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 05:42:45,871 - P17320 - INFO - Nome: JOHN HENRIQUE ARAÚJO ALDEN
+2025-05-22 05:42:45,872 - P17320 - INFO - Reiniciando driver do Chrome
+2025-05-22 05:42:47,313 - P17320 - INFO - Após reiniciar driver Uso de memória: 129.52 MB
+2025-05-22 05:42:47,314 - P17320 - INFO - Início do processamento Uso de memória: 129.52 MB
+2025-05-22 05:42:47,314 - P17320 - INFO - Iniciando busca para: JOHN HENRIQUE ARAÚJO ALDEN CRM 25213 GO telefone e-mail endereço
+2025-05-22 05:42:48,084 - P17320 - INFO - SearX results: 11 URLs
+2025-05-22 05:42:48,084 - P17320 - INFO - Após SearX Uso de memória: 129.52 MB
+2025-05-22 05:42:50,623 - P17320 - INFO - Google results: 1 URLs
+2025-05-22 05:42:50,624 - P17320 - INFO - Após Google Uso de memória: 129.54 MB
+2025-05-22 05:42:53,144 - P17320 - INFO - Bing results: 8 URLs
+2025-05-22 05:42:53,144 - P17320 - INFO - Após Bing Uso de memória: 131.11 MB
+2025-05-22 05:42:53,144 - P17320 - INFO - Total de URLs únicas: 14
+2025-05-22 05:42:53,144 - P17320 - INFO - Processando URL 1/14: https://www.benditoguia.com.br/empresa/dr-john-alden-emagrecimento-setor-bougainville-anapolis-go
+2025-05-22 05:42:55,850 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ac73ba355701f8231949013e037427a5.html
+2025-05-22 05:42:55,869 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:42:55,870 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:42:55,870 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:42:55,870 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:42:55,870 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 05:42:55,870 - P17320 - INFO - Após processar URL 1 Uso de memória: 131.11 MB
+2025-05-22 05:42:55,871 - P17320 - INFO - Processando URL 2/14: https://www.medicosbrasil.com/profissional/john-henrique-araujo-alden
+2025-05-22 05:42:59,562 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\f506366ab14ad7aabce269ab11578abe.html
+2025-05-22 05:42:59,582 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:42:59,582 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:42:59,583 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:42:59,583 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:42:59,583 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:42:59,583 - P17320 - INFO - Após processar URL 2 Uso de memória: 131.15 MB
+2025-05-22 05:42:59,583 - P17320 - INFO - Processando URL 3/14: https://empresasweb.net/emp/john-alden-participacoes-e-administracao-de-bens-ltda-58874166
+2025-05-22 05:43:02,071 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d811570628b962ec87b26a3fa0c18d36.html
+2025-05-22 05:43:02,083 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:43:02,083 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:43:02,083 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:43:02,083 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 05:43:02,083 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:43:02,084 - P17320 - INFO - Após processar URL 3 Uso de memória: 131.15 MB
+2025-05-22 05:43:02,084 - P17320 - INFO - Processando URL 4/14: https://crmvirtual.cfm.org.br/GO/servico/busca-medico
+2025-05-22 05:43:04,943 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\3f7e1325196fca85b8ce10bf510cb018.html
+2025-05-22 05:43:04,953 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:43:04,953 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:43:04,953 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:43:04,954 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:43:04,954 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:43:04,954 - P17320 - INFO - Após processar URL 4 Uso de memória: 131.15 MB
+2025-05-22 05:43:04,955 - P17320 - INFO - Processando URL 5/14: https://www.igepps.pa.gov.br/sites/default/files/2023-01/2023.04.04.DOE.pdf
+2025-05-22 05:43:04,955 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.igepps.pa.gov.br/sites/default/files/2023-01/2023.04.04.DOE.pdf
+2025-05-22 05:43:04,956 - P17320 - INFO - Após processar URL 5 Uso de memória: 131.15 MB
+2025-05-22 05:43:04,956 - P17320 - INFO - Processando URL 6/14: https://www.cremego.org.br/busca-medicos
+2025-05-22 05:43:09,114 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\64b30c50732f49698d296cdb94b34f40.html
+2025-05-22 05:43:09,154 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:43:09,155 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:43:09,155 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:43:09,155 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:43:09,155 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:43:09,155 - P17320 - INFO - Após processar URL 6 Uso de memória: 131.15 MB
+2025-05-22 05:43:09,156 - P17320 - INFO - Processando URL 7/14: https://www.ioepa.com.br/pages/2023/2023.04.04.DOE.pdf
+2025-05-22 05:43:09,156 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2023/2023.04.04.DOE.pdf
+2025-05-22 05:43:09,156 - P17320 - INFO - Após processar URL 7 Uso de memória: 131.15 MB
+2025-05-22 05:43:09,156 - P17320 - INFO - Processando URL 8/14: https://www.doctoralia.com.br/medico-clinico-geral/anapolis/centro856
+2025-05-22 05:43:09,156 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/medico-clinico-geral/anapolis/centro856
+2025-05-22 05:43:09,156 - P17320 - INFO - Após processar URL 8 Uso de memória: 131.15 MB
+2025-05-22 05:43:09,157 - P17320 - INFO - Processando URL 9/14: https://www.solutudo.com.br/empresas/go/anapolis/medicos/dr-john-alden-nutrologia-22518422
+2025-05-22 05:43:14,486 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\951d2f422943895205fa7d55d6b778f0.html
+2025-05-22 05:43:14,527 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:43:14,528 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:43:14,528 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:43:14,528 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:43:14,528 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 05:43:14,529 - P17320 - INFO - Após processar URL 9 Uso de memória: 131.15 MB
+2025-05-22 05:43:14,529 - P17320 - INFO - Processando URL 10/14: https://www.benditoguia.com.br/empresa/dr-john-alden-nutrologia-jundiai-anapolis-go
+2025-05-22 05:43:17,333 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\67018414cbede2321141ae26ddd76eb2.html
+2025-05-22 05:43:17,370 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:43:17,370 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:43:17,370 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:43:17,371 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:43:17,371 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 05:43:17,371 - P17320 - INFO - Após processar URL 10 Uso de memória: 131.15 MB
+2025-05-22 05:43:17,371 - P17320 - INFO - Processando URL 11/14: https://www.escavador.com/sobre/8379236/john-henrique-araujo-alden
+2025-05-22 05:43:21,374 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\083ee307ba8ffba923a4a2a865a2c514.html
+2025-05-22 05:43:21,393 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:43:21,394 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:43:21,394 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:43:21,394 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:43:21,394 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:43:21,394 - P17320 - INFO - Após processar URL 11 Uso de memória: 131.15 MB
+2025-05-22 05:43:21,394 - P17320 - INFO - Processando URL 12/14: https://consultacrm.com.br/
+2025-05-22 05:43:25,464 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:43:25,475 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:43:25,476 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:43:25,476 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:43:25,476 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:43:25,476 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:43:25,476 - P17320 - INFO - Após processar URL 12 Uso de memória: 131.31 MB
+2025-05-22 05:43:25,476 - P17320 - INFO - Processando URL 13/14: https://ioepa.com.br/pages/2023/2023.04.04.DOE.pdf
+2025-05-22 05:43:25,477 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://ioepa.com.br/pages/2023/2023.04.04.DOE.pdf
+2025-05-22 05:43:25,477 - P17320 - INFO - Após processar URL 13 Uso de memória: 131.31 MB
+2025-05-22 05:43:25,477 - P17320 - INFO - Processando URL 14/14: https://www.doctoralia.com.br/john-alden/medico-clinico-geral-nutrologo/anapolis
+2025-05-22 05:43:25,477 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/john-alden/medico-clinico-geral-nutrologo/anapolis
+2025-05-22 05:43:25,477 - P17320 - INFO - Após processar URL 14 Uso de memória: 131.31 MB
+2025-05-22 05:43:25,477 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:43:25,478 - P17320 - INFO - Ranked address: 1 items
+2025-05-22 05:43:25,478 - P17320 - INFO - Ranked phone: 4 items
+2025-05-22 05:43:25,478 - P17320 - INFO - Ranked email: 3 items
+2025-05-22 05:43:25,478 - P17320 - INFO - Ranked complement: 1 items
+2025-05-22 05:43:25,478 - P17320 - INFO - Ranked cep: 6 items
+2025-05-22 05:43:25,478 - P17320 - INFO - Após agregação Uso de memória: 131.31 MB
+2025-05-22 05:43:25,479 - P17320 - INFO - Validando endereço: ['R. Dr. Bernardo Sayão, 212']
+2025-05-22 05:43:25,479 - P17320 - INFO - Endereço validado: R. Dr. Bernardo Sayão, 212
+2025-05-22 05:43:25,479 - P17320 - INFO - Limpando texto extenso para campo address: R. Dr. Bernardo Sayão, 212...
+2025-05-22 05:43:25,479 - P17320 - INFO - Texto limpo: R. Dr. Bernardo Sayão, 212
+2025-05-22 05:43:25,479 - P17320 - INFO - Validando telefone: ['+55 62 99279-8766', '+556293441216', '(62) 99279-8766']
+2025-05-22 05:43:25,479 - P17320 - INFO - Limpando texto extenso para campo phone: (62) 99279-8766...
+2025-05-22 05:43:25,479 - P17320 - INFO - Texto limpo: 62) 99279-8766
+2025-05-22 05:43:25,480 - P17320 - INFO - Telefone validado: 62) 99279-8766
+2025-05-22 05:43:25,480 - P17320 - INFO - Validando email: ['DRJOHNALDEN@GMAIL.COM', 'secretaria@cremego.org.br', 'cremego@cremego.org.br']
+2025-05-22 05:43:25,480 - P17320 - INFO - Limpando texto extenso para campo email: DRJOHNALDEN@GMAIL.COM...
+2025-05-22 05:43:25,480 - P17320 - INFO - Texto limpo: drjohnalden@gmail.com
+2025-05-22 05:43:25,480 - P17320 - INFO - Email validado: drjohnalden@gmail.com
+2025-05-22 05:43:25,480 - P17320 - INFO - Validando complemento: ['Apt 2003 Bloco 1']
+2025-05-22 05:43:25,481 - P17320 - INFO - Limpando texto extenso para campo complement: Apt 2003 Bloco 1...
+2025-05-22 05:43:25,481 - P17320 - INFO - Texto limpo: Apt 2003 Bloco 1
+2025-05-22 05:43:25,481 - P17320 - INFO - Complemento validado: Apt 2003 Bloco 1
+2025-05-22 05:43:25,481 - P17320 - INFO - Descobrindo cidade
+2025-05-22 05:43:25,481 - P17320 - INFO - Buscando cidade: R. Dr. Bernardo Sayão cidade GO
+2025-05-22 05:43:28,099 - P17320 - INFO - Cidade encontrada: Anápolis
+2025-05-22 05:43:28,100 - P17320 - INFO - Limpando texto extenso para campo city: Anápolis...
+2025-05-22 05:43:28,101 - P17320 - INFO - Texto limpo: Anápolis
+2025-05-22 05:43:28,102 - P17320 - INFO - Cidade descoberta: Anápolis
+2025-05-22 05:43:28,105 - P17320 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 05:43:28,107 - P17320 - INFO - Iniciando busca de CEP em cascata para: R. Dr. Bernardo Sayão, Anápolis, GO
+2025-05-22 05:43:28,107 - P17320 - INFO - Método 1: ViaCEP API
+2025-05-22 05:43:28,110 - P17320 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/GO/anapolis/rua%20dr%20bernardo%20sayao/json/
+2025-05-22 05:43:28,786 - P17320 - WARNING - ViaCEP retornou status 200 ou nenhum resultado
+2025-05-22 05:43:28,787 - P17320 - INFO - Método 2: BrasilAPI
+2025-05-22 05:43:28,787 - P17320 - INFO - Buscando na BrasilAPI: R. Dr. Bernardo Sayão, Anápolis, GO
+2025-05-22 05:43:29,268 - P17320 - INFO - Consultando BrasilAPI: https://brasilapi.com.br/api/cep/v2/53581382
+2025-05-22 05:43:29,554 - P17320 - WARNING - BrasilAPI retornou status 404
+2025-05-22 05:43:29,557 - P17320 - INFO - Método 3: Web Scraping do Google
+2025-05-22 05:43:29,557 - P17320 - INFO - Buscando CEP: CEP da R. Dr. Bernardo Sayão, Anápolis
+2025-05-22 05:43:31,316 - P17320 - INFO - CEP encontrado: 75074-750
+2025-05-22 05:43:31,316 - P17320 - INFO - CEP encontrado via Google: 75074-750
+2025-05-22 05:43:31,316 - P17320 - INFO - Dados de CEP encontrados: {'cep': '75074-750', 'logradouro': 'R. Dr. Bernardo Sayão', 'bairro': '', 'localidade': 'Anápolis', 'uf': 'GO', 'complemento': ''}
+2025-05-22 05:43:31,316 - P17320 - INFO - Limpando texto extenso para campo city: Anápolis...
+2025-05-22 05:43:31,316 - P17320 - INFO - Texto limpo: Anápolis
+2025-05-22 05:43:31,317 - P17320 - INFO - Limpando texto extenso para campo state: GO...
+2025-05-22 05:43:31,317 - P17320 - INFO - Texto limpo: GO
+2025-05-22 05:43:31,317 - P17320 - INFO - Tempo de execução de processamento completo do médico: 44.00 segundos
+2025-05-22 05:43:31,317 - P17320 - INFO - Resultado processado: {'Hash': '7ce641fb8c80d997a5e354b5fde4228ab9cca6419c265556c47ec7e8e641a93f', 'CRM': '25213', 'UF': 'GO', 'Firstname': 'JOHN', 'LastName': 'HENRIQUE ARAÚJO ALDEN', 'Medical specialty': '', 'Endereco Completo A1': 'R. Dr. Bernardo Sayão, 212', 'Address A1': 'R. Dr. Bernardo Sayão', 'Numero A1': '212', 'Complement A1': 'Apt 2003 Bloco 1', 'Bairro A1': '', 'postal code A1': '75074-750', 'City A1': 'Anápolis', 'State A1': 'GO', 'Phone A1': '62) 99279-8766', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'drjohnalden@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:43:31,318 - P17320 - INFO - Progresso: 95.6%
+2025-05-22 05:43:31,319 - P17320 - INFO - Executando coleta de lixo
+2025-05-22 05:43:31,379 - P17320 - INFO - Após coleta de lixo Uso de memória: 120.94 MB
+2025-05-22 05:43:31,379 - P17320 - INFO - Tempo de execução de processamento do médico 1: 45.51 segundos
+2025-05-22 05:43:31,380 - P17320 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 05:43:31,380 - P17320 - INFO - Nome: KAIZA MARRA FERREIRA
+2025-05-22 05:43:31,380 - P17320 - INFO - Início do processamento Uso de memória: 120.94 MB
+2025-05-22 05:43:31,380 - P17320 - INFO - Iniciando busca para: KAIZA MARRA FERREIRA CRM 29708 GO telefone e-mail endereço
+2025-05-22 05:43:32,222 - P17320 - INFO - SearX results: 13 URLs
+2025-05-22 05:43:32,222 - P17320 - INFO - Após SearX Uso de memória: 120.94 MB
+2025-05-22 05:43:34,864 - P17320 - INFO - Google results: 8 URLs
+2025-05-22 05:43:34,864 - P17320 - INFO - Após Google Uso de memória: 124.61 MB
+2025-05-22 05:43:37,329 - P17320 - INFO - Bing results: 9 URLs
+2025-05-22 05:43:37,330 - P17320 - INFO - Após Bing Uso de memória: 126.89 MB
+2025-05-22 05:43:37,330 - P17320 - INFO - Total de URLs únicas: 17
+2025-05-22 05:43:37,330 - P17320 - INFO - Processando URL 1/17: https://www.sinj.df.gov.br/sinj/Diario/807bb228-6d28-36b6-b7dd-892287fe6c28/DODF%20088%2013-05-2019%20INTEGRA.pdf
+2025-05-22 05:43:37,330 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.sinj.df.gov.br/sinj/Diario/807bb228-6d28-36b6-b7dd-892287fe6c28/DODF%20088%2013-05-2019%20INTEGRA.pdf
+2025-05-22 05:43:37,330 - P17320 - INFO - Após processar URL 1 Uso de memória: 126.89 MB
+2025-05-22 05:43:37,330 - P17320 - INFO - Processando URL 2/17: https://pt.scribd.com/document/725082524/DODF-075-19-04-2024-INTEGRA
+2025-05-22 05:43:42,057 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\407799ec0898ef7702fc58b714dd394c.html
+2025-05-22 05:43:42,352 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 05:43:42,353 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:43:42,353 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:43:42,353 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 05:43:42,353 - P17320 - INFO - Candidates cep: 26 items
+2025-05-22 05:43:42,354 - P17320 - INFO - Após processar URL 2 Uso de memória: 131.96 MB
+2025-05-22 05:43:42,354 - P17320 - INFO - Processando URL 3/17: https://empresadois.com.br/cnpj/kaiza-marra-nutrologia-ltda-46534914000133
+2025-05-22 05:43:47,210 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\33de248b5028389e8feae93c08d044d2.html
+2025-05-22 05:43:47,230 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:43:47,231 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:43:47,231 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:43:47,231 - P17320 - INFO - Candidates complement: 2 items
+2025-05-22 05:43:47,231 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 05:43:47,231 - P17320 - INFO - Após processar URL 3 Uso de memória: 128.78 MB
+2025-05-22 05:43:47,232 - P17320 - INFO - Processando URL 4/17: https://www.drakaizamarra.com/
+2025-05-22 05:43:51,960 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\6e5839d678768dbae0ff5805c4406e51.html
+2025-05-22 05:43:51,996 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 05:43:51,997 - P17320 - INFO - Candidates phone: 3 items
+2025-05-22 05:43:51,997 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:43:51,997 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:43:51,997 - P17320 - INFO - Candidates cep: 5 items
+2025-05-22 05:43:51,997 - P17320 - INFO - Após processar URL 4 Uso de memória: 129.16 MB
+2025-05-22 05:43:51,997 - P17320 - INFO - Processando URL 5/17: https://www.somospopular.com.br/especialistas/dra-kaiza-marra-ferreira-nutrologo-em-go/
+2025-05-22 05:43:56,298 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\0ea29a96257e3bc7cc7212af0a0af771.html
+2025-05-22 05:43:56,302 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:43:56,303 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:43:56,303 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:43:56,303 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:43:56,303 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:43:56,303 - P17320 - INFO - Após processar URL 5 Uso de memória: 129.54 MB
+2025-05-22 05:43:56,303 - P17320 - INFO - Processando URL 6/17: https://cadastroempresa.com.br/fornecedor/kaiza-marra-nutrologia-ltda-46534914000133
+2025-05-22 05:43:59,055 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ea1b354bbc5b32a4b558e7d9f2e5344f.html
+2025-05-22 05:43:59,079 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:43:59,079 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:43:59,079 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:43:59,079 - P17320 - INFO - Candidates complement: 3 items
+2025-05-22 05:43:59,079 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 05:43:59,080 - P17320 - INFO - Após processar URL 6 Uso de memória: 129.64 MB
+2025-05-22 05:43:59,080 - P17320 - INFO - Processando URL 7/17: https://www.conveniosocial.com.br/especialistas/nutrologo-em-goiania-go-dra-kaiza-marra-ferreira/
+2025-05-22 05:44:03,988 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\581c48a3d3d12be11d4b0a87457800a6.html
+2025-05-22 05:44:04,004 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:44:04,005 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:44:04,006 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:44:04,006 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:44:04,006 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:44:04,007 - P17320 - INFO - Após processar URL 7 Uso de memória: 130.13 MB
+2025-05-22 05:44:04,007 - P17320 - INFO - Processando URL 8/17: https://cnpj.services/46534914000133/kaiza-marra-nutrologia-ltda
+2025-05-22 05:44:07,011 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\746d3c517736faa12ff3865a8e2cde8f.html
+2025-05-22 05:44:07,021 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:44:07,021 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:44:07,022 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:44:07,022 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:44:07,022 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 05:44:07,022 - P17320 - INFO - Após processar URL 8 Uso de memória: 130.34 MB
+2025-05-22 05:44:07,022 - P17320 - INFO - Processando URL 9/17: https://www.consultasocio.com/q/sa/kaiza-marra-ferreira
+2025-05-22 05:44:11,993 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\6c66570ba091ddabd940695c5563a14c.html
+2025-05-22 05:44:12,000 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:44:12,000 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:44:12,000 - P17320 - INFO - Candidates email: 2 items
+2025-05-22 05:44:12,000 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 05:44:12,001 - P17320 - INFO - Candidates cep: 4 items
+2025-05-22 05:44:12,001 - P17320 - INFO - Após processar URL 9 Uso de memória: 130.41 MB
+2025-05-22 05:44:12,001 - P17320 - INFO - Processando URL 10/17: https://www.econodata.com.br/consulta-empresa/46534914000133-KAIZA-MARRA-NUTROLOGIA-LTDA
+2025-05-22 05:44:15,926 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\6ad95a9b9ed65c85e62d47a02d46d16e.html
+2025-05-22 05:44:16,065 - P17320 - INFO - Candidates address: 14 items
+2025-05-22 05:44:16,066 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:44:16,066 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:44:16,066 - P17320 - INFO - Candidates complement: 2 items
+2025-05-22 05:44:16,066 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:44:16,066 - P17320 - INFO - Após processar URL 10 Uso de memória: 132.22 MB
+2025-05-22 05:44:16,066 - P17320 - INFO - Processando URL 11/17: https://cnpj.biz/46534914000133
+2025-05-22 05:44:18,618 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\02ed2bd0caa9f737884ccf6a0e1fab08.html
+2025-05-22 05:44:18,633 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:44:18,633 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:44:18,634 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:44:18,634 - P17320 - INFO - Candidates complement: 3 items
+2025-05-22 05:44:18,634 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 05:44:18,634 - P17320 - INFO - Após processar URL 11 Uso de memória: 131.46 MB
+2025-05-22 05:44:18,634 - P17320 - INFO - Processando URL 12/17: https://empresasweb.net/emp/kaiza-marra-nutrologia-ltda-46534914
+2025-05-22 05:44:21,639 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\f93a0628c771b2a9f555e215f7575197.html
+2025-05-22 05:44:21,651 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:44:21,651 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:44:21,652 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:44:21,652 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 05:44:21,652 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:44:21,652 - P17320 - INFO - Após processar URL 12 Uso de memória: 131.46 MB
+2025-05-22 05:44:21,652 - P17320 - INFO - Processando URL 13/17: https://www.jornalminasgerais.mg.gov.br/modulos/www.jornalminasgerais.mg.gov.br//diarioOficial/2023/06/03/jornal/caderno1_2023-06-03.pdf
+2025-05-22 05:44:21,653 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.jornalminasgerais.mg.gov.br/modulos/www.jornalminasgerais.mg.gov.br//diarioOficial/2023/06/03/jornal/caderno1_2023-06-03.pdf
+2025-05-22 05:44:21,653 - P17320 - INFO - Após processar URL 13 Uso de memória: 131.46 MB
+2025-05-22 05:44:21,653 - P17320 - INFO - Processando URL 14/17: https://melhores.com/nutrologo/goiania/kaiza-marra-ferreira
+2025-05-22 05:44:24,632 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e9561deb39fdb344a5b92413f0c7a18f.html
+2025-05-22 05:44:24,635 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:44:24,635 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:44:24,635 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:44:24,635 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:44:24,635 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:44:24,635 - P17320 - INFO - Após processar URL 14 Uso de memória: 131.47 MB
+2025-05-22 05:44:24,636 - P17320 - INFO - Processando URL 15/17: https://revistas.inpi.gov.br/pdf/marcas2029.pdf
+2025-05-22 05:44:24,636 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://revistas.inpi.gov.br/pdf/marcas2029.pdf
+2025-05-22 05:44:24,637 - P17320 - INFO - Após processar URL 15 Uso de memória: 131.47 MB
+2025-05-22 05:44:24,637 - P17320 - INFO - Processando URL 16/17: https://www.sinj.df.gov.br/sinj/Diario/99ee7787-f092-3441-85d5-a79c6f47a93c/DODF%20184%2025-09-2017%20INTEGRA.pdf
+2025-05-22 05:44:24,637 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.sinj.df.gov.br/sinj/Diario/99ee7787-f092-3441-85d5-a79c6f47a93c/DODF%20184%2025-09-2017%20INTEGRA.pdf
+2025-05-22 05:44:24,637 - P17320 - INFO - Após processar URL 16 Uso de memória: 131.47 MB
+2025-05-22 05:44:24,638 - P17320 - INFO - Processando URL 17/17: https://www.doctoralia.com.br/kaiza-marra-ferreira/nutrologo-cirurgiao-vascular-cirurgiao-geral/patrocinio
+2025-05-22 05:44:24,638 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/kaiza-marra-ferreira/nutrologo-cirurgiao-vascular-cirurgiao-geral/patrocinio
+2025-05-22 05:44:24,638 - P17320 - INFO - Após processar URL 17 Uso de memória: 131.47 MB
+2025-05-22 05:44:24,638 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:44:24,639 - P17320 - INFO - Ranked address: 20 items
+2025-05-22 05:44:24,639 - P17320 - INFO - Ranked phone: 6 items
+2025-05-22 05:44:24,639 - P17320 - INFO - Ranked email: 3 items
+2025-05-22 05:44:24,639 - P17320 - INFO - Ranked complement: 12 items
+2025-05-22 05:44:24,639 - P17320 - INFO - Ranked cep: 36 items
+2025-05-22 05:44:24,640 - P17320 - INFO - Após agregação Uso de memória: 131.47 MB
+2025-05-22 05:44:24,640 - P17320 - INFO - Validando endereço: ['Estradas 3-3 PDF Ainda não há avaliações #200794-PAV I - AULA 05', 'Estradas 3-3 54 páginas Processos e Produção de Serviços-2', 'Avenida Portugal 869 74140']
+2025-05-22 05:44:24,640 - P17320 - INFO - Endereço validado: Estradas 3-3 PDF Ainda não há avaliações #200794-PAV I - AULA 05
+2025-05-22 05:44:24,640 - P17320 - INFO - Limpando texto extenso para campo address: Estradas 3-3 PDF Ainda não há avaliações #200794-P...
+2025-05-22 05:44:24,640 - P17320 - INFO - Texto limpo: Estradas 3-3 PDF Ainda não há avaliações #200794-PAV I - AULA 05
+2025-05-22 05:44:24,640 - P17320 - INFO - Validando telefone: ['(62) 9999-9999', '(62) 99999-9999', '+55 62 98275-4723']
+2025-05-22 05:44:24,641 - P17320 - INFO - Limpando texto extenso para campo phone: (62) 9999-9999...
+2025-05-22 05:44:24,641 - P17320 - INFO - Texto limpo: 62) 9999-9999
+2025-05-22 05:44:24,641 - P17320 - INFO - Telefone validado: 62) 9999-9999
+2025-05-22 05:44:24,641 - P17320 - INFO - Validando email: ['contato@gmail.com', 'CONTATO@GMAIL.COM', 'CONTATO@CONTABILIDADEVISAO.NET']
+2025-05-22 05:44:24,641 - P17320 - INFO - Limpando texto extenso para campo email: contato@gmail.com...
+2025-05-22 05:44:24,641 - P17320 - INFO - Texto limpo: contato@gmail.com
+2025-05-22 05:44:24,641 - P17320 - INFO - Email validado: contato@gmail.com
+2025-05-22 05:44:24,642 - P17320 - INFO - Validando complemento: ['Apt   02  Set Bela Vista  Goiânia GO  74823-415      ', 'Sala 102', 'Apt   02 Set Bela Vista ']
+2025-05-22 05:44:24,642 - P17320 - INFO - Limpando texto extenso para campo complement: Apt   02  Set Bela Vista  Goiânia GO  74823-415   ...
+2025-05-22 05:44:24,642 - P17320 - INFO - Texto limpo: Apt 02 Set Bela Vista Goiâ
+2025-05-22 05:44:24,642 - P17320 - INFO - Complemento validado: Apt 02 Set Bela Vista Goiâ
+2025-05-22 05:44:24,642 - P17320 - INFO - Descobrindo cidade
+2025-05-22 05:44:24,642 - P17320 - INFO - Buscando cidade: Estradas 3-3 PDF Ainda não há avaliações #200794-PAV I - AULA 05 cidade GO
+2025-05-22 05:44:27,006 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 05:44:27,007 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 05:44:27,007 - P17320 - INFO - Tempo de execução de processamento completo do médico: 55.63 segundos
+2025-05-22 05:44:27,007 - P17320 - INFO - Resultado processado: {'Hash': '6e0872c7403c57d4dafaf0a12c9108ee20ee8a75075bf22fbe786aa70bb0cc8a', 'CRM': '29708', 'UF': 'GO', 'Firstname': 'KAIZA', 'LastName': 'MARRA FERREIRA', 'Medical specialty': '', 'Endereco Completo A1': 'Estradas 3-3 PDF Ainda não há avaliações #200794-PAV I - AULA 05', 'Address A1': 'Estradas 3-3 PDF Ainda não há avaliações #200794-PAV I - AULA 05', 'Numero A1': '', 'Complement A1': 'Apt 02 Set Bela Vista Goiâ', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '62) 9999-9999', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'contato@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:44:27,008 - P17320 - INFO - Progresso: 95.8%
+2025-05-22 05:44:27,008 - P17320 - INFO - Tempo de execução de processamento do médico 2: 55.63 segundos
+2025-05-22 05:44:27,008 - P17320 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 05:44:27,009 - P17320 - INFO - Nome: RAFAELA DIAS CABRAL
+2025-05-22 05:44:27,009 - P17320 - INFO - Início do processamento Uso de memória: 129.34 MB
+2025-05-22 05:44:27,009 - P17320 - INFO - Iniciando busca para: RAFAELA DIAS CABRAL CRM 53223 MG telefone e-mail endereço
+2025-05-22 05:44:27,847 - P17320 - INFO - SearX results: 13 URLs
+2025-05-22 05:44:27,848 - P17320 - INFO - Após SearX Uso de memória: 129.34 MB
+2025-05-22 05:44:30,631 - P17320 - INFO - Google results: 5 URLs
+2025-05-22 05:44:30,631 - P17320 - INFO - Após Google Uso de memória: 131.41 MB
+2025-05-22 05:44:33,060 - P17320 - INFO - Bing results: 8 URLs
+2025-05-22 05:44:33,060 - P17320 - INFO - Após Bing Uso de memória: 132.12 MB
+2025-05-22 05:44:33,060 - P17320 - INFO - Total de URLs únicas: 16
+2025-05-22 05:44:33,061 - P17320 - INFO - Processando URL 1/16: https://www.infosaude.com.br/cnes/94583-rafaela-dias-cabral
+2025-05-22 05:44:35,580 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\4c95724f36229044e235ff4b5b7e6f4a.html
+2025-05-22 05:44:35,618 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:44:35,630 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 05:44:35,630 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:44:35,631 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:44:35,631 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 05:44:35,632 - P17320 - INFO - Após processar URL 1 Uso de memória: 132.40 MB
+2025-05-22 05:44:35,633 - P17320 - INFO - Processando URL 2/16: https://cliniguia.com/unidades/varginha-mg/rafaela-dias-cabral-9871810/
+2025-05-22 05:44:41,119 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\c0639fa1d12d2381a40461561b42e6b5.html
+2025-05-22 05:44:41,166 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:44:41,167 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:44:41,168 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:44:41,168 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:44:41,169 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 05:44:41,169 - P17320 - INFO - Após processar URL 2 Uso de memória: 133.57 MB
+2025-05-22 05:44:41,170 - P17320 - INFO - Processando URL 3/16: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/61225/Caderno_JUD_MG_2015-10-09_VII_191.pdf?sequence=2&isAllowed=y
+2025-05-22 05:44:41,170 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/61225/Caderno_JUD_MG_2015-10-09_VII_191.pdf?sequence=2&isAllowed=y
+2025-05-22 05:44:41,171 - P17320 - INFO - Após processar URL 3 Uso de memória: 132.47 MB
+2025-05-22 05:44:41,171 - P17320 - INFO - Processando URL 4/16: https://www.medicosbrasil.com/profissional/rafaela-dias-cabral
+2025-05-22 05:44:43,361 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\4933615eaabe8bd2c73164978b8feaea.html
+2025-05-22 05:44:43,363 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:44:43,363 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:44:43,363 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:44:43,363 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:44:43,363 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:44:43,363 - P17320 - INFO - Após processar URL 4 Uso de memória: 132.47 MB
+2025-05-22 05:44:43,363 - P17320 - INFO - Processando URL 5/16: https://www3.tjma.jus.br/diario/diarios/2021/diario_29092021_113110_175.pdf
+2025-05-22 05:44:43,364 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www3.tjma.jus.br/diario/diarios/2021/diario_29092021_113110_175.pdf
+2025-05-22 05:44:43,364 - P17320 - INFO - Após processar URL 5 Uso de memória: 132.47 MB
+2025-05-22 05:44:43,364 - P17320 - INFO - Processando URL 6/16: https://www.somospopular.com.br/consultorios-e-clinicas/rafaela-dias-cabral-varginha-mg/
+2025-05-22 05:44:47,742 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\4f6d6a9c115de72822de9a99824e00a5.html
+2025-05-22 05:44:47,746 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 05:44:47,746 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:44:47,746 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:44:47,747 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:44:47,747 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:44:47,747 - P17320 - INFO - Após processar URL 6 Uso de memória: 132.48 MB
+2025-05-22 05:44:47,747 - P17320 - INFO - Processando URL 7/16: https://www.ioepa.com.br/pages/2009/2009.05.15.DOE.pdf
+2025-05-22 05:44:47,747 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2009/2009.05.15.DOE.pdf
+2025-05-22 05:44:47,748 - P17320 - INFO - Após processar URL 7 Uso de memória: 132.48 MB
+2025-05-22 05:44:47,748 - P17320 - INFO - Processando URL 8/16: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1873286451.pdf
+2025-05-22 05:44:47,748 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1873286451.pdf
+2025-05-22 05:44:47,748 - P17320 - INFO - Após processar URL 8 Uso de memória: 132.48 MB
+2025-05-22 05:44:47,748 - P17320 - INFO - Processando URL 9/16: https://diario.carapicuiba.sp.gov.br/uploads/diario_oficial/341/Ld0YfZKQTQcIHekc0Iy2tCWCEqeQS-jk.pdf
+2025-05-22 05:44:47,748 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diario.carapicuiba.sp.gov.br/uploads/diario_oficial/341/Ld0YfZKQTQcIHekc0Iy2tCWCEqeQS-jk.pdf
+2025-05-22 05:44:47,749 - P17320 - INFO - Após processar URL 9 Uso de memória: 132.48 MB
+2025-05-22 05:44:47,749 - P17320 - INFO - Processando URL 10/16: https://www.doctoralia.com.br/rafaela-dias-cabral/medico-de-familia/varginha
+2025-05-22 05:44:47,749 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/rafaela-dias-cabral/medico-de-familia/varginha
+2025-05-22 05:44:47,749 - P17320 - INFO - Após processar URL 10 Uso de memória: 132.48 MB
+2025-05-22 05:44:47,750 - P17320 - INFO - Processando URL 11/16: http://www.diariooficial.pi.gov.br/diario/202110/DIARIO20_93455c9c41.pdf
+2025-05-22 05:44:47,750 - P17320 - INFO - Ignorando URL de arquivo não-HTML: http://www.diariooficial.pi.gov.br/diario/202110/DIARIO20_93455c9c41.pdf
+2025-05-22 05:44:47,750 - P17320 - INFO - Após processar URL 11 Uso de memória: 132.48 MB
+2025-05-22 05:44:47,750 - P17320 - INFO - Processando URL 12/16: https://www.boaconsulta.com/especialista/rafaela-dias-cabral-6105e334ba32c33d6800045e
+2025-05-22 05:44:51,158 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\b051f43d37ff9c1ea89e330c95d7becd.html
+2025-05-22 05:44:51,223 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:44:51,223 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:44:51,223 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:44:51,223 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:44:51,224 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 05:44:51,224 - P17320 - INFO - Após processar URL 12 Uso de memória: 132.52 MB
+2025-05-22 05:44:51,224 - P17320 - INFO - Processando URL 13/16: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/160612/Caderno_JUD_MG_2016-09-16_VIII_174.pdf?sequence=3&isAllowed=y
+2025-05-22 05:44:51,224 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/160612/Caderno_JUD_MG_2016-09-16_VIII_174.pdf?sequence=3&isAllowed=y
+2025-05-22 05:44:51,224 - P17320 - INFO - Após processar URL 13 Uso de memória: 132.52 MB
+2025-05-22 05:44:51,224 - P17320 - INFO - Processando URL 14/16: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo592.pdf
+2025-05-22 05:44:51,224 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo592.pdf
+2025-05-22 05:44:51,225 - P17320 - INFO - Após processar URL 14 Uso de memória: 132.52 MB
+2025-05-22 05:44:51,225 - P17320 - INFO - Processando URL 15/16: https://clinica.work/especialista/rafaela-dias-cabral-medicina-de-familia-e-comunidade-varginha-mg
+2025-05-22 05:44:55,102 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\83e098c5ddb2765e881343ae67f14b5b.html
+2025-05-22 05:44:55,117 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 05:44:55,117 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:44:55,117 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 05:44:55,117 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:44:55,118 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 05:44:55,118 - P17320 - INFO - Após processar URL 15 Uso de memória: 132.80 MB
+2025-05-22 05:44:55,118 - P17320 - INFO - Processando URL 16/16: https://www.findhealthclinics.com/BR/Varginha/109072220841561/Dra.-Rafaela-Dias-Cabral
+2025-05-22 05:44:59,010 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\a1e0a3272574d84885d4cc869fb58397.html
+2025-05-22 05:44:59,062 - P17320 - INFO - Candidates address: 3 items
+2025-05-22 05:44:59,063 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 05:44:59,063 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 05:44:59,063 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 05:44:59,064 - P17320 - INFO - Candidates cep: 4 items
+2025-05-22 05:44:59,065 - P17320 - INFO - Após processar URL 16 Uso de memória: 131.64 MB
+2025-05-22 05:44:59,065 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:44:59,065 - P17320 - INFO - Ranked address: 3 items
+2025-05-22 05:44:59,066 - P17320 - INFO - Ranked phone: 1 items
+2025-05-22 05:44:59,066 - P17320 - INFO - Ranked email: 2 items
+2025-05-22 05:44:59,066 - P17320 - INFO - Ranked complement: 0 items
+2025-05-22 05:44:59,066 - P17320 - INFO - Ranked cep: 6 items
+2025-05-22 05:44:59,066 - P17320 - INFO - Após agregação Uso de memória: 131.64 MB
+2025-05-22 05:44:59,066 - P17320 - INFO - Validando endereço: ['Avenida Ana Jacinta, 38', 'Av. Ana Jacinta 38', 'Av. Antonietta Esper Kallas, 255']
+2025-05-22 05:44:59,067 - P17320 - INFO - Endereço validado: Avenida Ana Jacinta, 38
+2025-05-22 05:44:59,067 - P17320 - INFO - Limpando texto extenso para campo address: Avenida Ana Jacinta, 38...
+2025-05-22 05:44:59,067 - P17320 - INFO - Texto limpo: Avenida Ana Jacinta, 38
+2025-05-22 05:44:59,068 - P17320 - INFO - Validando telefone: ['(35) 3212-9022']
+2025-05-22 05:44:59,068 - P17320 - INFO - Limpando texto extenso para campo phone: (35) 3212-9022...
+2025-05-22 05:44:59,069 - P17320 - INFO - Texto limpo: 35) 3212-9022
+2025-05-22 05:44:59,069 - P17320 - INFO - Telefone validado: 35) 3212-9022
+2025-05-22 05:44:59,070 - P17320 - INFO - Validando email: ['fafa_dc@hotmail.com', 'drarafaeladiascabral@hotmail.com']
+2025-05-22 05:44:59,070 - P17320 - INFO - Limpando texto extenso para campo email: fafa_dc@hotmail.com...
+2025-05-22 05:44:59,070 - P17320 - INFO - Texto limpo: fafa_dc@hotmail.com
+2025-05-22 05:44:59,070 - P17320 - INFO - Email validado: fafa_dc@hotmail.com
+2025-05-22 05:44:59,070 - P17320 - INFO - Descobrindo cidade
+2025-05-22 05:44:59,070 - P17320 - INFO - Buscando cidade: Avenida Ana Jacinta cidade MG
+2025-05-22 05:45:01,605 - P17320 - INFO - Cidade encontrada: Varginha
+2025-05-22 05:45:01,605 - P17320 - INFO - Limpando texto extenso para campo city: Varginha...
+2025-05-22 05:45:01,606 - P17320 - INFO - Texto limpo: Varginha
+2025-05-22 05:45:01,606 - P17320 - INFO - Cidade descoberta: Varginha
+2025-05-22 05:45:01,606 - P17320 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 05:45:01,606 - P17320 - INFO - Iniciando busca de CEP em cascata para: Avenida Ana Jacinta, Varginha, MG
+2025-05-22 05:45:01,606 - P17320 - INFO - Método 1: ViaCEP API
+2025-05-22 05:45:01,606 - P17320 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/MG/varginha/avenida%20ana%20jacinta/json/
+2025-05-22 05:45:02,291 - P17320 - INFO - Dados encontrados no ViaCEP: {'cep': '37014-240', 'logradouro': 'Avenida Ana Jacinta', 'complemento': 'até 469/470', 'unidade': '', 'bairro': 'Bom Pastor', 'localidade': 'Varginha', 'uf': 'MG', 'estado': 'Minas Gerais', 'regiao': 'Sudeste', 'ibge': '3170701', 'gia': '', 'ddd': '35', 'siafi': '5413'}
+2025-05-22 05:45:02,301 - P17320 - INFO - CEP encontrado via ViaCEP: 37014-240
+2025-05-22 05:45:02,303 - P17320 - INFO - Dados de CEP encontrados: {'cep': '37014-240', 'logradouro': 'Avenida Ana Jacinta', 'complemento': 'até 469/470', 'unidade': '', 'bairro': 'Bom Pastor', 'localidade': 'Varginha', 'uf': 'MG', 'estado': 'Minas Gerais', 'regiao': 'Sudeste', 'ibge': '3170701', 'gia': '', 'ddd': '35', 'siafi': '5413'}
+2025-05-22 05:45:02,304 - P17320 - INFO - Limpando texto extenso para campo bairro: Bom Pastor...
+2025-05-22 05:45:02,305 - P17320 - INFO - Texto limpo: Bom Pastor
+2025-05-22 05:45:02,306 - P17320 - INFO - Limpando texto extenso para campo complement: até 469/470...
+2025-05-22 05:45:02,307 - P17320 - INFO - Texto limpo: até 469/470
+2025-05-22 05:45:02,308 - P17320 - INFO - Limpando texto extenso para campo city: Varginha...
+2025-05-22 05:45:02,308 - P17320 - INFO - Texto limpo: Varginha
+2025-05-22 05:45:02,308 - P17320 - INFO - Limpando texto extenso para campo state: MG...
+2025-05-22 05:45:02,309 - P17320 - INFO - Texto limpo: MG
+2025-05-22 05:45:02,310 - P17320 - INFO - Tempo de execução de processamento completo do médico: 35.30 segundos
+2025-05-22 05:45:02,310 - P17320 - INFO - Resultado processado: {'Hash': '9ecf51cd5929f738889703b26db56c91eda33cf1bfaed6de56b178a1a66e1724', 'CRM': '53223', 'UF': 'MG', 'Firstname': 'RAFAELA', 'LastName': 'DIAS CABRAL', 'Medical specialty': '', 'Endereco Completo A1': 'Avenida Ana Jacinta, 38', 'Address A1': 'Avenida Ana Jacinta', 'Numero A1': '38', 'Complement A1': 'até 469/470', 'Bairro A1': 'Bom Pastor', 'postal code A1': '37014-240', 'City A1': 'Varginha', 'State A1': 'MG', 'Phone A1': '35) 3212-9022', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'fafa_dc@hotmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:45:02,311 - P17320 - INFO - Salvando lote de resultados
+2025-05-22 05:45:02,312 - P17320 - INFO - Após salvar resultados Uso de memória: 129.71 MB
+2025-05-22 05:45:02,313 - P17320 - INFO - Progresso: 96.2%
+2025-05-22 05:45:02,316 - P17320 - INFO - Tempo de execução de processamento do médico 3: 35.31 segundos
+2025-05-22 05:45:02,317 - P17320 - INFO - Tempo de execução de processamento do lote completo: 136.45 segundos

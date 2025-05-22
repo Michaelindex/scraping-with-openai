@@ -1,0 +1,191 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br" slick-uniqueid="3"><head>
+<base href="https://sistemas.tjes.jus.br/ediario/index.php/component/ediario/">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="generator" content="Joomla! - Open Source Content Management">
+	<title>Ediário</title>
+	<link href="https://sistemas.tjes.jus.br/ediario/media/com_ediario/css/jquery-ui.css?v=25" rel="stylesheet" type="text/css">
+	<link href="/ediario/media/system/css/calendar-jos.css?1c87f5ed3fde2d9aae0509708fc52f15" rel="stylesheet" title="Verde" media="all" type="text/css">
+	<link href="/ediario/plugins/system/jce/css/content.css?1c87f5ed3fde2d9aae0509708fc52f15" rel="stylesheet" type="text/css">
+	<link href="https://sistemas.tjes.jus.br/ediario/media/com_ediario/css/style.css?v=27" rel="stylesheet" type="text/css">
+	<link href="https://sistemas.tjes.jus.br/ediario/media/com_ediario/css/layout.css?v=27" rel="stylesheet" type="text/css">
+	<script type="application/json" class="joomla-script-options loaded">{"csrf.token":"3c8decdfeba7806cd8d13286079af975","system.paths":{"root":"\/ediario","base":"\/ediario"},"system.keepalive":{"interval":840000,"uri":"\/ediario\/index.php\/component\/ajax\/?format=json"},"joomla.jtext":{"JLIB_FORM_FIELD_INVALID":"Campo inv\u00e1lido:&#160;"}}</script>
+	<script src="https://sistemas.tjes.jus.br/ediario/media/com_ediario/js/jquery.js" type="text/javascript"></script>
+	<script src="https://sistemas.tjes.jus.br/ediario/media/com_ediario/js/script.js?v=24" type="text/javascript"></script>
+	<script src="https://sistemas.tjes.jus.br/ediario/media/com_ediario/js/dropbox.min.js" type="text/javascript"></script>
+	<script src="https://sistemas.tjes.jus.br/ediario/media/com_ediario/js/jquery-ui.js?v=24" type="text/javascript"></script>
+	<script src="https://sistemas.tjes.jus.br/ediario/media/com_ediario/js/jquery.ui.datepicker-pt-BR.js" type="text/javascript"></script>
+	<script src="/ediario/media/system/js/core.js?1c87f5ed3fde2d9aae0509708fc52f15" type="text/javascript"></script>
+	<!--[if lt IE 9]><script src="/ediario/media/system/js/polyfill.event.js?1c87f5ed3fde2d9aae0509708fc52f15" type="text/javascript"></script><![endif]-->
+	<script src="/ediario/media/system/js/keepalive.js?1c87f5ed3fde2d9aae0509708fc52f15" type="text/javascript"></script>
+	<script src="/ediario/media/system/js/mootools-core.js?1c87f5ed3fde2d9aae0509708fc52f15" type="text/javascript"></script>
+	<script src="/ediario/media/system/js/mootools-more.js?1c87f5ed3fde2d9aae0509708fc52f15" type="text/javascript"></script>
+	<script src="/ediario/media/jui/js/jquery.min.js?1c87f5ed3fde2d9aae0509708fc52f15" type="text/javascript"></script>
+	<script src="/ediario/media/jui/js/jquery-noconflict.js?1c87f5ed3fde2d9aae0509708fc52f15" type="text/javascript"></script>
+	<script src="/ediario/media/jui/js/jquery-migrate.min.js?1c87f5ed3fde2d9aae0509708fc52f15" type="text/javascript"></script>
+	<script src="/ediario/media/system/js/calendar.js?1c87f5ed3fde2d9aae0509708fc52f15" type="text/javascript"></script>
+	<script src="/ediario/media/system/js/calendar-setup.js?1c87f5ed3fde2d9aae0509708fc52f15" type="text/javascript"></script>
+	<script src="/ediario/media/system/js/punycode.js?1c87f5ed3fde2d9aae0509708fc52f15" type="text/javascript"></script>
+	<script src="/ediario/media/system/js/validate.js?1c87f5ed3fde2d9aae0509708fc52f15" type="text/javascript"></script>
+	<script type="text/javascript">
+jQuery(function($) {
+			 $('.hasTip').each(function() {
+				var title = $(this).attr('title');
+				if (title) {
+					var parts = title.split('::', 2);
+					var mtelement = document.id(this);
+					mtelement.store('tip:title', parts[0]);
+					mtelement.store('tip:text', parts[1]);
+				}
+			});
+			var JTooltips = new Tips($('.hasTip').get(), {"maxTitleChars": 50,"fixed": false});
+		});
+Calendar._DN = ["Domingo","Segunda","Ter\u00e7a","Quarta","Quinta","Sexta","S\u00e1bado","Domingo"]; Calendar._SDN = ["Dom","Seg","Ter","Qua","Qui","Sex","S\u00e1b","Dom"]; Calendar._FD = 0; Calendar._MN = ["Janeiro","Fevereiro","Mar\u00e7o","Abril","Mai","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"]; Calendar._SMN = ["Jan","Fev","Mar","Abr","Maio","Jun","Jul","Ago","Set","Out","Nov","Dez"]; Calendar._TT = {"INFO":"Sobre o calend\u00e1rio","ABOUT":"DHTML Date\/Time Selector\n(c) dynarch.com 20022005 \/ Author: Mihai Bazon\nFor latest version visit: http:\/\/www.dynarch.com\/projects\/calendar\/\nDistributed under GNU LGPL.  See http:\/\/gnu.org\/licenses\/lgpl.html for details.\n\nSele\u00e7\u00e3o de data:\n- Use os bot\u00f5es \u00ab e \u00bb para selecionar um ano\n- Use os bot\u00f5es < e > para selecionar o m\u00eas\n- Segure o bot\u00e3o do mouse sobre qualquer um dos bot\u00f5es acima para sele\u00e7\u00e3o mais r\u00e1pida.","ABOUT_TIME":"\n\nTime selection:\n Click on any of the time parts to increase it\n or Shiftclick to decrease it\n or click and drag for faster selection.","PREV_YEAR":"Selecione para ir para o ano anterior. Selecione e segure para ver uma lista de anos.","PREV_MONTH":"Selecione para ir para o m\u00eas anterior. Selecione e segure para obter uma lista dos meses.","GO_TODAY":"Ir para hoje","NEXT_MONTH":"Selecione para ir para o pr\u00f3ximo m\u00eas. Selecione e segure para ver uma lista dos meses.","SEL_DATE":"Selecione uma data.","DRAG_TO_MOVE":"Arraste para mover","PART_TODAY":" Hoje ","DAY_FIRST":"Exibir %s primeiro","WEEKEND":"0,6","CLOSE":"Fechar","TODAY":"Hoje","TIME_PART":"Selecione com Shift ou Arraste para alterar o valor.","DEF_DATE_FORMAT":"%Y%m%d","TT_DATE_FORMAT":"%a, %b %e","WK":"Semana","TIME":"Hora:"};
+
+$a(function()
+		{
+		    var x = document.getElementById("mostrarDetalhes");
+		    var y = document.getElementById("detalhes");    
+
+		    if (x.addEventListener) {
+		        x.addEventListener("click", mostrarOnOff);
+		    } else if (x.attachEvent) {
+		        x.attachEvent("onclick", mostrarOnOff);
+		    }
+
+		    function mostrarOnOff() {
+		        // alert("Hello World!");
+		        if (y.style.display === "none") {
+		            y.style.display = "block";
+		            x.innerHTML = "Clique aqui para ocultar detalhes";
+		        } else {
+		            y.style.display = "none";
+		            x.innerHTML = "Clique aqui para ver detalhes";
+		        }
+		    }    
+		});
+
+	</script>
+
+
+</head>
+
+<body>
+
+
+  <div id="faixa-body"></div> <!-- faixa azul do fundo com comprimento 100% -->
+  <div id="faixa-body-2"></div>
+  <div id="tela" class="container_12">
+    <div id="cabecalho" class="container_12">
+      <div class="container_12 grid_4">
+        <a href="https://sistemas.tjes.jus.br/ediario/"><img id="logo" src="/ediario/templates/e-diario/images/logo.png"></a>
+      </div>
+    </div>
+  
+  <!-- Exibir view e template atuais -->
+  <div id="debug temporario" style="float:right; font-size:10px; color:gray; margin-top: 3px;">
+
+  view: content - template: nenhum
+  </div>
+  
+  <!-- Módulo do Menu -->
+  <div id="menubarra" class="container_12">
+    <div class="container_12 grid_10">
+      <ul class="nav menu mod-list">
+<li class="item-103 default current active"><a href="/ediario/index.php">Início</a></li><li class="item-107"><a href="/ediario/index.php/dias-sem-publicacao">Dias sem publicação</a></li><li class="item-108"><a href="/ediario/index.php/pesquisa">Pesquisa</a></li><li class="item-109"><a href="http://aplicativos.tjes.jus.br/sistemaspublicos/corregedoria/arrecadacao/guias/cad_guiaavulsa.cfm">Emitir DUA</a></li></ul>
+
+    </div>
+
+    <div class="div-login"><a href="index.php?option=com_users&amp;view=login" class="link-login">Login</a></div>
+  </div>
+
+      <div class="materias container12 grid_13" style="min-height: 632px;">
+      <div id="system-message-container">
+	</div>
+
+      
+			<h1>
+			Lista 0103/2016		</h1>
+	
+
+	<div class="publicacao-info-container">
+		<div id="publicacao-info">
+
+			<div class="publicacao-info-item category-name">
+				<span class="publicacao-info-titulo">Categoria:</span>
+				<span class="publicacao-info-desc">Listas</span>
+				<!-- <div class="publicacao-info-desc"></div> -->
+				<div class="clear"></div>
+			</div>
+
+			<div class="publicacao-info-item published">
+				<span class="publicacao-info-titulo">Data de disponibilização: </span>
+				<span class="publicacao-info-desc">Terça, 23 de Agosto de 2016</span>
+			
+
+				<div class="clear"></div>
+			</div>
+
+			<div class="publicacao-info-item published">
+				<span class="publicacao-info-titulo">Número da edição: </span>
+				<span class="publicacao-info-desc">5296</span>
+				<!-- <span class="publicacao-info-desc">5296</span> -->
+				<div class="clear"></div>
+			</div>
+							<div class="publicacao-info-item published">
+					<span class="publicacao-info-titulo">Republicações: </span>
+					<span class="publicacao-info-desc">
+						<div><a id="mostrarDetalhes">Clique aqui para ver detalhes</a></div>
+						<div id="detalhes" style="display: none;"></div>
+					</span>
+					<!-- <span class="publicacao-info-desc"></span> -->
+					
+					<div class="clear"></div>
+				</div>
+			
+		</div>
+		
+				<div class="icones">
+
+			
+		</div>
+				
+		<div class="clear"></div>
+	</div>
+
+	<div class="publicacao-text override-text">
+	<div style="font-family: Garamond; font-size: 14px" class="override-text">   <center>    <b>PODER JUDICIÁRIO DO ESTADO DO ESPÍRITO SANTO</b></center>   <center>    <b>ECOPORANGA - VARA ÚNICA</b></center>   <br>   <b>JUIZ DE DIREITO: DRº DOUGLAS DEMONER FIGUEIREDO<br>   PROMOTOR DE JUSTIÇA: DRº GERALDO MARQUES VASCONCELOS DE ABREU<br>   CHEFE DE SECRETARIA: BERNARD FALCAO LIMA</b><br>   <br>   <center>    <b>Lista: 0103/2016</b></center>   <br>   <br>   <b>1 - 0000089-60.2006.8.08.0019 (019.06.000089-0) - Execução Fiscal</b><br>   Exequente: ESTADO DO ESPIRITO SANTO<br>   Executado: JONES NATANAEL ALVES ME<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 5189/ES - ALEMER JABOUR MOULIN<br>   <div style="padding-left: 30px" class="override-text">    Exequente: ESTADO DO ESPIRITO SANTO</div>   <br>   Para tomar ciência da sentença:   <div style="text-align: justify" class="override-text">    Desta feita, DECLARO EXTINTA A EXECUÇÃO, nos termos do artigo 794, inciso I, do Código de Processo Civil c/c artigo 1º da Lei nº. 6.830/80.<br>    CONDENO o executado ao pagamento das custas e despesas processuais.<br>    Os honorários já foram pagos (fl. 122).<br>    PUBLIQUE-SE. REGISTRE-SE. INTIME-SE.<br>    Em seguida, REMETA-SE os autos à Contadoria para o cálculo de custas e INTIME-SE o executado para efetuar o pagamento, no prazo de dez (10) dias. Não sendo recolhidas as custas, CIENTIFIQUE-SE a SEFAZ acerca da existência do débito.<br>    Tudo em ordem, ARQUIVE-SE com as cautelas de estilo.<br>    DILIGENCIE-SE.<br>    Ecoporanga/ES, 09 de março de 2016.</div>   <br>   <br>   <b>2 - 0001308-64.2013.8.08.0019 - Busca e Apreensão em Alienação Fiduciária</b><br>   Requerente: BANCO FIDIS SA<br>   Requerido: V F BATISTA TRANSPORTADORA FERNANDES ME<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 24739/ES - JOSE AUGUSTO DE REZENDE JUNIOR<br>   <div style="padding-left: 30px" class="override-text">    Requerente: BANCO FIDIS SA</div>   <br>   Para tomar ciência da sentença:   <div style="text-align: justify" class="override-text">    Diante do pedido de desistência formulado pela autora, HOMOLOGO tal pleito por Sentença, para que produza os jurídicos e legais efeitos, na forma do parágrafo único do art. 200 do Código de Processo Civil/15, julgando extinto o feito sem apreciação do mérito, em consonância com o dispositivo do art. 485, VIII, do mesmo diploma legal. Torno sem efeito a respeitável decisão de fls. 32 e v°.&nbsp;<br>    Custas quitadas.<br>    Publique-se. Registre-se. Intime-se.<br>    Com o trânsito, arquive-se com as cautelas de praxe.</div>   <br>   <br>   <b>3 - 0013329-09.2012.8.08.0019 - Procedimento Comum</b><br>   Requerente: JOSE JAIR SEVERO DA SILVA<br>   Requerido: BRADESCO VIDA E PREVIDENCIA<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 8737/ES - BERESFORD MARTINS MOREIRA NETO<br>   <div style="padding-left: 30px" class="override-text">    Requerido: BRADESCO VIDA E PREVIDENCIA</div>   Advogado(a): 007897/ES - MARIA ISABEL PONTINI<br>   <div style="padding-left: 30px" class="override-text">    Requerente: JOSE JAIR SEVERO DA SILVA</div>   <br>   Para tomar ciência do despacho:   <div style="text-align: justify" class="override-text">    <br>    Diante da recusa exarada às fls. 141, NOMEIO o Eduardo Dalla Bernardina Fraga, CRM-ES: 11.637, com endereço na Rua Germano Naumann Filho, nº 230, 2º andar, Centro, Colatina/ES, CEP: 29700-030, para atuar como perito nestes autos, nos termos do artigo 466, do Código de Processo Civil.<br>    Intimem-se as partes para, caso queriam, dentro de 15 (quinze) dias, contados da intimação do despacho de nomeação do perito, arguirem o impedimento ou a suspeição do perito, se for o caso; indicar assistente técnico e/ou apresentar quesitos (art. 465, CPC).<br>    Em seguida, não havendo arguição prejudicial em face do perito ora nomeado, intime-o, para dizer, em 05 (cinco) dias, se aceita o encargo, bem como fornecer a proposta de honorários, currículo, com comprovação de especialização e os contatos profissionais, em especial o endereço eletrônico, para onde serão dirigidas as intimações pessoais (§2º, do art. 465, CPC).<br>    Aceito o encargo e indicado o valor dos honorários, intimem-se as partes para querendo, manifestarem-se no prazo de 5 (cinco) dias.<br>    Após, volte os autos conclusos para fins do §3º, do art. 465, do CPC.<br>    DILIGENCIE-SE, imediatamente, vez que se trata de processo Meta – 2.</div>   <br>   <br>   <b>4 - 0001436-84.2013.8.08.0019 - Monitória</b><br>   Autor: BANCO DO BRASIL S/A<br>   Réu: PAULA ABRANCHES E CIA LTDA ME e outros<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 56526/MG - MARCOS CALDAS MARTINS CHAGAS<br>   <div style="padding-left: 30px" class="override-text">    Autor: BANCO DO BRASIL S/A</div>   <div style="text-align: justify" class="override-text">    Tomar ciência da certidão de fl. 68/vº, cujo teor segue transcrito: "Certifico e dou fé que os requeridos Nézio, Carlos e Luciana foram citados (fls. 49 e 67) e não apresentaram defesa no prazo legal. O requerido Paula Abranches e&nbsp;CIA&nbsp;LTDA ME,&nbsp;não foi citado (fl. 59/v), vez que a empresa não exerce mais atividades nesta cidade."</div>   <br>   <br>   <b>5 - 0001478-02.2014.8.08.0019 - Reintegração / Manutenção de Posse</b><br>   Requerente: SEBASTIAO CARLOS GOMES REIS<br>   Requerido: EDUARDO BRANDEMBURG e outros<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 002111/ES - ALTAIR CARLOS GOMES<br>   <div style="padding-left: 30px" class="override-text">    Requerente: SEBASTIAO CARLOS GOMES REIS</div>   Advogado(a): 008014/ES - JOSE MARCOS DA SILVA<br>   <div style="padding-left: 30px" class="override-text">    Requerido: LINDIOMAR BRANDEMBURG<br>    Requerido: EDUARDO BRANDEMBURG</div>   <div style="text-align: justify" class="override-text">    Tomar ciência da certidão de fls. 166, cujo ter segue transcrito: "Certifico e dou fé que até apresente data, não há juntado aos autos resposta de ofício&nbsp; nº 641/2016 (fls. 143), nomeando como perito José Luiz Mendes. Ressalta-se que inexiste protocolo pendente de juntada a estes autos."</div>   <br>   <br>   <b>6 - 0000876-21.2008.8.08.0019 (019.08.000876-6) - Procedimento Comum</b><br>   Requerente: ESPIRITO SANTO CENTRAIS ELETRICAS S/A - ESCELSA<br>   Requerido: MINERACAO NOVO HORIZONTE LTDA ME<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 95502/RJ - GUSTAVO ANTONIO FERES PAIXAO<br>   <div style="padding-left: 30px" class="override-text">    Requerente: ESPIRITO SANTO CENTRAIS ELETRICAS S/A - ESCELSA</div>   Advogado(a): 8392/ES - MARCELO PAGANI DEVENS<br>   <div style="padding-left: 30px" class="override-text">    Requerente: ESPIRITO SANTO CENTRAIS ELETRICAS S/A - ESCELSA</div>   <div style="text-align: justify" class="override-text">    Tomar ciência da certidão de fls. 136, cujo teor segue trancrito: "Certifico, para fins de informar, que conforme art. 2º, § 6º, do Provimento-Conjunto nº 15/2010, a GRCTJ anexada a esta precatória (fls. 08V e 16), por ter sido emitida/paga no ano de 2015, somente poderia ter sido utilizada para fins de distribuição no mesmo ano do pagamento."</div>   <br>   <br>   <b>7 - 0001522-26.2011.8.08.0019 (019.11.001522-9) - Procedimento Comum</b><br>   Requerente: SEBASTIANA MARIA PEREIRA<br>   Requerido: INSTITUTO NACIONAL DE SEGURIDADE SOCIAL - INSS<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 12743/ES - EDIVAN FOSSE DA SILVA<br>   <div style="padding-left: 30px" class="override-text">    Requerente: SEBASTIANA MARIA PEREIRA</div>   Advogado(a): 12942/ES - ELYANDERSON AUGUSTO FERREIRA DE SOUZA<br>   <div style="padding-left: 30px" class="override-text">    Requerente: SEBASTIANA MARIA PEREIRA</div>   <div style="text-align: justify" class="override-text">    O perito informou qua a requerente não compareceu a perícia designada no dia 07/05/2015, diante disso o&nbsp;mesmo designou nova data pericial para o dia 23/09/2016 às 8h 30 min.</div>   <br>   <br>   <b>8 - 0001884-57.2013.8.08.0019 - Ação Penal - Procedimento Ordinário</b><br>   Autor: MINISTERIO PUBLICO ESTADUAL<br>   Réu: VANI RODRIGUES DE SOUZA ALVES<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 23745/ES - LUCAS KENNEDY ALVES BARBOSA<br>   <div style="padding-left: 30px" class="override-text">    Réu: VANI RODRIGUES DE SOUZA ALVES</div>   <div style="text-align: justify" class="override-text">    Apresentar memoriais no prazo legal.</div>   <br>   <br>   <b>9 - 0001410-91.2010.8.08.0019 (019.10.001410-9) - Ação Civil de Improbidade Administrativa</b><br>   Exequente: M.P.D.E.D.E.S.<br>   Requerente: M.P.D.E.D.E.S.<br>   Executado: E.T.<br>   Requerido: E.T.<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 008374/ES - MAULY MARTINS DA SILVA<br>   <div style="padding-left: 30px" class="override-text">    Executado: E.T.<br>    Requerido: E.T.</div>   Advogado(a): 8643/ES - VITOR LUCIO LIMA<br>   <div style="padding-left: 30px" class="override-text">    Executado: E.T.<br>    Requerido: E.T.</div>   <br>   Para tomar ciência do despacho:   <div style="text-align: justify" class="override-text">    Cumprida a diligência, CIENTIFIQUE-SE as partes e especialmente o executado para dizer, no prazo de dez (10) dias, se tem interesse na alienação particular do bem penhorado.</div>   <br>   <br>   <b>10 - 0001639-22.2008.8.08.0019 (019.08.001639-7) - Procedimento Comum</b><br>   Requerente: DOLORES BALBINO DA SILVA<br>   Requerido: INSS - INSTITUTO NACIONAL DE SEGURO SOCIAL<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 005674/ES - ROSEMAR POGGIAN CATERINQUE CARDOZO<br>   <div style="padding-left: 30px" class="override-text">    Requerente: DOLORES BALBINO DA SILVA</div>   <div style="text-align: justify" class="override-text">    O perito informou qua a requerente não compareceu a perícia designada, diante disso o&nbsp;mesmo designou nova data pericial para o dia 23/09/2016 às 8 horas.</div>   <br>   <br>   <b>11 - 0000276-10.2002.8.08.0019 (019.02.000276-2) - Procedimento Comum</b><br>   Requerente: BANESTES SEGURO S/A<br>   Denunciado: A.R.G. LTDA e outros<br>   Requerido: SILVANIR MIGUEL COELHO<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 3609/ES - AMANTINO PEREIRA PAIVA<br>   <div style="padding-left: 30px" class="override-text">    Requerente: BANESTES SEGURO S/A</div>   <div style="text-align: justify" class="override-text">    A 4ª Vara Cível de Vitória e a Comarca de Ouro Preto do Oeste requerem o recolhimentos das custas&nbsp;referente as&nbsp;Cartas Precatórias, sendo que&nbsp;o valor&nbsp;da&nbsp;última é de R$ 92,37, conforme fls. 367.</div>   <br>   <br>   <b>12 - 0001112-65.2011.8.08.0019 (019.11.001112-9) - Procedimento Comum</b><br>   Requerente: AFRANEO SILVESTRE ASSIS e outros<br>   Requerido: LILIAN SOUTO OLIVEIRA<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 10038/ES - LILIAN SOUTO DE OLIVEIRA<br>   <div style="padding-left: 30px" class="override-text">    Requerido: LILIAN SOUTO OLIVEIRA</div>   <br>   Para tomar ciência do despacho:   <div style="text-align: justify" class="override-text">    Tomar ciência do demonstrativo do débito atualizado de fls. 715/vº e para efetuar a quitação integral do débito no prazo de 15 (quinze) dias.</div>   <br>   <br>   <b>13 - 0001461-49.2003.8.08.0019 (019.08.001461-6) - Ação Penal - Procedimento Ordinário</b><br>   Autor: MINISTÉRIO PÚBLICO ESTADUAL<br>   Réu: JOCIMAR DE SOUZA SENA e outros<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 008014/ES - JOSE MARCOS DA SILVA<br>   <div style="padding-left: 30px" class="override-text">    Réu: JOCIMAR DE SOUZA SENA<br>    Réu: MARCIO WILLIAN SOARES</div>   <div style="text-align: justify" class="override-text">    TOMAR CIÊNCIA DA DESCIDA DOS AUTOS.</div>   <br>   <br>   <b>14 - 0001835-16.2013.8.08.0019 - Ação Penal - Procedimento Ordinário</b><br>   Vítima: MARIA APARECIDA DA SILVA e outros<br>   Indiciado: MARCOS AURELIO MOREIRA REZENDE<br>   Réu: MARCOS AURELIO MOREIRA REZENDE<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 10797/ES - JONES MADSON TELLES<br>   <div style="padding-left: 30px" class="override-text">    Réu: MARCOS AURELIO MOREIRA REZENDE<br>    Indiciado: MARCOS AURELIO MOREIRA REZENDE</div>   <div style="text-align: justify" class="override-text">    Apresentar memoriais escritos no prazo de cinco dias.</div>   <br>   <br>   <b>15 - 0002111-47.2013.8.08.0019 - Procedimento Comum</b><br>   Requerente: IRLANE LUIZA TEIXEIRA<br>   Requerido: INSTITUTO NACIONAL DE SEGURIDADE SOCIAL - INSS<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 12743/ES - EDIVAN FOSSE DA SILVA<br>   <div style="padding-left: 30px" class="override-text">    Requerente: IRLANE LUIZA TEIXEIRA</div>   Advogado(a): 12942/ES - ELYANDERSON AUGUSTO FERREIRA DE SOUZA<br>   <div style="padding-left: 30px" class="override-text">    Requerente: IRLANE LUIZA TEIXEIRA</div>   <div style="text-align: justify" class="override-text">    Tomar ciência da certidão da carta precatória de fls. 189, cujo teor segue transcrito: "Certifico que, em cumprimento ao presente mandado, nesta data, dirigi-me aonde o mesmo refere-se, e ali estando deixei de citar a Sílvia Oliveira Lopes, porque a mesma não reside no endereço constante no presente mandado, segundo informações de seus familiares a mesma reside no Estado do Espírito Santo, porém estes não sabem informar seu endereço na referida localidade. Estando a mesma portanto com relação ao endereço do presente mandado em local incerto e não sabido."</div>   <br>   <br>   <b>16 - 0000507-17.2014.8.08.0019 - Divórcio Litigioso</b><br>   Requerente: L.O.D.S.S.<br>   Requerido: P.V.D.S.<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 24320/ES - PEDRO HENRIQUE GOMES BERTUANI<br>   <div style="padding-left: 30px" class="override-text">    Requerido: P.V.D.S.</div>   <br>   Para tomar ciência do despacho:   <div style="text-align: justify" class="override-text">    Antes porém de determinar a citação e visando resguardar a regularidade processual, determino a citação pessoal do requerido no endereço constante no banco de dados da Justiça Eleitoral (documento em anexo). Em sendo negativo, defiro desde já a citação por edital, com o prazo de 20 dias para o edital (CPC, art. 232, IV) e com as advertências de praxe. Junte-se cópia do edital aos autos. Para o caso de não haver contestação no prazo de lei, nomeio curador, desde já, o Dr. Dr. Pedro Henrique Gomes Bertuani – OAB/ES 24.320, nos termos do decreto estadual de nº 2821-R/2011, deixando para fixar ao final os honorários devidos, a rigor da complexidade do caso durante a tramitação. Em sendo aceita a nomeação, deverá ser intimado a defender os interesses da parte cuja citação se fez por edital. Em seguida, PROCEDA-SE abertura de vista dos autos ao Representante do Ministério Público. Diligencie-se. Ecoporanga/ES, 26 de novembro de 2015.</div>   <br>   <br>   <b>17 - 0000109-36.2015.8.08.0019 - Busca e Apreensão em Alienação Fiduciária</b><br>   Requerente: ADMINISTRADORA DE CONSORCIO NACIONAL HONDA<br>   Requerido: JOCILEY RAMOS COSTA<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 13621/ES - NELSON PASCHOALOTTO<br>   <div style="padding-left: 30px" class="override-text">    Requerente: ADMINISTRADORA DE CONSORCIO NACIONAL HONDA</div>   <br>   Para tomar ciência do despacho:   <div style="text-align: justify" class="override-text">    Em que pese o pedido do autor à fl. 54, verifica-se pelo conteúdo da certidão de fl. 31-vº, que o oficial de justiça responsável pelo cumprimento do mandado de busca e apreensão não logrou êxito em localizar o bem, ora objeto do litígio, no entanto, obteve contato com o requerido, ou seja, localizou-o, tendo este informado que a motocicleta não está mais em sua posse, assim, indefiro o pedido de busca de endereço do requerido.<br>    Intime-se a parte autora, para se manifestar no prazo de 05 (cinco) dias, requerendo o que entender de direito, principalmente sobre o que dispõe o art. 4º do Decreto-Lei 911/691.<br>    INTIME-SE. DILIGENCIE-SE.</div>   <br>   <br>   <b>18 - 0002014-23.2008.8.08.0019 (019.08.002014-2) - Cumprimento de sentença</b><br>   Requerente: GILCIMAR SIMPLICIO<br>   Requerido: INSS - INSTITUTO NACIONAL DO SEGURO SOCIAL<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 005674/ES - ROSEMAR POGGIAN CATERINQUE CARDOZO<br>   <div style="padding-left: 30px" class="override-text">    Requerente: GILCIMAR SIMPLICIO</div>   <div style="text-align: justify" class="override-text">    Comparecer em Cartório para a retirada dos respectivos alvarás.</div>   <br>   <br>   <b>19 - 0013399-26.2012.8.08.0019 - Procedimento Comum</b><br>   Requerente: LUCINEIA DE LOURDES SOARES<br>   Requerido: INSTITUTO NACIONAL DE SEGURIDADE SOCIAL - INSS<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 12743/ES - EDIVAN FOSSE DA SILVA<br>   <div style="padding-left: 30px" class="override-text">    Requerente: LUCINEIA DE LOURDES SOARES</div>   <div style="text-align: justify" class="override-text">    Comparecer em Cartório para a retirada dos respectivos alvarás.</div>   <br>   <br>   <b>20 - 0000470-58.2012.8.08.0019 (019.12.000470-0) - Busca e Apreensão em Alienação Fiduciária</b><br>   Requerente: BANCO MERCEDES BENS DO BRASIL S/A<br>   Requerido: V F BATISTA TRANSPORTADORA FERNANDES ME<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 17556/PR - CESAR AUGUSTO TERRA<br>   <div style="padding-left: 30px" class="override-text">    Requerente: BANCO MERCEDES BENS DO BRASIL S/A</div>   Advogado(a): 34230/PR - GILBERTO STINGLIN LOTH<br>   <div style="padding-left: 30px" class="override-text">    Requerente: BANCO MERCEDES BENS DO BRASIL S/A</div>   Advogado(a): 16948/PR - JOAO LEONELHO GABARDO FILHO<br>   <div style="padding-left: 30px" class="override-text">    Requerente: BANCO MERCEDES BENS DO BRASIL S/A</div>   Advogado(a): 13621/ES - NELSON PASCHOALOTTO<br>   <div style="padding-left: 30px" class="override-text">    Requerente: BANCO MERCEDES BENS DO BRASIL S/A</div>   <div style="text-align: justify" class="override-text">    Intimar a a parte interessada do ofício nº 216/16 de fls.84 para efetivar o depósito das custas prévias da Carta Precatória para a 3ª Vara Cível - Vitória.&nbsp;</div>   <br>   <br>   <b>21 - 0000430-18.2008.8.08.0019 (019.08.000430-2) - Execução de Título Extrajudicial</b><br>   Exequente: ATLANTICA - PRODUTOS DE PETROLEO LTDA<br>   Executado: PONTO BELO MINERAÇÃO LTDA - ME<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 11593/ES - MATHEUS DE SOUZA LEAO SUBTIL<br>   <div style="padding-left: 30px" class="override-text">    Exequente: ATLANTICA - PRODUTOS DE PETROLEO LTDA</div>   <div style="text-align: justify" class="override-text">    Tomar ciência da certidão mandado de fls. 119/vº, onde o oficial informa que deixou de proceder à penhora e avaliação determinadas, haja vista que o veículo objeto da constrição judicial não se encontra naquele local. Esclarece ainda, que deixou de relacionar os bens móveis que guarnecem a residência ou estabelecimento da executada, pois as suas atividades foram encerradas há anos, bem como o seu escritório foi desativado. A sócia-proprietária/representante legal da executada Ponto Belo Mineração, Sra. Rita Pakanã , reside na Comarca de Nova Venécia.</div>   <br>   <br>   <b>22 - 0000573-31.2013.8.08.0019 - Ação Penal - Procedimento Ordinário</b><br>   Autor: MINISTERIO PUBLICO DO ESTADO DO ESPIRITO SANTO<br>   Réu: ELIAS DAL'COL<br>   <br>   Intimo os(as) Drs(as) advogados(as)<br>   Advogado(a): 18957/ES - JOSIMADSONN MAGALHAES DE OLIVEIRA<br>   <div style="padding-left: 30px" class="override-text">    Réu: ELIAS DAL'COL</div>   <div style="text-align: justify" class="override-text">    Conforme e-mail de fls. 1516, a 2ª Vara Criminal da Serra - ES, informa que a audiência para a oitativa da testemunha de defesa ISAAC PANDOLFI foi agendada para o dia 12/09/2016 às 14 h.</div>   <br>   <br>   <br>   <br>   ECOPORANGA, 22 DE AGOSTO DE 2016<br>   <br>   <center>    BERNARD FALCAO LIMA<br>    CHEFE DE SECRETARIA</center>  </div>  	</div>
+
+
+      
+    </div>
+
+  
+</div>
+
+<div class="clear"></div>
+
+<div id="rodape">
+
+  <div id="rodape-inner">
+    <div class="div-footer footer-ediario">
+      <p>O e-diário (Diário da Justiça Eletrônico) é o instrumento oficial de publicação de atos judiciais, administrativos e de comunicações em geral,  no âmbito do Poder Judiciário do Estado do Espírito Santo, nos termos da Resolução nº 034/2013.</p>
+    </div>
+    <div class="div-footer footer-brasao">
+      <p>PODER JUDICIÁRIO<br>
+        TRIBUNAL DE JUSTIÇA DO ESPÍRITO SANTO<br>
+        Rua Desembargador Homero Mafra, 60<br>
+        Enseada do Suá - ES - CEP 29050-906
+      </p>
+    </div>
+    <div id="themis"></div>
+    <div class="clear"></div>
+  </div>
+
+</div>
+
+<div id="copyright">
+  <span><b>©Tribunal de Justiça ES.</b> Todos os direitos resevados.</span>
+</div>
+
+
+</body></html>

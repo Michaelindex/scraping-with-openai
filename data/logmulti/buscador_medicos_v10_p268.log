@@ -1,0 +1,498 @@
+2025-05-22 04:15:19,690 - P11992 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 04:15:19,690 - P11992 - INFO - Nome: FERNANDA MAYER
+2025-05-22 04:15:19,690 - P11992 - INFO - Reiniciando driver do Chrome
+2025-05-22 04:15:21,041 - P11992 - INFO - Após reiniciar driver Uso de memória: 135.80 MB
+2025-05-22 04:15:21,042 - P11992 - INFO - Início do processamento Uso de memória: 135.80 MB
+2025-05-22 04:15:21,042 - P11992 - INFO - Iniciando busca para: FERNANDA MAYER CRM 53757 PR telefone e-mail endereço
+2025-05-22 04:15:22,233 - P11992 - INFO - SearX results: 14 URLs
+2025-05-22 04:15:22,233 - P11992 - INFO - Após SearX Uso de memória: 135.81 MB
+2025-05-22 04:15:24,986 - P11992 - INFO - Google results: 9 URLs
+2025-05-22 04:15:24,986 - P11992 - INFO - Após Google Uso de memória: 137.09 MB
+2025-05-22 04:15:27,599 - P11992 - INFO - Bing results: 0 URLs
+2025-05-22 04:15:27,599 - P11992 - INFO - Após Bing Uso de memória: 138.11 MB
+2025-05-22 04:15:27,600 - P11992 - INFO - Total de URLs únicas: 16
+2025-05-22 04:15:27,600 - P11992 - INFO - Processando URL 1/16: https://cadastroempresa.com.br/fornecedor/fernanda-ferreira-mayer-51557913000144
+2025-05-22 04:15:30,279 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\1f3eb3dc9139162a077be34aa619b52d.html
+2025-05-22 04:15:30,296 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:15:30,297 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:15:30,297 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:15:30,297 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:15:30,297 - P11992 - INFO - Candidates cep: 3 items
+2025-05-22 04:15:30,297 - P11992 - INFO - Após processar URL 1 Uso de memória: 138.11 MB
+2025-05-22 04:15:30,298 - P11992 - INFO - Processando URL 2/16: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1615573362.pdf
+2025-05-22 04:15:30,298 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1615573362.pdf
+2025-05-22 04:15:30,298 - P11992 - INFO - Após processar URL 2 Uso de memória: 138.11 MB
+2025-05-22 04:15:30,298 - P11992 - INFO - Processando URL 3/16: https://consultacrm.com.br/
+2025-05-22 04:15:33,610 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:15:33,622 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:15:33,627 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:15:33,627 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:15:33,627 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:15:33,627 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:15:33,627 - P11992 - INFO - Após processar URL 3 Uso de memória: 138.11 MB
+2025-05-22 04:15:33,628 - P11992 - INFO - Processando URL 4/16: https://www.pucpr.br/docente-graduacao/fernanda-brenneisen-mayer-952
+2025-05-22 04:15:38,781 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ecddafec810a9a66e0b22d6a2e1c87e6.html
+2025-05-22 04:15:38,860 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:15:38,860 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:15:38,861 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:15:38,861 - P11992 - INFO - Candidates complement: 2 items
+2025-05-22 04:15:38,861 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:15:38,861 - P11992 - INFO - Após processar URL 4 Uso de memória: 131.87 MB
+2025-05-22 04:15:38,861 - P11992 - INFO - Processando URL 5/16: https://www.mpsp.mp.br/w/do_25_02_2022
+2025-05-22 04:15:43,121 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7b7842f38b9333c682fd0be00373d38a.html
+2025-05-22 04:15:44,100 - P11992 - INFO - Candidates address: 4 items
+2025-05-22 04:15:44,100 - P11992 - INFO - Candidates phone: 3 items
+2025-05-22 04:15:44,100 - P11992 - INFO - Candidates email: 3 items
+2025-05-22 04:15:44,100 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:15:44,101 - P11992 - INFO - Candidates cep: 33 items
+2025-05-22 04:15:44,101 - P11992 - INFO - Após processar URL 5 Uso de memória: 134.01 MB
+2025-05-22 04:15:44,101 - P11992 - INFO - Processando URL 6/16: http://noticias.sorocaba.sp.gov.br/wp-content/uploads/2025/04/noticias.sorocaba.sp.gov.br-3686-01-de-abril-de-2025-escala-ubs-e-outros-servicos-compactado.pdf
+2025-05-22 04:15:44,101 - P11992 - INFO - Ignorando URL de arquivo não-HTML: http://noticias.sorocaba.sp.gov.br/wp-content/uploads/2025/04/noticias.sorocaba.sp.gov.br-3686-01-de-abril-de-2025-escala-ubs-e-outros-servicos-compactado.pdf
+2025-05-22 04:15:44,102 - P11992 - INFO - Após processar URL 6 Uso de memória: 131.07 MB
+2025-05-22 04:15:44,102 - P11992 - INFO - Processando URL 7/16: https://www.ibam.org.br/wp-content/uploads/2023/02/07-pm-itatiaia-2019-docs.pdf
+2025-05-22 04:15:44,102 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.ibam.org.br/wp-content/uploads/2023/02/07-pm-itatiaia-2019-docs.pdf
+2025-05-22 04:15:44,102 - P11992 - INFO - Após processar URL 7 Uso de memória: 131.07 MB
+2025-05-22 04:15:44,102 - P11992 - INFO - Processando URL 8/16: https://noticias.sorocaba.sp.gov.br/wp-content/uploads/2025/04/noticias.sorocaba.sp.gov.br-3686-01-de-abril-de-2025-escala-ubs-e-outros-servicos-compactado.pdf
+2025-05-22 04:15:44,103 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://noticias.sorocaba.sp.gov.br/wp-content/uploads/2025/04/noticias.sorocaba.sp.gov.br-3686-01-de-abril-de-2025-escala-ubs-e-outros-servicos-compactado.pdf
+2025-05-22 04:15:44,103 - P11992 - INFO - Após processar URL 8 Uso de memória: 131.07 MB
+2025-05-22 04:15:44,103 - P11992 - INFO - Processando URL 9/16: https://portal.cfm.org.br/busca-medicos
+2025-05-22 04:15:47,966 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 04:15:48,005 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:15:48,005 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:15:48,005 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:15:48,006 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 04:15:48,006 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:15:48,006 - P11992 - INFO - Após processar URL 9 Uso de memória: 132.23 MB
+2025-05-22 04:15:48,006 - P11992 - INFO - Processando URL 10/16: https://iomat.mt.gov.br/portal/edicoes/download/2751
+2025-05-22 04:15:50,438 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\c78f70a8c56620435a8da7a19440b759.html
+2025-05-22 04:15:50,476 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:15:50,476 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:15:50,477 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:15:50,477 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 04:15:50,477 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:15:50,477 - P11992 - INFO - Após processar URL 10 Uso de memória: 132.75 MB
+2025-05-22 04:15:50,478 - P11992 - INFO - Processando URL 11/16: http://www-storage.voxtecnologia.com.br/?m=sigpub.publicacao&f=592&i=publicado_21472_2013-10-15_3e5fd045c612629a2b4f0eb17fbd01d5.pdf
+2025-05-22 04:15:50,478 - P11992 - INFO - Ignorando URL de arquivo não-HTML: http://www-storage.voxtecnologia.com.br/?m=sigpub.publicacao&f=592&i=publicado_21472_2013-10-15_3e5fd045c612629a2b4f0eb17fbd01d5.pdf
+2025-05-22 04:15:50,479 - P11992 - INFO - Após processar URL 11 Uso de memória: 132.75 MB
+2025-05-22 04:15:50,479 - P11992 - INFO - Processando URL 12/16: https://cnpj.biz/75060129000194
+2025-05-22 04:15:53,886 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\947637946da1b44d28c9699256837fa9.html
+2025-05-22 04:15:53,913 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 04:15:53,913 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 04:15:53,913 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:15:53,913 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:15:53,913 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 04:15:53,914 - P11992 - INFO - Após processar URL 12 Uso de memória: 132.79 MB
+2025-05-22 04:15:53,914 - P11992 - INFO - Processando URL 13/16: https://www.crmpr.org.br/atualiza/listar.php/1000
+2025-05-22 04:15:56,680 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ef9ecbfd4e4ebf12f11d844e151b4f0b.html
+2025-05-22 04:15:56,807 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:15:56,808 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:15:56,808 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:15:56,808 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:15:56,808 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:15:56,808 - P11992 - INFO - Após processar URL 13 Uso de memória: 132.80 MB
+2025-05-22 04:15:56,809 - P11992 - INFO - Processando URL 14/16: https://www.crmpr.org.br/
+2025-05-22 04:15:59,862 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\4e800dc31afe30c6d44b5b063ac5fe67.html
+2025-05-22 04:15:59,892 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:15:59,892 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:15:59,892 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:15:59,892 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:15:59,892 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:15:59,892 - P11992 - INFO - Após processar URL 14 Uso de memória: 132.96 MB
+2025-05-22 04:15:59,893 - P11992 - INFO - Processando URL 15/16: https://eurolux.med.br/corpo-clinico/dra-fernanda-mayer/
+2025-05-22 04:16:05,782 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\02983016760f7bfbe072d0dc81e2775c.html
+2025-05-22 04:16:05,819 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:16:05,819 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:16:05,819 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:16:05,819 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:16:05,820 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:16:05,820 - P11992 - INFO - Após processar URL 15 Uso de memória: 133.25 MB
+2025-05-22 04:16:05,820 - P11992 - INFO - Processando URL 16/16: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/18293/Cadernos_JUD_DF_2019-06-05_XI_102.pdf?sequence=1&isAllowed=y
+2025-05-22 04:16:05,820 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/18293/Cadernos_JUD_DF_2019-06-05_XI_102.pdf?sequence=1&isAllowed=y
+2025-05-22 04:16:05,820 - P11992 - INFO - Após processar URL 16 Uso de memória: 133.25 MB
+2025-05-22 04:16:05,820 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:16:05,820 - P11992 - INFO - Ranked address: 8 items
+2025-05-22 04:16:05,821 - P11992 - INFO - Ranked phone: 9 items
+2025-05-22 04:16:05,821 - P11992 - INFO - Ranked email: 8 items
+2025-05-22 04:16:05,821 - P11992 - INFO - Ranked complement: 3 items
+2025-05-22 04:16:05,821 - P11992 - INFO - Ranked cep: 40 items
+2025-05-22 04:16:05,821 - P11992 - INFO - Após agregação Uso de memória: 133.25 MB
+2025-05-22 04:16:05,821 - P11992 - INFO - Validando endereço: ['Rua Riachuelo, 115', 'Rua dos Eucaliptos, 16', 'Avenida Casa Verde, 571']
+2025-05-22 04:16:05,822 - P11992 - INFO - Endereço validado: Rua Riachuelo, 115
+2025-05-22 04:16:05,822 - P11992 - INFO - Limpando texto extenso para campo address: Rua Riachuelo, 115...
+2025-05-22 04:16:05,822 - P11992 - INFO - Texto limpo: Rua Riachuelo, 115
+2025-05-22 04:16:05,822 - P11992 - INFO - Validando telefone: ['(41) 99612-0965', '(11) 3775-4121', '(11) 3119-9442']
+2025-05-22 04:16:05,822 - P11992 - INFO - Limpando texto extenso para campo phone: (41) 99612-0965...
+2025-05-22 04:16:05,822 - P11992 - INFO - Texto limpo: 41) 99612-0965
+2025-05-22 04:16:05,822 - P11992 - INFO - Telefone validado: 41) 99612-0965
+2025-05-22 04:16:05,823 - P11992 - INFO - Validando email: ['cfm@portalmedico.org.br', 'mayer.adm23@gmail.com', 'fernanda.brenneisen@pucpr.br']
+2025-05-22 04:16:05,823 - P11992 - INFO - Limpando texto extenso para campo email: cfm@portalmedico.org.br...
+2025-05-22 04:16:05,823 - P11992 - INFO - Texto limpo: cfm@portalmedico.org.br
+2025-05-22 04:16:05,823 - P11992 - INFO - Email validado: cfm@portalmedico.org.br
+2025-05-22 04:16:05,823 - P11992 - INFO - Validando complemento: ['Conjunto D', 'Sala de Imprensa ', 'Sala de Negociação Financeira ']
+2025-05-22 04:16:05,823 - P11992 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 04:16:05,824 - P11992 - INFO - Texto limpo: Conjunto D
+2025-05-22 04:16:05,824 - P11992 - INFO - Complemento validado: Conjunto D
+2025-05-22 04:16:05,824 - P11992 - INFO - Descobrindo cidade
+2025-05-22 04:16:05,824 - P11992 - INFO - Buscando cidade: Rua Riachuelo cidade PR
+2025-05-22 04:16:08,578 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 04:16:08,579 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 04:16:08,579 - P11992 - INFO - Tempo de execução de processamento completo do médico: 47.54 segundos
+2025-05-22 04:16:08,579 - P11992 - INFO - Resultado processado: {'Hash': 'd77f0fdd37143e1255061426311097db4a1e4181c6b57c24a68ba548079ac2a6', 'CRM': '53757', 'UF': 'PR', 'Firstname': 'FERNANDA', 'LastName': 'MAYER', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Riachuelo, 115', 'Address A1': 'Rua Riachuelo', 'Numero A1': '115', 'Complement A1': 'Conjunto D', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '41) 99612-0965', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cfm@portalmedico.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:16:08,580 - P11992 - INFO - Progresso: 65.3%
+2025-05-22 04:16:08,581 - P11992 - INFO - Executando coleta de lixo
+2025-05-22 04:16:08,660 - P11992 - INFO - Após coleta de lixo Uso de memória: 134.43 MB
+2025-05-22 04:16:08,661 - P11992 - INFO - Tempo de execução de processamento do médico 1: 48.97 segundos
+2025-05-22 04:16:08,661 - P11992 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 04:16:08,661 - P11992 - INFO - Nome: ADRIELY FERNANDA DOS SANTOS
+2025-05-22 04:16:08,661 - P11992 - INFO - Início do processamento Uso de memória: 134.43 MB
+2025-05-22 04:16:08,661 - P11992 - INFO - Iniciando busca para: ADRIELY FERNANDA DOS SANTOS CRM 55286 PR telefone e-mail endereço
+2025-05-22 04:16:09,401 - P11992 - INFO - SearX results: 15 URLs
+2025-05-22 04:16:09,402 - P11992 - INFO - Após SearX Uso de memória: 134.43 MB
+2025-05-22 04:16:12,038 - P11992 - INFO - Google results: 6 URLs
+2025-05-22 04:16:12,038 - P11992 - INFO - Após Google Uso de memória: 134.99 MB
+2025-05-22 04:16:14,650 - P11992 - INFO - Bing results: 0 URLs
+2025-05-22 04:16:14,650 - P11992 - INFO - Após Bing Uso de memória: 136.04 MB
+2025-05-22 04:16:14,651 - P11992 - INFO - Total de URLs únicas: 16
+2025-05-22 04:16:14,651 - P11992 - INFO - Processando URL 1/16: https://www.ioepa.com.br/pages/2022/2022.10.18.DOE.pdf
+2025-05-22 04:16:14,651 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2022/2022.10.18.DOE.pdf
+2025-05-22 04:16:14,651 - P11992 - INFO - Após processar URL 1 Uso de memória: 136.04 MB
+2025-05-22 04:16:14,651 - P11992 - INFO - Processando URL 2/16: https://consultacrm.com.br/
+2025-05-22 04:16:18,788 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:16:18,801 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:16:18,810 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:16:18,811 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:16:18,811 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:16:18,812 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:16:18,812 - P11992 - INFO - Após processar URL 2 Uso de memória: 136.80 MB
+2025-05-22 04:16:18,812 - P11992 - INFO - Processando URL 3/16: https://www.mpsp.mp.br/w/do_25_02_2022
+2025-05-22 04:16:21,225 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7b7842f38b9333c682fd0be00373d38a.html
+2025-05-22 04:16:21,227 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:16:21,227 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:16:21,227 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:16:21,227 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:16:21,228 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:16:21,228 - P11992 - INFO - Após processar URL 3 Uso de memória: 136.79 MB
+2025-05-22 04:16:21,228 - P11992 - INFO - Processando URL 4/16: https://www.igepps.pa.gov.br/sites/default/files/2023-01/2022.12.26.DOE.pdf
+2025-05-22 04:16:21,228 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.igepps.pa.gov.br/sites/default/files/2023-01/2022.12.26.DOE.pdf
+2025-05-22 04:16:21,228 - P11992 - INFO - Após processar URL 4 Uso de memória: 136.79 MB
+2025-05-22 04:16:21,228 - P11992 - INFO - Processando URL 5/16: https://www.infosaude.com.br/cnes/41346-adrielly-fernandes-dos-santos
+2025-05-22 04:16:23,457 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\a4bd8e1f7c9f3df1fb98a38193059c8b.html
+2025-05-22 04:16:23,477 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:16:23,478 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:16:23,478 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:16:23,478 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:16:23,479 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:16:23,479 - P11992 - INFO - Após processar URL 5 Uso de memória: 136.80 MB
+2025-05-22 04:16:23,479 - P11992 - INFO - Processando URL 6/16: https://cliniguia.com/unidades/londrina-pr/adrielly-fernandes-dos-santos-9325670/
+2025-05-22 04:16:26,981 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e5ee1d041040cf218db7987921877015.html
+2025-05-22 04:16:27,032 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:16:27,032 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:16:27,033 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:16:27,033 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:16:27,033 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:16:27,033 - P11992 - INFO - Após processar URL 6 Uso de memória: 136.80 MB
+2025-05-22 04:16:27,033 - P11992 - INFO - Processando URL 7/16: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 04:16:29,138 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 04:16:29,149 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:16:29,150 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:16:29,150 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:16:29,150 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:16:29,150 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:16:29,150 - P11992 - INFO - Após processar URL 7 Uso de memória: 136.80 MB
+2025-05-22 04:16:29,151 - P11992 - INFO - Processando URL 8/16: https://ioepa.com.br/pages/2022/2022.12.26.DOE.pdf
+2025-05-22 04:16:29,151 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://ioepa.com.br/pages/2022/2022.12.26.DOE.pdf
+2025-05-22 04:16:29,151 - P11992 - INFO - Após processar URL 8 Uso de memória: 136.80 MB
+2025-05-22 04:16:29,151 - P11992 - INFO - Processando URL 9/16: https://www.altofeliz.rs.gov.br/web/imgs/arquivos/publicacao-famurs-n-86-de-17-de-agosto-de-20231692271232.pdf
+2025-05-22 04:16:29,151 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.altofeliz.rs.gov.br/web/imgs/arquivos/publicacao-famurs-n-86-de-17-de-agosto-de-20231692271232.pdf
+2025-05-22 04:16:29,152 - P11992 - INFO - Após processar URL 9 Uso de memória: 136.80 MB
+2025-05-22 04:16:29,152 - P11992 - INFO - Processando URL 10/16: https://pt.scribd.com/document/604646459/2022-10-18-DOE
+2025-05-22 04:16:35,004 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\3bfcea3b565476a035ddfffc52e44c4b.html
+2025-05-22 04:16:35,290 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:16:35,290 - P11992 - INFO - Candidates phone: 57 items
+2025-05-22 04:16:35,291 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:16:35,291 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 04:16:35,291 - P11992 - INFO - Candidates cep: 13 items
+2025-05-22 04:16:35,291 - P11992 - INFO - Após processar URL 10 Uso de memória: 141.53 MB
+2025-05-22 04:16:35,291 - P11992 - INFO - Processando URL 11/16: https://www.crmpr.org.br/atualiza/listar.php/1000
+2025-05-22 04:16:37,692 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ef9ecbfd4e4ebf12f11d844e151b4f0b.html
+2025-05-22 04:16:37,807 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:16:37,808 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:16:37,808 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:16:37,808 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:16:37,808 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:16:37,808 - P11992 - INFO - Após processar URL 11 Uso de memória: 138.00 MB
+2025-05-22 04:16:37,809 - P11992 - INFO - Processando URL 12/16: https://sistemadje.tjmt.jus.br/publicacoes/10292-2018%20C1%20Tribunal%20de%20Justi%C3%A7a.pdf
+2025-05-22 04:16:37,809 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/10292-2018%20C1%20Tribunal%20de%20Justi%C3%A7a.pdf
+2025-05-22 04:16:37,809 - P11992 - INFO - Após processar URL 12 Uso de memória: 138.00 MB
+2025-05-22 04:16:37,809 - P11992 - INFO - Processando URL 13/16: https://alisaude.com.br/unidade/parana/londrina/adrielly-fernandes-dos-santos
+2025-05-22 04:16:43,389 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\15bd4475ca011631309f958d4e1a8d1f.html
+2025-05-22 04:16:43,407 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 04:16:43,407 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:16:43,407 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:16:43,407 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 04:16:43,407 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:16:43,408 - P11992 - INFO - Após processar URL 13 Uso de memória: 138.01 MB
+2025-05-22 04:16:43,408 - P11992 - INFO - Processando URL 14/16: https://www.crmpr.org.br/
+2025-05-22 04:16:45,797 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\4e800dc31afe30c6d44b5b063ac5fe67.html
+2025-05-22 04:16:45,828 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:16:45,828 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:16:45,828 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:16:45,829 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:16:45,829 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:16:45,829 - P11992 - INFO - Após processar URL 14 Uso de memória: 138.01 MB
+2025-05-22 04:16:45,829 - P11992 - INFO - Processando URL 15/16: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 04:16:49,536 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 04:16:49,576 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:16:49,576 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:16:49,576 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:16:49,576 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:16:49,576 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:16:49,577 - P11992 - INFO - Após processar URL 15 Uso de memória: 138.04 MB
+2025-05-22 04:16:49,577 - P11992 - INFO - Processando URL 16/16: https://portal.cfm.org.br/busca-medicos
+2025-05-22 04:16:52,973 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 04:16:53,028 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:16:53,034 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:16:53,035 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:16:53,035 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 04:16:53,035 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:16:53,035 - P11992 - INFO - Após processar URL 16 Uso de memória: 138.04 MB
+2025-05-22 04:16:53,036 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:16:53,037 - P11992 - INFO - Ranked address: 4 items
+2025-05-22 04:16:53,039 - P11992 - INFO - Ranked phone: 60 items
+2025-05-22 04:16:53,043 - P11992 - INFO - Ranked email: 5 items
+2025-05-22 04:16:53,048 - P11992 - INFO - Ranked complement: 3 items
+2025-05-22 04:16:53,055 - P11992 - INFO - Ranked cep: 16 items
+2025-05-22 04:16:53,062 - P11992 - INFO - Após agregação Uso de memória: 138.04 MB
+2025-05-22 04:16:53,064 - P11992 - INFO - Validando endereço: ['Rua Pernambuco, 390', 'R. Está registrada com a razão social Adrielly Fernandes Dos Santos e CNES 9325670', 'Rua Pernambuco 390 Sala 808']
+2025-05-22 04:16:53,073 - P11992 - INFO - Endereço validado: Rua Pernambuco, 390
+2025-05-22 04:16:53,078 - P11992 - INFO - Limpando texto extenso para campo address: Rua Pernambuco, 390...
+2025-05-22 04:16:53,079 - P11992 - INFO - Texto limpo: Rua Pernambuco, 390
+2025-05-22 04:16:53,082 - P11992 - INFO - Validando telefone: ['', '(91) 3216-8829', '(91) 3216-8831']
+2025-05-22 04:16:53,083 - P11992 - INFO - Limpando texto extenso para campo phone: (91) 3216-8829...
+2025-05-22 04:16:53,085 - P11992 - INFO - Texto limpo: 91) 3216-8829
+2025-05-22 04:16:53,093 - P11992 - INFO - Telefone validado: 91) 3216-8829
+2025-05-22 04:16:53,105 - P11992 - INFO - Validando email: ['adriellyfsa@hotmail.com', 'suporte@ioe.pa.gov.br', 'atualiza@crmpr.org.br']
+2025-05-22 04:16:53,121 - P11992 - INFO - Limpando texto extenso para campo email: adriellyfsa@hotmail.com...
+2025-05-22 04:16:53,129 - P11992 - INFO - Texto limpo: adriellyfsa@hotmail.com
+2025-05-22 04:16:53,134 - P11992 - INFO - Email validado: adriellyfsa@hotmail.com
+2025-05-22 04:16:53,135 - P11992 - INFO - Validando complemento: ['Bloco 07) - Rodada 01 PDF 94% (31) Memorex CNU (Bloco 0', 'Sala 808  ', 'Conjunto D']
+2025-05-22 04:16:53,136 - P11992 - INFO - Limpando texto extenso para campo complement: Bloco 07) - Rodada 01 PDF 94% (31) Memorex CNU (Bl...
+2025-05-22 04:16:53,136 - P11992 - INFO - Texto limpo: Bloco 07) - Rodada 01 PDF 94%
+2025-05-22 04:16:53,139 - P11992 - INFO - Complemento validado: Bloco 07) - Rodada 01 PDF 94%
+2025-05-22 04:16:53,139 - P11992 - INFO - Descobrindo cidade
+2025-05-22 04:16:53,143 - P11992 - INFO - Buscando cidade: Rua Pernambuco cidade PR
+2025-05-22 04:16:55,406 - P11992 - INFO - Cidade encontrada: Colorado
+2025-05-22 04:16:55,406 - P11992 - INFO - Limpando texto extenso para campo city: Colorado...
+2025-05-22 04:16:55,406 - P11992 - INFO - Texto limpo: Colorado
+2025-05-22 04:16:55,406 - P11992 - INFO - Cidade descoberta: Colorado
+2025-05-22 04:16:55,407 - P11992 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 04:16:55,407 - P11992 - INFO - Iniciando busca de CEP em cascata para: Rua Pernambuco, Colorado, PR
+2025-05-22 04:16:55,407 - P11992 - INFO - Método 1: ViaCEP API
+2025-05-22 04:16:55,407 - P11992 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/PR/colorado/rua%20pernambuco/json/
+2025-05-22 04:16:56,091 - P11992 - INFO - Dados encontrados no ViaCEP: {'cep': '86690-000', 'logradouro': '', 'complemento': '', 'unidade': '', 'bairro': '', 'localidade': 'Colorado', 'uf': 'PR', 'estado': 'Paraná', 'regiao': 'Sul', 'ibge': '4105904', 'gia': '', 'ddd': '44', 'siafi': '7515'}
+2025-05-22 04:16:56,093 - P11992 - INFO - CEP encontrado via ViaCEP: 86690-000
+2025-05-22 04:16:56,093 - P11992 - INFO - Dados de CEP encontrados: {'cep': '86690-000', 'logradouro': '', 'complemento': '', 'unidade': '', 'bairro': '', 'localidade': 'Colorado', 'uf': 'PR', 'estado': 'Paraná', 'regiao': 'Sul', 'ibge': '4105904', 'gia': '', 'ddd': '44', 'siafi': '7515'}
+2025-05-22 04:16:56,094 - P11992 - INFO - Limpando texto extenso para campo city: Colorado...
+2025-05-22 04:16:56,094 - P11992 - INFO - Texto limpo: Colorado
+2025-05-22 04:16:56,094 - P11992 - INFO - Limpando texto extenso para campo state: PR...
+2025-05-22 04:16:56,094 - P11992 - INFO - Texto limpo: PR
+2025-05-22 04:16:56,094 - P11992 - INFO - Tempo de execução de processamento completo do médico: 47.43 segundos
+2025-05-22 04:16:56,095 - P11992 - INFO - Resultado processado: {'Hash': '9318da457479fa93f8ff6c89091996937cb328f8691539097188033ccfec33e2', 'CRM': '55286', 'UF': 'PR', 'Firstname': 'ADRIELY', 'LastName': 'FERNANDA DOS SANTOS', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Pernambuco, 390', 'Address A1': 'Rua Pernambuco', 'Numero A1': '390', 'Complement A1': 'Bloco 07) - Rodada 01 PDF 94%', 'Bairro A1': '', 'postal code A1': '86690-000', 'City A1': 'Colorado', 'State A1': 'PR', 'Phone A1': '91) 3216-8829', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'adriellyfsa@hotmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:16:56,095 - P11992 - INFO - Progresso: 65.5%
+2025-05-22 04:16:56,095 - P11992 - INFO - Tempo de execução de processamento do médico 2: 47.43 segundos
+2025-05-22 04:16:56,096 - P11992 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 04:16:56,096 - P11992 - INFO - Nome: RICARDO LUIZ DE GUIMARÃES GERMANO
+2025-05-22 04:16:56,096 - P11992 - INFO - Início do processamento Uso de memória: 137.77 MB
+2025-05-22 04:16:56,097 - P11992 - INFO - Iniciando busca para: RICARDO LUIZ DE GUIMARÃES GERMANO CRM 117239 RJ telefone e-mail endereço
+2025-05-22 04:16:56,957 - P11992 - INFO - SearX results: 14 URLs
+2025-05-22 04:16:56,958 - P11992 - INFO - Após SearX Uso de memória: 137.77 MB
+2025-05-22 04:16:59,527 - P11992 - INFO - Google results: 7 URLs
+2025-05-22 04:16:59,527 - P11992 - INFO - Após Google Uso de memória: 138.89 MB
+2025-05-22 04:17:02,237 - P11992 - INFO - Bing results: 0 URLs
+2025-05-22 04:17:02,237 - P11992 - INFO - Após Bing Uso de memória: 139.69 MB
+2025-05-22 04:17:02,237 - P11992 - INFO - Total de URLs únicas: 20
+2025-05-22 04:17:02,237 - P11992 - INFO - Processando URL 1/20: https://www.helpsaude.com/Ricardo-Luiz-de-Guimaraes-Germano.RJ
+2025-05-22 04:17:08,805 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\a035ed6a1cdfadce93798b7559b9e715.html
+2025-05-22 04:17:08,818 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:17:08,819 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:17:08,819 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:17:08,819 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:17:08,819 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:17:08,819 - P11992 - INFO - Após processar URL 1 Uso de memória: 139.71 MB
+2025-05-22 04:17:08,819 - P11992 - INFO - Processando URL 2/20: https://www.medicosbrasil.com/profissional/ricardo-luiz-de-guimaraes-germano
+2025-05-22 04:17:12,477 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\8e354c9143d146d98f5be3e79d0b436c.html
+2025-05-22 04:17:12,517 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:17:12,518 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:17:12,518 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:17:12,518 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:17:12,518 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:17:12,518 - P11992 - INFO - Após processar URL 2 Uso de memória: 131.31 MB
+2025-05-22 04:17:12,518 - P11992 - INFO - Processando URL 3/20: https://www2.fab.mil.br/hfag/index.php/chefe/ex-comandantes
+2025-05-22 04:17:15,333 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\f3b53b62d07849c926fe8c6014d38bd0.html
+2025-05-22 04:17:15,355 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:17:15,355 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:17:15,355 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:17:15,356 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:17:15,356 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:17:15,356 - P11992 - INFO - Após processar URL 3 Uso de memória: 131.71 MB
+2025-05-22 04:17:15,357 - P11992 - INFO - Processando URL 4/20: https://sistemadje.tjmt.jus.br/publicacoes/8692-2011.pdf
+2025-05-22 04:17:15,357 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/8692-2011.pdf
+2025-05-22 04:17:15,357 - P11992 - INFO - Após processar URL 4 Uso de memória: 131.71 MB
+2025-05-22 04:17:15,358 - P11992 - INFO - Processando URL 5/20: https://portal.cfm.org.br/busca-medicos
+2025-05-22 04:17:18,518 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 04:17:18,552 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:17:18,552 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:17:18,553 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:17:18,553 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 04:17:18,553 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:17:18,553 - P11992 - INFO - Após processar URL 5 Uso de memória: 133.74 MB
+2025-05-22 04:17:18,553 - P11992 - INFO - Processando URL 6/20: https://www2.fab.mil.br/hfag/index.php/slideshow/519-hfag-realiza-39-jornada-cientifica-2024
+2025-05-22 04:17:20,770 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\81b91f71774cb9022faa103d4fc63dd3.html
+2025-05-22 04:17:20,788 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:17:20,788 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:17:20,789 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:17:20,789 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:17:20,789 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:17:20,789 - P11992 - INFO - Após processar URL 6 Uso de memória: 134.04 MB
+2025-05-22 04:17:20,789 - P11992 - INFO - Processando URL 7/20: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 04:17:24,242 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 04:17:24,253 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:17:24,253 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:17:24,253 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:17:24,253 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:17:24,254 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:17:24,254 - P11992 - INFO - Após processar URL 7 Uso de memória: 134.66 MB
+2025-05-22 04:17:24,254 - P11992 - INFO - Processando URL 8/20: https://www2.fab.mil.br/hca/index.php/slideshow/374-hca-realiza-palestra-sobre-autoridade
+2025-05-22 04:17:27,096 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ccb39fc98c4b2a1b658ea2d3bb453f9d.html
+2025-05-22 04:17:27,113 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:17:27,113 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:17:27,113 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:17:27,113 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:17:27,113 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:17:27,113 - P11992 - INFO - Após processar URL 8 Uso de memória: 134.68 MB
+2025-05-22 04:17:27,114 - P11992 - INFO - Processando URL 9/20: https://guiamedico.cremesp.org.br/
+2025-05-22 04:17:30,266 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 04:17:30,272 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:17:30,272 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:17:30,273 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:17:30,274 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:17:30,275 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:17:30,275 - P11992 - INFO - Após processar URL 9 Uso de memória: 134.69 MB
+2025-05-22 04:17:30,275 - P11992 - INFO - Processando URL 10/20: https://www2.fab.mil.br/dirsa/phocadownload/revista2/Opiniao_do_Especialista2.pdf
+2025-05-22 04:17:30,276 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www2.fab.mil.br/dirsa/phocadownload/revista2/Opiniao_do_Especialista2.pdf
+2025-05-22 04:17:30,276 - P11992 - INFO - Após processar URL 10 Uso de memória: 134.69 MB
+2025-05-22 04:17:30,276 - P11992 - INFO - Processando URL 11/20: https://www.boaconsulta.com/especialista/ricardo-luiz-de-guimaraes-germano-6105c0f49b22ae27c3000659
+2025-05-22 04:17:33,700 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\1e6884e33ecc6cbe60d5bcecd47471ca.html
+2025-05-22 04:17:33,787 - P11992 - INFO - Candidates address: 11 items
+2025-05-22 04:17:33,787 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:17:33,787 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:17:33,787 - P11992 - INFO - Candidates complement: 5 items
+2025-05-22 04:17:33,788 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:17:33,788 - P11992 - INFO - Após processar URL 11 Uso de memória: 137.17 MB
+2025-05-22 04:17:33,788 - P11992 - INFO - Processando URL 12/20: http://www.transparencia.cremerj.org.br:8098/planejamento/registroMedico/pesquisar
+2025-05-22 04:17:35,885 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\19128e1d0b16c1bd37c280ce751655f7.html
+2025-05-22 04:17:35,911 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:17:35,911 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:17:35,912 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:17:35,912 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:17:35,912 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:17:35,913 - P11992 - INFO - Após processar URL 12 Uso de memória: 137.24 MB
+2025-05-22 04:17:35,913 - P11992 - INFO - Processando URL 13/20: https://www2.fab.mil.br/dirsa/index.php/slideshow/466-dirsa-realiza-cerimonia-e-torneio-alusivos-aos-80-anos-do-sisau
+2025-05-22 04:17:38,567 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e3b39eefe466272b4e7c27c74985a1a1.html
+2025-05-22 04:17:38,583 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:17:38,584 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:17:38,584 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:17:38,584 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:17:38,584 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:17:38,584 - P11992 - INFO - Após processar URL 13 Uso de memória: 137.25 MB
+2025-05-22 04:17:38,585 - P11992 - INFO - Processando URL 14/20: https://www2.fab.mil.br/hfag/index.php/slideshow/298-39-anos-hfag
+2025-05-22 04:17:40,967 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\fdd1e325fb50a55d3d872006683c499a.html
+2025-05-22 04:17:40,991 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:17:40,997 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:17:41,003 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:17:41,004 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:17:41,005 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:17:41,006 - P11992 - INFO - Após processar URL 14 Uso de memória: 137.26 MB
+2025-05-22 04:17:41,006 - P11992 - INFO - Processando URL 15/20: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 04:17:44,121 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 04:17:44,171 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:17:44,171 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:17:44,172 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:17:44,172 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:17:44,172 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:17:44,172 - P11992 - INFO - Após processar URL 15 Uso de memória: 137.29 MB
+2025-05-22 04:17:44,172 - P11992 - INFO - Processando URL 16/20: https://www.doctuo.com.br/medicos/ricardo-luiz-de-guimaraes-germano
+2025-05-22 04:17:44,172 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctuo.com.br/medicos/ricardo-luiz-de-guimaraes-germano
+2025-05-22 04:17:44,173 - P11992 - INFO - Após processar URL 16 Uso de memória: 137.29 MB
+2025-05-22 04:17:44,173 - P11992 - INFO - Processando URL 17/20: https://guiasaudebrasil.com.br/profissional/a61613da1b36b008-ricardo-luiz-de-guimaraes-germano
+2025-05-22 04:17:49,834 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\a302efde1d77bfe17962b25213d1451d.html
+2025-05-22 04:17:49,843 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:17:49,843 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:17:49,843 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:17:49,843 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:17:49,843 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:17:49,844 - P11992 - INFO - Após processar URL 17 Uso de memória: 137.30 MB
+2025-05-22 04:17:49,844 - P11992 - INFO - Processando URL 18/20: https://www2.fab.mil.br/haaf/index.php/chefe/ex-comandantes
+2025-05-22 04:17:52,409 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\b00968d042ab31a10f3830bf6525cbf0.html
+2025-05-22 04:17:52,434 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:17:52,434 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:17:52,435 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:17:52,435 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:17:52,435 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:17:52,435 - P11992 - INFO - Após processar URL 18 Uso de memória: 137.30 MB
+2025-05-22 04:17:52,436 - P11992 - INFO - Processando URL 19/20: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20180510&idorgao=347
+2025-05-22 04:17:55,843 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\643687ea4b577b3ef3e2ed5fe6f6e7a5.html
+2025-05-22 04:17:57,246 - P11992 - INFO - Candidates address: 39 items
+2025-05-22 04:17:57,247 - P11992 - INFO - Candidates phone: 5 items
+2025-05-22 04:17:57,249 - P11992 - INFO - Candidates email: 7 items
+2025-05-22 04:17:57,249 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:17:57,249 - P11992 - INFO - Candidates cep: 19 items
+2025-05-22 04:17:57,250 - P11992 - INFO - Após processar URL 19 Uso de memória: 132.37 MB
+2025-05-22 04:17:57,250 - P11992 - INFO - Processando URL 20/20: https://consultacrm.com.br/
+2025-05-22 04:17:59,380 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:17:59,394 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:17:59,396 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:17:59,396 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:17:59,399 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:17:59,401 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:17:59,402 - P11992 - INFO - Após processar URL 20 Uso de memória: 134.20 MB
+2025-05-22 04:17:59,403 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:17:59,403 - P11992 - INFO - Ranked address: 51 items
+2025-05-22 04:17:59,404 - P11992 - INFO - Ranked phone: 7 items
+2025-05-22 04:17:59,404 - P11992 - INFO - Ranked email: 8 items
+2025-05-22 04:17:59,407 - P11992 - INFO - Ranked complement: 6 items
+2025-05-22 04:17:59,407 - P11992 - INFO - Ranked cep: 23 items
+2025-05-22 04:17:59,408 - P11992 - INFO - Após agregação Uso de memória: 134.20 MB
+2025-05-22 04:17:59,409 - P11992 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Avenida Das Américas, 3333', 'Rua Gonzaga Bastos, 224']
+2025-05-22 04:17:59,410 - P11992 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 04:17:59,414 - P11992 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 04:17:59,418 - P11992 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 04:17:59,420 - P11992 - INFO - Validando telefone: ['(11) 4349-9900', '(21) 3184-7050', '(27) 3198-3042']
+2025-05-22 04:17:59,421 - P11992 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 04:17:59,421 - P11992 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 04:17:59,422 - P11992 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 04:17:59,422 - P11992 - INFO - Validando email: ['cfm@portalmedico.org.br', '1civel-vitoria@tjes.jus.br', '1criminal-vitoria@tjes.jus.br']
+2025-05-22 04:17:59,422 - P11992 - INFO - Limpando texto extenso para campo email: cfm@portalmedico.org.br...
+2025-05-22 04:17:59,422 - P11992 - INFO - Texto limpo: cfm@portalmedico.org.br
+2025-05-22 04:17:59,423 - P11992 - INFO - Email validado: cfm@portalmedico.org.br
+2025-05-22 04:17:59,423 - P11992 - INFO - Validando complemento: ['Conjunto D', 'Sala 1114', 'Salas 501 / 502 / 503 Copacabana']
+2025-05-22 04:17:59,426 - P11992 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 04:17:59,427 - P11992 - INFO - Texto limpo: Conjunto D
+2025-05-22 04:17:59,431 - P11992 - INFO - Complemento validado: Conjunto D
+2025-05-22 04:17:59,433 - P11992 - INFO - Descobrindo cidade
+2025-05-22 04:17:59,433 - P11992 - INFO - Buscando cidade: Rua Frei Caneca cidade RJ
+2025-05-22 04:18:02,108 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 04:18:02,115 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 04:18:02,120 - P11992 - INFO - Tempo de execução de processamento completo do médico: 66.02 segundos
+2025-05-22 04:18:02,133 - P11992 - INFO - Resultado processado: {'Hash': '8c21385adfe7acc341b07a71588409e2245651c2349150a5a1ad713874009c0c', 'CRM': '117239', 'UF': 'RJ', 'Firstname': 'RICARDO', 'LastName': 'LUIZ DE GUIMARÃES GERMANO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Conjunto D', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cfm@portalmedico.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:18:02,152 - P11992 - INFO - Salvando lote de resultados
+2025-05-22 04:18:02,181 - P11992 - INFO - Após salvar resultados Uso de memória: 133.23 MB
+2025-05-22 04:18:02,205 - P11992 - INFO - Progresso: 66.0%
+2025-05-22 04:18:02,206 - P11992 - INFO - Tempo de execução de processamento do médico 3: 66.11 segundos
+2025-05-22 04:18:02,206 - P11992 - INFO - Tempo de execução de processamento do lote completo: 162.52 segundos

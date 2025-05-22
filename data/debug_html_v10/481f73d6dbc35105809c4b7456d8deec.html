@@ -1,0 +1,1944 @@
+<html lang="pt" class="csstransforms csstransforms3d csstransitions"><head><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Prefeitura de Juazeiro do Norte">
+    <meta name="description" content="Prefeito(a) e Vice prefeito(a) Atuais e Anteriores.">
+    <meta name="keywords" content=" Transparência, Notícias, Municípios, Leis, Publicações, LRF, Lei de responsabilidade fiscal, Diário, Portarias, Decretos, Matérias, Vereadores, Comissões, Sessões, Diárias, Receitas, Despesas, Prefeitura Municipal de Juazeiro do Norte, Pref ">
+    <meta property="og:image" itemprop="image" content="http://juazeirodonorte.ce.gov.br/imagens/TopoTimbre.png">
+    <title>Prefeitura de Juazeiro do Norte</title>
+
+    <!-- core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/style.php" rel="stylesheet">
+    <link href="css/iconestelas.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+    <link rel="shortcut icon" href="imagens/icomuni.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+
+</head>
+<!--/head-->
+
+<body href="#" id="ancora">
+    
+<link href="/css/satisfacao/style.css?v=2.0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+<script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/X-oVtzDcTGjZVms4LEgykmCV/recaptcha__pt_br.js" crossorigin="anonymous" integrity="sha384-157E0cjRcD3mr3csqJ5H80B0+/a5EWkCwUJshizwlWj43Rim2KdN4Ra0uZ32vFR/"></script><script>
+var tam = 15;
+
+function mudaFonte(tipo, elemento) {
+    if (tipo == "mais") {
+        if (tam < 24)
+            tam += 1;
+    } else {
+        if (tam > 10)
+            tam -= 1;
+    }
+    document.getElementById("Noticia").style.fontSize = tam + "px";
+    document.getElementById("Descricao").style.fontSize = tam + "px";
+}
+
+function printDiv(id, pg, url) {
+    var oPrint, oJan;
+    oPrint = window.document.getElementById(id).innerHTML;
+    oJan = window.open(pg);
+    oJan.document.write(oPrint);
+    oJan.document.write(url);
+    oJan.window.print();
+    oJan.document.close();
+    oJan.focus();
+}
+
+
+
+// Função contraste INICIO
+(function() {
+    var Contrast = {
+        storage: 'contrastState',
+        cssClass: 'contrast',
+        currentState: null,
+        check: checkContrast,
+        getState: getContrastState,
+        setState: setContrastState,
+        toogle: toogleContrast,
+        updateView: updateViewContrast
+    };
+
+    window.toggleContrast = function() {
+        Contrast.toogle();
+    };
+
+    Contrast.check();
+
+    function checkContrast() {
+        this.updateView();
+    }
+
+    function getContrastState() {
+        return localStorage.getItem(this.storage) === 'true';
+    }
+
+    function setContrastState(state) {
+        localStorage.setItem(this.storage, '' + state);
+        this.currentState = state;
+        this.updateView();
+    }
+
+    function updateViewContrast() {
+        var body = document.body;
+
+        if (this.currentState === null)
+            this.currentState = this.getState();
+
+        if (this.currentState)
+            body.classList.add(this.cssClass);
+        else
+            body.classList.remove(this.cssClass);
+    }
+
+    function toogleContrast() {
+        this.setState(!this.currentState);
+    }
+})();
+// Função contraste FIM
+</script>
+
+
+
+<!-- CSS style offcanvas navbar --> 
+<style>
+
+.offcanvas-collapse {
+position: fixed;
+bottom: 0;
+right: 100%;
+left:-300px;
+width: 300px;
+overflow: auto;
+visibility: hidden;
+background-color: #242768;
+transition-timing-function: ease-in-out;
+transition-duration: .3s;
+transition-property: left, visibility;
+z-index: 1045;
+}
+.offcanvas-collapse {
+    align-items:start;
+/*   Adds a subtle drop shadow   */
+            -moz-background-clip: padding;     /* Firefox 3.6 */
+        -webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+        background-clip: padding-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+border-right:5px solid rgba(0, 0, 0, 0.2);
+height: auto;
+min-height: 100%;
+}
+
+/* Makes the nav visibile with the open class */
+.offcanvas-collapse.open {
+    left: 0;
+    visibility: visible;
+}
+
+
+.navbar-expand-lg .navbar-nav {
+-ms-flex-direction: column;
+flex-direction: column;
+}
+
+.offcanvas-collapse>.navbar-nav>li>a:hover {
+    color: #fff !important;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.offcanvas-collapse>.navbar-nav > li {
+    margin-left: 1px;
+}
+
+.offcanvas-collapse>.navbar-nav>.dropdown.open{
+    color: #2C307E !important;
+    background-color: #fff !important;
+    /* opacity: 0.5 !important; */
+}
+
+.offcanvas-collapse>.navbar-nav>.dropdown.open>a{
+    color: #fff !important;
+    /* background-color: #000 !important; */
+    opacity: 0.5 !important;
+}
+
+.offcanvas-collapse.navbar-collapse {
+    padding-right: 0px !important; 
+    padding-left: 0px !important;
+}
+
+
+.dropdown-submenu { position:relative;} .dropdown-submenu>.dropdown-menu {top:0; left:100%; margin-top:-6px;}
+
+
+/* Botão de fechar */
+.offcanvas-close {
+  position: fixed;
+  top: 15px;
+  left: 300px; /* Ajuste de posição */
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 1050; /* Sobrepõe o menu */
+}
+.open>.dropdown-menu-offcanvas {
+    display: contents !important;
+}
+
+ /* Estilo da backdrop */
+ .offcanvas-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1040;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+.offcanvas-backdrop.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdown-menu-acessibilidade li a {
+ color: #2C307E !important ;
+}
+
+.dropdown-toggle-acessibilidade:hover .dropdown-menu-acessibilidade { 
+ display: block !important;
+}
+/* 
+    navbar-dafault-main entra em conflito com .navbar-default quando o MenuDegrade está ativo
+    Esse conflito deixa o menu branco
+*/
+
+.navbar-dafault-main {
+    background-image: url(""), 
+                      url("");
+    background-repeat: no-repeat, no-repeat ;
+    background-position: left, right ;
+}
+.social-links-top {
+    /* border-left: 1px solid #fff; */
+}
+
+</style>
+
+
+
+
+<!-- INÍCIO DO TOPO DO SITE -->
+<header id="header" class=" navbar navbar-fixed-top wet-asphalt" style="border:0px; background-image:url(/imagens/top/Background34.jpg);">
+        <div class="container-fluid topo-option-1 color-topo">
+        <div class="container">
+            <div class="row" id="font-setting-buttons" style="position: relative; z-index: 5; line-height: 33px; display: flex; justify-content: flex-end; gap: .3em; align-items: center;">
+
+                        
+                        <div class="title__cliente" style="margin-bottom: 0px; padding-left:0; padding-right:0; margin-right: auto; color: #fff;">
+                            <a href="https://www.juazeirodonorte.ce.gov.br"><span>Prefeitura Municipal de Juazeiro do Norte</span></a>
+                        </div>
+
+                        
+                            <div style="margin-bottom: 0px; padding-left:0; padding-right:0;width: 130px; "><a href="/ouvidoria"><i class="bi bi-headset"></i> <span class="nomefora" title="Ouvidoria da entidade">Ouvidoria/Sic</span></a></div>
+
+                    
+                
+
+                <div style="margin-bottom: 0px; padding-left:0; padding-right:0;width: 130px;"><a href="/acessoainformacao.php"><i class="bi bi-info-circle-fill"></i> <span class="nomefora" title="Transparência da entidade">Transparência</span></a></div>
+
+                <!--<div class="col-sm-12 col-xs-12"><a href="campanha.php?pg=COVID-19" style="display: block;color: #fff;line-height: 35px;"> <img width="17" alt='Covid' height="17" src="imagens/covid.png"> <strong>CORONAVÍRUS (COVID-19): </strong><span class='nomefora'>Boletins, Ações, Transparência e material educativo - </span> clique aqui </a></div>-->
+                    <div style="margin-bottom: 0px; float:right; padding-left:0; padding-right:0; width: 130px" class="dropdown dropdown-toggle-acessibilidade"><a href="#" accesskey="1" title="Página de acessibilidade" class="dropdown-toggle" data-toggle="dropdown"><i class="bi bi-emoji-smile"></i> <span class="nomefora">Acessibilidade</span></a>
+                            
+                                <ul class="dropdown-menu dropdown-menu-right dropdown-menu-acessibilidade" style="min-width: 150px; color:#000;">
+                                    <li><a href="/acessibilidade.php" style="cursor:pointer;" title="Página de acessibilidade"><i class="bi bi-emoji-smile"></i> <span class="nomefora">Sobre</span></a></li>
+
+                                    <li><a href="#altocontraste" id="altocontraste" onclick="window.toggleContrast()" style="cursor:pointer;" accesskey="2" title="Aplicar Contraste"><i class="bi bi-toggles"></i> <span class="nomefora">Contraste</span></a></li>
+
+                                    <li> <a class="nav-link increase-me btn-list-top" style="cursor:pointer; " accesskey="A" title="Aumentar texto"><i class="bi bi-plus-square"></i> <span class="nomefora">Aumentar</span></a></li>
+                                    <li><a class="nav-link decrease-me btn-list-top" style="cursor:pointer; " accesskey="D" title="Diminuir texto"> <i class="bi bi-dash-square"></i> <span class="nomefora">Diminuir</span></a></li>
+                                    
+                                    <li><a style="cursor:pointer;" href="https://www.gov.br/governodigital/pt-br/vlibras" target="_blank" accesskey="M" title="VLibras"><i class="fa fa-hand-paper-o"></i> <span class="nomefora">Libras</span></a></li>
+
+                                    <li><a href="/mapadosite" style="cursor: pointer;" title="Mapa do site" accesskey="M"><i class="bi bi-diagram-3-fill"></i> <span class="nomefora">Mapa do site</span></a></li>
+                                </ul>
+                            
+                    </div>
+
+                    <div style="margin-bottom: 0px; padding-left:0; padding-right:0;width: 100px;"><a href="/pesquisa"><i class="bi bi-search"></i> <span class="nomefora" title="Transparência da entidade">Pesquisar</span></a></div>
+
+                <!-- fim de acessibilidade -->
+
+                <!-- redes sociais -->
+                <div class="social-links-top">
+                                                    <a class="nav-link btn-list-top" href="https://www.facebook.com/prefeiturajuazeirodonorte">
+                                    <i class="bi bi-facebook" title="Facebook"></i>
+                                </a>
+                                                    <a class="nav-link btn-list-top" href="https://twitter.com/prefeiturajdn">
+                                    <i class="bi bi-twitter-x" title="X"></i>
+                                </a>
+                                                    <a class="nav-link btn-list-top" href="https://www.youtube.com/channel/UCBoig-jvgP1N3TIXuTQPDAQ">
+                                    <i class="bi bi-youtube" title="YouTube"></i>
+                                </a>
+                                                    <a class="nav-link btn-list-top" href="https://www.instagram.com/prefjuazeirodonorte/?hl=pt-br">
+                                    <i class="bi bi-instagram" title="Instagram"></i>
+                                </a>
+                                                    <a class="nav-link btn-list-top" href="https://juazeiro.ce.gov.br/webmail">
+                                    <i class="bi bi-envelope-fill" title="E-mail"></i>
+                                </a>
+                     <a class="nav-link btn-list-top" href="/campanha">
+                                    <i class="bi bi-virus2" title="Clique aqui CONTRA O CORONAVÍRUS (COVID-19)"></i>
+                                </a>
+                        
+                </div>
+                <!-- redes sociais -->
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid topo-option-mobile color-topo">
+        <div class="container">
+            <div class="row" id="font-setting-buttons" style="line-height: 33px; display: flex; position: relative; z-index: 5;">
+                
+                    <div style="margin-bottom: 0px; padding-left: 7px; padding-right: 10px;"><a href="/acessoainformacao"><i class="bi bi-info-circle-fill"></i> <span title="Transparência da entidade"><strong>Transparência</strong></span></a></div>
+
+                    <div style="margin-bottom: 0px; padding-left:0; padding-right: 10px;"><a href="ouvidoria"><i class="bi bi-headset"></i> <span title="Ouvidoria da entidade"><strong>Ouvidoria </strong></span></a></div>
+
+                    <div style="margin-bottom: 0px; padding-left:0; padding-right: 10px;"><a href="/acessibilidade"><i class="bi bi-emoji-smile"></i> <span title="Acessibilidade"><strong>Acessibilidade</strong></span></a></div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="col-md-12 col-fita" style="padding-bottom: 10px;">
+        <div class="row fitaflex">
+            <div class="col-md-2 fita" style="margin-bottom:0px; border-top: 9px solid; border-image: linear-gradient(45deg, #FEA101, #FEA101 ) 1;">
+            </div>
+            <div class="col-md-2 fita" style="margin-bottom:0px; border-top: 9px solid; border-image: linear-gradient(45deg, #FEA101, #242768 ) 1;">
+            </div>
+            <div class="col-md-2 fita" style="margin-bottom:0px; border-top: 9px solid; border-image: linear-gradient(45deg, #242768, #242768 ) 1;">
+            </div>
+            <div class="col-md-2 fita" style="margin-bottom:0px; border-top: 9px solid; border-image: linear-gradient(45deg, #242768, #e52529 ) 1;">
+            </div>
+            <div class="col-md-2 fita" style="margin-bottom:0px; border-top: 9px solid; border-image: linear-gradient(45deg, #e52529, #e52529 ) 1;">
+            </div>
+            <div class="col-md-2 fita" style="margin-bottom:0px; border-top: 9px solid #e52529;"></div>
+        </div>
+    </div>
+
+    
+    <div class="container container-menu-main" id="logo-top-bar" style="padding-bottom:10px; padding-top:10px; ">
+
+
+
+        <div class="row d-flex-main-menu-center">
+           
+            <div id="centralizarLogo" class="col-6 col-sm-7 col-xs-7 ">
+
+                <a id="" href="/" style="padding-right: 5px; margin-right: 20px"><img id="" src="/imagens/logo.png?time=1747873019" alt="logo"></a>
+            </div>
+
+            <div class="col-6 col-canvas-navbar">
+                <a class="navbar-toggle" data-toggle="offcanvas" style="padding-top: 4px; padding-bottom: 4px; padding-left: 14px; padding-right: 14px; cursor: pointer; color:#fff; " data-target=".offcanvas-collapse">
+                        <span class="fa fa-bars" style="font-size: 25px; color: #000;"></span>
+                </a>
+            </div>
+
+            <div class="col-sm-5 col-xs-5 nomefora">
+                <div class="wow fadeInUp box-pesq animated" style="visibility: visible; animation-name: fadeInUp;">
+                    
+
+                    <a href="/selos" class="break-responsive-header" style="margin-left: 5px"><img style="width: 60px" src="/imagens/imagensselos/verde-p.png" alt="Selo Município Verde - 2022-2023" title="Selo Município Verde - 2022-2023"></a><a href="/selos" class="break-responsive-header" style="margin-left: 5px"><img style="width: 60px" src="/imagens/imagensselos/atricon-ouro-2024-p.png" alt="Ouro Juazeiro" title="Ouro Juazeiro"></a><a href="/selos" class="break-responsive-header" style="margin-left: 5px"><img style="width: 60px" src="/imagens/imagensselos/atricon-diamante-2023-p.png" alt="Diamante 2023" title="Diamante 2023"></a>
+                    
+
+                    <!-- <a href="/pesquisa.php" class="btn btn-primary nomefora"><span class="glyphicon glyphicon-search "
+                            aria-hidden="true"></span> Pesquisa</a> -->
+
+                        <!--
+                        <div class="nomefora" id="google_translate_element"></div>
+                        <script>
+                            function googleTranslateElementInit() {
+                                new google.translate.TranslateElement({
+                                        pageLanguage: 'pt',
+                                        autoDisplay: false,
+                                        includedLanguages: 'de,es,fr,en,it',
+                                        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                                    },
+                                    'google_translate_element');
+                            }
+                        </script>
+                        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                        -->
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- navbar offcanvas -->
+    <nav class="navbar navbar-default navbar-dafault-main" style="border:0px;">
+        <div class="container">
+            <div class="navbar-header navbar-header-main">
+                <a class="navbar-toggle" data-toggle="offcanvas" style="padding-top: 4px; padding-bottom: 4px; padding-left: 14px; padding-right: 14px; cursor: pointer; color:#fff; " data-target=".offcanvas-collapse">
+                    <span class="fa fa-bars" style="font-size: 16px"></span>
+                </a>
+                <a href="pesquisa.php" class="navbar-toggle" style="padding-top: 4px; padding-bottom: 4px; padding-left: 14px; padding-right: 14px; display: none;"><span class="fa fa-search" style="font-size: 16px" aria-hidden="true"></span></a>
+                <a class="navbar-toggle" id="btnperq" href="#" aria-expanded="false" title="Menu de acessibilidade" style="padding-top: 4px; padding-bottom: 4px; padding-left: 14px; padding-right: 14px;  cursor: pointer; display: none;"><i class="fa fa-odnoklassniki" style="font-size: 16px" aria-hidden="true"></i></a>
+                                <a class="navbar-toggle" href="https://juazeiro.ce.gov.br/webmail" target="blank" title="E-mail" style="padding-top: 4px; padding-bottom: 4px; padding-left: 14px; padding-right: 14px;  cursor: pointer; display: none;"><i class="fa fa-envelope" style="font-size: 16px" aria-hidden="true"></i></a>
+                            </div>
+                            
+            
+            <div class="collapse navbar-collapse navbar-collapse-toglee" style="border:0px;">
+                <ul class="nav navbar-nav main-menu" style="margin-top:0px;">
+                    
+                    <li><a href="/" title="Inicio" target=""><i class="fa fa-home fa-lg" aria-hidden="true"></i></a></li>  <li class="dropdown"><a href="/" class="dropdown-toggle" data-toggle="dropdown">PREFEITURA 
+                                                <i class="fa fa-angle-down"></i></a>
+                                                    <ul class="dropdown-menu " style="overflow: auto; max-height:300px; min-width:30px;"><li><a href="/institucional.php">INSTITUCIONAL</a></li><li><a href="/gestores.php">PREFEITO E VICE</a></li><li><a href="/secretarios.php">EQUIPE DE GOVERNO</a></li><li><a href="/agenda.php">AGENDA MUNICIPAL</a></li><li><a href="/galeriagestores.php">GALERIA DE GESTORES</a></li><li><a href="/normativosproprios.php?PREFEITURA=">NORMATIVOS PRÓPRIOS</a></li>		</ul>
+                                            </li>  <li class="dropdown"><a href="/" class="dropdown-toggle" data-toggle="dropdown">O MUNICÍPIO 
+                                                <i class="fa fa-angle-down"></i></a>
+                                                    <ul class="dropdown-menu " style="overflow: auto; max-height:300px; min-width:100px;"><li><a href="/omunicipio.php">DADOS DO MUNICÍPIO</a></li><li><a href="/simbolos.php">SÍMBOLOS</a></li><li><a href="https://juazeirodonorte.ce.gov.br/turismo.php">PONTOS TURÍSTICOS</a></li><li><a href="/conselhos.php" target="_blank">CONSELHOS</a></li><li><a href="/contatos.php#">CONTATOS</a></li><li><a href="/veiculos.php">VEÍCULOS</a></li>		</ul>
+                                            </li><li><a href="https://www.juazeirodonorte.ce.gov.br/secretaria.php">SECRETARIAS</a></li><li><a href="/servicos.php">SERVIÇOS</a></li>  <li class="dropdown"><a href="/lrf.php" class="dropdown-toggle" data-toggle="dropdown">LRF E CONTAS PÚBLICAS <i class="fa fa-angle-down"></i></a>
+                                <ul class="dropdown-menu dropdown-menu-right" style="overflow: auto; max-height:300px; min-width:100px;"><li><a href="/lrf.php?cat=4">RGF - RELATÓRIO DE GESTÃO FISCAL</a></li><li><a href="/lrf.php?cat=7">RREO - RELATÓRIO RESUMIDO DA EXECUÇÃO ORÇAMENTÁRIA</a></li><li><a href="/lrf.php?cat=8">LOA - LEI ORÇAMENTÁRIA ANUAL</a></li><li><a href="/lrf.php?cat=9">LDO - LEI DE DIRETRIZES&nbsp;ORÇAMENTÁRIAS</a></li><li><a href="/lrf.php?cat=17">PPA - PLANO PLURIANUAL</a></li><li><a href="/lrf.php?cat=25">CMED - CRONOGRAMA DA EXECUÇÃO MENSAL DE DESEMBOLSO</a></li><li><a href="/contasdegoverno.php">PCG - PRESTAÇÃO DE CONTAS DE GOVERNO</a></li><li><a href="/contasdegestao.php">PCS - PRESTAÇÃO DE CONTAS DE GESTÃO</a></li>		</ul>
+</li>  <li class="dropdown"><a href="/" class="dropdown-toggle" data-toggle="dropdown">PUBLICAÇÕES 
+                                                <i class="fa fa-angle-down"></i></a>
+                                                    <ul class="dropdown-menu " style="overflow: auto; max-height:300px; min-width:100px;"><li><a href="/diariolista.php">DIÁRIO OFICIAL</a></li><li><a href="/publicacoes.php?grupo=&amp;cat=65&amp;Comp=&amp;sec=&amp;Exerc=&amp;Num=&amp;ta=3&amp;Descricao=&amp;dtini=&amp;dtfim=">CONTAS DETALHADAS</a></li><li><a href="https://www.juazeirodonorte.ce.gov.br/publicacoes.php?grupo=&amp;cat=10&amp;Comp=&amp;sec=&amp;Exerc=&amp;Num=&amp;ta=3&amp;Descricao=&amp;dtini=&amp;dtfim=">EDITAIS</a></li><li><a href="/publicacoes.php?grupo=&amp;cat=33&amp;Comp=&amp;sec=&amp;Exerc=&amp;Num=&amp;ta=3&amp;Descricao=&amp;dtini=&amp;dtfim= ">RECOMENDAÇÃO</a></li><li><a href="/decretos.php">DECRETOS</a></li><li><a href="/publicacoes.php?grupo=&amp;cat=80&amp;Comp=&amp;sec=&amp;Exerc=&amp;Num=&amp;ta=3&amp;Descricao=&amp;dtini=&amp;dtfim=">RELATÓRIOS LIVE</a></li><li><a href="/diarias.php">DIÁRIAS</a></li><li><a href="/contratos.php">CONTRATOS</a></li><li><a href="/leis.php">LEIS</a></li><li><a href="/licitacao.php">LICITAÇÃO</a></li><li><a href="/lrf.php">LRF CONTAS PÚBLICAS</a></li><li><a href="/contasdegoverno">PCG</a></li><li><a href="/contasdegestao">PCS</a></li><li><a href="/portaria.php">PORTARIAS</a></li><li><a href="/processoseletivo.php">PROCESSOS SELETIVOS</a></li><li><a href="/publicacoes.php">OUTRAS</a></li>		</ul>
+                                            </li><li><a href="https://servidor.juazeiro.ce.gov.br/">SERVIDOR</a></li><li><a href="https://lgpd.juazeirodonorte.ce.gov.br/" target="_blank">LGPD</a></li>                </ul>
+            </div>
+        </div>
+        <!--/.container-->
+        
+        <div class="navbar-collapse offcanvas-collapse">
+            <ul class="navbar-nav mr-auto dropdown-menu dropdown-menu-offcanvas">
+
+            <button class="offcanvas-close" aria-label="Close">×</button>
+                
+            <li><a href="/" title="Inicio" target="">INÍCIO</a></li>  <li class="dropdown"><a href="/" class="dropdown-toggle" data-toggle="dropdown">PREFEITURA 
+                                                <i class="fa fa-angle-down"></i></a>
+                                                    <ul class="dropdown-menu " style="overflow: auto; max-height:300px; min-width:30px;"><li><a href="/institucional.php">INSTITUCIONAL</a></li><li><a href="/gestores.php">PREFEITO E VICE</a></li><li><a href="/secretarios.php">EQUIPE DE GOVERNO</a></li><li><a href="/agenda.php">AGENDA MUNICIPAL</a></li><li><a href="/galeriagestores.php">GALERIA DE GESTORES</a></li><li><a href="/normativosproprios.php?PREFEITURA=">NORMATIVOS PRÓPRIOS</a></li>		</ul>
+                                            </li>  <li class="dropdown"><a href="/" class="dropdown-toggle" data-toggle="dropdown">O MUNICÍPIO 
+                                                <i class="fa fa-angle-down"></i></a>
+                                                    <ul class="dropdown-menu " style="overflow: auto; max-height:300px; min-width:100px;"><li><a href="/omunicipio.php">DADOS DO MUNICÍPIO</a></li><li><a href="/simbolos.php">SÍMBOLOS</a></li><li><a href="https://juazeirodonorte.ce.gov.br/turismo.php">PONTOS TURÍSTICOS</a></li><li><a href="/conselhos.php" target="_blank">CONSELHOS</a></li><li><a href="/contatos.php#">CONTATOS</a></li><li><a href="/veiculos.php">VEÍCULOS</a></li>		</ul>
+                                            </li><li><a href="https://www.juazeirodonorte.ce.gov.br/secretaria.php">SECRETARIAS</a></li><li><a href="/servicos.php">SERVIÇOS</a></li>  <li class="dropdown"><a href="/lrf.php" class="dropdown-toggle" data-toggle="dropdown">LRF E CONTAS PÚBLICAS <i class="fa fa-angle-down"></i></a>
+                                <ul class="dropdown-menu dropdown-menu-right" style="overflow: auto; max-height:300px; min-width:100px;"><li><a href="/lrf.php?cat=4">RGF - RELATÓRIO DE GESTÃO FISCAL</a></li><li><a href="/lrf.php?cat=7">RREO - RELATÓRIO RESUMIDO DA EXECUÇÃO ORÇAMENTÁRIA</a></li><li><a href="/lrf.php?cat=8">LOA - LEI ORÇAMENTÁRIA ANUAL</a></li><li><a href="/lrf.php?cat=9">LDO - LEI DE DIRETRIZES&nbsp;ORÇAMENTÁRIAS</a></li><li><a href="/lrf.php?cat=17">PPA - PLANO PLURIANUAL</a></li><li><a href="/lrf.php?cat=25">CMED - CRONOGRAMA DA EXECUÇÃO MENSAL DE DESEMBOLSO</a></li><li><a href="/contasdegoverno.php">PCG - PRESTAÇÃO DE CONTAS DE GOVERNO</a></li><li><a href="/contasdegestao.php">PCS - PRESTAÇÃO DE CONTAS DE GESTÃO</a></li>		</ul>
+</li>  <li class="dropdown"><a href="/" class="dropdown-toggle" data-toggle="dropdown">PUBLICAÇÕES 
+                                                <i class="fa fa-angle-down"></i></a>
+                                                    <ul class="dropdown-menu " style="overflow: auto; max-height:300px; min-width:100px;"><li><a href="/diariolista.php">DIÁRIO OFICIAL</a></li><li><a href="/publicacoes.php?grupo=&amp;cat=65&amp;Comp=&amp;sec=&amp;Exerc=&amp;Num=&amp;ta=3&amp;Descricao=&amp;dtini=&amp;dtfim=">CONTAS DETALHADAS</a></li><li><a href="https://www.juazeirodonorte.ce.gov.br/publicacoes.php?grupo=&amp;cat=10&amp;Comp=&amp;sec=&amp;Exerc=&amp;Num=&amp;ta=3&amp;Descricao=&amp;dtini=&amp;dtfim=">EDITAIS</a></li><li><a href="/publicacoes.php?grupo=&amp;cat=33&amp;Comp=&amp;sec=&amp;Exerc=&amp;Num=&amp;ta=3&amp;Descricao=&amp;dtini=&amp;dtfim= ">RECOMENDAÇÃO</a></li><li><a href="/decretos.php">DECRETOS</a></li><li><a href="/publicacoes.php?grupo=&amp;cat=80&amp;Comp=&amp;sec=&amp;Exerc=&amp;Num=&amp;ta=3&amp;Descricao=&amp;dtini=&amp;dtfim=">RELATÓRIOS LIVE</a></li><li><a href="/diarias.php">DIÁRIAS</a></li><li><a href="/contratos.php">CONTRATOS</a></li><li><a href="/leis.php">LEIS</a></li><li><a href="/licitacao.php">LICITAÇÃO</a></li><li><a href="/lrf.php">LRF CONTAS PÚBLICAS</a></li><li><a href="/contasdegoverno">PCG</a></li><li><a href="/contasdegestao">PCS</a></li><li><a href="/portaria.php">PORTARIAS</a></li><li><a href="/processoseletivo.php">PROCESSOS SELETIVOS</a></li><li><a href="/publicacoes.php">OUTRAS</a></li>		</ul>
+                                            </li><li><a href="https://servidor.juazeiro.ce.gov.br/">SERVIDOR</a></li><li><a href="https://lgpd.juazeirodonorte.ce.gov.br/" target="_blank">LGPD</a></li>            
+            </ul>
+      </div>
+      
+    </nav>
+    <div class="offcanvas-backdrop"></div>
+    <!--/nav-->
+
+
+
+    </header>
+<div id="espaco-header" class="espaco-header-main" style="height:207px; margin-bottom: 27.4px;">&nbsp;</div>
+
+
+
+<!-- <div id="sticky-container-id" class="sticky-container">
+    <ul class="sticky"> -->
+
+        
+    <!-- </ul>
+</div> -->
+
+<!--
+    <div vw class="enabled">
+    <div id="botaovlibras" style="display: none;" vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+        -->
+  
+        <!-- VLibras -->
+<!-- VLibras -->
+
+<script src="/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+
+    $('.offcanvas-backdrop').removeClass('show');
+
+    $('[data-toggle="offcanvas"]').on('click', function () {
+        $('.offcanvas-collapse').removeClass('open');
+        const target = $(this).data('target');
+        $(target).toggleClass('open');
+        $('.offcanvas-backdrop').addClass('show');
+    })
+
+    // Fechar o menu ao clicar no backdrop
+    $('.offcanvas-backdrop, .offcanvas-close').on('click', function () {
+      $('.offcanvas-collapse').removeClass('open');
+      $('.offcanvas-backdrop').removeClass('show');
+    })
+
+    $('.dropdown-menu-sub').hide();
+    $('.dropdown-submenu a.dropdown-sub-toggle').on("click", function(e){
+        $(this).next('ul').toggle();
+        e.stopPropagation();
+        e.preventDefault();
+    });
+
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+            $("#logo-top-bar").css({
+                "margin-top": "-25.5Vh",
+                "transition": ".4s",
+                "z-index": "-2"
+            });
+            $("#logo-top-bar").fadeOut("800");
+            $('#scroll').fadeIn();
+            $(".col-fita").fadeOut();
+
+        } else {
+            $("#logo-top-bar").fadeIn("800");
+            $("#logo-top-bar").css({
+                "margin-top": "0px"
+            });
+            $(".col-fita").fadeIn();
+            $('#scroll').fadeOut();
+        }
+    });
+    $('#scroll').click(function() {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 0);
+        return false;
+    });
+
+
+    $('#menu-acessiblidade').hide().contents().hide();
+    $('#btnperq').on('click', function(e) {
+        e.preventDefault();
+        $('#menu-acessiblidade').slideToggle('fast', function(e) {
+            if ($(this).is(':visible')) {
+                $(this).contents().fadeIn(1000);
+            } else {
+                $(this).contents().hide();
+            }
+        });
+
+    })
+
+
+});
+</script>
+
+
+    <section id="services" class="topo-paginas-section">
+    <div class="container">
+        <div class="col-md-12">
+
+            <!--<div id="TituloServicos">-->
+            <div class="cartaservicosbanner" style="font-size: 16px;">Galeria de Gestores</div>
+            <h2 id="EsOv" class="cartaservicosbannertexto" style="font-size: 16px; padding-left: 5px;">Prefeito(a) e Vice prefeito(a) Atuais e Anteriores.</h2>
+            <!--</div>-->
+
+        </div>
+    </div>
+</section>    
+        <section style="margin-top:10px; margin-bottom:10px;">
+        <div class="container">
+            <div class="public_paginas" style="margin-top: -50px;">
+                    <div class="col-md-12">
+        <div class="row">
+            <ol class="breadcrumb" style="background-color:#FFFFFF; margin-bottom: 0px;">
+                <li class="breadcrumb-item"><a href="/index.php">Início</a></li>
+                <li class="breadcrumb-item"><a href="acessoainformacao.php">Acesso a Informação</a></li><li class="breadcrumb-item active">Gestores</li>            </ol>
+        </div>
+    </div>
+                <div class="titulo">
+                    <strong>Opções de filtro</strong>
+                    <span style="font-size: 12px;"> <i>Escolha o campo para a pesquisa e clique no botão pesquisar</i></span>
+                </div>
+                <div class="col-md-12">
+                    <form>
+                        <div class="row">
+
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label class="label-form"><i class="fa fa-filter"></i> Tipo</label>
+                                    <select name="tp" class="form-control">
+                                        <option value="">Selecione um tipo</option>
+                                        <option value="1" data-filter="">Prefeito(a)</option><option value="2" data-filter="">Vice-prefeito(a)</option>                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label class="label-form"><i class="fa fa-pencil"></i> Nome</label>
+                                    <input type="text" name="desc" class="form-control" value="">
+                                </div>
+                            </div>
+                        </div>
+
+                                                            
+                        <div class="row group-btn-export">
+                            <div class="col-md-4">
+                                <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i> Pesquisar</button> <a href="galeriagestores.php" class="btn btn-primary"><i class="fa fa-times-circle-o"></i> Limpar </a>
+                                                            </div>
+                            <div class="col-md-8 group-btn-export-item">
+                                <div class="btn-group">
+                                    <a class="btn btn-primary" target="_blank" href="relatorio.php?id=90&amp;rel=&amp;val="><i class="fa fa-bars"></i> Opções para exportação </a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="public_paginas">
+                                    <div class="titulo">
+                        <strong>Lista de gestores</strong>
+                        <i style="font-size: 12px"> Foram encontrados 48 registros </i>                    </div>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12">
+                                                                <table id="galeriagestores" class="table table-responsive table-condensed table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <td><strong>Nome</strong></td>
+                                            <td><strong>Cargo</strong></td>
+                                            <td><strong>Periodo</strong></td>
+                                            <td style="vertical-align: top; text-align: center;"><strong>Mais</strong></td>
+                                            <!--<td><strong>Data de nascimento</strong></td>-->
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        	<tr>
+                                                        <td data-title="Nome">GLÊDSON LIMA BEZERRA</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 01/01/2025 até a atualidade</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM47" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">JOSÉ TARSO MAGNO TEIXEIRA DA SILVA</td>
+														<td data-title="Cargo">Vice-prefeito(a)</td>		<td data-title="Periodo"> de 01/01/2025 até a atualidade</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM48" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">GLÊDSON LIMA BEZERRA</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 01/01/2021 à 31/12/2024</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM1" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">GIOVANNI SAMPAIO GONDIM</td>
+														<td data-title="Cargo">Vice-prefeito(a)</td>		<td data-title="Periodo"> de 01/01/2021 à 31/12/2024</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM2" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">JOSÉ ARNON CRUZ BEZERRA DE MENEZES</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 01/01/2017 à 31/12/2020</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM5" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">LUIZ IVAN BEZERRA DE MENEZES</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 01/11/2016 à 31/12/2016</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM4" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">RAIMUNDO ANTÔNIO DE MACÊDO</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 01/01/2013 à 01/11/2016</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM3" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">MANOEL RAIMUNDO DE SANTANA NETO</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 01/01/2009 à 31/12/2012</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM6" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">RAIMUNDO ANTÔNIO DE MACÊDO</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 01/01/2005 à 31/12/2008</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM7" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">CARLOS ALBERTO DA CRUZ</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 01/01/2001 à 31/12/2004</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM8" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">JOSÉ MAURO CASTELO BRANCO SAMPAIO</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 01/01/1997 à 31/12/2000</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM9" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">MANOEL SALVIANO SOBRINHO</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 01/01/1993 à 31/12/1996</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM10" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">CARLOS ALBERTO DA CRUZ</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 01/01/1989 à 31/12/1992</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM46" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">MANOEL SALVIANO SOBRINHO</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 01/02/1983 à 31/12/1988</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM45" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">GUMERCINDO FERREIRA LIMA</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 15/05/1982 à 31/01/1983</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM44" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">AILTON GOMES DE ALENCAR</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 01/02/1977 à 14/05/1982</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM43" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">FRANCISCO ERIVANO CRUZ</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 04/09/1975 à 31/01/1977</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM42" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">MOZART CARDOSO DE ALENCAR</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 31/01/1973 à 03/09/1975</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM41" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">ORLANDO BEZERRA DE MENEZES</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 31/01/1971 à 30/01/1973</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM40" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">JOSÉ TEÓFILO DE MACHADO</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 08/08/1970 à 30/01/1971</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM39" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">JOSÉ MAURO CASTELO BRANCO SAMPAIO</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 31/01/1967 à 07/08/1970</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM38" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">EDWAR TEXEIRA FÉRRER</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 05/04/1966 à 30/01/1967</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM37" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">FRANCISCO HUMBERTO BEZERRA DE MENEZES</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 31/01/1963 à 04/01/1966</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM36" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">ANTÔNIO CONSERVA FEITOSA</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 31/01/1959 à 30/01/1963</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM35" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">JOSÉ GERALDO DA CRUZ</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 31/01/1955 à 30/01/1959</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM34" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">JOSÉ MONTEIRO DE MÂCEDO</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 31/01/1951 à 30/01/1955</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM33" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">ANTÔNIO CONSERVA FEITOSA</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 31/01/1948 à 30/01/1951</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM32" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">JOSÉ MONTEIRO DE MÂCEDO</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 04/07/1947 à 30/01/1948</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM31" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">PORFÍRIO DE LIMA FILHO</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 17/03/1946 à 03/07/1947</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM30" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>	<tr>
+                                                        <td data-title="Nome">JOSÉ GERALDO DA CRUZ</td>
+														<td data-title="Cargo">Prefeito(a)</td>		<td data-title="Periodo"> de 11/01/1946 à 18/03/1946</td><td style="text-align: center;"><a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModalM29" href="#" title="Mais informações"><i class="fa fa-eye"></i> </a></td>		
+                                                    </tr>                                    </tbody>
+                                </table>
+                                	<div class="modal fade" id="myModalM47" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>GLÊDSON LIMA BEZERRA</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>01/01/2025 até a atualidade</div>   
+                                            
+                                            <div class="col-md-12" style="margin-top: 5px;"> <img class="img-responsive" src="imagens/prefeitos/47.jpg"></div>
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM48" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>JOSÉ TARSO MAGNO TEIXEIRA DA SILVA</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Vice-prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>01/01/2025 até a atualidade</div>   
+                                            
+                                            <div class="col-md-12" style="margin-top: 5px;"> <img class="img-responsive" src="imagens/prefeitos/48.jpg"></div>
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>GLÊDSON LIMA BEZERRA</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>01/01/2021 à 31/12/2024</div>   
+                                            
+                                            <div class="col-md-12" style="margin-top: 5px;"> <img class="img-responsive" src="imagens/prefeitos/1.jpg"></div>
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>GIOVANNI SAMPAIO GONDIM</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Vice-prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>01/01/2021 à 31/12/2024</div>   
+                                            
+                                            <div class="col-md-12" style="margin-top: 5px;"> <img class="img-responsive" src="imagens/prefeitos/2.jpg"></div>
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>JOSÉ ARNON CRUZ BEZERRA DE MENEZES</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>01/01/2017 à 31/12/2020</div>   
+                                            
+                                            <div class="col-md-12" style="margin-top: 5px;"> <img class="img-responsive" src="imagens/prefeitos/5.jpg"></div>
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>LUIZ IVAN BEZERRA DE MENEZES</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>01/11/2016 à 31/12/2016</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>RAIMUNDO ANTÔNIO DE MACÊDO</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>01/01/2013 à 01/11/2016</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>MANOEL RAIMUNDO DE SANTANA NETO</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>01/01/2009 à 31/12/2012</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>RAIMUNDO ANTÔNIO DE MACÊDO</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>01/01/2005 à 31/12/2008</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>CARLOS ALBERTO DA CRUZ</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>01/01/2001 à 31/12/2004</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>JOSÉ MAURO CASTELO BRANCO SAMPAIO</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>01/01/1997 à 31/12/2000</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>MANOEL SALVIANO SOBRINHO</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>01/01/1993 à 31/12/1996</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM46" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>CARLOS ALBERTO DA CRUZ</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>01/01/1989 à 31/12/1992</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM45" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>MANOEL SALVIANO SOBRINHO</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>01/02/1983 à 31/12/1988</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM44" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>GUMERCINDO FERREIRA LIMA</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>15/05/1982 à 31/01/1983</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM43" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>AILTON GOMES DE ALENCAR</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>01/02/1977 à 14/05/1982</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM42" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>FRANCISCO ERIVANO CRUZ</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>04/09/1975 à 31/01/1977</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM41" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>MOZART CARDOSO DE ALENCAR</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>31/01/1973 à 03/09/1975</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM40" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>ORLANDO BEZERRA DE MENEZES</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>31/01/1971 à 30/01/1973</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM39" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>JOSÉ TEÓFILO DE MACHADO</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>08/08/1970 à 30/01/1971</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM38" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>JOSÉ MAURO CASTELO BRANCO SAMPAIO</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>31/01/1967 à 07/08/1970</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM37" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>EDWAR TEXEIRA FÉRRER</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>05/04/1966 à 30/01/1967</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM36" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>FRANCISCO HUMBERTO BEZERRA DE MENEZES</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>31/01/1963 à 04/01/1966</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM35" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>ANTÔNIO CONSERVA FEITOSA</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>31/01/1959 à 30/01/1963</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM34" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>JOSÉ GERALDO DA CRUZ</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>31/01/1955 à 30/01/1959</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM33" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>JOSÉ MONTEIRO DE MÂCEDO</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>31/01/1951 à 30/01/1955</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM32" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>ANTÔNIO CONSERVA FEITOSA</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>31/01/1948 à 30/01/1951</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM31" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>JOSÉ MONTEIRO DE MÂCEDO</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>04/07/1947 à 30/01/1948</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM30" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>PORFÍRIO DE LIMA FILHO</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>17/03/1946 à 03/07/1947</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>	<div class="modal fade" id="myModalM29" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                              <a class="close" data-dismiss="modal" aria-hidden="true">×</a>
+                                              <h4 class="modal-title" id="myModalLabel">Informações do gestor</h4>
+                                        </div>
+                                        <div class="modal-body" style="padding-top: 0px;">
+                                            <div class="row">
+                                            
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Nome: </strong>JOSÉ GERALDO DA CRUZ</div>
+
+                                           
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Cargo: </strong>Prefeito(a)</div>
+
+                                            <div class="col-md-12" style="text-transform: uppercase; line-height: 1.2;"><i class="fa fa-square" style="color:#3F45B6"></i> <strong>Periodo: </strong>11/01/1946 à 18/03/1946</div>   
+                                            
+                                            
+                                                     
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex" style="justify-content:between;">                                                                             
+                                            <a class="btn btn-primary btn-sm" data-dismiss="modal" style="margin-left:40.8%;"><i class="fa fa-undo"></i> Fechar</a>
+                                        </div>
+                                        </div>
+                                      
+                                    </div>
+                                  </div>                                                            </div>
+
+
+                        </div>
+
+                                                    <div class="row">
+                                <div id="lei" class="col-md-12"> <nav style="float: right;">
+				  <ul class="pagination">    <li class="active">
+				      <a>
+				        <span aria-hidden="true"> 1 </span>
+				      </a>
+				    </li><li>
+                                    <a href="?pagina=1" aria-label="Next">
+                                        <span aria-hidden="true">2</span>
+                                    </a>
+                                </li><li>
+                                    <a href="?pagina=1" aria-label="Next">
+                                        <span aria-hidden="true"><i class="fa fa-angle-right"></i></span>
+                                    </a>
+                                </li></ul>
+                            </nav></div>
+                            </div>
+                                            </div>
+                            </div>
+        </div>
+    </section>
+
+
+        <script src="/js/shortcuts.js"></script>
+    <script>
+        shortcut.add("Alt+H", function() {
+            window.location.assign("index.php");
+        });
+
+        shortcut.add("Alt+Shift+1", function() {
+            window.location.assign("acessibilidade.php");
+        });
+
+        shortcut.add("Alt+9", function() {
+            window.scrollTo(0, 0);
+        });
+
+        shortcut.add("Alt+C", function() {
+            window.location.href = '#ancora';
+        });
+    </script>
+
+
+
+    
+
+        <script src="https://www.google.com/recaptcha/api.js?hl=pt-BR"></script>
+        <section>
+            <div class="container" style="margin-top: 10px;">
+                <div class="public_paginas" style="padding-bottom: 40px;">
+
+                    <div class="col-md-12">
+                        <h1 style="text-align: center; margin-bottom: 40px; font-size: 25px;">Qual o seu nível de satisfação com essa página?</h1>
+                    </div>
+                    <div class="col-md-12">
+                        <fieldset class="radio-image">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-2">
+
+                                <label for="2" class="radio-satisfacao" id="nota2">
+                                    <i class="iconota-nota2" style="color: #c0392b;"></i>
+                                </label>
+                                <br>Muito insatisfeito
+                            </div>
+                            <div class="col-md-2">
+                                <label for="4" class="radio-satisfacao" id="nota4">
+                                    <i class="iconota-nota4" style="color: #d35400;"></i>
+                                </label>
+                                <br>Insatisfeito
+                            </div>
+                            <div class="col-md-2">
+                                <label for="6" class="radio-satisfacao" id="nota6">
+                                    <i class="iconota-nota6" style="color: #f39c12;"></i>
+                                </label>
+                                <br>Neutro
+                            </div>
+                            <div class="col-md-2">
+                                <label for="8" class="radio-satisfacao" id="nota8">
+                                    <i class="iconota-nota8" style="color: #2ecc71;"></i>
+                                </label>
+                                <br>Satisfeito
+                            </div>
+                            <div class="col-md-2">
+
+                                <label for="10" class="radio-satisfacao" id="nota10">
+                                    <i class="iconota-nota10" style="color: #27ae60;"></i>
+                                </label>
+                                <br>Muito satisfeito
+                            </div>
+                            <div class="col-md-1"></div>
+                        </fieldset>
+                    </div>
+
+                    <div class="col-md-12"></div>
+
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <form id="FormSatisfacao" method="post" action="/data_satisfacao.php" style="display: none;">
+                            <div class="form-group">
+                                <label> Name </label>
+                                <input type="text" name="nome" class="form-control" id="nome" placeholder="Digite seu nome">
+                                <input type="hidden" name="nota" id="nota" required="">
+                                <input type="hidden" name="VPagina" value="galeriagestores.php">
+                                <input type="hidden" name="NRegistro" value="0">
+                                <input type="hidden" name="LinkCompleto" value="/galeriagestores.php">
+                            </div>
+                            <div class="form-group">
+                                <label> Email </label>
+                                <input type="email" class="form-control" name="email" placeholder="Digite aqui seu email">
+                            </div>
+                            <div class="form-group">
+                                <label> Mensagem </label>
+                                <textarea name="mensagem" class="form-control" rows="2"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="g-recaptcha" data-sitekey="6Lfrho8nAAAAAL2ymnHp8Rjt8j4OsJTdVYTXCgP7" style="transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-ju7wxr43hpo9" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lfrho8nAAAAAL2ymnHp8Rjt8j4OsJTdVYTXCgP7&amp;co=aHR0cHM6Ly9qdWF6ZWlyb2Rvbm9ydGUuY2UuZ292LmJyOjQ0Mw..&amp;hl=pt-BR&amp;v=X-oVtzDcTGjZVms4LEgykmCV&amp;size=normal&amp;cb=bzqswmfuoz5a"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+                            </div>
+                            <div class="form-group">
+                                <p style="line-height: 1.500; margin-bottom: 0px;">
+                                    *Prezado(a), esta avaliação não será analisada como manifestação de Ouvidoria. Servirá apenas para revisarmos e refletirmos sobre as informações disponíveis nesta página.
+                                </p>
+                                <p style="line-height: 1.500; margin-bottom: 0px;">
+                                    Esclarecemos que os dados fornecidos acima serão tratados com respeito à sua privacidade.
+                                </p>
+                                <p style="line-height: 1.500; margin-bottom: 0px;">
+                                    Seguindo a <strong><a target="blank" href="https://www.gov.br/cidadania/pt-br/acesso-a-informacao/lgpd">LGPD - Lei Geral de Proteção de Dados 13.709</a></strong>, de 14 de agosto de 2018.
+                                </p>
+                            </div>
+                            <div class="form-group">
+                                <button type="button" id="CancelSatisfacao" class="btn btn-primary" required="required"> <i class="fa fa-window-close" aria-hidden="true"></i> Cancelar</button>
+                                <button type="submit" name="submit" id="btnSend" class="btn btn-primary" required="required"><i class="fa fa-mouse-pointer" aria-hidden="true"></i> Enviar</button>
+                                <i class="fa fa-2x fa-spinner fa-spin load" style="display: none;"></i>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div id="Return" class="col-md-12"> </div>
+
+                </div>
+            </div>
+        </section>
+
+
+    
+    <section>
+        <div class="container" style="margin-top: 10px;">
+            <div class="public_paginas" style="padding-bottom: 0px;">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="https://radardatransparencia.atricon.org.br/ " target="_blank">
+                            <img src="/imagens/radar_atricon.png" alt="Radar ATRICON" width="100%">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div id="scroll"><span></span></div>
+
+    
+    <div class="section" id="bottom" style="padding-bottom: 0px;">
+                    <div class="gmaps" style="height: 150px;">
+                <iframe title="Mapa da cidade" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d832.153046397144!2d-39.316046169328324!3d-7.194052878587051!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a1820aa018261b%3A0xbb3c99ef9b751c8!2sPrefeitura%20Municipal%20de%20Juazeiro%20do%20Norte!5e0!3m2!1spt-BR!2sbr!4v1745951165788!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+                
+                
+
+<div style="display: flex; margin:0;">
+       
+</div>      
+
+        
+                        <section>
+                    <div class="col-md-12  ">
+                        <div class="row fitaflex">
+                            <div class="col-md-2 fita" style="margin-bottom:0px; border-top: 9px solid; border-image: linear-gradient(45deg, #FEA101, #FEA101 ) 1;"></div>
+                            <div class="col-md-2 fita" style="margin-bottom:0px; border-top: 9px solid; border-image: linear-gradient(45deg, #FEA101, #242768 ) 1;"></div>
+                            <div class="col-md-2 fita" style="margin-bottom:0px; border-top: 9px solid; border-image: linear-gradient(45deg, #242768, #242768 ) 1;"></div>
+                            <div class="col-md-2 fita" style="margin-bottom:0px; border-top: 9px solid; border-image: linear-gradient(45deg, #242768, #e52529 ) 1;"></div>
+                            <div class="col-md-2 fita" style="margin-bottom:0px; border-top: 9px solid; border-image: linear-gradient(45deg, #e52529, #e52529 ) 1;"></div>
+                            <div class="col-md-2 fita" style="margin-bottom:0px; border-top: 9px solid #e52529;"></div>
+                        </div>
+                    </div>
+                </section>
+            
+        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: hidden; animation-duration: 1000ms; animation-delay: 600ms; animation-name: none;">
+
+            <div class="col-md-12" style="text-align: center; /* margin-bottom: 23px; */">
+                
+                <div class="col-md-12" style="margin-block: 2em"><img src="/imagens/logovazada.png?time=1747852842" alt="logo" class="img__vazado"><br class="break-responsive"><a href="/selos" style="margin-left: 5px"><img style="width: 60px" src="/imagens/imagensselos/verde-p.png" alt="Selo Município Verde - 2022-2023" title="Selo Município Verde - 2022-2023"></a><a href="/selos" style="margin-left: 5px"><img style="width: 60px" src="/imagens/imagensselos/atricon-ouro-2024-p.png" alt="Ouro Juazeiro" title="Ouro Juazeiro"></a><a href="/selos" style="margin-left: 5px"><img style="width: 60px" src="/imagens/imagensselos/atricon-diamante-2023-p.png" alt="Diamante 2023" title="Diamante 2023"></a></div><!-- 
+                        <a class="btn btn-primary btn-rodape text-35-char" href="#" title="clique aqui " style="margin-bottom: 10px;">
+                            <span class=""></span>                         </a> -->
+
+                
+                <h1 style="text-align: center; margin-bottom: 20px; color: #FFFFFF; font-size: 20px">
+                                    </h1>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div id="footer" class="midnight-blue">
+        <div class="container" style="padding-top: 10px;">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-4">
+
+                        <p class="titulo-info-footer"><strong>
+                                Institucional<br></strong></p>
+
+                        
+                        <p class="PBottom"><i class="bi bi-person-circle"></i> Prefeito Glêdson Lima Bezerra</p>
+                                                <p class="PBottom"><i class="bi bi-postcard-fill"></i> CNPJ: 07.974.082/0001-14</p>
+                    </div>
+
+                    <div class="col-md-4">
+
+                        <p class="titulo-info-footer"><strong>
+                                Contatos<br></strong></p>
+                                                <p><i class="bi bi-telephone-fill"></i> (88) 3199-0364</p>
+                        <p><i class="bi bi-envelope-at-fill"></i> ouvidoria@juazeiro.ce.gov.br</p>
+
+                    </div>
+
+                    <div class="col-md-4 ">
+
+                        <p class="titulo-info-footer"><strong>
+                                Endereço e horário<br></strong></p>
+
+                        <p>
+                            <i class="bi bi-geo-alt-fill" aria-hidden="true"></i>
+                            Rua Interventor Francisco Erivano Cruz,
+
+                                                             120
+                                                         - Centro,
+
+                                                                   63.010-015
+
+                        </p>
+                        <p>
+                            <i class="bi bi-clock-fill" aria-hidden="true"></i>
+                            Segunda A Sexta das 08:00h às 17:00h                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="rodape1">
+        <div class="container">
+            <div class="row social-links-top" style="justify-content: center; gap: 1em">
+
+                <a href="https://juazeiro.ce.gov.br/webmail" class="redesocial1" title="clique aqui E-mail" target="_blank"><i class="bi bi-envelope-fill"></i></a> <a href="https://www.facebook.com/prefeiturajuazeirodonorte" class="redesocial1" title="clique aqui Facebook" target="_blank"><i class="bi bi-facebook"></i></a> <a href="https://twitter.com/prefeiturajdn" class="redesocial1" title="clique aqui X" target="_blank"><i class="bi bi-twitter-x"></i></a> <a href="https://www.youtube.com/channel/UCBoig-jvgP1N3TIXuTQPDAQ" class="redesocial1" title="clique aqui Youtube" target="_blank"><i class="bi bi-youtube"></i></a> <a href="https://www.instagram.com/prefjuazeirodonorte/?hl=pt-br" class="redesocial1" title="clique aqui Instagram" target="_blank"><i class="bi bi-instagram"></i></a> 
+            </div>
+        </div>
+    </div>
+
+    <footer class="slider-principal" style="background: #30358c; ">
+        <div class="container">
+            <div class="row">
+                <p style="text-align: center; flex-basis: auto; padding-right:0px; color: #fff; margin-top: 1em;">
+                    © 2025 <a target="_blank" href="http://www.assesi.com.br/" title="">Assesi</a>.
+                    Todos os Direitos Reservados.</p>
+
+            </div>
+        </div>
+            </footer>
+
+    <div class="cookie fadeInDown animated container" id="cookie-container" style="display: flex;">
+        <p style="flex-basis: 80%; font-weight: 400; line-height: normal; padding-right: 10px;padding-top: 10px;">
+            O Portal da Prefeitura Municipal de Juazeiro do Norte utiliza cookies para melhorar a sua experiência,
+            de acordo com a nossa <a href="politicadeprivacidade.php" tabindex="1">Política de Privacidade</a>,
+            ao continuar navegando, você concorda com estas condições.
+        </p>
+        <p style="flex-basis: 20%; display: flex; align-items: center; margin:0px;">
+            <button style="width: 100%;font-weight: 400;font-size: 16px;" id="acceptCookies" onclick="fechaDiv()" class="btn btn-transparent" tabindex="2" data-btn="">CONTINUAR</button>
+        </p>
+    </div>
+
+    <script>
+        var cookies2 = document.cookie;
+
+        if (cookies2.indexOf("usuarioCookiesPm") == -1) {
+            document.getElementById('cookie-container').style.display = "flex";
+        }
+
+        function fechaDiv() {
+            document.cookie = 'usuarioCookiesPm=SIM; max-age=86400;path=/';
+            $.post("data_cookies.php", {
+                usercookies: "YES"
+            }, function(msg) {})
+            document.getElementById('cookie-container').style.display = "none";
+        }
+    </script>
+
+
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/tableExport.min.js"></script>
+    <script src="js/FileSaver.min.js"></script>
+    <script src="js/jquery.base64.js"></script>
+    <script src="js/html2canvas.min.js"></script>
+    <script src="js/sprintf.js"></script>
+    <script src="js/jspdf.min.js"></script>
+    <script src="js/jspdf.plugin.autotable.js"></script>
+    <script src="js/base64.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+
+
+            (function($) {
+
+                $('#filter').keyup(function() {
+
+                    var rex = new RegExp($(this).val(), 'i');
+                    $('.linha').hide();
+                    $('.linha').filter(function() {
+                        return rex.test($(this).text());
+                    }).show();
+
+                })
+
+            }(jQuery));
+
+
+        });
+    </script>
+    <script src="js/jquery.font-accessibility.min.js"></script>
+    <script>
+        $(function() {
+            /* Custom buttons */
+            $('#font-setting-buttons').easyView({
+                container: 'body, #rels, #tablink .row',
+                increaseSelector: '.increase-me',
+                decreaseSelector: '.decrease-me',
+                normalSelector: '.reset-me',
+                contrastSelector: '.change-me'
+            });
+
+
+        });
+    </script>
+
+
+<div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility linear 0.3s, opacity 0.3s linear; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="o desafio reCAPTCHA expira em dois minutos" name="c-ju7wxr43hpo9" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/bframe?hl=pt-BR&amp;v=X-oVtzDcTGjZVms4LEgykmCV&amp;k=6Lfrho8nAAAAAL2ymnHp8Rjt8j4OsJTdVYTXCgP7" style="width: 100%; height: 100%;"></iframe></div></div></body></html>

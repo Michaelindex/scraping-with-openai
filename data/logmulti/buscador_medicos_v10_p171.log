@@ -1,0 +1,615 @@
+2025-05-22 03:09:03,201 - P17020 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 03:09:03,202 - P17020 - INFO - Nome: DIOGO GOMES PEREIRA
+2025-05-22 03:09:03,203 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 03:09:04,649 - P17020 - INFO - Após reiniciar driver Uso de memória: 127.42 MB
+2025-05-22 03:09:04,649 - P17020 - INFO - Início do processamento Uso de memória: 127.42 MB
+2025-05-22 03:09:04,650 - P17020 - INFO - Iniciando busca para: DIOGO GOMES PEREIRA CRM 138473 SP telefone e-mail endereço
+2025-05-22 03:09:05,501 - P17020 - INFO - SearX results: 14 URLs
+2025-05-22 03:09:05,502 - P17020 - INFO - Após SearX Uso de memória: 127.42 MB
+2025-05-22 03:09:08,309 - P17020 - INFO - Google results: 10 URLs
+2025-05-22 03:09:08,310 - P17020 - INFO - Após Google Uso de memória: 128.39 MB
+2025-05-22 03:09:10,761 - P17020 - INFO - Bing results: 13 URLs
+2025-05-22 03:09:10,761 - P17020 - INFO - Após Bing Uso de memória: 130.21 MB
+2025-05-22 03:09:10,761 - P17020 - INFO - Total de URLs únicas: 27
+2025-05-22 03:09:10,761 - P17020 - INFO - Processando URL 1/27: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1817545159.pdf
+2025-05-22 03:09:10,762 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1817545159.pdf
+2025-05-22 03:09:10,762 - P17020 - INFO - Após processar URL 1 Uso de memória: 130.21 MB
+2025-05-22 03:09:10,762 - P17020 - INFO - Processando URL 2/27: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1660676435.pdf
+2025-05-22 03:09:10,762 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1660676435.pdf
+2025-05-22 03:09:10,762 - P17020 - INFO - Após processar URL 2 Uso de memória: 130.21 MB
+2025-05-22 03:09:10,762 - P17020 - INFO - Processando URL 3/27: https://www.classemedica.com.br/medico/404735-diogo-gomes-pereira.htm
+2025-05-22 03:09:17,554 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2545faefd1d3d19946f8f56ed940a7d8.html
+2025-05-22 03:09:17,582 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:09:17,583 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:09:17,583 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:09:17,583 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:17,583 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:09:17,584 - P17020 - INFO - Após processar URL 3 Uso de memória: 130.88 MB
+2025-05-22 03:09:17,584 - P17020 - INFO - Processando URL 4/27: https://oncologiaemsorocaba.com.br/index.php/corpo-clinico/
+2025-05-22 03:09:22,604 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\1f255118570dd414ed654f27008fcb94.html
+2025-05-22 03:09:22,627 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:09:22,627 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:09:22,627 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:09:22,628 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:22,628 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:09:22,628 - P17020 - INFO - Após processar URL 4 Uso de memória: 130.21 MB
+2025-05-22 03:09:22,628 - P17020 - INFO - Processando URL 5/27: https://www.doctoralia.com.br/nutrologo/sorocaba
+2025-05-22 03:09:22,628 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/nutrologo/sorocaba
+2025-05-22 03:09:22,629 - P17020 - INFO - Após processar URL 5 Uso de memória: 130.21 MB
+2025-05-22 03:09:22,629 - P17020 - INFO - Processando URL 6/27: https://cnpj.biz/54939443000171
+2025-05-22 03:09:25,140 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e51ec288dd90c55ab1233b53dbce6a17.html
+2025-05-22 03:09:25,157 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 03:09:25,159 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:09:25,161 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:09:25,166 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:25,167 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 03:09:25,167 - P17020 - INFO - Após processar URL 6 Uso de memória: 130.21 MB
+2025-05-22 03:09:25,168 - P17020 - INFO - Processando URL 7/27: https://www.doctoralia.com.br/servicos-de-tratamento/bioimpedancia/sorocaba
+2025-05-22 03:09:25,168 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/servicos-de-tratamento/bioimpedancia/sorocaba
+2025-05-22 03:09:25,168 - P17020 - INFO - Após processar URL 7 Uso de memória: 130.21 MB
+2025-05-22 03:09:25,168 - P17020 - INFO - Processando URL 8/27: https://consultacrm.com.br/
+2025-05-22 03:09:28,981 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:09:28,992 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:09:28,993 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:09:28,993 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:09:28,993 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:28,993 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:09:28,994 - P17020 - INFO - Após processar URL 8 Uso de memória: 130.43 MB
+2025-05-22 03:09:28,994 - P17020 - INFO - Processando URL 9/27: https://www.stf.jus.br/arquivo/djEletronico/DJE_20220411_071.pdf
+2025-05-22 03:09:28,994 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.stf.jus.br/arquivo/djEletronico/DJE_20220411_071.pdf
+2025-05-22 03:09:28,994 - P17020 - INFO - Após processar URL 9 Uso de memória: 130.43 MB
+2025-05-22 03:09:28,994 - P17020 - INFO - Processando URL 10/27: https://www.tiktok.com/@drdiogopereiranutro
+2025-05-22 03:09:31,467 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d2ae9ba645a57b452e0c0198564e59ce.html
+2025-05-22 03:09:31,475 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:09:31,476 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:09:31,476 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:09:31,476 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:31,476 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:09:31,477 - P17020 - INFO - Após processar URL 10 Uso de memória: 131.49 MB
+2025-05-22 03:09:31,477 - P17020 - INFO - Processando URL 11/27: https://consultasaj.tjam.jus.br/cdje/downloadCaderno.do?dtDiario=14/07/2010&cdCaderno=2
+2025-05-22 03:09:33,878 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\353a76c99c00ff4ea26d14bdbc7774bc.html
+2025-05-22 03:09:33,886 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:09:33,887 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:09:33,887 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:09:33,888 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:33,888 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:09:33,888 - P17020 - INFO - Após processar URL 11 Uso de memória: 131.49 MB
+2025-05-22 03:09:33,888 - P17020 - INFO - Processando URL 12/27: https://www.doctoralia.com.br/servicos-de-tratamento/retorno-de-consultas-nutrologia/sorocaba
+2025-05-22 03:09:33,888 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/servicos-de-tratamento/retorno-de-consultas-nutrologia/sorocaba
+2025-05-22 03:09:33,889 - P17020 - INFO - Após processar URL 12 Uso de memória: 130.43 MB
+2025-05-22 03:09:33,889 - P17020 - INFO - Processando URL 13/27: https://cliniguia.com/profissionais/diogo-gomes-pereira-980016284944859/
+2025-05-22 03:09:39,174 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\673aad57f2399b64d4d640827bb007c9.html
+2025-05-22 03:09:39,220 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:09:39,220 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:09:39,220 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:09:39,220 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:39,220 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:09:39,220 - P17020 - INFO - Após processar URL 13 Uso de memória: 131.60 MB
+2025-05-22 03:09:39,220 - P17020 - INFO - Processando URL 14/27: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/3296
+2025-05-22 03:09:41,375 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\aa8f074f6ac56a14d56663b8bf6c9561.html
+2025-05-22 03:09:41,420 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:09:41,420 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:09:41,420 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:09:41,420 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:41,421 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:09:41,421 - P17020 - INFO - Após processar URL 14 Uso de memória: 130.79 MB
+2025-05-22 03:09:41,421 - P17020 - INFO - Processando URL 15/27: https://www.doctoralia.com.br/servicos-de-tratamento/avaliacao-nutricional/sorocaba
+2025-05-22 03:09:41,421 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/servicos-de-tratamento/avaliacao-nutricional/sorocaba
+2025-05-22 03:09:41,421 - P17020 - INFO - Após processar URL 15 Uso de memória: 129.60 MB
+2025-05-22 03:09:41,422 - P17020 - INFO - Processando URL 16/27: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2014/dou1_2014_02_21.pdf
+2025-05-22 03:09:41,422 - P17020 - INFO - Ignorando URL de arquivo não-HTML: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2014/dou1_2014_02_21.pdf
+2025-05-22 03:09:41,422 - P17020 - INFO - Após processar URL 16 Uso de memória: 129.60 MB
+2025-05-22 03:09:41,422 - P17020 - INFO - Processando URL 17/27: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20180328&idorgao=347
+2025-05-22 03:09:47,697 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\0b449ac0f47f1181801753a729dbcce3.html
+2025-05-22 03:09:49,283 - P17020 - INFO - Candidates address: 77 items
+2025-05-22 03:09:49,283 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 03:09:49,283 - P17020 - INFO - Candidates email: 7 items
+2025-05-22 03:09:49,283 - P17020 - INFO - Candidates complement: 5 items
+2025-05-22 03:09:49,284 - P17020 - INFO - Candidates cep: 57 items
+2025-05-22 03:09:49,284 - P17020 - INFO - Após processar URL 17 Uso de memória: 127.33 MB
+2025-05-22 03:09:49,284 - P17020 - INFO - Processando URL 18/27: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20190531&idorgao=347
+2025-05-22 03:09:54,847 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\1d6d4edcd40acac0e2fc73a4f542c3c9.html
+2025-05-22 03:09:56,009 - P17020 - INFO - Candidates address: 40 items
+2025-05-22 03:09:56,009 - P17020 - INFO - Candidates phone: 7 items
+2025-05-22 03:09:56,009 - P17020 - INFO - Candidates email: 7 items
+2025-05-22 03:09:56,009 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 03:09:56,009 - P17020 - INFO - Candidates cep: 61 items
+2025-05-22 03:09:56,010 - P17020 - INFO - Após processar URL 18 Uso de memória: 129.02 MB
+2025-05-22 03:09:56,010 - P17020 - INFO - Processando URL 19/27: https://www.doctoralia.com.br/servicos-de-tratamento/primeira-consulta-nutrologia/sorocaba
+2025-05-22 03:09:56,010 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/servicos-de-tratamento/primeira-consulta-nutrologia/sorocaba
+2025-05-22 03:09:56,010 - P17020 - INFO - Após processar URL 19 Uso de memória: 125.59 MB
+2025-05-22 03:09:56,010 - P17020 - INFO - Processando URL 20/27: https://www.saobernardo.sp.gov.br/documents/10181/1230203/NM+2265+de+26.11.2021+-+Conteu%CC%81do+Integral.pdf/abb400a5-32a5-46d6-68bf-83186d25c607
+2025-05-22 03:09:56,011 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1230203/NM+2265+de+26.11.2021+-+Conteu%CC%81do+Integral.pdf/abb400a5-32a5-46d6-68bf-83186d25c607
+2025-05-22 03:09:56,011 - P17020 - INFO - Após processar URL 20 Uso de memória: 125.59 MB
+2025-05-22 03:09:56,011 - P17020 - INFO - Processando URL 21/27: https://www.boaconsulta.com/especialistas/nutrologos/sorocaba-sp
+2025-05-22 03:09:59,539 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\1b948fd4b6a770c4d254394223a9e7b1.html
+2025-05-22 03:09:59,591 - P17020 - INFO - Candidates address: 9 items
+2025-05-22 03:09:59,591 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:09:59,592 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:09:59,592 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 03:09:59,593 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:09:59,593 - P17020 - INFO - Após processar URL 21 Uso de memória: 127.51 MB
+2025-05-22 03:09:59,593 - P17020 - INFO - Processando URL 22/27: https://guiamedico.cremesp.org.br/
+2025-05-22 03:10:02,885 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 03:10:02,891 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:10:02,891 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:10:02,891 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:10:02,892 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:02,892 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:10:02,892 - P17020 - INFO - Após processar URL 22 Uso de memória: 126.28 MB
+2025-05-22 03:10:02,892 - P17020 - INFO - Processando URL 23/27: https://www.boaconsulta.com/especialista/diogo-gomes-pereira-6106d0f2a2e00a64110034da
+2025-05-22 03:10:05,593 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5662b2863b20997f6d9edfb4884c2432.html
+2025-05-22 03:10:05,649 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 03:10:05,649 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:05,649 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:10:05,649 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:05,649 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:05,650 - P17020 - INFO - Após processar URL 23 Uso de memória: 128.02 MB
+2025-05-22 03:10:05,650 - P17020 - INFO - Processando URL 24/27: https://www.medicosbrasil.com/profissional/diogo-gomes-pereira
+2025-05-22 03:10:09,341 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a0f723788551dd11177d970dcb96ad82.html
+2025-05-22 03:10:09,356 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:10:09,357 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:09,357 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:10:09,357 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 03:10:09,357 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:09,357 - P17020 - INFO - Após processar URL 24 Uso de memória: 127.87 MB
+2025-05-22 03:10:09,357 - P17020 - INFO - Processando URL 25/27: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/339363965.pdf
+2025-05-22 03:10:09,358 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/339363965.pdf
+2025-05-22 03:10:09,358 - P17020 - INFO - Após processar URL 25 Uso de memória: 127.87 MB
+2025-05-22 03:10:09,358 - P17020 - INFO - Processando URL 26/27: https://www.doctoralia.com.br/diogo-pereira-2/nutrologo/sorocaba
+2025-05-22 03:10:09,358 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/diogo-pereira-2/nutrologo/sorocaba
+2025-05-22 03:10:09,358 - P17020 - INFO - Após processar URL 26 Uso de memória: 127.87 MB
+2025-05-22 03:10:09,358 - P17020 - INFO - Processando URL 27/27: https://www.unimedsorocaba.coop.br/unimedsite/servicosonline/guiamedico/_partialinclusaodadosprestador?codigo=138473
+2025-05-22 03:10:12,394 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2c94026ef574f837615b925375382803.html
+2025-05-22 03:10:12,566 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:10:12,566 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:12,566 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:10:12,566 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:12,566 - P17020 - INFO - Candidates cep: 61 items
+2025-05-22 03:10:12,567 - P17020 - INFO - Após processar URL 27 Uso de memória: 122.47 MB
+2025-05-22 03:10:12,567 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:10:12,567 - P17020 - INFO - Ranked address: 131 items
+2025-05-22 03:10:12,567 - P17020 - INFO - Ranked phone: 12 items
+2025-05-22 03:10:12,567 - P17020 - INFO - Ranked email: 14 items
+2025-05-22 03:10:12,567 - P17020 - INFO - Ranked complement: 8 items
+2025-05-22 03:10:12,568 - P17020 - INFO - Ranked cep: 179 items
+2025-05-22 03:10:12,568 - P17020 - INFO - Após agregação Uso de memória: 122.47 MB
+2025-05-22 03:10:12,568 - P17020 - INFO - Validando endereço: ['Rua Desembargador Homero Mafra, 60', 'Rua Rodrigues Pacheco, 145', 'Av. Roberto Símonsen, 310']
+2025-05-22 03:10:12,568 - P17020 - INFO - Endereço validado: Rua Desembargador Homero Mafra, 60
+2025-05-22 03:10:12,568 - P17020 - INFO - Limpando texto extenso para campo address: Rua Desembargador Homero Mafra, 60...
+2025-05-22 03:10:12,568 - P17020 - INFO - Texto limpo: Rua Desembargador Homero Mafra, 60
+2025-05-22 03:10:12,569 - P17020 - INFO - Validando telefone: ['(15) 3388-5056', '(11) 98214-5360', '(27) 3026-4227']
+2025-05-22 03:10:12,569 - P17020 - INFO - Limpando texto extenso para campo phone: (15) 3388-5056...
+2025-05-22 03:10:12,569 - P17020 - INFO - Texto limpo: 15) 3388-5056
+2025-05-22 03:10:12,569 - P17020 - INFO - Telefone validado: 15) 3388-5056
+2025-05-22 03:10:12,569 - P17020 - INFO - Validando email: ['1falencia-vitoria@tjes.jus.br', 'wgomes51@gmail.com', 'rbaldez@apicecontabil.cnt.br']
+2025-05-22 03:10:12,569 - P17020 - INFO - Limpando texto extenso para campo email: 1falencia-vitoria@tjes.jus.br...
+2025-05-22 03:10:12,570 - P17020 - INFO - Texto limpo: 1falencia-vitoria@tjes.jus.br
+2025-05-22 03:10:12,570 - P17020 - INFO - Email validado: 1falencia-vitoria@tjes.jus.br
+2025-05-22 03:10:12,570 - P17020 - INFO - Validando complemento: ['Sala 1804', 'Conjunto nº 06/2013.       Por fim', 'Sala 101']
+2025-05-22 03:10:12,570 - P17020 - INFO - Limpando texto extenso para campo complement: Sala 1804...
+2025-05-22 03:10:12,570 - P17020 - INFO - Texto limpo: Sala 1804
+2025-05-22 03:10:12,570 - P17020 - INFO - Complemento validado: Sala 1804
+2025-05-22 03:10:12,570 - P17020 - INFO - Descobrindo cidade
+2025-05-22 03:10:12,571 - P17020 - INFO - Buscando cidade: Rua Desembargador Homero Mafra cidade SP
+2025-05-22 03:10:15,243 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 03:10:15,243 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 03:10:15,244 - P17020 - INFO - Tempo de execução de processamento completo do médico: 70.59 segundos
+2025-05-22 03:10:15,245 - P17020 - INFO - Resultado processado: {'Hash': '3ab91c8ef4940d70ea32656af866c4c2576c08356efb0b9cc1786b7d0229bf3e', 'CRM': '138473', 'UF': 'SP', 'Firstname': 'DIOGO', 'LastName': 'GOMES PEREIRA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Desembargador Homero Mafra, 60', 'Address A1': 'Rua Desembargador Homero Mafra', 'Numero A1': '60', 'Complement A1': 'Sala 1804', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '15) 3388-5056', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': '1falencia-vitoria@tjes.jus.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:10:15,247 - P17020 - INFO - Progresso: 41.7%
+2025-05-22 03:10:15,247 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 03:10:15,266 - P17020 - INFO - Após coleta de lixo Uso de memória: 123.11 MB
+2025-05-22 03:10:15,266 - P17020 - INFO - Tempo de execução de processamento do médico 1: 72.06 segundos
+2025-05-22 03:10:15,266 - P17020 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 03:10:15,266 - P17020 - INFO - Nome: THIAGO MARQUES MENDES
+2025-05-22 03:10:15,267 - P17020 - INFO - Início do processamento Uso de memória: 123.11 MB
+2025-05-22 03:10:15,267 - P17020 - INFO - Iniciando busca para: THIAGO MARQUES MENDES CRM 139837 SP telefone e-mail endereço
+2025-05-22 03:10:16,130 - P17020 - INFO - SearX results: 15 URLs
+2025-05-22 03:10:16,132 - P17020 - INFO - Após SearX Uso de memória: 123.11 MB
+2025-05-22 03:10:18,771 - P17020 - INFO - Google results: 11 URLs
+2025-05-22 03:10:18,771 - P17020 - INFO - Após Google Uso de memória: 124.51 MB
+2025-05-22 03:10:21,231 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 03:10:21,232 - P17020 - INFO - Após Bing Uso de memória: 125.46 MB
+2025-05-22 03:10:21,232 - P17020 - INFO - Total de URLs únicas: 21
+2025-05-22 03:10:21,232 - P17020 - INFO - Processando URL 1/21: https://servicos.sjc.sp.gov.br/governo/boletim/boletimPDF/202112231418560f924cde-7d2e-4aae-8b3c-c83df55074a1.pdf
+2025-05-22 03:10:21,232 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://servicos.sjc.sp.gov.br/governo/boletim/boletimPDF/202112231418560f924cde-7d2e-4aae-8b3c-c83df55074a1.pdf
+2025-05-22 03:10:21,232 - P17020 - INFO - Após processar URL 1 Uso de memória: 125.46 MB
+2025-05-22 03:10:21,232 - P17020 - INFO - Processando URL 2/21: https://pos.hcor.com.br/cursos/insuficiencia-cardiaca
+2025-05-22 03:10:23,684 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\511479b084ef1f9fa25de5ea86809eb7.html
+2025-05-22 03:10:23,685 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:10:23,686 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:23,686 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:10:23,686 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:23,686 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:23,687 - P17020 - INFO - Após processar URL 2 Uso de memória: 125.46 MB
+2025-05-22 03:10:23,687 - P17020 - INFO - Processando URL 3/21: https://www.consultasocio.com/q/sa/thiago-marques-mendes
+2025-05-22 03:10:28,850 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6d24c37de66f0045d18aa83807f3414b.html
+2025-05-22 03:10:28,856 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:10:28,856 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:28,856 - P17020 - INFO - Candidates email: 2 items
+2025-05-22 03:10:28,857 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:28,857 - P17020 - INFO - Candidates cep: 5 items
+2025-05-22 03:10:28,857 - P17020 - INFO - Após processar URL 3 Uso de memória: 125.71 MB
+2025-05-22 03:10:28,857 - P17020 - INFO - Processando URL 4/21: https://iprejun.sp.gov.br/S/arquivos/Imprensa_Oficial/Imprensa_Oficial_Jundiai_2019-05-29_4564.pdf
+2025-05-22 03:10:28,857 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://iprejun.sp.gov.br/S/arquivos/Imprensa_Oficial/Imprensa_Oficial_Jundiai_2019-05-29_4564.pdf
+2025-05-22 03:10:28,857 - P17020 - INFO - Após processar URL 4 Uso de memória: 125.71 MB
+2025-05-22 03:10:28,858 - P17020 - INFO - Processando URL 5/21: https://doe.to.gov.br/diario/3323/download
+2025-05-22 03:10:31,566 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ab6b833a682090361c6a07aae955cc72.html
+2025-05-22 03:10:31,566 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:10:31,567 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:31,567 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:10:31,567 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:31,567 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:31,567 - P17020 - INFO - Após processar URL 5 Uso de memória: 125.71 MB
+2025-05-22 03:10:31,567 - P17020 - INFO - Processando URL 6/21: https://consultacrm.com.br/
+2025-05-22 03:10:35,121 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:10:35,133 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:10:35,134 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:35,134 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:10:35,134 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:35,134 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:35,134 - P17020 - INFO - Após processar URL 6 Uso de memória: 126.84 MB
+2025-05-22 03:10:35,134 - P17020 - INFO - Processando URL 7/21: https://br.todosnegocios.com/pt/dr-thiago-marques-mendes-cardiologista-11-95655-6161
+2025-05-22 03:10:38,534 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\09b3a3cdd0a8b6c914db609f3ace17b4.html
+2025-05-22 03:10:38,559 - P17020 - INFO - Candidates address: 3 items
+2025-05-22 03:10:38,560 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:10:38,560 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:10:38,560 - P17020 - INFO - Candidates complement: 3 items
+2025-05-22 03:10:38,560 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 03:10:38,560 - P17020 - INFO - Após processar URL 7 Uso de memória: 128.25 MB
+2025-05-22 03:10:38,561 - P17020 - INFO - Processando URL 8/21: https://www.boaconsulta.com/especialista/thiago-marques-mendes-6106d7f2a2e00a699900345e
+2025-05-22 03:10:41,565 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\0a41b0cc57a34ec0fce404971ac90868.html
+2025-05-22 03:10:41,635 - P17020 - INFO - Candidates address: 12 items
+2025-05-22 03:10:41,635 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:41,635 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:10:41,635 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 03:10:41,635 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:41,635 - P17020 - INFO - Após processar URL 8 Uso de memória: 127.93 MB
+2025-05-22 03:10:41,636 - P17020 - INFO - Processando URL 9/21: https://cuidadospelavida.com.br/blog/autor/dr-thiago-marques-mendes
+2025-05-22 03:10:46,053 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6644b9768676dd365c85f2a816b04525.html
+2025-05-22 03:10:46,070 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:10:46,070 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:46,070 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:10:46,070 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:46,071 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:46,071 - P17020 - INFO - Após processar URL 9 Uso de memória: 127.75 MB
+2025-05-22 03:10:46,071 - P17020 - INFO - Processando URL 10/21: https://diariodomunicipio.sjc.sp.gov.br/portal/edicoes/download/2028
+2025-05-22 03:10:49,584 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\27f0773148436556b5ada0f3e88d13f2.html
+2025-05-22 03:10:49,603 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:10:49,603 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:49,603 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:10:49,603 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:49,603 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:49,604 - P17020 - INFO - Após processar URL 10 Uso de memória: 129.59 MB
+2025-05-22 03:10:49,604 - P17020 - INFO - Processando URL 11/21: https://www.escavador.com/sobre/11334470/thiago-marques-mendes
+2025-05-22 03:10:53,117 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\82369fb2b8c183e5c6594793cc128d0f.html
+2025-05-22 03:10:53,141 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:10:53,141 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:53,141 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:10:53,141 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:53,141 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:53,142 - P17020 - INFO - Após processar URL 11 Uso de memória: 127.26 MB
+2025-05-22 03:10:53,142 - P17020 - INFO - Processando URL 12/21: http://www-storage.voxtecnologia.com.br/?m=sigpub.publicacao&f=4410&i=publicado_41634_2016-06-16_bdba1a6b525535a58b728525bed2e02e.pdf
+2025-05-22 03:10:53,143 - P17020 - INFO - Ignorando URL de arquivo não-HTML: http://www-storage.voxtecnologia.com.br/?m=sigpub.publicacao&f=4410&i=publicado_41634_2016-06-16_bdba1a6b525535a58b728525bed2e02e.pdf
+2025-05-22 03:10:53,144 - P17020 - INFO - Após processar URL 12 Uso de memória: 121.80 MB
+2025-05-22 03:10:53,144 - P17020 - INFO - Processando URL 13/21: https://www.helpsaude.com/Thiago-Marques-Mendes.SP
+2025-05-22 03:11:00,761 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ab206c03fc09bd622636096ec68d8c42.html
+2025-05-22 03:11:00,772 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:11:00,772 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:11:00,772 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:11:00,772 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:00,773 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:11:00,773 - P17020 - INFO - Após processar URL 13 Uso de memória: 122.55 MB
+2025-05-22 03:11:00,774 - P17020 - INFO - Processando URL 14/21: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2019/05/410a3589-0cd5-4f77-b575-07505a0fea5b_4564-29-05-2019.pdf
+2025-05-22 03:11:00,774 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2019/05/410a3589-0cd5-4f77-b575-07505a0fea5b_4564-29-05-2019.pdf
+2025-05-22 03:11:00,774 - P17020 - INFO - Após processar URL 14 Uso de memória: 122.55 MB
+2025-05-22 03:11:00,774 - P17020 - INFO - Processando URL 15/21: https://guiamedico.cremesp.org.br/
+2025-05-22 03:11:03,535 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 03:11:03,542 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:11:03,542 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:11:03,543 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:11:03,543 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:03,543 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:11:03,544 - P17020 - INFO - Após processar URL 15 Uso de memória: 122.81 MB
+2025-05-22 03:11:03,544 - P17020 - INFO - Processando URL 16/21: https://drarafamendes.com.br/
+2025-05-22 03:11:07,869 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\cee59a648f1e6d8a442f7c3afa1b15fa.html
+2025-05-22 03:11:07,905 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:11:07,905 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:11:07,905 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:11:07,906 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 03:11:07,906 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:11:07,906 - P17020 - INFO - Após processar URL 16 Uso de memória: 124.58 MB
+2025-05-22 03:11:07,906 - P17020 - INFO - Processando URL 17/21: https://me.med.br/dr-thiago-mendes/
+2025-05-22 03:11:11,650 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\043ae1889dcc41a018090cbf7cf2cde3.html
+2025-05-22 03:11:11,672 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:11:11,672 - P17020 - INFO - Candidates phone: 4 items
+2025-05-22 03:11:11,672 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:11:11,673 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:11,673 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 03:11:11,673 - P17020 - INFO - Após processar URL 17 Uso de memória: 125.43 MB
+2025-05-22 03:11:11,673 - P17020 - INFO - Processando URL 18/21: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/f/6/0/f60295af76ee0066ef8d23434e5d7970b2abd5886f35883312787a117e61f03a/59b064d7-666c-407c-bf04-8383a394d1ef-19181-DOE_17188_07_07_2003_40F_JUCESC_17188_08F.pdf
+2025-05-22 03:11:11,673 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/f/6/0/f60295af76ee0066ef8d23434e5d7970b2abd5886f35883312787a117e61f03a/59b064d7-666c-407c-bf04-8383a394d1ef-19181-DOE_17188_07_07_2003_40F_JUCESC_17188_08F.pdf
+2025-05-22 03:11:11,673 - P17020 - INFO - Após processar URL 18 Uso de memória: 125.43 MB
+2025-05-22 03:11:11,674 - P17020 - INFO - Processando URL 19/21: https://iomat.mt.gov.br/portal/edicoes/download/2326
+2025-05-22 03:11:14,100 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\535c81d8a85f812f4102e2eea2a1bf8d.html
+2025-05-22 03:11:14,123 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:11:14,123 - P17020 - INFO - Candidates phone: 4 items
+2025-05-22 03:11:14,124 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:11:14,124 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:14,124 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 03:11:14,124 - P17020 - INFO - Após processar URL 19 Uso de memória: 125.52 MB
+2025-05-22 03:11:14,124 - P17020 - INFO - Processando URL 20/21: https://www.medicosbrasil.com/profissional/thiago-marques-mendes
+2025-05-22 03:11:16,431 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6d05742abe0a3d399fef5d6d39cf0c26.html
+2025-05-22 03:11:16,432 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:11:16,433 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:11:16,433 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:11:16,433 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:16,433 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:11:16,433 - P17020 - INFO - Após processar URL 20 Uso de memória: 125.55 MB
+2025-05-22 03:11:16,434 - P17020 - INFO - Processando URL 21/21: https://guiasaudebrasil.com.br/profissional/0d77405205c53a15-thiago-marques-mendes
+2025-05-22 03:11:22,409 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3802f74b592d6b1bcb70cff19aa1b13d.html
+2025-05-22 03:11:22,428 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:11:22,429 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:11:22,430 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:11:22,431 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:22,431 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 03:11:22,431 - P17020 - INFO - Após processar URL 21 Uso de memória: 125.73 MB
+2025-05-22 03:11:22,431 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:11:22,432 - P17020 - INFO - Ranked address: 18 items
+2025-05-22 03:11:22,432 - P17020 - INFO - Ranked phone: 7 items
+2025-05-22 03:11:22,432 - P17020 - INFO - Ranked email: 4 items
+2025-05-22 03:11:22,433 - P17020 - INFO - Ranked complement: 6 items
+2025-05-22 03:11:22,433 - P17020 - INFO - Ranked cep: 14 items
+2025-05-22 03:11:22,434 - P17020 - INFO - Após agregação Uso de memória: 125.73 MB
+2025-05-22 03:11:22,434 - P17020 - INFO - Validando endereço: ['Av. Lineu de Paula Machado, 660', 'Rua Nagel, 33', 'Rua Oscar Freire 2250 Conjunto 05 & 06 - Oscar Freire Offices São Paulo , 05409']
+2025-05-22 03:11:22,434 - P17020 - INFO - Endereço validado: Av. Lineu de Paula Machado, 660
+2025-05-22 03:11:22,434 - P17020 - INFO - Limpando texto extenso para campo address: Av. Lineu de Paula Machado, 660...
+2025-05-22 03:11:22,434 - P17020 - INFO - Texto limpo: Av. Lineu de Paula Machado, 660
+2025-05-22 03:11:22,435 - P17020 - INFO - Validando telefone: ['(11) 2151-8709', '(11) 96622-2072', '+551121518709']
+2025-05-22 03:11:22,435 - P17020 - INFO - Limpando texto extenso para campo phone: (11) 2151-8709...
+2025-05-22 03:11:22,435 - P17020 - INFO - Texto limpo: 11) 2151-8709
+2025-05-22 03:11:22,436 - P17020 - INFO - Telefone validado: 11) 2151-8709
+2025-05-22 03:11:22,436 - P17020 - INFO - Validando email: ['SALIFRUTAS@GMAIL.COM', 'ROBSON@BALENCAR.COM.BR', 'dr.thiagommendes@gmail.com']
+2025-05-22 03:11:22,437 - P17020 - INFO - Limpando texto extenso para campo email: SALIFRUTAS@GMAIL.COM...
+2025-05-22 03:11:22,438 - P17020 - INFO - Texto limpo: salifrutas@gmail.com
+2025-05-22 03:11:22,440 - P17020 - INFO - Email validado: salifrutas@gmail.com
+2025-05-22 03:11:22,441 - P17020 - INFO - Validando complemento: ['Conjunto 05 & 06 - Oscar Freire Offices São Paulo (cidade)', 'Conjunto 05 & 06 - Oscar Freire Offices', 'Conjunto 05 & 06 - Oscar Freire Offices\xa0São Paulo (cidade)']
+2025-05-22 03:11:22,441 - P17020 - INFO - Limpando texto extenso para campo complement: Conjunto 05 & 06 - Oscar Freire Offices São Paulo ...
+2025-05-22 03:11:22,441 - P17020 - INFO - Texto limpo: Conjunto 05 & 06 - Oscar Freir
+2025-05-22 03:11:22,442 - P17020 - INFO - Complemento validado: Conjunto 05 & 06 - Oscar Freir
+2025-05-22 03:11:22,442 - P17020 - INFO - Descobrindo cidade
+2025-05-22 03:11:22,442 - P17020 - INFO - Buscando cidade: Av. Lineu de Paula Machado cidade SP
+2025-05-22 03:11:25,127 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 03:11:25,128 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 03:11:25,129 - P17020 - INFO - Tempo de execução de processamento completo do médico: 69.86 segundos
+2025-05-22 03:11:25,129 - P17020 - INFO - Resultado processado: {'Hash': '734ae3ec28e769b6121fc067e948226eb2c9df8a10179464b0babcbb8c432462', 'CRM': '139837', 'UF': 'SP', 'Firstname': 'THIAGO', 'LastName': 'MARQUES MENDES', 'Medical specialty': '', 'Endereco Completo A1': 'Av. Lineu de Paula Machado, 660', 'Address A1': 'Av. Lineu de Paula Machado', 'Numero A1': '660', 'Complement A1': 'Conjunto 05 & 06 - Oscar Freir', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 2151-8709', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'salifrutas@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:11:25,133 - P17020 - INFO - Progresso: 42.1%
+2025-05-22 03:11:25,134 - P17020 - INFO - Tempo de execução de processamento do médico 2: 69.87 segundos
+2025-05-22 03:11:25,138 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 03:11:25,140 - P17020 - INFO - Nome: NADIA ROSSI GONCALVES DE OLIVEIRA
+2025-05-22 03:11:25,141 - P17020 - INFO - Início do processamento Uso de memória: 123.62 MB
+2025-05-22 03:11:25,141 - P17020 - INFO - Iniciando busca para: NADIA ROSSI GONCALVES DE OLIVEIRA CRM 140790 SP telefone e-mail endereço
+2025-05-22 03:11:25,917 - P17020 - INFO - SearX results: 11 URLs
+2025-05-22 03:11:25,917 - P17020 - INFO - Após SearX Uso de memória: 123.63 MB
+2025-05-22 03:11:28,736 - P17020 - INFO - Google results: 8 URLs
+2025-05-22 03:11:28,737 - P17020 - INFO - Após Google Uso de memória: 125.69 MB
+2025-05-22 03:11:31,229 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 03:11:31,230 - P17020 - INFO - Após Bing Uso de memória: 127.82 MB
+2025-05-22 03:11:31,230 - P17020 - INFO - Total de URLs únicas: 18
+2025-05-22 03:11:31,230 - P17020 - INFO - Processando URL 1/18: https://consultacrm.com.br/
+2025-05-22 03:11:34,729 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:11:34,747 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:11:34,747 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:11:34,749 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:11:34,749 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:34,751 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:11:34,756 - P17020 - INFO - Após processar URL 1 Uso de memória: 128.04 MB
+2025-05-22 03:11:34,759 - P17020 - INFO - Processando URL 2/18: https://www.medicosbrasil.com/profissional/nadia-rossi-goncalves-de-oliveira
+2025-05-22 03:11:37,159 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\29f372c3b8065a23895950c792bf24f1.html
+2025-05-22 03:11:37,162 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:11:37,163 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:11:37,163 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:11:37,164 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:37,164 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:11:37,164 - P17020 - INFO - Após processar URL 2 Uso de memória: 128.04 MB
+2025-05-22 03:11:37,165 - P17020 - INFO - Processando URL 3/18: https://nadiafaris.com/
+2025-05-22 03:11:45,117 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5dd426b611cd856463dc6d3530dd87dd.html
+2025-05-22 03:11:45,142 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:11:45,143 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:11:45,143 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:11:45,143 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:45,143 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 03:11:45,143 - P17020 - INFO - Após processar URL 3 Uso de memória: 128.05 MB
+2025-05-22 03:11:45,144 - P17020 - INFO - Processando URL 4/18: https://www.boaconsulta.com/especialista/nadia-rossi-goncalves-de-oliveira-almada-6106c936a2e00a5ffd002787?searchId=cltggobgw00035k6mjx5pjkzt&agendaId=6106cc39a2e00a617b002d69
+2025-05-22 03:11:48,046 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\5dca9db328ef450e8fca8c630439a9c7.html
+2025-05-22 03:11:48,098 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 03:11:48,099 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:11:48,099 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:11:48,099 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:48,099 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:11:48,099 - P17020 - INFO - Após processar URL 4 Uso de memória: 128.39 MB
+2025-05-22 03:11:48,099 - P17020 - INFO - Processando URL 5/18: https://www.doctoralia.com.br/nadia-rossi-goncalves-de-oliveira/psiquiatra/santos
+2025-05-22 03:11:48,100 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/nadia-rossi-goncalves-de-oliveira/psiquiatra/santos
+2025-05-22 03:11:48,100 - P17020 - INFO - Após processar URL 5 Uso de memória: 128.39 MB
+2025-05-22 03:11:48,100 - P17020 - INFO - Processando URL 6/18: https://www.spdo.ms.gov.br/diariodoe/Index/Download/DO9265_07_10_2016
+2025-05-22 03:11:50,774 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\367f76de8f99a18a55f66699afbf255e.html
+2025-05-22 03:11:50,775 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:11:50,775 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:11:50,775 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:11:50,775 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:50,776 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:11:50,776 - P17020 - INFO - Após processar URL 6 Uso de memória: 128.39 MB
+2025-05-22 03:11:50,776 - P17020 - INFO - Processando URL 7/18: https://www.doctoralia.com.br/psiquiatra/santos/gonzaga
+2025-05-22 03:11:50,776 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/santos/gonzaga
+2025-05-22 03:11:50,776 - P17020 - INFO - Após processar URL 7 Uso de memória: 128.39 MB
+2025-05-22 03:11:50,776 - P17020 - INFO - Processando URL 8/18: https://www.psiqueclinica.com.br/doutores.aspx
+2025-05-22 03:12:20,789 - P17020 - ERROR - Erro ao baixar HTML de https://www.psiqueclinica.com.br/doutores.aspx: Message: timeout: Timed out receiving message from renderer: 29.263
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7573F64EC]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F483F]
+	(No symbol) [0x00007FF7574033AE]
+	(No symbol) [0x00007FF7574197E1]
+	(No symbol) [0x00007FF75742091A]
+	(No symbol) [0x00007FF7573F4FAD]
+	(No symbol) [0x00007FF7574194D0]
+	(No symbol) [0x00007FF7574AF732]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 03:12:20,792 - P17020 - INFO - Após processar URL 8 Uso de memória: 128.39 MB
+2025-05-22 03:12:20,792 - P17020 - INFO - Processando URL 9/18: https://www.doctoralia.com.br/psiquiatra/santos?page=6
+2025-05-22 03:12:20,792 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/santos?page=6
+2025-05-22 03:12:20,793 - P17020 - INFO - Após processar URL 9 Uso de memória: 128.39 MB
+2025-05-22 03:12:20,793 - P17020 - INFO - Processando URL 10/18: https://www.boaconsulta.com/especialista/nadia-rossi-goncalves-de-oliveira-almada-6106c936a2e00a5ffd002787
+2025-05-22 03:12:23,938 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\67a11df5c5eb5989c89192359b5cf5ec.html
+2025-05-22 03:12:24,010 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:12:24,011 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:12:24,011 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:12:24,011 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:12:24,011 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:12:24,011 - P17020 - INFO - Após processar URL 10 Uso de memória: 129.64 MB
+2025-05-22 03:12:24,011 - P17020 - INFO - Processando URL 11/18: https://www.catalogo.med.br/doutor/nadia-rossi-goncalves-de-oliveira-2422984.htm
+2025-05-22 03:12:26,204 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4b77435e9085c5c057168e91729ea3c4.html
+2025-05-22 03:12:26,204 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:12:26,205 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:12:26,205 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:12:26,205 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:12:26,205 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:12:26,205 - P17020 - INFO - Após processar URL 11 Uso de memória: 128.11 MB
+2025-05-22 03:12:26,205 - P17020 - INFO - Processando URL 12/18: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 03:12:29,981 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 03:12:30,019 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:12:30,019 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:12:30,020 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:12:30,020 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:12:30,020 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:12:30,020 - P17020 - INFO - Após processar URL 12 Uso de memória: 128.11 MB
+2025-05-22 03:12:30,021 - P17020 - INFO - Processando URL 13/18: https://www.encontraguaruja.com/empresas/dra-nadia-rossi-goncalves-de-oliveira/
+2025-05-22 03:12:36,023 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e6cb0efd2e290af7fa9135407652bab4.html
+2025-05-22 03:12:36,039 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:12:36,039 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:12:36,039 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:12:36,039 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:12:36,040 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:12:36,040 - P17020 - INFO - Após processar URL 13 Uso de memória: 128.11 MB
+2025-05-22 03:12:36,040 - P17020 - INFO - Processando URL 14/18: https://guiasaudebrasil.com.br/profissional/c1ee406f7a9eabfd-nadia-rossi-goncalves-de-oliveira-almada
+2025-05-22 03:12:40,293 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d75cbfa5eb66af3c5781fb00bef9381f.html
+2025-05-22 03:12:40,304 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:12:40,304 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:12:40,304 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:12:40,304 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:12:40,304 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:12:40,304 - P17020 - INFO - Após processar URL 14 Uso de memória: 128.21 MB
+2025-05-22 03:12:40,305 - P17020 - INFO - Processando URL 15/18: https://portal.cfm.org.br/busca-medicos
+2025-05-22 03:12:46,076 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 03:12:46,110 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:12:46,111 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:12:46,111 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:12:46,111 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 03:12:46,111 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:12:46,111 - P17020 - INFO - Após processar URL 15 Uso de memória: 128.21 MB
+2025-05-22 03:12:46,111 - P17020 - INFO - Processando URL 16/18: https://guiamedico.cremesp.org.br/
+2025-05-22 03:12:48,749 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 03:12:48,756 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:12:48,756 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:12:48,756 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:12:48,756 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:12:48,756 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:12:48,757 - P17020 - INFO - Após processar URL 16 Uso de memória: 128.21 MB
+2025-05-22 03:12:48,757 - P17020 - INFO - Processando URL 17/18: https://www.psicologanadia.com.br/
+2025-05-22 03:13:18,769 - P17020 - ERROR - Erro ao baixar HTML de https://www.psicologanadia.com.br/: Message: timeout: Timed out receiving message from renderer: -0.008
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7573F64EC]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F483F]
+	(No symbol) [0x00007FF7574033AE]
+	(No symbol) [0x00007FF7574197E1]
+	(No symbol) [0x00007FF75742091A]
+	(No symbol) [0x00007FF7573F4FAD]
+	(No symbol) [0x00007FF7574194D0]
+	(No symbol) [0x00007FF7574AF276]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 03:13:18,772 - P17020 - INFO - Após processar URL 17 Uso de memória: 128.21 MB
+2025-05-22 03:13:18,772 - P17020 - INFO - Processando URL 18/18: https://cliniguia.com/profissionais/nadia-rossi-goncalves-de-oliveira-980016286773563/
+2025-05-22 03:13:26,666 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c937fa8fe68d52b3edac4ab8a944d954.html
+2025-05-22 03:13:26,720 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:13:26,720 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:13:26,720 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:13:26,721 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:13:26,721 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:13:26,721 - P17020 - INFO - Após processar URL 18 Uso de memória: 130.09 MB
+2025-05-22 03:13:26,721 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:13:26,721 - P17020 - INFO - Ranked address: 4 items
+2025-05-22 03:13:26,722 - P17020 - INFO - Ranked phone: 3 items
+2025-05-22 03:13:26,722 - P17020 - INFO - Ranked email: 2 items
+2025-05-22 03:13:26,722 - P17020 - INFO - Ranked complement: 1 items
+2025-05-22 03:13:26,722 - P17020 - INFO - Ranked cep: 6 items
+2025-05-22 03:13:26,722 - P17020 - INFO - Após agregação Uso de memória: 130.09 MB
+2025-05-22 03:13:26,722 - P17020 - INFO - Validando endereço: ['Rua Oswaldo Cruz, 197', 'R. Dr. Diogo de Faria, 55', 'Avenida Ana Costa, 254']
+2025-05-22 03:13:26,723 - P17020 - INFO - Endereço validado: Rua Oswaldo Cruz, 197
+2025-05-22 03:13:26,723 - P17020 - INFO - Limpando texto extenso para campo address: Rua Oswaldo Cruz, 197...
+2025-05-22 03:13:26,723 - P17020 - INFO - Texto limpo: Rua Oswaldo Cruz, 197
+2025-05-22 03:13:26,723 - P17020 - INFO - Validando telefone: ['(11) 94447-1212', '(13) 3384-3324', '(11) 4349-9900']
+2025-05-22 03:13:26,723 - P17020 - INFO - Limpando texto extenso para campo phone: (11) 94447-1212...
+2025-05-22 03:13:26,723 - P17020 - INFO - Texto limpo: 11) 94447-1212
+2025-05-22 03:13:26,723 - P17020 - INFO - Telefone validado: 11) 94447-1212
+2025-05-22 03:13:26,724 - P17020 - INFO - Validando email: ['nadiafaris@msn.com', 'cfm@portalmedico.org.br']
+2025-05-22 03:13:26,724 - P17020 - INFO - Limpando texto extenso para campo email: nadiafaris@msn.com...
+2025-05-22 03:13:26,724 - P17020 - INFO - Texto limpo: nadiafaris@msn.com
+2025-05-22 03:13:26,724 - P17020 - INFO - Email validado: nadiafaris@msn.com
+2025-05-22 03:13:26,724 - P17020 - INFO - Validando complemento: ['Conjunto D']
+2025-05-22 03:13:26,724 - P17020 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 03:13:26,725 - P17020 - INFO - Texto limpo: Conjunto D
+2025-05-22 03:13:26,725 - P17020 - INFO - Complemento validado: Conjunto D
+2025-05-22 03:13:26,725 - P17020 - INFO - Descobrindo cidade
+2025-05-22 03:13:26,725 - P17020 - INFO - Buscando cidade: Rua Oswaldo Cruz cidade SP
+2025-05-22 03:13:29,426 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 03:13:29,426 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 03:13:29,426 - P17020 - INFO - Tempo de execução de processamento completo do médico: 124.29 segundos
+2025-05-22 03:13:29,427 - P17020 - INFO - Resultado processado: {'Hash': '78385a9971275ad88c2550d803c7a0a094d5f5e829d172fe20577561be169882', 'CRM': '140790', 'UF': 'SP', 'Firstname': 'NADIA', 'LastName': 'ROSSI GONCALVES DE OLIVEIRA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Oswaldo Cruz, 197', 'Address A1': 'Rua Oswaldo Cruz', 'Numero A1': '197', 'Complement A1': 'Conjunto D', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 94447-1212', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'nadiafaris@msn.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:13:29,427 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 03:13:29,428 - P17020 - INFO - Após salvar resultados Uso de memória: 127.12 MB
+2025-05-22 03:13:29,428 - P17020 - INFO - Progresso: 42.9%
+2025-05-22 03:13:29,429 - P17020 - INFO - Tempo de execução de processamento do médico 3: 124.29 segundos
+2025-05-22 03:13:29,429 - P17020 - INFO - Tempo de execução de processamento do lote completo: 266.23 segundos

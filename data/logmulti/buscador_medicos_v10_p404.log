@@ -1,0 +1,442 @@
+2025-05-22 05:50:45,907 - P11992 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 05:50:45,907 - P11992 - INFO - Nome: CAMILA RAITER
+2025-05-22 05:50:45,908 - P11992 - INFO - Reiniciando driver do Chrome
+2025-05-22 05:50:47,300 - P11992 - INFO - Após reiniciar driver Uso de memória: 145.98 MB
+2025-05-22 05:50:47,301 - P11992 - INFO - Início do processamento Uso de memória: 145.98 MB
+2025-05-22 05:50:47,301 - P11992 - INFO - Iniciando busca para: CAMILA RAITER CRM 161153 SP telefone e-mail endereço
+2025-05-22 05:50:48,121 - P11992 - INFO - SearX results: 8 URLs
+2025-05-22 05:50:48,122 - P11992 - INFO - Após SearX Uso de memória: 145.98 MB
+2025-05-22 05:50:50,710 - P11992 - INFO - Google results: 5 URLs
+2025-05-22 05:50:50,711 - P11992 - INFO - Após Google Uso de memória: 145.98 MB
+2025-05-22 05:50:53,353 - P11992 - INFO - Bing results: 8 URLs
+2025-05-22 05:50:53,353 - P11992 - INFO - Após Bing Uso de memória: 146.70 MB
+2025-05-22 05:50:53,353 - P11992 - INFO - Total de URLs únicas: 11
+2025-05-22 05:50:53,353 - P11992 - INFO - Processando URL 1/11: https://www.doctoralia.com.br/camila-raiter/endocrinologista/sao-paulo
+2025-05-22 05:50:53,353 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/camila-raiter/endocrinologista/sao-paulo
+2025-05-22 05:50:53,354 - P11992 - INFO - Após processar URL 1 Uso de memória: 146.70 MB
+2025-05-22 05:50:53,354 - P11992 - INFO - Processando URL 2/11: https://www.informecadastral.com.br/cnpj/camila-raiter-consultas-medicas-ltda-35663110000118
+2025-05-22 05:50:58,016 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\9fbb751215c83a2c6283501200d12de7.html
+2025-05-22 05:50:58,043 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:50:58,043 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 05:50:58,043 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 05:50:58,044 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:50:58,044 - P11992 - INFO - Candidates cep: 3 items
+2025-05-22 05:50:58,044 - P11992 - INFO - Após processar URL 2 Uso de memória: 146.70 MB
+2025-05-22 05:50:58,044 - P11992 - INFO - Processando URL 3/11: https://www.infobel.com/pt/brazil/camila_raiter_consultas_medicas/sao_paulo/BR129498783/businessdetails.aspx
+2025-05-22 05:51:03,794 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ec9fd399853a0a8d7e57f996636e726e.html
+2025-05-22 05:51:03,833 - P11992 - INFO - Candidates address: 11 items
+2025-05-22 05:51:03,833 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:51:03,834 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:51:03,834 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:51:03,834 - P11992 - INFO - Candidates cep: 10 items
+2025-05-22 05:51:03,834 - P11992 - INFO - Após processar URL 3 Uso de memória: 145.11 MB
+2025-05-22 05:51:03,834 - P11992 - INFO - Processando URL 4/11: https://www.descubraonline.com/guia/sp/sao-paulo/camila-raiter-consultas-medicas-ltda-35663110000118/
+2025-05-22 05:51:08,989 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\f558799524b8029091bf8826e7f70926.html
+2025-05-22 05:51:09,043 - P11992 - INFO - Candidates address: 4 items
+2025-05-22 05:51:09,044 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 05:51:09,044 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 05:51:09,044 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:51:09,044 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 05:51:09,045 - P11992 - INFO - Após processar URL 4 Uso de memória: 146.32 MB
+2025-05-22 05:51:09,045 - P11992 - INFO - Processando URL 5/11: https://cadastroempresa.com.br/fornecedor/camila-raiter-consultas-medicas-ltda-35663110000118
+2025-05-22 05:51:11,655 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\32a83cdd6c7885d04c97bddf52f89239.html
+2025-05-22 05:51:11,675 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:51:11,676 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 05:51:11,676 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 05:51:11,676 - P11992 - INFO - Candidates complement: 2 items
+2025-05-22 05:51:11,676 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 05:51:11,677 - P11992 - INFO - Após processar URL 5 Uso de memória: 145.15 MB
+2025-05-22 05:51:11,677 - P11992 - INFO - Processando URL 6/11: https://www.doctoralia.com.br/endocrinologista/sao-caetano-do-sul/santa-paula
+2025-05-22 05:51:11,677 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/endocrinologista/sao-caetano-do-sul/santa-paula
+2025-05-22 05:51:11,677 - P11992 - INFO - Após processar URL 6 Uso de memória: 145.15 MB
+2025-05-22 05:51:11,677 - P11992 - INFO - Processando URL 7/11: https://cnpj.biz/35663110000118
+2025-05-22 05:51:15,792 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\be560fa382020049131b31e79719fa7a.html
+2025-05-22 05:51:15,818 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 05:51:15,821 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 05:51:15,822 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 05:51:15,823 - P11992 - INFO - Candidates complement: 2 items
+2025-05-22 05:51:15,823 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 05:51:15,823 - P11992 - INFO - Após processar URL 7 Uso de memória: 145.17 MB
+2025-05-22 05:51:15,823 - P11992 - INFO - Processando URL 8/11: https://www.teledoc.med.br/web-files/usuarios/4138/Camila%20R.pdf
+2025-05-22 05:51:15,824 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.teledoc.med.br/web-files/usuarios/4138/Camila%20R.pdf
+2025-05-22 05:51:15,824 - P11992 - INFO - Após processar URL 8 Uso de memória: 145.17 MB
+2025-05-22 05:51:15,824 - P11992 - INFO - Processando URL 9/11: https://empresadois.com.br/cnpj/camila-raiter-consultas-medicas-ltda-35663110000118
+2025-05-22 05:51:19,891 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\560ead654de24821a4063bbeec0697b3.html
+2025-05-22 05:51:19,908 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:51:19,909 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 05:51:19,910 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 05:51:19,911 - P11992 - INFO - Candidates complement: 2 items
+2025-05-22 05:51:19,913 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 05:51:19,914 - P11992 - INFO - Após processar URL 9 Uso de memória: 145.17 MB
+2025-05-22 05:51:19,916 - P11992 - INFO - Processando URL 10/11: https://www.econodata.com.br/consulta-empresa/35663110000118-CAMILA-RAITER-CONSULTAS-MEDICAS-LTDA
+2025-05-22 05:51:24,603 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ab148bf1dd119ca5f90c68113cbc4524.html
+2025-05-22 05:51:24,793 - P11992 - INFO - Candidates address: 26 items
+2025-05-22 05:51:24,793 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:51:24,793 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:51:24,794 - P11992 - INFO - Candidates complement: 2 items
+2025-05-22 05:51:24,794 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 05:51:24,795 - P11992 - INFO - Após processar URL 10 Uso de memória: 145.98 MB
+2025-05-22 05:51:24,795 - P11992 - INFO - Processando URL 11/11: https://www.escavador.com/sobre/491099281/camila-raiter
+2025-05-22 05:51:28,840 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\a046c11049f433f52c96d735518f4851.html
+2025-05-22 05:51:28,862 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:51:28,862 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:51:28,862 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:51:28,863 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:51:28,863 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:51:28,863 - P11992 - INFO - Após processar URL 11 Uso de memória: 145.57 MB
+2025-05-22 05:51:28,863 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:51:28,865 - P11992 - INFO - Ranked address: 43 items
+2025-05-22 05:51:28,865 - P11992 - INFO - Ranked phone: 2 items
+2025-05-22 05:51:28,866 - P11992 - INFO - Ranked email: 1 items
+2025-05-22 05:51:28,867 - P11992 - INFO - Ranked complement: 6 items
+2025-05-22 05:51:28,867 - P11992 - INFO - Ranked cep: 14 items
+2025-05-22 05:51:28,868 - P11992 - INFO - Após agregação Uso de memória: 145.57 MB
+2025-05-22 05:51:28,868 - P11992 - INFO - Validando endereço: ['Rua Dr Eduardo Amaro, 99', 'Rua Padre Arnaldo Jansen, 200', 'Rua Doutor Eduardo Amaro 99 04104']
+2025-05-22 05:51:28,868 - P11992 - INFO - Endereço validado: Rua Dr Eduardo Amaro, 99
+2025-05-22 05:51:28,868 - P11992 - INFO - Limpando texto extenso para campo address: Rua Dr Eduardo Amaro, 99...
+2025-05-22 05:51:28,869 - P11992 - INFO - Texto limpo: Rua Dr Eduardo Amaro, 99
+2025-05-22 05:51:28,870 - P11992 - INFO - Validando telefone: ['(11) 5539-3535', '(32) 99195-6532']
+2025-05-22 05:51:28,871 - P11992 - INFO - Limpando texto extenso para campo phone: (11) 5539-3535...
+2025-05-22 05:51:28,873 - P11992 - INFO - Texto limpo: 11) 5539-3535
+2025-05-22 05:51:28,874 - P11992 - INFO - Telefone validado: 11) 5539-3535
+2025-05-22 05:51:28,874 - P11992 - INFO - Validando email: ['legal@topcont.com.br']
+2025-05-22 05:51:28,875 - P11992 - INFO - Limpando texto extenso para campo email: legal@topcont.com.br...
+2025-05-22 05:51:28,875 - P11992 - INFO - Texto limpo: legal@topcont.com.br
+2025-05-22 05:51:28,875 - P11992 - INFO - Email validado: legal@topcont.com.br
+2025-05-22 05:51:28,875 - P11992 - INFO - Validando complemento: ['Bloco B                   Conj  1814  Clique para copia', 'Bloco B                   Conj  1814  Paraiso  São Paul', 'Bloco B                   Conj  1814 Paraiso ']
+2025-05-22 05:51:28,875 - P11992 - INFO - Limpando texto extenso para campo complement: Bloco B                   Conj  1814  Clique para ...
+2025-05-22 05:51:28,875 - P11992 - INFO - Texto limpo: Bloco B Conj
+2025-05-22 05:51:28,876 - P11992 - INFO - Complemento validado: Bloco B Conj
+2025-05-22 05:51:28,876 - P11992 - INFO - Descobrindo cidade
+2025-05-22 05:51:28,876 - P11992 - INFO - Buscando cidade: Rua Dr Eduardo Amaro cidade SP
+2025-05-22 05:51:31,544 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 05:51:31,545 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 05:51:31,546 - P11992 - INFO - Tempo de execução de processamento completo do médico: 44.25 segundos
+2025-05-22 05:51:31,550 - P11992 - INFO - Resultado processado: {'Hash': '33c0f36e4e95f81dcee4c10b63ff4fc12081e24291c7533224c0fcbfd0f157e9', 'CRM': '161153', 'UF': 'SP', 'Firstname': 'CAMILA', 'LastName': 'RAITER', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Dr Eduardo Amaro, 99', 'Address A1': 'Rua Dr Eduardo Amaro', 'Numero A1': '99', 'Complement A1': 'Bloco B Conj', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 5539-3535', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'legal@topcont.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:51:31,563 - P11992 - INFO - Progresso: 98.5%
+2025-05-22 05:51:31,564 - P11992 - INFO - Executando coleta de lixo
+2025-05-22 05:51:31,677 - P11992 - INFO - Após coleta de lixo Uso de memória: 128.35 MB
+2025-05-22 05:51:31,678 - P11992 - INFO - Tempo de execução de processamento do médico 1: 45.77 segundos
+2025-05-22 05:51:31,679 - P11992 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 05:51:31,679 - P11992 - INFO - Nome: PEDRO HENRIQUE GUERRA LUIZ DA SILVA
+2025-05-22 05:51:31,680 - P11992 - INFO - Início do processamento Uso de memória: 128.35 MB
+2025-05-22 05:51:31,682 - P11992 - INFO - Iniciando busca para: PEDRO HENRIQUE GUERRA LUIZ DA SILVA CRM 165684 SP telefone e-mail endereço
+2025-05-22 05:51:32,490 - P11992 - INFO - SearX results: 13 URLs
+2025-05-22 05:51:32,492 - P11992 - INFO - Após SearX Uso de memória: 128.36 MB
+2025-05-22 05:51:34,995 - P11992 - INFO - Google results: 9 URLs
+2025-05-22 05:51:34,995 - P11992 - INFO - Após Google Uso de memória: 132.75 MB
+2025-05-22 05:51:37,460 - P11992 - INFO - Bing results: 7 URLs
+2025-05-22 05:51:37,460 - P11992 - INFO - Após Bing Uso de memória: 135.36 MB
+2025-05-22 05:51:37,460 - P11992 - INFO - Total de URLs únicas: 16
+2025-05-22 05:51:37,460 - P11992 - INFO - Processando URL 1/16: https://www.medicosbrasil.com/profissional/pedro-henrique-luiz-da-silva
+2025-05-22 05:51:41,112 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\d22c64359e68e20f7d6343257044d311.html
+2025-05-22 05:51:41,142 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:51:41,143 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:51:41,143 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:51:41,143 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:51:41,143 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:51:41,143 - P11992 - INFO - Após processar URL 1 Uso de memória: 136.43 MB
+2025-05-22 05:51:41,143 - P11992 - INFO - Processando URL 2/16: https://www.saobernardo.sp.gov.br/documents/10181/1441964/NM+2309+de+22.07.2022+-++Conte%C3%BAdo+Integral.pdf/8a847a34-8c8e-76e3-ee03-0484ed7ef05c
+2025-05-22 05:51:41,144 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1441964/NM+2309+de+22.07.2022+-++Conte%C3%BAdo+Integral.pdf/8a847a34-8c8e-76e3-ee03-0484ed7ef05c
+2025-05-22 05:51:41,144 - P11992 - INFO - Após processar URL 2 Uso de memória: 136.43 MB
+2025-05-22 05:51:41,144 - P11992 - INFO - Processando URL 3/16: https://ioepa.com.br/pages/2017/2017.04.11.DOE.pdf
+2025-05-22 05:51:41,144 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://ioepa.com.br/pages/2017/2017.04.11.DOE.pdf
+2025-05-22 05:51:41,145 - P11992 - INFO - Após processar URL 3 Uso de memória: 136.43 MB
+2025-05-22 05:51:41,145 - P11992 - INFO - Processando URL 4/16: https://diariodomunicipio.sjc.sp.gov.br/portal/edicoes/download/2107
+2025-05-22 05:51:44,221 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\936816c3086298be86acf934f60098a5.html
+2025-05-22 05:51:44,248 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:51:44,249 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:51:44,249 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:51:44,250 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:51:44,250 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:51:44,251 - P11992 - INFO - Após processar URL 4 Uso de memória: 136.77 MB
+2025-05-22 05:51:44,251 - P11992 - INFO - Processando URL 5/16: https://ilustrado.com.br/wp-content/uploads/2018/09/AYXIUG2F-D8QH_publicacao_legal-01.pdf
+2025-05-22 05:51:44,252 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://ilustrado.com.br/wp-content/uploads/2018/09/AYXIUG2F-D8QH_publicacao_legal-01.pdf
+2025-05-22 05:51:44,252 - P11992 - INFO - Após processar URL 5 Uso de memória: 136.77 MB
+2025-05-22 05:51:44,253 - P11992 - INFO - Processando URL 6/16: https://diariodomunicipio.sjc.sp.gov.br/portal/edicoes/download/2245
+2025-05-22 05:51:47,112 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\5d3d9239bcbde5f7c678305b05698ebe.html
+2025-05-22 05:51:47,142 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:51:47,142 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:51:47,143 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:51:47,143 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:51:47,143 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:51:47,143 - P11992 - INFO - Após processar URL 6 Uso de memória: 137.54 MB
+2025-05-22 05:51:47,143 - P11992 - INFO - Processando URL 7/16: https://www.boaconsulta.com/especialista/pedro-henrique-luiz-da-silva-6106d97ba2e00a653a00b65c
+2025-05-22 05:51:50,563 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\cffc56b935ad754e7e9319970b84d313.html
+2025-05-22 05:51:50,648 - P11992 - INFO - Candidates address: 13 items
+2025-05-22 05:51:50,649 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:51:50,649 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:51:50,649 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:51:50,650 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:51:50,650 - P11992 - INFO - Após processar URL 7 Uso de memória: 138.56 MB
+2025-05-22 05:51:50,650 - P11992 - INFO - Processando URL 8/16: https://cliniguia.com/profissionais/pedro-henrique-luiz-da-silva-980016295860104/
+2025-05-22 05:51:56,085 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\6f816d6f245a774c441a62d3a2a1ae90.html
+2025-05-22 05:51:56,155 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:51:56,156 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:51:56,156 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:51:56,156 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:51:56,156 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:51:56,156 - P11992 - INFO - Após processar URL 8 Uso de memória: 139.21 MB
+2025-05-22 05:51:56,157 - P11992 - INFO - Processando URL 9/16: https://sistemadje.tjmt.jus.br/publicacoes/10319-2018%20C7%20Comarcas%20-%201%C2%AA%202%C2%AA%20e%203%C2%AA%20Entr%C3%A2ncia.pdf
+2025-05-22 05:51:56,157 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/10319-2018%20C7%20Comarcas%20-%201%C2%AA%202%C2%AA%20e%203%C2%AA%20Entr%C3%A2ncia.pdf
+2025-05-22 05:51:56,157 - P11992 - INFO - Após processar URL 9 Uso de memória: 139.21 MB
+2025-05-22 05:51:56,157 - P11992 - INFO - Processando URL 10/16: https://repositorio.ifs.edu.br/biblioteca/bitstream/123456789/2009/1/Pesquisa%20e%20Inova%C3%A7%C3%A3o%20em%20Ci%C3%AAncia%20da%20Informa%C3%A7%C3%A3o%20-%20Egressos%20PPGCI.pdf
+2025-05-22 05:51:56,157 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://repositorio.ifs.edu.br/biblioteca/bitstream/123456789/2009/1/Pesquisa%20e%20Inova%C3%A7%C3%A3o%20em%20Ci%C3%AAncia%20da%20Informa%C3%A7%C3%A3o%20-%20Egressos%20PPGCI.pdf
+2025-05-22 05:51:56,158 - P11992 - INFO - Após processar URL 10 Uso de memória: 139.21 MB
+2025-05-22 05:51:56,158 - P11992 - INFO - Processando URL 11/16: https://www.doctoralia.com.br/pedro-henrique-luiz-da-silva/endocrinologista/sao-paulo
+2025-05-22 05:51:56,158 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/pedro-henrique-luiz-da-silva/endocrinologista/sao-paulo
+2025-05-22 05:51:56,158 - P11992 - INFO - Após processar URL 11 Uso de memória: 139.21 MB
+2025-05-22 05:51:56,158 - P11992 - INFO - Processando URL 12/16: http://cnpj.info/Pedro-Guerra-Endocrinologia-Dr-Pedro-Guerra-Endocrinologia-e-Emagrecimento
+2025-05-22 05:51:59,141 - P11992 - ERROR - Erro ao baixar HTML de http://cnpj.info/Pedro-Guerra-Endocrinologia-Dr-Pedro-Guerra-Endocrinologia-e-Emagrecimento: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7574059F4]
+	(No symbol) [0x00007FF7573F6789]
+	(No symbol) [0x00007FF7573F84F8]
+	(No symbol) [0x00007FF7573F6A96]
+	(No symbol) [0x00007FF7573F6516]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F465C]
+	(No symbol) [0x00007FF75740CF3A]
+	(No symbol) [0x00007FF7574B013E]
+	(No symbol) [0x00007FF75748737A]
+	(No symbol) [0x00007FF7574AF39C]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 05:51:59,144 - P11992 - INFO - Após processar URL 12 Uso de memória: 139.21 MB
+2025-05-22 05:51:59,145 - P11992 - INFO - Processando URL 13/16: https://www.saobernardo.sp.gov.br/documents/10181/865801/NM+2044+de+01.02.2019+-+Conteu%CC%81do+Integral.pdf/18104d36-22c5-cc2e-46f3-bd3440f4279b
+2025-05-22 05:51:59,146 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/865801/NM+2044+de+01.02.2019+-+Conteu%CC%81do+Integral.pdf/18104d36-22c5-cc2e-46f3-bd3440f4279b
+2025-05-22 05:51:59,147 - P11992 - INFO - Após processar URL 13 Uso de memória: 139.21 MB
+2025-05-22 05:51:59,147 - P11992 - INFO - Processando URL 14/16: https://cnpj.biz/44905368000174
+2025-05-22 05:52:01,336 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\d9a9affaa91993014f07ce137cbece1a.html
+2025-05-22 05:52:01,339 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:52:01,339 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:52:01,339 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:52:01,339 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:52:01,340 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:52:01,340 - P11992 - INFO - Após processar URL 14 Uso de memória: 139.25 MB
+2025-05-22 05:52:01,340 - P11992 - INFO - Processando URL 15/16: https://consultacrm.com.br/
+2025-05-22 05:52:05,309 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:52:05,321 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:52:05,321 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:52:05,321 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:52:05,321 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:52:05,321 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:52:05,321 - P11992 - INFO - Após processar URL 15 Uso de memória: 139.51 MB
+2025-05-22 05:52:05,322 - P11992 - INFO - Processando URL 16/16: https://www.consultasocio.com/q/sa/pedro-henrique-guerra-luiz-da-silva
+2025-05-22 05:52:10,658 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\12cafb3fa0672b528648c5265603859b.html
+2025-05-22 05:52:10,667 - P11992 - INFO - Candidates address: 5 items
+2025-05-22 05:52:10,670 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:52:10,672 - P11992 - INFO - Candidates email: 5 items
+2025-05-22 05:52:10,672 - P11992 - INFO - Candidates complement: 5 items
+2025-05-22 05:52:10,672 - P11992 - INFO - Candidates cep: 11 items
+2025-05-22 05:52:10,672 - P11992 - INFO - Após processar URL 16 Uso de memória: 138.78 MB
+2025-05-22 05:52:10,673 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:52:10,673 - P11992 - INFO - Ranked address: 18 items
+2025-05-22 05:52:10,673 - P11992 - INFO - Ranked phone: 0 items
+2025-05-22 05:52:10,673 - P11992 - INFO - Ranked email: 5 items
+2025-05-22 05:52:10,674 - P11992 - INFO - Ranked complement: 5 items
+2025-05-22 05:52:10,674 - P11992 - INFO - Ranked cep: 11 items
+2025-05-22 05:52:10,674 - P11992 - INFO - Após agregação Uso de memória: 138.78 MB
+2025-05-22 05:52:10,674 - P11992 - INFO - Validando endereço: ['Rua Sampaio Viana, 253', 'Rua Itacolomi, 333', 'Rua Vergueiro, 1353']
+2025-05-22 05:52:10,675 - P11992 - INFO - Endereço validado: Rua Sampaio Viana, 253
+2025-05-22 05:52:10,675 - P11992 - INFO - Limpando texto extenso para campo address: Rua Sampaio Viana, 253...
+2025-05-22 05:52:10,675 - P11992 - INFO - Texto limpo: Rua Sampaio Viana, 253
+2025-05-22 05:52:10,675 - P11992 - INFO - Validando email: ['LAILADRIELI@YAHOO.COM', 'MEUCNPJ@MEDICCONT.COM.BR', 'FISCAL@CONTABILSOLUTION.COM.BR']
+2025-05-22 05:52:10,675 - P11992 - INFO - Limpando texto extenso para campo email: LAILADRIELI@YAHOO.COM...
+2025-05-22 05:52:10,676 - P11992 - INFO - Texto limpo: lailadrieli@yahoo.com
+2025-05-22 05:52:10,676 - P11992 - INFO - Email validado: lailadrieli@yahoo.com
+2025-05-22 05:52:10,676 - P11992 - INFO - Validando complemento: ['Sala  913 914 E 915 Jardim Das Colinas', 'Sala  914 Jardim Das Colinas', 'Apt   107 Vila Clementino']
+2025-05-22 05:52:10,676 - P11992 - INFO - Limpando texto extenso para campo complement: Sala  913 914 E 915 Jardim Das Colinas...
+2025-05-22 05:52:10,676 - P11992 - INFO - Texto limpo: Sala 913 914 E 915 Jardim Das
+2025-05-22 05:52:10,677 - P11992 - INFO - Complemento validado: Sala 913 914 E 915 Jardim Das
+2025-05-22 05:52:10,677 - P11992 - INFO - Descobrindo cidade
+2025-05-22 05:52:10,677 - P11992 - INFO - Buscando cidade: Rua Sampaio Viana cidade SP
+2025-05-22 05:52:12,954 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 05:52:12,955 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 05:52:12,955 - P11992 - INFO - Tempo de execução de processamento completo do médico: 41.28 segundos
+2025-05-22 05:52:12,955 - P11992 - INFO - Resultado processado: {'Hash': '54548c6c61fa6d85618aa8609af6cffb8cc4d5ba046277d56d41d825a4c0012c', 'CRM': '165684', 'UF': 'SP', 'Firstname': 'PEDRO', 'LastName': 'HENRIQUE GUERRA LUIZ DA SILVA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Sampaio Viana, 253', 'Address A1': 'Rua Sampaio Viana', 'Numero A1': '253', 'Complement A1': 'Sala 913 914 E 915 Jardim Das', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'lailadrieli@yahoo.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:52:12,956 - P11992 - INFO - Progresso: 98.9%
+2025-05-22 05:52:12,956 - P11992 - INFO - Tempo de execução de processamento do médico 2: 41.28 segundos
+2025-05-22 05:52:12,956 - P11992 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 05:52:12,957 - P11992 - INFO - Nome: WENDY CIRA JUSTINIANO CESPEDES
+2025-05-22 05:52:12,957 - P11992 - INFO - Início do processamento Uso de memória: 136.16 MB
+2025-05-22 05:52:12,957 - P11992 - INFO - Iniciando busca para: WENDY CIRA JUSTINIANO CESPEDES CRM 171119 SP telefone e-mail endereço
+2025-05-22 05:52:13,825 - P11992 - INFO - SearX results: 9 URLs
+2025-05-22 05:52:13,826 - P11992 - INFO - Após SearX Uso de memória: 136.16 MB
+2025-05-22 05:52:16,309 - P11992 - INFO - Google results: 4 URLs
+2025-05-22 05:52:16,309 - P11992 - INFO - Após Google Uso de memória: 136.71 MB
+2025-05-22 05:52:18,927 - P11992 - INFO - Bing results: 9 URLs
+2025-05-22 05:52:18,928 - P11992 - INFO - Após Bing Uso de memória: 138.34 MB
+2025-05-22 05:52:18,928 - P11992 - INFO - Total de URLs únicas: 12
+2025-05-22 05:52:18,928 - P11992 - INFO - Processando URL 1/12: https://www.boaconsulta.com/especialista/wendy-cira-justiniano-cespedes-6106d9cfa2e00a653a00bc92
+2025-05-22 05:52:21,685 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\046c419fde01f7c0e3b0cbb5a726f27d.html
+2025-05-22 05:52:21,752 - P11992 - INFO - Candidates address: 11 items
+2025-05-22 05:52:21,753 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:52:21,753 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:52:21,753 - P11992 - INFO - Candidates complement: 2 items
+2025-05-22 05:52:21,754 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:52:21,754 - P11992 - INFO - Após processar URL 1 Uso de memória: 139.13 MB
+2025-05-22 05:52:21,755 - P11992 - INFO - Processando URL 2/12: https://www.informecadastral.com.br/cnpj/barja-justiniano-servicos-medicos-ltda-28060969000177
+2025-05-22 05:52:25,399 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\0346df03465394decafd264ca116c6e5.html
+2025-05-22 05:52:25,424 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:52:25,425 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 05:52:25,425 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 05:52:25,425 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:52:25,425 - P11992 - INFO - Candidates cep: 3 items
+2025-05-22 05:52:25,425 - P11992 - INFO - Após processar URL 2 Uso de memória: 139.15 MB
+2025-05-22 05:52:25,426 - P11992 - INFO - Processando URL 3/12: https://observatorio.fm.usp.br/entities/person/de155422-813d-4dfc-a668-764f27eee54a?spc.page=1
+2025-05-22 05:52:55,436 - P11992 - ERROR - Erro ao baixar HTML de https://observatorio.fm.usp.br/entities/person/de155422-813d-4dfc-a668-764f27eee54a?spc.page=1: Message: timeout: Timed out receiving message from renderer: -0.006
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7573F64EC]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F483F]
+	(No symbol) [0x00007FF7574033AE]
+	(No symbol) [0x00007FF7574197E1]
+	(No symbol) [0x00007FF75742091A]
+	(No symbol) [0x00007FF7573F4FAD]
+	(No symbol) [0x00007FF7574194D0]
+	(No symbol) [0x00007FF7574AF276]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 05:52:55,438 - P11992 - INFO - Após processar URL 3 Uso de memória: 139.15 MB
+2025-05-22 05:52:55,438 - P11992 - INFO - Processando URL 4/12: https://cliniguia.com/profissionais/wendy-cira-justiniano-cespedes-707403024960978/
+2025-05-22 05:52:59,813 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\a33fe7d2840acab125c472c821faa570.html
+2025-05-22 05:52:59,852 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:52:59,853 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:52:59,853 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:52:59,853 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:52:59,853 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:52:59,853 - P11992 - INFO - Após processar URL 4 Uso de memória: 139.16 MB
+2025-05-22 05:52:59,854 - P11992 - INFO - Processando URL 5/12: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 05:53:03,329 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 05:53:03,341 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:53:03,341 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:53:03,341 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:53:03,341 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:53:03,341 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:53:03,342 - P11992 - INFO - Após processar URL 5 Uso de memória: 139.20 MB
+2025-05-22 05:53:03,342 - P11992 - INFO - Processando URL 6/12: https://www.doctoralia.com.br/wendy-cira-justiniano-cespedes/endocrinologista-pediatra/sao-paulo
+2025-05-22 05:53:03,342 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/wendy-cira-justiniano-cespedes/endocrinologista-pediatra/sao-paulo
+2025-05-22 05:53:03,342 - P11992 - INFO - Após processar URL 6 Uso de memória: 139.20 MB
+2025-05-22 05:53:03,342 - P11992 - INFO - Processando URL 7/12: https://guiamedico.cremesp.org.br/
+2025-05-22 05:53:06,481 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 05:53:06,488 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:53:06,489 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 05:53:06,489 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:53:06,489 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:53:06,489 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 05:53:06,489 - P11992 - INFO - Após processar URL 7 Uso de memória: 139.21 MB
+2025-05-22 05:53:06,489 - P11992 - INFO - Processando URL 8/12: https://clinicaplaza.com.br/
+2025-05-22 05:53:10,329 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\a2af06177034141580f872f24ad4bc13.html
+2025-05-22 05:53:10,436 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 05:53:10,436 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 05:53:10,436 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 05:53:10,436 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:53:10,437 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 05:53:10,437 - P11992 - INFO - Após processar URL 8 Uso de memória: 139.88 MB
+2025-05-22 05:53:10,437 - P11992 - INFO - Processando URL 9/12: https://www.consultasocio.com/q/sa/wendy-cira-justiniano-cespedes
+2025-05-22 05:53:14,919 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\a77a786711359bfeea9af296c4bf019b.html
+2025-05-22 05:53:14,924 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:53:14,924 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:53:14,925 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 05:53:14,925 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:53:14,925 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 05:53:14,925 - P11992 - INFO - Após processar URL 9 Uso de memória: 138.52 MB
+2025-05-22 05:53:14,925 - P11992 - INFO - Processando URL 10/12: https://guiasaudebrasil.com.br/profissional/f24a9ae54d3acd69-wendy-cira-justiniano-cespedes
+2025-05-22 05:53:21,734 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\1ba2212e981d32e0a65b0dc6fe2781cc.html
+2025-05-22 05:53:21,742 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:53:21,743 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:53:21,743 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:53:21,743 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:53:21,743 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 05:53:21,743 - P11992 - INFO - Após processar URL 10 Uso de memória: 138.52 MB
+2025-05-22 05:53:21,744 - P11992 - INFO - Processando URL 11/12: https://www.medicosbrasil.com/profissional/wendy-cira-justiniano-cespedes
+2025-05-22 05:53:23,918 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\50fb0d46fb588a1286cd2d3cac8eb990.html
+2025-05-22 05:53:23,920 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:53:23,921 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:53:23,921 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:53:23,922 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:53:23,922 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:53:23,922 - P11992 - INFO - Após processar URL 11 Uso de memória: 138.52 MB
+2025-05-22 05:53:23,922 - P11992 - INFO - Processando URL 12/12: https://consultacrm.com.br/
+2025-05-22 05:53:27,411 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:53:27,423 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:53:27,423 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:53:27,423 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:53:27,424 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:53:27,424 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:53:27,424 - P11992 - INFO - Após processar URL 12 Uso de memória: 139.01 MB
+2025-05-22 05:53:27,424 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:53:27,424 - P11992 - INFO - Ranked address: 16 items
+2025-05-22 05:53:27,424 - P11992 - INFO - Ranked phone: 4 items
+2025-05-22 05:53:27,425 - P11992 - INFO - Ranked email: 3 items
+2025-05-22 05:53:27,425 - P11992 - INFO - Ranked complement: 2 items
+2025-05-22 05:53:27,425 - P11992 - INFO - Ranked cep: 7 items
+2025-05-22 05:53:27,425 - P11992 - INFO - Após agregação Uso de memória: 139.01 MB
+2025-05-22 05:53:27,425 - P11992 - INFO - Validando endereço: ['Rua Itapeva, 518', 'Rua Duarte De Azevedo, 284', 'Rua Topázio, 62']
+2025-05-22 05:53:27,426 - P11992 - INFO - Endereço validado: Rua Itapeva, 518
+2025-05-22 05:53:27,426 - P11992 - INFO - Limpando texto extenso para campo address: Rua Itapeva, 518...
+2025-05-22 05:53:27,426 - P11992 - INFO - Texto limpo: Rua Itapeva, 518
+2025-05-22 05:53:27,426 - P11992 - INFO - Validando telefone: ['(11) 2308-7252', '(32) 99195-6532', '(11) 4349-9900']
+2025-05-22 05:53:27,426 - P11992 - INFO - Limpando texto extenso para campo phone: (11) 2308-7252...
+2025-05-22 05:53:27,426 - P11992 - INFO - Texto limpo: 11) 2308-7252
+2025-05-22 05:53:27,426 - P11992 - INFO - Telefone validado: 11) 2308-7252
+2025-05-22 05:53:27,427 - P11992 - INFO - Validando email: ['contabilidade@fernandesoliveira.com', 'contato@clinicaplaza.com.br', 'CONTABILIDADE@FERNANDESOLIVEIRA.COM']
+2025-05-22 05:53:27,427 - P11992 - INFO - Limpando texto extenso para campo email: contabilidade@fernandesoliveira.com...
+2025-05-22 05:53:27,427 - P11992 - INFO - Texto limpo: contabilidade@fernandesoliveira.com
+2025-05-22 05:53:27,427 - P11992 - INFO - Email validado: contabilidade@fernandesoliveira.com
+2025-05-22 05:53:27,427 - P11992 - INFO - Validando complemento: ['Sala 133', 'Conjunto 35']
+2025-05-22 05:53:27,427 - P11992 - INFO - Limpando texto extenso para campo complement: Sala 133...
+2025-05-22 05:53:27,428 - P11992 - INFO - Texto limpo: Sala 133
+2025-05-22 05:53:27,428 - P11992 - INFO - Complemento validado: Sala 133
+2025-05-22 05:53:27,428 - P11992 - INFO - Descobrindo cidade
+2025-05-22 05:53:27,428 - P11992 - INFO - Buscando cidade: Rua Itapeva cidade SP
+2025-05-22 05:53:30,250 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 05:53:30,251 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 05:53:30,251 - P11992 - INFO - Tempo de execução de processamento completo do médico: 77.29 segundos
+2025-05-22 05:53:30,251 - P11992 - INFO - Resultado processado: {'Hash': '44d51cf8610879e1421cbd3c81baa84a7d20596bb7ded1de776575141151316b', 'CRM': '171119', 'UF': 'SP', 'Firstname': 'WENDY', 'LastName': 'CIRA JUSTINIANO CESPEDES', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Itapeva, 518', 'Address A1': 'Rua Itapeva', 'Numero A1': '518', 'Complement A1': 'Sala 133', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 2308-7252', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'contabilidade@fernandesoliveira.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:53:30,252 - P11992 - INFO - Salvando lote de resultados
+2025-05-22 05:53:30,252 - P11992 - INFO - Após salvar resultados Uso de memória: 137.40 MB
+2025-05-22 05:53:30,253 - P11992 - INFO - Progresso: 99.3%
+2025-05-22 05:53:30,253 - P11992 - INFO - Tempo de execução de processamento do médico 3: 77.30 segundos
+2025-05-22 05:53:30,253 - P11992 - INFO - Tempo de execução de processamento do lote completo: 164.35 segundos

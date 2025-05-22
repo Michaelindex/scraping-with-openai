@@ -1,0 +1,226 @@
+<html><head><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="/buscatextual/resources/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="/buscatextual/resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="/buscatextual/resources/css/advanced.css">
+        <link rel="stylesheet" type="text/css" href="/buscatextual/resources/css/captcha.css">         
+        <link rel="stylesheet" type="text/css" href="/buscatextual/resources/demo/style.css">
+		<link rel="stylesheet" type="text/css" href="/buscatextual/resources/css/estilo-busca-textual.css">
+        <link href="http://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css">        
+        <script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/X-oVtzDcTGjZVms4LEgykmCV/recaptcha__pt_br.js" crossorigin="anonymous" integrity="sha384-157E0cjRcD3mr3csqJ5H80B0+/a5EWkCwUJshizwlWj43Rim2KdN4Ra0uZ32vFR/"></script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script src="/buscatextual/resources/js/jquery.js"></script>
+		<script src="/buscatextual/resources/js/bootstrap.js"></script>
+		
+		
+		
+		<script type="text/javascript">
+			var widget;
+		    var verifyCallback = function(response) {
+		    	$("#tokenCaptchar").attr('value', grecaptcha.getResponse());
+		    	$('#submitBtn').removeAttr('disabled');
+		    	
+		    	$("#submitBtn").click(function(){
+		    		$( "#div_gif" ).append( "<img style=\"-webkit-user-select: none\" src=\"/buscatextual/images/gif/ajax-loader.gif\">" );
+		    		visualizarCurriculo();
+		    	});
+			};
+			
+			var onloadCallback = function() {
+				widget = grecaptcha.render('divCaptcha', {
+					'sitekey' : '6LeDv6QUAAAAAP_ZK5AXrsNRQjxfbjgZLV5_YHyy',
+					'callback' : verifyCallback,
+					'theme' : 'light'
+				});
+			};
+		
+			function visualizarCurriculo(){
+				var form = document.forms[0];
+				form.submit();
+			}
+	
+			setTimeout(function() {
+				$('#div_gif').remove();
+			}, 10000);
+		</script>
+
+	</head>
+
+	<body>
+		<div class="header">
+	<div class="header-content max-width">
+		<div class="identity center">
+			<div class="combo">
+				<a href="http://lattes.cnpq.br/" title="Curr?culo Lattes" target="_blank"><img title="Curr?culo Lattes" alt="Curr?culo Lattes" src="/buscatextual/images/titulo-sistema.png"> </a>
+			</div>
+			<div class="logo">
+				<a title="CNPq - Conselho Nacional de Desenvolvimento Cient?fico e Tecnol?gico" target="_blank" href="http://www.cnpq.br"> </a>
+			</div>
+			<div class="menu-header">
+				<!--<a
+					class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais"
+					href="javascript:void(0)" title="Aumentar a fonte"> </a> <a
+					class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos "
+					href="javascript:void(0)" title="Fonte padr?o"> </a> <a
+					class="bt-menu-header titBottom contraste icons-top icons-top-contraste"
+					href="javascript:void(0)" title="Alto contraste"></a>  <a
+					title="Click here to change the language to english"
+					class="bt-menu-header titBottom icons-top icons-top-enUK"
+					onClick="mudarIdioma()" id="idBandeira" href="javascript:void(0)">
+				</a>  <a class="bt-menu-header titBottom  icons-top icons-top-help"
+					target="_blank"
+					href="http://ajuda.cnpq.br/index.php/P?gina_principal"
+					title="Ajuda"> </a>-->
+			</div>
+		</div>
+	</div>
+</div>
+
+		<form name="visualizacvForm" id="formulario" method="post" action="/buscatextual/visualizacv.do;jsessionid=E57315133FA32939AC55AD9506699A64.buscatextual_0" enctype="multipart/form-data">
+			<input type="hidden" name="metodo" value="apresentar" id="metodo">
+			<input type="hidden" name="id" value="K4291061T0" id="id">
+			<input type="hidden" name="idiomaExibicao" value="" id="idiomaExibicao">
+			<input type="hidden" name="tipo" value="" id="tipo">
+			<input type="hidden" name="tokenCaptchar" value="" id="tokenCaptchar">
+			<input type="hidden" name="nomeCaptchar" value="V2" id="nomeCaptchar">
+			<input type="hidden" name="mostrarNroCitacoesScielo" value="" id="mostrarNroCitacoesScielo">
+			<input type="hidden" name="mostrarNroCitacoesScopus" value="" id="mostrarNroCitacoesScopus">
+			<input type="hidden" name="mostrarNroCitacoesISI" value="" id="mostrarNroCitacoesISI">
+			<input type="hidden" name="idiomaExibicao" value="" id="idiomaExibicao">
+			<input type="hidden" name="id" value="K4291061T0" id="id">
+			<input type="hidden" name="tipo" value="" id="tipo">
+			<input type="hidden" name="filtros.paisAtividade" value="0">
+			<input type="hidden" name="filtros.regiaoAtividade" value="0">
+			<input type="hidden" name="filtros.ufAtividade" value="0">
+			<input type="hidden" name="filtros.siglaInstAtividade" value="">
+			<input type="hidden" name="filtros.nomeInstAtividade" value="">
+			<input type="hidden" name="filtros.naturezaAtividade" value="0">
+			<input type="hidden" name="filtros.atividadeAtual" value="false">
+			<input type="hidden" name="filtros.paisFormacao" value="0">
+			<input type="hidden" name="filtros.regiaoFormacao" value="0">
+			<input type="hidden" name="filtros.ufFormacao" value="0">
+			<input type="hidden" name="filtros.siglaInstFormacao" value="">
+			<input type="hidden" name="filtros.nomeInstFormacao" value="">
+			<input type="hidden" name="filtros.nivelFormacao" value="0">
+			<input type="hidden" name="filtros.grdAreaFormacao" value="0">
+			<input type="hidden" name="filtros.areaFormacao" value="0">
+			<input type="hidden" name="filtros.idioma" value="0">
+			<input type="hidden" name="filtros.proeficienciaLeitura" value="">
+			<input type="hidden" name="filtros.proeficienciaEscrita" value="">
+			<input type="hidden" name="filtros.proeficienciaFala" value="">
+			<input type="hidden" name="filtros.proeficienciaCompreensao" value="">
+			<input type="hidden" name="filtros.grandeAreaAtuacao" value="0">
+			<input type="hidden" name="filtros.areaAtuacao" value="0">
+			<input type="hidden" name="filtros.subareaAtuacao" value="0">
+			<input type="hidden" name="filtros.especialidadeAtuacao" value="0">
+			<input type="hidden" name="filtros.codigoGrandeAreaAtuacao" value="0">
+			<input type="hidden" name="filtros.codigoAreaAtuacao" value="0">
+			<input type="hidden" name="filtros.codigoSubareaAtuacao" value="0">
+			<input type="hidden" name="filtros.codigoEspecialidadeAtuacao" value="0">
+			<input type="hidden" name="filtros.grandeAreaProducao" value="0">
+			<input type="hidden" name="filtros.areaProducao" value="0">
+			<input type="hidden" name="filtros.setorProducao" value="0">
+			<input type="hidden" name="filtros.subSetorProducao" value="0">
+			<input type="hidden" name="filtros.tipoRelacao" value="AND">
+			<input type="hidden" name="filtros.categoriaNivelBolsa" value="">
+			<input type="hidden" name="filtros.orientadorCNPq" value="">
+			<input type="hidden" name="filtros.conceitoCurso" value="">
+			<input type="hidden" name="filtros.participaDGP" value="false">
+			<input type="hidden" name="filtros.modalidadeBolsa" value="0" id="modalidadeBolsa">
+			<input type="hidden" name="filtros.buscaNome" value="false" id="buscaNome">
+			<input type="hidden" name="filtros.buscaAssunto" value="false" id="buscaAssunto">
+			<input type="hidden" name="filtros.buscaCPF" value="false" id="buscaCPF">
+			<input type="hidden" name="filtros.buscaAtuacao" value="false">
+			<input type="hidden" name="filtros.tipoOrdenacao" value="SCR">
+			<input type="hidden" name="filtros.atualizacaoCurriculo" value="48">
+			<input type="hidden" name="filtros.quantidadeRegistros" value="25">
+			<input type="hidden" name="filtros.registroInicial" value="1">
+			<input type="hidden" name="filtros.registroFinal" value="25">
+			<input type="hidden" name="textoBuscaTodas" value="">
+			<input type="hidden" name="textoBuscaFrase" value="">
+			<input type="hidden" name="textoBuscaQualquer" value="">
+			<input type="hidden" name="textoBuscaNenhuma" value="">
+			<input type="hidden" name="textoExpressao" value="">
+			<input type="hidden" name="particaoProcura" value="">
+			<input type="hidden" name="buscarDoutores" value="false">
+			<input type="hidden" name="buscarDemais" value="false">
+			<input type="hidden" name="buscarDoutoresAvancada" value="false">
+			<input type="hidden" name="buscarDemaisAvancada" value="false">
+			<input type="hidden" name="textoBuscaAssunto" value="">
+			<input type="hidden" name="tipoConector" value="AND">
+			<input type="hidden" name="resumoFormacao" value="">
+			<input type="hidden" name="resumoAtividade" value="">
+			<input type="hidden" name="resumoAtuacao" value="">
+			<input type="hidden" name="resumoProducao" value="">
+			<input type="hidden" name="resumoPesquisador" value="">
+			<input type="hidden" name="resumoIdioma" value="">
+			<input type="hidden" name="resumoPresencaDGP" value="">
+			<input type="hidden" name="resumoModalidade" value="">
+			<input type="hidden" name="intCPaginaAtual" value="1">
+			<input type="hidden" name="parametrosBusca" value="">
+			<input type="hidden" name="strCNavegador" value="">
+			<input type="hidden" name="strCSistemaOperacional" value="">
+			<input type="hidden" name="strCIP" value="">
+			<input type="hidden" name="buscaAvancada" value="0">
+			<input type="hidden" name="moduloIndicacaoAdhoc" value="false">
+			<input type="hidden" name="query" value="">
+			<input type="hidden" name="modoIndAdhoc" value="">
+			<input type="hidden" name="tipoFuncaoIndicacaoAdHoc" value="">
+			<input type="hidden" name="buscarBrasileirosAvancada" value="false">
+			<input type="hidden" name="buscarEstrangeirosAvancada" value="false">
+			<input type="hidden" name="buscarBrasileiros" value="false">
+			<input type="hidden" name="buscarEstrangeiros" value="false">
+			
+			<div class="wrap ">
+				<div class="container">
+					<div class="conteudo">
+						<div class="iframe-simulation">
+							<div class="conteudo-2">
+								<div class="layout-cell layout-cell-6 captcha">	
+										<div class="layout-cell layout-cell-6 captcha">
+											<div class="divCaptcha">
+												<div id="divInformativa">
+													<h2 class="tituloCaptcha">Código de segurança</h2>
+												</div>
+												<div id="wrapper-messages-captcha"></div>
+												<br>
+												<div align="center" id="div_gif"></div>
+												
+												<div id="divCaptcha"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-k6mtpfhjjtry" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeDv6QUAAAAAP_ZK5AXrsNRQjxfbjgZLV5_YHyy&amp;co=aHR0cHM6Ly9idXNjYXRleHR1YWwuY25wcS5icjo0NDM.&amp;hl=pt-BR&amp;v=X-oVtzDcTGjZVms4LEgykmCV&amp;theme=light&amp;size=normal&amp;cb=zgtziaknmgne"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+												
+												<div style="margin-top: 70px; padding: 0 7px 0 140px;" id="divBotoes">
+													<div class="divButtonCaptcha">
+														
+														<input type="button" id="submitBtn" class="btn btn-primary" disabled="" value="Submeter" title="Submeter">
+													</div>
+												</div>
+											</div>
+										</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</form>
+		<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&amp;render=explicit&amp;hl=pt-BR" async="" defer=""></script>    
+			
+			<!-- Analytics - Inicio -->
+
+		<script type="text/javascript">
+		
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-35652740-1']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>
+		
+		<!-- Analytics - Fim -->
+	
+<div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility linear 0.3s, opacity 0.3s linear; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="o desafio reCAPTCHA expira em dois minutos" name="c-k6mtpfhjjtry" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/bframe?hl=pt-BR&amp;v=X-oVtzDcTGjZVms4LEgykmCV&amp;k=6LeDv6QUAAAAAP_ZK5AXrsNRQjxfbjgZLV5_YHyy" style="width: 100%; height: 100%;"></iframe></div></div></body></html>

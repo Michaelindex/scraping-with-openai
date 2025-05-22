@@ -1,0 +1,612 @@
+2025-05-22 04:50:36,441 - P11992 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 04:50:36,441 - P11992 - INFO - Nome: MATHEUS MARIM
+2025-05-22 04:50:36,442 - P11992 - INFO - Reiniciando driver do Chrome
+2025-05-22 04:50:37,707 - P11992 - INFO - Após reiniciar driver Uso de memória: 140.46 MB
+2025-05-22 04:50:37,708 - P11992 - INFO - Início do processamento Uso de memória: 140.46 MB
+2025-05-22 04:50:37,708 - P11992 - INFO - Iniciando busca para: MATHEUS MARIM CRM 14527 SP telefone e-mail endereço
+2025-05-22 04:50:38,514 - P11992 - INFO - SearX results: 15 URLs
+2025-05-22 04:50:38,514 - P11992 - INFO - Após SearX Uso de memória: 140.46 MB
+2025-05-22 04:50:41,101 - P11992 - INFO - Google results: 8 URLs
+2025-05-22 04:50:41,101 - P11992 - INFO - Após Google Uso de memória: 140.48 MB
+2025-05-22 04:50:44,018 - P11992 - INFO - Bing results: 11 URLs
+2025-05-22 04:50:44,018 - P11992 - INFO - Após Bing Uso de memória: 140.51 MB
+2025-05-22 04:50:44,019 - P11992 - INFO - Total de URLs únicas: 26
+2025-05-22 04:50:44,019 - P11992 - INFO - Processando URL 1/26: https://guiaja.net/pt/empresas/sp/campinas/medicos-homeopatia/matheus-marim_7034478+3.html
+2025-05-22 04:50:47,063 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\3e7adb0ee174464f667dc3a02678d4c1.html
+2025-05-22 04:50:47,109 - P11992 - INFO - Candidates address: 5 items
+2025-05-22 04:50:47,109 - P11992 - INFO - Candidates phone: 5 items
+2025-05-22 04:50:47,110 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:50:47,110 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:50:47,110 - P11992 - INFO - Candidates cep: 5 items
+2025-05-22 04:50:47,110 - P11992 - INFO - Após processar URL 1 Uso de memória: 140.52 MB
+2025-05-22 04:50:47,110 - P11992 - INFO - Processando URL 2/26: https://aph.org.br/nota-de-pesar-dr-matheus-marim/
+2025-05-22 04:50:51,664 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\11cd32a92b9bfc2d539108ca4d3f0ea7.html
+2025-05-22 04:50:51,696 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:50:51,696 - P11992 - INFO - Candidates phone: 3 items
+2025-05-22 04:50:51,696 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:50:51,696 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:50:51,696 - P11992 - INFO - Candidates cep: 3 items
+2025-05-22 04:50:51,697 - P11992 - INFO - Após processar URL 2 Uso de memória: 140.52 MB
+2025-05-22 04:50:51,697 - P11992 - INFO - Processando URL 3/26: https://www.misterwhat.com.br/company/2374-matheus-marim-campinas
+2025-05-22 04:50:54,529 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\cf6a3ea2faed0aa10a73452353509da3.html
+2025-05-22 04:50:54,531 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:50:54,532 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:50:54,532 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:50:54,532 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:50:54,532 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:50:54,532 - P11992 - INFO - Após processar URL 3 Uso de memória: 140.70 MB
+2025-05-22 04:50:54,533 - P11992 - INFO - Processando URL 4/26: https://www.classemedica.com.br/medico/242225-matheus-marim.htm
+2025-05-22 04:51:02,173 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\bf3a49a8c8e5a94bb121b79fb5234b73.html
+2025-05-22 04:51:02,201 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:51:02,202 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:51:02,202 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:51:02,202 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:51:02,202 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:51:02,202 - P11992 - INFO - Após processar URL 4 Uso de memória: 140.52 MB
+2025-05-22 04:51:02,202 - P11992 - INFO - Processando URL 5/26: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20201111&idorgao=347
+2025-05-22 04:51:06,031 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\522356cdaa09f3ddf16591dd1986abaf.html
+2025-05-22 04:51:07,899 - P11992 - INFO - Candidates address: 121 items
+2025-05-22 04:51:07,900 - P11992 - INFO - Candidates phone: 11 items
+2025-05-22 04:51:07,900 - P11992 - INFO - Candidates email: 9 items
+2025-05-22 04:51:07,900 - P11992 - INFO - Candidates complement: 9 items
+2025-05-22 04:51:07,900 - P11992 - INFO - Candidates cep: 321 items
+2025-05-22 04:51:07,901 - P11992 - INFO - Após processar URL 5 Uso de memória: 139.32 MB
+2025-05-22 04:51:07,901 - P11992 - INFO - Processando URL 6/26: https://portal.cfm.org.br/busca-medicos
+2025-05-22 04:51:11,945 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 04:51:11,982 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:51:11,982 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:51:11,982 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:51:11,982 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 04:51:11,982 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:51:11,983 - P11992 - INFO - Após processar URL 6 Uso de memória: 136.80 MB
+2025-05-22 04:51:11,983 - P11992 - INFO - Processando URL 7/26: https://qualotelefone.com/sp/campinas/medicos-homeopatia/matheus-marim/643396
+2025-05-22 04:51:18,792 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\b588e0bcc067467c059f727649415dab.html
+2025-05-22 04:51:18,818 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:51:18,819 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:51:18,820 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:51:18,821 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:51:18,822 - P11992 - INFO - Candidates cep: 8 items
+2025-05-22 04:51:18,824 - P11992 - INFO - Após processar URL 7 Uso de memória: 137.06 MB
+2025-05-22 04:51:18,827 - P11992 - INFO - Processando URL 8/26: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20220315&idorgao=347
+2025-05-22 04:51:22,022 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\dd41bca39cd63a648df62eecb912db62.html
+2025-05-22 04:51:22,897 - P11992 - INFO - Candidates address: 33 items
+2025-05-22 04:51:22,898 - P11992 - INFO - Candidates phone: 4 items
+2025-05-22 04:51:22,898 - P11992 - INFO - Candidates email: 85 items
+2025-05-22 04:51:22,898 - P11992 - INFO - Candidates complement: 2 items
+2025-05-22 04:51:22,898 - P11992 - INFO - Candidates cep: 48 items
+2025-05-22 04:51:22,898 - P11992 - INFO - Após processar URL 8 Uso de memória: 141.04 MB
+2025-05-22 04:51:22,898 - P11992 - INFO - Processando URL 9/26: https://sistemadje.tjmt.jus.br/publicacoes/10077-2017%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 04:51:22,899 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/10077-2017%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 04:51:22,899 - P11992 - INFO - Após processar URL 9 Uso de memória: 138.42 MB
+2025-05-22 04:51:22,899 - P11992 - INFO - Processando URL 10/26: https://guiamedico.cremesp.org.br/
+2025-05-22 04:51:27,308 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 04:51:27,315 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:51:27,315 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:51:27,315 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:51:27,315 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:51:27,315 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:51:27,316 - P11992 - INFO - Após processar URL 10 Uso de memória: 138.43 MB
+2025-05-22 04:51:27,316 - P11992 - INFO - Processando URL 11/26: https://smcc.org.br/noticias/o-departamento-de-homeopatia-da-smcc-comunica-com-pesar-o-falecimento-do-dr-matheus-marim/
+2025-05-22 04:51:35,597 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\19eb470c5a954cfe8cbd6785d26dca00.html
+2025-05-22 04:51:35,628 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 04:51:35,628 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 04:51:35,628 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:51:35,628 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:51:35,628 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:51:35,629 - P11992 - INFO - Após processar URL 11 Uso de memória: 140.71 MB
+2025-05-22 04:51:35,629 - P11992 - INFO - Processando URL 12/26: https://doutorcrm.com/
+2025-05-22 04:51:38,266 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\f650e4106d6b0c34ccf0db5be7fc5ddd.html
+2025-05-22 04:51:38,270 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:51:38,271 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:51:38,271 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:51:38,271 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:51:38,271 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:51:38,271 - P11992 - INFO - Após processar URL 12 Uso de memória: 140.73 MB
+2025-05-22 04:51:38,272 - P11992 - INFO - Processando URL 13/26: https://www.listamais.com.br/local/cad_idXZ75ZZf/matheus-marim-homeopata-em-campinas-sp
+2025-05-22 04:51:44,139 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\6ed5c620687691750c3cd5b56d06400c.html
+2025-05-22 04:51:44,159 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:51:44,160 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 04:51:44,160 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:51:44,160 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:51:44,160 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:51:44,160 - P11992 - INFO - Após processar URL 13 Uso de memória: 140.82 MB
+2025-05-22 04:51:44,160 - P11992 - INFO - Processando URL 14/26: https://eguias.net/empresa/matheus-marim/campinas/sp/3450356
+2025-05-22 04:51:46,499 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ddff07135be331ba2c442baa2ea16185.html
+2025-05-22 04:51:46,514 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 04:51:46,514 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:51:46,514 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:51:46,514 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:51:46,515 - P11992 - INFO - Candidates cep: 3 items
+2025-05-22 04:51:46,515 - P11992 - INFO - Após processar URL 14 Uso de memória: 140.85 MB
+2025-05-22 04:51:46,515 - P11992 - INFO - Processando URL 15/26: https://www.saobernardo.sp.gov.br/documents/10181/1018801/NM+2105+de+24.01.2020+-+Conteu%CC%81do+Integral.pdf/feb1bce3-52a0-888d-d916-549ab020fad6
+2025-05-22 04:51:46,515 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1018801/NM+2105+de+24.01.2020+-+Conteu%CC%81do+Integral.pdf/feb1bce3-52a0-888d-d916-549ab020fad6
+2025-05-22 04:51:46,516 - P11992 - INFO - Após processar URL 15 Uso de memória: 140.85 MB
+2025-05-22 04:51:46,516 - P11992 - INFO - Processando URL 16/26: http://ioepa.com.br/arquivos/2016/2016.11.24.DOE.pdf
+2025-05-22 04:51:46,516 - P11992 - INFO - Ignorando URL de arquivo não-HTML: http://ioepa.com.br/arquivos/2016/2016.11.24.DOE.pdf
+2025-05-22 04:51:46,516 - P11992 - INFO - Após processar URL 16 Uso de memória: 140.85 MB
+2025-05-22 04:51:46,516 - P11992 - INFO - Processando URL 17/26: https://www.empresafone.com.br/empresa/matheus-marim-medicos-homeopatia-parque-sao-quirino-campinas-sp-1057404
+2025-05-22 04:51:49,950 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\cd93aae47abeb063ddf335e5105a3856.html
+2025-05-22 04:51:49,993 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:51:49,994 - P11992 - INFO - Candidates phone: 5 items
+2025-05-22 04:51:49,994 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:51:49,994 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:51:49,994 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:51:49,994 - P11992 - INFO - Após processar URL 17 Uso de memória: 140.88 MB
+2025-05-22 04:51:49,994 - P11992 - INFO - Processando URL 18/26: https://www.ibam.org.br/wp-content/uploads/2022/05/5-saolourenco-11216.pdf
+2025-05-22 04:51:49,995 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.ibam.org.br/wp-content/uploads/2022/05/5-saolourenco-11216.pdf
+2025-05-22 04:51:49,995 - P11992 - INFO - Após processar URL 18 Uso de memória: 140.88 MB
+2025-05-22 04:51:49,995 - P11992 - INFO - Processando URL 19/26: https://www.apontador.com.br/local/sp/campinas/medicina_e_saude_geral_/WHRC78J2/matheus_marim.html
+2025-05-22 04:51:55,392 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\6a6a6a26692d29ac49404f4a6ea71983.html
+2025-05-22 04:51:55,443 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 04:51:55,444 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 04:51:55,444 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:51:55,444 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 04:51:55,444 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:51:55,444 - P11992 - INFO - Após processar URL 19 Uso de memória: 141.03 MB
+2025-05-22 04:51:55,444 - P11992 - INFO - Processando URL 20/26: https://www.saobernardo.sp.gov.br/documents/10181/1441964/NM+2296+de+27.05.2022+-+Conteu%CC%81do+Integral.pdf/2c73ad04-2731-f28a-6128-0ca077c4aa2c
+2025-05-22 04:51:55,445 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1441964/NM+2296+de+27.05.2022+-+Conteu%CC%81do+Integral.pdf/2c73ad04-2731-f28a-6128-0ca077c4aa2c
+2025-05-22 04:51:55,445 - P11992 - INFO - Após processar URL 20 Uso de memória: 141.03 MB
+2025-05-22 04:51:55,445 - P11992 - INFO - Processando URL 21/26: https://www.saobernardo.sp.gov.br/documents/10181/1441964/NM+2279+de+11.02.2022+-+Conteu%CC%81do+Integral.pdf/11bc98ce-e69c-c3aa-536e-e13693f1a374
+2025-05-22 04:51:55,445 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1441964/NM+2279+de+11.02.2022+-+Conteu%CC%81do+Integral.pdf/11bc98ce-e69c-c3aa-536e-e13693f1a374
+2025-05-22 04:51:55,445 - P11992 - INFO - Após processar URL 21 Uso de memória: 141.03 MB
+2025-05-22 04:51:55,446 - P11992 - INFO - Processando URL 22/26: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/17936/Cadernos_JUD_BA_2019-05-15_XI_87.pdf?sequence=1&isAllowed=y
+2025-05-22 04:51:55,446 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/17936/Cadernos_JUD_BA_2019-05-15_XI_87.pdf?sequence=1&isAllowed=y
+2025-05-22 04:51:55,446 - P11992 - INFO - Após processar URL 22 Uso de memória: 141.03 MB
+2025-05-22 04:51:55,446 - P11992 - INFO - Processando URL 23/26: https://www.guiatelefone.com/campinas-sp/clinicas-medicos-e-terapias/3408717/matheus-marim
+2025-05-22 04:52:00,021 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\1e00fcaf5ab64ee370d46ccf496ce149.html
+2025-05-22 04:52:00,026 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:52:00,027 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:52:00,027 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:52:00,027 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:52:00,027 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:52:00,027 - P11992 - INFO - Após processar URL 23 Uso de memória: 141.07 MB
+2025-05-22 04:52:00,028 - P11992 - INFO - Processando URL 24/26: https://prescricaoeletronica.cfm.org.br/
+2025-05-22 04:52:04,650 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\93a41b652c58d8c8264c16a169822627.html
+2025-05-22 04:52:04,674 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:52:04,675 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:52:04,676 - P11992 - INFO - Candidates email: 2 items
+2025-05-22 04:52:04,677 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:52:04,677 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:52:04,677 - P11992 - INFO - Após processar URL 24 Uso de memória: 141.11 MB
+2025-05-22 04:52:04,677 - P11992 - INFO - Processando URL 25/26: https://br.todosnegocios.com/pt/matheus-marim-19-3256-1718
+2025-05-22 04:52:07,989 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\fc240772b2c77d98b5e14384fe4d7368.html
+2025-05-22 04:52:08,005 - P11992 - INFO - Candidates address: 6 items
+2025-05-22 04:52:08,005 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:52:08,005 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:52:08,005 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:52:08,006 - P11992 - INFO - Candidates cep: 3 items
+2025-05-22 04:52:08,006 - P11992 - INFO - Após processar URL 25 Uso de memória: 141.12 MB
+2025-05-22 04:52:08,006 - P11992 - INFO - Processando URL 26/26: https://consultacrm.com.br/
+2025-05-22 04:52:12,045 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:52:12,064 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:52:12,064 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:52:12,064 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:52:12,064 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:52:12,065 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:52:12,065 - P11992 - INFO - Após processar URL 26 Uso de memória: 142.24 MB
+2025-05-22 04:52:12,065 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:52:12,065 - P11992 - INFO - Ranked address: 169 items
+2025-05-22 04:52:12,066 - P11992 - INFO - Ranked phone: 32 items
+2025-05-22 04:52:12,066 - P11992 - INFO - Ranked email: 101 items
+2025-05-22 04:52:12,066 - P11992 - INFO - Ranked complement: 13 items
+2025-05-22 04:52:12,066 - P11992 - INFO - Ranked cep: 382 items
+2025-05-22 04:52:12,067 - P11992 - INFO - Após agregação Uso de memória: 142.24 MB
+2025-05-22 04:52:12,067 - P11992 - INFO - Validando endereço: ['Rua Doutor Euclides Vieira, 560', 'Rua Juiz Alexandre Martins de Castro Filho, 130', 'Rua Desembargador Homero Mafra, 60']
+2025-05-22 04:52:12,067 - P11992 - INFO - Endereço validado: Rua Doutor Euclides Vieira, 560
+2025-05-22 04:52:12,067 - P11992 - INFO - Limpando texto extenso para campo address: Rua Doutor Euclides Vieira, 560...
+2025-05-22 04:52:12,067 - P11992 - INFO - Texto limpo: Rua Doutor Euclides Vieira, 560
+2025-05-22 04:52:12,068 - P11992 - INFO - Validando telefone: ['(19) 3256-9700', '(19) 3252-4878', '(27) 99583-9292']
+2025-05-22 04:52:12,068 - P11992 - INFO - Limpando texto extenso para campo phone: (19) 3256-9700...
+2025-05-22 04:52:12,068 - P11992 - INFO - Texto limpo: 19) 3256-9700
+2025-05-22 04:52:12,068 - P11992 - INFO - Telefone validado: 19) 3256-9700
+2025-05-22 04:52:12,068 - P11992 - INFO - Validando email: ['contato@aph.org.br', 'inqueritos-vitoria@tjes.jus.br', '1civel-vitoria@tjes.jus.br']
+2025-05-22 04:52:12,069 - P11992 - INFO - Limpando texto extenso para campo email: contato@aph.org.br...
+2025-05-22 04:52:12,070 - P11992 - INFO - Texto limpo: contato@aph.org.br
+2025-05-22 04:52:12,070 - P11992 - INFO - Email validado: contato@aph.org.br
+2025-05-22 04:52:12,070 - P11992 - INFO - Validando complemento: ['Sala de Audiências desta Oitava Vara Cível de Vitória/', 'Sala Pessoal | 718637440). ', 'Sala: Sala de Audiências 1 - 9º Juizado Especial Cível']
+2025-05-22 04:52:12,070 - P11992 - INFO - Limpando texto extenso para campo complement: Sala de Audiências desta Oitava Vara Cível de Vitó...
+2025-05-22 04:52:12,070 - P11992 - INFO - Texto limpo: Sala de Audiências desta Oitav
+2025-05-22 04:52:12,071 - P11992 - INFO - Complemento validado: Sala de Audiências desta Oitav
+2025-05-22 04:52:12,071 - P11992 - INFO - Descobrindo cidade
+2025-05-22 04:52:12,071 - P11992 - INFO - Buscando cidade: Rua Doutor Euclides Vieira cidade SP
+2025-05-22 04:52:14,730 - P11992 - INFO - Cidade encontrada: Campinas
+2025-05-22 04:52:14,730 - P11992 - INFO - Limpando texto extenso para campo city: Campinas...
+2025-05-22 04:52:14,731 - P11992 - INFO - Texto limpo: Campinas
+2025-05-22 04:52:14,731 - P11992 - INFO - Cidade descoberta: Campinas
+2025-05-22 04:52:14,731 - P11992 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 04:52:14,731 - P11992 - INFO - Iniciando busca de CEP em cascata para: Rua Doutor Euclides Vieira, Campinas, SP
+2025-05-22 04:52:14,731 - P11992 - INFO - Método 1: ViaCEP API
+2025-05-22 04:52:14,731 - P11992 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SP/campinas/rua%20doutor%20euclides%20vieira/json/
+2025-05-22 04:52:15,450 - P11992 - INFO - Dados encontrados no ViaCEP: {'cep': '13088-280', 'logradouro': 'Rua Doutor Euclides Vieira', 'complemento': '', 'unidade': '', 'bairro': 'Parque São Quirino', 'localidade': 'Campinas', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3509502', 'gia': '2446', 'ddd': '19', 'siafi': '6291'}
+2025-05-22 04:52:15,454 - P11992 - INFO - CEP encontrado via ViaCEP: 13088-280
+2025-05-22 04:52:15,454 - P11992 - INFO - Dados de CEP encontrados: {'cep': '13088-280', 'logradouro': 'Rua Doutor Euclides Vieira', 'complemento': '', 'unidade': '', 'bairro': 'Parque São Quirino', 'localidade': 'Campinas', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3509502', 'gia': '2446', 'ddd': '19', 'siafi': '6291'}
+2025-05-22 04:52:15,455 - P11992 - INFO - Limpando texto extenso para campo bairro: Parque São Quirino...
+2025-05-22 04:52:15,455 - P11992 - INFO - Texto limpo: Parque São Quirino
+2025-05-22 04:52:15,455 - P11992 - INFO - Limpando texto extenso para campo city: Campinas...
+2025-05-22 04:52:15,455 - P11992 - INFO - Texto limpo: Campinas
+2025-05-22 04:52:15,455 - P11992 - INFO - Limpando texto extenso para campo state: SP...
+2025-05-22 04:52:15,456 - P11992 - INFO - Texto limpo: SP
+2025-05-22 04:52:15,456 - P11992 - INFO - Tempo de execução de processamento completo do médico: 97.75 segundos
+2025-05-22 04:52:15,456 - P11992 - INFO - Resultado processado: {'Hash': 'ad05f729f7a724f92ef58b9ac5704c2549347da0e35e78030aedef1e46e76c05', 'CRM': '14527', 'UF': 'SP', 'Firstname': 'MATHEUS', 'LastName': 'MARIM', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Doutor Euclides Vieira, 560', 'Address A1': 'Rua Doutor Euclides Vieira', 'Numero A1': '560', 'Complement A1': 'Sala de Audiências desta Oitav', 'Bairro A1': 'Parque São Quirino', 'postal code A1': '13088-280', 'City A1': 'Campinas', 'State A1': 'SP', 'Phone A1': '19) 3256-9700', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'contato@aph.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:52:15,458 - P11992 - INFO - Progresso: 77.9%
+2025-05-22 04:52:15,458 - P11992 - INFO - Executando coleta de lixo
+2025-05-22 04:52:15,592 - P11992 - INFO - Após coleta de lixo Uso de memória: 129.88 MB
+2025-05-22 04:52:15,593 - P11992 - INFO - Tempo de execução de processamento do médico 1: 99.15 segundos
+2025-05-22 04:52:15,593 - P11992 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 04:52:15,593 - P11992 - INFO - Nome: JOSE CARLOS FELICE
+2025-05-22 04:52:15,593 - P11992 - INFO - Início do processamento Uso de memória: 129.88 MB
+2025-05-22 04:52:15,593 - P11992 - INFO - Iniciando busca para: JOSE CARLOS FELICE CRM 14899 SP telefone e-mail endereço
+2025-05-22 04:52:16,436 - P11992 - INFO - SearX results: 15 URLs
+2025-05-22 04:52:16,437 - P11992 - INFO - Após SearX Uso de memória: 129.89 MB
+2025-05-22 04:52:19,264 - P11992 - INFO - Google results: 10 URLs
+2025-05-22 04:52:19,264 - P11992 - INFO - Após Google Uso de memória: 133.59 MB
+2025-05-22 04:52:21,752 - P11992 - INFO - Bing results: 10 URLs
+2025-05-22 04:52:21,753 - P11992 - INFO - Após Bing Uso de memória: 135.24 MB
+2025-05-22 04:52:21,753 - P11992 - INFO - Total de URLs únicas: 22
+2025-05-22 04:52:21,753 - P11992 - INFO - Processando URL 1/22: https://dosp.com.br/exibe_do.php?i=NTU5MTE=
+2025-05-22 04:52:23,889 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ccbdd3b8a5bd27f98a285c59bf2c49e0.html
+2025-05-22 04:52:23,890 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:52:23,890 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:52:23,890 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:52:23,890 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:52:23,891 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:52:23,891 - P11992 - INFO - Após processar URL 1 Uso de memória: 135.24 MB
+2025-05-22 04:52:23,891 - P11992 - INFO - Processando URL 2/22: https://www.planodesaudesp.net/perfil/jose_carlos_felice--2809015
+2025-05-22 04:52:29,542 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\3737cc167fdc30bc27fccd10e917efab.html
+2025-05-22 04:52:29,556 - P11992 - INFO - Candidates address: 6 items
+2025-05-22 04:52:29,556 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:52:29,556 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:52:29,556 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:52:29,556 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:52:29,556 - P11992 - INFO - Após processar URL 2 Uso de memória: 136.09 MB
+2025-05-22 04:52:29,556 - P11992 - INFO - Processando URL 3/22: https://www.cremesp.org.br/?siteAcao=CMDesatualizado&pg=45
+2025-05-22 04:52:48,641 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\27e2bf10a0e0d767f0d26934292d5125.html
+2025-05-22 04:52:48,665 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:52:48,665 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:52:48,666 - P11992 - INFO - Candidates email: 2 items
+2025-05-22 04:52:48,666 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:52:48,666 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:52:48,666 - P11992 - INFO - Após processar URL 3 Uso de memória: 136.53 MB
+2025-05-22 04:52:48,667 - P11992 - INFO - Processando URL 4/22: https://www.sinj.df.gov.br/sinj/Diario/347be9a5-4e7f-366e-ae8e-7485ac114ff9/DODF%20173%2011-09-2020%20INTEGRA.pdf
+2025-05-22 04:52:48,667 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.sinj.df.gov.br/sinj/Diario/347be9a5-4e7f-366e-ae8e-7485ac114ff9/DODF%20173%2011-09-2020%20INTEGRA.pdf
+2025-05-22 04:52:48,667 - P11992 - INFO - Após processar URL 4 Uso de memória: 136.53 MB
+2025-05-22 04:52:48,667 - P11992 - INFO - Processando URL 5/22: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1583422815.pdf
+2025-05-22 04:52:48,667 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1583422815.pdf
+2025-05-22 04:52:48,668 - P11992 - INFO - Após processar URL 5 Uso de memória: 136.53 MB
+2025-05-22 04:52:48,668 - P11992 - INFO - Processando URL 6/22: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1213875516.pdf
+2025-05-22 04:52:48,668 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1213875516.pdf
+2025-05-22 04:52:48,668 - P11992 - INFO - Após processar URL 6 Uso de memória: 136.53 MB
+2025-05-22 04:52:48,668 - P11992 - INFO - Processando URL 7/22: https://portal.cfm.org.br/busca-medicos
+2025-05-22 04:52:51,463 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 04:52:51,505 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:52:51,507 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:52:51,507 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:52:51,509 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 04:52:51,510 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:52:51,512 - P11992 - INFO - Após processar URL 7 Uso de memória: 136.90 MB
+2025-05-22 04:52:51,512 - P11992 - INFO - Processando URL 8/22: https://doutorcrm.com/jose-carlos-naitzke
+2025-05-22 04:52:56,233 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\8884bbe1e1c029508cccfcfba6240941.html
+2025-05-22 04:52:56,244 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:52:56,244 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:52:56,244 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:52:56,245 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:52:56,246 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:52:56,247 - P11992 - INFO - Após processar URL 8 Uso de memória: 137.24 MB
+2025-05-22 04:52:56,247 - P11992 - INFO - Processando URL 9/22: https://guiamedico.cremesp.org.br/
+2025-05-22 04:52:59,202 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 04:52:59,209 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:52:59,210 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:52:59,210 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:52:59,211 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:52:59,211 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:52:59,211 - P11992 - INFO - Após processar URL 9 Uso de memória: 137.31 MB
+2025-05-22 04:52:59,212 - P11992 - INFO - Processando URL 10/22: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2015/04/4042-24-04-2015.pdf
+2025-05-22 04:52:59,212 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2015/04/4042-24-04-2015.pdf
+2025-05-22 04:52:59,212 - P11992 - INFO - Após processar URL 10 Uso de memória: 137.31 MB
+2025-05-22 04:52:59,212 - P11992 - INFO - Processando URL 11/22: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/19392/Caderno_JUD_MG_2019-08-12_XI_149.pdf?sequence=1&isAllowed=y
+2025-05-22 04:52:59,213 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/19392/Caderno_JUD_MG_2019-08-12_XI_149.pdf?sequence=1&isAllowed=y
+2025-05-22 04:52:59,213 - P11992 - INFO - Após processar URL 11 Uso de memória: 137.31 MB
+2025-05-22 04:52:59,214 - P11992 - INFO - Processando URL 12/22: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/259468/Caderno_JUD_MG_2017-08-10_IX_146.pdf?sequence=1&isAllowed=y
+2025-05-22 04:52:59,215 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/259468/Caderno_JUD_MG_2017-08-10_IX_146.pdf?sequence=1&isAllowed=y
+2025-05-22 04:52:59,216 - P11992 - INFO - Após processar URL 12 Uso de memória: 137.31 MB
+2025-05-22 04:52:59,216 - P11992 - INFO - Processando URL 13/22: https://www.consultacrm.com.br/index/medicos/uid-93844a31-f5c5-11ec-9e74-0a4aa568c625/jose_carlos_felice
+2025-05-22 04:53:03,844 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\2da507e641743a76c71768156856bc36.html
+2025-05-22 04:53:03,856 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:53:03,856 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:53:03,856 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:53:03,857 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:53:03,857 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:53:03,857 - P11992 - INFO - Após processar URL 13 Uso de memória: 137.76 MB
+2025-05-22 04:53:03,858 - P11992 - INFO - Processando URL 14/22: https://www.saobernardo.sp.gov.br/documents/10181/1441964/NM+2279+de+11.02.2022+-+Conteu%CC%81do+Integral.pdf/11bc98ce-e69c-c3aa-536e-e13693f1a374
+2025-05-22 04:53:03,858 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1441964/NM+2279+de+11.02.2022+-+Conteu%CC%81do+Integral.pdf/11bc98ce-e69c-c3aa-536e-e13693f1a374
+2025-05-22 04:53:03,859 - P11992 - INFO - Após processar URL 14 Uso de memória: 137.76 MB
+2025-05-22 04:53:03,859 - P11992 - INFO - Processando URL 15/22: https://diof.ro.gov.br/data/uploads/diarios-antigos/2008-02-11.pdf
+2025-05-22 04:53:03,860 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diof.ro.gov.br/data/uploads/diarios-antigos/2008-02-11.pdf
+2025-05-22 04:53:03,863 - P11992 - INFO - Após processar URL 15 Uso de memória: 137.76 MB
+2025-05-22 04:53:03,863 - P11992 - INFO - Processando URL 16/22: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2018/10/4d1e686c-c639-4c77-bda5-34e41768c3bc_EDI%C3%87%C3%83O-4458-03-10-2018.pdf
+2025-05-22 04:53:03,864 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2018/10/4d1e686c-c639-4c77-bda5-34e41768c3bc_EDI%C3%87%C3%83O-4458-03-10-2018.pdf
+2025-05-22 04:53:03,864 - P11992 - INFO - Após processar URL 16 Uso de memória: 137.76 MB
+2025-05-22 04:53:03,865 - P11992 - INFO - Processando URL 17/22: https://www.classemedica.com.br/medico/162866-jose-carlos-felice.htm
+2025-05-22 04:53:10,307 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\2306d8d0535b53b6cdaf901abd2bfafb.html
+2025-05-22 04:53:10,339 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:53:10,339 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:53:10,339 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:53:10,339 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:53:10,339 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:53:10,340 - P11992 - INFO - Após processar URL 17 Uso de memória: 139.04 MB
+2025-05-22 04:53:10,340 - P11992 - INFO - Processando URL 18/22: https://portal.doe.sea.sc.gov.br/repositorio/2024/20240729/Jornal/22318.pdf
+2025-05-22 04:53:10,340 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://portal.doe.sea.sc.gov.br/repositorio/2024/20240729/Jornal/22318.pdf
+2025-05-22 04:53:10,340 - P11992 - INFO - Após processar URL 18 Uso de memória: 137.86 MB
+2025-05-22 04:53:10,341 - P11992 - INFO - Processando URL 19/22: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1776919741.pdf
+2025-05-22 04:53:10,341 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1776919741.pdf
+2025-05-22 04:53:10,341 - P11992 - INFO - Após processar URL 19 Uso de memória: 137.86 MB
+2025-05-22 04:53:10,341 - P11992 - INFO - Processando URL 20/22: https://www.helpsaude.com/Jose-Carlos-Felice.SP
+2025-05-22 04:53:16,614 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\1ec0a58637503931a9cfc55087f73bc2.html
+2025-05-22 04:53:16,625 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:53:16,625 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:53:16,626 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:53:16,627 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:53:16,627 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:53:16,627 - P11992 - INFO - Após processar URL 20 Uso de memória: 137.92 MB
+2025-05-22 04:53:16,628 - P11992 - INFO - Processando URL 21/22: https://www.crm-sp.org.br/?siteAcao=Contatos&dep=cad
+2025-05-22 04:53:18,778 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\9d7a012bd98a105b7c4d3b953105f1bf.html
+2025-05-22 04:53:18,789 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:53:18,789 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:53:18,789 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:53:18,789 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:53:18,790 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:53:18,790 - P11992 - INFO - Após processar URL 21 Uso de memória: 137.95 MB
+2025-05-22 04:53:18,790 - P11992 - INFO - Processando URL 22/22: https://consultacrm.com.br/
+2025-05-22 04:53:22,136 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:53:22,149 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:53:22,149 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:53:22,149 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:53:22,150 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:53:22,151 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:53:22,152 - P11992 - INFO - Após processar URL 22 Uso de memória: 138.34 MB
+2025-05-22 04:53:22,152 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:53:22,153 - P11992 - INFO - Ranked address: 7 items
+2025-05-22 04:53:22,153 - P11992 - INFO - Ranked phone: 2 items
+2025-05-22 04:53:22,153 - P11992 - INFO - Ranked email: 3 items
+2025-05-22 04:53:22,153 - P11992 - INFO - Ranked complement: 1 items
+2025-05-22 04:53:22,154 - P11992 - INFO - Ranked cep: 3 items
+2025-05-22 04:53:22,154 - P11992 - INFO - Após agregação Uso de memória: 138.34 MB
+2025-05-22 04:53:22,154 - P11992 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Rua Pedro de Toledo, 1800', 'Avenida Angelica, 1987']
+2025-05-22 04:53:22,155 - P11992 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 04:53:22,155 - P11992 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 04:53:22,156 - P11992 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 04:53:22,156 - P11992 - INFO - Validando telefone: ['(11) 4349-9900', '(11) 4573-8000']
+2025-05-22 04:53:22,157 - P11992 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 04:53:22,157 - P11992 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 04:53:22,158 - P11992 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 04:53:22,158 - P11992 - INFO - Validando email: ['cad@cremesp.org.br', 'cadastro@cremesp.org.br', 'cfm@portalmedico.org.br']
+2025-05-22 04:53:22,158 - P11992 - INFO - Limpando texto extenso para campo email: cad@cremesp.org.br...
+2025-05-22 04:53:22,159 - P11992 - INFO - Texto limpo: cad@cremesp.org.br
+2025-05-22 04:53:22,161 - P11992 - INFO - Email validado: cad@cremesp.org.br
+2025-05-22 04:53:22,162 - P11992 - INFO - Validando complemento: ['Conjunto D']
+2025-05-22 04:53:22,162 - P11992 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 04:53:22,162 - P11992 - INFO - Texto limpo: Conjunto D
+2025-05-22 04:53:22,162 - P11992 - INFO - Complemento validado: Conjunto D
+2025-05-22 04:53:22,163 - P11992 - INFO - Descobrindo cidade
+2025-05-22 04:53:22,163 - P11992 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 04:53:24,968 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 04:53:24,968 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 04:53:24,968 - P11992 - INFO - Tempo de execução de processamento completo do médico: 69.38 segundos
+2025-05-22 04:53:24,968 - P11992 - INFO - Resultado processado: {'Hash': 'ad07632cb7ebf50020220c86202c28f2072d5c3bff8f6d097a4085c170f48e1a', 'CRM': '14899', 'UF': 'SP', 'Firstname': 'JOSE', 'LastName': 'CARLOS FELICE', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Conjunto D', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cad@cremesp.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:53:24,969 - P11992 - INFO - Progresso: 78.2%
+2025-05-22 04:53:24,970 - P11992 - INFO - Tempo de execução de processamento do médico 2: 69.38 segundos
+2025-05-22 04:53:24,970 - P11992 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 04:53:24,970 - P11992 - INFO - Nome: CARLOS ALBERTO SANTOS DE OLIVEIRA
+2025-05-22 04:53:24,971 - P11992 - INFO - Início do processamento Uso de memória: 139.45 MB
+2025-05-22 04:53:24,971 - P11992 - INFO - Iniciando busca para: CARLOS ALBERTO SANTOS DE OLIVEIRA CRM 15036 SP telefone e-mail endereço
+2025-05-22 04:53:25,925 - P11992 - INFO - SearX results: 15 URLs
+2025-05-22 04:53:25,925 - P11992 - INFO - Após SearX Uso de memória: 139.45 MB
+2025-05-22 04:53:28,694 - P11992 - INFO - Google results: 11 URLs
+2025-05-22 04:53:28,695 - P11992 - INFO - Após Google Uso de memória: 141.61 MB
+2025-05-22 04:53:31,242 - P11992 - INFO - Bing results: 12 URLs
+2025-05-22 04:53:31,243 - P11992 - INFO - Após Bing Uso de memória: 143.00 MB
+2025-05-22 04:53:31,243 - P11992 - INFO - Total de URLs únicas: 28
+2025-05-22 04:53:31,243 - P11992 - INFO - Processando URL 1/28: https://www.doctoralia.com.br/carlos-alberto-santos-de-oliveira/ginecologista/sao-paulo
+2025-05-22 04:53:31,243 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/carlos-alberto-santos-de-oliveira/ginecologista/sao-paulo
+2025-05-22 04:53:31,244 - P11992 - INFO - Após processar URL 1 Uso de memória: 143.00 MB
+2025-05-22 04:53:31,244 - P11992 - INFO - Processando URL 2/28: https://dosp.com.br/exibe_do.php?i=NDQ1MTg4
+2025-05-22 04:53:33,362 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\4cd2e6aa97aa61e7f0c37be6186b834d.html
+2025-05-22 04:53:33,362 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:53:33,362 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:53:33,363 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:53:33,363 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:53:33,363 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:53:33,363 - P11992 - INFO - Após processar URL 2 Uso de memória: 143.00 MB
+2025-05-22 04:53:33,363 - P11992 - INFO - Processando URL 3/28: https://www.solutudo.com.br/empresas/sp/s-paulo/medicos/carlos-alberto-santos-de-oliveira-21886202
+2025-05-22 04:53:37,786 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\cd374ee40295280a27863932c790b7f5.html
+2025-05-22 04:53:37,836 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:53:37,837 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:53:37,837 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:53:37,837 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:53:37,837 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:53:37,837 - P11992 - INFO - Após processar URL 3 Uso de memória: 143.03 MB
+2025-05-22 04:53:37,838 - P11992 - INFO - Processando URL 4/28: https://www.classemedica.com.br/medico/49870-carlos-alberto-santos-de-oliveira.htm
+2025-05-22 04:53:42,015 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\6e4ab557e7b23bd9443a876ab94607c5.html
+2025-05-22 04:53:42,052 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:53:42,053 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:53:42,053 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:53:42,053 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:53:42,053 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:53:42,054 - P11992 - INFO - Após processar URL 4 Uso de memória: 143.04 MB
+2025-05-22 04:53:42,054 - P11992 - INFO - Processando URL 5/28: https://www.doctoralia.com.br/carlos-alberto-santos-oliveira/ginecologista/sao-paulo
+2025-05-22 04:53:42,054 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/carlos-alberto-santos-oliveira/ginecologista/sao-paulo
+2025-05-22 04:53:42,062 - P11992 - INFO - Após processar URL 5 Uso de memória: 143.04 MB
+2025-05-22 04:53:42,063 - P11992 - INFO - Processando URL 6/28: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/580265271411527145802607.pdf
+2025-05-22 04:53:42,065 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/580265271411527145802607.pdf
+2025-05-22 04:53:42,067 - P11992 - INFO - Após processar URL 6 Uso de memória: 143.04 MB
+2025-05-22 04:53:42,070 - P11992 - INFO - Processando URL 7/28: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo579.pdf
+2025-05-22 04:53:42,074 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo579.pdf
+2025-05-22 04:53:42,075 - P11992 - INFO - Após processar URL 7 Uso de memória: 143.04 MB
+2025-05-22 04:53:42,077 - P11992 - INFO - Processando URL 8/28: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2023/11/1745a2be-4f51-4959-84cd-d21591ff04ad_Edicao-5365-24-11-2023.pdf
+2025-05-22 04:53:42,082 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2023/11/1745a2be-4f51-4959-84cd-d21591ff04ad_Edicao-5365-24-11-2023.pdf
+2025-05-22 04:53:42,086 - P11992 - INFO - Após processar URL 8 Uso de memória: 143.04 MB
+2025-05-22 04:53:42,088 - P11992 - INFO - Processando URL 9/28: https://guiamedico.cremesp.org.br/
+2025-05-22 04:53:44,793 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 04:53:44,799 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:53:44,799 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:53:44,799 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:53:44,799 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:53:44,800 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:53:44,800 - P11992 - INFO - Após processar URL 9 Uso de memória: 143.04 MB
+2025-05-22 04:53:44,800 - P11992 - INFO - Processando URL 10/28: https://www.consultacrm.com.br/index/medicos/uid-12774f78-f5c5-11ec-9e74-0a4aa568c625/carlos_alberto_santos_de_oliveira
+2025-05-22 04:53:47,526 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\014adbadf2b77a11917f85a6427dd35f.html
+2025-05-22 04:53:47,539 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:53:47,539 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:53:47,540 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:53:47,540 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:53:47,540 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:53:47,541 - P11992 - INFO - Após processar URL 10 Uso de memória: 143.86 MB
+2025-05-22 04:53:47,543 - P11992 - INFO - Processando URL 11/28: https://www.guiatelefone.com/sao-paulo-sp/clinicas-medicos-e-terapias/2868792/carlos-alberto-santos-de-oliveira
+2025-05-22 04:53:50,375 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ce839b4010a77325f12fcd657f495c23.html
+2025-05-22 04:53:50,405 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:53:50,406 - P11992 - INFO - Candidates phone: 8 items
+2025-05-22 04:53:50,407 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:53:50,407 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:53:50,407 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:53:50,408 - P11992 - INFO - Após processar URL 11 Uso de memória: 143.13 MB
+2025-05-22 04:53:50,408 - P11992 - INFO - Processando URL 12/28: https://osasco.sp.gov.br/site/wp-content/uploads/2015/11/httposasco.sp_.gov_.brcompsec1atosEd1189.pdf
+2025-05-22 04:53:50,412 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2015/11/httposasco.sp_.gov_.brcompsec1atosEd1189.pdf
+2025-05-22 04:53:50,414 - P11992 - INFO - Após processar URL 12 Uso de memória: 143.13 MB
+2025-05-22 04:53:50,414 - P11992 - INFO - Processando URL 13/28: https://www.tjsp.jus.br/Download/Portal/PrimeiraInstancia/GestaoDocumental/Edital-2024-041.pdf
+2025-05-22 04:53:50,415 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.tjsp.jus.br/Download/Portal/PrimeiraInstancia/GestaoDocumental/Edital-2024-041.pdf
+2025-05-22 04:53:50,416 - P11992 - INFO - Após processar URL 13 Uso de memória: 143.13 MB
+2025-05-22 04:53:50,417 - P11992 - INFO - Processando URL 14/28: https://www.apontador.com.br/local/sp/sao_paulo/medicos_e_consultorios/M85J2EP7/dr_carlos_alberto_santos_de_oliveira_medico.html
+2025-05-22 04:53:52,920 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\09a17773765e2644c2b3db44cf332db6.html
+2025-05-22 04:53:52,974 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 04:53:52,977 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:53:52,978 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:53:52,979 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 04:53:52,980 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:53:52,980 - P11992 - INFO - Após processar URL 14 Uso de memória: 143.18 MB
+2025-05-22 04:53:52,982 - P11992 - INFO - Processando URL 15/28: https://www.helpsaude.com/Carlos-Alberto-Santos-de-Oliveira.SP
+2025-05-22 04:53:57,743 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\339d93ea8fe79441fc974d3cb20a83ce.html
+2025-05-22 04:53:57,759 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:53:57,759 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:53:57,760 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:53:57,760 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:53:57,760 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:53:57,761 - P11992 - INFO - Após processar URL 15 Uso de memória: 143.23 MB
+2025-05-22 04:53:57,761 - P11992 - INFO - Processando URL 16/28: https://www.doctoralia.com.br/alberto-luis-dos-santos-henriques/mastologista-ginecologista-nutrologo/sao-paulo
+2025-05-22 04:53:57,762 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/alberto-luis-dos-santos-henriques/mastologista-ginecologista-nutrologo/sao-paulo
+2025-05-22 04:53:57,762 - P11992 - INFO - Após processar URL 16 Uso de memória: 143.23 MB
+2025-05-22 04:53:57,762 - P11992 - INFO - Processando URL 17/28: https://www.boaconsulta.com/especialista/carlos-alberto-santos-de-oliveira-5846b232010b6d65340000be
+2025-05-22 04:54:01,322 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\644cf39a6b9ff7bed7e45b0bcf20262f.html
+2025-05-22 04:54:01,378 - P11992 - INFO - Candidates address: 3 items
+2025-05-22 04:54:01,378 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:54:01,378 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:54:01,378 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 04:54:01,379 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 04:54:01,379 - P11992 - INFO - Após processar URL 17 Uso de memória: 143.27 MB
+2025-05-22 04:54:01,379 - P11992 - INFO - Processando URL 18/28: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x631462775&market=pt-BR&src=SERPIC
+2025-05-22 04:54:05,903 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e7db057e69cddeb4bca7bbee9767016b.html
+2025-05-22 04:54:05,921 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 04:54:05,922 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:54:05,922 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:54:05,922 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:54:05,922 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:54:05,922 - P11992 - INFO - Após processar URL 18 Uso de memória: 134.56 MB
+2025-05-22 04:54:05,922 - P11992 - INFO - Processando URL 19/28: https://arquidioceserp.org.br/pe-carlos-alberto-santos-de-oliveira/
+2025-05-22 04:54:08,919 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\bca0d0793377e631a58bb754a2cd7b38.html
+2025-05-22 04:54:08,958 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 04:54:08,958 - P11992 - INFO - Candidates phone: 3 items
+2025-05-22 04:54:08,959 - P11992 - INFO - Candidates email: 4 items
+2025-05-22 04:54:08,959 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:54:08,959 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 04:54:08,959 - P11992 - INFO - Após processar URL 19 Uso de memória: 136.25 MB
+2025-05-22 04:54:08,959 - P11992 - INFO - Processando URL 20/28: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/568137836.pdf
+2025-05-22 04:54:08,960 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/568137836.pdf
+2025-05-22 04:54:08,960 - P11992 - INFO - Após processar URL 20 Uso de memória: 136.25 MB
+2025-05-22 04:54:08,960 - P11992 - INFO - Processando URL 21/28: https://www.apontador.com.br/local/sp/sao_paulo/medicos_e_consultorios/C40493674B104S1048/carlos_alberto_santos_de_oliveira.html
+2025-05-22 04:54:12,149 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\13ed9b082f4e802ff82d3a79f5fc453b.html
+2025-05-22 04:54:12,202 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:54:12,202 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:54:12,202 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:54:12,202 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 04:54:12,203 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:54:12,203 - P11992 - INFO - Após processar URL 21 Uso de memória: 136.51 MB
+2025-05-22 04:54:12,203 - P11992 - INFO - Processando URL 22/28: https://camaraavare.sp.gov.br/semanarios/298c7565dfb3ee5f0bf290735fab7871.pdf
+2025-05-22 04:54:12,203 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://camaraavare.sp.gov.br/semanarios/298c7565dfb3ee5f0bf290735fab7871.pdf
+2025-05-22 04:54:12,203 - P11992 - INFO - Após processar URL 22 Uso de memória: 136.51 MB
+2025-05-22 04:54:12,203 - P11992 - INFO - Processando URL 23/28: https://www.doctoralia.com.br/carlos-alberto-santos-de-azevedo/psicologo/rio-de-janeiro
+2025-05-22 04:54:12,204 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/carlos-alberto-santos-de-azevedo/psicologo/rio-de-janeiro
+2025-05-22 04:54:12,204 - P11992 - INFO - Após processar URL 23 Uso de memória: 136.51 MB
+2025-05-22 04:54:12,204 - P11992 - INFO - Processando URL 24/28: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/32598
+2025-05-22 04:54:14,316 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\a0e81d77fc862c9c34fd6e6026e185e2.html
+2025-05-22 04:54:14,382 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:54:14,382 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 04:54:14,383 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:54:14,383 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 04:54:14,383 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 04:54:14,383 - P11992 - INFO - Após processar URL 24 Uso de memória: 136.51 MB
+2025-05-22 04:54:14,383 - P11992 - INFO - Processando URL 25/28: https://www.guiamais.com.br/sao-paulo-sp/clinicas-medicos-e-terapias/ginecologistas/14622861-1/carlos-alberto-santos-de-oliveira
+2025-05-22 04:54:19,613 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\709fa0fce6a500368e978dde3e6ade8c.html
+2025-05-22 04:54:19,643 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:54:19,644 - P11992 - INFO - Candidates phone: 7 items
+2025-05-22 04:54:19,644 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:54:19,644 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:54:19,644 - P11992 - INFO - Candidates cep: 4 items
+2025-05-22 04:54:19,645 - P11992 - INFO - Após processar URL 25 Uso de memória: 138.44 MB
+2025-05-22 04:54:19,645 - P11992 - INFO - Processando URL 26/28: https://www.saosebastiao.sp.gov.br/doem/DOEM_960_20210412.pdf
+2025-05-22 04:54:19,645 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.saosebastiao.sp.gov.br/doem/DOEM_960_20210412.pdf
+2025-05-22 04:54:19,645 - P11992 - INFO - Após processar URL 26 Uso de memória: 138.44 MB
+2025-05-22 04:54:19,645 - P11992 - INFO - Processando URL 27/28: http://reproducaohumanasantos.com.br/equipe/corpo-clinico/dr-carlos-alberto-marcondes-de-oliveira/
+2025-05-22 04:54:24,678 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ccea120d19c2591c0e9e51525dbabeaf.html
+2025-05-22 04:54:24,701 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 04:54:24,701 - P11992 - INFO - Candidates phone: 3 items
+2025-05-22 04:54:24,701 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 04:54:24,701 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:54:24,702 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 04:54:24,702 - P11992 - INFO - Após processar URL 27 Uso de memória: 138.67 MB
+2025-05-22 04:54:24,702 - P11992 - INFO - Processando URL 28/28: https://www.consultascnpj.com/clinica-carlos-alberto-santos-de-oliveira-ltda/03693535000183
+2025-05-22 04:54:27,761 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\51d32ec852a093c05ae4deedd90a40da.html
+2025-05-22 04:54:27,774 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 04:54:27,774 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 04:54:27,774 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 04:54:27,775 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 04:54:27,776 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 04:54:27,777 - P11992 - INFO - Após processar URL 28 Uso de memória: 138.90 MB
+2025-05-22 04:54:27,777 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:54:27,778 - P11992 - INFO - Ranked address: 11 items
+2025-05-22 04:54:27,778 - P11992 - INFO - Ranked phone: 24 items
+2025-05-22 04:54:27,778 - P11992 - INFO - Ranked email: 6 items
+2025-05-22 04:54:27,778 - P11992 - INFO - Ranked complement: 2 items
+2025-05-22 04:54:27,778 - P11992 - INFO - Ranked cep: 11 items
+2025-05-22 04:54:27,778 - P11992 - INFO - Após agregação Uso de memória: 138.90 MB
+2025-05-22 04:54:27,779 - P11992 - INFO - Validando endereço: ['Rua Ramon Penharrubia, 130', 'Rua Ramon Penharrubia , 130', 'R. Ramon Penharrubia, 130']
+2025-05-22 04:54:27,779 - P11992 - INFO - Endereço validado: Rua Ramon Penharrubia, 130
+2025-05-22 04:54:27,779 - P11992 - INFO - Limpando texto extenso para campo address: Rua Ramon Penharrubia, 130...
+2025-05-22 04:54:27,779 - P11992 - INFO - Texto limpo: Rua Ramon Penharrubia, 130
+2025-05-22 04:54:27,779 - P11992 - INFO - Validando telefone: ['(11) 3285-1383', '(11) 4349-9900', '(11) 3251-4647']
+2025-05-22 04:54:27,780 - P11992 - INFO - Limpando texto extenso para campo phone: (11) 3285-1383...
+2025-05-22 04:54:27,780 - P11992 - INFO - Texto limpo: 11) 3285-1383
+2025-05-22 04:54:27,780 - P11992 - INFO - Telefone validado: 11) 3285-1383
+2025-05-22 04:54:27,780 - P11992 - INFO - Validando email: ['relacionamento@apontador.com', 'saulostz@hotmail.com', 'padrecarlosalberto@hotmail.com']
+2025-05-22 04:54:27,780 - P11992 - INFO - Limpando texto extenso para campo email: relacionamento@apontador.com...
+2025-05-22 04:54:27,780 - P11992 - INFO - Texto limpo: relacionamento@apontador.com
+2025-05-22 04:54:27,781 - P11992 - INFO - Email validado: relacionamento@apontador.com
+2025-05-22 04:54:27,781 - P11992 - INFO - Validando complemento: ['Saladas ', 'Sala 2']
+2025-05-22 04:54:27,781 - P11992 - INFO - Limpando texto extenso para campo complement: Saladas ...
+2025-05-22 04:54:27,781 - P11992 - INFO - Texto limpo: Saladas
+2025-05-22 04:54:27,781 - P11992 - INFO - Complemento validado: Saladas
+2025-05-22 04:54:27,781 - P11992 - INFO - Descobrindo cidade
+2025-05-22 04:54:27,782 - P11992 - INFO - Buscando cidade: Rua Ramon Penharrubia cidade SP
+2025-05-22 04:54:30,417 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 04:54:30,420 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 04:54:30,422 - P11992 - INFO - Tempo de execução de processamento completo do médico: 65.45 segundos
+2025-05-22 04:54:30,424 - P11992 - INFO - Resultado processado: {'Hash': 'b2c3ef52f25cbd57aa39b9c571df2e65dfe48d2e57573b10d18c3da17f080c75', 'CRM': '15036', 'UF': 'SP', 'Firstname': 'CARLOS', 'LastName': 'ALBERTO SANTOS DE OLIVEIRA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Ramon Penharrubia, 130', 'Address A1': 'Rua Ramon Penharrubia', 'Numero A1': '130', 'Complement A1': 'Saladas', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 3285-1383', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'relacionamento@apontador.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:54:30,433 - P11992 - INFO - Salvando lote de resultados
+2025-05-22 04:54:30,438 - P11992 - INFO - Após salvar resultados Uso de memória: 137.48 MB
+2025-05-22 04:54:30,453 - P11992 - INFO - Progresso: 78.4%
+2025-05-22 04:54:30,455 - P11992 - INFO - Tempo de execução de processamento do médico 3: 65.48 segundos
+2025-05-22 04:54:30,455 - P11992 - INFO - Tempo de execução de processamento do lote completo: 234.01 segundos

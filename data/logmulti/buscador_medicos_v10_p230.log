@@ -1,0 +1,558 @@
+2025-05-22 03:49:10,290 - P17020 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 03:49:10,290 - P17020 - INFO - Nome: LUIZ WORNEY DA FONSECA NETO
+2025-05-22 03:49:10,290 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 03:49:11,774 - P17020 - INFO - Após reiniciar driver Uso de memória: 130.23 MB
+2025-05-22 03:49:11,774 - P17020 - INFO - Início do processamento Uso de memória: 130.23 MB
+2025-05-22 03:49:11,774 - P17020 - INFO - Iniciando busca para: LUIZ WORNEY DA FONSECA NETO CRM 30777 GO telefone e-mail endereço
+2025-05-22 03:49:12,596 - P17020 - INFO - SearX results: 14 URLs
+2025-05-22 03:49:12,596 - P17020 - INFO - Após SearX Uso de memória: 130.23 MB
+2025-05-22 03:49:15,307 - P17020 - INFO - Google results: 2 URLs
+2025-05-22 03:49:15,307 - P17020 - INFO - Após Google Uso de memória: 130.23 MB
+2025-05-22 03:49:18,053 - P17020 - INFO - Bing results: 9 URLs
+2025-05-22 03:49:18,054 - P17020 - INFO - Após Bing Uso de memória: 130.24 MB
+2025-05-22 03:49:18,055 - P17020 - INFO - Total de URLs únicas: 14
+2025-05-22 03:49:18,057 - P17020 - INFO - Processando URL 1/14: https://consultacrm.com.br/
+2025-05-22 03:49:21,814 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:49:21,832 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:49:21,833 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:49:21,833 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:49:21,834 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:21,834 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:49:21,834 - P17020 - INFO - Após processar URL 1 Uso de memória: 130.24 MB
+2025-05-22 03:49:21,834 - P17020 - INFO - Processando URL 2/14: https://www.achecerto.com.br/
+2025-05-22 03:49:27,947 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ceb96e5663cace6f7b35fee1716d7561.html
+2025-05-22 03:49:27,967 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:49:27,969 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:49:27,970 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:49:27,970 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:27,971 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:49:27,972 - P17020 - INFO - Após processar URL 2 Uso de memória: 130.29 MB
+2025-05-22 03:49:27,973 - P17020 - INFO - Processando URL 3/14: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 03:49:27,973 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 03:49:27,974 - P17020 - INFO - Após processar URL 3 Uso de memória: 130.29 MB
+2025-05-22 03:49:27,975 - P17020 - INFO - Processando URL 4/14: https://cnpj.services/qsa/luiz-worney-da-fonseca-neto
+2025-05-22 03:49:31,355 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6379f279621ff8273f49aa94ab26f0b4.html
+2025-05-22 03:49:31,365 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:49:31,365 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:49:31,365 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:49:31,365 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:31,366 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:49:31,366 - P17020 - INFO - Após processar URL 4 Uso de memória: 130.29 MB
+2025-05-22 03:49:31,366 - P17020 - INFO - Processando URL 5/14: https://www.cremego.org.br/busca-medicos
+2025-05-22 03:49:34,829 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\64b30c50732f49698d296cdb94b34f40.html
+2025-05-22 03:49:34,867 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:49:34,867 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:49:34,868 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:49:34,868 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:34,868 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:49:34,868 - P17020 - INFO - Após processar URL 5 Uso de memória: 130.29 MB
+2025-05-22 03:49:34,868 - P17020 - INFO - Processando URL 6/14: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-18-05-2022.pdf?p=1652896800042
+2025-05-22 03:49:34,868 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-18-05-2022.pdf?p=1652896800042
+2025-05-22 03:49:34,869 - P17020 - INFO - Após processar URL 6 Uso de memória: 130.29 MB
+2025-05-22 03:49:34,869 - P17020 - INFO - Processando URL 7/14: https://empresasweb.net/emp/luiz-worney-da-fonseca-neto-ltda-55398286
+2025-05-22 03:49:37,913 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2713aeffb92bf35001a12c2a2cf11080.html
+2025-05-22 03:49:37,925 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:49:37,925 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:49:37,926 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:49:37,926 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:37,926 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:49:37,926 - P17020 - INFO - Após processar URL 7 Uso de memória: 130.30 MB
+2025-05-22 03:49:37,927 - P17020 - INFO - Processando URL 8/14: https://crmvirtual.cfm.org.br/GO/servico/busca-medico
+2025-05-22 03:49:40,873 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3f7e1325196fca85b8ce10bf510cb018.html
+2025-05-22 03:49:40,882 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:49:40,882 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:49:40,882 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:49:40,883 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:40,883 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:49:40,883 - P17020 - INFO - Após processar URL 8 Uso de memória: 130.30 MB
+2025-05-22 03:49:40,883 - P17020 - INFO - Processando URL 9/14: https://www.informecadastral.com.br/cnpj/luiz-worney-da-fonseca-neto-ltda-55398286000105
+2025-05-22 03:49:45,763 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\56ab255870e95a220b7a2eb8369db96c.html
+2025-05-22 03:49:45,793 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:49:45,793 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 03:49:45,793 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:49:45,794 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:45,794 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 03:49:45,794 - P17020 - INFO - Após processar URL 9 Uso de memória: 130.31 MB
+2025-05-22 03:49:45,794 - P17020 - INFO - Processando URL 10/14: https://cnpj.services/qsa/luiz-worney-da-fonseca
+2025-05-22 03:49:49,122 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\acfecf4552c11839f59ee97b03b29b1c.html
+2025-05-22 03:49:49,135 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:49:49,135 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:49:49,136 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:49:49,136 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:49,136 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:49:49,136 - P17020 - INFO - Após processar URL 10 Uso de memória: 130.31 MB
+2025-05-22 03:49:49,136 - P17020 - INFO - Processando URL 11/14: https://www.ime.usp.br/~yoshi/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 03:49:49,137 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 03:49:49,137 - P17020 - INFO - Após processar URL 11 Uso de memória: 130.31 MB
+2025-05-22 03:49:49,137 - P17020 - INFO - Processando URL 12/14: https://www.consultacrm.com.br/index/medicos/uid-8ab33ea0-f5c5-11ec-9e74-0a4aa568c625/jo__o_luiz_neto_filho
+2025-05-22 03:49:52,517 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f8199d0748ada2b469145570ec85a3b6.html
+2025-05-22 03:49:52,526 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:49:52,526 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:49:52,526 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:49:52,527 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:52,527 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:49:52,527 - P17020 - INFO - Após processar URL 12 Uso de memória: 130.31 MB
+2025-05-22 03:49:52,527 - P17020 - INFO - Processando URL 13/14: https://cnpj.biz/55398286000105
+2025-05-22 03:49:55,392 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7be39208385e8db261d1161db3886380.html
+2025-05-22 03:49:55,414 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 03:49:55,414 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:49:55,414 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:49:55,414 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:49:55,414 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 03:49:55,415 - P17020 - INFO - Após processar URL 13 Uso de memória: 130.31 MB
+2025-05-22 03:49:55,415 - P17020 - INFO - Processando URL 14/14: https://www.consultasocio.com/q/sa/luiz-worney-da-fonseca
+2025-05-22 03:50:00,457 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e583fd7e9430f03ac5d6b18fcd218a36.html
+2025-05-22 03:50:00,463 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:50:00,463 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:50:00,464 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:50:00,464 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:50:00,464 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:50:00,464 - P17020 - INFO - Após processar URL 14 Uso de memória: 130.31 MB
+2025-05-22 03:50:00,464 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:50:00,465 - P17020 - INFO - Ranked address: 4 items
+2025-05-22 03:50:00,465 - P17020 - INFO - Ranked phone: 4 items
+2025-05-22 03:50:00,465 - P17020 - INFO - Ranked email: 5 items
+2025-05-22 03:50:00,465 - P17020 - INFO - Ranked complement: 0 items
+2025-05-22 03:50:00,466 - P17020 - INFO - Ranked cep: 8 items
+2025-05-22 03:50:00,467 - P17020 - INFO - Após agregação Uso de memória: 130.31 MB
+2025-05-22 03:50:00,467 - P17020 - INFO - Validando endereço: ['Av. Santos Dumont, 123', 'Rua Padre Arnaldo Jansen, 200', 'Avenida Presidente Kennedy, 150']
+2025-05-22 03:50:00,468 - P17020 - INFO - Endereço validado: Av. Santos Dumont, 123
+2025-05-22 03:50:00,468 - P17020 - INFO - Limpando texto extenso para campo address: Av. Santos Dumont, 123...
+2025-05-22 03:50:00,469 - P17020 - INFO - Texto limpo: Av. Santos Dumont, 123
+2025-05-22 03:50:00,470 - P17020 - INFO - Validando telefone: ['+556296595447', '(62) 9659-5447', '(32) 99195-6532']
+2025-05-22 03:50:00,470 - P17020 - INFO - Limpando texto extenso para campo phone: (62) 9659-5447...
+2025-05-22 03:50:00,470 - P17020 - INFO - Texto limpo: 62) 9659-5447
+2025-05-22 03:50:00,470 - P17020 - INFO - Telefone validado: 62) 9659-5447
+2025-05-22 03:50:00,471 - P17020 - INFO - Validando email: ['worneyneto@outlook.com', 'falecom@achecerto.com.br', 'cremego@cremego.org.br']
+2025-05-22 03:50:00,471 - P17020 - INFO - Limpando texto extenso para campo email: worneyneto@outlook.com...
+2025-05-22 03:50:00,471 - P17020 - INFO - Texto limpo: worneyneto@outlook.com
+2025-05-22 03:50:00,471 - P17020 - INFO - Email validado: worneyneto@outlook.com
+2025-05-22 03:50:00,472 - P17020 - INFO - Descobrindo cidade
+2025-05-22 03:50:00,472 - P17020 - INFO - Buscando cidade: Av. Santos Dumont cidade GO
+2025-05-22 03:50:03,246 - P17020 - INFO - Cidade encontrada: Goiânia
+2025-05-22 03:50:03,256 - P17020 - INFO - Limpando texto extenso para campo city: Goiânia...
+2025-05-22 03:50:03,259 - P17020 - INFO - Texto limpo: Goiânia
+2025-05-22 03:50:03,260 - P17020 - INFO - Cidade descoberta: Goiânia
+2025-05-22 03:50:03,265 - P17020 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 03:50:03,265 - P17020 - INFO - Iniciando busca de CEP em cascata para: Av. Santos Dumont, Goiânia, GO
+2025-05-22 03:50:03,266 - P17020 - INFO - Método 1: ViaCEP API
+2025-05-22 03:50:03,267 - P17020 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/GO/goiania/avenida%20santos%20dumont/json/
+2025-05-22 03:50:04,033 - P17020 - INFO - Dados encontrados no ViaCEP: {'cep': '74958-140', 'logradouro': 'Avenida Santos Dumont', 'complemento': '', 'unidade': '', 'bairro': 'Jardim Veneza', 'localidade': 'Aparecida de Goiânia', 'uf': 'GO', 'estado': 'Goiás', 'regiao': 'Centro-Oeste', 'ibge': '5201405', 'gia': '', 'ddd': '62', 'siafi': '9227'}
+2025-05-22 03:50:04,036 - P17020 - INFO - CEP encontrado via ViaCEP: 74958-140
+2025-05-22 03:50:04,037 - P17020 - INFO - Dados de CEP encontrados: {'cep': '74958-140', 'logradouro': 'Avenida Santos Dumont', 'complemento': '', 'unidade': '', 'bairro': 'Jardim Veneza', 'localidade': 'Aparecida de Goiânia', 'uf': 'GO', 'estado': 'Goiás', 'regiao': 'Centro-Oeste', 'ibge': '5201405', 'gia': '', 'ddd': '62', 'siafi': '9227'}
+2025-05-22 03:50:04,038 - P17020 - INFO - Limpando texto extenso para campo bairro: Jardim Veneza...
+2025-05-22 03:50:04,039 - P17020 - INFO - Texto limpo: Jardim Veneza
+2025-05-22 03:50:04,039 - P17020 - INFO - Limpando texto extenso para campo city: Aparecida de Goiânia...
+2025-05-22 03:50:04,044 - P17020 - INFO - Texto limpo: Aparecida de Goiânia
+2025-05-22 03:50:04,047 - P17020 - INFO - Limpando texto extenso para campo state: GO...
+2025-05-22 03:50:04,047 - P17020 - INFO - Texto limpo: GO
+2025-05-22 03:50:04,047 - P17020 - INFO - Tempo de execução de processamento completo do médico: 52.27 segundos
+2025-05-22 03:50:04,048 - P17020 - INFO - Resultado processado: {'Hash': '7e634a99aa77f96085f9b13acdbe65ca9ceaf0937b425ec65e55b9fec0fa2e3e', 'CRM': '30777', 'UF': 'GO', 'Firstname': 'LUIZ', 'LastName': 'WORNEY DA FONSECA NETO', 'Medical specialty': '', 'Endereco Completo A1': 'Av. Santos Dumont, 123', 'Address A1': 'Av. Santos Dumont', 'Numero A1': '123', 'Complement A1': '', 'Bairro A1': 'Jardim Veneza', 'postal code A1': '74958-140', 'City A1': 'Aparecida de Goiânia', 'State A1': 'GO', 'Phone A1': '62) 9659-5447', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'worneyneto@outlook.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:50:04,051 - P17020 - INFO - Progresso: 56.0%
+2025-05-22 03:50:04,051 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 03:50:04,066 - P17020 - INFO - Após coleta de lixo Uso de memória: 128.30 MB
+2025-05-22 03:50:04,066 - P17020 - INFO - Tempo de execução de processamento do médico 1: 53.78 segundos
+2025-05-22 03:50:04,067 - P17020 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 03:50:04,067 - P17020 - INFO - Nome: BRUNNA CAMARGO DOS SANTOS
+2025-05-22 03:50:04,067 - P17020 - INFO - Início do processamento Uso de memória: 128.30 MB
+2025-05-22 03:50:04,067 - P17020 - INFO - Iniciando busca para: BRUNNA CAMARGO DOS SANTOS CRM 31634 GO telefone e-mail endereço
+2025-05-22 03:50:04,868 - P17020 - INFO - SearX results: 14 URLs
+2025-05-22 03:50:04,886 - P17020 - INFO - Após SearX Uso de memória: 128.30 MB
+2025-05-22 03:50:07,772 - P17020 - INFO - Google results: 14 URLs
+2025-05-22 03:50:07,773 - P17020 - INFO - Após Google Uso de memória: 130.32 MB
+2025-05-22 03:50:10,212 - P17020 - INFO - Bing results: 8 URLs
+2025-05-22 03:50:10,212 - P17020 - INFO - Após Bing Uso de memória: 130.32 MB
+2025-05-22 03:50:10,212 - P17020 - INFO - Total de URLs únicas: 26
+2025-05-22 03:50:10,213 - P17020 - INFO - Processando URL 1/26: https://crmvirtual.cfm.org.br/GO
+2025-05-22 03:50:14,300 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\78696ed8e947d3b5ca95dd957d050d26.html
+2025-05-22 03:50:14,323 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:50:14,324 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:50:14,324 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:50:14,326 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:50:14,329 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:50:14,329 - P17020 - INFO - Após processar URL 1 Uso de memória: 130.32 MB
+2025-05-22 03:50:14,329 - P17020 - INFO - Processando URL 2/26: https://sistemadje.tjmt.jus.br/publicacoes/7749-2007.pdf
+2025-05-22 03:50:14,330 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/7749-2007.pdf
+2025-05-22 03:50:14,330 - P17020 - INFO - Após processar URL 2 Uso de memória: 130.32 MB
+2025-05-22 03:50:14,331 - P17020 - INFO - Processando URL 3/26: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/892711747.pdf
+2025-05-22 03:50:14,331 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/892711747.pdf
+2025-05-22 03:50:14,332 - P17020 - INFO - Após processar URL 3 Uso de memória: 130.32 MB
+2025-05-22 03:50:14,332 - P17020 - INFO - Processando URL 4/26: https://www.cremego.org.br/busca-medicos
+2025-05-22 03:50:17,708 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\64b30c50732f49698d296cdb94b34f40.html
+2025-05-22 03:50:17,752 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:50:17,754 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:50:17,756 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:50:17,757 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:50:17,758 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:50:17,758 - P17020 - INFO - Após processar URL 4 Uso de memória: 130.32 MB
+2025-05-22 03:50:17,758 - P17020 - INFO - Processando URL 5/26: https://www.dermatologia.net/wp-content/uploads/2015/07/tbMedicos_0.csv
+2025-05-22 03:50:17,759 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.dermatologia.net/wp-content/uploads/2015/07/tbMedicos_0.csv
+2025-05-22 03:50:17,759 - P17020 - INFO - Após processar URL 5 Uso de memória: 130.32 MB
+2025-05-22 03:50:17,759 - P17020 - INFO - Processando URL 6/26: https://sistemadje.tjmt.jus.br/publicacoes/9911-2016%20C7%20Comarcas%20-%201%C2%AA%202%C2%AA%20e%203%C2%AA%20Entr%C3%A2ncia.pdf
+2025-05-22 03:50:17,759 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/9911-2016%20C7%20Comarcas%20-%201%C2%AA%202%C2%AA%20e%203%C2%AA%20Entr%C3%A2ncia.pdf
+2025-05-22 03:50:17,759 - P17020 - INFO - Após processar URL 6 Uso de memória: 130.32 MB
+2025-05-22 03:50:17,760 - P17020 - INFO - Processando URL 7/26: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/88469/Caderno_JUD_GO_2016-01-26_VIII_17.pdf?sequence=1&isAllowed=y
+2025-05-22 03:50:17,760 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/88469/Caderno_JUD_GO_2016-01-26_VIII_17.pdf?sequence=1&isAllowed=y
+2025-05-22 03:50:17,760 - P17020 - INFO - Após processar URL 7 Uso de memória: 130.32 MB
+2025-05-22 03:50:17,761 - P17020 - INFO - Processando URL 8/26: https://crmvirtual.cfm.org.br/GO/servico/busca-medico
+2025-05-22 03:50:20,181 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\3f7e1325196fca85b8ce10bf510cb018.html
+2025-05-22 03:50:20,190 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:50:20,190 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:50:20,190 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:50:20,191 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:50:20,191 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:50:20,191 - P17020 - INFO - Após processar URL 8 Uso de memória: 130.32 MB
+2025-05-22 03:50:20,191 - P17020 - INFO - Processando URL 9/26: https://www.consultasocio.com/q/sa/brunna-camargo-dos-santos
+2025-05-22 03:50:25,502 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b8d054fa81ac05e00b87c65e9eda5f5e.html
+2025-05-22 03:50:25,512 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:50:25,513 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:50:25,514 - P17020 - INFO - Candidates email: 3 items
+2025-05-22 03:50:25,514 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 03:50:25,515 - P17020 - INFO - Candidates cep: 6 items
+2025-05-22 03:50:25,515 - P17020 - INFO - Após processar URL 9 Uso de memória: 130.34 MB
+2025-05-22 03:50:25,515 - P17020 - INFO - Processando URL 10/26: https://consultacrm.com.br/
+2025-05-22 03:50:28,458 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:50:28,470 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:50:28,470 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:50:28,471 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:50:28,471 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:50:28,471 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:50:28,471 - P17020 - INFO - Após processar URL 10 Uso de memória: 130.34 MB
+2025-05-22 03:50:28,471 - P17020 - INFO - Processando URL 11/26: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 03:50:32,852 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 03:50:32,869 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:50:32,870 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:50:32,870 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:50:32,871 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:50:32,871 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:50:32,871 - P17020 - INFO - Após processar URL 11 Uso de memória: 130.34 MB
+2025-05-22 03:50:32,871 - P17020 - INFO - Processando URL 12/26: https://cnpj.biz/24148091000175
+2025-05-22 03:50:35,392 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ccecfdd562f87dab2085f22a645a6a31.html
+2025-05-22 03:50:35,395 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:50:35,395 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:50:35,395 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:50:35,395 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:50:35,395 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:50:35,396 - P17020 - INFO - Após processar URL 12 Uso de memória: 130.34 MB
+2025-05-22 03:50:35,396 - P17020 - INFO - Processando URL 13/26: https://www.cremego.org.br/wp-content/uploads/2024/11/Resultado-Sorteio-07.10.24.pdf
+2025-05-22 03:50:35,396 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.cremego.org.br/wp-content/uploads/2024/11/Resultado-Sorteio-07.10.24.pdf
+2025-05-22 03:50:35,396 - P17020 - INFO - Após processar URL 13 Uso de memória: 130.34 MB
+2025-05-22 03:50:35,396 - P17020 - INFO - Processando URL 14/26: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/831333597.pdf
+2025-05-22 03:50:35,396 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/831333597.pdf
+2025-05-22 03:50:35,397 - P17020 - INFO - Após processar URL 14 Uso de memória: 130.34 MB
+2025-05-22 03:50:35,397 - P17020 - INFO - Processando URL 15/26: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1040269359.pdf
+2025-05-22 03:50:35,397 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1040269359.pdf
+2025-05-22 03:50:35,397 - P17020 - INFO - Após processar URL 15 Uso de memória: 130.34 MB
+2025-05-22 03:50:35,397 - P17020 - INFO - Processando URL 16/26: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/95129/Caderno_JUD_MG_2016-02-18_VIII_32.pdf?sequence=2&isAllowed=y
+2025-05-22 03:50:35,397 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/95129/Caderno_JUD_MG_2016-02-18_VIII_32.pdf?sequence=2&isAllowed=y
+2025-05-22 03:50:35,398 - P17020 - INFO - Após processar URL 16 Uso de memória: 130.34 MB
+2025-05-22 03:50:35,398 - P17020 - INFO - Processando URL 17/26: https://www.cremego.org.br/wp-content/uploads/2025/01/Resultado-06.01.25-ATLS-ACLS-e-PALS.pdf
+2025-05-22 03:50:35,398 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.cremego.org.br/wp-content/uploads/2025/01/Resultado-06.01.25-ATLS-ACLS-e-PALS.pdf
+2025-05-22 03:50:35,398 - P17020 - INFO - Após processar URL 17 Uso de memória: 130.34 MB
+2025-05-22 03:50:35,398 - P17020 - INFO - Processando URL 18/26: https://www.altofeliz.rs.gov.br/web/imgs/arquivos/publicacao-famurs-n-55-de-01-de-junho-de-20221654084160.pdf
+2025-05-22 03:50:35,398 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.altofeliz.rs.gov.br/web/imgs/arquivos/publicacao-famurs-n-55-de-01-de-junho-de-20221654084160.pdf
+2025-05-22 03:50:35,399 - P17020 - INFO - Após processar URL 18 Uso de memória: 130.34 MB
+2025-05-22 03:50:35,399 - P17020 - INFO - Processando URL 19/26: https://www.ioepa.com.br/pages/2019/2019.05.31.DOE.pdf
+2025-05-22 03:50:35,399 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2019/2019.05.31.DOE.pdf
+2025-05-22 03:50:35,399 - P17020 - INFO - Após processar URL 19 Uso de memória: 130.34 MB
+2025-05-22 03:50:35,399 - P17020 - INFO - Processando URL 20/26: https://www.cremego.org.br/wp-content/uploads/2024/07/Sorteio-05.07-ATLS-5-e-ACLS-3.pdf
+2025-05-22 03:50:35,399 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.cremego.org.br/wp-content/uploads/2024/07/Sorteio-05.07-ATLS-5-e-ACLS-3.pdf
+2025-05-22 03:50:35,400 - P17020 - INFO - Após processar URL 20 Uso de memória: 130.34 MB
+2025-05-22 03:50:35,400 - P17020 - INFO - Processando URL 21/26: https://crmvirtual.cfm.org.br/GO/servico/busca-por-estabelecimento-de-saude
+2025-05-22 03:50:37,779 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\453a09c551f090c5b313e2735aee711d.html
+2025-05-22 03:50:37,789 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:50:37,789 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:50:37,790 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:50:37,790 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:50:37,790 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:50:37,790 - P17020 - INFO - Após processar URL 21 Uso de memória: 130.34 MB
+2025-05-22 03:50:37,790 - P17020 - INFO - Processando URL 22/26: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/726085821.pdf
+2025-05-22 03:50:37,790 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/726085821.pdf
+2025-05-22 03:50:37,791 - P17020 - INFO - Após processar URL 22 Uso de memória: 130.34 MB
+2025-05-22 03:50:37,791 - P17020 - INFO - Processando URL 23/26: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/405137385.pdf
+2025-05-22 03:50:37,791 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/405137385.pdf
+2025-05-22 03:50:37,791 - P17020 - INFO - Após processar URL 23 Uso de memória: 130.34 MB
+2025-05-22 03:50:37,791 - P17020 - INFO - Processando URL 24/26: https://dosp.com.br/exibe_do.php?i=NTU5MTE=
+2025-05-22 03:50:39,921 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ccbdd3b8a5bd27f98a285c59bf2c49e0.html
+2025-05-22 03:50:39,921 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:50:39,922 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:50:39,922 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:50:39,923 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:50:39,923 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:50:39,923 - P17020 - INFO - Após processar URL 24 Uso de memória: 130.34 MB
+2025-05-22 03:50:39,923 - P17020 - INFO - Processando URL 25/26: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/3/0/9/3093304ea1d1775f4ecf19d647bbd845a0de6c22d4c7de8b163483c106fb218f/01f0ec04-a049-4c2d-abfb-e9d9c64edf9b-25996-DOE_18006_16_11_2006_60F.pdf
+2025-05-22 03:50:39,923 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/3/0/9/3093304ea1d1775f4ecf19d647bbd845a0de6c22d4c7de8b163483c106fb218f/01f0ec04-a049-4c2d-abfb-e9d9c64edf9b-25996-DOE_18006_16_11_2006_60F.pdf
+2025-05-22 03:50:39,924 - P17020 - INFO - Após processar URL 25 Uso de memória: 130.34 MB
+2025-05-22 03:50:39,924 - P17020 - INFO - Processando URL 26/26: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 03:50:43,596 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 03:50:43,641 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:50:43,641 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:50:43,641 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:50:43,642 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:50:43,642 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:50:43,642 - P17020 - INFO - Após processar URL 26 Uso de memória: 130.34 MB
+2025-05-22 03:50:43,642 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:50:43,643 - P17020 - INFO - Ranked address: 1 items
+2025-05-22 03:50:43,643 - P17020 - INFO - Ranked phone: 0 items
+2025-05-22 03:50:43,643 - P17020 - INFO - Ranked email: 6 items
+2025-05-22 03:50:43,644 - P17020 - INFO - Ranked complement: 1 items
+2025-05-22 03:50:43,644 - P17020 - INFO - Ranked cep: 7 items
+2025-05-22 03:50:43,644 - P17020 - INFO - Após agregação Uso de memória: 130.34 MB
+2025-05-22 03:50:43,644 - P17020 - INFO - Validando endereço: ['Rua Green 05']
+2025-05-22 03:50:43,645 - P17020 - INFO - Endereço validado: Rua Green 05
+2025-05-22 03:50:43,645 - P17020 - INFO - Limpando texto extenso para campo address: Rua Green 05...
+2025-05-22 03:50:43,645 - P17020 - INFO - Texto limpo: Rua Green 05
+2025-05-22 03:50:43,645 - P17020 - INFO - Validando email: ['cremego@cremego.org.br', 'secretaria@cremego.org.br', 'GARCIACONSULTORIA@HOTMAIL.COM']
+2025-05-22 03:50:43,645 - P17020 - INFO - Limpando texto extenso para campo email: cremego@cremego.org.br...
+2025-05-22 03:50:43,646 - P17020 - INFO - Texto limpo: cremego@cremego.org.br
+2025-05-22 03:50:43,646 - P17020 - INFO - Email validado: cremego@cremego.org.br
+2025-05-22 03:50:43,646 - P17020 - INFO - Validando complemento: ['Sala  A Condominio Residencial Green Park']
+2025-05-22 03:50:43,647 - P17020 - INFO - Limpando texto extenso para campo complement: Sala  A Condominio Residencial Green Park...
+2025-05-22 03:50:43,648 - P17020 - INFO - Texto limpo: Sala A Condominio Residencial
+2025-05-22 03:50:43,650 - P17020 - INFO - Complemento validado: Sala A Condominio Residencial
+2025-05-22 03:50:43,650 - P17020 - INFO - Descobrindo cidade
+2025-05-22 03:50:43,651 - P17020 - INFO - Buscando cidade: Rua Green 05 cidade GO
+2025-05-22 03:50:46,414 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 03:50:46,415 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 03:50:46,415 - P17020 - INFO - Tempo de execução de processamento completo do médico: 42.35 segundos
+2025-05-22 03:50:46,415 - P17020 - INFO - Resultado processado: {'Hash': 'ca4ccf691a6ca825020b00f3c126d1c5208a087ee53eabe777da77a2fccfb00b', 'CRM': '31634', 'UF': 'GO', 'Firstname': 'BRUNNA', 'LastName': 'CAMARGO DOS SANTOS', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Green 05', 'Address A1': 'Rua Green 05', 'Numero A1': '', 'Complement A1': 'Sala A Condominio Residencial', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cremego@cremego.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:50:46,416 - P17020 - INFO - Progresso: 56.3%
+2025-05-22 03:50:46,417 - P17020 - INFO - Tempo de execução de processamento do médico 2: 42.35 segundos
+2025-05-22 03:50:46,417 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 03:50:46,417 - P17020 - INFO - Nome: ERIVALDO SOUSA DOS SANTOS
+2025-05-22 03:50:46,417 - P17020 - INFO - Início do processamento Uso de memória: 128.31 MB
+2025-05-22 03:50:46,417 - P17020 - INFO - Iniciando busca para: ERIVALDO SOUSA DOS SANTOS CRM 2225 MA telefone e-mail endereço
+2025-05-22 03:50:47,211 - P17020 - INFO - SearX results: 15 URLs
+2025-05-22 03:50:47,211 - P17020 - INFO - Após SearX Uso de memória: 128.31 MB
+2025-05-22 03:50:50,210 - P17020 - INFO - Google results: 10 URLs
+2025-05-22 03:50:50,210 - P17020 - INFO - Após Google Uso de memória: 130.35 MB
+2025-05-22 03:50:52,807 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 03:50:52,807 - P17020 - INFO - Após Bing Uso de memória: 130.35 MB
+2025-05-22 03:50:52,807 - P17020 - INFO - Total de URLs únicas: 25
+2025-05-22 03:50:52,807 - P17020 - INFO - Processando URL 1/25: https://cliniguia.com/profissionais/erivaldo-sousa-dos-santos-125021572600006/
+2025-05-22 03:50:56,611 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e63fcdff018be398c069d4db3269769e.html
+2025-05-22 03:50:56,662 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:50:56,662 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:50:56,662 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:50:56,663 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:50:56,663 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:50:56,664 - P17020 - INFO - Após processar URL 1 Uso de memória: 131.30 MB
+2025-05-22 03:50:56,664 - P17020 - INFO - Processando URL 2/25: https://www.helpsaude.com/Erivaldo-Sousa-dos-Santos.MA
+2025-05-22 03:51:02,832 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f07be78719baca7332ce0966ace9773a.html
+2025-05-22 03:51:02,855 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:51:02,858 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:51:02,858 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:51:02,860 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:51:02,861 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:51:02,863 - P17020 - INFO - Após processar URL 2 Uso de memória: 131.30 MB
+2025-05-22 03:51:02,864 - P17020 - INFO - Processando URL 3/25: https://uromar.com.br/profissional/
+2025-05-22 03:51:05,172 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7bd09a03f8e22a3c365cfae44f64dfc5.html
+2025-05-22 03:51:05,185 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:51:05,185 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:51:05,185 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:51:05,185 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:51:05,185 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:51:05,186 - P17020 - INFO - Após processar URL 3 Uso de memória: 131.30 MB
+2025-05-22 03:51:05,186 - P17020 - INFO - Processando URL 4/25: https://diof.ro.gov.br/data/uploads/2023/06/DOE-05.06.2023.pdf
+2025-05-22 03:51:05,186 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diof.ro.gov.br/data/uploads/2023/06/DOE-05.06.2023.pdf
+2025-05-22 03:51:05,186 - P17020 - INFO - Após processar URL 4 Uso de memória: 131.30 MB
+2025-05-22 03:51:05,186 - P17020 - INFO - Processando URL 5/25: https://www.rededorsaoluiz.com.br/encontre-um-medico/perfil/erivaldo-sousa-dos-santos
+2025-05-22 03:51:10,633 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65ccf97de278b57f9e6e80cac35c7e31.html
+2025-05-22 03:51:10,782 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:51:10,783 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:51:10,783 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:51:10,783 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:51:10,784 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:51:10,784 - P17020 - INFO - Após processar URL 5 Uso de memória: 134.07 MB
+2025-05-22 03:51:10,784 - P17020 - INFO - Processando URL 6/25: https://www.escavador.com/sobre/3665005/erivaldo-sousa-dos-santos
+2025-05-22 03:51:14,630 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\07855785e7f23228c0b995ee09e413a3.html
+2025-05-22 03:51:14,646 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:51:14,646 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:51:14,646 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:51:14,647 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:51:14,647 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:51:14,647 - P17020 - INFO - Após processar URL 6 Uso de memória: 131.30 MB
+2025-05-22 03:51:14,647 - P17020 - INFO - Processando URL 7/25: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo714.pdf
+2025-05-22 03:51:14,647 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo714.pdf
+2025-05-22 03:51:14,648 - P17020 - INFO - Após processar URL 7 Uso de memória: 131.30 MB
+2025-05-22 03:51:14,648 - P17020 - INFO - Processando URL 8/25: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/349329/Caderno_JUD_MG_2018-05-30_X_97.pdf?sequence=3&isAllowed=y
+2025-05-22 03:51:14,648 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/349329/Caderno_JUD_MG_2018-05-30_X_97.pdf?sequence=3&isAllowed=y
+2025-05-22 03:51:14,648 - P17020 - INFO - Após processar URL 8 Uso de memória: 131.30 MB
+2025-05-22 03:51:14,648 - P17020 - INFO - Processando URL 9/25: https://medicos2.online/dr-erivaldo-sousa-dos-santos/
+2025-05-22 03:51:15,733 - P17020 - ERROR - Erro ao baixar HTML de https://medicos2.online/dr-erivaldo-sousa-dos-santos/: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7574059F4]
+	(No symbol) [0x00007FF7573F6789]
+	(No symbol) [0x00007FF7573F84F8]
+	(No symbol) [0x00007FF7573F6A96]
+	(No symbol) [0x00007FF7573F6516]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F465C]
+	(No symbol) [0x00007FF75740CF3A]
+	(No symbol) [0x00007FF7574B013E]
+	(No symbol) [0x00007FF75748737A]
+	(No symbol) [0x00007FF7574AF39C]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 03:51:15,734 - P17020 - INFO - Após processar URL 9 Uso de memória: 131.30 MB
+2025-05-22 03:51:15,735 - P17020 - INFO - Processando URL 10/25: https://www.medicosbrasil.com/profissional/erivaldo-sousa-dos-santos
+2025-05-22 03:51:19,402 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\aee229a16ac393b782bedc92217c100e.html
+2025-05-22 03:51:19,424 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:51:19,425 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:51:19,426 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:51:19,426 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:51:19,426 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:51:19,427 - P17020 - INFO - Após processar URL 10 Uso de memória: 131.30 MB
+2025-05-22 03:51:19,427 - P17020 - INFO - Processando URL 11/25: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1976533766.pdf
+2025-05-22 03:51:19,429 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1976533766.pdf
+2025-05-22 03:51:19,430 - P17020 - INFO - Após processar URL 11 Uso de memória: 131.30 MB
+2025-05-22 03:51:19,430 - P17020 - INFO - Processando URL 12/25: https://www.boaconsulta.com/especialista/erivaldo-sousa-dos-santos-64255dc01eed320a8500001d
+2025-05-22 03:51:22,078 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\cf948dbd97d43bae9bb8cf6c5824e715.html
+2025-05-22 03:51:22,120 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 03:51:22,120 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:51:22,121 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:51:22,121 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:51:22,121 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:51:22,121 - P17020 - INFO - Após processar URL 12 Uso de memória: 131.31 MB
+2025-05-22 03:51:22,121 - P17020 - INFO - Processando URL 13/25: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo707.pdf
+2025-05-22 03:51:22,121 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo707.pdf
+2025-05-22 03:51:22,122 - P17020 - INFO - Após processar URL 13 Uso de memória: 131.31 MB
+2025-05-22 03:51:22,122 - P17020 - INFO - Processando URL 14/25: https://www.catalogo.med.br/doutor/erivaldo-sousa-dos-santos-1797787.htm
+2025-05-22 03:51:24,302 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6438498c44cf3ea55c7184578b4e12b4.html
+2025-05-22 03:51:24,303 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:51:24,303 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:51:24,303 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:51:24,303 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:51:24,303 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:51:24,304 - P17020 - INFO - Após processar URL 14 Uso de memória: 131.31 MB
+2025-05-22 03:51:24,304 - P17020 - INFO - Processando URL 15/25: https://www.doctoralia.com.br/erivaldo-sousa-dos-santos/urologista/sao-luis
+2025-05-22 03:51:24,304 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/erivaldo-sousa-dos-santos/urologista/sao-luis
+2025-05-22 03:51:24,304 - P17020 - INFO - Após processar URL 15 Uso de memória: 131.31 MB
+2025-05-22 03:51:24,304 - P17020 - INFO - Processando URL 16/25: https://www.rededorsaoluiz.com.br/encontre-um-medico/urologista/em/sao-luis-ma/atende/seguros-unimed
+2025-05-22 03:51:34,661 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\35a0c45f8fb90ead3ab2107ff23dabe6.html
+2025-05-22 03:51:34,817 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 03:51:34,817 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:51:34,817 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:51:34,818 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:51:34,818 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:51:34,818 - P17020 - INFO - Após processar URL 16 Uso de memória: 133.96 MB
+2025-05-22 03:51:34,818 - P17020 - INFO - Processando URL 17/25: https://uromar.com.br/profissional/erivaldo-sousa-dos-santos/
+2025-05-22 03:51:37,079 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6c7b535e92773de0c498d0b4f0b763ee.html
+2025-05-22 03:51:37,246 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 03:51:37,246 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:51:37,246 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:51:37,247 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:51:37,247 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:51:37,247 - P17020 - INFO - Após processar URL 17 Uso de memória: 133.96 MB
+2025-05-22 03:51:37,247 - P17020 - INFO - Processando URL 18/25: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/18612
+2025-05-22 03:51:39,481 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\27ea6286949d7dec6b7aca12e895407c.html
+2025-05-22 03:51:39,634 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 03:51:39,634 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:51:39,634 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:51:39,635 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:51:39,635 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:51:39,635 - P17020 - INFO - Após processar URL 18 Uso de memória: 133.96 MB
+2025-05-22 03:51:39,635 - P17020 - INFO - Processando URL 19/25: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1175465368.pdf
+2025-05-22 03:51:39,635 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1175465368.pdf
+2025-05-22 03:51:39,635 - P17020 - INFO - Após processar URL 19 Uso de memória: 131.31 MB
+2025-05-22 03:51:39,636 - P17020 - INFO - Processando URL 20/25: https://www.lai.pe.gov.br/wp-content/uploads/sites/92/2020/06/PROC.-CP.0001.2020-PL.00013.2020.CPL_.DL_.0012.SERES_compressed.pdf
+2025-05-22 03:51:39,636 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.lai.pe.gov.br/wp-content/uploads/sites/92/2020/06/PROC.-CP.0001.2020-PL.00013.2020.CPL_.DL_.0012.SERES_compressed.pdf
+2025-05-22 03:51:39,636 - P17020 - INFO - Após processar URL 20 Uso de memória: 131.31 MB
+2025-05-22 03:51:39,636 - P17020 - INFO - Processando URL 21/25: https://sistemas.tce.pe.gov.br/audinArquivos/licon/processo_licitatorio/edital/877/LICON_Edital_877_2020_43_887843.pdf
+2025-05-22 03:51:39,636 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.tce.pe.gov.br/audinArquivos/licon/processo_licitatorio/edital/877/LICON_Edital_877_2020_43_887843.pdf
+2025-05-22 03:51:39,637 - P17020 - INFO - Após processar URL 21 Uso de memória: 131.31 MB
+2025-05-22 03:51:39,637 - P17020 - INFO - Processando URL 22/25: https://www.classemedica.com.br/medico/98838-erivaldo-sousa-dos-santos.htm
+2025-05-22 03:51:46,023 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\a7f72c7f2a60d0fc9bb0c2e0d177a513.html
+2025-05-22 03:51:46,057 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:51:46,058 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:51:46,059 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:51:46,059 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:51:46,059 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:51:46,060 - P17020 - INFO - Após processar URL 22 Uso de memória: 131.31 MB
+2025-05-22 03:51:46,060 - P17020 - INFO - Processando URL 23/25: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/16469
+2025-05-22 03:51:48,185 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ed3393caebe79a6c66a8c5820d52734f.html
+2025-05-22 03:51:48,217 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:51:48,221 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 03:51:48,222 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 03:51:48,222 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:51:48,223 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 03:51:48,229 - P17020 - INFO - Após processar URL 23 Uso de memória: 131.30 MB
+2025-05-22 03:51:48,233 - P17020 - INFO - Processando URL 24/25: https://www.doctoralia.com.br/urologista/sao-luis?page=3
+2025-05-22 03:51:48,234 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/urologista/sao-luis?page=3
+2025-05-22 03:51:48,238 - P17020 - INFO - Após processar URL 24 Uso de memória: 131.30 MB
+2025-05-22 03:51:48,247 - P17020 - INFO - Processando URL 25/25: https://www.doklist.com.br/dok/274489/
+2025-05-22 03:51:50,676 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f1609e735f5aa54bddd5769cc78e4df3.html
+2025-05-22 03:51:50,688 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 03:51:50,688 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 03:51:50,689 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 03:51:50,689 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 03:51:50,689 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 03:51:50,689 - P17020 - INFO - Após processar URL 25 Uso de memória: 131.30 MB
+2025-05-22 03:51:50,689 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:51:50,689 - P17020 - INFO - Ranked address: 2 items
+2025-05-22 03:51:50,690 - P17020 - INFO - Ranked phone: 2 items
+2025-05-22 03:51:50,690 - P17020 - INFO - Ranked email: 1 items
+2025-05-22 03:51:50,690 - P17020 - INFO - Ranked complement: 0 items
+2025-05-22 03:51:50,690 - P17020 - INFO - Ranked cep: 2 items
+2025-05-22 03:51:50,690 - P17020 - INFO - Após agregação Uso de memória: 131.30 MB
+2025-05-22 03:51:50,691 - P17020 - INFO - Validando endereço: ['Avenida Professor Carlos Cunha, 1', 'Avenida Professor Carlos Cunha, 2000']
+2025-05-22 03:51:50,691 - P17020 - INFO - Endereço validado: Avenida Professor Carlos Cunha, 1
+2025-05-22 03:51:50,691 - P17020 - INFO - Limpando texto extenso para campo address: Avenida Professor Carlos Cunha, 1...
+2025-05-22 03:51:50,691 - P17020 - INFO - Texto limpo: Avenida Professor Carlos Cunha, 1
+2025-05-22 03:51:50,691 - P17020 - INFO - Validando telefone: ['3003-3230', '(98) 3232-5007']
+2025-05-22 03:51:50,692 - P17020 - INFO - Limpando texto extenso para campo phone: (98) 3232-5007...
+2025-05-22 03:51:50,692 - P17020 - INFO - Texto limpo: 98) 3232-5007
+2025-05-22 03:51:50,692 - P17020 - INFO - Telefone validado: 98) 3232-5007
+2025-05-22 03:51:50,692 - P17020 - INFO - Validando email: ['info@doklist.com.br']
+2025-05-22 03:51:50,692 - P17020 - INFO - Limpando texto extenso para campo email: info@doklist.com.br...
+2025-05-22 03:51:50,692 - P17020 - INFO - Texto limpo: info@doklist.com.br
+2025-05-22 03:51:50,692 - P17020 - INFO - Email validado: info@doklist.com.br
+2025-05-22 03:51:50,693 - P17020 - INFO - Descobrindo cidade
+2025-05-22 03:51:50,693 - P17020 - INFO - Buscando cidade: Avenida Professor Carlos Cunha cidade MA
+2025-05-22 03:51:53,366 - P17020 - INFO - Cidade encontrada: São Luís
+2025-05-22 03:51:53,368 - P17020 - INFO - Limpando texto extenso para campo city: São Luís...
+2025-05-22 03:51:53,369 - P17020 - INFO - Texto limpo: São Luís
+2025-05-22 03:51:53,369 - P17020 - INFO - Cidade descoberta: São Luís
+2025-05-22 03:51:53,369 - P17020 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 03:51:53,369 - P17020 - INFO - Iniciando busca de CEP em cascata para: Avenida Professor Carlos Cunha, São Luís, MA
+2025-05-22 03:51:53,370 - P17020 - INFO - Método 1: ViaCEP API
+2025-05-22 03:51:53,370 - P17020 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/MA/sao%20luis/avenida%20professor%20carlos%20cunha/json/
+2025-05-22 03:51:54,024 - P17020 - INFO - Dados encontrados no ViaCEP: {'cep': '65076-820', 'logradouro': 'Avenida Professor Carlos Cunha', 'complemento': '', 'unidade': '', 'bairro': 'Jaracaty', 'localidade': 'São Luís', 'uf': 'MA', 'estado': 'Maranhão', 'regiao': 'Nordeste', 'ibge': '2111300', 'gia': '', 'ddd': '98', 'siafi': '0921'}
+2025-05-22 03:51:54,027 - P17020 - INFO - CEP encontrado via ViaCEP: 65076-820
+2025-05-22 03:51:54,027 - P17020 - INFO - Dados de CEP encontrados: {'cep': '65076-820', 'logradouro': 'Avenida Professor Carlos Cunha', 'complemento': '', 'unidade': '', 'bairro': 'Jaracaty', 'localidade': 'São Luís', 'uf': 'MA', 'estado': 'Maranhão', 'regiao': 'Nordeste', 'ibge': '2111300', 'gia': '', 'ddd': '98', 'siafi': '0921'}
+2025-05-22 03:51:54,027 - P17020 - INFO - Limpando texto extenso para campo bairro: Jaracaty...
+2025-05-22 03:51:54,027 - P17020 - INFO - Texto limpo: Jaracaty
+2025-05-22 03:51:54,027 - P17020 - INFO - Limpando texto extenso para campo city: São Luís...
+2025-05-22 03:51:54,028 - P17020 - INFO - Texto limpo: São Luís
+2025-05-22 03:51:54,028 - P17020 - INFO - Limpando texto extenso para campo state: MA...
+2025-05-22 03:51:54,028 - P17020 - INFO - Texto limpo: MA
+2025-05-22 03:51:54,028 - P17020 - INFO - Tempo de execução de processamento completo do médico: 67.61 segundos
+2025-05-22 03:51:54,029 - P17020 - INFO - Resultado processado: {'Hash': '92670fc5c44970400a0515d8e27f65194e51113175adcbc2aaef7ba3a1402678', 'CRM': '2225', 'UF': 'MA', 'Firstname': 'ERIVALDO', 'LastName': 'SOUSA DOS SANTOS', 'Medical specialty': '', 'Endereco Completo A1': 'Avenida Professor Carlos Cunha, 1', 'Address A1': 'Avenida Professor Carlos Cunha', 'Numero A1': '1', 'Complement A1': '', 'Bairro A1': 'Jaracaty', 'postal code A1': '65076-820', 'City A1': 'São Luís', 'State A1': 'MA', 'Phone A1': '98) 3232-5007', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'info@doklist.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:51:54,029 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 03:51:54,030 - P17020 - INFO - Após salvar resultados Uso de memória: 129.73 MB
+2025-05-22 03:51:54,031 - P17020 - INFO - Progresso: 56.7%
+2025-05-22 03:51:54,031 - P17020 - INFO - Tempo de execução de processamento do médico 3: 67.61 segundos
+2025-05-22 03:51:54,031 - P17020 - INFO - Tempo de execução de processamento do lote completo: 163.74 segundos

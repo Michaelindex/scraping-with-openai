@@ -1,342 +1,638 @@
-2025-05-21 23:45:47,072 - P12188 - INFO - 
+2025-05-22 01:18:46,865 - P17320 - INFO - 
 ==================================================
-Processando médico 1/2
-2025-05-21 23:45:47,073 - P12188 - INFO - Nome: UBIRAJARA JULIEUX DE MAGALHAES
-2025-05-21 23:45:47,074 - P12188 - INFO - Reiniciando driver do Chrome
-2025-05-21 23:45:48,558 - P12188 - INFO - Após reiniciar driver Uso de memória: 38.76 MB
-2025-05-21 23:45:48,558 - P12188 - INFO - Início do processamento Uso de memória: 38.76 MB
-2025-05-21 23:45:48,558 - P12188 - INFO - Iniciando busca para: UBIRAJARA JULIEUX DE MAGALHAES CRM 1655 CE telefone e-mail endereço
-2025-05-21 23:45:49,450 - P12188 - INFO - SearX results: 12 URLs
-2025-05-21 23:45:49,451 - P12188 - INFO - Após SearX Uso de memória: 38.83 MB
-2025-05-21 23:45:52,148 - P12188 - INFO - Google results: 1 URLs
-2025-05-21 23:45:52,149 - P12188 - INFO - Após Google Uso de memória: 39.46 MB
-2025-05-21 23:45:55,945 - P12188 - INFO - Bing results: 11 URLs
-2025-05-21 23:45:55,945 - P12188 - INFO - Após Bing Uso de memória: 40.50 MB
-2025-05-21 23:45:55,946 - P12188 - INFO - Total de URLs únicas: 14
-2025-05-21 23:45:55,946 - P12188 - INFO - Processando URL 1/14: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x837426101&market=pt-BR&src=SERPGB
-2025-05-21 23:46:00,417 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\f5c68d4990daa241a090d28e55d7665b.html
-2025-05-21 23:46:00,438 - P12188 - INFO - Candidates address: 0 items
-2025-05-21 23:46:00,445 - P12188 - INFO - Candidates phone: 0 items
-2025-05-21 23:46:00,445 - P12188 - INFO - Candidates email: 0 items
-2025-05-21 23:46:00,445 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:00,445 - P12188 - INFO - Candidates cep: 0 items
-2025-05-21 23:46:00,450 - P12188 - INFO - Após processar URL 1 Uso de memória: 42.05 MB
-2025-05-21 23:46:00,451 - P12188 - INFO - Processando URL 2/14: https://www.doctuo.com.br/medicos/pediatras/amil/iguatu-ceara
-2025-05-21 23:46:00,451 - P12188 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctuo.com.br/medicos/pediatras/amil/iguatu-ceara
-2025-05-21 23:46:00,451 - P12188 - INFO - Após processar URL 2 Uso de memória: 42.05 MB
-2025-05-21 23:46:00,452 - P12188 - INFO - Processando URL 3/14: https://www.doctoralia.com.br/ubirajara-julieux-de-magalhaes/pediatra/iguatu
-2025-05-21 23:46:00,452 - P12188 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/ubirajara-julieux-de-magalhaes/pediatra/iguatu
-2025-05-21 23:46:00,459 - P12188 - INFO - Após processar URL 3 Uso de memória: 42.05 MB
-2025-05-21 23:46:00,468 - P12188 - INFO - Processando URL 4/14: https://hospitaleclinicas.com.br/cnes/5632897/ubirajara-julieux-de-magalhaes
-2025-05-21 23:46:05,063 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\35a56ac784d033597c86cca15531b0f7.html
-2025-05-21 23:46:05,101 - P12188 - INFO - Candidates address: 0 items
-2025-05-21 23:46:05,121 - P12188 - INFO - Candidates phone: 0 items
-2025-05-21 23:46:05,123 - P12188 - INFO - Candidates email: 1 items
-2025-05-21 23:46:05,127 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:05,128 - P12188 - INFO - Candidates cep: 1 items
-2025-05-21 23:46:05,128 - P12188 - INFO - Após processar URL 4 Uso de memória: 41.57 MB
-2025-05-21 23:46:05,129 - P12188 - INFO - Processando URL 5/14: https://consultacrm.com.br/
-2025-05-21 23:46:11,355 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
-2025-05-21 23:46:11,369 - P12188 - INFO - Candidates address: 0 items
-2025-05-21 23:46:11,369 - P12188 - INFO - Candidates phone: 0 items
-2025-05-21 23:46:11,370 - P12188 - INFO - Candidates email: 0 items
-2025-05-21 23:46:11,370 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:11,370 - P12188 - INFO - Candidates cep: 0 items
-2025-05-21 23:46:11,371 - P12188 - INFO - Após processar URL 5 Uso de memória: 43.46 MB
-2025-05-21 23:46:11,372 - P12188 - INFO - Processando URL 6/14: https://cnes2.datasus.gov.br/Mod_Basico.asp?VCo_Unidade=2305505632897
-2025-05-21 23:46:13,693 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\20a463ee843d7e93d7cc65054e726bdb.html
-2025-05-21 23:46:13,704 - P12188 - INFO - Candidates address: 0 items
-2025-05-21 23:46:13,704 - P12188 - INFO - Candidates phone: 0 items
-2025-05-21 23:46:13,704 - P12188 - INFO - Candidates email: 0 items
-2025-05-21 23:46:13,704 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:13,705 - P12188 - INFO - Candidates cep: 1 items
-2025-05-21 23:46:13,705 - P12188 - INFO - Após processar URL 6 Uso de memória: 42.73 MB
-2025-05-21 23:46:13,705 - P12188 - INFO - Processando URL 7/14: https://www.helpsaude.com/Ubirajara-Julieux-de-Magalhaes.CE
-2025-05-21 23:46:20,361 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\7d3be5e2484abd2713d50646d3ba6dc0.html
-2025-05-21 23:46:20,388 - P12188 - INFO - Candidates address: 1 items
-2025-05-21 23:46:20,388 - P12188 - INFO - Candidates phone: 0 items
-2025-05-21 23:46:20,388 - P12188 - INFO - Candidates email: 0 items
-2025-05-21 23:46:20,388 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:20,388 - P12188 - INFO - Candidates cep: 1 items
-2025-05-21 23:46:20,389 - P12188 - INFO - Após processar URL 7 Uso de memória: 44.33 MB
-2025-05-21 23:46:20,389 - P12188 - INFO - Processando URL 8/14: https://www.doctoralia.com.br/pediatra/iguatu
-2025-05-21 23:46:20,389 - P12188 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/pediatra/iguatu
-2025-05-21 23:46:20,389 - P12188 - INFO - Após processar URL 8 Uso de memória: 42.64 MB
-2025-05-21 23:46:20,389 - P12188 - INFO - Processando URL 9/14: https://cremec.org.br/busca-medicos
-2025-05-21 23:46:24,679 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\3c9ece8b802bc598dd007727d971a7d5.html
-2025-05-21 23:46:24,725 - P12188 - INFO - Candidates address: 1 items
-2025-05-21 23:46:24,725 - P12188 - INFO - Candidates phone: 1 items
-2025-05-21 23:46:24,725 - P12188 - INFO - Candidates email: 1 items
-2025-05-21 23:46:24,725 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:24,725 - P12188 - INFO - Candidates cep: 1 items
-2025-05-21 23:46:24,726 - P12188 - INFO - Após processar URL 9 Uso de memória: 44.44 MB
-2025-05-21 23:46:24,727 - P12188 - INFO - Processando URL 10/14: https://www.apontador.com.br/local/ce/iguatu/consultorio_medico/C407352744261Z2619/
-2025-05-21 23:46:29,085 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\c92229915064d147b6242900b7a63082.html
-2025-05-21 23:46:29,132 - P12188 - INFO - Candidates address: 2 items
-2025-05-21 23:46:29,133 - P12188 - INFO - Candidates phone: 0 items
-2025-05-21 23:46:29,133 - P12188 - INFO - Candidates email: 1 items
-2025-05-21 23:46:29,133 - P12188 - INFO - Candidates complement: 1 items
-2025-05-21 23:46:29,133 - P12188 - INFO - Candidates cep: 0 items
-2025-05-21 23:46:29,134 - P12188 - INFO - Após processar URL 10 Uso de memória: 45.45 MB
-2025-05-21 23:46:29,134 - P12188 - INFO - Processando URL 11/14: https://www.consultacrm.com.br/index/medicos/uid-1005366c-f5c5-11ec-9e74-0a4aa568c625/ubirajara_julieux_de_magalhaes
-2025-05-21 23:46:32,614 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\30bf1ca29ba599db865d31632170a159.html
-2025-05-21 23:46:32,629 - P12188 - INFO - Candidates address: 0 items
-2025-05-21 23:46:32,630 - P12188 - INFO - Candidates phone: 0 items
-2025-05-21 23:46:32,630 - P12188 - INFO - Candidates email: 0 items
-2025-05-21 23:46:32,631 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:32,631 - P12188 - INFO - Candidates cep: 0 items
-2025-05-21 23:46:32,632 - P12188 - INFO - Após processar URL 11 Uso de memória: 47.31 MB
-2025-05-21 23:46:32,633 - P12188 - INFO - Processando URL 12/14: https://www.infosaude.com.br/cnes/179544-ubirajara-julieux-de-magalhaes
-2025-05-21 23:46:35,060 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\df44648a384b6ad5be3b651f4507b803.html
-2025-05-21 23:46:35,083 - P12188 - INFO - Candidates address: 0 items
-2025-05-21 23:46:35,084 - P12188 - INFO - Candidates phone: 1 items
-2025-05-21 23:46:35,084 - P12188 - INFO - Candidates email: 0 items
-2025-05-21 23:46:35,084 - P12188 - INFO - Candidates complement: 1 items
-2025-05-21 23:46:35,084 - P12188 - INFO - Candidates cep: 1 items
-2025-05-21 23:46:35,084 - P12188 - INFO - Após processar URL 12 Uso de memória: 48.36 MB
-2025-05-21 23:46:35,085 - P12188 - INFO - Processando URL 13/14: https://doutorcrm.com/ubirajara-julieux-de-magalhaes
-2025-05-21 23:46:40,980 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\dbe865697136f238ac9b1b72f6eabc78.html
-2025-05-21 23:46:40,988 - P12188 - INFO - Candidates address: 1 items
-2025-05-21 23:46:40,988 - P12188 - INFO - Candidates phone: 0 items
-2025-05-21 23:46:40,989 - P12188 - INFO - Candidates email: 0 items
-2025-05-21 23:46:40,989 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:40,989 - P12188 - INFO - Candidates cep: 0 items
-2025-05-21 23:46:40,989 - P12188 - INFO - Após processar URL 13 Uso de memória: 47.90 MB
-2025-05-21 23:46:40,989 - P12188 - INFO - Processando URL 14/14: https://www.doctuo.com.br/medicos/ubirajara-julieux-de-magalhaes
-2025-05-21 23:46:40,989 - P12188 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctuo.com.br/medicos/ubirajara-julieux-de-magalhaes
-2025-05-21 23:46:40,990 - P12188 - INFO - Após processar URL 14 Uso de memória: 47.14 MB
-2025-05-21 23:46:40,990 - P12188 - INFO - Iniciando agregação e ranqueamento
-2025-05-21 23:46:40,990 - P12188 - INFO - Ranked address: 5 items
-2025-05-21 23:46:40,990 - P12188 - INFO - Ranked phone: 2 items
-2025-05-21 23:46:40,990 - P12188 - INFO - Ranked email: 3 items
-2025-05-21 23:46:40,990 - P12188 - INFO - Ranked complement: 2 items
-2025-05-21 23:46:40,990 - P12188 - INFO - Ranked cep: 3 items
-2025-05-21 23:46:40,991 - P12188 - INFO - Após agregação Uso de memória: 47.14 MB
-2025-05-21 23:46:40,991 - P12188 - INFO - Validando endereço: ['Rua Monsenhor Coelho , 152', 'Av. Antônio Sales, 485', 'Avenida Mns. Coelho , 152']
-2025-05-21 23:46:40,991 - P12188 - INFO - Endereço validado: Rua Monsenhor Coelho , 152
-2025-05-21 23:46:40,991 - P12188 - INFO - Limpando texto extenso para campo address: Rua Monsenhor Coelho , 152...
-2025-05-21 23:46:40,992 - P12188 - INFO - Texto limpo: Rua Monsenhor Coelho , 152
-2025-05-21 23:46:40,992 - P12188 - INFO - Validando telefone: ['(85) 3198-3700', '']
-2025-05-21 23:46:40,993 - P12188 - INFO - Limpando texto extenso para campo phone: (85) 3198-3700...
-2025-05-21 23:46:40,993 - P12188 - INFO - Texto limpo: 85) 3198-3700
-2025-05-21 23:46:40,993 - P12188 - INFO - Telefone validado: 85) 3198-3700
-2025-05-21 23:46:40,993 - P12188 - INFO - Validando email: ['contact@nesx.co', 'cremec@cremec.org.br', 'relacionamento@apontador.com']
-2025-05-21 23:46:40,993 - P12188 - INFO - Limpando texto extenso para campo email: contact@nesx.co...
-2025-05-21 23:46:40,993 - P12188 - INFO - Texto limpo: contact@nesx.co
-2025-05-21 23:46:40,994 - P12188 - INFO - Email validado: contact@nesx.co
-2025-05-21 23:46:40,994 - P12188 - INFO - Validando complemento: ['Saladas ', 'Sala B']
-2025-05-21 23:46:40,994 - P12188 - INFO - Limpando texto extenso para campo complement: Saladas ...
-2025-05-21 23:46:40,994 - P12188 - INFO - Texto limpo: Saladas
-2025-05-21 23:46:40,995 - P12188 - INFO - Complemento validado: Saladas
-2025-05-21 23:46:40,995 - P12188 - INFO - Descobrindo cidade
-2025-05-21 23:46:40,995 - P12188 - INFO - Buscando cidade: Rua Monsenhor Coelho cidade CE
-2025-05-21 23:46:43,259 - P12188 - INFO - Cidade encontrada: Iguatu
-2025-05-21 23:46:43,259 - P12188 - INFO - Limpando texto extenso para campo city: Iguatu...
-2025-05-21 23:46:43,260 - P12188 - INFO - Texto limpo: Iguatu
-2025-05-21 23:46:43,260 - P12188 - INFO - Cidade descoberta: Iguatu
-2025-05-21 23:46:43,260 - P12188 - INFO - Buscando CEP com sistema de cascata
-2025-05-21 23:46:43,261 - P12188 - INFO - Iniciando busca de CEP em cascata para: Rua Monsenhor Coelho, Iguatu, CE
-2025-05-21 23:46:43,261 - P12188 - INFO - Método 1: ViaCEP API
-2025-05-21 23:46:43,261 - P12188 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/CE/iguatu/rua%20monsenhor%20coelho/json/
-2025-05-21 23:46:43,926 - P12188 - INFO - Dados encontrados no ViaCEP: {'cep': '63500-106', 'logradouro': 'Rua Monsenhor Coelho', 'complemento': '', 'unidade': '', 'bairro': 'Centro', 'localidade': 'Iguatu', 'uf': 'CE', 'estado': 'Ceará', 'regiao': 'Nordeste', 'ibge': '2305506', 'gia': '', 'ddd': '88', 'siafi': '1411'}
-2025-05-21 23:46:43,930 - P12188 - INFO - CEP encontrado via ViaCEP: 63500-106
-2025-05-21 23:46:43,931 - P12188 - INFO - Dados de CEP encontrados: {'cep': '63500-106', 'logradouro': 'Rua Monsenhor Coelho', 'complemento': '', 'unidade': '', 'bairro': 'Centro', 'localidade': 'Iguatu', 'uf': 'CE', 'estado': 'Ceará', 'regiao': 'Nordeste', 'ibge': '2305506', 'gia': '', 'ddd': '88', 'siafi': '1411'}
-2025-05-21 23:46:43,931 - P12188 - INFO - Limpando texto extenso para campo bairro: Centro...
-2025-05-21 23:46:43,931 - P12188 - INFO - Texto limpo: Centro
-2025-05-21 23:46:43,931 - P12188 - INFO - Limpando texto extenso para campo city: Iguatu...
-2025-05-21 23:46:43,932 - P12188 - INFO - Texto limpo: Iguatu
-2025-05-21 23:46:43,932 - P12188 - INFO - Limpando texto extenso para campo state: CE...
-2025-05-21 23:46:43,932 - P12188 - INFO - Texto limpo: CE
-2025-05-21 23:46:43,932 - P12188 - INFO - Tempo de execução de processamento completo do médico: 55.37 segundos
-2025-05-21 23:46:43,933 - P12188 - INFO - Resultado processado: {'CRM': '1655', 'UF': 'CE', 'Firstname': 'UBIRAJARA', 'LastName': 'JULIEUX DE MAGALHAES', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Monsenhor Coelho , 152', 'Address A1': 'Rua Monsenhor Coelho', 'Numero A1': '152', 'Complement A1': 'Saladas', 'Bairro A1': 'Centro', 'postal code A1': '63500-106', 'City A1': 'Iguatu', 'State A1': 'CE', 'Phone A1': '85) 3198-3700', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'contact@nesx.co', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
-2025-05-21 23:46:43,934 - P12188 - INFO - Progresso: 10.0%
-2025-05-21 23:46:43,934 - P12188 - INFO - Executando coleta de lixo
-2025-05-21 23:46:43,947 - P12188 - INFO - Após coleta de lixo Uso de memória: 46.87 MB
-2025-05-21 23:46:43,948 - P12188 - INFO - Tempo de execução de processamento do médico 1: 56.88 segundos
-2025-05-21 23:46:43,948 - P12188 - INFO - 
+Processando médico 1/3
+2025-05-22 01:18:46,865 - P17320 - INFO - Nome: LUIZ ROBERTO DE LIMA
+2025-05-22 01:18:46,866 - P17320 - INFO - Reiniciando driver do Chrome
+2025-05-22 01:18:48,480 - P17320 - INFO - Após reiniciar driver Uso de memória: 36.72 MB
+2025-05-22 01:18:48,481 - P17320 - INFO - Início do processamento Uso de memória: 36.73 MB
+2025-05-22 01:18:48,481 - P17320 - INFO - Iniciando busca para: LUIZ ROBERTO DE LIMA CRM 25987 SP telefone e-mail endereço
+2025-05-22 01:18:49,372 - P17320 - INFO - SearX results: 15 URLs
+2025-05-22 01:18:49,372 - P17320 - INFO - Após SearX Uso de memória: 36.80 MB
+2025-05-22 01:18:52,340 - P17320 - INFO - Google results: 9 URLs
+2025-05-22 01:18:52,341 - P17320 - INFO - Após Google Uso de memória: 38.43 MB
+2025-05-22 01:18:55,315 - P17320 - INFO - Bing results: 10 URLs
+2025-05-22 01:18:55,316 - P17320 - INFO - Após Bing Uso de memória: 38.95 MB
+2025-05-22 01:18:55,316 - P17320 - INFO - Total de URLs únicas: 25
+2025-05-22 01:18:55,316 - P17320 - INFO - Processando URL 1/25: https://sergipeprevidencia.se.gov.br/presidente-do-sergipeprevidencia-jose-roberto-de-lima-andrade-e-homenageado-pela-alese-com-medalha-do-merito-parlamentar/
+2025-05-22 01:18:57,875 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\f98fe484425b2748cfe2afe1685a86a1.html
+2025-05-22 01:18:57,897 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:18:57,898 - P17320 - INFO - Candidates phone: 3 items
+2025-05-22 01:18:57,898 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 01:18:57,898 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:18:57,898 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:18:57,898 - P17320 - INFO - Após processar URL 1 Uso de memória: 40.28 MB
+2025-05-22 01:18:57,899 - P17320 - INFO - Processando URL 2/25: https://www.consultacrm.com.br/index/medicos/uid-99063faa-f5c5-11ec-9e74-0a4aa568c625/luiz_roberto_de_lima
+2025-05-22 01:19:02,374 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\831b9c9f0b75014ce35ebc865835a98c.html
+2025-05-22 01:19:02,387 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:19:02,387 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:19:02,388 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:19:02,388 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:02,388 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:19:02,388 - P17320 - INFO - Após processar URL 2 Uso de memória: 41.65 MB
+2025-05-22 01:19:02,389 - P17320 - INFO - Processando URL 3/25: https://www.sociosbrasil.com/nome/luiz-roberto-de-lima
+2025-05-22 01:19:05,728 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\42fddb39d422f6319af30679025ed2a8.html
+2025-05-22 01:19:05,737 - P17320 - INFO - Candidates address: 5 items
+2025-05-22 01:19:05,738 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:19:05,738 - P17320 - INFO - Candidates email: 5 items
+2025-05-22 01:19:05,738 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 01:19:05,738 - P17320 - INFO - Candidates cep: 15 items
+2025-05-22 01:19:05,738 - P17320 - INFO - Após processar URL 3 Uso de memória: 40.91 MB
+2025-05-22 01:19:05,739 - P17320 - INFO - Processando URL 4/25: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/b/d/4/bd43292d6e1cf1fa6e64ca046c4176913493873cca1cb20b76d23147567abf23/9a81d85c-6884-44f7-9936-a249188276a9-13811-DOE_19114_21_06_2011_48F.pdf
+2025-05-22 01:19:05,739 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/b/d/4/bd43292d6e1cf1fa6e64ca046c4176913493873cca1cb20b76d23147567abf23/9a81d85c-6884-44f7-9936-a249188276a9-13811-DOE_19114_21_06_2011_48F.pdf
+2025-05-22 01:19:05,739 - P17320 - INFO - Após processar URL 4 Uso de memória: 40.91 MB
+2025-05-22 01:19:05,739 - P17320 - INFO - Processando URL 5/25: https://guiamedico.cremesp.org.br/
+2025-05-22 01:19:08,902 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 01:19:08,909 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:19:08,909 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 01:19:08,909 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:19:08,909 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:08,909 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:19:08,909 - P17320 - INFO - Após processar URL 5 Uso de memória: 41.41 MB
+2025-05-22 01:19:08,910 - P17320 - INFO - Processando URL 6/25: https://cnpj.biz/13395184000188
+2025-05-22 01:19:11,150 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\931605e54e88029461445b9eb56ab8b1.html
+2025-05-22 01:19:11,165 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:19:11,165 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 01:19:11,165 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 01:19:11,165 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:11,166 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:19:11,166 - P17320 - INFO - Após processar URL 6 Uso de memória: 42.04 MB
+2025-05-22 01:19:11,166 - P17320 - INFO - Processando URL 7/25: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-28-07-2023.pdf?p=1690502400062
+2025-05-22 01:19:11,166 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-28-07-2023.pdf?p=1690502400062
+2025-05-22 01:19:11,166 - P17320 - INFO - Após processar URL 7 Uso de memória: 42.04 MB
+2025-05-22 01:19:11,166 - P17320 - INFO - Processando URL 8/25: https://oportunidados.com.br/cnpj/13395184000188/luiz-roberto-de-lima
+2025-05-22 01:19:14,103 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\10f2cf1f649b6ffd61780069a044750e.html
+2025-05-22 01:19:14,123 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:19:14,123 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:19:14,124 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:19:14,124 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:14,124 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:19:14,124 - P17320 - INFO - Após processar URL 8 Uso de memória: 42.30 MB
+2025-05-22 01:19:14,125 - P17320 - INFO - Processando URL 9/25: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo545.pdf
+2025-05-22 01:19:14,125 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo545.pdf
+2025-05-22 01:19:14,125 - P17320 - INFO - Após processar URL 9 Uso de memória: 42.30 MB
+2025-05-22 01:19:14,126 - P17320 - INFO - Processando URL 10/25: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/326162918.pdf
+2025-05-22 01:19:14,126 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/326162918.pdf
+2025-05-22 01:19:14,126 - P17320 - INFO - Após processar URL 10 Uso de memória: 42.30 MB
+2025-05-22 01:19:14,126 - P17320 - INFO - Processando URL 11/25: https://www.listamais.com.br/local/cad_idXfXf505/luiz-roberto-lima-rodrigues-clinica-medica-em-sao-paulo-sp
+2025-05-22 01:19:19,326 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\0c0cb5edfb0ffe52455d33468d80dafd.html
+2025-05-22 01:19:19,347 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:19:19,347 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 01:19:19,348 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 01:19:19,348 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:19,348 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:19:19,348 - P17320 - INFO - Após processar URL 11 Uso de memória: 42.66 MB
+2025-05-22 01:19:19,349 - P17320 - INFO - Processando URL 12/25: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/21231
+2025-05-22 01:19:21,608 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\798e4e1892ab813819c619be894a0bb7.html
+2025-05-22 01:19:21,630 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:19:21,630 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 01:19:21,630 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 01:19:21,630 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:21,630 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:19:21,631 - P17320 - INFO - Após processar URL 12 Uso de memória: 42.93 MB
+2025-05-22 01:19:21,631 - P17320 - INFO - Processando URL 13/25: https://www.infracrm.org.br/?siteAcao=CMDesatualizado&pg=51
+2025-05-22 01:19:21,938 - P17320 - ERROR - Erro ao baixar HTML de https://www.infracrm.org.br/?siteAcao=CMDesatualizado&pg=51: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7574059F4]
+	(No symbol) [0x00007FF7573F6789]
+	(No symbol) [0x00007FF7573F84F8]
+	(No symbol) [0x00007FF7573F6A96]
+	(No symbol) [0x00007FF7573F6516]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F465C]
+	(No symbol) [0x00007FF75740CF3A]
+	(No symbol) [0x00007FF7574B013E]
+	(No symbol) [0x00007FF75748737A]
+	(No symbol) [0x00007FF7574AF39C]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 01:19:21,941 - P17320 - INFO - Após processar URL 13 Uso de memória: 42.94 MB
+2025-05-22 01:19:21,941 - P17320 - INFO - Processando URL 14/25: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2011/11/do_20111117_2029.pdf
+2025-05-22 01:19:21,941 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2011/11/do_20111117_2029.pdf
+2025-05-22 01:19:21,941 - P17320 - INFO - Após processar URL 14 Uso de memória: 42.94 MB
+2025-05-22 01:19:21,942 - P17320 - INFO - Processando URL 15/25: https://www.classemedica.com.br/medico/205504-luiz-roberto-de-lima.htm
+2025-05-22 01:19:27,725 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e262ee31c9bc0791a26aecfbb548859c.html
+2025-05-22 01:19:27,758 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:19:27,759 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:19:27,759 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:19:27,759 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:27,759 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:19:27,760 - P17320 - INFO - Após processar URL 15 Uso de memória: 45.35 MB
+2025-05-22 01:19:27,760 - P17320 - INFO - Processando URL 16/25: https://cnpj.biz/59798237000102
+2025-05-22 01:19:30,012 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9641e6011c3694be11b051aa75bc0a5f.html
+2025-05-22 01:19:30,014 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:19:30,014 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:19:30,015 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:19:30,015 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:30,015 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:19:30,015 - P17320 - INFO - Após processar URL 16 Uso de memória: 44.32 MB
+2025-05-22 01:19:30,015 - P17320 - INFO - Processando URL 17/25: http://www.buritirana.ma.gov.br/upload/licitacao_arquivos/21690.pdf
+2025-05-22 01:19:30,016 - P17320 - INFO - Ignorando URL de arquivo não-HTML: http://www.buritirana.ma.gov.br/upload/licitacao_arquivos/21690.pdf
+2025-05-22 01:19:30,016 - P17320 - INFO - Após processar URL 17 Uso de memória: 44.32 MB
+2025-05-22 01:19:30,016 - P17320 - INFO - Processando URL 18/25: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1591550720.pdf
+2025-05-22 01:19:30,016 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1591550720.pdf
+2025-05-22 01:19:30,017 - P17320 - INFO - Após processar URL 18 Uso de memória: 44.32 MB
+2025-05-22 01:19:30,017 - P17320 - INFO - Processando URL 19/25: https://www.descubraonline.com/guia/sp/lindoia/luiz-roberto-de-lima-junior-clinica-medica-eireli-31999103000130/
+2025-05-22 01:19:35,263 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9824c46a846aea4dea7e6a6d2cd54a3d.html
+2025-05-22 01:19:35,313 - P17320 - INFO - Candidates address: 4 items
+2025-05-22 01:19:35,314 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 01:19:35,320 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 01:19:35,321 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:35,322 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:19:35,323 - P17320 - INFO - Após processar URL 19 Uso de memória: 47.05 MB
+2025-05-22 01:19:35,324 - P17320 - INFO - Processando URL 20/25: https://www.consultasocio.com/q/sa/luiz-roberto-de-lima
+2025-05-22 01:19:41,047 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\6174aaa4940ea85c6576c9793c503a34.html
+2025-05-22 01:19:41,069 - P17320 - INFO - Candidates address: 8 items
+2025-05-22 01:19:41,069 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:19:41,070 - P17320 - INFO - Candidates email: 6 items
+2025-05-22 01:19:41,070 - P17320 - INFO - Candidates complement: 2 items
+2025-05-22 01:19:41,070 - P17320 - INFO - Candidates cep: 23 items
+2025-05-22 01:19:41,071 - P17320 - INFO - Após processar URL 20 Uso de memória: 45.06 MB
+2025-05-22 01:19:41,071 - P17320 - INFO - Processando URL 21/25: https://www.cremesp.org.br/?siteAcao=DelegaciasRegionais&id=33
+2025-05-22 01:19:45,145 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\f89528df70462629a24f2b4171f0fc34.html
+2025-05-22 01:19:45,163 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 01:19:45,163 - P17320 - INFO - Candidates phone: 3 items
+2025-05-22 01:19:45,164 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 01:19:45,164 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:45,164 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 01:19:45,164 - P17320 - INFO - Após processar URL 21 Uso de memória: 45.56 MB
+2025-05-22 01:19:45,164 - P17320 - INFO - Processando URL 22/25: https://iomat.mt.gov.br/portal/edicoes/download/3361
+2025-05-22 01:19:47,618 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\59bccfea9feaddeb674036d3c51e8bb5.html
+2025-05-22 01:19:47,637 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 01:19:47,637 - P17320 - INFO - Candidates phone: 3 items
+2025-05-22 01:19:47,637 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 01:19:47,638 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:47,639 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 01:19:47,640 - P17320 - INFO - Após processar URL 22 Uso de memória: 46.23 MB
+2025-05-22 01:19:47,640 - P17320 - INFO - Processando URL 23/25: https://www.ioepa.com.br/pages/2016/2016.05.13.DOE.pdf
+2025-05-22 01:19:47,640 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2016/2016.05.13.DOE.pdf
+2025-05-22 01:19:47,640 - P17320 - INFO - Após processar URL 23 Uso de memória: 46.23 MB
+2025-05-22 01:19:47,640 - P17320 - INFO - Processando URL 24/25: https://diariooficial.saoluis.ma.gov.br/uploads/diario_oficial/210/gI9ezJA47SYYXy2CR6GLSA1cb4yo0C0s.pdf
+2025-05-22 01:19:47,641 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.saoluis.ma.gov.br/uploads/diario_oficial/210/gI9ezJA47SYYXy2CR6GLSA1cb4yo0C0s.pdf
+2025-05-22 01:19:47,641 - P17320 - INFO - Após processar URL 24 Uso de memória: 46.23 MB
+2025-05-22 01:19:47,641 - P17320 - INFO - Processando URL 25/25: https://consultacrm.com.br/
+2025-05-22 01:19:51,064 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:19:51,078 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:19:51,078 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:19:51,078 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:19:51,078 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:51,078 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:19:51,079 - P17320 - INFO - Após processar URL 25 Uso de memória: 45.85 MB
+2025-05-22 01:19:51,079 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:19:51,079 - P17320 - INFO - Ranked address: 17 items
+2025-05-22 01:19:51,079 - P17320 - INFO - Ranked phone: 10 items
+2025-05-22 01:19:51,079 - P17320 - INFO - Ranked email: 13 items
+2025-05-22 01:19:51,080 - P17320 - INFO - Ranked complement: 2 items
+2025-05-22 01:19:51,080 - P17320 - INFO - Ranked cep: 35 items
+2025-05-22 01:19:51,080 - P17320 - INFO - Após agregação Uso de memória: 45.85 MB
+2025-05-22 01:19:51,080 - P17320 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Rua Carlos Galhardo, 282', 'R.LIMMA@GMAIL.COM Veja abaixo as empresas de Luiz Roberto De Lima (CPF/CNPJ : ***504728']
+2025-05-22 01:19:51,081 - P17320 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 01:19:51,081 - P17320 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 01:19:51,084 - P17320 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 01:19:51,085 - P17320 - INFO - Validando telefone: ['(11) 4349-9900', '(11) 5051-0977', '(08) 00774-1818']
+2025-05-22 01:19:51,085 - P17320 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 01:19:51,085 - P17320 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 01:19:51,086 - P17320 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 01:19:51,086 - P17320 - INFO - Validando email: ['SVCONTABILIDADE1@HOTMAIL.COM', 'LRR.LIMMA@GMAIL.COM', 'ESCRITORIOKN@GMAIL.COM']
+2025-05-22 01:19:51,086 - P17320 - INFO - Limpando texto extenso para campo email: SVCONTABILIDADE1@HOTMAIL.COM...
+2025-05-22 01:19:51,086 - P17320 - INFO - Texto limpo: svcontabilidade1@hotmail.com
+2025-05-22 01:19:51,086 - P17320 - INFO - Email validado: svcontabilidade1@hotmail.com
+2025-05-22 01:19:51,086 - P17320 - INFO - Validando complemento: ['Conjunto Vivi Xavier', 'Sala 21 Centro']
+2025-05-22 01:19:51,088 - P17320 - INFO - Limpando texto extenso para campo complement: Conjunto Vivi Xavier...
+2025-05-22 01:19:51,090 - P17320 - INFO - Texto limpo: Conjunto Vivi Xavier
+2025-05-22 01:19:51,090 - P17320 - INFO - Complemento validado: Conjunto Vivi Xavier
+2025-05-22 01:19:51,090 - P17320 - INFO - Descobrindo cidade
+2025-05-22 01:19:51,090 - P17320 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 01:19:53,886 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 01:19:53,886 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 01:19:53,886 - P17320 - INFO - Tempo de execução de processamento completo do médico: 65.41 segundos
+2025-05-22 01:19:53,887 - P17320 - INFO - Resultado processado: {'Hash': '40db264260467a1d417f86742ecf0b109cadc581a3dde80a62b5c48b885d7921', 'CRM': '25987', 'UF': 'SP', 'Firstname': 'LUIZ', 'LastName': 'ROBERTO DE LIMA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Conjunto Vivi Xavier', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'svcontabilidade1@hotmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:19:53,888 - P17320 - INFO - Progresso: 0.2%
+2025-05-22 01:19:53,888 - P17320 - INFO - Executando coleta de lixo
+2025-05-22 01:19:53,908 - P17320 - INFO - Após coleta de lixo Uso de memória: 42.97 MB
+2025-05-22 01:19:53,908 - P17320 - INFO - Tempo de execução de processamento do médico 1: 67.04 segundos
+2025-05-22 01:19:53,909 - P17320 - INFO - 
 ==================================================
-Processando médico 2/2
-2025-05-21 23:46:43,948 - P12188 - INFO - Nome: FRANCISCO DAVI FERNANDES BRILHANTE
-2025-05-21 23:46:43,948 - P12188 - INFO - Início do processamento Uso de memória: 46.87 MB
-2025-05-21 23:46:43,948 - P12188 - INFO - Iniciando busca para: FRANCISCO DAVI FERNANDES BRILHANTE CRM 25081 CE telefone e-mail endereço
-2025-05-21 23:46:44,390 - P12188 - INFO - SearX results: 14 URLs
-2025-05-21 23:46:44,390 - P12188 - INFO - Após SearX Uso de memória: 46.89 MB
-2025-05-21 23:46:46,956 - P12188 - INFO - Google results: 9 URLs
-2025-05-21 23:46:46,957 - P12188 - INFO - Após Google Uso de memória: 50.24 MB
-2025-05-21 23:46:49,262 - P12188 - INFO - Bing results: 10 URLs
-2025-05-21 23:46:49,262 - P12188 - INFO - Após Bing Uso de memória: 49.46 MB
-2025-05-21 23:46:49,262 - P12188 - INFO - Total de URLs únicas: 21
-2025-05-21 23:46:49,263 - P12188 - INFO - Processando URL 1/21: https://consultacrm.com.br/
-2025-05-21 23:46:52,993 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
-2025-05-21 23:46:53,008 - P12188 - INFO - Candidates address: 0 items
-2025-05-21 23:46:53,008 - P12188 - INFO - Candidates phone: 0 items
-2025-05-21 23:46:53,009 - P12188 - INFO - Candidates email: 0 items
-2025-05-21 23:46:53,009 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:53,009 - P12188 - INFO - Candidates cep: 0 items
-2025-05-21 23:46:53,009 - P12188 - INFO - Após processar URL 1 Uso de memória: 51.00 MB
-2025-05-21 23:46:53,009 - P12188 - INFO - Processando URL 2/21: https://www.solutudo.com.br/empresas/ce/fortaleza/clinica-medica-ou-medicina-interna/clinica-dr-davi-brilhante-ltda-25706299
-2025-05-21 23:46:58,914 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\916ff223f7e5808bc09207b4a930239b.html
-2025-05-21 23:46:58,949 - P12188 - INFO - Candidates address: 1 items
-2025-05-21 23:46:58,950 - P12188 - INFO - Candidates phone: 1 items
-2025-05-21 23:46:58,950 - P12188 - INFO - Candidates email: 1 items
-2025-05-21 23:46:58,950 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:58,950 - P12188 - INFO - Candidates cep: 1 items
-2025-05-21 23:46:58,950 - P12188 - INFO - Após processar URL 2 Uso de memória: 49.94 MB
-2025-05-21 23:46:58,951 - P12188 - INFO - Processando URL 3/21: https://unichristus.edu.br/wp-content/uploads/2021/10/E-book-Antologias-do-ELAM.pdf
-2025-05-21 23:46:58,951 - P12188 - INFO - Ignorando URL de arquivo não-HTML: https://unichristus.edu.br/wp-content/uploads/2021/10/E-book-Antologias-do-ELAM.pdf
-2025-05-21 23:46:58,951 - P12188 - INFO - Após processar URL 3 Uso de memória: 49.94 MB
-2025-05-21 23:46:58,951 - P12188 - INFO - Processando URL 4/21: https://www.econodata.com.br/consulta-empresa/50340044000139-CLINICA-DR-DAVI-BRILHANTE-LTDA
-2025-05-21 23:47:03,168 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\466500b48a5fba25a014b73583476e61.html
-2025-05-21 23:47:03,319 - P12188 - INFO - Candidates address: 18 items
-2025-05-21 23:47:03,319 - P12188 - INFO - Candidates phone: 0 items
-2025-05-21 23:47:03,321 - P12188 - INFO - Candidates email: 0 items
-2025-05-21 23:47:03,322 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:47:03,323 - P12188 - INFO - Candidates cep: 1 items
-2025-05-21 23:47:03,323 - P12188 - INFO - Após processar URL 4 Uso de memória: 51.84 MB
-2025-05-21 23:47:03,326 - P12188 - INFO - Processando URL 5/21: https://www.ioepa.com.br/pages/2023/2023.04.04.DOE.pdf
-2025-05-21 23:47:03,328 - P12188 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2023/2023.04.04.DOE.pdf
-2025-05-21 23:47:03,329 - P12188 - INFO - Após processar URL 5 Uso de memória: 51.02 MB
-2025-05-21 23:47:03,329 - P12188 - INFO - Processando URL 6/21: https://cnpj.services/50340044000139/clinica-dr-davi-brilhante-ltda
-2025-05-21 23:47:07,324 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\0318d4d88c6713a55ba0446d423af57a.html
-2025-05-21 23:47:07,344 - P12188 - INFO - Candidates address: 0 items
-2025-05-21 23:47:07,348 - P12188 - INFO - Candidates phone: 1 items
-2025-05-21 23:47:07,348 - P12188 - INFO - Candidates email: 1 items
-2025-05-21 23:47:07,349 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:47:07,350 - P12188 - INFO - Candidates cep: 2 items
-2025-05-21 23:47:07,350 - P12188 - INFO - Após processar URL 6 Uso de memória: 52.04 MB
-2025-05-21 23:47:07,350 - P12188 - INFO - Processando URL 7/21: https://www.informecadastral.com.br/cnpj/clinica-dr-davi-brilhante-ltda-50340044000139
-2025-05-21 23:47:12,092 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\2fcbf8c7fd2628691b55b99e37507523.html
-2025-05-21 23:47:12,117 - P12188 - INFO - Candidates address: 1 items
-2025-05-21 23:47:12,117 - P12188 - INFO - Candidates phone: 2 items
-2025-05-21 23:47:12,117 - P12188 - INFO - Candidates email: 1 items
-2025-05-21 23:47:12,118 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:47:12,118 - P12188 - INFO - Candidates cep: 3 items
-2025-05-21 23:47:12,118 - P12188 - INFO - Após processar URL 7 Uso de memória: 53.12 MB
-2025-05-21 23:47:12,118 - P12188 - INFO - Processando URL 8/21: https://inteligen.com.br/empresa/clinica-dr-davi-brilhante-ltda-50340044000139
-2025-05-21 23:47:15,835 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\4a91a79899ff66b1d4861a4ef239ade2.html
-2025-05-21 23:47:15,850 - P12188 - INFO - Candidates address: 0 items
-2025-05-21 23:47:15,850 - P12188 - INFO - Candidates phone: 1 items
-2025-05-21 23:47:15,850 - P12188 - INFO - Candidates email: 1 items
-2025-05-21 23:47:15,850 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:47:15,850 - P12188 - INFO - Candidates cep: 3 items
-2025-05-21 23:47:15,851 - P12188 - INFO - Após processar URL 8 Uso de memória: 53.75 MB
-2025-05-21 23:47:15,851 - P12188 - INFO - Processando URL 9/21: https://www.consultascnpj.com/clinica-dr-davi-brilhante-ltda/50340044000139
-2025-05-21 23:47:18,908 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\95058483c69f3b777479744a47a99c99.html
-2025-05-21 23:47:18,922 - P12188 - INFO - Candidates address: 0 items
-2025-05-21 23:47:18,922 - P12188 - INFO - Candidates phone: 1 items
-2025-05-21 23:47:18,923 - P12188 - INFO - Candidates email: 1 items
-2025-05-21 23:47:18,923 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:47:18,923 - P12188 - INFO - Candidates cep: 2 items
-2025-05-21 23:47:18,924 - P12188 - INFO - Após processar URL 9 Uso de memória: 54.16 MB
-2025-05-21 23:47:18,924 - P12188 - INFO - Processando URL 10/21: https://cadastroempresa.com.br/fornecedor/clinica-dr-davi-brilhante-ltda-50340044000139
-2025-05-21 23:47:21,465 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\c62bdeefdd6ea12f60de6bdffb21b82b.html
-2025-05-21 23:47:21,467 - P12188 - INFO - Candidates address: 0 items
-2025-05-21 23:47:21,468 - P12188 - INFO - Candidates phone: 0 items
-2025-05-21 23:47:21,468 - P12188 - INFO - Candidates email: 0 items
-2025-05-21 23:47:21,468 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:47:21,469 - P12188 - INFO - Candidates cep: 0 items
-2025-05-21 23:47:21,469 - P12188 - INFO - Após processar URL 10 Uso de memória: 54.21 MB
-2025-05-21 23:47:21,469 - P12188 - INFO - Processando URL 11/21: https://www.pm.pa.gov.br/phocadownload/userupload/userupload/sales.44248/BG%20N.%20234%20de%2017%20DEZ%202024.pdf
-2025-05-21 23:47:21,469 - P12188 - INFO - Ignorando URL de arquivo não-HTML: https://www.pm.pa.gov.br/phocadownload/userupload/userupload/sales.44248/BG%20N.%20234%20de%2017%20DEZ%202024.pdf
-2025-05-21 23:47:21,470 - P12188 - INFO - Após processar URL 11 Uso de memória: 54.22 MB
-2025-05-21 23:47:21,470 - P12188 - INFO - Processando URL 12/21: https://cnpj.biz/50340044000139
-2025-05-21 23:47:23,718 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\111aeb0fcf396e358e752ca5132650a1.html
-2025-05-21 23:47:23,720 - P12188 - INFO - Candidates address: 0 items
-2025-05-21 23:47:23,721 - P12188 - INFO - Candidates phone: 0 items
-2025-05-21 23:47:23,721 - P12188 - INFO - Candidates email: 0 items
-2025-05-21 23:47:23,721 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:47:23,722 - P12188 - INFO - Candidates cep: 0 items
-2025-05-21 23:47:23,722 - P12188 - INFO - Após processar URL 12 Uso de memória: 54.29 MB
-2025-05-21 23:47:23,722 - P12188 - INFO - Processando URL 13/21: https://cremec.org.br/busca-medicos
-2025-05-21 23:47:27,808 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\3c9ece8b802bc598dd007727d971a7d5.html
-2025-05-21 23:47:27,847 - P12188 - INFO - Candidates address: 1 items
-2025-05-21 23:47:27,847 - P12188 - INFO - Candidates phone: 1 items
-2025-05-21 23:47:27,847 - P12188 - INFO - Candidates email: 1 items
-2025-05-21 23:47:27,847 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:47:27,848 - P12188 - INFO - Candidates cep: 1 items
-2025-05-21 23:47:27,848 - P12188 - INFO - Após processar URL 13 Uso de memória: 54.04 MB
-2025-05-21 23:47:27,848 - P12188 - INFO - Processando URL 14/21: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
-2025-05-21 23:47:27,848 - P12188 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
-2025-05-21 23:47:27,849 - P12188 - INFO - Após processar URL 14 Uso de memória: 52.84 MB
-2025-05-21 23:47:27,849 - P12188 - INFO - Processando URL 15/21: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo545.pdf
-2025-05-21 23:47:27,849 - P12188 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo545.pdf
-2025-05-21 23:47:27,850 - P12188 - INFO - Após processar URL 15 Uso de memória: 52.84 MB
-2025-05-21 23:47:27,850 - P12188 - INFO - Processando URL 16/21: https://www.econodata.com.br/contato/francisco-davi-fernandes-brilhante-b2412469cfe08efa37040cad43424fc9
-2025-05-21 23:47:30,397 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\bd460eb085fc59f2631c53a81a52c25c.html
-2025-05-21 23:47:30,464 - P12188 - INFO - Candidates address: 0 items
-2025-05-21 23:47:30,464 - P12188 - INFO - Candidates phone: 0 items
-2025-05-21 23:47:30,464 - P12188 - INFO - Candidates email: 0 items
-2025-05-21 23:47:30,464 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:47:30,465 - P12188 - INFO - Candidates cep: 0 items
-2025-05-21 23:47:30,465 - P12188 - INFO - Após processar URL 16 Uso de memória: 54.53 MB
-2025-05-21 23:47:30,465 - P12188 - INFO - Processando URL 17/21: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-09-04-2025.pdf?p=1744207200086
-2025-05-21 23:47:30,466 - P12188 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-09-04-2025.pdf?p=1744207200086
-2025-05-21 23:47:30,466 - P12188 - INFO - Após processar URL 17 Uso de memória: 54.53 MB
-2025-05-21 23:47:30,466 - P12188 - INFO - Processando URL 18/21: https://hemeroteca-pdf.bn.gov.br/093718/per093718_1942_05953.pdf
-2025-05-21 23:47:30,466 - P12188 - INFO - Ignorando URL de arquivo não-HTML: https://hemeroteca-pdf.bn.gov.br/093718/per093718_1942_05953.pdf
-2025-05-21 23:47:30,466 - P12188 - INFO - Após processar URL 18 Uso de memória: 54.53 MB
-2025-05-21 23:47:30,467 - P12188 - INFO - Processando URL 19/21: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-09-04-2025.pdf?p=1744156800097
-2025-05-21 23:47:30,467 - P12188 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-09-04-2025.pdf?p=1744156800097
-2025-05-21 23:47:30,468 - P12188 - INFO - Após processar URL 19 Uso de memória: 54.53 MB
-2025-05-21 23:47:30,469 - P12188 - INFO - Processando URL 20/21: https://empresasweb.net/emp/clinica-dr-davi-brilhante-ltda-50340044
-2025-05-21 23:47:33,589 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\016aca69fcb12df3117ac24f67786c6f.html
-2025-05-21 23:47:33,603 - P12188 - INFO - Candidates address: 1 items
-2025-05-21 23:47:33,603 - P12188 - INFO - Candidates phone: 1 items
-2025-05-21 23:47:33,603 - P12188 - INFO - Candidates email: 1 items
-2025-05-21 23:47:33,604 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:47:33,604 - P12188 - INFO - Candidates cep: 1 items
-2025-05-21 23:47:33,604 - P12188 - INFO - Após processar URL 20 Uso de memória: 54.88 MB
-2025-05-21 23:47:33,604 - P12188 - INFO - Processando URL 21/21: https://doe.to.gov.br/diario/4617/download
-2025-05-21 23:47:35,947 - P12188 - INFO - HTML salvo para debug: data\debug_html_v10\e95ef000d2a20d207dd33de786c1fe05.html
-2025-05-21 23:47:35,948 - P12188 - INFO - Candidates address: 0 items
-2025-05-21 23:47:35,948 - P12188 - INFO - Candidates phone: 0 items
-2025-05-21 23:47:35,948 - P12188 - INFO - Candidates email: 0 items
-2025-05-21 23:47:35,948 - P12188 - INFO - Candidates complement: 0 items
-2025-05-21 23:47:35,949 - P12188 - INFO - Candidates cep: 0 items
-2025-05-21 23:47:35,949 - P12188 - INFO - Após processar URL 21 Uso de memória: 54.89 MB
-2025-05-21 23:47:35,949 - P12188 - INFO - Iniciando agregação e ranqueamento
-2025-05-21 23:47:35,949 - P12188 - INFO - Ranked address: 20 items
-2025-05-21 23:47:35,950 - P12188 - INFO - Ranked phone: 5 items
-2025-05-21 23:47:35,950 - P12188 - INFO - Ranked email: 5 items
-2025-05-21 23:47:35,950 - P12188 - INFO - Ranked complement: 0 items
-2025-05-21 23:47:35,950 - P12188 - INFO - Ranked cep: 6 items
-2025-05-21 23:47:35,950 - P12188 - INFO - Após agregação Uso de memória: 54.89 MB
-2025-05-21 23:47:35,950 - P12188 - INFO - Validando endereço: ['Rua Tomas Acioli, 721', 'Rua Pedro Borges, 33', 'R. DAVI LTDA 75.610-000 Avenida Dao Barbosa, 2067']
-2025-05-21 23:47:35,951 - P12188 - INFO - Endereço validado: Rua Tomas Acioli, 721
-2025-05-21 23:47:35,951 - P12188 - INFO - Limpando texto extenso para campo address: Rua Tomas Acioli, 721...
-2025-05-21 23:47:35,951 - P12188 - INFO - Texto limpo: Rua Tomas Acioli, 721
-2025-05-21 23:47:35,951 - P12188 - INFO - Validando telefone: ['(85) 9713-0570', '(32) 99195-6532', '(85) 99916-8675']
-2025-05-21 23:47:35,951 - P12188 - INFO - Limpando texto extenso para campo phone: (85) 9713-0570...
-2025-05-21 23:47:35,952 - P12188 - INFO - Texto limpo: 85) 9713-0570
-2025-05-21 23:47:35,953 - P12188 - INFO - Telefone validado: 85) 9713-0570
-2025-05-21 23:47:35,953 - P12188 - INFO - Validando email: ['davibrilhante02@gmail.com', '2@gmail.com', 'darlla_jennifer@hotmail.com']
-2025-05-21 23:47:35,953 - P12188 - INFO - Limpando texto extenso para campo email: davibrilhante02@gmail.com...
-2025-05-21 23:47:35,954 - P12188 - INFO - Texto limpo: davibrilhante02@gmail.com
-2025-05-21 23:47:35,954 - P12188 - INFO - Email validado: davibrilhante02@gmail.com
-2025-05-21 23:47:35,954 - P12188 - INFO - Descobrindo cidade
-2025-05-21 23:47:35,955 - P12188 - INFO - Buscando cidade: Rua Tomas Acioli cidade CE
-2025-05-21 23:47:38,196 - P12188 - INFO - Cidade encontrada: Fortaleza
-2025-05-21 23:47:38,196 - P12188 - INFO - Limpando texto extenso para campo city: Fortaleza...
-2025-05-21 23:47:38,197 - P12188 - INFO - Texto limpo: Fortaleza
-2025-05-21 23:47:38,197 - P12188 - INFO - Cidade descoberta: Fortaleza
-2025-05-21 23:47:38,197 - P12188 - INFO - Buscando CEP com sistema de cascata
-2025-05-21 23:47:38,197 - P12188 - INFO - Iniciando busca de CEP em cascata para: Rua Tomas Acioli, Fortaleza, CE
-2025-05-21 23:47:38,197 - P12188 - INFO - Método 1: ViaCEP API
-2025-05-21 23:47:38,197 - P12188 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/CE/fortaleza/rua%20tomas%20acioli/json/
-2025-05-21 23:47:39,083 - P12188 - INFO - Dados encontrados no ViaCEP: {'cep': '60135-206', 'logradouro': 'Rua Tomás Acioli', 'complemento': 'de 890/891 ao fim', 'unidade': '', 'bairro': 'Dionisio Torres', 'localidade': 'Fortaleza', 'uf': 'CE', 'estado': 'Ceará', 'regiao': 'Nordeste', 'ibge': '2304400', 'gia': '', 'ddd': '85', 'siafi': '1389'}
-2025-05-21 23:47:39,085 - P12188 - INFO - CEP encontrado via ViaCEP: 60135-206
-2025-05-21 23:47:39,085 - P12188 - INFO - Dados de CEP encontrados: {'cep': '60135-206', 'logradouro': 'Rua Tomás Acioli', 'complemento': 'de 890/891 ao fim', 'unidade': '', 'bairro': 'Dionisio Torres', 'localidade': 'Fortaleza', 'uf': 'CE', 'estado': 'Ceará', 'regiao': 'Nordeste', 'ibge': '2304400', 'gia': '', 'ddd': '85', 'siafi': '1389'}
-2025-05-21 23:47:39,086 - P12188 - INFO - Limpando texto extenso para campo bairro: Dionisio Torres...
-2025-05-21 23:47:39,086 - P12188 - INFO - Texto limpo: Dionisio Torres
-2025-05-21 23:47:39,086 - P12188 - INFO - Limpando texto extenso para campo complement: de 890/891 ao fim...
-2025-05-21 23:47:39,086 - P12188 - INFO - Texto limpo: de 890/891 ao fim
-2025-05-21 23:47:39,087 - P12188 - INFO - Limpando texto extenso para campo city: Fortaleza...
-2025-05-21 23:47:39,087 - P12188 - INFO - Texto limpo: Fortaleza
-2025-05-21 23:47:39,087 - P12188 - INFO - Limpando texto extenso para campo state: CE...
-2025-05-21 23:47:39,087 - P12188 - INFO - Texto limpo: CE
-2025-05-21 23:47:39,087 - P12188 - INFO - Tempo de execução de processamento completo do médico: 55.14 segundos
-2025-05-21 23:47:39,088 - P12188 - INFO - Resultado processado: {'CRM': '25081', 'UF': 'CE', 'Firstname': 'FRANCISCO', 'LastName': 'DAVI FERNANDES BRILHANTE', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Tomas Acioli, 721', 'Address A1': 'Rua Tomas Acioli', 'Numero A1': '721', 'Complement A1': 'de 890/891 ao fim', 'Bairro A1': 'Dionisio Torres', 'postal code A1': '60135-206', 'City A1': 'Fortaleza', 'State A1': 'CE', 'Phone A1': '85) 9713-0570', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'davibrilhante02@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
-2025-05-21 23:47:39,089 - P12188 - INFO - Progresso: 60.0%
-2025-05-21 23:47:39,089 - P12188 - INFO - Tempo de execução de processamento do médico 2: 55.14 segundos
-2025-05-21 23:47:39,089 - P12188 - INFO - Salvando resultados finais do lote
-2025-05-21 23:47:39,090 - P12188 - INFO - Tempo de execução de processamento do lote completo: 112.02 segundos
+Processando médico 2/3
+2025-05-22 01:19:53,910 - P17320 - INFO - Nome: IZABEL CRISTINA BORGES DE SOUZA
+2025-05-22 01:19:53,910 - P17320 - INFO - Início do processamento Uso de memória: 42.97 MB
+2025-05-22 01:19:53,911 - P17320 - INFO - Iniciando busca para: IZABEL CRISTINA BORGES DE SOUZA CRM 34264 SP telefone e-mail endereço
+2025-05-22 01:19:54,312 - P17320 - INFO - SearX results: 15 URLs
+2025-05-22 01:19:54,312 - P17320 - INFO - Após SearX Uso de memória: 42.99 MB
+2025-05-22 01:19:57,269 - P17320 - INFO - Google results: 11 URLs
+2025-05-22 01:19:57,270 - P17320 - INFO - Após Google Uso de memória: 45.09 MB
+2025-05-22 01:19:59,772 - P17320 - INFO - Bing results: 10 URLs
+2025-05-22 01:19:59,772 - P17320 - INFO - Após Bing Uso de memória: 46.03 MB
+2025-05-22 01:19:59,772 - P17320 - INFO - Total de URLs únicas: 24
+2025-05-22 01:19:59,773 - P17320 - INFO - Processando URL 1/24: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/6/1/2/612137caeda6d8452d27f76b9cd0dfb4206e82a0fa785830ea37fb5502959d7e/e8598891-b185-4681-8077-ed098ce52aa4-26005-DOE_18029_19_12_2006_40F.pdf
+2025-05-22 01:19:59,773 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/6/1/2/612137caeda6d8452d27f76b9cd0dfb4206e82a0fa785830ea37fb5502959d7e/e8598891-b185-4681-8077-ed098ce52aa4-26005-DOE_18029_19_12_2006_40F.pdf
+2025-05-22 01:19:59,773 - P17320 - INFO - Após processar URL 1 Uso de memória: 46.03 MB
+2025-05-22 01:19:59,773 - P17320 - INFO - Processando URL 2/24: https://www.boaconsulta.com/especialista/izabel-cristina-borges-de-souza-6106ecfba2e00a713f0025d6
+2025-05-22 01:20:03,048 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\57f9dd66c1718555e514c59df7d62002.html
+2025-05-22 01:20:03,122 - P17320 - INFO - Candidates address: 13 items
+2025-05-22 01:20:03,142 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:20:03,143 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:20:03,143 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:03,144 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:20:03,147 - P17320 - INFO - Após processar URL 2 Uso de memória: 47.23 MB
+2025-05-22 01:20:03,148 - P17320 - INFO - Processando URL 3/24: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2016/04/4154-15-04-2016.pdf
+2025-05-22 01:20:03,148 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2016/04/4154-15-04-2016.pdf
+2025-05-22 01:20:03,149 - P17320 - INFO - Após processar URL 3 Uso de memória: 45.98 MB
+2025-05-22 01:20:03,151 - P17320 - INFO - Processando URL 4/24: https://iomat.mt.gov.br/portal/edicoes/download/3427
+2025-05-22 01:20:05,477 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d4fca238c90e7af913c838d9a6476cea.html
+2025-05-22 01:20:05,544 - P17320 - INFO - Candidates address: 13 items
+2025-05-22 01:20:05,544 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:20:05,544 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:20:05,544 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:05,544 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:20:05,544 - P17320 - INFO - Após processar URL 4 Uso de memória: 47.29 MB
+2025-05-22 01:20:05,545 - P17320 - INFO - Processando URL 5/24: https://www.medicosbrasil.com/profissional/izabel-cristina-borges-de-souza
+2025-05-22 01:20:08,753 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ce9c145b3471007edcb91f32bbf316a9.html
+2025-05-22 01:20:08,775 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:20:08,775 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:20:08,775 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:20:08,775 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:08,776 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:20:08,776 - P17320 - INFO - Após processar URL 5 Uso de memória: 47.59 MB
+2025-05-22 01:20:08,776 - P17320 - INFO - Processando URL 6/24: https://guiamedico.cremesp.org.br/
+2025-05-22 01:20:11,469 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 01:20:11,476 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:20:11,476 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 01:20:11,477 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:20:11,477 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:11,477 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:20:11,478 - P17320 - INFO - Após processar URL 6 Uso de memória: 46.70 MB
+2025-05-22 01:20:11,478 - P17320 - INFO - Processando URL 7/24: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1751988009.pdf
+2025-05-22 01:20:11,479 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1751988009.pdf
+2025-05-22 01:20:11,480 - P17320 - INFO - Após processar URL 7 Uso de memória: 46.70 MB
+2025-05-22 01:20:11,480 - P17320 - INFO - Processando URL 8/24: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/491294505601450564912916.pdf
+2025-05-22 01:20:11,481 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/491294505601450564912916.pdf
+2025-05-22 01:20:11,481 - P17320 - INFO - Após processar URL 8 Uso de memória: 46.70 MB
+2025-05-22 01:20:11,481 - P17320 - INFO - Processando URL 9/24: https://portal.cfm.org.br/busca-medicos
+2025-05-22 01:20:15,410 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 01:20:15,457 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:20:15,457 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:20:15,457 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 01:20:15,457 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 01:20:15,458 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:20:15,458 - P17320 - INFO - Após processar URL 9 Uso de memória: 47.56 MB
+2025-05-22 01:20:15,458 - P17320 - INFO - Processando URL 10/24: https://www.planodesaudesp.net/perfil/izabel_cristina_borges_de_souza--2611179
+2025-05-22 01:20:20,944 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\bb9dfbc08c9d37372251ae10489eaf12.html
+2025-05-22 01:20:20,961 - P17320 - INFO - Candidates address: 8 items
+2025-05-22 01:20:20,961 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 01:20:20,961 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:20:20,962 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 01:20:20,962 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:20:20,962 - P17320 - INFO - Após processar URL 10 Uso de memória: 47.27 MB
+2025-05-22 01:20:20,962 - P17320 - INFO - Processando URL 11/24: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo608.pdf
+2025-05-22 01:20:20,962 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo608.pdf
+2025-05-22 01:20:20,962 - P17320 - INFO - Após processar URL 11 Uso de memória: 47.27 MB
+2025-05-22 01:20:20,963 - P17320 - INFO - Processando URL 12/24: https://cnpj.biz/08469941000180
+2025-05-22 01:20:23,095 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\0bd9fc77be7bcbd8301827a5f268eed8.html
+2025-05-22 01:20:23,097 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:20:23,098 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:20:23,098 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:20:23,098 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:23,098 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:20:23,098 - P17320 - INFO - Após processar URL 12 Uso de memória: 47.47 MB
+2025-05-22 01:20:23,099 - P17320 - INFO - Processando URL 13/24: https://www.sociosbrasil.com/nome/izabel-cristina-borges-de-souza
+2025-05-22 01:20:29,205 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\67d635097458ff2576b25a04ae40d3ad.html
+2025-05-22 01:20:29,211 - P17320 - INFO - Candidates address: 3 items
+2025-05-22 01:20:29,211 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:20:29,211 - P17320 - INFO - Candidates email: 3 items
+2025-05-22 01:20:29,212 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 01:20:29,212 - P17320 - INFO - Candidates cep: 7 items
+2025-05-22 01:20:29,212 - P17320 - INFO - Após processar URL 13 Uso de memória: 47.89 MB
+2025-05-22 01:20:29,212 - P17320 - INFO - Processando URL 14/24: https://www.doctoralia.com.br/izabella-agnes-borges-de-souza/psiquiatra/rio-de-janeiro
+2025-05-22 01:20:29,213 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/izabella-agnes-borges-de-souza/psiquiatra/rio-de-janeiro
+2025-05-22 01:20:29,213 - P17320 - INFO - Após processar URL 14 Uso de memória: 47.89 MB
+2025-05-22 01:20:29,213 - P17320 - INFO - Processando URL 15/24: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-16-12-2024.pdf
+2025-05-22 01:20:29,213 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-16-12-2024.pdf
+2025-05-22 01:20:29,214 - P17320 - INFO - Após processar URL 15 Uso de memória: 47.89 MB
+2025-05-22 01:20:29,214 - P17320 - INFO - Processando URL 16/24: https://guiasaudebrasil.com.br/profissional/7fdfb329f54d9ab1-izabel-cristina-borges-de-souza-dos-santos
+2025-05-22 01:20:34,903 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\051acd738ca05c3578ad9dec59c8f9f0.html
+2025-05-22 01:20:34,912 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:20:34,912 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:20:34,912 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:20:34,912 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:34,912 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:20:34,913 - P17320 - INFO - Após processar URL 16 Uso de memória: 48.55 MB
+2025-05-22 01:20:34,913 - P17320 - INFO - Processando URL 17/24: https://www.classemedica.com.br/medico/145762-izabel-cristina-borges-de-souza.htm
+2025-05-22 01:20:41,448 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\4bf21285502a06b22882117d2e66a118.html
+2025-05-22 01:20:41,483 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:20:41,483 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:20:41,483 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:20:41,483 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:41,484 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:20:41,484 - P17320 - INFO - Após processar URL 17 Uso de memória: 49.00 MB
+2025-05-22 01:20:41,484 - P17320 - INFO - Processando URL 18/24: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/2033044786.pdf
+2025-05-22 01:20:41,484 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/2033044786.pdf
+2025-05-22 01:20:41,484 - P17320 - INFO - Após processar URL 18 Uso de memória: 47.23 MB
+2025-05-22 01:20:41,485 - P17320 - INFO - Processando URL 19/24: https://guiasaudebrasil.com.br/profissional/2bc1f75fce2b1bbd-izabel-cristina-borges-de-souza/
+2025-05-22 01:20:47,140 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ab4ab8d3c73ee532084c76d2677e98de.html
+2025-05-22 01:20:47,149 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:20:47,150 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:20:47,150 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:20:47,150 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:47,150 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:20:47,150 - P17320 - INFO - Após processar URL 19 Uso de memória: 49.27 MB
+2025-05-22 01:20:47,151 - P17320 - INFO - Processando URL 20/24: https://cliniguia.com/profissionais/izabel-cristina-borges-de-souza-180040604180009/
+2025-05-22 01:20:53,151 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d751b0e18a41f4ae68a545ace62afcf6.html
+2025-05-22 01:20:53,208 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:20:53,268 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:20:53,273 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:20:53,279 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:53,282 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:20:53,289 - P17320 - INFO - Após processar URL 20 Uso de memória: 48.63 MB
+2025-05-22 01:20:53,290 - P17320 - INFO - Processando URL 21/24: https://www.consultacrm.com.br/index/medicos/uid-95876c4e-f5c5-11ec-9e74-0a4aa568c625/izabel_cristina_borges_de_souza
+2025-05-22 01:20:58,041 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\2aff1c4d75c7a6425b6ad4e7e23b3625.html
+2025-05-22 01:20:58,053 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:20:58,054 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:20:58,054 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:20:58,054 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:58,055 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:20:58,055 - P17320 - INFO - Após processar URL 21 Uso de memória: 48.79 MB
+2025-05-22 01:20:58,055 - P17320 - INFO - Processando URL 22/24: https://consultacrm.com.br/
+2025-05-22 01:21:01,382 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:21:01,403 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:21:01,404 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:21:01,404 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:21:01,405 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:21:01,405 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:21:01,406 - P17320 - INFO - Após processar URL 22 Uso de memória: 48.10 MB
+2025-05-22 01:21:01,406 - P17320 - INFO - Processando URL 23/24: https://www.doctoralia.com.br/izabel-cristina-borges-de-souza/generalista/sao-paulo
+2025-05-22 01:21:01,406 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/izabel-cristina-borges-de-souza/generalista/sao-paulo
+2025-05-22 01:21:01,407 - P17320 - INFO - Após processar URL 23 Uso de memória: 48.10 MB
+2025-05-22 01:21:01,407 - P17320 - INFO - Processando URL 24/24: https://servicos.sjc.sp.gov.br/governo/boletim/boletimPDF/2017063018513417932dc1-4785-4259-bb29-418d8ae4b327.pdf
+2025-05-22 01:21:01,408 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://servicos.sjc.sp.gov.br/governo/boletim/boletimPDF/2017063018513417932dc1-4785-4259-bb29-418d8ae4b327.pdf
+2025-05-22 01:21:01,409 - P17320 - INFO - Após processar URL 24 Uso de memória: 48.10 MB
+2025-05-22 01:21:01,409 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:21:01,409 - P17320 - INFO - Ranked address: 24 items
+2025-05-22 01:21:01,409 - P17320 - INFO - Ranked phone: 3 items
+2025-05-22 01:21:01,410 - P17320 - INFO - Ranked email: 4 items
+2025-05-22 01:21:01,410 - P17320 - INFO - Ranked complement: 3 items
+2025-05-22 01:21:01,410 - P17320 - INFO - Ranked cep: 11 items
+2025-05-22 01:21:01,411 - P17320 - INFO - Após agregação Uso de memória: 48.10 MB
+2025-05-22 01:21:01,411 - P17320 - INFO - Validando endereço: ['Rua Conselheiro Saraiva, 306', 'Rua Augusto Tolle, 901', 'Rua Borges Lagoa, 564']
+2025-05-22 01:21:01,411 - P17320 - INFO - Endereço validado: Rua Conselheiro Saraiva, 306
+2025-05-22 01:21:01,411 - P17320 - INFO - Limpando texto extenso para campo address: Rua Conselheiro Saraiva, 306...
+2025-05-22 01:21:01,412 - P17320 - INFO - Texto limpo: Rua Conselheiro Saraiva, 306
+2025-05-22 01:21:01,412 - P17320 - INFO - Validando telefone: ['(11) 4349-9900', '(11) 2957-6630', '(11) 2204-8387']
+2025-05-22 01:21:01,412 - P17320 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 01:21:01,412 - P17320 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 01:21:01,414 - P17320 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 01:21:01,414 - P17320 - INFO - Validando email: ['cfm@portalmedico.org.br', 'CONTATO@VNGOURMET.COM.BR', 'CLINICAMEDICABORGES@HOTMAIL.COM']
+2025-05-22 01:21:01,415 - P17320 - INFO - Limpando texto extenso para campo email: cfm@portalmedico.org.br...
+2025-05-22 01:21:01,415 - P17320 - INFO - Texto limpo: cfm@portalmedico.org.br
+2025-05-22 01:21:01,415 - P17320 - INFO - Email validado: cfm@portalmedico.org.br
+2025-05-22 01:21:01,415 - P17320 - INFO - Validando complemento: ['Conjunto D', 'Sala 14 ', 'Apt   42                  Edif  Vista Da Serra Agua F']
+2025-05-22 01:21:01,415 - P17320 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 01:21:01,416 - P17320 - INFO - Texto limpo: Conjunto D
+2025-05-22 01:21:01,416 - P17320 - INFO - Complemento validado: Conjunto D
+2025-05-22 01:21:01,416 - P17320 - INFO - Descobrindo cidade
+2025-05-22 01:21:01,416 - P17320 - INFO - Buscando cidade: Rua Conselheiro Saraiva cidade SP
+2025-05-22 01:21:03,665 - P17320 - INFO - Cidade encontrada: São Paulo
+2025-05-22 01:21:03,665 - P17320 - INFO - Limpando texto extenso para campo city: São Paulo...
+2025-05-22 01:21:03,666 - P17320 - INFO - Texto limpo: São Paulo
+2025-05-22 01:21:03,666 - P17320 - INFO - Cidade descoberta: São Paulo
+2025-05-22 01:21:03,666 - P17320 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 01:21:03,666 - P17320 - INFO - Iniciando busca de CEP em cascata para: Rua Conselheiro Saraiva, São Paulo, SP
+2025-05-22 01:21:03,666 - P17320 - INFO - Método 1: ViaCEP API
+2025-05-22 01:21:03,667 - P17320 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SP/sao%20paulo/rua%20conselheiro%20saraiva/json/
+2025-05-22 01:21:04,373 - P17320 - INFO - Dados encontrados no ViaCEP: {'cep': '02037-020', 'logradouro': 'Rua Conselheiro Saraiva', 'complemento': 'até 439/440', 'unidade': '', 'bairro': 'Santana', 'localidade': 'São Paulo', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3550308', 'gia': '1004', 'ddd': '11', 'siafi': '7107'}
+2025-05-22 01:21:04,376 - P17320 - INFO - CEP encontrado via ViaCEP: 02037-020
+2025-05-22 01:21:04,379 - P17320 - INFO - Dados de CEP encontrados: {'cep': '02037-020', 'logradouro': 'Rua Conselheiro Saraiva', 'complemento': 'até 439/440', 'unidade': '', 'bairro': 'Santana', 'localidade': 'São Paulo', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3550308', 'gia': '1004', 'ddd': '11', 'siafi': '7107'}
+2025-05-22 01:21:04,380 - P17320 - INFO - Limpando texto extenso para campo bairro: Santana...
+2025-05-22 01:21:04,381 - P17320 - INFO - Texto limpo: Santana
+2025-05-22 01:21:04,382 - P17320 - INFO - Limpando texto extenso para campo city: São Paulo...
+2025-05-22 01:21:04,382 - P17320 - INFO - Texto limpo: São Paulo
+2025-05-22 01:21:04,383 - P17320 - INFO - Limpando texto extenso para campo state: SP...
+2025-05-22 01:21:04,383 - P17320 - INFO - Texto limpo: SP
+2025-05-22 01:21:04,384 - P17320 - INFO - Tempo de execução de processamento completo do médico: 70.47 segundos
+2025-05-22 01:21:04,384 - P17320 - INFO - Resultado processado: {'Hash': 'f5f74b546cea9c682a75c184efd452d003d3a6ae8358b42aae2e807b3ab6474b', 'CRM': '34264', 'UF': 'SP', 'Firstname': 'IZABEL', 'LastName': 'CRISTINA BORGES DE SOUZA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Conselheiro Saraiva, 306', 'Address A1': 'Rua Conselheiro Saraiva', 'Numero A1': '306', 'Complement A1': 'Conjunto D', 'Bairro A1': 'Santana', 'postal code A1': '02037-020', 'City A1': 'São Paulo', 'State A1': 'SP', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cfm@portalmedico.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:21:04,386 - P17320 - INFO - Progresso: 0.8%
+2025-05-22 01:21:04,386 - P17320 - INFO - Tempo de execução de processamento do médico 2: 70.48 segundos
+2025-05-22 01:21:04,387 - P17320 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 01:21:04,387 - P17320 - INFO - Nome: FERNANDO CENDES
+2025-05-22 01:21:04,388 - P17320 - INFO - Início do processamento Uso de memória: 47.40 MB
+2025-05-22 01:21:04,388 - P17320 - INFO - Iniciando busca para: FERNANDO CENDES CRM 54896 SP telefone e-mail endereço
+2025-05-22 01:21:04,813 - P17320 - INFO - SearX results: 14 URLs
+2025-05-22 01:21:04,813 - P17320 - INFO - Após SearX Uso de memória: 47.40 MB
+2025-05-22 01:21:07,390 - P17320 - INFO - Google results: 9 URLs
+2025-05-22 01:21:07,390 - P17320 - INFO - Após Google Uso de memória: 49.97 MB
+2025-05-22 01:21:10,260 - P17320 - INFO - Bing results: 10 URLs
+2025-05-22 01:21:10,260 - P17320 - INFO - Após Bing Uso de memória: 48.88 MB
+2025-05-22 01:21:10,260 - P17320 - INFO - Total de URLs únicas: 20
+2025-05-22 01:21:10,260 - P17320 - INFO - Processando URL 1/20: https://www.boaconsulta.com/especialista/fernando-cendes-6106ce6ba2e00a632e001b1d
+2025-05-22 01:21:12,437 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\6f51c4b673d6184a2834c6c90672fe37.html
+2025-05-22 01:21:12,475 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:21:12,475 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:21:12,476 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:21:12,476 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:21:12,477 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:21:12,477 - P17320 - INFO - Após processar URL 1 Uso de memória: 49.71 MB
+2025-05-22 01:21:12,477 - P17320 - INFO - Processando URL 2/20: https://www.fcm.unicamp.br/departamentos/departamento-de-neurologia/administracao
+2025-05-22 01:21:15,158 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ef6fa4e3637ca7c4c37a34f046f58ad5.html
+2025-05-22 01:21:15,182 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:21:15,182 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 01:21:15,182 - P17320 - INFO - Candidates email: 3 items
+2025-05-22 01:21:15,182 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:21:15,182 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 01:21:15,183 - P17320 - INFO - Após processar URL 2 Uso de memória: 48.71 MB
+2025-05-22 01:21:15,183 - P17320 - INFO - Processando URL 3/20: https://abneuro.org.br/2024/04/11/congresso-brasileiro-de-neurologia-confira-os-palestrantes-que-ja-confirmaram-presenca/
+2025-05-22 01:21:21,711 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9812c136723514a877c9f01430a257bf.html
+2025-05-22 01:21:21,785 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:21:21,785 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 01:21:21,785 - P17320 - INFO - Candidates email: 3 items
+2025-05-22 01:21:21,785 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:21:21,785 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:21:21,786 - P17320 - INFO - Após processar URL 3 Uso de memória: 50.36 MB
+2025-05-22 01:21:21,786 - P17320 - INFO - Processando URL 4/20: https://www.doctoralia.com.br/fernando-cendes/neurologista/campinas
+2025-05-22 01:21:21,786 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/fernando-cendes/neurologista/campinas
+2025-05-22 01:21:21,786 - P17320 - INFO - Após processar URL 4 Uso de memória: 48.95 MB
+2025-05-22 01:21:21,786 - P17320 - INFO - Processando URL 5/20: https://abneuro.org.br/2024/04/14/congresso-brasileiro-de-neurologia-submeta-seu-caso-clinico/
+2025-05-22 01:21:26,052 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7df272d736f0e91ea70a521e03265b57.html
+2025-05-22 01:21:26,122 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:21:26,122 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 01:21:26,122 - P17320 - INFO - Candidates email: 3 items
+2025-05-22 01:21:26,123 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:21:26,123 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:21:26,123 - P17320 - INFO - Após processar URL 5 Uso de memória: 52.24 MB
+2025-05-22 01:21:26,123 - P17320 - INFO - Processando URL 6/20: https://repositorio.unicamp.br/Busca/Download?codigoArquivo=454120&tipoMidia=0
+2025-05-22 01:21:28,835 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\395a23d534891913827b4177e67c2bd0.html
+2025-05-22 01:21:28,915 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:21:28,915 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 01:21:28,916 - P17320 - INFO - Candidates email: 3 items
+2025-05-22 01:21:28,919 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:21:28,941 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:21:28,943 - P17320 - INFO - Após processar URL 6 Uso de memória: 51.47 MB
+2025-05-22 01:21:28,944 - P17320 - INFO - Processando URL 7/20: https://www.classemedica.com.br/medico/110300-fernando-cendes.htm
+2025-05-22 01:21:34,030 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d8bf19c844d091b983868597347d2519.html
+2025-05-22 01:21:34,059 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:21:34,059 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:21:34,060 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:21:34,060 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:21:34,060 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:21:34,060 - P17320 - INFO - Após processar URL 7 Uso de memória: 52.48 MB
+2025-05-22 01:21:34,060 - P17320 - INFO - Processando URL 8/20: https://www.consultacrm.com.br/index/medicos/uid-12b6df86-f5c5-11ec-9e74-0a4aa568c625/fernando_cendes
+2025-05-22 01:21:36,708 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ace35621eb5a2342d303823c56d19a8c.html
+2025-05-22 01:21:36,720 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:21:36,720 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:21:36,720 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:21:36,721 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:21:36,721 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:21:36,721 - P17320 - INFO - Após processar URL 8 Uso de memória: 53.04 MB
+2025-05-22 01:21:36,721 - P17320 - INFO - Processando URL 9/20: https://congressoabneuro.com.br/programacao/index_track_cronologico.php?dt_sel=2024-10-18
+2025-05-22 01:21:39,206 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\82ef8fbb0fdc385883325df35d10bc8e.html
+2025-05-22 01:21:39,206 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:21:39,206 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:21:39,207 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:21:39,207 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:21:39,207 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:21:39,207 - P17320 - INFO - Após processar URL 9 Uso de memória: 53.04 MB
+2025-05-22 01:21:39,207 - P17320 - INFO - Processando URL 10/20: https://www.arquivosdeneuropsiquiatria.org/editor/fernando-cendes/
+2025-05-22 01:21:50,567 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ba8dcb36e3479af3a8579025b92caa80.html
+2025-05-22 01:21:50,631 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:21:50,632 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:21:50,632 - P17320 - INFO - Candidates email: 2 items
+2025-05-22 01:21:50,632 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:21:50,632 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 01:21:50,632 - P17320 - INFO - Após processar URL 10 Uso de memória: 51.57 MB
+2025-05-22 01:21:50,633 - P17320 - INFO - Processando URL 11/20: https://www.intermedicos.com.br/neurologistas-em-campinas/fernando-cendes
+2025-05-22 01:21:54,260 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7356af9ffa24dc50be92ebddd8fb8ab9.html
+2025-05-22 01:21:54,275 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:21:54,275 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 01:21:54,275 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:21:54,275 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:21:54,275 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:21:54,275 - P17320 - INFO - Após processar URL 11 Uso de memória: 51.42 MB
+2025-05-22 01:21:54,276 - P17320 - INFO - Processando URL 12/20: https://www.doctoranytime.com.br/d/neurologista/fernando-cendes
+2025-05-22 01:21:54,276 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoranytime.com.br/d/neurologista/fernando-cendes
+2025-05-22 01:21:54,276 - P17320 - INFO - Após processar URL 12 Uso de memória: 51.42 MB
+2025-05-22 01:21:54,276 - P17320 - INFO - Processando URL 13/20: https://www.ilae.org/files/dmfile/Cendes-CV-2017.pdf
+2025-05-22 01:21:54,276 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.ilae.org/files/dmfile/Cendes-CV-2017.pdf
+2025-05-22 01:21:54,277 - P17320 - INFO - Após processar URL 13 Uso de memória: 51.42 MB
+2025-05-22 01:21:54,277 - P17320 - INFO - Processando URL 14/20: https://www.medicosbrasil.com/profissional/fernando-cendes
+2025-05-22 01:21:56,468 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\dfce50b001be23f2c1be4c879bada8a4.html
+2025-05-22 01:21:56,470 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:21:56,470 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:21:56,470 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:21:56,470 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:21:56,471 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:21:56,471 - P17320 - INFO - Após processar URL 14 Uso de memória: 51.64 MB
+2025-05-22 01:21:56,471 - P17320 - INFO - Processando URL 15/20: https://www.fcm.unicamp.br/policlinica/fernando-cendes
+2025-05-22 01:21:58,993 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\fc09520a41f8c9b861b988a87510e19b.html
+2025-05-22 01:21:58,999 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:21:59,000 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:21:59,000 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:21:59,001 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:21:59,001 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:21:59,001 - P17320 - INFO - Após processar URL 15 Uso de memória: 51.89 MB
+2025-05-22 01:21:59,001 - P17320 - INFO - Processando URL 16/20: https://www.repositorio.unicamp.br/Busca/Download?codigoArquivo=454120
+2025-05-22 01:22:01,290 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d5947626611d18fccd7c75ff1552be62.html
+2025-05-22 01:22:01,296 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:22:01,296 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:22:01,297 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:22:01,297 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:22:01,297 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:22:01,298 - P17320 - INFO - Após processar URL 16 Uso de memória: 52.07 MB
+2025-05-22 01:22:01,298 - P17320 - INFO - Processando URL 17/20: http://www.fcm.unicamp.br/departamentos/departamento-de-neurologia/docentes
+2025-05-22 01:22:03,571 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\95016e8f147cc1ac72222b220505b308.html
+2025-05-22 01:22:03,595 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 01:22:03,596 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 01:22:03,596 - P17320 - INFO - Candidates email: 3 items
+2025-05-22 01:22:03,596 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:22:03,596 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 01:22:03,596 - P17320 - INFO - Após processar URL 17 Uso de memória: 53.04 MB
+2025-05-22 01:22:03,596 - P17320 - INFO - Processando URL 18/20: https://consultacrm.com.br/
+2025-05-22 01:22:06,877 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:22:06,889 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:22:06,890 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:22:06,890 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:22:06,891 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:22:06,891 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:22:06,891 - P17320 - INFO - Após processar URL 18 Uso de memória: 54.69 MB
+2025-05-22 01:22:06,892 - P17320 - INFO - Processando URL 19/20: https://cliniguia.com/profissionais/fernando-cendes-207272536400008/
+2025-05-22 01:22:12,278 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ff03701a1a2cbc29d34b2176f671740f.html
+2025-05-22 01:22:12,317 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 01:22:12,317 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:22:12,317 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:22:12,317 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:22:12,317 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 01:22:12,318 - P17320 - INFO - Após processar URL 19 Uso de memória: 56.38 MB
+2025-05-22 01:22:12,318 - P17320 - INFO - Processando URL 20/20: https://bv.fapesp.br/pt/pesquisador/890/fernando-cendes/
+2025-05-22 01:22:17,698 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d5801574fa5abfdd031cc36072725f82.html
+2025-05-22 01:22:17,966 - P17320 - INFO - Candidates address: 5 items
+2025-05-22 01:22:17,967 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 01:22:17,968 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 01:22:17,968 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 01:22:17,968 - P17320 - INFO - Candidates cep: 6 items
+2025-05-22 01:22:17,969 - P17320 - INFO - Após processar URL 20 Uso de memória: 62.48 MB
+2025-05-22 01:22:17,969 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:22:17,969 - P17320 - INFO - Ranked address: 10 items
+2025-05-22 01:22:17,970 - P17320 - INFO - Ranked phone: 4 items
+2025-05-22 01:22:17,970 - P17320 - INFO - Ranked email: 8 items
+2025-05-22 01:22:17,970 - P17320 - INFO - Ranked complement: 0 items
+2025-05-22 01:22:17,971 - P17320 - INFO - Ranked cep: 9 items
+2025-05-22 01:22:17,971 - P17320 - INFO - Após agregação Uso de memória: 62.48 MB
+2025-05-22 01:22:17,971 - P17320 - INFO - Validando endereço: ['Rua Vergueiro, 1353', 'Rua Vital Brasil, 80', 'Rua Vital Brasil, 251']
+2025-05-22 01:22:17,972 - P17320 - INFO - Endereço validado: Rua Vergueiro, 1353
+2025-05-22 01:22:17,972 - P17320 - INFO - Limpando texto extenso para campo address: Rua Vergueiro, 1353...
+2025-05-22 01:22:17,972 - P17320 - INFO - Texto limpo: Rua Vergueiro, 1353
+2025-05-22 01:22:17,972 - P17320 - INFO - Validando telefone: ['(11) 5084-9463', '(11) 5083-3876', '(19) 3521-7754']
+2025-05-22 01:22:17,973 - P17320 - INFO - Limpando texto extenso para campo phone: (11) 5084-9463...
+2025-05-22 01:22:17,973 - P17320 - INFO - Texto limpo: 11) 5084-9463
+2025-05-22 01:22:17,973 - P17320 - INFO - Telefone validado: 11) 5084-9463
+2025-05-22 01:22:17,973 - P17320 - INFO - Validando email: ['contato@abneuro.org.br', 'dpo@abneuro.org.br', 'juridico@abneuro.org']
+2025-05-22 01:22:17,974 - P17320 - INFO - Limpando texto extenso para campo email: contato@abneuro.org.br...
+2025-05-22 01:22:17,974 - P17320 - INFO - Texto limpo: contato@abneuro.org.br
+2025-05-22 01:22:17,974 - P17320 - INFO - Email validado: contato@abneuro.org.br
+2025-05-22 01:22:17,974 - P17320 - INFO - Descobrindo cidade
+2025-05-22 01:22:17,974 - P17320 - INFO - Buscando cidade: Rua Vergueiro cidade SP
+2025-05-22 01:22:20,639 - P17320 - INFO - Cidade encontrada: Vergueiro
+2025-05-22 01:22:20,644 - P17320 - INFO - Limpando texto extenso para campo city: Vergueiro...
+2025-05-22 01:22:20,644 - P17320 - INFO - Texto limpo: Vergueiro
+2025-05-22 01:22:20,645 - P17320 - INFO - Cidade descoberta: Vergueiro
+2025-05-22 01:22:20,660 - P17320 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 01:22:20,660 - P17320 - INFO - Iniciando busca de CEP em cascata para: Rua Vergueiro, Vergueiro, SP
+2025-05-22 01:22:20,662 - P17320 - INFO - Método 1: ViaCEP API
+2025-05-22 01:22:20,663 - P17320 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SP/vergueiro/rua%20vergueiro/json/
+2025-05-22 01:22:21,327 - P17320 - WARNING - ViaCEP retornou status 200 ou nenhum resultado
+2025-05-22 01:22:21,328 - P17320 - INFO - Método 2: BrasilAPI
+2025-05-22 01:22:21,328 - P17320 - INFO - Buscando na BrasilAPI: Rua Vergueiro, Vergueiro, SP
+2025-05-22 01:22:21,817 - P17320 - INFO - Consultando BrasilAPI: https://brasilapi.com.br/api/cep/v2/35135084
+2025-05-22 01:22:32,083 - P17320 - ERROR - Erro ao buscar na BrasilAPI: HTTPSConnectionPool(host='brasilapi.com.br', port=443): Read timed out. (read timeout=10)
+2025-05-22 01:22:32,083 - P17320 - INFO - Método 3: Web Scraping do Google
+2025-05-22 01:22:32,083 - P17320 - INFO - Buscando CEP: CEP da Rua Vergueiro, Vergueiro
+2025-05-22 01:22:33,740 - P17320 - INFO - CEP encontrado: 01504-001
+2025-05-22 01:22:33,740 - P17320 - INFO - CEP encontrado via Google: 01504-001
+2025-05-22 01:22:33,740 - P17320 - INFO - Dados de CEP encontrados: {'cep': '01504-001', 'logradouro': 'Rua Vergueiro', 'bairro': '', 'localidade': 'Vergueiro', 'uf': 'SP', 'complemento': ''}
+2025-05-22 01:22:33,740 - P17320 - INFO - Limpando texto extenso para campo city: Vergueiro...
+2025-05-22 01:22:33,740 - P17320 - INFO - Texto limpo: Vergueiro
+2025-05-22 01:22:33,741 - P17320 - INFO - Limpando texto extenso para campo state: SP...
+2025-05-22 01:22:33,741 - P17320 - INFO - Texto limpo: SP
+2025-05-22 01:22:33,741 - P17320 - INFO - Tempo de execução de processamento completo do médico: 89.35 segundos
+2025-05-22 01:22:33,741 - P17320 - INFO - Resultado processado: {'Hash': 'f36950bbd3522b3010ad37d49654b080ce50c767e8c387f50681ead30c609192', 'CRM': '54896', 'UF': 'SP', 'Firstname': 'FERNANDO', 'LastName': 'CENDES', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Vergueiro, 1353', 'Address A1': 'Rua Vergueiro', 'Numero A1': '1353', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '01504-001', 'City A1': 'Vergueiro', 'State A1': 'SP', 'Phone A1': '11) 5084-9463', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'contato@abneuro.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:22:33,742 - P17320 - INFO - Salvando lote de resultados
+2025-05-22 01:22:33,828 - P17320 - INFO - Após salvar resultados Uso de memória: 66.26 MB
+2025-05-22 01:22:33,829 - P17320 - INFO - Progresso: 1.2%
+2025-05-22 01:22:33,829 - P17320 - INFO - Tempo de execução de processamento do médico 3: 89.44 segundos
+2025-05-22 01:22:33,830 - P17320 - INFO - Tempo de execução de processamento do lote completo: 226.96 segundos

@@ -1,0 +1,558 @@
+2025-05-22 05:19:00,141 - P11992 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 05:19:00,142 - P11992 - INFO - Nome: RENATO OLIVEIRA ROSSI
+2025-05-22 05:19:00,142 - P11992 - INFO - Reiniciando driver do Chrome
+2025-05-22 05:19:02,074 - P11992 - INFO - Após reiniciar driver Uso de memória: 137.36 MB
+2025-05-22 05:19:02,074 - P11992 - INFO - Início do processamento Uso de memória: 137.36 MB
+2025-05-22 05:19:02,075 - P11992 - INFO - Iniciando busca para: RENATO OLIVEIRA ROSSI CRM 156527 SP telefone e-mail endereço
+2025-05-22 05:19:02,957 - P11992 - INFO - SearX results: 15 URLs
+2025-05-22 05:19:02,958 - P11992 - INFO - Após SearX Uso de memória: 137.36 MB
+2025-05-22 05:19:05,972 - P11992 - INFO - Google results: 12 URLs
+2025-05-22 05:19:05,972 - P11992 - INFO - Após Google Uso de memória: 139.43 MB
+2025-05-22 05:19:08,505 - P11992 - INFO - Bing results: 10 URLs
+2025-05-22 05:19:08,505 - P11992 - INFO - Após Bing Uso de memória: 140.55 MB
+2025-05-22 05:19:08,505 - P11992 - INFO - Total de URLs únicas: 20
+2025-05-22 05:19:08,505 - P11992 - INFO - Processando URL 1/20: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1280522801.pdf
+2025-05-22 05:19:08,505 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1280522801.pdf
+2025-05-22 05:19:08,506 - P11992 - INFO - Após processar URL 1 Uso de memória: 140.55 MB
+2025-05-22 05:19:08,506 - P11992 - INFO - Processando URL 2/20: https://www.medicosbrasil.com/profissional/renato-oliveira-rossi
+2025-05-22 05:19:12,245 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\c945406835b06e5f2e1aea28b8c75ed7.html
+2025-05-22 05:19:12,276 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:19:12,277 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:19:12,278 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:19:12,278 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:19:12,278 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:19:12,278 - P11992 - INFO - Após processar URL 2 Uso de memória: 141.37 MB
+2025-05-22 05:19:12,279 - P11992 - INFO - Processando URL 3/20: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2025/05/do_20250513_3984.pdf
+2025-05-22 05:19:12,279 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2025/05/do_20250513_3984.pdf
+2025-05-22 05:19:12,279 - P11992 - INFO - Após processar URL 3 Uso de memória: 140.69 MB
+2025-05-22 05:19:12,279 - P11992 - INFO - Processando URL 4/20: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2024/05/do_20240514_3840.pdf
+2025-05-22 05:19:12,279 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2024/05/do_20240514_3840.pdf
+2025-05-22 05:19:12,280 - P11992 - INFO - Após processar URL 4 Uso de memória: 140.69 MB
+2025-05-22 05:19:12,281 - P11992 - INFO - Processando URL 5/20: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/221525933.pdf
+2025-05-22 05:19:12,284 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/221525933.pdf
+2025-05-22 05:19:12,285 - P11992 - INFO - Após processar URL 5 Uso de memória: 140.69 MB
+2025-05-22 05:19:12,285 - P11992 - INFO - Processando URL 6/20: http://cremesp.org.br/
+2025-05-22 05:19:16,341 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\2a967318246f9658edeb1e0469c871fe.html
+2025-05-22 05:19:16,370 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:19:16,374 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 05:19:16,379 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:19:16,383 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:19:16,383 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 05:19:16,383 - P11992 - INFO - Após processar URL 6 Uso de memória: 140.75 MB
+2025-05-22 05:19:16,384 - P11992 - INFO - Processando URL 7/20: https://guiamedico.cremesp.org.br/
+2025-05-22 05:19:37,558 - P11992 - ERROR - Erro ao baixar HTML de https://guiamedico.cremesp.org.br/: Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7574059F4]
+	(No symbol) [0x00007FF7573F6789]
+	(No symbol) [0x00007FF7573F84F8]
+	(No symbol) [0x00007FF7573F6A96]
+	(No symbol) [0x00007FF7573F6516]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F465C]
+	(No symbol) [0x00007FF75740CF3A]
+	(No symbol) [0x00007FF7574B013E]
+	(No symbol) [0x00007FF75748737A]
+	(No symbol) [0x00007FF7574AF39C]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 05:19:37,561 - P11992 - INFO - Após processar URL 7 Uso de memória: 140.75 MB
+2025-05-22 05:19:37,561 - P11992 - INFO - Processando URL 8/20: https://cliniguia.com/profissionais/renato-oliveira-rossi-980016295824507/
+2025-05-22 05:19:44,261 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\5a02967289575e02ec7ba50e31cdd201.html
+2025-05-22 05:19:44,312 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:19:44,313 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:19:44,313 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:19:44,314 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:19:44,314 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:19:44,314 - P11992 - INFO - Após processar URL 8 Uso de memória: 141.71 MB
+2025-05-22 05:19:44,314 - P11992 - INFO - Processando URL 9/20: https://www.helpsaude.com/renato-oliveira-rossi-crmsp-156527
+2025-05-22 05:19:51,304 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e229977a3acf73b61a3c8265ff02aedc.html
+2025-05-22 05:19:51,321 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:19:51,322 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:19:51,323 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:19:51,325 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:19:51,327 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:19:51,331 - P11992 - INFO - Após processar URL 9 Uso de memória: 141.72 MB
+2025-05-22 05:19:51,341 - P11992 - INFO - Processando URL 10/20: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/786418928.pdf
+2025-05-22 05:19:51,352 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/786418928.pdf
+2025-05-22 05:19:51,354 - P11992 - INFO - Após processar URL 10 Uso de memória: 141.72 MB
+2025-05-22 05:19:51,354 - P11992 - INFO - Processando URL 11/20: https://www.sociosbrasil.com/nome/renato-oliveira-rossi
+2025-05-22 05:19:55,735 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\a45a17d0fd7212dbf71f5340a1fb0446.html
+2025-05-22 05:19:55,740 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:19:55,740 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:19:55,740 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 05:19:55,741 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 05:19:55,741 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 05:19:55,741 - P11992 - INFO - Após processar URL 11 Uso de memória: 141.74 MB
+2025-05-22 05:19:55,741 - P11992 - INFO - Processando URL 12/20: https://www2.boaconsulta.com/especialista/renato-oliveira-rossi-6106d633a2e00a653a007183?searchId=clx2hqu4m00025j6q134oneyi&agendaId=64acc9635a7bb819aa037396
+2025-05-22 05:19:59,261 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\91a814aa759f8882ec9c6d0a9be314a3.html
+2025-05-22 05:19:59,346 - P11992 - INFO - Candidates address: 9 items
+2025-05-22 05:19:59,352 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:19:59,359 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:19:59,361 - P11992 - INFO - Candidates complement: 3 items
+2025-05-22 05:19:59,363 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:19:59,363 - P11992 - INFO - Após processar URL 12 Uso de memória: 141.78 MB
+2025-05-22 05:19:59,364 - P11992 - INFO - Processando URL 13/20: https://sistemadje.tjmt.jus.br/publicacoes/8975-2013.pdf
+2025-05-22 05:19:59,364 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/8975-2013.pdf
+2025-05-22 05:19:59,365 - P11992 - INFO - Após processar URL 13 Uso de memória: 141.78 MB
+2025-05-22 05:19:59,365 - P11992 - INFO - Processando URL 14/20: https://sistemadje.tjmt.jus.br/publicacoes/8993-2013.pdf
+2025-05-22 05:19:59,365 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/8993-2013.pdf
+2025-05-22 05:19:59,366 - P11992 - INFO - Após processar URL 14 Uso de memória: 141.78 MB
+2025-05-22 05:19:59,366 - P11992 - INFO - Processando URL 15/20: https://www.sinj.df.gov.br/sinj/Diario/94c72572751d4102bca2909f42dfc5bb/4c2e76dc-0f84-36ed-ad20-2f19433334f3/arq/0/DODF%20019%2028-01-2019%20INTEGRA.pdf
+2025-05-22 05:19:59,366 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.sinj.df.gov.br/sinj/Diario/94c72572751d4102bca2909f42dfc5bb/4c2e76dc-0f84-36ed-ad20-2f19433334f3/arq/0/DODF%20019%2028-01-2019%20INTEGRA.pdf
+2025-05-22 05:19:59,366 - P11992 - INFO - Após processar URL 15 Uso de memória: 141.78 MB
+2025-05-22 05:19:59,367 - P11992 - INFO - Processando URL 16/20: https://diariooficial.abc.go.gov.br/portal/edicoes/download/3996
+2025-05-22 05:20:01,750 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\5059a55b1d49f33e3dc3fdb3b445106f.html
+2025-05-22 05:20:01,827 - P11992 - INFO - Candidates address: 9 items
+2025-05-22 05:20:01,827 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:20:01,827 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:20:01,828 - P11992 - INFO - Candidates complement: 3 items
+2025-05-22 05:20:01,828 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:20:01,828 - P11992 - INFO - Após processar URL 16 Uso de memória: 141.78 MB
+2025-05-22 05:20:01,828 - P11992 - INFO - Processando URL 17/20: https://www.boaconsulta.com/especialista/renato-oliveira-rossi-6106d633a2e00a653a007183
+2025-05-22 05:20:04,705 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\d231630e6fbdb673efa7df5d0f6c9c67.html
+2025-05-22 05:20:04,768 - P11992 - INFO - Candidates address: 9 items
+2025-05-22 05:20:04,768 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:20:04,768 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:20:04,768 - P11992 - INFO - Candidates complement: 3 items
+2025-05-22 05:20:04,768 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:20:04,768 - P11992 - INFO - Após processar URL 17 Uso de memória: 142.40 MB
+2025-05-22 05:20:04,769 - P11992 - INFO - Processando URL 18/20: https://www.escavador.com/sobre/6722775/renato-oliveira-rossi
+2025-05-22 05:20:09,114 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\bc3d595c85beabb36da773749b8628d9.html
+2025-05-22 05:20:09,131 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:20:09,131 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:20:09,131 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:20:09,132 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:20:09,132 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:20:09,132 - P11992 - INFO - Após processar URL 18 Uso de memória: 140.86 MB
+2025-05-22 05:20:09,132 - P11992 - INFO - Processando URL 19/20: https://www.catalogo.med.br/doutor/renato-oliveira-rossi-2165104.htm
+2025-05-22 05:20:11,316 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\452a61369468edc546fd2e1572686ef4.html
+2025-05-22 05:20:11,317 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:20:11,318 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:20:11,318 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 05:20:11,318 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:20:11,318 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:20:11,319 - P11992 - INFO - Após processar URL 19 Uso de memória: 140.86 MB
+2025-05-22 05:20:11,319 - P11992 - INFO - Processando URL 20/20: https://consultacrm.com.br/
+2025-05-22 05:20:13,912 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:20:13,926 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:20:13,927 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:20:13,927 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:20:13,928 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:20:13,929 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:20:13,929 - P11992 - INFO - Após processar URL 20 Uso de memória: 140.86 MB
+2025-05-22 05:20:13,929 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:20:13,930 - P11992 - INFO - Ranked address: 11 items
+2025-05-22 05:20:13,930 - P11992 - INFO - Ranked phone: 1 items
+2025-05-22 05:20:13,930 - P11992 - INFO - Ranked email: 2 items
+2025-05-22 05:20:13,930 - P11992 - INFO - Ranked complement: 4 items
+2025-05-22 05:20:13,930 - P11992 - INFO - Ranked cep: 4 items
+2025-05-22 05:20:13,930 - P11992 - INFO - Após agregação Uso de memória: 140.86 MB
+2025-05-22 05:20:13,931 - P11992 - INFO - Validando endereço: ['Rua Vergueiro, 1353', 'Rua Major Sertório, 440', 'Rua Professor Rubião Meira, 107']
+2025-05-22 05:20:13,931 - P11992 - INFO - Endereço validado: Rua Vergueiro, 1353
+2025-05-22 05:20:13,931 - P11992 - INFO - Limpando texto extenso para campo address: Rua Vergueiro, 1353...
+2025-05-22 05:20:13,932 - P11992 - INFO - Texto limpo: Rua Vergueiro, 1353
+2025-05-22 05:20:13,932 - P11992 - INFO - Validando telefone: ['(11) 4349-9900']
+2025-05-22 05:20:13,932 - P11992 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 05:20:13,933 - P11992 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 05:20:13,933 - P11992 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 05:20:13,933 - P11992 - INFO - Validando email: ['GESTOR.SOCIETARIO@RISSICONTABILIDADE.COM.BR', 'webmaster@catalogo.med.br']
+2025-05-22 05:20:13,935 - P11992 - INFO - Limpando texto extenso para campo email: GESTOR.SOCIETARIO@RISSICONTABILIDADE.COM.BR...
+2025-05-22 05:20:13,936 - P11992 - INFO - Texto limpo: gestor.societario@rissicontabilidade.com.br
+2025-05-22 05:20:13,937 - P11992 - INFO - Email validado: gestor.societario@rissicontabilidade.com.br
+2025-05-22 05:20:13,938 - P11992 - INFO - Validando complemento: ['Sala 701 Torre Norte', 'Conjunto 32', 'Sala 701']
+2025-05-22 05:20:13,939 - P11992 - INFO - Limpando texto extenso para campo complement: Sala 701 Torre Norte...
+2025-05-22 05:20:13,940 - P11992 - INFO - Texto limpo: Sala 701 Torre Norte
+2025-05-22 05:20:13,941 - P11992 - INFO - Complemento validado: Sala 701 Torre Norte
+2025-05-22 05:20:13,942 - P11992 - INFO - Descobrindo cidade
+2025-05-22 05:20:13,942 - P11992 - INFO - Buscando cidade: Rua Vergueiro cidade SP
+2025-05-22 05:20:16,778 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 05:20:16,778 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 05:20:16,779 - P11992 - INFO - Tempo de execução de processamento completo do médico: 74.70 segundos
+2025-05-22 05:20:16,779 - P11992 - INFO - Resultado processado: {'Hash': '16d65ce995028b84edb74fd427ee3e026c6908c7ede2ebb68d7f3ae2863dbe91', 'CRM': '156527', 'UF': 'SP', 'Firstname': 'RENATO', 'LastName': 'OLIVEIRA ROSSI', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Vergueiro, 1353', 'Address A1': 'Rua Vergueiro', 'Numero A1': '1353', 'Complement A1': 'Sala 701 Torre Norte', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'gestor.societario@rissicontabilidade.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:20:16,780 - P11992 - INFO - Progresso: 87.3%
+2025-05-22 05:20:16,780 - P11992 - INFO - Executando coleta de lixo
+2025-05-22 05:20:16,855 - P11992 - INFO - Após coleta de lixo Uso de memória: 128.93 MB
+2025-05-22 05:20:16,855 - P11992 - INFO - Tempo de execução de processamento do médico 1: 76.71 segundos
+2025-05-22 05:20:16,856 - P11992 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 05:20:16,856 - P11992 - INFO - Nome: EDUARDO VINICIUS ROSA
+2025-05-22 05:20:16,856 - P11992 - INFO - Início do processamento Uso de memória: 128.93 MB
+2025-05-22 05:20:16,856 - P11992 - INFO - Iniciando busca para: EDUARDO VINICIUS ROSA CRM 156720 SP telefone e-mail endereço
+2025-05-22 05:20:17,734 - P11992 - INFO - SearX results: 15 URLs
+2025-05-22 05:20:17,735 - P11992 - INFO - Após SearX Uso de memória: 128.93 MB
+2025-05-22 05:20:20,283 - P11992 - INFO - Google results: 8 URLs
+2025-05-22 05:20:20,283 - P11992 - INFO - Após Google Uso de memória: 131.79 MB
+2025-05-22 05:20:22,820 - P11992 - INFO - Bing results: 10 URLs
+2025-05-22 05:20:22,820 - P11992 - INFO - Após Bing Uso de memória: 133.08 MB
+2025-05-22 05:20:22,821 - P11992 - INFO - Total de URLs únicas: 20
+2025-05-22 05:20:22,821 - P11992 - INFO - Processando URL 1/20: https://www.boaconsulta.com/especialista/eduardo-vinicius-rosa-6106f1b3a2e00a713f00895f
+2025-05-22 05:20:25,558 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\9a92a97ade21d52882602569c6a22357.html
+2025-05-22 05:20:25,604 - P11992 - INFO - Candidates address: 5 items
+2025-05-22 05:20:25,605 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:20:25,605 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:20:25,605 - P11992 - INFO - Candidates complement: 2 items
+2025-05-22 05:20:25,605 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:20:25,605 - P11992 - INFO - Após processar URL 1 Uso de memória: 134.32 MB
+2025-05-22 05:20:25,605 - P11992 - INFO - Processando URL 2/20: https://ptdocz.com/doc/1587064/http---www.dourados.ms.gov.br
+2025-05-22 05:20:30,461 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\78bf86e80efd85ac5acd2f8cd57ee50b.html
+2025-05-22 05:20:30,472 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:20:30,472 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:20:30,472 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:20:30,472 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:20:30,473 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:20:30,473 - P11992 - INFO - Após processar URL 2 Uso de memória: 134.54 MB
+2025-05-22 05:20:30,473 - P11992 - INFO - Processando URL 3/20: https://cliniguia.com/profissionais/eduardo-vinicius-rosa-980016295573601/
+2025-05-22 05:20:35,172 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\9714b355a8cc4f91ea2a94eab7d4ce3f.html
+2025-05-22 05:20:35,212 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:20:35,212 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:20:35,212 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:20:35,212 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:20:35,213 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:20:35,213 - P11992 - INFO - Após processar URL 3 Uso de memória: 135.08 MB
+2025-05-22 05:20:35,213 - P11992 - INFO - Processando URL 4/20: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1914816339.pdf
+2025-05-22 05:20:35,213 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1914816339.pdf
+2025-05-22 05:20:35,213 - P11992 - INFO - Após processar URL 4 Uso de memória: 135.08 MB
+2025-05-22 05:20:35,213 - P11992 - INFO - Processando URL 5/20: http://cremesp.org.br/
+2025-05-22 05:20:44,416 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\2a967318246f9658edeb1e0469c871fe.html
+2025-05-22 05:20:44,445 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:20:44,446 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 05:20:44,446 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:20:44,446 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:20:44,446 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 05:20:44,447 - P11992 - INFO - Após processar URL 5 Uso de memória: 135.43 MB
+2025-05-22 05:20:44,447 - P11992 - INFO - Processando URL 6/20: https://www.consultacrm.com.br/index/medicos/uid-93a5d09e-f5c5-11ec-9e74-0a4aa568c625/carlos_eduardo_rosa
+2025-05-22 05:20:48,141 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\158bc2dd8c0d2ee57931174ee9b4c421.html
+2025-05-22 05:20:48,150 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:20:48,150 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:20:48,150 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:20:48,150 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:20:48,151 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:20:48,151 - P11992 - INFO - Após processar URL 6 Uso de memória: 136.64 MB
+2025-05-22 05:20:48,151 - P11992 - INFO - Processando URL 7/20: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/9/c/c/9ccf914dc20fb764816da1952e78cfab5ec9482f63abed333e7a2344c4b1d462/eb5db9f4-40aa-485f-812e-8b34e68e0b6b-37012-DOE_17598_15_03_2005_60F_JUCESC_17598_08F.pdf
+2025-05-22 05:20:48,151 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/9/c/c/9ccf914dc20fb764816da1952e78cfab5ec9482f63abed333e7a2344c4b1d462/eb5db9f4-40aa-485f-812e-8b34e68e0b6b-37012-DOE_17598_15_03_2005_60F_JUCESC_17598_08F.pdf
+2025-05-22 05:20:48,152 - P11992 - INFO - Após processar URL 7 Uso de memória: 136.64 MB
+2025-05-22 05:20:48,152 - P11992 - INFO - Processando URL 8/20: https://cdn.estadaomatogrosso.com.br/storage/webdisco/pageflip/1330/source.pdf
+2025-05-22 05:20:48,152 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://cdn.estadaomatogrosso.com.br/storage/webdisco/pageflip/1330/source.pdf
+2025-05-22 05:20:48,152 - P11992 - INFO - Após processar URL 8 Uso de memória: 136.64 MB
+2025-05-22 05:20:48,152 - P11992 - INFO - Processando URL 9/20: https://guiamedico.cremesp.org.br/
+2025-05-22 05:21:06,388 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 05:21:06,396 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:21:06,396 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 05:21:06,396 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:21:06,397 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:21:06,397 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 05:21:06,397 - P11992 - INFO - Após processar URL 9 Uso de memória: 136.82 MB
+2025-05-22 05:21:06,397 - P11992 - INFO - Processando URL 10/20: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/220703562.pdf
+2025-05-22 05:21:06,398 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/220703562.pdf
+2025-05-22 05:21:06,398 - P11992 - INFO - Após processar URL 10 Uso de memória: 136.82 MB
+2025-05-22 05:21:06,398 - P11992 - INFO - Processando URL 11/20: https://www.cremesp.org.br/?siteAcao=DelegaciasRegionais&id=33
+2025-05-22 05:21:30,956 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\f89528df70462629a24f2b4171f0fc34.html
+2025-05-22 05:21:30,978 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 05:21:30,979 - P11992 - INFO - Candidates phone: 3 items
+2025-05-22 05:21:30,979 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 05:21:30,979 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:21:30,979 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 05:21:30,979 - P11992 - INFO - Após processar URL 11 Uso de memória: 136.92 MB
+2025-05-22 05:21:30,979 - P11992 - INFO - Processando URL 12/20: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/786418928.pdf
+2025-05-22 05:21:30,980 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/786418928.pdf
+2025-05-22 05:21:30,980 - P11992 - INFO - Após processar URL 12 Uso de memória: 136.92 MB
+2025-05-22 05:21:30,980 - P11992 - INFO - Processando URL 13/20: https://doutorcrm.com/eduardo-cantoni-rosa
+2025-05-22 05:21:35,352 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\632b0927dfe820bb3c3f5a62c8c60866.html
+2025-05-22 05:21:35,367 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:21:35,368 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:21:35,369 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:21:35,369 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:21:35,369 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 05:21:35,370 - P11992 - INFO - Após processar URL 13 Uso de memória: 136.95 MB
+2025-05-22 05:21:35,370 - P11992 - INFO - Processando URL 14/20: https://www.ioepa.com.br/pages/2010/2010.09.16.DOE.pdf
+2025-05-22 05:21:35,371 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2010/2010.09.16.DOE.pdf
+2025-05-22 05:21:35,371 - P11992 - INFO - Após processar URL 14 Uso de memória: 136.95 MB
+2025-05-22 05:21:35,371 - P11992 - INFO - Processando URL 15/20: https://www.viomundo.com.br/blogdasaude/chapa-boulos-erundina-conquista-apoio-de-medicos-que-atuam-e-sao-eleitores-na-cidade-de-sao-paulo.html
+2025-05-22 05:21:40,380 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\18f3a3ea4d2f104b1babc744b97d570e.html
+2025-05-22 05:21:40,420 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:21:40,421 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:21:40,421 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:21:40,421 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:21:40,421 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:21:40,421 - P11992 - INFO - Após processar URL 15 Uso de memória: 136.99 MB
+2025-05-22 05:21:40,422 - P11992 - INFO - Processando URL 16/20: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/4/b/a/4bac65cbaddf76549a6d906f6008d78aaea28d6e076582104b8702c2d675aa23/9e1a4b08-1cca-4c3a-9df9-5e022dc5a74f-26982-DOE_17160_26_05_2003_28F_JUCESC_17160_08F.pdf
+2025-05-22 05:21:40,422 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/4/b/a/4bac65cbaddf76549a6d906f6008d78aaea28d6e076582104b8702c2d675aa23/9e1a4b08-1cca-4c3a-9df9-5e022dc5a74f-26982-DOE_17160_26_05_2003_28F_JUCESC_17160_08F.pdf
+2025-05-22 05:21:40,422 - P11992 - INFO - Após processar URL 16 Uso de memória: 136.99 MB
+2025-05-22 05:21:40,422 - P11992 - INFO - Processando URL 17/20: https://www.consultasocio.com/q/sa/eduardo-vinicius-rosa
+2025-05-22 05:21:43,403 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\a0649a9e95179a97860036c00ec32fdd.html
+2025-05-22 05:21:43,403 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:21:43,404 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:21:43,404 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:21:43,404 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:21:43,404 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:21:43,404 - P11992 - INFO - Após processar URL 17 Uso de memória: 136.99 MB
+2025-05-22 05:21:43,405 - P11992 - INFO - Processando URL 18/20: https://www.crm-sp.org.br/?siteAcao=Contatos&dep=cad
+2025-05-22 05:22:09,637 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\9d7a012bd98a105b7c4d3b953105f1bf.html
+2025-05-22 05:22:09,643 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:22:09,644 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:22:09,644 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:22:09,644 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:22:09,644 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:22:09,644 - P11992 - INFO - Após processar URL 18 Uso de memória: 137.00 MB
+2025-05-22 05:22:09,645 - P11992 - INFO - Processando URL 19/20: https://www.medicosbrasil.com/profissional/eduardo-vinicius-rosa
+2025-05-22 05:22:11,816 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\385da59c15b1384eb1f1d4be1ab4bd48.html
+2025-05-22 05:22:11,818 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:22:11,818 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:22:11,819 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:22:11,819 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:22:11,819 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:22:11,819 - P11992 - INFO - Após processar URL 19 Uso de memória: 137.02 MB
+2025-05-22 05:22:11,819 - P11992 - INFO - Processando URL 20/20: https://consultacrm.com.br/
+2025-05-22 05:22:13,913 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:22:13,927 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:22:13,927 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:22:13,928 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:22:13,928 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:22:13,928 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:22:13,928 - P11992 - INFO - Após processar URL 20 Uso de memória: 137.46 MB
+2025-05-22 05:22:13,928 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:22:13,929 - P11992 - INFO - Ranked address: 8 items
+2025-05-22 05:22:13,929 - P11992 - INFO - Ranked phone: 3 items
+2025-05-22 05:22:13,929 - P11992 - INFO - Ranked email: 1 items
+2025-05-22 05:22:13,930 - P11992 - INFO - Ranked complement: 2 items
+2025-05-22 05:22:13,930 - P11992 - INFO - Ranked cep: 4 items
+2025-05-22 05:22:13,930 - P11992 - INFO - Após agregação Uso de memória: 137.46 MB
+2025-05-22 05:22:13,930 - P11992 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Avenida Angélica, 916', 'Rua Cardeal Arcoverde, 359']
+2025-05-22 05:22:13,931 - P11992 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 05:22:13,931 - P11992 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 05:22:13,931 - P11992 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 05:22:13,931 - P11992 - INFO - Validando telefone: ['(11) 4349-9900', '(11) 5084-1352', '(11) 5082-1141']
+2025-05-22 05:22:13,931 - P11992 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 05:22:13,931 - P11992 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 05:22:13,932 - P11992 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 05:22:13,932 - P11992 - INFO - Validando email: ['drvma@cremesp.org.br']
+2025-05-22 05:22:13,932 - P11992 - INFO - Limpando texto extenso para campo email: drvma@cremesp.org.br...
+2025-05-22 05:22:13,932 - P11992 - INFO - Texto limpo: drvma@cremesp.org.br
+2025-05-22 05:22:13,932 - P11992 - INFO - Email validado: drvma@cremesp.org.br
+2025-05-22 05:22:13,932 - P11992 - INFO - Validando complemento: ['Sala 906 Santa Cecília', 'Sala 102 Mirandópolis']
+2025-05-22 05:22:13,933 - P11992 - INFO - Limpando texto extenso para campo complement: Sala 906 Santa Cecília...
+2025-05-22 05:22:13,933 - P11992 - INFO - Texto limpo: Sala 906 Santa Cecília
+2025-05-22 05:22:13,933 - P11992 - INFO - Complemento validado: Sala 906 Santa Cecília
+2025-05-22 05:22:13,933 - P11992 - INFO - Descobrindo cidade
+2025-05-22 05:22:13,933 - P11992 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 05:22:16,696 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 05:22:16,697 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 05:22:16,698 - P11992 - INFO - Tempo de execução de processamento completo do médico: 119.84 segundos
+2025-05-22 05:22:16,698 - P11992 - INFO - Resultado processado: {'Hash': 'e6714854213aeff7550222edefd6ca1d6e715c9711f50f2077ef0429a1a5e82f', 'CRM': '156720', 'UF': 'SP', 'Firstname': 'EDUARDO', 'LastName': 'VINICIUS ROSA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Sala 906 Santa Cecília', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'drvma@cremesp.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:22:16,699 - P11992 - INFO - Progresso: 87.8%
+2025-05-22 05:22:16,699 - P11992 - INFO - Tempo de execução de processamento do médico 2: 119.84 segundos
+2025-05-22 05:22:16,699 - P11992 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 05:22:16,700 - P11992 - INFO - Nome: LUIZ ANTONIO JORGE JUNIOR
+2025-05-22 05:22:16,700 - P11992 - INFO - Início do processamento Uso de memória: 137.68 MB
+2025-05-22 05:22:16,700 - P11992 - INFO - Iniciando busca para: LUIZ ANTONIO JORGE JUNIOR CRM 156933 SP telefone e-mail endereço
+2025-05-22 05:22:17,624 - P11992 - INFO - SearX results: 15 URLs
+2025-05-22 05:22:17,625 - P11992 - INFO - Após SearX Uso de memória: 137.68 MB
+2025-05-22 05:22:20,274 - P11992 - INFO - Google results: 11 URLs
+2025-05-22 05:22:20,274 - P11992 - INFO - Após Google Uso de memória: 139.75 MB
+2025-05-22 05:22:22,838 - P11992 - INFO - Bing results: 10 URLs
+2025-05-22 05:22:22,839 - P11992 - INFO - Após Bing Uso de memória: 140.43 MB
+2025-05-22 05:22:22,839 - P11992 - INFO - Total de URLs únicas: 21
+2025-05-22 05:22:22,839 - P11992 - INFO - Processando URL 1/21: https://www.doctoralia.com.br/luiz-antonio-gil-junior/geriatra-medico-clinico-geral/sao-paulo
+2025-05-22 05:22:22,839 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/luiz-antonio-gil-junior/geriatra-medico-clinico-geral/sao-paulo
+2025-05-22 05:22:22,840 - P11992 - INFO - Após processar URL 1 Uso de memória: 140.43 MB
+2025-05-22 05:22:22,840 - P11992 - INFO - Processando URL 2/21: https://cdide.com.br/quem-somos/
+2025-05-22 05:22:26,255 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\42ab231bff6fc9a31156085685a14f1d.html
+2025-05-22 05:22:26,272 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:22:26,272 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 05:22:26,273 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 05:22:26,273 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:22:26,273 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 05:22:26,273 - P11992 - INFO - Após processar URL 2 Uso de memória: 140.48 MB
+2025-05-22 05:22:26,273 - P11992 - INFO - Processando URL 3/21: https://ioepa.com.br/pages/2017/2017.03.20.DOE.pdf
+2025-05-22 05:22:26,273 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://ioepa.com.br/pages/2017/2017.03.20.DOE.pdf
+2025-05-22 05:22:26,274 - P11992 - INFO - Após processar URL 3 Uso de memória: 140.48 MB
+2025-05-22 05:22:26,274 - P11992 - INFO - Processando URL 4/21: https://pt.slideshare.net/slideshow/eping-2004-o-padro-de-interoperabilidade-j-planejada-e-construda-no-brasil/82781750
+2025-05-22 05:22:30,293 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ef43ce52e8bc9ee6831bffee7a30e663.html
+2025-05-22 05:22:30,483 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:22:30,483 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:22:30,484 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:22:30,484 - P11992 - INFO - Candidates complement: 3 items
+2025-05-22 05:22:30,484 - P11992 - INFO - Candidates cep: 3 items
+2025-05-22 05:22:30,484 - P11992 - INFO - Após processar URL 4 Uso de memória: 143.82 MB
+2025-05-22 05:22:30,484 - P11992 - INFO - Processando URL 5/21: https://cepebr-prod.s3.amazonaws.com/1/cadernos/2025/20250514/1-PoderExecutivo/PoderExecutivo(20250514).pdf
+2025-05-22 05:22:30,484 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://cepebr-prod.s3.amazonaws.com/1/cadernos/2025/20250514/1-PoderExecutivo/PoderExecutivo(20250514).pdf
+2025-05-22 05:22:30,485 - P11992 - INFO - Após processar URL 5 Uso de memória: 140.54 MB
+2025-05-22 05:22:30,485 - P11992 - INFO - Processando URL 6/21: https://cepebr-prod.s3.amazonaws.com/1/cadernos/2025/20250326/1-PoderExecutivo/PoderExecutivo(20250326).pdf
+2025-05-22 05:22:30,485 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://cepebr-prod.s3.amazonaws.com/1/cadernos/2025/20250326/1-PoderExecutivo/PoderExecutivo(20250326).pdf
+2025-05-22 05:22:30,485 - P11992 - INFO - Após processar URL 6 Uso de memória: 140.54 MB
+2025-05-22 05:22:30,486 - P11992 - INFO - Processando URL 7/21: https://www.boaconsulta.com/especialista/luiz-antonio-jorge-junior-6106ce2fa2e00a632e00142c
+2025-05-22 05:22:33,238 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\86ad6306d596734e4e42bd5b36832259.html
+2025-05-22 05:22:33,271 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:22:33,271 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:22:33,271 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:22:33,271 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:22:33,271 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:22:33,272 - P11992 - INFO - Após processar URL 7 Uso de memória: 140.88 MB
+2025-05-22 05:22:33,272 - P11992 - INFO - Processando URL 8/21: http://cremesp.org.br/
+2025-05-22 05:22:36,196 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\2a967318246f9658edeb1e0469c871fe.html
+2025-05-22 05:22:36,221 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:22:36,221 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 05:22:36,222 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:22:36,222 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:22:36,222 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 05:22:36,222 - P11992 - INFO - Após processar URL 8 Uso de memória: 140.88 MB
+2025-05-22 05:22:36,222 - P11992 - INFO - Processando URL 9/21: https://portal.cfm.org.br/busca-medicos
+2025-05-22 05:22:40,198 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 05:22:40,241 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:22:40,242 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:22:40,244 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 05:22:40,244 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 05:22:40,245 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 05:22:40,245 - P11992 - INFO - Após processar URL 9 Uso de memória: 140.91 MB
+2025-05-22 05:22:40,246 - P11992 - INFO - Processando URL 10/21: https://cdide.com.br/quem-somos
+2025-05-22 05:22:43,059 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ef731aacd9cdde51ea5cb6d12eb881d6.html
+2025-05-22 05:22:43,078 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:22:43,078 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 05:22:43,078 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 05:22:43,078 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:22:43,078 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 05:22:43,079 - P11992 - INFO - Após processar URL 10 Uso de memória: 140.91 MB
+2025-05-22 05:22:43,079 - P11992 - INFO - Processando URL 11/21: https://guiamedico.cremesp.org.br/
+2025-05-22 05:22:45,750 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 05:22:45,756 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:22:45,756 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 05:22:45,756 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:22:45,756 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:22:45,756 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 05:22:45,757 - P11992 - INFO - Após processar URL 11 Uso de memória: 140.91 MB
+2025-05-22 05:22:45,757 - P11992 - INFO - Processando URL 12/21: https://www.ioepa.com.br/pages/2017/2017.03.20.DOE.pdf
+2025-05-22 05:22:45,757 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2017/2017.03.20.DOE.pdf
+2025-05-22 05:22:45,757 - P11992 - INFO - Após processar URL 12 Uso de memória: 140.91 MB
+2025-05-22 05:22:45,757 - P11992 - INFO - Processando URL 13/21: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/786418928.pdf
+2025-05-22 05:22:45,757 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/786418928.pdf
+2025-05-22 05:22:45,758 - P11992 - INFO - Após processar URL 13 Uso de memória: 140.91 MB
+2025-05-22 05:22:45,758 - P11992 - INFO - Processando URL 14/21: https://www.achecerto.com.br/
+2025-05-22 05:22:51,785 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ceb96e5663cace6f7b35fee1716d7561.html
+2025-05-22 05:22:51,800 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:22:51,800 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:22:51,800 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 05:22:51,801 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:22:51,801 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:22:51,801 - P11992 - INFO - Após processar URL 14 Uso de memória: 140.91 MB
+2025-05-22 05:22:51,801 - P11992 - INFO - Processando URL 15/21: http://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/3/7/6/376c9535798ceebb3a017e27c026e006cc14912476bcc2a32be29b4f82b8a94b/6526cf03-54dc-41b7-94a9-e67d97f3b8bc-17539-DOE_16769_19_10_2001_28F.pdf
+2025-05-22 05:22:51,801 - P11992 - INFO - Ignorando URL de arquivo não-HTML: http://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/3/7/6/376c9535798ceebb3a017e27c026e006cc14912476bcc2a32be29b4f82b8a94b/6526cf03-54dc-41b7-94a9-e67d97f3b8bc-17539-DOE_16769_19_10_2001_28F.pdf
+2025-05-22 05:22:51,802 - P11992 - INFO - Após processar URL 15 Uso de memória: 140.91 MB
+2025-05-22 05:22:51,802 - P11992 - INFO - Processando URL 16/21: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 05:22:55,491 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 05:22:55,535 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:22:55,535 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:22:55,535 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:22:55,535 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:22:55,535 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:22:55,536 - P11992 - INFO - Após processar URL 16 Uso de memória: 140.91 MB
+2025-05-22 05:22:55,536 - P11992 - INFO - Processando URL 17/21: https://www.medicosbrasil.com/profissional/luiz-antonio-jorge-junior
+2025-05-22 05:22:57,682 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\b4eed3da8f244646cfed155077cb2bf0.html
+2025-05-22 05:22:57,684 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:22:57,684 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:22:57,684 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:22:57,685 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:22:57,685 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:22:57,685 - P11992 - INFO - Após processar URL 17 Uso de memória: 140.91 MB
+2025-05-22 05:22:57,685 - P11992 - INFO - Processando URL 18/21: https://cliniguia.com/profissionais/luiz-antonio-jorge-junior-980016295443384/
+2025-05-22 05:23:02,434 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\c84010e7d8aa428e376429a44edbccda.html
+2025-05-22 05:23:02,485 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:23:02,495 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:23:02,497 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:23:02,498 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:23:02,499 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:23:02,503 - P11992 - INFO - Após processar URL 18 Uso de memória: 140.92 MB
+2025-05-22 05:23:02,511 - P11992 - INFO - Processando URL 19/21: https://www.escavador.com/sobre/1764471/luiz-antonio-jorge-junior
+2025-05-22 05:23:06,212 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\1466e781cc71786d5e5f4489e611a716.html
+2025-05-22 05:23:06,233 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:23:06,233 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:23:06,233 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:23:06,233 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:23:06,233 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:23:06,234 - P11992 - INFO - Após processar URL 19 Uso de memória: 140.96 MB
+2025-05-22 05:23:06,234 - P11992 - INFO - Processando URL 20/21: https://www.consultasocio.com/q/sa/luiz-antonio-jorge-junior
+2025-05-22 05:23:11,480 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\25219022c5596cc50d73c1c14b2e2803.html
+2025-05-22 05:23:11,485 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 05:23:11,486 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:23:11,486 - P11992 - INFO - Candidates email: 2 items
+2025-05-22 05:23:11,486 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:23:11,486 - P11992 - INFO - Candidates cep: 5 items
+2025-05-22 05:23:11,486 - P11992 - INFO - Após processar URL 20 Uso de memória: 140.99 MB
+2025-05-22 05:23:11,487 - P11992 - INFO - Processando URL 21/21: https://consultacrm.com.br/
+2025-05-22 05:23:15,394 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:23:15,411 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:23:15,413 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:23:15,413 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:23:15,413 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:23:15,414 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:23:15,414 - P11992 - INFO - Após processar URL 21 Uso de memória: 140.98 MB
+2025-05-22 05:23:15,414 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:23:15,414 - P11992 - INFO - Ranked address: 5 items
+2025-05-22 05:23:15,414 - P11992 - INFO - Ranked phone: 3 items
+2025-05-22 05:23:15,415 - P11992 - INFO - Ranked email: 5 items
+2025-05-22 05:23:15,415 - P11992 - INFO - Ranked complement: 4 items
+2025-05-22 05:23:15,415 - P11992 - INFO - Ranked cep: 12 items
+2025-05-22 05:23:15,416 - P11992 - INFO - Após agregação Uso de memória: 140.98 MB
+2025-05-22 05:23:15,416 - P11992 - INFO - Validando endereço: ['Rua Júlio de Castilho, 604', 'Rua Frei Caneca, 1282', 'Av. Santos Dumont, 123']
+2025-05-22 05:23:15,417 - P11992 - INFO - Endereço validado: Rua Júlio de Castilho, 604
+2025-05-22 05:23:15,417 - P11992 - INFO - Limpando texto extenso para campo address: Rua Júlio de Castilho, 604...
+2025-05-22 05:23:15,417 - P11992 - INFO - Texto limpo: Rua Júlio de Castilho, 604
+2025-05-22 05:23:15,417 - P11992 - INFO - Validando telefone: ['(69) 3211-0600', '(69) 9245-6792', '(11) 4349-9900']
+2025-05-22 05:23:15,417 - P11992 - INFO - Limpando texto extenso para campo phone: (69) 3211-0600...
+2025-05-22 05:23:15,417 - P11992 - INFO - Texto limpo: 69) 3211-0600
+2025-05-22 05:23:15,418 - P11992 - INFO - Telefone validado: 69) 3211-0600
+2025-05-22 05:23:15,418 - P11992 - INFO - Validando email: ['rhcdide@gmail.com', 'cfm@portalmedico.org.br', 'falecom@achecerto.com.br']
+2025-05-22 05:23:15,418 - P11992 - INFO - Limpando texto extenso para campo email: rhcdide@gmail.com...
+2025-05-22 05:23:15,418 - P11992 - INFO - Texto limpo: rhcdide@gmail.com
+2025-05-22 05:23:15,418 - P11992 - INFO - Email validado: rhcdide@gmail.com
+2025-05-22 05:23:15,418 - P11992 - INFO - Validando complemento: ['Conjunto de Caracteres e Alfabetos', 'Conjunto de', 'Salatiel Robson B. Oliveira (CGU)']
+2025-05-22 05:23:15,419 - P11992 - INFO - Limpando texto extenso para campo complement: Conjunto de Caracteres e Alfabetos...
+2025-05-22 05:23:15,419 - P11992 - INFO - Texto limpo: Conjunto de Caracteres e Alfab
+2025-05-22 05:23:15,421 - P11992 - INFO - Complemento validado: Conjunto de Caracteres e Alfab
+2025-05-22 05:23:15,423 - P11992 - INFO - Descobrindo cidade
+2025-05-22 05:23:15,423 - P11992 - INFO - Buscando cidade: Rua Júlio de Castilho cidade SP
+2025-05-22 05:23:17,689 - P11992 - INFO - Cidade encontrada: São Paulo
+2025-05-22 05:23:17,689 - P11992 - INFO - Limpando texto extenso para campo city: São Paulo...
+2025-05-22 05:23:17,690 - P11992 - INFO - Texto limpo: São Paulo
+2025-05-22 05:23:17,690 - P11992 - INFO - Cidade descoberta: São Paulo
+2025-05-22 05:23:17,690 - P11992 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 05:23:17,690 - P11992 - INFO - Iniciando busca de CEP em cascata para: Rua Júlio de Castilho, São Paulo, SP
+2025-05-22 05:23:17,690 - P11992 - INFO - Método 1: ViaCEP API
+2025-05-22 05:23:17,691 - P11992 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SP/sao%20paulo/rua%20julio%20de%20castilho/json/
+2025-05-22 05:23:18,394 - P11992 - INFO - Dados encontrados no ViaCEP: {'cep': '03059-001', 'logradouro': 'Rua Júlio de Castilhos', 'complemento': 'até 699/700', 'unidade': '', 'bairro': 'Belenzinho', 'localidade': 'São Paulo', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3550308', 'gia': '1004', 'ddd': '11', 'siafi': '7107'}
+2025-05-22 05:23:18,397 - P11992 - INFO - CEP encontrado via ViaCEP: 03059-001
+2025-05-22 05:23:18,397 - P11992 - INFO - Dados de CEP encontrados: {'cep': '03059-001', 'logradouro': 'Rua Júlio de Castilhos', 'complemento': 'até 699/700', 'unidade': '', 'bairro': 'Belenzinho', 'localidade': 'São Paulo', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3550308', 'gia': '1004', 'ddd': '11', 'siafi': '7107'}
+2025-05-22 05:23:18,398 - P11992 - INFO - Limpando texto extenso para campo bairro: Belenzinho...
+2025-05-22 05:23:18,398 - P11992 - INFO - Texto limpo: Belenzinho
+2025-05-22 05:23:18,398 - P11992 - INFO - Limpando texto extenso para campo city: São Paulo...
+2025-05-22 05:23:18,398 - P11992 - INFO - Texto limpo: São Paulo
+2025-05-22 05:23:18,399 - P11992 - INFO - Limpando texto extenso para campo state: SP...
+2025-05-22 05:23:18,400 - P11992 - INFO - Texto limpo: SP
+2025-05-22 05:23:18,400 - P11992 - INFO - Tempo de execução de processamento completo do médico: 61.70 segundos
+2025-05-22 05:23:18,401 - P11992 - INFO - Resultado processado: {'Hash': '3a441e70a1f08e703e16be6c212d0b57a6ce426657cd8851bba412ff697df5df', 'CRM': '156933', 'UF': 'SP', 'Firstname': 'LUIZ', 'LastName': 'ANTONIO JORGE JUNIOR', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Júlio de Castilho, 604', 'Address A1': 'Rua Júlio de Castilho', 'Numero A1': '604', 'Complement A1': 'Conjunto de Caracteres e Alfab', 'Bairro A1': 'Belenzinho', 'postal code A1': '03059-001', 'City A1': 'São Paulo', 'State A1': 'SP', 'Phone A1': '69) 3211-0600', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'rhcdide@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:23:18,402 - P11992 - INFO - Salvando lote de resultados
+2025-05-22 05:23:18,403 - P11992 - INFO - Após salvar resultados Uso de memória: 137.97 MB
+2025-05-22 05:23:18,404 - P11992 - INFO - Progresso: 88.2%
+2025-05-22 05:23:18,404 - P11992 - INFO - Tempo de execução de processamento do médico 3: 61.70 segundos
+2025-05-22 05:23:18,404 - P11992 - INFO - Tempo de execução de processamento do lote completo: 258.26 segundos

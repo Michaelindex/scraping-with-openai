@@ -1,0 +1,215 @@
+<html dir="ltr" lang="fr" style="--vh: 9.85px;"><head><meta charset="utf-8"><title></title><base href="/"><meta content="width=device-width,initial-scale=1,maximum-scale=5" name="viewport"><link href="manifest.json" rel="manifest"><link href="assets/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"><link href="assets/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"><link href="assets/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"><link href="assets/icons/safari-pinned-tab.svg" rel="mask-icon" color="#ff8821"><link href="assets/icons/favicon.ico" rel="shortcut icon"><meta content="#ff8821" name="msapplication-TileColor"><meta content="assets/icons/browserconfig.xml" name="msapplication-config"><meta content="#ffffff" name="theme-color"><script nomodule="">window["__kd-nomodule"]=!0</script><style>._app-main-loader-wrapper{position:fixed;top:0;right:0;bottom:0;left:0;display:flex;justify-content:center;align-items:center}._app-main-loader{display:flex;justify-content:center;align-content:center;border:3px solid transparent;border-top:3px solid #6c757d;border-right:3px solid #6c757d;border-bottom:3px solid #6c757d;border-radius:50%;width:48px;height:48px;animation:app-main-loader-spin 2s linear infinite}@keyframes app-main-loader-spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}</style><style type="text/css">.cookie-consent {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+  display: flex;
+  overflow-y: auto; }
+  .cookie-consent * {
+    box-sizing: border-box; }
+  .cookie-consent h1,
+  .cookie-consent h2,
+  .cookie-consent h3,
+  .cookie-consent h4,
+  .cookie-consent a,
+  .cookie-consent div,
+  .cookie-consent span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%; }
+  .cookie-consent .cookie-consent-button {
+    margin: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    -webkit-appearance: none;
+    color: #ff8822;
+    border: 2px solid #ff8822;
+    border-radius: 4px;
+    padding: 13px 50px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+    cursor: pointer; }
+    .cookie-consent .cookie-consent-button:hover, .cookie-consent .cookie-consent-button:focus {
+      background: #fceadb; }
+    .cookie-consent .cookie-consent-button--link {
+      border-color: transparent;
+      padding: 13px 20px; }
+    .cookie-consent .cookie-consent-button--link:hover {
+      border-color: #fceadb; }
+  .cookie-consent .cookie-consent-service-group__name {
+    color: #333;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700; }
+  .cookie-consent .cookie-consent-service-group__desc {
+    margin: 10px 0 20px 20px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500; }
+  .cookie-consent .cookie-consent-service-group + .cookie-consent-service-group {
+    margin-top: 25px; }
+  .cookie-consent .cookie-consent-service {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 15px;
+    flex-flow: column;
+    align-items: self-end; }
+    @media (min-width: 768px) {
+      .cookie-consent .cookie-consent-service {
+        flex-flow: row;
+        align-items: center; } }
+    .cookie-consent .cookie-consent-service__name {
+      font-size: 16px;
+      font-weight: 500; }
+    .cookie-consent .cookie-consent-service__cookies {
+      color: #444;
+      font-size: 12px;
+      font-weight: 500;
+      margin-top: 5px; }
+    .cookie-consent .cookie-consent-service__more {
+      color: #424242;
+      font-size: 11px;
+      font-weight: 500;
+      text-decoration: underline; }
+    .cookie-consent .cookie-consent-service__customize {
+      margin-top: 15px;
+      flex-shrink: 0; }
+      @media (min-width: 768px) {
+        .cookie-consent .cookie-consent-service__customize {
+          margin-left: 15px;
+          margin-top: 0; } }
+  .cookie-consent .cookie-consent-toggle--allowed .cookie-consent-toggle__deny {
+    opacity: 0.4; }
+  .cookie-consent .cookie-consent-toggle--denied .cookie-consent-toggle__allow {
+    opacity: 0.4; }
+  .cookie-consent .cookie-consent-toggle .cookie-consent-button {
+    padding: 6px 10px;
+    cursor: pointer; }
+  .cookie-consent .cookie-consent-toggle {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 32px;
+    background: #cacaca;
+    border: 0;
+    border-radius: 2em;
+    transition: all 0.4s ease; }
+    .cookie-consent .cookie-consent-toggle__switch {
+      display: inline-block;
+      height: 28px;
+      position: absolute;
+      right: 34px;
+      top: 2px;
+      bottom: 2px;
+      width: 28px;
+      border-radius: 50%;
+      background: #fff;
+      transition: all 0.2s ease; }
+    .cookie-consent .cookie-consent-toggle[aria-checked='true'] {
+      background: #ff8821; }
+    .cookie-consent .cookie-consent-toggle[aria-checked='true'] .cookie-consent-toggle__switch {
+      right: 2px; }
+
+.cookie-consent__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7); }
+
+.cookie-consent__window {
+  z-index: 1;
+  width: 100%;
+  pointer-events: none; }
+
+.cookie-consent .cookie-consent-modal {
+  padding-top: 0;
+  padding-top: env(safe-area-inset-top);
+  margin: 30px auto; }
+  @media (min-width: 768px) {
+    .cookie-consent .cookie-consent-modal {
+      margin-top: 200px;
+      margin-top: 25vh; } }
+  .cookie-consent .cookie-consent-modal > div {
+    pointer-events: all; }
+
+.cookie-consent .cookie-consent-main-alert {
+  width: 85%;
+  max-width: 900px;
+  background: white;
+  margin: 0 auto;
+  padding: 30px; }
+  .cookie-consent .cookie-consent-main-alert h1 {
+    margin: 10px 0;
+    padding: 0;
+    font-size: 32px;
+    text-align: left;
+    font-weight: 400;
+    color: #333; }
+  .cookie-consent .cookie-consent-main-alert p {
+    display: block;
+    padding: 0;
+    font-size: 16px;
+    color: #222;
+    font-weight: 500; }
+  .cookie-consent .cookie-consent-main-alert a {
+    text-decoration: underline;
+    color: blue; }
+  .cookie-consent .cookie-consent-main-alert .cookie-consent-button {
+    margin: 0 12px 10px; }
+  .cookie-consent .cookie-consent-main-alert__foot {
+    margin: 25px -5px 0;
+    text-align: center; }
+
+.cookie-consent .cookie-consent-customize {
+  width: 85%;
+  background: white;
+  margin: 0 auto;
+  max-width: 700px;
+  padding-top: 30px; }
+  @media (min-width: 768px) {
+    .cookie-consent .cookie-consent-customize {
+      margin-top: -45px; } }
+  .cookie-consent .cookie-consent-customize h1 {
+    margin: 10px 0;
+    padding: 0;
+    font-size: 32px;
+    text-align: left;
+    font-weight: 400;
+    color: #333; }
+  .cookie-consent .cookie-consent-customize p {
+    padding: 5px 0 30px 0 !important;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500; }
+    @media (min-width: 768px) {
+      .cookie-consent .cookie-consent-customize p {
+        max-width: 80%; } }
+  .cookie-consent .cookie-consent-customize__list {
+    background: rgba(51, 51, 51, 0.07);
+    padding: 25px; }
+  .cookie-consent .cookie-consent-customize__head {
+    padding: 0 30px; }
+    @media (min-width: 768px) {
+      .cookie-consent .cookie-consent-customize__head {
+        max-width: 80%; } }
+  .cookie-consent .cookie-consent-customize__foot {
+    text-align: right;
+    padding: 15px; }
+
+.cookie-consent-scroll-lock {
+  overflow: hidden; }
+</style><link rel="stylesheet" href="theme-default.css?v=11.3.0"></head><body ngcm=""><noscript><div>Vous devez <a href=http://www.enable-javascript.com/fr target=_blank>activer JavaScript</a> pour utiliser notre application.</div></noscript><app-main ng-version="19.1.4"><router-outlet><div class="_app-main-loader-wrapper"><div class="_app-main-loader"></div></div><!----></router-outlet><!----></app-main><link href="chunk-RKK2XMDU.js" rel="modulepreload"><link href="chunk-GIL7SAZH.js" rel="modulepreload"><link href="chunk-YOJBBY5N.js" rel="modulepreload"><link href="chunk-ZW7OF7WE.js" rel="modulepreload"><link href="chunk-RBZN6OM5.js" rel="modulepreload"><link href="chunk-H7JFYOKT.js" rel="modulepreload"><link href="chunk-VSQJR5IJ.js" rel="modulepreload"><link href="chunk-6NEXJ4AG.js" rel="modulepreload"><link href="chunk-7SIKF2FO.js" rel="modulepreload"><link href="chunk-PCVGWRM2.js" rel="modulepreload"><script src="polyfills-IDN2EPBE.js" type="module"></script><script src="main-HRPTRJYY.js" type="module"></script><script async="" defer="" data-domain="patients.keldoc.com" src="https://assets.keldoc.com/plsble/js/plsble.js"></script></body></html>

@@ -1,0 +1,516 @@
+2025-05-22 05:13:39,067 - P15228 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 05:13:39,067 - P15228 - INFO - Nome: MARIA FERNANDA BRAZ DE CARVALHO
+2025-05-22 05:13:39,068 - P15228 - INFO - Reiniciando driver do Chrome
+2025-05-22 05:13:40,362 - P15228 - INFO - Após reiniciar driver Uso de memória: 127.79 MB
+2025-05-22 05:13:40,362 - P15228 - INFO - Início do processamento Uso de memória: 127.79 MB
+2025-05-22 05:13:40,363 - P15228 - INFO - Iniciando busca para: MARIA FERNANDA BRAZ DE CARVALHO CRM 125959 SP telefone e-mail endereço
+2025-05-22 05:13:41,245 - P15228 - INFO - SearX results: 14 URLs
+2025-05-22 05:13:41,245 - P15228 - INFO - Após SearX Uso de memória: 127.79 MB
+2025-05-22 05:13:44,088 - P15228 - INFO - Google results: 6 URLs
+2025-05-22 05:13:44,088 - P15228 - INFO - Após Google Uso de memória: 128.93 MB
+2025-05-22 05:13:46,693 - P15228 - INFO - Bing results: 10 URLs
+2025-05-22 05:13:46,694 - P15228 - INFO - Após Bing Uso de memória: 130.45 MB
+2025-05-22 05:13:46,695 - P15228 - INFO - Total de URLs únicas: 18
+2025-05-22 05:13:46,696 - P15228 - INFO - Processando URL 1/18: https://transparencia.cremesp.org.br/?siteAcao=guia_medico
+2025-05-22 05:13:49,218 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\cb80cc007a72cc7a378681a92a58906a.html
+2025-05-22 05:13:49,269 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 05:13:49,269 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:13:49,269 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:13:49,269 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:13:49,269 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 05:13:49,270 - P15228 - INFO - Após processar URL 1 Uso de memória: 130.66 MB
+2025-05-22 05:13:49,270 - P15228 - INFO - Processando URL 2/18: http://cremesp.org.br/
+2025-05-22 05:13:56,556 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\2a967318246f9658edeb1e0469c871fe.html
+2025-05-22 05:13:56,585 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 05:13:56,585 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 05:13:56,586 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:13:56,586 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:13:56,587 - P15228 - INFO - Candidates cep: 2 items
+2025-05-22 05:13:56,587 - P15228 - INFO - Após processar URL 2 Uso de memória: 130.66 MB
+2025-05-22 05:13:56,587 - P15228 - INFO - Processando URL 3/18: https://www.helpsaude.com/Maria-Fernanda-Braz-de-Carvalho.SP
+2025-05-22 05:14:03,018 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\2ea877c8617109ea12429d7062831b23.html
+2025-05-22 05:14:03,030 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:14:03,031 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:14:03,031 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:14:03,032 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:14:03,033 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:14:03,033 - P15228 - INFO - Após processar URL 3 Uso de memória: 130.67 MB
+2025-05-22 05:14:03,033 - P15228 - INFO - Processando URL 4/18: https://crmsc.org.br/busca-medico/
+2025-05-22 05:14:06,059 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\718935d8acf3120593504f2d6f7f3e0a.html
+2025-05-22 05:14:06,100 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:14:06,101 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:14:06,101 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 05:14:06,101 - P15228 - INFO - Candidates complement: 1 items
+2025-05-22 05:14:06,101 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 05:14:06,101 - P15228 - INFO - Após processar URL 4 Uso de memória: 130.67 MB
+2025-05-22 05:14:06,101 - P15228 - INFO - Processando URL 5/18: https://www.saobernardo.sp.gov.br/documents/10181/1441964/NM+2296+de+27.05.2022+-+Conteu%CC%81do+Integral.pdf/2c73ad04-2731-f28a-6128-0ca077c4aa2c
+2025-05-22 05:14:06,102 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1441964/NM+2296+de+27.05.2022+-+Conteu%CC%81do+Integral.pdf/2c73ad04-2731-f28a-6128-0ca077c4aa2c
+2025-05-22 05:14:06,102 - P15228 - INFO - Após processar URL 5 Uso de memória: 130.67 MB
+2025-05-22 05:14:06,102 - P15228 - INFO - Processando URL 6/18: https://guiamedico.cremesp.org.br/
+2025-05-22 05:14:24,325 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 05:14:24,331 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 05:14:24,331 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 05:14:24,332 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:14:24,332 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:14:24,332 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 05:14:24,332 - P15228 - INFO - Após processar URL 6 Uso de memória: 130.67 MB
+2025-05-22 05:14:24,332 - P15228 - INFO - Processando URL 7/18: https://doutorcrm.com/maria-fernanda-braz-de-carvalho
+2025-05-22 05:14:27,245 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\7b5b1b558fd8e06cd0972bb92dcb5e28.html
+2025-05-22 05:14:27,263 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:14:27,266 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:14:27,267 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:14:27,269 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:14:27,270 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:14:27,270 - P15228 - INFO - Após processar URL 7 Uso de memória: 130.67 MB
+2025-05-22 05:14:27,273 - P15228 - INFO - Processando URL 8/18: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1848192836.pdf
+2025-05-22 05:14:27,275 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1848192836.pdf
+2025-05-22 05:14:27,279 - P15228 - INFO - Após processar URL 8 Uso de memória: 130.67 MB
+2025-05-22 05:14:27,281 - P15228 - INFO - Processando URL 9/18: https://consultacrm.com.br/
+2025-05-22 05:14:29,536 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:14:29,548 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:14:29,548 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:14:29,548 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:14:29,548 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:14:29,549 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:14:29,549 - P15228 - INFO - Após processar URL 9 Uso de memória: 130.68 MB
+2025-05-22 05:14:29,549 - P15228 - INFO - Processando URL 10/18: https://www.saobernardo.sp.gov.br/documents/10181/1812128/NM+2437+de+05.04.2024+-++Conte%C3%BAdo+Integral.pdf/897e4073-2974-ce23-85e6-df4d288d3693
+2025-05-22 05:14:29,549 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1812128/NM+2437+de+05.04.2024+-++Conte%C3%BAdo+Integral.pdf/897e4073-2974-ce23-85e6-df4d288d3693
+2025-05-22 05:14:29,549 - P15228 - INFO - Após processar URL 10 Uso de memória: 130.68 MB
+2025-05-22 05:14:29,550 - P15228 - INFO - Processando URL 11/18: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 05:14:33,329 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 05:14:33,431 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:14:33,431 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:14:33,432 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:14:33,432 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:14:33,432 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:14:33,432 - P15228 - INFO - Após processar URL 11 Uso de memória: 130.68 MB
+2025-05-22 05:14:33,432 - P15228 - INFO - Processando URL 12/18: https://www.catalogo.med.br/doutor/maria-fernanda-braz-de-carvalho-2209229.htm
+2025-05-22 05:14:35,651 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\749d5347fd5330fc2bfb492f428a2b8d.html
+2025-05-22 05:14:35,652 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:14:35,652 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:14:35,653 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 05:14:35,653 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:14:35,653 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:14:35,653 - P15228 - INFO - Após processar URL 12 Uso de memória: 130.68 MB
+2025-05-22 05:14:35,653 - P15228 - INFO - Processando URL 13/18: https://www.wedologos.com.br/projeto-de-design/265015/logo-e-papelaria-6-itens-saude-nutricao-dra-maria-fernanda-carvalho
+2025-05-22 05:14:38,740 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\9c5e916ce0a9cc9acb3839ab5362ba94.html
+2025-05-22 05:14:38,785 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:14:38,788 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:14:38,800 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 05:14:38,800 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:14:38,801 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:14:38,803 - P15228 - INFO - Após processar URL 13 Uso de memória: 130.68 MB
+2025-05-22 05:14:38,804 - P15228 - INFO - Processando URL 14/18: https://www.classemedica.com.br/medico/230319-maria-fernanda-braz-de-carvalho.htm
+2025-05-22 05:14:48,669 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\55433b49b5050e3fbb4ab8489ac165d2.html
+2025-05-22 05:14:48,701 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:14:48,701 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:14:48,702 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:14:48,702 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:14:48,702 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:14:48,702 - P15228 - INFO - Após processar URL 14 Uso de memória: 130.68 MB
+2025-05-22 05:14:48,702 - P15228 - INFO - Processando URL 15/18: https://sistemadje.tjmt.jus.br/publicacoes/8224-2009.pdf
+2025-05-22 05:14:48,702 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/8224-2009.pdf
+2025-05-22 05:14:48,703 - P15228 - INFO - Após processar URL 15 Uso de memória: 130.68 MB
+2025-05-22 05:14:48,703 - P15228 - INFO - Processando URL 16/18: https://portal.cfm.org.br/busca-medicos
+2025-05-22 05:14:52,840 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 05:14:52,879 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:14:52,879 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:14:52,879 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 05:14:52,879 - P15228 - INFO - Candidates complement: 1 items
+2025-05-22 05:14:52,880 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 05:14:52,880 - P15228 - INFO - Após processar URL 16 Uso de memória: 130.69 MB
+2025-05-22 05:14:52,880 - P15228 - INFO - Processando URL 17/18: https://busca-profissionais.cfo.org.br/
+2025-05-22 05:14:55,988 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\e8b40259be7adff7fa0293af943598af.html
+2025-05-22 05:14:55,994 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:14:55,994 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:14:55,994 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:14:55,994 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:14:55,995 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:14:55,995 - P15228 - INFO - Após processar URL 17 Uso de memória: 130.69 MB
+2025-05-22 05:14:55,995 - P15228 - INFO - Processando URL 18/18: https://www.doctoralia.com.br/maria-fernanda-braz-de-carvalho/medico-clinico-geral/leme
+2025-05-22 05:14:55,995 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/maria-fernanda-braz-de-carvalho/medico-clinico-geral/leme
+2025-05-22 05:14:55,995 - P15228 - INFO - Após processar URL 18 Uso de memória: 130.69 MB
+2025-05-22 05:14:55,995 - P15228 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:14:55,996 - P15228 - INFO - Ranked address: 1 items
+2025-05-22 05:14:55,996 - P15228 - INFO - Ranked phone: 1 items
+2025-05-22 05:14:55,996 - P15228 - INFO - Ranked email: 4 items
+2025-05-22 05:14:55,996 - P15228 - INFO - Ranked complement: 2 items
+2025-05-22 05:14:55,996 - P15228 - INFO - Ranked cep: 4 items
+2025-05-22 05:14:55,996 - P15228 - INFO - Após agregação Uso de memória: 130.69 MB
+2025-05-22 05:14:55,997 - P15228 - INFO - Validando endereço: ['Rua Frei Caneca, 1282']
+2025-05-22 05:14:55,997 - P15228 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 05:14:55,997 - P15228 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 05:14:55,997 - P15228 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 05:14:55,997 - P15228 - INFO - Validando telefone: ['(11) 4349-9900']
+2025-05-22 05:14:55,997 - P15228 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 05:14:55,998 - P15228 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 05:14:55,998 - P15228 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 05:14:55,998 - P15228 - INFO - Validando email: ['protocolo@crmsc.org.br', 'webmaster@catalogo.med.br', 'yes@wedologos.com.br']
+2025-05-22 05:14:55,998 - P15228 - INFO - Limpando texto extenso para campo email: protocolo@crmsc.org.br...
+2025-05-22 05:14:55,998 - P15228 - INFO - Texto limpo: protocolo@crmsc.org.br
+2025-05-22 05:14:55,998 - P15228 - INFO - Email validado: protocolo@crmsc.org.br
+2025-05-22 05:14:55,998 - P15228 - INFO - Validando complemento: ['Aptidão à RT Vigilância ', 'Conjunto D']
+2025-05-22 05:14:55,999 - P15228 - INFO - Limpando texto extenso para campo complement: Aptidão à RT Vigilância ...
+2025-05-22 05:14:55,999 - P15228 - INFO - Texto limpo: Aptidão à RT Vigilância
+2025-05-22 05:14:55,999 - P15228 - INFO - Complemento validado: Aptidão à RT Vigilância
+2025-05-22 05:14:55,999 - P15228 - INFO - Descobrindo cidade
+2025-05-22 05:14:55,999 - P15228 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 05:14:58,669 - P15228 - WARNING - Cidade não encontrada
+2025-05-22 05:14:58,669 - P15228 - INFO - Cidade descoberta: 
+2025-05-22 05:14:58,670 - P15228 - INFO - Tempo de execução de processamento completo do médico: 78.31 segundos
+2025-05-22 05:14:58,670 - P15228 - INFO - Resultado processado: {'Hash': '4f7d9557132270f018dc805ad35053c087a42dd10f4bfd1b49aec3b27945a108', 'CRM': '125959', 'UF': 'SP', 'Firstname': 'MARIA', 'LastName': 'FERNANDA BRAZ DE CARVALHO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Aptidão à RT Vigilância', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'protocolo@crmsc.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:14:58,671 - P15228 - INFO - Progresso: 85.5%
+2025-05-22 05:14:58,671 - P15228 - INFO - Executando coleta de lixo
+2025-05-22 05:14:58,691 - P15228 - INFO - Após coleta de lixo Uso de memória: 129.50 MB
+2025-05-22 05:14:58,691 - P15228 - INFO - Tempo de execução de processamento do médico 1: 79.62 segundos
+2025-05-22 05:14:58,692 - P15228 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 05:14:58,692 - P15228 - INFO - Nome: PRISCILA PAULA PRIORI LESSIO
+2025-05-22 05:14:58,692 - P15228 - INFO - Início do processamento Uso de memória: 129.50 MB
+2025-05-22 05:14:58,692 - P15228 - INFO - Iniciando busca para: PRISCILA PAULA PRIORI LESSIO CRM 125997 SP telefone e-mail endereço
+2025-05-22 05:14:59,483 - P15228 - INFO - SearX results: 11 URLs
+2025-05-22 05:14:59,483 - P15228 - INFO - Após SearX Uso de memória: 129.50 MB
+2025-05-22 05:15:02,028 - P15228 - INFO - Google results: 8 URLs
+2025-05-22 05:15:02,028 - P15228 - INFO - Após Google Uso de memória: 129.50 MB
+2025-05-22 05:15:04,562 - P15228 - INFO - Bing results: 9 URLs
+2025-05-22 05:15:04,562 - P15228 - INFO - Após Bing Uso de memória: 131.32 MB
+2025-05-22 05:15:04,562 - P15228 - INFO - Total de URLs únicas: 17
+2025-05-22 05:15:04,562 - P15228 - INFO - Processando URL 1/17: https://cliniguia.com/profissionais/priscila-paula-priori-980016289509506/
+2025-05-22 05:15:12,055 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\e070ea5bf57da6113e4e2d951797c027.html
+2025-05-22 05:15:12,107 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:15:12,108 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:15:12,108 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:15:12,108 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:15:12,108 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:15:12,109 - P15228 - INFO - Após processar URL 1 Uso de memória: 131.32 MB
+2025-05-22 05:15:12,109 - P15228 - INFO - Processando URL 2/17: https://www.consultacrm.com.br/index/medicos/uid-132955b0-f5c5-11ec-9e74-0a4aa568c625/priscila_paula_priori
+2025-05-22 05:15:15,577 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\3108014160899af7632e37795a1ba5b9.html
+2025-05-22 05:15:15,587 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:15:15,587 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:15:15,588 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:15:15,588 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:15:15,588 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:15:15,588 - P15228 - INFO - Após processar URL 2 Uso de memória: 131.32 MB
+2025-05-22 05:15:15,588 - P15228 - INFO - Processando URL 3/17: https://www.econodata.com.br/consulta-empresa/18835029000159-LESSIO-PRIORI-CLINICA-MEDICA-LTDA
+2025-05-22 05:15:20,279 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\afb7738cb92477c5513a05571742e15e.html
+2025-05-22 05:15:20,421 - P15228 - INFO - Candidates address: 25 items
+2025-05-22 05:15:20,421 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:15:20,421 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:15:20,421 - P15228 - INFO - Candidates complement: 2 items
+2025-05-22 05:15:20,422 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 05:15:20,422 - P15228 - INFO - Após processar URL 3 Uso de memória: 132.15 MB
+2025-05-22 05:15:20,422 - P15228 - INFO - Processando URL 4/17: https://www.econodata.com.br/contato/priscila-paula-priori-lessio-85d96e1dca6853e3ea25926912a736ea
+2025-05-22 05:15:23,497 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\7ce37f7fbfcd322f14608a2c437b8097.html
+2025-05-22 05:15:23,559 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:15:23,560 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:15:23,560 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:15:23,560 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:15:23,561 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:15:23,561 - P15228 - INFO - Após processar URL 4 Uso de memória: 131.33 MB
+2025-05-22 05:15:23,561 - P15228 - INFO - Processando URL 5/17: https://www.escavador.com/sobre/2926546/priscila-paula-priori
+2025-05-22 05:15:27,215 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\2c913460a17a69182f209fcaa809d381.html
+2025-05-22 05:15:27,235 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:15:27,235 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:15:27,235 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:15:27,235 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:15:27,235 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:15:27,235 - P15228 - INFO - Após processar URL 5 Uso de memória: 131.33 MB
+2025-05-22 05:15:27,236 - P15228 - INFO - Processando URL 6/17: https://www.helpsaude.com/priscila-paula-priori-crmsp-125997
+2025-05-22 05:15:29,938 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\7f6d46377fc43219609137c0f386b244.html
+2025-05-22 05:15:29,953 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:15:29,954 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:15:29,954 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:15:29,954 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:15:29,954 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:15:29,954 - P15228 - INFO - Após processar URL 6 Uso de memória: 131.34 MB
+2025-05-22 05:15:29,954 - P15228 - INFO - Processando URL 7/17: https://www.rededorsaoluiz.com.br/encontre-um-medico/endocrinologista-especialista-em-hipofise/hospital/esperanca-recife-isis-medicina-feminina/atende/saude-petrobras
+2025-05-22 05:15:40,071 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\15e69885b9d8bd971d727546362f350a.html
+2025-05-22 05:15:40,234 - P15228 - INFO - Candidates address: 12 items
+2025-05-22 05:15:40,234 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 05:15:40,235 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:15:40,235 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:15:40,235 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:15:40,235 - P15228 - INFO - Após processar URL 7 Uso de memória: 134.08 MB
+2025-05-22 05:15:40,235 - P15228 - INFO - Processando URL 8/17: https://consultacrm.com.br/
+2025-05-22 05:15:43,764 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:15:43,782 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:15:43,783 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:15:43,783 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:15:43,783 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:15:43,783 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:15:43,783 - P15228 - INFO - Após processar URL 8 Uso de memória: 131.38 MB
+2025-05-22 05:15:43,783 - P15228 - INFO - Processando URL 9/17: https://www.tuasaude.com/marcar-consulta/medico/priscila-paula-priori-lessio/
+2025-05-22 05:15:47,339 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\4403a18ecf54d450e75241049c39bdf2.html
+2025-05-22 05:15:47,383 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 05:15:47,389 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:15:47,390 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:15:47,391 - P15228 - INFO - Candidates complement: 1 items
+2025-05-22 05:15:47,391 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 05:15:47,392 - P15228 - INFO - Após processar URL 9 Uso de memória: 131.38 MB
+2025-05-22 05:15:47,393 - P15228 - INFO - Processando URL 10/17: https://www.boaconsulta.com/especialista/priscila-paula-priori-lessio-627b51be42aa39006000005f
+2025-05-22 05:15:51,129 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\4e1e47a137788c3685f1d02223b02c03.html
+2025-05-22 05:15:51,177 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 05:15:51,183 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:15:51,186 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:15:51,187 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:15:51,191 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:15:51,192 - P15228 - INFO - Após processar URL 10 Uso de memória: 131.38 MB
+2025-05-22 05:15:51,193 - P15228 - INFO - Processando URL 11/17: https://www.classemedica.com.br/medico/274851-priscila-paula-priori.htm
+2025-05-22 05:15:56,255 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\ae865595fbba5b06e88a37d658527897.html
+2025-05-22 05:15:56,285 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:15:56,286 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:15:56,286 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:15:56,286 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:15:56,286 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:15:56,286 - P15228 - INFO - Após processar URL 11 Uso de memória: 131.38 MB
+2025-05-22 05:15:56,286 - P15228 - INFO - Processando URL 12/17: https://www.medicosbrasil.com/profissional/priscila-paula-priori
+2025-05-22 05:15:58,919 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\d2a55b57bd25c89cb10134fe719aef1e.html
+2025-05-22 05:15:58,936 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:15:58,936 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:15:58,937 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:15:58,937 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:15:58,938 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:15:58,939 - P15228 - INFO - Após processar URL 12 Uso de memória: 131.38 MB
+2025-05-22 05:15:58,939 - P15228 - INFO - Processando URL 13/17: https://cnpj.biz/18835029000159
+2025-05-22 05:16:03,389 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\53bfe3951c5f82cb5c19826b9caa7307.html
+2025-05-22 05:16:03,404 - P15228 - INFO - Candidates address: 2 items
+2025-05-22 05:16:03,404 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 05:16:03,405 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 05:16:03,405 - P15228 - INFO - Candidates complement: 3 items
+2025-05-22 05:16:03,405 - P15228 - INFO - Candidates cep: 2 items
+2025-05-22 05:16:03,405 - P15228 - INFO - Após processar URL 13 Uso de memória: 131.38 MB
+2025-05-22 05:16:03,405 - P15228 - INFO - Processando URL 14/17: https://www.catalogo.med.br/doutor/priscila-paula-priori-2428094.htm
+2025-05-22 05:16:05,566 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\e91145d5c2542ece4d45bd2173957dd2.html
+2025-05-22 05:16:05,566 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:16:05,567 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:16:05,567 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 05:16:05,567 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:16:05,567 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:16:05,567 - P15228 - INFO - Após processar URL 14 Uso de memória: 131.38 MB
+2025-05-22 05:16:05,567 - P15228 - INFO - Processando URL 15/17: https://www.rededorsaoluiz.com.br/encontre-um-medico/perfil/priscila-paula-priori-lessio
+2025-05-22 05:16:10,324 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\c18854c2cccf265e3c7207f61f003d82.html
+2025-05-22 05:16:10,478 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:16:10,478 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 05:16:10,479 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:16:10,479 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:16:10,479 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:16:10,479 - P15228 - INFO - Após processar URL 15 Uso de memória: 134.13 MB
+2025-05-22 05:16:10,479 - P15228 - INFO - Processando URL 16/17: https://www.rededorsaoluiz.com.br/encontre-um-medico/endocrinologista-especialista-em-hipofise/em/sao-bernardo-do-campo-sp
+2025-05-22 05:16:15,343 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\5a2e35bcfaf5a3e2ddc5b3bc69f1c92b.html
+2025-05-22 05:16:15,503 - P15228 - INFO - Candidates address: 6 items
+2025-05-22 05:16:15,503 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 05:16:15,503 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:16:15,504 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:16:15,504 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:16:15,504 - P15228 - INFO - Após processar URL 16 Uso de memória: 134.02 MB
+2025-05-22 05:16:15,504 - P15228 - INFO - Processando URL 17/17: https://www.boaconsulta.com/especialista/priscila-paula-priori-6106f97ba2e00a7a20000fde
+2025-05-22 05:16:19,368 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\71d3066691369236f01221a2440f9b3e.html
+2025-05-22 05:16:19,411 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 05:16:19,411 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:16:19,411 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:16:19,411 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:16:19,412 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:16:19,412 - P15228 - INFO - Após processar URL 17 Uso de memória: 131.38 MB
+2025-05-22 05:16:19,412 - P15228 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:16:19,413 - P15228 - INFO - Ranked address: 42 items
+2025-05-22 05:16:19,413 - P15228 - INFO - Ranked phone: 2 items
+2025-05-22 05:16:19,413 - P15228 - INFO - Ranked email: 2 items
+2025-05-22 05:16:19,413 - P15228 - INFO - Ranked complement: 6 items
+2025-05-22 05:16:19,413 - P15228 - INFO - Ranked cep: 3 items
+2025-05-22 05:16:19,414 - P15228 - INFO - Após agregação Uso de memória: 131.38 MB
+2025-05-22 05:16:19,414 - P15228 - INFO - Validando endereço: ['Avenida Alvaro Guimaraes, 3033', 'Rua Tiradentes, 149', 'Rua Jose Versolato, 101']
+2025-05-22 05:16:19,414 - P15228 - INFO - Endereço validado: Avenida Alvaro Guimaraes, 3033
+2025-05-22 05:16:19,414 - P15228 - INFO - Limpando texto extenso para campo address: Avenida Alvaro Guimaraes, 3033...
+2025-05-22 05:16:19,414 - P15228 - INFO - Texto limpo: Avenida Alvaro Guimaraes, 3033
+2025-05-22 05:16:19,414 - P15228 - INFO - Validando telefone: ['3003-3230', '(11) 4433-6363']
+2025-05-22 05:16:19,414 - P15228 - INFO - Limpando texto extenso para campo phone: (11) 4433-6363...
+2025-05-22 05:16:19,415 - P15228 - INFO - Texto limpo: 11) 4433-6363
+2025-05-22 05:16:19,415 - P15228 - INFO - Telefone validado: 11) 4433-6363
+2025-05-22 05:16:19,415 - P15228 - INFO - Validando email: ['escritorioprado@escritorioprado.com.br', 'webmaster@catalogo.med.br']
+2025-05-22 05:16:19,415 - P15228 - INFO - Limpando texto extenso para campo email: escritorioprado@escritorioprado.com.br...
+2025-05-22 05:16:19,415 - P15228 - INFO - Texto limpo: escritorioprado@escritorioprado.com.br
+2025-05-22 05:16:19,415 - P15228 - INFO - Email validado: escritorioprado@escritorioprado.com.br
+2025-05-22 05:16:19,416 - P15228 - INFO - Validando complemento: ['Apt 41 Bairro: Jardim Município/UF: Santo André', 'Apt 41 - Jardim', 'Bloco 01']
+2025-05-22 05:16:19,416 - P15228 - INFO - Limpando texto extenso para campo complement: Apt 41 Bairro: Jardim Município/UF: Santo André...
+2025-05-22 05:16:19,416 - P15228 - INFO - Texto limpo: Apt 41 Bairro: Jardim Municípi
+2025-05-22 05:16:19,416 - P15228 - INFO - Complemento validado: Apt 41 Bairro: Jardim Municípi
+2025-05-22 05:16:19,416 - P15228 - INFO - Descobrindo cidade
+2025-05-22 05:16:19,416 - P15228 - INFO - Buscando cidade: Avenida Alvaro Guimaraes cidade SP
+2025-05-22 05:16:22,169 - P15228 - WARNING - Cidade não encontrada
+2025-05-22 05:16:22,169 - P15228 - INFO - Cidade descoberta: 
+2025-05-22 05:16:22,169 - P15228 - INFO - Tempo de execução de processamento completo do médico: 83.48 segundos
+2025-05-22 05:16:22,170 - P15228 - INFO - Resultado processado: {'Hash': 'fdbc73b8e68eeee7c7f42ee3278cfcfeb63ac09dd4ac63fe4c1e3cb7a8098562', 'CRM': '125997', 'UF': 'SP', 'Firstname': 'PRISCILA', 'LastName': 'PAULA PRIORI LESSIO', 'Medical specialty': '', 'Endereco Completo A1': 'Avenida Alvaro Guimaraes, 3033', 'Address A1': 'Avenida Alvaro Guimaraes', 'Numero A1': '3033', 'Complement A1': 'Apt 41 Bairro: Jardim Municípi', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4433-6363', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'escritorioprado@escritorioprado.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:16:22,170 - P15228 - INFO - Progresso: 85.9%
+2025-05-22 05:16:22,170 - P15228 - INFO - Tempo de execução de processamento do médico 2: 83.48 segundos
+2025-05-22 05:16:22,171 - P15228 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 05:16:22,171 - P15228 - INFO - Nome: BRUNO BARBOSA DE ALENCAR
+2025-05-22 05:16:22,171 - P15228 - INFO - Início do processamento Uso de memória: 130.70 MB
+2025-05-22 05:16:22,171 - P15228 - INFO - Iniciando busca para: BRUNO BARBOSA DE ALENCAR CRM 127715 SP telefone e-mail endereço
+2025-05-22 05:16:22,995 - P15228 - INFO - SearX results: 14 URLs
+2025-05-22 05:16:22,995 - P15228 - INFO - Após SearX Uso de memória: 130.71 MB
+2025-05-22 05:16:25,618 - P15228 - INFO - Google results: 7 URLs
+2025-05-22 05:16:25,618 - P15228 - INFO - Após Google Uso de memória: 134.82 MB
+2025-05-22 05:16:28,406 - P15228 - INFO - Bing results: 9 URLs
+2025-05-22 05:16:28,406 - P15228 - INFO - Após Bing Uso de memória: 134.82 MB
+2025-05-22 05:16:28,407 - P15228 - INFO - Total de URLs únicas: 19
+2025-05-22 05:16:28,407 - P15228 - INFO - Processando URL 1/19: https://accamargo.org.br/medico/bruno-barbosa-de-alencar
+2025-05-22 05:16:34,155 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\13905bebca7efff81888de1c401314e3.html
+2025-05-22 05:16:34,242 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:16:34,243 - P15228 - INFO - Candidates phone: 2 items
+2025-05-22 05:16:34,243 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:16:34,243 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:16:34,243 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 05:16:34,243 - P15228 - INFO - Após processar URL 1 Uso de memória: 134.83 MB
+2025-05-22 05:16:34,244 - P15228 - INFO - Processando URL 2/19: https://guiamedico.cremesp.org.br/
+2025-05-22 05:16:36,947 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 05:16:36,953 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 05:16:36,953 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 05:16:36,953 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:16:36,954 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:16:36,954 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 05:16:36,954 - P15228 - INFO - Após processar URL 2 Uso de memória: 134.83 MB
+2025-05-22 05:16:36,954 - P15228 - INFO - Processando URL 3/19: https://www.classemedica.com.br/medico/45074-bruno-barbosa-de-alencar.htm
+2025-05-22 05:16:43,836 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\659bc97fcba639e8cf6b5b5e7cf0a8eb.html
+2025-05-22 05:16:43,875 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:16:43,875 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:16:43,876 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:16:43,876 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:16:43,876 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:16:43,876 - P15228 - INFO - Após processar URL 3 Uso de memória: 135.53 MB
+2025-05-22 05:16:43,877 - P15228 - INFO - Processando URL 4/19: https://www.sinj.df.gov.br/sinj/Diario/1d12a6b7-650e-3716-a456-ca3bc85bdd55/DODF%20028%2008-02-2019%20INTEGRA.pdf
+2025-05-22 05:16:43,877 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.sinj.df.gov.br/sinj/Diario/1d12a6b7-650e-3716-a456-ca3bc85bdd55/DODF%20028%2008-02-2019%20INTEGRA.pdf
+2025-05-22 05:16:43,877 - P15228 - INFO - Após processar URL 4 Uso de memória: 134.70 MB
+2025-05-22 05:16:43,877 - P15228 - INFO - Processando URL 5/19: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 05:16:47,397 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 05:16:47,434 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:16:47,434 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:16:47,434 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:16:47,434 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:16:47,435 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:16:47,435 - P15228 - INFO - Após processar URL 5 Uso de memória: 134.70 MB
+2025-05-22 05:16:47,435 - P15228 - INFO - Processando URL 6/19: https://www.jfsp.jus.br/documentos/administrativo/NUGE/Civel/EDITAL-45-2013-CIVEL.pdf
+2025-05-22 05:16:47,435 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.jfsp.jus.br/documentos/administrativo/NUGE/Civel/EDITAL-45-2013-CIVEL.pdf
+2025-05-22 05:16:47,436 - P15228 - INFO - Após processar URL 6 Uso de memória: 134.70 MB
+2025-05-22 05:16:47,436 - P15228 - INFO - Processando URL 7/19: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/8367
+2025-05-22 05:16:49,590 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\d913196d26b5e586aa3d1edfbac966a7.html
+2025-05-22 05:16:49,630 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:16:49,630 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:16:49,630 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:16:49,630 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:16:49,631 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:16:49,631 - P15228 - INFO - Após processar URL 7 Uso de memória: 134.70 MB
+2025-05-22 05:16:49,631 - P15228 - INFO - Processando URL 8/19: https://www.medicosbrasil.com/profissional/bruno-barbosa-de-alencar
+2025-05-22 05:16:51,833 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\3d985f7abc5aef6c5c76922c375e90cc.html
+2025-05-22 05:16:51,835 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:16:51,835 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:16:51,835 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:16:51,836 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:16:51,836 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:16:51,836 - P15228 - INFO - Após processar URL 8 Uso de memória: 134.70 MB
+2025-05-22 05:16:51,836 - P15228 - INFO - Processando URL 9/19: https://cliniguia.com/profissionais/bruno-barbosa-de-alencar-700507572568459/
+2025-05-22 05:16:56,944 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\5cb9430e04efaefed1ac36cf4d4f2510.html
+2025-05-22 05:16:56,985 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:16:56,986 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:16:56,986 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:16:56,986 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:16:56,987 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:16:56,987 - P15228 - INFO - Após processar URL 9 Uso de memória: 134.81 MB
+2025-05-22 05:16:56,987 - P15228 - INFO - Processando URL 10/19: https://guiasaudebrasil.com.br/profissional/8e2fe59551a1f178-bruno-barbosa-de-alencar
+2025-05-22 05:17:02,589 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\2c271ff181947cac5430befdfb16cb77.html
+2025-05-22 05:17:02,599 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:17:02,600 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:17:02,600 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:17:02,600 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:17:02,600 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 05:17:02,600 - P15228 - INFO - Após processar URL 10 Uso de memória: 134.81 MB
+2025-05-22 05:17:02,600 - P15228 - INFO - Processando URL 11/19: https://www.ioepa.com.br/pages/2016/2016.12.07.DOE.pdf
+2025-05-22 05:17:02,601 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2016/2016.12.07.DOE.pdf
+2025-05-22 05:17:02,601 - P15228 - INFO - Após processar URL 11 Uso de memória: 134.81 MB
+2025-05-22 05:17:02,601 - P15228 - INFO - Processando URL 12/19: https://www.consultacrm.com.br/index/medicos/uid-918320b9-f5c5-11ec-9e74-0a4aa568c625/bruno_barbosa_de_alencar
+2025-05-22 05:17:08,201 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\77759b5d16b75632de3cf00532771336.html
+2025-05-22 05:17:08,217 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:17:08,217 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:17:08,217 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:17:08,217 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:17:08,217 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:17:08,218 - P15228 - INFO - Após processar URL 12 Uso de memória: 134.82 MB
+2025-05-22 05:17:08,218 - P15228 - INFO - Processando URL 13/19: https://ioepa.com.br/pages/2015/2015.10.28.DOE.pdf
+2025-05-22 05:17:08,218 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://ioepa.com.br/pages/2015/2015.10.28.DOE.pdf
+2025-05-22 05:17:08,218 - P15228 - INFO - Após processar URL 13 Uso de memória: 134.82 MB
+2025-05-22 05:17:08,219 - P15228 - INFO - Processando URL 14/19: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/112939715.pdf
+2025-05-22 05:17:08,219 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/112939715.pdf
+2025-05-22 05:17:08,219 - P15228 - INFO - Após processar URL 14 Uso de memória: 134.82 MB
+2025-05-22 05:17:08,219 - P15228 - INFO - Processando URL 15/19: https://www.boaconsulta.com/especialista/bruno-barbosa-de-alencar-6106d6f1a2e00a69990014a1
+2025-05-22 05:17:11,036 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\dff00847446e1014eeab53068dd46092.html
+2025-05-22 05:17:11,112 - P15228 - INFO - Candidates address: 12 items
+2025-05-22 05:17:11,112 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:17:11,112 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 05:17:11,112 - P15228 - INFO - Candidates complement: 2 items
+2025-05-22 05:17:11,113 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:17:11,113 - P15228 - INFO - Após processar URL 15 Uso de memória: 135.57 MB
+2025-05-22 05:17:11,113 - P15228 - INFO - Processando URL 16/19: https://www.consultasocio.com/q/sa/bruno-barbosa-de-alencar
+2025-05-22 05:17:16,195 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\fa25581e8a8c8d0ee867fb1b55850e96.html
+2025-05-22 05:17:16,200 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 05:17:16,201 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:17:16,202 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 05:17:16,202 - P15228 - INFO - Candidates complement: 1 items
+2025-05-22 05:17:16,203 - P15228 - INFO - Candidates cep: 2 items
+2025-05-22 05:17:16,203 - P15228 - INFO - Após processar URL 16 Uso de memória: 135.57 MB
+2025-05-22 05:17:16,204 - P15228 - INFO - Processando URL 17/19: https://unifor.br/web/graduacao/comercio-exterior
+2025-05-22 05:17:41,088 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\bcf62fd4dd86b1754af7097a39bcda7d.html
+2025-05-22 05:17:42,076 - P15228 - INFO - Candidates address: 13 items
+2025-05-22 05:17:42,076 - P15228 - INFO - Candidates phone: 2 items
+2025-05-22 05:17:42,076 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 05:17:42,076 - P15228 - INFO - Candidates complement: 2 items
+2025-05-22 05:17:42,076 - P15228 - INFO - Candidates cep: 87 items
+2025-05-22 05:17:42,077 - P15228 - INFO - Após processar URL 17 Uso de memória: 137.17 MB
+2025-05-22 05:17:42,077 - P15228 - INFO - Processando URL 18/19: https://www.doctoralia.com.br/bruno-sthefan-bastos-barbosa/cardiologista/sao-paulo
+2025-05-22 05:17:42,077 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/bruno-sthefan-bastos-barbosa/cardiologista/sao-paulo
+2025-05-22 05:17:42,077 - P15228 - INFO - Após processar URL 18 Uso de memória: 132.85 MB
+2025-05-22 05:17:42,078 - P15228 - INFO - Processando URL 19/19: https://www.catalogo.med.br/doutor/bruno-sthefan-bastos-barbosa-2455752.htm
+2025-05-22 05:17:44,179 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\de3b859c369e36412de807b177c3f5ec.html
+2025-05-22 05:17:44,180 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 05:17:44,180 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 05:17:44,180 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 05:17:44,180 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 05:17:44,180 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 05:17:44,181 - P15228 - INFO - Após processar URL 19 Uso de memória: 132.85 MB
+2025-05-22 05:17:44,181 - P15228 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:17:44,181 - P15228 - INFO - Ranked address: 27 items
+2025-05-22 05:17:44,181 - P15228 - INFO - Ranked phone: 5 items
+2025-05-22 05:17:44,181 - P15228 - INFO - Ranked email: 3 items
+2025-05-22 05:17:44,182 - P15228 - INFO - Ranked complement: 5 items
+2025-05-22 05:17:44,182 - P15228 - INFO - Ranked cep: 92 items
+2025-05-22 05:17:44,182 - P15228 - INFO - Após agregação Uso de memória: 132.85 MB
+2025-05-22 05:17:44,182 - P15228 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Avenida Lins De Vasconcelos, 1042', 'Rua Doutor Luiz Migliano, 1986']
+2025-05-22 05:17:44,182 - P15228 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 05:17:44,182 - P15228 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 05:17:44,183 - P15228 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 05:17:44,183 - P15228 - INFO - Validando telefone: ['(11) 2189-5000', '21895000', '(11) 4349-9900']
+2025-05-22 05:17:44,183 - P15228 - INFO - Limpando texto extenso para campo phone: (11) 2189-5000...
+2025-05-22 05:17:44,184 - P15228 - INFO - Texto limpo: 11) 2189-5000
+2025-05-22 05:17:44,184 - P15228 - INFO - Telefone validado: 11) 2189-5000
+2025-05-22 05:17:44,184 - P15228 - INFO - Validando email: ['BBALENCAR@UOL.COM.BR', 'comex@unifor.br', 'webmaster@catalogo.med.br']
+2025-05-22 05:17:44,184 - P15228 - INFO - Limpando texto extenso para campo email: BBALENCAR@UOL.COM.BR...
+2025-05-22 05:17:44,184 - P15228 - INFO - Texto limpo: bbalencar@uol.com.br
+2025-05-22 05:17:44,185 - P15228 - INFO - Email validado: bbalencar@uol.com.br
+2025-05-22 05:17:44,185 - P15228 - INFO - Validando complemento: ['Sala 7 Ipiranga', 'Sala: 1601 Vila Olímpia', 'Sala  06 Sao Joaquim']
+2025-05-22 05:17:44,185 - P15228 - INFO - Limpando texto extenso para campo complement: Sala 7 Ipiranga...
+2025-05-22 05:17:44,185 - P15228 - INFO - Texto limpo: Sala 7 Ipiranga
+2025-05-22 05:17:44,185 - P15228 - INFO - Complemento validado: Sala 7 Ipiranga
+2025-05-22 05:17:44,185 - P15228 - INFO - Descobrindo cidade
+2025-05-22 05:17:44,186 - P15228 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 05:17:46,841 - P15228 - WARNING - Cidade não encontrada
+2025-05-22 05:17:46,841 - P15228 - INFO - Cidade descoberta: 
+2025-05-22 05:17:46,842 - P15228 - INFO - Tempo de execução de processamento completo do médico: 84.67 segundos
+2025-05-22 05:17:46,842 - P15228 - INFO - Resultado processado: {'Hash': 'b9196c395f4a15e0c54fc30770f111961b4dc767daca566fe7d0bbe28e55c59e', 'CRM': '127715', 'UF': 'SP', 'Firstname': 'BRUNO', 'LastName': 'BARBOSA DE ALENCAR', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Sala 7 Ipiranga', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 2189-5000', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'bbalencar@uol.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:17:46,843 - P15228 - INFO - Salvando lote de resultados
+2025-05-22 05:17:46,843 - P15228 - INFO - Após salvar resultados Uso de memória: 127.54 MB
+2025-05-22 05:17:46,844 - P15228 - INFO - Progresso: 86.4%
+2025-05-22 05:17:46,844 - P15228 - INFO - Tempo de execução de processamento do médico 3: 84.67 segundos
+2025-05-22 05:17:46,844 - P15228 - INFO - Tempo de execução de processamento do lote completo: 247.78 segundos

@@ -1,0 +1,594 @@
+2025-05-22 03:06:35,802 - P17320 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 03:06:35,803 - P17320 - INFO - Nome: RAFAEL BARRETO SILVA
+2025-05-22 03:06:35,803 - P17320 - INFO - Reiniciando driver do Chrome
+2025-05-22 03:06:37,245 - P17320 - INFO - Após reiniciar driver Uso de memória: 123.17 MB
+2025-05-22 03:06:37,246 - P17320 - INFO - Início do processamento Uso de memória: 123.17 MB
+2025-05-22 03:06:37,247 - P17320 - INFO - Iniciando busca para: RAFAEL BARRETO SILVA CRM 122568 SP telefone e-mail endereço
+2025-05-22 03:06:38,093 - P17320 - INFO - SearX results: 15 URLs
+2025-05-22 03:06:38,094 - P17320 - INFO - Após SearX Uso de memória: 123.19 MB
+2025-05-22 03:06:40,835 - P17320 - INFO - Google results: 6 URLs
+2025-05-22 03:06:40,835 - P17320 - INFO - Após Google Uso de memória: 124.41 MB
+2025-05-22 03:06:43,815 - P17320 - INFO - Bing results: 12 URLs
+2025-05-22 03:06:43,815 - P17320 - INFO - Após Bing Uso de memória: 125.75 MB
+2025-05-22 03:06:43,815 - P17320 - INFO - Total de URLs únicas: 22
+2025-05-22 03:06:43,816 - P17320 - INFO - Processando URL 1/22: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x8849596173534091426&market=pt-BR&src=SERPIC
+2025-05-22 03:06:47,187 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9a83ecf1c7833589e04e00d12d313825.html
+2025-05-22 03:06:47,213 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 03:06:47,213 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 03:06:47,213 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:06:47,214 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:06:47,214 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 03:06:47,214 - P17320 - INFO - Após processar URL 1 Uso de memória: 119.67 MB
+2025-05-22 03:06:47,214 - P17320 - INFO - Processando URL 2/22: https://www.consultacrm.com.br/index/profissionais/uid-8f392aad-f5c5-11ec-9e74-0a4aa568c625/rafael_barreto_silva
+2025-05-22 03:06:52,217 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\758a90160a699407fcf21ac6103a3177.html
+2025-05-22 03:06:52,227 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:06:52,227 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:06:52,228 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:06:52,228 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:06:52,228 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:06:52,228 - P17320 - INFO - Após processar URL 2 Uso de memória: 121.74 MB
+2025-05-22 03:06:52,228 - P17320 - INFO - Processando URL 3/22: https://www.classemedica.com.br/medico/275655-rafael-barreto-silva.htm
+2025-05-22 03:07:15,656 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\f8c4712b4a7c64945be04ba0516739b9.html
+2025-05-22 03:07:15,688 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:07:15,688 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:07:15,689 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:07:15,689 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:07:15,689 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:07:15,689 - P17320 - INFO - Após processar URL 3 Uso de memória: 124.84 MB
+2025-05-22 03:07:15,689 - P17320 - INFO - Processando URL 4/22: https://www.saobernardo.sp.gov.br/documents/10181/1230203/NM+2219+de+09.04.2021+-+Conteu%CC%81do+Integral.pdf/aa636632-f257-99f6-294f-28cc87545190
+2025-05-22 03:07:15,689 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1230203/NM+2219+de+09.04.2021+-+Conteu%CC%81do+Integral.pdf/aa636632-f257-99f6-294f-28cc87545190
+2025-05-22 03:07:15,690 - P17320 - INFO - Após processar URL 4 Uso de memória: 124.84 MB
+2025-05-22 03:07:15,690 - P17320 - INFO - Processando URL 5/22: https://me.med.br/dr-rafael-barreto/
+2025-05-22 03:07:19,195 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\3f5d99693b92565549450329c34d57b7.html
+2025-05-22 03:07:19,223 - P17320 - INFO - Candidates address: 3 items
+2025-05-22 03:07:19,223 - P17320 - INFO - Candidates phone: 10 items
+2025-05-22 03:07:19,223 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:07:19,223 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 03:07:19,224 - P17320 - INFO - Candidates cep: 5 items
+2025-05-22 03:07:19,224 - P17320 - INFO - Após processar URL 5 Uso de memória: 124.97 MB
+2025-05-22 03:07:19,224 - P17320 - INFO - Processando URL 6/22: https://www.helpsaude.com/rafael-barreto-silva-crmsp-122568
+2025-05-22 03:07:26,417 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\2d1ad573fece03680ad46553504ad519.html
+2025-05-22 03:07:26,458 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:07:26,459 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:07:26,460 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:07:26,461 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:07:26,461 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 03:07:26,462 - P17320 - INFO - Após processar URL 6 Uso de memória: 125.53 MB
+2025-05-22 03:07:26,462 - P17320 - INFO - Processando URL 7/22: https://agendarconsulta.com/perfil/dr-rafael-barreto-silva-1610993216
+2025-05-22 03:07:32,681 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9e3b0632e33ffd1f287705f121242a79.html
+2025-05-22 03:07:32,714 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:07:32,714 - P17320 - INFO - Candidates phone: 3 items
+2025-05-22 03:07:32,714 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:07:32,714 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:07:32,714 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 03:07:32,715 - P17320 - INFO - Após processar URL 7 Uso de memória: 125.60 MB
+2025-05-22 03:07:32,715 - P17320 - INFO - Processando URL 8/22: https://lp.rafaelbarreto.com/lp-dr-rafael-barreto/
+2025-05-22 03:07:36,820 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\1278c83402f9b76e4fe97c0f1a0846d0.html
+2025-05-22 03:07:36,849 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 03:07:36,852 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:07:36,852 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:07:36,853 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:07:36,853 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 03:07:36,854 - P17320 - INFO - Após processar URL 8 Uso de memória: 126.02 MB
+2025-05-22 03:07:36,854 - P17320 - INFO - Processando URL 9/22: https://www.boaconsulta.com/especialista/rafael-barreto-silva-6106cf01a2e00a632e002c2c
+2025-05-22 03:07:40,469 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\6d05a4854040442d735b0fed89a7e2ee.html
+2025-05-22 03:07:40,540 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 03:07:40,541 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:07:40,541 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:07:40,541 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:07:40,541 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:07:40,542 - P17320 - INFO - Após processar URL 9 Uso de memória: 126.30 MB
+2025-05-22 03:07:40,542 - P17320 - INFO - Processando URL 10/22: https://www.icm.com.br/team/dr-raphael-silva/
+2025-05-22 03:07:44,298 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d279a00e3b6b6feac720feca866083d7.html
+2025-05-22 03:07:44,309 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 03:07:44,310 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 03:07:44,310 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 03:07:44,310 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:07:44,311 - P17320 - INFO - Candidates cep: 4 items
+2025-05-22 03:07:44,312 - P17320 - INFO - Após processar URL 10 Uso de memória: 126.31 MB
+2025-05-22 03:07:44,314 - P17320 - INFO - Processando URL 11/22: https://colunacampinas.com.br/dr-rafael-barreto-silva/
+2025-05-22 03:07:50,428 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\1536244812afccbc274678f11d98510d.html
+2025-05-22 03:07:50,442 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:07:50,442 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:07:50,442 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:07:50,443 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:07:50,443 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:07:50,443 - P17320 - INFO - Após processar URL 11 Uso de memória: 126.34 MB
+2025-05-22 03:07:50,443 - P17320 - INFO - Processando URL 12/22: https://rafaelbarreto.com/?page_id=22179
+2025-05-22 03:08:04,679 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\1e48ee578c62b9e49d3d6d6825aab54d.html
+2025-05-22 03:08:04,702 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:08:04,702 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:08:04,703 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:08:04,703 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:08:04,703 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:08:04,703 - P17320 - INFO - Após processar URL 12 Uso de memória: 126.38 MB
+2025-05-22 03:08:04,704 - P17320 - INFO - Processando URL 13/22: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/d/e/a/deaf44730e0e34542f8cb777a9b28255d10474e2e073298269bd8e130a847eb5/cc5f2c2e-888e-466d-be50-df05d49f1f73-14105-DOE_18843_10_05_2010_60F_JUCESC_18843_08F.pdf
+2025-05-22 03:08:04,704 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/d/e/a/deaf44730e0e34542f8cb777a9b28255d10474e2e073298269bd8e130a847eb5/cc5f2c2e-888e-466d-be50-df05d49f1f73-14105-DOE_18843_10_05_2010_60F_JUCESC_18843_08F.pdf
+2025-05-22 03:08:04,707 - P17320 - INFO - Após processar URL 13 Uso de memória: 126.38 MB
+2025-05-22 03:08:04,708 - P17320 - INFO - Processando URL 14/22: https://guiamania.com.br/sp/empresa/dr-rafael-barreto-silva-sao-paulo-sp/
+2025-05-22 03:08:11,682 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\4893c43a23c24527d6e27de8d458df21.html
+2025-05-22 03:08:11,707 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 03:08:11,707 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 03:08:11,707 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:08:11,708 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:08:11,708 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 03:08:11,708 - P17320 - INFO - Após processar URL 14 Uso de memória: 127.64 MB
+2025-05-22 03:08:11,708 - P17320 - INFO - Processando URL 15/22: https://www.rafaelbarreto.com/
+2025-05-22 03:08:15,943 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d41e9a243f8005b13fe200f5147c5cec.html
+2025-05-22 03:08:16,174 - P17320 - INFO - Candidates address: 3 items
+2025-05-22 03:08:16,176 - P17320 - INFO - Candidates phone: 7 items
+2025-05-22 03:08:16,183 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:08:16,196 - P17320 - INFO - Candidates complement: 2 items
+2025-05-22 03:08:16,204 - P17320 - INFO - Candidates cep: 45 items
+2025-05-22 03:08:16,205 - P17320 - INFO - Após processar URL 15 Uso de memória: 130.21 MB
+2025-05-22 03:08:16,209 - P17320 - INFO - Processando URL 16/22: https://www.findhealthclinics.com/BR/Campinas/1993939524185350/Rafael-Barreto
+2025-05-22 03:08:20,190 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\86ba3e0a7659a334c6cb6e7ce3f8d368.html
+2025-05-22 03:08:20,220 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 03:08:20,220 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 03:08:20,220 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:08:20,220 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:08:20,220 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 03:08:20,220 - P17320 - INFO - Após processar URL 16 Uso de memória: 127.97 MB
+2025-05-22 03:08:20,221 - P17320 - INFO - Processando URL 17/22: https://www.solutudo.com.br/empresas/sp/campinas/ortopedia-e-traumatologia/dr-rafael-barreto-silva-21865505
+2025-05-22 03:08:24,802 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\05985abbb7fe6c4ca56cc4ec51899713.html
+2025-05-22 03:08:24,842 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:08:24,842 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 03:08:24,842 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:08:24,842 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:08:24,843 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 03:08:24,843 - P17320 - INFO - Após processar URL 17 Uso de memória: 129.53 MB
+2025-05-22 03:08:24,843 - P17320 - INFO - Processando URL 18/22: https://listamedicos.com/medico/rafael-barreto-silva
+2025-05-22 03:08:28,960 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\b6e4072c62ce212d8c0b74db62e4adcb.html
+2025-05-22 03:08:28,968 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:08:28,968 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:08:28,969 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:08:28,969 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:08:28,969 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 03:08:28,970 - P17320 - INFO - Após processar URL 18 Uso de memória: 129.83 MB
+2025-05-22 03:08:28,970 - P17320 - INFO - Processando URL 19/22: https://www.intermedicos.com.br/ortopedistas-em-campinas/rafael-barreto-silva
+2025-05-22 03:08:33,845 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\685cb3b8ca1297e31ec5db57f81f867b.html
+2025-05-22 03:08:34,160 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 03:08:34,161 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 03:08:34,161 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:08:34,162 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:08:34,162 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:08:34,162 - P17320 - INFO - Após processar URL 19 Uso de memória: 115.84 MB
+2025-05-22 03:08:34,163 - P17320 - INFO - Processando URL 20/22: https://www.medicosbrasil.com/profissional/rafael-barreto-silva
+2025-05-22 03:08:37,889 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\4abe5cbb60f5afd5d7b110a106a52d87.html
+2025-05-22 03:08:37,908 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:08:37,908 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:08:37,909 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:08:37,909 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:08:37,909 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:08:37,909 - P17320 - INFO - Após processar URL 20 Uso de memória: 118.25 MB
+2025-05-22 03:08:37,909 - P17320 - INFO - Processando URL 21/22: https://cnpj.biz/14031244000146
+2025-05-22 03:08:42,290 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\1afb4d4c474cf0f3f61b945b2ef662e9.html
+2025-05-22 03:08:42,308 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:08:42,308 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 03:08:42,308 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 03:08:42,308 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:08:42,308 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 03:08:42,309 - P17320 - INFO - Após processar URL 21 Uso de memória: 119.11 MB
+2025-05-22 03:08:42,309 - P17320 - INFO - Processando URL 22/22: https://www.consultacrm.com.br/index/medicos/uid-8f392aad-f5c5-11ec-9e74-0a4aa568c625/rafael_barreto_silva
+2025-05-22 03:08:45,964 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\30fcb6aa81692ba60e553217ac59a559.html
+2025-05-22 03:08:45,976 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:08:45,976 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:08:45,977 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:08:45,978 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:08:45,979 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:08:45,980 - P17320 - INFO - Após processar URL 22 Uso de memória: 121.78 MB
+2025-05-22 03:08:45,981 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:08:45,982 - P17320 - INFO - Ranked address: 10 items
+2025-05-22 03:08:45,983 - P17320 - INFO - Ranked phone: 21 items
+2025-05-22 03:08:45,984 - P17320 - INFO - Ranked email: 2 items
+2025-05-22 03:08:45,984 - P17320 - INFO - Ranked complement: 3 items
+2025-05-22 03:08:45,984 - P17320 - INFO - Ranked cep: 59 items
+2025-05-22 03:08:45,984 - P17320 - INFO - Após agregação Uso de memória: 121.78 MB
+2025-05-22 03:08:45,984 - P17320 - INFO - Validando endereço: ['Av. José Rocha Bomfim, 214', 'Rua José Rocha Bonfim, 214', 'Rua Cerqueira César, 315']
+2025-05-22 03:08:45,984 - P17320 - INFO - Endereço validado: Av. José Rocha Bomfim, 214
+2025-05-22 03:08:45,985 - P17320 - INFO - Limpando texto extenso para campo address: Av. José Rocha Bomfim, 214...
+2025-05-22 03:08:45,985 - P17320 - INFO - Texto limpo: Av. José Rocha Bomfim, 214
+2025-05-22 03:08:45,985 - P17320 - INFO - Validando telefone: ['(19) 97170-0020', '(19) 3708-9999', '(19) 99623-5033']
+2025-05-22 03:08:45,985 - P17320 - INFO - Limpando texto extenso para campo phone: (19) 97170-0020...
+2025-05-22 03:08:45,985 - P17320 - INFO - Texto limpo: 19) 97170-0020
+2025-05-22 03:08:45,986 - P17320 - INFO - Telefone validado: 19) 97170-0020
+2025-05-22 03:08:45,986 - P17320 - INFO - Validando email: ['icm@icm.com.br', 'matoscontabilidade@uol.com.br']
+2025-05-22 03:08:45,986 - P17320 - INFO - Limpando texto extenso para campo email: icm@icm.com.br...
+2025-05-22 03:08:45,987 - P17320 - INFO - Texto limpo: icm@icm.com.br
+2025-05-22 03:08:45,987 - P17320 - INFO - Email validado: icm@icm.com.br
+2025-05-22 03:08:45,987 - P17320 - INFO - Validando complemento: ['Bloco A1 - Sala 318 - 3º andar  ', 'Bloco A1 ', 'Sala 318 - 3º andar • São Paulo ']
+2025-05-22 03:08:45,987 - P17320 - INFO - Limpando texto extenso para campo complement: Bloco A1 - Sala 318 - 3º andar  ...
+2025-05-22 03:08:45,987 - P17320 - INFO - Texto limpo: Bloco A1 - Sala 318 - 3º andar
+2025-05-22 03:08:45,988 - P17320 - INFO - Complemento validado: Bloco A1 - Sala 318 - 3º andar
+2025-05-22 03:08:45,988 - P17320 - INFO - Descobrindo cidade
+2025-05-22 03:08:45,988 - P17320 - INFO - Buscando cidade: Av. José Rocha Bomfim cidade SP
+2025-05-22 03:08:48,245 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 03:08:48,245 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 03:08:48,245 - P17320 - INFO - Tempo de execução de processamento completo do médico: 131.00 segundos
+2025-05-22 03:08:48,246 - P17320 - INFO - Resultado processado: {'Hash': 'eb586ca9f5de11dabe4ea981f4536f2171658e98b97cc371ea0681768812e0dd', 'CRM': '122568', 'UF': 'SP', 'Firstname': 'RAFAEL', 'LastName': 'BARRETO SILVA', 'Medical specialty': '', 'Endereco Completo A1': 'Av. José Rocha Bomfim, 214', 'Address A1': 'Av. José Rocha Bomfim', 'Numero A1': '214', 'Complement A1': 'Bloco A1 - Sala 318 - 3º andar', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '19) 97170-0020', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'icm@icm.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:08:48,247 - P17320 - INFO - Progresso: 41.1%
+2025-05-22 03:08:48,248 - P17320 - INFO - Executando coleta de lixo
+2025-05-22 03:08:48,267 - P17320 - INFO - Após coleta de lixo Uso de memória: 117.71 MB
+2025-05-22 03:08:48,267 - P17320 - INFO - Tempo de execução de processamento do médico 1: 132.47 segundos
+2025-05-22 03:08:48,268 - P17320 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 03:08:48,268 - P17320 - INFO - Nome: MARCIO SILVA CHAVES
+2025-05-22 03:08:48,268 - P17320 - INFO - Início do processamento Uso de memória: 117.71 MB
+2025-05-22 03:08:48,268 - P17320 - INFO - Iniciando busca para: MARCIO SILVA CHAVES CRM 124640 SP telefone e-mail endereço
+2025-05-22 03:08:49,024 - P17320 - INFO - SearX results: 15 URLs
+2025-05-22 03:08:49,024 - P17320 - INFO - Após SearX Uso de memória: 117.71 MB
+2025-05-22 03:08:51,641 - P17320 - INFO - Google results: 10 URLs
+2025-05-22 03:08:51,642 - P17320 - INFO - Após Google Uso de memória: 117.76 MB
+2025-05-22 03:08:54,284 - P17320 - INFO - Bing results: 13 URLs
+2025-05-22 03:08:54,284 - P17320 - INFO - Após Bing Uso de memória: 119.73 MB
+2025-05-22 03:08:54,284 - P17320 - INFO - Total de URLs únicas: 23
+2025-05-22 03:08:54,284 - P17320 - INFO - Processando URL 1/23: https://doctoralia.com.br/contato
+2025-05-22 03:08:57,421 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\96b3b2a8f88f38e8ba2eb265571e4a31.html
+2025-05-22 03:08:57,444 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 03:08:57,450 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:08:57,451 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:08:57,451 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:08:57,451 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 03:08:57,452 - P17320 - INFO - Após processar URL 1 Uso de memória: 119.92 MB
+2025-05-22 03:08:57,452 - P17320 - INFO - Processando URL 2/23: https://www.doctoralia.com.br/servicos-de-tratamento/consulta-endocrinologia-e-metabologia/valinhos
+2025-05-22 03:08:57,452 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/servicos-de-tratamento/consulta-endocrinologia-e-metabologia/valinhos
+2025-05-22 03:08:57,453 - P17320 - INFO - Após processar URL 2 Uso de memória: 119.92 MB
+2025-05-22 03:08:57,454 - P17320 - INFO - Processando URL 3/23: https://guiamedico.cremesp.org.br/
+2025-05-22 03:09:01,682 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 03:09:01,689 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 03:09:01,690 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 03:09:01,690 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:09:01,690 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:01,690 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 03:09:01,690 - P17320 - INFO - Após processar URL 3 Uso de memória: 119.97 MB
+2025-05-22 03:09:01,691 - P17320 - INFO - Processando URL 4/23: https://www.saobernardo.sp.gov.br/documents/10181/1230203/NM+2236+de+02.07.2021+-+Conteu%CC%81do+Integral.pdf/fd8027f2-2a20-2047-a2c9-4ebc2fcdc07e
+2025-05-22 03:09:01,692 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1230203/NM+2236+de+02.07.2021+-+Conteu%CC%81do+Integral.pdf/fd8027f2-2a20-2047-a2c9-4ebc2fcdc07e
+2025-05-22 03:09:01,697 - P17320 - INFO - Após processar URL 4 Uso de memória: 119.97 MB
+2025-05-22 03:09:01,698 - P17320 - INFO - Processando URL 5/23: https://ioepa.com.br/pages/2020/2020.01.21.DOE.pdf
+2025-05-22 03:09:01,699 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://ioepa.com.br/pages/2020/2020.01.21.DOE.pdf
+2025-05-22 03:09:01,700 - P17320 - INFO - Após processar URL 5 Uso de memória: 119.97 MB
+2025-05-22 03:09:01,700 - P17320 - INFO - Processando URL 6/23: https://www.unimedcampinas.com.br/guia-medico/resultado?tiposervico=01&especialidade=124&cidade=53&tipo=unimed
+2025-05-22 03:09:06,184 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\5b2f850f4ae5adb7fb58daaf4519e97e.html
+2025-05-22 03:09:06,366 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 03:09:06,366 - P17320 - INFO - Candidates phone: 90 items
+2025-05-22 03:09:06,366 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:09:06,367 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:06,367 - P17320 - INFO - Candidates cep: 183 items
+2025-05-22 03:09:06,367 - P17320 - INFO - Após processar URL 6 Uso de memória: 121.17 MB
+2025-05-22 03:09:06,367 - P17320 - INFO - Processando URL 7/23: https://www.tjpi.jus.br/diarioeletronico/public/dj160708_8016.pdf
+2025-05-22 03:09:06,367 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.tjpi.jus.br/diarioeletronico/public/dj160708_8016.pdf
+2025-05-22 03:09:06,367 - P17320 - INFO - Após processar URL 7 Uso de memória: 120.08 MB
+2025-05-22 03:09:06,368 - P17320 - INFO - Processando URL 8/23: https://www.classemedica.com.br/medico/217333-marcio-silva-chaves.htm
+2025-05-22 03:09:11,941 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e7a36f8037618071c14a3cb34ed1501c.html
+2025-05-22 03:09:11,973 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:09:11,973 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:09:11,973 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:09:11,973 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:11,974 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:09:11,974 - P17320 - INFO - Após processar URL 8 Uso de memória: 120.18 MB
+2025-05-22 03:09:11,974 - P17320 - INFO - Processando URL 9/23: https://doutorcrm.com/marcio-silva-chaves
+2025-05-22 03:09:16,516 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e47184f7cc6e29be9575e54282d8d938.html
+2025-05-22 03:09:16,523 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:09:16,523 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:09:16,523 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:09:16,523 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:16,523 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:09:16,524 - P17320 - INFO - Após processar URL 9 Uso de memória: 120.43 MB
+2025-05-22 03:09:16,524 - P17320 - INFO - Processando URL 10/23: https://www.doctoralia.com.br/marcio-chaves/endocrinologista/campinas
+2025-05-22 03:09:16,524 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/marcio-chaves/endocrinologista/campinas
+2025-05-22 03:09:16,524 - P17320 - INFO - Após processar URL 10 Uso de memória: 120.43 MB
+2025-05-22 03:09:16,524 - P17320 - INFO - Processando URL 11/23: https://doctoralia.com.br/doencas/diabetes-gestacional
+2025-05-22 03:09:19,360 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\22d62bc20832e1f009bab35f460a57bc.html
+2025-05-22 03:09:19,414 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 03:09:19,414 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:09:19,415 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:09:19,415 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:19,415 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 03:09:19,416 - P17320 - INFO - Após processar URL 11 Uso de memória: 120.53 MB
+2025-05-22 03:09:19,416 - P17320 - INFO - Processando URL 12/23: https://clinica.work/especialista/marcio-silva-chaves-endocrinologista-e-metabologista-valinhos-sp
+2025-05-22 03:09:23,110 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\3f1b605e222b7339f4718ea1af2640fa.html
+2025-05-22 03:09:23,131 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:09:23,131 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:09:23,131 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:09:23,132 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:23,132 - P17320 - INFO - Candidates cep: 4 items
+2025-05-22 03:09:23,132 - P17320 - INFO - Após processar URL 12 Uso de memória: 113.57 MB
+2025-05-22 03:09:23,133 - P17320 - INFO - Processando URL 13/23: https://listamedicos.com/medico/marcio-silva-chaves
+2025-05-22 03:09:27,873 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\1cdcd1cf68d481bc46e1fb187354f6be.html
+2025-05-22 03:09:27,884 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:09:27,884 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:09:27,884 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:09:27,884 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:27,885 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 03:09:27,885 - P17320 - INFO - Após processar URL 13 Uso de memória: 119.21 MB
+2025-05-22 03:09:27,885 - P17320 - INFO - Processando URL 14/23: https://media.unimedcampinas.com.br/guia-medico/guia-medico-completo.pdf
+2025-05-22 03:09:27,885 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://media.unimedcampinas.com.br/guia-medico/guia-medico-completo.pdf
+2025-05-22 03:09:27,886 - P17320 - INFO - Após processar URL 14 Uso de memória: 118.26 MB
+2025-05-22 03:09:27,886 - P17320 - INFO - Processando URL 15/23: https://www.doctoralia.com.br/endocrinologista/valinhos
+2025-05-22 03:09:27,886 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/endocrinologista/valinhos
+2025-05-22 03:09:27,886 - P17320 - INFO - Após processar URL 15 Uso de memória: 118.26 MB
+2025-05-22 03:09:27,887 - P17320 - INFO - Processando URL 16/23: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x18072585027791282109&market=pt-BR&src=SERPIC
+2025-05-22 03:09:31,949 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\44bd6807323b0186bc5a6d1311656ee7.html
+2025-05-22 03:09:31,972 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 03:09:31,972 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 03:09:31,973 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:09:31,973 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:31,973 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:09:31,973 - P17320 - INFO - Após processar URL 16 Uso de memória: 118.78 MB
+2025-05-22 03:09:31,973 - P17320 - INFO - Processando URL 17/23: http://planosantacasadevalinhos.com.br/staff/marcio-silva-chaves/
+2025-05-22 03:09:34,084 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\52236340236f30000706beea5bd4f801.html
+2025-05-22 03:09:34,085 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:09:34,085 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:09:34,085 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:09:34,085 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:34,086 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:09:34,086 - P17320 - INFO - Após processar URL 17 Uso de memória: 118.78 MB
+2025-05-22 03:09:34,086 - P17320 - INFO - Processando URL 18/23: https://www.escavador.com/sobre/4125495/marcio-silva-chaves
+2025-05-22 03:09:38,092 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e26e6d6896ee110c89ed899ee1b909c9.html
+2025-05-22 03:09:38,109 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:09:38,110 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:09:38,110 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:09:38,110 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:38,110 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:09:38,110 - P17320 - INFO - Após processar URL 18 Uso de memória: 119.28 MB
+2025-05-22 03:09:38,111 - P17320 - INFO - Processando URL 19/23: https://www.helpsaude.com/marcio-silva-chaves-crmsp-124640
+2025-05-22 03:09:42,762 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\a9b1117f21b1720a10f2c00c4d2c5e88.html
+2025-05-22 03:09:42,778 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:09:42,779 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:09:42,780 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:09:42,780 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:42,780 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 03:09:42,780 - P17320 - INFO - Após processar URL 19 Uso de memória: 119.48 MB
+2025-05-22 03:09:42,781 - P17320 - INFO - Processando URL 20/23: https://www.boaconsulta.com/especialista/marcio-silva-chaves-6106c8b0a2e00a5ffd0018b1
+2025-05-22 03:09:45,725 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\79a5aa1576ab6fa8238e8970eadb69f0.html
+2025-05-22 03:09:45,796 - P17320 - INFO - Candidates address: 3 items
+2025-05-22 03:09:45,796 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:09:45,796 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:09:45,797 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:45,797 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:09:45,797 - P17320 - INFO - Após processar URL 20 Uso de memória: 119.67 MB
+2025-05-22 03:09:45,797 - P17320 - INFO - Processando URL 21/23: https://www.benditoguia.com.br/empresa/dr-marcio-chaves-endocrinologista-vila-embare-valinhos-sp
+2025-05-22 03:09:49,811 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\de7a9faf4d747d4c4c0166a1ec45f61f.html
+2025-05-22 03:09:49,831 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 03:09:49,832 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 03:09:49,832 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:09:49,832 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:49,832 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 03:09:49,832 - P17320 - INFO - Após processar URL 21 Uso de memória: 119.50 MB
+2025-05-22 03:09:49,833 - P17320 - INFO - Processando URL 22/23: https://cliniguia.com/profissionais/marcio-silva-chaves-980016278420053/
+2025-05-22 03:09:55,531 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\440ea0adb2b737cb8621e7728f8a625b.html
+2025-05-22 03:09:55,578 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:09:55,578 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:09:55,579 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:09:55,579 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:55,579 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:09:55,579 - P17320 - INFO - Após processar URL 22 Uso de memória: 120.16 MB
+2025-05-22 03:09:55,579 - P17320 - INFO - Processando URL 23/23: https://consultacrm.com.br/
+2025-05-22 03:09:57,678 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:09:57,688 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:09:57,688 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:09:57,688 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:09:57,689 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:09:57,689 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:09:57,689 - P17320 - INFO - Após processar URL 23 Uso de memória: 120.32 MB
+2025-05-22 03:09:57,690 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:09:57,690 - P17320 - INFO - Ranked address: 9 items
+2025-05-22 03:09:57,690 - P17320 - INFO - Ranked phone: 93 items
+2025-05-22 03:09:57,691 - P17320 - INFO - Ranked email: 0 items
+2025-05-22 03:09:57,691 - P17320 - INFO - Ranked complement: 0 items
+2025-05-22 03:09:57,692 - P17320 - INFO - Ranked cep: 189 items
+2025-05-22 03:09:57,692 - P17320 - INFO - Após agregação Uso de memória: 120.32 MB
+2025-05-22 03:09:57,693 - P17320 - INFO - Validando endereço: ['Rua Visconde do Rio Branco, 1488', 'Rua Frei Caneca, 1282', 'R.QUART.INDIV.C/ACOMP/BANH.PRIV)PER-CAPITA-701835995']
+2025-05-22 03:09:57,693 - P17320 - INFO - Endereço validado: Rua Visconde do Rio Branco, 1488
+2025-05-22 03:09:57,693 - P17320 - INFO - Limpando texto extenso para campo address: Rua Visconde do Rio Branco, 1488...
+2025-05-22 03:09:57,693 - P17320 - INFO - Texto limpo: Rua Visconde do Rio Branco, 1488
+2025-05-22 03:09:57,693 - P17320 - INFO - Validando telefone: ['(11) 4349-9900', '(19) 3233-1349', '(19) 2042-2520']
+2025-05-22 03:09:57,693 - P17320 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 03:09:57,694 - P17320 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 03:09:57,694 - P17320 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 03:09:57,694 - P17320 - INFO - Descobrindo cidade
+2025-05-22 03:09:57,694 - P17320 - INFO - Buscando cidade: Rua Visconde do Rio Branco cidade SP
+2025-05-22 03:10:00,338 - P17320 - INFO - Cidade encontrada: Diadema
+2025-05-22 03:10:00,339 - P17320 - INFO - Limpando texto extenso para campo city: Diadema...
+2025-05-22 03:10:00,339 - P17320 - INFO - Texto limpo: Diadema
+2025-05-22 03:10:00,341 - P17320 - INFO - Cidade descoberta: Diadema
+2025-05-22 03:10:00,342 - P17320 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 03:10:00,343 - P17320 - INFO - Iniciando busca de CEP em cascata para: Rua Visconde do Rio Branco, Diadema, SP
+2025-05-22 03:10:00,343 - P17320 - INFO - Método 1: ViaCEP API
+2025-05-22 03:10:00,344 - P17320 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SP/diadema/rua%20visconde%20do%20rio%20branco/json/
+2025-05-22 03:10:01,042 - P17320 - WARNING - ViaCEP retornou status 200 ou nenhum resultado
+2025-05-22 03:10:01,043 - P17320 - INFO - Método 2: BrasilAPI
+2025-05-22 03:10:01,044 - P17320 - INFO - Buscando na BrasilAPI: Rua Visconde do Rio Branco, Diadema, SP
+2025-05-22 03:10:01,544 - P17320 - INFO - Consultando BrasilAPI: https://brasilapi.com.br/api/cep/v2/35135084
+2025-05-22 03:10:01,823 - P17320 - WARNING - BrasilAPI retornou status 404
+2025-05-22 03:10:01,826 - P17320 - INFO - Método 3: Web Scraping do Google
+2025-05-22 03:10:01,826 - P17320 - INFO - Buscando CEP: CEP da Rua Visconde do Rio Branco, Diadema
+2025-05-22 03:10:03,769 - P17320 - INFO - CEP encontrado: 09910-470
+2025-05-22 03:10:03,770 - P17320 - INFO - CEP encontrado via Google: 09910-470
+2025-05-22 03:10:03,770 - P17320 - INFO - Dados de CEP encontrados: {'cep': '09910-470', 'logradouro': 'Rua Visconde do Rio Branco', 'bairro': '', 'localidade': 'Diadema', 'uf': 'SP', 'complemento': ''}
+2025-05-22 03:10:03,771 - P17320 - INFO - Limpando texto extenso para campo city: Diadema...
+2025-05-22 03:10:03,771 - P17320 - INFO - Texto limpo: Diadema
+2025-05-22 03:10:03,772 - P17320 - INFO - Limpando texto extenso para campo state: SP...
+2025-05-22 03:10:03,772 - P17320 - INFO - Texto limpo: SP
+2025-05-22 03:10:03,772 - P17320 - INFO - Tempo de execução de processamento completo do médico: 75.50 segundos
+2025-05-22 03:10:03,772 - P17320 - INFO - Resultado processado: {'Hash': '5ef9c2db3ec159ed7cf8f3e4dc3fbb50e2b34736f38d83e28efe85398ed49734', 'CRM': '124640', 'UF': 'SP', 'Firstname': 'MARCIO', 'LastName': 'SILVA CHAVES', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Visconde do Rio Branco, 1488', 'Address A1': 'Rua Visconde do Rio Branco', 'Numero A1': '1488', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '09910-470', 'City A1': 'Diadema', 'State A1': 'SP', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': '', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:10:03,775 - P17320 - INFO - Progresso: 41.6%
+2025-05-22 03:10:03,778 - P17320 - INFO - Tempo de execução de processamento do médico 2: 75.51 segundos
+2025-05-22 03:10:03,779 - P17320 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 03:10:03,779 - P17320 - INFO - Nome: DIOGO COSTA DE ALMEIDA
+2025-05-22 03:10:03,780 - P17320 - INFO - Início do processamento Uso de memória: 119.79 MB
+2025-05-22 03:10:03,780 - P17320 - INFO - Iniciando busca para: DIOGO COSTA DE ALMEIDA CRM 126502 SP telefone e-mail endereço
+2025-05-22 03:10:04,589 - P17320 - INFO - SearX results: 15 URLs
+2025-05-22 03:10:04,590 - P17320 - INFO - Após SearX Uso de memória: 119.79 MB
+2025-05-22 03:10:07,208 - P17320 - INFO - Google results: 10 URLs
+2025-05-22 03:10:07,209 - P17320 - INFO - Após Google Uso de memória: 120.55 MB
+2025-05-22 03:10:09,824 - P17320 - INFO - Bing results: 12 URLs
+2025-05-22 03:10:09,824 - P17320 - INFO - Após Bing Uso de memória: 121.30 MB
+2025-05-22 03:10:09,824 - P17320 - INFO - Total de URLs únicas: 19
+2025-05-22 03:10:09,825 - P17320 - INFO - Processando URL 1/19: https://www.intermedicos.com.br/ortopedistas-em-sao-paulo/diogo-costa-de-almeida
+2025-05-22 03:10:13,915 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\528b23e19213bf360614fe1bf8ef33b9.html
+2025-05-22 03:10:13,933 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 03:10:13,933 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 03:10:13,933 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:10:13,933 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:13,934 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:13,934 - P17320 - INFO - Após processar URL 1 Uso de memória: 121.39 MB
+2025-05-22 03:10:13,934 - P17320 - INFO - Processando URL 2/19: https://www.classemedica.com.br/medico/81565-diogo-costa-de-almeida.htm
+2025-05-22 03:10:19,802 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7b08ae78d4edfc0d1004aec426157d3f.html
+2025-05-22 03:10:19,830 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:10:19,830 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:19,831 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:10:19,831 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:19,831 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:19,831 - P17320 - INFO - Após processar URL 2 Uso de memória: 121.95 MB
+2025-05-22 03:10:19,831 - P17320 - INFO - Processando URL 3/19: https://guiamedico.cremesp.org.br/
+2025-05-22 03:10:22,576 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 03:10:22,582 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 03:10:22,582 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 03:10:22,582 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:10:22,582 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:22,583 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 03:10:22,583 - P17320 - INFO - Após processar URL 3 Uso de memória: 121.29 MB
+2025-05-22 03:10:22,583 - P17320 - INFO - Processando URL 4/19: https://www.saobernardo.sp.gov.br/documents/10181/1441964/NM+2296+de+27.05.2022+-+Conteu%CC%81do+Integral.pdf/2c73ad04-2731-f28a-6128-0ca077c4aa2c
+2025-05-22 03:10:22,583 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1441964/NM+2296+de+27.05.2022+-+Conteu%CC%81do+Integral.pdf/2c73ad04-2731-f28a-6128-0ca077c4aa2c
+2025-05-22 03:10:22,583 - P17320 - INFO - Após processar URL 4 Uso de memória: 121.29 MB
+2025-05-22 03:10:22,583 - P17320 - INFO - Processando URL 5/19: https://drdiogoalmeida.com/
+2025-05-22 03:10:29,825 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\bec834480cd37b41b2530b392a7c6696.html
+2025-05-22 03:10:29,854 - P17320 - INFO - Candidates address: 4 items
+2025-05-22 03:10:29,854 - P17320 - INFO - Candidates phone: 5 items
+2025-05-22 03:10:29,854 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:10:29,854 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:29,855 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 03:10:29,855 - P17320 - INFO - Após processar URL 5 Uso de memória: 121.29 MB
+2025-05-22 03:10:29,855 - P17320 - INFO - Processando URL 6/19: https://www.boaconsulta.com/especialista/diogo-costa-de-almeida-6106f1bea2e00a713f0089f2
+2025-05-22 03:10:32,782 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\1fcc894274892f41bdaf34cec4bb8a9d.html
+2025-05-22 03:10:32,848 - P17320 - INFO - Candidates address: 12 items
+2025-05-22 03:10:32,849 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:32,849 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:10:32,849 - P17320 - INFO - Candidates complement: 3 items
+2025-05-22 03:10:32,849 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:32,849 - P17320 - INFO - Após processar URL 6 Uso de memória: 121.29 MB
+2025-05-22 03:10:32,850 - P17320 - INFO - Processando URL 7/19: https://www.doctoralia.com.br/diogo-costa-almeida/ortopedista-traumatologista/sao-paulo
+2025-05-22 03:10:32,850 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/diogo-costa-almeida/ortopedista-traumatologista/sao-paulo
+2025-05-22 03:10:32,850 - P17320 - INFO - Após processar URL 7 Uso de memória: 121.29 MB
+2025-05-22 03:10:32,850 - P17320 - INFO - Processando URL 8/19: https://www.intermedicos.com.br/ortopedistas-em-sao-paulo/diogo-costa-de-almeida#:~:text=Dr%20Diogo%20Costa%20de%20Almeida%2C%20CRM%20126502%2C%20atua,Tratamentos%20oferecidos%20para...%20Bom%20m%C3%A9dico%20educado%20muito%20pontual.
+2025-05-22 03:10:36,766 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\db34304ba761842e14d7a17c50e250b3.html
+2025-05-22 03:10:36,785 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 03:10:36,785 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 03:10:36,786 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:10:36,786 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:36,786 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:36,786 - P17320 - INFO - Após processar URL 8 Uso de memória: 121.29 MB
+2025-05-22 03:10:36,786 - P17320 - INFO - Processando URL 9/19: https://www.jornalminasgerais.mg.gov.br/modulos/www.jornalminasgerais.mg.gov.br//diarioOficial/2023/05/31/jornal/caderno1_2023-05-31.pdf
+2025-05-22 03:10:36,786 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.jornalminasgerais.mg.gov.br/modulos/www.jornalminasgerais.mg.gov.br//diarioOficial/2023/05/31/jornal/caderno1_2023-05-31.pdf
+2025-05-22 03:10:36,787 - P17320 - INFO - Após processar URL 9 Uso de memória: 121.29 MB
+2025-05-22 03:10:36,787 - P17320 - INFO - Processando URL 10/19: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1378982068.pdf
+2025-05-22 03:10:36,787 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1378982068.pdf
+2025-05-22 03:10:36,787 - P17320 - INFO - Após processar URL 10 Uso de memória: 121.29 MB
+2025-05-22 03:10:36,787 - P17320 - INFO - Processando URL 11/19: https://www.saobernardo.sp.gov.br/documents/10181/1018801/NM+2105+de+24.01.2020+-+Conteu%CC%81do+Integral.pdf/feb1bce3-52a0-888d-d916-549ab020fad6
+2025-05-22 03:10:36,787 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1018801/NM+2105+de+24.01.2020+-+Conteu%CC%81do+Integral.pdf/feb1bce3-52a0-888d-d916-549ab020fad6
+2025-05-22 03:10:36,788 - P17320 - INFO - Após processar URL 11 Uso de memória: 121.29 MB
+2025-05-22 03:10:36,788 - P17320 - INFO - Processando URL 12/19: https://www.rededorsaoluiz.com.br/encontre-um-medico/perfil/diogo-costa-de-almeida
+2025-05-22 03:10:42,741 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\3d8cd69cc18ac3ba6a4483b227c455b1.html
+2025-05-22 03:10:42,865 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:10:42,865 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 03:10:42,865 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:10:42,865 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:42,865 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:42,866 - P17320 - INFO - Após processar URL 12 Uso de memória: 124.06 MB
+2025-05-22 03:10:42,866 - P17320 - INFO - Processando URL 13/19: https://www.intermedicos.com.br/ortopedistas-em-sao-paulo
+2025-05-22 03:10:45,743 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d0dbe778270ae6faa9a742365ace112e.html
+2025-05-22 03:10:45,780 - P17320 - INFO - Candidates address: 15 items
+2025-05-22 03:10:45,781 - P17320 - INFO - Candidates phone: 25 items
+2025-05-22 03:10:45,781 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:10:45,781 - P17320 - INFO - Candidates complement: 2 items
+2025-05-22 03:10:45,781 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 03:10:45,781 - P17320 - INFO - Após processar URL 13 Uso de memória: 121.30 MB
+2025-05-22 03:10:45,781 - P17320 - INFO - Processando URL 14/19: https://www.opmed.com.br/equipe
+2025-05-22 03:10:50,263 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\07da0ddd67f7cfa214c6905915536d6a.html
+2025-05-22 03:10:50,270 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 03:10:50,271 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 03:10:50,271 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:10:50,271 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:50,272 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 03:10:50,275 - P17320 - INFO - Após processar URL 14 Uso de memória: 121.30 MB
+2025-05-22 03:10:50,276 - P17320 - INFO - Processando URL 15/19: https://jucas.ce.gov.br/wp-content/uploads/2022/01/095PCG2021-2.pdf
+2025-05-22 03:10:50,277 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://jucas.ce.gov.br/wp-content/uploads/2022/01/095PCG2021-2.pdf
+2025-05-22 03:10:50,279 - P17320 - INFO - Após processar URL 15 Uso de memória: 121.30 MB
+2025-05-22 03:10:50,279 - P17320 - INFO - Processando URL 16/19: https://www.intermedicos.com.br/contato
+2025-05-22 03:10:52,563 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\0aaf1b2c48945dce2fd4004ea2d52f79.html
+2025-05-22 03:10:52,568 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:10:52,568 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:52,568 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:10:52,569 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:52,569 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:52,569 - P17320 - INFO - Após processar URL 16 Uso de memória: 121.30 MB
+2025-05-22 03:10:52,569 - P17320 - INFO - Processando URL 17/19: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/a/5/8/a58f3c110baaeaf4bac1f4283d69ec284d5aa494d9c6e1f755776b8638977ab1/617f147f-0763-477b-8597-1b2cc4f4347a-14931-DOE_18667_12_08_2009_36F.pdf
+2025-05-22 03:10:52,570 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/a/5/8/a58f3c110baaeaf4bac1f4283d69ec284d5aa494d9c6e1f755776b8638977ab1/617f147f-0763-477b-8597-1b2cc4f4347a-14931-DOE_18667_12_08_2009_36F.pdf
+2025-05-22 03:10:52,571 - P17320 - INFO - Após processar URL 17 Uso de memória: 121.30 MB
+2025-05-22 03:10:52,572 - P17320 - INFO - Processando URL 18/19: https://consultacrm.com.br/
+2025-05-22 03:10:57,767 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:10:57,779 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:10:57,779 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:57,780 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:10:57,780 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:57,780 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:57,780 - P17320 - INFO - Após processar URL 18 Uso de memória: 121.30 MB
+2025-05-22 03:10:57,781 - P17320 - INFO - Processando URL 19/19: https://www.medicosbrasil.com/profissional/diogo-costa-de-almeida
+2025-05-22 03:11:00,010 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\5c3e8f5b5db13a3f9258c244743b6cf2.html
+2025-05-22 03:11:00,012 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 03:11:00,012 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 03:11:00,012 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 03:11:00,012 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:00,012 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 03:11:00,012 - P17320 - INFO - Após processar URL 19 Uso de memória: 121.30 MB
+2025-05-22 03:11:00,013 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:11:00,013 - P17320 - INFO - Ranked address: 33 items
+2025-05-22 03:11:00,013 - P17320 - INFO - Ranked phone: 31 items
+2025-05-22 03:11:00,013 - P17320 - INFO - Ranked email: 0 items
+2025-05-22 03:11:00,013 - P17320 - INFO - Ranked complement: 5 items
+2025-05-22 03:11:00,014 - P17320 - INFO - Ranked cep: 6 items
+2025-05-22 03:11:00,014 - P17320 - INFO - Após agregação Uso de memória: 121.30 MB
+2025-05-22 03:11:00,014 - P17320 - INFO - Validando endereço: ['Av. Portugal, 934', 'Rua Frei Caneca, 1282', 'R. Voluntários da Pátria, 3997']
+2025-05-22 03:11:00,014 - P17320 - INFO - Endereço validado: Av. Portugal, 934
+2025-05-22 03:11:00,014 - P17320 - INFO - Limpando texto extenso para campo address: Av. Portugal, 934...
+2025-05-22 03:11:00,015 - P17320 - INFO - Texto limpo: Av. Portugal, 934
+2025-05-22 03:11:00,015 - P17320 - INFO - Validando telefone: ['(11) 5094-1220', '(11) 4349-9900', '(11) 3172-6800']
+2025-05-22 03:11:00,015 - P17320 - INFO - Limpando texto extenso para campo phone: (11) 5094-1220...
+2025-05-22 03:11:00,015 - P17320 - INFO - Texto limpo: 11) 5094-1220
+2025-05-22 03:11:00,016 - P17320 - INFO - Telefone validado: 11) 5094-1220
+2025-05-22 03:11:00,017 - P17320 - INFO - Validando complemento: ['Conjunto 805', 'Sala 62', 'Salas Vargas']
+2025-05-22 03:11:00,017 - P17320 - INFO - Limpando texto extenso para campo complement: Conjunto 805...
+2025-05-22 03:11:00,017 - P17320 - INFO - Texto limpo: Conjunto 805
+2025-05-22 03:11:00,017 - P17320 - INFO - Complemento validado: Conjunto 805
+2025-05-22 03:11:00,017 - P17320 - INFO - Descobrindo cidade
+2025-05-22 03:11:00,018 - P17320 - INFO - Buscando cidade: Av. Portugal cidade SP
+2025-05-22 03:11:02,740 - P17320 - INFO - Cidade encontrada: São Paulo
+2025-05-22 03:11:02,740 - P17320 - INFO - Limpando texto extenso para campo city: São Paulo...
+2025-05-22 03:11:02,741 - P17320 - INFO - Texto limpo: São Paulo
+2025-05-22 03:11:02,741 - P17320 - INFO - Cidade descoberta: São Paulo
+2025-05-22 03:11:02,741 - P17320 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 03:11:02,742 - P17320 - INFO - Iniciando busca de CEP em cascata para: Av. Portugal, São Paulo, SP
+2025-05-22 03:11:02,743 - P17320 - INFO - Método 1: ViaCEP API
+2025-05-22 03:11:02,743 - P17320 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SP/sao%20paulo/avenida%20portugal/json/
+2025-05-22 03:11:03,486 - P17320 - INFO - Dados encontrados no ViaCEP: {'cep': '04559-906', 'logradouro': 'Avenida Portugal', 'complemento': '474', 'unidade': 'Edifício Cullinan', 'bairro': 'Brooklin Paulista', 'localidade': 'São Paulo', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3550308', 'gia': '1004', 'ddd': '11', 'siafi': '7107'}
+2025-05-22 03:11:03,489 - P17320 - INFO - CEP encontrado via ViaCEP: 04559-906
+2025-05-22 03:11:03,490 - P17320 - INFO - Dados de CEP encontrados: {'cep': '04559-906', 'logradouro': 'Avenida Portugal', 'complemento': '474', 'unidade': 'Edifício Cullinan', 'bairro': 'Brooklin Paulista', 'localidade': 'São Paulo', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3550308', 'gia': '1004', 'ddd': '11', 'siafi': '7107'}
+2025-05-22 03:11:03,490 - P17320 - INFO - Limpando texto extenso para campo bairro: Brooklin Paulista...
+2025-05-22 03:11:03,490 - P17320 - INFO - Texto limpo: Brooklin Paulista
+2025-05-22 03:11:03,491 - P17320 - INFO - Limpando texto extenso para campo city: São Paulo...
+2025-05-22 03:11:03,492 - P17320 - INFO - Texto limpo: São Paulo
+2025-05-22 03:11:03,493 - P17320 - INFO - Limpando texto extenso para campo state: SP...
+2025-05-22 03:11:03,494 - P17320 - INFO - Texto limpo: SP
+2025-05-22 03:11:03,494 - P17320 - INFO - Tempo de execução de processamento completo do médico: 59.71 segundos
+2025-05-22 03:11:03,495 - P17320 - INFO - Resultado processado: {'Hash': '95b032d86cf6e8bf6d26bcc0bfae9b832c412a70daad2a00b9caad9ae647ece5', 'CRM': '126502', 'UF': 'SP', 'Firstname': 'DIOGO', 'LastName': 'COSTA DE ALMEIDA', 'Medical specialty': '', 'Endereco Completo A1': 'Av. Portugal, 934', 'Address A1': 'Av. Portugal', 'Numero A1': '934', 'Complement A1': 'Conjunto 805', 'Bairro A1': 'Brooklin Paulista', 'postal code A1': '04559-906', 'City A1': 'São Paulo', 'State A1': 'SP', 'Phone A1': '11) 5094-1220', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': '', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:11:03,495 - P17320 - INFO - Salvando lote de resultados
+2025-05-22 03:11:03,496 - P17320 - INFO - Após salvar resultados Uso de memória: 119.77 MB
+2025-05-22 03:11:03,498 - P17320 - INFO - Progresso: 42.0%
+2025-05-22 03:11:03,501 - P17320 - INFO - Tempo de execução de processamento do médico 3: 59.72 segundos
+2025-05-22 03:11:03,501 - P17320 - INFO - Tempo de execução de processamento do lote completo: 267.70 segundos

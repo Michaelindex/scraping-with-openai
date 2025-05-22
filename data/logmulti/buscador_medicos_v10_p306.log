@@ -1,0 +1,628 @@
+2025-05-22 04:40:43,410 - P14756 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 04:40:43,410 - P14756 - INFO - Nome: KELLY APARECIDA MARTINS
+2025-05-22 04:40:43,410 - P14756 - INFO - Reiniciando driver do Chrome
+2025-05-22 04:40:44,711 - P14756 - INFO - Após reiniciar driver Uso de memória: 128.00 MB
+2025-05-22 04:40:44,711 - P14756 - INFO - Início do processamento Uso de memória: 128.00 MB
+2025-05-22 04:40:44,712 - P14756 - INFO - Iniciando busca para: KELLY APARECIDA MARTINS CRM 12450 SC telefone e-mail endereço
+2025-05-22 04:40:45,540 - P14756 - INFO - SearX results: 15 URLs
+2025-05-22 04:40:45,540 - P14756 - INFO - Após SearX Uso de memória: 128.00 MB
+2025-05-22 04:40:48,214 - P14756 - INFO - Google results: 15 URLs
+2025-05-22 04:40:48,214 - P14756 - INFO - Após Google Uso de memória: 129.16 MB
+2025-05-22 04:40:50,809 - P14756 - INFO - Bing results: 15 URLs
+2025-05-22 04:40:50,809 - P14756 - INFO - Após Bing Uso de memória: 129.17 MB
+2025-05-22 04:40:50,809 - P14756 - INFO - Total de URLs únicas: 35
+2025-05-22 04:40:50,809 - P14756 - INFO - Processando URL 1/35: https://crmsc.org.br/contatos/
+2025-05-22 04:40:54,041 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\851aac2848c6683a42ea3713a621a332.html
+2025-05-22 04:40:54,076 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:40:54,076 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:40:54,077 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:40:54,077 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 04:40:54,077 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:40:54,077 - P14756 - INFO - Após processar URL 1 Uso de memória: 129.53 MB
+2025-05-22 04:40:54,078 - P14756 - INFO - Processando URL 2/35: https://www.tjac.jus.br/wp-content/uploads/2024/08/DE20240813.pdf
+2025-05-22 04:40:54,078 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.tjac.jus.br/wp-content/uploads/2024/08/DE20240813.pdf
+2025-05-22 04:40:54,079 - P14756 - INFO - Após processar URL 2 Uso de memória: 129.54 MB
+2025-05-22 04:40:54,079 - P14756 - INFO - Processando URL 3/35: https://www.medicosbrasil.com/profissional/aldineia-aparecida-martins
+2025-05-22 04:40:57,674 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\0ef2444b938baf959dad2ef99900ad3a.html
+2025-05-22 04:40:57,698 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:40:57,698 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:40:57,699 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:40:57,699 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:40:57,699 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:40:57,699 - P14756 - INFO - Após processar URL 3 Uso de memória: 131.50 MB
+2025-05-22 04:40:57,699 - P14756 - INFO - Processando URL 4/35: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20190509&idorgao=852
+2025-05-22 04:41:00,298 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\c6a10afe5c788ddd5c2d4b152044f936.html
+2025-05-22 04:41:01,196 - P14756 - INFO - Candidates address: 8 items
+2025-05-22 04:41:01,201 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:01,202 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:41:01,202 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:01,203 - P14756 - INFO - Candidates cep: 47 items
+2025-05-22 04:41:01,203 - P14756 - INFO - Após processar URL 4 Uso de memória: 129.25 MB
+2025-05-22 04:41:01,204 - P14756 - INFO - Processando URL 5/35: https://cnpj.biz/49310120000184
+2025-05-22 04:41:05,672 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\ca9e5cf820b44242d902e1f47573e58e.html
+2025-05-22 04:41:05,691 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:41:05,693 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 04:41:05,694 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:41:05,694 - P14756 - INFO - Candidates complement: 2 items
+2025-05-22 04:41:05,694 - P14756 - INFO - Candidates cep: 3 items
+2025-05-22 04:41:05,695 - P14756 - INFO - Após processar URL 5 Uso de memória: 127.31 MB
+2025-05-22 04:41:05,695 - P14756 - INFO - Processando URL 6/35: https://ortoimagemtb.com.br/corpo-clinico/dr-rafael-olivio-martins/
+2025-05-22 04:41:11,614 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\8ca8b233471e049838a2b2aa851f9e09.html
+2025-05-22 04:41:11,655 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 04:41:11,686 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 04:41:11,700 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:41:11,726 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 04:41:11,732 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:41:11,733 - P14756 - INFO - Após processar URL 6 Uso de memória: 127.34 MB
+2025-05-22 04:41:11,735 - P14756 - INFO - Processando URL 7/35: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1213875516.pdf
+2025-05-22 04:41:11,735 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1213875516.pdf
+2025-05-22 04:41:11,735 - P14756 - INFO - Após processar URL 7 Uso de memória: 127.34 MB
+2025-05-22 04:41:11,735 - P14756 - INFO - Processando URL 8/35: https://www.consultacrm.com.br/index/contato
+2025-05-22 04:41:15,905 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\770622092e11df0ef8d0ed5d383f74a3.html
+2025-05-22 04:41:15,918 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:41:15,918 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:15,919 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:41:15,919 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:15,919 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:41:15,919 - P14756 - INFO - Após processar URL 8 Uso de memória: 127.49 MB
+2025-05-22 04:41:15,920 - P14756 - INFO - Processando URL 9/35: https://www.doctoralia.com.br/luciano-langie-martins-2/psiquiatra/belo-horizonte
+2025-05-22 04:41:15,920 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/luciano-langie-martins-2/psiquiatra/belo-horizonte
+2025-05-22 04:41:15,920 - P14756 - INFO - Após processar URL 9 Uso de memória: 127.49 MB
+2025-05-22 04:41:15,920 - P14756 - INFO - Processando URL 10/35: https://crmsc.org.br/regionais/delegacias-regionais/
+2025-05-22 04:41:19,266 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\4fdceacb77d0ad074a23bf192c406e73.html
+2025-05-22 04:41:19,335 - P14756 - INFO - Candidates address: 8 items
+2025-05-22 04:41:19,336 - P14756 - INFO - Candidates phone: 10 items
+2025-05-22 04:41:19,336 - P14756 - INFO - Candidates email: 14 items
+2025-05-22 04:41:19,337 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 04:41:19,337 - P14756 - INFO - Candidates cep: 9 items
+2025-05-22 04:41:19,337 - P14756 - INFO - Após processar URL 10 Uso de memória: 127.49 MB
+2025-05-22 04:41:19,337 - P14756 - INFO - Processando URL 11/35: https://www.consultacrm.com.br/index/especialidades
+2025-05-22 04:41:22,874 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\3cb327d5e0f962fa7a1db5a948fb6f40.html
+2025-05-22 04:41:22,999 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:41:22,999 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:23,000 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:41:23,000 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:23,000 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:41:23,000 - P14756 - INFO - Após processar URL 11 Uso de memória: 127.58 MB
+2025-05-22 04:41:23,000 - P14756 - INFO - Processando URL 12/35: https://www.boaconsulta.com/especialista/kelly-aparecida-martins-610627aea2e00a0ea60035ac
+2025-05-22 04:41:26,322 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\1d824b69f14a40e2af449583c188f1c3.html
+2025-05-22 04:41:26,394 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:41:26,394 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:26,394 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:41:26,394 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:26,394 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:41:26,395 - P14756 - INFO - Após processar URL 12 Uso de memória: 128.30 MB
+2025-05-22 04:41:26,395 - P14756 - INFO - Processando URL 13/35: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-31-05-2022.pdf
+2025-05-22 04:41:26,395 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-31-05-2022.pdf
+2025-05-22 04:41:26,395 - P14756 - INFO - Após processar URL 13 Uso de memória: 128.30 MB
+2025-05-22 04:41:26,395 - P14756 - INFO - Processando URL 14/35: https://cliniguia.com/profissionais/kelly-aparecida-martins-980016278342117/
+2025-05-22 04:41:32,778 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\94ed72e2dc46a312e5d199e7c0bd1903.html
+2025-05-22 04:41:32,822 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:41:32,823 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:32,823 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:41:32,823 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:32,823 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:41:32,823 - P14756 - INFO - Após processar URL 14 Uso de memória: 128.34 MB
+2025-05-22 04:41:32,823 - P14756 - INFO - Processando URL 15/35: https://crmsc.org.br/noticias/momento-da-etica-do-crm-sc-debatera-judicializacao-da-medicina/
+2025-05-22 04:41:36,457 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e60502fae49b8431621d51fb5ee03d8f.html
+2025-05-22 04:41:36,497 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:41:36,497 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:36,497 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:41:36,497 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 04:41:36,498 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:41:36,498 - P14756 - INFO - Após processar URL 15 Uso de memória: 128.34 MB
+2025-05-22 04:41:36,498 - P14756 - INFO - Processando URL 16/35: https://www.indaiatuba.sp.gov.br/download/1072/
+2025-05-22 04:41:38,597 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\9847bea3f5f1151720f915416e69ce40.html
+2025-05-22 04:41:38,636 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:41:38,637 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:38,637 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:41:38,637 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 04:41:38,638 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:41:38,639 - P14756 - INFO - Após processar URL 16 Uso de memória: 128.34 MB
+2025-05-22 04:41:38,639 - P14756 - INFO - Processando URL 17/35: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 04:41:42,269 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 04:41:42,319 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:41:42,320 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:42,320 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:41:42,320 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:42,321 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:41:42,321 - P14756 - INFO - Após processar URL 17 Uso de memória: 128.34 MB
+2025-05-22 04:41:42,321 - P14756 - INFO - Processando URL 18/35: https://www.tjac.jus.br/wp-content/uploads/2024/10/DE20241029.pdf
+2025-05-22 04:41:42,322 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.tjac.jus.br/wp-content/uploads/2024/10/DE20241029.pdf
+2025-05-22 04:41:42,322 - P14756 - INFO - Após processar URL 18 Uso de memória: 128.34 MB
+2025-05-22 04:41:42,322 - P14756 - INFO - Processando URL 19/35: https://www.tjpi.jus.br/diarioeletronico/public/dj201106_9021.pdf
+2025-05-22 04:41:42,322 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.tjpi.jus.br/diarioeletronico/public/dj201106_9021.pdf
+2025-05-22 04:41:42,323 - P14756 - INFO - Após processar URL 19 Uso de memória: 128.34 MB
+2025-05-22 04:41:42,323 - P14756 - INFO - Processando URL 20/35: https://www.medicosbrasil.com/profissional/kelly-aparecida-martins
+2025-05-22 04:41:44,546 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\8ec8337bb943286e9d979d1c20fe0d16.html
+2025-05-22 04:41:44,549 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:41:44,550 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:44,550 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:41:44,550 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:44,551 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:41:44,551 - P14756 - INFO - Após processar URL 20 Uso de memória: 128.34 MB
+2025-05-22 04:41:44,551 - P14756 - INFO - Processando URL 21/35: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/1/3/8/1389b9f3c8d795ce5f5e8cbefe5fb348c5a8f12b2ae19ebd796a008e527d3f53/04d01da5-89d6-4d32-84f6-a6a85249a256-25979-DOE_17986_16_10_2006_88F.pdf
+2025-05-22 04:41:44,552 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/1/3/8/1389b9f3c8d795ce5f5e8cbefe5fb348c5a8f12b2ae19ebd796a008e527d3f53/04d01da5-89d6-4d32-84f6-a6a85249a256-25979-DOE_17986_16_10_2006_88F.pdf
+2025-05-22 04:41:44,553 - P14756 - INFO - Após processar URL 21 Uso de memória: 128.34 MB
+2025-05-22 04:41:44,559 - P14756 - INFO - Processando URL 22/35: https://www.consultacrm.com.br/?uf=SP
+2025-05-22 04:41:48,122 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\60d20285cf74ceed0f862951f9b2b598.html
+2025-05-22 04:41:48,134 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:41:48,134 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:48,135 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:41:48,135 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:48,135 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:41:48,135 - P14756 - INFO - Após processar URL 22 Uso de memória: 128.34 MB
+2025-05-22 04:41:48,136 - P14756 - INFO - Processando URL 23/35: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/151935954.pdf
+2025-05-22 04:41:48,136 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/151935954.pdf
+2025-05-22 04:41:48,136 - P14756 - INFO - Após processar URL 23 Uso de memória: 128.34 MB
+2025-05-22 04:41:48,136 - P14756 - INFO - Processando URL 24/35: https://www.doctoralia.com.br/michel-martins-soares/medico-clinico-geral/aparecida-de-goiania
+2025-05-22 04:41:48,137 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/michel-martins-soares/medico-clinico-geral/aparecida-de-goiania
+2025-05-22 04:41:48,137 - P14756 - INFO - Após processar URL 24 Uso de memória: 128.34 MB
+2025-05-22 04:41:48,137 - P14756 - INFO - Processando URL 25/35: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2023/11/ed0dc56a-1da5-46f8-ae3e-ad0e1dd34580_Edicao-5368-29-11-2023.pdf
+2025-05-22 04:41:48,137 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2023/11/ed0dc56a-1da5-46f8-ae3e-ad0e1dd34580_Edicao-5368-29-11-2023.pdf
+2025-05-22 04:41:48,138 - P14756 - INFO - Após processar URL 25 Uso de memória: 128.34 MB
+2025-05-22 04:41:48,139 - P14756 - INFO - Processando URL 26/35: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 04:41:52,496 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 04:41:52,509 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:41:52,509 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:52,509 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:41:52,509 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:52,509 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:41:52,510 - P14756 - INFO - Após processar URL 26 Uso de memória: 128.36 MB
+2025-05-22 04:41:52,510 - P14756 - INFO - Processando URL 27/35: https://www.consultacrm.com.br/index/maisvistos
+2025-05-22 04:41:56,415 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\9a17d88beef1266c6e4649221409a571.html
+2025-05-22 04:41:56,426 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:41:56,426 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:41:56,426 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:41:56,427 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:41:56,427 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:41:56,427 - P14756 - INFO - Após processar URL 27 Uso de memória: 128.38 MB
+2025-05-22 04:41:56,427 - P14756 - INFO - Processando URL 28/35: https://www.sociosbrasil.com/nome/kelly-aparecida-martins
+2025-05-22 04:42:00,765 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\afd96603a3e457d1352a6596ed6e4155.html
+2025-05-22 04:42:00,771 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 04:42:00,771 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:42:00,772 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:42:00,772 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 04:42:00,772 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 04:42:00,772 - P14756 - INFO - Após processar URL 28 Uso de memória: 128.38 MB
+2025-05-22 04:42:00,773 - P14756 - INFO - Processando URL 29/35: https://www.consultacrm.com.br/index/sis_login
+2025-05-22 04:42:05,003 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e56926aa25e0582d5c5b8aa167ed4b53.html
+2025-05-22 04:42:05,015 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:42:05,015 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:42:05,015 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:42:05,016 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:42:05,016 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:42:05,016 - P14756 - INFO - Após processar URL 29 Uso de memória: 128.38 MB
+2025-05-22 04:42:05,016 - P14756 - INFO - Processando URL 30/35: https://www.classemedica.com.br/medico/180985-kelly-aparecida-martins.htm
+2025-05-22 04:42:10,298 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\9aa45ac53dd920613926d4626f1d153f.html
+2025-05-22 04:42:10,330 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:42:10,330 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:42:10,331 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:42:10,331 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:42:10,331 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:42:10,331 - P14756 - INFO - Após processar URL 30 Uso de memória: 128.38 MB
+2025-05-22 04:42:10,331 - P14756 - INFO - Processando URL 31/35: https://www.escavador.com/sobre/2615273/kelly-aparecida-martins
+2025-05-22 04:42:14,488 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\8d61d773d917fcb9875e0b2bb694dd62.html
+2025-05-22 04:42:14,504 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:42:14,505 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:42:14,505 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:42:14,506 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:42:14,507 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:42:14,508 - P14756 - INFO - Após processar URL 31 Uso de memória: 128.39 MB
+2025-05-22 04:42:14,508 - P14756 - INFO - Processando URL 32/35: https://www.medicosbrasil.com/profissional/gislene-aparecida-martins-de-carvalho
+2025-05-22 04:42:16,710 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\c07e15ae4849caa9a13be8e0aaf2f052.html
+2025-05-22 04:42:16,712 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:42:16,712 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:42:16,712 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:42:16,713 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:42:16,713 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:42:16,713 - P14756 - INFO - Após processar URL 32 Uso de memória: 128.39 MB
+2025-05-22 04:42:16,713 - P14756 - INFO - Processando URL 33/35: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20210503&idorgao=725
+2025-05-22 04:42:19,988 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\5aac7869ca24d55b31598a430d375323.html
+2025-05-22 04:42:21,306 - P14756 - INFO - Candidates address: 83 items
+2025-05-22 04:42:21,306 - P14756 - INFO - Candidates phone: 7 items
+2025-05-22 04:42:21,306 - P14756 - INFO - Candidates email: 5 items
+2025-05-22 04:42:21,307 - P14756 - INFO - Candidates complement: 3 items
+2025-05-22 04:42:21,307 - P14756 - INFO - Candidates cep: 59 items
+2025-05-22 04:42:21,307 - P14756 - INFO - Após processar URL 33 Uso de memória: 131.45 MB
+2025-05-22 04:42:21,307 - P14756 - INFO - Processando URL 34/35: https://www.consultacrm.com.br/index/api
+2025-05-22 04:42:25,304 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\a1f22ffdf7e0eb1c02e28e1e38d3db87.html
+2025-05-22 04:42:25,323 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:42:25,335 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:42:25,336 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:42:25,343 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:42:25,343 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:42:25,343 - P14756 - INFO - Após processar URL 34 Uso de memória: 128.42 MB
+2025-05-22 04:42:25,344 - P14756 - INFO - Processando URL 35/35: https://consultacrm.com.br/
+2025-05-22 04:42:27,482 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 04:42:27,494 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:42:27,494 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:42:27,495 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:42:27,495 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:42:27,495 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:42:27,496 - P14756 - INFO - Após processar URL 35 Uso de memória: 128.43 MB
+2025-05-22 04:42:27,496 - P14756 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:42:27,496 - P14756 - INFO - Ranked address: 100 items
+2025-05-22 04:42:27,496 - P14756 - INFO - Ranked phone: 19 items
+2025-05-22 04:42:27,496 - P14756 - INFO - Ranked email: 20 items
+2025-05-22 04:42:27,497 - P14756 - INFO - Ranked complement: 8 items
+2025-05-22 04:42:27,497 - P14756 - INFO - Ranked cep: 119 items
+2025-05-22 04:42:27,497 - P14756 - INFO - Após agregação Uso de memória: 128.43 MB
+2025-05-22 04:42:27,497 - P14756 - INFO - Validando endereço: ['Rua Desembargador Homero Mafra, 60', 'R. Ela é usada para revestimento de fachadas com placas cerâmicas com superfície maior que 400', 'R. RELATIVIZAÇÃO DA REGRA DE IMPENHORABILIDADE. POSSIBILIDADE. 1']
+2025-05-22 04:42:27,498 - P14756 - INFO - Endereço validado: Rua Desembargador Homero Mafra, 60
+2025-05-22 04:42:27,498 - P14756 - INFO - Limpando texto extenso para campo address: Rua Desembargador Homero Mafra, 60...
+2025-05-22 04:42:27,498 - P14756 - INFO - Texto limpo: Rua Desembargador Homero Mafra, 60
+2025-05-22 04:42:27,498 - P14756 - INFO - Validando telefone: ['(15) 99662-3772', '(48) 3631-1400', '(47) 3326-4554']
+2025-05-22 04:42:27,498 - P14756 - INFO - Limpando texto extenso para campo phone: (15) 99662-3772...
+2025-05-22 04:42:27,499 - P14756 - INFO - Texto limpo: 15) 99662-3772
+2025-05-22 04:42:27,499 - P14756 - INFO - Telefone validado: 15) 99662-3772
+2025-05-22 04:42:27,499 - P14756 - INFO - Validando email: ['protocolo@crmsc.org.br', 'kellymrodrigues086@gmail.com', 'blumenau02@crmsc.org.br']
+2025-05-22 04:42:27,499 - P14756 - INFO - Limpando texto extenso para campo email: protocolo@crmsc.org.br...
+2025-05-22 04:42:27,500 - P14756 - INFO - Texto limpo: protocolo@crmsc.org.br
+2025-05-22 04:42:27,500 - P14756 - INFO - Email validado: protocolo@crmsc.org.br
+2025-05-22 04:42:27,500 - P14756 - INFO - Validando complemento: ['Aptidão à RT Vigilância ', 'Bloco 62 ;Apt 12  Clique para copiar    Bairro:  Area R', 'Bloco 62 ;Apt 12  Area Rural de Boituva  Boituva SP  18']
+2025-05-22 04:42:27,503 - P14756 - INFO - Limpando texto extenso para campo complement: Aptidão à RT Vigilância ...
+2025-05-22 04:42:27,504 - P14756 - INFO - Texto limpo: Aptidão à RT Vigilância
+2025-05-22 04:42:27,505 - P14756 - INFO - Complemento validado: Aptidão à RT Vigilância
+2025-05-22 04:42:27,505 - P14756 - INFO - Descobrindo cidade
+2025-05-22 04:42:27,505 - P14756 - INFO - Buscando cidade: Rua Desembargador Homero Mafra cidade SC
+2025-05-22 04:42:30,125 - P14756 - WARNING - Cidade não encontrada
+2025-05-22 04:42:30,126 - P14756 - INFO - Cidade descoberta: 
+2025-05-22 04:42:30,127 - P14756 - INFO - Tempo de execução de processamento completo do médico: 105.42 segundos
+2025-05-22 04:42:30,127 - P14756 - INFO - Resultado processado: {'Hash': '15c1135dc837b0811dd081afe4574553d705f20df0b3461e1f9648c171e3b932', 'CRM': '12450', 'UF': 'SC', 'Firstname': 'KELLY', 'LastName': 'APARECIDA MARTINS', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Desembargador Homero Mafra, 60', 'Address A1': 'Rua Desembargador Homero Mafra', 'Numero A1': '60', 'Complement A1': 'Aptidão à RT Vigilância', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '15) 99662-3772', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'protocolo@crmsc.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:42:30,128 - P14756 - INFO - Progresso: 74.7%
+2025-05-22 04:42:30,128 - P14756 - INFO - Executando coleta de lixo
+2025-05-22 04:42:30,189 - P14756 - INFO - Após coleta de lixo Uso de memória: 125.74 MB
+2025-05-22 04:42:30,190 - P14756 - INFO - Tempo de execução de processamento do médico 1: 106.78 segundos
+2025-05-22 04:42:30,190 - P14756 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 04:42:30,190 - P14756 - INFO - Nome: RICARDO TONIAL
+2025-05-22 04:42:30,190 - P14756 - INFO - Início do processamento Uso de memória: 125.74 MB
+2025-05-22 04:42:30,190 - P14756 - INFO - Iniciando busca para: RICARDO TONIAL CRM 13084 SC telefone e-mail endereço
+2025-05-22 04:42:31,026 - P14756 - INFO - SearX results: 14 URLs
+2025-05-22 04:42:31,026 - P14756 - INFO - Após SearX Uso de memória: 125.74 MB
+2025-05-22 04:42:34,018 - P14756 - INFO - Google results: 4 URLs
+2025-05-22 04:42:34,018 - P14756 - INFO - Após Google Uso de memória: 128.31 MB
+2025-05-22 04:42:36,538 - P14756 - INFO - Bing results: 10 URLs
+2025-05-22 04:42:36,539 - P14756 - INFO - Após Bing Uso de memória: 129.29 MB
+2025-05-22 04:42:36,539 - P14756 - INFO - Total de URLs únicas: 18
+2025-05-22 04:42:36,539 - P14756 - INFO - Processando URL 1/18: https://cliniguia.com/unidades/jaragua-do-sul-sc/ricardo-tonial-clinica-do-coracao-ltda-9965548/
+2025-05-22 04:42:41,348 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\35739656f458e347531198347d8447c3.html
+2025-05-22 04:42:41,389 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 04:42:41,390 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:42:41,390 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:42:41,390 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:42:41,390 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 04:42:41,390 - P14756 - INFO - Após processar URL 1 Uso de memória: 129.29 MB
+2025-05-22 04:42:41,391 - P14756 - INFO - Processando URL 2/18: https://cnpj.biz/35249764000108
+2025-05-22 04:42:43,721 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\78e9e9178330966e16541a3b5afb011b.html
+2025-05-22 04:42:43,724 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:42:43,724 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:42:43,724 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:42:43,724 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:42:43,724 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:42:43,725 - P14756 - INFO - Após processar URL 2 Uso de memória: 129.29 MB
+2025-05-22 04:42:43,725 - P14756 - INFO - Processando URL 3/18: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x2379296255029406216&market=pt-BR&src=SERPGB
+2025-05-22 04:42:48,281 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\36ffa6fc8d253f2d51113225533808cb.html
+2025-05-22 04:42:48,305 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:42:48,305 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 04:42:48,305 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:42:48,306 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:42:48,306 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:42:48,306 - P14756 - INFO - Após processar URL 3 Uso de memória: 129.29 MB
+2025-05-22 04:42:48,306 - P14756 - INFO - Processando URL 4/18: https://www.toledo.pr.gov.br/sites/default/files/orgaooficial-2022-09/Orgao_Oficial_2946_23062021-assinado.pdf
+2025-05-22 04:42:48,306 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.toledo.pr.gov.br/sites/default/files/orgaooficial-2022-09/Orgao_Oficial_2946_23062021-assinado.pdf
+2025-05-22 04:42:48,306 - P14756 - INFO - Após processar URL 4 Uso de memória: 129.29 MB
+2025-05-22 04:42:48,307 - P14756 - INFO - Processando URL 5/18: https://www.doctoralia.com.br/ricardo-tonial/cardiologista-internista/jaragua-do-sul
+2025-05-22 04:42:48,307 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/ricardo-tonial/cardiologista-internista/jaragua-do-sul
+2025-05-22 04:42:48,307 - P14756 - INFO - Após processar URL 5 Uso de memória: 129.29 MB
+2025-05-22 04:42:48,307 - P14756 - INFO - Processando URL 6/18: https://www.descubraonline.com/guia/sc/jaragua-do-sul/ricardo-tonial-clinica-do-coracao-ltda-35249764000108/
+2025-05-22 04:42:53,345 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\1afdb3483f91fca18e0664d332231cde.html
+2025-05-22 04:42:53,395 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 04:42:53,395 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 04:42:53,396 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:42:53,396 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:42:53,396 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:42:53,396 - P14756 - INFO - Após processar URL 6 Uso de memória: 129.30 MB
+2025-05-22 04:42:53,396 - P14756 - INFO - Processando URL 7/18: https://iomat.mt.gov.br/portal/edicoes/download/3538
+2025-05-22 04:42:55,899 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\5a468f8e1dd007f93748728b91c3cc73.html
+2025-05-22 04:42:55,957 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 04:42:55,958 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 04:42:55,958 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:42:55,958 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:42:55,958 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:42:55,958 - P14756 - INFO - Após processar URL 7 Uso de memória: 129.30 MB
+2025-05-22 04:42:55,958 - P14756 - INFO - Processando URL 8/18: https://empresas.serasaexperian.com.br/consulta-gratis/RICARDO-TONIAL-CLINICA-DO-CORACAO-LTDA-35249764000108
+2025-05-22 04:43:01,200 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\69556926c074bc150f659478627547f7.html
+2025-05-22 04:43:01,236 - P14756 - INFO - Candidates address: 3 items
+2025-05-22 04:43:01,236 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:43:01,236 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:43:01,236 - P14756 - INFO - Candidates complement: 3 items
+2025-05-22 04:43:01,236 - P14756 - INFO - Candidates cep: 5 items
+2025-05-22 04:43:01,237 - P14756 - INFO - Após processar URL 8 Uso de memória: 129.30 MB
+2025-05-22 04:43:01,237 - P14756 - INFO - Processando URL 9/18: https://www.guiamedicojaragua.com.br/item/dr-ricardo-tonial/
+2025-05-22 04:43:05,678 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\f324e23cb4785b01505638f8d139ff65.html
+2025-05-22 04:43:05,697 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 04:43:05,697 - P14756 - INFO - Candidates phone: 2 items
+2025-05-22 04:43:05,697 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:43:05,697 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:43:05,698 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:43:05,698 - P14756 - INFO - Após processar URL 9 Uso de memória: 129.30 MB
+2025-05-22 04:43:05,698 - P14756 - INFO - Processando URL 10/18: https://listamedicos.com/medico/ricardo-tonial
+2025-05-22 04:43:10,712 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e636ecd87e671c1860edbfb62709e3a7.html
+2025-05-22 04:43:10,722 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:43:10,722 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:43:10,722 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:43:10,722 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:43:10,723 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 04:43:10,723 - P14756 - INFO - Após processar URL 10 Uso de memória: 129.30 MB
+2025-05-22 04:43:10,723 - P14756 - INFO - Processando URL 11/18: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/7/c/f/7cf9f540bec0c21290d0539cfcf464a58b47fb720cfc38d23ff4196e017d09b7/413b73dd-3f59-4ff8-b6bb-1d783736e7ee-14064-DOE_18911_16_08_2010_32F_JUCESC_18911_08F.pdf
+2025-05-22 04:43:10,723 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/7/c/f/7cf9f540bec0c21290d0539cfcf464a58b47fb720cfc38d23ff4196e017d09b7/413b73dd-3f59-4ff8-b6bb-1d783736e7ee-14064-DOE_18911_16_08_2010_32F_JUCESC_18911_08F.pdf
+2025-05-22 04:43:10,724 - P14756 - INFO - Após processar URL 11 Uso de memória: 129.30 MB
+2025-05-22 04:43:10,725 - P14756 - INFO - Processando URL 12/18: https://portal.tjpr.jus.br/e-dj/publico/diario/baixar.do;jsessionid=5cf06f0977f5dadde088ae60682c?tjpr.url.crypto=9bfe108c964e942f
+2025-05-22 04:43:12,930 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\7c8d17add31f4e790d7fa037bcd7dc41.html
+2025-05-22 04:43:12,938 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:43:12,938 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:43:12,939 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:43:12,940 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:43:12,940 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 04:43:12,941 - P14756 - INFO - Após processar URL 12 Uso de memória: 129.30 MB
+2025-05-22 04:43:12,942 - P14756 - INFO - Processando URL 13/18: https://portal.tjpr.jus.br/e-dj/publico/diario/baixar.do;jsessionid=1256765a6a1af05bf34093a26b24?tjpr.url.crypto=79d4aef9e62fba0a5aa4ef22398087e31772d2855b57a12ec00ed3382c4c4543
+2025-05-22 04:43:15,176 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\9c9bc0a08b5c6c0c140647cba458e2ef.html
+2025-05-22 04:43:15,176 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:43:15,176 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:43:15,177 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:43:15,177 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:43:15,177 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:43:15,177 - P14756 - INFO - Após processar URL 13 Uso de memória: 129.30 MB
+2025-05-22 04:43:15,177 - P14756 - INFO - Processando URL 14/18: https://dosp.com.br/exibe_do.php?i=NTU5MTE=
+2025-05-22 04:43:17,340 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\ccbdd3b8a5bd27f98a285c59bf2c49e0.html
+2025-05-22 04:43:17,340 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:43:17,341 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:43:17,341 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:43:17,341 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:43:17,341 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:43:17,341 - P14756 - INFO - Após processar URL 14 Uso de memória: 129.30 MB
+2025-05-22 04:43:17,341 - P14756 - INFO - Processando URL 15/18: https://www.guiatelefone.com/jaragua-do-sul-sc/clinicas-medicos-e-terapias/2615415/ricardo-tonial
+2025-05-22 04:43:22,565 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\1b91f607a4ef70fd24334cf5bfba67a1.html
+2025-05-22 04:43:22,580 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 04:43:22,581 - P14756 - INFO - Candidates phone: 5 items
+2025-05-22 04:43:22,581 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:43:22,581 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:43:22,582 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:43:22,582 - P14756 - INFO - Após processar URL 15 Uso de memória: 129.30 MB
+2025-05-22 04:43:22,582 - P14756 - INFO - Processando URL 16/18: https://www.somospopular.com.br/especialistas/dr-ricardo-tonial-cardiologista-em-jaragua-do-sul-sc/
+2025-05-22 04:43:24,932 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\f1fea431a9fb913a38a9ae4dc58efed6.html
+2025-05-22 04:43:24,936 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:43:24,936 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:43:24,936 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:43:24,936 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:43:24,937 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:43:24,937 - P14756 - INFO - Após processar URL 16 Uso de memória: 129.30 MB
+2025-05-22 04:43:24,937 - P14756 - INFO - Processando URL 17/18: https://paginaamarela.com.br/empresa/ricardo-tonial/jaragua-do-sul/sc/9354717
+2025-05-22 04:43:28,477 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\6f01779d1bd6d54e4937879e24ff6fb3.html
+2025-05-22 04:43:28,500 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 04:43:28,502 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:43:28,502 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:43:28,503 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:43:28,504 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:43:28,505 - P14756 - INFO - Após processar URL 17 Uso de memória: 129.30 MB
+2025-05-22 04:43:28,511 - P14756 - INFO - Processando URL 18/18: https://sistemadje.tjmt.jus.br/publicacoes/10352-2018%20C7%20Comarcas%20-%201%C2%AA%202%C2%AA%20e%203%C2%AA%20Entr%C3%A2ncia.pdf
+2025-05-22 04:43:28,512 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/10352-2018%20C7%20Comarcas%20-%201%C2%AA%202%C2%AA%20e%203%C2%AA%20Entr%C3%A2ncia.pdf
+2025-05-22 04:43:28,512 - P14756 - INFO - Após processar URL 18 Uso de memória: 129.30 MB
+2025-05-22 04:43:28,512 - P14756 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:43:28,513 - P14756 - INFO - Ranked address: 8 items
+2025-05-22 04:43:28,514 - P14756 - INFO - Ranked phone: 7 items
+2025-05-22 04:43:28,514 - P14756 - INFO - Ranked email: 1 items
+2025-05-22 04:43:28,514 - P14756 - INFO - Ranked complement: 3 items
+2025-05-22 04:43:28,514 - P14756 - INFO - Ranked cep: 8 items
+2025-05-22 04:43:28,514 - P14756 - INFO - Após agregação Uso de memória: 129.30 MB
+2025-05-22 04:43:28,515 - P14756 - INFO - Validando endereço: ['Rua Joao Planincheck, 1990', 'Rua Joao Planinscheck, 1990', 'Av. das Nações Unidas, 14']
+2025-05-22 04:43:28,527 - P14756 - INFO - Endereço validado: Rua Joao Planincheck, 1990
+2025-05-22 04:43:28,528 - P14756 - INFO - Limpando texto extenso para campo address: Rua Joao Planincheck, 1990...
+2025-05-22 04:43:28,528 - P14756 - INFO - Texto limpo: Rua Joao Planincheck, 1990
+2025-05-22 04:43:28,528 - P14756 - INFO - Validando telefone: ['(47) 3054-4070', '(47)3054-4070', '(47) 99257-4070']
+2025-05-22 04:43:28,528 - P14756 - INFO - Limpando texto extenso para campo phone: (47) 3054-4070...
+2025-05-22 04:43:28,528 - P14756 - INFO - Texto limpo: 47) 3054-4070
+2025-05-22 04:43:28,528 - P14756 - INFO - Telefone validado: 47) 3054-4070
+2025-05-22 04:43:28,528 - P14756 - INFO - Validando email: ['atendimentoprocardio@gmail.com']
+2025-05-22 04:43:28,548 - P14756 - INFO - Limpando texto extenso para campo email: atendimentoprocardio@gmail.com...
+2025-05-22 04:43:28,553 - P14756 - INFO - Texto limpo: atendimentoprocardio@gmail.com
+2025-05-22 04:43:28,554 - P14756 - INFO - Email validado: atendimentoprocardio@gmail.com
+2025-05-22 04:43:28,571 - P14756 - INFO - Validando complemento: ['Sala de Imprensa Ouvidoria Soluções Pré-pagas Consulta', 'Sala de Imprensa Ouvidoria Política de Privacidade  Se', 'Sala 1105 – Bairro Velha']
+2025-05-22 04:43:28,576 - P14756 - INFO - Limpando texto extenso para campo complement: Sala de Imprensa Ouvidoria Soluções Pré-pagas Cons...
+2025-05-22 04:43:28,580 - P14756 - INFO - Texto limpo: Sala de Imprensa Ouvidoria Sol
+2025-05-22 04:43:28,581 - P14756 - INFO - Complemento validado: Sala de Imprensa Ouvidoria Sol
+2025-05-22 04:43:28,581 - P14756 - INFO - Descobrindo cidade
+2025-05-22 04:43:28,582 - P14756 - INFO - Buscando cidade: Rua Joao Planincheck cidade SC
+2025-05-22 04:43:31,301 - P14756 - WARNING - Cidade não encontrada
+2025-05-22 04:43:31,302 - P14756 - INFO - Cidade descoberta: 
+2025-05-22 04:43:31,302 - P14756 - INFO - Tempo de execução de processamento completo do médico: 61.11 segundos
+2025-05-22 04:43:31,302 - P14756 - INFO - Resultado processado: {'Hash': 'f8fd527e6958dc5e4ea1b6527eb52979f4a99608662db8146d15e2038ed7bb73', 'CRM': '13084', 'UF': 'SC', 'Firstname': 'RICARDO', 'LastName': 'TONIAL', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Joao Planincheck, 1990', 'Address A1': 'Rua Joao Planincheck', 'Numero A1': '1990', 'Complement A1': 'Sala de Imprensa Ouvidoria Sol', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '47) 3054-4070', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'atendimentoprocardio@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:43:31,303 - P14756 - INFO - Progresso: 75.1%
+2025-05-22 04:43:31,303 - P14756 - INFO - Tempo de execução de processamento do médico 2: 61.11 segundos
+2025-05-22 04:43:31,303 - P14756 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 04:43:31,303 - P14756 - INFO - Nome: MARIANA BEIBE
+2025-05-22 04:43:31,304 - P14756 - INFO - Início do processamento Uso de memória: 126.63 MB
+2025-05-22 04:43:31,304 - P14756 - INFO - Iniciando busca para: MARIANA BEIBE CRM 17199 SC telefone e-mail endereço
+2025-05-22 04:43:32,064 - P14756 - INFO - SearX results: 14 URLs
+2025-05-22 04:43:32,064 - P14756 - INFO - Após SearX Uso de memória: 126.63 MB
+2025-05-22 04:43:34,872 - P14756 - INFO - Google results: 6 URLs
+2025-05-22 04:43:34,873 - P14756 - INFO - Após Google Uso de memória: 128.66 MB
+2025-05-22 04:43:37,451 - P14756 - INFO - Bing results: 15 URLs
+2025-05-22 04:43:37,451 - P14756 - INFO - Após Bing Uso de memória: 130.38 MB
+2025-05-22 04:43:37,451 - P14756 - INFO - Total de URLs únicas: 25
+2025-05-22 04:43:37,451 - P14756 - INFO - Processando URL 1/25: https://www.diariomunicipal.sc.gov.br/atos/3373339
+2025-05-22 04:43:40,834 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\c4d5cc5564047c19ff8083f82874be00.html
+2025-05-22 04:43:42,083 - P14756 - INFO - Candidates address: 11 items
+2025-05-22 04:43:42,083 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 04:43:42,083 - P14756 - INFO - Candidates email: 2 items
+2025-05-22 04:43:42,083 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 04:43:42,084 - P14756 - INFO - Candidates cep: 1396 items
+2025-05-22 04:43:42,084 - P14756 - INFO - Após processar URL 1 Uso de memória: 133.50 MB
+2025-05-22 04:43:42,084 - P14756 - INFO - Processando URL 2/25: https://iomat.mt.gov.br/portal/edicoes/download/15018
+2025-05-22 04:43:44,578 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\e188d8797df02193440eaf302f4e60e6.html
+2025-05-22 04:43:45,773 - P14756 - INFO - Candidates address: 11 items
+2025-05-22 04:43:45,773 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 04:43:45,774 - P14756 - INFO - Candidates email: 2 items
+2025-05-22 04:43:45,774 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 04:43:45,774 - P14756 - INFO - Candidates cep: 1396 items
+2025-05-22 04:43:45,775 - P14756 - INFO - Após processar URL 2 Uso de memória: 148.85 MB
+2025-05-22 04:43:45,775 - P14756 - INFO - Processando URL 3/25: https://www.doctoralia.com.br/psiquiatra/florianopolis/itacorubi
+2025-05-22 04:43:45,775 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/florianopolis/itacorubi
+2025-05-22 04:43:45,775 - P14756 - INFO - Após processar URL 3 Uso de memória: 145.73 MB
+2025-05-22 04:43:45,776 - P14756 - INFO - Processando URL 4/25: http://www.guiareunimedicos.med.br/c/sc/florianopolis/psiquiatras/mariana-beibe-2188504.htm
+2025-05-22 04:43:47,994 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\1583bca5a20030b53d850fc380cb901d.html
+2025-05-22 04:43:47,995 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:43:47,995 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:43:47,995 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:43:47,995 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:43:47,996 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:43:47,996 - P14756 - INFO - Após processar URL 4 Uso de memória: 145.73 MB
+2025-05-22 04:43:47,996 - P14756 - INFO - Processando URL 5/25: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/3/e/4/3e41dd893c2f0d67e106c1e5ff8642ac61d745c020fde60888b0cb108261879f/d513b1b2-e34b-451a-a02b-13df3a2d9f63-36843-DOE_19231_12_12_2011_60F_JUCESC_19231_08F.pdf
+2025-05-22 04:43:47,996 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/3/e/4/3e41dd893c2f0d67e106c1e5ff8642ac61d745c020fde60888b0cb108261879f/d513b1b2-e34b-451a-a02b-13df3a2d9f63-36843-DOE_19231_12_12_2011_60F_JUCESC_19231_08F.pdf
+2025-05-22 04:43:47,996 - P14756 - INFO - Após processar URL 5 Uso de memória: 145.74 MB
+2025-05-22 04:43:47,997 - P14756 - INFO - Processando URL 6/25: https://www.medguias.com.br/sc/florianopolis/medicina/psiquiatria/dra-mariana-beibe
+2025-05-22 04:43:53,698 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\924c8a2f7bf1e68caaaf3a4a1bfdf6b1.html
+2025-05-22 04:43:53,757 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 04:43:53,757 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 04:43:53,757 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:43:53,757 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:43:53,758 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 04:43:53,758 - P14756 - INFO - Após processar URL 6 Uso de memória: 147.36 MB
+2025-05-22 04:43:53,758 - P14756 - INFO - Processando URL 7/25: https://www.boaconsulta.com/especialista/mariana-beibe-610626cba2e00a0ea6001cfa
+2025-05-22 04:43:56,792 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\eb9bef779aa85464e54d3cd754ad96c0.html
+2025-05-22 04:43:56,988 - P14756 - INFO - Candidates address: 2 items
+2025-05-22 04:43:56,989 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:43:56,989 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:43:56,989 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:43:56,989 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:43:56,989 - P14756 - INFO - Após processar URL 7 Uso de memória: 133.76 MB
+2025-05-22 04:43:56,989 - P14756 - INFO - Processando URL 8/25: https://empresas.serasaexperian.com.br/consulta-gratis/DRA.-MARIANA-BEIBE-LTDA-55604114000132
+2025-05-22 04:44:01,251 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\22e105204ac225d84a0aab596420be76.html
+2025-05-22 04:44:01,285 - P14756 - INFO - Candidates address: 3 items
+2025-05-22 04:44:01,288 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:44:01,288 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:44:01,289 - P14756 - INFO - Candidates complement: 3 items
+2025-05-22 04:44:01,289 - P14756 - INFO - Candidates cep: 5 items
+2025-05-22 04:44:01,290 - P14756 - INFO - Após processar URL 8 Uso de memória: 133.76 MB
+2025-05-22 04:44:01,294 - P14756 - INFO - Processando URL 9/25: https://www.doctoralia.com.br/psiquiatra/florianopolis/centro12
+2025-05-22 04:44:01,296 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/florianopolis/centro12
+2025-05-22 04:44:01,298 - P14756 - INFO - Após processar URL 9 Uso de memória: 133.76 MB
+2025-05-22 04:44:01,300 - P14756 - INFO - Processando URL 10/25: https://consultas.plus/lista-de-empresas/santa-catarina/florianopolis/55604114000132-dra-mariana-beibe-ltda/
+2025-05-22 04:44:05,481 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\5921dd9102e606d05ee37070c0311c3b.html
+2025-05-22 04:44:05,501 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:44:05,502 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 04:44:05,502 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:44:05,502 - P14756 - INFO - Candidates complement: 1 items
+2025-05-22 04:44:05,502 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:44:05,503 - P14756 - INFO - Após processar URL 10 Uso de memória: 133.76 MB
+2025-05-22 04:44:05,503 - P14756 - INFO - Processando URL 11/25: https://www.doctoralia.com.br/psiquiatra/florianopolis/bradesco-saude
+2025-05-22 04:44:05,503 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/florianopolis/bradesco-saude
+2025-05-22 04:44:05,503 - P14756 - INFO - Após processar URL 11 Uso de memória: 133.76 MB
+2025-05-22 04:44:05,504 - P14756 - INFO - Processando URL 12/25: https://empresasweb.net/emp/dra-mariana-beibe-ltda-55604114
+2025-05-22 04:44:08,615 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\8adad8bca348abf0929c158bcc2bec30.html
+2025-05-22 04:44:08,626 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 04:44:08,627 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 04:44:08,627 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:44:08,627 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:44:08,627 - P14756 - INFO - Candidates cep: 1 items
+2025-05-22 04:44:08,628 - P14756 - INFO - Após processar URL 12 Uso de memória: 133.76 MB
+2025-05-22 04:44:08,628 - P14756 - INFO - Processando URL 13/25: https://cadastroempresa.com.br/fornecedor/dra-mariana-beibe-ltda-55604114000132
+2025-05-22 04:44:11,309 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\8be91b803a61e42d9b0ea40c021df2fe.html
+2025-05-22 04:44:11,334 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:44:11,334 - P14756 - INFO - Candidates phone: 1 items
+2025-05-22 04:44:11,334 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:44:11,334 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:44:11,335 - P14756 - INFO - Candidates cep: 2 items
+2025-05-22 04:44:11,335 - P14756 - INFO - Após processar URL 13 Uso de memória: 133.76 MB
+2025-05-22 04:44:11,335 - P14756 - INFO - Processando URL 14/25: https://www.doctoralia.com.br/psiquiatra/florianopolis/estreito
+2025-05-22 04:44:11,335 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/florianopolis/estreito
+2025-05-22 04:44:11,335 - P14756 - INFO - Após processar URL 14 Uso de memória: 133.76 MB
+2025-05-22 04:44:11,336 - P14756 - INFO - Processando URL 15/25: https://www.doctoralia.com.br/psiquiatra/florianopolis/saco-dos-limoes
+2025-05-22 04:44:11,336 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/florianopolis/saco-dos-limoes
+2025-05-22 04:44:11,336 - P14756 - INFO - Após processar URL 15 Uso de memória: 133.76 MB
+2025-05-22 04:44:11,336 - P14756 - INFO - Processando URL 16/25: https://www.catalogo.med.br/doutor/mariana-beibe-2188504.htm
+2025-05-22 04:44:13,501 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\9f0db5f0cc561e39d3a14bf76be4c5e4.html
+2025-05-22 04:44:13,502 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:44:13,502 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:44:13,502 - P14756 - INFO - Candidates email: 1 items
+2025-05-22 04:44:13,502 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:44:13,502 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:44:13,503 - P14756 - INFO - Após processar URL 16 Uso de memória: 133.76 MB
+2025-05-22 04:44:13,503 - P14756 - INFO - Processando URL 17/25: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1350597119.pdf
+2025-05-22 04:44:13,503 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1350597119.pdf
+2025-05-22 04:44:13,503 - P14756 - INFO - Após processar URL 17 Uso de memória: 133.76 MB
+2025-05-22 04:44:13,503 - P14756 - INFO - Processando URL 18/25: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/4/6/6/466f864d29ee262fd8019c18e51c5fc1aca6a8d4c09bd0812f30f33966e23550/0d5208fb-9b1e-4b16-b05f-75a166227209-35350-DOE_16640_16_04_2001_52F.pdf
+2025-05-22 04:44:13,503 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/4/6/6/466f864d29ee262fd8019c18e51c5fc1aca6a8d4c09bd0812f30f33966e23550/0d5208fb-9b1e-4b16-b05f-75a166227209-35350-DOE_16640_16_04_2001_52F.pdf
+2025-05-22 04:44:13,504 - P14756 - INFO - Após processar URL 18 Uso de memória: 133.76 MB
+2025-05-22 04:44:13,504 - P14756 - INFO - Processando URL 19/25: https://www.doctoralia.com.br/doencas/transtorno-bipolar/florianopolis
+2025-05-22 04:44:13,504 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/doencas/transtorno-bipolar/florianopolis
+2025-05-22 04:44:13,504 - P14756 - INFO - Após processar URL 19 Uso de memória: 133.76 MB
+2025-05-22 04:44:13,504 - P14756 - INFO - Processando URL 20/25: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/883082113.pdf
+2025-05-22 04:44:13,504 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/883082113.pdf
+2025-05-22 04:44:13,504 - P14756 - INFO - Após processar URL 20 Uso de memória: 133.76 MB
+2025-05-22 04:44:13,505 - P14756 - INFO - Processando URL 21/25: https://clinica.work/especialista/mariana-beibe-psiquiatra-florianopolis-sc
+2025-05-22 04:44:15,786 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\776653683a541b50466bdb59c7fb2ede.html
+2025-05-22 04:44:15,800 - P14756 - INFO - Candidates address: 1 items
+2025-05-22 04:44:15,800 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:44:15,801 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:44:15,801 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:44:15,801 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:44:15,801 - P14756 - INFO - Após processar URL 21 Uso de memória: 133.76 MB
+2025-05-22 04:44:15,801 - P14756 - INFO - Processando URL 22/25: https://www.doctoralia.com.br/doencas/esquizofrenia/florianopolis
+2025-05-22 04:44:15,802 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/doencas/esquizofrenia/florianopolis
+2025-05-22 04:44:15,802 - P14756 - INFO - Após processar URL 22 Uso de memória: 133.76 MB
+2025-05-22 04:44:15,802 - P14756 - INFO - Processando URL 23/25: https://linktr.ee/DraMarianaBeibe
+2025-05-22 04:44:18,213 - P14756 - INFO - HTML salvo para debug: data\debug_html_v10\77f7d5bba6180e590176a4bb3c03a927.html
+2025-05-22 04:44:18,227 - P14756 - INFO - Candidates address: 0 items
+2025-05-22 04:44:18,227 - P14756 - INFO - Candidates phone: 0 items
+2025-05-22 04:44:18,227 - P14756 - INFO - Candidates email: 0 items
+2025-05-22 04:44:18,228 - P14756 - INFO - Candidates complement: 0 items
+2025-05-22 04:44:18,228 - P14756 - INFO - Candidates cep: 0 items
+2025-05-22 04:44:18,228 - P14756 - INFO - Após processar URL 23 Uso de memória: 134.63 MB
+2025-05-22 04:44:18,228 - P14756 - INFO - Processando URL 24/25: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 04:44:18,228 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 04:44:18,229 - P14756 - INFO - Após processar URL 24 Uso de memória: 133.78 MB
+2025-05-22 04:44:18,229 - P14756 - INFO - Processando URL 25/25: https://www.doctoralia.com.br/mariana-beibe/psiquiatra/florianopolis
+2025-05-22 04:44:18,229 - P14756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/mariana-beibe/psiquiatra/florianopolis
+2025-05-22 04:44:18,229 - P14756 - INFO - Após processar URL 25 Uso de memória: 133.78 MB
+2025-05-22 04:44:18,229 - P14756 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 04:44:18,230 - P14756 - INFO - Ranked address: 19 items
+2025-05-22 04:44:18,230 - P14756 - INFO - Ranked phone: 4 items
+2025-05-22 04:44:18,230 - P14756 - INFO - Ranked email: 6 items
+2025-05-22 04:44:18,230 - P14756 - INFO - Ranked complement: 5 items
+2025-05-22 04:44:18,231 - P14756 - INFO - Ranked cep: 1403 items
+2025-05-22 04:44:18,231 - P14756 - INFO - Após agregação Uso de memória: 133.78 MB
+2025-05-22 04:44:18,232 - P14756 - INFO - Validando endereço: ['Rua Ernani Cotrin, 601', 'R.M. GUIORZI E FRANCISCO C. GARCIA 3684', 'R. PROTÁSIO) 15527']
+2025-05-22 04:44:18,232 - P14756 - INFO - Endereço validado: Rua Ernani Cotrin, 601
+2025-05-22 04:44:18,232 - P14756 - INFO - Limpando texto extenso para campo address: Rua Ernani Cotrin, 601...
+2025-05-22 04:44:18,232 - P14756 - INFO - Texto limpo: Rua Ernani Cotrin, 601
+2025-05-22 04:44:18,232 - P14756 - INFO - Validando telefone: ['(48) 3355-8100', '(48) 3030-3030', '(48) 99919-8288']
+2025-05-22 04:44:18,232 - P14756 - INFO - Limpando texto extenso para campo phone: (48) 3355-8100...
+2025-05-22 04:44:18,232 - P14756 - INFO - Texto limpo: 48) 3355-8100
+2025-05-22 04:44:18,233 - P14756 - INFO - Telefone validado: 48) 3355-8100
+2025-05-22 04:44:18,233 - P14756 - INFO - Validando email: ['tributos@imbituba.sc.gov.br', 'dom@consorciociga.gov.br', 'paralegal@rgcontadores.com.br']
+2025-05-22 04:44:18,233 - P14756 - INFO - Limpando texto extenso para campo email: tributos@imbituba.sc.gov.br...
+2025-05-22 04:44:18,233 - P14756 - INFO - Texto limpo: tributos@imbituba.sc.gov.br
+2025-05-22 04:44:18,233 - P14756 - INFO - Email validado: tributos@imbituba.sc.gov.br
+2025-05-22 04:44:18,233 - P14756 - INFO - Validando complemento: ['Sala 102 CEP 88070-800 - Florianópolis/SC ', 'Sala de Imprensa Ouvidoria Soluções Pré-pagas Consulta', 'Sala de Imprensa Ouvidoria Política de Privacidade  Se']
+2025-05-22 04:44:18,234 - P14756 - INFO - Limpando texto extenso para campo complement: Sala 102 CEP 88070-800 - Florianópolis/SC ...
+2025-05-22 04:44:18,235 - P14756 - INFO - Texto limpo: Sala 102 CEP 88070-800 - Flori
+2025-05-22 04:44:18,235 - P14756 - INFO - Complemento validado: Sala 102 CEP 88070-800 - Flori
+2025-05-22 04:44:18,235 - P14756 - INFO - Descobrindo cidade
+2025-05-22 04:44:18,235 - P14756 - INFO - Buscando cidade: Rua Ernani Cotrin cidade SC
+2025-05-22 04:44:21,168 - P14756 - WARNING - Cidade não encontrada
+2025-05-22 04:44:21,168 - P14756 - INFO - Cidade descoberta: 
+2025-05-22 04:44:21,168 - P14756 - INFO - Tempo de execução de processamento completo do médico: 49.86 segundos
+2025-05-22 04:44:21,169 - P14756 - INFO - Resultado processado: {'Hash': '1ac4a823a022e5ad096f830728d3829a813cab66754a56d01056384d2bf6b40a', 'CRM': '17199', 'UF': 'SC', 'Firstname': 'MARIANA', 'LastName': 'BEIBE', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Ernani Cotrin, 601', 'Address A1': 'Rua Ernani Cotrin', 'Numero A1': '601', 'Complement A1': 'Sala 102 CEP 88070-800 - Flori', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '48) 3355-8100', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'tributos@imbituba.sc.gov.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 04:44:21,169 - P14756 - INFO - Salvando lote de resultados
+2025-05-22 04:44:21,170 - P14756 - INFO - Após salvar resultados Uso de memória: 130.03 MB
+2025-05-22 04:44:21,170 - P14756 - INFO - Progresso: 75.5%
+2025-05-22 04:44:21,170 - P14756 - INFO - Tempo de execução de processamento do médico 3: 49.87 segundos
+2025-05-22 04:44:21,170 - P14756 - INFO - Tempo de execução de processamento do lote completo: 217.76 segundos

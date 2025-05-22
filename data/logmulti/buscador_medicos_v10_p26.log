@@ -1,0 +1,626 @@
+2025-05-22 01:35:37,419 - P11992 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 01:35:37,423 - P11992 - INFO - Nome: FABIO DE ANDRADE LEMOS FERRAZ
+2025-05-22 01:35:37,423 - P11992 - INFO - Reiniciando driver do Chrome
+2025-05-22 01:35:38,904 - P11992 - INFO - Após reiniciar driver Uso de memória: 84.42 MB
+2025-05-22 01:35:38,905 - P11992 - INFO - Início do processamento Uso de memória: 84.42 MB
+2025-05-22 01:35:38,906 - P11992 - INFO - Iniciando busca para: FABIO DE ANDRADE LEMOS FERRAZ CRM 112225 SP telefone e-mail endereço
+2025-05-22 01:35:39,443 - P11992 - INFO - SearX results: 15 URLs
+2025-05-22 01:35:39,443 - P11992 - INFO - Após SearX Uso de memória: 84.44 MB
+2025-05-22 01:35:42,023 - P11992 - INFO - Google results: 10 URLs
+2025-05-22 01:35:42,023 - P11992 - INFO - Após Google Uso de memória: 87.50 MB
+2025-05-22 01:35:44,648 - P11992 - INFO - Bing results: 10 URLs
+2025-05-22 01:35:44,648 - P11992 - INFO - Após Bing Uso de memória: 89.60 MB
+2025-05-22 01:35:44,648 - P11992 - INFO - Total de URLs únicas: 21
+2025-05-22 01:35:44,648 - P11992 - INFO - Processando URL 1/21: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo717.pdf
+2025-05-22 01:35:44,648 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo717.pdf
+2025-05-22 01:35:44,649 - P11992 - INFO - Após processar URL 1 Uso de memória: 89.60 MB
+2025-05-22 01:35:44,649 - P11992 - INFO - Processando URL 2/21: https://www.cremesp.org.br/?siteAcao=CMDesatualizado&pg=28
+2025-05-22 01:35:51,718 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\13c9c76cebd3f36411158d7242156d5b.html
+2025-05-22 01:35:51,739 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:35:51,739 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:35:51,739 - P11992 - INFO - Candidates email: 2 items
+2025-05-22 01:35:51,739 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:35:51,740 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:35:51,740 - P11992 - INFO - Após processar URL 2 Uso de memória: 89.66 MB
+2025-05-22 01:35:51,740 - P11992 - INFO - Processando URL 3/21: https://ecrie.com.br/sistema/conteudos/arquivo/a_24_0_1_23062023110028.pdf?fbclid=PAAaaJcLz9B_XHYzhQCjRIbmjXXQsh82KklWeLuBfNymx5J3YVQZ4tpulufnA_aem_AZNxxT9Yt9lYInFBQWJ9dG_OX1CkLiWZG2PsNo8T5-poNpWUfictxWHCwcNJfa0S5QI
+2025-05-22 01:35:51,740 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://ecrie.com.br/sistema/conteudos/arquivo/a_24_0_1_23062023110028.pdf?fbclid=PAAaaJcLz9B_XHYzhQCjRIbmjXXQsh82KklWeLuBfNymx5J3YVQZ4tpulufnA_aem_AZNxxT9Yt9lYInFBQWJ9dG_OX1CkLiWZG2PsNo8T5-poNpWUfictxWHCwcNJfa0S5QI
+2025-05-22 01:35:51,741 - P11992 - INFO - Após processar URL 3 Uso de memória: 89.66 MB
+2025-05-22 01:35:51,741 - P11992 - INFO - Processando URL 4/21: https://servicos.sjc.sp.gov.br/governo/boletim/boletimPDF/202003182007391ec9b60e-1c40-4f7a-86cf-4199aedd22f9.pdf
+2025-05-22 01:35:51,741 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://servicos.sjc.sp.gov.br/governo/boletim/boletimPDF/202003182007391ec9b60e-1c40-4f7a-86cf-4199aedd22f9.pdf
+2025-05-22 01:35:51,741 - P11992 - INFO - Após processar URL 4 Uso de memória: 89.66 MB
+2025-05-22 01:35:51,741 - P11992 - INFO - Processando URL 5/21: https://diariooficial.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=edicao_consultar&formato=O&dta=15/12/2023
+2025-05-22 01:36:21,752 - P11992 - ERROR - Erro ao baixar HTML de https://diariooficial.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=edicao_consultar&formato=O&dta=15/12/2023: Message: timeout: Timed out receiving message from renderer: 28.592
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7573F64EC]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F483F]
+	(No symbol) [0x00007FF7574033AE]
+	(No symbol) [0x00007FF7574197E1]
+	(No symbol) [0x00007FF75742091A]
+	(No symbol) [0x00007FF7573F4FAD]
+	(No symbol) [0x00007FF7574194D0]
+	(No symbol) [0x00007FF7574AF732]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 01:36:21,757 - P11992 - INFO - Após processar URL 5 Uso de memória: 89.66 MB
+2025-05-22 01:36:21,757 - P11992 - INFO - Processando URL 6/21: https://guiasaudebrasil.com.br/profissional/5c114b91c532eefe-fabio-de-andrade-lemos-ferraz
+2025-05-22 01:36:51,767 - P11992 - ERROR - Erro ao baixar HTML de https://guiasaudebrasil.com.br/profissional/5c114b91c532eefe-fabio-de-andrade-lemos-ferraz: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7573F64EC]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F483F]
+	(No symbol) [0x00007FF7574033AE]
+	(No symbol) [0x00007FF7574197E1]
+	(No symbol) [0x00007FF75742091A]
+	(No symbol) [0x00007FF7573F4FAD]
+	(No symbol) [0x00007FF7574194D0]
+	(No symbol) [0x00007FF7574AF276]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 01:36:51,770 - P11992 - INFO - Após processar URL 6 Uso de memória: 89.66 MB
+2025-05-22 01:36:51,770 - P11992 - INFO - Processando URL 7/21: https://portal.cfm.org.br/busca-medicos
+2025-05-22 01:37:21,780 - P11992 - ERROR - Erro ao baixar HTML de https://portal.cfm.org.br/busca-medicos: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7573F64EC]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F483F]
+	(No symbol) [0x00007FF7574033AE]
+	(No symbol) [0x00007FF7574197E1]
+	(No symbol) [0x00007FF75742091A]
+	(No symbol) [0x00007FF7573F4FAD]
+	(No symbol) [0x00007FF7574194D0]
+	(No symbol) [0x00007FF7574AF276]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 01:37:21,782 - P11992 - INFO - Após processar URL 7 Uso de memória: 89.66 MB
+2025-05-22 01:37:21,782 - P11992 - INFO - Processando URL 8/21: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20170814&idorgao=545
+2025-05-22 01:37:51,788 - P11992 - ERROR - Erro ao baixar HTML de https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20170814&idorgao=545: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7573F64EC]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F483F]
+	(No symbol) [0x00007FF7574033AE]
+	(No symbol) [0x00007FF7574197E1]
+	(No symbol) [0x00007FF75742091A]
+	(No symbol) [0x00007FF7573F4FAD]
+	(No symbol) [0x00007FF7574194D0]
+	(No symbol) [0x00007FF7574AF276]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 01:37:51,791 - P11992 - INFO - Após processar URL 8 Uso de memória: 89.66 MB
+2025-05-22 01:37:51,791 - P11992 - INFO - Processando URL 9/21: https://guiamedico.cremesp.org.br/
+2025-05-22 01:38:21,799 - P11992 - ERROR - Erro ao baixar HTML de https://guiamedico.cremesp.org.br/: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7573F64EC]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F483F]
+	(No symbol) [0x00007FF7574033AE]
+	(No symbol) [0x00007FF7574197E1]
+	(No symbol) [0x00007FF75742091A]
+	(No symbol) [0x00007FF7573F4FAD]
+	(No symbol) [0x00007FF7574194D0]
+	(No symbol) [0x00007FF7574AF276]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 01:38:21,801 - P11992 - INFO - Após processar URL 9 Uso de memória: 89.66 MB
+2025-05-22 01:38:21,801 - P11992 - INFO - Processando URL 10/21: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo714.pdf
+2025-05-22 01:38:21,802 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo714.pdf
+2025-05-22 01:38:21,804 - P11992 - INFO - Após processar URL 10 Uso de memória: 89.66 MB
+2025-05-22 01:38:21,806 - P11992 - INFO - Processando URL 11/21: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/16556
+2025-05-22 01:38:30,377 - P11992 - WARNING - Página muito grande (14.29MB), truncando
+2025-05-22 01:38:30,390 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\9058461a8b4eea058276e3f067cccb5b.html
+2025-05-22 01:38:32,372 - P11992 - INFO - Candidates address: 248 items
+2025-05-22 01:38:32,372 - P11992 - INFO - Candidates phone: 52 items
+2025-05-22 01:38:32,372 - P11992 - INFO - Candidates email: 65 items
+2025-05-22 01:38:32,372 - P11992 - INFO - Candidates complement: 22 items
+2025-05-22 01:38:32,372 - P11992 - INFO - Candidates cep: 2820 items
+2025-05-22 01:38:32,373 - P11992 - INFO - Após processar URL 11 Uso de memória: 107.56 MB
+2025-05-22 01:38:32,373 - P11992 - INFO - Processando URL 12/21: https://cliniguia.com/profissionais/fabio-de-andrade-lemos-ferraz-204313027440007/
+2025-05-22 01:38:35,787 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\dc44b2b3e5ec760d499cb5e12b509203.html
+2025-05-22 01:38:35,831 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:38:35,831 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:38:35,831 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:38:35,832 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:38:35,832 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:38:35,832 - P11992 - INFO - Após processar URL 12 Uso de memória: 104.41 MB
+2025-05-22 01:38:35,832 - P11992 - INFO - Processando URL 13/21: https://www.doctoralia.com.br/fabio-de-andrade-lemos-ferraz/intensivista/sertaozinho
+2025-05-22 01:38:35,832 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/fabio-de-andrade-lemos-ferraz/intensivista/sertaozinho
+2025-05-22 01:38:35,833 - P11992 - INFO - Após processar URL 13 Uso de memória: 104.41 MB
+2025-05-22 01:38:35,833 - P11992 - INFO - Processando URL 14/21: https://www.saobernardo.sp.gov.br/documents/10181/1441964/NM+2296+de+27.05.2022+-+Conteu%CC%81do+Integral.pdf/2c73ad04-2731-f28a-6128-0ca077c4aa2c
+2025-05-22 01:38:35,833 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1441964/NM+2296+de+27.05.2022+-+Conteu%CC%81do+Integral.pdf/2c73ad04-2731-f28a-6128-0ca077c4aa2c
+2025-05-22 01:38:35,833 - P11992 - INFO - Após processar URL 14 Uso de memória: 104.41 MB
+2025-05-22 01:38:35,834 - P11992 - INFO - Processando URL 15/21: https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/3/2021/06/PREGAO-036-2021-REGISTRO-PARA-FORNECIMENTO-DE-LIVROS.pdf
+2025-05-22 01:38:35,834 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/3/2021/06/PREGAO-036-2021-REGISTRO-PARA-FORNECIMENTO-DE-LIVROS.pdf
+2025-05-22 01:38:35,834 - P11992 - INFO - Após processar URL 15 Uso de memória: 104.41 MB
+2025-05-22 01:38:35,834 - P11992 - INFO - Processando URL 16/21: https://www.classemedica.com.br/medico/103825-fabio-de-andrade-lemos-ferraz.htm
+2025-05-22 01:38:42,202 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\95dea09334f02444a9e6e6f6d57299ee.html
+2025-05-22 01:38:42,231 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:38:42,232 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:38:42,232 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:38:42,232 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:38:42,232 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:38:42,232 - P11992 - INFO - Após processar URL 16 Uso de memória: 106.16 MB
+2025-05-22 01:38:42,233 - P11992 - INFO - Processando URL 17/21: https://ioepa.com.br/pages/2018/2018.08.29.DOE.pdf
+2025-05-22 01:38:42,233 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://ioepa.com.br/pages/2018/2018.08.29.DOE.pdf
+2025-05-22 01:38:42,233 - P11992 - INFO - Após processar URL 17 Uso de memória: 106.16 MB
+2025-05-22 01:38:42,233 - P11992 - INFO - Processando URL 18/21: https://sistemadje.tjmt.jus.br/publicacoes/8420-2010.pdf
+2025-05-22 01:38:42,233 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/8420-2010.pdf
+2025-05-22 01:38:42,233 - P11992 - INFO - Após processar URL 18 Uso de memória: 106.16 MB
+2025-05-22 01:38:42,234 - P11992 - INFO - Processando URL 19/21: https://www.medicosbrasil.com/profissional/fabio-de-andrade-lemos-ferraz
+2025-05-22 01:38:44,499 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\0285d9856e0cb540ca11099c03f030f8.html
+2025-05-22 01:38:44,515 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:38:44,515 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:38:44,515 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:38:44,516 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:38:44,516 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:38:44,516 - P11992 - INFO - Após processar URL 19 Uso de memória: 106.88 MB
+2025-05-22 01:38:44,516 - P11992 - INFO - Processando URL 20/21: https://consultacrm.com.br/
+2025-05-22 01:38:48,971 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:38:48,983 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:38:48,983 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:38:48,984 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:38:48,984 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:38:48,984 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:38:48,984 - P11992 - INFO - Após processar URL 20 Uso de memória: 108.49 MB
+2025-05-22 01:38:48,984 - P11992 - INFO - Processando URL 21/21: https://doutorcrm.com/fabio-de-andrade-lemos-ferraz
+2025-05-22 01:38:53,673 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\1638b5ce01ab89a8a46ca9a7837cfb07.html
+2025-05-22 01:38:53,681 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:38:53,681 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:38:53,681 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:38:53,681 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:38:53,682 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:38:53,682 - P11992 - INFO - Após processar URL 21 Uso de memória: 108.74 MB
+2025-05-22 01:38:53,682 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:38:53,682 - P11992 - INFO - Ranked address: 249 items
+2025-05-22 01:38:53,682 - P11992 - INFO - Ranked phone: 53 items
+2025-05-22 01:38:53,682 - P11992 - INFO - Ranked email: 67 items
+2025-05-22 01:38:53,683 - P11992 - INFO - Ranked complement: 22 items
+2025-05-22 01:38:53,688 - P11992 - INFO - Ranked cep: 2821 items
+2025-05-22 01:38:53,689 - P11992 - INFO - Após agregação Uso de memória: 103.14 MB
+2025-05-22 01:38:53,689 - P11992 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Rua Centralina nº 254', 'R. Cancelamento total das notas de empenho n° 25.327 e n° 52.554']
+2025-05-22 01:38:53,689 - P11992 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 01:38:53,689 - P11992 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 01:38:53,690 - P11992 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 01:38:53,690 - P11992 - INFO - Validando telefone: ['(11) 4349-9900', '(11) 3113-8000', '(11) 3322-4717']
+2025-05-22 01:38:53,690 - P11992 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 01:38:53,690 - P11992 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 01:38:53,690 - P11992 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 01:38:53,691 - P11992 - INFO - Validando email: ['cad@cremesp.org.br', 'cadastro@cremesp.org.br', 'casacivil@prefeitura.sp.gov.br']
+2025-05-22 01:38:53,691 - P11992 - INFO - Limpando texto extenso para campo email: cad@cremesp.org.br...
+2025-05-22 01:38:53,691 - P11992 - INFO - Texto limpo: cad@cremesp.org.br
+2025-05-22 01:38:53,691 - P11992 - INFO - Email validado: cad@cremesp.org.br
+2025-05-22 01:38:53,691 - P11992 - INFO - Validando complemento: ['Apto. 173 ', 'Apto 1005 ', 'Apto. 83 ']
+2025-05-22 01:38:53,691 - P11992 - INFO - Limpando texto extenso para campo complement: Apto. 173 ...
+2025-05-22 01:38:53,691 - P11992 - INFO - Texto limpo: Apto. 173
+2025-05-22 01:38:53,692 - P11992 - INFO - Complemento validado: Apto. 173
+2025-05-22 01:38:53,692 - P11992 - INFO - Descobrindo cidade
+2025-05-22 01:38:53,692 - P11992 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 01:38:56,417 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 01:38:56,418 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 01:38:56,419 - P11992 - INFO - Tempo de execução de processamento completo do médico: 197.51 segundos
+2025-05-22 01:38:56,420 - P11992 - INFO - Resultado processado: {'Hash': 'e4a9085f7741ba0a0711612d8fc6ffb0586dfd25a52c4c7f2debddacec87b7f6', 'CRM': '112225', 'UF': 'SP', 'Firstname': 'FABIO', 'LastName': 'DE ANDRADE LEMOS FERRAZ', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Apto. 173', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cad@cremesp.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:38:56,425 - P11992 - INFO - Progresso: 6.9%
+2025-05-22 01:38:56,428 - P11992 - INFO - Executando coleta de lixo
+2025-05-22 01:38:56,447 - P11992 - INFO - Após coleta de lixo Uso de memória: 89.27 MB
+2025-05-22 01:38:56,449 - P11992 - INFO - Tempo de execução de processamento do médico 1: 199.03 segundos
+2025-05-22 01:38:56,450 - P11992 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 01:38:56,450 - P11992 - INFO - Nome: VALERIA M ISABEL DE MORAIS FRANCO MODOLO
+2025-05-22 01:38:56,451 - P11992 - INFO - Início do processamento Uso de memória: 89.27 MB
+2025-05-22 01:38:56,451 - P11992 - INFO - Iniciando busca para: VALERIA M ISABEL DE MORAIS FRANCO MODOLO CRM 117529 SP telefone e-mail endereço
+2025-05-22 01:38:56,934 - P11992 - INFO - SearX results: 2 URLs
+2025-05-22 01:38:56,934 - P11992 - INFO - Após SearX Uso de memória: 89.27 MB
+2025-05-22 01:38:59,633 - P11992 - INFO - Google results: 11 URLs
+2025-05-22 01:38:59,633 - P11992 - INFO - Após Google Uso de memória: 92.27 MB
+2025-05-22 01:39:02,280 - P11992 - INFO - Bing results: 10 URLs
+2025-05-22 01:39:02,280 - P11992 - INFO - Após Bing Uso de memória: 94.60 MB
+2025-05-22 01:39:02,280 - P11992 - INFO - Total de URLs únicas: 18
+2025-05-22 01:39:02,280 - P11992 - INFO - Processando URL 1/18: https://www.boaconsulta.com/especialista/valeria-maria-isabel-de-morais-franco-modolo-6106cfaaa2e00a632e003d38
+2025-05-22 01:39:05,650 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\9b6e32c28914758e7f0214b7bf61cdb1.html
+2025-05-22 01:39:05,720 - P11992 - INFO - Candidates address: 3 items
+2025-05-22 01:39:05,720 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:39:05,720 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:39:05,720 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:39:05,720 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:39:05,720 - P11992 - INFO - Após processar URL 1 Uso de memória: 95.66 MB
+2025-05-22 01:39:05,721 - P11992 - INFO - Processando URL 2/18: http://www.guiareunimedicos.med.br/c/sp/campinas/psiquiatras/valeria-m-isabel-de-morais-franco-modolo-2450082.htm
+2025-05-22 01:39:09,394 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\54dc986703c1ac76e098a7e2e4b06cc6.html
+2025-05-22 01:39:09,409 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:39:09,409 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:39:09,409 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:39:09,409 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:39:09,410 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 01:39:09,410 - P11992 - INFO - Após processar URL 2 Uso de memória: 94.16 MB
+2025-05-22 01:39:09,410 - P11992 - INFO - Processando URL 3/18: https://www.catalogo.med.br/medicos/psiquiatras/em-campinas-sp/
+2025-05-22 01:39:18,071 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\9c482e8c185e4e6abf67513c868751d8.html
+2025-05-22 01:39:18,280 - P11992 - INFO - Candidates address: 125 items
+2025-05-22 01:39:18,280 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:39:18,280 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:39:18,280 - P11992 - INFO - Candidates complement: 7 items
+2025-05-22 01:39:18,280 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:39:18,281 - P11992 - INFO - Após processar URL 3 Uso de memória: 92.34 MB
+2025-05-22 01:39:18,281 - P11992 - INFO - Processando URL 4/18: https://guiasaudebrasil.com.br/profissional/bf7cf59ca61302c3-valeria-maria-isabel-de-morais-franco-modolo
+2025-05-22 01:39:24,186 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\6cdfba95a9f9eab8452620afc7186118.html
+2025-05-22 01:39:24,205 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:39:24,210 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:39:24,219 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:39:24,221 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:39:24,221 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:39:24,222 - P11992 - INFO - Após processar URL 4 Uso de memória: 92.49 MB
+2025-05-22 01:39:24,223 - P11992 - INFO - Processando URL 5/18: https://www.medicosbrasil.com/profissional/valeria-maria-isabel-de-morais-franco-modolo
+2025-05-22 01:39:26,443 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\b40441fe27e916607aa4954a84917f2c.html
+2025-05-22 01:39:26,444 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:39:26,445 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:39:26,445 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:39:26,445 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:39:26,445 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:39:26,445 - P11992 - INFO - Após processar URL 5 Uso de memória: 92.54 MB
+2025-05-22 01:39:26,445 - P11992 - INFO - Processando URL 6/18: https://paxpsicologia.com.br/profissionais/dra-valeria-modolo/
+2025-05-22 01:39:31,059 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\c690f69458a7bf374d6f23822a49a6c9.html
+2025-05-22 01:39:31,081 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:39:31,081 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:39:31,082 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:39:31,082 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:39:31,083 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:39:31,083 - P11992 - INFO - Após processar URL 6 Uso de memória: 92.85 MB
+2025-05-22 01:39:31,084 - P11992 - INFO - Processando URL 7/18: https://www.doctoralia.com.br/valeria-m-isabel-de-morais-franco-modolo/psiquiatra/campinas
+2025-05-22 01:39:31,085 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/valeria-m-isabel-de-morais-franco-modolo/psiquiatra/campinas
+2025-05-22 01:39:31,085 - P11992 - INFO - Após processar URL 7 Uso de memória: 92.85 MB
+2025-05-22 01:39:31,086 - P11992 - INFO - Processando URL 8/18: https://www.intermedicos.com.br/psiquiatras-em-campinas/valeria-isabel-de-morais-franco-modolo
+2025-05-22 01:39:35,955 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\454422da9f868573c812c8909dfda23d.html
+2025-05-22 01:39:35,973 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:39:35,979 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 01:39:35,980 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:39:35,981 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:39:35,982 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:39:35,982 - P11992 - INFO - Após processar URL 8 Uso de memória: 92.94 MB
+2025-05-22 01:39:35,983 - P11992 - INFO - Processando URL 9/18: https://paxpsicologia.com.br/categoria-produto/psiquiatria/
+2025-05-22 01:40:00,593 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\b9a9c47f66ebc2cf02b2d362a68aa64f.html
+2025-05-22 01:40:00,609 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:40:00,609 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:40:00,609 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:40:00,609 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:40:00,610 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:40:00,610 - P11992 - INFO - Após processar URL 9 Uso de memória: 92.95 MB
+2025-05-22 01:40:00,610 - P11992 - INFO - Processando URL 10/18: https://www.doctoralia.com.br/psiquiatra/campinas/nova-campinas
+2025-05-22 01:40:00,610 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/campinas/nova-campinas
+2025-05-22 01:40:00,610 - P11992 - INFO - Após processar URL 10 Uso de memória: 92.95 MB
+2025-05-22 01:40:00,610 - P11992 - INFO - Processando URL 11/18: https://cliniguia.com/profissionais/valeria-maria-isabel-de-morais-franco-modolo-980016277252424/
+2025-05-22 01:40:05,298 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\93f3ff7e9bc4a857d30245786821afe8.html
+2025-05-22 01:40:05,343 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:40:05,344 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:40:05,344 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:40:05,344 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:40:05,345 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:40:05,345 - P11992 - INFO - Após processar URL 11 Uso de memória: 94.68 MB
+2025-05-22 01:40:05,345 - P11992 - INFO - Processando URL 12/18: https://www.catalogo.med.br/medicos/psiquiatras/do-convenio-campinas
+2025-05-22 01:40:14,183 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\2748308fb6f4e068d712047124bad5b5.html
+2025-05-22 01:40:14,233 - P11992 - INFO - Candidates address: 8 items
+2025-05-22 01:40:14,233 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:40:14,233 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:40:14,233 - P11992 - INFO - Candidates complement: 2 items
+2025-05-22 01:40:14,233 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:40:14,233 - P11992 - INFO - Após processar URL 12 Uso de memória: 91.60 MB
+2025-05-22 01:40:14,234 - P11992 - INFO - Processando URL 13/18: https://www.doctoralia.com.br/psiquiatra/campinas?page=14
+2025-05-22 01:40:14,234 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/campinas?page=14
+2025-05-22 01:40:14,234 - P11992 - INFO - Após processar URL 13 Uso de memória: 91.60 MB
+2025-05-22 01:40:14,234 - P11992 - INFO - Processando URL 14/18: https://www.locaisdobrasil.com.br/encontre/psiquiatra/paulinia-sp/dra-valeria-modolo-psiquiatra/678a940bba07c1b42eb91b06
+2025-05-22 01:40:21,412 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\3cbe6477ab6af2a7ba518dd52f24322f.html
+2025-05-22 01:40:21,440 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 01:40:21,440 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:40:21,440 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:40:21,440 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:40:21,441 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:40:21,441 - P11992 - INFO - Após processar URL 14 Uso de memória: 92.66 MB
+2025-05-22 01:40:21,441 - P11992 - INFO - Processando URL 15/18: https://www.classemedica.com.br/medico/328428-valeria-m-isabel-de-morais-franco-modolo.htm
+2025-05-22 01:40:27,620 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7d2255234253e35c76b437edcd7755a1.html
+2025-05-22 01:40:27,649 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:40:27,649 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:40:27,650 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:40:27,650 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:40:27,650 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:40:27,650 - P11992 - INFO - Após processar URL 15 Uso de memória: 94.91 MB
+2025-05-22 01:40:27,650 - P11992 - INFO - Processando URL 16/18: https://www.mpsp.mp.br/w/dic3a1riooficialmpsp01122012htm
+2025-05-22 01:40:31,587 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\96ea321cf7088c38f745a8f76eebe31b.html
+2025-05-22 01:40:32,074 - P11992 - INFO - Candidates address: 10 items
+2025-05-22 01:40:32,075 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 01:40:32,075 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:40:32,075 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:40:32,076 - P11992 - INFO - Candidates cep: 77 items
+2025-05-22 01:40:32,076 - P11992 - INFO - Após processar URL 16 Uso de memória: 97.05 MB
+2025-05-22 01:40:32,076 - P11992 - INFO - Processando URL 17/18: https://www.catalogo.med.br/doutor/valeria-m-isabel-de-morais-franco-modolo-2450082.htm
+2025-05-22 01:40:37,488 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\176df1f7074a4c6f2208271b57ffdcf9.html
+2025-05-22 01:40:37,517 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:40:37,517 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:40:37,518 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:40:37,518 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:40:37,518 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 01:40:37,518 - P11992 - INFO - Após processar URL 17 Uso de memória: 96.09 MB
+2025-05-22 01:40:37,518 - P11992 - INFO - Processando URL 18/18: https://consultacrm.com.br/
+2025-05-22 01:40:40,655 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:40:40,666 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:40:40,666 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:40:40,666 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:40:40,666 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:40:40,667 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:40:40,667 - P11992 - INFO - Após processar URL 18 Uso de memória: 96.79 MB
+2025-05-22 01:40:40,667 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:40:40,667 - P11992 - INFO - Ranked address: 147 items
+2025-05-22 01:40:40,667 - P11992 - INFO - Ranked phone: 5 items
+2025-05-22 01:40:40,667 - P11992 - INFO - Ranked email: 0 items
+2025-05-22 01:40:40,668 - P11992 - INFO - Ranked complement: 8 items
+2025-05-22 01:40:40,668 - P11992 - INFO - Ranked cep: 81 items
+2025-05-22 01:40:40,668 - P11992 - INFO - Após agregação Uso de memória: 96.79 MB
+2025-05-22 01:40:40,668 - P11992 - INFO - Validando endereço: ['Rua Orlando Fagnani, 488', 'Rua Avelino Silveira Franco, 149', 'Av. Argentina, 133']
+2025-05-22 01:40:40,669 - P11992 - INFO - Endereço validado: Rua Orlando Fagnani, 488
+2025-05-22 01:40:40,669 - P11992 - INFO - Limpando texto extenso para campo address: Rua Orlando Fagnani, 488...
+2025-05-22 01:40:40,669 - P11992 - INFO - Texto limpo: Rua Orlando Fagnani, 488
+2025-05-22 01:40:40,669 - P11992 - INFO - Validando telefone: ['(19) 3874-1676', '(19) 3235-1910', '(19) 3231-5123']
+2025-05-22 01:40:40,669 - P11992 - INFO - Limpando texto extenso para campo phone: (19) 3874-1676...
+2025-05-22 01:40:40,669 - P11992 - INFO - Texto limpo: 19) 3874-1676
+2025-05-22 01:40:40,669 - P11992 - INFO - Telefone validado: 19) 3874-1676
+2025-05-22 01:40:40,670 - P11992 - INFO - Validando complemento: ['Sala 451 Ville Sainte Hélène - Sousas - Campinas/SP   ', 'Sala 72 Vila Itapura - Campinas/SP   Convênios atendid', 'Sala 408 Cambui - Campinas/SP   Convênios atendidos ne']
+2025-05-22 01:40:40,670 - P11992 - INFO - Limpando texto extenso para campo complement: Sala 451 Ville Sainte Hélène - Sousas - Campinas/S...
+2025-05-22 01:40:40,670 - P11992 - INFO - Texto limpo: Sala 451 Ville Sainte Hélène -
+2025-05-22 01:40:40,670 - P11992 - INFO - Complemento validado: Sala 451 Ville Sainte Hélène -
+2025-05-22 01:40:40,670 - P11992 - INFO - Descobrindo cidade
+2025-05-22 01:40:40,670 - P11992 - INFO - Buscando cidade: Rua Orlando Fagnani cidade SP
+2025-05-22 01:40:43,214 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 01:40:43,214 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 01:40:43,214 - P11992 - INFO - Tempo de execução de processamento completo do médico: 106.76 segundos
+2025-05-22 01:40:43,215 - P11992 - INFO - Resultado processado: {'Hash': '78cd58bc6a99357b2ef6fbfe1ff50ef721e8f447750df239d061733713878f56', 'CRM': '117529', 'UF': 'SP', 'Firstname': 'VALERIA', 'LastName': 'M ISABEL DE MORAIS FRANCO MODOLO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Orlando Fagnani, 488', 'Address A1': 'Rua Orlando Fagnani', 'Numero A1': '488', 'Complement A1': 'Sala 451 Ville Sainte Hélène -', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '19) 3874-1676', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': '', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:40:43,215 - P11992 - INFO - Progresso: 7.7%
+2025-05-22 01:40:43,216 - P11992 - INFO - Tempo de execução de processamento do médico 2: 106.77 segundos
+2025-05-22 01:40:43,216 - P11992 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 01:40:43,216 - P11992 - INFO - Nome: SIMONY MORAIS LOPES DA SILVA
+2025-05-22 01:40:43,216 - P11992 - INFO - Início do processamento Uso de memória: 90.03 MB
+2025-05-22 01:40:43,216 - P11992 - INFO - Iniciando busca para: SIMONY MORAIS LOPES DA SILVA CRM 123907 SP telefone e-mail endereço
+2025-05-22 01:40:43,853 - P11992 - INFO - SearX results: 9 URLs
+2025-05-22 01:40:43,853 - P11992 - INFO - Após SearX Uso de memória: 90.04 MB
+2025-05-22 01:40:46,913 - P11992 - INFO - Google results: 10 URLs
+2025-05-22 01:40:46,914 - P11992 - INFO - Após Google Uso de memória: 94.79 MB
+2025-05-22 01:40:49,389 - P11992 - INFO - Bing results: 7 URLs
+2025-05-22 01:40:49,390 - P11992 - INFO - Após Bing Uso de memória: 96.55 MB
+2025-05-22 01:40:49,390 - P11992 - INFO - Total de URLs únicas: 17
+2025-05-22 01:40:49,390 - P11992 - INFO - Processando URL 1/17: https://transparencia.cremesp.org.br/?siteAcao=guia_medico
+2025-05-22 01:40:51,876 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\cb80cc007a72cc7a378681a92a58906a.html
+2025-05-22 01:40:51,925 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:40:51,926 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:40:51,926 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:40:51,926 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:40:51,926 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:40:51,926 - P11992 - INFO - Após processar URL 1 Uso de memória: 96.77 MB
+2025-05-22 01:40:51,926 - P11992 - INFO - Processando URL 2/17: https://sistemadje.tjmt.jus.br/publicacoes/10548-2019%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 01:40:51,927 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/10548-2019%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 01:40:51,927 - P11992 - INFO - Após processar URL 2 Uso de memória: 96.77 MB
+2025-05-22 01:40:51,927 - P11992 - INFO - Processando URL 3/17: https://sistemadje.tjmt.jus.br/publicacoes/10585-2019%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 01:40:51,927 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/10585-2019%20C2%20Comarcas%20-%20Entr%C3%A2ncia%20Especial.pdf
+2025-05-22 01:40:51,927 - P11992 - INFO - Após processar URL 3 Uso de memória: 96.77 MB
+2025-05-22 01:40:51,927 - P11992 - INFO - Processando URL 4/17: http://dra.simonymorais.com.br/
+2025-05-22 01:40:52,351 - P11992 - ERROR - Erro ao baixar HTML de http://dra.simonymorais.com.br/: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7574059F4]
+	(No symbol) [0x00007FF7573F6789]
+	(No symbol) [0x00007FF7573F84F8]
+	(No symbol) [0x00007FF7573F6A96]
+	(No symbol) [0x00007FF7573F6516]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F465C]
+	(No symbol) [0x00007FF75740CF3A]
+	(No symbol) [0x00007FF7574B013E]
+	(No symbol) [0x00007FF75748737A]
+	(No symbol) [0x00007FF7574AF39C]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 01:40:52,353 - P11992 - INFO - Após processar URL 4 Uso de memória: 96.77 MB
+2025-05-22 01:40:52,353 - P11992 - INFO - Processando URL 5/17: https://www.consultacrm.com.br/index/medicos/uid-132491c8-f5c5-11ec-9e74-0a4aa568c625/simony_morais_chiaperini
+2025-05-22 01:40:57,100 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\2bcaffc3f6f378f1c3cbc4d42361fb0e.html
+2025-05-22 01:40:57,110 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:40:57,111 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:40:57,111 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:40:57,112 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:40:57,112 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:40:57,112 - P11992 - INFO - Após processar URL 5 Uso de memória: 97.56 MB
+2025-05-22 01:40:57,112 - P11992 - INFO - Processando URL 6/17: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1400980845.pdf
+2025-05-22 01:40:57,112 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1400980845.pdf
+2025-05-22 01:40:57,112 - P11992 - INFO - Após processar URL 6 Uso de memória: 97.56 MB
+2025-05-22 01:40:57,113 - P11992 - INFO - Processando URL 7/17: https://www.doctoralia.com.br/simony-morais-chiaperini/medico-do-esporte/braganca-paulista
+2025-05-22 01:40:57,113 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/simony-morais-chiaperini/medico-do-esporte/braganca-paulista
+2025-05-22 01:40:57,113 - P11992 - INFO - Após processar URL 7 Uso de memória: 97.56 MB
+2025-05-22 01:40:57,113 - P11992 - INFO - Processando URL 8/17: https://diariooficial.piracicaba.sp.gov.br/download/2024/10/02/0/
+2025-05-22 01:41:00,409 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ae819adcf03a221c779d90e2dd0e700f.html
+2025-05-22 01:41:00,420 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:41:00,420 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:41:00,420 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:41:00,420 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:41:00,420 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:41:00,421 - P11992 - INFO - Após processar URL 8 Uso de memória: 95.91 MB
+2025-05-22 01:41:00,421 - P11992 - INFO - Processando URL 9/17: https://www.saobernardo.sp.gov.br/documents/10181/865801/NM+2083+de+27.09.2019+-+Conteu%CC%81do+Integral.pdf/43cda9d8-22ac-9395-7d53-d2c648b48a9c
+2025-05-22 01:41:00,421 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/865801/NM+2083+de+27.09.2019+-+Conteu%CC%81do+Integral.pdf/43cda9d8-22ac-9395-7d53-d2c648b48a9c
+2025-05-22 01:41:00,421 - P11992 - INFO - Após processar URL 9 Uso de memória: 95.91 MB
+2025-05-22 01:41:00,422 - P11992 - INFO - Processando URL 10/17: https://guiamedico.cremesp.org.br/
+2025-05-22 01:41:03,524 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 01:41:03,530 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 01:41:03,530 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 01:41:03,530 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:41:03,530 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:41:03,531 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 01:41:03,531 - P11992 - INFO - Após processar URL 10 Uso de memória: 96.39 MB
+2025-05-22 01:41:03,531 - P11992 - INFO - Processando URL 11/17: https://simonymorais.com.br/
+2025-05-22 01:41:06,251 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\1f054bbea0355be1eab009502d5aca86.html
+2025-05-22 01:41:06,300 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 01:41:06,300 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:41:06,300 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:41:06,301 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:41:06,301 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:41:06,301 - P11992 - INFO - Após processar URL 11 Uso de memória: 96.57 MB
+2025-05-22 01:41:06,301 - P11992 - INFO - Processando URL 12/17: https://cnes2.datasus.gov.br/Mod_Basico.asp?VCo_Unidade=3550302966166
+2025-05-22 01:41:08,664 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\c7c8fb53113253a2a697f15052f0693f.html
+2025-05-22 01:41:08,677 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:41:08,677 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:41:08,678 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 01:41:08,679 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:41:08,680 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 01:41:08,680 - P11992 - INFO - Após processar URL 12 Uso de memória: 96.63 MB
+2025-05-22 01:41:08,680 - P11992 - INFO - Processando URL 13/17: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1849465197.pdf
+2025-05-22 01:41:08,681 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1849465197.pdf
+2025-05-22 01:41:08,681 - P11992 - INFO - Após processar URL 13 Uso de memória: 96.63 MB
+2025-05-22 01:41:08,681 - P11992 - INFO - Processando URL 14/17: https://www.saobernardo.sp.gov.br/documents/10181/1598718/NM+2413+de+29.12.2023+-++Conte%C3%BAdo+Integral.pdf/d80e1f6e-225b-8ed5-513c-761ad7fbf74c
+2025-05-22 01:41:08,681 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1598718/NM+2413+de+29.12.2023+-++Conte%C3%BAdo+Integral.pdf/d80e1f6e-225b-8ed5-513c-761ad7fbf74c
+2025-05-22 01:41:08,681 - P11992 - INFO - Após processar URL 14 Uso de memória: 96.63 MB
+2025-05-22 01:41:08,682 - P11992 - INFO - Processando URL 15/17: https://www.gov.br/mme/pt-br/arquivos/do-06-11-2019-s2.pdf
+2025-05-22 01:41:08,682 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.gov.br/mme/pt-br/arquivos/do-06-11-2019-s2.pdf
+2025-05-22 01:41:08,682 - P11992 - INFO - Após processar URL 15 Uso de memória: 96.63 MB
+2025-05-22 01:41:08,682 - P11992 - INFO - Processando URL 16/17: https://www.classemedica.com.br/medico/315340-simony-morais-lopes-da-silva.htm
+2025-05-22 01:41:13,859 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\8ccffa39ba2244fdf7cddbf581b8ad52.html
+2025-05-22 01:41:13,890 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:41:13,892 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:41:13,893 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:41:13,893 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:41:13,893 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:41:13,893 - P11992 - INFO - Após processar URL 16 Uso de memória: 98.02 MB
+2025-05-22 01:41:13,894 - P11992 - INFO - Processando URL 17/17: https://consultacrm.com.br/
+2025-05-22 01:41:17,557 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:41:17,572 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 01:41:17,572 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 01:41:17,572 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 01:41:17,573 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 01:41:17,573 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 01:41:17,575 - P11992 - INFO - Após processar URL 17 Uso de memória: 98.18 MB
+2025-05-22 01:41:17,576 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:41:17,577 - P11992 - INFO - Ranked address: 3 items
+2025-05-22 01:41:17,577 - P11992 - INFO - Ranked phone: 1 items
+2025-05-22 01:41:17,577 - P11992 - INFO - Ranked email: 2 items
+2025-05-22 01:41:17,578 - P11992 - INFO - Ranked complement: 0 items
+2025-05-22 01:41:17,578 - P11992 - INFO - Ranked cep: 3 items
+2025-05-22 01:41:17,579 - P11992 - INFO - Após agregação Uso de memória: 98.18 MB
+2025-05-22 01:41:17,580 - P11992 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Rua Altinópolis, 258', 'Rua Vereador Napoleão Novisk, 59']
+2025-05-22 01:41:17,582 - P11992 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 01:41:17,582 - P11992 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 01:41:17,583 - P11992 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 01:41:17,587 - P11992 - INFO - Validando telefone: ['(11) 4349-9900']
+2025-05-22 01:41:17,587 - P11992 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 01:41:17,588 - P11992 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 01:41:17,588 - P11992 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 01:41:17,589 - P11992 - INFO - Validando email: ['simonymed@yahoo.com.br', 'cnes@sampali.com.br']
+2025-05-22 01:41:17,589 - P11992 - INFO - Limpando texto extenso para campo email: simonymed@yahoo.com.br...
+2025-05-22 01:41:17,590 - P11992 - INFO - Texto limpo: simonymed@yahoo.com.br
+2025-05-22 01:41:17,590 - P11992 - INFO - Email validado: simonymed@yahoo.com.br
+2025-05-22 01:41:17,591 - P11992 - INFO - Descobrindo cidade
+2025-05-22 01:41:17,591 - P11992 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 01:41:20,113 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 01:41:20,114 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 01:41:20,114 - P11992 - INFO - Tempo de execução de processamento completo do médico: 36.90 segundos
+2025-05-22 01:41:20,115 - P11992 - INFO - Resultado processado: {'Hash': '30fb5378e221ac292bef5033510688928a6ec213874a2123f2ec15c113eb95ff', 'CRM': '123907', 'UF': 'SP', 'Firstname': 'SIMONY', 'LastName': 'MORAIS LOPES DA SILVA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'simonymed@yahoo.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:41:20,116 - P11992 - INFO - Salvando lote de resultados
+2025-05-22 01:41:20,117 - P11992 - INFO - Após salvar resultados Uso de memória: 90.36 MB
+2025-05-22 01:41:20,118 - P11992 - INFO - Progresso: 7.9%
+2025-05-22 01:41:20,118 - P11992 - INFO - Tempo de execução de processamento do médico 3: 36.90 segundos
+2025-05-22 01:41:20,119 - P11992 - INFO - Tempo de execução de processamento do lote completo: 342.70 segundos

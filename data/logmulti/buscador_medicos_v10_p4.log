@@ -1,319 +1,478 @@
-2025-05-21 23:45:47,073 - P3660 - INFO - 
+2025-05-22 01:18:46,872 - P17020 - INFO - 
 ==================================================
-Processando médico 1/2
-2025-05-21 23:45:47,074 - P3660 - INFO - Nome: IGOR GABRIEL MAIA MENDANHA AMARAL
-2025-05-21 23:45:47,075 - P3660 - INFO - Reiniciando driver do Chrome
-2025-05-21 23:45:48,428 - P3660 - INFO - Após reiniciar driver Uso de memória: 38.58 MB
-2025-05-21 23:45:48,430 - P3660 - INFO - Início do processamento Uso de memória: 38.58 MB
-2025-05-21 23:45:48,431 - P3660 - INFO - Iniciando busca para: IGOR GABRIEL MAIA MENDANHA AMARAL CRM 209301 SP telefone e-mail endereço
-2025-05-21 23:45:48,991 - P3660 - INFO - SearX results: 9 URLs
-2025-05-21 23:45:48,991 - P3660 - INFO - Após SearX Uso de memória: 38.64 MB
-2025-05-21 23:45:52,160 - P3660 - INFO - Google results: 3 URLs
-2025-05-21 23:45:52,160 - P3660 - INFO - Após Google Uso de memória: 41.11 MB
-2025-05-21 23:45:55,887 - P3660 - INFO - Bing results: 9 URLs
-2025-05-21 23:45:55,887 - P3660 - INFO - Após Bing Uso de memória: 43.34 MB
-2025-05-21 23:45:55,887 - P3660 - INFO - Total de URLs únicas: 14
-2025-05-21 23:45:55,888 - P3660 - INFO - Processando URL 1/14: https://www.doctoralia.com.br/servicos-de-tratamento/consulta-psiquiatria/sao-caetano-do-sul
-2025-05-21 23:45:55,888 - P3660 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/servicos-de-tratamento/consulta-psiquiatria/sao-caetano-do-sul
-2025-05-21 23:45:55,888 - P3660 - INFO - Após processar URL 1 Uso de memória: 43.34 MB
-2025-05-21 23:45:55,888 - P3660 - INFO - Processando URL 2/14: https://www.informecadastral.com.br/cnpj/igor-gabriel-maia-mendanha-amaral-37754127000106
-2025-05-21 23:46:00,424 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\f55d34df06f39a76eff77534f5b85adb.html
-2025-05-21 23:46:00,457 - P3660 - INFO - Candidates address: 1 items
-2025-05-21 23:46:00,469 - P3660 - INFO - Candidates phone: 2 items
-2025-05-21 23:46:00,474 - P3660 - INFO - Candidates email: 1 items
-2025-05-21 23:46:00,482 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:00,497 - P3660 - INFO - Candidates cep: 3 items
-2025-05-21 23:46:00,517 - P3660 - INFO - Após processar URL 2 Uso de memória: 44.14 MB
-2025-05-21 23:46:00,522 - P3660 - INFO - Processando URL 3/14: https://agendarconsulta.com/perfil/dr-igor-gabriel-maia-mendanha-amaral-1670374242
-2025-05-21 23:46:08,080 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\e77f24cd06aef03fb5d2021138d8c151.html
-2025-05-21 23:46:08,126 - P3660 - INFO - Candidates address: 0 items
-2025-05-21 23:46:08,133 - P3660 - INFO - Candidates phone: 1 items
-2025-05-21 23:46:08,134 - P3660 - INFO - Candidates email: 1 items
-2025-05-21 23:46:08,134 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:08,134 - P3660 - INFO - Candidates cep: 2 items
-2025-05-21 23:46:08,134 - P3660 - INFO - Após processar URL 3 Uso de memória: 45.36 MB
-2025-05-21 23:46:08,134 - P3660 - INFO - Processando URL 4/14: https://www.medicosbrasil.com/profissional/igor-gabriel-maia-mendanha-amaral
-2025-05-21 23:46:12,013 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\4c60bb679f30b49ad7997bad0a3af606.html
-2025-05-21 23:46:12,039 - P3660 - INFO - Candidates address: 0 items
-2025-05-21 23:46:12,039 - P3660 - INFO - Candidates phone: 0 items
-2025-05-21 23:46:12,040 - P3660 - INFO - Candidates email: 0 items
-2025-05-21 23:46:12,041 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:12,043 - P3660 - INFO - Candidates cep: 0 items
-2025-05-21 23:46:12,044 - P3660 - INFO - Após processar URL 4 Uso de memória: 46.71 MB
-2025-05-21 23:46:12,045 - P3660 - INFO - Processando URL 5/14: https://cnpj.biz/37754127000106
-2025-05-21 23:46:14,345 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\b460632d5b9fdde885f0b89c11054d77.html
-2025-05-21 23:46:14,349 - P3660 - INFO - Candidates address: 0 items
-2025-05-21 23:46:14,350 - P3660 - INFO - Candidates phone: 0 items
-2025-05-21 23:46:14,350 - P3660 - INFO - Candidates email: 0 items
-2025-05-21 23:46:14,351 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:14,352 - P3660 - INFO - Candidates cep: 0 items
-2025-05-21 23:46:14,353 - P3660 - INFO - Após processar URL 5 Uso de memória: 45.61 MB
-2025-05-21 23:46:14,353 - P3660 - INFO - Processando URL 6/14: https://guiasaudebrasil.com.br/profissional/9bbdf63f6a5daa78-igor-gabriel-maia-mendanha-amaral
-2025-05-21 23:46:19,812 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\eaaef15d0520422c84b73369149e3039.html
-2025-05-21 23:46:19,825 - P3660 - INFO - Candidates address: 0 items
-2025-05-21 23:46:19,841 - P3660 - INFO - Candidates phone: 0 items
-2025-05-21 23:46:19,841 - P3660 - INFO - Candidates email: 0 items
-2025-05-21 23:46:19,841 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:19,842 - P3660 - INFO - Candidates cep: 1 items
-2025-05-21 23:46:19,850 - P3660 - INFO - Após processar URL 6 Uso de memória: 47.13 MB
-2025-05-21 23:46:19,859 - P3660 - INFO - Processando URL 7/14: https://agendarconsulta.com/perfil/dr-igor-gabriel-maia-mendanha-amaral-1670374242#:~:text=Para%20agendamentos%20presenciais%20e%20outros%20hor%C3%A1rios%20livres%2C%20entre,na%20Alameda%20Terracota%2C%20185%2C%20S%C3%A3o%20Caetano%20do%20Sul
-2025-05-21 23:46:24,515 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\cea6464c04ab6c87a4d6eed45534bd5a.html
-2025-05-21 23:46:24,549 - P3660 - INFO - Candidates address: 0 items
-2025-05-21 23:46:24,549 - P3660 - INFO - Candidates phone: 1 items
-2025-05-21 23:46:24,549 - P3660 - INFO - Candidates email: 1 items
-2025-05-21 23:46:24,550 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:24,550 - P3660 - INFO - Candidates cep: 2 items
-2025-05-21 23:46:24,550 - P3660 - INFO - Após processar URL 7 Uso de memória: 48.28 MB
-2025-05-21 23:46:24,550 - P3660 - INFO - Processando URL 8/14: https://consultacrm.com.br/
-2025-05-21 23:46:27,162 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
-2025-05-21 23:46:27,211 - P3660 - INFO - Candidates address: 0 items
-2025-05-21 23:46:27,214 - P3660 - INFO - Candidates phone: 0 items
-2025-05-21 23:46:27,214 - P3660 - INFO - Candidates email: 0 items
-2025-05-21 23:46:27,223 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:27,225 - P3660 - INFO - Candidates cep: 0 items
-2025-05-21 23:46:27,225 - P3660 - INFO - Após processar URL 8 Uso de memória: 49.29 MB
-2025-05-21 23:46:27,234 - P3660 - INFO - Processando URL 9/14: https://guiamedico.cremesp.org.br/
-2025-05-21 23:46:29,350 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
-2025-05-21 23:46:29,359 - P3660 - INFO - Candidates address: 1 items
-2025-05-21 23:46:29,359 - P3660 - INFO - Candidates phone: 1 items
-2025-05-21 23:46:29,360 - P3660 - INFO - Candidates email: 0 items
-2025-05-21 23:46:29,360 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:29,362 - P3660 - INFO - Candidates cep: 1 items
-2025-05-21 23:46:29,362 - P3660 - INFO - Após processar URL 9 Uso de memória: 48.49 MB
-2025-05-21 23:46:29,363 - P3660 - INFO - Processando URL 10/14: https://www.passeidireto.com/arquivo/109815622/guia-medico-referencia-2019
-2025-05-21 23:46:32,849 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\b678a7e1e2d052b9788da1e646babb02.html
-2025-05-21 23:46:33,110 - P3660 - INFO - Candidates address: 510 items
-2025-05-21 23:46:33,110 - P3660 - INFO - Candidates phone: 5 items
-2025-05-21 23:46:33,110 - P3660 - INFO - Candidates email: 1 items
-2025-05-21 23:46:33,110 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:33,111 - P3660 - INFO - Candidates cep: 590 items
-2025-05-21 23:46:33,111 - P3660 - INFO - Após processar URL 10 Uso de memória: 66.59 MB
-2025-05-21 23:46:33,111 - P3660 - INFO - Processando URL 11/14: https://cliniguia.com/profissionais/igor-gabriel-maia-mendanha-amaral-704209221616180/
-2025-05-21 23:46:38,371 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\53d4762735757bbd85d7ce6a37b21aa9.html
-2025-05-21 23:46:38,437 - P3660 - INFO - Candidates address: 0 items
-2025-05-21 23:46:38,440 - P3660 - INFO - Candidates phone: 0 items
-2025-05-21 23:46:38,449 - P3660 - INFO - Candidates email: 0 items
-2025-05-21 23:46:38,464 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:38,467 - P3660 - INFO - Candidates cep: 0 items
-2025-05-21 23:46:38,470 - P3660 - INFO - Após processar URL 11 Uso de memória: 59.34 MB
-2025-05-21 23:46:38,471 - P3660 - INFO - Processando URL 12/14: https://www.boaconsulta.com/especialista/igor-gabriel-maia-mendanha-amaral-6106d866a2e00a69990041c4
-2025-05-21 23:46:40,819 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\d08d03e19fd44f60e06483e34411aded.html
-2025-05-21 23:46:40,908 - P3660 - INFO - Candidates address: 15 items
-2025-05-21 23:46:40,908 - P3660 - INFO - Candidates phone: 0 items
-2025-05-21 23:46:40,908 - P3660 - INFO - Candidates email: 0 items
-2025-05-21 23:46:40,909 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:40,909 - P3660 - INFO - Candidates cep: 0 items
-2025-05-21 23:46:40,909 - P3660 - INFO - Após processar URL 12 Uso de memória: 60.07 MB
-2025-05-21 23:46:40,909 - P3660 - INFO - Processando URL 13/14: https://www.econodata.com.br/consulta-empresa/37754127000106-IGOR-GABRIEL-MAIA-MENDANHA-AMARAL
-2025-05-21 23:46:45,239 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\8f0135fa3807bcf1fa10f15bef565112.html
-2025-05-21 23:46:45,385 - P3660 - INFO - Candidates address: 23 items
-2025-05-21 23:46:45,385 - P3660 - INFO - Candidates phone: 0 items
-2025-05-21 23:46:45,386 - P3660 - INFO - Candidates email: 0 items
-2025-05-21 23:46:45,386 - P3660 - INFO - Candidates complement: 2 items
-2025-05-21 23:46:45,386 - P3660 - INFO - Candidates cep: 1 items
-2025-05-21 23:46:45,386 - P3660 - INFO - Após processar URL 13 Uso de memória: 64.17 MB
-2025-05-21 23:46:45,386 - P3660 - INFO - Processando URL 14/14: https://www.solutudo.com.br/empresas/sp/s-caetano-sul/clinica-medica-ou-medicina-interna/igor-gabriel-maia-mendanha-amaral-24257845
-2025-05-21 23:46:49,068 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\0acfb537367650a762414aef84bed859.html
-2025-05-21 23:46:49,103 - P3660 - INFO - Candidates address: 1 items
-2025-05-21 23:46:49,103 - P3660 - INFO - Candidates phone: 1 items
-2025-05-21 23:46:49,103 - P3660 - INFO - Candidates email: 1 items
-2025-05-21 23:46:49,104 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:46:49,104 - P3660 - INFO - Candidates cep: 1 items
-2025-05-21 23:46:49,104 - P3660 - INFO - Após processar URL 14 Uso de memória: 65.37 MB
-2025-05-21 23:46:49,104 - P3660 - INFO - Iniciando agregação e ranqueamento
-2025-05-21 23:46:49,104 - P3660 - INFO - Ranked address: 550 items
-2025-05-21 23:46:49,105 - P3660 - INFO - Ranked phone: 9 items
-2025-05-21 23:46:49,105 - P3660 - INFO - Ranked email: 4 items
-2025-05-21 23:46:49,105 - P3660 - INFO - Ranked complement: 2 items
-2025-05-21 23:46:49,105 - P3660 - INFO - Ranked cep: 598 items
-2025-05-21 23:46:49,106 - P3660 - INFO - Após agregação Uso de memória: 65.42 MB
-2025-05-21 23:46:49,106 - P3660 - INFO - Validando endereço: ['Rua Perrella, 331', 'Rua Padre Arnaldo Jansen, 200', 'Rua Frei Caneca, 1282']
-2025-05-21 23:46:49,106 - P3660 - INFO - Endereço validado: Rua Perrella, 331
-2025-05-21 23:46:49,106 - P3660 - INFO - Limpando texto extenso para campo address: Rua Perrella, 331...
-2025-05-21 23:46:49,107 - P3660 - INFO - Texto limpo: Rua Perrella, 331
-2025-05-21 23:46:49,107 - P3660 - INFO - Validando telefone: ['(11) 4386-1349', '(11) 91437-1634', '(32) 99195-6532']
-2025-05-21 23:46:49,108 - P3660 - INFO - Limpando texto extenso para campo phone: (11) 4386-1349...
-2025-05-21 23:46:49,108 - P3660 - INFO - Texto limpo: 11) 4386-1349
-2025-05-21 23:46:49,108 - P3660 - INFO - Telefone validado: 11) 4386-1349
-2025-05-21 23:46:49,108 - P3660 - INFO - Validando email: ['dr.igoramaral@icloud.com', 'jdribeirojr@hotmail.com', 'atendimento.saude@assistcard.com']
-2025-05-21 23:46:49,108 - P3660 - INFO - Limpando texto extenso para campo email: dr.igoramaral@icloud.com...
-2025-05-21 23:46:49,109 - P3660 - INFO - Texto limpo: dr.igoramaral@icloud.com
-2025-05-21 23:46:49,109 - P3660 - INFO - Email validado: dr.igoramaral@icloud.com
-2025-05-21 23:46:49,109 - P3660 - INFO - Validando complemento: ['Apt 1210 Bairro: Fundacao Município/UF: São Caetano d', 'Apt 1210 - Fundacao']
-2025-05-21 23:46:49,109 - P3660 - INFO - Limpando texto extenso para campo complement: Apt 1210 Bairro: Fundacao Município/UF: São Caetan...
-2025-05-21 23:46:49,109 - P3660 - INFO - Texto limpo: Apt 1210 Bairro: Fundacao Muni
-2025-05-21 23:46:49,109 - P3660 - INFO - Complemento validado: Apt 1210 Bairro: Fundacao Muni
-2025-05-21 23:46:49,110 - P3660 - INFO - Descobrindo cidade
-2025-05-21 23:46:49,110 - P3660 - INFO - Buscando cidade: Rua Perrella cidade SP
-2025-05-21 23:46:51,706 - P3660 - WARNING - Cidade não encontrada
-2025-05-21 23:46:51,706 - P3660 - INFO - Cidade descoberta: 
-2025-05-21 23:46:51,706 - P3660 - INFO - Tempo de execução de processamento completo do médico: 63.28 segundos
-2025-05-21 23:46:51,706 - P3660 - INFO - Resultado processado: {'CRM': '209301', 'UF': 'SP', 'Firstname': 'IGOR', 'LastName': 'GABRIEL MAIA MENDANHA AMARAL', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Perrella, 331', 'Address A1': 'Rua Perrella', 'Numero A1': '331', 'Complement A1': 'Apt 1210 Bairro: Fundacao Muni', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4386-1349', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'dr.igoramaral@icloud.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
-2025-05-21 23:46:51,708 - P3660 - INFO - Progresso: 30.0%
-2025-05-21 23:46:51,708 - P3660 - INFO - Executando coleta de lixo
-2025-05-21 23:46:51,738 - P3660 - INFO - Após coleta de lixo Uso de memória: 52.95 MB
-2025-05-21 23:46:51,739 - P3660 - INFO - Tempo de execução de processamento do médico 1: 64.67 segundos
-2025-05-21 23:46:51,739 - P3660 - INFO - 
+Processando médico 1/3
+2025-05-22 01:18:46,874 - P17020 - INFO - Nome: DEBORAH ANNA DUWE
+2025-05-22 01:18:46,875 - P17020 - INFO - Reiniciando driver do Chrome
+2025-05-22 01:18:48,325 - P17020 - INFO - Após reiniciar driver Uso de memória: 36.90 MB
+2025-05-22 01:18:48,325 - P17020 - INFO - Início do processamento Uso de memória: 36.91 MB
+2025-05-22 01:18:48,326 - P17020 - INFO - Iniciando busca para: DEBORAH ANNA DUWE CRM 55252 SP telefone e-mail endereço
+2025-05-22 01:18:48,926 - P17020 - INFO - SearX results: 10 URLs
+2025-05-22 01:18:48,926 - P17020 - INFO - Após SearX Uso de memória: 36.96 MB
+2025-05-22 01:18:51,754 - P17020 - INFO - Google results: 5 URLs
+2025-05-22 01:18:51,755 - P17020 - INFO - Após Google Uso de memória: 38.18 MB
+2025-05-22 01:18:54,460 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 01:18:54,460 - P17020 - INFO - Após Bing Uso de memória: 38.96 MB
+2025-05-22 01:18:54,460 - P17020 - INFO - Total de URLs únicas: 15
+2025-05-22 01:18:54,460 - P17020 - INFO - Processando URL 1/15: https://consultacrm.com.br/
+2025-05-22 01:18:58,452 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:18:58,465 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:18:58,465 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:18:58,466 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:18:58,466 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:18:58,466 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:18:58,466 - P17020 - INFO - Após processar URL 1 Uso de memória: 40.01 MB
+2025-05-22 01:18:58,466 - P17020 - INFO - Processando URL 2/15: http://www.deborahduwe.com.br/?paged=2
+2025-05-22 01:19:01,912 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\51ac34ca66222d2c394af0cb14e1d670.html
+2025-05-22 01:19:01,913 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:19:01,914 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:19:01,914 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:19:01,915 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:01,915 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:19:01,915 - P17020 - INFO - Após processar URL 2 Uso de memória: 39.30 MB
+2025-05-22 01:19:01,915 - P17020 - INFO - Processando URL 3/15: https://www.consultacrm.com.br/index/medicos/uid-9391e702-f5c5-11ec-9e74-0a4aa568c625/deborah_anna_duwe
+2025-05-22 01:19:06,271 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\ccc3f3fbfccb01b55ad196fbe209dde4.html
+2025-05-22 01:19:06,284 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:19:06,284 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:19:06,284 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:19:06,284 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:06,284 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:19:06,285 - P17020 - INFO - Após processar URL 3 Uso de memória: 41.38 MB
+2025-05-22 01:19:06,285 - P17020 - INFO - Processando URL 4/15: https://www.apontador.com.br/local/sp/sao_paulo/servicos_medicos_e_consultorios/3X8P6Y2E/dr_deborah_anna_duwe_pastor_psiquiatra.html
+2025-05-22 01:19:10,024 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4543c3bba79c9020aaa846dbc7e13814.html
+2025-05-22 01:19:10,081 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 01:19:10,081 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:19:10,082 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 01:19:10,082 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 01:19:10,082 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:19:10,083 - P17020 - INFO - Após processar URL 4 Uso de memória: 41.21 MB
+2025-05-22 01:19:10,083 - P17020 - INFO - Processando URL 5/15: https://www.boaconsulta.com/especialistas/psiquiatras-infancia-adolescencia/sao-paulo-sp/jardim-everest
+2025-05-22 01:19:13,482 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\aeddfe873fd06f950fcf2fd85561c315.html
+2025-05-22 01:19:13,541 - P17020 - INFO - Candidates address: 10 items
+2025-05-22 01:19:13,542 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:19:13,542 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:19:13,542 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:13,543 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:19:13,543 - P17020 - INFO - Após processar URL 5 Uso de memória: 43.79 MB
+2025-05-22 01:19:13,543 - P17020 - INFO - Processando URL 6/15: http://www.deborahduwe.com.br/?page_id=2
+2025-05-22 01:19:15,600 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7d09ccc85284e1f11835c5fe15c21001.html
+2025-05-22 01:19:15,601 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:19:15,601 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:19:15,601 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:19:15,601 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:15,601 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:19:15,601 - P17020 - INFO - Após processar URL 6 Uso de memória: 43.10 MB
+2025-05-22 01:19:15,601 - P17020 - INFO - Processando URL 7/15: https://www.consultasocio.com/q/sa/deborah-anna-duwe-pastor
+2025-05-22 01:19:20,740 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\9468df6115886f8a19d9b890dcae6ca8.html
+2025-05-22 01:19:20,749 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 01:19:20,751 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:19:20,753 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:19:20,753 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:20,753 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:19:20,754 - P17020 - INFO - Após processar URL 7 Uso de memória: 43.47 MB
+2025-05-22 01:19:20,754 - P17020 - INFO - Processando URL 8/15: http://www.deborahduwe.com.br/?cat=16
+2025-05-22 01:19:22,830 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\6af7563717f5d2fc2e771f2662ece370.html
+2025-05-22 01:19:22,831 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:19:22,831 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:19:22,831 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:19:22,831 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:22,831 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:19:22,831 - P17020 - INFO - Após processar URL 8 Uso de memória: 43.48 MB
+2025-05-22 01:19:22,832 - P17020 - INFO - Processando URL 9/15: https://www.classemedica.com.br/medico/77905-deborah-anna-duwe.htm
+2025-05-22 01:19:26,372 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\1f670ea9f612604fc09539c09d018ce9.html
+2025-05-22 01:19:26,416 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:19:26,421 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:19:26,424 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:19:26,431 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:26,461 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:19:26,468 - P17020 - INFO - Após processar URL 9 Uso de memória: 45.67 MB
+2025-05-22 01:19:26,471 - P17020 - INFO - Processando URL 10/15: https://doutorcrm.com/deborah-anna-duwe
+2025-05-22 01:19:31,660 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\388ad714763c5968d28a7df900a6c334.html
+2025-05-22 01:19:31,675 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:19:31,685 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:19:31,688 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:19:31,689 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:31,690 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:19:31,691 - P17020 - INFO - Após processar URL 10 Uso de memória: 46.08 MB
+2025-05-22 01:19:31,691 - P17020 - INFO - Processando URL 11/15: https://www.boaconsulta.com/especialista/deborah-anna-duwe-5e8916f0b7e2ca005e00863e
+2025-05-22 01:19:35,005 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7a063cfa38b307ffd0344dfcddeda00f.html
+2025-05-22 01:19:35,050 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 01:19:35,050 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:19:35,050 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:19:35,050 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:35,050 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:19:35,051 - P17020 - INFO - Após processar URL 11 Uso de memória: 47.52 MB
+2025-05-22 01:19:35,051 - P17020 - INFO - Processando URL 12/15: http://www.deborahduwe.com.br/?p=2114
+2025-05-22 01:19:37,158 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\9c543771ef00113722d14eaed6681fcc.html
+2025-05-22 01:19:37,159 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:19:37,159 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:19:37,159 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:19:37,160 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:37,160 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:19:37,160 - P17020 - INFO - Após processar URL 12 Uso de memória: 46.96 MB
+2025-05-22 01:19:37,160 - P17020 - INFO - Processando URL 13/15: http://deborahduwe.com.br/
+2025-05-22 01:19:39,270 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\d95667d876b1773bafd65dbf56203749.html
+2025-05-22 01:19:39,270 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:19:39,271 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:19:39,271 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:19:39,271 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:39,271 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:19:39,271 - P17020 - INFO - Após processar URL 13 Uso de memória: 46.98 MB
+2025-05-22 01:19:39,271 - P17020 - INFO - Processando URL 14/15: http://www.deborahduwe.com.br/?cat=6
+2025-05-22 01:19:41,377 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7976dbd8437fc6dfa56afbb7f6796615.html
+2025-05-22 01:19:41,378 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:19:41,381 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:19:41,381 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:19:41,381 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:19:41,381 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:19:41,382 - P17020 - INFO - Após processar URL 14 Uso de memória: 46.99 MB
+2025-05-22 01:19:41,382 - P17020 - INFO - Processando URL 15/15: https://guiamedico.cremesp.org.br/
+2025-05-22 01:20:04,612 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 01:20:04,618 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:20:04,618 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:20:04,619 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:20:04,619 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:04,619 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:20:04,619 - P17020 - INFO - Após processar URL 15 Uso de memória: 46.56 MB
+2025-05-22 01:20:04,619 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:20:04,619 - P17020 - INFO - Ranked address: 17 items
+2025-05-22 01:20:04,619 - P17020 - INFO - Ranked phone: 1 items
+2025-05-22 01:20:04,620 - P17020 - INFO - Ranked email: 1 items
+2025-05-22 01:20:04,620 - P17020 - INFO - Ranked complement: 1 items
+2025-05-22 01:20:04,620 - P17020 - INFO - Ranked cep: 2 items
+2025-05-22 01:20:04,620 - P17020 - INFO - Após agregação Uso de memória: 46.56 MB
+2025-05-22 01:20:04,620 - P17020 - INFO - Validando endereço: ['Rua Viveiros de Castro , 99', 'Rua Viveiros de Castro, 99', 'Rua Professor Sud Mennucci, 98']
+2025-05-22 01:20:04,620 - P17020 - INFO - Endereço validado: Rua Viveiros de Castro , 99
+2025-05-22 01:20:04,621 - P17020 - INFO - Limpando texto extenso para campo address: Rua Viveiros de Castro , 99...
+2025-05-22 01:20:04,622 - P17020 - INFO - Texto limpo: Rua Viveiros de Castro , 99
+2025-05-22 01:20:04,622 - P17020 - INFO - Validando telefone: ['(11) 4349-9900']
+2025-05-22 01:20:04,623 - P17020 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 01:20:04,623 - P17020 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 01:20:04,624 - P17020 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 01:20:04,624 - P17020 - INFO - Validando email: ['relacionamento@apontador.com']
+2025-05-22 01:20:04,626 - P17020 - INFO - Limpando texto extenso para campo email: relacionamento@apontador.com...
+2025-05-22 01:20:04,628 - P17020 - INFO - Texto limpo: relacionamento@apontador.com
+2025-05-22 01:20:04,634 - P17020 - INFO - Email validado: relacionamento@apontador.com
+2025-05-22 01:20:04,636 - P17020 - INFO - Validando complemento: ['Saladas ']
+2025-05-22 01:20:04,637 - P17020 - INFO - Limpando texto extenso para campo complement: Saladas ...
+2025-05-22 01:20:04,639 - P17020 - INFO - Texto limpo: Saladas
+2025-05-22 01:20:04,640 - P17020 - INFO - Complemento validado: Saladas
+2025-05-22 01:20:04,641 - P17020 - INFO - Descobrindo cidade
+2025-05-22 01:20:04,641 - P17020 - INFO - Buscando cidade: Rua Viveiros de Castro cidade SP
+2025-05-22 01:20:07,295 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 01:20:07,295 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 01:20:07,295 - P17020 - INFO - Tempo de execução de processamento completo do médico: 78.97 segundos
+2025-05-22 01:20:07,296 - P17020 - INFO - Resultado processado: {'Hash': '9fe17ed346485f4a7cc55f49c0b780d13cb4fb62328c4977f22a9c3d150a6ad5', 'CRM': '55252', 'UF': 'SP', 'Firstname': 'DEBORAH', 'LastName': 'ANNA DUWE', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Viveiros de Castro , 99', 'Address A1': 'Rua Viveiros de Castro', 'Numero A1': '99', 'Complement A1': 'Saladas', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'relacionamento@apontador.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:20:07,297 - P17020 - INFO - Progresso: 0.3%
+2025-05-22 01:20:07,297 - P17020 - INFO - Executando coleta de lixo
+2025-05-22 01:20:07,307 - P17020 - INFO - Após coleta de lixo Uso de memória: 44.79 MB
+2025-05-22 01:20:07,307 - P17020 - INFO - Tempo de execução de processamento do médico 1: 80.43 segundos
+2025-05-22 01:20:07,307 - P17020 - INFO - 
 ==================================================
-Processando médico 2/2
-2025-05-21 23:46:51,739 - P3660 - INFO - Nome: DJALMA MICHELE SILVA
-2025-05-21 23:46:51,739 - P3660 - INFO - Início do processamento Uso de memória: 52.95 MB
-2025-05-21 23:46:51,740 - P3660 - INFO - Iniciando busca para: DJALMA MICHELE SILVA CRM 16400 PR telefone e-mail endereço
-2025-05-21 23:46:52,346 - P3660 - INFO - SearX results: 15 URLs
-2025-05-21 23:46:52,346 - P3660 - INFO - Após SearX Uso de memória: 52.96 MB
-2025-05-21 23:46:54,898 - P3660 - INFO - Google results: 7 URLs
-2025-05-21 23:46:54,899 - P3660 - INFO - Após Google Uso de memória: 56.69 MB
-2025-05-21 23:46:57,390 - P3660 - INFO - Bing results: 9 URLs
-2025-05-21 23:46:57,390 - P3660 - INFO - Após Bing Uso de memória: 58.53 MB
-2025-05-21 23:46:57,391 - P3660 - INFO - Total de URLs únicas: 19
-2025-05-21 23:46:57,391 - P3660 - INFO - Processando URL 1/19: https://www.ioepa.com.br/pages/2010/2010.07.29.DOE.pdf
-2025-05-21 23:46:57,391 - P3660 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2010/2010.07.29.DOE.pdf
-2025-05-21 23:46:57,391 - P3660 - INFO - Após processar URL 1 Uso de memória: 58.53 MB
-2025-05-21 23:46:57,391 - P3660 - INFO - Processando URL 2/19: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/4/e/f/4efe2185612f8204803b13c273fd705d499f79fa8463504209359a6580c1e1cf/bea14883-5ad4-4eac-8b2a-01df25e85310-14597-DOE_18730_13_11_2009_48F.pdf
-2025-05-21 23:46:57,392 - P3660 - INFO - Ignorando URL de arquivo não-HTML: https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/4/e/f/4efe2185612f8204803b13c273fd705d499f79fa8463504209359a6580c1e1cf/bea14883-5ad4-4eac-8b2a-01df25e85310-14597-DOE_18730_13_11_2009_48F.pdf
-2025-05-21 23:46:57,392 - P3660 - INFO - Após processar URL 2 Uso de memória: 58.53 MB
-2025-05-21 23:46:57,392 - P3660 - INFO - Processando URL 3/19: https://www.crmpr.org.br/A-homenagem-aos-profissionais-que-sao-exemplos-eticos-da-Medicina-11-57963.shtml
-2025-05-21 23:47:02,680 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\907d3cc1e972e77380a33dc9625ed6e4.html
-2025-05-21 23:47:02,712 - P3660 - INFO - Candidates address: 1 items
-2025-05-21 23:47:02,712 - P3660 - INFO - Candidates phone: 1 items
-2025-05-21 23:47:02,713 - P3660 - INFO - Candidates email: 1 items
-2025-05-21 23:47:02,713 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:47:02,713 - P3660 - INFO - Candidates cep: 1 items
-2025-05-21 23:47:02,713 - P3660 - INFO - Após processar URL 3 Uso de memória: 59.27 MB
-2025-05-21 23:47:02,713 - P3660 - INFO - Processando URL 4/19: https://www.classemedica.com.br/medico/82395-djalma-michele-silva.htm
-2025-05-21 23:47:07,396 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\720a0e0c91672ba25dba5b8460f770bc.html
-2025-05-21 23:47:07,433 - P3660 - INFO - Candidates address: 0 items
-2025-05-21 23:47:07,434 - P3660 - INFO - Candidates phone: 0 items
-2025-05-21 23:47:07,438 - P3660 - INFO - Candidates email: 0 items
-2025-05-21 23:47:07,441 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:47:07,458 - P3660 - INFO - Candidates cep: 0 items
-2025-05-21 23:47:07,459 - P3660 - INFO - Após processar URL 4 Uso de memória: 59.83 MB
-2025-05-21 23:47:07,472 - P3660 - INFO - Processando URL 5/19: https://www.doctoralia.com.br/djalma-michele-silva/generalista-medico-perito/curitiba
-2025-05-21 23:47:07,549 - P3660 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/djalma-michele-silva/generalista-medico-perito/curitiba
-2025-05-21 23:47:07,570 - P3660 - INFO - Após processar URL 5 Uso de memória: 58.53 MB
-2025-05-21 23:47:07,581 - P3660 - INFO - Processando URL 6/19: https://r4cempresarial.com.br/wp-content/uploads/2020/09/Clealco-5.-Plano-de-Recuperacao-Judicial.pdf
-2025-05-21 23:47:07,583 - P3660 - INFO - Ignorando URL de arquivo não-HTML: https://r4cempresarial.com.br/wp-content/uploads/2020/09/Clealco-5.-Plano-de-Recuperacao-Judicial.pdf
-2025-05-21 23:47:07,584 - P3660 - INFO - Após processar URL 6 Uso de memória: 58.53 MB
-2025-05-21 23:47:07,584 - P3660 - INFO - Processando URL 7/19: https://cliniguia.com/profissionais/djalma-michele-silva-204327722050002/
-2025-05-21 23:47:12,479 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\c945ec01e9d8f7e5c19e92d266367462.html
-2025-05-21 23:47:12,519 - P3660 - INFO - Candidates address: 0 items
-2025-05-21 23:47:12,519 - P3660 - INFO - Candidates phone: 0 items
-2025-05-21 23:47:12,519 - P3660 - INFO - Candidates email: 0 items
-2025-05-21 23:47:12,519 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:47:12,519 - P3660 - INFO - Candidates cep: 0 items
-2025-05-21 23:47:12,519 - P3660 - INFO - Após processar URL 7 Uso de memória: 60.75 MB
-2025-05-21 23:47:12,520 - P3660 - INFO - Processando URL 8/19: https://conectadoc.com.br/especialista/crm-16400-PR/djalma-michele-silva
-2025-05-21 23:47:15,696 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\4644e38a0d3ab9031168887af692d871.html
-2025-05-21 23:47:15,715 - P3660 - INFO - Candidates address: 0 items
-2025-05-21 23:47:15,716 - P3660 - INFO - Candidates phone: 0 items
-2025-05-21 23:47:15,716 - P3660 - INFO - Candidates email: 0 items
-2025-05-21 23:47:15,716 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:47:15,716 - P3660 - INFO - Candidates cep: 0 items
-2025-05-21 23:47:15,716 - P3660 - INFO - Após processar URL 8 Uso de memória: 59.03 MB
-2025-05-21 23:47:15,716 - P3660 - INFO - Processando URL 9/19: https://www.crmpr.org.br/atualiza/listar.php/1000
-2025-05-21 23:47:18,419 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\ef9ecbfd4e4ebf12f11d844e151b4f0b.html
-2025-05-21 23:47:18,620 - P3660 - INFO - Candidates address: 0 items
-2025-05-21 23:47:18,621 - P3660 - INFO - Candidates phone: 1 items
-2025-05-21 23:47:18,621 - P3660 - INFO - Candidates email: 1 items
-2025-05-21 23:47:18,621 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:47:18,621 - P3660 - INFO - Candidates cep: 0 items
-2025-05-21 23:47:18,621 - P3660 - INFO - Após processar URL 9 Uso de memória: 59.04 MB
-2025-05-21 23:47:18,622 - P3660 - INFO - Processando URL 10/19: https://sistemadje.tjmt.jus.br/publicacoes/9476-2015.pdf
-2025-05-21 23:47:18,622 - P3660 - INFO - Ignorando URL de arquivo não-HTML: https://sistemadje.tjmt.jus.br/publicacoes/9476-2015.pdf
-2025-05-21 23:47:18,622 - P3660 - INFO - Após processar URL 10 Uso de memória: 59.04 MB
-2025-05-21 23:47:18,622 - P3660 - INFO - Processando URL 11/19: https://consultacrm.com.br/
-2025-05-21 23:47:21,900 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
-2025-05-21 23:47:21,921 - P3660 - INFO - Candidates address: 0 items
-2025-05-21 23:47:21,922 - P3660 - INFO - Candidates phone: 0 items
-2025-05-21 23:47:21,922 - P3660 - INFO - Candidates email: 0 items
-2025-05-21 23:47:21,922 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:47:21,922 - P3660 - INFO - Candidates cep: 0 items
-2025-05-21 23:47:21,922 - P3660 - INFO - Após processar URL 11 Uso de memória: 60.45 MB
-2025-05-21 23:47:21,923 - P3660 - INFO - Processando URL 12/19: https://www.doctoralia.com.br/medico-perito?page=12
-2025-05-21 23:47:21,923 - P3660 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/medico-perito?page=12
-2025-05-21 23:47:21,925 - P3660 - INFO - Após processar URL 12 Uso de memória: 58.92 MB
-2025-05-21 23:47:21,925 - P3660 - INFO - Processando URL 13/19: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/218612/Caderno_JUD_DF_2017-04-10_IX_64.pdf?sequence=2&isAllowed=y
-2025-05-21 23:47:21,925 - P3660 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/218612/Caderno_JUD_DF_2017-04-10_IX_64.pdf?sequence=2&isAllowed=y
-2025-05-21 23:47:21,926 - P3660 - INFO - Após processar URL 13 Uso de memória: 58.92 MB
-2025-05-21 23:47:21,926 - P3660 - INFO - Processando URL 14/19: https://www.doctoralia.com.br/coronel-vivida
-2025-05-21 23:47:21,926 - P3660 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/coronel-vivida
-2025-05-21 23:47:21,927 - P3660 - INFO - Após processar URL 14 Uso de memória: 58.92 MB
-2025-05-21 23:47:21,927 - P3660 - INFO - Processando URL 15/19: https://www.medicosbrasil.com/profissional/djalma-michele-silva
-2025-05-21 23:47:24,316 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\d4732d190edf8c8ad74a8fff1ea4bbce.html
-2025-05-21 23:47:24,318 - P3660 - INFO - Candidates address: 0 items
-2025-05-21 23:47:24,318 - P3660 - INFO - Candidates phone: 0 items
-2025-05-21 23:47:24,319 - P3660 - INFO - Candidates email: 0 items
-2025-05-21 23:47:24,319 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:47:24,319 - P3660 - INFO - Candidates cep: 1 items
-2025-05-21 23:47:24,320 - P3660 - INFO - Após processar URL 15 Uso de memória: 59.07 MB
-2025-05-21 23:47:24,320 - P3660 - INFO - Processando URL 16/19: https://www.boaconsulta.com/especialista/djalma-michele-silva-6105743e40ebb50165000893
-2025-05-21 23:47:26,461 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\d89f510412514d667d674e7f80fd2d93.html
-2025-05-21 23:47:26,521 - P3660 - INFO - Candidates address: 1 items
-2025-05-21 23:47:26,521 - P3660 - INFO - Candidates phone: 0 items
-2025-05-21 23:47:26,521 - P3660 - INFO - Candidates email: 0 items
-2025-05-21 23:47:26,521 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:47:26,521 - P3660 - INFO - Candidates cep: 0 items
-2025-05-21 23:47:26,522 - P3660 - INFO - Após processar URL 16 Uso de memória: 60.62 MB
-2025-05-21 23:47:26,522 - P3660 - INFO - Processando URL 17/19: https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/3/2021/06/PREGAO-036-2021-REGISTRO-PARA-FORNECIMENTO-DE-LIVROS.pdf
-2025-05-21 23:47:26,522 - P3660 - INFO - Ignorando URL de arquivo não-HTML: https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/3/2021/06/PREGAO-036-2021-REGISTRO-PARA-FORNECIMENTO-DE-LIVROS.pdf
-2025-05-21 23:47:26,522 - P3660 - INFO - Após processar URL 17 Uso de memória: 59.03 MB
-2025-05-21 23:47:26,523 - P3660 - INFO - Processando URL 18/19: https://www.boaconsulta.com/especialistas/psiquiatras/palmas-pr
-2025-05-21 23:47:29,274 - P3660 - INFO - HTML salvo para debug: data\debug_html_v10\d44a46ba6bbdd58c2aa57f92a4d6a922.html
-2025-05-21 23:47:29,319 - P3660 - INFO - Candidates address: 5 items
-2025-05-21 23:47:29,319 - P3660 - INFO - Candidates phone: 0 items
-2025-05-21 23:47:29,319 - P3660 - INFO - Candidates email: 0 items
-2025-05-21 23:47:29,319 - P3660 - INFO - Candidates complement: 0 items
-2025-05-21 23:47:29,319 - P3660 - INFO - Candidates cep: 0 items
-2025-05-21 23:47:29,320 - P3660 - INFO - Após processar URL 18 Uso de memória: 60.90 MB
-2025-05-21 23:47:29,320 - P3660 - INFO - Processando URL 19/19: https://www.saobernardo.sp.gov.br/documents/10181/865801/NM+2089+de+01.11.2019+-+Conteu%CC%81do+Integral.pdf/4c18634b-aab2-0161-dc2a-b4e3a21f1c84
-2025-05-21 23:47:29,320 - P3660 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/865801/NM+2089+de+01.11.2019+-+Conteu%CC%81do+Integral.pdf/4c18634b-aab2-0161-dc2a-b4e3a21f1c84
-2025-05-21 23:47:29,320 - P3660 - INFO - Após processar URL 19 Uso de memória: 59.15 MB
-2025-05-21 23:47:29,320 - P3660 - INFO - Iniciando agregação e ranqueamento
-2025-05-21 23:47:29,321 - P3660 - INFO - Ranked address: 6 items
-2025-05-21 23:47:29,321 - P3660 - INFO - Ranked phone: 2 items
-2025-05-21 23:47:29,321 - P3660 - INFO - Ranked email: 2 items
-2025-05-21 23:47:29,321 - P3660 - INFO - Ranked complement: 0 items
-2025-05-21 23:47:29,321 - P3660 - INFO - Ranked cep: 2 items
-2025-05-21 23:47:29,321 - P3660 - INFO - Após agregação Uso de memória: 59.15 MB
-2025-05-21 23:47:29,321 - P3660 - INFO - Validando endereço: ['Rua Dr Bernardo Ribeiro Vianna, 433', 'Rua Victório Viezzer, 84', 'Avenida Cel Jose Osorio, 466']
-2025-05-21 23:47:29,322 - P3660 - INFO - Endereço validado: Rua Dr Bernardo Ribeiro Vianna, 433
-2025-05-21 23:47:29,322 - P3660 - INFO - Limpando texto extenso para campo address: Rua Dr Bernardo Ribeiro Vianna, 433...
-2025-05-21 23:47:29,322 - P3660 - INFO - Texto limpo: Rua Dr Bernardo Ribeiro Vianna, 433
-2025-05-21 23:47:29,322 - P3660 - INFO - Validando telefone: ['(41) 3240-4000', '(41) 3240-4039']
-2025-05-21 23:47:29,323 - P3660 - INFO - Limpando texto extenso para campo phone: (41) 3240-4000...
-2025-05-21 23:47:29,323 - P3660 - INFO - Texto limpo: 41) 3240-4000
-2025-05-21 23:47:29,323 - P3660 - INFO - Telefone validado: 41) 3240-4000
-2025-05-21 23:47:29,323 - P3660 - INFO - Validando email: ['protocolo@crmpr.org.br', 'atualiza@crmpr.org.br']
-2025-05-21 23:47:29,323 - P3660 - INFO - Limpando texto extenso para campo email: protocolo@crmpr.org.br...
-2025-05-21 23:47:29,323 - P3660 - INFO - Texto limpo: protocolo@crmpr.org.br
-2025-05-21 23:47:29,324 - P3660 - INFO - Email validado: protocolo@crmpr.org.br
-2025-05-21 23:47:29,324 - P3660 - INFO - Descobrindo cidade
-2025-05-21 23:47:29,324 - P3660 - INFO - Buscando cidade: Rua Dr Bernardo Ribeiro Vianna cidade PR
-2025-05-21 23:47:31,890 - P3660 - INFO - Cidade encontrada: Palmas
-2025-05-21 23:47:31,896 - P3660 - INFO - Limpando texto extenso para campo city: Palmas...
-2025-05-21 23:47:31,899 - P3660 - INFO - Texto limpo: Palmas
-2025-05-21 23:47:31,903 - P3660 - INFO - Cidade descoberta: Palmas
-2025-05-21 23:47:31,905 - P3660 - INFO - Buscando CEP com sistema de cascata
-2025-05-21 23:47:31,906 - P3660 - INFO - Iniciando busca de CEP em cascata para: Rua Dr Bernardo Ribeiro Vianna, Palmas, PR
-2025-05-21 23:47:31,908 - P3660 - INFO - Método 1: ViaCEP API
-2025-05-21 23:47:31,908 - P3660 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/PR/palmas/rua%20dr%20bernardo%20ribeiro%20vianna/json/
-2025-05-21 23:47:32,614 - P3660 - WARNING - ViaCEP retornou status 200 ou nenhum resultado
-2025-05-21 23:47:32,615 - P3660 - INFO - Método 2: BrasilAPI
-2025-05-21 23:47:32,615 - P3660 - INFO - Buscando na BrasilAPI: Rua Dr Bernardo Ribeiro Vianna, Palmas, PR
-2025-05-21 23:47:33,121 - P3660 - INFO - Consultando BrasilAPI: https://brasilapi.com.br/api/cep/v2/35135084
-2025-05-21 23:47:43,411 - P3660 - ERROR - Erro ao buscar na BrasilAPI: HTTPSConnectionPool(host='brasilapi.com.br', port=443): Read timed out. (read timeout=10)
-2025-05-21 23:47:43,412 - P3660 - INFO - Método 3: Web Scraping do Google
-2025-05-21 23:47:43,412 - P3660 - INFO - Buscando CEP: CEP da Rua Dr Bernardo Ribeiro Vianna, Palmas
-2025-05-21 23:47:45,006 - P3660 - INFO - CEP encontrado: 85555-000
-2025-05-21 23:47:45,007 - P3660 - INFO - CEP encontrado via Google: 85555-000
-2025-05-21 23:47:45,007 - P3660 - INFO - Dados de CEP encontrados: {'cep': '85555-000', 'logradouro': 'Rua Dr Bernardo Ribeiro Vianna', 'bairro': '', 'localidade': 'Palmas', 'uf': 'PR', 'complemento': ''}
-2025-05-21 23:47:45,008 - P3660 - INFO - Limpando texto extenso para campo city: Palmas...
-2025-05-21 23:47:45,009 - P3660 - INFO - Texto limpo: Palmas
-2025-05-21 23:47:45,009 - P3660 - INFO - Limpando texto extenso para campo state: PR...
-2025-05-21 23:47:45,011 - P3660 - INFO - Texto limpo: PR
-2025-05-21 23:47:45,011 - P3660 - INFO - Tempo de execução de processamento completo do médico: 53.27 segundos
-2025-05-21 23:47:45,012 - P3660 - INFO - Resultado processado: {'CRM': '16400', 'UF': 'PR', 'Firstname': 'DJALMA', 'LastName': 'MICHELE SILVA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Dr Bernardo Ribeiro Vianna, 433', 'Address A1': 'Rua Dr Bernardo Ribeiro Vianna', 'Numero A1': '433', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '85555-000', 'City A1': 'Palmas', 'State A1': 'PR', 'Phone A1': '41) 3240-4000', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'protocolo@crmpr.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
-2025-05-21 23:47:45,014 - P3660 - INFO - Progresso: 70.0%
-2025-05-21 23:47:45,014 - P3660 - INFO - Tempo de execução de processamento do médico 2: 53.28 segundos
-2025-05-21 23:47:45,015 - P3660 - INFO - Salvando resultados finais do lote
-2025-05-21 23:47:45,016 - P3660 - INFO - Tempo de execução de processamento do lote completo: 117.94 segundos
+Processando médico 2/3
+2025-05-22 01:20:07,308 - P17020 - INFO - Nome: ROMERO CAVENDISH WANDERLEY
+2025-05-22 01:20:07,308 - P17020 - INFO - Início do processamento Uso de memória: 44.79 MB
+2025-05-22 01:20:07,308 - P17020 - INFO - Iniciando busca para: ROMERO CAVENDISH WANDERLEY CRM 65879 SP telefone e-mail endereço
+2025-05-22 01:20:07,726 - P17020 - INFO - SearX results: 10 URLs
+2025-05-22 01:20:07,726 - P17020 - INFO - Após SearX Uso de memória: 44.79 MB
+2025-05-22 01:20:10,144 - P17020 - INFO - Google results: 2 URLs
+2025-05-22 01:20:10,144 - P17020 - INFO - Após Google Uso de memória: 44.76 MB
+2025-05-22 01:20:12,702 - P17020 - INFO - Bing results: 9 URLs
+2025-05-22 01:20:12,703 - P17020 - INFO - Após Bing Uso de memória: 45.54 MB
+2025-05-22 01:20:12,703 - P17020 - INFO - Total de URLs únicas: 13
+2025-05-22 01:20:12,703 - P17020 - INFO - Processando URL 1/13: https://consultacrm.com.br/
+2025-05-22 01:20:16,547 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 01:20:16,558 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:20:16,559 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:20:16,559 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:20:16,559 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:16,559 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:20:16,560 - P17020 - INFO - Após processar URL 1 Uso de memória: 46.02 MB
+2025-05-22 01:20:16,560 - P17020 - INFO - Processando URL 2/13: https://rhetory.com/antconc/wordlist.txt
+2025-05-22 01:20:16,560 - P17020 - INFO - Ignorando URL de arquivo não-HTML: https://rhetory.com/antconc/wordlist.txt
+2025-05-22 01:20:16,560 - P17020 - INFO - Após processar URL 2 Uso de memória: 46.02 MB
+2025-05-22 01:20:16,560 - P17020 - INFO - Processando URL 3/13: https://cnpj.biz/03810528000114
+2025-05-22 01:20:20,794 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\2907d4692cec326fff5f8b7e254693c2.html
+2025-05-22 01:20:20,809 - P17020 - INFO - Candidates address: 2 items
+2025-05-22 01:20:20,809 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 01:20:20,809 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 01:20:20,809 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:20,809 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 01:20:20,810 - P17020 - INFO - Após processar URL 3 Uso de memória: 46.01 MB
+2025-05-22 01:20:20,810 - P17020 - INFO - Processando URL 4/13: https://applocal.com.br/empresa/dr-wanderley-bernardi-crm-14691/sao-roque/sp/8200549
+2025-05-22 01:20:25,821 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\72f27e1c2479681df949ae4e92527ffd.html
+2025-05-22 01:20:25,870 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:20:25,870 - P17020 - INFO - Candidates phone: 4 items
+2025-05-22 01:20:25,871 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:20:25,871 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:25,871 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:20:25,871 - P17020 - INFO - Após processar URL 4 Uso de memória: 46.22 MB
+2025-05-22 01:20:25,872 - P17020 - INFO - Processando URL 5/13: https://www.consultacrm.com.br/index/medicos/uid-95603fd8-f5c5-11ec-9e74-0a4aa568c625/romero_cavendish_wanderley
+2025-05-22 01:20:30,607 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\f9f6e32229e9300da806c7168d80036c.html
+2025-05-22 01:20:30,617 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:20:30,617 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:20:30,617 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:20:30,617 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:30,617 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:20:30,618 - P17020 - INFO - Após processar URL 5 Uso de memória: 46.07 MB
+2025-05-22 01:20:30,618 - P17020 - INFO - Processando URL 6/13: https://www.consultacrm.com.br/index/medicos/uid-95912d08-f5c5-11ec-9e74-0a4aa568c625/romero_cavendish_wanderley
+2025-05-22 01:20:34,604 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e769865352cb096074c7d88f25b7186f.html
+2025-05-22 01:20:34,616 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:20:34,617 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:20:34,617 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:20:34,617 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:34,617 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:20:34,617 - P17020 - INFO - Após processar URL 6 Uso de memória: 47.46 MB
+2025-05-22 01:20:34,617 - P17020 - INFO - Processando URL 7/13: https://inteligen.com.br/socio/romero-cavendish-wanderley-099007
+2025-05-22 01:20:37,285 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7943a52a192a907906dbcb15d7135b3c.html
+2025-05-22 01:20:37,318 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:20:37,321 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:20:37,321 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:20:37,322 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:37,322 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:20:37,323 - P17020 - INFO - Após processar URL 7 Uso de memória: 46.38 MB
+2025-05-22 01:20:37,327 - P17020 - INFO - Processando URL 8/13: https://www.planodesaudesp.net/perfil/romero_cavendish_wanderley--1010097
+2025-05-22 01:20:39,940 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e1cb149d0c61dd77a95a32ca2ee2492f.html
+2025-05-22 01:20:39,959 - P17020 - INFO - Candidates address: 7 items
+2025-05-22 01:20:39,960 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:20:39,961 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:20:39,961 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 01:20:39,962 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 01:20:39,962 - P17020 - INFO - Após processar URL 8 Uso de memória: 45.95 MB
+2025-05-22 01:20:39,963 - P17020 - INFO - Processando URL 9/13: https://www.classemedica.com.br/medico/297169-romero-cavendish-wanderley.htm
+2025-05-22 01:20:45,300 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\1c7c989f01763d6d07dfa73b8e9c3205.html
+2025-05-22 01:20:45,332 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:20:45,332 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:20:45,333 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:20:45,333 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:45,333 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:20:45,333 - P17020 - INFO - Após processar URL 9 Uso de memória: 47.88 MB
+2025-05-22 01:20:45,333 - P17020 - INFO - Processando URL 10/13: https://www.medicosbrasil.com/profissional/romero-cavendish-wanderley
+2025-05-22 01:20:49,160 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\e4911b1e7a7f86857cebcfba4302cbc2.html
+2025-05-22 01:20:49,184 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:20:49,184 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:20:49,185 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:20:49,186 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:49,186 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:20:49,187 - P17020 - INFO - Após processar URL 10 Uso de memória: 47.86 MB
+2025-05-22 01:20:49,187 - P17020 - INFO - Processando URL 11/13: https://www.rededorsaoluiz.com.br/encontre-um-medico/perfil/romero-cavendish-wanderley
+2025-05-22 01:20:53,361 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\8a2ce56ba153061a7fa343a69b566374.html
+2025-05-22 01:20:53,525 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:20:53,525 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:20:53,527 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:20:53,527 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:53,527 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:20:53,528 - P17020 - INFO - Após processar URL 11 Uso de memória: 49.76 MB
+2025-05-22 01:20:53,529 - P17020 - INFO - Processando URL 12/13: https://guiamedico.cremesp.org.br/
+2025-05-22 01:20:56,423 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 01:20:56,429 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:20:56,429 - P17020 - INFO - Candidates phone: 1 items
+2025-05-22 01:20:56,429 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:20:56,429 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:20:56,429 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:20:56,430 - P17020 - INFO - Após processar URL 12 Uso de memória: 47.47 MB
+2025-05-22 01:20:56,430 - P17020 - INFO - Processando URL 13/13: https://www.consultasocio.com/q/sa/romero-cavendish-wanderley
+2025-05-22 01:21:01,145 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\fe0a153ee9c4ab3f768f9b334d6fa4ee.html
+2025-05-22 01:21:01,155 - P17020 - INFO - Candidates address: 5 items
+2025-05-22 01:21:01,155 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:21:01,155 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 01:21:01,155 - P17020 - INFO - Candidates complement: 2 items
+2025-05-22 01:21:01,156 - P17020 - INFO - Candidates cep: 8 items
+2025-05-22 01:21:01,156 - P17020 - INFO - Após processar URL 13 Uso de memória: 47.49 MB
+2025-05-22 01:21:01,156 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:21:01,156 - P17020 - INFO - Ranked address: 16 items
+2025-05-22 01:21:01,156 - P17020 - INFO - Ranked phone: 9 items
+2025-05-22 01:21:01,156 - P17020 - INFO - Ranked email: 2 items
+2025-05-22 01:21:01,157 - P17020 - INFO - Ranked complement: 3 items
+2025-05-22 01:21:01,157 - P17020 - INFO - Ranked cep: 14 items
+2025-05-22 01:21:01,158 - P17020 - INFO - Após agregação Uso de memória: 47.49 MB
+2025-05-22 01:21:01,158 - P17020 - INFO - Validando endereço: ['Rua Durval Jose de Barros, 77', 'Rua Durval Jose de Barros 77 A Chacara Seis de Outubro São Paulo SP', 'Rua São Pedro, 112']
+2025-05-22 01:21:01,158 - P17020 - INFO - Endereço validado: Rua Durval Jose de Barros, 77
+2025-05-22 01:21:01,158 - P17020 - INFO - Limpando texto extenso para campo address: Rua Durval Jose de Barros, 77...
+2025-05-22 01:21:01,158 - P17020 - INFO - Texto limpo: Rua Durval Jose de Barros, 77
+2025-05-22 01:21:01,158 - P17020 - INFO - Validando telefone: ['(11) 2651-9277', '112176338', '(11) 96393-3031']
+2025-05-22 01:21:01,159 - P17020 - INFO - Limpando texto extenso para campo phone: (11) 2651-9277...
+2025-05-22 01:21:01,159 - P17020 - INFO - Texto limpo: 11) 2651-9277
+2025-05-22 01:21:01,159 - P17020 - INFO - Telefone validado: 11) 2651-9277
+2025-05-22 01:21:01,159 - P17020 - INFO - Validando email: ['r.aparecida2003@ig.com.br', 'R.WANDERLEY1962@GMAIL.COM']
+2025-05-22 01:21:01,159 - P17020 - INFO - Limpando texto extenso para campo email: r.aparecida2003@ig.com.br...
+2025-05-22 01:21:01,159 - P17020 - INFO - Texto limpo: r.aparecida2003@ig.com.br
+2025-05-22 01:21:01,159 - P17020 - INFO - Email validado: r.aparecida2003@ig.com.br
+2025-05-22 01:21:01,159 - P17020 - INFO - Validando complemento: ['Sala 203 ', 'Apto 132 Vila Mariana', 'Apt 0405 Blc 4 Recreio Dos Bandeirantes']
+2025-05-22 01:21:01,160 - P17020 - INFO - Limpando texto extenso para campo complement: Sala 203 ...
+2025-05-22 01:21:01,160 - P17020 - INFO - Texto limpo: Sala 203
+2025-05-22 01:21:01,160 - P17020 - INFO - Complemento validado: Sala 203
+2025-05-22 01:21:01,160 - P17020 - INFO - Descobrindo cidade
+2025-05-22 01:21:01,160 - P17020 - INFO - Buscando cidade: Rua Durval Jose de Barros cidade SP
+2025-05-22 01:21:03,793 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 01:21:03,794 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 01:21:03,794 - P17020 - INFO - Tempo de execução de processamento completo do médico: 56.49 segundos
+2025-05-22 01:21:03,794 - P17020 - INFO - Resultado processado: {'Hash': '73b0cf887744b937d3a87d3039390dca8420a1842a432fe9dd473fb3c5638f87', 'CRM': '65879', 'UF': 'SP', 'Firstname': 'ROMERO', 'LastName': 'CAVENDISH WANDERLEY', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Durval Jose de Barros, 77', 'Address A1': 'Rua Durval Jose de Barros', 'Numero A1': '77', 'Complement A1': 'Sala 203', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 2651-9277', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'r.aparecida2003@ig.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:21:03,795 - P17020 - INFO - Progresso: 0.7%
+2025-05-22 01:21:03,795 - P17020 - INFO - Tempo de execução de processamento do médico 2: 56.49 segundos
+2025-05-22 01:21:03,795 - P17020 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 01:21:03,796 - P17020 - INFO - Nome: MARIA EUDOXIA PILOTTO DE CARVALHO
+2025-05-22 01:21:03,796 - P17020 - INFO - Início do processamento Uso de memória: 46.57 MB
+2025-05-22 01:21:03,796 - P17020 - INFO - Iniciando busca para: MARIA EUDOXIA PILOTTO DE CARVALHO CRM 78996 SP telefone e-mail endereço
+2025-05-22 01:21:04,172 - P17020 - INFO - SearX results: 10 URLs
+2025-05-22 01:21:04,172 - P17020 - INFO - Após SearX Uso de memória: 46.57 MB
+2025-05-22 01:21:06,795 - P17020 - INFO - Google results: 4 URLs
+2025-05-22 01:21:06,795 - P17020 - INFO - Após Google Uso de memória: 49.27 MB
+2025-05-22 01:21:09,274 - P17020 - INFO - Bing results: 10 URLs
+2025-05-22 01:21:09,275 - P17020 - INFO - Após Bing Uso de memória: 49.84 MB
+2025-05-22 01:21:09,275 - P17020 - INFO - Total de URLs únicas: 15
+2025-05-22 01:21:09,275 - P17020 - INFO - Processando URL 1/15: https://cliniguia.com/profissionais/maria-eudoxia-pilotto-de-carvalho-980016283541998/
+2025-05-22 01:21:14,863 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\4c704f095bd21a9cbab1894c35753af8.html
+2025-05-22 01:21:14,910 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:21:14,910 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:21:14,910 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:21:14,910 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:21:14,911 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:21:14,911 - P17020 - INFO - Após processar URL 1 Uso de memória: 52.05 MB
+2025-05-22 01:21:14,911 - P17020 - INFO - Processando URL 2/15: https://www.escavador.com/sobre/1427702/maria-eudoxia-pilotto-de-carvalho
+2025-05-22 01:21:20,264 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\60810a50405fe7a3f757cf0aabb489dc.html
+2025-05-22 01:21:20,294 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:21:20,294 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:21:20,294 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:21:20,294 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:21:20,295 - P17020 - INFO - Candidates cep: 3 items
+2025-05-22 01:21:20,295 - P17020 - INFO - Após processar URL 2 Uso de memória: 51.49 MB
+2025-05-22 01:21:20,295 - P17020 - INFO - Processando URL 3/15: https://www.sociosbrasil.com/nome/maria-eudoxia-pilotto-de-carvalho
+2025-05-22 01:21:25,061 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\59f767ebce23c3c75ba687a8bfe0a349.html
+2025-05-22 01:21:25,070 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:21:25,070 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:21:25,071 - P17020 - INFO - Candidates email: 1 items
+2025-05-22 01:21:25,071 - P17020 - INFO - Candidates complement: 1 items
+2025-05-22 01:21:25,071 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 01:21:25,071 - P17020 - INFO - Após processar URL 3 Uso de memória: 52.34 MB
+2025-05-22 01:21:25,071 - P17020 - INFO - Processando URL 4/15: https://cnpj.services/qsa/maria-eudoxia-pilotto-de-carvalho
+2025-05-22 01:21:28,028 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\b9fed24fc8119d8a82013cc89f2f671d.html
+2025-05-22 01:21:28,039 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:21:28,039 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:21:28,039 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:21:28,040 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:21:28,040 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 01:21:28,040 - P17020 - INFO - Após processar URL 4 Uso de memória: 51.73 MB
+2025-05-22 01:21:28,040 - P17020 - INFO - Processando URL 5/15: https://www.classemedica.com.br/medico/230128-maria-eudoxia-pilotto-de-carvalho.htm
+2025-05-22 01:21:32,820 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\363b6b7e9b1b7bcb49d47e43bc0ad3f5.html
+2025-05-22 01:21:32,861 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:21:32,861 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:21:32,861 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:21:32,861 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:21:32,861 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:21:32,862 - P17020 - INFO - Após processar URL 5 Uso de memória: 54.16 MB
+2025-05-22 01:21:32,862 - P17020 - INFO - Processando URL 6/15: https://accamargo.org.br/medico/maria-eudoxia-pilotto-de-carvalho
+2025-05-22 01:21:36,373 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\506a9abe0c3e175b28e3ae5c15fc381e.html
+2025-05-22 01:21:36,460 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:21:36,460 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 01:21:36,460 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:21:36,460 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:21:36,461 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:21:36,461 - P17020 - INFO - Após processar URL 6 Uso de memória: 52.97 MB
+2025-05-22 01:21:36,461 - P17020 - INFO - Processando URL 7/15: https://accamargo.org.br/medico/bruno-arantes-dias
+2025-05-22 01:21:39,134 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\7d3d33fd2e5883990de01b8052b85777.html
+2025-05-22 01:21:39,219 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:21:39,219 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 01:21:39,219 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:21:39,219 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:21:39,219 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:21:39,220 - P17020 - INFO - Após processar URL 7 Uso de memória: 56.20 MB
+2025-05-22 01:21:39,220 - P17020 - INFO - Processando URL 8/15: https://www.medicosbrasil.com/profissional/maria-eudoxia-pilotto-de-carvalho
+2025-05-22 01:21:41,402 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c0863b82dfcaa0e63d436dcce4795925.html
+2025-05-22 01:21:41,404 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:21:41,404 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:21:41,405 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:21:41,405 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:21:41,405 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:21:41,405 - P17020 - INFO - Após processar URL 8 Uso de memória: 54.39 MB
+2025-05-22 01:21:41,405 - P17020 - INFO - Processando URL 9/15: https://empresalistacnpjconsulta.com/organizacoes/socio/01183535000108/maria-eudoxia-pilotto-de-carvalho
+2025-05-22 01:22:02,381 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\07a024ccc69396f74a6b3be715166b5a.html
+2025-05-22 01:22:02,398 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:22:02,399 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:22:02,399 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:22:02,399 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:22:02,402 - P17020 - INFO - Candidates cep: 2 items
+2025-05-22 01:22:02,404 - P17020 - INFO - Após processar URL 9 Uso de memória: 55.50 MB
+2025-05-22 01:22:02,405 - P17020 - INFO - Processando URL 10/15: https://accamargo.org.br/medico/fabricio-rodrigues-torres-de-carvalho
+2025-05-22 01:22:05,401 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\bf58f40102bf7e239fdbd4e17bf1abcf.html
+2025-05-22 01:22:05,502 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:22:05,513 - P17020 - INFO - Candidates phone: 2 items
+2025-05-22 01:22:05,524 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:22:05,525 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:22:05,526 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:22:05,526 - P17020 - INFO - Após processar URL 10 Uso de memória: 57.43 MB
+2025-05-22 01:22:05,526 - P17020 - INFO - Processando URL 11/15: https://www.boaconsulta.com/especialista/maria-eudoxia-pilotto-de-carvalho-6106ec44a2e00a713f001103
+2025-05-22 01:22:08,504 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\746a73fa710235ff9cf3da6bae536402.html
+2025-05-22 01:22:08,566 - P17020 - INFO - Candidates address: 11 items
+2025-05-22 01:22:08,567 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:22:08,567 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:22:08,567 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:22:08,567 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:22:08,567 - P17020 - INFO - Após processar URL 11 Uso de memória: 57.70 MB
+2025-05-22 01:22:08,567 - P17020 - INFO - Processando URL 12/15: https://www.catalogo.med.br/doutor/maria-eudoxia-pilotto-de-carvalho-2142139.htm
+2025-05-22 01:22:15,179 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\c043bbe02f66a6794230c499b67c3670.html
+2025-05-22 01:22:15,223 - P17020 - INFO - Candidates address: 1 items
+2025-05-22 01:22:15,228 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:22:15,229 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:22:15,229 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:22:15,229 - P17020 - INFO - Candidates cep: 1 items
+2025-05-22 01:22:15,230 - P17020 - INFO - Após processar URL 12 Uso de memória: 57.65 MB
+2025-05-22 01:22:15,230 - P17020 - INFO - Processando URL 13/15: https://www.consultacrm.com.br/index/medicos/uid-93988d2e-f5c5-11ec-9e74-0a4aa568c625/maria_eudoxia_pilotto_de_carvalho
+2025-05-22 01:22:19,343 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\8eaa698bf6b21d6258ca644625e828b3.html
+2025-05-22 01:22:19,354 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:22:19,355 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:22:19,355 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:22:19,355 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:22:19,355 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:22:19,356 - P17020 - INFO - Após processar URL 13 Uso de memória: 58.41 MB
+2025-05-22 01:22:19,356 - P17020 - INFO - Processando URL 14/15: https://doutorcrm.com/maria-eudoxia-pilotto-de-carvalho
+2025-05-22 01:22:23,419 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\70d78fe6444c96a12f689a2f9399fe25.html
+2025-05-22 01:22:23,426 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:22:23,426 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:22:23,426 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:22:23,426 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:22:23,426 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:22:23,427 - P17020 - INFO - Após processar URL 14 Uso de memória: 57.93 MB
+2025-05-22 01:22:23,427 - P17020 - INFO - Processando URL 15/15: https://votuporanga.siscam.com.br/arquivo?Id=92149
+2025-05-22 01:22:25,919 - P17020 - INFO - HTML salvo para debug: data\debug_html_v10\33a0114a788348df8ca46bfa0ac31f83.html
+2025-05-22 01:22:25,919 - P17020 - INFO - Candidates address: 0 items
+2025-05-22 01:22:25,919 - P17020 - INFO - Candidates phone: 0 items
+2025-05-22 01:22:25,920 - P17020 - INFO - Candidates email: 0 items
+2025-05-22 01:22:25,920 - P17020 - INFO - Candidates complement: 0 items
+2025-05-22 01:22:25,920 - P17020 - INFO - Candidates cep: 0 items
+2025-05-22 01:22:25,920 - P17020 - INFO - Após processar URL 15 Uso de memória: 57.99 MB
+2025-05-22 01:22:25,920 - P17020 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 01:22:25,920 - P17020 - INFO - Ranked address: 13 items
+2025-05-22 01:22:25,921 - P17020 - INFO - Ranked phone: 2 items
+2025-05-22 01:22:25,921 - P17020 - INFO - Ranked email: 1 items
+2025-05-22 01:22:25,921 - P17020 - INFO - Ranked complement: 1 items
+2025-05-22 01:22:25,921 - P17020 - INFO - Ranked cep: 9 items
+2025-05-22 01:22:25,921 - P17020 - INFO - Após agregação Uso de memória: 57.99 MB
+2025-05-22 01:22:25,921 - P17020 - INFO - Validando endereço: ['Rua Professor Antonio Prudente, 211', 'Rua Prof. Antonio Prudente, 211', 'Rua Tuim, 186']
+2025-05-22 01:22:25,921 - P17020 - INFO - Endereço validado: Rua Professor Antonio Prudente, 211
+2025-05-22 01:22:25,922 - P17020 - INFO - Limpando texto extenso para campo address: Rua Professor Antonio Prudente, 211...
+2025-05-22 01:22:25,922 - P17020 - INFO - Texto limpo: Rua Professor Antonio Prudente, 211
+2025-05-22 01:22:25,922 - P17020 - INFO - Validando telefone: ['(11) 2189-5000', '21895000']
+2025-05-22 01:22:25,922 - P17020 - INFO - Limpando texto extenso para campo phone: (11) 2189-5000...
+2025-05-22 01:22:25,922 - P17020 - INFO - Texto limpo: 11) 2189-5000
+2025-05-22 01:22:25,922 - P17020 - INFO - Telefone validado: 11) 2189-5000
+2025-05-22 01:22:25,922 - P17020 - INFO - Validando email: ['PEDRO.CARUSO@ACCAMARGO.ORG.BR']
+2025-05-22 01:22:25,923 - P17020 - INFO - Limpando texto extenso para campo email: PEDRO.CARUSO@ACCAMARGO.ORG.BR...
+2025-05-22 01:22:25,923 - P17020 - INFO - Texto limpo: pedro.caruso@accamargo.org.br
+2025-05-22 01:22:25,923 - P17020 - INFO - Email validado: pedro.caruso@accamargo.org.br
+2025-05-22 01:22:25,923 - P17020 - INFO - Validando complemento: ['Sala: 81; Vila Uberabinha']
+2025-05-22 01:22:25,923 - P17020 - INFO - Limpando texto extenso para campo complement: Sala: 81; Vila Uberabinha...
+2025-05-22 01:22:25,923 - P17020 - INFO - Texto limpo: Sala: 81; Vila Uberabinha
+2025-05-22 01:22:25,923 - P17020 - INFO - Complemento validado: Sala: 81; Vila Uberabinha
+2025-05-22 01:22:25,923 - P17020 - INFO - Descobrindo cidade
+2025-05-22 01:22:25,923 - P17020 - INFO - Buscando cidade: Rua Professor Antonio Prudente cidade SP
+2025-05-22 01:22:28,571 - P17020 - WARNING - Cidade não encontrada
+2025-05-22 01:22:28,572 - P17020 - INFO - Cidade descoberta: 
+2025-05-22 01:22:28,572 - P17020 - INFO - Tempo de execução de processamento completo do médico: 84.78 segundos
+2025-05-22 01:22:28,572 - P17020 - INFO - Resultado processado: {'Hash': '240456dce2a8c82ccfd6f35971d27d01da327eeaa74f0c00e49689a8249265df', 'CRM': '78996', 'UF': 'SP', 'Firstname': 'MARIA', 'LastName': 'EUDOXIA PILOTTO DE CARVALHO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Professor Antonio Prudente, 211', 'Address A1': 'Rua Professor Antonio Prudente', 'Numero A1': '211', 'Complement A1': 'Sala: 81; Vila Uberabinha', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 2189-5000', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'pedro.caruso@accamargo.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 01:22:28,572 - P17020 - INFO - Salvando lote de resultados
+2025-05-22 01:22:28,573 - P17020 - INFO - Após salvar resultados Uso de memória: 55.51 MB
+2025-05-22 01:22:28,573 - P17020 - INFO - Progresso: 1.1%
+2025-05-22 01:22:28,574 - P17020 - INFO - Tempo de execução de processamento do médico 3: 84.78 segundos
+2025-05-22 01:22:28,574 - P17020 - INFO - Tempo de execução de processamento do lote completo: 221.70 segundos

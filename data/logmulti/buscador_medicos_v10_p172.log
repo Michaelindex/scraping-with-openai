@@ -1,0 +1,433 @@
+2025-05-22 03:09:59,073 - P15228 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 03:09:59,074 - P15228 - INFO - Nome: JOAO PAULO DE OLIVEIRA
+2025-05-22 03:09:59,074 - P15228 - INFO - Reiniciando driver do Chrome
+2025-05-22 03:10:00,377 - P15228 - INFO - Após reiniciar driver Uso de memória: 121.62 MB
+2025-05-22 03:10:00,378 - P15228 - INFO - Início do processamento Uso de memória: 121.62 MB
+2025-05-22 03:10:00,378 - P15228 - INFO - Iniciando busca para: JOAO PAULO DE OLIVEIRA CRM 140895 SP telefone e-mail endereço
+2025-05-22 03:10:01,187 - P15228 - INFO - SearX results: 14 URLs
+2025-05-22 03:10:01,188 - P15228 - INFO - Após SearX Uso de memória: 121.62 MB
+2025-05-22 03:10:03,840 - P15228 - INFO - Google results: 6 URLs
+2025-05-22 03:10:03,840 - P15228 - INFO - Após Google Uso de memória: 122.52 MB
+2025-05-22 03:10:06,532 - P15228 - INFO - Bing results: 8 URLs
+2025-05-22 03:10:06,532 - P15228 - INFO - Após Bing Uso de memória: 124.07 MB
+2025-05-22 03:10:06,532 - P15228 - INFO - Total de URLs únicas: 19
+2025-05-22 03:10:06,532 - P15228 - INFO - Processando URL 1/19: https://accamargo.org.br/medico/joao-paulo-de-oliveira-medici
+2025-05-22 03:10:09,630 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\85b010630cc2008b97b88203e60cc3dc.html
+2025-05-22 03:10:09,678 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:10:09,678 - P15228 - INFO - Candidates phone: 2 items
+2025-05-22 03:10:09,678 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:10:09,679 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:09,679 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 03:10:09,679 - P15228 - INFO - Após processar URL 1 Uso de memória: 124.37 MB
+2025-05-22 03:10:09,679 - P15228 - INFO - Processando URL 2/19: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/5517
+2025-05-22 03:10:11,810 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\2879a397f6e4dd4483ccb81d35d95408.html
+2025-05-22 03:10:11,862 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:10:11,862 - P15228 - INFO - Candidates phone: 2 items
+2025-05-22 03:10:11,862 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:10:11,862 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:11,863 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 03:10:11,863 - P15228 - INFO - Após processar URL 2 Uso de memória: 124.37 MB
+2025-05-22 03:10:11,863 - P15228 - INFO - Processando URL 3/19: https://guiamedico.cremesp.org.br/
+2025-05-22 03:10:15,061 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 03:10:15,067 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 03:10:15,068 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 03:10:15,068 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:10:15,068 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:15,068 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 03:10:15,068 - P15228 - INFO - Após processar URL 3 Uso de memória: 124.37 MB
+2025-05-22 03:10:15,068 - P15228 - INFO - Processando URL 4/19: https://www.catalogo.med.br/doutor/joao-paulo-de-oliveira-2412039.htm
+2025-05-22 03:10:17,241 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\2c0215ef6569e042fd7a7097321bdfe3.html
+2025-05-22 03:10:17,243 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:10:17,243 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:17,243 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:10:17,243 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:17,244 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:17,244 - P15228 - INFO - Após processar URL 4 Uso de memória: 124.37 MB
+2025-05-22 03:10:17,244 - P15228 - INFO - Processando URL 5/19: https://www.doctoralia.com.br/joao-paulo-cardoso-de-oliveira/medico-clinico-geral/sao-paulo
+2025-05-22 03:10:17,244 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/joao-paulo-cardoso-de-oliveira/medico-clinico-geral/sao-paulo
+2025-05-22 03:10:17,244 - P15228 - INFO - Após processar URL 5 Uso de memória: 124.37 MB
+2025-05-22 03:10:17,245 - P15228 - INFO - Processando URL 6/19: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1213875516.pdf
+2025-05-22 03:10:17,245 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1213875516.pdf
+2025-05-22 03:10:17,245 - P15228 - INFO - Após processar URL 6 Uso de memória: 124.37 MB
+2025-05-22 03:10:17,245 - P15228 - INFO - Processando URL 7/19: https://www.ioepa.com.br/pages/2010/2010.08.09.DOE.pdf
+2025-05-22 03:10:17,245 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2010/2010.08.09.DOE.pdf
+2025-05-22 03:10:17,246 - P15228 - INFO - Após processar URL 7 Uso de memória: 124.37 MB
+2025-05-22 03:10:17,246 - P15228 - INFO - Processando URL 8/19: https://www.consultacrm.com.br/index/medicos/uid-97642523-f5c5-11ec-9e74-0a4aa568c625/joao_paulo_de_oliveira_fonseca
+2025-05-22 03:10:22,837 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\330cd25af4f8e6022938970b6ae8b42b.html
+2025-05-22 03:10:22,847 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:10:22,848 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:22,848 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:10:22,848 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:22,848 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 03:10:22,849 - P15228 - INFO - Após processar URL 8 Uso de memória: 124.39 MB
+2025-05-22 03:10:22,849 - P15228 - INFO - Processando URL 9/19: https://www.jfsp.jus.br/documentos/administrativo/NUGE/Civel/EDITAL-34-2011-CIVEL.pdf
+2025-05-22 03:10:22,849 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.jfsp.jus.br/documentos/administrativo/NUGE/Civel/EDITAL-34-2011-CIVEL.pdf
+2025-05-22 03:10:22,849 - P15228 - INFO - Após processar URL 9 Uso de memória: 124.39 MB
+2025-05-22 03:10:22,849 - P15228 - INFO - Processando URL 10/19: https://www.solutudo.com.br/empresas/sp/pres-prudente/clinica-medica-ou-medicina-interna/joao-paulo-de-oliveira-clinica-medica-23824932
+2025-05-22 03:10:29,379 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\148ac89551bbc6f5f3553977cee11e9a.html
+2025-05-22 03:10:29,416 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 03:10:29,417 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 03:10:29,417 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 03:10:29,417 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:29,417 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 03:10:29,417 - P15228 - INFO - Após processar URL 10 Uso de memória: 124.39 MB
+2025-05-22 03:10:29,417 - P15228 - INFO - Processando URL 11/19: https://consultacrm.com.br/
+2025-05-22 03:10:33,076 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:10:33,088 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:10:33,088 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:33,088 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:10:33,089 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:33,089 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:33,090 - P15228 - INFO - Após processar URL 11 Uso de memória: 124.41 MB
+2025-05-22 03:10:33,090 - P15228 - INFO - Processando URL 12/19: https://www.doctoralia.com.br/joao-paulo-de-oliveira/medico-clinico-geral/presidente-prudente
+2025-05-22 03:10:33,090 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/joao-paulo-de-oliveira/medico-clinico-geral/presidente-prudente
+2025-05-22 03:10:33,090 - P15228 - INFO - Após processar URL 12 Uso de memória: 124.41 MB
+2025-05-22 03:10:33,090 - P15228 - INFO - Processando URL 13/19: https://dosp.com.br/exibe_do.php?i=NjQ4OTQ0
+2025-05-22 03:10:35,218 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\f34dec385e606b4067697295280628e6.html
+2025-05-22 03:10:35,219 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:10:35,219 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:35,219 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:10:35,220 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:35,220 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:35,220 - P15228 - INFO - Após processar URL 13 Uso de memória: 124.41 MB
+2025-05-22 03:10:35,220 - P15228 - INFO - Processando URL 14/19: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2017/12/EDI%C3%87%C3%83O-4337-08-12-2017-ASSINADO-1.pdf
+2025-05-22 03:10:35,220 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2017/12/EDI%C3%87%C3%83O-4337-08-12-2017-ASSINADO-1.pdf
+2025-05-22 03:10:35,221 - P15228 - INFO - Após processar URL 14 Uso de memória: 124.41 MB
+2025-05-22 03:10:35,221 - P15228 - INFO - Processando URL 15/19: http://cremesp.org.br/
+2025-05-22 03:10:42,301 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\2a967318246f9658edeb1e0469c871fe.html
+2025-05-22 03:10:42,326 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 03:10:42,326 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 03:10:42,326 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:10:42,326 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:42,326 - P15228 - INFO - Candidates cep: 2 items
+2025-05-22 03:10:42,326 - P15228 - INFO - Após processar URL 15 Uso de memória: 124.41 MB
+2025-05-22 03:10:42,327 - P15228 - INFO - Processando URL 16/19: https://www.saobernardo.sp.gov.br/documents/10181/2045904/NM+2522+de+09.05.2025+-++Conte%C3%BAdo+Integral.pdf/a7ed2509-0e8c-a9fa-62bf-83664fb930a8
+2025-05-22 03:10:42,327 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/2045904/NM+2522+de+09.05.2025+-++Conte%C3%BAdo+Integral.pdf/a7ed2509-0e8c-a9fa-62bf-83664fb930a8
+2025-05-22 03:10:42,327 - P15228 - INFO - Após processar URL 16 Uso de memória: 124.41 MB
+2025-05-22 03:10:42,327 - P15228 - INFO - Processando URL 17/19: https://www.medicosbrasil.com/profissional/joao-paulo-barbosa-de-oliveira
+2025-05-22 03:10:46,420 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\971318eaf9e206db9403a5dd786609bc.html
+2025-05-22 03:10:46,439 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:10:46,440 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:46,440 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:10:46,440 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:46,441 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:46,442 - P15228 - INFO - Após processar URL 17 Uso de memória: 124.42 MB
+2025-05-22 03:10:46,443 - P15228 - INFO - Processando URL 18/19: https://www.saobernardo.sp.gov.br/documents/10181/2045904/NM+2522+de+09.05.2025+-++Conte%C3%BAdo+Integral.pdf/aa88a428-3620-4262-69e7-389559e07f86
+2025-05-22 03:10:46,444 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/2045904/NM+2522+de+09.05.2025+-++Conte%C3%BAdo+Integral.pdf/aa88a428-3620-4262-69e7-389559e07f86
+2025-05-22 03:10:46,446 - P15228 - INFO - Após processar URL 18 Uso de memória: 124.42 MB
+2025-05-22 03:10:46,449 - P15228 - INFO - Processando URL 19/19: https://www.classemedica.com.br/medico/155303-joao-paulo-de-oliveira.htm
+2025-05-22 03:10:53,146 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\9fe635d9e1566f0e839fb4c26eb1f237.html
+2025-05-22 03:10:53,187 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:10:53,187 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:10:53,187 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:10:53,187 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:10:53,188 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:10:53,188 - P15228 - INFO - Após processar URL 19 Uso de memória: 125.12 MB
+2025-05-22 03:10:53,188 - P15228 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:10:53,188 - P15228 - INFO - Ranked address: 2 items
+2025-05-22 03:10:53,188 - P15228 - INFO - Ranked phone: 4 items
+2025-05-22 03:10:53,189 - P15228 - INFO - Ranked email: 1 items
+2025-05-22 03:10:53,189 - P15228 - INFO - Ranked complement: 0 items
+2025-05-22 03:10:53,189 - P15228 - INFO - Ranked cep: 5 items
+2025-05-22 03:10:53,189 - P15228 - INFO - Após agregação Uso de memória: 125.12 MB
+2025-05-22 03:10:53,189 - P15228 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Avenida Celestino Jose Figueiredo, 312']
+2025-05-22 03:10:53,190 - P15228 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 03:10:53,190 - P15228 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 03:10:53,190 - P15228 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 03:10:53,190 - P15228 - INFO - Validando telefone: ['(11) 2189-5000', '21895000', '(11) 4349-9900']
+2025-05-22 03:10:53,190 - P15228 - INFO - Limpando texto extenso para campo phone: (11) 2189-5000...
+2025-05-22 03:10:53,190 - P15228 - INFO - Texto limpo: 11) 2189-5000
+2025-05-22 03:10:53,191 - P15228 - INFO - Telefone validado: 11) 2189-5000
+2025-05-22 03:10:53,191 - P15228 - INFO - Validando email: ['a@escritoriogarcia.com.br']
+2025-05-22 03:10:53,191 - P15228 - INFO - Limpando texto extenso para campo email: a@escritoriogarcia.com.br...
+2025-05-22 03:10:53,191 - P15228 - INFO - Texto limpo: a@escritoriogarcia.com.br
+2025-05-22 03:10:53,191 - P15228 - INFO - Email validado: a@escritoriogarcia.com.br
+2025-05-22 03:10:53,191 - P15228 - INFO - Descobrindo cidade
+2025-05-22 03:10:53,191 - P15228 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 03:10:57,093 - P15228 - WARNING - Cidade não encontrada
+2025-05-22 03:10:57,093 - P15228 - INFO - Cidade descoberta: 
+2025-05-22 03:10:57,094 - P15228 - INFO - Tempo de execução de processamento completo do médico: 56.72 segundos
+2025-05-22 03:10:57,094 - P15228 - INFO - Resultado processado: {'Hash': '07c4d809d62b9b31c05a15124050033766f83f10cf6cde35c110e9d28b5d5f55', 'CRM': '140895', 'UF': 'SP', 'Firstname': 'JOAO', 'LastName': 'PAULO DE OLIVEIRA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 2189-5000', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'a@escritoriogarcia.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:10:57,098 - P15228 - INFO - Progresso: 42.0%
+2025-05-22 03:10:57,098 - P15228 - INFO - Executando coleta de lixo
+2025-05-22 03:10:57,151 - P15228 - INFO - Após coleta de lixo Uso de memória: 114.21 MB
+2025-05-22 03:10:57,152 - P15228 - INFO - Tempo de execução de processamento do médico 1: 58.08 segundos
+2025-05-22 03:10:57,152 - P15228 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 03:10:57,152 - P15228 - INFO - Nome: TASSIANE CINTRA DE ALVARENGA OLIVEIRA
+2025-05-22 03:10:57,152 - P15228 - INFO - Início do processamento Uso de memória: 114.21 MB
+2025-05-22 03:10:57,153 - P15228 - INFO - Iniciando busca para: TASSIANE CINTRA DE ALVARENGA OLIVEIRA CRM 142525 SP telefone e-mail endereço
+2025-05-22 03:10:57,980 - P15228 - INFO - SearX results: 10 URLs
+2025-05-22 03:10:57,980 - P15228 - INFO - Após SearX Uso de memória: 114.21 MB
+2025-05-22 03:11:00,658 - P15228 - INFO - Google results: 4 URLs
+2025-05-22 03:11:00,658 - P15228 - INFO - Após Google Uso de memória: 119.07 MB
+2025-05-22 03:11:03,195 - P15228 - INFO - Bing results: 10 URLs
+2025-05-22 03:11:03,196 - P15228 - INFO - Após Bing Uso de memória: 120.90 MB
+2025-05-22 03:11:03,196 - P15228 - INFO - Total de URLs únicas: 13
+2025-05-22 03:11:03,196 - P15228 - INFO - Processando URL 1/13: https://www.escavador.com/sobre/2396569/tassiane-cintra-de-alvarenga-oliveira
+2025-05-22 03:11:06,144 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\6ee64415d34e7a82cf4baf9a84607bc7.html
+2025-05-22 03:11:06,170 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:11:06,171 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:11:06,171 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:11:06,172 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:06,172 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:11:06,173 - P15228 - INFO - Após processar URL 1 Uso de memória: 122.13 MB
+2025-05-22 03:11:06,174 - P15228 - INFO - Processando URL 2/13: https://scmp.org.br/medico/671/tassiane-cintra-de-alvarenga-oliveira-padovesi
+2025-05-22 03:11:09,480 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\498566ca455814b6cc404ec31b74d00b.html
+2025-05-22 03:11:09,508 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:11:09,509 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:11:09,509 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 03:11:09,509 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:09,509 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:11:09,510 - P15228 - INFO - Após processar URL 2 Uso de memória: 122.37 MB
+2025-05-22 03:11:09,510 - P15228 - INFO - Processando URL 3/13: https://scmp.org.br/especialidades/91/endocrinologia
+2025-05-22 03:11:12,325 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\39088fd03eced043631c1e0eaffb6895.html
+2025-05-22 03:11:12,358 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:11:12,358 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:11:12,358 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 03:11:12,359 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:12,359 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:11:12,359 - P15228 - INFO - Após processar URL 3 Uso de memória: 122.40 MB
+2025-05-22 03:11:12,359 - P15228 - INFO - Processando URL 4/13: https://guiamedico.cremesp.org.br/
+2025-05-22 03:11:15,101 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 03:11:15,109 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 03:11:15,110 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 03:11:15,110 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:11:15,110 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:15,110 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 03:11:15,111 - P15228 - INFO - Após processar URL 4 Uso de memória: 122.45 MB
+2025-05-22 03:11:15,115 - P15228 - INFO - Processando URL 5/13: https://consultacrm.com.br/
+2025-05-22 03:11:18,608 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:11:18,624 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:11:18,625 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:11:18,625 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:11:18,626 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:18,626 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:11:18,627 - P15228 - INFO - Após processar URL 5 Uso de memória: 122.73 MB
+2025-05-22 03:11:18,628 - P15228 - INFO - Processando URL 6/13: https://www.boaconsulta.com/especialista/tassiane-cintra-de-alvarenga-oliveira-6105d6e5ba32c33675000292
+2025-05-22 03:11:20,832 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\d4c9414c5d261144daffa108f9acc49b.html
+2025-05-22 03:11:20,908 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 03:11:20,908 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:11:20,909 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:11:20,909 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:20,909 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:11:20,910 - P15228 - INFO - Após processar URL 6 Uso de memória: 123.54 MB
+2025-05-22 03:11:20,910 - P15228 - INFO - Processando URL 7/13: https://www.scmp.org.br/medico/671/tassiane-cintra-de-alvarenga-oliveira-padovesi
+2025-05-22 03:11:23,798 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\7a64f545c5f54e372726bd7f5c1d8616.html
+2025-05-22 03:11:23,827 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:11:23,827 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:11:23,827 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 03:11:23,827 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:23,827 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:11:23,828 - P15228 - INFO - Após processar URL 7 Uso de memória: 123.61 MB
+2025-05-22 03:11:23,828 - P15228 - INFO - Processando URL 8/13: https://www.doctoralia.com.br/tassiane-cintra-de-alvarenga-oliveira/endocrinologista/passos
+2025-05-22 03:11:23,828 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/tassiane-cintra-de-alvarenga-oliveira/endocrinologista/passos
+2025-05-22 03:11:23,828 - P15228 - INFO - Após processar URL 8 Uso de memória: 123.61 MB
+2025-05-22 03:11:23,828 - P15228 - INFO - Processando URL 9/13: https://www.clickdisk.com.br/telefone/passos/dra-tassiane-alvarenga
+2025-05-22 03:11:26,024 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\b3d6c5541c747c231321293173574559.html
+2025-05-22 03:11:26,081 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 03:11:26,082 - P15228 - INFO - Candidates phone: 3 items
+2025-05-22 03:11:26,083 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 03:11:26,084 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:26,084 - P15228 - INFO - Candidates cep: 3 items
+2025-05-22 03:11:26,085 - P15228 - INFO - Após processar URL 9 Uso de memória: 123.66 MB
+2025-05-22 03:11:26,085 - P15228 - INFO - Processando URL 10/13: https://www.conveniosocial.com.br/especialistas/endocrinologista-em-passos-mg-tassiane-cintra-de-alvarenga-oliveira/
+2025-05-22 03:11:31,463 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\90384ff8e1ed962985584a1e3ea5e052.html
+2025-05-22 03:11:31,471 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:11:31,472 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:11:31,473 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:11:31,474 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:31,474 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:11:31,475 - P15228 - INFO - Após processar URL 10 Uso de memória: 124.02 MB
+2025-05-22 03:11:31,476 - P15228 - INFO - Processando URL 11/13: https://cliniguia.com/profissionais/tassiane-cintra-de-alvarenga-oliveira-705008667680554/
+2025-05-22 03:11:35,288 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\39fbad9c4e177033c1c3d162c16c0b23.html
+2025-05-22 03:11:35,357 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:11:35,358 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:11:35,358 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:11:35,358 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:35,358 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:11:35,358 - P15228 - INFO - Após processar URL 11 Uso de memória: 125.67 MB
+2025-05-22 03:11:35,359 - P15228 - INFO - Processando URL 12/13: https://www.medicosbrasil.com/profissional/tassiane-cintra-de-alvarenga-oliveira
+2025-05-22 03:11:37,532 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\40be3c922e7c410e1db919d834253261.html
+2025-05-22 03:11:37,534 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:11:37,534 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:11:37,535 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:11:37,535 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:37,535 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:11:37,535 - P15228 - INFO - Após processar URL 12 Uso de memória: 124.58 MB
+2025-05-22 03:11:37,535 - P15228 - INFO - Processando URL 13/13: https://guiasaudebrasil.com.br/profissional/df61de8e3051ddb8-tassiane-cintra-de-alvarenga-oliveira
+2025-05-22 03:11:43,034 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\fddf7d4d0563ce9e5b94a187dbe0c86a.html
+2025-05-22 03:11:43,043 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:11:43,043 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:11:43,043 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:11:43,043 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:43,044 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 03:11:43,044 - P15228 - INFO - Após processar URL 13 Uso de memória: 124.60 MB
+2025-05-22 03:11:43,044 - P15228 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:11:43,044 - P15228 - INFO - Ranked address: 3 items
+2025-05-22 03:11:43,044 - P15228 - INFO - Ranked phone: 4 items
+2025-05-22 03:11:43,045 - P15228 - INFO - Ranked email: 2 items
+2025-05-22 03:11:43,045 - P15228 - INFO - Ranked complement: 0 items
+2025-05-22 03:11:43,046 - P15228 - INFO - Ranked cep: 5 items
+2025-05-22 03:11:43,046 - P15228 - INFO - Após agregação Uso de memória: 124.60 MB
+2025-05-22 03:11:43,046 - P15228 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Rua Santa Casa, 164', 'Rua Dr. José Lemos de Barros, 384']
+2025-05-22 03:11:43,046 - P15228 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 03:11:43,046 - P15228 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 03:11:43,046 - P15228 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 03:11:43,046 - P15228 - INFO - Validando telefone: ['(11) 4349-9900', '(35) 3413-6533', '3413-6533']
+2025-05-22 03:11:43,047 - P15228 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 03:11:43,047 - P15228 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 03:11:43,047 - P15228 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 03:11:43,047 - P15228 - INFO - Validando email: ['scpassos@scpassos.org.br', 'tassiane.alvarenga@uol.com.br']
+2025-05-22 03:11:43,047 - P15228 - INFO - Limpando texto extenso para campo email: scpassos@scpassos.org.br...
+2025-05-22 03:11:43,047 - P15228 - INFO - Texto limpo: scpassos@scpassos.org.br
+2025-05-22 03:11:43,047 - P15228 - INFO - Email validado: scpassos@scpassos.org.br
+2025-05-22 03:11:43,048 - P15228 - INFO - Descobrindo cidade
+2025-05-22 03:11:43,048 - P15228 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 03:11:45,689 - P15228 - WARNING - Cidade não encontrada
+2025-05-22 03:11:45,690 - P15228 - INFO - Cidade descoberta: 
+2025-05-22 03:11:45,690 - P15228 - INFO - Tempo de execução de processamento completo do médico: 48.54 segundos
+2025-05-22 03:11:45,690 - P15228 - INFO - Resultado processado: {'Hash': '0b1598bba527ca6d0064cedb24bbc75d1c7ff143a6aaab6853f3d93baed5f0b0', 'CRM': '142525', 'UF': 'SP', 'Firstname': 'TASSIANE', 'LastName': 'CINTRA DE ALVARENGA OLIVEIRA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'scpassos@scpassos.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:11:45,691 - P15228 - INFO - Progresso: 42.2%
+2025-05-22 03:11:45,692 - P15228 - INFO - Tempo de execução de processamento do médico 2: 48.54 segundos
+2025-05-22 03:11:45,692 - P15228 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 03:11:45,692 - P15228 - INFO - Nome: MARIANE AIKO SIMAMURA
+2025-05-22 03:11:45,693 - P15228 - INFO - Início do processamento Uso de memória: 121.97 MB
+2025-05-22 03:11:45,693 - P15228 - INFO - Iniciando busca para: MARIANE AIKO SIMAMURA CRM 143108 SP telefone e-mail endereço
+2025-05-22 03:11:46,501 - P15228 - INFO - SearX results: 10 URLs
+2025-05-22 03:11:46,501 - P15228 - INFO - Após SearX Uso de memória: 121.97 MB
+2025-05-22 03:11:49,183 - P15228 - INFO - Google results: 5 URLs
+2025-05-22 03:11:49,184 - P15228 - INFO - Após Google Uso de memória: 122.03 MB
+2025-05-22 03:11:51,720 - P15228 - INFO - Bing results: 10 URLs
+2025-05-22 03:11:51,720 - P15228 - INFO - Após Bing Uso de memória: 122.07 MB
+2025-05-22 03:11:51,720 - P15228 - INFO - Total de URLs únicas: 13
+2025-05-22 03:11:51,721 - P15228 - INFO - Processando URL 1/13: https://guiamedico.cremesp.org.br/
+2025-05-22 03:11:54,350 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 03:11:54,357 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 03:11:54,358 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 03:11:54,359 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:11:54,359 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:54,359 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 03:11:54,359 - P15228 - INFO - Após processar URL 1 Uso de memória: 122.08 MB
+2025-05-22 03:11:54,360 - P15228 - INFO - Processando URL 2/13: https://consultacrm.com.br/
+2025-05-22 03:11:57,270 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:11:57,283 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:11:57,283 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:11:57,284 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:11:57,284 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:57,284 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:11:57,285 - P15228 - INFO - Após processar URL 2 Uso de memória: 122.57 MB
+2025-05-22 03:11:57,285 - P15228 - INFO - Processando URL 3/13: https://www.catalogo.med.br/doutor/mariane-aiko-simamura-2044399.htm
+2025-05-22 03:11:59,401 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\a5fca8ed81a7f452cf6b4ca3293b2237.html
+2025-05-22 03:11:59,402 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:11:59,402 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:11:59,402 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:11:59,402 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:11:59,402 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:11:59,403 - P15228 - INFO - Após processar URL 3 Uso de memória: 122.57 MB
+2025-05-22 03:11:59,403 - P15228 - INFO - Processando URL 4/13: https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/cgp/CGP_MEDICOS_MAR2012.pdf
+2025-05-22 03:11:59,403 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/cgp/CGP_MEDICOS_MAR2012.pdf
+2025-05-22 03:11:59,403 - P15228 - INFO - Após processar URL 4 Uso de memória: 122.57 MB
+2025-05-22 03:11:59,403 - P15228 - INFO - Processando URL 5/13: https://www.boaconsulta.com/especialista/mariane-aiko-simamura-6106eec7a2e00a7165005108
+2025-05-22 03:12:02,286 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\5ff37adc064f2821287dc44a6cbb5f51.html
+2025-05-22 03:12:02,360 - P15228 - INFO - Candidates address: 6 items
+2025-05-22 03:12:02,360 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:12:02,360 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:12:02,361 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:12:02,361 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:12:02,361 - P15228 - INFO - Após processar URL 5 Uso de memória: 122.87 MB
+2025-05-22 03:12:02,361 - P15228 - INFO - Processando URL 6/13: https://www.escavador.com/sobre/4110870/mariane-aiko-simamura
+2025-05-22 03:12:06,448 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\9743cfac797b08771f0fc89633d46bc0.html
+2025-05-22 03:12:06,463 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:12:06,463 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:12:06,463 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:12:06,463 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:12:06,463 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:12:06,464 - P15228 - INFO - Após processar URL 6 Uso de memória: 122.92 MB
+2025-05-22 03:12:06,464 - P15228 - INFO - Processando URL 7/13: https://www.medicosbrasil.com/profissional/mariane-aiko-simamura
+2025-05-22 03:12:08,639 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\be16790986c619d0d431164e4a3ef3ea.html
+2025-05-22 03:12:08,641 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:12:08,641 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:12:08,641 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:12:08,641 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:12:08,641 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:12:08,641 - P15228 - INFO - Após processar URL 7 Uso de memória: 122.92 MB
+2025-05-22 03:12:08,642 - P15228 - INFO - Processando URL 8/13: https://www.consultacrm.com.br/index/medicos/uid-992a9483-f5c5-11ec-9e74-0a4aa568c625/mariane_aiko_simamura
+2025-05-22 03:12:12,334 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\b34409306c7b3f2184709737d833271d.html
+2025-05-22 03:12:12,345 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:12:12,345 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:12:12,346 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:12:12,346 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:12:12,346 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:12:12,346 - P15228 - INFO - Após processar URL 8 Uso de memória: 122.93 MB
+2025-05-22 03:12:12,347 - P15228 - INFO - Processando URL 9/13: https://www.helpsaude.com/mariane-aiko-simamura.sp
+2025-05-22 03:12:18,383 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\9669ec5ee67575fe20250b8644e763f0.html
+2025-05-22 03:12:18,397 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:12:18,399 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:12:18,400 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:12:18,400 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:12:18,405 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:12:18,408 - P15228 - INFO - Após processar URL 9 Uso de memória: 122.95 MB
+2025-05-22 03:12:18,409 - P15228 - INFO - Processando URL 10/13: https://cliniguia.com/profissionais/mariane-aiko-simamura-980016285846869/
+2025-05-22 03:12:22,053 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\d59afeab49dc5f2f4ef397d447f5bdde.html
+2025-05-22 03:12:22,092 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:12:22,093 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:12:22,093 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:12:22,093 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:12:22,093 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:12:22,093 - P15228 - INFO - Após processar URL 10 Uso de memória: 123.86 MB
+2025-05-22 03:12:22,093 - P15228 - INFO - Processando URL 11/13: https://www.helpsaude.com/Mariane-Aiko-Simamura.SP
+2025-05-22 03:12:26,816 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\eb951f187384035e5ce1f8f708427077.html
+2025-05-22 03:12:26,837 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:12:26,838 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:12:26,840 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:12:26,840 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:12:26,840 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:12:26,841 - P15228 - INFO - Após processar URL 11 Uso de memória: 122.97 MB
+2025-05-22 03:12:26,842 - P15228 - INFO - Processando URL 12/13: https://www.crmsp.org.br/?siteAcao=DelegaciasRegionais&id=1
+2025-05-22 03:12:29,132 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\544b21606bb150816c89b839b7a3df8e.html
+2025-05-22 03:12:29,139 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:12:29,140 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:12:29,140 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:12:29,141 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:12:29,141 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:12:29,141 - P15228 - INFO - Após processar URL 12 Uso de memória: 122.98 MB
+2025-05-22 03:12:29,142 - P15228 - INFO - Processando URL 13/13: https://guiasaudebrasil.com.br/unidade/sao-paulo/sao-paulo/0507857-prevent-senior/profissionais/medico-geriatra
+2025-05-22 03:12:35,291 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\d13bc2ddf0dfd8278dc3dc2751392a15.html
+2025-05-22 03:12:35,302 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 03:12:35,302 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 03:12:35,302 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:12:35,302 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:12:35,302 - P15228 - INFO - Candidates cep: 2 items
+2025-05-22 03:12:35,303 - P15228 - INFO - Após processar URL 13 Uso de memória: 122.98 MB
+2025-05-22 03:12:35,303 - P15228 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:12:35,303 - P15228 - INFO - Ranked address: 8 items
+2025-05-22 03:12:35,303 - P15228 - INFO - Ranked phone: 2 items
+2025-05-22 03:12:35,303 - P15228 - INFO - Ranked email: 0 items
+2025-05-22 03:12:35,304 - P15228 - INFO - Ranked complement: 0 items
+2025-05-22 03:12:35,304 - P15228 - INFO - Ranked cep: 3 items
+2025-05-22 03:12:35,304 - P15228 - INFO - Após agregação Uso de memória: 122.98 MB
+2025-05-22 03:12:35,304 - P15228 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Rua Desembargador Eliseu Guilherme, 147', 'Rua Monte Serrat, 1077']
+2025-05-22 03:12:35,304 - P15228 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 03:12:35,304 - P15228 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 03:12:35,305 - P15228 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 03:12:35,305 - P15228 - INFO - Validando telefone: ['(11) 4349-9900', '(11) 4085-9000']
+2025-05-22 03:12:35,305 - P15228 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 03:12:35,305 - P15228 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 03:12:35,305 - P15228 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 03:12:35,305 - P15228 - INFO - Descobrindo cidade
+2025-05-22 03:12:35,305 - P15228 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 03:12:37,957 - P15228 - WARNING - Cidade não encontrada
+2025-05-22 03:12:37,958 - P15228 - INFO - Cidade descoberta: 
+2025-05-22 03:12:37,958 - P15228 - INFO - Tempo de execução de processamento completo do médico: 52.27 segundos
+2025-05-22 03:12:37,959 - P15228 - INFO - Resultado processado: {'Hash': '162b82095bc190ee39b07fea1d2345524879e73365b5a784f5805e763d2351f8', 'CRM': '143108', 'UF': 'SP', 'Firstname': 'MARIANE', 'LastName': 'AIKO SIMAMURA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': '', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:12:37,959 - P15228 - INFO - Salvando lote de resultados
+2025-05-22 03:12:37,959 - P15228 - INFO - Após salvar resultados Uso de memória: 115.99 MB
+2025-05-22 03:12:37,960 - P15228 - INFO - Progresso: 42.5%
+2025-05-22 03:12:37,960 - P15228 - INFO - Tempo de execução de processamento do médico 3: 52.27 segundos
+2025-05-22 03:12:37,960 - P15228 - INFO - Tempo de execução de processamento do lote completo: 158.89 segundos

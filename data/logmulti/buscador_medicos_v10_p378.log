@@ -1,0 +1,510 @@
+2025-05-22 05:33:33,658 - P11992 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 05:33:33,658 - P11992 - INFO - Nome: CAMILA SILVA ALMEIDA
+2025-05-22 05:33:33,659 - P11992 - INFO - Reiniciando driver do Chrome
+2025-05-22 05:33:35,038 - P11992 - INFO - Após reiniciar driver Uso de memória: 137.94 MB
+2025-05-22 05:33:35,038 - P11992 - INFO - Início do processamento Uso de memória: 137.94 MB
+2025-05-22 05:33:35,038 - P11992 - INFO - Iniciando busca para: CAMILA SILVA ALMEIDA CRM 222655 SP telefone e-mail endereço
+2025-05-22 05:33:35,864 - P11992 - INFO - SearX results: 15 URLs
+2025-05-22 05:33:35,864 - P11992 - INFO - Após SearX Uso de memória: 137.94 MB
+2025-05-22 05:33:38,776 - P11992 - INFO - Google results: 9 URLs
+2025-05-22 05:33:38,776 - P11992 - INFO - Após Google Uso de memória: 140.07 MB
+2025-05-22 05:33:41,854 - P11992 - INFO - Bing results: 10 URLs
+2025-05-22 05:33:41,854 - P11992 - INFO - Após Bing Uso de memória: 140.07 MB
+2025-05-22 05:33:41,854 - P11992 - INFO - Total de URLs únicas: 20
+2025-05-22 05:33:41,854 - P11992 - INFO - Processando URL 1/20: https://transparencia.cremesp.org.br/?siteAcao=guia_medico
+2025-05-22 05:33:44,370 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\cb80cc007a72cc7a378681a92a58906a.html
+2025-05-22 05:33:44,419 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:33:44,419 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:33:44,420 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:33:44,420 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:33:44,420 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 05:33:44,420 - P11992 - INFO - Após processar URL 1 Uso de memória: 140.07 MB
+2025-05-22 05:33:44,420 - P11992 - INFO - Processando URL 2/20: https://www.boaconsulta.com/especialista/camila-silva-almeida-6106d3bca2e00a653a003e16
+2025-05-22 05:33:47,721 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\90cf998aa4d11d5ca7768176d1afae38.html
+2025-05-22 05:33:47,811 - P11992 - INFO - Candidates address: 12 items
+2025-05-22 05:33:47,812 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:33:47,812 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:33:47,812 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:33:47,812 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:33:47,813 - P11992 - INFO - Após processar URL 2 Uso de memória: 141.83 MB
+2025-05-22 05:33:47,813 - P11992 - INFO - Processando URL 3/20: https://www.saobernardo.sp.gov.br/documents/10181/1598718/NM+2353+de+10.03.2023+-++Conte%C3%BAdo+Integral.pdf/75d28292-dc93-cae8-4846-4484279f3f41
+2025-05-22 05:33:47,813 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1598718/NM+2353+de+10.03.2023+-++Conte%C3%BAdo+Integral.pdf/75d28292-dc93-cae8-4846-4484279f3f41
+2025-05-22 05:33:47,814 - P11992 - INFO - Após processar URL 3 Uso de memória: 140.08 MB
+2025-05-22 05:33:47,814 - P11992 - INFO - Processando URL 4/20: https://cnpj.biz/60274786000167
+2025-05-22 05:33:52,151 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\6d4a561b56a2b323b4ae5d2a45f063a9.html
+2025-05-22 05:33:52,171 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 05:33:52,171 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 05:33:52,171 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 05:33:52,172 - P11992 - INFO - Candidates complement: 2 items
+2025-05-22 05:33:52,172 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 05:33:52,172 - P11992 - INFO - Após processar URL 4 Uso de memória: 140.09 MB
+2025-05-22 05:33:52,172 - P11992 - INFO - Processando URL 5/20: http://cremesp.org.br/
+2025-05-22 05:33:57,110 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\2a967318246f9658edeb1e0469c871fe.html
+2025-05-22 05:33:57,137 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:33:57,137 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 05:33:57,138 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:33:57,138 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:33:57,138 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 05:33:57,138 - P11992 - INFO - Após processar URL 5 Uso de memória: 140.09 MB
+2025-05-22 05:33:57,139 - P11992 - INFO - Processando URL 6/20: https://consultacrm.com.br/
+2025-05-22 05:34:01,024 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:34:01,038 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:34:01,038 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:34:01,038 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:34:01,039 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:01,039 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:34:01,039 - P11992 - INFO - Após processar URL 6 Uso de memória: 140.09 MB
+2025-05-22 05:34:01,039 - P11992 - INFO - Processando URL 7/20: https://www.doctoralia.com.br/camila-silva-d-almeida/endocrinologista-pediatrico-pediatra/sao-paulo
+2025-05-22 05:34:01,039 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/camila-silva-d-almeida/endocrinologista-pediatrico-pediatra/sao-paulo
+2025-05-22 05:34:01,040 - P11992 - INFO - Após processar URL 7 Uso de memória: 140.09 MB
+2025-05-22 05:34:01,040 - P11992 - INFO - Processando URL 8/20: https://guiamedico.cremesp.org.br/
+2025-05-22 05:34:24,886 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 05:34:24,893 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:34:24,893 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 05:34:24,893 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:34:24,893 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:24,893 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 05:34:24,894 - P11992 - INFO - Após processar URL 8 Uso de memória: 140.09 MB
+2025-05-22 05:34:24,894 - P11992 - INFO - Processando URL 9/20: https://www.consultacrm.com.br/index/medicos/uid-95a1711c-f5c5-11ec-9e74-0a4aa568c625/camila_de_almeida_silva
+2025-05-22 05:34:29,648 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\2c19e9373d79ada4e5cd41b58b31749b.html
+2025-05-22 05:34:29,659 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:34:29,660 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:34:29,660 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:34:29,661 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:29,661 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:34:29,662 - P11992 - INFO - Após processar URL 9 Uso de memória: 140.09 MB
+2025-05-22 05:34:29,663 - P11992 - INFO - Processando URL 10/20: https://www.medicosbrasil.com/profissional/camila-silva-almeida
+2025-05-22 05:34:33,189 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e567d6b24dded4a92a1c23254ee39cdb.html
+2025-05-22 05:34:33,212 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:34:33,212 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:34:33,213 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:34:33,213 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:33,213 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:34:33,213 - P11992 - INFO - Após processar URL 10 Uso de memória: 140.13 MB
+2025-05-22 05:34:33,213 - P11992 - INFO - Processando URL 11/20: https://www.doctoranytime.com.br/d/endocrinologista/camila-dalmeida-magnani-silva
+2025-05-22 05:34:33,213 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoranytime.com.br/d/endocrinologista/camila-dalmeida-magnani-silva
+2025-05-22 05:34:33,213 - P11992 - INFO - Após processar URL 11 Uso de memória: 140.13 MB
+2025-05-22 05:34:33,214 - P11992 - INFO - Processando URL 12/20: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2014/08/Imprensa-Oficial-de-Jundia%C3%AD-Edi%C3%A7%C3%A3o-3894.pdf
+2025-05-22 05:34:33,214 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2014/08/Imprensa-Oficial-de-Jundia%C3%AD-Edi%C3%A7%C3%A3o-3894.pdf
+2025-05-22 05:34:33,214 - P11992 - INFO - Após processar URL 12 Uso de memória: 140.13 MB
+2025-05-22 05:34:33,214 - P11992 - INFO - Processando URL 13/20: https://www.sociosbrasil.com/nome/camila-silva-de-almeida
+2025-05-22 05:34:36,595 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\2b9e910514a232925cfc12ee8f40ded2.html
+2025-05-22 05:34:36,605 - P11992 - INFO - Candidates address: 4 items
+2025-05-22 05:34:36,607 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:34:36,608 - P11992 - INFO - Candidates email: 4 items
+2025-05-22 05:34:36,609 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:36,609 - P11992 - INFO - Candidates cep: 9 items
+2025-05-22 05:34:36,612 - P11992 - INFO - Após processar URL 13 Uso de memória: 140.13 MB
+2025-05-22 05:34:36,613 - P11992 - INFO - Processando URL 14/20: https://www.saobernardo.sp.gov.br/documents/10181/735644/NM+1978+de+02.02.2018+-+Conteu%CC%81do+Integral.pdf/2c18a58b-54a2-6452-564c-7946b029791b
+2025-05-22 05:34:36,614 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/735644/NM+1978+de+02.02.2018+-+Conteu%CC%81do+Integral.pdf/2c18a58b-54a2-6452-564c-7946b029791b
+2025-05-22 05:34:36,614 - P11992 - INFO - Após processar URL 14 Uso de memória: 140.13 MB
+2025-05-22 05:34:36,615 - P11992 - INFO - Processando URL 15/20: https://www.benditoguia.com.br/empresa/dra-camila-almeida-consultorio-de-infectologia-ipiranga-sao-paulo-sp
+2025-05-22 05:34:39,342 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\24b892ccd444b10de8934651811b879e.html
+2025-05-22 05:34:39,367 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:34:39,368 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 05:34:39,368 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:34:39,368 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:39,368 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 05:34:39,368 - P11992 - INFO - Após processar URL 15 Uso de memória: 140.13 MB
+2025-05-22 05:34:39,369 - P11992 - INFO - Processando URL 16/20: https://remador.com.br/david-almeida-reforca-permanencia-de-camila-silva-na-semcom-e-anuncia-secretariado/
+2025-05-22 05:34:44,219 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\aced13b61127c0943c9b9e17c7124bc0.html
+2025-05-22 05:34:44,259 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:34:44,260 - P11992 - INFO - Candidates phone: 3 items
+2025-05-22 05:34:44,260 - P11992 - INFO - Candidates email: 2 items
+2025-05-22 05:34:44,260 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:44,260 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 05:34:44,260 - P11992 - INFO - Após processar URL 16 Uso de memória: 141.45 MB
+2025-05-22 05:34:44,260 - P11992 - INFO - Processando URL 17/20: https://iomat.mt.gov.br/portal/edicoes/download/2674
+2025-05-22 05:34:46,717 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\9fcda7745351c02b14818e3e9e13c734.html
+2025-05-22 05:34:46,763 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:34:46,764 - P11992 - INFO - Candidates phone: 3 items
+2025-05-22 05:34:46,764 - P11992 - INFO - Candidates email: 2 items
+2025-05-22 05:34:46,764 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:46,764 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 05:34:46,764 - P11992 - INFO - Após processar URL 17 Uso de memória: 141.45 MB
+2025-05-22 05:34:46,765 - P11992 - INFO - Processando URL 18/20: https://www.portalmarcossantos.com.br/2024/08/09/semcom-muda-de-maos-camila-silva-e-nomeada-secretaria-de-comunicacao-jack-serafim-reforca-campanha-de-david-almeida/
+2025-05-22 05:34:51,469 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\4bdf3f68bc12d257128b6cf062183093.html
+2025-05-22 05:34:51,495 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:34:51,496 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:34:51,496 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:34:51,496 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:51,496 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:34:51,496 - P11992 - INFO - Após processar URL 18 Uso de memória: 140.13 MB
+2025-05-22 05:34:51,496 - P11992 - INFO - Processando URL 19/20: https://www.dioems.com.br/edicoes/01-00-0/00002959/2959-3d930e70fffedbc4eaeae3e75db25064.pdf
+2025-05-22 05:34:51,496 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.dioems.com.br/edicoes/01-00-0/00002959/2959-3d930e70fffedbc4eaeae3e75db25064.pdf
+2025-05-22 05:34:51,497 - P11992 - INFO - Após processar URL 19 Uso de memória: 140.13 MB
+2025-05-22 05:34:51,497 - P11992 - INFO - Processando URL 20/20: https://pt.scribd.com/document/637805031/Untitled
+2025-05-22 05:34:55,440 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\cd60dc8be62393e0f6f3027f5f091bf0.html
+2025-05-22 05:34:55,646 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:34:55,646 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:34:55,646 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:34:55,646 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:34:55,646 - P11992 - INFO - Candidates cep: 13 items
+2025-05-22 05:34:55,646 - P11992 - INFO - Após processar URL 20 Uso de memória: 144.44 MB
+2025-05-22 05:34:55,647 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:34:55,647 - P11992 - INFO - Ranked address: 20 items
+2025-05-22 05:34:55,647 - P11992 - INFO - Ranked phone: 6 items
+2025-05-22 05:34:55,647 - P11992 - INFO - Ranked email: 7 items
+2025-05-22 05:34:55,647 - P11992 - INFO - Ranked complement: 2 items
+2025-05-22 05:34:55,647 - P11992 - INFO - Ranked cep: 30 items
+2025-05-22 05:34:55,648 - P11992 - INFO - Após agregação Uso de memória: 144.44 MB
+2025-05-22 05:34:55,648 - P11992 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Avenida Albert Einstein, 831', 'Avenida Remo Frontaroli, 450']
+2025-05-22 05:34:55,648 - P11992 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 05:34:55,648 - P11992 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 05:34:55,648 - P11992 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 05:34:55,648 - P11992 - INFO - Validando telefone: ['(11) 4349-9900', '(92) 98441-7562', '(92) 98413-2826']
+2025-05-22 05:34:55,648 - P11992 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 05:34:55,648 - P11992 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 05:34:55,649 - P11992 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 05:34:55,649 - P11992 - INFO - Validando email: ['jornalismo@remador.com.br', 'comercial@remador.com.br', 'contrato@medcontabil.com.br']
+2025-05-22 05:34:55,649 - P11992 - INFO - Limpando texto extenso para campo email: jornalismo@remador.com.br...
+2025-05-22 05:34:55,649 - P11992 - INFO - Texto limpo: jornalismo@remador.com.br
+2025-05-22 05:34:55,649 - P11992 - INFO - Email validado: jornalismo@remador.com.br
+2025-05-22 05:34:55,649 - P11992 - INFO - Validando complemento: ['Apt   34                  Bloco II  Clique para copia', 'Apt   34                  Bloco II  Vila Sao Lucio  B']
+2025-05-22 05:34:55,649 - P11992 - INFO - Limpando texto extenso para campo complement: Apt   34                  Bloco II  Clique para co...
+2025-05-22 05:34:55,649 - P11992 - INFO - Texto limpo: Apt 34 Bloc
+2025-05-22 05:34:55,649 - P11992 - INFO - Complemento validado: Apt 34 Bloc
+2025-05-22 05:34:55,650 - P11992 - INFO - Descobrindo cidade
+2025-05-22 05:34:55,650 - P11992 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 05:34:58,245 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 05:34:58,245 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 05:34:58,246 - P11992 - INFO - Tempo de execução de processamento completo do médico: 83.21 segundos
+2025-05-22 05:34:58,248 - P11992 - INFO - Resultado processado: {'Hash': '5e3c5c39986d49a887c36b66b5dfaa8a0393166c09b678753e96bbb7d3123d34', 'CRM': '222655', 'UF': 'SP', 'Firstname': 'CAMILA', 'LastName': 'SILVA ALMEIDA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Apt 34 Bloc', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'jornalismo@remador.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:34:58,250 - P11992 - INFO - Progresso: 92.2%
+2025-05-22 05:34:58,251 - P11992 - INFO - Executando coleta de lixo
+2025-05-22 05:34:58,333 - P11992 - INFO - Após coleta de lixo Uso de memória: 129.83 MB
+2025-05-22 05:34:58,333 - P11992 - INFO - Tempo de execução de processamento do médico 1: 84.68 segundos
+2025-05-22 05:34:58,333 - P11992 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 05:34:58,334 - P11992 - INFO - Nome: PEDRO PAULO TABARIN STANCATI
+2025-05-22 05:34:58,334 - P11992 - INFO - Início do processamento Uso de memória: 129.83 MB
+2025-05-22 05:34:58,334 - P11992 - INFO - Iniciando busca para: PEDRO PAULO TABARIN STANCATI CRM 222897 SP telefone e-mail endereço
+2025-05-22 05:34:59,247 - P11992 - INFO - SearX results: 10 URLs
+2025-05-22 05:34:59,248 - P11992 - INFO - Após SearX Uso de memória: 129.83 MB
+2025-05-22 05:35:01,752 - P11992 - INFO - Google results: 5 URLs
+2025-05-22 05:35:01,752 - P11992 - INFO - Após Google Uso de memória: 132.76 MB
+2025-05-22 05:35:04,235 - P11992 - INFO - Bing results: 10 URLs
+2025-05-22 05:35:04,236 - P11992 - INFO - Após Bing Uso de memória: 134.11 MB
+2025-05-22 05:35:04,236 - P11992 - INFO - Total de URLs únicas: 14
+2025-05-22 05:35:04,236 - P11992 - INFO - Processando URL 1/14: https://www.cemahospital.com.br/oftalmologia/corpo-clinico/
+2025-05-22 05:35:07,317 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\62779e05a914c7fa0350d32360dca4f6.html
+2025-05-22 05:35:07,341 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:35:07,341 - P11992 - INFO - Candidates phone: 4 items
+2025-05-22 05:35:07,341 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:35:07,341 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:35:07,342 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:35:07,342 - P11992 - INFO - Após processar URL 1 Uso de memória: 134.54 MB
+2025-05-22 05:35:07,342 - P11992 - INFO - Processando URL 2/14: https://www.cemahospital.com.br/blog/oftalmologista-perto#:~:text=Para%20agendar%20uma%20consulta%20no,cuidados%20oftalmol%C3%B3gicos%20que%20voc%C3%AA%20merece!
+2025-05-22 05:35:10,389 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ecac48b1c6764d3bfc896112a5ce1fa0.html
+2025-05-22 05:35:10,424 - P11992 - INFO - Candidates address: 13 items
+2025-05-22 05:35:10,424 - P11992 - INFO - Candidates phone: 4 items
+2025-05-22 05:35:10,424 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:35:10,424 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 05:35:10,425 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:35:10,425 - P11992 - INFO - Após processar URL 2 Uso de memória: 134.79 MB
+2025-05-22 05:35:10,426 - P11992 - INFO - Processando URL 3/14: https://www.reclameaqui.com.br//hospital-cema/medico-irresponsavel_y7zloeQ7AHb4hHIQ/
+2025-05-22 05:35:12,835 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\d89fb7dc014857ace447247a81724e64.html
+2025-05-22 05:35:12,837 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:35:12,838 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:35:12,838 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:35:12,838 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:35:12,838 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:35:12,838 - P11992 - INFO - Após processar URL 3 Uso de memória: 134.81 MB
+2025-05-22 05:35:12,838 - P11992 - INFO - Processando URL 4/14: https://www.econodata.com.br/consulta-empresa/35345899000169-CAIO-TABARIN-STANCATI
+2025-05-22 05:35:16,599 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\09a0300f3f6f3be99d5f998b54c7d34e.html
+2025-05-22 05:35:16,676 - P11992 - INFO - Candidates address: 6 items
+2025-05-22 05:35:16,680 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:35:16,683 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:35:16,685 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:35:16,686 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:35:16,687 - P11992 - INFO - Após processar URL 4 Uso de memória: 135.70 MB
+2025-05-22 05:35:16,689 - P11992 - INFO - Processando URL 5/14: http://cremesp.org.br/
+2025-05-22 05:35:24,122 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\2a967318246f9658edeb1e0469c871fe.html
+2025-05-22 05:35:24,156 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:35:24,156 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 05:35:24,156 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:35:24,156 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:35:24,156 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 05:35:24,157 - P11992 - INFO - Após processar URL 5 Uso de memória: 135.81 MB
+2025-05-22 05:35:24,157 - P11992 - INFO - Processando URL 6/14: https://www.cemahospital.com.br/convenios/#:~:text=O%20seu%20plano%20pode%20estar,feriados%2C%20das%208h%20%C3%A0s%2016h.
+2025-05-22 05:35:26,806 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\85c3adaf7ab190a586e089f7ad1f0487.html
+2025-05-22 05:35:26,820 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:35:26,821 - P11992 - INFO - Candidates phone: 5 items
+2025-05-22 05:35:26,821 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:35:26,822 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:35:26,822 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:35:26,822 - P11992 - INFO - Após processar URL 6 Uso de memória: 135.94 MB
+2025-05-22 05:35:26,823 - P11992 - INFO - Processando URL 7/14: https://www.vriconsulting.com.br/empresa.php?cnpj=24341787000113
+2025-05-22 05:35:31,360 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\d9cfbb53a24eb8acacae6737c027b2d5.html
+2025-05-22 05:35:31,417 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:35:31,417 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:35:31,417 - P11992 - INFO - Candidates email: 3 items
+2025-05-22 05:35:31,417 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 05:35:31,418 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 05:35:31,418 - P11992 - INFO - Após processar URL 7 Uso de memória: 136.10 MB
+2025-05-22 05:35:31,418 - P11992 - INFO - Processando URL 8/14: https://guiamedico.cremesp.org.br/
+2025-05-22 05:35:34,054 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 05:35:34,060 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:35:34,060 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 05:35:34,060 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:35:34,061 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:35:34,061 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 05:35:34,061 - P11992 - INFO - Após processar URL 8 Uso de memória: 136.20 MB
+2025-05-22 05:35:34,061 - P11992 - INFO - Processando URL 9/14: https://www.reclameaqui.com.br/hospital-cema/medico-irresponsavel_y7zloeQ7AHb4hHIQ/
+2025-05-22 05:35:36,290 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e59550f2db86015821e8cb9b288ecb51.html
+2025-05-22 05:35:36,293 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:35:36,294 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:35:36,294 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:35:36,294 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:35:36,294 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:35:36,294 - P11992 - INFO - Após processar URL 9 Uso de memória: 136.24 MB
+2025-05-22 05:35:36,294 - P11992 - INFO - Processando URL 10/14: https://cnpj.services/qsa/pedro-paulo-tabarin-stancati
+2025-05-22 05:35:39,209 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\2778925356e99b0d52f2a040c4f4a043.html
+2025-05-22 05:35:39,216 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:35:39,216 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:35:39,216 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:35:39,217 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:35:39,217 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 05:35:39,217 - P11992 - INFO - Após processar URL 10 Uso de memória: 136.29 MB
+2025-05-22 05:35:39,217 - P11992 - INFO - Processando URL 11/14: https://cnpj.biz/35345899000169
+2025-05-22 05:35:41,558 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\5199bf787a53fd48d00ad9a578f65508.html
+2025-05-22 05:35:41,560 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:35:41,561 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:35:41,561 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:35:41,561 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:35:41,561 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:35:41,561 - P11992 - INFO - Após processar URL 11 Uso de memória: 136.30 MB
+2025-05-22 05:35:41,561 - P11992 - INFO - Processando URL 12/14: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 05:35:45,494 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 05:35:45,539 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:35:45,540 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:35:45,540 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:35:45,540 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:35:45,540 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:35:45,540 - P11992 - INFO - Após processar URL 12 Uso de memória: 136.34 MB
+2025-05-22 05:35:45,540 - P11992 - INFO - Processando URL 13/14: https://consultacrm.com.br/
+2025-05-22 05:35:48,694 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:35:48,707 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:35:48,708 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:35:48,709 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:35:48,710 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:35:48,710 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:35:48,711 - P11992 - INFO - Após processar URL 13 Uso de memória: 136.61 MB
+2025-05-22 05:35:48,711 - P11992 - INFO - Processando URL 14/14: https://applocal.com.br/empresa/pedro-paz-ravagnani/sao-paulo/sp/10859955
+2025-05-22 05:35:51,902 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\0614ffb00f49c09cbeea0afcec52e28a.html
+2025-05-22 05:35:51,943 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:35:51,944 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:35:51,944 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:35:51,944 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:35:51,944 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:35:51,944 - P11992 - INFO - Após processar URL 14 Uso de memória: 137.38 MB
+2025-05-22 05:35:51,944 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:35:51,945 - P11992 - INFO - Ranked address: 21 items
+2025-05-22 05:35:51,945 - P11992 - INFO - Ranked phone: 6 items
+2025-05-22 05:35:51,945 - P11992 - INFO - Ranked email: 3 items
+2025-05-22 05:35:51,945 - P11992 - INFO - Ranked complement: 2 items
+2025-05-22 05:35:51,945 - P11992 - INFO - Ranked cep: 4 items
+2025-05-22 05:35:51,945 - P11992 - INFO - Após agregação Uso de memória: 137.38 MB
+2025-05-22 05:35:51,945 - P11992 - INFO - Validando endereço: ['Rua Padre Adelino, 333', 'Rua Frei Caneca, 1282', 'Avenida Aricanduva, 5']
+2025-05-22 05:35:51,946 - P11992 - INFO - Endereço validado: Rua Padre Adelino, 333
+2025-05-22 05:35:51,946 - P11992 - INFO - Limpando texto extenso para campo address: Rua Padre Adelino, 333...
+2025-05-22 05:35:51,946 - P11992 - INFO - Texto limpo: Rua Padre Adelino, 333
+2025-05-22 05:35:51,946 - P11992 - INFO - Validando telefone: ['(11) 2602-8000', '(11) 2602-4000', '+551126028000']
+2025-05-22 05:35:51,946 - P11992 - INFO - Limpando texto extenso para campo phone: (11) 2602-8000...
+2025-05-22 05:35:51,946 - P11992 - INFO - Texto limpo: 11) 2602-8000
+2025-05-22 05:35:51,946 - P11992 - INFO - Telefone validado: 11) 2602-8000
+2025-05-22 05:35:51,947 - P11992 - INFO - Validando email: ['caio.stancati@gmail.com', 'contato@vriConsulting.com.br', 'contato@vriconsulting.com.br']
+2025-05-22 05:35:51,947 - P11992 - INFO - Limpando texto extenso para campo email: caio.stancati@gmail.com...
+2025-05-22 05:35:51,947 - P11992 - INFO - Texto limpo: caio.stancati@gmail.com
+2025-05-22 05:35:51,947 - P11992 - INFO - Email validado: caio.stancati@gmail.com
+2025-05-22 05:35:51,947 - P11992 - INFO - Validando complemento: ['Bloco A - Térreo ', 'Blocos e Registros\t\t\t\t\t\t\t\t\t\t ']
+2025-05-22 05:35:51,947 - P11992 - INFO - Limpando texto extenso para campo complement: Bloco A - Térreo ...
+2025-05-22 05:35:51,947 - P11992 - INFO - Texto limpo: Bloco A - Térreo
+2025-05-22 05:35:51,948 - P11992 - INFO - Complemento validado: Bloco A - Térreo
+2025-05-22 05:35:51,948 - P11992 - INFO - Descobrindo cidade
+2025-05-22 05:35:51,948 - P11992 - INFO - Buscando cidade: Rua Padre Adelino cidade SP
+2025-05-22 05:35:54,596 - P11992 - INFO - Cidade encontrada: São Paulo
+2025-05-22 05:35:54,603 - P11992 - INFO - Limpando texto extenso para campo city: São Paulo...
+2025-05-22 05:35:54,604 - P11992 - INFO - Texto limpo: São Paulo
+2025-05-22 05:35:54,609 - P11992 - INFO - Cidade descoberta: São Paulo
+2025-05-22 05:35:54,646 - P11992 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 05:35:54,654 - P11992 - INFO - Iniciando busca de CEP em cascata para: Rua Padre Adelino, São Paulo, SP
+2025-05-22 05:35:54,655 - P11992 - INFO - Método 1: ViaCEP API
+2025-05-22 05:35:54,655 - P11992 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SP/sao%20paulo/rua%20padre%20adelino/json/
+2025-05-22 05:35:55,445 - P11992 - INFO - Dados encontrados no ViaCEP: {'cep': '03303-902', 'logradouro': 'Rua Padre Adelino', 'complemento': '520', 'unidade': 'Seleto S.A. Indústria e Comércio de Café', 'bairro': 'Belenzinho', 'localidade': 'São Paulo', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3550308', 'gia': '1004', 'ddd': '11', 'siafi': '7107'}
+2025-05-22 05:35:55,447 - P11992 - INFO - CEP encontrado via ViaCEP: 03303-902
+2025-05-22 05:35:55,447 - P11992 - INFO - Dados de CEP encontrados: {'cep': '03303-902', 'logradouro': 'Rua Padre Adelino', 'complemento': '520', 'unidade': 'Seleto S.A. Indústria e Comércio de Café', 'bairro': 'Belenzinho', 'localidade': 'São Paulo', 'uf': 'SP', 'estado': 'São Paulo', 'regiao': 'Sudeste', 'ibge': '3550308', 'gia': '1004', 'ddd': '11', 'siafi': '7107'}
+2025-05-22 05:35:55,448 - P11992 - INFO - Limpando texto extenso para campo bairro: Belenzinho...
+2025-05-22 05:35:55,448 - P11992 - INFO - Texto limpo: Belenzinho
+2025-05-22 05:35:55,448 - P11992 - INFO - Limpando texto extenso para campo city: São Paulo...
+2025-05-22 05:35:55,448 - P11992 - INFO - Texto limpo: São Paulo
+2025-05-22 05:35:55,448 - P11992 - INFO - Limpando texto extenso para campo state: SP...
+2025-05-22 05:35:55,448 - P11992 - INFO - Texto limpo: SP
+2025-05-22 05:35:55,448 - P11992 - INFO - Tempo de execução de processamento completo do médico: 57.11 segundos
+2025-05-22 05:35:55,449 - P11992 - INFO - Resultado processado: {'Hash': '52092a1aceb7956d6eb11a6c9dadd1bb135f31040caaa6ea8bee4fca3c2654a2', 'CRM': '222897', 'UF': 'SP', 'Firstname': 'PEDRO', 'LastName': 'PAULO TABARIN STANCATI', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Padre Adelino, 333', 'Address A1': 'Rua Padre Adelino', 'Numero A1': '333', 'Complement A1': 'Bloco A - Térreo', 'Bairro A1': 'Belenzinho', 'postal code A1': '03303-902', 'City A1': 'São Paulo', 'State A1': 'SP', 'Phone A1': '11) 2602-8000', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'caio.stancati@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:35:55,449 - P11992 - INFO - Progresso: 92.5%
+2025-05-22 05:35:55,449 - P11992 - INFO - Tempo de execução de processamento do médico 2: 57.12 segundos
+2025-05-22 05:35:55,450 - P11992 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 05:35:55,450 - P11992 - INFO - Nome: NATALIA NUNES MACHADO
+2025-05-22 05:35:55,450 - P11992 - INFO - Início do processamento Uso de memória: 138.36 MB
+2025-05-22 05:35:55,450 - P11992 - INFO - Iniciando busca para: NATALIA NUNES MACHADO CRM 222930 SP telefone e-mail endereço
+2025-05-22 05:35:56,246 - P11992 - INFO - SearX results: 14 URLs
+2025-05-22 05:35:56,247 - P11992 - INFO - Após SearX Uso de memória: 138.36 MB
+2025-05-22 05:35:58,835 - P11992 - INFO - Google results: 7 URLs
+2025-05-22 05:35:58,835 - P11992 - INFO - Após Google Uso de memória: 138.37 MB
+2025-05-22 05:36:01,388 - P11992 - INFO - Bing results: 8 URLs
+2025-05-22 05:36:01,389 - P11992 - INFO - Após Bing Uso de memória: 139.13 MB
+2025-05-22 05:36:01,389 - P11992 - INFO - Total de URLs únicas: 18
+2025-05-22 05:36:01,389 - P11992 - INFO - Processando URL 1/18: https://www.reclameaqui.com.br/amor-saude-telemedicina/nao-fui-atendida-pela-telemecina-dra-natatia-nunes-machado-colocou-como-ate_2YOTHYMRII4sGm3i/
+2025-05-22 05:36:03,539 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\c8e98e87954dde5f2fdaff905706b093.html
+2025-05-22 05:36:03,542 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:36:03,542 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:36:03,543 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:36:03,543 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:36:03,543 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:36:03,543 - P11992 - INFO - Após processar URL 1 Uso de memória: 139.18 MB
+2025-05-22 05:36:03,543 - P11992 - INFO - Processando URL 2/18: https://www.medicosbrasil.com/profissional/natalia-nunes-machado
+2025-05-22 05:36:05,721 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\efc31d71295682331af177b443ed0cb8.html
+2025-05-22 05:36:05,723 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:36:05,723 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:36:05,724 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:36:05,724 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:36:05,724 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:36:05,725 - P11992 - INFO - Após processar URL 2 Uso de memória: 139.20 MB
+2025-05-22 05:36:05,725 - P11992 - INFO - Processando URL 3/18: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1080612570.pdf
+2025-05-22 05:36:05,726 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1080612570.pdf
+2025-05-22 05:36:05,726 - P11992 - INFO - Após processar URL 3 Uso de memória: 139.20 MB
+2025-05-22 05:36:05,727 - P11992 - INFO - Processando URL 4/18: https://www.reclameaqui.com.br//amor-saude-telemedicina/nao-fui-atendida-pela-telemecina-dra-natatia-nunes-machado-colocou-como-ate_2YOTHYMRII4sGm3i/
+2025-05-22 05:36:07,865 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e2bfd837c2d1fdcedb02b748665e9b50.html
+2025-05-22 05:36:07,867 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:36:07,867 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:36:07,867 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:36:07,867 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:36:07,867 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:36:07,867 - P11992 - INFO - Após processar URL 4 Uso de memória: 139.20 MB
+2025-05-22 05:36:07,868 - P11992 - INFO - Processando URL 5/18: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 05:36:11,475 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 05:36:11,486 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:36:11,486 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:36:11,486 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:36:11,486 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:36:11,486 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:36:11,487 - P11992 - INFO - Após processar URL 5 Uso de memória: 139.27 MB
+2025-05-22 05:36:11,487 - P11992 - INFO - Processando URL 6/18: https://www.boaconsulta.com/especialista/natalia-nunes-machado-6106c2daa2e00a5c570008e9
+2025-05-22 05:36:14,423 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\dcae2d801e6bb66b33763574f9c4dbec.html
+2025-05-22 05:36:14,547 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:36:14,549 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:36:14,553 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:36:14,566 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:36:14,580 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:36:14,583 - P11992 - INFO - Após processar URL 6 Uso de memória: 131.84 MB
+2025-05-22 05:36:14,584 - P11992 - INFO - Processando URL 7/18: http://lproweb.procempa.com.br/pmpa/prefpoa/dopa/usu_doc/marco_2011_1.pdf
+2025-05-22 05:36:14,585 - P11992 - INFO - Ignorando URL de arquivo não-HTML: http://lproweb.procempa.com.br/pmpa/prefpoa/dopa/usu_doc/marco_2011_1.pdf
+2025-05-22 05:36:14,586 - P11992 - INFO - Após processar URL 7 Uso de memória: 131.12 MB
+2025-05-22 05:36:14,586 - P11992 - INFO - Processando URL 8/18: https://www.escavador.com/sobre/277763744/natalia-nunes-machado
+2025-05-22 05:36:18,450 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\62da9a7075423f01fbbfecbb068f505d.html
+2025-05-22 05:36:18,467 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:36:18,468 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:36:18,468 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:36:18,468 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:36:18,468 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:36:18,469 - P11992 - INFO - Após processar URL 8 Uso de memória: 133.63 MB
+2025-05-22 05:36:18,469 - P11992 - INFO - Processando URL 9/18: https://linktr.ee/dra.natalianunes
+2025-05-22 05:36:20,914 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\0aa15a9efa716bb670e4e1b39359b1d2.html
+2025-05-22 05:36:20,933 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:36:20,933 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:36:20,933 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 05:36:20,933 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:36:20,933 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 05:36:20,934 - P11992 - INFO - Após processar URL 9 Uso de memória: 137.35 MB
+2025-05-22 05:36:20,934 - P11992 - INFO - Processando URL 10/18: https://www.consultasocio.com/q/sa/natalia-nunes-machado
+2025-05-22 05:36:25,728 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\8b4ab6ad783108b17a1655a8042daf08.html
+2025-05-22 05:36:25,736 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 05:36:25,736 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:36:25,736 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 05:36:25,737 - P11992 - INFO - Candidates complement: 2 items
+2025-05-22 05:36:25,737 - P11992 - INFO - Candidates cep: 3 items
+2025-05-22 05:36:25,737 - P11992 - INFO - Após processar URL 10 Uso de memória: 136.76 MB
+2025-05-22 05:36:25,737 - P11992 - INFO - Processando URL 11/18: https://guiamedico.cremesp.org.br/
+2025-05-22 05:36:28,366 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 05:36:28,373 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 05:36:28,373 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 05:36:28,374 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:36:28,374 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:36:28,374 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 05:36:28,374 - P11992 - INFO - Após processar URL 11 Uso de memória: 137.28 MB
+2025-05-22 05:36:28,375 - P11992 - INFO - Processando URL 12/18: https://guiasaudebrasil.com.br/profissional/1166da7344fc08ee-natalia-nunes-machado
+2025-05-22 05:36:31,368 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\fc221bbe57b64d89b6c9649b8388f421.html
+2025-05-22 05:36:31,382 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:36:31,383 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:36:31,383 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:36:31,383 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:36:31,384 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 05:36:31,384 - P11992 - INFO - Após processar URL 12 Uso de memória: 138.32 MB
+2025-05-22 05:36:31,384 - P11992 - INFO - Processando URL 13/18: https://webdisk.diariooficial.rn.gov.br/Jornal/12020-12-29.pdf
+2025-05-22 05:36:31,384 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://webdisk.diariooficial.rn.gov.br/Jornal/12020-12-29.pdf
+2025-05-22 05:36:31,384 - P11992 - INFO - Após processar URL 13 Uso de memória: 138.32 MB
+2025-05-22 05:36:31,385 - P11992 - INFO - Processando URL 14/18: https://www.gov.br/mme/pt-br/arquivos/do-31-01-2013-s1.pdf
+2025-05-22 05:36:31,385 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.gov.br/mme/pt-br/arquivos/do-31-01-2013-s1.pdf
+2025-05-22 05:36:31,385 - P11992 - INFO - Após processar URL 14 Uso de memória: 138.32 MB
+2025-05-22 05:36:31,385 - P11992 - INFO - Processando URL 15/18: http://lproweb.procempa.com.br/pmpa/prefpoa/dopa/usu_doc/fevereiro_2011_2.pdf
+2025-05-22 05:36:31,385 - P11992 - INFO - Ignorando URL de arquivo não-HTML: http://lproweb.procempa.com.br/pmpa/prefpoa/dopa/usu_doc/fevereiro_2011_2.pdf
+2025-05-22 05:36:31,386 - P11992 - INFO - Após processar URL 15 Uso de memória: 138.32 MB
+2025-05-22 05:36:31,386 - P11992 - INFO - Processando URL 16/18: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2013/dou1_2013_01_31.pdf
+2025-05-22 05:36:31,386 - P11992 - INFO - Ignorando URL de arquivo não-HTML: http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-oficial-da-uniao-1/2013/dou1_2013_01_31.pdf
+2025-05-22 05:36:31,386 - P11992 - INFO - Após processar URL 16 Uso de memória: 138.32 MB
+2025-05-22 05:36:31,386 - P11992 - INFO - Processando URL 17/18: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 05:36:34,452 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 05:36:34,492 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:36:34,492 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:36:34,492 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:36:34,492 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:36:34,493 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:36:34,493 - P11992 - INFO - Após processar URL 17 Uso de memória: 138.47 MB
+2025-05-22 05:36:34,493 - P11992 - INFO - Processando URL 18/18: https://consultacrm.com.br/
+2025-05-22 05:36:38,032 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 05:36:38,045 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 05:36:38,045 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 05:36:38,045 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 05:36:38,045 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 05:36:38,045 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 05:36:38,046 - P11992 - INFO - Após processar URL 18 Uso de memória: 140.00 MB
+2025-05-22 05:36:38,046 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 05:36:38,046 - P11992 - INFO - Ranked address: 4 items
+2025-05-22 05:36:38,046 - P11992 - INFO - Ranked phone: 1 items
+2025-05-22 05:36:38,046 - P11992 - INFO - Ranked email: 2 items
+2025-05-22 05:36:38,046 - P11992 - INFO - Ranked complement: 2 items
+2025-05-22 05:36:38,046 - P11992 - INFO - Ranked cep: 6 items
+2025-05-22 05:36:38,047 - P11992 - INFO - Após agregação Uso de memória: 140.00 MB
+2025-05-22 05:36:38,047 - P11992 - INFO - Validando endereço: ['Rua Jose Oliveri, 155', "Avenida Antonio Machado Sant'Anna, 140", 'Rua Jose Merchioratto, 174']
+2025-05-22 05:36:38,047 - P11992 - INFO - Endereço validado: Rua Jose Oliveri, 155
+2025-05-22 05:36:38,047 - P11992 - INFO - Limpando texto extenso para campo address: Rua Jose Oliveri, 155...
+2025-05-22 05:36:38,047 - P11992 - INFO - Texto limpo: Rua Jose Oliveri, 155
+2025-05-22 05:36:38,047 - P11992 - INFO - Validando telefone: ['(11) 4349-9900']
+2025-05-22 05:36:38,048 - P11992 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 05:36:38,048 - P11992 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 05:36:38,048 - P11992 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 05:36:38,048 - P11992 - INFO - Validando email: ['dranatalianunesmachado@gmail.com', 'ABERTURARC@REAL.CNT.BR']
+2025-05-22 05:36:38,048 - P11992 - INFO - Limpando texto extenso para campo email: dranatalianunesmachado@gmail.com...
+2025-05-22 05:36:38,048 - P11992 - INFO - Texto limpo: dranatalianunesmachado@gmail.com
+2025-05-22 05:36:38,048 - P11992 - INFO - Email validado: dranatalianunesmachado@gmail.com
+2025-05-22 05:36:38,049 - P11992 - INFO - Validando complemento: ['Sala  02 City Ribeirao', 'Sala  406 Santa Casa']
+2025-05-22 05:36:38,049 - P11992 - INFO - Limpando texto extenso para campo complement: Sala  02 City Ribeirao...
+2025-05-22 05:36:38,049 - P11992 - INFO - Texto limpo: Sala 02 City Ribeirao
+2025-05-22 05:36:38,049 - P11992 - INFO - Complemento validado: Sala 02 City Ribeirao
+2025-05-22 05:36:38,049 - P11992 - INFO - Descobrindo cidade
+2025-05-22 05:36:38,049 - P11992 - INFO - Buscando cidade: Rua Jose Oliveri cidade SP
+2025-05-22 05:36:40,720 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 05:36:40,721 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 05:36:40,722 - P11992 - INFO - Tempo de execução de processamento completo do médico: 45.27 segundos
+2025-05-22 05:36:40,724 - P11992 - INFO - Resultado processado: {'Hash': '9e8ac8dd20de9a8e04d2a41106d78b04d71da4d229ee938743a14e39478cf6b3', 'CRM': '222930', 'UF': 'SP', 'Firstname': 'NATALIA', 'LastName': 'NUNES MACHADO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Jose Oliveri, 155', 'Address A1': 'Rua Jose Oliveri', 'Numero A1': '155', 'Complement A1': 'Sala 02 City Ribeirao', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'dranatalianunesmachado@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 05:36:40,725 - P11992 - INFO - Salvando lote de resultados
+2025-05-22 05:36:40,725 - P11992 - INFO - Após salvar resultados Uso de memória: 129.76 MB
+2025-05-22 05:36:40,726 - P11992 - INFO - Progresso: 93.0%
+2025-05-22 05:36:40,728 - P11992 - INFO - Tempo de execução de processamento do médico 3: 45.28 segundos
+2025-05-22 05:36:40,728 - P11992 - INFO - Tempo de execução de processamento do lote completo: 187.07 segundos

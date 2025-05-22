@@ -1,0 +1,604 @@
+<html lang="pt-BR"><head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(e){this.triggerEvents=e,this.eventOptions={passive:!0},this.userEventListener=this.triggerListener.bind(this),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventListener,e.eventOptions)))}_removeUserInteractionListener(e){this.triggerEvents.forEach((t=>window.removeEventListener(t,e.userEventListener,e.eventOptions)))}triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}async _loadEverythingNow(){this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async),await this._triggerDOMContentLoaded(),await this._triggerWindowLoad(),window.dispatchEvent(new Event("rocket-allScriptsLoaded"))}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._requestAnimFrame(),new Promise((t=>{const n=document.createElement("script");let r;[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type",r=e.nodeValue),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t()),e.parentNode.replaceChild(n,e)}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){var e=document.createDocumentFragment();[...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async].forEach((t=>{const n=t.getAttribute("src");if(n){const t=document.createElement("link");t.href=n,t.rel="preload",t.as="script",e.appendChild(t)}})),document.head.appendChild(e)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(r){e["rocket"+t]=n=r}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._requestAnimFrame(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-load")),await this._requestAnimFrame(),window.rocketonload&&window.rocketonload(),await this._requestAnimFrame(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),window.dispatchEvent(new Event("rocket-pageshow")),await this._requestAnimFrame(),window.rocketonpageshow&&window.rocketonpageshow()}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,r=document.createRange(),i=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const a=document.createDocumentFragment();r.setStart(a,0),a.appendChild(r.createContextualFragment(t)),i.insertBefore(a,o)}}async _requestAnimFrame(){return new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts(["keydown","mousemove","touchmove","touchstart","touchend","wheel"]);e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();</script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<title>Endocrinologia e Metabologia – Leblon Health</title><link rel="stylesheet" href="https://leblonhealth.com.br/wp-content/cache/min/1/04cf9c4267c900544e4c0746b7e38c43.css" media="all" data-minify="1">
+<meta name="robots" content="max-image-preview:large">
+<link rel="alternate" type="application/rss+xml" title="Feed para Leblon Health »" href="https://leblonhealth.com.br/feed/">
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Leblon Health »" href="https://leblonhealth.com.br/comments/feed/">
+<script type="rocketlazyloadscript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/leblonhealth.com.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.3"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+
+
+
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+
+
+
+
+<link rel="stylesheet" id="elementor-post-19-css" href="https://leblonhealth.com.br/wp-content/uploads/elementor/css/post-19.css?ver=1680109171" media="all">
+
+
+
+
+
+
+
+<style id="rocket-lazyload-inline-css">
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(http://leblonhealth.com.br/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}.wp-embed-responsive .wp-has-aspect-ratio .rll-youtube-player{position:absolute;padding-bottom:0;width:100%;height:100%;top:0;bottom:0;left:0;right:0}
+</style>
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap&amp;ver=6.4.3" media="all">
+
+
+
+<link rel="stylesheet" id="elementor-icons-shared-1-css" href="https://leblonhealth.com.br/wp-content/plugins/uicore-framework/assets/fonts/themify-icons.css?ver=1.0.0" media="all">
+
+<script type="rocketlazyloadscript" src="https://leblonhealth.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" defer=""></script>
+<script type="rocketlazyloadscript" src="https://leblonhealth.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" src="https://leblonhealth.com.br/wp-content/cache/min/1/wp-content/plugins/elementskit/modules/parallax/assets/js/jarallax.js?ver=1709896038" id="jarallax-js" defer=""></script>
+<link rel="https://api.w.org/" href="https://leblonhealth.com.br/wp-json/"><link rel="alternate" type="application/json" href="https://leblonhealth.com.br/wp-json/wp/v2/pages/353"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://leblonhealth.com.br/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.4.3">
+<link rel="canonical" href="https://leblonhealth.com.br/endocrinologia-e-metabologia/">
+<link rel="shortlink" href="https://leblonhealth.com.br/?p=353">
+<link rel="alternate" type="application/json+oembed" href="https://leblonhealth.com.br/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fleblonhealth.com.br%2Fendocrinologia-e-metabologia%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://leblonhealth.com.br/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fleblonhealth.com.br%2Fendocrinologia-e-metabologia%2F&amp;format=xml">
+<!-- HFCM by 99 Robots - Snippet # 1: Google Analytics GA4 -->
+<!-- Google tag (gtag.js) -->
+<script type="rocketlazyloadscript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-Y4DQ8R42MF"></script>
+<script type="rocketlazyloadscript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y4DQ8R42MF');
+</script>
+<!-- /end HFCM by 99 Robots -->
+<!-- HFCM by 99 Robots - Snippet # 2: Google Tag Manager (head) -->
+<!-- Google Tag Manager -->
+<script type="rocketlazyloadscript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-59NRQMFQ');</script>
+<!-- End Google Tag Manager -->
+<!-- /end HFCM by 99 Robots -->
+<!-- HFCM by 99 Robots - Snippet # 4: Facebook Pixel -->
+<!-- Meta Pixel Code -->
+<script type="rocketlazyloadscript">
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '993891551878768');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=993891551878768&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<!-- /end HFCM by 99 Robots -->
+
+			<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+				var elementskit_module_parallax_url = "http://leblonhealth.com.br/wp-content/plugins/elementskit/modules/parallax/"
+			</script>
+		<meta name="theme-color" content="#FFFFFF">
+        <link rel="shortcut icon" href="https://destakconsultoriamedica.com.br/leblon/wp-content/uploads/2023/03/favicon.png">
+		<link rel="icon" href="https://destakconsultoriamedica.com.br/leblon/wp-content/uploads/2023/03/favicon.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="https://destakconsultoriamedica.com.br/leblon/wp-content/uploads/2023/03/favicon.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="https://destakconsultoriamedica.com.br/leblon/wp-content/uploads/2023/03/favicon.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="https://destakconsultoriamedica.com.br/leblon/wp-content/uploads/2023/03/favicon.png">
+        <link rel="apple-touch-icon" href="https://destakconsultoriamedica.com.br/leblon/wp-content/uploads/2023/03/favicon.png">
+        <noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+</head>
+
+<body class="page-template-default page page-id-353 wp-embed-responsive ui-a-dsmm-slide  elementor-default elementor-kit-7 elementor-page elementor-page-353">
+		<!-- 1.1 uicore_before_body_content -->	<div class="uicore-body-content">
+		<!-- 1.2 uicore_before_page_content -->		<div id="uicore-page">
+		
+        <div id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite" class="uicore uicore-navbar elementor-section elementor-section-boxed uicore-h-classic uicore-sticky ui-smart-sticky "><div class="uicore-header-wrapper">
+            <nav class="uicore elementor-container">
+            		 <div class="uicore-branding">
+                
+			<a href="https://leblonhealth.com.br/" rel="home">
+                <img class="uicore uicore-logo uicore-main entered lazyloading" src="https://destakconsultoriamedica.com.br/leblon/wp-content/uploads/2023/03/LEBLON-HEALTH.png" alt="Leblon Health" data-lazy-src="https://destakconsultoriamedica.com.br/leblon/wp-content/uploads/2023/03/LEBLON-HEALTH.png" data-ll-status="loading"><noscript><img class="uicore uicore-logo uicore-main" src="https://destakconsultoriamedica.com.br/leblon/wp-content/uploads/2023/03/LEBLON-HEALTH.png" alt="Leblon Health"/></noscript>
+				<img class="uicore uicore-logo uicore-second" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Leblon Health" data-lazy-src="https://destakconsultoriamedica.com.br/leblon/wp-content/uploads/2023/03/LEBLON-HEALTH-negativo.png"><noscript><img class="uicore uicore-logo uicore-second" src="https://destakconsultoriamedica.com.br/leblon/wp-content/uploads/2023/03/LEBLON-HEALTH-negativo.png" alt="Leblon Health" /></noscript>
+				<img class="uicore uicore-logo uicore-mobile-main" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Leblon Health" data-lazy-src="https://destakconsultoriamedica.com.br/leblon/wp-content/uploads/2023/03/LEBLON-HEALTH.png"><noscript><img class="uicore uicore-logo uicore-mobile-main" src="https://destakconsultoriamedica.com.br/leblon/wp-content/uploads/2023/03/LEBLON-HEALTH.png" alt="Leblon Health" /></noscript>
+				<img class="uicore uicore-logo uicore-mobile-second" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Leblon Health" data-lazy-src="https://destakconsultoriamedica.com.br/leblon/wp-content/uploads/2023/03/LEBLON-HEALTH-negativo.png"><noscript><img class="uicore uicore-logo uicore-mobile-second" src="https://destakconsultoriamedica.com.br/leblon/wp-content/uploads/2023/03/LEBLON-HEALTH-negativo.png" alt="Leblon Health" /></noscript>
+			</a>
+
+		        </div>
+		        <div class="uicore-nav-menu">
+            <div class="uicore-menu-container uicore-nav"><ul class="uicore-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-20"><a href="https://leblonhealth.com.br/"><span class="ui-menu-item-wrapper">Home</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-409"><a href="#"><span class="ui-menu-item-wrapper">Especialidades</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-410"><a href="https://leblonhealth.com.br/alergologia-e-imunologia/"><span class="ui-menu-item-wrapper">Alergologia e Imunologia</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-411"><a href="https://leblonhealth.com.br/cardiologia/"><span class="ui-menu-item-wrapper">Cardiologia</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-485"><a href="https://leblonhealth.com.br/cirurgia-de-cabeca-e-pescoco/"><span class="ui-menu-item-wrapper">Cirurgia de Cabeça e pescoço</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-412"><a href="https://leblonhealth.com.br/cirurgia-geral-e-videolaparoscopica/"><span class="ui-menu-item-wrapper">Cirurgia Geral e Videolaparoscópica</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-414"><a href="https://leblonhealth.com.br/cirurgia-vascular/"><span class="ui-menu-item-wrapper">Cirurgia Vascular</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-415"><a href="https://leblonhealth.com.br/clinica-medica-e-cuidados-paliativos/"><span class="ui-menu-item-wrapper">Clínica Médica e Cuidados Paliativos</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-353 current_page_item menu-item-416"><a href="https://leblonhealth.com.br/endocrinologia-e-metabologia/" aria-current="page"><span class="ui-menu-item-wrapper">Endocrinologia e Metabologia</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-418"><a href="https://leblonhealth.com.br/gastroenterologia/"><span class="ui-menu-item-wrapper">Gastroenterologia</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-419"><a href="https://leblonhealth.com.br/geriatria/"><span class="ui-menu-item-wrapper">Geriatria</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-421"><a href="https://leblonhealth.com.br/hepatologia/"><span class="ui-menu-item-wrapper">Hepatologia</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-422"><a href="https://leblonhealth.com.br/medicina-da-dor/"><span class="ui-menu-item-wrapper">Medicina da Dor</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-423"><a href="https://leblonhealth.com.br/nefrologia/"><span class="ui-menu-item-wrapper">Nefrologia</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-424"><a href="https://leblonhealth.com.br/neurocirurgia/"><span class="ui-menu-item-wrapper">Neurocirurgia</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-425"><a href="https://leblonhealth.com.br/neurologia/"><span class="ui-menu-item-wrapper">Neurologia</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-426"><a href="https://leblonhealth.com.br/nutricao/"><span class="ui-menu-item-wrapper">Nutrição</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-427"><a href="https://leblonhealth.com.br/ortopedia-e-cirurgia-do-joelho/"><span class="ui-menu-item-wrapper">Ortopedia e Cirurgia do Joelho</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-428"><a href="https://leblonhealth.com.br/pneumologia/"><span class="ui-menu-item-wrapper">Pneumologia</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-429"><a href="https://leblonhealth.com.br/reumatologia/"><span class="ui-menu-item-wrapper">Reumatologia</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486"><a href="https://leblonhealth.com.br/urologia/"><span class="ui-menu-item-wrapper">Urologia</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-434"><a href="https://leblonhealth.com.br/contato/"><span class="ui-menu-item-wrapper">Contato</span></a></li>
+</ul></div><div class="uicore uicore-extra">            <div class="uicore-cta-wrapper">
+				<a href="https://api.whatsapp.com/send?phone=5521966808355&amp;text=Ol%C3%A1!%20Acessei%20o%20site%20e%20gostaria%20de%20maiores%20informa%C3%A7%C3%B5es%20por%20favor!" target="_blank" class="uicore-btn ">
+                    <span class="elementor-button-text">
+						Agende sua Consulta                    </span>
+				</a>
+            </div>
+        </div>        </div>
+		            <button type="button" class="uicore-toggle uicore-ham" aria-label="mobile-menu">
+                <span class="bars">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </span>
+            </button>
+                        </nav>
+
+            </div>
+                    </div><!-- #wrapper-navbar end -->
+        <!-- 1.3 uicore_page -->			<div id="content" class="uicore-content">
+
+			<script type="rocketlazyloadscript" id="uicore-page-transition">window.onload=window.onpageshow= function() {  }; </script>                <header class="uicore uicore-page-title elementor-section elementor-section-boxed" style="background-image: url(http://leblonhealth.com.br/wp-content/uploads/2023/03/endocrinologia.jpg)">
+
+                                    <div class="uicore-overlay"></div>
+                                    <div class="uicore elementor-container">
+
+                        <p class="uicore-animate ui-breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList"><span itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"><a itemprop="item" href="https://leblonhealth.com.br"><span itemprop="name">Home</span></a><meta itemprop="position" content=" 1"></span><i class="uicore-separator uicore-i-arrow"></i><span itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"><span><span itemprop="name">Endocrinologia e Metabologia</span><meta itemprop="position" content=" 2"></span></span></p>
+                            <h1 class="uicore-title uicore-animate h1">
+                                Endocrinologia e Metabologia                            </h1>
+                                                </div>
+
+                </header>
+                <!-- 1.4 uicore_before_content --><div id="primary" class="content-area">
+
+	        <article id="post-353" class="post-353 page type-page status-publish has-post-thumbnail hentry">
+            <main class="entry-content">
+                		<div data-elementor-type="wp-page" data-elementor-id="353" class="elementor elementor-353">
+									<div class="elementor-section elementor-top-section elementor-element elementor-element-28eb299 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="28eb299" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ffa71db" data-id="ffa71db" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-511d4f0 elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="511d4f0" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.7.6 - 15-09-2022 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#818a91;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#818a91;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>A Endocrinologia e Metabologia é uma especialidade médica que se dedica ao diagnóstico e tratamento de doenças relacionadas às glândulas endócrinas, que produzem hormônios que regulam diversas funções do organismo, como o crescimento, a reprodução, o metabolismo e a regulação da pressão arterial.</p><p>Os profissionais especializados em Endocrinologia e Metabologia possuem conhecimentos específicos em diversas áreas, incluindo diabetes, obesidade, doenças da tireoide, distúrbios da puberdade, doenças da hipófise, entre outras. Eles realizam exames, interpretam resultados e indicam o tratamento mais adequado para cada caso.</p><p>O tratamento pode envolver o uso de medicamentos, terapia hormonal, mudanças no estilo de vida e, em alguns casos, cirurgia. Além disso, os profissionais especializados em Endocrinologia e Metabologia também trabalham na prevenção de doenças, realizando orientações sobre hábitos saudáveis e a importância de exames preventivos.</p><p>A Endocrinologia e Metabologia é uma especialidade que está em constante evolução, com o desenvolvimento de novas terapias e técnicas diagnósticas. Por isso, é importante contar com um profissional atualizado e capacitado para oferecer o melhor tratamento para cada paciente.</p><p>Em resumo, a Endocrinologia e Metabologia é uma especialidade médica fundamental para o diagnóstico e tratamento de doenças relacionadas às glândulas endócrinas. Com o uso de técnicas avançadas e um acompanhamento individualizado, os profissionais especializados em Endocrinologia e Metabologia podem oferecer aos pacientes tratamentos seguros e eficazes, que visam garantir uma melhor qualidade de vida.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-e0e9ac9 elementor-view-default elementor-widget elementor-widget-icon" data-id="e0e9ac9" data-element_type="widget" data-settings="{&quot;ep_floating_effects_show&quot;:&quot;yes&quot;,&quot;ep_floating_effects_translate_toggle&quot;:&quot;yes&quot;,&quot;ep_floating_effects_translate_x&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;from&quot;:0,&quot;to&quot;:30}},&quot;ep_floating_effects_translate_y&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;from&quot;:0,&quot;to&quot;:0}},&quot;ekit_we_effect_on&quot;:&quot;none&quot;,&quot;ep_floating_effects_translate_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1000,&quot;sizes&quot;:[]},&quot;ep_floating_effects_translate_delay&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;ep_floating_effects_easing&quot;:&quot;easeInOutQuad&quot;}" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="ti ti-arrow-right"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-733ee38 elementor-widget__width-auto elementor-absolute elementor-hidden-mobile ep-parallax-effects-yes elementor-widget elementor-widget-image animated rotateIn" data-id="733ee38" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_animation_delay&quot;:1200,&quot;ep_parallax_effects_show&quot;:&quot;yes&quot;,&quot;ep_parallax_effects_rotate&quot;:&quot;yes&quot;,&quot;ep_parallax_effects_rotate_start&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:-180,&quot;sizes&quot;:[]},&quot;ep_parallax_effects_rotate_end&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:180,&quot;sizes&quot;:[]},&quot;ekit_we_effect_on&quot;:&quot;none&quot;,&quot;ep_parallax_effects_scale_start&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;ep_parallax_effects_scale_end&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;ep_parallax_effects_hue_value&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;ep_parallax_effects_sepia_value&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;ep_parallax_effects_easing_value&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;ep_parallax_effects_target&quot;:&quot;self&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.7.6 - 15-09-2022 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img decoding="async" width="128" height="128" src="http://leblonhealth.com.br/wp-content/uploads/2023/03/favicon.png" class="attachment-full size-full entered lazyloading" alt="" data-lazy-src="http://leblonhealth.com.br/wp-content/uploads/2023/03/favicon.png" data-ll-status="loading"><noscript><img decoding="async" width="128" height="128" src="http://leblonhealth.com.br/wp-content/uploads/2023/03/favicon.png" class="attachment-full size-full" alt="" /></noscript>															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c8ba10b animated fadeInUp" data-id="c8ba10b" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;animation_delay&quot;:100}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-f034129 elementor-section-boxed elementor-section-height-default animated fadeInUp" data-id="f034129" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation_delay&quot;:500,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-6df2a0a" data-id="6df2a0a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-14f6db1 elementor-widget elementor-widget-heading" data-id="14f6db1" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.7.6 - 15-09-2022 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h3 class="elementor-heading-title elementor-size-default">Agende sua Consulta</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-34dfca9 elementor-widget elementor-widget-text-editor" data-id="34dfca9" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Se você está interessado em marcar uma consulta com nossa clínica multidisciplinar, convidamos você a entrar em contato conosco.</p>
+<p>Nossa equipe estará pronta para atendê-lo e esclarecer todas as suas dúvidas sobre nossos serviços e especialidades.&nbsp;</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-744af6a elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="744af6a" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor-pro - v3.7.6 - 14-09-2022 */
+.elementor-button.elementor-hidden,.elementor-hidden{display:none}.e-form__step{width:100%}.e-form__step:not(.elementor-hidden){display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}.e-form__buttons{-ms-flex-wrap:wrap;flex-wrap:wrap}.e-form__buttons,.e-form__buttons__wrapper{display:-webkit-box;display:-ms-flexbox;display:flex}.e-form__indicators{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:nowrap;flex-wrap:nowrap;font-size:13px;margin-bottom:var(--e-form-steps-indicators-spacing)}.e-form__indicators,.e-form__indicators__indicator{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.e-form__indicators__indicator{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-preferred-size:0;flex-basis:0;padding:0 var(--e-form-steps-divider-gap)}.e-form__indicators__indicator__progress{width:100%;position:relative;background-color:var(--e-form-steps-indicator-progress-background-color);border-radius:var(--e-form-steps-indicator-progress-border-radius);overflow:hidden}.e-form__indicators__indicator__progress__meter{width:var(--e-form-steps-indicator-progress-meter-width,0);height:var(--e-form-steps-indicator-progress-height);line-height:var(--e-form-steps-indicator-progress-height);padding-right:15px;border-radius:var(--e-form-steps-indicator-progress-border-radius);background-color:var(--e-form-steps-indicator-progress-color);color:var(--e-form-steps-indicator-progress-meter-color);text-align:right;-webkit-transition:width .1s linear;-o-transition:width .1s linear;transition:width .1s linear}.e-form__indicators__indicator:first-child{padding-left:0}.e-form__indicators__indicator:last-child{padding-right:0}.e-form__indicators__indicator--state-inactive{color:var(--e-form-steps-indicator-inactive-primary-color,#c2cbd2)}.e-form__indicators__indicator--state-inactive [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-inactive-secondary-color,#fff)}.e-form__indicators__indicator--state-inactive object,.e-form__indicators__indicator--state-inactive svg{fill:var(--e-form-steps-indicator-inactive-primary-color,#c2cbd2)}.e-form__indicators__indicator--state-active{color:var(--e-form-steps-indicator-active-primary-color,#39b54a);border-color:var(--e-form-steps-indicator-active-secondary-color,#fff)}.e-form__indicators__indicator--state-active [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-active-secondary-color,#fff)}.e-form__indicators__indicator--state-active object,.e-form__indicators__indicator--state-active svg{fill:var(--e-form-steps-indicator-active-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed{color:var(--e-form-steps-indicator-completed-secondary-color,#fff)}.e-form__indicators__indicator--state-completed [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-completed-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed .e-form__indicators__indicator__label{color:var(--e-form-steps-indicator-completed-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed .e-form__indicators__indicator--shape-none{color:var(--e-form-steps-indicator-completed-primary-color,#39b54a);background-color:initial}.e-form__indicators__indicator--state-completed object,.e-form__indicators__indicator--state-completed svg{fill:var(--e-form-steps-indicator-completed-secondary-color,#fff)}.e-form__indicators__indicator__icon{width:var(--e-form-steps-indicator-padding,30px);height:var(--e-form-steps-indicator-padding,30px);font-size:var(--e-form-steps-indicator-icon-size);border-width:1px;border-style:solid;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;overflow:hidden;margin-bottom:10px}.e-form__indicators__indicator__icon img,.e-form__indicators__indicator__icon object,.e-form__indicators__indicator__icon svg{width:var(--e-form-steps-indicator-icon-size);height:auto}.e-form__indicators__indicator__icon .e-font-icon-svg{height:1em}.e-form__indicators__indicator__number{width:var(--e-form-steps-indicator-padding,30px);height:var(--e-form-steps-indicator-padding,30px);border-width:1px;border-style:solid;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:10px}.e-form__indicators__indicator--shape-circle{border-radius:50%}.e-form__indicators__indicator--shape-square{border-radius:0}.e-form__indicators__indicator--shape-rounded{border-radius:5px}.e-form__indicators__indicator--shape-none{border:0}.e-form__indicators__indicator__label{text-align:center}.e-form__indicators__indicator__separator{width:100%;height:var(--e-form-steps-divider-width);background-color:#c2cbd2}.e-form__indicators--type-icon,.e-form__indicators--type-icon_text,.e-form__indicators--type-number,.e-form__indicators--type-number_text{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.e-form__indicators--type-icon .e-form__indicators__indicator__separator,.e-form__indicators--type-icon_text .e-form__indicators__indicator__separator,.e-form__indicators--type-number .e-form__indicators__indicator__separator,.e-form__indicators--type-number_text .e-form__indicators__indicator__separator{margin-top:calc(var(--e-form-steps-indicator-padding, 30px) / 2 - var(--e-form-steps-divider-width, 1px) / 2)}.elementor-field-type-hidden{display:none}.elementor-field-type-html{display:inline-block}.elementor-login .elementor-lost-password,.elementor-login .elementor-remember-me{font-size:.85em}.elementor-field-type-recaptcha_v3 .elementor-field-label{display:none}.elementor-field-type-recaptcha_v3 .grecaptcha-badge{z-index:1}.elementor-button .elementor-form-spinner{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}.elementor-form .elementor-button>span{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.elementor-form .elementor-button .elementor-button-text{white-space:normal;-webkit-box-flex:0;-ms-flex-positive:0;flex-grow:0}.elementor-form .elementor-button svg{height:auto}.elementor-form .elementor-button .e-font-icon-svg{height:1em}.elementor-select-wrapper .select-caret-down-wrapper{position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);inset-inline-end:10px;pointer-events:none;font-size:11px}.elementor-select-wrapper .select-caret-down-wrapper svg{display:unset;width:1em;aspect-ratio:unset;fill:currentColor}.elementor-select-wrapper .select-caret-down-wrapper i{font-size:19px;line-height:2}.elementor-select-wrapper.remove-before:before{content:""!important}</style>		<form class="elementor-form" method="post" name="Contato">
+			<input type="hidden" name="post_id" value="353">
+			<input type="hidden" name="form_id" value="744af6a">
+			<input type="hidden" name="referer_title" value="Endocrinologia e Metabologia">
+
+							<input type="hidden" name="queried_id" value="353">
+			
+			<div class="elementor-form-fields-wrapper elementor-labels-">
+								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100 elementor-field-required">
+												<label for="form-field-name" class="elementor-field-label elementor-screen-only">
+								Nome							</label>
+														<input size="1" type="text" name="form_fields[name]" id="form-field-name" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Nome" required="required" aria-required="true">
+											</div>
+								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
+												<label for="form-field-email" class="elementor-field-label elementor-screen-only">
+								e-mail							</label>
+														<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="e-mail" required="required" aria-required="true">
+											</div>
+								<div class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-field_f522a6d elementor-col-100 elementor-field-required">
+												<label for="form-field-field_f522a6d" class="elementor-field-label elementor-screen-only">
+								Telefone							</label>
+								<input size="1" type="tel" name="form_fields[field_f522a6d]" id="form-field-field_f522a6d" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Telefone" required="required" aria-required="true" pattern="[0-9()#&amp;+*-=.]+" title="Only numbers and phone characters (#, -, *, etc) are accepted.">
+
+						</div>
+								<div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100 elementor-field-required">
+												<label for="form-field-message" class="elementor-field-label elementor-screen-only">
+								Mensagem							</label>
+						<textarea class="elementor-field-textual elementor-field  elementor-size-sm" name="form_fields[message]" id="form-field-message" rows="4" placeholder="Mensagem" required="required" aria-required="true"></textarea>				</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+					<button type="submit" class="elementor-button elementor-size-sm">
+						<span>
+															<span class=" elementor-button-icon">
+																										</span>
+																						<span class="elementor-button-text">Enviar</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</div>
+				<div class="elementor-section elementor-top-section elementor-element elementor-element-1ec787f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1ec787f" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c0bf51e" data-id="c0bf51e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-25270ff  ui-split-animate ui-splitby-chars elementor-widget elementor-widget-heading" data-id="25270ff" data-element_type="widget" data-settings="{&quot;ui_animate_split&quot;:&quot;ui-split-animate&quot;,&quot;ui_animate_split_style&quot;:&quot;fadeIn&quot;,&quot;ui_animate_split_by&quot;:&quot;chars&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Nosso médico especialista</h2>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-cfe8e05 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cfe8e05" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6974810 elementor-invisible" data-id="6974810" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-f17934a elementor-widget elementor-widget-bdt-member" data-id="f17934a" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="bdt-member.bdt-calm">
+				<div class="elementor-widget-container">
+					<div class="bdt-member skin-calm bdt-transition-toggle bdt-inline bdt-image-mask">
+		
+				<div class="bdt-member-photo-wrapper">
+
+					
+					<div class="bdt-member-photo">
+						<div class="">
+							<img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" title="Dr. Rodrigo Oliveira​" alt="Dr. Rodrigo Oliveira  CRM: 52.82884-0  Endocrinologia e Metabologia" data-lazy-src="http://leblonhealth.com.br/wp-content/uploads/2023/03/Dr.-Rodrigo-Oliveira​.jpg"><noscript><img decoding="async" src="http://leblonhealth.com.br/wp-content/uploads/2023/03/Dr.-Rodrigo-Oliveira​.jpg" title="Dr. Rodrigo Oliveira​" alt="Dr. Rodrigo Oliveira  CRM: 52.82884-0  Endocrinologia e Metabologia" /></noscript>						</div>
+					</div>
+
+				</div>
+
+			
+			<div class="bdt-member-overlay bdt-overlay bdt-position-bottom bdt-text-center">
+				<div class="bdt-member-desc">
+					<div class="bdt-member-content bdt-transition-slide-bottom-small">
+						
+											</div>
+					
+										
+				</div>
+			</div>			
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f4aae6d elementor-invisible" data-id="f4aae6d" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:300}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-801bbd0 elementor-widget elementor-widget-heading" data-id="801bbd0" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Dr. Rodrigo Oliveira</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4d648e7 elementor-widget elementor-widget-heading" data-id="4d648e7" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">CRM: 52.82884-0</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6132b35 elementor-widget elementor-widget-text-editor" data-id="6132b35" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Dr. Rodrigo Oliveira da Silva é formado pela UFRJ.</p><p>Possui, em seu currículo, residências em Clínica Médica pelo Hospital Federal da Lagoa e em Endocrinologia e Metabologia, pelo Instituto Estadual de Diabetes e Endocrinologia.</p><p>Realizou, também, um curso de atualização nessa área, feito na Harvard Medical School, nos Estados Unidos. Atualmente, também atua como médico rotina do CTI do Hospital Copa Star.</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</div>
+							</div>
+		            </main>
+        </article>
+        
+</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+
+	            <footer id="uicore-tb-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter">
+			    		<div data-elementor-type="uicore-tb" data-elementor-id="19" class="elementor elementor-19">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-bb7bf1d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bb7bf1d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-01ad683" data-id="01ad683" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7fe8a00 elementor-widget elementor-widget-image" data-id="7fe8a00" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="300" height="83" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%2083'%3E%3C/svg%3E" class="attachment-medium size-medium" alt="" data-lazy-srcset="http://leblonhealth.com.br/wp-content/uploads/2023/03/LEBLON-HEALTH-negativo-300x83.png 300w, http://leblonhealth.com.br/wp-content/uploads/2023/03/LEBLON-HEALTH-negativo-768x213.png 768w, http://leblonhealth.com.br/wp-content/uploads/2023/03/LEBLON-HEALTH-negativo-650x180.png 650w, http://leblonhealth.com.br/wp-content/uploads/2023/03/LEBLON-HEALTH-negativo.png 824w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="http://leblonhealth.com.br/wp-content/uploads/2023/03/LEBLON-HEALTH-negativo-300x83.png"><noscript><img width="300" height="83" src="http://leblonhealth.com.br/wp-content/uploads/2023/03/LEBLON-HEALTH-negativo-300x83.png" class="attachment-medium size-medium" alt="" srcset="http://leblonhealth.com.br/wp-content/uploads/2023/03/LEBLON-HEALTH-negativo-300x83.png 300w, http://leblonhealth.com.br/wp-content/uploads/2023/03/LEBLON-HEALTH-negativo-768x213.png 768w, http://leblonhealth.com.br/wp-content/uploads/2023/03/LEBLON-HEALTH-negativo-650x180.png 650w, http://leblonhealth.com.br/wp-content/uploads/2023/03/LEBLON-HEALTH-negativo.png 824w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>															</div>
+				</div>
+				<div class="elementor-element elementor-element-c49c3ce elementor-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="c49c3ce" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="#">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-map-marker-alt"></i>						</span>
+										<span class="elementor-icon-list-text">Av. Ataulfo de Paiva, 391 - Sala 603 - Leblon, Rio de Janeiro - RJ, 22440-032</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://api.whatsapp.com/send/?phone=5521966808355&amp;text&amp;type=phone_number&amp;app_absent=0">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-whatsapp-1"></i>						</span>
+										<span class="elementor-icon-list-text">(21) 96680-8355</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="tel:(21)%202148-7626">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-phone-square-alt"></i>						</span>
+										<span class="elementor-icon-list-text">(21) 2148-7626</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.instagram.com/leblonhealth/">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fab fa-instagram"></i>						</span>
+										<span class="elementor-icon-list-text">Instagram</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-section elementor-top-section elementor-element elementor-element-f1d658e elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f1d658e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ce6cf99" data-id="ce6cf99" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-9034635 elementor-widget elementor-widget-text-editor" data-id="9034635" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><strong>Desenvolvido por:</strong> <a href="https://destakconsultoriamedica.com.br/">Destak Consultoria Médica</a></p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</div>
+							</div>
+				    </footer>
+            <!-- 1.5 uicore_content_end -->
+</div><!-- #page -->
+
+<div id="uicore-back-to-top" class="uicore-back-to-top uicore-i-arrow uicore_hide_mobile "></div>        <div class="uicore-navigation-wrapper uicore-navbar elementor-section elementor-section-boxed uicore-mobile-menu-wrapper
+                ">
+			<nav class="uicore elementor-container">
+				<div class="uicore-branding uicore-mobile">
+                					<a href="https://leblonhealth.com.br/" rel="home">
+						<img class="uicore uicore-logo" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Leblon Health" data-lazy-src="https://destakconsultoriamedica.com.br/leblon/wp-content/uploads/2023/03/LEBLON-HEALTH.png"><noscript><img class="uicore uicore-logo"  src="https://destakconsultoriamedica.com.br/leblon/wp-content/uploads/2023/03/LEBLON-HEALTH.png" alt="Leblon Health"/></noscript>
+					</a>
+                				</div>
+
+
+                <div class="uicore-branding uicore-desktop">
+                				</div>
+
+
+				<button type="button" class="uicore-toggle uicore-ham" aria-label="mobile-menu">
+					<span class="bars">
+						<span class="bar"></span>
+						<span class="bar"></span>
+						<span class="bar"></span>
+					</span>
+				</button>
+			</nav>
+			<div class="uicore-navigation-content">
+                <div class="uicore-menu-container uicore-nav"><ul class="uicore-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-20"><a href="https://leblonhealth.com.br/"><span class="ui-menu-item-wrapper">Home</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-409"><a href="#"><span class="ui-menu-item-wrapper">Especialidades</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-410"><a href="https://leblonhealth.com.br/alergologia-e-imunologia/"><span class="ui-menu-item-wrapper">Alergologia e Imunologia</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-411"><a href="https://leblonhealth.com.br/cardiologia/"><span class="ui-menu-item-wrapper">Cardiologia</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-485"><a href="https://leblonhealth.com.br/cirurgia-de-cabeca-e-pescoco/"><span class="ui-menu-item-wrapper">Cirurgia de Cabeça e pescoço</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-412"><a href="https://leblonhealth.com.br/cirurgia-geral-e-videolaparoscopica/"><span class="ui-menu-item-wrapper">Cirurgia Geral e Videolaparoscópica</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-414"><a href="https://leblonhealth.com.br/cirurgia-vascular/"><span class="ui-menu-item-wrapper">Cirurgia Vascular</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-415"><a href="https://leblonhealth.com.br/clinica-medica-e-cuidados-paliativos/"><span class="ui-menu-item-wrapper">Clínica Médica e Cuidados Paliativos</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-353 current_page_item menu-item-416"><a href="https://leblonhealth.com.br/endocrinologia-e-metabologia/" aria-current="page"><span class="ui-menu-item-wrapper">Endocrinologia e Metabologia</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-418"><a href="https://leblonhealth.com.br/gastroenterologia/"><span class="ui-menu-item-wrapper">Gastroenterologia</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-419"><a href="https://leblonhealth.com.br/geriatria/"><span class="ui-menu-item-wrapper">Geriatria</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-421"><a href="https://leblonhealth.com.br/hepatologia/"><span class="ui-menu-item-wrapper">Hepatologia</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-422"><a href="https://leblonhealth.com.br/medicina-da-dor/"><span class="ui-menu-item-wrapper">Medicina da Dor</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-423"><a href="https://leblonhealth.com.br/nefrologia/"><span class="ui-menu-item-wrapper">Nefrologia</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-424"><a href="https://leblonhealth.com.br/neurocirurgia/"><span class="ui-menu-item-wrapper">Neurocirurgia</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-425"><a href="https://leblonhealth.com.br/neurologia/"><span class="ui-menu-item-wrapper">Neurologia</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-426"><a href="https://leblonhealth.com.br/nutricao/"><span class="ui-menu-item-wrapper">Nutrição</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-427"><a href="https://leblonhealth.com.br/ortopedia-e-cirurgia-do-joelho/"><span class="ui-menu-item-wrapper">Ortopedia e Cirurgia do Joelho</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-428"><a href="https://leblonhealth.com.br/pneumologia/"><span class="ui-menu-item-wrapper">Pneumologia</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-429"><a href="https://leblonhealth.com.br/reumatologia/"><span class="ui-menu-item-wrapper">Reumatologia</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486"><a href="https://leblonhealth.com.br/urologia/"><span class="ui-menu-item-wrapper">Urologia</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-434"><a href="https://leblonhealth.com.br/contato/"><span class="ui-menu-item-wrapper">Contato</span></a></li>
+</ul></div><div class="uicore uicore-extra">            <div class="uicore-cta-wrapper">
+				<a href="https://api.whatsapp.com/send?phone=5521966808355&amp;text=Ol%C3%A1!%20Acessei%20o%20site%20e%20gostaria%20de%20maiores%20informa%C3%A7%C3%B5es%20por%20favor!" target="_blank" class="uicore-btn ">
+                    <span class="elementor-button-text">
+						Agende sua Consulta                    </span>
+				</a>
+            </div>
+        </div>            </div>
+		</div>
+		<!-- 1.6 uicore_body_end --></div>
+<!-- 1.7 uicore_after_body_content --><script type="rocketlazyloadscript"> 
+var uicore_frontend = {'back':'Back', 'rtl' : '','mobile_br' : '1025'};
+ console.log( 'Using Vault v.1.1.7');
+ console.log( 'Powered By UiCore Framework v.4.1.7');
+ </script> <!-- HFCM by 99 Robots - Snippet # 3: Google Tag Manager (body) -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59NRQMFQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- /end HFCM by 99 Robots -->
+<!-- Click to Chat - https://holithemes.com/plugins/click-to-chat/  v3.30.1 -->  
+            <div class="ht-ctc ht-ctc-chat ctc-analytics ctc_wp_desktop style-2  " id="ht-ctc-chat" style="display: none;  position: fixed; bottom: 15px; right: 15px;">
+                                <div class="ht_ctc_style ht_ctc_chat_style">
+                <div style="display: flex; justify-content: center; align-items: center;  " class="ctc-analytics ctc_s_2">
+    <p class="ctc-analytics ctc_cta ctc_cta_stick ht-ctc-cta  ht-ctc-cta-hover " style="padding: 0px 16px; line-height: 1.6; font-size: 15px; background-color: #25D366; color: #ffffff; border-radius:10px; margin:0 10px;  display: none; order: 0; ">Agende sua Consulta</p>
+    <svg style="pointer-events:none; display:block; height:50px; width:50px;" width="50px" height="50px" viewBox="0 0 1024 1024">
+        <defs>
+        <path id="htwasqicona-chat" d="M1023.941 765.153c0 5.606-.171 17.766-.508 27.159-.824 22.982-2.646 52.639-5.401 66.151-4.141 20.306-10.392 39.472-18.542 55.425-9.643 18.871-21.943 35.775-36.559 50.364-14.584 14.56-31.472 26.812-50.315 36.416-16.036 8.172-35.322 14.426-55.744 18.549-13.378 2.701-42.812 4.488-65.648 5.3-9.402.336-21.564.505-27.15.505l-504.226-.081c-5.607 0-17.765-.172-27.158-.509-22.983-.824-52.639-2.646-66.152-5.4-20.306-4.142-39.473-10.392-55.425-18.542-18.872-9.644-35.775-21.944-50.364-36.56-14.56-14.584-26.812-31.471-36.415-50.314-8.174-16.037-14.428-35.323-18.551-55.744-2.7-13.378-4.487-42.812-5.3-65.649-.334-9.401-.503-21.563-.503-27.148l.08-504.228c0-5.607.171-17.766.508-27.159.825-22.983 2.646-52.639 5.401-66.151 4.141-20.306 10.391-39.473 18.542-55.426C34.154 93.24 46.455 76.336 61.07 61.747c14.584-14.559 31.472-26.812 50.315-36.416 16.037-8.172 35.324-14.426 55.745-18.549 13.377-2.701 42.812-4.488 65.648-5.3 9.402-.335 21.565-.504 27.149-.504l504.227.081c5.608 0 17.766.171 27.159.508 22.983.825 52.638 2.646 66.152 5.401 20.305 4.141 39.472 10.391 55.425 18.542 18.871 9.643 35.774 21.944 50.363 36.559 14.559 14.584 26.812 31.471 36.415 50.315 8.174 16.037 14.428 35.323 18.551 55.744 2.7 13.378 4.486 42.812 5.3 65.649.335 9.402.504 21.564.504 27.15l-.082 504.226z"></path>
+        </defs>
+        <linearGradient id="htwasqiconb-chat" gradientUnits="userSpaceOnUse" x1="512.001" y1=".978" x2="512.001" y2="1025.023">
+            <stop offset="0" stop-color="#61fd7d"></stop>
+            <stop offset="1" stop-color="#2bb826"></stop>
+        </linearGradient>
+        <use xlink:href="#htwasqicona-chat" overflow="visible" style="fill: url(#htwasqiconb-chat)" fill="url(#htwasqiconb-chat)"></use>
+        <g>
+            <path style="fill: #FFFFFF;" fill="#FFF" d="M783.302 243.246c-69.329-69.387-161.529-107.619-259.763-107.658-202.402 0-367.133 164.668-367.214 367.072-.026 64.699 16.883 127.854 49.017 183.522l-52.096 190.229 194.665-51.047c53.636 29.244 114.022 44.656 175.482 44.682h.151c202.382 0 367.128-164.688 367.21-367.094.039-98.087-38.121-190.319-107.452-259.706zM523.544 808.047h-.125c-54.767-.021-108.483-14.729-155.344-42.529l-11.146-6.612-115.517 30.293 30.834-112.592-7.259-11.544c-30.552-48.579-46.688-104.729-46.664-162.379.066-168.229 136.985-305.096 305.339-305.096 81.521.031 158.154 31.811 215.779 89.482s89.342 134.332 89.312 215.859c-.066 168.243-136.984 305.118-305.209 305.118zm167.415-228.515c-9.177-4.591-54.286-26.782-62.697-29.843-8.41-3.062-14.526-4.592-20.645 4.592-6.115 9.182-23.699 29.843-29.053 35.964-5.352 6.122-10.704 6.888-19.879 2.296-9.176-4.591-38.74-14.277-73.786-45.526-27.275-24.319-45.691-54.359-51.043-63.543-5.352-9.183-.569-14.146 4.024-18.72 4.127-4.109 9.175-10.713 13.763-16.069 4.587-5.355 6.117-9.183 9.175-15.304 3.059-6.122 1.529-11.479-.765-16.07-2.293-4.591-20.644-49.739-28.29-68.104-7.447-17.886-15.013-15.466-20.645-15.747-5.346-.266-11.469-.322-17.585-.322s-16.057 2.295-24.467 11.478-32.113 31.374-32.113 76.521c0 45.147 32.877 88.764 37.465 94.885 4.588 6.122 64.699 98.771 156.741 138.502 21.892 9.45 38.982 15.094 52.308 19.322 21.98 6.979 41.982 5.995 57.793 3.634 17.628-2.633 54.284-22.189 61.932-43.615 7.646-21.427 7.646-39.791 5.352-43.617-2.294-3.826-8.41-6.122-17.585-10.714z"></path>
+        </g>
+        </svg></div>                </div>
+            </div>
+                        <span class="ht_ctc_chat_data" data-no_number="" data-settings="{&quot;number&quot;:&quot;5521966808355&quot;,&quot;pre_filled&quot;:&quot;Ol\u00e1! Acessei o site e gostaria de maiores informa\u00e7\u00f5es por favor!&quot;,&quot;dis_m&quot;:&quot;show&quot;,&quot;dis_d&quot;:&quot;show&quot;,&quot;css&quot;:&quot;display: none; cursor: pointer; z-index: 99999999;&quot;,&quot;pos_d&quot;:&quot;position: fixed; bottom: 15px; right: 15px;&quot;,&quot;pos_m&quot;:&quot;position: fixed; bottom: 15px; right: 15px;&quot;,&quot;schedule&quot;:&quot;no&quot;,&quot;se&quot;:150,&quot;ani&quot;:&quot;no-animations&quot;,&quot;url_target_d&quot;:&quot;_blank&quot;,&quot;ga&quot;:&quot;yes&quot;,&quot;fb&quot;:&quot;yes&quot;}"></span>
+            
+
+
+<script id="ht_ctc_app_js-js-extra">
+var ht_ctc_chat_var = {"number":"5521966808355","pre_filled":"Ol\u00e1! Acessei o site e gostaria de maiores informa\u00e7\u00f5es por favor!","dis_m":"show","dis_d":"show","css":"display: none; cursor: pointer; z-index: 99999999;","pos_d":"position: fixed; bottom: 15px; right: 15px;","pos_m":"position: fixed; bottom: 15px; right: 15px;","schedule":"no","se":"150","ani":"no-animations","url_target_d":"_blank","ga":"yes","fb":"yes"};
+</script>
+<script type="rocketlazyloadscript" data-minify="1" src="https://leblonhealth.com.br/wp-content/cache/min/1/wp-content/plugins/click-to-chat-for-whatsapp/new/inc/assets/js/app.js?ver=1709896038" id="ht_ctc_app_js-js" defer=""></script>
+<script type="rocketlazyloadscript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin\/|\/logout\/|\/wp-login.php|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm","siteUrl":"http:\/\/leblonhealth.com.br","onHoverDelay":"100","rateThrottle":"3"};
+</script>
+<script type="rocketlazyloadscript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type="rocketlazyloadscript" data-minify="1" src="https://leblonhealth.com.br/wp-content/cache/min/1/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js?ver=1709896038" id="elementskit-framework-js-frontend-js" defer=""></script>
+<script type="rocketlazyloadscript" id="elementskit-framework-js-frontend-js-after">
+		var elementskit = {
+			resturl: 'http://leblonhealth.com.br/wp-json/elementskit/v1/',
+		}
+
+		
+</script>
+<script type="rocketlazyloadscript" data-minify="1" src="https://leblonhealth.com.br/wp-content/cache/min/1/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js?ver=1709896038" id="ekit-widget-scripts-js" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" defer="" src="https://leblonhealth.com.br/wp-content/cache/min/1/wp-content/plugins/elementskit/modules/parallax/assets/js/parallax-frontend-scripts.js?ver=1709896038" id="elementskit-parallax-frontend-defer-js"></script>
+<script type="rocketlazyloadscript" data-minify="1" src="https://leblonhealth.com.br/wp-content/cache/min/1/wp-content/uploads/uicore-global.js?ver=1709896038" id="uicore_global-js" defer=""></script>
+<script type="rocketlazyloadscript" src="https://leblonhealth.com.br/wp-content/plugins/bdthemes-element-pack/assets/vendor/js/anime.min.js?ver=3.2.1" id="anime-js" defer=""></script>
+<script id="bdt-uikit-js-extra">
+var element_pack_ajax_login_config = {"ajaxurl":"http:\/\/leblonhealth.com.br\/wp-admin\/admin-ajax.php","language":"pt","loadingmessage":"Sending user info, please wait...","unknownerror":"Unknown error, make sure access is correct!"};
+var ElementPackConfig = {"ajaxurl":"http:\/\/leblonhealth.com.br\/wp-admin\/admin-ajax.php","nonce":"4b394079db","data_table":{"language":{"lengthMenu":"Show _MENU_ Entries","info":"Showing _START_ to _END_ of _TOTAL_ entries","search":"Search :","sZeroRecords":"No matching records found","paginate":{"previous":"Previous","next":"Next"}}},"contact_form":{"sending_msg":"Sending message please wait...","captcha_nd":"Invisible captcha not defined!","captcha_nr":"Could not get invisible captcha response!"},"mailchimp":{"subscribing":"Subscribing you please wait..."},"search":{"more_result":"More Results","search_result":"SEARCH RESULT","not_found":"not found"},"elements_data":{"sections":[],"columns":[],"widgets":[]}};
+</script>
+<script type="rocketlazyloadscript" src="https://leblonhealth.com.br/wp-content/plugins/bdthemes-element-pack/assets/js/bdt-uikit.min.js?ver=3.15.1" id="bdt-uikit-js" defer=""></script>
+<script type="rocketlazyloadscript" src="https://leblonhealth.com.br/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.7.6" id="elementor-webpack-runtime-js" defer=""></script>
+<script type="rocketlazyloadscript" src="https://leblonhealth.com.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.7.6" id="elementor-frontend-modules-js" defer=""></script>
+<script type="rocketlazyloadscript" src="https://leblonhealth.com.br/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js" defer=""></script>
+<script type="rocketlazyloadscript" id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Pr\u00f3ximo","close":"Fechar"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Celular","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Celular extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},
+"version":"3.7.6","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"e_import_export":true,"e_hidden_wordpress_widgets":true,"theme_builder_v2":true,"landing-pages":true,"elements-color-picker":true,"favorite-widgets":true,"admin-top-bar":true,"page-transitions":true,"notes":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"http:\/\/leblonhealth.com.br\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":353,"title":"Endocrinologia%20e%20Metabologia%20%E2%80%93%20Leblon%20Health","excerpt":"","featuredImage":"http:\/\/leblonhealth.com.br\/wp-content\/uploads\/2023\/03\/endocrinologia-1024x683.jpg"}};
+</script>
+<script type="rocketlazyloadscript" src="https://leblonhealth.com.br/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.7.6" id="elementor-frontend-js" defer=""></script>
+<script type="rocketlazyloadscript" src="https://leblonhealth.com.br/wp-content/plugins/bdthemes-element-pack/assets/js/modules/ep-floating-effects.min.js?ver=6.13.0" id="ep-floating-effects-js" defer=""></script>
+<script type="rocketlazyloadscript" src="https://leblonhealth.com.br/wp-content/plugins/bdthemes-element-pack/assets/js/modules/ep-parallax-effects.min.js?ver=6.13.0" id="ep-parallax-effects-js" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" src="https://leblonhealth.com.br/wp-content/cache/min/1/wp-content/plugins/uicore-framework/assets/js/elementor/widgets/split.js?ver=1709896038" id="ui-e-split-js" defer=""></script>
+<script type="rocketlazyloadscript" src="https://leblonhealth.com.br/wp-content/plugins/bdthemes-element-pack/assets/js/common/helper.min.js?ver=6.13.0" id="element-pack-helper-js" defer=""></script>
+<script type="rocketlazyloadscript" src="https://leblonhealth.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.7.6" id="elementor-pro-webpack-runtime-js" defer=""></script>
+<script type="rocketlazyloadscript" src="https://leblonhealth.com.br/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2" id="wp-polyfill-inert-js" defer=""></script>
+<script type="rocketlazyloadscript" src="https://leblonhealth.com.br/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0" id="regenerator-runtime-js" defer=""></script>
+<script type="rocketlazyloadscript" src="https://leblonhealth.com.br/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="rocketlazyloadscript" src="https://leblonhealth.com.br/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js"></script>
+<script type="rocketlazyloadscript" src="https://leblonhealth.com.br/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js"></script>
+<script type="rocketlazyloadscript" id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type="rocketlazyloadscript" id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"http:\/\/leblonhealth.com.br\/wp-admin\/admin-ajax.php","nonce":"633cfad09a","urls":{"assets":"http:\/\/leblonhealth.com.br\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"http:\/\/leblonhealth.com.br\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},
+"facebook_sdk":{"lang":"pt_BR","app_id":""},"lottie":{"defaultAnimationUrl":"http:\/\/leblonhealth.com.br\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script type="rocketlazyloadscript" src="https://leblonhealth.com.br/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.7.6" id="elementor-pro-frontend-js" defer=""></script>
+<script type="rocketlazyloadscript" src="https://leblonhealth.com.br/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.7.6" id="pro-elements-handlers-js" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" src="https://leblonhealth.com.br/wp-content/cache/min/1/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.js?ver=1709896038" id="animate-circle-js" defer=""></script>
+<script id="elementskit-elementor-js-extra">
+var ekit_config = {"ajaxurl":"http:\/\/leblonhealth.com.br\/wp-admin\/admin-ajax.php","nonce":"124a084e4a"};
+</script>
+<script type="rocketlazyloadscript" data-minify="1" src="https://leblonhealth.com.br/wp-content/cache/min/1/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js?ver=1709896038" id="elementskit-elementor-js" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" src="https://leblonhealth.com.br/wp-content/cache/min/1/wp-content/plugins/elementskit/widgets/init/assets/js/elementor.js?ver=1709896038" id="elementskit-elementor-pro-js" defer=""></script>
+<script type="rocketlazyloadscript" src="https://leblonhealth.com.br/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=2.8.5" id="swiper-js" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" defer="" src="https://leblonhealth.com.br/wp-content/cache/min/1/wp-content/plugins/elementskit/modules/sticky-content/assets/js/elementskit-sticky-content.js?ver=1709896039" id="elementskit-sticky-content-script-init-defer-js"></script>
+<script type="rocketlazyloadscript" data-minify="1" src="https://leblonhealth.com.br/wp-content/cache/min/1/wp-content/plugins/elementskit/modules/pro-form-reset-button/assets/js/elementskit-reset-button.js?ver=1709896039" id="elementskit-reset-button-js" defer=""></script>
+<script type="rocketlazyloadscript" data-minify="1" defer="" src="https://leblonhealth.com.br/wp-content/cache/min/1/wp-content/plugins/elementskit/modules/parallax/assets/js/parallax-admin-scripts.js?ver=1709896039" id="elementskit-parallax-admin-defer-js"></script>
+<script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async="" src="https://leblonhealth.com.br/wp-content/plugins/wp-rocket/assets/js/lazyload/17.5/lazyload.min.js"></script><script>function lazyLoadThumb(e){var t='<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="play Youtube video"></button>';return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?'':'&'+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var e,t,p,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)e=document.createElement("div"),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query", a[t].dataset.query),e.setAttribute("data-src", a[t].dataset.src),e.innerHTML=lazyLoadThumb(a[t].dataset.id),a[t].appendChild(e),p=e.querySelector('.play'),p.onclick=lazyLoadYoutubeIframe});</script><script>class RocketElementorAnimation{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}_detectAnimations(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this._listAnimationSettingsKeys(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach(t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this._animateElement(t)}catch(t){}})}_animateElement(t){const e=JSON.parse(t.dataset.settings),i=e._animation_delay||e.animation_delay||0,n=e[this.animationSettingKeys.find(t=>e[t])];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let s=setTimeout(()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this._removeAnimationSettings(t,e)},i);window.addEventListener("rocket-startLoading",function(){clearTimeout(s)})}_listAnimationSettingsKeys(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach(t=>{e.forEach(e=>{i.push(t+e)})}),i}_removeAnimationSettings(t,e){this._listAnimationSettingsKeys().forEach(t=>delete e[t]),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorAnimation;requestAnimationFrame(t._detectAnimations.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorAnimation.run);</script>
+
+
+<span id="elementor-device-mode" class="elementor-screen-only"></span></body></html>

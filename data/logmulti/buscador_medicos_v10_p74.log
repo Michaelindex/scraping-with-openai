@@ -1,0 +1,446 @@
+2025-05-22 02:06:32,127 - P11992 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 02:06:32,127 - P11992 - INFO - Nome: FERNANDA CALDEIRA FERRAZ BATISTA
+2025-05-22 02:06:32,128 - P11992 - INFO - Reiniciando driver do Chrome
+2025-05-22 02:06:33,396 - P11992 - INFO - Após reiniciar driver Uso de memória: 111.55 MB
+2025-05-22 02:06:33,396 - P11992 - INFO - Início do processamento Uso de memória: 111.55 MB
+2025-05-22 02:06:33,397 - P11992 - INFO - Iniciando busca para: FERNANDA CALDEIRA FERRAZ BATISTA CRM 89136 MG telefone e-mail endereço
+2025-05-22 02:06:33,811 - P11992 - INFO - SearX results: 3 URLs
+2025-05-22 02:06:33,812 - P11992 - INFO - Após SearX Uso de memória: 111.55 MB
+2025-05-22 02:06:37,096 - P11992 - INFO - Google results: 3 URLs
+2025-05-22 02:06:37,096 - P11992 - INFO - Após Google Uso de memória: 112.72 MB
+2025-05-22 02:06:39,616 - P11992 - INFO - Bing results: 10 URLs
+2025-05-22 02:06:39,617 - P11992 - INFO - Após Bing Uso de memória: 114.66 MB
+2025-05-22 02:06:39,617 - P11992 - INFO - Total de URLs únicas: 13
+2025-05-22 02:06:39,617 - P11992 - INFO - Processando URL 1/13: https://consultacrm.com.br/
+2025-05-22 02:06:43,618 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:06:43,629 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:06:43,630 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:06:43,630 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:06:43,630 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:06:43,630 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:06:43,631 - P11992 - INFO - Após processar URL 1 Uso de memória: 114.81 MB
+2025-05-22 02:06:43,631 - P11992 - INFO - Processando URL 2/13: https://crmmg.org.br/contato/
+2025-05-22 02:06:48,752 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\8b782fbc7fe3c59e356e34916a7ce54c.html
+2025-05-22 02:06:48,794 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 02:06:48,795 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:06:48,796 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 02:06:48,799 - P11992 - INFO - Candidates complement: 2 items
+2025-05-22 02:06:48,801 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:06:48,802 - P11992 - INFO - Após processar URL 2 Uso de memória: 114.85 MB
+2025-05-22 02:06:48,802 - P11992 - INFO - Processando URL 3/13: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/18309/Cadernos_JUD_MG_2019-06-07_XI_104.pdf?sequence=1&isAllowed=y
+2025-05-22 02:06:48,802 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/18309/Cadernos_JUD_MG_2019-06-07_XI_104.pdf?sequence=1&isAllowed=y
+2025-05-22 02:06:48,803 - P11992 - INFO - Após processar URL 3 Uso de memória: 114.85 MB
+2025-05-22 02:06:48,804 - P11992 - INFO - Processando URL 4/13: https://s3-cloud.maischat.io/needs/protocolos/65203ac56dd4f30f4af75005/17337670547727016/1733767100791-ivinareceitanova.pdf
+2025-05-22 02:06:48,804 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://s3-cloud.maischat.io/needs/protocolos/65203ac56dd4f30f4af75005/17337670547727016/1733767100791-ivinareceitanova.pdf
+2025-05-22 02:06:48,805 - P11992 - INFO - Após processar URL 4 Uso de memória: 114.85 MB
+2025-05-22 02:06:48,805 - P11992 - INFO - Processando URL 5/13: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/9062
+2025-05-22 02:06:50,940 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\308639a2e9479ec5bdfb1fc1d23b1455.html
+2025-05-22 02:06:50,974 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 02:06:50,974 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:06:50,975 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 02:06:50,975 - P11992 - INFO - Candidates complement: 2 items
+2025-05-22 02:06:50,976 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:06:50,976 - P11992 - INFO - Após processar URL 5 Uso de memória: 114.85 MB
+2025-05-22 02:06:50,976 - P11992 - INFO - Processando URL 6/13: https://sistemas.tjes.jus.br/ediario/index.php/component/ediario/?view=contents&layout=fulltext&data=20170901&idorgao=347
+2025-05-22 02:06:53,561 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\9750dcfa6296d8a1d4f747454e831f68.html
+2025-05-22 02:06:54,436 - P11992 - INFO - Candidates address: 56 items
+2025-05-22 02:06:54,436 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 02:06:54,437 - P11992 - INFO - Candidates email: 3 items
+2025-05-22 02:06:54,437 - P11992 - INFO - Candidates complement: 3 items
+2025-05-22 02:06:54,437 - P11992 - INFO - Candidates cep: 41 items
+2025-05-22 02:06:54,437 - P11992 - INFO - Após processar URL 6 Uso de memória: 117.61 MB
+2025-05-22 02:06:54,437 - P11992 - INFO - Processando URL 7/13: https://www.econodata.com.br/consulta-empresa/06885615000129-FERNANDA-CALDEIRA-FERRAZ
+2025-05-22 02:06:59,020 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\1ba55778c6566b6d93554e9e72dbd5c6.html
+2025-05-22 02:06:59,149 - P11992 - INFO - Candidates address: 24 items
+2025-05-22 02:06:59,149 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:06:59,149 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:06:59,150 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:06:59,150 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:06:59,150 - P11992 - INFO - Após processar URL 7 Uso de memória: 116.80 MB
+2025-05-22 02:06:59,150 - P11992 - INFO - Processando URL 8/13: https://www.julgado.com/empresas/cnpj/06885615000129/fernanda-caldeira-ferraz
+2025-05-22 02:07:04,581 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\2e5dcf3ac9db580717f1133fb0dc1f47.html
+2025-05-22 02:07:04,586 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:07:04,586 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:04,586 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:07:04,586 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:04,586 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:07:04,587 - P11992 - INFO - Após processar URL 8 Uso de memória: 116.02 MB
+2025-05-22 02:07:04,587 - P11992 - INFO - Processando URL 9/13: https://crmvirtual.cfm.org.br/MG/servico/procure-medicos
+2025-05-22 02:07:07,190 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\c2af9904acdad6295c60ad1b50d74554.html
+2025-05-22 02:07:07,201 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:07:07,201 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:07,201 - P11992 - INFO - Candidates email: 2 items
+2025-05-22 02:07:07,202 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:07,202 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:07:07,202 - P11992 - INFO - Após processar URL 9 Uso de memória: 116.06 MB
+2025-05-22 02:07:07,202 - P11992 - INFO - Processando URL 10/13: https://wooki.com.br/w/empresa/fernanda-caldeira-ferraz-cnpj-matriz/cy5J5g9Ksy3Bcn6
+2025-05-22 02:07:10,439 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\dde57fdf71567693fcc101038c5df837.html
+2025-05-22 02:07:10,454 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:07:10,454 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:10,455 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:07:10,456 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:10,458 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:07:10,459 - P11992 - INFO - Após processar URL 10 Uso de memória: 116.09 MB
+2025-05-22 02:07:10,460 - P11992 - INFO - Processando URL 11/13: https://oportunidados.com.br/cnpj/06885615000129/fernanda-caldeira-ferraz
+2025-05-22 02:07:14,117 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\59123d5d3328d67f7743a0ad6c46a8cd.html
+2025-05-22 02:07:14,217 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:07:14,218 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:14,218 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:07:14,218 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:14,219 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:07:14,219 - P11992 - INFO - Após processar URL 11 Uso de memória: 116.13 MB
+2025-05-22 02:07:14,219 - P11992 - INFO - Processando URL 12/13: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 02:07:17,729 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 02:07:17,768 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:07:17,768 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:17,768 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:07:17,768 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:17,768 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:07:17,769 - P11992 - INFO - Após processar URL 12 Uso de memória: 116.14 MB
+2025-05-22 02:07:17,769 - P11992 - INFO - Processando URL 13/13: https://portal.cfm.org.br/busca-medicos
+2025-05-22 02:07:21,536 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 02:07:21,573 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:07:21,574 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:21,574 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 02:07:21,574 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 02:07:21,574 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:07:21,575 - P11992 - INFO - Após processar URL 13 Uso de memória: 116.14 MB
+2025-05-22 02:07:21,575 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:07:21,575 - P11992 - INFO - Ranked address: 82 items
+2025-05-22 02:07:21,575 - P11992 - INFO - Ranked phone: 2 items
+2025-05-22 02:07:21,575 - P11992 - INFO - Ranked email: 7 items
+2025-05-22 02:07:21,576 - P11992 - INFO - Ranked complement: 6 items
+2025-05-22 02:07:21,576 - P11992 - INFO - Ranked cep: 43 items
+2025-05-22 02:07:21,576 - P11992 - INFO - Após agregação Uso de memória: 116.14 MB
+2025-05-22 02:07:21,576 - P11992 - INFO - Validando endereço: ['Rua dos Timbiras 1.200', 'Rua dos Timbiras, 1200', 'R.I. 12 - 0031809-15.2015.8.08.0024']
+2025-05-22 02:07:21,576 - P11992 - INFO - Endereço validado: Rua dos Timbiras 1.200
+2025-05-22 02:07:21,576 - P11992 - INFO - Limpando texto extenso para campo address: Rua dos Timbiras 1.200...
+2025-05-22 02:07:21,576 - P11992 - INFO - Texto limpo: Rua dos Timbiras 1.200
+2025-05-22 02:07:21,577 - P11992 - INFO - Validando telefone: ['(27) 3026-4227', '(27) 3223-1488']
+2025-05-22 02:07:21,577 - P11992 - INFO - Limpando texto extenso para campo phone: (27) 3026-4227...
+2025-05-22 02:07:21,577 - P11992 - INFO - Texto limpo: 27) 3026-4227
+2025-05-22 02:07:21,577 - P11992 - INFO - Telefone validado: 27) 3026-4227
+2025-05-22 02:07:21,577 - P11992 - INFO - Validando email: ['protocolo@crmmg.org.br', 'rbaldez@apicecontabil.cnt.br', '8criminal-vitoria@tjes.jus.br']
+2025-05-22 02:07:21,577 - P11992 - INFO - Limpando texto extenso para campo email: protocolo@crmmg.org.br...
+2025-05-22 02:07:21,578 - P11992 - INFO - Texto limpo: protocolo@crmmg.org.br
+2025-05-22 02:07:21,578 - P11992 - INFO - Email validado: protocolo@crmmg.org.br
+2025-05-22 02:07:21,578 - P11992 - INFO - Validando complemento: ['Sala de Imprensa   Notícias do CFM   Saiu na imprensa ', 'Sala de Imprensa ', 'Sala 303 – Centro – Vila Velha/ES – Cep 29.100-240']
+2025-05-22 02:07:21,578 - P11992 - INFO - Limpando texto extenso para campo complement: Sala de Imprensa   Notícias do CFM   Saiu na impre...
+2025-05-22 02:07:21,578 - P11992 - INFO - Texto limpo: Sala de Imprensa Notícias do
+2025-05-22 02:07:21,578 - P11992 - INFO - Complemento validado: Sala de Imprensa Notícias do
+2025-05-22 02:07:21,578 - P11992 - INFO - Descobrindo cidade
+2025-05-22 02:07:21,579 - P11992 - INFO - Buscando cidade: Rua dos Timbiras 1.200 cidade MG
+2025-05-22 02:07:24,334 - P11992 - INFO - Cidade encontrada: Belo Horizonte
+2025-05-22 02:07:24,335 - P11992 - INFO - Limpando texto extenso para campo city: Belo Horizonte...
+2025-05-22 02:07:24,335 - P11992 - INFO - Texto limpo: Belo Horizonte
+2025-05-22 02:07:24,335 - P11992 - INFO - Cidade descoberta: Belo Horizonte
+2025-05-22 02:07:24,335 - P11992 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 02:07:24,335 - P11992 - INFO - Iniciando busca de CEP em cascata para: Rua dos Timbiras 1.200, Belo Horizonte, MG
+2025-05-22 02:07:24,335 - P11992 - INFO - Método 1: ViaCEP API
+2025-05-22 02:07:24,336 - P11992 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/MG/belo%20horizonte/rua%20dos%20timbiras%201%20200/json/
+2025-05-22 02:07:24,978 - P11992 - WARNING - ViaCEP retornou status 200 ou nenhum resultado
+2025-05-22 02:07:24,979 - P11992 - INFO - Método 2: BrasilAPI
+2025-05-22 02:07:24,980 - P11992 - INFO - Buscando na BrasilAPI: Rua dos Timbiras 1.200, Belo Horizonte, MG
+2025-05-22 02:07:25,486 - P11992 - INFO - Consultando BrasilAPI: https://brasilapi.com.br/api/cep/v2/35135084
+2025-05-22 02:07:26,746 - P11992 - WARNING - BrasilAPI retornou status 404
+2025-05-22 02:07:26,749 - P11992 - INFO - Método 3: Web Scraping do Google
+2025-05-22 02:07:26,749 - P11992 - INFO - Buscando CEP: CEP da Rua dos Timbiras 1.200, Belo Horizonte
+2025-05-22 02:07:28,364 - P11992 - INFO - CEP encontrado: 30140-060
+2025-05-22 02:07:28,364 - P11992 - INFO - CEP encontrado via Google: 30140-060
+2025-05-22 02:07:28,364 - P11992 - INFO - Dados de CEP encontrados: {'cep': '30140-060', 'logradouro': 'Rua dos Timbiras 1.200', 'bairro': '', 'localidade': 'Belo Horizonte', 'uf': 'MG', 'complemento': ''}
+2025-05-22 02:07:28,365 - P11992 - INFO - Limpando texto extenso para campo city: Belo Horizonte...
+2025-05-22 02:07:28,365 - P11992 - INFO - Texto limpo: Belo Horizonte
+2025-05-22 02:07:28,365 - P11992 - INFO - Limpando texto extenso para campo state: MG...
+2025-05-22 02:07:28,365 - P11992 - INFO - Texto limpo: MG
+2025-05-22 02:07:28,365 - P11992 - INFO - Tempo de execução de processamento completo do médico: 54.97 segundos
+2025-05-22 02:07:28,366 - P11992 - INFO - Resultado processado: {'Hash': 'a6cf8d12396e7d494f519720843ff37d9d9a65e4328dfbdb8ace5da07f63ab9f', 'CRM': '89136', 'UF': 'MG', 'Firstname': 'FERNANDA', 'LastName': 'CALDEIRA FERRAZ BATISTA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua dos Timbiras 1.200', 'Address A1': 'Rua dos Timbiras 1.200', 'Numero A1': '', 'Complement A1': 'Sala de Imprensa Notícias do', 'Bairro A1': '', 'postal code A1': '30140-060', 'City A1': 'Belo Horizonte', 'State A1': 'MG', 'Phone A1': '27) 3026-4227', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'protocolo@crmmg.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:07:28,367 - P11992 - INFO - Progresso: 17.7%
+2025-05-22 02:07:28,367 - P11992 - INFO - Executando coleta de lixo
+2025-05-22 02:07:28,384 - P11992 - INFO - Após coleta de lixo Uso de memória: 106.93 MB
+2025-05-22 02:07:28,385 - P11992 - INFO - Tempo de execução de processamento do médico 1: 56.26 segundos
+2025-05-22 02:07:28,385 - P11992 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 02:07:28,385 - P11992 - INFO - Nome: MATEUS ABREU E ANDRADE
+2025-05-22 02:07:28,386 - P11992 - INFO - Início do processamento Uso de memória: 106.93 MB
+2025-05-22 02:07:28,386 - P11992 - INFO - Iniciando busca para: MATEUS ABREU E ANDRADE CRM 89663 MG telefone e-mail endereço
+2025-05-22 02:07:28,892 - P11992 - INFO - SearX results: 9 URLs
+2025-05-22 02:07:28,896 - P11992 - INFO - Após SearX Uso de memória: 106.93 MB
+2025-05-22 02:07:31,563 - P11992 - INFO - Google results: 8 URLs
+2025-05-22 02:07:31,563 - P11992 - INFO - Após Google Uso de memória: 110.57 MB
+2025-05-22 02:07:33,999 - P11992 - INFO - Bing results: 7 URLs
+2025-05-22 02:07:33,999 - P11992 - INFO - Após Bing Uso de memória: 113.49 MB
+2025-05-22 02:07:33,999 - P11992 - INFO - Total de URLs únicas: 18
+2025-05-22 02:07:33,999 - P11992 - INFO - Processando URL 1/18: https://www.econodata.com.br/consulta-empresa/45857077000110-MATEUS-ABREU-SERVICOS-MEDICOS-LTDA
+2025-05-22 02:07:37,415 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\5837a87e66d094240d87aa3f00cc20f7.html
+2025-05-22 02:07:37,567 - P11992 - INFO - Candidates address: 23 items
+2025-05-22 02:07:37,567 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:37,567 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:07:37,567 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:37,568 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:07:37,568 - P11992 - INFO - Após processar URL 1 Uso de memória: 115.97 MB
+2025-05-22 02:07:37,568 - P11992 - INFO - Processando URL 2/18: https://cdn-fecam.gestorlgpd.com.br/wp-content/uploads/2023/05/Guia-dos-Municipios_versao_online.pdf
+2025-05-22 02:07:37,568 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://cdn-fecam.gestorlgpd.com.br/wp-content/uploads/2023/05/Guia-dos-Municipios_versao_online.pdf
+2025-05-22 02:07:37,569 - P11992 - INFO - Após processar URL 2 Uso de memória: 115.15 MB
+2025-05-22 02:07:37,569 - P11992 - INFO - Processando URL 3/18: https://www.locaisdobrasil.com.br/encontre/psiquiatra/belo-horizonte-mg/alternamente-saude-dra-dagmar-abreu-e-dr-mateus-abreu/673245ce1769b1dd55959c65
+2025-05-22 02:07:43,429 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\2497dc1dbeac26c0acc1f65a41fffb79.html
+2025-05-22 02:07:43,472 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 02:07:43,472 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 02:07:43,473 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:07:43,473 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:43,473 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 02:07:43,473 - P11992 - INFO - Após processar URL 3 Uso de memória: 115.45 MB
+2025-05-22 02:07:43,473 - P11992 - INFO - Processando URL 4/18: https://consultacrm.com.br/
+2025-05-22 02:07:47,013 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:07:47,029 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:07:47,030 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:47,030 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:07:47,030 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:47,030 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:07:47,031 - P11992 - INFO - Após processar URL 4 Uso de memória: 117.07 MB
+2025-05-22 02:07:47,031 - P11992 - INFO - Processando URL 5/18: https://cnpj.services/45857077000110/mateus-abreu-servicos-medicos-ltda
+2025-05-22 02:07:49,987 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\19331a62bb11d8953cb69a2cb0141867.html
+2025-05-22 02:07:49,996 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:07:49,997 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 02:07:49,997 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 02:07:49,997 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:49,997 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 02:07:49,997 - P11992 - INFO - Após processar URL 5 Uso de memória: 116.06 MB
+2025-05-22 02:07:49,997 - P11992 - INFO - Processando URL 6/18: https://cnpj.biz/45857077000110
+2025-05-22 02:07:54,296 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\69d0ec9baf2a0d284a5479e1386003b5.html
+2025-05-22 02:07:54,312 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 02:07:54,313 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 02:07:54,313 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 02:07:54,313 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:07:54,313 - P11992 - INFO - Candidates cep: 3 items
+2025-05-22 02:07:54,314 - P11992 - INFO - Após processar URL 6 Uso de memória: 116.12 MB
+2025-05-22 02:07:54,314 - P11992 - INFO - Processando URL 7/18: https://www.doctoralia.com.br/mateus-abreu/psiquiatra/belo-horizonte
+2025-05-22 02:07:54,314 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/mateus-abreu/psiquiatra/belo-horizonte
+2025-05-22 02:07:54,314 - P11992 - INFO - Após processar URL 7 Uso de memória: 116.12 MB
+2025-05-22 02:07:54,314 - P11992 - INFO - Processando URL 8/18: https://www.doctoralia.com.br/psiquiatra/belo-horizonte?page=5
+2025-05-22 02:07:54,314 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/psiquiatra/belo-horizonte?page=5
+2025-05-22 02:07:54,315 - P11992 - INFO - Após processar URL 8 Uso de memória: 116.12 MB
+2025-05-22 02:07:54,315 - P11992 - INFO - Processando URL 9/18: https://www.saobernardo.sp.gov.br/documents/10181/48617/NM+2005+1307.pdf.pdf/fa8e918f-fb9d-4cec-b508-adec1103e217
+2025-05-22 02:07:54,315 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/48617/NM+2005+1307.pdf.pdf/fa8e918f-fb9d-4cec-b508-adec1103e217
+2025-05-22 02:07:54,315 - P11992 - INFO - Após processar URL 9 Uso de memória: 116.12 MB
+2025-05-22 02:07:54,316 - P11992 - INFO - Processando URL 10/18: https://alternamentesaude.com/
+2025-05-22 02:07:57,208 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e5513d9a00d7907afd1a1800f6a6e156.html
+2025-05-22 02:07:57,263 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:07:57,264 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:07:57,271 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 02:07:57,271 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 02:07:57,272 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 02:07:57,279 - P11992 - INFO - Após processar URL 10 Uso de memória: 116.21 MB
+2025-05-22 02:07:57,280 - P11992 - INFO - Processando URL 11/18: https://alternamentesaude.com/quem-somos/
+2025-05-22 02:08:03,263 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\73610325cf4c2c5594229cdb89273ae4.html
+2025-05-22 02:08:03,287 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:08:03,287 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:08:03,288 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 02:08:03,288 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:03,288 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:08:03,288 - P11992 - INFO - Após processar URL 11 Uso de memória: 116.46 MB
+2025-05-22 02:08:03,288 - P11992 - INFO - Processando URL 12/18: https://louveira.sp.gov.br/painel/dbanexos/dbarquivo/08-2020/d0b52a2fff2355519c20346ec5c4a3b1.pdf
+2025-05-22 02:08:03,288 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://louveira.sp.gov.br/painel/dbanexos/dbarquivo/08-2020/d0b52a2fff2355519c20346ec5c4a3b1.pdf
+2025-05-22 02:08:03,289 - P11992 - INFO - Após processar URL 12 Uso de memória: 116.46 MB
+2025-05-22 02:08:03,289 - P11992 - INFO - Processando URL 13/18: https://www.boaconsulta.com/especialista/mateus-abreu-e-andrade-64a3a7f85a7bb8083101aa3f
+2025-05-22 02:08:06,503 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\8797f53d52af7865402aafd16c079ebe.html
+2025-05-22 02:08:06,570 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 02:08:06,571 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:08:06,571 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:08:06,571 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:06,571 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:08:06,571 - P11992 - INFO - Após processar URL 13 Uso de memória: 117.24 MB
+2025-05-22 02:08:06,571 - P11992 - INFO - Processando URL 14/18: https://www.spdo.ms.gov.br/diariodoe/Index/Download/DO10420_26_02_2021
+2025-05-22 02:08:09,141 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\91daa1411823e234584c3ca8566a621d.html
+2025-05-22 02:08:09,142 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:08:09,142 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:08:09,142 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:08:09,142 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:09,142 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:08:09,142 - P11992 - INFO - Após processar URL 14 Uso de memória: 117.24 MB
+2025-05-22 02:08:09,142 - P11992 - INFO - Processando URL 15/18: https://alternamentesaude.com/local/
+2025-05-22 02:08:13,543 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\82abbea5f5d5387fb4de1f9818578e9c.html
+2025-05-22 02:08:13,562 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:08:13,562 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 02:08:13,562 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 02:08:13,562 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:13,563 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 02:08:13,563 - P11992 - INFO - Após processar URL 15 Uso de memória: 117.24 MB
+2025-05-22 02:08:13,563 - P11992 - INFO - Processando URL 16/18: https://www.doctoralia.com.br/mateus-abreu/psiquiatra/sao-paulo
+2025-05-22 02:08:13,563 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/mateus-abreu/psiquiatra/sao-paulo
+2025-05-22 02:08:13,563 - P11992 - INFO - Após processar URL 16 Uso de memória: 117.24 MB
+2025-05-22 02:08:13,563 - P11992 - INFO - Processando URL 17/18: https://iomat.mt.gov.br/portal/edicoes/download/3264
+2025-05-22 02:08:15,994 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\bb9a1d3c3fb1101cc0636c3104042355.html
+2025-05-22 02:08:16,015 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:08:16,016 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 02:08:16,016 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 02:08:16,016 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:16,016 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 02:08:16,016 - P11992 - INFO - Após processar URL 17 Uso de memória: 117.25 MB
+2025-05-22 02:08:16,017 - P11992 - INFO - Processando URL 18/18: https://www.prefeitura.sp.gov.br/cidade/secretarias/subprefeituras/upload/santo_amaro/acesso_a_informacao/_Subprefeitura%20Santo%20Amaro%202021.pdf
+2025-05-22 02:08:16,017 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.prefeitura.sp.gov.br/cidade/secretarias/subprefeituras/upload/santo_amaro/acesso_a_informacao/_Subprefeitura%20Santo%20Amaro%202021.pdf
+2025-05-22 02:08:16,017 - P11992 - INFO - Após processar URL 18 Uso de memória: 117.25 MB
+2025-05-22 02:08:16,017 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:08:16,018 - P11992 - INFO - Ranked address: 28 items
+2025-05-22 02:08:16,018 - P11992 - INFO - Ranked phone: 4 items
+2025-05-22 02:08:16,018 - P11992 - INFO - Ranked email: 2 items
+2025-05-22 02:08:16,018 - P11992 - INFO - Ranked complement: 1 items
+2025-05-22 02:08:16,018 - P11992 - INFO - Ranked cep: 4 items
+2025-05-22 02:08:16,018 - P11992 - INFO - Após agregação Uso de memória: 117.25 MB
+2025-05-22 02:08:16,019 - P11992 - INFO - Validando endereço: ['Rua Curitiba, 1577', 'Rua Curitiba 1577', 'Rua Santa Catarina, 996']
+2025-05-22 02:08:16,019 - P11992 - INFO - Endereço validado: Rua Curitiba, 1577
+2025-05-22 02:08:16,019 - P11992 - INFO - Limpando texto extenso para campo address: Rua Curitiba, 1577...
+2025-05-22 02:08:16,019 - P11992 - INFO - Texto limpo: Rua Curitiba, 1577
+2025-05-22 02:08:16,019 - P11992 - INFO - Validando telefone: ['(31) 99977-4249', '(31) 3292-3449', '(31) 9711-0306']
+2025-05-22 02:08:16,020 - P11992 - INFO - Limpando texto extenso para campo phone: (31) 99977-4249...
+2025-05-22 02:08:16,020 - P11992 - INFO - Texto limpo: 31) 99977-4249
+2025-05-22 02:08:16,020 - P11992 - INFO - Telefone validado: 31) 99977-4249
+2025-05-22 02:08:16,020 - P11992 - INFO - Validando email: ['contato@alternamentesaude.com', 'mateusbhabreu7@icloud.com']
+2025-05-22 02:08:16,021 - P11992 - INFO - Limpando texto extenso para campo email: contato@alternamentesaude.com...
+2025-05-22 02:08:16,021 - P11992 - INFO - Texto limpo: contato@alternamentesaude.com
+2025-05-22 02:08:16,021 - P11992 - INFO - Email validado: contato@alternamentesaude.com
+2025-05-22 02:08:16,022 - P11992 - INFO - Validando complemento: ['Sala Dra muito agradável e com boa localização e atend']
+2025-05-22 02:08:16,022 - P11992 - INFO - Limpando texto extenso para campo complement: Sala Dra muito agradável e com boa localização e a...
+2025-05-22 02:08:16,022 - P11992 - INFO - Texto limpo: Sala Dra muito agradável e com
+2025-05-22 02:08:16,025 - P11992 - INFO - Complemento validado: Sala Dra muito agradável e com
+2025-05-22 02:08:16,027 - P11992 - INFO - Descobrindo cidade
+2025-05-22 02:08:16,028 - P11992 - INFO - Buscando cidade: Rua Curitiba cidade MG
+2025-05-22 02:08:18,272 - P11992 - INFO - Cidade encontrada: Belo Horizonte
+2025-05-22 02:08:18,273 - P11992 - INFO - Limpando texto extenso para campo city: Belo Horizonte...
+2025-05-22 02:08:18,273 - P11992 - INFO - Texto limpo: Belo Horizonte
+2025-05-22 02:08:18,273 - P11992 - INFO - Cidade descoberta: Belo Horizonte
+2025-05-22 02:08:18,273 - P11992 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 02:08:18,273 - P11992 - INFO - Iniciando busca de CEP em cascata para: Rua Curitiba, Belo Horizonte, MG
+2025-05-22 02:08:18,273 - P11992 - INFO - Método 1: ViaCEP API
+2025-05-22 02:08:18,274 - P11992 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/MG/belo%20horizonte/rua%20curitiba/json/
+2025-05-22 02:08:19,040 - P11992 - INFO - Dados encontrados no ViaCEP: {'cep': '30170-127', 'logradouro': 'Rua Curitiba', 'complemento': 'de 1761/1762 a 2189/2190', 'unidade': '', 'bairro': 'Lourdes', 'localidade': 'Belo Horizonte', 'uf': 'MG', 'estado': 'Minas Gerais', 'regiao': 'Sudeste', 'ibge': '3106200', 'gia': '', 'ddd': '31', 'siafi': '4123'}
+2025-05-22 02:08:19,043 - P11992 - INFO - CEP encontrado via ViaCEP: 30170-127
+2025-05-22 02:08:19,043 - P11992 - INFO - Dados de CEP encontrados: {'cep': '30170-127', 'logradouro': 'Rua Curitiba', 'complemento': 'de 1761/1762 a 2189/2190', 'unidade': '', 'bairro': 'Lourdes', 'localidade': 'Belo Horizonte', 'uf': 'MG', 'estado': 'Minas Gerais', 'regiao': 'Sudeste', 'ibge': '3106200', 'gia': '', 'ddd': '31', 'siafi': '4123'}
+2025-05-22 02:08:19,043 - P11992 - INFO - Limpando texto extenso para campo bairro: Lourdes...
+2025-05-22 02:08:19,043 - P11992 - INFO - Texto limpo: Lourdes
+2025-05-22 02:08:19,044 - P11992 - INFO - Limpando texto extenso para campo city: Belo Horizonte...
+2025-05-22 02:08:19,044 - P11992 - INFO - Texto limpo: Belo Horizonte
+2025-05-22 02:08:19,044 - P11992 - INFO - Limpando texto extenso para campo state: MG...
+2025-05-22 02:08:19,044 - P11992 - INFO - Texto limpo: MG
+2025-05-22 02:08:19,044 - P11992 - INFO - Tempo de execução de processamento completo do médico: 50.66 segundos
+2025-05-22 02:08:19,045 - P11992 - INFO - Resultado processado: {'Hash': 'c849a42b1d1ae1560ff10962e6bd41e3cfb0e5d3686257a8b2da15279ea9dea6', 'CRM': '89663', 'UF': 'MG', 'Firstname': 'MATEUS', 'LastName': 'ABREU E ANDRADE', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Curitiba, 1577', 'Address A1': 'Rua Curitiba', 'Numero A1': '1577', 'Complement A1': 'Sala Dra muito agradável e com', 'Bairro A1': 'Lourdes', 'postal code A1': '30170-127', 'City A1': 'Belo Horizonte', 'State A1': 'MG', 'Phone A1': '31) 99977-4249', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'contato@alternamentesaude.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:08:19,046 - P11992 - INFO - Progresso: 18.0%
+2025-05-22 02:08:19,046 - P11992 - INFO - Tempo de execução de processamento do médico 2: 50.66 segundos
+2025-05-22 02:08:19,046 - P11992 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 02:08:19,047 - P11992 - INFO - Nome: CAROLINE COSTA BALDOW
+2025-05-22 02:08:19,047 - P11992 - INFO - Início do processamento Uso de memória: 113.73 MB
+2025-05-22 02:08:19,047 - P11992 - INFO - Iniciando busca para: CAROLINE COSTA BALDOW CRM 90362 MG telefone e-mail endereço
+2025-05-22 02:08:19,375 - P11992 - INFO - SearX results: 0 URLs
+2025-05-22 02:08:19,375 - P11992 - INFO - Após SearX Uso de memória: 113.73 MB
+2025-05-22 02:08:21,930 - P11992 - INFO - Google results: 0 URLs
+2025-05-22 02:08:21,931 - P11992 - INFO - Após Google Uso de memória: 113.77 MB
+2025-05-22 02:08:24,361 - P11992 - INFO - Bing results: 8 URLs
+2025-05-22 02:08:24,361 - P11992 - INFO - Após Bing Uso de memória: 113.90 MB
+2025-05-22 02:08:24,361 - P11992 - INFO - Total de URLs únicas: 8
+2025-05-22 02:08:24,361 - P11992 - INFO - Processando URL 1/8: https://empresasweb.net/emp/cb-medicina-integrada-ltda-46025114
+2025-05-22 02:08:27,440 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\8ee48cab78341f135d88f124d86e03cb.html
+2025-05-22 02:08:27,453 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:08:27,453 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 02:08:27,453 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 02:08:27,453 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:27,453 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:08:27,453 - P11992 - INFO - Após processar URL 1 Uso de memória: 113.91 MB
+2025-05-22 02:08:27,454 - P11992 - INFO - Processando URL 2/8: https://crmmg.org.br/contato/
+2025-05-22 02:08:29,686 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\8b782fbc7fe3c59e356e34916a7ce54c.html
+2025-05-22 02:08:29,717 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 02:08:29,717 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:08:29,717 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 02:08:29,718 - P11992 - INFO - Candidates complement: 2 items
+2025-05-22 02:08:29,718 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:08:29,718 - P11992 - INFO - Após processar URL 2 Uso de memória: 113.89 MB
+2025-05-22 02:08:29,718 - P11992 - INFO - Processando URL 3/8: https://www.labocitobh.com.br/exames/pr1541/ZILDA_RIBEIRO_TRINDADE_SILVA__A-24273-23.pdf
+2025-05-22 02:08:29,718 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.labocitobh.com.br/exames/pr1541/ZILDA_RIBEIRO_TRINDADE_SILVA__A-24273-23.pdf
+2025-05-22 02:08:29,719 - P11992 - INFO - Após processar URL 3 Uso de memória: 113.89 MB
+2025-05-22 02:08:29,719 - P11992 - INFO - Processando URL 4/8: https://www.consultacrm.com.br/index/profissionais
+2025-05-22 02:08:33,812 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-22 02:08:33,827 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:08:33,827 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:08:33,828 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:08:33,828 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:33,828 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:08:33,828 - P11992 - INFO - Após processar URL 4 Uso de memória: 113.90 MB
+2025-05-22 02:08:33,828 - P11992 - INFO - Processando URL 5/8: https://crmvirtual.cfm.org.br/MG/servico/procure-medicos
+2025-05-22 02:08:36,332 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\c2af9904acdad6295c60ad1b50d74554.html
+2025-05-22 02:08:36,344 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:08:36,344 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:08:36,344 - P11992 - INFO - Candidates email: 2 items
+2025-05-22 02:08:36,345 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:36,345 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:08:36,345 - P11992 - INFO - Após processar URL 5 Uso de memória: 113.92 MB
+2025-05-22 02:08:36,345 - P11992 - INFO - Processando URL 6/8: https://www.econodata.com.br/consulta-empresa/46025114000197-CB-MEDICINA-INTEGRADA-LTDA
+2025-05-22 02:08:40,148 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\69146e82dfeec0445e2c589a1114cc6b.html
+2025-05-22 02:08:40,322 - P11992 - INFO - Candidates address: 24 items
+2025-05-22 02:08:40,330 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:08:40,334 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:08:40,335 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:40,335 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:08:40,336 - P11992 - INFO - Após processar URL 6 Uso de memória: 115.68 MB
+2025-05-22 02:08:40,339 - P11992 - INFO - Processando URL 7/8: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 02:08:42,486 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 02:08:42,523 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:08:42,523 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:08:42,523 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:08:42,523 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:42,523 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:08:42,524 - P11992 - INFO - Após processar URL 7 Uso de memória: 114.87 MB
+2025-05-22 02:08:42,524 - P11992 - INFO - Processando URL 8/8: https://consultacrm.com.br/
+2025-05-22 02:08:45,885 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:08:45,902 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:08:45,902 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:08:45,903 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:08:45,903 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:08:45,903 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:08:45,903 - P11992 - INFO - Após processar URL 8 Uso de memória: 115.98 MB
+2025-05-22 02:08:45,903 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:08:45,904 - P11992 - INFO - Ranked address: 26 items
+2025-05-22 02:08:45,905 - P11992 - INFO - Ranked phone: 1 items
+2025-05-22 02:08:45,906 - P11992 - INFO - Ranked email: 4 items
+2025-05-22 02:08:45,906 - P11992 - INFO - Ranked complement: 2 items
+2025-05-22 02:08:45,906 - P11992 - INFO - Ranked cep: 2 items
+2025-05-22 02:08:45,906 - P11992 - INFO - Após agregação Uso de memória: 115.98 MB
+2025-05-22 02:08:45,906 - P11992 - INFO - Validando endereço: ['Rua Jovino Aecio Almeida Murta, 60', 'Rua dos Timbiras 1.200', 'Rua dos Timbiras, 1200']
+2025-05-22 02:08:45,907 - P11992 - INFO - Endereço validado: Rua Jovino Aecio Almeida Murta, 60
+2025-05-22 02:08:45,907 - P11992 - INFO - Limpando texto extenso para campo address: Rua Jovino Aecio Almeida Murta, 60...
+2025-05-22 02:08:45,907 - P11992 - INFO - Texto limpo: Rua Jovino Aecio Almeida Murta, 60
+2025-05-22 02:08:45,907 - P11992 - INFO - Validando telefone: ['+553399142534']
+2025-05-22 02:08:45,907 - P11992 - INFO - Validando email: ['CASTELOCONTABILIDADE@HOTMAIL.COM', 'protocolo@crmmg.org.br', 'medicos@crmmg.org.br']
+2025-05-22 02:08:45,907 - P11992 - INFO - Limpando texto extenso para campo email: CASTELOCONTABILIDADE@HOTMAIL.COM...
+2025-05-22 02:08:45,908 - P11992 - INFO - Texto limpo: castelocontabilidade@hotmail.com
+2025-05-22 02:08:45,908 - P11992 - INFO - Email validado: castelocontabilidade@hotmail.com
+2025-05-22 02:08:45,908 - P11992 - INFO - Validando complemento: ['Sala de Imprensa   Notícias do CFM   Saiu na imprensa ', 'Sala de Imprensa ']
+2025-05-22 02:08:45,908 - P11992 - INFO - Limpando texto extenso para campo complement: Sala de Imprensa   Notícias do CFM   Saiu na impre...
+2025-05-22 02:08:45,908 - P11992 - INFO - Texto limpo: Sala de Imprensa Notícias do
+2025-05-22 02:08:45,908 - P11992 - INFO - Complemento validado: Sala de Imprensa Notícias do
+2025-05-22 02:08:45,908 - P11992 - INFO - Descobrindo cidade
+2025-05-22 02:08:45,909 - P11992 - INFO - Buscando cidade: Rua Jovino Aecio Almeida Murta cidade MG
+2025-05-22 02:08:48,367 - P11992 - INFO - Cidade encontrada: Itaobim
+2025-05-22 02:08:48,367 - P11992 - INFO - Limpando texto extenso para campo city: Itaobim...
+2025-05-22 02:08:48,368 - P11992 - INFO - Texto limpo: Itaobim
+2025-05-22 02:08:48,368 - P11992 - INFO - Cidade descoberta: Itaobim
+2025-05-22 02:08:48,368 - P11992 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 02:08:48,368 - P11992 - INFO - Iniciando busca de CEP em cascata para: Rua Jovino Aecio Almeida Murta, Itaobim, MG
+2025-05-22 02:08:48,368 - P11992 - INFO - Método 1: ViaCEP API
+2025-05-22 02:08:48,368 - P11992 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/MG/itaobim/rua%20jovino%20aecio%20almeida%20murta/json/
+2025-05-22 02:08:49,015 - P11992 - INFO - Dados encontrados no ViaCEP: {'cep': '39625-000', 'logradouro': '', 'complemento': '', 'unidade': '', 'bairro': '', 'localidade': 'Itaobim', 'uf': 'MG', 'estado': 'Minas Gerais', 'regiao': 'Sudeste', 'ibge': '3133303', 'gia': '', 'ddd': '33', 'siafi': '4665'}
+2025-05-22 02:08:49,018 - P11992 - INFO - CEP encontrado via ViaCEP: 39625-000
+2025-05-22 02:08:49,018 - P11992 - INFO - Dados de CEP encontrados: {'cep': '39625-000', 'logradouro': '', 'complemento': '', 'unidade': '', 'bairro': '', 'localidade': 'Itaobim', 'uf': 'MG', 'estado': 'Minas Gerais', 'regiao': 'Sudeste', 'ibge': '3133303', 'gia': '', 'ddd': '33', 'siafi': '4665'}
+2025-05-22 02:08:49,018 - P11992 - INFO - Limpando texto extenso para campo city: Itaobim...
+2025-05-22 02:08:49,019 - P11992 - INFO - Texto limpo: Itaobim
+2025-05-22 02:08:49,019 - P11992 - INFO - Limpando texto extenso para campo state: MG...
+2025-05-22 02:08:49,019 - P11992 - INFO - Texto limpo: MG
+2025-05-22 02:08:49,019 - P11992 - INFO - Tempo de execução de processamento completo do médico: 29.97 segundos
+2025-05-22 02:08:49,019 - P11992 - INFO - Resultado processado: {'Hash': '1018af10e0743d1f0b3e8c10139e0518c07a325c98c9fae8d7d07f0b89660dad', 'CRM': '90362', 'UF': 'MG', 'Firstname': 'CAROLINE', 'LastName': 'COSTA BALDOW', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Jovino Aecio Almeida Murta, 60', 'Address A1': 'Rua Jovino Aecio Almeida Murta', 'Numero A1': '60', 'Complement A1': 'Sala de Imprensa Notícias do', 'Bairro A1': '', 'postal code A1': '39625-000', 'City A1': 'Itaobim', 'State A1': 'MG', 'Phone A1': '', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'castelocontabilidade@hotmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:08:49,020 - P11992 - INFO - Salvando lote de resultados
+2025-05-22 02:08:49,021 - P11992 - INFO - Após salvar resultados Uso de memória: 113.22 MB
+2025-05-22 02:08:49,022 - P11992 - INFO - Progresso: 18.3%
+2025-05-22 02:08:49,023 - P11992 - INFO - Tempo de execução de processamento do médico 3: 29.98 segundos
+2025-05-22 02:08:49,023 - P11992 - INFO - Tempo de execução de processamento do lote completo: 136.90 segundos

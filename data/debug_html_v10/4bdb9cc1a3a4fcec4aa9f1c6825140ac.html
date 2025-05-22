@@ -1,0 +1,527 @@
+<html class="no-js" lang="pt-br"><!--<![endif]--><head>
+    <meta charset="utf-8">
+    <title>SAPL - Sistema de Apoio ao Processo Legislativo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#343a40">
+
+    
+      <link rel="icon" href="/static/sapl/frontend/img/favicon.ico" type="image/png">
+      
+        
+        <link href="/static/sapl/frontend/css/chunk-vendors.045ec640.css" rel="stylesheet">
+<link href="/static/sapl/frontend/css/global.45591136.css" rel="stylesheet">
+      
+
+      
+      
+
+    
+  <style>[vw] [vw-access-button]{display:none;flex-direction:row-reverse;width:40px;height:40px;cursor:pointer;overflow:hidden;position:absolute;border-radius:8px;transition:all .5s ease;right:0;left:auto}[vw] [vw-access-button] img{max-height:40px;transition:all .5s ease;border-radius:8px;opacity:1 !important;visibility:visible !important}[vw] [vw-access-button] .access-button{width:40px;height:40px;z-index:1}[vw] [vw-access-button] .pop-up{position:absolute;height:40px;min-width:150px;z-index:0;left:0;right:auto}[vw] [vw-access-button]:hover{width:200px}[vw] [vw-access-button].isLeft{flex-direction:row;left:0;right:auto}[vw] [vw-access-button].isLeft .pop-up{left:auto;right:0}[vw] [vw-access-button].isTopOrBottom:hover{bottom:-20px;top:0;margin-right:-80px}[vw] [vw-access-button].active{display:flex}
+</style><style>[vw].left [vw-plugin-wrapper]{float:left}[vw] [vw-plugin-wrapper]{position:relative;display:none;width:300px;height:100%;float:right;background:white;-webkit-box-shadow:0px 0px 15px rgba(0,0,0,0.2);-moz-box-shadow:0px 0px 15px rgba(0,0,0,0.2);box-shadow:0px 0px 15px rgba(0,0,0,0.2);border-radius:12px;-moz-border-radius:12px;-webkit-border-radius:12px}[vw] [vw-plugin-wrapper].active{display:-webkit-flex;display:flex;flex-direction:column;-webkit-flex-direction:column;height:450px;max-width:100%;min-height:100%}
+</style><style>div[vw]{position:fixed;max-width:95vw;min-height:40px;min-width:40px;right:0;top:50%;transform:translateY(-50%);z-index:2147483647 !important;display:none;margin:10px !important}div[vw].enabled{display:block}div[vw].active{margin-top:-285px}div[vw].left{left:0;right:initial}
+</style></head>
+
+  <body>
+    <div class="page fadein">
+
+      
+        
+          
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div class="container">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+
+                   
+
+
+  <ul class="navbar-nav">
+    
+      
+        
+          <li class="nav-item"><a class="nav-link" href="/">Início</a></li>
+        
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#fakeLink" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Institucional
+             <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            
+                
+                  <li class="dropdown-item"><a href="/mesa-diretora/">Mesa Diretora</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sistema/bancada/">Bancadas Parlamentares</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sistema/bloco/">Blocos Parlamentares</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/comissao/">Comissões</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sistema/frente/">Frentes</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/parlamentar/">Parlamentares</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/audiencia/">Audiências Públicas</a></li>
+                
+            
+          </ul>
+        </li>
+      
+    
+      
+        
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#fakeLink" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Documentos Administrativos
+             <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            
+                
+                  <li class="dropdown-item"><a href="/docadm/pesq-doc-adm">Pesquisar Documentos Administrativos</a></li>
+                
+            
+                
+            
+          </ul>
+        </li>
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#fakeLink" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Atividade Legislativa
+             <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            
+                
+            
+                
+            
+                
+                  <li class="dropdown-item"><a href="/materia/pesquisar-materia">Matérias Legislativas</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sessao/pauta-sessao">Pautas das Sessões</a></li>
+                
+            
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sistema/relatorios/">Relatórios</a></li>
+                
+            
+                
+                  <li class="dropdown-item"><a href="/sessao/pesquisar-sessao">Sessões Plenárias</a></li>
+                
+            
+                
+            
+                
+            
+          </ul>
+        </li>
+      
+    
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#fakeLink" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Normas Jurídicas
+             <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            
+                
+                  <li class="dropdown-item"><a href="/norma/pesquisar">Pesquisar Normas Jurídicas</a></li>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+          </ul>
+        </li>
+      
+    
+      
+        
+      
+    
+  </ul>
+
+ 
+
+                  <ul class="nav navbar-nav justify-content-end" id="autenticacao">
+                    <li class="nav-item dropdown pesquisa">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="/static/sapl/frontend/img/search.png"><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li class="dropdown-item">
+                            <form id="formulario-lexml" class="navbar-form search-form" method="get" action="">
+                              <input id="input-lexml" type="text" class="form-control" placeholder="Pesquisar no LexML">
+                            </form>
+                          </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/sistema/ajuda"><img src="/static/sapl/frontend/img/manual.png"></a></li>
+                    
+                      <li class="nav-item"><a class="nav-link" href="/login/"><img src="/static/sapl/frontend/img/user.png"></a></li>
+                    
+                  </ul>
+
+                </div><!--/.nav-collapse -->
+              </div>
+            </nav>
+          
+        
+      
+      
+        
+        
+        <header class="masthead">
+          <div class="container">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="/">
+                <img src="/media/sapl/public/casa/logotipo/logo_cmi_blue.png" alt="Logo" class="img-responsive">
+                <span class="vcenter">Câmara Municipal de Itaguaí
+                  <br><small>Sistema de Apoio ao Processo Legislativo</small>
+                </span>
+              </a>
+            </div>
+            <div class="hidden-print">
+               
+
+
+ 
+<ul class="nav nav-pills justify-content-end">
+  
+    
+      
+        <li class="nav-item active"><a class="nav-link active" href="/parlamentar/10">Início</a></li>
+      
+    
+  
+    
+      
+        <li class="nav-item "><a class="nav-link " href="/parlamentar/10/mandato">Mandatos</a></li>
+      
+    
+  
+    
+      
+        <li class="nav-item "><a class="nav-link " href="/parlamentar/10/materias">Matérias</a></li>
+      
+    
+  
+    
+      
+        <li class="nav-item "><a class="nav-link " href="/parlamentar/10/normas">Normas</a></li>
+      
+    
+  
+    
+      
+        <li class="nav-item "><a class="nav-link " href="/parlamentar/10/filiacao">Filiações Partidárias</a></li>
+      
+    
+  
+    
+      
+    
+  
+    
+      
+        <li class="nav-item "><a class="nav-link " href="/parlamentar/10/participacao">Comissões</a></li>
+      
+    
+  
+    
+      
+    
+  
+    
+      
+        <li class="nav-item "><a class="nav-link " href="/parlamentar/10/relatoria">Relatorias</a></li>
+      
+    
+  
+    
+      
+        <li class="nav-item "><a class="nav-link " href="/parlamentar/10/frentes/">Frentes</a></li>
+      
+    
+  
+    
+      
+    
+  
+</ul>
+
+ 
+            </div>
+          </div>
+        </header>
+        
+      
+
+      
+      
+        <main id="content" class="content page__row">
+          <div class="container">
+
+            
+            
+
+            
+            
+              <div class="clearfix">
+
+                
+
+
+
+                
+
+                
+                  <h1 class="page-header">
+                    
+                      Guilherme Farias
+                    
+                  </h1>
+                
+
+              </div>
+            
+
+            
+            <div id="app"></div>
+
+            
+            
+
+  <div class="clearfix">
+    
+    
+  </div>
+
+  
+  <p class="legend"></p>
+
+  <div class="row">
+    
+      <div class="col-sm-4">
+        <div id="div_fotografia w-100" class="form-group">
+          <img class="img-fluid img-thumbnail" src="/media/sapl/public/parlamentar/10/guilherme.jpg.256x256_q85_box-NaN%2CNaN%2CNaN%2CNaN_crop_detail.jpg">
+        </div>
+      </div>
+    
+    <div class="col-sm-8">
+      <div class="col-sm-8">
+        <div id="div_nome" class="form-group">
+          <p><b>Nome Completo: </b> &nbsp; Guilherme Severino Campos de Farias Kifer Ribeiro</p>
+        </div>
+      </div>
+
+      <div class="col-sm-8">
+        <div id="div_data_nascimento" class="form-group">
+          <p><b>Partido: </b> &nbsp; PL</p>
+        </div>
+      </div>
+
+      <div class="col-sm-8">
+        <div id="div_data_nascimento" class="form-group">
+          <p><b>Telefone: </b> &nbsp; </p>
+        </div>
+      </div>
+
+      <div class="col-sm-8">
+        <div id="div_data_nascimento" class="form-group">
+          <p><b>E-mail: </b> &nbsp; guilhermefarias@itaguai.rj.leg.br</p>
+        </div>
+      </div>
+
+      <div class="col-sm-8">
+        <div id="div_data_nascimento" class="form-group">
+          <p><b>Número do Gabinete: </b> &nbsp; 01</p>
+        </div>
+      </div>
+
+      <div class="col-sm-8">
+        <div id="div_biografia" class="form-group">
+          <p><b>Biografia: </b> &nbsp; </p><p>O vereador Guilherme Severino Campo de Farias Kifer Ribeiro é o edil mais jovem da história na Casa Legislativa de Itaguaí. Aos 23 anos também foi o vereador com maior número de votos no pleito de 2020 pelo PARTIDO Liberal (PL). Nascido e criado em Itaguaí, Guilherme Farias herdou o gosto pela política de seu pai, o ex- vereador Carlos Kifer, que legislou por cinco mandatos consecutivos. Atualmente, o vereador cursa o último ano da faculdade de Direito e fez estágios, nos últimos anos, no setor jurídico da NUCLEP e no Tribunal de Justiça do Estado do Rio de Janeiro. Hoje, Guilherme Farias é líder das comissões de Agricultura e da Pessoas com Deficiência da Câmara Municipal de Itaguaí. Você pode acompanhar o trabalho do vereador Guilherme Farias através da sua página no Facebook: Guilherme Farias ou o perfil no Instagram @guifarias.oficial Para contato direto com o gabinete Ramal:240/214 ou pelo email: ver.guilhermefarias@itaguai.rj.leg.br</p><p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+          </div>
+        </main>
+
+      
+
+      
+
+
+      
+      <footer id="footer" class="footer page__row hidden-print">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+
+              <a class="footer__logo" href="#">
+                </a><a href="http://www.interlegis.leg.br/">
+                  <img src="/static/sapl/frontend/img/logo_interlegis.png" alt="Logo do Interlegis ">
+                </a>
+              
+              <p>
+                <small>
+                  Desenvolvido pelo <a href="http://www.interlegis.leg.br/">Interlegis</a> em software livre e aberto.
+                </small>
+		<span>Release: 3.1.163-RC23</span>
+              </p>
+
+            </div>
+            <div class="col-md-4">
+              <a class="footer__logo" href="#">
+                <img src="/static/sapl/frontend/img/logo_cc.png" alt="Logo do Creative Commons BY SA">
+              </a>
+              <p>
+                <small>
+                  Conteúdo e dados sob licença <a href="https://creativecommons.org">Creative Commons</a> 4.0<br><a href="https://creativecommons.org/licenses/by/4.0/">Atribuir Fonte - Compartilhar Igual</a>
+                </small>
+              </p>
+            </div>
+            <div class="col-md-4">
+              
+              <address>
+                <small>
+                  <strong>
+                    <span class="org">Câmara Municipal de Itaguaí</span>
+                  </strong>
+                  <br>
+                  <span class="street-address">Rua Amélia Louzada, 277</span>
+                  <br> CEP: <span class="postal-code">23815-180</span> | Telefone: <span>(21) 2688-1136</span>
+                  <br>
+                  <small><a href="/api/schema/swagger-ui/">OpenAPI</a></small> |
+
+                  <a href="https://itaguai.rj.leg.br/" class="url">Site</a> |
+                  <a href="mailto:contato@itaguai.rj.leg.br" class="email">Fale Conosco</a>
+
+
+                </small>
+              </address>
+              
+
+
+
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    
+
+    <div vw="" class="enabled" style="left: initial; right: 0px; top: 50%; bottom: initial; transform: translateY(calc(-50% - 10px));">
+      <div vw-access-button="" class="active"><img class="access-button" data-src="assets/access_icon.svg" alt="Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga." src="https://vlibras.gov.br/app//assets/access_icon.svg">
+<img class="pop-up" data-src="assets/access_popup.jpg" alt="Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga." src="https://vlibras.gov.br/app//assets/access_popup.jpg"></div>
+      <div vw-plugin-wrapper=""><div vp="">
+  <div vp-box=""></div>
+  <div vp-message-box=""></div>
+  <div vp-settings=""></div>
+  <div vp-dictionary=""></div>
+  <div vp-settings-btn=""></div>
+  <div vp-info-screen=""></div>
+  <div vp-suggestion-screen=""></div>
+  <div vp-translator-screen=""></div>
+  <div vp-main-guide-screen=""></div>
+  <div vp-suggestion-button=""></div>
+  <div vp-rate-box=""></div>
+  <div vp-change-avatar=""></div>
+  <div vp-additional-options=""></div>
+  <div vp-controls=""></div>
+  <span vp-click-blocker=""></span>
+</div></div>
+    </div>
+
+    
+
+      
+        
+        <script src="/static/sapl/frontend/js/chunk-vendors.e8ab4373.js"></script>
+<script src="/static/sapl/frontend/js/global.656a0d36.js"></script>
+      
+
+      
+      
+
+      
+
+      <script type="text/javascript">
+        function inIframe () {
+          try {
+              return window.location !== window.parent.location
+          } catch (e) {
+              return true;
+          }
+        }
+        $(document).ready(function(){
+          let iframe_set_backend = false
+          if (iframe_set_backend && !inIframe() ) {
+            location.href = location.origin + '?iframe=0'
+          }
+
+          var form = document.getElementById("formulario-lexml");
+          $("#input-lexml").change(function(){
+            let value = $("#input-lexml").val();
+            let url = "/sistema/lexml/request_search/xxx/"
+            url = url.replace('xxx', value)
+            form.action = url;
+          });
+
+        });
+      </script>
+
+    
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+      
+    
+    
+    
+  
+
+</body></html>

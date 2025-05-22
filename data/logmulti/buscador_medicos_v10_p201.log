@@ -1,0 +1,452 @@
+2025-05-22 03:29:00,432 - P15228 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 03:29:00,432 - P15228 - INFO - Nome: EMANUELLE DA SILVA FACCHIN
+2025-05-22 03:29:00,432 - P15228 - INFO - Reiniciando driver do Chrome
+2025-05-22 03:29:01,682 - P15228 - INFO - Após reiniciar driver Uso de memória: 121.10 MB
+2025-05-22 03:29:01,683 - P15228 - INFO - Início do processamento Uso de memória: 121.10 MB
+2025-05-22 03:29:01,683 - P15228 - INFO - Iniciando busca para: EMANUELLE DA SILVA FACCHIN CRM 227426 SP telefone e-mail endereço
+2025-05-22 03:29:02,472 - P15228 - INFO - SearX results: 9 URLs
+2025-05-22 03:29:02,472 - P15228 - INFO - Após SearX Uso de memória: 121.10 MB
+2025-05-22 03:29:06,031 - P15228 - INFO - Google results: 2 URLs
+2025-05-22 03:29:06,031 - P15228 - INFO - Após Google Uso de memória: 123.31 MB
+2025-05-22 03:29:08,684 - P15228 - INFO - Bing results: 9 URLs
+2025-05-22 03:29:08,685 - P15228 - INFO - Após Bing Uso de memória: 125.24 MB
+2025-05-22 03:29:08,685 - P15228 - INFO - Total de URLs únicas: 13
+2025-05-22 03:29:08,685 - P15228 - INFO - Processando URL 1/13: https://www.crm-sp.org.br/?siteAcao=Contatos&dep=cad
+2025-05-22 03:29:29,860 - P15228 - ERROR - Erro ao baixar HTML de https://www.crm-sp.org.br/?siteAcao=Contatos&dep=cad: Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7574059F4]
+	(No symbol) [0x00007FF7573F6789]
+	(No symbol) [0x00007FF7573F84F8]
+	(No symbol) [0x00007FF7573F6A96]
+	(No symbol) [0x00007FF7573F6516]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F465C]
+	(No symbol) [0x00007FF75740CF3A]
+	(No symbol) [0x00007FF7574B013E]
+	(No symbol) [0x00007FF75748737A]
+	(No symbol) [0x00007FF7574AF39C]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 03:29:29,872 - P15228 - INFO - Após processar URL 1 Uso de memória: 125.24 MB
+2025-05-22 03:29:29,873 - P15228 - INFO - Processando URL 2/13: https://www.boaconsulta.com/especialista/emanuelle-da-silva-facchin-64ab3f3e5a7bb87024003caf
+2025-05-22 03:29:33,180 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\601b5db82fb7fa71cf585435ab9fc54c.html
+2025-05-22 03:29:33,219 - P15228 - INFO - Candidates address: 3 items
+2025-05-22 03:29:33,220 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:29:33,220 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:29:33,220 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:29:33,221 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:29:33,221 - P15228 - INFO - Após processar URL 2 Uso de memória: 125.31 MB
+2025-05-22 03:29:33,221 - P15228 - INFO - Processando URL 3/13: https://guiamedico.cremesp.org.br/
+2025-05-22 03:29:51,506 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 03:29:51,511 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 03:29:51,512 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 03:29:51,512 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:29:51,512 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:29:51,512 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 03:29:51,512 - P15228 - INFO - Após processar URL 3 Uso de memória: 125.33 MB
+2025-05-22 03:29:51,512 - P15228 - INFO - Processando URL 4/13: https://espacohumaniza.com.br/equipe/
+2025-05-22 03:29:56,321 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\fb4f9fd9c83b8f9b880bd6019cb27cb1.html
+2025-05-22 03:29:56,354 - P15228 - INFO - Candidates address: 2 items
+2025-05-22 03:29:56,354 - P15228 - INFO - Candidates phone: 3 items
+2025-05-22 03:29:56,354 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 03:29:56,355 - P15228 - INFO - Candidates complement: 1 items
+2025-05-22 03:29:56,355 - P15228 - INFO - Candidates cep: 2 items
+2025-05-22 03:29:56,355 - P15228 - INFO - Após processar URL 4 Uso de memória: 125.33 MB
+2025-05-22 03:29:56,355 - P15228 - INFO - Processando URL 5/13: https://consultacrm.com.br/
+2025-05-22 03:29:59,945 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:29:59,964 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:29:59,964 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:29:59,965 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:29:59,965 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:29:59,965 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:29:59,966 - P15228 - INFO - Após processar URL 5 Uso de memória: 125.38 MB
+2025-05-22 03:29:59,966 - P15228 - INFO - Processando URL 6/13: https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/cgp/CGP_MEDICOS_MAR2012.pdf
+2025-05-22 03:29:59,966 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/cgp/CGP_MEDICOS_MAR2012.pdf
+2025-05-22 03:29:59,966 - P15228 - INFO - Após processar URL 6 Uso de memória: 125.38 MB
+2025-05-22 03:29:59,966 - P15228 - INFO - Processando URL 7/13: https://www.doctoralia.com.br/clinicas/espaco-humaniza-clinica-de-psiquiatria
+2025-05-22 03:29:59,967 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/clinicas/espaco-humaniza-clinica-de-psiquiatria
+2025-05-22 03:29:59,967 - P15228 - INFO - Após processar URL 7 Uso de memória: 125.38 MB
+2025-05-22 03:29:59,967 - P15228 - INFO - Processando URL 8/13: https://www.doctoralia.com.br/emanuelle-facchin/psiquiatra/sao-paulo
+2025-05-22 03:29:59,967 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/emanuelle-facchin/psiquiatra/sao-paulo
+2025-05-22 03:29:59,967 - P15228 - INFO - Após processar URL 8 Uso de memória: 125.38 MB
+2025-05-22 03:29:59,968 - P15228 - INFO - Processando URL 9/13: https://espacohumaniza.com.br/sobre-nos/
+2025-05-22 03:30:03,860 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\bff8af7cf91f04b085fb842e7bd74044.html
+2025-05-22 03:30:03,906 - P15228 - INFO - Candidates address: 2 items
+2025-05-22 03:30:03,906 - P15228 - INFO - Candidates phone: 3 items
+2025-05-22 03:30:03,907 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 03:30:03,907 - P15228 - INFO - Candidates complement: 1 items
+2025-05-22 03:30:03,907 - P15228 - INFO - Candidates cep: 2 items
+2025-05-22 03:30:03,907 - P15228 - INFO - Após processar URL 9 Uso de memória: 125.38 MB
+2025-05-22 03:30:03,907 - P15228 - INFO - Processando URL 10/13: https://cadastroempresa.com.br/fornecedor/clinica-emanuelle-48286760000133
+2025-05-22 03:30:06,672 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\0df08826942f1a2b24dbfa51704d5090.html
+2025-05-22 03:30:06,691 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:30:06,692 - P15228 - INFO - Candidates phone: 2 items
+2025-05-22 03:30:06,692 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 03:30:06,692 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:30:06,692 - P15228 - INFO - Candidates cep: 4 items
+2025-05-22 03:30:06,693 - P15228 - INFO - Após processar URL 10 Uso de memória: 125.38 MB
+2025-05-22 03:30:06,693 - P15228 - INFO - Processando URL 11/13: https://www.doctoralia.com.br/emanuelle-facchin/psiquiatra/sao-paulo?utm_source=google&utm_medium=gmb&utm_campaign=792971&utm_content=website
+2025-05-22 03:30:06,693 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/emanuelle-facchin/psiquiatra/sao-paulo?utm_source=google&utm_medium=gmb&utm_campaign=792971&utm_content=website
+2025-05-22 03:30:06,694 - P15228 - INFO - Após processar URL 11 Uso de memória: 125.38 MB
+2025-05-22 03:30:06,694 - P15228 - INFO - Processando URL 12/13: https://www.escavador.com/sobre/197415124/emanuelle-da-silva-facchin
+2025-05-22 03:30:10,664 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\7c7c8c35749470e0acc4b9704ef1473a.html
+2025-05-22 03:30:10,684 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:30:10,686 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:30:10,686 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:30:10,689 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:30:10,689 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:30:10,690 - P15228 - INFO - Após processar URL 12 Uso de memória: 125.44 MB
+2025-05-22 03:30:10,690 - P15228 - INFO - Processando URL 13/13: https://www.achecerto.com.br/
+2025-05-22 03:30:15,172 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\ceb96e5663cace6f7b35fee1716d7561.html
+2025-05-22 03:30:15,189 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 03:30:15,189 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:30:15,190 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 03:30:15,190 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:30:15,190 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:30:15,190 - P15228 - INFO - Após processar URL 13 Uso de memória: 125.49 MB
+2025-05-22 03:30:15,190 - P15228 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:30:15,190 - P15228 - INFO - Ranked address: 7 items
+2025-05-22 03:30:15,191 - P15228 - INFO - Ranked phone: 6 items
+2025-05-22 03:30:15,191 - P15228 - INFO - Ranked email: 3 items
+2025-05-22 03:30:15,191 - P15228 - INFO - Ranked complement: 1 items
+2025-05-22 03:30:15,191 - P15228 - INFO - Ranked cep: 7 items
+2025-05-22 03:30:15,191 - P15228 - INFO - Após agregação Uso de memória: 125.49 MB
+2025-05-22 03:30:15,192 - P15228 - INFO - Validando endereço: ['R. Apucarana 272', 'Av. Paulista, 1048', 'Avenida Dom Pedro Ii, 125']
+2025-05-22 03:30:15,192 - P15228 - INFO - Endereço validado: R. Apucarana 272
+2025-05-22 03:30:15,192 - P15228 - INFO - Limpando texto extenso para campo address: R. Apucarana 272...
+2025-05-22 03:30:15,192 - P15228 - INFO - Texto limpo: R. Apucarana 272
+2025-05-22 03:30:15,193 - P15228 - INFO - Validando telefone: ['(11) 2385-2691', '(11) 97574-4726', '(11)%202385-2691']
+2025-05-22 03:30:15,193 - P15228 - INFO - Limpando texto extenso para campo phone: (11) 2385-2691...
+2025-05-22 03:30:15,193 - P15228 - INFO - Texto limpo: 11) 2385-2691
+2025-05-22 03:30:15,193 - P15228 - INFO - Telefone validado: 11) 2385-2691
+2025-05-22 03:30:15,193 - P15228 - INFO - Validando email: ['contato@espacohumaniza.com.br', 'exattus_contabil@hotmail.com', 'falecom@achecerto.com.br']
+2025-05-22 03:30:15,193 - P15228 - INFO - Limpando texto extenso para campo email: contato@espacohumaniza.com.br...
+2025-05-22 03:30:15,194 - P15228 - INFO - Texto limpo: contato@espacohumaniza.com.br
+2025-05-22 03:30:15,194 - P15228 - INFO - Email validado: contato@espacohumaniza.com.br
+2025-05-22 03:30:15,194 - P15228 - INFO - Validando complemento: ['Sala 502']
+2025-05-22 03:30:15,194 - P15228 - INFO - Limpando texto extenso para campo complement: Sala 502...
+2025-05-22 03:30:15,194 - P15228 - INFO - Texto limpo: Sala 502
+2025-05-22 03:30:15,195 - P15228 - INFO - Complemento validado: Sala 502
+2025-05-22 03:30:15,195 - P15228 - INFO - Descobrindo cidade
+2025-05-22 03:30:15,195 - P15228 - INFO - Buscando cidade: R. Apucarana 272 cidade SP
+2025-05-22 03:30:18,128 - P15228 - WARNING - Cidade não encontrada
+2025-05-22 03:30:18,130 - P15228 - INFO - Cidade descoberta: 
+2025-05-22 03:30:18,131 - P15228 - INFO - Tempo de execução de processamento completo do médico: 76.45 segundos
+2025-05-22 03:30:18,132 - P15228 - INFO - Resultado processado: {'Hash': '7b6cbf7920f5769a7f5631457590a04ff1203741cd049211a4f872ba1f60ea6a', 'CRM': '227426', 'UF': 'SP', 'Firstname': 'EMANUELLE', 'LastName': 'DA SILVA FACCHIN', 'Medical specialty': '', 'Endereco Completo A1': 'R. Apucarana 272', 'Address A1': 'R. Apucarana 272', 'Numero A1': '', 'Complement A1': 'Sala 502', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 2385-2691', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'contato@espacohumaniza.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:30:18,134 - P15228 - INFO - Progresso: 48.8%
+2025-05-22 03:30:18,134 - P15228 - INFO - Executando coleta de lixo
+2025-05-22 03:30:18,162 - P15228 - INFO - Após coleta de lixo Uso de memória: 121.52 MB
+2025-05-22 03:30:18,163 - P15228 - INFO - Tempo de execução de processamento do médico 1: 77.73 segundos
+2025-05-22 03:30:18,163 - P15228 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 03:30:18,163 - P15228 - INFO - Nome: WANDEMBERG DE MIRANDA BARBOSA FILHO
+2025-05-22 03:30:18,164 - P15228 - INFO - Início do processamento Uso de memória: 121.52 MB
+2025-05-22 03:30:18,164 - P15228 - INFO - Iniciando busca para: WANDEMBERG DE MIRANDA BARBOSA FILHO CRM 227729 SP telefone e-mail endereço
+2025-05-22 03:30:18,951 - P15228 - INFO - SearX results: 8 URLs
+2025-05-22 03:30:18,952 - P15228 - INFO - Após SearX Uso de memória: 113.61 MB
+2025-05-22 03:30:22,169 - P15228 - INFO - Google results: 8 URLs
+2025-05-22 03:30:22,170 - P15228 - INFO - Após Google Uso de memória: 117.28 MB
+2025-05-22 03:30:24,802 - P15228 - INFO - Bing results: 9 URLs
+2025-05-22 03:30:24,803 - P15228 - INFO - Após Bing Uso de memória: 120.12 MB
+2025-05-22 03:30:24,803 - P15228 - INFO - Total de URLs únicas: 17
+2025-05-22 03:30:24,803 - P15228 - INFO - Processando URL 1/17: https://www.medicosbrasil.com/profissional/wandemberg-de-miranda-barbosa
+2025-05-22 03:30:28,818 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\d467f095e263785bf7e49029cd46e008.html
+2025-05-22 03:30:28,841 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:30:28,841 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:30:28,842 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:30:28,842 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:30:28,842 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:30:28,842 - P15228 - INFO - Após processar URL 1 Uso de memória: 121.30 MB
+2025-05-22 03:30:28,842 - P15228 - INFO - Processando URL 2/17: https://www.solutudo.com.br/empresas/sp/s-paulo/clinica-medica-ou-medicina-interna/clinica-dr-wandemberg-de-miranda-barbosa-filho-ltda-25184447
+2025-05-22 03:30:35,578 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\b76320b4a5c3b7d05b1e02d13a60d720.html
+2025-05-22 03:30:35,623 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:30:35,623 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 03:30:35,623 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 03:30:35,624 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:30:35,624 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 03:30:35,624 - P15228 - INFO - Após processar URL 2 Uso de memória: 121.86 MB
+2025-05-22 03:30:35,624 - P15228 - INFO - Processando URL 3/17: https://drwandembergbarbosa.com.br/
+2025-05-22 03:30:37,750 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\d86c9678947843f5890f2792c4149461.html
+2025-05-22 03:30:37,785 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:30:37,786 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 03:30:37,786 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:30:37,786 - P15228 - INFO - Candidates complement: 1 items
+2025-05-22 03:30:37,786 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 03:30:37,786 - P15228 - INFO - Após processar URL 3 Uso de memória: 122.39 MB
+2025-05-22 03:30:37,787 - P15228 - INFO - Processando URL 4/17: https://cebes.com.br/clinica-dr-wandemberg-de-miranda-barbosa-filho-2914603/
+2025-05-22 03:30:40,809 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\3accc78432acc218beec58f2cf742f81.html
+2025-05-22 03:30:40,825 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:30:40,825 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:30:40,825 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:30:40,825 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:30:40,825 - P15228 - INFO - Candidates cep: 2 items
+2025-05-22 03:30:40,826 - P15228 - INFO - Após processar URL 4 Uso de memória: 122.50 MB
+2025-05-22 03:30:40,826 - P15228 - INFO - Processando URL 5/17: https://brasillocais.com/sao-paulo/dr-wandemberg-barbosa-317200
+2025-05-22 03:30:45,587 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\7f57a968fa9f8ef82d477639daed2c59.html
+2025-05-22 03:30:45,613 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:30:45,614 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:30:45,614 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:30:45,614 - P15228 - INFO - Candidates complement: 2 items
+2025-05-22 03:30:45,614 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 03:30:45,614 - P15228 - INFO - Após processar URL 5 Uso de memória: 122.57 MB
+2025-05-22 03:30:45,614 - P15228 - INFO - Processando URL 6/17: https://cnpj.biz/45593495000148
+2025-05-22 03:30:50,105 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\1343b62e0d1aa8881b09e5cf8adcd413.html
+2025-05-22 03:30:50,120 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:30:50,120 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 03:30:50,120 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 03:30:50,121 - P15228 - INFO - Candidates complement: 3 items
+2025-05-22 03:30:50,121 - P15228 - INFO - Candidates cep: 3 items
+2025-05-22 03:30:50,121 - P15228 - INFO - Após processar URL 6 Uso de memória: 122.74 MB
+2025-05-22 03:30:50,121 - P15228 - INFO - Processando URL 7/17: https://www.econodata.com.br/consulta-empresa/45593495000148-CLINICA-DR-WANDEMBERG-DE-MIRANDA-BARBOSA-FILHO-LTDA
+2025-05-22 03:30:54,834 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\eecec5c23fe3ce355f322f7c3a564e53.html
+2025-05-22 03:30:54,963 - P15228 - INFO - Candidates address: 27 items
+2025-05-22 03:30:54,963 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:30:54,963 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:30:54,963 - P15228 - INFO - Candidates complement: 2 items
+2025-05-22 03:30:54,964 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 03:30:54,964 - P15228 - INFO - Após processar URL 7 Uso de memória: 123.91 MB
+2025-05-22 03:30:54,964 - P15228 - INFO - Processando URL 8/17: https://ubs.med.br/clinica-dr-wandemberg-de-miranda-barbosa-filho-2914603/
+2025-05-22 03:30:59,087 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\a131d5afca1b22d2b3eb5e1200d7ed6f.html
+2025-05-22 03:30:59,108 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:30:59,110 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:30:59,110 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:30:59,111 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:30:59,111 - P15228 - INFO - Candidates cep: 2 items
+2025-05-22 03:30:59,111 - P15228 - INFO - Após processar URL 8 Uso de memória: 123.23 MB
+2025-05-22 03:30:59,112 - P15228 - INFO - Processando URL 9/17: https://doutorcrm.com/wandemberg-de-miranda-barbosa
+2025-05-22 03:31:03,785 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\86371d97d283603982e8ebb308d2bb15.html
+2025-05-22 03:31:03,793 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:31:03,794 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:31:03,794 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:31:03,794 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:31:03,794 - P15228 - INFO - Candidates cep: 2 items
+2025-05-22 03:31:03,794 - P15228 - INFO - Após processar URL 9 Uso de memória: 123.38 MB
+2025-05-22 03:31:03,795 - P15228 - INFO - Processando URL 10/17: http://www.drwandembergbarbosa.com.br/
+2025-05-22 03:31:07,329 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\6c78b010cf723f1c30f2d3f9e01d59da.html
+2025-05-22 03:31:07,364 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:31:07,364 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 03:31:07,364 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:31:07,364 - P15228 - INFO - Candidates complement: 1 items
+2025-05-22 03:31:07,365 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 03:31:07,365 - P15228 - INFO - Após processar URL 10 Uso de memória: 123.41 MB
+2025-05-22 03:31:07,365 - P15228 - INFO - Processando URL 11/17: https://www.informecadastral.com.br/cnpj/clinica-dr-wandemberg-de-miranda-barbosa-filho-ltda-45593495000148
+2025-05-22 03:31:11,988 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\5449c5ccfcd2111f809b7b51975c5025.html
+2025-05-22 03:31:12,010 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 03:31:12,011 - P15228 - INFO - Candidates phone: 2 items
+2025-05-22 03:31:12,011 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 03:31:12,011 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:31:12,011 - P15228 - INFO - Candidates cep: 3 items
+2025-05-22 03:31:12,011 - P15228 - INFO - Após processar URL 11 Uso de memória: 123.42 MB
+2025-05-22 03:31:12,011 - P15228 - INFO - Processando URL 12/17: https://www.catalogo.med.br/doutor/wandemberg-de-miranda-barbosa-2510433.htm
+2025-05-22 03:31:14,179 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\654e8fbbfd401cce7a93b3547294de0e.html
+2025-05-22 03:31:14,180 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:31:14,180 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:31:14,180 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:31:14,180 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:31:14,180 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:31:14,180 - P15228 - INFO - Após processar URL 12 Uso de memória: 123.42 MB
+2025-05-22 03:31:14,181 - P15228 - INFO - Processando URL 13/17: https://cnes2.datasus.gov.br/Mod_Ambulatorial.asp?VCo_Unidade=3550302914603
+2025-05-22 03:31:16,869 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\b2a19d01b538ed2088fa5157a9672571.html
+2025-05-22 03:31:16,881 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:31:16,881 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:31:16,882 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:31:16,882 - P15228 - INFO - Candidates complement: 1 items
+2025-05-22 03:31:16,882 - P15228 - INFO - Candidates cep: 3 items
+2025-05-22 03:31:16,882 - P15228 - INFO - Após processar URL 13 Uso de memória: 123.43 MB
+2025-05-22 03:31:16,882 - P15228 - INFO - Processando URL 14/17: https://www.drwandembergfilho.com.br/
+2025-05-22 03:31:20,926 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\4a9f981504228866eaf20093c8e2248a.html
+2025-05-22 03:31:20,938 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:31:20,939 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:31:20,939 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:31:20,939 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:31:20,939 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:31:20,939 - P15228 - INFO - Após processar URL 14 Uso de memória: 123.44 MB
+2025-05-22 03:31:20,940 - P15228 - INFO - Processando URL 15/17: https://www.escavador.com/nomes/wandemberg-de-miranda-barbosa-filho-7025c845d1
+2025-05-22 03:31:24,404 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\3f491e38cea8a1a2625304f17a2aa37c.html
+2025-05-22 03:31:24,415 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:31:24,415 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:31:24,416 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:31:24,416 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:31:24,416 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:31:24,417 - P15228 - INFO - Após processar URL 15 Uso de memória: 123.45 MB
+2025-05-22 03:31:24,417 - P15228 - INFO - Processando URL 16/17: https://www.doctoralia.com.br/wandemberg-de-miranda-barbosa/oncologista-cirurgiao-plastico/sao-paulo?utm_source=google&utm_medium=gmb&utm_campaign=225786
+2025-05-22 03:31:24,417 - P15228 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/wandemberg-de-miranda-barbosa/oncologista-cirurgiao-plastico/sao-paulo?utm_source=google&utm_medium=gmb&utm_campaign=225786
+2025-05-22 03:31:24,417 - P15228 - INFO - Após processar URL 16 Uso de memória: 123.45 MB
+2025-05-22 03:31:24,418 - P15228 - INFO - Processando URL 17/17: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x15966133540145096497&market=pt-BR&src=SERPGB
+2025-05-22 03:31:29,698 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\0d32b65316fc0e198e6ba2812d9469ec.html
+2025-05-22 03:31:29,722 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:31:29,722 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 03:31:29,722 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:31:29,723 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:31:29,723 - P15228 - INFO - Candidates cep: 2 items
+2025-05-22 03:31:29,723 - P15228 - INFO - Após processar URL 17 Uso de memória: 123.45 MB
+2025-05-22 03:31:29,723 - P15228 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:31:29,723 - P15228 - INFO - Ranked address: 28 items
+2025-05-22 03:31:29,723 - P15228 - INFO - Ranked phone: 5 items
+2025-05-22 03:31:29,723 - P15228 - INFO - Ranked email: 2 items
+2025-05-22 03:31:29,724 - P15228 - INFO - Ranked complement: 9 items
+2025-05-22 03:31:29,724 - P15228 - INFO - Ranked cep: 13 items
+2025-05-22 03:31:29,724 - P15228 - INFO - Após agregação Uso de memória: 123.45 MB
+2025-05-22 03:31:29,724 - P15228 - INFO - Validando endereço: ['Rua da Lagoa, 1111', 'Rua Barbosa de Freitas, 1741', 'Rua Nova Descoberta, 1282']
+2025-05-22 03:31:29,724 - P15228 - INFO - Endereço validado: Rua da Lagoa, 1111
+2025-05-22 03:31:29,725 - P15228 - INFO - Limpando texto extenso para campo address: Rua da Lagoa, 1111...
+2025-05-22 03:31:29,725 - P15228 - INFO - Texto limpo: Rua da Lagoa, 1111
+2025-05-22 03:31:29,725 - P15228 - INFO - Validando telefone: ['(11) 9963-1212', '(11) 96582-2308', '(11) 99963-1212']
+2025-05-22 03:31:29,725 - P15228 - INFO - Limpando texto extenso para campo phone: (11) 9963-1212...
+2025-05-22 03:31:29,725 - P15228 - INFO - Texto limpo: 11) 9963-1212
+2025-05-22 03:31:29,725 - P15228 - INFO - Telefone validado: 11) 9963-1212
+2025-05-22 03:31:29,725 - P15228 - INFO - Validando email: ['drwandembergfilho@drwandembergfilho.com.br', 'o@drwandembergfilho.com.br']
+2025-05-22 03:31:29,726 - P15228 - INFO - Limpando texto extenso para campo email: drwandembergfilho@drwandembergfilho.com.br...
+2025-05-22 03:31:29,726 - P15228 - INFO - Texto limpo: drwandembergfilho@drwandembergfilho.com.br
+2025-05-22 03:31:29,726 - P15228 - INFO - Email validado: drwandembergfilho@drwandembergfilho.com.br
+2025-05-22 03:31:29,726 - P15228 - INFO - Validando complemento: ['Sala 1504 - São Paulo/SP ', 'Sala 1504 - Moema       BRASILLOCAIS.COM              ', 'Sala 1504 - Moema']
+2025-05-22 03:31:29,726 - P15228 - INFO - Limpando texto extenso para campo complement: Sala 1504 - São Paulo/SP ...
+2025-05-22 03:31:29,726 - P15228 - INFO - Texto limpo: Sala 1504 - São Paulo/SP
+2025-05-22 03:31:29,726 - P15228 - INFO - Complemento validado: Sala 1504 - São Paulo/SP
+2025-05-22 03:31:29,726 - P15228 - INFO - Descobrindo cidade
+2025-05-22 03:31:29,727 - P15228 - INFO - Buscando cidade: Rua da Lagoa cidade SP
+2025-05-22 03:31:32,591 - P15228 - WARNING - Cidade não encontrada
+2025-05-22 03:31:32,592 - P15228 - INFO - Cidade descoberta: 
+2025-05-22 03:31:32,592 - P15228 - INFO - Tempo de execução de processamento completo do médico: 74.43 segundos
+2025-05-22 03:31:32,592 - P15228 - INFO - Resultado processado: {'Hash': '440a1c289ac0cdbbaefb738b8d08481264fd612bae4a4c951d1a01d4f70775c7', 'CRM': '227729', 'UF': 'SP', 'Firstname': 'WANDEMBERG', 'LastName': 'DE MIRANDA BARBOSA FILHO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua da Lagoa, 1111', 'Address A1': 'Rua da Lagoa', 'Numero A1': '1111', 'Complement A1': 'Sala 1504 - São Paulo/SP', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 9963-1212', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'drwandembergfilho@drwandembergfilho.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:31:32,593 - P15228 - INFO - Progresso: 49.2%
+2025-05-22 03:31:32,593 - P15228 - INFO - Tempo de execução de processamento do médico 2: 74.43 segundos
+2025-05-22 03:31:32,594 - P15228 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 03:31:32,594 - P15228 - INFO - Nome: HEITOR LOVO RAVAGNANI
+2025-05-22 03:31:32,594 - P15228 - INFO - Início do processamento Uso de memória: 120.19 MB
+2025-05-22 03:31:32,594 - P15228 - INFO - Iniciando busca para: HEITOR LOVO RAVAGNANI CRM 228727 SP telefone e-mail endereço
+2025-05-22 03:31:33,557 - P15228 - INFO - SearX results: 7 URLs
+2025-05-22 03:31:33,565 - P15228 - INFO - Após SearX Uso de memória: 120.19 MB
+2025-05-22 03:31:36,223 - P15228 - INFO - Google results: 1 URLs
+2025-05-22 03:31:36,223 - P15228 - INFO - Após Google Uso de memória: 124.37 MB
+2025-05-22 03:31:39,381 - P15228 - INFO - Bing results: 7 URLs
+2025-05-22 03:31:39,382 - P15228 - INFO - Após Bing Uso de memória: 125.95 MB
+2025-05-22 03:31:39,382 - P15228 - INFO - Total de URLs únicas: 9
+2025-05-22 03:31:39,382 - P15228 - INFO - Processando URL 1/9: http://cremesp.org.br/
+2025-05-22 03:31:44,020 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\2a967318246f9658edeb1e0469c871fe.html
+2025-05-22 03:31:44,047 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 03:31:44,047 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 03:31:44,047 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:31:44,047 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:31:44,047 - P15228 - INFO - Candidates cep: 2 items
+2025-05-22 03:31:44,047 - P15228 - INFO - Após processar URL 1 Uso de memória: 125.96 MB
+2025-05-22 03:31:44,048 - P15228 - INFO - Processando URL 2/9: https://cnpj.biz/44843834000134
+2025-05-22 03:31:46,374 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\e049d3f35d7fca3264a89b190f89dc5d.html
+2025-05-22 03:31:46,377 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:31:46,377 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:31:46,377 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:31:46,377 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:31:46,377 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:31:46,377 - P15228 - INFO - Após processar URL 2 Uso de memória: 125.96 MB
+2025-05-22 03:31:46,378 - P15228 - INFO - Processando URL 3/9: https://www.threads.net/@heitorlovo
+2025-05-22 03:31:49,665 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\d2d8c5b8ad33c71545cff2e9fe6f940b.html
+2025-05-22 03:31:49,734 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:31:49,734 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:31:49,734 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:31:49,734 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:31:49,735 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:31:49,735 - P15228 - INFO - Após processar URL 3 Uso de memória: 131.12 MB
+2025-05-22 03:31:49,735 - P15228 - INFO - Processando URL 4/9: https://cnpj.biz/08209245000135
+2025-05-22 03:31:51,931 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\53d87eb96321122952ea3ed73f0991f9.html
+2025-05-22 03:31:51,934 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:31:51,934 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:31:51,934 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:31:51,934 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:31:51,934 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:31:51,934 - P15228 - INFO - Após processar URL 4 Uso de memória: 126.10 MB
+2025-05-22 03:31:51,935 - P15228 - INFO - Processando URL 5/9: https://guiamedico.cremesp.org.br/
+2025-05-22 03:31:54,559 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 03:31:54,565 - P15228 - INFO - Candidates address: 1 items
+2025-05-22 03:31:54,565 - P15228 - INFO - Candidates phone: 1 items
+2025-05-22 03:31:54,565 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:31:54,565 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:31:54,566 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 03:31:54,566 - P15228 - INFO - Após processar URL 5 Uso de memória: 126.10 MB
+2025-05-22 03:31:54,566 - P15228 - INFO - Processando URL 6/9: https://consultacrm.com.br/
+2025-05-22 03:31:58,387 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 03:31:58,398 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:31:58,398 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:31:58,399 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:31:58,399 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:31:58,399 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:31:58,399 - P15228 - INFO - Após processar URL 6 Uso de memória: 126.24 MB
+2025-05-22 03:31:58,399 - P15228 - INFO - Processando URL 7/9: https://aboutcompany.info/country/brazil/officer/535448/heitor-lovo-ravagnani/
+2025-05-22 03:32:02,290 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\0dc7f568fa3c08ca0e637d35fe1c9eab.html
+2025-05-22 03:32:02,329 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:32:02,329 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:32:02,329 - P15228 - INFO - Candidates email: 0 items
+2025-05-22 03:32:02,329 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:32:02,330 - P15228 - INFO - Candidates cep: 0 items
+2025-05-22 03:32:02,330 - P15228 - INFO - Após processar URL 7 Uso de memória: 126.24 MB
+2025-05-22 03:32:02,330 - P15228 - INFO - Processando URL 8/9: https://portal.cfm.org.br/busca-medicos
+2025-05-22 03:32:06,243 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 03:32:06,281 - P15228 - INFO - Candidates address: 0 items
+2025-05-22 03:32:06,281 - P15228 - INFO - Candidates phone: 0 items
+2025-05-22 03:32:06,281 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 03:32:06,281 - P15228 - INFO - Candidates complement: 1 items
+2025-05-22 03:32:06,281 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 03:32:06,281 - P15228 - INFO - Após processar URL 8 Uso de memória: 126.25 MB
+2025-05-22 03:32:06,282 - P15228 - INFO - Processando URL 9/9: https://www.descubraonline.com/guia/sp/pedreira/cardio-clinica-ravagnani-08209245000135/
+2025-05-22 03:32:13,405 - P15228 - INFO - HTML salvo para debug: data\debug_html_v10\cdf83c24af38ad00e2a326fdc3f25985.html
+2025-05-22 03:32:13,456 - P15228 - INFO - Candidates address: 5 items
+2025-05-22 03:32:13,456 - P15228 - INFO - Candidates phone: 2 items
+2025-05-22 03:32:13,456 - P15228 - INFO - Candidates email: 1 items
+2025-05-22 03:32:13,456 - P15228 - INFO - Candidates complement: 0 items
+2025-05-22 03:32:13,456 - P15228 - INFO - Candidates cep: 1 items
+2025-05-22 03:32:13,457 - P15228 - INFO - Após processar URL 9 Uso de memória: 126.26 MB
+2025-05-22 03:32:13,457 - P15228 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:32:13,457 - P15228 - INFO - Ranked address: 6 items
+2025-05-22 03:32:13,457 - P15228 - INFO - Ranked phone: 3 items
+2025-05-22 03:32:13,457 - P15228 - INFO - Ranked email: 2 items
+2025-05-22 03:32:13,457 - P15228 - INFO - Ranked complement: 1 items
+2025-05-22 03:32:13,457 - P15228 - INFO - Ranked cep: 4 items
+2025-05-22 03:32:13,458 - P15228 - INFO - Após agregação Uso de memória: 126.26 MB
+2025-05-22 03:32:13,458 - P15228 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Rua Siqueira Campos, 261', 'Rua Flaminio de Campos, 95']
+2025-05-22 03:32:13,458 - P15228 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 03:32:13,458 - P15228 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 03:32:13,458 - P15228 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 03:32:13,458 - P15228 - INFO - Validando telefone: ['(11) 4349-9900', '(19) 8330-5272', '(19) 3893-2236']
+2025-05-22 03:32:13,458 - P15228 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 03:32:13,458 - P15228 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 03:32:13,459 - P15228 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 03:32:13,459 - P15228 - INFO - Validando email: ['cfm@portalmedico.org.br', 'thais.ravagnani@gmail.com']
+2025-05-22 03:32:13,459 - P15228 - INFO - Limpando texto extenso para campo email: cfm@portalmedico.org.br...
+2025-05-22 03:32:13,459 - P15228 - INFO - Texto limpo: cfm@portalmedico.org.br
+2025-05-22 03:32:13,459 - P15228 - INFO - Email validado: cfm@portalmedico.org.br
+2025-05-22 03:32:13,459 - P15228 - INFO - Validando complemento: ['Conjunto D']
+2025-05-22 03:32:13,459 - P15228 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 03:32:13,459 - P15228 - INFO - Texto limpo: Conjunto D
+2025-05-22 03:32:13,460 - P15228 - INFO - Complemento validado: Conjunto D
+2025-05-22 03:32:13,460 - P15228 - INFO - Descobrindo cidade
+2025-05-22 03:32:13,460 - P15228 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 03:32:16,067 - P15228 - WARNING - Cidade não encontrada
+2025-05-22 03:32:16,068 - P15228 - INFO - Cidade descoberta: 
+2025-05-22 03:32:16,068 - P15228 - INFO - Tempo de execução de processamento completo do médico: 43.47 segundos
+2025-05-22 03:32:16,068 - P15228 - INFO - Resultado processado: {'Hash': '5aad733660c70ba4c7914615d914c9c387bbd9301e3b7e8d4636003b0d3ece75', 'CRM': '228727', 'UF': 'SP', 'Firstname': 'HEITOR', 'LastName': 'LOVO RAVAGNANI', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Conjunto D', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cfm@portalmedico.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:32:16,069 - P15228 - INFO - Salvando lote de resultados
+2025-05-22 03:32:16,070 - P15228 - INFO - Após salvar resultados Uso de memória: 120.98 MB
+2025-05-22 03:32:16,071 - P15228 - INFO - Progresso: 49.6%
+2025-05-22 03:32:16,071 - P15228 - INFO - Tempo de execução de processamento do médico 3: 43.48 segundos
+2025-05-22 03:32:16,071 - P15228 - INFO - Tempo de execução de processamento do lote completo: 195.64 segundos

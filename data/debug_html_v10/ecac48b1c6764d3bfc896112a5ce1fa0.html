@@ -1,0 +1,793 @@
+<html lang="pt-BR"><head><style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button:not([disabled]):hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel:not([disabled]):hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger:not([disabled]):hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style><link rel="stylesheet" href="https://www.cemahospital.com.br/blog/css/noticias-blog.css" referrerpolicy="no-referrer">
+
+
+
+
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1.5">
+
+    
+    <meta name="csrf-token" content="ySZ46GB71o8TViXSaYQ6FkRCZyQq9C82hTYZEJyL">
+
+    
+    <title>Oftalmologista perto de você? Conheça o CEMA! - CEMA Hospital</title>
+
+    <meta name="description" content="Se você procura por um oftalmologista perto de você a solução está mais próxima do que imagina, basta conhecer as unidades do CEMA Hospital.CEMA Hospital">
+
+    
+    
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-SFJ6QBJ8VW&amp;cx=c&amp;gtm=45He55k1v812916911za200&amp;tag_exp=101509157~103116026~103130498~103130500~103136993~103136995~103200004~103211513~103233427~103252644~103252646~103301114~103301116"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-KP2CC9B"></script><script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="https://www.cemahospital.com.br/blog/js/preloader.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://www.cemahospital.com.br/blog/css/header.css" referrerpolicy="no-referrer">
+    
+    
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    
+    <link href="https://www.cemahospital.com.br/blog/css/style.css" rel="stylesheet">
+    <link href="https://www.cemahospital.com.br/blog/css/preloader.css" rel="stylesheet">
+    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <link rel="stylesheet" href="https://www.cemahospital.com.br/blog/css/dropzone.css">
+    <script src="https://www.cemahospital.com.br/blog/js/dropzone.js"></script>
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KP2CC9B');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <link rel="canonical" href="https://www.cemahospital.com.br/blog/oftalmologista-perto"></head>
+
+<body id="blog" style="overflow: visible;">
+    <div class="preloader-wrapper" style="display: none;">
+        <div class="preloader">
+            <img src="https://www.cemahospital.com.br/blog/img/icons/preloader-default.gif" alt="">
+        </div>
+    </div>
+
+
+
+    <section id="main">
+        <div id="menu">
+
+        </div>
+
+        <div id="content">
+            <div id="content-header" class="d-flex justify-content-between">
+                <script>
+    $(window).on("load",function(){$("#status").fadeOut(),$("#preloader").delay(0).fadeOut("slow"),$("body").delay(0).css({overflow:"visible"})}),$(document).ready(function(){$(window).scrollTop($(window).scrollTop()+1);var o=$("#nav-top").outerHeight();$(window).scroll(function(){$(this).scrollTop()>o?($("#header").addClass("header-fixed"),$("#space-cema").addClass("space-cema-px"),$(".navbar").css({"background-color":"rgba(255,255,255,1)","box-shadow":"0px 2px 5px rgba(0,0,0,0.1)"}),$(".dropdown-menu").css({"background-color":"rgba(255,255,255,1)"})):($("#header").removeClass("header-fixed"),$("#space-cema").removeClass("space-cema-px"),$(".navbar").css("background-color","rgba(255,255,255,1)"),$(".dropdown-menu").css("background-color","rgba(255,255,255,1)"))}),$(window).scroll(function(){$(this).scrollTop()>o+50?$(".header-fixed #nav-agendamento2").css({visibility:"visible",opacity:"1"}):$(".header-fixed #nav-agendamento2").css({visibility:"hidden",opacity:"0"})}),$(window).scroll(function(){$(this).scrollTop()>350?$(".scroll_top").fadeIn():$(".scroll_top").fadeOut()}),$(".scroll_top").click(function(){return $("html, body").animate({scrollTop:0},1500),!1}),$("#search-hideshow").on("click",function(){$("#search").toggleClass("active")}),$("button#accept-cookies").click(function(o){o.preventDefault();var e=new Date;e.setTime(e.getTime()+94776479999.99998),$("#termo").hide(),$.cookie("accept","true",{path:"/",expires:e})})}),$(window).on("load",function(){$("#status").fadeOut(),$("#preloader").delay(350).fadeOut("slow"),$("body").delay(350).css({overflow:"visible"}),$.cookie("accept")||$("#termo").show()}),$("a.anchor").not('[href="#"]').not('[href="#0"]').click(function(o){if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var e=$(this.hash);(e=e.length?e:$("[name="+this.hash.slice(1)+"]")).length&&(console.log(e),o.preventDefault(),$("html, body").animate({scrollTop:e.offset().top-77},1500,function(){var o=$(e);if(o.focus(),o.is(":focus"))return!1;o.attr("tabindex","-1"),o.focus()}))}});var target=(target=window.location.hash).replace("#","");window.location.hash="",$(window).on("load",function(){target&&$("html, body").animate({scrollTop:$("#"+target).offset().top-77},1500,"swing",function(){})});
+</script>
+<link rel="stylesheet" href="https://www.cemahospital.com.br/css/style.css">
+<header id="header" class="header-fixed">
+    <form id="search" class="d-flex" action="https://www.cemahospital.com.br/pesquisa-cema.php" method="GET">
+      <label for="search-input" class="sr-only">Pesquisar no CEMA</label>
+      <input type="text" name="search" id="search-input" placeholder="Pesquisar no CEMA">
+      <button type="submit " id="search-btn">
+        <div></div>
+      </button>
+      <a href="javascript:void(0)" id="search-hideshow">
+        <div></div>
+      </a>
+    </form>
+    <div id="nav-top" class="space_ajust w-100 overflow-hidden py-1">
+      <ul class="w-100 d-flex justify-content-between justify-content-sm-end align-items-center">
+        <li>
+          <a href="https://www.cemahospital.com.br/nossas-unidades">Unidades</a>
+        </li>
+        <li>
+          <a href="https://www.cemahospital.com.br/convenios">Convênios</a>
+        </li>
+        <li>
+          <a href="https://www.cemahospital.com.br/contato">Contato</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/cemahospital/" target="_blank">
+            <img src="https://www.cemahospital.com.br/img/h-f/icon-ig.png" alt="Icone do Instagram" title="Instagram">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/hospitalcema/" target="_blank">
+            <img src="https://www.cemahospital.com.br/img/h-f/icon-fb.png" alt="Icone do Facebook" title="Facebook">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light space_ajust pt-2 d-flex justify-content-between align-items-center align-items-lg-end" style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px;">
+      <a class="navbar-brand anchor" href="https://www.cemahospital.com.br">
+        <img src="https://www.cemahospital.com.br/img/h-f/logo.png" alt="CEMA Hospital" title="CEMA Hospital Home">
+      </a>
+      <div id="nav-central-agendamento" class="d-flex flex-column flex-md-row justify-content-center justify-content-lg-end">
+        <div id="nav-central" class="d-flex align-items-end mr-0 mr-md-5 mb-2 mt-mb-0">
+            <img src="https://www.cemahospital.com.br/img/h-f/icon-tel.png" alt="Telefone">
+            <span>
+              Central de Atendimento:<br>
+              <a href="tel:+551126028000">11 2602-8000</a>
+            </span>
+        </div>
+        <a id="nav-agendamento1" class="nav-agendamento" href="https://agendamentocema.com.br/" target="_blank" rel="noopener">
+          <span>Agende sua</span><br>
+          <span>Consulta!</span>
+        </a>
+        <a id="nav-agendamento2" class="nav-agendamento" href="https://agendamentocema.com.br/" target="_blank" rel="noopener" style="visibility: visible; opacity: 1;">
+          <span>Agende sua</span><br>
+          <span>Consulta!</span>
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div id="navbarNav" class="collapse navbar-collapse justify-content-lg-end">
+          <ul class="navbar-nav">
+              <li class="navbar-link dropdown">
+                <a class="nav-link btn-link" href="https://www.cemahospital.com.br/institucional" id="navbarDropdown" aria-haspopup="true" aria-expanded="false">Institucional</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(255, 255, 255);">
+                  <a class="dropdown-item" href="https://www.cemahospital.com.br/o-hospital">O Hospital</a>
+                  <a class="dropdown-item" href="https://www.cemahospital.com.br/missao-visao-e-valores">Missão, Visão e Valores</a>
+                  <a class="dropdown-item" target="_blank" href="https://www.cemahospital.com.br/pdf/edital_convocacao_rca.pdf">Edital RCA</a>
+                  <a class="dropdown-item" target="_blank" href="https://www.cemahospital.com.br/pdf/edital_convocacao_age.pdf">Edital AGE</a>
+                </div>
+              </li>
+              <li class="navbar-link">
+                <a class="nav-link anchor" href="https://www.cemahospital.com.br/convenios">Convênios</a>
+              </li>
+              <li class="navbar-link dropdown">
+                  <a class="nav-link" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Especialidades</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown2" style="background-color: rgb(255, 255, 255);">
+                    <a class="dropdown-item" href="https://www.cemahospital.com.br/oftalmologia/">Oftalmologia</a>
+                    <a class="dropdown-item" href="https://www.cemahospital.com.br/otorrinolaringologia/">Otorrinolaringologia</a>
+                    <a class="dropdown-item" href="https://www.cemahospital.com.br/especialidades-complementares">Especialidades Complementares</a>
+                  </div>
+              </li>
+              <li class="navbar-link">
+                <a class="nav-link" href="https://www.cemahospital.com.br/nossas-unidades">Nossas Unidades</a>
+              </li>
+              <li class="navbar-link">
+                <a class="nav-link" href="https://www.cemahospital.com.br/blog/">Blog</a>
+              </li>
+              <li class="navbar-link">
+                <a class="nav-link" href="https://www.cemahospital.com.br/centro-de-estudos">Centro de Estudos</a>
+              </li>
+              <li class="navbar-link">
+                <a class="nav-link" href="https://www.cemahospital.com.br/cema-in-company">CEMA in Company</a>
+              </li>
+          </ul>
+      </div>
+    </nav>
+</header>            </div>
+            <div id="content-body" style="margin-top: 130px;">
+
+                <div id="content-page-body" class="container-fluid" style="padding: 0px">
+                    <div class="container-fluid" style="padding: 0px">
+                        
+<div class="banner_default blog-banner lozad" style="background-image: url('https://www.cemahospital.com.br/img/banner/blog.jpg'); padding: 0px;">
+    <div class="banner_text-default"><h1>Precisa de um oftalmologista perto de você? Conheça as unidades do CEMA!</h1></div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 mt-3 mb-3">
+            <a href="https://cemahospital.com.br">Início</a> &gt; <a href="https://cemahospital.com.br/blog/?page=1">Blog</a> &gt; <a href="https://cemahospital.com.br/blog/?page=1&amp;assunto=Oftalmologia">  Oftalmologia</a>  &gt; Precisa de um oftalmologista perto de você? Conheça as unidades do CEMA!
+        </div>
+    </div>
+
+
+</div>
+<div class="container-fluid space_ajust ajust-pg-default">
+    <div class="col-12 content-noticias-blog">
+        <div id="container-conteudo">
+            <div id="container-inst">
+                <div id="container-inst-esquerda">
+                    <h2>
+                        <span>Precisa de um oftalmologista perto de você? Conheça as unidades do CEMA!</span><br>
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="not_conteudo">
+            <p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Está em busca de um oftalmologista perto de você? Então, a solução está mais próxima do que imagina.</span></span></span></p>
+
+<p><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Isso porque as unidades de atendimento da CEMA estão estrategicamente localizadas para oferecer serviços oftalmológicos de excelência, proporcionando cuidados abrangentes para a visão.&nbsp;</span></span></span></p>
+
+<p><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Descubra ao longo deste artigo as nossas instalações de oftalmologia perto de você e garanta atendimento de qualidade para a saúde dos seus olhos!</span></span></span></p>
+
+<p><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><img alt="oftalmologista-perto" src="https://www.cemahospital.com.br/painel/storage/news/oftalmologista-perto.jpg" style="height:853px; width:1280px"></span></span></span></p>
+
+<h2 style="text-align:justify"><span style="font-size:16pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Sobre o CEMA</span></span></span><span style="font-size:16pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"> </span></span></span><span style="font-size:16pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"> </span></span></span></h2>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">O Hospital CEMA, fundado em 15 de novembro de 1975, é um centro de referência em oftalmologia e otorrinolaringologia, além de contar com especialidades complementares, como bucomaxilofacial, cirurgia plástica estética, distúrbios de ATM, fonoaudiologia, medicina do sono, ortodontia e vascular.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">A nossa missão é dedicada à excelência na saúde, buscando tratar e educar pessoas em um ambiente que preza pela honestidade, lealdade e respeito.&nbsp;</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Deste modo, com uma visão voltada para a eficiência operacional e custos competitivos, o CEMA promove um atendimento humanizado e eficaz, fundamentado em valores como excelência, lealdade e respeito.&nbsp;</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Além disso, o compromisso com o desenvolvimento pessoal e profissional de nossa equipe reflete na busca constante pela melhoria contínua e resolução ágil e eficaz dos problemas de saúde de nossos clientes.</span></span></span></p>
+
+<h2 style="text-align:justify"><span style="font-size:16pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Nossas unidades</span></span></span></h2>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Para facilitar a sua busca por um oftalmologista perto de você, listamos aqui todas as unidades CEMA de atendimento.</span></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">CEMA Aricanduva</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Localização</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Avenida Aricanduva, 5.555</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Dentro do Shopping Aricanduva - Ao lado do Playcenter Family</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Consultas e exames com hora marcada</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 18h, e aos sábados, das 9h às 14h.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Pronto atendimento, consultas e exames gerais</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 18h (com entrega de senhas até às 17h), e aos sábados, das 9h às 12 horas (com entrega das senhas até às 11h).</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">As senhas são disponibilizadas até às 17h, mas poderão ser encerradas antes caso a procura por atendimento aumentar.&nbsp;</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Além disso, informamos que o tempo de espera para atendimento com um oftalmologista perto de você, poderá ser maior que o desejado nesta unidade, em razão do comparecimento elevado de pacientes.</span></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">CEMA Belém</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Localização</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Rua Padre Adelino, 333</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Ao lado da estação Belém do metrô</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Consultas e exames com hora marcada</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 19h, e aos sábados, das 9h às 14h.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Pronto atendimento</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Atendimento 24h. Informamos que o tempo de espera para atendimento poderá ser maior que o desejado, em razão do comparecimento elevado de pacientes.</span></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">CEMA Eldorado</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Localização</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Avenida Rebouças, 3.970</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Dentro do Shopping Eldorado – Alameda Jardins (2º Subsolo)</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Consultas e exames com hora marcada</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 19h, e aos sábados, das 9h às 13h.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Pronto atendimento</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 18h, com entrega de senhas até às 17h da tarde. Aos sábados, das 9h às 12 h, com entrega das senhas até às 11h.</span></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">CEMA Guarulhos</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Localização</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Rua Engenheiro Camilo Olivetti, 295 - Andar Térreo - Vila Endres - Guarulhos</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Dentro do Internacional Shopping Guarulhos - Térreo - Próximo ao Neo Geo Family.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Consultas e exames com hora marcada</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 19h, e aos sábados, das 9h às 13h.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Pronto atendimento</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De você é de segunda a sexta-feira, das 9h às 18h, com entrega de senhas até às 17h da tarde. Aos sábados, das 9h às 12 h, com entrega das senhas até às 11h.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Ressaltamos que os casos de consultas sem agendamento nesta unidade com oftalmologista perto são realizados de acordo com a disponibilidade de profissionais presentes.</span></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">CEMA Ibirapuera</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Localização</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Av. Ibirapuera, 3.103</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Dentro do Shopping Ibirapuera – Piso Jurupis</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Consultas e exames com hora marcada</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 18h, e aos sábados, das 9h às 13h.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Pronto atendimento</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 18h, com entrega de senhas até às 17h da tarde. Aos sábados, das 9h às 12 h, com entrega das senhas até às 11h.</span></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">CEMA Interlagos</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Localização</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Avenida Interlagos, 2.255</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Dentro do Shopping Interlagos - em frente ao Playland?? | embaixo da Praça de Alimentação</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Consultas e exames com hora marcada</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 8h30 às 18h (com entrega de senhas até às 17h), e aos sábados, das 9h30 às 12 horas (com entrega das senhas até às 11h).</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">As senhas são disponibilizadas até às 17 horas, mas poderão ser encerradas antes caso a procura por atendimento aumentar.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Pronto atendimento</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 8h30 às 18h (com entrega de senhas até às 17h), e aos sábados, das 9h30 às 12 horas (com entrega das senhas até às 11h).</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">As senhas são disponibilizadas até às 17 horas, mas poderão ser encerradas antes caso a procura por atendimento aumentar.</span></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">CEMA Itaquera</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Localização</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Av. José Pinheiro Borges, s/n, Itaquera</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Dentro do Shopping Metrô Itaquera - 2º andar do Piso Campanela</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Consultas e exames com hora marcada</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9 horas às 18h, e aos sábados, das 9 às 13 horas.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Pronto atendimento</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 18h (com entrega de senhas até às 17h), e aos sábados, das 9h às 12 horas (com entrega das senhas até às 11h).</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">As senhas são disponibilizadas até às 17 horas, mas poderão ser encerradas antes caso a procura por atendimento aumentar.</span></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">CEMA Morumbi</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Localização</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Av. Roque Petroni Júnior, 1089</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Dentro do Morumbi Shopping – Piso Superior – Expansão</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Consultas e exames com hora marcada</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 18h e aos sábados, das 9h às 13h.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Pronto atendimento</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">O funcionamento deste hospital com oftalmologista perto de você é de segunda a sexta-feira, das 9h às 18h, com entrega de senhas até às 17h da tarde. Aos sábados, das 9h às 12 h, com entrega das senhas até às 11h.</span></span></span></p>
+
+<p><img alt="oftalmologista-perto-de-mim" src="https://www.cemahospital.com.br/painel/storage/news/oftalmologista-perto-de-mim.jpg" style="height:719px; width:1280px"></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">CEMA Osasco</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Localização</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Av. dos Autonomistas, 1.828 - Vila Yara, Osasco – SP</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Dentro do SuperShopping Osasco – 3º Piso, Praça de Alimentação</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Consultas e exames com hora marcada</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 19h e aos sábados, das 9h às 13h.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Pronto atendimento</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 18h, com entrega de senhas até às 17h da tarde. Aos sábados, das 9h às 12 h, com entrega das senhas até às 11h.</span></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">CEMA Paulista</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Localização</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Rua Treze de Maio, 1.947 – Bela Vista</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Dentro do Shopping Pátio Paulista – 5º andar - Piso Bela Vista</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Consultas e exames com hora marcada</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 18h e aos sábados, das 9h às 13h.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Pronto atendimento</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">O funcionamento desta unidade CEMA com oftalmologista perto de você é de segunda a sexta-feira, das 9h às 18h, com entrega de senhas até às 17h da tarde. Aos sábados, das 9h às 12 h, com entrega das senhas até às 11h.</span></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">CEMA Santa Cruz</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Localização</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">R. Domingos de Morais, 2564</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Dentro do Shopping Metrô Santa Cruz – Piso Passarela</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Consultas e exames com hora marcada</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 18h, e aos sábados, das 9 às 13 horas.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Pronto atendimento</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 18h (com entrega de senhas até às 17h), e aos sábados, das 9h às 12 horas (com entrega das senhas até às 11h).</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">As senhas são disponibilizadas até às 17 horas, mas poderão ser encerradas antes caso a procura por atendimento aumentar.</span></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">CEMA Santana</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Localização</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Av. Cruzeiro do Sul, 3.000</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">2º andar - ao lado da Estação Santana do Metrô</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Consultas e exames com hora marcada</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 8 às 17 horas, e aos sábados, das 8 às 11h30.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Pronto atendimento</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 8h às 16h30 (com entrega de senhas até às 16h), e aos sábados, das 8h às 11h30min (com entrega das senhas até às 11h).</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">As senhas deste hospital com oftalmologista perto de você são disponibilizadas até às 16 horas, mas poderão ser encerradas antes caso a procura por atendimento aumentar.</span></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">CEMA Santo André</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Localização</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Av. Industrial, 600</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Dentro do Grand Plaza Shopping – Piso Térreo</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Consultas e exames com hora marcada</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 18h, e aos sábados, das 9 às 13 horas.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Pronto atendimento</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 18h (com entrega de senhas até às 17h), e aos sábados, das 9h às 12 horas (com entrega das senhas até às 11h).</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">As senhas deste hospital com oftalmologista perto de você são disponibilizadas até às 17 horas, mas poderão ser encerradas antes caso a procura por atendimento aumentar.</span></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">CEMA São Bernardo</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Localização</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Praça Samuel Sabatini, 200 - Centro, São Bernardo do Campo, SP.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Dentro do Shopping Metrópole – Alameda de Serviços.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Consultas e exames com hora marcada</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 18h, e aos sábados, das 9h às 13h.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Pronto atendimento</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 18h, com entrega de senhas até às 17h da tarde. Aos sábados, das 9h às 12h, com entrega das senhas até às 11h.</span></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">CEMA Taboão</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Localização</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Rod. Régis Bittencourt, 2643 - Taboão da Serra - SP</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Dentro do Shopping Taboão – Mezanino</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Consultas e exames com hora marcada</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 18h e aos sábados, das 9h às 13h.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Pronto atendimento</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 18h, com entrega de senhas até às 17h da tarde. Aos sábados, das 9h às 12 h, com entrega das senhas até às 11h.</span></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">CEMA Tucuruvi</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Localização</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Avenida Dr. Antônio Maria Laet, 566</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Dentro do Shopping Metrô Tucuruvi - Piso L1 (Antigo Piso Plataforma)</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Consultas e exames com hora marcada</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 8:30 às 18:30 horas, e aos sábados, das 8h às 12 horas.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Pronto atendimento</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 17h30 (com entrega de senhas até às 17h), e aos sábados, das 8h às 11h30min (com entrega das senhas até às 11h).&nbsp;</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">As senhas deste hospital com oftalmologista perto de você são disponibilizadas até às 17 horas, mas poderão ser encerradas antes caso a procura por atendimento aumentar.</span></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">CEMA West Plaza</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Localização</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Av. Francisco Matarazzo, s/n - Água Branca</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Dentro do Shopping West Plaza - Bloco A - Térreo</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Consultas e exames com hora marcada</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 18 horas, e aos sábados, das 9h às 13 horas.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Pronto atendimento</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">De segunda a sexta-feira, das 9h às 18h (com entrega de senhas até às 17h), e aos sábados, das 9h às 13 horas (com entrega das senhas até às 11h).&nbsp;</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">As senhas deste hospital com oftalmologista perto de você são disponibilizadas até às 17 horas, mas poderão ser encerradas antes caso a procura por atendimento aumentar.</span></span></span></p>
+
+<p><img alt="clinicas-oftalmologista-perto-de-mim" src="https://www.cemahospital.com.br/painel/storage/news/clinicas-oftalmologista-perto-de-mim.jpg" style="height:640px; width:1280px"></p>
+
+<h2 style="text-align:justify"><span style="font-size:16pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Serviços de oftalmologia no CEMA</span></span></span></h2>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Conheça os <a href="https://www.cemahospital.com.br/oftalmologia/" target="_blank"><strong>serviços de oftalmologia</strong></a> perto de você que o CEMA Hospital oferece.</span></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">Consultas</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Está procurando por um oftalmologista perto de você para uma consulta?&nbsp;</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">O CEMA conta com consultas oftalmológicas abrangentes, feitas por uma equipe especializada que realiza avaliações completas da sua saúde ocular.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Conosco você terá diagnósticos precisos e planos de tratamento personalizados.</span></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">Exames</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Além das consultas, disponibilizamos uma ampla gama de exames oftalmológicos para quem procura oftalmologista perto.&nbsp;</span></span></span></p>
+
+<p><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Entre eles, destacamos exames de </span></span></span><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">mapeamento&nbsp;</span></span></span><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">de retina, retinografia, topografia, campimetria e tomografia de coerência óptica (OCT), garantindo uma avaliação detalhada da saúde dos olhos.</span></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">Pronto atendimento</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">O CEMA também oferece serviços de pronto atendimento oftalmológico.&nbsp;</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Então, se você está em busca de um oftalmologista perto de você para tratar traumas oculares, inflamações agudas e alterações súbitas na visão, conte com nosso pronto atendimento para garantir a sua saúde ocular.</span></span></span></p>
+
+<h3 style="text-align:justify"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial,sans-serif"><span style="color:#434343">Cirurgias</span></span></span></h3>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Com uma equipe altamente qualificada e tecnologia de ponta, realizamos diversas&nbsp; cirurgias oftalmológicas, como:</span></span></span></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">cirurgia de catarata;</span></span></span></li>
+	<li style="list-style-type:disc"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">cirurgias refrativas;</span></span></span></li>
+	<li style="list-style-type:disc"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">cirurgias de retina;</span></span></span></li>
+	<li style="list-style-type:disc"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">cirurgias de glaucoma;</span></span></span></li>
+	<li style="list-style-type:disc"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">cirurgias de estrabismo.</span></span></span></li>
+</ul>
+
+<p style="text-align:justify"><img alt="oftalmologista-mais-perto" src="https://www.cemahospital.com.br/painel/storage/news/oftalmologista-mais-perto.jpg" style="height:854px; width:1280px"></p>
+
+<h2 style="text-align:justify"><span style="font-size:16pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Nossa corpo clínico</span></span></span></h2>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">No CEMA Hospital, nos orgulhamos do nosso </span></span></span><a href="https://www.cemahospital.com.br/oftalmologia/corpo-clinico/" style="text-decoration:none" target="_blank"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#1155cc"><u>corpo clínico</u></span></span></span></a><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">, composto por mais de 150 especialistas altamente qualificados e experientes, prontos para atender quem procura por um oftalmologista perto.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Aqui, reconhecemos que o avanço científico e tecnológico é essencial, mas também valorizamos a importância da excelência do atendimento clínico e cirúrgico.&nbsp;</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Isso porque entendemos que nossos princípios são fortalecidos não só pela competência técnica, mas principalmente </span></span></span><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>por um atendimento humano, sensível e cordial.</strong></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">É essa </span></span></span><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>combinação de expertise médica e empatia</strong></span></span></span><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"> que nos permite oferecer um cuidado abrangente e de qualidade aos nossos pacientes que procuram por um oftalmologista perto.</span></span></span></p>
+
+<h2 style="text-align:justify"><span style="font-size:16pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Como agendar uma consulta no CEMA?</span></span></span><span style="font-size:16pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"> </span></span></span></h2>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Para agendar uma consulta no CEMA, com um oftalmologista perto de você, basta ligar para nós no número (2602-8000) ou </span></span></span><a href="https://agendamentocema.com.br/" style="text-decoration:none" target="_blank"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#1155cc"><u>marcar pelo nosso site</u></span></span></span></a><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">.&nbsp;</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Garantimos praticidade e acesso rápido aos cuidados oftalmológicos que você merece!</span></span></span></p>
+
+<p style="text-align:justify"><a href="https://www.cemahospital.com.br/oftalmologia/" style="text-decoration:none" target="_blank"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#1155cc"><u>Agende agora a sua consulta!</u></span></span></span></a></p>
+
+<h2 style="text-align:justify"><span style="font-size:16pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Por que escolher o CEMA?</span></span></span></h2>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Escolher o CEMA é optar por excelência e dedicação em cuidados à saúde, além de ter a certeza que terá um oftalmologista perto de você.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Em <a href="https://www.cemahospital.com.br/nossas-unidades/" target="_blank"><strong>nossas unidades</strong></a>, contamos com uma equipe médica altamente qualificada e especializada, pronta para tratar você com humanidade e respeito.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Destacamos também o nosso compromisso com a tecnologia aliado à atenção personalizada, o que faz do CEMA um lugar único para cuidados oculares.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">No mais, a reputação do nosso Hospital como centro de referência em diversas especialidades reforça a confiança de que você estará em boas mãos.</span></span></span></p>
+
+<p style="text-align:justify"><a href="https://www.cemahospital.com.br/oftalmologia/" style="text-decoration:none" target="_blank"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#1155cc"><u>Escolha a excelência em cuidados à saúde ao procurar um oftalmologista perto de você. Agende sua consulta no CEMA Hospital hoje mesmo.</u></span></span></span></a></p>
+
+<p><img alt="clinica-oftalmologica" src="https://www.cemahospital.com.br/painel/storage/news/clinica-oftalmologica.jpg" style="height:880px; width:1280px"></p>
+
+<h2 style="text-align:justify"><span style="font-size:16pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Conclusão</span></span></span></h2>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Encontre um oftalmologista perto de você nas unidades CEMA e receba cuidados excepcionais para a saúde dos seus olhos.&nbsp;</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Com diversas localizações estratégicas na grande&nbsp; São Paulo e Guarulhos, nossas instalações oferecem consultas, exames e pronto atendimento de qualidade, além de oftalmologistas perto de você.</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Agende sua consulta agora mesmo através do nosso site ou ligando para garantir atendimento especializado e personalizado.</span></span></span></p>        </div>
+        <div class="separador-data-pub mt-3">
+            <b>Data de Publicação : </b>
+            14/02/2025        </div>
+        <div class="separador-data-pub mt-3">
+            <b>Autor de Publicação : </b>
+            Cema Hospital        </div>
+    </div>
+
+</div>
+
+<style>
+.separador-data-pub b{
+    color: #000;
+}
+#container-inst-esquerda h2{
+    position: relative;
+    text-align: center;
+    color: #50a989;
+}
+
+#container-inst-esquerda span{
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.not_conteudo h1{
+    font-size: 2rem;
+}
+
+.not_conteudo h2{
+    font-size: 1.5rem;
+}
+
+.not_conteudo h3{
+    font-size: 1rem;
+}
+
+.not_conteudo h4{
+    font-size: 0.75rem;
+}
+
+.not_conteudo span,
+.not_conteudo p{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+}
+</style>
+
+                    </div>
+                    <div class="container-fluid" style="padding: 0px">
+                        <footer class="footer-nav">
+    <div class="nav-bot space_ajust">
+        <div class="nav-bot-end">
+            <a href="https://www.cemahospital.com.br/"><img src="https://www.cemahospital.com.br/img/h-f/logof.png" alt="Logotipo Cema"></a>
+            <div class="nav-bot-end-text">
+                <a href="https://goo.gl/maps/NWQ93KbShV72" target="_blank" rel="noopener" class="endereco-footer">Rua Padre Adelino, 333 - Belém - São Paulo | SP</a>
+                <p class="nav-bot-end-text-tel">Consultas e Exames: <a href="tel:+551126028000">(11) 2602-8000</a></p>
+                <p class="nav-bot-end-text-tel">Administração: <a href="tel:+551126024000">(11) 2602-4000</a></p><br>
+                <p>Responsável Técnico: Dr. Minoru Fujii - CRM: 58.273​</p>
+            </div>
+        </div>
+        <div class="nav-bot-nav">
+        <img src="https://www.cemahospital.com.br/img/h-f/selo.png" alt="Selo Cema" width="110">
+        </div>
+        <div class="nav-bot-nav">
+            <ul>
+                <li><a href="https://agendamentocema.com.br/" target="_blank" rel="noopener">Agendamento Online</a></li>
+                <li><a href="https://www.cemahospital.com.br/assessoria-de-imprensa">Assessoria de Imprensa</a></li>
+                <li><a href="https://www.cemahospital.com.br/blog">Blog</a></li>
+                <li><a href="https://www.cemahospital.com.br/cema-news">CEMA News</a></li>
+                <li><a href="https://www.cemahospital.com.br/centro-de-estudos">Centro de Estudos</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://www.cemahospital.com.br/contato" target="_blank">Contato</a></li>
+                <li><a class="anchor" href="https://www.cemahospital.com.br/convenios" target="_blank">Convênios</a></li>
+                
+                <li><a class="anchor" href="./#especialidades">Especialidades</a></li>
+                <li><a href="https://www.cemahospital.com.br/institucional">Institucional</a></li>
+                <li><a href="https://www.cemahospital.com.br/politica-de-privacidade">Política de Privacidade</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://www.cemahospital.com.br/nossas-unidades">Nossas Unidades</a></li>
+                <li><a href="https://www.cemahospital.com.br/revista-revicience">Revista Revicience</a></li>
+                <li><a href="https://www.cemahospital.com.br/sac">SAC</a></li>
+                <li><a href="https://www.cemahospital.com.br/trabalhe-conosco">Trabalhe Conosco</a></li>
+                <li><a href="https://www.cemahospital.com.br/protocolodeseguranca">Protocolo de Segurança</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-nav-corp space_ajust">
+        <span>Copyright © 2018 - Hospital CEMA</span>
+    </div>
+    <div class="scroll_top" title="Voltar ao topo?" style="display: block;">
+      <img src="img/arrow-top.svg" alt="Voltar ao topo" title="Voltar ao topo?">
+    </div>
+</footer>                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="https://www.cemahospital.com.br/blog/js/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="https://www.cemahospital.com.br/blog/js/jquery.mask.functions.js"></script>
+    <script src="https://www.cemahospital.com.br/blog/js/global.js"></script>
+    <script src="https://www.cemahospital.com.br/blog/js/single-submit.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+    </script>
+            
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KP2CC9B" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+
+
+	  
+	  	<script>	
+			
+			const url = document.URL;
+
+			let head = document.querySelector("head");
+
+
+			head.innerHTML = `${head.innerHTML}<link rel="canonical" href="${url}" />`;  
+
+
+			if(url == "http://www.cemahospital.com.br/conteudos/?efh4fdezna==" || url == "http://www.cemahospital.com.br/conteudos/eFh4fDEzNA=="  || url == "http://www.cemahospital.com.br/conteudos/eFh4fDEzNA==/"){
+
+				
+				window.location.href = "https://www.cemahospital.com.br/blog/rouquidao-tosse-seca-e-dor-de-garganta-podem-indicar-disfuncoes-no-aparelho-vocal-voce-sabia";
+				
+
+			}
+			
+/*			if(url == "http://cemahospital.com.br/noticias/?eFh4fDExOQ==" || url == "https://cemahospital.com.br/noticias/?eFh4fDExOQ=="){
+
+				
+				window.location.href = "https://www.cemahospital.com.br/blog/rouquidao-tosse-seca-e-dor-de-garganta-podem-indicar-disfuncoes-no-aparelho-vocal-voce-sabia";
+				
+
+			}*/
+			
+
+			
+		</script>  
+		
+		
+		
+		<script>
+		
+			
+			setTimeout(function(){
+			
+				let link = document.querySelector(`a[href="https://www.cemahospital.com.br/pdf/Edital_Convocacao_RCA.pdf"]`);
+				
+				let link2 = document.querySelector(`a[href="https://www.cemahospital.com.br/pdf/Edital_Convocacao_AGE.pdf"]`);
+			
+				link.href = link.href.toLocaleLowerCase();
+				
+				link2.href = link2.href.toLocaleLowerCase();
+
+			
+			
+			}, 700);
+			
+			
+
+
+		</script>  
+		
+		
+		
+		<script>
+        
+		document.querySelector("body").id = "blog";
+	
+		
+	</script>
+		
+		
+	  </body></html>

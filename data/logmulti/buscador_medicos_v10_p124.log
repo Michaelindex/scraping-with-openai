@@ -1,0 +1,497 @@
+2025-05-22 02:36:40,179 - P17320 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 02:36:40,180 - P17320 - INFO - Nome: MATEUS CESAR DE ARAÚJO RODRIGUES
+2025-05-22 02:36:40,180 - P17320 - INFO - Reiniciando driver do Chrome
+2025-05-22 02:36:41,542 - P17320 - INFO - Após reiniciar driver Uso de memória: 101.23 MB
+2025-05-22 02:36:41,546 - P17320 - INFO - Início do processamento Uso de memória: 101.23 MB
+2025-05-22 02:36:41,546 - P17320 - INFO - Iniciando busca para: MATEUS CESAR DE ARAÚJO RODRIGUES CRM 1224743 RJ telefone e-mail endereço
+2025-05-22 02:36:41,915 - P17320 - INFO - SearX results: 6 URLs
+2025-05-22 02:36:41,916 - P17320 - INFO - Após SearX Uso de memória: 101.23 MB
+2025-05-22 02:36:44,450 - P17320 - INFO - Google results: 6 URLs
+2025-05-22 02:36:44,450 - P17320 - INFO - Após Google Uso de memória: 101.63 MB
+2025-05-22 02:36:46,871 - P17320 - INFO - Bing results: 15 URLs
+2025-05-22 02:36:46,871 - P17320 - INFO - Após Bing Uso de memória: 102.44 MB
+2025-05-22 02:36:46,871 - P17320 - INFO - Total de URLs únicas: 21
+2025-05-22 02:36:46,871 - P17320 - INFO - Processando URL 1/21: https://www.consultacrm.com.br/index/sis_login
+2025-05-22 02:36:51,626 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e56926aa25e0582d5c5b8aa167ed4b53.html
+2025-05-22 02:36:51,641 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:36:51,641 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:36:51,642 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:36:51,642 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:36:51,642 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:36:51,643 - P17320 - INFO - Após processar URL 1 Uso de memória: 102.46 MB
+2025-05-22 02:36:51,643 - P17320 - INFO - Processando URL 2/21: https://crmvirtual.cfm.org.br/BR/servico/pesquisa-por-medicos
+2025-05-22 02:36:53,898 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\59cb615f6ca0063274c579afdefa3d38.html
+2025-05-22 02:36:53,899 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:36:53,899 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:36:53,899 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:36:53,900 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:36:53,900 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:36:53,900 - P17320 - INFO - Após processar URL 2 Uso de memória: 102.46 MB
+2025-05-22 02:36:53,900 - P17320 - INFO - Processando URL 3/21: https://webdisk.diariooficial.rn.gov.br/Jornal/12024-11-13.pdf
+2025-05-22 02:36:53,900 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://webdisk.diariooficial.rn.gov.br/Jornal/12024-11-13.pdf
+2025-05-22 02:36:53,901 - P17320 - INFO - Após processar URL 3 Uso de memória: 102.46 MB
+2025-05-22 02:36:53,901 - P17320 - INFO - Processando URL 4/21: https://guiamedico.cremesp.org.br/
+2025-05-22 02:36:57,074 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 02:36:57,082 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:36:57,082 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:36:57,082 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:36:57,082 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:36:57,082 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:36:57,083 - P17320 - INFO - Após processar URL 4 Uso de memória: 102.47 MB
+2025-05-22 02:36:57,083 - P17320 - INFO - Processando URL 5/21: https://www.consultacrm.com.br/index/contato
+2025-05-22 02:37:00,713 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\770622092e11df0ef8d0ed5d383f74a3.html
+2025-05-22 02:37:00,727 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:37:00,727 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:00,727 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:37:00,727 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:00,728 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:00,728 - P17320 - INFO - Após processar URL 5 Uso de memória: 102.48 MB
+2025-05-22 02:37:00,728 - P17320 - INFO - Processando URL 6/21: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 02:37:04,634 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 02:37:04,683 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:37:04,687 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:04,688 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:37:04,688 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:04,688 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:04,688 - P17320 - INFO - Após processar URL 6 Uso de memória: 102.49 MB
+2025-05-22 02:37:04,689 - P17320 - INFO - Processando URL 7/21: http://www.goiania.go.gov.br/download/legislacao/diariooficial/2018/do_20180228_000006762.pdf
+2025-05-22 02:37:04,689 - P17320 - INFO - Ignorando URL de arquivo não-HTML: http://www.goiania.go.gov.br/download/legislacao/diariooficial/2018/do_20180228_000006762.pdf
+2025-05-22 02:37:04,689 - P17320 - INFO - Após processar URL 7 Uso de memória: 102.49 MB
+2025-05-22 02:37:04,689 - P17320 - INFO - Processando URL 8/21: https://www.consultacrm.com.br/index/api
+2025-05-22 02:37:08,255 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\a1f22ffdf7e0eb1c02e28e1e38d3db87.html
+2025-05-22 02:37:08,266 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:37:08,267 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:08,267 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:37:08,267 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:08,267 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:08,267 - P17320 - INFO - Após processar URL 8 Uso de memória: 102.39 MB
+2025-05-22 02:37:08,267 - P17320 - INFO - Processando URL 9/21: https://portal.cfm.org.br/busca-medicos
+2025-05-22 02:37:12,258 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 02:37:12,306 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:37:12,306 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:12,306 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:37:12,307 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:37:12,307 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:37:12,307 - P17320 - INFO - Após processar URL 9 Uso de memória: 102.40 MB
+2025-05-22 02:37:12,307 - P17320 - INFO - Processando URL 10/21: https://guiasaudebrasil.com.br/profissional/c087f9ca5433a4d4-mateus-cesar-de-araujo-rodrigues
+2025-05-22 02:37:18,223 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\5d0134129591abd1613eaa91c95f3c5f.html
+2025-05-22 02:37:18,237 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:37:18,239 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:18,239 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:37:18,240 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:18,240 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:37:18,240 - P17320 - INFO - Após processar URL 10 Uso de memória: 102.41 MB
+2025-05-22 02:37:18,240 - P17320 - INFO - Processando URL 11/21: https://doutorcrm.com/
+2025-05-22 02:37:21,651 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\f650e4106d6b0c34ccf0db5be7fc5ddd.html
+2025-05-22 02:37:21,657 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:37:21,657 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:21,658 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:37:21,658 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:21,658 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:21,661 - P17320 - INFO - Após processar URL 11 Uso de memória: 102.41 MB
+2025-05-22 02:37:21,662 - P17320 - INFO - Processando URL 12/21: https://www.gov.br/mme/pt-br/arquivos/do-23-02-2011-s3.pdf
+2025-05-22 02:37:21,662 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.gov.br/mme/pt-br/arquivos/do-23-02-2011-s3.pdf
+2025-05-22 02:37:21,664 - P17320 - INFO - Após processar URL 12 Uso de memória: 102.41 MB
+2025-05-22 02:37:21,665 - P17320 - INFO - Processando URL 13/21: https://www.boaconsulta.com/especialista/mateus-cesar-de-araujo-rodrigues-61060e70a2e00a7ce1003119
+2025-05-22 02:37:23,808 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\b39d59641d32076efdadec72608afa2f.html
+2025-05-22 02:37:23,879 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:37:23,879 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:23,879 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:37:23,879 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:23,880 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:23,880 - P17320 - INFO - Após processar URL 13 Uso de memória: 102.41 MB
+2025-05-22 02:37:23,880 - P17320 - INFO - Processando URL 14/21: https://webdisk.diariooficial.rn.gov.br/Jornal/12023-10-24.pdf
+2025-05-22 02:37:23,880 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://webdisk.diariooficial.rn.gov.br/Jornal/12023-10-24.pdf
+2025-05-22 02:37:23,880 - P17320 - INFO - Após processar URL 14 Uso de memória: 102.41 MB
+2025-05-22 02:37:23,880 - P17320 - INFO - Processando URL 15/21: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/220703562.pdf
+2025-05-22 02:37:23,881 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/220703562.pdf
+2025-05-22 02:37:23,881 - P17320 - INFO - Após processar URL 15 Uso de memória: 102.41 MB
+2025-05-22 02:37:23,881 - P17320 - INFO - Processando URL 16/21: https://www.cremerj.org.br/
+2025-05-22 02:37:27,535 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\57d5b230cbdcf7d719e9b2b2f238c4f1.html
+2025-05-22 02:37:27,597 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:37:27,597 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 02:37:27,598 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:37:27,598 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:27,598 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 02:37:27,598 - P17320 - INFO - Após processar URL 16 Uso de memória: 102.41 MB
+2025-05-22 02:37:27,598 - P17320 - INFO - Processando URL 17/21: https://www.consultacrm.com.br/index/maisvistos
+2025-05-22 02:37:31,487 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9a17d88beef1266c6e4649221409a571.html
+2025-05-22 02:37:31,496 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:37:31,496 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:31,496 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:37:31,496 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:31,496 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:31,497 - P17320 - INFO - Após processar URL 17 Uso de memória: 102.41 MB
+2025-05-22 02:37:31,497 - P17320 - INFO - Processando URL 18/21: https://www.consultacrm.com.br/index/especialidades
+2025-05-22 02:37:35,135 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\3cb327d5e0f962fa7a1db5a948fb6f40.html
+2025-05-22 02:37:35,264 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:37:35,264 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:35,265 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:37:35,265 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:35,265 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:35,265 - P17320 - INFO - Após processar URL 18 Uso de memória: 102.84 MB
+2025-05-22 02:37:35,265 - P17320 - INFO - Processando URL 19/21: https://www.consultacrm.com.br/?uf=SP
+2025-05-22 02:37:38,408 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\60d20285cf74ceed0f862951f9b2b598.html
+2025-05-22 02:37:38,418 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:37:38,418 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:38,419 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:37:38,419 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:38,419 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:38,419 - P17320 - INFO - Após processar URL 19 Uso de memória: 102.84 MB
+2025-05-22 02:37:38,419 - P17320 - INFO - Processando URL 20/21: https://doe.to.gov.br/diario/3299/download
+2025-05-22 02:37:40,693 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\3f5e392efc66c55a97d08e365908673b.html
+2025-05-22 02:37:40,694 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:37:40,694 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:40,694 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:37:40,694 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:40,695 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:40,695 - P17320 - INFO - Após processar URL 20 Uso de memória: 102.84 MB
+2025-05-22 02:37:40,695 - P17320 - INFO - Processando URL 21/21: https://consultacrm.com.br/
+2025-05-22 02:37:44,257 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:37:44,271 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:37:44,275 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:44,276 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:37:44,276 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:44,276 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:37:44,276 - P17320 - INFO - Após processar URL 21 Uso de memória: 102.86 MB
+2025-05-22 02:37:44,276 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:37:44,277 - P17320 - INFO - Ranked address: 2 items
+2025-05-22 02:37:44,277 - P17320 - INFO - Ranked phone: 3 items
+2025-05-22 02:37:44,277 - P17320 - INFO - Ranked email: 1 items
+2025-05-22 02:37:44,277 - P17320 - INFO - Ranked complement: 1 items
+2025-05-22 02:37:44,278 - P17320 - INFO - Ranked cep: 6 items
+2025-05-22 02:37:44,279 - P17320 - INFO - Após agregação Uso de memória: 102.86 MB
+2025-05-22 02:37:44,279 - P17320 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Rua Praca Das Industrias, 123']
+2025-05-22 02:37:44,280 - P17320 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 02:37:44,281 - P17320 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 02:37:44,281 - P17320 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 02:37:44,281 - P17320 - INFO - Validando telefone: ['(11) 4349-9900', '(21) 3184-7050', '(21) 98491-1522']
+2025-05-22 02:37:44,281 - P17320 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 02:37:44,282 - P17320 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 02:37:44,282 - P17320 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 02:37:44,282 - P17320 - INFO - Validando email: ['cfm@portalmedico.org.br']
+2025-05-22 02:37:44,282 - P17320 - INFO - Limpando texto extenso para campo email: cfm@portalmedico.org.br...
+2025-05-22 02:37:44,282 - P17320 - INFO - Texto limpo: cfm@portalmedico.org.br
+2025-05-22 02:37:44,283 - P17320 - INFO - Email validado: cfm@portalmedico.org.br
+2025-05-22 02:37:44,283 - P17320 - INFO - Validando complemento: ['Conjunto D']
+2025-05-22 02:37:44,283 - P17320 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 02:37:44,283 - P17320 - INFO - Texto limpo: Conjunto D
+2025-05-22 02:37:44,284 - P17320 - INFO - Complemento validado: Conjunto D
+2025-05-22 02:37:44,284 - P17320 - INFO - Descobrindo cidade
+2025-05-22 02:37:44,285 - P17320 - INFO - Buscando cidade: Rua Frei Caneca cidade RJ
+2025-05-22 02:37:46,595 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 02:37:46,595 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 02:37:46,595 - P17320 - INFO - Tempo de execução de processamento completo do médico: 65.05 segundos
+2025-05-22 02:37:46,595 - P17320 - INFO - Resultado processado: {'Hash': '718b0cf5c827aa1dd0ffa9f3bd8fed1333190ae78e728ba7a6ec7f45f131a38b', 'CRM': '1224743', 'UF': 'RJ', 'Firstname': 'MATEUS', 'LastName': 'CESAR DE ARAÚJO RODRIGUES', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Conjunto D', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cfm@portalmedico.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:37:46,597 - P17320 - INFO - Progresso: 30.0%
+2025-05-22 02:37:46,597 - P17320 - INFO - Executando coleta de lixo
+2025-05-22 02:37:46,645 - P17320 - INFO - Após coleta de lixo Uso de memória: 92.80 MB
+2025-05-22 02:37:46,646 - P17320 - INFO - Tempo de execução de processamento do médico 1: 66.47 segundos
+2025-05-22 02:37:46,646 - P17320 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 02:37:46,646 - P17320 - INFO - Nome: RAÍSSA ARCOVERDE BORBOREMA MENDES DYTZ
+2025-05-22 02:37:46,646 - P17320 - INFO - Início do processamento Uso de memória: 92.80 MB
+2025-05-22 02:37:46,646 - P17320 - INFO - Iniciando busca para: RAÍSSA ARCOVERDE BORBOREMA MENDES DYTZ CRM 1231286 RJ telefone e-mail endereço
+2025-05-22 02:37:47,106 - P17320 - INFO - SearX results: 0 URLs
+2025-05-22 02:37:47,106 - P17320 - INFO - Após SearX Uso de memória: 92.80 MB
+2025-05-22 02:37:50,000 - P17320 - INFO - Google results: 0 URLs
+2025-05-22 02:37:50,000 - P17320 - INFO - Após Google Uso de memória: 95.39 MB
+2025-05-22 02:37:52,900 - P17320 - INFO - Bing results: 9 URLs
+2025-05-22 02:37:52,901 - P17320 - INFO - Após Bing Uso de memória: 98.05 MB
+2025-05-22 02:37:52,901 - P17320 - INFO - Total de URLs únicas: 9
+2025-05-22 02:37:52,901 - P17320 - INFO - Processando URL 1/9: https://empresasweb.net/emp/raissa-dytz-prestacao-de-servicos-em-medicina-ltda-43635805
+2025-05-22 02:37:55,959 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\91347be71b4fe5c75e4bf93c43dec408.html
+2025-05-22 02:37:55,976 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:37:55,976 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:37:55,976 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:37:55,976 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:37:55,976 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:37:55,977 - P17320 - INFO - Após processar URL 1 Uso de memória: 98.38 MB
+2025-05-22 02:37:55,977 - P17320 - INFO - Processando URL 2/9: https://cnpj.services/qsa/raissa-arcoverde-borborema-mendes-dytz
+2025-05-22 02:37:58,996 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7baa34edd10eae003946057c76341bef.html
+2025-05-22 02:37:59,007 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:37:59,007 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:37:59,008 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:37:59,008 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:37:59,008 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:37:59,008 - P17320 - INFO - Após processar URL 2 Uso de memória: 99.51 MB
+2025-05-22 02:37:59,010 - P17320 - INFO - Processando URL 3/9: https://aboutcompany.info/country/brazil/officer/110671/raissa-arcoverde-borborema-mendes-dytz/
+2025-05-22 02:38:02,966 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\1f3b8f03efad4a883ef468b947112a29.html
+2025-05-22 02:38:02,977 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:38:02,977 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:38:02,977 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:38:02,977 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:38:02,977 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:38:02,978 - P17320 - INFO - Após processar URL 3 Uso de memória: 99.62 MB
+2025-05-22 02:38:02,978 - P17320 - INFO - Processando URL 4/9: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 02:38:05,951 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 02:38:05,991 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:38:05,992 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:38:05,992 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:38:05,992 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:38:05,992 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:38:05,992 - P17320 - INFO - Após processar URL 4 Uso de memória: 99.76 MB
+2025-05-22 02:38:05,993 - P17320 - INFO - Processando URL 5/9: https://cnpj.ohub.com.br/cnpj/raissa-dytz-43635805000114
+2025-05-22 02:38:09,715 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\fc021055c9544a9022641fd768aad6a2.html
+2025-05-22 02:38:09,728 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:38:09,729 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:38:09,729 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:38:09,729 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:38:09,729 - P17320 - INFO - Candidates cep: 9 items
+2025-05-22 02:38:09,730 - P17320 - INFO - Após processar URL 5 Uso de memória: 99.95 MB
+2025-05-22 02:38:09,730 - P17320 - INFO - Processando URL 6/9: https://consultacrm.com.br/
+2025-05-22 02:38:13,293 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:38:13,306 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:38:13,306 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:38:13,306 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:38:13,306 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:38:13,306 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:38:13,307 - P17320 - INFO - Após processar URL 6 Uso de memória: 100.09 MB
+2025-05-22 02:38:13,307 - P17320 - INFO - Processando URL 7/9: https://portal.cfm.org.br/busca-medicos
+2025-05-22 02:38:16,649 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 02:38:16,690 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:38:16,690 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:38:16,690 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:38:16,691 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:38:16,691 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:38:16,691 - P17320 - INFO - Após processar URL 7 Uso de memória: 100.34 MB
+2025-05-22 02:38:16,691 - P17320 - INFO - Processando URL 8/9: https://www.solutudo.com.br/empresas/rj/rio-janeiro/medicos/raissa-dytz-prestacao-de-servicos-em-medicina-ltda-24929646
+2025-05-22 02:38:23,305 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\25eae51eaa15df26c708c4696af22b57.html
+2025-05-22 02:38:23,357 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:38:23,358 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:38:23,358 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:38:23,358 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:38:23,358 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:38:23,359 - P17320 - INFO - Após processar URL 8 Uso de memória: 100.39 MB
+2025-05-22 02:38:23,359 - P17320 - INFO - Processando URL 9/9: https://www.sociosbrasil.com/nome/raissa-arcoverde-borborema-mendes-dytz
+2025-05-22 02:38:27,729 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\f100e511fd403e000349299280264312.html
+2025-05-22 02:38:27,735 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:38:27,735 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:38:27,735 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:38:27,736 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:38:27,736 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:38:27,737 - P17320 - INFO - Após processar URL 9 Uso de memória: 100.40 MB
+2025-05-22 02:38:27,737 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:38:27,737 - P17320 - INFO - Ranked address: 1 items
+2025-05-22 02:38:27,737 - P17320 - INFO - Ranked phone: 2 items
+2025-05-22 02:38:27,737 - P17320 - INFO - Ranked email: 3 items
+2025-05-22 02:38:27,738 - P17320 - INFO - Ranked complement: 3 items
+2025-05-22 02:38:27,738 - P17320 - INFO - Ranked cep: 12 items
+2025-05-22 02:38:27,738 - P17320 - INFO - Após agregação Uso de memória: 100.40 MB
+2025-05-22 02:38:27,739 - P17320 - INFO - Validando endereço: ['Rua Sao Francisco Xavier, 121']
+2025-05-22 02:38:27,739 - P17320 - INFO - Endereço validado: Rua Sao Francisco Xavier, 121
+2025-05-22 02:38:27,739 - P17320 - INFO - Limpando texto extenso para campo address: Rua Sao Francisco Xavier, 121...
+2025-05-22 02:38:27,740 - P17320 - INFO - Texto limpo: Rua Sao Francisco Xavier, 121
+2025-05-22 02:38:27,740 - P17320 - INFO - Validando telefone: ['+556182527888', '(61) 8252-7888']
+2025-05-22 02:38:27,740 - P17320 - INFO - Limpando texto extenso para campo phone: (61) 8252-7888...
+2025-05-22 02:38:27,741 - P17320 - INFO - Texto limpo: 61) 8252-7888
+2025-05-22 02:38:27,742 - P17320 - INFO - Telefone validado: 61) 8252-7888
+2025-05-22 02:38:27,743 - P17320 - INFO - Validando email: ['RAISSABORBOREMA@GMAIL.COM', 'cfm@portalmedico.org.br', 'a@gmail.com']
+2025-05-22 02:38:27,744 - P17320 - INFO - Limpando texto extenso para campo email: RAISSABORBOREMA@GMAIL.COM...
+2025-05-22 02:38:27,744 - P17320 - INFO - Texto limpo: raissaborborema@gmail.com
+2025-05-22 02:38:27,744 - P17320 - INFO - Email validado: raissaborborema@gmail.com
+2025-05-22 02:38:27,744 - P17320 - INFO - Validando complemento: ['Apt 208', 'Conjunto D', 'Apt 208 Tijuca']
+2025-05-22 02:38:27,744 - P17320 - INFO - Limpando texto extenso para campo complement: Apt 208...
+2025-05-22 02:38:27,745 - P17320 - INFO - Texto limpo: Apt 208
+2025-05-22 02:38:27,745 - P17320 - INFO - Complemento validado: Apt 208
+2025-05-22 02:38:27,745 - P17320 - INFO - Descobrindo cidade
+2025-05-22 02:38:27,745 - P17320 - INFO - Buscando cidade: Rua Sao Francisco Xavier cidade RJ
+2025-05-22 02:38:30,449 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 02:38:30,449 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 02:38:30,449 - P17320 - INFO - Tempo de execução de processamento completo do médico: 43.80 segundos
+2025-05-22 02:38:30,450 - P17320 - INFO - Resultado processado: {'Hash': '91c0c48d34a2c4cc977ae83650aac69c2711c9ef211e64ec8b0d4974494ba06f', 'CRM': '1231286', 'UF': 'RJ', 'Firstname': 'RAÍSSA', 'LastName': 'ARCOVERDE BORBOREMA MENDES DYTZ', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Sao Francisco Xavier, 121', 'Address A1': 'Rua Sao Francisco Xavier', 'Numero A1': '121', 'Complement A1': 'Apt 208', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '61) 8252-7888', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'raissaborborema@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:38:30,450 - P17320 - INFO - Progresso: 30.4%
+2025-05-22 02:38:30,451 - P17320 - INFO - Tempo de execução de processamento do médico 2: 43.80 segundos
+2025-05-22 02:38:30,451 - P17320 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 02:38:30,451 - P17320 - INFO - Nome: ANTONIO JOSÉ CORDEIRO PINTO
+2025-05-22 02:38:30,451 - P17320 - INFO - Início do processamento Uso de memória: 100.11 MB
+2025-05-22 02:38:30,452 - P17320 - INFO - Iniciando busca para: ANTONIO JOSÉ CORDEIRO PINTO CRM 1232045 RJ telefone e-mail endereço
+2025-05-22 02:38:31,102 - P17320 - INFO - SearX results: 10 URLs
+2025-05-22 02:38:31,103 - P17320 - INFO - Após SearX Uso de memória: 100.11 MB
+2025-05-22 02:38:33,638 - P17320 - INFO - Google results: 6 URLs
+2025-05-22 02:38:33,638 - P17320 - INFO - Após Google Uso de memória: 101.00 MB
+2025-05-22 02:38:36,476 - P17320 - INFO - Bing results: 9 URLs
+2025-05-22 02:38:36,476 - P17320 - INFO - Após Bing Uso de memória: 101.70 MB
+2025-05-22 02:38:36,476 - P17320 - INFO - Total de URLs únicas: 16
+2025-05-22 02:38:36,476 - P17320 - INFO - Processando URL 1/16: https://cnpj.biz/49491788000175
+2025-05-22 02:38:40,980 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\39eff309eda508a7716a3cc8ac5a43d2.html
+2025-05-22 02:38:41,008 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 02:38:41,009 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:38:41,009 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:38:41,009 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:38:41,010 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 02:38:41,010 - P17320 - INFO - Após processar URL 1 Uso de memória: 101.73 MB
+2025-05-22 02:38:41,010 - P17320 - INFO - Processando URL 2/16: https://www.solutudo.com.br/empresas/rj/teresopolis/clinica-medica-ou-medicina-interna/antonio-jose-cordeiro-pinto-servicos-medicos-ltda-25367165
+2025-05-22 02:38:44,402 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\b5519e8df71a6bd1db0e1d697b2597dd.html
+2025-05-22 02:38:44,450 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:38:44,451 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:38:44,457 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:38:44,458 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:38:44,458 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:38:44,460 - P17320 - INFO - Após processar URL 2 Uso de memória: 94.84 MB
+2025-05-22 02:38:44,460 - P17320 - INFO - Processando URL 3/16: https://inteligen.com.br/empresa/antonio-jose-cordeiro-pinto-scp-0713-4id-medicos-associados-ltda-scp-0713-49491788000175
+2025-05-22 02:38:48,225 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\373cba5ca6ca028b9afc0fe0cde9a646.html
+2025-05-22 02:38:48,243 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:38:48,246 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:38:48,246 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:38:48,247 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:38:48,247 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:38:48,247 - P17320 - INFO - Após processar URL 3 Uso de memória: 95.19 MB
+2025-05-22 02:38:48,248 - P17320 - INFO - Processando URL 4/16: https://cadastroempresa.com.br/cnpj/47.167.233/0001-47-antonio-jose-cordeiro-pinto-servicos-medicos-ltda
+2025-05-22 02:38:50,751 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\fb235943739885f553fb9d17371b5403.html
+2025-05-22 02:38:50,771 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:38:50,772 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:38:50,772 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:38:50,772 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:38:50,772 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 02:38:50,772 - P17320 - INFO - Após processar URL 4 Uso de memória: 95.80 MB
+2025-05-22 02:38:50,773 - P17320 - INFO - Processando URL 5/16: https://www.cuf.pt/medicos/jose-cordeiro-pinto-0
+2025-05-22 02:38:57,267 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\d14bf0e8d8adacb35cb626e4c2a7c682.html
+2025-05-22 02:38:57,307 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:38:57,307 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:38:57,308 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:38:57,308 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:38:57,308 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:38:57,308 - P17320 - INFO - Após processar URL 5 Uso de memória: 98.23 MB
+2025-05-22 02:38:57,308 - P17320 - INFO - Processando URL 6/16: https://www.econodata.com.br/consulta-empresa/47167233000147-ANTONIO-JOSE-CORDEIRO-PINTO-SERVICOS-MEDICOS-LTDA
+2025-05-22 02:39:02,858 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\af5c5f24bbf1874e494661aac0aa4eac.html
+2025-05-22 02:39:03,011 - P17320 - INFO - Candidates address: 23 items
+2025-05-22 02:39:03,030 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:39:03,035 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:39:03,036 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:03,037 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:39:03,050 - P17320 - INFO - Após processar URL 6 Uso de memória: 101.69 MB
+2025-05-22 02:39:03,060 - P17320 - INFO - Processando URL 7/16: https://advdinamico.com.br/empresas/49491788000175
+2025-05-22 02:39:05,972 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\5a56cdb555221550b132a44df2bb123a.html
+2025-05-22 02:39:05,987 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:39:05,987 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:39:05,988 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:39:05,989 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:05,989 - P17320 - INFO - Candidates cep: 9 items
+2025-05-22 02:39:05,989 - P17320 - INFO - Após processar URL 7 Uso de memória: 101.04 MB
+2025-05-22 02:39:05,990 - P17320 - INFO - Processando URL 8/16: https://www.mdb.pt/noticia/partiu-d-antonio-jose-rafael-forca-da-natureza-que-concluiu-catedral
+2025-05-22 02:39:12,716 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\80d6a0fc2b05ea45fb4ed91775deff8e.html
+2025-05-22 02:39:12,742 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:39:12,743 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:39:12,743 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:39:12,743 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:12,743 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:39:12,744 - P17320 - INFO - Após processar URL 8 Uso de memória: 101.13 MB
+2025-05-22 02:39:12,744 - P17320 - INFO - Processando URL 9/16: https://portal.cfm.org.br/busca-medicos
+2025-05-22 02:39:15,990 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 02:39:16,038 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:39:16,039 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:39:16,039 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:39:16,040 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:39:16,041 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:39:16,041 - P17320 - INFO - Após processar URL 9 Uso de memória: 101.17 MB
+2025-05-22 02:39:16,042 - P17320 - INFO - Processando URL 10/16: https://cnpj.biz/47167233000147
+2025-05-22 02:39:18,392 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\fb6aa2b6ddff7d050bdf11d3e7492814.html
+2025-05-22 02:39:18,394 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:39:18,395 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:39:18,396 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:39:18,397 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:18,398 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:39:18,398 - P17320 - INFO - Após processar URL 10 Uso de memória: 101.17 MB
+2025-05-22 02:39:18,399 - P17320 - INFO - Processando URL 11/16: http://www.transparencia.cremerj.org.br:8098/planejamento/registroMedico/pesquisar
+2025-05-22 02:39:20,500 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\19128e1d0b16c1bd37c280ce751655f7.html
+2025-05-22 02:39:20,526 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:39:20,526 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:39:20,527 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:39:20,527 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:20,527 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:39:20,527 - P17320 - INFO - Após processar URL 11 Uso de memória: 101.18 MB
+2025-05-22 02:39:20,527 - P17320 - INFO - Processando URL 12/16: https://empresasweb.net/emp/antonio-jose-cordeiro-pinto-servicos-medicos-ltda-47167233
+2025-05-22 02:39:23,555 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\bcf96ac55bdbbebec9137a0757d47a73.html
+2025-05-22 02:39:23,567 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:39:23,567 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:39:23,567 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:39:23,568 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:23,568 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:39:23,568 - P17320 - INFO - Após processar URL 12 Uso de memória: 101.18 MB
+2025-05-22 02:39:23,568 - P17320 - INFO - Processando URL 13/16: https://consultacrm.com.br/
+2025-05-22 02:39:27,164 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:39:27,178 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:39:27,178 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:39:27,179 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:39:27,179 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:27,179 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:39:27,179 - P17320 - INFO - Após processar URL 13 Uso de memória: 101.89 MB
+2025-05-22 02:39:27,179 - P17320 - INFO - Processando URL 14/16: https://central3.to.gov.br/arquivo/300535/
+2025-05-22 02:39:29,504 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\b4dc660782c60a8499de0fe352efe988.html
+2025-05-22 02:39:29,505 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:39:29,505 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:39:29,506 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:39:29,506 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:29,506 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:39:29,506 - P17320 - INFO - Após processar URL 14 Uso de memória: 101.89 MB
+2025-05-22 02:39:29,507 - P17320 - INFO - Processando URL 15/16: https://www.cremerj.org.br/
+2025-05-22 02:39:32,730 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\57d5b230cbdcf7d719e9b2b2f238c4f1.html
+2025-05-22 02:39:32,798 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:39:32,798 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 02:39:32,798 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:39:32,799 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:32,799 - P17320 - INFO - Candidates cep: 3 items
+2025-05-22 02:39:32,799 - P17320 - INFO - Após processar URL 15 Uso de memória: 101.89 MB
+2025-05-22 02:39:32,799 - P17320 - INFO - Processando URL 16/16: https://rostossantacombadenses.blogs.sapo.pt/antonio-jose-marques-cordeiro-23130
+2025-05-22 02:39:37,620 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9cd3a20297fb01cfddcbef9365d8478e.html
+2025-05-22 02:39:37,649 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:39:37,651 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:39:37,651 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:39:37,653 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:39:37,653 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:39:37,655 - P17320 - INFO - Após processar URL 16 Uso de memória: 101.94 MB
+2025-05-22 02:39:37,655 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:39:37,656 - P17320 - INFO - Ranked address: 26 items
+2025-05-22 02:39:37,657 - P17320 - INFO - Ranked phone: 6 items
+2025-05-22 02:39:37,658 - P17320 - INFO - Ranked email: 7 items
+2025-05-22 02:39:37,659 - P17320 - INFO - Ranked complement: 1 items
+2025-05-22 02:39:37,659 - P17320 - INFO - Ranked cep: 18 items
+2025-05-22 02:39:37,660 - P17320 - INFO - Após agregação Uso de memória: 101.94 MB
+2025-05-22 02:39:37,661 - P17320 - INFO - Validando endereço: ['Estrada Abelardo da Cunha, 911', 'Rua Dagmar da Fonseca, 00192', 'Rua Dagmar da Fonseca 00192 Madureira Rio de Janeiro RJ']
+2025-05-22 02:39:37,669 - P17320 - INFO - Endereço validado: Estrada Abelardo da Cunha, 911
+2025-05-22 02:39:37,669 - P17320 - INFO - Limpando texto extenso para campo address: Estrada Abelardo da Cunha, 911...
+2025-05-22 02:39:37,670 - P17320 - INFO - Texto limpo: Estrada Abelardo da Cunha, 911
+2025-05-22 02:39:37,670 - P17320 - INFO - Validando telefone: ['(21) 3400-8164', '(21) 3184-7050', '(21) 9114-7781']
+2025-05-22 02:39:37,671 - P17320 - INFO - Limpando texto extenso para campo phone: (21) 3400-8164...
+2025-05-22 02:39:37,671 - P17320 - INFO - Texto limpo: 21) 3400-8164
+2025-05-22 02:39:37,671 - P17320 - INFO - Telefone validado: 21) 3400-8164
+2025-05-22 02:39:37,672 - P17320 - INFO - Validando email: ['contratos.societario@gmail.com', 'e@sedasi.com.br', 'clarisse@sedasi.com.br']
+2025-05-22 02:39:37,674 - P17320 - INFO - Limpando texto extenso para campo email: contratos.societario@gmail.com...
+2025-05-22 02:39:37,675 - P17320 - INFO - Texto limpo: contratos.societario@gmail.com
+2025-05-22 02:39:37,676 - P17320 - INFO - Email validado: contratos.societario@gmail.com
+2025-05-22 02:39:37,676 - P17320 - INFO - Validando complemento: ['Conjunto D']
+2025-05-22 02:39:37,676 - P17320 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 02:39:37,677 - P17320 - INFO - Texto limpo: Conjunto D
+2025-05-22 02:39:37,677 - P17320 - INFO - Complemento validado: Conjunto D
+2025-05-22 02:39:37,678 - P17320 - INFO - Descobrindo cidade
+2025-05-22 02:39:37,678 - P17320 - INFO - Buscando cidade: Estrada Abelardo da Cunha cidade RJ
+2025-05-22 02:39:40,589 - P17320 - INFO - Cidade encontrada: Teresópolis
+2025-05-22 02:39:40,590 - P17320 - INFO - Limpando texto extenso para campo city: Teresópolis...
+2025-05-22 02:39:40,590 - P17320 - INFO - Texto limpo: Teresópolis
+2025-05-22 02:39:40,590 - P17320 - INFO - Cidade descoberta: Teresópolis
+2025-05-22 02:39:40,590 - P17320 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 02:39:40,590 - P17320 - INFO - Iniciando busca de CEP em cascata para: Estrada Abelardo da Cunha, Teresópolis, RJ
+2025-05-22 02:39:40,591 - P17320 - INFO - Método 1: ViaCEP API
+2025-05-22 02:39:40,591 - P17320 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/RJ/teresopolis/estrada%20abelardo%20da%20cunha/json/
+2025-05-22 02:39:41,346 - P17320 - INFO - Dados encontrados no ViaCEP: {'cep': '25964-010', 'logradouro': 'Estrada Abelardo da Cunha', 'complemento': '', 'unidade': '', 'bairro': 'Iucas', 'localidade': 'Teresópolis', 'uf': 'RJ', 'estado': 'Rio de Janeiro', 'regiao': 'Sudeste', 'ibge': '3305802', 'gia': '', 'ddd': '21', 'siafi': '5915'}
+2025-05-22 02:39:41,348 - P17320 - INFO - CEP encontrado via ViaCEP: 25964-010
+2025-05-22 02:39:41,351 - P17320 - INFO - Dados de CEP encontrados: {'cep': '25964-010', 'logradouro': 'Estrada Abelardo da Cunha', 'complemento': '', 'unidade': '', 'bairro': 'Iucas', 'localidade': 'Teresópolis', 'uf': 'RJ', 'estado': 'Rio de Janeiro', 'regiao': 'Sudeste', 'ibge': '3305802', 'gia': '', 'ddd': '21', 'siafi': '5915'}
+2025-05-22 02:39:41,351 - P17320 - INFO - Limpando texto extenso para campo bairro: Iucas...
+2025-05-22 02:39:41,351 - P17320 - INFO - Texto limpo: Iucas
+2025-05-22 02:39:41,351 - P17320 - INFO - Limpando texto extenso para campo city: Teresópolis...
+2025-05-22 02:39:41,352 - P17320 - INFO - Texto limpo: Teresópolis
+2025-05-22 02:39:41,352 - P17320 - INFO - Limpando texto extenso para campo state: RJ...
+2025-05-22 02:39:41,353 - P17320 - INFO - Texto limpo: RJ
+2025-05-22 02:39:41,353 - P17320 - INFO - Tempo de execução de processamento completo do médico: 70.90 segundos
+2025-05-22 02:39:41,354 - P17320 - INFO - Resultado processado: {'Hash': '99bc9fad65b2f5abe5610e5bb9b9a55d1b08d2e9edd4e1443df052a8260e3733', 'CRM': '1232045', 'UF': 'RJ', 'Firstname': 'ANTONIO', 'LastName': 'JOSÉ CORDEIRO PINTO', 'Medical specialty': '', 'Endereco Completo A1': 'Estrada Abelardo da Cunha, 911', 'Address A1': 'Estrada Abelardo da Cunha', 'Numero A1': '911', 'Complement A1': 'Conjunto D', 'Bairro A1': 'Iucas', 'postal code A1': '25964-010', 'City A1': 'Teresópolis', 'State A1': 'RJ', 'Phone A1': '21) 3400-8164', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'contratos.societario@gmail.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:39:41,354 - P17320 - INFO - Salvando lote de resultados
+2025-05-22 02:39:41,355 - P17320 - INFO - Após salvar resultados Uso de memória: 100.81 MB
+2025-05-22 02:39:41,356 - P17320 - INFO - Progresso: 30.9%
+2025-05-22 02:39:41,356 - P17320 - INFO - Tempo de execução de processamento do médico 3: 70.91 segundos
+2025-05-22 02:39:41,358 - P17320 - INFO - Tempo de execução de processamento do lote completo: 181.18 segundos

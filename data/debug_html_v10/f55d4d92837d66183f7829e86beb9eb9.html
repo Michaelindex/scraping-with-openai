@@ -1,0 +1,606 @@
+<html lang="pt-BR"><head><style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button:not([disabled]):hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel:not([disabled]):hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger:not([disabled]):hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style>
+		<!-- Google Tag Manager -->
+		<script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/destination?id=AW-987370656&amp;cx=c&amp;gtm=45je55k1v9135303631za200&amp;tag_exp=101509157~103116026~103130498~103130500~103136993~103136995~103200004~103233427~103252644~103252646~103290358~103301114~103301116"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-MPCQEB97M0&amp;cx=c&amp;_slc=1"></script><script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202505190101/slotcar_library_fy2021.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-TQQPWVBCB1&amp;cx=c&amp;gtm=45He55k1h1v831693900za200&amp;tag_exp=101509157~103116026~103130498~103130500~103136993~103136995~103200004~103233427~103252644~103252646~103301114~103301116"></script><script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202505190101/show_ads_impl_fy2021.js"></script><script src="https://connect.facebook.net/signals/config/2388531354781708?v=2.9.202&amp;r=stable&amp;domain=www.situacaocadastral.info&amp;hme=1176bfe419ac27e059a43d3ca1b7b749889cd7631eab574b2b915396f4ce500a&amp;ex_m=74%2C129%2C114%2C118%2C65%2C6%2C107%2C73%2C19%2C101%2C93%2C55%2C58%2C184%2C205%2C212%2C208%2C209%2C211%2C32%2C108%2C57%2C81%2C210%2C179%2C182%2C206%2C207%2C192%2C141%2C45%2C197%2C194%2C195%2C37%2C153%2C18%2C54%2C201%2C200%2C143%2C21%2C44%2C2%2C47%2C69%2C70%2C71%2C75%2C97%2C20%2C17%2C100%2C96%2C95%2C115%2C56%2C117%2C42%2C116%2C33%2C98%2C43%2C90%2C29%2C180%2C183%2C150%2C14%2C15%2C16%2C8%2C9%2C28%2C25%2C26%2C61%2C66%2C68%2C79%2C106%2C109%2C30%2C80%2C12%2C10%2C84%2C52%2C24%2C111%2C110%2C112%2C103%2C13%2C23%2C4%2C41%2C78%2C22%2C162%2C137%2C77%2C1%2C99%2C60%2C88%2C36%2C31%2C86%2C87%2C92%2C40%2C7%2C94%2C85%2C48%2C35%2C38%2C0%2C72%2C119%2C91%2C5%2C51%2C50%2C102%2C89%2C249%2C177%2C127%2C165%2C158%2C3%2C39%2C67%2C46%2C113%2C49%2C83%2C64%2C63%2C34%2C104%2C62%2C59%2C53%2C82%2C76%2C27%2C105%2C11%2C120" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-KTQJR69"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-KTQJR69');</script>
+		<!-- End Google Tag Manager -->
+
+		<!-- Basic Page Needs
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<title>CNPJ: 42.080.521/0001-46 - Awp Prestacao de Servicos Medicos Ltda - Situação Cadastral</title>
+		
+	    <!-- Mobile Specific Metas
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+				
+		<!-- Favicon
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<link rel="shortcut icon" href="https://www.situacaocadastral.info/includes/images/favicon.png">
+
+		<!-- Google Font
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900%7CPlayfair+Display:400,400i,700,700i%7CRoboto:400,400i,500,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Corben" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://www.situacaocadastral.info/includes/css/fontawesome.all.css">
+		
+		<!-- Plugins CSS
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<link rel="stylesheet" type="text/css" href="https://www.situacaocadastral.info/includes/css/bootstrap.min.css">
+
+		<!-- Theme CSS
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<link rel="stylesheet" type="text/css" href="https://www.situacaocadastral.info/includes/css/styles.css">
+		
+		<!-- Otimizações de SEO
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<link rel="canonical" href="https://www.situacaocadastral.info/cnpj/awp-prestacao-de-servicos-medicos-ltda-42080521000146">
+		<meta name="description" content="O CNPJ da empresa Awp Prestacao de Servicos Medicos Ltda (Awp Prestacao de Servicos Medicos) é 42.080.521/0001-46. Com sede em CURITIBA, PR, possui 3 anos, 11 meses e 27 dias e foi fundada em 25/05/2021. A sua situação cadastral é BAIXADA e sua principal atividade econômica é Atividade Médica Ambulatorial Restrita A Consultas.</p>">
+		<meta name="robots" content="index, follow">
+		<meta name="resource-type" content="document">
+		<meta name="classification" content="Internet">
+		<meta name="distribution" content="Global">
+		<meta name="rating" content="General">
+		<meta http-equiv="content-language" content="pt-BR">
+		<meta name="keywords" content="CNPJ 42.080.521/0001-46, AWP PRESTACAO DE SERVICOS MEDICOS LTDA, Informe Cadastral, Consulta CNPJ, Localiza CNPJ, Informação Cadastral, Consultar Qualquer Empresa, Quadro de Sócios e Administradores, Situação Cadastral, Receita Federal, Consulta Gratuita">
+		<meta name="author" content="Ideia Gerais - Web Agency: ideiagerais.com.br">
+		
+		<meta property="og:locale" content="pt-br">
+		<meta property="og:url" content="https://www.situacaocadastral.info/cnpj/awp-prestacao-de-servicos-medicos-ltda-42080521000146">
+		<meta property="og:title" content="CNPJ: 42.080.521/0001-46 - Awp Prestacao de Servicos Medicos Ltda - Situação Cadastral">
+		<meta property="og:site_name" content="Situação Cadastral">
+		<meta property="og:description" content="O CNPJ da empresa Awp Prestacao de Servicos Medicos Ltda (Awp Prestacao de Servicos Medicos) é 42.080.521/0001-46. Com sede em CURITIBA, PR, possui 3 anos, 11 meses e 27 dias e foi fundada em 25/05/2021. A sua situação cadastral é BAIXADA e sua principal atividade econômica é Atividade Médica Ambulatorial Restrita A Consultas.</p>">
+		<meta property="og:type" content="website">
+		<meta property="fb:admins" content="situacaocadastral">
+		
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:title" content="CNPJ: 42.080.521/0001-46 - Awp Prestacao de Servicos Medicos Ltda - Situação Cadastral">
+		<meta name="twitter:description" content="O CNPJ da empresa Awp Prestacao de Servicos Medicos Ltda (Awp Prestacao de Servicos Medicos) é 42.080.521/0001-46. Com sede em CURITIBA, PR, possui 3 anos, 11 meses e 27 dias e foi fundada em 25/05/2021. A sua situação cadastral é BAIXADA e sua principal atividade econômica é Atividade Médica Ambulatorial Restrita A Consultas.</p>">
+		
+		<meta itemprop="name" content="CNPJ: 42.080.521/0001-46 - Awp Prestacao de Servicos Medicos Ltda - Situação Cadastral">
+		<meta itemprop="description" content="O CNPJ da empresa Awp Prestacao de Servicos Medicos Ltda (Awp Prestacao de Servicos Medicos) é 42.080.521/0001-46. Com sede em CURITIBA, PR, possui 3 anos, 11 meses e 27 dias e foi fundada em 25/05/2021. A sua situação cadastral é BAIXADA e sua principal atividade econômica é Atividade Médica Ambulatorial Restrita A Consultas.</p>">
+		<meta itemprop="image" content="">
+		<meta itemprop="url" content="https://www.situacaocadastral.info/cnpj/awp-prestacao-de-servicos-medicos-ltda-42080521000146">
+		
+
+		<!-- Facebook Pixel Code -->
+		<script>
+		  !function(f,b,e,v,n,t,s)
+		  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		  n.queue=[];t=b.createElement(e);t.async=!0;
+		  t.src=v;s=b.getElementsByTagName(e)[0];
+		  s.parentNode.insertBefore(t,s)}(window, document,'script',
+		  'https://connect.facebook.net/en_US/fbevents.js');
+		  fbq('init', '2388531354781708');
+		  fbq('track', 'PageView');
+		</script>
+		<noscript><img height="1" width="1" style="display:none"
+		  src="https://www.facebook.com/tr?id=2388531354781708&ev=PageView&noscript=1"
+		/></noscript>
+		<!-- End Facebook Pixel Code -->
+		<script data-ad-client="ca-pub-1256594485425474" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" data-checked-head="true"></script>
+
+		<!-- Schema LocalBusiness Code -->
+		<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","@id":"https://www.situacaocadastral.info/cnpj/awp-prestacao-de-servicos-medicos-ltda-42080521000146","name":"AWP PRESTACAO DE SERVICOS MEDICOS LTDA","url":"https://www.situacaocadastral.info/cnpj/awp-prestacao-de-servicos-medicos-ltda-42080521000146","legalName":"AWP PRESTACAO DE SERVICOS MEDICOS LTDA","foundingDate":"25/05/2021","taxID":"42.080.521/0001-46","telephone":"(41) 9958-6244","address":{"@type":"PostalAddress","streetAddress":"RUA OLIVEIRA VIANA, 2470 - BOQUEIRAO","addressLocality":"CURITIBA","addressRegion":"PR","postalCode":"81670-090","addressCountry":"BR"},"contactPoint":{"@type":"ContactPoint","contactType":"company contact","telephone":"(41) 9958-6244","email":"adamwolffpomin@gmail.com"}}</script>
+	<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script async="" src="https://fundingchoicesmessages.google.com/i/ca-pub-1256594485425474?href=https%3A%2F%2Fwww.situacaocadastral.info%2Fcnpj%2Fawp-prestacao-de-servicos-medicos-ltda-42080521000146&amp;ers=2"></script><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxU6ZGaaPqJoqwjZ4b1yrX6YACCPG8sooB-H0ikLlek_Ozul1L5E2X1VJPld4DIRx5NpUxSxSEQuy37RDzrAcduSwoew6riVfi6GSSiP_7Pft-7yDapxf8kttIjhKR3jZp--pnSg_g==?fccs=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFsxNzQ3ODk4MjA2LDkzMjAwMDAwMF0sbnVsbCxudWxsLG51bGwsW251bGwsWzddXSwiaHR0cHM6Ly93d3cuc2l0dWFjYW9jYWRhc3RyYWwuaW5mby9jbnBqL2F3cC1wcmVzdGFjYW8tZGUtc2Vydmljb3MtbWVkaWNvcy1sdGRhLTQyMDgwNTIxMDAwMTQ2IixudWxsLFtbOCwib2FLN2FGb19mLVUiXSxbOSwicHQtQlIiXSxbMTksIjIiXSxbMTcsIlswXSJdLFsyNCwiIl0sWzI5LCJmYWxzZSJdXV0"></script><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxV2pbneilTPYm2D1ud6PiXco8FDipvvD3-ciNL2KUOz63IOah1jAt-nSAxe0i3L5zoTnZwYc6FiptsbEbpOvjQg7ZmDgolb6hANW4Vep7Ofi9Aay8WB2w2yG5zm9OxOx1fQT3_2dw==?fccs=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFsxNzQ3ODk4MjA3LDIyMDAwMDAwXSxudWxsLG51bGwsbnVsbCxbbnVsbCxbNyw5XSxudWxsLDIsbnVsbCwicHQtUFQiXSwiaHR0cHM6Ly93d3cuc2l0dWFjYW9jYWRhc3RyYWwuaW5mby9jbnBqL2F3cC1wcmVzdGFjYW8tZGUtc2Vydmljb3MtbWVkaWNvcy1sdGRhLTQyMDgwNTIxMDAwMTQ2IixudWxsLFtbOCwib2FLN2FGb19mLVUiXSxbOSwicHQtQlIiXSxbMTksIjIiXSxbMTcsIlswXSJdLFsyNCwiIl0sWzI5LCJmYWxzZSJdXV0"></script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/987370656/?random=1747898207375&amp;cv=11&amp;fst=1747898207375&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be55k1v9132051023z8831693900za200zb831693900&amp;gcd=13l3l3l3l5l1&amp;dma=0&amp;tcfd=10000&amp;tag_exp=101509157~103116026~103130495~103130497~103136993~103136995~103200004~103233427~103252644~103252646~103301114~103301116&amp;ptag_exp=101509157~103116026~103130498~103130500~103136993~103136995~103200004~103233427~103252644~103252646~103301114~103301116&amp;u_w=800&amp;u_h=600&amp;url=https%3A%2F%2Fwww.situacaocadastral.info%2Fcnpj%2Fawp-prestacao-de-servicos-medicos-ltda-42080521000146&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=CNPJ%3A%2042.080.521%2F0001-46%20-%20Awp%20Prestacao%20de%20Servicos%20Medicos%20Ltda%20-%20Situa%C3%A7%C3%A3o%20Cadastral&amp;npa=0&amp;pscdl=noapi&amp;auid=1861361325.1747898207&amp;uaa=&amp;uab=&amp;uafvl=&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=&amp;uaw=0&amp;fledge=1&amp;_tu=Cg&amp;rfmt=3&amp;fmt=4"></script><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxUsotF_tPdqKEuHiPaHd_lP8yvX68J_vrJbZM5ZzHxVngzvKM1gBqp57Y0XoCLB9BI18qpKWPxkv2bNSApIXAaAHdKYn7S9t0aMPz7tuGnHkoju3RmWEuHckN305n2o4J-6o8vC9w==?fccs=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLFsxNzQ3ODk4MjA3LDg2MTAwMDAwMF0sbnVsbCxudWxsLG51bGwsW251bGwsWzcsOSw2XSxudWxsLDIsbnVsbCwicHQtUFQiLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCwxXSwiaHR0cHM6Ly93d3cuc2l0dWFjYW9jYWRhc3RyYWwuaW5mby9jbnBqL2F3cC1wcmVzdGFjYW8tZGUtc2Vydmljb3MtbWVkaWNvcy1sdGRhLTQyMDgwNTIxMDAwMTQ2IixudWxsLFtbOCwib2FLN2FGb19mLVUiXSxbOSwicHQtQlIiXSxbMTksIjIiXSxbMTcsIlswXSJdLFsyNCwiIl0sWzI5LCJmYWxzZSJdXV0"></script></head>
+	
+	<body class="vsc-initialized">
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTQJR69"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+
+		<!-- header Start
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<div class="" style="height: auto !important;">
+	<div class="container-fluid container-fluid-header container-fluid-header-green">
+	  <div class="container container-navbar">
+
+		<nav class="navbar navbar-expand-lg navbar-light">
+		  
+			<div class="col-logo">
+				<a class="navbar-brand" href="https://www.situacaocadastral.info/">
+					<img src="https://www.situacaocadastral.info/includes/images/logo_situacao_branco.png" class="img-logo img-fluid" alt="Situação Cadastral" title="Situação Cadastral">
+				</a>
+			</div>
+		  
+			<div class="col-btn">
+				<button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarInforme" aria-controls="navbarInforme" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+		  
+			<div class="collapse navbar-collapse" id="navbarInforme">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item ">
+						<a class="nav-link" href="https://app.situacaocadastral.info"><button type="button" class="btn btn-outline-light"><i class="fas fa-user"></i>Entrar</button></a>
+					</li>	
+				</ul>
+			</div>
+		</nav>
+
+	  </div>
+	</div>
+
+
+
+
+		<!-- Content
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<div class="container-fluid container-fluid-dados-cnpj px-0" style="height: auto !important;">
+	<div class="container container-dados-cnpj" style="height: auto !important;">
+		<div class="row row-dados-cnpj" style="height: auto !important;">
+
+			<div class="col-md-12" style="height: auto !important;">
+				<div class="card card-ads center_ads" style="height: auto !important;">
+					<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1256594485425474" crossorigin="anonymous" data-checked-head="true"></script>
+					<ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-1256594485425474" data-ad-slot="8912744240" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done" data-ad-status="unfilled"><div id="aswift_1_host" style="border: none; height: 280px; width: 1108px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;"><iframe id="aswift_1" name="aswift_1" browsingtopics="true" style="left:0;position:absolute;top:0;border:0;width:1108px;height:280px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1108" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1256594485425474&amp;output=html&amp;h=280&amp;slotname=8912744240&amp;adk=3610144918&amp;adf=3499857793&amp;pi=t.ma~as.8912744240&amp;w=1108&amp;abgtt=9&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1747898206&amp;rafmt=1&amp;format=1108x280&amp;url=https%3A%2F%2Fwww.situacaocadastral.info%2Fcnpj%2Fawp-prestacao-de-servicos-medicos-ltda-42080521000146&amp;fwr=0&amp;fwrattr=true&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiIiwiIiwiIiwiIixudWxsLDAsbnVsbCwiIixudWxsLDBd&amp;dt=1747898206208&amp;bpp=2&amp;bdt=612&amp;idt=143&amp;shv=r20250520&amp;mjsv=m202505190101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie_enabled=1&amp;eoidce=1&amp;prev_fmts=0x0&amp;nras=1&amp;correlator=1062725016613&amp;frm=20&amp;pv=1&amp;u_tz=-180&amp;u_his=50&amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=391&amp;ady=75&amp;biw=1889&amp;bih=985&amp;scr_x=0&amp;scr_y=0&amp;eid=95353387%2C95360610%2C95360960%2C95360295&amp;oid=2&amp;pvsid=6006380768833210&amp;tmod=204279157&amp;uas=0&amp;nvt=1&amp;fc=1920&amp;brdim=10%2C10%2C10%2C10%2C800%2C0%2C1920%2C1080%2C1904%2C985&amp;vis=1&amp;rsz=%7C%7CeE%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;bz=1.01&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;ifi=2&amp;uci=a!2&amp;fsb=1&amp;dtd=150" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CIDi0NzEto0DFV08uQYdKL0ucA" data-load-complete="true"></iframe></div></ins>
+					<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+				</div>
+			</div>
+
+						
+			<div class="col-md-12 col-lg-4">
+				
+				<div class="card">
+					<img class="card-img-top" src="https://www.situacaocadastral.info/includes/images/shared_welcome.png" alt="AWP PRESTACAO DE SERVICOS MEDICOS LTDA" title="AWP PRESTACAO DE SERVICOS MEDICOS LTDA">
+					<div class="card-body card-body-rz">
+						<img class="title" src="https://www.situacaocadastral.info/includes/images/icon-locate.png" align="left">
+						<h1 class="card-title">AWP PRESTACAO DE SERVICOS MEDICOS LTDA</h1>
+					</div>
+				</div>
+				
+				<div class="card card-data-cnpj">
+					<div class="card-body">
+						<p class="card-text">O CNPJ da empresa <strong>Awp Prestacao de Servicos Medicos Ltda</strong> (Awp Prestacao de Servicos Medicos) é <strong>42.080.521/0001-46</strong>. Com sede em CURITIBA, PR, possui 3 anos, 11 meses e 27 dias e foi fundada em 25/05/2021. A sua situação cadastral é <span class="red">BAIXADA</span> e sua principal atividade econômica é Atividade Médica Ambulatorial Restrita A Consultas.</p>
+					</div>
+				</div>
+				
+				<div class="card card-attention border-success">
+					<div class="card-body">
+						<p class="card-title card-title-attention text-success"><b>ANÁLISE DE CRÉDITO</b></p>
+						<p class="card-text"><i>Nunca mais leve sustos na hora de negociar com clientes e fornecedores.</i></p>
+						<p class="card-text">Faça uma <b>CONSULTA COMPLETA DE CNPJ</b> nos três maiores órgãos de proteção ao crédito do Brasil.</p>
+						<p class="card-text">O que você irá receber com essa consulta:</p>
+						
+						<p class="card-text"><b>Dívidas e Pendências Financeiras</b></p>
+						<p><i class="fas fa-check-circle"></i>Dívidas Vencidas (últimos 5 anos)</p>
+						<p><i class="fas fa-check-circle"></i>Cheques sem Fundos (CCF)</p>
+						<p><i class="fas fa-check-circle"></i>Protestos Nacionais</p>
+						<p><i class="fas fa-check-circle"></i>Passagens Comerciais</p>
+						<p><i class="fas fa-check-circle"></i><b>Score Financeiro</b></p>
+						<p class="card-text"><b>Síntese Cadastral Completa</b></p>
+						<p><i class="fas fa-check-circle"></i>Razão Social e Nome Fantasia</p>
+						<p><i class="fas fa-check-circle"></i>Telefones, <b>WhatsApp</b> e E-mails Atualizados</p>
+						<p><i class="fas fa-check-circle"></i>Data de Fundação</p>
+						<p><i class="fas fa-check-circle"></i>Quantidade de Funcionários</p>
+						<p><i class="fas fa-check-circle"></i>CNAE Principal e Secundário</p>
+						<p><i class="fas fa-check-circle"></i>Nome e CPF/CNPJ dos Sócios</p>
+						<p><i class="fas fa-check-circle"></i>Cargo e Participação dos Sócios</p>
+						<p><i class="fas fa-check-circle"></i>Participações em outras Empresas</p>
+
+						<p class="price-value mt-4 mb-0">
+							<span class="old text-muted">de <del>R$ 36,00</del><br>por</span>
+							<span class="currency">R$</span>
+							<span class="price">18</span>
+							<span class="cents">,00</span>
+						</p>
+						
+						<form method="post" action="https://www.situacaocadastral.info/carrinho-de-compras" accept-charset="utf-8">
+							<input type="hidden" name="cnpj" value="42.080.521/0001-46">
+							<input type="hidden" name="rz_social" value="AWP PRESTACAO DE SERVICOS MEDICOS LTDA">
+							<p class="text-center"><button type="submit" class="btn btn-grad btn-lg btn-block mt-0" alt="Comprar Agora" title="Comprar Agora">COMPRAR AGORA</button></p>
+						</form>
+						<p class="card-text small">As informações da consulta podem variar de acordo com a disponibilidade do sistema. A consulta será liberada imediatamente após a aprovação do pagamento.</p>
+												
+					</div>
+				</div>
+				
+				<div class="card">
+					<div class="card-header">
+						<i class="fas fa-plus-square"></i>CONSULTAR OUTRA EMPRESA?
+					</div>
+					<div class="card-body">
+						<form action="https://www.situacaocadastral.info/" name="formSearch" method="post" enctype="multipart/form-data" class="form-control shadow" id="formSearch">
+							<div class="input-group">
+								<input type="hidden" name="csrf_token" value="42334d4007cd19a6b44d0e74089d99577a12524d3f1d75967e1f8a1d137e4bbc">
+								<input class="form-control border-radius-right-0 border-0" type="tel" name="cnpj" id="cnpj" placeholder="00.000.000/0000-00" onkeyup="mascara(this, mcnpj);" maxlength="18" value="" required="">
+								<button type="submit" class="btn btn-grad mb-0">
+									<span class="d-none d-md-block">Buscar</span>
+									<span class="d-md-none"><i class="fas fa-check"></i></span>
+								</button>
+							</div>
+						</form>
+					</div>						
+				</div>
+				
+				<div class="card">
+					<div class="card-header"><h2><i class="fas fa-chevron-circle-right"></i>SOBRE ESTES DADOS:</h2></div>
+					<div class="card-body card-data-cnpj">
+					<p class="card-text">Este não é o site da empresa <strong>Awp Prestacao de Servicos Medicos Ltda</strong> inscrita no CNPJ 42.080.521/0001-46, trata-se apenas de uma página de informações cadastrais, e não possui qualquer relação com ela.</p>
+					<p class="card-text">Os dados apresentados, são dados <b>NÃO SENSÍVEIS</b> e de <b>ORIGEM PÚBLICA</b>, e não requerem autorização prévia para exibição conforme <a href="http://www.planalto.gov.br/CCIVIL_03/_Ato2015-2018/2016/Decreto/D8777.htm" alt="	
+Decreto nº 8.777: Institui a Política de Dados Abertos do Poder Executivo federal" title="	
+Decreto nº 8.777: Institui a Política de Dados Abertos do Poder Executivo federal" target="_blank">Decreto nº 8.777/2016</a>, que Institui a <b>Política de Dados Abertos</b> e pela <a href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm" alt="	
+Lei nº 12.527: Regula o acesso a informações" title="	
+Lei nº 12.527: Regula o acesso a informações" target="_blank">Lei nº 12.527/2011</a>, que regulamenta a <b>Garantia de acesso a Informações</b> previsto na Constituição Federal.</p>
+						<p class="card-text">Apesar da legalidade, respeitamos aqueles que expressam ativamente seu desejo em ocultar seus dados. Para isso utilize o link para <a href="https://www.situacaocadastral.info/privacidade/awp-prestacao-de-servicos-medicos-ltda-42080521000146" title="Requisitar Privacidade">Solicitar Privacidade</a>.</p>
+					</div>
+				</div>
+				
+				<div class="card card-ads left_ads">
+					<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<ins class="adsbygoogle" style="display: block; height: 0px;" data-ad-format="fluid" data-ad-layout-key="-7n+f0-j-5g+bm" data-ad-client="ca-pub-1256594485425474" data-ad-slot="4333235400" data-adsbygoogle-status="done" data-ad-status="unfilled"><div id="aswift_2_host" style="border: none; height: 0px; width: 348px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;"><iframe id="aswift_2" name="aswift_2" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 348px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="348" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1256594485425474&amp;output=html&amp;h=273&amp;slotname=4333235400&amp;adk=49882794&amp;adf=3070659613&amp;pi=t.ma~as.4333235400&amp;w=348&amp;abgtt=9&amp;lmt=1747898206&amp;rafmt=11&amp;format=348x273&amp;url=https%3A%2F%2Fwww.situacaocadastral.info%2Fcnpj%2Fawp-prestacao-de-servicos-medicos-ltda-42080521000146&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiIiwiIiwiIiwiIixudWxsLDAsbnVsbCwiIixudWxsLDBd&amp;dt=1747898206210&amp;bpp=1&amp;bdt=614&amp;idt=155&amp;shv=r20250520&amp;mjsv=m202505190101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie_enabled=1&amp;eoidce=1&amp;prev_fmts=0x0%2C1108x280&amp;nras=1&amp;correlator=1062725016613&amp;frm=20&amp;pv=1&amp;u_tz=-180&amp;u_his=50&amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=391&amp;ady=2228&amp;biw=1889&amp;bih=985&amp;scr_x=0&amp;scr_y=0&amp;eid=95353387%2C95360610%2C95360960%2C95360295&amp;oid=2&amp;pvsid=6006380768833210&amp;tmod=204279157&amp;uas=0&amp;nvt=1&amp;fc=1920&amp;brdim=10%2C10%2C10%2C10%2C800%2C0%2C1920%2C1080%2C1904%2C985&amp;vis=1&amp;rsz=%7C%7CpeEbr%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;bz=1.01&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;ifi=3&amp;uci=a!3&amp;btvi=1&amp;fsb=1&amp;dtd=160" data-google-container-id="a!3" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true" data-google-query-id="CMvP0dzEto0DFTODYQYdfA46yg"></iframe></div></ins>
+					<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+				</div>
+				
+			</div>
+			
+			<div class="col-md-12 col-lg-8">
+				
+				
+				<div class="card">
+					<div class="card-header"><h2><i class="fas fa-briefcase"></i>DADOS CADASTRAIS:</h2></div>
+					<div class="card-body">
+						
+						<div class="row row-dados-cadastrais">
+							<div class="col-md-4 col-dados">
+								<h3 class="mb-0"><b>CNPJ:</b></h3>
+								<p class="mb-0">42.080.521/0001-46</p>
+							</div>
+							<div class="col-md-8 col-dados">
+								<h3 class="mb-0"><b>RAZÃO SOCIAL:</b></h3>
+								<p class="mb-0">AWP PRESTACAO DE SERVICOS MEDICOS LTDA</p>
+							</div>
+						</div>
+						
+						<div class="row row-dados-cadastrais">
+							<div class="col-md-4 col-dados">
+								<h3 class="mb-0"><b>MATRIZ OU FILIAL:</b></h3>
+								<p class="mb-0">MATRIZ</p>
+							</div>
+							<div class="col-md-8 col-dados">
+								<h3 class="mb-0"><b>NOME FANTASIA:</b></h3>
+								<p class="mb-0">AWP PRESTACAO DE SERVICOS MEDICOS</p>
+							</div>
+						</div>
+						
+						<div class="row row-dados-cadastrais">
+							<div class="col-md-4 col-dados">
+								<h3 class="mb-0"><b>SITUAÇÃO CADASTRAL:</b></h3>
+								<p class="mb-0"><b><i class="fas fa-exclamation-triangle"></i></b><span class="red">BAIXADA</span></p>
+							</div>
+							<div class="col-md-4 col-dados">
+								<h3 class="mb-0"><b>DATA DA SITUAÇÃO CADASTRAL:</b></h3>
+								<p class="mb-0">********</p>
+							</div>
+							<div class="col-md-4 col-dados">
+								<h3 class="mb-0"><b>MOTIVO DA SITUAÇÃO CADASTRAL:</b></h3>
+								<p class="mb-0">EXTINCAO P/ ENC LIQ VOLUNTARIA</p>
+							</div>
+						</div>
+						
+						<div class="row row-dados-cadastrais">
+							<div class="col-md-4 col-dados">
+								<h3 class="mb-0"><b>NATUREZA JURÍDICA:</b></h3>
+								<p class="mb-0">2062 | SOCIEDADE EMPRESÁRIA LIMITADA</p>
+							</div>
+							<div class="col-md-4 col-dados">
+								<h3 class="mb-0"><b>SITUAÇÃO ESPECIAL:</b></h3>
+								<p class="mb-0">********</p>
+							</div>
+							<div class="col-md-4 col-dados">
+								<h3 class="mb-0"><b>DATA DA SITUAÇÃO ESPECIAL:</b></h3>
+								<p class="mb-0">********</p>
+							</div>
+						</div>
+						
+						<div class="row row-dados-cadastrais">
+							<div class="col-md-4 col-dados">
+								<h3 class="mb-0"><b>DATA DE ABERTURA:</b></h3>
+								<p class="mb-0">25/05/2021</p>
+							</div>
+							<div class="col-md-4 col-dados">
+								<h3 class="mb-0"><b>IDADE:</b></h3>
+								<p class="mb-0">3 ANOS, 11 MESES E 27 DIAS</p>
+							</div>
+							<div class="col-md-4 col-dados">
+								<h3 class="mb-0"><b>PORTE (RFB):</b></h3>
+								<p class="mb-0">MICRO EMPRESA</p>
+							</div>
+						</div>
+						
+						<div class="row row-dados-cadastrais">
+							<div class="col-md-4 col-dados">
+								<h3 class="mb-0"><b>CAPITAL SOCIAL:</b></h3>
+								<p class="mb-0">R$ 10.000,00</p>
+							</div>
+							<div class="col-md-4 col-dados">
+								<h3 class="mb-0"><b>ATUALIZAÇÃO DESTA PÁGINA:</b></h3>
+								<p class="mb-0">24/04/2025</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="card">
+					<div class="card-header"><h2><i class="fas fa-map-marker-alt"></i>LOCALIZAÇÃO:</h2></div>
+					<div class="card-body">
+						<div class="row row-dados-cadastrais">
+							<div class="col col-dados">
+								<h3 class="mb-0"><b>ENDEREÇO:</b></h3>
+								<p class="mb-0">RUA OLIVEIRA VIANA, 2470<br> BOQUEIRAO</p>
+							</div>
+						</div>
+						<div class="row row-dados-cadastrais">
+							<div class="col-md-4 col-dados">
+								<h3 class="mb-0"><b>CIDADE | ESTADO:</b></h3>
+								<p class="mb-0">CURITIBA | PR</p>
+							</div>
+							<div class="col-md-4 col-dados">
+								<h3 class="mb-0"><b>CEP:</b></h3>
+								<p class="mb-0">81670-090</p>
+							</div>
+							<div class="col-md-4 col-dados">
+								<h3 class="mb-0"><b>GOOGLE MAPS:</b></h3>
+								<p class="mb-0"><a href="https://www.google.com/maps?q=RUA%20OLIVEIRA%20VIANA,%202470%20CURITIBA%20-%20PR" alt="Veja no Mapa" title="Veja no Mapa" target="_blank">VEJA NO MAPA</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header"><h2><i class="fas fa-phone-alt"></i>TELEFONES:</h2></div>
+					<div class="card-body">
+						<p class="mb-2"><a href="tel:4199586244">(41) 9958-6244</a></p>
+						</div>
+				</div>
+				<div class="card">
+					<div class="card-header"><h2><i class="fas fa-envelope"></i>E-MAILS:</h2></div>
+					<div class="card-body">
+						<p class="mb-2"><a href="mailto:adamwolffpomin@gmail.com?subject=Situação Cadastral&amp;body=Email enviado pelo site: Situação Cadastral">adamwolffpomin@gmail.com</a></p>
+						</div>
+				</div>
+				<div class="card">
+					<div class="card-header"><h2><i class="fas fa-user-check"></i>ATIVIDADE ECONÔMICA PRINCIPAL:</h2></div>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">
+							<div class="row">
+								<div class="col-md-2"><h3 class="mb-0"><b>CÓDIGO</b></h3></div>
+								<div class="col-md-10"><h3 class="mb-0"><b>DESCRIÇÃO</b></h3></div>
+							</div>
+						</li>
+						<li class="list-group-item">
+							<div class="row">
+								<div class="col-md-2"><p class="mb-0">86.30-5-03</p></div>
+								<div class="col-md-10"><p class="mb-0">ATIVIDADE MÉDICA AMBULATORIAL RESTRITA A CONSULTAS</p></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="card">
+					<div class="card-header"><h2><i class="fas fa-hands-helping"></i>QUADRO DE SÓCIOS E ADMINISTRADORES (QSA):</h2></div>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">
+							<div class="row">
+								<div class="col-md-6"><b>NOME</b></div>
+								<div class="col-md-4"><b>QUALIFICAÇÃO</b></div>
+								<div class="col-md-2"><b>ENTRADA</b></div>
+							</div>
+						</li>
+						<li class="list-group-item">
+							<div class="row">
+								<div class="col-md-6">ADAM WOLFF POMIN</div>
+								<div class="col-md-4">SÓCIO-ADMINISTRADOR</div>
+								<div class="col-md-2">25/05/2021</div>
+							</div>
+						</li>
+						</ul>	
+				</div>
+				<div class="card">
+	<div class="card-header">
+		<h2><i class="fas fa-angle-double-right"></i>LEI GERAL DE PROTEÇÃO DE DADOS PESSOAIS (LGPD)</h2>
+	</div>
+	<div class="card-body card-data-cnpj">
+		<p>A Lei Geral de Proteção de Dados Pessoais (LGPD ou LGPDP), <a href="http://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2018/Lei/L13709.htm" alt="Lei Geral de Proteção de Dados Pessoais (LGPD)" title="Lei Geral de Proteção de Dados Pessoais (LGPD)" target="_blank">Lei nº 13.709/2018</a>, é a legislação brasileira que regula as atividades de tratamento de dados pessoais e que também altera os artigos 7º e 16 do Marco Civil da Internet.</p>
+		<p><b>DADOS PESSOAIS</b>: é toda informação relacionada a pessoa natural identificada ou identificável, tal como nome, RG, CPF, e-mail, etc. Dados relativos a uma <b>pessoa jurídica</b> (tais como razão social, CNPJ, endereço comercial, etc.) <b>não são considerados dados pessoais</b>.</p>
+		<p><b>DADOS SENSÍVEIS</b> são aqueles que revelam a origem racial ou étnica; convicções religiosas ou filosóficas; opiniões políticas; filiação sindical; questões genéticas; biométricas; e sobre a saúde ou a vida sexual de uma pessoa. (SERPRO)</p>
+		<p>Os dados apresentados, são dados <b>NÃO SENSÍVEIS</b> e de <b>ORIGEM PÚBLICA</b>, e não requerem autorização prévia para exibição conforme <a href="http://www.planalto.gov.br/CCIVIL_03/_Ato2015-2018/2016/Decreto/D8777.htm" alt="	
+Decreto nº 8.777: Institui a Política de Dados Abertos do Poder Executivo federal" title="	
+Decreto nº 8.777: Institui a Política de Dados Abertos do Poder Executivo federal" target="_blank">Decreto nº 8.777/2016</a>, que Institui a <b>Política de Dados Abertos</b> e pela <a href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm" alt="	
+Lei nº 12.527: Regula o acesso a informações" title="	
+Lei nº 12.527: Regula o acesso a informações" target="_blank">Lei nº 12.527/2011</a>, que regulamenta a <b>Garantia de acesso a Informações</b> previsto na Constituição Federal.</p>
+		<p>Além disso, <b>ocultamos as informações dos sócios</b> (nome e cpf) quando são pessoas físicas, as informações de <b>endereço</b> para empresas do tipo <b>MEI - Microempreendedor individual</b> (endereço residencial do empresário) e o <b>Capital Social</b> de todas as empresas.</p>
+		<p>Apesar da legalidade, respeitamos aqueles que expressam ativamente seu desejo em ocultar seus dados. Para isso utilize o link para <a href="https://www.situacaocadastral.info/privacidade/awp-prestacao-de-servicos-medicos-ltda-42080521000146" title="Requisitar Privacidade">Solicitar Privacidade</a>.</p>
+	</div>
+</div>
+				
+				<div class="card card-feed ads_center">
+					<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<ins class="adsbygoogle" style="display: block; height: 0px;" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-1256594485425474" data-ad-slot="9231991252" data-adsbygoogle-status="done" data-ad-status="unfilled"><div id="aswift_3_host" style="border: none; height: 0px; width: 728px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;"><iframe id="aswift_3" name="aswift_3" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 728px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="728" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1256594485425474&amp;output=html&amp;h=185&amp;slotname=9231991252&amp;adk=803423089&amp;adf=1425579318&amp;pi=t.ma~as.9231991252&amp;w=728&amp;abgtt=9&amp;lmt=1747898206&amp;rafmt=11&amp;format=728x185&amp;url=https%3A%2F%2Fwww.situacaocadastral.info%2Fcnpj%2Fawp-prestacao-de-servicos-medicos-ltda-42080521000146&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiIiwiIiwiIiwiIixudWxsLDAsbnVsbCwiIixudWxsLDBd&amp;dt=1747898206211&amp;bpp=1&amp;bdt=615&amp;idt=198&amp;shv=r20250520&amp;mjsv=m202505190101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie_enabled=1&amp;eoidce=1&amp;prev_fmts=0x0%2C1108x280%2C348x273&amp;nras=1&amp;correlator=1062725016613&amp;frm=20&amp;pv=1&amp;u_tz=-180&amp;u_his=50&amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=771&amp;ady=2174&amp;biw=1889&amp;bih=985&amp;scr_x=0&amp;scr_y=0&amp;eid=95353387%2C95360610%2C95360960%2C95360295&amp;oid=2&amp;pvsid=6006380768833210&amp;tmod=204279157&amp;uas=0&amp;nvt=1&amp;fc=1920&amp;brdim=10%2C10%2C10%2C10%2C800%2C0%2C1920%2C1080%2C1904%2C985&amp;vis=1&amp;rsz=%7C%7CpeEbr%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;bz=1.01&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;ifi=4&amp;uci=a!4&amp;btvi=2&amp;fsb=1&amp;dtd=201" data-google-container-id="a!4" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CKvj0dzEto0DFbsluQYdnqcpQw" data-load-complete="true"></iframe></div></ins>
+					<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>								
+				</div>
+							
+			</div>
+									
+		</div>
+	</div>
+</div>
+
+		
+		<!-- footer
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<div class="container-fluid container-fluid-footer">
+	<div class="container container-footer">
+		<div class="row row-footer">
+			
+			<!-- Footer widget 1 -->
+			<div class="col-md-4">
+				<div class="widget">
+					<a href="https://www.situacaocadastral.info/" class="footer-logo">
+						<h2 class="text-hide">Situação Cadastral</h2>
+						<img src="https://www.situacaocadastral.info/includes/images/logo_informe_verde.png" class="navbar-brand-item img-fluid" alt="Situação Cadastral" title="Situação Cadastral">
+					</a>
+					<p class="mt-3">Tenha acesso a Listas Segmentadas, Qualificadas e Atualizadas de Contatos de Empresas Extraídas da Receita Federal. Utilize nosso sistema para atingir novos clientes, fechar novos negócios, faturar e lucrar mais.</p>
+				</div>
+			</div>
+			<!-- Footer widget 2 -->
+			<div class="col-md-3 col-sm-6">
+				<div class="widget address" style="background-image: url('https://www.situacaocadastral.info/includes/images/world-map.png'); background-position: 50% 20px; background-repeat: no-repeat; background-size: contain;">
+					<ul class="list-unstyled">
+						<li class="media mb-3"><i class="fas fa-map-marked-alt"></i>Rua Padre Arnaldo Jansen, 200<br>Santos Anjos<br> Juiz de Fora | MG<br>Cep: 36062-340</li>
+						<li class="media mb-3">
+							<i class="fas fa-business-time"></i>
+							<p>Segunda - Sexta: <strong>10:00 - 17:00</strong> <br>Sábado &amp; Domingo: <strong>Fechado</strong></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Footer widget 3 -->
+			<div class="col-md-2 col-sm-6">
+				<div class="widget">
+					<p class="links-rapidos">Links Rápidos</p>
+					<ul class="nav flex-column primary-hover">
+						<li class="nav-item"><a class="nav-link" href="https://www.situacaocadastral.info/">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="https://www.situacaocadastral.info/login">Login</a></li>
+						<li class="nav-item"><a class="nav-link" href="https://www.situacaocadastral.info/cadastrar">Cadastre-se</a></li>
+						<li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#termos-condicoes">Termos e Condições</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- Footer widget 4 -->
+			<div class="col-md-3 px-0">
+				<div class="widget bg-grad p-4 all-text-white border-radius-3">
+					<i class="far fa-envelope fa-newsletter"></i>
+					<p class="mb-2">Assine a nossa newsletter para receber ofertas exclusivas:</p>
+					<div class="form-group mb-0">
+						<form method="post" enctype="multipart/form-data" id="formNewsLetter">
+							<input name="newsEmail" id="newsEmail" class="form-control border-white mb-3" type="email" placeholder="Informe seu email">
+							<p class="mb-2"><span id="msg_contato_error" class="contato-error"></span></p>
+							<p class="mb-2"><span id="msg_contato_success" class="contato-success"></span></p>
+							<button class="btn btn-dark mb-0">Junte-se a nós</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="divider"></div>
+		
+		<div class="row row-footer row-footer-copyright">
+			
+			<div class="col">
+				<span itemprop="name"><strong>INFORME CADASTRAL REPRESENTAÇÕES EM ANÁLISE DE CRÉDITO LTDA. - ME</strong></span>
+				<p><small><span itemprop="streetAddress">Rua Padre Arnaldo Jansen, 200 - Santos Anjos</span> - <span itemprop="addressLocality">Juiz de Fora</span> - <span itemprop="addressRegion">MG</span> - CEP: <span itemprop="postalCode">36062-340 </span> - CNPJ: 20.338.122/0001-08</small></p>
+			</div>
+			
+		</div>
+	</div>
+</div><!-- Modal -->
+<div class="modal fade" id="termos-condicoes" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="ModalCenterTitle"><strong>TERMOS E CONDIÇÕES</strong></h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		<p><strong>CONTRATADA</strong>:<br>Informe Cadastral Representações em Analise de Crédito Ltda - Me<br>Endereço: Rua Padre Arnaldo Jansen, 200<br>Cidade: Juiz de Fora<br>Bairro: Santos Anjos<br>CEP: 36062-340<br>CNPJ: 20.338.122/0001-08<br>WhatsApp: (32) 99195-6532 (não aceitamos ligações)<br></p>
+		<p><strong>CONTRATANTE:</strong><br>Qualquer cliente identificado no site</p>
+		<p>Resolvem firmar o presente contrato de prestação de serviços, que será regido de acordo com as seguintes cláusulas e condições.</p>
+		<p><strong>I - DO OBJETO</strong></p>
+		<p>1ª A CONTRATADA colocará à disposição do <strong>CONTRATANTE</strong> serviço de informações cadastrais de origens seguras e de conhecimento público, não privilegiadas, conforme relacionadas na página inicial do site <strong>WWW.INFORMECADASTRAL.COM.BR</strong>, ou seja, a <strong>CONTRATADA</strong> não possui "banco de dados" próprio, socorrendo-se de "banco de dados" de terceiros, incorporadas no todo ou em parte, aos serviços ofertados ao mercado para análise comparativa de crédito, respeitadas as disposições constantes neste contrato.</p>
+		<p><strong>II - DO PREÇO</strong></p>
+		<p>2ª Pelos serviços de informação disponibilizados pela <strong>CONTRATADA</strong>, independente da data da compra do crédito, será cobrado o valor constante no site <strong>WWW.INFORMECADASTRAL.COM.BR</strong> vigente no dia da consulta, valor que será imediatamente abatido no saldo existente na conta do <strong>CONTRATANTE</strong>. Parágrafo único: Caso o saldo existente não seja suficiente, a consulta não será concluída.</p>
+		<p><strong>III - DA FORMA DE PAGAMENTO</strong></p>
+		<p>3ª Para compra de créditos para utilização de consultas no sistema, o <strong>CONTRATANTE</strong> poderá se valer das formas constantes no site, ou seja, através de boleto bancário, transferência bancária, cartões de crédito e outros.</p>
+		<p><strong>IV - DO PRAZO</strong></p>
+		<p>4ª Uma vez adquirido o crédito, terá ele validade de 30 dias, sem direito a reembolso, podendo, no entanto, ser complementado para efetuar novas consultas, voltando a contar 30 dias da última compra para validade.</p>
+		<p>5ª Este contrato é celebrado por prazo indeterminado, porém, caso a <strong>CONTRATADA</strong> tenha necessidade técnica de paralisar as consultas por prazo superior a 30 (trinta) dias, poderá o <strong>CONTRATANTE</strong> solicitar o reembolso de créditos existentes.</p>
+		<p><strong>V - DOS REQUISITOS COMERCIAIS</strong></p>
+		<p>6ª A oferta dos serviços da <strong>CONTRATADA</strong> está direcionada a pessoas jurídicas, profissionais liberais autônomos que observem, sob pena de imediato cancelamento deste:</p>
+		<p>a) Não tenham um faturamento anual bruto superior a R$ 10.000.000,00 (dez milhões de reais);</p>
+		<p>b) Não sejam instituições financeiras, órgãos públicos federais, estaduais e municipais, autarquias ou empresas e entidades que prestem serviços de informações, de cobrança e assemelhados;</p>
+		<p><strong>VI - DOS REQUISITOS TÉCNICOS</strong></p>
+		<p>7ª O CONTRATANTE deverá acessar as informações disponibilizadas pela <strong>CONTRATADA</strong> por meio de recursos próprios - terminais, linhas de comunicação, modem, etc. - mediante o código e senha exclusivos fornecidos pela <strong>CONTRATADA</strong> por meios automatizados, via conexão computador a computador. Parágrafo Primeiro: A aquisição dos terminais e da linha de comunicação, assim como as demais despesas decorrentes, correrão por conta da <strong>CONTRATANTE</strong>. Parágrafo Segundo: O <strong>CONTRATANTE</strong> responsabiliza-se pelo resguardo de sua senha, não a repassando a terceiros. A senha pode ser substituída pela <strong>CONTRATADA</strong> a qualquer tempo ou através do site pelo <strong>CONTRATANTE</strong>.</p>
+		<p>8ª O CONTRATANTE poderá adotar meios de comunicação de dados, equipamentos e periféricos eletrônicos, próprios ou de terceiros, cuja responsabilidade, custeio e manutenção ficam sob a sua exclusiva responsabilidade, bem como poderá desenvolver formas próprias de apresentação das informações relativas à prestação de serviços.</p>
+		<p><strong>VII - DAS RESPONSABILIDADES DAS PARTES</strong></p>
+		<p>9ª A CONTRATADA não se responsabiliza em nenhuma hipótese por riscos ou prejuízos causados por fraudes ou inadimplência, independente do resultado das consultas, já que o <strong>CONTRATANTE</strong> tem completa ciência que é o único responsável pela decisão final de conceder ou não o crédito a terceiros. Parágrafo único: A <strong>CONTRATADA</strong> responsabiliza-se pela integridade das informações que fornece tais como as recebe de suas fontes, não se responsabilizando pela veracidade, exatidão ou data de atualização.</p>
+		<p>10ª É vedado ao <strong>CONTRATANTE</strong>, sob pena de cancelamento do acesso às informações e arcar com perdas e danos:</p>
+		<p>a) Divulgar a terceiros, em nenhuma hipótese e sob qualquer forma, as informações obtidas nas consultas, ficando obrigado a manter sigilo quanto à existência e ao conteúdo das informações acessadas;</p>
+		<p>b) Permitir que pessoas não credenciadas operem o sistema relativo à obtenção e à utilização de informações disponibilizadas pela <strong>CONTRATADA</strong>;</p>
+		<p>c) Armazenar, divulgar e/ou reproduzir qualquer tela com dados de propriedade das fontes da <strong>CONTRATADA</strong> e/ou afiliados, tanto total como parcialmente;</p>
+		<p>d) Utilizar os serviços de informação para obter informações de pessoas naturais ou jurídicas com outra finalidade que não a de prover exclusivamente a análise de credito e a realização de negócios;</p>
+		<p>e) Estabelecer convênio de repasse das informações obtidas na execução do presente contrato;</p>
+		<p>f) Utilizar as informações obtidas com a execução do presente instrumento para constranger ou coagir, de qualquer maneira que seja, pessoas jurídicas ou naturais;</p>
+		<p>11ª O <strong>CONTRATANTE</strong> deverá indenizar, regressivamente, a <strong>CONTRATADA</strong> e/ou terceiros, por todas e quaisquer perdas e danos diretos, indiretos, incidentais ou conseqüênciais advindas, por qualquer forma que seja, administrativa ou judicial, de seus atos ou omissões, em violação da lei ou de suas obrigações contratuais, em especial descritas na cláusula 13ª, no montante da condenação, acrescido de juros de 1% (um por cento) ao mês e multa de 20% (vinte por cento), cujo valor será atualizado desde a data do desembolso, pela <strong>CONTRATADA</strong>, até do efetivo pagamento, pela <strong>CONTRATANTE</strong>, mais correção monetária pelos índices legais verificada durante o respectivo período.</p>
+		<p>12ª O <strong>CONTRATANTE</strong> compromete-se a pautar o seu relacionamento com seus clientes em princípios éticos e morais em suas relações comerciais.</p>
+		<p><strong>VIII - DO SIGILO</strong></p>
+		<p>13ª As partes comprometem-se a manter sigilo sobre todas as informações comerciais ou técnicas, bem como documentação correlata, de qualquer forma, fornecidas por uma parte à outra, referentes ao cumprimento do presente contrato, inclusive as relativas aos detentores de senhas do serviço de consulta, e a não revelar tais informações, sob qualquer pretexto, salvo quando requisitadas pelos órgãos governamentais competentes e pelo Poder Judiciário. Parágrafo Único: As partes obrigam-se a obter de terceiros, que devem, por previsão legal, conhecer e receber informações oriundas deste contrato ou parte delas, o compromisso de manter a confidencialidade e fazer uso restrito de tais informações.</p>
+		<p><strong>IX - DA NÃO-VINCULAÇÃO</strong></p>
+		<p>14ª O presente contrato não cria nenhum vínculo societário, associativo, de representação, de agenciamento de consórcio ou assemelhados, entre as partes, arcando cada qual com as suas respectivas obrigações.</p>
+		<p><strong>X - DO FORO</strong></p>
+		<p>15ª Fica eleito o foro da cidade e comarca de <strong>JUIZ DE FORA</strong> - Estado de <strong>MINAS GERAIS</strong> para dirimir qualquer dúvida oriunda deste contrato, com renúncia de qualquer outro, por mais privilegiado que seja. E, por estarem assim justas e contratadas, as partes aceitam o presente instrumento.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+		<!-- Global JS
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<script type="text/javascript" src="https://www.situacaocadastral.info/includes/js/jquery-3.7.0.min.js"></script>
+		<script type="text/javascript" src="https://www.situacaocadastral.info/includes/js/popper.min.js"></script>
+		<script type="text/javascript" src="https://www.situacaocadastral.info/includes/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://www.situacaocadastral.info/includes/js/sweetalert.min.js"></script>
+		
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css">
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
+
+		<script type="text/javascript" src="https://www.situacaocadastral.info/includes/js/jquery.mask.min.js"></script>
+		<script type="text/javascript" src="https://www.situacaocadastral.info/includes/js/jquery.validate.min.js"></script>
+		
+		<!-- Template Functions
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<script type="text/javascript" src="https://www.situacaocadastral.info/includes/js/functions-check.js"></script>
+		
+		<!-- WhatsApp - Msgs Alertas
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<div class="modal fade bs-modal-sm" id="modalWhats" tabindex="-1" role="dialog" aria-labelledby="modalWhats">
+	<div class="modal-dialog modal-dialog-centered modal-promo">
+		<div class="modal-content">
+			
+			<div class="modal-header">
+				<h4 class="modal-title text-success">CONTATO POR WHATSAPP</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">×</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<form method="post" action="promocao" accept-charset="utf-8" role="form" class="form-signin" autocomplete="off">
+					<p class="text-muted" style="font-size:16px">Este não é o site da empresa <b>AWP PRESTACAO DE SERVICOS MEDICOS LTDA</b>, inscrita no CNPJ <b>42.080.521/0001-46</b>.</p>
+					
+					<p class="text-muted" style="font-size:16px">Este site trata-se apenas de uma página de <b>INFORMAÇÕES CADASTRAIS</b>, e não possui qualquer relação com a empresa <b>AWP PRESTACAO DE SERVICOS MEDICOS LTDA</b>.</p>
+					
+					<p class="text-muted" style="font-size:16px">Os dados apresentados, são dados <b>NÃO SENSÍVEIS</b> e de <b>ORIGEM PÚBLICA</b>, podendo ser consultados manualmente nos sítios web e órgãos competentes, não expressos por livre concorrência.</p>
+					<p class="text-muted" style="font-size:16px">Se por acaso, você desejar falar com a <b class="text-uppercase text-danger">Situação Cadastral</b>, use o botão abaixo para enviar uma mensagem pelo WhatsApp:</p>
+					
+				<p class="text-center"><a class="btn btn-grad" href="https://wa.me/5532991956532?text=Olá, tudo bem?! %F0%9F%99%82 %0A%0AEstava visitando a seguinte página https://www.situacaocadastral.info/cnpj/awp-prestacao-de-servicos-medicos-ltda-42080521000146 e desejo ser atendido. %0A%0AEnvie essa mensagem, para que seu atendimento seja agilizado." target="_blank" title="Entrar em contato no WhatsApp">Quero ser atendido pelo WhatsApp</a></p>
+				</form>
+			</div>
+		</div>
+	</div>
+</div> 
+	<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'943a8add9c6eac98',t:'MTc0Nzg5ODMzNy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+</div><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><div id="aswift_0_host" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_0" name="aswift_0" browsingtopics="true" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1256594485425474&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;abgtt=9&amp;lmt=1747898206&amp;plaf=1%3A2%2C2%3A2%2C7%3A2&amp;plat=1%3A128%2C2%3A128%2C3%3A128%2C4%3A128%2C8%3A128%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fwww.situacaocadastral.info%2Fcnpj%2Fawp-prestacao-de-servicos-medicos-ltda-42080521000146&amp;pra=5&amp;wgl=1&amp;aihb=0&amp;asro=0&amp;aifxl=29_18~30_19&amp;aiapm=0.15&amp;aiapmi=0.16&amp;aiact=0.7&amp;aicct=0.7&amp;ailct=0.7&amp;aimart=8&amp;uach=WyJXaW5kb3dzIiwiIiwiIiwiIiwiIixudWxsLDAsbnVsbCwiIixudWxsLDBd&amp;dt=1747898206195&amp;bpp=13&amp;bdt=599&amp;idt=73&amp;shv=r20250520&amp;mjsv=m202505190101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie_enabled=1&amp;eoidce=1&amp;nras=1&amp;correlator=1062725016613&amp;frm=20&amp;pv=2&amp;u_tz=-180&amp;u_his=50&amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1889&amp;bih=985&amp;scr_x=0&amp;scr_y=0&amp;eid=95353387%2C95360610%2C95360960%2C95360295&amp;oid=2&amp;pvsid=6006380768833210&amp;tmod=204279157&amp;uas=0&amp;nvt=1&amp;fsapi=1&amp;fc=1920&amp;brdim=10%2C10%2C10%2C10%2C800%2C0%2C1920%2C1080%2C1904%2C985&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;bz=1.01&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=94" data-google-container-id="a!1" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true"></iframe></div></ins><iframe height="0" width="0" style="display: none; visibility: hidden;"></iframe><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe><iframe name="googlefcPresent" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="__tcfapiLocator" src="about:blank" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcInactive" src="about:blank" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcLoaded" src="about:blank" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe allow="join-ad-interest-group" data-tagging-id="AW-987370656" data-load-time="1747898207390" height="0" width="0" src="https://td.doubleclick.net/td/rul/987370656?random=1747898207375&amp;cv=11&amp;fst=1747898207375&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be55k1v9132051023z8831693900za200zb831693900&amp;gcd=13l3l3l3l5l1&amp;dma=0&amp;tcfd=10000&amp;tag_exp=101509157~103116026~103130495~103130497~103136993~103136995~103200004~103233427~103252644~103252646~103301114~103301116&amp;ptag_exp=101509157~103116026~103130498~103130500~103136993~103136995~103200004~103233427~103252644~103252646~103301114~103301116&amp;u_w=800&amp;u_h=600&amp;url=https%3A%2F%2Fwww.situacaocadastral.info%2Fcnpj%2Fawp-prestacao-de-servicos-medicos-ltda-42080521000146&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=CNPJ%3A%2042.080.521%2F0001-46%20-%20Awp%20Prestacao%20de%20Servicos%20Medicos%20Ltda%20-%20Situa%C3%A7%C3%A3o%20Cadastral&amp;npa=0&amp;pscdl=noapi&amp;auid=1861361325.1747898207&amp;uaa=&amp;uab=&amp;uafvl=&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=&amp;uaw=0&amp;fledge=1&amp;_tu=Cg" style="display: none; visibility: hidden;"></iframe><iframe src="https://ep2.adtrafficquality.google/sodar/sodar2/237/runner.html" width="0" height="0" style="display: none;"></iframe><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe></body><iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20250520/r20190131/zrt_lookup_fy2021.html" style="display: none;"></iframe></html>

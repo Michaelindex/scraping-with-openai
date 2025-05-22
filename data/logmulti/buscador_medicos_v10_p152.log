@@ -1,0 +1,638 @@
+2025-05-22 02:56:23,914 - P11992 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 02:56:23,915 - P11992 - INFO - Nome: JOSE BRAZ FILHO
+2025-05-22 02:56:23,915 - P11992 - INFO - Reiniciando driver do Chrome
+2025-05-22 02:56:25,278 - P11992 - INFO - Após reiniciar driver Uso de memória: 111.36 MB
+2025-05-22 02:56:25,278 - P11992 - INFO - Início do processamento Uso de memória: 111.36 MB
+2025-05-22 02:56:25,279 - P11992 - INFO - Iniciando busca para: JOSE BRAZ FILHO CRM 47269 SP telefone e-mail endereço
+2025-05-22 02:56:25,872 - P11992 - INFO - SearX results: 10 URLs
+2025-05-22 02:56:25,873 - P11992 - INFO - Após SearX Uso de memória: 111.36 MB
+2025-05-22 02:56:28,222 - P11992 - INFO - Google results: 10 URLs
+2025-05-22 02:56:28,222 - P11992 - INFO - Após Google Uso de memória: 112.15 MB
+2025-05-22 02:56:30,686 - P11992 - INFO - Bing results: 13 URLs
+2025-05-22 02:56:30,686 - P11992 - INFO - Após Bing Uso de memória: 113.45 MB
+2025-05-22 02:56:30,686 - P11992 - INFO - Total de URLs únicas: 23
+2025-05-22 02:56:30,686 - P11992 - INFO - Processando URL 1/23: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x903237261481483592&market=pt-BR&src=SERPGB
+2025-05-22 02:56:35,916 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e03337ea6afb4bc2bb5a4b319bc44599.html
+2025-05-22 02:56:35,937 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:56:35,937 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 02:56:35,937 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:56:35,937 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:35,937 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:56:35,938 - P11992 - INFO - Após processar URL 1 Uso de memória: 113.45 MB
+2025-05-22 02:56:35,938 - P11992 - INFO - Processando URL 2/23: https://www.doctoralia.com.br/jose-braz-filho/urologista/sao-bernardo-do-campo
+2025-05-22 02:56:35,938 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/jose-braz-filho/urologista/sao-bernardo-do-campo
+2025-05-22 02:56:35,938 - P11992 - INFO - Após processar URL 2 Uso de memória: 113.45 MB
+2025-05-22 02:56:35,938 - P11992 - INFO - Processando URL 3/23: https://www.apontador.com.br/local/sp/sao_bernardo_do_campo/clinicas_urologicas/C408534927601S601F/jose_braz_filho_urologia.html
+2025-05-22 02:56:40,884 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e57eb51ca0edc716096cfe37d53d038e.html
+2025-05-22 02:56:40,933 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 02:56:40,933 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 02:56:40,934 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 02:56:40,934 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 02:56:40,935 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:56:40,935 - P11992 - INFO - Após processar URL 3 Uso de memória: 113.46 MB
+2025-05-22 02:56:40,935 - P11992 - INFO - Processando URL 4/23: https://www.helpsaude.com/jose-braz-filho-crmsp-47269
+2025-05-22 02:56:47,380 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\d0aa4cfcbcb2180eb34384f71b1d9e20.html
+2025-05-22 02:56:47,392 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:56:47,392 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:56:47,392 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:56:47,392 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:47,393 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:56:47,393 - P11992 - INFO - Após processar URL 4 Uso de memória: 113.46 MB
+2025-05-22 02:56:47,393 - P11992 - INFO - Processando URL 5/23: https://medbook.com.br/brazurologia
+2025-05-22 02:56:51,264 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\61a6a57ba2115f02d2a54d8b883cea58.html
+2025-05-22 02:56:51,275 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:56:51,276 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:56:51,276 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:56:51,276 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 02:56:51,277 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:56:51,277 - P11992 - INFO - Após processar URL 5 Uso de memória: 113.47 MB
+2025-05-22 02:56:51,277 - P11992 - INFO - Processando URL 6/23: https://www.benditoguia.com.br/empresa/dr-jose-braz-filho-urologia-centro-sao-bernardo-do-campo-sp
+2025-05-22 02:56:55,507 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\effa6a6ee1e98c5aabed04c1d6637087.html
+2025-05-22 02:56:55,534 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:56:55,535 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 02:56:55,535 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:56:55,535 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 02:56:55,536 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:56:55,536 - P11992 - INFO - Após processar URL 6 Uso de memória: 115.57 MB
+2025-05-22 02:56:55,536 - P11992 - INFO - Processando URL 7/23: https://www.saobernardo.sp.gov.br/documents/10181/1812128/NM+2472+de+06.09.2024+-++Conte%C3%BAdo+Integral.pdf/0cff8387-80d6-ce80-5813-8093696caf2e
+2025-05-22 02:56:55,539 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1812128/NM+2472+de+06.09.2024+-++Conte%C3%BAdo+Integral.pdf/0cff8387-80d6-ce80-5813-8093696caf2e
+2025-05-22 02:56:55,540 - P11992 - INFO - Após processar URL 7 Uso de memória: 114.00 MB
+2025-05-22 02:56:55,543 - P11992 - INFO - Processando URL 8/23: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo592.pdf
+2025-05-22 02:56:55,543 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo592.pdf
+2025-05-22 02:56:55,543 - P11992 - INFO - Após processar URL 8 Uso de memória: 114.00 MB
+2025-05-22 02:56:55,544 - P11992 - INFO - Processando URL 9/23: https://eleicoescrms.org.br/SP/composicao_e_propostas_das_chapas
+2025-05-22 02:56:58,364 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\9143427553fe0cd4f406b196986a4bac.html
+2025-05-22 02:56:58,406 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:56:58,406 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 02:56:58,407 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 02:56:58,407 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:58,407 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:56:58,407 - P11992 - INFO - Após processar URL 9 Uso de memória: 114.00 MB
+2025-05-22 02:56:58,407 - P11992 - INFO - Processando URL 10/23: https://guiamedico.cremesp.org.br/
+2025-05-22 02:57:02,009 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 02:57:02,015 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:57:02,015 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 02:57:02,016 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:57:02,016 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:57:02,016 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:57:02,016 - P11992 - INFO - Após processar URL 10 Uso de memória: 114.00 MB
+2025-05-22 02:57:02,016 - P11992 - INFO - Processando URL 11/23: https://www.boaconsulta.com/especialista/jose-braz-filho-6106f90fa2e00a7a2000031e
+2025-05-22 02:57:07,492 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\4e9035a757e5994edf73f8deaf28f56c.html
+2025-05-22 02:57:07,556 - P11992 - INFO - Candidates address: 5 items
+2025-05-22 02:57:07,556 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:57:07,556 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:57:07,557 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 02:57:07,557 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:57:07,557 - P11992 - INFO - Após processar URL 11 Uso de memória: 114.63 MB
+2025-05-22 02:57:07,557 - P11992 - INFO - Processando URL 12/23: https://brazurologia.site.med.br/
+2025-05-22 02:57:10,819 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\3e6fad3f07d4ea49328831ad7b1e9e3e.html
+2025-05-22 02:57:10,821 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:57:10,821 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:57:10,821 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:57:10,822 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:57:10,822 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:57:10,822 - P11992 - INFO - Após processar URL 12 Uso de memória: 114.63 MB
+2025-05-22 02:57:10,822 - P11992 - INFO - Processando URL 13/23: http://www.telelistas.net/locais/sp/sao+bernardo+do+campo/medicos+urologia/297860545/jose+braz+filho+urologia
+2025-05-22 02:57:13,291 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\d60e1a66430eb1235a88a2751ba7da09.html
+2025-05-22 02:57:13,311 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:57:13,311 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 02:57:13,312 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:57:13,312 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 02:57:13,312 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:57:13,312 - P11992 - INFO - Após processar URL 13 Uso de memória: 114.63 MB
+2025-05-22 02:57:13,312 - P11992 - INFO - Processando URL 14/23: https://www.telelistas.net/locais/sp/sao+bernardo+do+campo/clinicas+urologicas/bu-6697961/jose+braz+filho+urologia+em+centro
+2025-05-22 02:57:15,971 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\ad8b68ecbb763036314a11f9a1f58b76.html
+2025-05-22 02:57:15,997 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:57:16,072 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 02:57:16,079 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:57:16,084 - P11992 - INFO - Candidates complement: 1 items
+2025-05-22 02:57:16,085 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:57:16,086 - P11992 - INFO - Após processar URL 14 Uso de memória: 114.63 MB
+2025-05-22 02:57:16,109 - P11992 - INFO - Processando URL 15/23: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-17-04-2019.pdf
+2025-05-22 02:57:16,112 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-17-04-2019.pdf
+2025-05-22 02:57:16,113 - P11992 - INFO - Após processar URL 15 Uso de memória: 114.63 MB
+2025-05-22 02:57:16,114 - P11992 - INFO - Processando URL 16/23: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/215128287.pdf
+2025-05-22 02:57:16,115 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/215128287.pdf
+2025-05-22 02:57:16,115 - P11992 - INFO - Após processar URL 16 Uso de memória: 114.63 MB
+2025-05-22 02:57:16,116 - P11992 - INFO - Processando URL 17/23: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/2042370772.pdf
+2025-05-22 02:57:16,116 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/2042370772.pdf
+2025-05-22 02:57:16,116 - P11992 - INFO - Após processar URL 17 Uso de memória: 114.63 MB
+2025-05-22 02:57:16,117 - P11992 - INFO - Processando URL 18/23: https://applocal.com.br/empresa/jose-braz-filho-urologia/sao-bernardo-do-campo/sp/11941380
+2025-05-22 02:57:19,759 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7d7f6afe1200c340ecd2d93876e6c90b.html
+2025-05-22 02:57:19,875 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:57:19,875 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:57:19,875 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:57:19,876 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:57:19,876 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:57:19,876 - P11992 - INFO - Após processar URL 18 Uso de memória: 107.89 MB
+2025-05-22 02:57:19,877 - P11992 - INFO - Processando URL 19/23: https://doutorcrm.com/jose-braz-filho
+2025-05-22 02:57:25,337 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\56f25e12acdd46e33e79685a1ed9a051.html
+2025-05-22 02:57:25,343 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:57:25,344 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:57:25,344 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:57:25,344 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:57:25,344 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:57:25,345 - P11992 - INFO - Após processar URL 19 Uso de memória: 108.07 MB
+2025-05-22 02:57:25,345 - P11992 - INFO - Processando URL 20/23: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo591.pdf
+2025-05-22 02:57:25,345 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo591.pdf
+2025-05-22 02:57:25,345 - P11992 - INFO - Após processar URL 20 Uso de memória: 108.07 MB
+2025-05-22 02:57:25,345 - P11992 - INFO - Processando URL 21/23: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/349329/Caderno_JUD_MG_2018-05-30_X_97.pdf?sequence=3&isAllowed=y
+2025-05-22 02:57:25,346 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/349329/Caderno_JUD_MG_2018-05-30_X_97.pdf?sequence=3&isAllowed=y
+2025-05-22 02:57:25,346 - P11992 - INFO - Após processar URL 21 Uso de memória: 108.07 MB
+2025-05-22 02:57:25,346 - P11992 - INFO - Processando URL 22/23: https://www.catalogo.med.br/doutor/jose-braz-filho-2023024.htm
+2025-05-22 02:57:27,518 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\8e3dff300a0670350c4d1875fd69d2a2.html
+2025-05-22 02:57:27,519 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:57:27,519 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:57:27,520 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:57:27,520 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:57:27,520 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:57:27,520 - P11992 - INFO - Após processar URL 22 Uso de memória: 108.07 MB
+2025-05-22 02:57:27,520 - P11992 - INFO - Processando URL 23/23: https://consultacrm.com.br/
+2025-05-22 02:57:29,647 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:57:29,665 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:57:29,665 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:57:29,665 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:57:29,665 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:57:29,665 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:57:29,666 - P11992 - INFO - Após processar URL 23 Uso de memória: 111.86 MB
+2025-05-22 02:57:29,666 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:57:29,666 - P11992 - INFO - Ranked address: 10 items
+2025-05-22 02:57:29,666 - P11992 - INFO - Ranked phone: 6 items
+2025-05-22 02:57:29,666 - P11992 - INFO - Ranked email: 2 items
+2025-05-22 02:57:29,666 - P11992 - INFO - Ranked complement: 5 items
+2025-05-22 02:57:29,666 - P11992 - INFO - Ranked cep: 3 items
+2025-05-22 02:57:29,667 - P11992 - INFO - Após agregação Uso de memória: 111.86 MB
+2025-05-22 02:57:29,667 - P11992 - INFO - Validando endereço: ['Rua Carlos Del Prete, 76', 'Rua Frei Caneca, 1282', 'Rua Carlos del Prete 76']
+2025-05-22 02:57:29,667 - P11992 - INFO - Endereço validado: Rua Carlos Del Prete, 76
+2025-05-22 02:57:29,667 - P11992 - INFO - Limpando texto extenso para campo address: Rua Carlos Del Prete, 76...
+2025-05-22 02:57:29,667 - P11992 - INFO - Texto limpo: Rua Carlos Del Prete, 76
+2025-05-22 02:57:29,667 - P11992 - INFO - Validando telefone: ['+55 11 2355-9884', '(11) 4349-9900', '(11) 2355-9884']
+2025-05-22 02:57:29,668 - P11992 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 02:57:29,668 - P11992 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 02:57:29,668 - P11992 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 02:57:29,668 - P11992 - INFO - Validando email: ['relacionamento@apontador.com', 'comissaoeleitoral2023@cremesp.org.br']
+2025-05-22 02:57:29,668 - P11992 - INFO - Limpando texto extenso para campo email: relacionamento@apontador.com...
+2025-05-22 02:57:29,668 - P11992 - INFO - Texto limpo: relacionamento@apontador.com
+2025-05-22 02:57:29,668 - P11992 - INFO - Email validado: relacionamento@apontador.com
+2025-05-22 02:57:29,669 - P11992 - INFO - Validando complemento: ['Sala 24 - Centro - São Bernardo do Campo - SP     0971', 'Saladas ', 'Sala 24 Centro - São Bernardo do Campo/SP ver telefone']
+2025-05-22 02:57:29,669 - P11992 - INFO - Limpando texto extenso para campo complement: Sala 24 - Centro - São Bernardo do Campo - SP     ...
+2025-05-22 02:57:29,669 - P11992 - INFO - Texto limpo: Sala 24 - Centro - São Bernard
+2025-05-22 02:57:29,669 - P11992 - INFO - Complemento validado: Sala 24 - Centro - São Bernard
+2025-05-22 02:57:29,669 - P11992 - INFO - Descobrindo cidade
+2025-05-22 02:57:29,670 - P11992 - INFO - Buscando cidade: Rua Carlos Del Prete cidade SP
+2025-05-22 02:57:32,418 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 02:57:32,418 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 02:57:32,418 - P11992 - INFO - Tempo de execução de processamento completo do médico: 67.14 segundos
+2025-05-22 02:57:32,418 - P11992 - INFO - Resultado processado: {'Hash': '237cb3a0066d344bf56311b7f5bf4bc8ab70bb46d16b92ae7826a8b27ed8187e', 'CRM': '47269', 'UF': 'SP', 'Firstname': 'JOSE', 'LastName': 'BRAZ FILHO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Carlos Del Prete, 76', 'Address A1': 'Rua Carlos Del Prete', 'Numero A1': '76', 'Complement A1': 'Sala 24 - Centro - São Bernard', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'relacionamento@apontador.com', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:57:32,420 - P11992 - INFO - Progresso: 37.3%
+2025-05-22 02:57:32,421 - P11992 - INFO - Executando coleta de lixo
+2025-05-22 02:57:32,437 - P11992 - INFO - Após coleta de lixo Uso de memória: 109.93 MB
+2025-05-22 02:57:32,438 - P11992 - INFO - Tempo de execução de processamento do médico 1: 68.52 segundos
+2025-05-22 02:57:32,438 - P11992 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 02:57:32,439 - P11992 - INFO - Nome: AFONSO LUIZ VILLA
+2025-05-22 02:57:32,439 - P11992 - INFO - Início do processamento Uso de memória: 109.93 MB
+2025-05-22 02:57:32,439 - P11992 - INFO - Iniciando busca para: AFONSO LUIZ VILLA CRM 49990 SP telefone e-mail endereço
+2025-05-22 02:57:32,880 - P11992 - INFO - SearX results: 10 URLs
+2025-05-22 02:57:32,881 - P11992 - INFO - Após SearX Uso de memória: 109.93 MB
+2025-05-22 02:57:35,481 - P11992 - INFO - Google results: 10 URLs
+2025-05-22 02:57:35,481 - P11992 - INFO - Após Google Uso de memória: 110.16 MB
+2025-05-22 02:57:38,210 - P11992 - INFO - Bing results: 15 URLs
+2025-05-22 02:57:38,210 - P11992 - INFO - Após Bing Uso de memória: 112.11 MB
+2025-05-22 02:57:38,211 - P11992 - INFO - Total de URLs únicas: 29
+2025-05-22 02:57:38,211 - P11992 - INFO - Processando URL 1/29: http://www.guiareunimedicos.med.br/c/sp/ribeirao-preto/gastroenterologistas/afonso-luiz-villa-96980.htm
+2025-05-22 02:57:40,681 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\b525bf1fe23040e35f1733ffbcefcaf2.html
+2025-05-22 02:57:40,682 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:57:40,682 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:57:40,682 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:57:40,682 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:57:40,683 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:57:40,683 - P11992 - INFO - Após processar URL 1 Uso de memória: 112.11 MB
+2025-05-22 02:57:40,683 - P11992 - INFO - Processando URL 2/29: https://www.mpsp.mp.br/w/do_25_02_2022
+2025-05-22 02:57:44,782 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7b7842f38b9333c682fd0be00373d38a.html
+2025-05-22 02:57:45,557 - P11992 - INFO - Candidates address: 4 items
+2025-05-22 02:57:45,557 - P11992 - INFO - Candidates phone: 3 items
+2025-05-22 02:57:45,557 - P11992 - INFO - Candidates email: 3 items
+2025-05-22 02:57:45,557 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:57:45,558 - P11992 - INFO - Candidates cep: 33 items
+2025-05-22 02:57:45,558 - P11992 - INFO - Após processar URL 2 Uso de memória: 112.81 MB
+2025-05-22 02:57:45,558 - P11992 - INFO - Processando URL 3/29: https://www.catalogo.med.br/doutor/afonso-luiz-villa-96980.htm
+2025-05-22 02:57:47,669 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\897ea22473d219653eec8cfc0066b7b8.html
+2025-05-22 02:57:47,673 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:57:47,674 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:57:47,676 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:57:47,676 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:57:47,676 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:57:47,677 - P11992 - INFO - Após processar URL 3 Uso de memória: 109.87 MB
+2025-05-22 02:57:47,677 - P11992 - INFO - Processando URL 4/29: https://www.maisribeiraopreto.com.br/guia/saude/dr-afonso-luiz-villa-585-7830
+2025-05-22 02:57:51,982 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\20b942b99c80cf556ff8c0ab1675d433.html
+2025-05-22 02:57:52,011 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:57:52,012 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 02:57:52,012 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:57:52,012 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:57:52,012 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:57:52,013 - P11992 - INFO - Após processar URL 4 Uso de memória: 110.06 MB
+2025-05-22 02:57:52,014 - P11992 - INFO - Processando URL 5/29: https://medicossp.com.br/detalhes?guia-medico=Dr.%20Afonso%20Luiz%20Villa&cidade=Ribeir%C3%A3o%20Preto&id_empresa=3271
+2025-05-22 02:57:57,417 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\d80edd2d26e4ddd00dfbd60d1db20426.html
+2025-05-22 02:57:57,433 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:57:57,434 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:57:57,434 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:57:57,434 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:57:57,434 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 02:57:57,434 - P11992 - INFO - Após processar URL 5 Uso de memória: 110.16 MB
+2025-05-22 02:57:57,434 - P11992 - INFO - Processando URL 6/29: https://www.consultacrm.com.br/index/medicos/uid-990e9f65-f5c5-11ec-9e74-0a4aa568c625/afonso_luiz_villa
+2025-05-22 02:58:02,351 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\c99900d53d1f24e198041f37b5be0ae5.html
+2025-05-22 02:58:02,362 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:58:02,362 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:58:02,363 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:58:02,363 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:58:02,363 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:58:02,363 - P11992 - INFO - Após processar URL 6 Uso de memória: 112.50 MB
+2025-05-22 02:58:02,363 - P11992 - INFO - Processando URL 7/29: https://jornaldaorla.com.br/wp-content/uploads/jornalimpresso/322/jornal-322.pdf
+2025-05-22 02:58:02,364 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://jornaldaorla.com.br/wp-content/uploads/jornalimpresso/322/jornal-322.pdf
+2025-05-22 02:58:02,364 - P11992 - INFO - Após processar URL 7 Uso de memória: 112.50 MB
+2025-05-22 02:58:02,364 - P11992 - INFO - Processando URL 8/29: https://www.guiamedico.unimedribeirao.com.br/arquivos/pdf/Nominata_Rede_Pleno.pdf
+2025-05-22 02:58:02,364 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.guiamedico.unimedribeirao.com.br/arquivos/pdf/Nominata_Rede_Pleno.pdf
+2025-05-22 02:58:02,364 - P11992 - INFO - Após processar URL 8 Uso de memória: 112.50 MB
+2025-05-22 02:58:02,364 - P11992 - INFO - Processando URL 9/29: https://www.saobernardo.sp.gov.br/documents/10181/1812128/NM+2472+de+06.09.2024+-++Conte%C3%BAdo+Integral.pdf/0cff8387-80d6-ce80-5813-8093696caf2e
+2025-05-22 02:58:02,365 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/1812128/NM+2472+de+06.09.2024+-++Conte%C3%BAdo+Integral.pdf/0cff8387-80d6-ce80-5813-8093696caf2e
+2025-05-22 02:58:02,365 - P11992 - INFO - Após processar URL 9 Uso de memória: 112.50 MB
+2025-05-22 02:58:02,365 - P11992 - INFO - Processando URL 10/29: https://www.redescredenciadas.com.br/perfil/afonso-luiz-villa-sp-49990
+2025-05-22 02:58:08,309 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\c9d8b2d5da887842c3a568fa2c7bfb76.html
+2025-05-22 02:58:08,314 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:58:08,314 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 02:58:08,315 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:58:08,315 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:58:08,315 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:58:08,315 - P11992 - INFO - Após processar URL 10 Uso de memória: 111.46 MB
+2025-05-22 02:58:08,315 - P11992 - INFO - Processando URL 11/29: https://www.doctoralia.com.br/afonso-luiz-villa/cirurgiao-geral/ribeirao-preto
+2025-05-22 02:58:08,315 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/afonso-luiz-villa/cirurgiao-geral/ribeirao-preto
+2025-05-22 02:58:08,316 - P11992 - INFO - Após processar URL 11 Uso de memória: 111.46 MB
+2025-05-22 02:58:08,316 - P11992 - INFO - Processando URL 12/29: https://pt.scribd.com/document/470198287/4-GUIA-MEDICO-ESSENCIAL-pdf
+2025-05-22 02:58:12,548 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\e51eb2ef51fc53b287a52d8b3af1bb65.html
+2025-05-22 02:58:12,727 - P11992 - INFO - Candidates address: 19 items
+2025-05-22 02:58:12,727 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:58:12,727 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:58:12,727 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:58:12,727 - P11992 - INFO - Candidates cep: 19 items
+2025-05-22 02:58:12,728 - P11992 - INFO - Após processar URL 12 Uso de memória: 115.84 MB
+2025-05-22 02:58:12,728 - P11992 - INFO - Processando URL 13/29: https://www.maisribeiraopreto.com.br/guia/saude/dr-afonso-luiz-villa-572-7816
+2025-05-22 02:58:15,547 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\4dbc0b19977b297d2313eaec97865ebf.html
+2025-05-22 02:58:15,584 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:58:15,584 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 02:58:15,585 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:58:15,585 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:58:15,585 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:58:15,586 - P11992 - INFO - Após processar URL 13 Uso de memória: 112.73 MB
+2025-05-22 02:58:15,586 - P11992 - INFO - Processando URL 14/29: https://listamedicos.com/medico/afonso-luiz-villa
+2025-05-22 02:58:21,172 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\530885cd19395fff49b498454dc66952.html
+2025-05-22 02:58:21,179 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:58:21,179 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:58:21,180 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:58:21,180 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:58:21,180 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 02:58:21,180 - P11992 - INFO - Após processar URL 14 Uso de memória: 112.93 MB
+2025-05-22 02:58:21,180 - P11992 - INFO - Processando URL 15/29: https://www.intermedicos.com.br/gastroenterologistas-em-ribeirao-preto/adriana-leonarda-martins-miranda
+2025-05-22 02:58:26,410 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\55fd7b07329425d9505f9ad184b6ee55.html
+2025-05-22 02:58:26,428 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:58:26,429 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 02:58:26,429 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:58:26,429 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:58:26,429 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:58:26,429 - P11992 - INFO - Após processar URL 15 Uso de memória: 112.95 MB
+2025-05-22 02:58:26,430 - P11992 - INFO - Processando URL 16/29: https://clinica.work/especialista/afonso-luiz-villa-cirurgiao-geral-ribeirao-preto-sp
+2025-05-22 02:58:30,387 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\07f006f203de4abb5e8b916314b3a45d.html
+2025-05-22 02:58:30,401 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:58:30,402 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:58:30,402 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:58:30,402 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:58:30,402 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:58:30,402 - P11992 - INFO - Após processar URL 16 Uso de memória: 113.99 MB
+2025-05-22 02:58:30,402 - P11992 - INFO - Processando URL 17/29: https://www.escavador.com/sobre/2045268/afonso-luiz-villa
+2025-05-22 02:58:34,588 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\5423cf41e9f398057b836a4849ffb225.html
+2025-05-22 02:58:34,607 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:58:34,609 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:58:34,610 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:58:34,611 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:58:34,614 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:58:34,615 - P11992 - INFO - Após processar URL 17 Uso de memória: 113.52 MB
+2025-05-22 02:58:34,616 - P11992 - INFO - Processando URL 18/29: https://www.intermedicos.com.br/contato
+2025-05-22 02:58:37,304 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\0aaf1b2c48945dce2fd4004ea2d52f79.html
+2025-05-22 02:58:37,309 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:58:37,309 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:58:37,310 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:58:37,310 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:58:37,310 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:58:37,310 - P11992 - INFO - Após processar URL 18 Uso de memória: 113.56 MB
+2025-05-22 02:58:37,311 - P11992 - INFO - Processando URL 19/29: https://www.intermedicos.com.br/gastroenterologistas-em-ribeirao-preto/alvaro-augusto-nogueira-junior
+2025-05-22 02:58:41,218 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\43552afe3c0ec0e28e9329b21646b4b2.html
+2025-05-22 02:58:41,232 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:58:41,232 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 02:58:41,232 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:58:41,232 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:58:41,233 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:58:41,233 - P11992 - INFO - Após processar URL 19 Uso de memória: 113.64 MB
+2025-05-22 02:58:41,233 - P11992 - INFO - Processando URL 20/29: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2020/09/do_20200919_3312.pdf
+2025-05-22 02:58:41,233 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2020/09/do_20200919_3312.pdf
+2025-05-22 02:58:41,233 - P11992 - INFO - Após processar URL 20 Uso de memória: 113.64 MB
+2025-05-22 02:58:41,233 - P11992 - INFO - Processando URL 21/29: https://www.intermedicos.com.br/gastroenterologistas-em-ribeirao-preto/afonso-luiz-villa
+2025-05-22 02:58:44,625 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\0f9801640d6d8d004ef8b50b83039ffc.html
+2025-05-22 02:58:44,640 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:58:44,640 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 02:58:44,640 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:58:44,641 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:58:44,641 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:58:44,641 - P11992 - INFO - Após processar URL 21 Uso de memória: 113.64 MB
+2025-05-22 02:58:44,641 - P11992 - INFO - Processando URL 22/29: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/530209724.pdf
+2025-05-22 02:58:44,641 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/530209724.pdf
+2025-05-22 02:58:44,641 - P11992 - INFO - Após processar URL 22 Uso de memória: 113.64 MB
+2025-05-22 02:58:44,642 - P11992 - INFO - Processando URL 23/29: https://doutorcrm.com/afonso-luiz-villa
+2025-05-22 02:58:48,790 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\40fa0e850cf4832b0780ba88215e4d6f.html
+2025-05-22 02:58:48,796 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:58:48,796 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:58:48,796 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:58:48,796 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:58:48,796 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:58:48,797 - P11992 - INFO - Após processar URL 23 Uso de memória: 113.64 MB
+2025-05-22 02:58:48,797 - P11992 - INFO - Processando URL 24/29: https://cliniguia.com/profissionais/afonso-luiz-villa-204312637490007/
+2025-05-22 02:58:54,677 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\fdcf73a56340a82e7f03e863724b8ece.html
+2025-05-22 02:58:54,737 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:58:54,737 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:58:54,738 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:58:54,738 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:58:54,738 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:58:54,739 - P11992 - INFO - Após processar URL 24 Uso de memória: 116.03 MB
+2025-05-22 02:58:54,739 - P11992 - INFO - Processando URL 25/29: https://www.intermedicos.com.br/gastroenterologistas-em-ribeirao-preto/afonso-luiz-villa#:~:text=Dr%20Afonso%20Luiz%20Villa%20-%20CRM%2049990%20%C3%A9,Centro.%20Ainda%20n%C3%A3o%20h%C3%A1%20avalia%C3%A7%C3%B5es%20para%20este%20profissional.
+2025-05-22 02:58:58,100 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\270572ae4c74705934739889161e338a.html
+2025-05-22 02:58:58,115 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:58:58,115 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 02:58:58,115 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:58:58,115 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:58:58,116 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:58:58,116 - P11992 - INFO - Após processar URL 25 Uso de memória: 115.16 MB
+2025-05-22 02:58:58,116 - P11992 - INFO - Processando URL 26/29: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x1346638310221024815&market=pt-BR&src=SERPIC
+2025-05-22 02:59:02,316 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\5da84881980ab7e6e43dac75e2fdacb6.html
+2025-05-22 02:59:02,344 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:59:02,347 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:59:02,348 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:59:02,349 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:59:02,349 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:59:02,354 - P11992 - INFO - Após processar URL 26 Uso de memória: 115.34 MB
+2025-05-22 02:59:02,362 - P11992 - INFO - Processando URL 27/29: https://www.gov.br/mme/pt-br/acesso-a-informacao/entidades/eletrobras-holding/auditorias/RelatoriodeGestaoExercicio2011.pdf
+2025-05-22 02:59:02,364 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.gov.br/mme/pt-br/acesso-a-informacao/entidades/eletrobras-holding/auditorias/RelatoriodeGestaoExercicio2011.pdf
+2025-05-22 02:59:02,365 - P11992 - INFO - Após processar URL 27 Uso de memória: 115.34 MB
+2025-05-22 02:59:02,379 - P11992 - INFO - Processando URL 28/29: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2018/08/do_20180830_3014.pdf
+2025-05-22 02:59:02,380 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2018/08/do_20180830_3014.pdf
+2025-05-22 02:59:02,381 - P11992 - INFO - Após processar URL 28 Uso de memória: 115.34 MB
+2025-05-22 02:59:02,382 - P11992 - INFO - Processando URL 29/29: https://web.trf3.jus.br/diario/consulta/BaixarPdf/10381
+2025-05-22 02:59:04,589 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\6d76b10e065f762a75b86b7df3accf05.html
+2025-05-22 02:59:04,612 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:59:04,612 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:59:04,612 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:59:04,612 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:59:04,612 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:59:04,612 - P11992 - INFO - Após processar URL 29 Uso de memória: 115.34 MB
+2025-05-22 02:59:04,613 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:59:04,613 - P11992 - INFO - Ranked address: 30 items
+2025-05-22 02:59:04,613 - P11992 - INFO - Ranked phone: 9 items
+2025-05-22 02:59:04,613 - P11992 - INFO - Ranked email: 3 items
+2025-05-22 02:59:04,613 - P11992 - INFO - Ranked complement: 0 items
+2025-05-22 02:59:04,613 - P11992 - INFO - Ranked cep: 54 items
+2025-05-22 02:59:04,614 - P11992 - INFO - Após agregação Uso de memória: 115.34 MB
+2025-05-22 02:59:04,614 - P11992 - INFO - Validando endereço: ['Avenida Nove de Julho , 1818', 'Av. Nove de Julho, 1818', 'Av. Nove de Julho 1818']
+2025-05-22 02:59:04,614 - P11992 - INFO - Endereço validado: Avenida Nove de Julho , 1818
+2025-05-22 02:59:04,614 - P11992 - INFO - Limpando texto extenso para campo address: Avenida Nove de Julho , 1818...
+2025-05-22 02:59:04,614 - P11992 - INFO - Texto limpo: Avenida Nove de Julho , 1818
+2025-05-22 02:59:04,614 - P11992 - INFO - Validando telefone: ['(16) 3636-8356', '(16) 3636-8351', '(11) 3775-4121']
+2025-05-22 02:59:04,614 - P11992 - INFO - Limpando texto extenso para campo phone: (16) 3636-8356...
+2025-05-22 02:59:04,615 - P11992 - INFO - Texto limpo: 16) 3636-8356
+2025-05-22 02:59:04,615 - P11992 - INFO - Telefone validado: 16) 3636-8356
+2025-05-22 02:59:04,615 - P11992 - INFO - Validando email: ['revistajustitia@mpsp.mp.br', 'esmp-secretaria@mpsp.mp.br', 'esmp-escola_virtual@mpsp.mp.br']
+2025-05-22 02:59:04,615 - P11992 - INFO - Limpando texto extenso para campo email: revistajustitia@mpsp.mp.br...
+2025-05-22 02:59:04,615 - P11992 - INFO - Texto limpo: revistajustitia@mpsp.mp.br
+2025-05-22 02:59:04,615 - P11992 - INFO - Email validado: revistajustitia@mpsp.mp.br
+2025-05-22 02:59:04,615 - P11992 - INFO - Descobrindo cidade
+2025-05-22 02:59:04,616 - P11992 - INFO - Buscando cidade: Avenida Nove de Julho cidade SP
+2025-05-22 02:59:07,332 - P11992 - WARNING - Cidade não encontrada
+2025-05-22 02:59:07,332 - P11992 - INFO - Cidade descoberta: 
+2025-05-22 02:59:07,332 - P11992 - INFO - Tempo de execução de processamento completo do médico: 94.89 segundos
+2025-05-22 02:59:07,333 - P11992 - INFO - Resultado processado: {'Hash': 'c890a131417c3da3133cb1bc3d48233d2ea8f12e45dff648401ac91092e2bce6', 'CRM': '49990', 'UF': 'SP', 'Firstname': 'AFONSO', 'LastName': 'LUIZ VILLA', 'Medical specialty': '', 'Endereco Completo A1': 'Avenida Nove de Julho , 1818', 'Address A1': 'Avenida Nove de Julho', 'Numero A1': '1818', 'Complement A1': '', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '16) 3636-8356', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'revistajustitia@mpsp.mp.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:59:07,334 - P11992 - INFO - Progresso: 37.9%
+2025-05-22 02:59:07,334 - P11992 - INFO - Tempo de execução de processamento do médico 2: 94.90 segundos
+2025-05-22 02:59:07,334 - P11992 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 02:59:07,334 - P11992 - INFO - Nome: GUSTAVO AFFONSO FERREIRA
+2025-05-22 02:59:07,335 - P11992 - INFO - Início do processamento Uso de memória: 113.08 MB
+2025-05-22 02:59:07,335 - P11992 - INFO - Iniciando busca para: GUSTAVO AFFONSO FERREIRA CRM 51053 SP telefone e-mail endereço
+2025-05-22 02:59:07,974 - P11992 - INFO - SearX results: 15 URLs
+2025-05-22 02:59:07,978 - P11992 - INFO - Após SearX Uso de memória: 113.08 MB
+2025-05-22 02:59:10,617 - P11992 - INFO - Google results: 10 URLs
+2025-05-22 02:59:10,617 - P11992 - INFO - Após Google Uso de memória: 113.23 MB
+2025-05-22 02:59:13,204 - P11992 - INFO - Bing results: 14 URLs
+2025-05-22 02:59:13,204 - P11992 - INFO - Após Bing Uso de memória: 114.40 MB
+2025-05-22 02:59:13,204 - P11992 - INFO - Total de URLs únicas: 24
+2025-05-22 02:59:13,204 - P11992 - INFO - Processando URL 1/24: https://www.catalogo.med.br/doutor/gustavo-affonso-ferreira-1585437.htm
+2025-05-22 02:59:15,306 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\6bb3cc7a3863d72517d0ce9988702d67.html
+2025-05-22 02:59:15,307 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:59:15,307 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:59:15,307 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:59:15,308 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:59:15,308 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:59:15,308 - P11992 - INFO - Após processar URL 1 Uso de memória: 114.40 MB
+2025-05-22 02:59:15,308 - P11992 - INFO - Processando URL 2/24: https://www.mpsp.mp.br/w/do_25_02_2022
+2025-05-22 02:59:17,829 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7b7842f38b9333c682fd0be00373d38a.html
+2025-05-22 02:59:17,830 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:59:17,830 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:59:17,831 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:59:17,831 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:59:17,831 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:59:17,831 - P11992 - INFO - Após processar URL 2 Uso de memória: 114.41 MB
+2025-05-22 02:59:17,831 - P11992 - INFO - Processando URL 3/24: https://www.empresafone.com.br/empresa/gustavo-affonso-ferreira-medicos-urologia-doencas-das-vias-urinarias-centro-campinas-sp-1091986
+2025-05-22 02:59:21,318 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\9db82a46ab87e7597b9d51d45ca164ef.html
+2025-05-22 02:59:21,469 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:59:21,471 - P11992 - INFO - Candidates phone: 6 items
+2025-05-22 02:59:21,471 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:59:21,472 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:59:21,472 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:59:21,473 - P11992 - INFO - Após processar URL 3 Uso de memória: 113.98 MB
+2025-05-22 02:59:21,475 - P11992 - INFO - Processando URL 4/24: https://pro.doctoralia.com.br/casos-de-sucesso/dr-gustavo-affonso-ferreira
+2025-05-22 02:59:21,475 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://pro.doctoralia.com.br/casos-de-sucesso/dr-gustavo-affonso-ferreira
+2025-05-22 02:59:21,478 - P11992 - INFO - Após processar URL 4 Uso de memória: 113.98 MB
+2025-05-22 02:59:21,479 - P11992 - INFO - Processando URL 5/24: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1556697305.pdf
+2025-05-22 02:59:21,480 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1556697305.pdf
+2025-05-22 02:59:21,481 - P11992 - INFO - Após processar URL 5 Uso de memória: 113.98 MB
+2025-05-22 02:59:21,481 - P11992 - INFO - Processando URL 6/24: https://doctoralia.com.br/clinicas/cirurgia-da-mao
+2025-05-22 02:59:26,323 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\deff47d0e826ff78195ef25a8cf67a2b.html
+2025-05-22 02:59:26,414 - P11992 - INFO - Candidates address: 10 items
+2025-05-22 02:59:26,414 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:59:26,414 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:59:26,414 - P11992 - INFO - Candidates complement: 4 items
+2025-05-22 02:59:26,414 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:59:26,415 - P11992 - INFO - Após processar URL 6 Uso de memória: 115.76 MB
+2025-05-22 02:59:26,415 - P11992 - INFO - Processando URL 7/24: https://diariooficial.santos.sp.gov.br/edicoes/inicio/download/2017-12-19
+2025-05-22 02:59:28,554 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\4bdb0db4beb2b45301b4384d27baf513.html
+2025-05-22 02:59:28,555 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:59:28,555 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:59:28,555 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:59:28,556 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:59:28,556 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:59:28,556 - P11992 - INFO - Após processar URL 7 Uso de memória: 114.51 MB
+2025-05-22 02:59:28,556 - P11992 - INFO - Processando URL 8/24: https://qualotelefone.com/sp/campinas/medicos-urologia-doencas-das-vias-urinarias/gustavo-affonso-ferreira/648017
+2025-05-22 02:59:34,655 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\91eb4874a8ec37970f6be21ef65cd182.html
+2025-05-22 02:59:34,670 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:59:34,671 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 02:59:34,671 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:59:34,671 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:59:34,671 - P11992 - INFO - Candidates cep: 6 items
+2025-05-22 02:59:34,671 - P11992 - INFO - Após processar URL 8 Uso de memória: 114.52 MB
+2025-05-22 02:59:34,671 - P11992 - INFO - Processando URL 9/24: https://www.bingplaces.com/DashBoard/Edit?Id=YN7993x6122634801491537557&market=pt-BR&src=SERPIC
+2025-05-22 02:59:38,068 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\dd6bbdb0e20c7f8d88c0f093035ff6ec.html
+2025-05-22 02:59:38,091 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:59:38,094 - P11992 - INFO - Candidates phone: 1 items
+2025-05-22 02:59:38,094 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:59:38,095 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:59:38,096 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:59:38,096 - P11992 - INFO - Após processar URL 9 Uso de memória: 114.53 MB
+2025-05-22 02:59:38,096 - P11992 - INFO - Processando URL 10/24: https://eguias.net/empresa/gustavo-affonso-ferreira/campinas/sp/3455182
+2025-05-22 02:59:40,291 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\7f4a0e34c92b4b760d187d449adcf1a3.html
+2025-05-22 02:59:40,313 - P11992 - INFO - Candidates address: 2 items
+2025-05-22 02:59:40,313 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 02:59:40,314 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:59:40,314 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:59:40,314 - P11992 - INFO - Candidates cep: 3 items
+2025-05-22 02:59:40,314 - P11992 - INFO - Após processar URL 10 Uso de memória: 114.53 MB
+2025-05-22 02:59:40,314 - P11992 - INFO - Processando URL 11/24: https://doctoralia.com.br/contato
+2025-05-22 02:59:43,319 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\96b3b2a8f88f38e8ba2eb265571e4a31.html
+2025-05-22 02:59:43,339 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:59:43,339 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:59:43,340 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:59:43,340 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:59:43,340 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:59:43,340 - P11992 - INFO - Após processar URL 11 Uso de memória: 114.54 MB
+2025-05-22 02:59:43,341 - P11992 - INFO - Processando URL 12/24: https://www.redescredenciadas.com.br/perfil/gustavo-affonso-ferreira-sp-51053
+2025-05-22 02:59:47,427 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\06f9a517a1dc3ebf9cde7ff5fc90e6ba.html
+2025-05-22 02:59:47,432 - P11992 - INFO - Candidates address: 1 items
+2025-05-22 02:59:47,432 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 02:59:47,433 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:59:47,433 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:59:47,433 - P11992 - INFO - Candidates cep: 0 items
+2025-05-22 02:59:47,433 - P11992 - INFO - Após processar URL 12 Uso de memória: 114.54 MB
+2025-05-22 02:59:47,433 - P11992 - INFO - Processando URL 13/24: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-08-12-2022.pdf
+2025-05-22 02:59:47,433 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-08-12-2022.pdf
+2025-05-22 02:59:47,434 - P11992 - INFO - Após processar URL 13 Uso de memória: 114.54 MB
+2025-05-22 02:59:47,434 - P11992 - INFO - Processando URL 14/24: https://pro.doctoralia.com.br/conteudos/faq/como-trabalhamos
+2025-05-22 02:59:47,434 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://pro.doctoralia.com.br/conteudos/faq/como-trabalhamos
+2025-05-22 02:59:47,434 - P11992 - INFO - Após processar URL 14 Uso de memória: 114.54 MB
+2025-05-22 02:59:47,434 - P11992 - INFO - Processando URL 15/24: https://www.helpsaude.com/gustavo-affonso-ferreira-crmsp-51053
+2025-05-22 02:59:52,040 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\9e4f52dfa7852d22c6a7b6e2839265f9.html
+2025-05-22 02:59:52,053 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:59:52,053 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:59:52,053 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:59:52,054 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:59:52,054 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 02:59:52,054 - P11992 - INFO - Após processar URL 15 Uso de memória: 114.54 MB
+2025-05-22 02:59:52,054 - P11992 - INFO - Processando URL 16/24: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-28-07-2023.pdf?p=1690502400062
+2025-05-22 02:59:52,054 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-28-07-2023.pdf?p=1690502400062
+2025-05-22 02:59:52,054 - P11992 - INFO - Após processar URL 16 Uso de memória: 114.54 MB
+2025-05-22 02:59:52,055 - P11992 - INFO - Processando URL 17/24: https://listamedicos.com/medico/gustavo-affonso-ferreira
+2025-05-22 02:59:56,722 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\b67771d53fe1433ca5717d876168dfde.html
+2025-05-22 02:59:56,729 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 02:59:56,729 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 02:59:56,729 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 02:59:56,729 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 02:59:56,729 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 02:59:56,730 - P11992 - INFO - Após processar URL 17 Uso de memória: 114.54 MB
+2025-05-22 02:59:56,730 - P11992 - INFO - Processando URL 18/24: https://www.listamais.com.br/local/cad_idXZZ95XX/gustavo-affonso-ferreira-urologista-em-campinas-sp
+2025-05-22 03:00:01,847 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\b0dbe87c9d1dd424a49a3b9c156503fc.html
+2025-05-22 03:00:01,869 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:00:01,874 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 03:00:01,874 - P11992 - INFO - Candidates email: 1 items
+2025-05-22 03:00:01,874 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:00:01,875 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 03:00:01,879 - P11992 - INFO - Após processar URL 18 Uso de memória: 114.54 MB
+2025-05-22 03:00:01,882 - P11992 - INFO - Processando URL 19/24: https://www.benditoguia.com.br/empresa/dr-gustavo-affonso-ferreira-urologista-centro-campinas-sp
+2025-05-22 03:00:05,975 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\5463b264d51943642765666ae0acd694.html
+2025-05-22 03:00:05,994 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:00:05,994 - P11992 - INFO - Candidates phone: 2 items
+2025-05-22 03:00:05,994 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:00:05,995 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:00:05,995 - P11992 - INFO - Candidates cep: 2 items
+2025-05-22 03:00:05,995 - P11992 - INFO - Após processar URL 19 Uso de memória: 114.55 MB
+2025-05-22 03:00:05,995 - P11992 - INFO - Processando URL 20/24: https://www.doctoralia.com.br/gustavo-affonso-ferreira/urologista/campinas
+2025-05-22 03:00:05,995 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/gustavo-affonso-ferreira/urologista/campinas
+2025-05-22 03:00:05,996 - P11992 - INFO - Após processar URL 20 Uso de memória: 109.08 MB
+2025-05-22 03:00:05,997 - P11992 - INFO - Processando URL 21/24: https://clinica.work/especialista/gustavo-affonso-ferreira-urologista-campinas-sp
+2025-05-22 03:00:09,875 - P11992 - INFO - HTML salvo para debug: data\debug_html_v10\13164381a7e8e0d5d11729fefdd90dd1.html
+2025-05-22 03:00:09,892 - P11992 - INFO - Candidates address: 0 items
+2025-05-22 03:00:09,892 - P11992 - INFO - Candidates phone: 0 items
+2025-05-22 03:00:09,892 - P11992 - INFO - Candidates email: 0 items
+2025-05-22 03:00:09,892 - P11992 - INFO - Candidates complement: 0 items
+2025-05-22 03:00:09,892 - P11992 - INFO - Candidates cep: 1 items
+2025-05-22 03:00:09,893 - P11992 - INFO - Após processar URL 21 Uso de memória: 112.26 MB
+2025-05-22 03:00:09,893 - P11992 - INFO - Processando URL 22/24: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1529781296.pdf
+2025-05-22 03:00:09,893 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1529781296.pdf
+2025-05-22 03:00:09,893 - P11992 - INFO - Após processar URL 22 Uso de memória: 111.10 MB
+2025-05-22 03:00:09,893 - P11992 - INFO - Processando URL 23/24: https://www.doctoranytime.com.br/d/urologista/gustavo-affonso-ferreira
+2025-05-22 03:00:09,894 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoranytime.com.br/d/urologista/gustavo-affonso-ferreira
+2025-05-22 03:00:09,894 - P11992 - INFO - Após processar URL 23 Uso de memória: 111.10 MB
+2025-05-22 03:00:09,894 - P11992 - INFO - Processando URL 24/24: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1773981233.pdf
+2025-05-22 03:00:09,894 - P11992 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1773981233.pdf
+2025-05-22 03:00:09,894 - P11992 - INFO - Após processar URL 24 Uso de memória: 111.10 MB
+2025-05-22 03:00:09,894 - P11992 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 03:00:09,895 - P11992 - INFO - Ranked address: 13 items
+2025-05-22 03:00:09,895 - P11992 - INFO - Ranked phone: 12 items
+2025-05-22 03:00:09,895 - P11992 - INFO - Ranked email: 1 items
+2025-05-22 03:00:09,895 - P11992 - INFO - Ranked complement: 4 items
+2025-05-22 03:00:09,895 - P11992 - INFO - Ranked cep: 11 items
+2025-05-22 03:00:09,896 - P11992 - INFO - Após agregação Uso de memória: 111.10 MB
+2025-05-22 03:00:09,896 - P11992 - INFO - Validando endereço: ['Rua Visconde do Rio Branco, 1488', 'Avenida Andrade Neves, 707', 'Rua 12 Lote 05']
+2025-05-22 03:00:09,896 - P11992 - INFO - Endereço validado: Rua Visconde do Rio Branco, 1488
+2025-05-22 03:00:09,896 - P11992 - INFO - Limpando texto extenso para campo address: Rua Visconde do Rio Branco, 1488...
+2025-05-22 03:00:09,896 - P11992 - INFO - Texto limpo: Rua Visconde do Rio Branco, 1488
+2025-05-22 03:00:09,896 - P11992 - INFO - Validando telefone: ['(19) 3236-8140', '(19) 3233-2244', '(19) 3231-3000']
+2025-05-22 03:00:09,897 - P11992 - INFO - Limpando texto extenso para campo phone: (19) 3236-8140...
+2025-05-22 03:00:09,897 - P11992 - INFO - Texto limpo: 19) 3236-8140
+2025-05-22 03:00:09,897 - P11992 - INFO - Telefone validado: 19) 3236-8140
+2025-05-22 03:00:09,897 - P11992 - INFO - Validando email: ['atendimento@listamais.com.br']
+2025-05-22 03:00:09,897 - P11992 - INFO - Limpando texto extenso para campo email: atendimento@listamais.com.br...
+2025-05-22 03:00:09,897 - P11992 - INFO - Texto limpo: atendimento@listamais.com.br
+2025-05-22 03:00:09,897 - P11992 - INFO - Email validado: atendimento@listamais.com.br
+2025-05-22 03:00:09,898 - P11992 - INFO - Validando complemento: ['Bloco D (Edifício Hangar 5) Ao lago do Gilberto Salomao', 'Sala 06 - Meia Praia', 'Conjunto 2807']
+2025-05-22 03:00:09,898 - P11992 - INFO - Limpando texto extenso para campo complement: Bloco D (Edifício Hangar 5) Ao lago do Gilberto Sa...
+2025-05-22 03:00:09,898 - P11992 - INFO - Texto limpo: Bloco D (Edifício Hangar 5) Ao
+2025-05-22 03:00:09,898 - P11992 - INFO - Complemento validado: Bloco D (Edifício Hangar 5) Ao
+2025-05-22 03:00:09,898 - P11992 - INFO - Descobrindo cidade
+2025-05-22 03:00:09,898 - P11992 - INFO - Buscando cidade: Rua Visconde do Rio Branco cidade SP
+2025-05-22 03:00:12,694 - P11992 - INFO - Cidade encontrada: Diadema
+2025-05-22 03:00:12,696 - P11992 - INFO - Limpando texto extenso para campo city: Diadema...
+2025-05-22 03:00:12,698 - P11992 - INFO - Texto limpo: Diadema
+2025-05-22 03:00:12,699 - P11992 - INFO - Cidade descoberta: Diadema
+2025-05-22 03:00:12,699 - P11992 - INFO - Buscando CEP com sistema de cascata
+2025-05-22 03:00:12,699 - P11992 - INFO - Iniciando busca de CEP em cascata para: Rua Visconde do Rio Branco, Diadema, SP
+2025-05-22 03:00:12,700 - P11992 - INFO - Método 1: ViaCEP API
+2025-05-22 03:00:12,700 - P11992 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/SP/diadema/rua%20visconde%20do%20rio%20branco/json/
+2025-05-22 03:00:13,335 - P11992 - WARNING - ViaCEP retornou status 200 ou nenhum resultado
+2025-05-22 03:00:13,337 - P11992 - INFO - Método 2: BrasilAPI
+2025-05-22 03:00:13,337 - P11992 - INFO - Buscando na BrasilAPI: Rua Visconde do Rio Branco, Diadema, SP
+2025-05-22 03:00:13,816 - P11992 - INFO - Consultando BrasilAPI: https://brasilapi.com.br/api/cep/v2/35135084
+2025-05-22 03:00:14,140 - P11992 - WARNING - BrasilAPI retornou status 404
+2025-05-22 03:00:14,142 - P11992 - INFO - Método 3: Web Scraping do Google
+2025-05-22 03:00:14,142 - P11992 - INFO - Buscando CEP: CEP da Rua Visconde do Rio Branco, Diadema
+2025-05-22 03:00:16,018 - P11992 - INFO - CEP encontrado: 09910-470
+2025-05-22 03:00:16,018 - P11992 - INFO - CEP encontrado via Google: 09910-470
+2025-05-22 03:00:16,018 - P11992 - INFO - Dados de CEP encontrados: {'cep': '09910-470', 'logradouro': 'Rua Visconde do Rio Branco', 'bairro': '', 'localidade': 'Diadema', 'uf': 'SP', 'complemento': ''}
+2025-05-22 03:00:16,019 - P11992 - INFO - Limpando texto extenso para campo city: Diadema...
+2025-05-22 03:00:16,019 - P11992 - INFO - Texto limpo: Diadema
+2025-05-22 03:00:16,019 - P11992 - INFO - Limpando texto extenso para campo state: SP...
+2025-05-22 03:00:16,019 - P11992 - INFO - Texto limpo: SP
+2025-05-22 03:00:16,019 - P11992 - INFO - Tempo de execução de processamento completo do médico: 68.68 segundos
+2025-05-22 03:00:16,020 - P11992 - INFO - Resultado processado: {'Hash': 'ab2562dfcb3978024b4fb8f38ade57479f3da6800501ec6cce914cc0d4082aad', 'CRM': '51053', 'UF': 'SP', 'Firstname': 'GUSTAVO', 'LastName': 'AFFONSO FERREIRA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Visconde do Rio Branco, 1488', 'Address A1': 'Rua Visconde do Rio Branco', 'Numero A1': '1488', 'Complement A1': 'Bloco D (Edifício Hangar 5) Ao', 'Bairro A1': '', 'postal code A1': '09910-470', 'City A1': 'Diadema', 'State A1': 'SP', 'Phone A1': '19) 3236-8140', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'atendimento@listamais.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 03:00:16,020 - P11992 - INFO - Salvando lote de resultados
+2025-05-22 03:00:16,021 - P11992 - INFO - Após salvar resultados Uso de memória: 112.54 MB
+2025-05-22 03:00:16,021 - P11992 - INFO - Progresso: 38.4%
+2025-05-22 03:00:16,021 - P11992 - INFO - Tempo de execução de processamento do médico 3: 68.69 segundos
+2025-05-22 03:00:16,022 - P11992 - INFO - Tempo de execução de processamento do lote completo: 232.11 segundos

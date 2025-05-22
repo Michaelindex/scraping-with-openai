@@ -1,0 +1,529 @@
+2025-05-22 02:52:38,960 - P17320 - INFO - 
+==================================================
+Processando médico 1/3
+2025-05-22 02:52:38,962 - P17320 - INFO - Nome: PEDRO ALBERTO LEMOS FIORATTI
+2025-05-22 02:52:38,963 - P17320 - INFO - Reiniciando driver do Chrome
+2025-05-22 02:52:40,336 - P17320 - INFO - Após reiniciar driver Uso de memória: 106.79 MB
+2025-05-22 02:52:40,336 - P17320 - INFO - Início do processamento Uso de memória: 106.79 MB
+2025-05-22 02:52:40,336 - P17320 - INFO - Iniciando busca para: PEDRO ALBERTO LEMOS FIORATTI CRM 23556 SP telefone e-mail endereço
+2025-05-22 02:52:40,683 - P17320 - INFO - SearX results: 0 URLs
+2025-05-22 02:52:40,683 - P17320 - INFO - Após SearX Uso de memória: 106.79 MB
+2025-05-22 02:52:43,249 - P17320 - INFO - Google results: 0 URLs
+2025-05-22 02:52:43,249 - P17320 - INFO - Após Google Uso de memória: 107.40 MB
+2025-05-22 02:52:45,787 - P17320 - INFO - Bing results: 10 URLs
+2025-05-22 02:52:45,787 - P17320 - INFO - Após Bing Uso de memória: 109.55 MB
+2025-05-22 02:52:45,787 - P17320 - INFO - Total de URLs únicas: 10
+2025-05-22 02:52:45,787 - P17320 - INFO - Processando URL 1/10: https://www.consultacrm.com.br/index/profissionais/uid-9904cf06-f5c5-11ec-9e74-0a4aa568c625/pedro_alberto_lemos_fioratti
+2025-05-22 02:52:51,308 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\6385a516fa923d8e2f899155d8be47a4.html
+2025-05-22 02:52:51,322 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:52:51,322 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:52:51,323 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:52:51,323 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:52:51,323 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:52:51,323 - P17320 - INFO - Após processar URL 1 Uso de memória: 109.68 MB
+2025-05-22 02:52:51,324 - P17320 - INFO - Processando URL 2/10: https://guiasaudebrasil.com.br/profissional/12071f57c36e36a6-pedro-alberto-lemos-fioratti
+2025-05-22 02:52:56,858 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\bcd771b2926662fe5f201e4a20bd37f2.html
+2025-05-22 02:52:56,865 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:52:56,865 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:52:56,866 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:52:56,866 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:52:56,866 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:52:56,867 - P17320 - INFO - Após processar URL 2 Uso de memória: 109.70 MB
+2025-05-22 02:52:56,867 - P17320 - INFO - Processando URL 3/10: https://www.cremesp.org.br/?siteAcao=ServicosMedicosEnderecoInternet
+2025-05-22 02:53:01,355 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\895751417c20bb12007cc9d287a358de.html
+2025-05-22 02:53:01,379 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:53:01,379 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:53:01,379 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:53:01,379 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:53:01,380 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:53:01,380 - P17320 - INFO - Após processar URL 3 Uso de memória: 109.70 MB
+2025-05-22 02:53:01,380 - P17320 - INFO - Processando URL 4/10: https://guiamedico.cremesp.org.br/
+2025-05-22 02:53:05,015 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 02:53:05,021 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:53:05,021 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:53:05,021 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:53:05,022 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:53:05,022 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:53:05,022 - P17320 - INFO - Após processar URL 4 Uso de memória: 109.71 MB
+2025-05-22 02:53:05,022 - P17320 - INFO - Processando URL 5/10: https://www.helpsaude.com/Pedro-Alberto-Lemos-Fioratti.SP
+2025-05-22 02:53:11,479 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\546f02ac6019085069e79479c2bc4b1f.html
+2025-05-22 02:53:11,495 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:53:11,495 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:53:11,495 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:53:11,496 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:53:11,496 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:53:11,496 - P17320 - INFO - Após processar URL 5 Uso de memória: 109.74 MB
+2025-05-22 02:53:11,496 - P17320 - INFO - Processando URL 6/10: https://consultacrm.com.br/
+2025-05-22 02:53:15,091 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:53:15,103 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:53:15,103 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:53:15,104 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:53:15,104 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:53:15,104 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:53:15,104 - P17320 - INFO - Após processar URL 6 Uso de memória: 109.75 MB
+2025-05-22 02:53:15,104 - P17320 - INFO - Processando URL 7/10: https://cliniguia.com/profissionais/pedro-alberto-lemos-fioratti-100997252980004/
+2025-05-22 02:53:20,354 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\4271fb959c0e491103537f02b51662b5.html
+2025-05-22 02:53:20,406 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:53:20,407 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:53:20,407 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:53:20,408 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:53:20,408 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:53:20,408 - P17320 - INFO - Após processar URL 7 Uso de memória: 110.84 MB
+2025-05-22 02:53:20,408 - P17320 - INFO - Processando URL 8/10: https://transparencia.cremesp.org.br/?siteAcao=guia_medico
+2025-05-22 02:53:29,764 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\cb80cc007a72cc7a378681a92a58906a.html
+2025-05-22 02:53:29,817 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:53:29,817 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:53:29,817 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:53:29,817 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:53:29,817 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:53:29,817 - P17320 - INFO - Após processar URL 8 Uso de memória: 110.84 MB
+2025-05-22 02:53:29,818 - P17320 - INFO - Processando URL 9/10: https://cnpj.biz/08773706000106
+2025-05-22 02:53:34,221 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\c59f6c6522f2492ae0ecebe4b0451d4e.html
+2025-05-22 02:53:34,237 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 02:53:34,237 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 02:53:34,237 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:53:34,238 - P17320 - INFO - Candidates complement: 3 items
+2025-05-22 02:53:34,238 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:53:34,238 - P17320 - INFO - Após processar URL 9 Uso de memória: 110.88 MB
+2025-05-22 02:53:34,238 - P17320 - INFO - Processando URL 10/10: https://sociocnpj.com/documentacao/socio/08706437000157/pedro-alberto-lemos-fioratti
+2025-05-22 02:53:41,096 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\85f1495341d2031a5094d7a831c878ca.html
+2025-05-22 02:53:41,107 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:53:41,107 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:53:41,108 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:53:41,108 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:53:41,108 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:53:41,108 - P17320 - INFO - Após processar URL 10 Uso de memória: 109.84 MB
+2025-05-22 02:53:41,109 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:53:41,109 - P17320 - INFO - Ranked address: 3 items
+2025-05-22 02:53:41,109 - P17320 - INFO - Ranked phone: 3 items
+2025-05-22 02:53:41,109 - P17320 - INFO - Ranked email: 1 items
+2025-05-22 02:53:41,110 - P17320 - INFO - Ranked complement: 3 items
+2025-05-22 02:53:41,110 - P17320 - INFO - Ranked cep: 6 items
+2025-05-22 02:53:41,110 - P17320 - INFO - Após agregação Uso de memória: 109.84 MB
+2025-05-22 02:53:41,110 - P17320 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Rua Pedro Fioretti, 156', 'Rua Pedro Fioretti 156 Conjunto 73 Centro Osasco SP']
+2025-05-22 02:53:41,110 - P17320 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 02:53:41,110 - P17320 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 02:53:41,111 - P17320 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 02:53:41,111 - P17320 - INFO - Validando telefone: ['(11) 4349-9900', '(11) 3699-6356', '(11) 3683-6060']
+2025-05-22 02:53:41,111 - P17320 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 02:53:41,111 - P17320 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 02:53:41,111 - P17320 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 02:53:41,111 - P17320 - INFO - Validando email: ['rcmsp@bol.com.br']
+2025-05-22 02:53:41,111 - P17320 - INFO - Limpando texto extenso para campo email: rcmsp@bol.com.br...
+2025-05-22 02:53:41,111 - P17320 - INFO - Texto limpo: rcmsp@bol.com.br
+2025-05-22 02:53:41,112 - P17320 - INFO - Email validado: rcmsp@bol.com.br
+2025-05-22 02:53:41,112 - P17320 - INFO - Validando complemento: ['Conjunto 73  Clique para copiar    Bairro:  Centro  Clique', 'Conjunto 73  Centro  Osasco SP  06013-070  Clique para cop', 'Conjunto 73  Centro  Osasco SP  06013-070                 ']
+2025-05-22 02:53:41,112 - P17320 - INFO - Limpando texto extenso para campo complement: Conjunto 73  Clique para copiar    Bairro:  Centro...
+2025-05-22 02:53:41,112 - P17320 - INFO - Texto limpo: Conjunto 73 Clique para copia
+2025-05-22 02:53:41,112 - P17320 - INFO - Complemento validado: Conjunto 73 Clique para copia
+2025-05-22 02:53:41,112 - P17320 - INFO - Descobrindo cidade
+2025-05-22 02:53:41,113 - P17320 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 02:53:44,058 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 02:53:44,059 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 02:53:44,059 - P17320 - INFO - Tempo de execução de processamento completo do médico: 63.72 segundos
+2025-05-22 02:53:44,060 - P17320 - INFO - Resultado processado: {'Hash': '2f72d3c685364357b01863d0779d14dd51dd47f1478d556c536276bfacf6cd57', 'CRM': '23556', 'UF': 'SP', 'Firstname': 'PEDRO', 'LastName': 'ALBERTO LEMOS FIORATTI', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Conjunto 73 Clique para copia', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'rcmsp@bol.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:53:44,063 - P17320 - INFO - Progresso: 36.2%
+2025-05-22 02:53:44,063 - P17320 - INFO - Executando coleta de lixo
+2025-05-22 02:53:44,082 - P17320 - INFO - Após coleta de lixo Uso de memória: 100.36 MB
+2025-05-22 02:53:44,082 - P17320 - INFO - Tempo de execução de processamento do médico 1: 65.12 segundos
+2025-05-22 02:53:44,082 - P17320 - INFO - 
+==================================================
+Processando médico 2/3
+2025-05-22 02:53:44,083 - P17320 - INFO - Nome: MARIO MASAO TANAKA
+2025-05-22 02:53:44,083 - P17320 - INFO - Início do processamento Uso de memória: 100.36 MB
+2025-05-22 02:53:44,083 - P17320 - INFO - Iniciando busca para: MARIO MASAO TANAKA CRM 24458 SP telefone e-mail endereço
+2025-05-22 02:53:44,496 - P17320 - INFO - SearX results: 6 URLs
+2025-05-22 02:53:44,499 - P17320 - INFO - Após SearX Uso de memória: 100.36 MB
+2025-05-22 02:53:47,187 - P17320 - INFO - Google results: 9 URLs
+2025-05-22 02:53:47,188 - P17320 - INFO - Após Google Uso de memória: 103.80 MB
+2025-05-22 02:53:49,703 - P17320 - INFO - Bing results: 13 URLs
+2025-05-22 02:53:49,703 - P17320 - INFO - Após Bing Uso de memória: 106.80 MB
+2025-05-22 02:53:49,703 - P17320 - INFO - Total de URLs únicas: 22
+2025-05-22 02:53:49,704 - P17320 - INFO - Processando URL 1/22: https://www.saobernardo.sp.gov.br/documents/10181/46759/NM+1171+08_01_2003.pdf/e0a293c7-a5af-41f8-b07f-bfbd12b0abef?version=1.1
+2025-05-22 02:53:49,704 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/46759/NM+1171+08_01_2003.pdf/e0a293c7-a5af-41f8-b07f-bfbd12b0abef?version=1.1
+2025-05-22 02:53:49,704 - P17320 - INFO - Após processar URL 1 Uso de memória: 106.80 MB
+2025-05-22 02:53:49,704 - P17320 - INFO - Processando URL 2/22: https://cliniguia.com/profissionais/mario-massao-tanaka-207289155660000/
+2025-05-22 02:53:54,503 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\edc63271d3463f10e878dd30bd3f6593.html
+2025-05-22 02:53:54,549 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:53:54,550 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:53:54,550 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:53:54,550 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:53:54,550 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:53:54,550 - P17320 - INFO - Após processar URL 2 Uso de memória: 107.82 MB
+2025-05-22 02:53:54,550 - P17320 - INFO - Processando URL 3/22: https://www.classemedica.com.br/medico/239002-mario-masao-tanaka.htm
+2025-05-22 02:54:22,522 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9fd3233b2efadca3a536164af07b34fd.html
+2025-05-22 02:54:22,552 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:54:22,552 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:54:22,552 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:54:22,552 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:54:22,552 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:54:22,553 - P17320 - INFO - Após processar URL 3 Uso de memória: 108.88 MB
+2025-05-22 02:54:22,553 - P17320 - INFO - Processando URL 4/22: https://cnpj.biz/08001294000188
+2025-05-22 02:54:24,933 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\5d34cf33fdf83957a6c71ec9d875c3ff.html
+2025-05-22 02:54:24,936 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:54:24,937 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:54:24,937 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:54:24,937 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:54:24,937 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:54:24,938 - P17320 - INFO - Após processar URL 4 Uso de memória: 108.89 MB
+2025-05-22 02:54:24,938 - P17320 - INFO - Processando URL 5/22: https://www.doctoralia.com.br/mario-masao-tanaka/generalista/caceres
+2025-05-22 02:54:24,938 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/mario-masao-tanaka/generalista/caceres
+2025-05-22 02:54:24,940 - P17320 - INFO - Após processar URL 5 Uso de memória: 108.89 MB
+2025-05-22 02:54:24,950 - P17320 - INFO - Processando URL 6/22: https://www.catalogo.med.br/doutor/mario-massao-tanaka-121710.htm
+2025-05-22 02:54:27,177 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\cc629f4619d97dd216fbc5ff1f85f47f.html
+2025-05-22 02:54:27,178 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:54:27,178 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:54:27,178 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:54:27,179 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:54:27,179 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:54:27,179 - P17320 - INFO - Após processar URL 6 Uso de memória: 108.89 MB
+2025-05-22 02:54:27,179 - P17320 - INFO - Processando URL 7/22: https://cnpj.biz/55525257000159
+2025-05-22 02:54:29,285 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\0c3dea5c0456ceb52ded26276787c22a.html
+2025-05-22 02:54:29,287 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:54:29,287 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:54:29,288 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:54:29,288 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:54:29,288 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:54:29,288 - P17320 - INFO - Após processar URL 7 Uso de memória: 108.89 MB
+2025-05-22 02:54:29,288 - P17320 - INFO - Processando URL 8/22: https://guiamedico.cremesp.org.br/
+2025-05-22 02:54:31,992 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 02:54:31,998 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:54:31,999 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:54:31,999 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:54:32,000 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:54:32,000 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:54:32,001 - P17320 - INFO - Após processar URL 8 Uso de memória: 109.00 MB
+2025-05-22 02:54:32,001 - P17320 - INFO - Processando URL 9/22: https://www.doctoralia.com.br/ginecologista/caceres
+2025-05-22 02:54:32,001 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/ginecologista/caceres
+2025-05-22 02:54:32,002 - P17320 - INFO - Após processar URL 9 Uso de memória: 109.00 MB
+2025-05-22 02:54:32,002 - P17320 - INFO - Processando URL 10/22: https://www.catalogo.med.br/doutor/mario-masao-tanaka-2004685.htm
+2025-05-22 02:54:34,070 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\2b34786ffc38490919933972887a53ac.html
+2025-05-22 02:54:34,071 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:54:34,071 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:54:34,071 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:54:34,071 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:54:34,071 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:54:34,072 - P17320 - INFO - Após processar URL 10 Uso de memória: 109.00 MB
+2025-05-22 02:54:34,072 - P17320 - INFO - Processando URL 11/22: https://www.ime.usp.br/~yoshi/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 02:54:34,072 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 02:54:34,072 - P17320 - INFO - Após processar URL 11 Uso de memória: 109.00 MB
+2025-05-22 02:54:34,072 - P17320 - INFO - Processando URL 12/22: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 02:54:34,072 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.ime.usp.br/~yoshi/2020i/ccm128/sandbox/2020.05.06/DATA/LEIPZIG_PT_BR/1M/por-br_newscrawl_2011_1M-words.txt
+2025-05-22 02:54:34,073 - P17320 - INFO - Após processar URL 12 Uso de memória: 109.00 MB
+2025-05-22 02:54:34,073 - P17320 - INFO - Processando URL 13/22: https://www.saobernardo.sp.gov.br/documents/10181/46759/NM+1171+08_01_2003.pdf/e0a293c7-a5af-41f8-b07f-bfbd12b0abef
+2025-05-22 02:54:34,073 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/46759/NM+1171+08_01_2003.pdf/e0a293c7-a5af-41f8-b07f-bfbd12b0abef
+2025-05-22 02:54:34,073 - P17320 - INFO - Após processar URL 13 Uso de memória: 109.00 MB
+2025-05-22 02:54:34,073 - P17320 - INFO - Processando URL 14/22: https://www.doctoralia.com.br/generalista/caceres/centro285
+2025-05-22 02:54:34,073 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/generalista/caceres/centro285
+2025-05-22 02:54:34,073 - P17320 - INFO - Após processar URL 14 Uso de memória: 109.00 MB
+2025-05-22 02:54:34,074 - P17320 - INFO - Processando URL 15/22: http://www-storage.voxtecnologia.com.br/?m=sigpub.publicacao&f=351&i=publicado_57778_2018-05-07_19867ba4059042b7add504ef1efd4c31.pdf
+2025-05-22 02:54:34,074 - P17320 - INFO - Ignorando URL de arquivo não-HTML: http://www-storage.voxtecnologia.com.br/?m=sigpub.publicacao&f=351&i=publicado_57778_2018-05-07_19867ba4059042b7add504ef1efd4c31.pdf
+2025-05-22 02:54:34,074 - P17320 - INFO - Após processar URL 15 Uso de memória: 109.00 MB
+2025-05-22 02:54:34,074 - P17320 - INFO - Processando URL 16/22: http://www.guiareunimedicos.med.br/c/mt/caceres/ginecologistas-e-obstetras/mario-masao-tanaka-2004685.htm
+2025-05-22 02:54:36,242 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\70f70ef8b0cb1a1e6eda3ec687a33e3d.html
+2025-05-22 02:54:36,242 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:54:36,242 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:54:36,243 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:54:36,243 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:54:36,243 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:54:36,243 - P17320 - INFO - Após processar URL 16 Uso de memória: 109.00 MB
+2025-05-22 02:54:36,243 - P17320 - INFO - Processando URL 17/22: https://guiafacil.com/site/mario-tanaka/sao-paulo/sp/1137814338
+2025-05-22 02:54:39,473 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\299b186bee54bf5e146cac90bb54fb88.html
+2025-05-22 02:54:39,505 - P17320 - INFO - Candidates address: 3 items
+2025-05-22 02:54:39,505 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 02:54:39,505 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:54:39,506 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:54:39,506 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:54:39,506 - P17320 - INFO - Após processar URL 17 Uso de memória: 110.59 MB
+2025-05-22 02:54:39,506 - P17320 - INFO - Processando URL 18/22: https://www.boaconsulta.com/especialista/mario-massao-tanaka-6106da1ba2e00a653a00c1fd
+2025-05-22 02:54:42,775 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\08ff6a9fcf1f8bac3e4d9c5a6a58b878.html
+2025-05-22 02:54:42,847 - P17320 - INFO - Candidates address: 11 items
+2025-05-22 02:54:42,847 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:54:42,848 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:54:42,848 - P17320 - INFO - Candidates complement: 4 items
+2025-05-22 02:54:42,848 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:54:42,848 - P17320 - INFO - Após processar URL 18 Uso de memória: 110.18 MB
+2025-05-22 02:54:42,848 - P17320 - INFO - Processando URL 19/22: https://www.doctoralia.com.br/generalista/caceres
+2025-05-22 02:54:42,848 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/generalista/caceres
+2025-05-22 02:54:42,850 - P17320 - INFO - Após processar URL 19 Uso de memória: 101.77 MB
+2025-05-22 02:54:42,850 - P17320 - INFO - Processando URL 20/22: https://www.consultacrm.com.br/index/medicos/uid-91600e4c-f5c5-11ec-9e74-0a4aa568c625/mario_masao_tanaka
+2025-05-22 02:54:47,139 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\367bde5fc38a9e6c878ba4b64c0aa3f6.html
+2025-05-22 02:54:47,150 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:54:47,150 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:54:47,150 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:54:47,150 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:54:47,150 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:54:47,151 - P17320 - INFO - Após processar URL 20 Uso de memória: 105.66 MB
+2025-05-22 02:54:47,151 - P17320 - INFO - Processando URL 21/22: https://www.cmstanakaodontologia.com/
+2025-05-22 02:54:49,939 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\201905268f5862ff138af5d27bf8685a.html
+2025-05-22 02:54:49,986 - P17320 - INFO - Candidates address: 2 items
+2025-05-22 02:54:49,986 - P17320 - INFO - Candidates phone: 3 items
+2025-05-22 02:54:49,986 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:54:49,986 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:54:49,987 - P17320 - INFO - Candidates cep: 2 items
+2025-05-22 02:54:49,987 - P17320 - INFO - Após processar URL 21 Uso de memória: 112.74 MB
+2025-05-22 02:54:49,987 - P17320 - INFO - Processando URL 22/22: https://consultacrm.com.br/
+2025-05-22 02:54:53,691 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:54:53,705 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:54:53,706 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:54:53,706 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:54:53,706 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:54:53,707 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:54:53,707 - P17320 - INFO - Após processar URL 22 Uso de memória: 109.14 MB
+2025-05-22 02:54:53,707 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:54:53,707 - P17320 - INFO - Ranked address: 17 items
+2025-05-22 02:54:53,707 - P17320 - INFO - Ranked phone: 6 items
+2025-05-22 02:54:53,708 - P17320 - INFO - Ranked email: 0 items
+2025-05-22 02:54:53,708 - P17320 - INFO - Ranked complement: 4 items
+2025-05-22 02:54:53,708 - P17320 - INFO - Ranked cep: 5 items
+2025-05-22 02:54:53,709 - P17320 - INFO - Após agregação Uso de memória: 109.14 MB
+2025-05-22 02:54:53,709 - P17320 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Avenida General Asdrúbal da Cunha, 764', 'Avenida Martin Luther, 399']
+2025-05-22 02:54:53,710 - P17320 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 02:54:53,711 - P17320 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 02:54:53,711 - P17320 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 02:54:53,713 - P17320 - INFO - Validando telefone: ['(11) 4349-9900', '(11) 3781-4338', '(01) 13781-4338']
+2025-05-22 02:54:53,714 - P17320 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 02:54:53,714 - P17320 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 02:54:53,715 - P17320 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 02:54:53,715 - P17320 - INFO - Validando complemento: ['Conjunto 31 Vila Nova Conceição', 'Sala12', 'Sala 216']
+2025-05-22 02:54:53,715 - P17320 - INFO - Limpando texto extenso para campo complement: Conjunto 31 Vila Nova Conceição...
+2025-05-22 02:54:53,715 - P17320 - INFO - Texto limpo: Conjunto 31 Vila Nova Conceiçã
+2025-05-22 02:54:53,715 - P17320 - INFO - Complemento validado: Conjunto 31 Vila Nova Conceiçã
+2025-05-22 02:54:53,716 - P17320 - INFO - Descobrindo cidade
+2025-05-22 02:54:53,716 - P17320 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 02:54:56,310 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 02:54:56,314 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 02:54:56,316 - P17320 - INFO - Tempo de execução de processamento completo do médico: 72.23 segundos
+2025-05-22 02:54:56,317 - P17320 - INFO - Resultado processado: {'Hash': 'bf24207b130c0ea10f51df8f404df53e776d1a186b7f8607af580a21c34ebf7c', 'CRM': '24458', 'UF': 'SP', 'Firstname': 'MARIO', 'LastName': 'MASAO TANAKA', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Conjunto 31 Vila Nova Conceiçã', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': '', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:54:56,318 - P17320 - INFO - Progresso: 36.4%
+2025-05-22 02:54:56,319 - P17320 - INFO - Tempo de execução de processamento do médico 2: 72.24 segundos
+2025-05-22 02:54:56,327 - P17320 - INFO - 
+==================================================
+Processando médico 3/3
+2025-05-22 02:54:56,328 - P17320 - INFO - Nome: ANTONIO JOSE DE LEMOS CABRAL
+2025-05-22 02:54:56,328 - P17320 - INFO - Início do processamento Uso de memória: 108.52 MB
+2025-05-22 02:54:56,329 - P17320 - INFO - Iniciando busca para: ANTONIO JOSE DE LEMOS CABRAL CRM 25471 SP telefone e-mail endereço
+2025-05-22 02:54:56,860 - P17320 - INFO - SearX results: 10 URLs
+2025-05-22 02:54:56,860 - P17320 - INFO - Após SearX Uso de memória: 108.52 MB
+2025-05-22 02:54:59,902 - P17320 - INFO - Google results: 11 URLs
+2025-05-22 02:54:59,902 - P17320 - INFO - Após Google Uso de memória: 111.40 MB
+2025-05-22 02:55:02,392 - P17320 - INFO - Bing results: 15 URLs
+2025-05-22 02:55:02,393 - P17320 - INFO - Após Bing Uso de memória: 111.41 MB
+2025-05-22 02:55:02,393 - P17320 - INFO - Total de URLs únicas: 27
+2025-05-22 02:55:02,393 - P17320 - INFO - Processando URL 1/27: https://www.consultacrm.com.br/index/sis_login
+2025-05-22 02:55:06,268 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e56926aa25e0582d5c5b8aa167ed4b53.html
+2025-05-22 02:55:06,280 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:55:06,280 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:55:06,281 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:55:06,281 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:55:06,281 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:55:06,281 - P17320 - INFO - Após processar URL 1 Uso de memória: 111.48 MB
+2025-05-22 02:55:06,281 - P17320 - INFO - Processando URL 2/27: https://www.cremesp.gov.br/pdfs/listamedicos13_05_2016.pdf
+2025-05-22 02:55:06,282 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.cremesp.gov.br/pdfs/listamedicos13_05_2016.pdf
+2025-05-22 02:55:06,282 - P17320 - INFO - Após processar URL 2 Uso de memória: 111.48 MB
+2025-05-22 02:55:06,282 - P17320 - INFO - Processando URL 3/27: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo558.pdf
+2025-05-22 02:55:06,282 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo558.pdf
+2025-05-22 02:55:06,282 - P17320 - INFO - Após processar URL 3 Uso de memória: 111.48 MB
+2025-05-22 02:55:06,282 - P17320 - INFO - Processando URL 4/27: https://mechamenozap.com.br/instituto-medico-lemos/
+2025-05-22 02:55:09,449 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\573792f80c29fa88119d7e631d03b183.html
+2025-05-22 02:55:09,475 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:55:09,475 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:55:09,475 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:55:09,475 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:55:09,475 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:55:09,476 - P17320 - INFO - Após processar URL 4 Uso de memória: 111.50 MB
+2025-05-22 02:55:09,476 - P17320 - INFO - Processando URL 5/27: https://guiamedico.cremesp.org.br/
+2025-05-22 02:55:12,210 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-22 02:55:12,220 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:55:12,220 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:55:12,220 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:55:12,221 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:55:12,221 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:55:12,221 - P17320 - INFO - Após processar URL 5 Uso de memória: 111.51 MB
+2025-05-22 02:55:12,221 - P17320 - INFO - Processando URL 6/27: https://taubate.sp.gov.br/anexos/publicacoes/2022/05-MAIO/03-05-22.pdf
+2025-05-22 02:55:12,221 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://taubate.sp.gov.br/anexos/publicacoes/2022/05-MAIO/03-05-22.pdf
+2025-05-22 02:55:12,222 - P17320 - INFO - Após processar URL 6 Uso de memória: 111.51 MB
+2025-05-22 02:55:12,222 - P17320 - INFO - Processando URL 7/27: https://transparencia.cremesp.org.br/?siteAcao=guia_medico
+2025-05-22 02:55:42,231 - P17320 - ERROR - Erro ao baixar HTML de https://transparencia.cremesp.org.br/?siteAcao=guia_medico: Message: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7573F64EC]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F465C]
+	(No symbol) [0x00007FF75740CF3A]
+	(No symbol) [0x00007FF7574B013E]
+	(No symbol) [0x00007FF75748737A]
+	(No symbol) [0x00007FF7574AF39C]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
+
+2025-05-22 02:55:42,233 - P17320 - INFO - Após processar URL 7 Uso de memória: 111.51 MB
+2025-05-22 02:55:42,234 - P17320 - INFO - Processando URL 8/27: https://www.cremesp.org.br/?siteAcao=CMDesatualizado&pg=9
+2025-05-22 02:55:46,185 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\70025996ceb99c1dab7f9e0a3298a1d3.html
+2025-05-22 02:55:46,208 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:55:46,209 - P17320 - INFO - Candidates phone: 1 items
+2025-05-22 02:55:46,209 - P17320 - INFO - Candidates email: 2 items
+2025-05-22 02:55:46,209 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:55:46,210 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:55:46,210 - P17320 - INFO - Após processar URL 8 Uso de memória: 111.52 MB
+2025-05-22 02:55:46,210 - P17320 - INFO - Processando URL 9/27: https://www.consultacrm.com.br/index/contato
+2025-05-22 02:55:50,024 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\770622092e11df0ef8d0ed5d383f74a3.html
+2025-05-22 02:55:50,038 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:55:50,039 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:55:50,044 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:55:50,045 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:55:50,046 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:55:50,046 - P17320 - INFO - Após processar URL 9 Uso de memória: 111.56 MB
+2025-05-22 02:55:50,047 - P17320 - INFO - Processando URL 10/27: https://www.imprensaoficial.com.br/downloads/pdf/edicao/20231215EXEC1.pdf
+2025-05-22 02:55:50,047 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://www.imprensaoficial.com.br/downloads/pdf/edicao/20231215EXEC1.pdf
+2025-05-22 02:55:50,047 - P17320 - INFO - Após processar URL 10 Uso de memória: 111.56 MB
+2025-05-22 02:55:50,047 - P17320 - INFO - Processando URL 11/27: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/102913011.pdf
+2025-05-22 02:55:50,048 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/102913011.pdf
+2025-05-22 02:55:50,048 - P17320 - INFO - Após processar URL 11 Uso de memória: 111.56 MB
+2025-05-22 02:55:50,049 - P17320 - INFO - Processando URL 12/27: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-22-07-2020.pdf
+2025-05-22 02:55:50,049 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-22-07-2020.pdf
+2025-05-22 02:55:50,049 - P17320 - INFO - Após processar URL 12 Uso de memória: 111.56 MB
+2025-05-22 02:55:50,050 - P17320 - INFO - Processando URL 13/27: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo559.pdf
+2025-05-22 02:55:50,050 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo559.pdf
+2025-05-22 02:55:50,050 - P17320 - INFO - Após processar URL 13 Uso de memória: 111.56 MB
+2025-05-22 02:55:50,050 - P17320 - INFO - Processando URL 14/27: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-22 02:55:53,848 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-22 02:55:53,887 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:55:53,888 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:55:53,888 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:55:53,888 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:55:53,888 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:55:53,888 - P17320 - INFO - Após processar URL 14 Uso de memória: 111.57 MB
+2025-05-22 02:55:53,889 - P17320 - INFO - Processando URL 15/27: https://www.consultacrm.com.br/index/api
+2025-05-22 02:55:57,326 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\a1f22ffdf7e0eb1c02e28e1e38d3db87.html
+2025-05-22 02:55:57,345 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:55:57,345 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:55:57,345 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:55:57,345 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:55:57,346 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:55:57,346 - P17320 - INFO - Após processar URL 15 Uso de memória: 111.55 MB
+2025-05-22 02:55:57,346 - P17320 - INFO - Processando URL 16/27: https://portal.cfm.org.br/busca-medicos
+2025-05-22 02:56:01,379 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\e28ae84aaa177d1328f3a0d1fb68449f.html
+2025-05-22 02:56:01,418 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:56:01,419 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:56:01,419 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:56:01,419 - P17320 - INFO - Candidates complement: 1 items
+2025-05-22 02:56:01,419 - P17320 - INFO - Candidates cep: 1 items
+2025-05-22 02:56:01,420 - P17320 - INFO - Após processar URL 16 Uso de memória: 111.59 MB
+2025-05-22 02:56:01,420 - P17320 - INFO - Processando URL 17/27: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/531598170.pdf
+2025-05-22 02:56:01,420 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/531598170.pdf
+2025-05-22 02:56:01,420 - P17320 - INFO - Após processar URL 17 Uso de memória: 111.59 MB
+2025-05-22 02:56:01,421 - P17320 - INFO - Processando URL 18/27: https://www.classemedica.com.br/medico/34872-antonio-jose-de-lemos-cabral.htm
+2025-05-22 02:56:06,471 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\bc00ecd886aa2616fcb19d594631268b.html
+2025-05-22 02:56:06,506 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:56:06,506 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:56:06,507 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:56:06,508 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:06,508 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:56:06,508 - P17320 - INFO - Após processar URL 18 Uso de memória: 111.61 MB
+2025-05-22 02:56:06,509 - P17320 - INFO - Processando URL 19/27: https://crmvsp.gov.br/wp-content/uploads/2020/06/info_crmv_56.pdf
+2025-05-22 02:56:06,509 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://crmvsp.gov.br/wp-content/uploads/2020/06/info_crmv_56.pdf
+2025-05-22 02:56:06,509 - P17320 - INFO - Após processar URL 19 Uso de memória: 111.61 MB
+2025-05-22 02:56:06,509 - P17320 - INFO - Processando URL 20/27: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/90631/Caderno_JUD_BA_2016-02-02_VIII_22.pdf?sequence=3&isAllowed=y
+2025-05-22 02:56:06,510 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://sistemas.trf1.jus.br/edj/bitstream/handle/123/90631/Caderno_JUD_BA_2016-02-02_VIII_22.pdf?sequence=3&isAllowed=y
+2025-05-22 02:56:06,510 - P17320 - INFO - Após processar URL 20 Uso de memória: 111.61 MB
+2025-05-22 02:56:06,510 - P17320 - INFO - Processando URL 21/27: https://www.consultacrm.com.br/index/maisvistos
+2025-05-22 02:56:09,763 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9a17d88beef1266c6e4649221409a571.html
+2025-05-22 02:56:09,773 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:56:09,773 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:56:09,773 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:56:09,774 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:09,774 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:56:09,774 - P17320 - INFO - Após processar URL 21 Uso de memória: 111.61 MB
+2025-05-22 02:56:09,775 - P17320 - INFO - Processando URL 22/27: https://www.achecerto.com.br/
+2025-05-22 02:56:15,867 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\ceb96e5663cace6f7b35fee1716d7561.html
+2025-05-22 02:56:15,884 - P17320 - INFO - Candidates address: 1 items
+2025-05-22 02:56:15,885 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:56:15,885 - P17320 - INFO - Candidates email: 1 items
+2025-05-22 02:56:15,885 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:15,885 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:56:15,885 - P17320 - INFO - Após processar URL 22 Uso de memória: 111.64 MB
+2025-05-22 02:56:15,885 - P17320 - INFO - Processando URL 23/27: https://www.consultacrm.com.br/index/especialidades
+2025-05-22 02:56:19,166 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\3cb327d5e0f962fa7a1db5a948fb6f40.html
+2025-05-22 02:56:19,295 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:56:19,296 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:56:19,296 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:56:19,296 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:19,296 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:56:19,297 - P17320 - INFO - Após processar URL 23 Uso de memória: 111.65 MB
+2025-05-22 02:56:19,297 - P17320 - INFO - Processando URL 24/27: https://www.consultacrm.com.br/?uf=SP
+2025-05-22 02:56:22,141 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\60d20285cf74ceed0f862951f9b2b598.html
+2025-05-22 02:56:22,151 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:56:22,151 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:56:22,152 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:56:22,152 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:22,152 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:56:22,152 - P17320 - INFO - Após processar URL 24 Uso de memória: 111.70 MB
+2025-05-22 02:56:22,152 - P17320 - INFO - Processando URL 25/27: https://sistemas.tjes.jus.br/ediario/index.php?option=com_ediario&view=contents&layout=fulltext&data=20161018&idorgao=347
+2025-05-22 02:56:25,762 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\9d22228b8c6622fb2498b51063d72c6c.html
+2025-05-22 02:56:27,113 - P17320 - INFO - Candidates address: 118 items
+2025-05-22 02:56:27,113 - P17320 - INFO - Candidates phone: 2 items
+2025-05-22 02:56:27,114 - P17320 - INFO - Candidates email: 3 items
+2025-05-22 02:56:27,114 - P17320 - INFO - Candidates complement: 2 items
+2025-05-22 02:56:27,114 - P17320 - INFO - Candidates cep: 42 items
+2025-05-22 02:56:27,115 - P17320 - INFO - Após processar URL 25 Uso de memória: 114.59 MB
+2025-05-22 02:56:27,115 - P17320 - INFO - Processando URL 26/27: https://consultacrm.com.br/
+2025-05-22 02:56:30,667 - P17320 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-22 02:56:30,679 - P17320 - INFO - Candidates address: 0 items
+2025-05-22 02:56:30,679 - P17320 - INFO - Candidates phone: 0 items
+2025-05-22 02:56:30,680 - P17320 - INFO - Candidates email: 0 items
+2025-05-22 02:56:30,680 - P17320 - INFO - Candidates complement: 0 items
+2025-05-22 02:56:30,680 - P17320 - INFO - Candidates cep: 0 items
+2025-05-22 02:56:30,680 - P17320 - INFO - Após processar URL 26 Uso de memória: 111.72 MB
+2025-05-22 02:56:30,680 - P17320 - INFO - Processando URL 27/27: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/527463154.pdf
+2025-05-22 02:56:30,681 - P17320 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/527463154.pdf
+2025-05-22 02:56:30,681 - P17320 - INFO - Após processar URL 27 Uso de memória: 111.72 MB
+2025-05-22 02:56:30,681 - P17320 - INFO - Iniciando agregação e ranqueamento
+2025-05-22 02:56:30,681 - P17320 - INFO - Ranked address: 120 items
+2025-05-22 02:56:30,681 - P17320 - INFO - Ranked phone: 4 items
+2025-05-22 02:56:30,681 - P17320 - INFO - Ranked email: 7 items
+2025-05-22 02:56:30,682 - P17320 - INFO - Ranked complement: 3 items
+2025-05-22 02:56:30,682 - P17320 - INFO - Ranked cep: 45 items
+2025-05-22 02:56:30,682 - P17320 - INFO - Após agregação Uso de memória: 111.72 MB
+2025-05-22 02:56:30,682 - P17320 - INFO - Validando endereço: ['Rua Frei Caneca, 1282', 'Av. Santos Dumont, 123', 'R. NEI LEAL DE OLIVEIRA (OAB/ES 4.761']
+2025-05-22 02:56:30,682 - P17320 - INFO - Endereço validado: Rua Frei Caneca, 1282
+2025-05-22 02:56:30,682 - P17320 - INFO - Limpando texto extenso para campo address: Rua Frei Caneca, 1282...
+2025-05-22 02:56:30,683 - P17320 - INFO - Texto limpo: Rua Frei Caneca, 1282
+2025-05-22 02:56:30,683 - P17320 - INFO - Validando telefone: ['(11) 4349-9900', '(11) 98908-1515', '(27) 99581-6473']
+2025-05-22 02:56:30,683 - P17320 - INFO - Limpando texto extenso para campo phone: (11) 4349-9900...
+2025-05-22 02:56:30,683 - P17320 - INFO - Texto limpo: 11) 4349-9900
+2025-05-22 02:56:30,683 - P17320 - INFO - Telefone validado: 11) 4349-9900
+2025-05-22 02:56:30,683 - P17320 - INFO - Validando email: ['cad@cremesp.org.br', 'cadastro@cremesp.org.br', 'cfm@portalmedico.org.br']
+2025-05-22 02:56:30,684 - P17320 - INFO - Limpando texto extenso para campo email: cad@cremesp.org.br...
+2025-05-22 02:56:30,684 - P17320 - INFO - Texto limpo: cad@cremesp.org.br
+2025-05-22 02:56:30,684 - P17320 - INFO - Email validado: cad@cremesp.org.br
+2025-05-22 02:56:30,684 - P17320 - INFO - Validando complemento: ['Conjunto D', 'Conjunto nº 16/2012 (publicado no Diário da Justiça do dia', 'Conjunto nº 13/2014']
+2025-05-22 02:56:30,684 - P17320 - INFO - Limpando texto extenso para campo complement: Conjunto D...
+2025-05-22 02:56:30,685 - P17320 - INFO - Texto limpo: Conjunto D
+2025-05-22 02:56:30,685 - P17320 - INFO - Complemento validado: Conjunto D
+2025-05-22 02:56:30,685 - P17320 - INFO - Descobrindo cidade
+2025-05-22 02:56:30,685 - P17320 - INFO - Buscando cidade: Rua Frei Caneca cidade SP
+2025-05-22 02:56:33,651 - P17320 - WARNING - Cidade não encontrada
+2025-05-22 02:56:33,652 - P17320 - INFO - Cidade descoberta: 
+2025-05-22 02:56:33,652 - P17320 - INFO - Tempo de execução de processamento completo do médico: 97.32 segundos
+2025-05-22 02:56:33,652 - P17320 - INFO - Resultado processado: {'Hash': 'b7b9620850ca83a3e89747aab44d38f56e504be9ba46517244376c16c0ff1cd5', 'CRM': '25471', 'UF': 'SP', 'Firstname': 'ANTONIO', 'LastName': 'JOSE DE LEMOS CABRAL', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Frei Caneca, 1282', 'Address A1': 'Rua Frei Caneca', 'Numero A1': '1282', 'Complement A1': 'Conjunto D', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '11) 4349-9900', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'cad@cremesp.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-22 02:56:33,653 - P17320 - INFO - Salvando lote de resultados
+2025-05-22 02:56:33,653 - P17320 - INFO - Após salvar resultados Uso de memória: 109.91 MB
+2025-05-22 02:56:33,654 - P17320 - INFO - Progresso: 37.1%
+2025-05-22 02:56:33,654 - P17320 - INFO - Tempo de execução de processamento do médico 3: 97.33 segundos
+2025-05-22 02:56:33,654 - P17320 - INFO - Tempo de execução de processamento do lote completo: 234.69 segundos
