@@ -1,357 +1,369 @@
-2025-05-21 22:06:40,931 - P7496 - INFO - 
+2025-05-21 23:45:47,056 - P11756 - INFO - 
 ==================================================
 Processando médico 1/2
-2025-05-21 22:06:40,932 - P7496 - INFO - Nome: FRANCISCO ROMERO CAMPELLO DE BIASE FILHO
-2025-05-21 22:06:40,932 - P7496 - INFO - Reiniciando driver do Chrome
-2025-05-21 22:06:42,401 - P7496 - INFO - Após reiniciar driver Uso de memória: 38.62 MB
-2025-05-21 22:06:42,411 - P7496 - INFO - Início do processamento Uso de memória: 38.62 MB
-2025-05-21 22:06:42,412 - P7496 - INFO - Iniciando busca para: FRANCISCO ROMERO CAMPELLO DE BIASE FILHO CRM 16759 PE telefone e-mail endereço
-2025-05-21 22:06:43,278 - P7496 - INFO - SearX results: 9 URLs
-2025-05-21 22:06:43,278 - P7496 - INFO - Após SearX Uso de memória: 38.67 MB
-2025-05-21 22:06:46,081 - P7496 - INFO - Google results: 3 URLs
-2025-05-21 22:06:46,081 - P7496 - INFO - Após Google Uso de memória: 39.90 MB
-2025-05-21 22:06:49,056 - P7496 - INFO - Bing results: 9 URLs
-2025-05-21 22:06:49,057 - P7496 - INFO - Após Bing Uso de memória: 40.70 MB
-2025-05-21 22:06:49,057 - P7496 - INFO - Total de URLs únicas: 10
-2025-05-21 22:06:49,057 - P7496 - INFO - Processando URL 1/10: https://doutorcrm.com/francisco-romero-campello-de-biase-filho
-2025-05-21 22:06:52,992 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\da8b8496eb0680eebcf44d176d6254b4.html
-2025-05-21 22:06:52,998 - P7496 - INFO - Candidates address: 0 items
-2025-05-21 22:06:53,000 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:06:53,001 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:06:53,001 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:06:53,002 - P7496 - INFO - Candidates cep: 0 items
-2025-05-21 22:06:53,002 - P7496 - INFO - Após processar URL 1 Uso de memória: 40.90 MB
-2025-05-21 22:06:53,002 - P7496 - INFO - Processando URL 2/10: https://www.planodesaudesp.net/perfil/francisco_romero_campello_de_biase_filho--200397
-2025-05-21 22:06:58,774 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\8ba6cce6790c0649fa17ea7a51de52a4.html
-2025-05-21 22:06:58,789 - P7496 - INFO - Candidates address: 2 items
-2025-05-21 22:06:58,789 - P7496 - INFO - Candidates phone: 1 items
-2025-05-21 22:06:58,790 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:06:58,790 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:06:58,790 - P7496 - INFO - Candidates cep: 1 items
-2025-05-21 22:06:58,790 - P7496 - INFO - Após processar URL 2 Uso de memória: 41.43 MB
-2025-05-21 22:06:58,790 - P7496 - INFO - Processando URL 3/10: https://guiasaudebrasil.com.br/profissional/6db27489b7168cd6-francisco-romero-campello-de-biase-filho
-2025-05-21 22:07:05,319 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\9b6f77f1c4f06fbba4618c22de8c91da.html
-2025-05-21 22:07:05,332 - P7496 - INFO - Candidates address: 0 items
-2025-05-21 22:07:05,332 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:05,332 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:07:05,332 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:05,332 - P7496 - INFO - Candidates cep: 1 items
-2025-05-21 22:07:05,333 - P7496 - INFO - Após processar URL 3 Uso de memória: 43.73 MB
-2025-05-21 22:07:05,333 - P7496 - INFO - Processando URL 4/10: https://www.classemedica.com.br/medico/118864-francisco-romero-campello-de-biase-filho.htm
-2025-05-21 22:07:10,171 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\654655613cffe7fbc8f8ce3f2241e714.html
-2025-05-21 22:07:10,202 - P7496 - INFO - Candidates address: 0 items
-2025-05-21 22:07:10,202 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:10,203 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:07:10,203 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:10,203 - P7496 - INFO - Candidates cep: 0 items
-2025-05-21 22:07:10,203 - P7496 - INFO - Após processar URL 4 Uso de memória: 43.13 MB
-2025-05-21 22:07:10,203 - P7496 - INFO - Processando URL 5/10: http://habilite.med.br/medicos.php
-2025-05-21 22:07:13,247 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\f320ab1af3e28e42c54d1b673f27032d.html
-2025-05-21 22:07:13,260 - P7496 - INFO - Candidates address: 1 items
-2025-05-21 22:07:13,260 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:13,260 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:07:13,260 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:13,260 - P7496 - INFO - Candidates cep: 0 items
-2025-05-21 22:07:13,260 - P7496 - INFO - Após processar URL 5 Uso de memória: 42.02 MB
-2025-05-21 22:07:13,261 - P7496 - INFO - Processando URL 6/10: https://www.medicosbrasil.com/profissional/francisco-romero-campello-de-biase-filho
-2025-05-21 22:07:16,795 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\cdf7a8e4ca78c46960762c10cd56d895.html
-2025-05-21 22:07:16,825 - P7496 - INFO - Candidates address: 0 items
-2025-05-21 22:07:16,844 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:16,844 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:07:16,844 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:16,846 - P7496 - INFO - Candidates cep: 0 items
-2025-05-21 22:07:16,846 - P7496 - INFO - Após processar URL 6 Uso de memória: 44.72 MB
-2025-05-21 22:07:16,847 - P7496 - INFO - Processando URL 7/10: https://consultacrm.com.br/
-2025-05-21 22:07:21,786 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
-2025-05-21 22:07:21,800 - P7496 - INFO - Candidates address: 0 items
-2025-05-21 22:07:21,801 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:21,801 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:07:21,802 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:21,802 - P7496 - INFO - Candidates cep: 0 items
-2025-05-21 22:07:21,802 - P7496 - INFO - Após processar URL 7 Uso de memória: 46.50 MB
-2025-05-21 22:07:21,803 - P7496 - INFO - Processando URL 8/10: https://www.boaconsulta.com/especialista/francisco-romero-campello-de-biase-filho-610612eea2e00a036500198f
-2025-05-21 22:07:25,309 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\953e55589aa57d5c580e3d23e8cdb917.html
-2025-05-21 22:07:25,383 - P7496 - INFO - Candidates address: 2 items
-2025-05-21 22:07:25,383 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:25,383 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:07:25,383 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:25,384 - P7496 - INFO - Candidates cep: 0 items
-2025-05-21 22:07:25,384 - P7496 - INFO - Após processar URL 8 Uso de memória: 47.91 MB
-2025-05-21 22:07:25,384 - P7496 - INFO - Processando URL 9/10: https://cliniguia.com/profissionais/francisco-romero-campello-de-biase-filho-980016279773359/
-2025-05-21 22:07:31,432 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\a3a9eb518db1f3e1f43fe9ab579898c5.html
-2025-05-21 22:07:31,484 - P7496 - INFO - Candidates address: 0 items
-2025-05-21 22:07:31,485 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:31,485 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:07:31,485 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:31,485 - P7496 - INFO - Candidates cep: 0 items
-2025-05-21 22:07:31,485 - P7496 - INFO - Após processar URL 9 Uso de memória: 48.41 MB
-2025-05-21 22:07:31,486 - P7496 - INFO - Processando URL 10/10: https://www.catalogo.med.br/doutor/francisco-romero-campelo-de-biase-filho-1944437.htm
-2025-05-21 22:07:36,879 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\b32f7d0c24f60c28155d3f23c984ec37.html
-2025-05-21 22:07:36,897 - P7496 - INFO - Candidates address: 1 items
-2025-05-21 22:07:36,897 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:36,898 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:07:36,898 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:36,898 - P7496 - INFO - Candidates cep: 1 items
-2025-05-21 22:07:36,899 - P7496 - INFO - Após processar URL 10 Uso de memória: 47.18 MB
-2025-05-21 22:07:36,899 - P7496 - INFO - Iniciando agregação e ranqueamento
-2025-05-21 22:07:36,899 - P7496 - INFO - Ranked address: 5 items
-2025-05-21 22:07:36,900 - P7496 - INFO - Ranked phone: 1 items
-2025-05-21 22:07:36,900 - P7496 - INFO - Ranked email: 0 items
-2025-05-21 22:07:36,901 - P7496 - INFO - Ranked complement: 0 items
-2025-05-21 22:07:36,901 - P7496 - INFO - Ranked cep: 3 items
-2025-05-21 22:07:36,901 - P7496 - INFO - Após agregação Uso de memória: 47.18 MB
-2025-05-21 22:07:36,901 - P7496 - INFO - Validando endereço: ['Rua Carlos Gomes, 401', 'Avenida Mario Domingues, 876', 'Av. Lins Petit, 289']
-2025-05-21 22:07:36,902 - P7496 - INFO - Endereço validado: Rua Carlos Gomes, 401
-2025-05-21 22:07:36,902 - P7496 - INFO - Limpando texto extenso para campo address: Rua Carlos Gomes, 401...
-2025-05-21 22:07:36,903 - P7496 - INFO - Texto limpo: Rua Carlos Gomes, 401
-2025-05-21 22:07:36,904 - P7496 - INFO - Validando telefone: ['(81) 3671-3451']
-2025-05-21 22:07:36,904 - P7496 - INFO - Limpando texto extenso para campo phone: (81) 3671-3451...
-2025-05-21 22:07:36,904 - P7496 - INFO - Texto limpo: 81) 3671-3451
-2025-05-21 22:07:36,905 - P7496 - INFO - Telefone validado: 81) 3671-3451
-2025-05-21 22:07:36,905 - P7496 - INFO - Descobrindo cidade
-2025-05-21 22:07:36,905 - P7496 - INFO - Buscando cidade: Rua Carlos Gomes cidade PE
-2025-05-21 22:07:39,596 - P7496 - INFO - Cidade encontrada: Recife
-2025-05-21 22:07:39,596 - P7496 - INFO - Limpando texto extenso para campo city: Recife...
-2025-05-21 22:07:39,597 - P7496 - INFO - Texto limpo: Recife
-2025-05-21 22:07:39,597 - P7496 - INFO - Cidade descoberta: Recife
-2025-05-21 22:07:39,597 - P7496 - INFO - Buscando CEP com sistema de cascata
-2025-05-21 22:07:39,597 - P7496 - INFO - Iniciando busca de CEP em cascata para: Rua Carlos Gomes, Recife, PE
-2025-05-21 22:07:39,597 - P7496 - INFO - Método 1: ViaCEP API
-2025-05-21 22:07:39,597 - P7496 - INFO - Dados encontrados no cache: {'cep': '50720-110', 'logradouro': 'Rua Carlos Gomes', 'complemento': 'até 162/163', 'unidade': '', 'bairro': 'Madalena', 'localidade': 'Recife', 'uf': 'PE', 'estado': 'Pernambuco', 'regiao': 'Nordeste', 'ibge': '2611606', 'gia': '', 'ddd': '81', 'siafi': '2531'}
-2025-05-21 22:07:39,598 - P7496 - INFO - CEP encontrado via ViaCEP: 50720-110
-2025-05-21 22:07:39,598 - P7496 - INFO - Dados de CEP encontrados: {'cep': '50720-110', 'logradouro': 'Rua Carlos Gomes', 'complemento': 'até 162/163', 'unidade': '', 'bairro': 'Madalena', 'localidade': 'Recife', 'uf': 'PE', 'estado': 'Pernambuco', 'regiao': 'Nordeste', 'ibge': '2611606', 'gia': '', 'ddd': '81', 'siafi': '2531'}
-2025-05-21 22:07:39,598 - P7496 - INFO - Limpando texto extenso para campo bairro: Madalena...
-2025-05-21 22:07:39,598 - P7496 - INFO - Texto limpo: Madalena
-2025-05-21 22:07:39,598 - P7496 - INFO - Limpando texto extenso para campo complement: até 162/163...
-2025-05-21 22:07:39,599 - P7496 - INFO - Texto limpo: até 162/163
-2025-05-21 22:07:39,599 - P7496 - INFO - Limpando texto extenso para campo city: Recife...
-2025-05-21 22:07:39,599 - P7496 - INFO - Texto limpo: Recife
-2025-05-21 22:07:39,599 - P7496 - INFO - Limpando texto extenso para campo state: PE...
-2025-05-21 22:07:39,599 - P7496 - INFO - Texto limpo: PE
-2025-05-21 22:07:39,599 - P7496 - INFO - Tempo de execução de processamento completo do médico: 57.19 segundos
-2025-05-21 22:07:39,600 - P7496 - INFO - Resultado processado: {'CRM': '16759', 'UF': 'PE', 'Firstname': 'FRANCISCO', 'LastName': 'ROMERO CAMPELLO DE BIASE FILHO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Carlos Gomes, 401', 'Address A1': 'Rua Carlos Gomes', 'Numero A1': '401', 'Complement A1': 'até 162/163', 'Bairro A1': 'Madalena', 'postal code A1': '50720-110', 'City A1': 'Recife', 'State A1': 'PE', 'Phone A1': '81) 3671-3451', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': '', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
-2025-05-21 22:07:39,601 - P7496 - INFO - Progresso: 20.0%
-2025-05-21 22:07:39,601 - P7496 - INFO - Executando coleta de lixo
-2025-05-21 22:07:39,615 - P7496 - INFO - Após coleta de lixo Uso de memória: 45.38 MB
-2025-05-21 22:07:39,616 - P7496 - INFO - Tempo de execução de processamento do médico 1: 58.68 segundos
-2025-05-21 22:07:39,616 - P7496 - INFO - 
+2025-05-21 23:45:47,057 - P11756 - INFO - Nome: FRANCISCO ROMERO CAMPELLO DE BIASE FILHO
+2025-05-21 23:45:47,057 - P11756 - INFO - Reiniciando driver do Chrome
+2025-05-21 23:45:48,519 - P11756 - INFO - Após reiniciar driver Uso de memória: 38.80 MB
+2025-05-21 23:45:48,519 - P11756 - INFO - Início do processamento Uso de memória: 38.80 MB
+2025-05-21 23:45:48,519 - P11756 - INFO - Iniciando busca para: FRANCISCO ROMERO CAMPELLO DE BIASE FILHO CRM 16759 PE telefone e-mail endereço
+2025-05-21 23:45:49,103 - P11756 - INFO - SearX results: 9 URLs
+2025-05-21 23:45:49,103 - P11756 - INFO - Após SearX Uso de memória: 38.86 MB
+2025-05-21 23:45:51,949 - P11756 - INFO - Google results: 3 URLs
+2025-05-21 23:45:51,950 - P11756 - INFO - Após Google Uso de memória: 39.98 MB
+2025-05-21 23:45:54,775 - P11756 - INFO - Bing results: 9 URLs
+2025-05-21 23:45:54,776 - P11756 - INFO - Após Bing Uso de memória: 40.46 MB
+2025-05-21 23:45:54,776 - P11756 - INFO - Total de URLs únicas: 11
+2025-05-21 23:45:54,776 - P11756 - INFO - Processando URL 1/11: https://www.helpsaude.com/Francisco-Romero-Campello-de-Biase-Filho.PE
+2025-05-21 23:46:01,129 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\036aeab3c16c0d94caf5da064d2f4496.html
+2025-05-21 23:46:01,153 - P11756 - INFO - Candidates address: 0 items
+2025-05-21 23:46:01,154 - P11756 - INFO - Candidates phone: 0 items
+2025-05-21 23:46:01,154 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:46:01,154 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:01,154 - P11756 - INFO - Candidates cep: 0 items
+2025-05-21 23:46:01,155 - P11756 - INFO - Após processar URL 1 Uso de memória: 41.61 MB
+2025-05-21 23:46:01,155 - P11756 - INFO - Processando URL 2/11: https://www.classemedica.com.br/medico/118864-francisco-romero-campello-de-biase-filho.htm
+2025-05-21 23:46:07,735 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\654655613cffe7fbc8f8ce3f2241e714.html
+2025-05-21 23:46:07,803 - P11756 - INFO - Candidates address: 0 items
+2025-05-21 23:46:07,828 - P11756 - INFO - Candidates phone: 0 items
+2025-05-21 23:46:07,853 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:46:07,856 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:07,856 - P11756 - INFO - Candidates cep: 0 items
+2025-05-21 23:46:07,856 - P11756 - INFO - Após processar URL 2 Uso de memória: 43.60 MB
+2025-05-21 23:46:07,857 - P11756 - INFO - Processando URL 3/11: https://doutorcrm.com/francisco-romero-campello-de-biase-filho
+2025-05-21 23:46:13,455 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\da8b8496eb0680eebcf44d176d6254b4.html
+2025-05-21 23:46:13,464 - P11756 - INFO - Candidates address: 0 items
+2025-05-21 23:46:13,464 - P11756 - INFO - Candidates phone: 0 items
+2025-05-21 23:46:13,465 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:46:13,465 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:13,465 - P11756 - INFO - Candidates cep: 0 items
+2025-05-21 23:46:13,466 - P11756 - INFO - Após processar URL 3 Uso de memória: 43.46 MB
+2025-05-21 23:46:13,466 - P11756 - INFO - Processando URL 4/11: https://www.medicosbrasil.com/profissional/francisco-romero-campello-de-biase-filho
+2025-05-21 23:46:17,481 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\cdf7a8e4ca78c46960762c10cd56d895.html
+2025-05-21 23:46:17,503 - P11756 - INFO - Candidates address: 0 items
+2025-05-21 23:46:17,504 - P11756 - INFO - Candidates phone: 0 items
+2025-05-21 23:46:17,505 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:46:17,505 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:17,506 - P11756 - INFO - Candidates cep: 0 items
+2025-05-21 23:46:17,507 - P11756 - INFO - Após processar URL 4 Uso de memória: 43.81 MB
+2025-05-21 23:46:17,508 - P11756 - INFO - Processando URL 5/11: https://www.catalogo.med.br/doutor/francisco-romero-campelo-de-biase-filho-1944437.htm
+2025-05-21 23:46:22,879 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\b32f7d0c24f60c28155d3f23c984ec37.html
+2025-05-21 23:46:22,906 - P11756 - INFO - Candidates address: 1 items
+2025-05-21 23:46:22,907 - P11756 - INFO - Candidates phone: 0 items
+2025-05-21 23:46:22,907 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:46:22,907 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:22,907 - P11756 - INFO - Candidates cep: 1 items
+2025-05-21 23:46:22,908 - P11756 - INFO - Após processar URL 5 Uso de memória: 44.03 MB
+2025-05-21 23:46:22,908 - P11756 - INFO - Processando URL 6/11: https://www.planodesaudesp.net/perfil/francisco_romero_campello_de_biase_filho--200397
+2025-05-21 23:46:27,689 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\8ba6cce6790c0649fa17ea7a51de52a4.html
+2025-05-21 23:46:27,705 - P11756 - INFO - Candidates address: 2 items
+2025-05-21 23:46:27,705 - P11756 - INFO - Candidates phone: 1 items
+2025-05-21 23:46:27,706 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:46:27,706 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:27,706 - P11756 - INFO - Candidates cep: 1 items
+2025-05-21 23:46:27,706 - P11756 - INFO - Após processar URL 6 Uso de memória: 44.50 MB
+2025-05-21 23:46:27,707 - P11756 - INFO - Processando URL 7/11: https://www.boaconsulta.com/especialista/francisco-romero-campello-de-biase-filho-610612eea2e00a036500198f
+2025-05-21 23:46:31,306 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\953e55589aa57d5c580e3d23e8cdb917.html
+2025-05-21 23:46:31,392 - P11756 - INFO - Candidates address: 2 items
+2025-05-21 23:46:31,392 - P11756 - INFO - Candidates phone: 0 items
+2025-05-21 23:46:31,392 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:46:31,392 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:31,393 - P11756 - INFO - Candidates cep: 0 items
+2025-05-21 23:46:31,394 - P11756 - INFO - Após processar URL 7 Uso de memória: 48.01 MB
+2025-05-21 23:46:31,395 - P11756 - INFO - Processando URL 8/11: https://consultacrm.com.br/
+2025-05-21 23:46:36,809 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-21 23:46:36,825 - P11756 - INFO - Candidates address: 0 items
+2025-05-21 23:46:36,825 - P11756 - INFO - Candidates phone: 0 items
+2025-05-21 23:46:36,826 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:46:36,826 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:36,826 - P11756 - INFO - Candidates cep: 0 items
+2025-05-21 23:46:36,827 - P11756 - INFO - Após processar URL 8 Uso de memória: 49.70 MB
+2025-05-21 23:46:36,827 - P11756 - INFO - Processando URL 9/11: https://guiasaudebrasil.com.br/profissional/6db27489b7168cd6-francisco-romero-campello-de-biase-filho
+2025-05-21 23:46:40,606 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\9b6f77f1c4f06fbba4618c22de8c91da.html
+2025-05-21 23:46:40,628 - P11756 - INFO - Candidates address: 0 items
+2025-05-21 23:46:40,629 - P11756 - INFO - Candidates phone: 0 items
+2025-05-21 23:46:40,629 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:46:40,630 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:40,630 - P11756 - INFO - Candidates cep: 1 items
+2025-05-21 23:46:40,630 - P11756 - INFO - Após processar URL 9 Uso de memória: 49.13 MB
+2025-05-21 23:46:40,630 - P11756 - INFO - Processando URL 10/11: http://habilite.med.br/medicos.php
+2025-05-21 23:46:43,479 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\f320ab1af3e28e42c54d1b673f27032d.html
+2025-05-21 23:46:43,491 - P11756 - INFO - Candidates address: 1 items
+2025-05-21 23:46:43,491 - P11756 - INFO - Candidates phone: 0 items
+2025-05-21 23:46:43,491 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:46:43,491 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:43,491 - P11756 - INFO - Candidates cep: 0 items
+2025-05-21 23:46:43,492 - P11756 - INFO - Após processar URL 10 Uso de memória: 47.76 MB
+2025-05-21 23:46:43,492 - P11756 - INFO - Processando URL 11/11: https://cliniguia.com/profissionais/francisco-romero-campello-de-biase-filho-980016279773359/
+2025-05-21 23:46:49,134 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\a3a9eb518db1f3e1f43fe9ab579898c5.html
+2025-05-21 23:46:49,183 - P11756 - INFO - Candidates address: 0 items
+2025-05-21 23:46:49,183 - P11756 - INFO - Candidates phone: 0 items
+2025-05-21 23:46:49,183 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:46:49,184 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:49,184 - P11756 - INFO - Candidates cep: 0 items
+2025-05-21 23:46:49,184 - P11756 - INFO - Após processar URL 11 Uso de memória: 50.10 MB
+2025-05-21 23:46:49,184 - P11756 - INFO - Iniciando agregação e ranqueamento
+2025-05-21 23:46:49,184 - P11756 - INFO - Ranked address: 5 items
+2025-05-21 23:46:49,184 - P11756 - INFO - Ranked phone: 1 items
+2025-05-21 23:46:49,185 - P11756 - INFO - Ranked email: 0 items
+2025-05-21 23:46:49,185 - P11756 - INFO - Ranked complement: 0 items
+2025-05-21 23:46:49,185 - P11756 - INFO - Ranked cep: 3 items
+2025-05-21 23:46:49,185 - P11756 - INFO - Após agregação Uso de memória: 50.10 MB
+2025-05-21 23:46:49,185 - P11756 - INFO - Validando endereço: ['Rua Carlos Gomes, 401', 'Avenida General Manoel Rabelo, 126', 'Avenida Mario Domingues, 876']
+2025-05-21 23:46:49,186 - P11756 - INFO - Endereço validado: Rua Carlos Gomes, 401
+2025-05-21 23:46:49,186 - P11756 - INFO - Limpando texto extenso para campo address: Rua Carlos Gomes, 401...
+2025-05-21 23:46:49,187 - P11756 - INFO - Texto limpo: Rua Carlos Gomes, 401
+2025-05-21 23:46:49,187 - P11756 - INFO - Validando telefone: ['(81) 3671-3451']
+2025-05-21 23:46:49,187 - P11756 - INFO - Limpando texto extenso para campo phone: (81) 3671-3451...
+2025-05-21 23:46:49,188 - P11756 - INFO - Texto limpo: 81) 3671-3451
+2025-05-21 23:46:49,188 - P11756 - INFO - Telefone validado: 81) 3671-3451
+2025-05-21 23:46:49,189 - P11756 - INFO - Descobrindo cidade
+2025-05-21 23:46:49,189 - P11756 - INFO - Buscando cidade: Rua Carlos Gomes cidade PE
+2025-05-21 23:46:51,424 - P11756 - INFO - Cidade encontrada: Recife
+2025-05-21 23:46:51,424 - P11756 - INFO - Limpando texto extenso para campo city: Recife...
+2025-05-21 23:46:51,425 - P11756 - INFO - Texto limpo: Recife
+2025-05-21 23:46:51,425 - P11756 - INFO - Cidade descoberta: Recife
+2025-05-21 23:46:51,425 - P11756 - INFO - Buscando CEP com sistema de cascata
+2025-05-21 23:46:51,425 - P11756 - INFO - Iniciando busca de CEP em cascata para: Rua Carlos Gomes, Recife, PE
+2025-05-21 23:46:51,426 - P11756 - INFO - Método 1: ViaCEP API
+2025-05-21 23:46:51,426 - P11756 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/PE/recife/rua%20carlos%20gomes/json/
+2025-05-21 23:46:52,189 - P11756 - INFO - Dados encontrados no ViaCEP: {'cep': '50720-110', 'logradouro': 'Rua Carlos Gomes', 'complemento': 'até 162/163', 'unidade': '', 'bairro': 'Madalena', 'localidade': 'Recife', 'uf': 'PE', 'estado': 'Pernambuco', 'regiao': 'Nordeste', 'ibge': '2611606', 'gia': '', 'ddd': '81', 'siafi': '2531'}
+2025-05-21 23:46:52,191 - P11756 - INFO - CEP encontrado via ViaCEP: 50720-110
+2025-05-21 23:46:52,191 - P11756 - INFO - Dados de CEP encontrados: {'cep': '50720-110', 'logradouro': 'Rua Carlos Gomes', 'complemento': 'até 162/163', 'unidade': '', 'bairro': 'Madalena', 'localidade': 'Recife', 'uf': 'PE', 'estado': 'Pernambuco', 'regiao': 'Nordeste', 'ibge': '2611606', 'gia': '', 'ddd': '81', 'siafi': '2531'}
+2025-05-21 23:46:52,192 - P11756 - INFO - Limpando texto extenso para campo bairro: Madalena...
+2025-05-21 23:46:52,192 - P11756 - INFO - Texto limpo: Madalena
+2025-05-21 23:46:52,192 - P11756 - INFO - Limpando texto extenso para campo complement: até 162/163...
+2025-05-21 23:46:52,192 - P11756 - INFO - Texto limpo: até 162/163
+2025-05-21 23:46:52,192 - P11756 - INFO - Limpando texto extenso para campo city: Recife...
+2025-05-21 23:46:52,192 - P11756 - INFO - Texto limpo: Recife
+2025-05-21 23:46:52,193 - P11756 - INFO - Limpando texto extenso para campo state: PE...
+2025-05-21 23:46:52,193 - P11756 - INFO - Texto limpo: PE
+2025-05-21 23:46:52,193 - P11756 - INFO - Tempo de execução de processamento completo do médico: 63.67 segundos
+2025-05-21 23:46:52,193 - P11756 - INFO - Resultado processado: {'CRM': '16759', 'UF': 'PE', 'Firstname': 'FRANCISCO', 'LastName': 'ROMERO CAMPELLO DE BIASE FILHO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Carlos Gomes, 401', 'Address A1': 'Rua Carlos Gomes', 'Numero A1': '401', 'Complement A1': 'até 162/163', 'Bairro A1': 'Madalena', 'postal code A1': '50720-110', 'City A1': 'Recife', 'State A1': 'PE', 'Phone A1': '81) 3671-3451', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': '', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-21 23:46:52,195 - P11756 - INFO - Progresso: 40.0%
+2025-05-21 23:46:52,195 - P11756 - INFO - Executando coleta de lixo
+2025-05-21 23:46:52,208 - P11756 - INFO - Após coleta de lixo Uso de memória: 48.84 MB
+2025-05-21 23:46:52,209 - P11756 - INFO - Tempo de execução de processamento do médico 1: 65.15 segundos
+2025-05-21 23:46:52,209 - P11756 - INFO - 
 ==================================================
 Processando médico 2/2
-2025-05-21 22:07:39,616 - P7496 - INFO - Nome: ROBERTO FARIAS LOPES
-2025-05-21 22:07:39,617 - P7496 - INFO - Início do processamento Uso de memória: 45.38 MB
-2025-05-21 22:07:39,617 - P7496 - INFO - Iniciando busca para: ROBERTO FARIAS LOPES CRM 4155 PA telefone e-mail endereço
-2025-05-21 22:07:40,189 - P7496 - INFO - SearX results: 15 URLs
-2025-05-21 22:07:40,189 - P7496 - INFO - Após SearX Uso de memória: 45.39 MB
-2025-05-21 22:07:42,948 - P7496 - INFO - Google results: 11 URLs
-2025-05-21 22:07:42,949 - P7496 - INFO - Após Google Uso de memória: 48.67 MB
-2025-05-21 22:07:45,489 - P7496 - INFO - Bing results: 10 URLs
-2025-05-21 22:07:45,489 - P7496 - INFO - Após Bing Uso de memória: 47.75 MB
-2025-05-21 22:07:45,489 - P7496 - INFO - Total de URLs únicas: 25
-2025-05-21 22:07:45,490 - P7496 - INFO - Processando URL 1/25: https://pbqp-h.mdr.gov.br/wp-content/uploads/2023/09/Empresas-Certificadas-SIAC-Maio-a-19-09-2023-Planilha1.csv
-2025-05-21 22:07:45,490 - P7496 - INFO - Ignorando URL de arquivo não-HTML: https://pbqp-h.mdr.gov.br/wp-content/uploads/2023/09/Empresas-Certificadas-SIAC-Maio-a-19-09-2023-Planilha1.csv
-2025-05-21 22:07:45,490 - P7496 - INFO - Após processar URL 1 Uso de memória: 47.75 MB
-2025-05-21 22:07:45,490 - P7496 - INFO - Processando URL 2/25: https://www.editorafoco.com.br/produto/inventarios-testamentos-direito-sucessoes-2023
-2025-05-21 22:07:51,371 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\38417ee8b3b2f5de5245eac4af81cb31.html
-2025-05-21 22:07:51,438 - P7496 - INFO - Candidates address: 0 items
-2025-05-21 22:07:51,438 - P7496 - INFO - Candidates phone: 1 items
-2025-05-21 22:07:51,439 - P7496 - INFO - Candidates email: 2 items
-2025-05-21 22:07:51,439 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:51,439 - P7496 - INFO - Candidates cep: 3 items
-2025-05-21 22:07:51,439 - P7496 - INFO - Após processar URL 2 Uso de memória: 47.88 MB
-2025-05-21 22:07:51,439 - P7496 - INFO - Processando URL 3/25: https://www.pitanga.pr.leg.br/institucional/publicacoes-da-camara/contas-do-executivo/2019/01-oficio-no-24-2019-e-anexos/6deg%20bim%2028-01-2020.pdf
-2025-05-21 22:07:51,439 - P7496 - INFO - Ignorando URL de arquivo não-HTML: https://www.pitanga.pr.leg.br/institucional/publicacoes-da-camara/contas-do-executivo/2019/01-oficio-no-24-2019-e-anexos/6deg%20bim%2028-01-2020.pdf
-2025-05-21 22:07:51,440 - P7496 - INFO - Após processar URL 3 Uso de memória: 47.88 MB
-2025-05-21 22:07:51,440 - P7496 - INFO - Processando URL 4/25: https://cremepa.org.br/busca-medicos
-2025-05-21 22:07:56,105 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\0eb253d2fbf90693334a0c00284506e9.html
-2025-05-21 22:07:56,143 - P7496 - INFO - Candidates address: 0 items
-2025-05-21 22:07:56,143 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:56,143 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:07:56,143 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:56,143 - P7496 - INFO - Candidates cep: 1 items
-2025-05-21 22:07:56,144 - P7496 - INFO - Após processar URL 4 Uso de memória: 49.35 MB
-2025-05-21 22:07:56,144 - P7496 - INFO - Processando URL 5/25: https://cliniguia.com/profissionais/roberto-farias-lopes-204326276980008/
-2025-05-21 22:07:59,445 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\d2f39156bcb28694d2655a7f1cf242d5.html
-2025-05-21 22:07:59,501 - P7496 - INFO - Candidates address: 0 items
-2025-05-21 22:07:59,521 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:59,523 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:07:59,531 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:59,551 - P7496 - INFO - Candidates cep: 0 items
-2025-05-21 22:07:59,554 - P7496 - INFO - Após processar URL 5 Uso de memória: 49.70 MB
-2025-05-21 22:07:59,555 - P7496 - INFO - Processando URL 6/25: https://www.doctoralia.com.br/roberto-farias-lopes/medico-clinico-geral/mae-do-rio
-2025-05-21 22:07:59,557 - P7496 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/roberto-farias-lopes/medico-clinico-geral/mae-do-rio
-2025-05-21 22:07:59,560 - P7496 - INFO - Após processar URL 6 Uso de memória: 47.95 MB
-2025-05-21 22:07:59,564 - P7496 - INFO - Processando URL 7/25: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo696.pdf
-2025-05-21 22:07:59,568 - P7496 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo696.pdf
-2025-05-21 22:07:59,569 - P7496 - INFO - Após processar URL 7 Uso de memória: 47.95 MB
-2025-05-21 22:07:59,587 - P7496 - INFO - Processando URL 8/25: https://www.bertioga.sp.gov.br/wp/wp-content/uploads/2023/12/BOM_1143-compressed.pdf
-2025-05-21 22:07:59,588 - P7496 - INFO - Ignorando URL de arquivo não-HTML: https://www.bertioga.sp.gov.br/wp/wp-content/uploads/2023/12/BOM_1143-compressed.pdf
-2025-05-21 22:07:59,588 - P7496 - INFO - Após processar URL 8 Uso de memória: 47.95 MB
-2025-05-21 22:07:59,588 - P7496 - INFO - Processando URL 9/25: https://www.boaconsulta.com/especialista/roberto-farias-lopes-6105d3b2a2e00a5e1800043b
-2025-05-21 22:08:02,819 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\95c3d6aae0f1185f626953309cda1b5b.html
-2025-05-21 22:08:02,894 - P7496 - INFO - Candidates address: 1 items
-2025-05-21 22:08:02,894 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:08:02,894 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:08:02,895 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:08:02,895 - P7496 - INFO - Candidates cep: 0 items
-2025-05-21 22:08:02,895 - P7496 - INFO - Após processar URL 9 Uso de memória: 49.82 MB
-2025-05-21 22:08:02,895 - P7496 - INFO - Processando URL 10/25: https://www.medicosbrasil.com/profissional/roberto-farias-lopes
-2025-05-21 22:08:05,179 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\19bfff2e2af76c65520c2496802f9d34.html
-2025-05-21 22:08:05,181 - P7496 - INFO - Candidates address: 0 items
-2025-05-21 22:08:05,181 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:08:05,181 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:08:05,182 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:08:05,182 - P7496 - INFO - Candidates cep: 0 items
-2025-05-21 22:08:05,182 - P7496 - INFO - Após processar URL 10 Uso de memória: 48.72 MB
-2025-05-21 22:08:05,182 - P7496 - INFO - Processando URL 11/25: https://crmvirtual.cfm.org.br/PA/servico/pesquisar-por-medico
-2025-05-21 22:08:08,212 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\17cc5d3782797f0ed7c584749901b7c9.html
-2025-05-21 22:08:08,222 - P7496 - INFO - Candidates address: 0 items
-2025-05-21 22:08:08,222 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:08:08,222 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:08:08,222 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:08:08,223 - P7496 - INFO - Candidates cep: 0 items
-2025-05-21 22:08:08,223 - P7496 - INFO - Após processar URL 11 Uso de memória: 48.36 MB
-2025-05-21 22:08:08,223 - P7496 - INFO - Processando URL 12/25: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/16395
-2025-05-21 22:08:10,583 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\f3f456d8abfd8c557c44de4805d5fccd.html
-2025-05-21 22:08:10,593 - P7496 - INFO - Candidates address: 0 items
-2025-05-21 22:08:10,593 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:08:10,593 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:08:10,594 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:08:10,594 - P7496 - INFO - Candidates cep: 0 items
-2025-05-21 22:08:10,594 - P7496 - INFO - Após processar URL 12 Uso de memória: 48.46 MB
-2025-05-21 22:08:10,594 - P7496 - INFO - Processando URL 13/25: https://atom-app.tjpa.jus.br/uploads/r/tribunal-de-justica-do-estado-do-para-2/7/1/9/7197bab71bd87bb59beb91c9858daf74a6c4acd442a325b8fe76cc7f036f1863/6f994797-6299-47e9-9b1e-4d54c5e75e9d-DJ7238_2021-DISPONIBILIZADO.pdf
-2025-05-21 22:08:10,594 - P7496 - INFO - Ignorando URL de arquivo não-HTML: https://atom-app.tjpa.jus.br/uploads/r/tribunal-de-justica-do-estado-do-para-2/7/1/9/7197bab71bd87bb59beb91c9858daf74a6c4acd442a325b8fe76cc7f036f1863/6f994797-6299-47e9-9b1e-4d54c5e75e9d-DJ7238_2021-DISPONIBILIZADO.pdf
-2025-05-21 22:08:10,595 - P7496 - INFO - Após processar URL 13 Uso de memória: 48.46 MB
-2025-05-21 22:08:10,595 - P7496 - INFO - Processando URL 14/25: https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/beneficios-fiscais/programa-empresa-cidada/empresas_optantes
-2025-05-21 22:08:13,010 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\bc705a0ca491c709905e221358627d5c.html
-2025-05-21 22:08:13,023 - P7496 - INFO - Candidates address: 0 items
-2025-05-21 22:08:13,024 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:08:13,024 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:08:13,024 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:08:13,024 - P7496 - INFO - Candidates cep: 0 items
-2025-05-21 22:08:13,024 - P7496 - INFO - Após processar URL 14 Uso de memória: 48.48 MB
-2025-05-21 22:08:13,025 - P7496 - INFO - Processando URL 15/25: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1306609531.pdf
-2025-05-21 22:08:13,025 - P7496 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1306609531.pdf
-2025-05-21 22:08:13,025 - P7496 - INFO - Após processar URL 15 Uso de memória: 48.48 MB
-2025-05-21 22:08:13,025 - P7496 - INFO - Processando URL 16/25: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/14573
-2025-05-21 22:08:15,129 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\dd74eb05e1b41b82dcfd400727d147a5.html
-2025-05-21 22:08:15,139 - P7496 - INFO - Candidates address: 0 items
-2025-05-21 22:08:15,139 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:08:15,139 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:08:15,139 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:08:15,140 - P7496 - INFO - Candidates cep: 0 items
-2025-05-21 22:08:15,140 - P7496 - INFO - Após processar URL 16 Uso de memória: 48.48 MB
-2025-05-21 22:08:15,140 - P7496 - INFO - Processando URL 17/25: https://diariooficial.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=edicao_consultar&formato=O&dta=30/08/2024
-2025-05-21 22:08:45,144 - P7496 - ERROR - Erro ao baixar HTML de https://diariooficial.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=edicao_consultar&formato=O&dta=30/08/2024: Message: timeout: Timed out receiving message from renderer: 28.388
+2025-05-21 23:46:52,209 - P11756 - INFO - Nome: ROBERTO FARIAS LOPES
+2025-05-21 23:46:52,209 - P11756 - INFO - Início do processamento Uso de memória: 48.84 MB
+2025-05-21 23:46:52,209 - P11756 - INFO - Iniciando busca para: ROBERTO FARIAS LOPES CRM 4155 PA telefone e-mail endereço
+2025-05-21 23:46:52,606 - P11756 - INFO - SearX results: 15 URLs
+2025-05-21 23:46:52,606 - P11756 - INFO - Após SearX Uso de memória: 48.85 MB
+2025-05-21 23:46:55,248 - P11756 - INFO - Google results: 11 URLs
+2025-05-21 23:46:55,248 - P11756 - INFO - Após Google Uso de memória: 49.47 MB
+2025-05-21 23:46:57,713 - P11756 - INFO - Bing results: 10 URLs
+2025-05-21 23:46:57,713 - P11756 - INFO - Após Bing Uso de memória: 50.65 MB
+2025-05-21 23:46:57,713 - P11756 - INFO - Total de URLs únicas: 26
+2025-05-21 23:46:57,713 - P11756 - INFO - Processando URL 1/26: https://wwa.tjto.jus.br/diario/diariopublicado/1619.pdf
+2025-05-21 23:46:57,714 - P11756 - INFO - Ignorando URL de arquivo não-HTML: https://wwa.tjto.jus.br/diario/diariopublicado/1619.pdf
+2025-05-21 23:46:57,714 - P11756 - INFO - Após processar URL 1 Uso de memória: 50.65 MB
+2025-05-21 23:46:57,714 - P11756 - INFO - Processando URL 2/26: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2007/06/do_20070621_1388.pdf
+2025-05-21 23:46:57,714 - P11756 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2007/06/do_20070621_1388.pdf
+2025-05-21 23:46:57,714 - P11756 - INFO - Após processar URL 2 Uso de memória: 50.65 MB
+2025-05-21 23:46:57,714 - P11756 - INFO - Processando URL 3/26: https://seadantigo.portal.ap.gov.br/diario/DOEn4711.pdf
+2025-05-21 23:46:57,715 - P11756 - INFO - Ignorando URL de arquivo não-HTML: https://seadantigo.portal.ap.gov.br/diario/DOEn4711.pdf
+2025-05-21 23:46:57,715 - P11756 - INFO - Após processar URL 3 Uso de memória: 50.65 MB
+2025-05-21 23:46:57,715 - P11756 - INFO - Processando URL 4/26: https://pbqp-h.mdr.gov.br/wp-content/uploads/2023/09/Empresas-Certificadas-SIAC-Maio-a-19-09-2023-Planilha1.csv
+2025-05-21 23:46:57,715 - P11756 - INFO - Ignorando URL de arquivo não-HTML: https://pbqp-h.mdr.gov.br/wp-content/uploads/2023/09/Empresas-Certificadas-SIAC-Maio-a-19-09-2023-Planilha1.csv
+2025-05-21 23:46:57,715 - P11756 - INFO - Após processar URL 4 Uso de memória: 50.65 MB
+2025-05-21 23:46:57,715 - P11756 - INFO - Processando URL 5/26: https://www.catalogo.med.br/medicos/em-mae-do-rio-pa/hospital-e-maternidade-nossa-senhora-de-fatima-e37365.htm
+2025-05-21 23:47:01,291 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\46afb98e28cce86ba563a593c027e36a.html
+2025-05-21 23:47:01,307 - P11756 - INFO - Candidates address: 1 items
+2025-05-21 23:47:01,307 - P11756 - INFO - Candidates phone: 0 items
+2025-05-21 23:47:01,307 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:47:01,307 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:47:01,308 - P11756 - INFO - Candidates cep: 1 items
+2025-05-21 23:47:01,308 - P11756 - INFO - Após processar URL 5 Uso de memória: 51.23 MB
+2025-05-21 23:47:01,308 - P11756 - INFO - Processando URL 6/26: https://www.sinj.df.gov.br/sinj/Diario/7855fb65-3417-36f8-be3b-1504990c74ab/DODF%20222%2021-11-2024%20INTEGRA.pdf
+2025-05-21 23:47:01,308 - P11756 - INFO - Ignorando URL de arquivo não-HTML: https://www.sinj.df.gov.br/sinj/Diario/7855fb65-3417-36f8-be3b-1504990c74ab/DODF%20222%2021-11-2024%20INTEGRA.pdf
+2025-05-21 23:47:01,308 - P11756 - INFO - Após processar URL 6 Uso de memória: 51.23 MB
+2025-05-21 23:47:01,309 - P11756 - INFO - Processando URL 7/26: https://cremepa.org.br/busca-medicos
+2025-05-21 23:47:05,261 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\0eb253d2fbf90693334a0c00284506e9.html
+2025-05-21 23:47:05,301 - P11756 - INFO - Candidates address: 0 items
+2025-05-21 23:47:05,301 - P11756 - INFO - Candidates phone: 0 items
+2025-05-21 23:47:05,301 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:47:05,301 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:47:05,301 - P11756 - INFO - Candidates cep: 1 items
+2025-05-21 23:47:05,302 - P11756 - INFO - Após processar URL 7 Uso de memória: 51.79 MB
+2025-05-21 23:47:05,302 - P11756 - INFO - Processando URL 8/26: https://www.consultacrm.com.br/index/profissionais
+2025-05-21 23:47:08,582 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-21 23:47:08,594 - P11756 - INFO - Candidates address: 0 items
+2025-05-21 23:47:08,595 - P11756 - INFO - Candidates phone: 0 items
+2025-05-21 23:47:08,595 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:47:08,595 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:47:08,595 - P11756 - INFO - Candidates cep: 0 items
+2025-05-21 23:47:08,595 - P11756 - INFO - Após processar URL 8 Uso de memória: 51.96 MB
+2025-05-21 23:47:08,595 - P11756 - INFO - Processando URL 9/26: https://www.doctoralia.com.br/roberto-farias-lopes/medico-clinico-geral/mae-do-rio
+2025-05-21 23:47:08,596 - P11756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/roberto-farias-lopes/medico-clinico-geral/mae-do-rio
+2025-05-21 23:47:08,596 - P11756 - INFO - Após processar URL 9 Uso de memória: 51.07 MB
+2025-05-21 23:47:08,596 - P11756 - INFO - Processando URL 10/26: https://consultacrm.com.br/
+2025-05-21 23:47:11,892 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-21 23:47:11,904 - P11756 - INFO - Candidates address: 0 items
+2025-05-21 23:47:11,904 - P11756 - INFO - Candidates phone: 0 items
+2025-05-21 23:47:11,905 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:47:11,905 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:47:11,905 - P11756 - INFO - Candidates cep: 0 items
+2025-05-21 23:47:11,905 - P11756 - INFO - Após processar URL 10 Uso de memória: 52.50 MB
+2025-05-21 23:47:11,906 - P11756 - INFO - Processando URL 11/26: https://cliniguia.com/profissionais/roberto-farias-lopes-204326276980008/
+2025-05-21 23:47:16,532 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\d2f39156bcb28694d2655a7f1cf242d5.html
+2025-05-21 23:47:16,571 - P11756 - INFO - Candidates address: 0 items
+2025-05-21 23:47:16,571 - P11756 - INFO - Candidates phone: 0 items
+2025-05-21 23:47:16,571 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:47:16,571 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:47:16,571 - P11756 - INFO - Candidates cep: 0 items
+2025-05-21 23:47:16,572 - P11756 - INFO - Após processar URL 11 Uso de memória: 52.75 MB
+2025-05-21 23:47:16,572 - P11756 - INFO - Processando URL 12/26: https://www.doctoralia.com.br/medico-clinico-geral/mae-do-rio
+2025-05-21 23:47:16,572 - P11756 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/medico-clinico-geral/mae-do-rio
+2025-05-21 23:47:16,572 - P11756 - INFO - Após processar URL 12 Uso de memória: 52.75 MB
+2025-05-21 23:47:16,572 - P11756 - INFO - Processando URL 13/26: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1306609531.pdf
+2025-05-21 23:47:16,573 - P11756 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1306609531.pdf
+2025-05-21 23:47:16,573 - P11756 - INFO - Após processar URL 13 Uso de memória: 52.75 MB
+2025-05-21 23:47:16,573 - P11756 - INFO - Processando URL 14/26: https://www.editorafoco.com.br/produto/inventarios-testamentos-direito-sucessoes-2023
+2025-05-21 23:47:21,740 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\38417ee8b3b2f5de5245eac4af81cb31.html
+2025-05-21 23:47:21,819 - P11756 - INFO - Candidates address: 0 items
+2025-05-21 23:47:21,819 - P11756 - INFO - Candidates phone: 1 items
+2025-05-21 23:47:21,819 - P11756 - INFO - Candidates email: 1 items
+2025-05-21 23:47:21,819 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:47:21,820 - P11756 - INFO - Candidates cep: 3 items
+2025-05-21 23:47:21,820 - P11756 - INFO - Após processar URL 14 Uso de memória: 51.27 MB
+2025-05-21 23:47:21,821 - P11756 - INFO - Processando URL 15/26: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/14573
+2025-05-21 23:47:24,016 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\dd74eb05e1b41b82dcfd400727d147a5.html
+2025-05-21 23:47:24,084 - P11756 - INFO - Candidates address: 0 items
+2025-05-21 23:47:24,084 - P11756 - INFO - Candidates phone: 1 items
+2025-05-21 23:47:24,084 - P11756 - INFO - Candidates email: 1 items
+2025-05-21 23:47:24,085 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:47:24,085 - P11756 - INFO - Candidates cep: 3 items
+2025-05-21 23:47:24,085 - P11756 - INFO - Após processar URL 15 Uso de memória: 52.40 MB
+2025-05-21 23:47:24,085 - P11756 - INFO - Processando URL 16/26: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/16395
+2025-05-21 23:47:26,158 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\f3f456d8abfd8c557c44de4805d5fccd.html
+2025-05-21 23:47:26,220 - P11756 - INFO - Candidates address: 0 items
+2025-05-21 23:47:26,220 - P11756 - INFO - Candidates phone: 1 items
+2025-05-21 23:47:26,220 - P11756 - INFO - Candidates email: 1 items
+2025-05-21 23:47:26,220 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:47:26,220 - P11756 - INFO - Candidates cep: 3 items
+2025-05-21 23:47:26,221 - P11756 - INFO - Após processar URL 16 Uso de memória: 51.28 MB
+2025-05-21 23:47:26,221 - P11756 - INFO - Processando URL 17/26: https://diariooficial.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=edicao_consultar&formato=O&dta=29/07/2024
+2025-05-21 23:47:41,643 - P11756 - WARNING - Página muito grande (5.45MB), truncando
+2025-05-21 23:47:41,655 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\7d1e188c28c21c72620c6a41f69f3f18.html
+2025-05-21 23:47:43,492 - P11756 - INFO - Candidates address: 240 items
+2025-05-21 23:47:43,492 - P11756 - INFO - Candidates phone: 40 items
+2025-05-21 23:47:43,493 - P11756 - INFO - Candidates email: 99 items
+2025-05-21 23:47:43,493 - P11756 - INFO - Candidates complement: 8 items
+2025-05-21 23:47:43,493 - P11756 - INFO - Candidates cep: 2621 items
+2025-05-21 23:47:43,493 - P11756 - INFO - Após processar URL 17 Uso de memória: 106.14 MB
+2025-05-21 23:47:43,493 - P11756 - INFO - Processando URL 18/26: https://www.pitanga.pr.leg.br/institucional/publicacoes-da-camara/contas-do-executivo/2019/01-oficio-no-24-2019-e-anexos/6deg%20bim%2028-01-2020.pdf
+2025-05-21 23:47:43,494 - P11756 - INFO - Ignorando URL de arquivo não-HTML: https://www.pitanga.pr.leg.br/institucional/publicacoes-da-camara/contas-do-executivo/2019/01-oficio-no-24-2019-e-anexos/6deg%20bim%2028-01-2020.pdf
+2025-05-21 23:47:43,494 - P11756 - INFO - Após processar URL 18 Uso de memória: 100.14 MB
+2025-05-21 23:47:43,494 - P11756 - INFO - Processando URL 19/26: https://diariooficial.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=edicao_consultar&formato=O&dta=30/08/2024
+2025-05-21 23:48:13,505 - P11756 - ERROR - Erro ao baixar HTML de https://diariooficial.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=edicao_consultar&formato=O&dta=30/08/2024: Message: timeout: Timed out receiving message from renderer: 29.733
   (Session info: chrome=136.0.7103.114)
 Stacktrace:
-	GetHandleVerifier [0x00007FF7CE3BCF45+75717]
-	GetHandleVerifier [0x00007FF7CE3BCFA0+75808]
-	(No symbol) [0x00007FF7CE188F9A]
-	(No symbol) [0x00007FF7CE1764EC]
-	(No symbol) [0x00007FF7CE1761DA]
-	(No symbol) [0x00007FF7CE173E8A]
-	(No symbol) [0x00007FF7CE17483F]
-	(No symbol) [0x00007FF7CE1833AE]
-	(No symbol) [0x00007FF7CE1997E1]
-	(No symbol) [0x00007FF7CE1A091A]
-	(No symbol) [0x00007FF7CE174FAD]
-	(No symbol) [0x00007FF7CE1994D0]
-	(No symbol) [0x00007FF7CE22F732]
-	(No symbol) [0x00007FF7CE207153]
-	(No symbol) [0x00007FF7CE1D0421]
-	(No symbol) [0x00007FF7CE1D11B3]
-	GetHandleVerifier [0x00007FF7CE6BD71D+3223453]
-	GetHandleVerifier [0x00007FF7CE6B7CC2+3200322]
-	GetHandleVerifier [0x00007FF7CE6D5AF3+3322739]
-	GetHandleVerifier [0x00007FF7CE3D6A1A+180890]
-	GetHandleVerifier [0x00007FF7CE3DE11F+211359]
-	GetHandleVerifier [0x00007FF7CE3C5294+109332]
-	GetHandleVerifier [0x00007FF7CE3C5442+109762]
-	GetHandleVerifier [0x00007FF7CE3ABA59+4825]
-	BaseThreadInitThunk [0x00007FF8385C7344+20]
-	RtlUserThreadStart [0x00007FF839E226B1+33]
+	GetHandleVerifier [0x00007FF75763CF45+75717]
+	GetHandleVerifier [0x00007FF75763CFA0+75808]
+	(No symbol) [0x00007FF757408F9A]
+	(No symbol) [0x00007FF7573F64EC]
+	(No symbol) [0x00007FF7573F61DA]
+	(No symbol) [0x00007FF7573F3E8A]
+	(No symbol) [0x00007FF7573F483F]
+	(No symbol) [0x00007FF7574033AE]
+	(No symbol) [0x00007FF7574197E1]
+	(No symbol) [0x00007FF75742091A]
+	(No symbol) [0x00007FF7573F4FAD]
+	(No symbol) [0x00007FF7574194D0]
+	(No symbol) [0x00007FF7574AF732]
+	(No symbol) [0x00007FF757487153]
+	(No symbol) [0x00007FF757450421]
+	(No symbol) [0x00007FF7574511B3]
+	GetHandleVerifier [0x00007FF75793D71D+3223453]
+	GetHandleVerifier [0x00007FF757937CC2+3200322]
+	GetHandleVerifier [0x00007FF757955AF3+3322739]
+	GetHandleVerifier [0x00007FF757656A1A+180890]
+	GetHandleVerifier [0x00007FF75765E11F+211359]
+	GetHandleVerifier [0x00007FF757645294+109332]
+	GetHandleVerifier [0x00007FF757645442+109762]
+	GetHandleVerifier [0x00007FF75762BA59+4825]
+	BaseThreadInitThunk [0x00007FFFFE757344+20]
+	RtlUserThreadStart [0x00007FFFFF4026B1+33]
 
-2025-05-21 22:08:45,146 - P7496 - INFO - Após processar URL 17 Uso de memória: 48.48 MB
-2025-05-21 22:08:45,146 - P7496 - INFO - Processando URL 18/25: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/19818
-2025-05-21 22:08:54,990 - P7496 - WARNING - Página muito grande (7.12MB), truncando
-2025-05-21 22:08:55,002 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\ccb0b1705488d257bedaf1b89a874d9e.html
-2025-05-21 22:08:57,736 - P7496 - INFO - Candidates address: 150 items
-2025-05-21 22:08:57,736 - P7496 - INFO - Candidates phone: 34 items
-2025-05-21 22:08:57,736 - P7496 - INFO - Candidates email: 58 items
-2025-05-21 22:08:57,736 - P7496 - INFO - Candidates complement: 15 items
-2025-05-21 22:08:57,736 - P7496 - INFO - Candidates cep: 2190 items
-2025-05-21 22:08:57,737 - P7496 - INFO - Após processar URL 18 Uso de memória: 109.44 MB
-2025-05-21 22:08:57,737 - P7496 - INFO - Processando URL 19/25: https://diariooficial.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=edicao_consultar&formato=O&dta=29/07/2024
-2025-05-21 22:08:59,855 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\7d1e188c28c21c72620c6a41f69f3f18.html
-2025-05-21 22:08:59,857 - P7496 - INFO - Candidates address: 0 items
-2025-05-21 22:08:59,858 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:08:59,858 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:08:59,858 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:08:59,858 - P7496 - INFO - Candidates cep: 2 items
-2025-05-21 22:08:59,858 - P7496 - INFO - Após processar URL 19 Uso de memória: 103.46 MB
-2025-05-21 22:08:59,859 - P7496 - INFO - Processando URL 20/25: https://wwa.tjto.jus.br/diario/diariopublicado/1619.pdf
-2025-05-21 22:08:59,859 - P7496 - INFO - Ignorando URL de arquivo não-HTML: https://wwa.tjto.jus.br/diario/diariopublicado/1619.pdf
-2025-05-21 22:08:59,859 - P7496 - INFO - Após processar URL 20 Uso de memória: 103.46 MB
-2025-05-21 22:08:59,859 - P7496 - INFO - Processando URL 21/25: https://consultacrm.com.br/
-2025-05-21 22:09:03,729 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
-2025-05-21 22:09:03,740 - P7496 - INFO - Candidates address: 0 items
-2025-05-21 22:09:03,740 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:09:03,741 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:09:03,741 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:09:03,741 - P7496 - INFO - Candidates cep: 0 items
-2025-05-21 22:09:03,741 - P7496 - INFO - Após processar URL 21 Uso de memória: 104.88 MB
-2025-05-21 22:09:03,741 - P7496 - INFO - Processando URL 22/25: https://www.doctoralia.com.br/medico-clinico-geral/mae-do-rio
-2025-05-21 22:09:03,741 - P7496 - INFO - Ignorando URL de arquivo não-HTML: https://www.doctoralia.com.br/medico-clinico-geral/mae-do-rio
-2025-05-21 22:09:03,742 - P7496 - INFO - Após processar URL 22 Uso de memória: 103.32 MB
-2025-05-21 22:09:03,742 - P7496 - INFO - Processando URL 23/25: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2007/06/do_20070621_1388.pdf
-2025-05-21 22:09:03,742 - P7496 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2007/06/do_20070621_1388.pdf
-2025-05-21 22:09:03,742 - P7496 - INFO - Após processar URL 23 Uso de memória: 103.32 MB
-2025-05-21 22:09:03,742 - P7496 - INFO - Processando URL 24/25: https://www.classemedica.com.br/medico/290704-roberto-farias-lopes.htm
-2025-05-21 22:09:16,909 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\7343ae70442d7815c1d6e395b63a39ac.html
-2025-05-21 22:09:16,938 - P7496 - INFO - Candidates address: 0 items
-2025-05-21 22:09:16,938 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:09:16,938 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:09:16,939 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:09:16,939 - P7496 - INFO - Candidates cep: 0 items
-2025-05-21 22:09:16,939 - P7496 - INFO - Após processar URL 24 Uso de memória: 106.15 MB
-2025-05-21 22:09:16,939 - P7496 - INFO - Processando URL 25/25: https://www.catalogo.med.br/medicos/em-mae-do-rio-pa/hospital-e-maternidade-nossa-senhora-de-fatima-e37365.htm
-2025-05-21 22:09:22,154 - P7496 - INFO - HTML salvo para debug: data\debug_html_v10\46afb98e28cce86ba563a593c027e36a.html
-2025-05-21 22:09:22,171 - P7496 - INFO - Candidates address: 1 items
-2025-05-21 22:09:22,171 - P7496 - INFO - Candidates phone: 0 items
-2025-05-21 22:09:22,172 - P7496 - INFO - Candidates email: 0 items
-2025-05-21 22:09:22,172 - P7496 - INFO - Candidates complement: 0 items
-2025-05-21 22:09:22,172 - P7496 - INFO - Candidates cep: 1 items
-2025-05-21 22:09:22,172 - P7496 - INFO - Após processar URL 25 Uso de memória: 105.36 MB
-2025-05-21 22:09:22,172 - P7496 - INFO - Iniciando agregação e ranqueamento
-2025-05-21 22:09:22,172 - P7496 - INFO - Ranked address: 152 items
-2025-05-21 22:09:22,173 - P7496 - INFO - Ranked phone: 35 items
-2025-05-21 22:09:22,173 - P7496 - INFO - Ranked email: 60 items
-2025-05-21 22:09:22,173 - P7496 - INFO - Ranked complement: 15 items
-2025-05-21 22:09:22,174 - P7496 - INFO - Ranked cep: 2197 items
-2025-05-21 22:09:22,174 - P7496 - INFO - Após agregação Uso de memória: 105.59 MB
-2025-05-21 22:09:22,174 - P7496 - INFO - Validando endereço: ['Rua Benedito Almeida, 621', 'R.São Bento, 405', 'Rua Paulo Arentino, 1']
-2025-05-21 22:09:22,175 - P7496 - INFO - Endereço validado: Rua Benedito Almeida, 621
-2025-05-21 22:09:22,175 - P7496 - INFO - Limpando texto extenso para campo address: Rua Benedito Almeida, 621...
-2025-05-21 22:09:22,175 - P7496 - INFO - Texto limpo: Rua Benedito Almeida, 621
-2025-05-21 22:09:22,175 - P7496 - INFO - Validando telefone: ['(19) 99951-0212', '(11) 3113-8000', '(11) 3322-4717']
-2025-05-21 22:09:22,175 - P7496 - INFO - Limpando texto extenso para campo phone: (19) 99951-0212...
-2025-05-21 22:09:22,176 - P7496 - INFO - Texto limpo: 19) 99951-0212
-2025-05-21 22:09:22,176 - P7496 - INFO - Telefone validado: 19) 99951-0212
-2025-05-21 22:09:22,176 - P7496 - INFO - Validando email: ['leonardopereira@editorafoco.com.br', 'contato@editorafoco.com.br', 'casacivil@prefeitura.sp.gov.br']
-2025-05-21 22:09:22,176 - P7496 - INFO - Limpando texto extenso para campo email: leonardopereira@editorafoco.com.br...
-2025-05-21 22:09:22,176 - P7496 - INFO - Texto limpo: leonardopereira@editorafoco.com.br
-2025-05-21 22:09:22,176 - P7496 - INFO - Email validado: leonardopereira@editorafoco.com.br
-2025-05-21 22:09:22,177 - P7496 - INFO - Validando complemento: ['Bloco G02 - Apto. 12 Cód. nº 0612311 outorgada pela Pre', 'Bloco G02 - Apto. 12 Cód. nº 0612311 à Maria Lucia Rodr', 'Bloco 01 - Apto. 53 Cód. 1360024']
-2025-05-21 22:09:22,177 - P7496 - INFO - Limpando texto extenso para campo complement: Bloco G02 - Apto. 12 Cód. nº 0612311 outorgada pel...
-2025-05-21 22:09:22,177 - P7496 - INFO - Texto limpo: Bloco G02 - Apto. 12 Cód. nº 0
-2025-05-21 22:09:22,177 - P7496 - INFO - Complemento validado: Bloco G02 - Apto. 12 Cód. nº 0
-2025-05-21 22:09:22,177 - P7496 - INFO - Descobrindo cidade
-2025-05-21 22:09:22,177 - P7496 - INFO - Buscando cidade: Rua Benedito Almeida cidade PA
-2025-05-21 22:09:24,946 - P7496 - WARNING - Cidade não encontrada
-2025-05-21 22:09:24,946 - P7496 - INFO - Cidade descoberta: 
-2025-05-21 22:09:24,947 - P7496 - INFO - Tempo de execução de processamento completo do médico: 105.33 segundos
-2025-05-21 22:09:24,947 - P7496 - INFO - Resultado processado: {'CRM': '4155', 'UF': 'PA', 'Firstname': 'ROBERTO', 'LastName': 'FARIAS LOPES', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Benedito Almeida, 621', 'Address A1': 'Rua Benedito Almeida', 'Numero A1': '621', 'Complement A1': 'Bloco G02 - Apto. 12 Cód. nº 0', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '19) 99951-0212', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'leonardopereira@editorafoco.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
-2025-05-21 22:09:24,948 - P7496 - INFO - Progresso: 100.0%
-2025-05-21 22:09:24,948 - P7496 - INFO - Tempo de execução de processamento do médico 2: 105.33 segundos
-2025-05-21 22:09:24,948 - P7496 - INFO - Salvando resultados finais do lote
-2025-05-21 22:09:24,949 - P7496 - INFO - Tempo de execução de processamento do lote completo: 164.02 segundos
+2025-05-21 23:48:13,507 - P11756 - INFO - Após processar URL 19 Uso de memória: 100.11 MB
+2025-05-21 23:48:13,507 - P11756 - INFO - Processando URL 20/26: https://www.classemedica.com.br/medico/290704-roberto-farias-lopes.htm
+2025-05-21 23:48:18,420 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\7343ae70442d7815c1d6e395b63a39ac.html
+2025-05-21 23:48:18,451 - P11756 - INFO - Candidates address: 0 items
+2025-05-21 23:48:18,451 - P11756 - INFO - Candidates phone: 0 items
+2025-05-21 23:48:18,451 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:48:18,451 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:48:18,451 - P11756 - INFO - Candidates cep: 0 items
+2025-05-21 23:48:18,451 - P11756 - INFO - Após processar URL 20 Uso de memória: 101.97 MB
+2025-05-21 23:48:18,451 - P11756 - INFO - Processando URL 21/26: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo696.pdf
+2025-05-21 23:48:18,452 - P11756 - INFO - Ignorando URL de arquivo não-HTML: https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo696.pdf
+2025-05-21 23:48:18,452 - P11756 - INFO - Após processar URL 21 Uso de memória: 100.97 MB
+2025-05-21 23:48:18,452 - P11756 - INFO - Processando URL 22/26: https://crmvirtual.cfm.org.br/PA
+2025-05-21 23:48:23,343 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\8248674401d6a0ecdd1d7f029c068023.html
+2025-05-21 23:48:23,362 - P11756 - INFO - Candidates address: 0 items
+2025-05-21 23:48:23,362 - P11756 - INFO - Candidates phone: 0 items
+2025-05-21 23:48:23,362 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:48:23,362 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:48:23,362 - P11756 - INFO - Candidates cep: 0 items
+2025-05-21 23:48:23,363 - P11756 - INFO - Após processar URL 22 Uso de memória: 101.77 MB
+2025-05-21 23:48:23,363 - P11756 - INFO - Processando URL 23/26: https://www.boaconsulta.com/especialista/roberto-farias-lopes-6105d3b2a2e00a5e1800043b
+2025-05-21 23:48:26,136 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\95c3d6aae0f1185f626953309cda1b5b.html
+2025-05-21 23:48:26,194 - P11756 - INFO - Candidates address: 1 items
+2025-05-21 23:48:26,194 - P11756 - INFO - Candidates phone: 0 items
+2025-05-21 23:48:26,195 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:48:26,195 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:48:26,195 - P11756 - INFO - Candidates cep: 0 items
+2025-05-21 23:48:26,195 - P11756 - INFO - Após processar URL 23 Uso de memória: 102.35 MB
+2025-05-21 23:48:26,195 - P11756 - INFO - Processando URL 24/26: https://www.sed.ms.gov.br/wp-content/uploads/2022/05/DO10818_02_05_2022.pdf
+2025-05-21 23:48:26,196 - P11756 - INFO - Ignorando URL de arquivo não-HTML: https://www.sed.ms.gov.br/wp-content/uploads/2022/05/DO10818_02_05_2022.pdf
+2025-05-21 23:48:26,196 - P11756 - INFO - Após processar URL 24 Uso de memória: 102.36 MB
+2025-05-21 23:48:26,196 - P11756 - INFO - Processando URL 25/26: https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/beneficios-fiscais/programa-empresa-cidada/empresas_optantes
+2025-05-21 23:48:28,329 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\bc705a0ca491c709905e221358627d5c.html
+2025-05-21 23:48:28,379 - P11756 - INFO - Candidates address: 1 items
+2025-05-21 23:48:28,379 - P11756 - INFO - Candidates phone: 0 items
+2025-05-21 23:48:28,379 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:48:28,379 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:48:28,379 - P11756 - INFO - Candidates cep: 0 items
+2025-05-21 23:48:28,379 - P11756 - INFO - Após processar URL 25 Uso de memória: 104.41 MB
+2025-05-21 23:48:28,380 - P11756 - INFO - Processando URL 26/26: https://crmvirtual.cfm.org.br/PA/servico/pesquisar-por-medico
+2025-05-21 23:48:30,725 - P11756 - INFO - HTML salvo para debug: data\debug_html_v10\17cc5d3782797f0ed7c584749901b7c9.html
+2025-05-21 23:48:30,734 - P11756 - INFO - Candidates address: 0 items
+2025-05-21 23:48:30,735 - P11756 - INFO - Candidates phone: 0 items
+2025-05-21 23:48:30,735 - P11756 - INFO - Candidates email: 0 items
+2025-05-21 23:48:30,735 - P11756 - INFO - Candidates complement: 0 items
+2025-05-21 23:48:30,735 - P11756 - INFO - Candidates cep: 0 items
+2025-05-21 23:48:30,735 - P11756 - INFO - Após processar URL 26 Uso de memória: 104.36 MB
+2025-05-21 23:48:30,735 - P11756 - INFO - Iniciando agregação e ranqueamento
+2025-05-21 23:48:30,736 - P11756 - INFO - Ranked address: 242 items
+2025-05-21 23:48:30,736 - P11756 - INFO - Ranked phone: 41 items
+2025-05-21 23:48:30,736 - P11756 - INFO - Ranked email: 100 items
+2025-05-21 23:48:30,736 - P11756 - INFO - Ranked complement: 8 items
+2025-05-21 23:48:30,737 - P11756 - INFO - Ranked cep: 2626 items
+2025-05-21 23:48:30,737 - P11756 - INFO - Após agregação Uso de memória: 103.62 MB
+2025-05-21 23:48:30,737 - P11756 - INFO - Validando endereço: ['Rua Benedito Almeida, 621', 'Rua Rui Barbosa, 330', 'Rua Leo Ribeiro de Moraes nº 66']
+2025-05-21 23:48:30,737 - P11756 - INFO - Endereço validado: Rua Benedito Almeida, 621
+2025-05-21 23:48:30,737 - P11756 - INFO - Limpando texto extenso para campo address: Rua Benedito Almeida, 621...
+2025-05-21 23:48:30,738 - P11756 - INFO - Texto limpo: Rua Benedito Almeida, 621
+2025-05-21 23:48:30,738 - P11756 - INFO - Validando telefone: ['(19) 99951-0212', '(11) 3113-8000', '(11) 3322-4717']
+2025-05-21 23:48:30,738 - P11756 - INFO - Limpando texto extenso para campo phone: (19) 99951-0212...
+2025-05-21 23:48:30,738 - P11756 - INFO - Texto limpo: 19) 99951-0212
+2025-05-21 23:48:30,738 - P11756 - INFO - Telefone validado: 19) 99951-0212
+2025-05-21 23:48:30,738 - P11756 - INFO - Validando email: ['contato@editorafoco.com.br', 'casacivil@prefeitura.sp.gov.br', 'smjcomunicacao@prefeitura.sp.gov.br']
+2025-05-21 23:48:30,739 - P11756 - INFO - Limpando texto extenso para campo email: contato@editorafoco.com.br...
+2025-05-21 23:48:30,739 - P11756 - INFO - Texto limpo: contato@editorafoco.com.br
+2025-05-21 23:48:30,739 - P11756 - INFO - Email validado: contato@editorafoco.com.br
+2025-05-21 23:48:30,739 - P11756 - INFO - Validando complemento: ['Sala “Ponto de Afeto”.” (NR) ', 'Apto 21', 'Bloco 5 Apt 1A CEP: 02813-115 São Paulo-SP ']
+2025-05-21 23:48:30,739 - P11756 - INFO - Limpando texto extenso para campo complement: Sala “Ponto de Afeto”.” (NR) ...
+2025-05-21 23:48:30,739 - P11756 - INFO - Texto limpo: Sala “Ponto de Afeto”.” (NR)
+2025-05-21 23:48:30,740 - P11756 - INFO - Complemento validado: Sala “Ponto de Afeto”.” (NR)
+2025-05-21 23:48:30,740 - P11756 - INFO - Descobrindo cidade
+2025-05-21 23:48:30,740 - P11756 - INFO - Buscando cidade: Rua Benedito Almeida cidade PA
+2025-05-21 23:48:33,294 - P11756 - WARNING - Cidade não encontrada
+2025-05-21 23:48:33,294 - P11756 - INFO - Cidade descoberta: 
+2025-05-21 23:48:33,295 - P11756 - INFO - Tempo de execução de processamento completo do médico: 101.09 segundos
+2025-05-21 23:48:33,295 - P11756 - INFO - Resultado processado: {'CRM': '4155', 'UF': 'PA', 'Firstname': 'ROBERTO', 'LastName': 'FARIAS LOPES', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Benedito Almeida, 621', 'Address A1': 'Rua Benedito Almeida', 'Numero A1': '621', 'Complement A1': 'Sala “Ponto de Afeto”.” (NR)', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '19) 99951-0212', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'contato@editorafoco.com.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-21 23:48:33,296 - P11756 - INFO - Progresso: 100.0%
+2025-05-21 23:48:33,296 - P11756 - INFO - Tempo de execução de processamento do médico 2: 101.09 segundos
+2025-05-21 23:48:33,296 - P11756 - INFO - Salvando resultados finais do lote
+2025-05-21 23:48:33,296 - P11756 - INFO - Tempo de execução de processamento do lote completo: 166.24 segundos

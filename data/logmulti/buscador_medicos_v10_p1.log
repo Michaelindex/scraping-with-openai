@@ -1,369 +1,370 @@
-2025-05-21 22:06:40,934 - P12872 - INFO - 
+2025-05-21 23:45:47,060 - P12100 - INFO - 
 ==================================================
 Processando médico 1/2
-2025-05-21 22:06:40,934 - P12872 - INFO - Nome: CLAUDIO COSTA CARDOSO
-2025-05-21 22:06:40,934 - P12872 - INFO - Reiniciando driver do Chrome
-2025-05-21 22:06:42,428 - P12872 - INFO - Após reiniciar driver Uso de memória: 39.03 MB
-2025-05-21 22:06:42,429 - P12872 - INFO - Início do processamento Uso de memória: 39.03 MB
-2025-05-21 22:06:42,429 - P12872 - INFO - Iniciando busca para: CLAUDIO COSTA CARDOSO CRM 13800 PA telefone e-mail endereço
-2025-05-21 22:06:43,277 - P12872 - INFO - SearX results: 15 URLs
-2025-05-21 22:06:43,284 - P12872 - INFO - Após SearX Uso de memória: 39.10 MB
-2025-05-21 22:06:46,618 - P12872 - INFO - Google results: 13 URLs
-2025-05-21 22:06:46,618 - P12872 - INFO - Após Google Uso de memória: 41.53 MB
-2025-05-21 22:06:49,578 - P12872 - INFO - Bing results: 10 URLs
-2025-05-21 22:06:49,578 - P12872 - INFO - Após Bing Uso de memória: 42.89 MB
-2025-05-21 22:06:49,578 - P12872 - INFO - Total de URLs únicas: 29
-2025-05-21 22:06:49,579 - P12872 - INFO - Processando URL 1/29: https://crmvirtual.cfm.org.br/PA/servico/pesquisar-por-medico
-2025-05-21 22:06:51,881 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\17cc5d3782797f0ed7c584749901b7c9.html
-2025-05-21 22:06:51,894 - P12872 - INFO - Candidates address: 0 items
-2025-05-21 22:06:51,895 - P12872 - INFO - Candidates phone: 0 items
-2025-05-21 22:06:51,895 - P12872 - INFO - Candidates email: 0 items
-2025-05-21 22:06:51,895 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:06:51,895 - P12872 - INFO - Candidates cep: 0 items
-2025-05-21 22:06:51,896 - P12872 - INFO - Após processar URL 1 Uso de memória: 43.25 MB
-2025-05-21 22:06:51,896 - P12872 - INFO - Processando URL 2/29: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
-2025-05-21 22:06:55,867 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
-2025-05-21 22:06:55,914 - P12872 - INFO - Candidates address: 0 items
-2025-05-21 22:06:55,914 - P12872 - INFO - Candidates phone: 0 items
-2025-05-21 22:06:55,914 - P12872 - INFO - Candidates email: 0 items
-2025-05-21 22:06:55,914 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:06:55,915 - P12872 - INFO - Candidates cep: 0 items
-2025-05-21 22:06:55,915 - P12872 - INFO - Após processar URL 2 Uso de memória: 43.71 MB
-2025-05-21 22:06:55,915 - P12872 - INFO - Processando URL 3/29: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-31-10-2023.pdf
-2025-05-21 22:06:55,915 - P12872 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-31-10-2023.pdf
-2025-05-21 22:06:55,916 - P12872 - INFO - Após processar URL 3 Uso de memória: 43.48 MB
-2025-05-21 22:06:55,916 - P12872 - INFO - Processando URL 4/29: https://crmvirtual.cfm.org.br/PA
-2025-05-21 22:07:00,410 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\8248674401d6a0ecdd1d7f029c068023.html
-2025-05-21 22:07:00,432 - P12872 - INFO - Candidates address: 0 items
-2025-05-21 22:07:00,432 - P12872 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:00,433 - P12872 - INFO - Candidates email: 0 items
-2025-05-21 22:07:00,439 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:00,440 - P12872 - INFO - Candidates cep: 0 items
-2025-05-21 22:07:00,440 - P12872 - INFO - Após processar URL 4 Uso de memória: 44.73 MB
-2025-05-21 22:07:00,440 - P12872 - INFO - Processando URL 5/29: https://cliniguia.com/profissionais/claudio-costa-cardoso-706206509117969/
-2025-05-21 22:07:03,841 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\27f742276316c3618e2dfce9e148f775.html
-2025-05-21 22:07:03,896 - P12872 - INFO - Candidates address: 0 items
-2025-05-21 22:07:03,897 - P12872 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:03,898 - P12872 - INFO - Candidates email: 0 items
-2025-05-21 22:07:03,898 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:03,898 - P12872 - INFO - Candidates cep: 0 items
-2025-05-21 22:07:03,899 - P12872 - INFO - Após processar URL 5 Uso de memória: 48.39 MB
-2025-05-21 22:07:03,899 - P12872 - INFO - Processando URL 6/29: https://www.boaconsulta.com/especialista/claudio-costa-cardoso-6105d9b2a2e00a5e18001613
-2025-05-21 22:07:08,919 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\c3c68d036a10238652675ed9cb52e1f4.html
-2025-05-21 22:07:09,002 - P12872 - INFO - Candidates address: 1 items
-2025-05-21 22:07:09,002 - P12872 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:09,002 - P12872 - INFO - Candidates email: 0 items
-2025-05-21 22:07:09,002 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:09,003 - P12872 - INFO - Candidates cep: 0 items
-2025-05-21 22:07:09,003 - P12872 - INFO - Após processar URL 6 Uso de memória: 49.74 MB
-2025-05-21 22:07:09,003 - P12872 - INFO - Processando URL 7/29: https://seop.niteroi.rj.gov.br/wp-content/uploads/2025/04/2016-04-29-res-06-2016-estandarte.pdf
-2025-05-21 22:07:09,003 - P12872 - INFO - Ignorando URL de arquivo não-HTML: https://seop.niteroi.rj.gov.br/wp-content/uploads/2025/04/2016-04-29-res-06-2016-estandarte.pdf
-2025-05-21 22:07:09,004 - P12872 - INFO - Após processar URL 7 Uso de memória: 48.72 MB
-2025-05-21 22:07:09,004 - P12872 - INFO - Processando URL 8/29: https://www.saobernardo.sp.gov.br/documents/10181/2045904/NM+2508+de+28.02.2025+-++Conteu%CC%81do+Integral.pdf.pdf/75db3f96-9d3f-ab3c-c202-637990c1021e
-2025-05-21 22:07:09,005 - P12872 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/2045904/NM+2508+de+28.02.2025+-++Conteu%CC%81do+Integral.pdf.pdf/75db3f96-9d3f-ab3c-c202-637990c1021e
-2025-05-21 22:07:09,006 - P12872 - INFO - Após processar URL 8 Uso de memória: 48.72 MB
-2025-05-21 22:07:09,006 - P12872 - INFO - Processando URL 9/29: https://www.ibge.gov.br/np_download/novoportal/documentos_institucionais/PlanoGeral_2024_ebook.pdf
-2025-05-21 22:07:09,007 - P12872 - INFO - Ignorando URL de arquivo não-HTML: https://www.ibge.gov.br/np_download/novoportal/documentos_institucionais/PlanoGeral_2024_ebook.pdf
-2025-05-21 22:07:09,007 - P12872 - INFO - Após processar URL 9 Uso de memória: 48.72 MB
-2025-05-21 22:07:09,008 - P12872 - INFO - Processando URL 10/29: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/168005473.pdf
-2025-05-21 22:07:09,008 - P12872 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/168005473.pdf
-2025-05-21 22:07:09,008 - P12872 - INFO - Após processar URL 10 Uso de memória: 48.72 MB
-2025-05-21 22:07:09,008 - P12872 - INFO - Processando URL 11/29: https://consultar.io/crm/pa/
-2025-05-21 22:07:12,316 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\5e513095739cb9def733a211ca3ea51b.html
-2025-05-21 22:07:12,330 - P12872 - INFO - Candidates address: 0 items
-2025-05-21 22:07:12,331 - P12872 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:12,331 - P12872 - INFO - Candidates email: 0 items
-2025-05-21 22:07:12,331 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:12,331 - P12872 - INFO - Candidates cep: 0 items
-2025-05-21 22:07:12,331 - P12872 - INFO - Após processar URL 11 Uso de memória: 49.23 MB
-2025-05-21 22:07:12,331 - P12872 - INFO - Processando URL 12/29: https://www.ioepa.com.br/pages/2019/2019.05.17.DOE.pdf
-2025-05-21 22:07:12,331 - P12872 - INFO - Ignorando URL de arquivo não-HTML: https://www.ioepa.com.br/pages/2019/2019.05.17.DOE.pdf
-2025-05-21 22:07:12,332 - P12872 - INFO - Após processar URL 12 Uso de memória: 49.23 MB
-2025-05-21 22:07:12,332 - P12872 - INFO - Processando URL 13/29: https://hbpsantos.org.br/2024/09/02/para-quem-tem-50-anos-de-medicina/
-2025-05-21 22:07:16,403 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\a81cf8be90709f360d83ccd4227a54bc.html
-2025-05-21 22:07:16,426 - P12872 - INFO - Candidates address: 2 items
-2025-05-21 22:07:16,426 - P12872 - INFO - Candidates phone: 2 items
-2025-05-21 22:07:16,427 - P12872 - INFO - Candidates email: 1 items
-2025-05-21 22:07:16,427 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:16,427 - P12872 - INFO - Candidates cep: 0 items
-2025-05-21 22:07:16,427 - P12872 - INFO - Após processar URL 13 Uso de memória: 49.68 MB
-2025-05-21 22:07:16,427 - P12872 - INFO - Processando URL 14/29: https://www.casacaresc.org.br/guia/lista-rede-direta.php
-2025-05-21 22:07:20,678 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\64516240511215a825b2de94ca3ed950.html
-2025-05-21 22:07:23,059 - P12872 - INFO - Candidates address: 36 items
-2025-05-21 22:07:23,059 - P12872 - INFO - Candidates phone: 90 items
-2025-05-21 22:07:23,060 - P12872 - INFO - Candidates email: 2 items
-2025-05-21 22:07:23,060 - P12872 - INFO - Candidates complement: 15 items
-2025-05-21 22:07:23,060 - P12872 - INFO - Candidates cep: 166 items
-2025-05-21 22:07:23,060 - P12872 - INFO - Após processar URL 14 Uso de memória: 74.03 MB
-2025-05-21 22:07:23,060 - P12872 - INFO - Processando URL 15/29: https://www.medguias.com.br/sc/criciuma/medicina/gastroenterologia/flavia-costa-cardoso
-2025-05-21 22:07:27,714 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\4a6e15415ad7bb0c4ed7615e156f0db2.html
-2025-05-21 22:07:27,886 - P12872 - INFO - Candidates address: 1 items
-2025-05-21 22:07:27,938 - P12872 - INFO - Candidates phone: 2 items
-2025-05-21 22:07:27,958 - P12872 - INFO - Candidates email: 0 items
-2025-05-21 22:07:27,961 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:27,974 - P12872 - INFO - Candidates cep: 2 items
-2025-05-21 22:07:27,987 - P12872 - INFO - Após processar URL 15 Uso de memória: 52.01 MB
-2025-05-21 22:07:27,992 - P12872 - INFO - Processando URL 16/29: https://sistemas.cfm.org.br/faleconosco/PA
-2025-05-21 22:07:31,475 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\735d7cc4d6ab800612c395bdbdbc5b80.html
-2025-05-21 22:07:31,484 - P12872 - INFO - Candidates address: 0 items
-2025-05-21 22:07:31,484 - P12872 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:31,484 - P12872 - INFO - Candidates email: 0 items
-2025-05-21 22:07:31,484 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:31,484 - P12872 - INFO - Candidates cep: 0 items
-2025-05-21 22:07:31,485 - P12872 - INFO - Após processar URL 16 Uso de memória: 52.10 MB
-2025-05-21 22:07:31,485 - P12872 - INFO - Processando URL 17/29: https://www.medicosbrasil.com/profissional/claudio-costa-cardoso
-2025-05-21 22:07:34,653 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\80ff28be41510caffe4d0e7be433c6e1.html
-2025-05-21 22:07:34,681 - P12872 - INFO - Candidates address: 0 items
-2025-05-21 22:07:34,681 - P12872 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:34,682 - P12872 - INFO - Candidates email: 0 items
-2025-05-21 22:07:34,682 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:34,682 - P12872 - INFO - Candidates cep: 0 items
-2025-05-21 22:07:34,682 - P12872 - INFO - Após processar URL 17 Uso de memória: 52.89 MB
-2025-05-21 22:07:34,682 - P12872 - INFO - Processando URL 18/29: https://somos.ufmg.br/professor/francisco-eduardo-costa-cardoso
-2025-05-21 22:07:38,574 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\0bfab9fb4fe3ed8db5e588cdd845af4c.html
-2025-05-21 22:07:38,782 - P12872 - INFO - Candidates address: 0 items
-2025-05-21 22:07:38,788 - P12872 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:38,788 - P12872 - INFO - Candidates email: 0 items
-2025-05-21 22:07:38,788 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:38,789 - P12872 - INFO - Candidates cep: 2 items
-2025-05-21 22:07:38,789 - P12872 - INFO - Após processar URL 18 Uso de memória: 52.12 MB
-2025-05-21 22:07:38,789 - P12872 - INFO - Processando URL 19/29: https://www.grupobiocentro.com/profissionais/dra-avessandra-costa-cardoso-de-oliveira
-2025-05-21 22:07:42,605 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\b1e009b5f64bd4c09b02a46c6cd9ae2f.html
-2025-05-21 22:07:42,616 - P12872 - INFO - Candidates address: 0 items
-2025-05-21 22:07:42,616 - P12872 - INFO - Candidates phone: 1 items
-2025-05-21 22:07:42,617 - P12872 - INFO - Candidates email: 1 items
-2025-05-21 22:07:42,617 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:42,617 - P12872 - INFO - Candidates cep: 1 items
-2025-05-21 22:07:42,618 - P12872 - INFO - Após processar URL 19 Uso de memória: 52.65 MB
-2025-05-21 22:07:42,618 - P12872 - INFO - Processando URL 20/29: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1393386040.pdf
-2025-05-21 22:07:42,618 - P12872 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1393386040.pdf
-2025-05-21 22:07:42,618 - P12872 - INFO - Após processar URL 20 Uso de memória: 52.65 MB
-2025-05-21 22:07:42,619 - P12872 - INFO - Processando URL 21/29: https://www.mogimirim.sp.gov.br/uploads/jornal/26267/r3iycJkv23V8ugpBqLvXKjQg4vDW3109.pdf
-2025-05-21 22:07:42,619 - P12872 - INFO - Ignorando URL de arquivo não-HTML: https://www.mogimirim.sp.gov.br/uploads/jornal/26267/r3iycJkv23V8ugpBqLvXKjQg4vDW3109.pdf
-2025-05-21 22:07:42,619 - P12872 - INFO - Após processar URL 21 Uso de memória: 52.65 MB
-2025-05-21 22:07:42,619 - P12872 - INFO - Processando URL 22/29: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2021/12/do_20211228_3495.pdf
-2025-05-21 22:07:42,620 - P12872 - INFO - Ignorando URL de arquivo não-HTML: https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2021/12/do_20211228_3495.pdf
-2025-05-21 22:07:42,620 - P12872 - INFO - Após processar URL 22 Uso de memória: 52.65 MB
-2025-05-21 22:07:42,620 - P12872 - INFO - Processando URL 23/29: https://cremepa.org.br/busca-medicos
-2025-05-21 22:07:47,044 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\0eb253d2fbf90693334a0c00284506e9.html
-2025-05-21 22:07:47,087 - P12872 - INFO - Candidates address: 0 items
-2025-05-21 22:07:47,087 - P12872 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:47,088 - P12872 - INFO - Candidates email: 0 items
-2025-05-21 22:07:47,088 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:47,088 - P12872 - INFO - Candidates cep: 1 items
-2025-05-21 22:07:47,088 - P12872 - INFO - Após processar URL 23 Uso de memória: 52.88 MB
-2025-05-21 22:07:47,088 - P12872 - INFO - Processando URL 24/29: https://consultacrm.com.br/
-2025-05-21 22:07:52,077 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
-2025-05-21 22:07:52,096 - P12872 - INFO - Candidates address: 0 items
-2025-05-21 22:07:52,096 - P12872 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:52,097 - P12872 - INFO - Candidates email: 0 items
-2025-05-21 22:07:52,097 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:52,098 - P12872 - INFO - Candidates cep: 0 items
-2025-05-21 22:07:52,098 - P12872 - INFO - Após processar URL 24 Uso de memória: 53.99 MB
-2025-05-21 22:07:52,098 - P12872 - INFO - Processando URL 25/29: https://web.trf3.jus.br/diario/Consulta/BaixarPdf/28347
-2025-05-21 22:07:54,337 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\1bbb22f3bdc20035582baf733b4b5ea8.html
-2025-05-21 22:07:54,355 - P12872 - INFO - Candidates address: 0 items
-2025-05-21 22:07:54,356 - P12872 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:54,356 - P12872 - INFO - Candidates email: 0 items
-2025-05-21 22:07:54,356 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:54,356 - P12872 - INFO - Candidates cep: 0 items
-2025-05-21 22:07:54,356 - P12872 - INFO - Após processar URL 25 Uso de memória: 54.99 MB
-2025-05-21 22:07:54,357 - P12872 - INFO - Processando URL 26/29: https://www.consultacrm.com.br/index/profissionais
-2025-05-21 22:07:57,730 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
-2025-05-21 22:07:57,744 - P12872 - INFO - Candidates address: 0 items
-2025-05-21 22:07:57,748 - P12872 - INFO - Candidates phone: 0 items
-2025-05-21 22:07:57,748 - P12872 - INFO - Candidates email: 0 items
-2025-05-21 22:07:57,748 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:07:57,750 - P12872 - INFO - Candidates cep: 0 items
-2025-05-21 22:07:57,751 - P12872 - INFO - Após processar URL 26 Uso de memória: 54.29 MB
-2025-05-21 22:07:57,751 - P12872 - INFO - Processando URL 27/29: https://www.mogimirim.sp.gov.br/uploads/jornal/22658/eJP6zulI4uw62t9aCqE6cUmiBG7zjIdz.pdf
-2025-05-21 22:07:57,755 - P12872 - INFO - Ignorando URL de arquivo não-HTML: https://www.mogimirim.sp.gov.br/uploads/jornal/22658/eJP6zulI4uw62t9aCqE6cUmiBG7zjIdz.pdf
-2025-05-21 22:07:57,757 - P12872 - INFO - Após processar URL 27 Uso de memória: 53.06 MB
-2025-05-21 22:07:57,758 - P12872 - INFO - Processando URL 28/29: https://www.escavador.com/sobre/1570738/claudio-costa-cardoso
-2025-05-21 22:08:03,439 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\0c96668112360b9feca1b62b2e54163b.html
-2025-05-21 22:08:03,488 - P12872 - INFO - Candidates address: 0 items
-2025-05-21 22:08:03,491 - P12872 - INFO - Candidates phone: 0 items
-2025-05-21 22:08:03,492 - P12872 - INFO - Candidates email: 0 items
-2025-05-21 22:08:03,493 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:08:03,493 - P12872 - INFO - Candidates cep: 0 items
-2025-05-21 22:08:03,493 - P12872 - INFO - Após processar URL 28 Uso de memória: 54.80 MB
-2025-05-21 22:08:03,494 - P12872 - INFO - Processando URL 29/29: https://transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2025/DMPF-EXTRAJUDICIAL-2025-04-01.pdf
-2025-05-21 22:08:03,494 - P12872 - INFO - Ignorando URL de arquivo não-HTML: https://transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2025/DMPF-EXTRAJUDICIAL-2025-04-01.pdf
-2025-05-21 22:08:03,494 - P12872 - INFO - Após processar URL 29 Uso de memória: 54.80 MB
-2025-05-21 22:08:03,495 - P12872 - INFO - Iniciando agregação e ranqueamento
-2025-05-21 22:08:03,496 - P12872 - INFO - Ranked address: 40 items
-2025-05-21 22:08:03,497 - P12872 - INFO - Ranked phone: 95 items
-2025-05-21 22:08:03,498 - P12872 - INFO - Ranked email: 4 items
-2025-05-21 22:08:03,500 - P12872 - INFO - Ranked complement: 15 items
-2025-05-21 22:08:03,506 - P12872 - INFO - Ranked cep: 172 items
-2025-05-21 22:08:03,508 - P12872 - INFO - Após agregação Uso de memória: 54.80 MB
-2025-05-21 22:08:03,510 - P12872 - INFO - Validando endereço: ['Rua Sao Joao Del Rey, 123', 'Av. Bernardino de Campos, 47', 'Rua Monsenhor de Paula Rodrigues, 220']
-2025-05-21 22:08:03,511 - P12872 - INFO - Endereço validado: Rua Sao Joao Del Rey, 123
-2025-05-21 22:08:03,512 - P12872 - INFO - Limpando texto extenso para campo address: Rua Sao Joao Del Rey, 123...
-2025-05-21 22:08:03,513 - P12872 - INFO - Texto limpo: Rua Sao Joao Del Rey, 123
-2025-05-21 22:08:03,513 - P12872 - INFO - Validando telefone: ['(13) 2102-3434', '(13) 2102-3436', '(48) 99143-2816']
-2025-05-21 22:08:03,514 - P12872 - INFO - Limpando texto extenso para campo phone: (13) 2102-3434...
-2025-05-21 22:08:03,515 - P12872 - INFO - Texto limpo: 13) 2102-3434
-2025-05-21 22:08:03,516 - P12872 - INFO - Telefone validado: 13) 2102-3434
-2025-05-21 22:08:03,517 - P12872 - INFO - Validando email: ['recrutamento@hbpsantos.org.br', 'ouvidoria@casacaresc.org.br', 'dpo@casacaresc.org.br']
-2025-05-21 22:08:03,517 - P12872 - INFO - Limpando texto extenso para campo email: recrutamento@hbpsantos.org.br...
-2025-05-21 22:08:03,517 - P12872 - INFO - Texto limpo: recrutamento@hbpsantos.org.br
-2025-05-21 22:08:03,518 - P12872 - INFO - Email validado: recrutamento@hbpsantos.org.br
-2025-05-21 22:08:03,519 - P12872 - INFO - Validando complemento: ['Sala 211 Bairro: Centro Municipio: Biguacu - SC | CEP:', 'Sala 310" Bairro: Centro Municipio: Florianopolis - SC', 'Sala 212 Bairro: Centro Municipio: Florianopolis - SC ']
-2025-05-21 22:08:03,519 - P12872 - INFO - Limpando texto extenso para campo complement: Sala 211 Bairro: Centro Municipio: Biguacu - SC | ...
-2025-05-21 22:08:03,520 - P12872 - INFO - Texto limpo: Sala 211 Bairro: Centro Munici
-2025-05-21 22:08:03,520 - P12872 - INFO - Complemento validado: Sala 211 Bairro: Centro Munici
-2025-05-21 22:08:03,521 - P12872 - INFO - Descobrindo cidade
-2025-05-21 22:08:03,521 - P12872 - INFO - Buscando cidade: Rua Sao Joao Del Rey cidade PA
-2025-05-21 22:08:06,475 - P12872 - WARNING - Cidade não encontrada
-2025-05-21 22:08:06,476 - P12872 - INFO - Cidade descoberta: 
-2025-05-21 22:08:06,476 - P12872 - INFO - Tempo de execução de processamento completo do médico: 84.05 segundos
-2025-05-21 22:08:06,476 - P12872 - INFO - Resultado processado: {'CRM': '13800', 'UF': 'PA', 'Firstname': 'CLAUDIO', 'LastName': 'COSTA CARDOSO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Sao Joao Del Rey, 123', 'Address A1': 'Rua Sao Joao Del Rey', 'Numero A1': '123', 'Complement A1': 'Sala 211 Bairro: Centro Munici', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '13) 2102-3434', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'recrutamento@hbpsantos.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
-2025-05-21 22:08:06,478 - P12872 - INFO - Progresso: 50.0%
-2025-05-21 22:08:06,478 - P12872 - INFO - Executando coleta de lixo
-2025-05-21 22:08:06,513 - P12872 - INFO - Após coleta de lixo Uso de memória: 51.66 MB
-2025-05-21 22:08:06,513 - P12872 - INFO - Tempo de execução de processamento do médico 1: 85.58 segundos
-2025-05-21 22:08:06,513 - P12872 - INFO - 
+2025-05-21 23:45:47,061 - P12100 - INFO - Nome: CLAUDIO COSTA CARDOSO
+2025-05-21 23:45:47,061 - P12100 - INFO - Reiniciando driver do Chrome
+2025-05-21 23:45:48,514 - P12100 - INFO - Após reiniciar driver Uso de memória: 38.55 MB
+2025-05-21 23:45:48,515 - P12100 - INFO - Início do processamento Uso de memória: 38.55 MB
+2025-05-21 23:45:48,516 - P12100 - INFO - Iniciando busca para: CLAUDIO COSTA CARDOSO CRM 13800 PA telefone e-mail endereço
+2025-05-21 23:45:49,152 - P12100 - INFO - SearX results: 15 URLs
+2025-05-21 23:45:49,152 - P12100 - INFO - Após SearX Uso de memória: 38.67 MB
+2025-05-21 23:45:52,303 - P12100 - INFO - Google results: 13 URLs
+2025-05-21 23:45:52,303 - P12100 - INFO - Após Google Uso de memória: 41.15 MB
+2025-05-21 23:45:55,669 - P12100 - INFO - Bing results: 9 URLs
+2025-05-21 23:45:55,670 - P12100 - INFO - Após Bing Uso de memória: 42.93 MB
+2025-05-21 23:45:55,670 - P12100 - INFO - Total de URLs únicas: 28
+2025-05-21 23:45:55,670 - P12100 - INFO - Processando URL 1/28: https://consultacrm.com.br/
+2025-05-21 23:46:00,215 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-21 23:46:00,235 - P12100 - INFO - Candidates address: 0 items
+2025-05-21 23:46:00,235 - P12100 - INFO - Candidates phone: 0 items
+2025-05-21 23:46:00,239 - P12100 - INFO - Candidates email: 0 items
+2025-05-21 23:46:00,239 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:00,239 - P12100 - INFO - Candidates cep: 0 items
+2025-05-21 23:46:00,240 - P12100 - INFO - Após processar URL 1 Uso de memória: 43.86 MB
+2025-05-21 23:46:00,240 - P12100 - INFO - Processando URL 2/28: https://www.tjpi.jus.br/diarioeletronico/public/dj180503_8426.pdf
+2025-05-21 23:46:00,242 - P12100 - INFO - Ignorando URL de arquivo não-HTML: https://www.tjpi.jus.br/diarioeletronico/public/dj180503_8426.pdf
+2025-05-21 23:46:00,256 - P12100 - INFO - Após processar URL 2 Uso de memória: 43.86 MB
+2025-05-21 23:46:00,263 - P12100 - INFO - Processando URL 3/28: https://cremepa.org.br/busca-medicos
+2025-05-21 23:46:05,159 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\0eb253d2fbf90693334a0c00284506e9.html
+2025-05-21 23:46:05,228 - P12100 - INFO - Candidates address: 0 items
+2025-05-21 23:46:05,234 - P12100 - INFO - Candidates phone: 0 items
+2025-05-21 23:46:05,243 - P12100 - INFO - Candidates email: 0 items
+2025-05-21 23:46:05,276 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:05,323 - P12100 - INFO - Candidates cep: 1 items
+2025-05-21 23:46:05,328 - P12100 - INFO - Após processar URL 3 Uso de memória: 44.90 MB
+2025-05-21 23:46:05,345 - P12100 - INFO - Processando URL 4/28: https://abccardiol.org/wp-content/uploads/2020/10/paranense_2017_ok.x80891.pdf
+2025-05-21 23:46:05,361 - P12100 - INFO - Ignorando URL de arquivo não-HTML: https://abccardiol.org/wp-content/uploads/2020/10/paranense_2017_ok.x80891.pdf
+2025-05-21 23:46:05,372 - P12100 - INFO - Após processar URL 4 Uso de memória: 44.20 MB
+2025-05-21 23:46:05,374 - P12100 - INFO - Processando URL 5/28: https://www.saobernardo.sp.gov.br/documents/10181/2045904/NM+2508+de+28.02.2025+-++Conteu%CC%81do+Integral.pdf.pdf/75db3f96-9d3f-ab3c-c202-637990c1021e
+2025-05-21 23:46:05,388 - P12100 - INFO - Ignorando URL de arquivo não-HTML: https://www.saobernardo.sp.gov.br/documents/10181/2045904/NM+2508+de+28.02.2025+-++Conteu%CC%81do+Integral.pdf.pdf/75db3f96-9d3f-ab3c-c202-637990c1021e
+2025-05-21 23:46:05,407 - P12100 - INFO - Após processar URL 5 Uso de memória: 44.20 MB
+2025-05-21 23:46:05,425 - P12100 - INFO - Processando URL 6/28: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1393386040.pdf
+2025-05-21 23:46:05,425 - P12100 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1393386040.pdf
+2025-05-21 23:46:05,425 - P12100 - INFO - Após processar URL 6 Uso de memória: 44.20 MB
+2025-05-21 23:46:05,426 - P12100 - INFO - Processando URL 7/28: https://www.mogimirim.sp.gov.br/uploads/jornal/22658/eJP6zulI4uw62t9aCqE6cUmiBG7zjIdz.pdf
+2025-05-21 23:46:05,426 - P12100 - INFO - Ignorando URL de arquivo não-HTML: https://www.mogimirim.sp.gov.br/uploads/jornal/22658/eJP6zulI4uw62t9aCqE6cUmiBG7zjIdz.pdf
+2025-05-21 23:46:05,434 - P12100 - INFO - Após processar URL 7 Uso de memória: 44.20 MB
+2025-05-21 23:46:05,439 - P12100 - INFO - Processando URL 8/28: https://seop.niteroi.rj.gov.br/wp-content/uploads/2025/04/2016-04-29-res-06-2016-estandarte.pdf
+2025-05-21 23:46:05,440 - P12100 - INFO - Ignorando URL de arquivo não-HTML: https://seop.niteroi.rj.gov.br/wp-content/uploads/2025/04/2016-04-29-res-06-2016-estandarte.pdf
+2025-05-21 23:46:05,441 - P12100 - INFO - Após processar URL 8 Uso de memória: 44.20 MB
+2025-05-21 23:46:05,442 - P12100 - INFO - Processando URL 9/28: https://auniao.pb.gov.br/servicos/doe/2025-1/maio/diario-oficial-16-05-2025-portal.pdf
+2025-05-21 23:46:05,443 - P12100 - INFO - Ignorando URL de arquivo não-HTML: https://auniao.pb.gov.br/servicos/doe/2025-1/maio/diario-oficial-16-05-2025-portal.pdf
+2025-05-21 23:46:05,489 - P12100 - INFO - Após processar URL 9 Uso de memória: 44.20 MB
+2025-05-21 23:46:05,516 - P12100 - INFO - Processando URL 10/28: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-21 23:46:08,557 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-21 23:46:08,613 - P12100 - INFO - Candidates address: 0 items
+2025-05-21 23:46:08,622 - P12100 - INFO - Candidates phone: 0 items
+2025-05-21 23:46:08,634 - P12100 - INFO - Candidates email: 0 items
+2025-05-21 23:46:08,635 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:08,635 - P12100 - INFO - Candidates cep: 0 items
+2025-05-21 23:46:08,635 - P12100 - INFO - Após processar URL 10 Uso de memória: 45.94 MB
+2025-05-21 23:46:08,636 - P12100 - INFO - Processando URL 11/28: https://www.consultacrm.com.br/index/profissionais
+2025-05-21 23:46:11,156 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\ca7ac6c4b85cee4a2c1da9949f895117.html
+2025-05-21 23:46:11,168 - P12100 - INFO - Candidates address: 0 items
+2025-05-21 23:46:11,168 - P12100 - INFO - Candidates phone: 0 items
+2025-05-21 23:46:11,169 - P12100 - INFO - Candidates email: 0 items
+2025-05-21 23:46:11,169 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:11,169 - P12100 - INFO - Candidates cep: 0 items
+2025-05-21 23:46:11,169 - P12100 - INFO - Após processar URL 11 Uso de memória: 47.38 MB
+2025-05-21 23:46:11,170 - P12100 - INFO - Processando URL 12/28: https://www.boaconsulta.com/especialista/claudio-costa-cardoso-6105d9b2a2e00a5e18001613
+2025-05-21 23:46:14,924 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\c3c68d036a10238652675ed9cb52e1f4.html
+2025-05-21 23:46:14,987 - P12100 - INFO - Candidates address: 1 items
+2025-05-21 23:46:14,987 - P12100 - INFO - Candidates phone: 0 items
+2025-05-21 23:46:14,987 - P12100 - INFO - Candidates email: 0 items
+2025-05-21 23:46:14,987 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:14,987 - P12100 - INFO - Candidates cep: 0 items
+2025-05-21 23:46:14,988 - P12100 - INFO - Após processar URL 12 Uso de memória: 50.54 MB
+2025-05-21 23:46:14,988 - P12100 - INFO - Processando URL 13/28: https://somos.ufmg.br/professor/francisco-eduardo-costa-cardoso
+2025-05-21 23:46:19,840 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\0bfab9fb4fe3ed8db5e588cdd845af4c.html
+2025-05-21 23:46:20,033 - P12100 - INFO - Candidates address: 0 items
+2025-05-21 23:46:20,039 - P12100 - INFO - Candidates phone: 0 items
+2025-05-21 23:46:20,040 - P12100 - INFO - Candidates email: 0 items
+2025-05-21 23:46:20,041 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:20,041 - P12100 - INFO - Candidates cep: 2 items
+2025-05-21 23:46:20,042 - P12100 - INFO - Após processar URL 13 Uso de memória: 49.81 MB
+2025-05-21 23:46:20,043 - P12100 - INFO - Processando URL 14/28: https://www.tcmpa.tc.br/doe/doedocs/2011.07.20.DOE.pdf
+2025-05-21 23:46:20,044 - P12100 - INFO - Ignorando URL de arquivo não-HTML: https://www.tcmpa.tc.br/doe/doedocs/2011.07.20.DOE.pdf
+2025-05-21 23:46:20,048 - P12100 - INFO - Após processar URL 14 Uso de memória: 49.43 MB
+2025-05-21 23:46:20,049 - P12100 - INFO - Processando URL 15/28: https://consultar.io/crm/pa/
+2025-05-21 23:46:23,617 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\5e513095739cb9def733a211ca3ea51b.html
+2025-05-21 23:46:23,632 - P12100 - INFO - Candidates address: 0 items
+2025-05-21 23:46:23,632 - P12100 - INFO - Candidates phone: 0 items
+2025-05-21 23:46:23,632 - P12100 - INFO - Candidates email: 0 items
+2025-05-21 23:46:23,632 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:23,633 - P12100 - INFO - Candidates cep: 0 items
+2025-05-21 23:46:23,633 - P12100 - INFO - Após processar URL 15 Uso de memória: 50.37 MB
+2025-05-21 23:46:23,633 - P12100 - INFO - Processando URL 16/28: https://www.medicosbrasil.com/profissional/claudio-costa-cardoso
+2025-05-21 23:46:27,117 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\80ff28be41510caffe4d0e7be433c6e1.html
+2025-05-21 23:46:27,160 - P12100 - INFO - Candidates address: 0 items
+2025-05-21 23:46:27,166 - P12100 - INFO - Candidates phone: 0 items
+2025-05-21 23:46:27,168 - P12100 - INFO - Candidates email: 0 items
+2025-05-21 23:46:27,168 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:27,168 - P12100 - INFO - Candidates cep: 0 items
+2025-05-21 23:46:27,169 - P12100 - INFO - Após processar URL 16 Uso de memória: 51.17 MB
+2025-05-21 23:46:27,169 - P12100 - INFO - Processando URL 17/28: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-31-10-2023.pdf
+2025-05-21 23:46:27,169 - P12100 - INFO - Ignorando URL de arquivo não-HTML: https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-31-10-2023.pdf
+2025-05-21 23:46:27,170 - P12100 - INFO - Após processar URL 17 Uso de memória: 51.17 MB
+2025-05-21 23:46:27,170 - P12100 - INFO - Processando URL 18/28: https://hbpsantos.org.br/2024/09/02/para-quem-tem-50-anos-de-medicina/
+2025-05-21 23:46:32,380 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\a81cf8be90709f360d83ccd4227a54bc.html
+2025-05-21 23:46:32,408 - P12100 - INFO - Candidates address: 2 items
+2025-05-21 23:46:32,413 - P12100 - INFO - Candidates phone: 2 items
+2025-05-21 23:46:32,417 - P12100 - INFO - Candidates email: 1 items
+2025-05-21 23:46:32,424 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:32,430 - P12100 - INFO - Candidates cep: 0 items
+2025-05-21 23:46:32,431 - P12100 - INFO - Após processar URL 18 Uso de memória: 51.64 MB
+2025-05-21 23:46:32,433 - P12100 - INFO - Processando URL 19/28: https://www.escavador.com/sobre/1570738/claudio-costa-cardoso
+2025-05-21 23:46:38,911 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\0c96668112360b9feca1b62b2e54163b.html
+2025-05-21 23:46:38,966 - P12100 - INFO - Candidates address: 0 items
+2025-05-21 23:46:38,985 - P12100 - INFO - Candidates phone: 0 items
+2025-05-21 23:46:38,988 - P12100 - INFO - Candidates email: 0 items
+2025-05-21 23:46:38,991 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:38,991 - P12100 - INFO - Candidates cep: 0 items
+2025-05-21 23:46:38,991 - P12100 - INFO - Após processar URL 19 Uso de memória: 53.42 MB
+2025-05-21 23:46:39,005 - P12100 - INFO - Processando URL 20/28: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/168005473.pdf
+2025-05-21 23:46:39,041 - P12100 - INFO - Ignorando URL de arquivo não-HTML: https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/168005473.pdf
+2025-05-21 23:46:39,051 - P12100 - INFO - Após processar URL 20 Uso de memória: 53.42 MB
+2025-05-21 23:46:39,052 - P12100 - INFO - Processando URL 21/28: https://www.grupobiocentro.com/profissionais/dra-avessandra-costa-cardoso-de-oliveira
+2025-05-21 23:46:42,098 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\b1e009b5f64bd4c09b02a46c6cd9ae2f.html
+2025-05-21 23:46:42,105 - P12100 - INFO - Candidates address: 0 items
+2025-05-21 23:46:42,106 - P12100 - INFO - Candidates phone: 1 items
+2025-05-21 23:46:42,106 - P12100 - INFO - Candidates email: 1 items
+2025-05-21 23:46:42,106 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:42,106 - P12100 - INFO - Candidates cep: 1 items
+2025-05-21 23:46:42,107 - P12100 - INFO - Após processar URL 21 Uso de memória: 53.71 MB
+2025-05-21 23:46:42,107 - P12100 - INFO - Processando URL 22/28: https://cliniguia.com/profissionais/claudio-costa-cardoso-706206509117969/
+2025-05-21 23:46:47,273 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\27f742276316c3618e2dfce9e148f775.html
+2025-05-21 23:46:47,326 - P12100 - INFO - Candidates address: 0 items
+2025-05-21 23:46:47,331 - P12100 - INFO - Candidates phone: 0 items
+2025-05-21 23:46:47,332 - P12100 - INFO - Candidates email: 0 items
+2025-05-21 23:46:47,337 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:47,339 - P12100 - INFO - Candidates cep: 0 items
+2025-05-21 23:46:47,340 - P12100 - INFO - Após processar URL 22 Uso de memória: 55.74 MB
+2025-05-21 23:46:47,341 - P12100 - INFO - Processando URL 23/28: https://www.medguias.com.br/sc/criciuma/medicina/gastroenterologia/flavia-costa-cardoso
+2025-05-21 23:46:53,296 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\4a6e15415ad7bb0c4ed7615e156f0db2.html
+2025-05-21 23:46:53,352 - P12100 - INFO - Candidates address: 1 items
+2025-05-21 23:46:53,352 - P12100 - INFO - Candidates phone: 2 items
+2025-05-21 23:46:53,352 - P12100 - INFO - Candidates email: 0 items
+2025-05-21 23:46:53,353 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:46:53,353 - P12100 - INFO - Candidates cep: 2 items
+2025-05-21 23:46:53,353 - P12100 - INFO - Após processar URL 23 Uso de memória: 55.84 MB
+2025-05-21 23:46:53,353 - P12100 - INFO - Processando URL 24/28: https://www.casacaresc.org.br/guia/lista-rede-direta.php
+2025-05-21 23:46:56,652 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\64516240511215a825b2de94ca3ed950.html
+2025-05-21 23:46:58,387 - P12100 - INFO - Candidates address: 36 items
+2025-05-21 23:46:58,387 - P12100 - INFO - Candidates phone: 90 items
+2025-05-21 23:46:58,388 - P12100 - INFO - Candidates email: 2 items
+2025-05-21 23:46:58,388 - P12100 - INFO - Candidates complement: 15 items
+2025-05-21 23:46:58,388 - P12100 - INFO - Candidates cep: 166 items
+2025-05-21 23:46:58,388 - P12100 - INFO - Após processar URL 24 Uso de memória: 71.75 MB
+2025-05-21 23:46:58,389 - P12100 - INFO - Processando URL 25/28: https://www.mogimirim.sp.gov.br/uploads/jornal/26267/r3iycJkv23V8ugpBqLvXKjQg4vDW3109.pdf
+2025-05-21 23:46:58,389 - P12100 - INFO - Ignorando URL de arquivo não-HTML: https://www.mogimirim.sp.gov.br/uploads/jornal/26267/r3iycJkv23V8ugpBqLvXKjQg4vDW3109.pdf
+2025-05-21 23:46:58,390 - P12100 - INFO - Após processar URL 25 Uso de memória: 70.56 MB
+2025-05-21 23:46:58,390 - P12100 - INFO - Processando URL 26/28: https://crmvirtual.cfm.org.br/PA
+2025-05-21 23:47:03,115 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\8248674401d6a0ecdd1d7f029c068023.html
+2025-05-21 23:47:03,141 - P12100 - INFO - Candidates address: 0 items
+2025-05-21 23:47:03,143 - P12100 - INFO - Candidates phone: 0 items
+2025-05-21 23:47:03,145 - P12100 - INFO - Candidates email: 0 items
+2025-05-21 23:47:03,146 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:47:03,147 - P12100 - INFO - Candidates cep: 0 items
+2025-05-21 23:47:03,148 - P12100 - INFO - Após processar URL 26 Uso de memória: 71.02 MB
+2025-05-21 23:47:03,150 - P12100 - INFO - Processando URL 27/28: https://crmvirtual.cfm.org.br/PA/servico/pesquisar-por-medico
+2025-05-21 23:47:05,497 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\17cc5d3782797f0ed7c584749901b7c9.html
+2025-05-21 23:47:05,507 - P12100 - INFO - Candidates address: 0 items
+2025-05-21 23:47:05,513 - P12100 - INFO - Candidates phone: 0 items
+2025-05-21 23:47:05,514 - P12100 - INFO - Candidates email: 0 items
+2025-05-21 23:47:05,515 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:47:05,516 - P12100 - INFO - Candidates cep: 0 items
+2025-05-21 23:47:05,516 - P12100 - INFO - Após processar URL 27 Uso de memória: 71.05 MB
+2025-05-21 23:47:05,517 - P12100 - INFO - Processando URL 28/28: https://transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2025/DMPF-EXTRAJUDICIAL-2025-04-01.pdf
+2025-05-21 23:47:05,517 - P12100 - INFO - Ignorando URL de arquivo não-HTML: https://transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2025/DMPF-EXTRAJUDICIAL-2025-04-01.pdf
+2025-05-21 23:47:05,517 - P12100 - INFO - Após processar URL 28 Uso de memória: 71.05 MB
+2025-05-21 23:47:05,517 - P12100 - INFO - Iniciando agregação e ranqueamento
+2025-05-21 23:47:05,517 - P12100 - INFO - Ranked address: 40 items
+2025-05-21 23:47:05,518 - P12100 - INFO - Ranked phone: 95 items
+2025-05-21 23:47:05,518 - P12100 - INFO - Ranked email: 4 items
+2025-05-21 23:47:05,518 - P12100 - INFO - Ranked complement: 15 items
+2025-05-21 23:47:05,518 - P12100 - INFO - Ranked cep: 172 items
+2025-05-21 23:47:05,518 - P12100 - INFO - Após agregação Uso de memória: 71.05 MB
+2025-05-21 23:47:05,518 - P12100 - INFO - Validando endereço: ['Rua Sao Joao Del Rey, 123', 'Av. Bernardino de Campos, 47', 'Rua Monsenhor de Paula Rodrigues, 220']
+2025-05-21 23:47:05,519 - P12100 - INFO - Endereço validado: Rua Sao Joao Del Rey, 123
+2025-05-21 23:47:05,519 - P12100 - INFO - Limpando texto extenso para campo address: Rua Sao Joao Del Rey, 123...
+2025-05-21 23:47:05,521 - P12100 - INFO - Texto limpo: Rua Sao Joao Del Rey, 123
+2025-05-21 23:47:05,523 - P12100 - INFO - Validando telefone: ['(13) 2102-3434', '(13) 2102-3436', '(99) 99209-5398']
+2025-05-21 23:47:05,523 - P12100 - INFO - Limpando texto extenso para campo phone: (13) 2102-3434...
+2025-05-21 23:47:05,523 - P12100 - INFO - Texto limpo: 13) 2102-3434
+2025-05-21 23:47:05,524 - P12100 - INFO - Telefone validado: 13) 2102-3434
+2025-05-21 23:47:05,524 - P12100 - INFO - Validando email: ['recrutamento@hbpsantos.org.br', 'sac@grupobiocentro.com', 'ouvidoria@casacaresc.org.br']
+2025-05-21 23:47:05,524 - P12100 - INFO - Limpando texto extenso para campo email: recrutamento@hbpsantos.org.br...
+2025-05-21 23:47:05,524 - P12100 - INFO - Texto limpo: recrutamento@hbpsantos.org.br
+2025-05-21 23:47:05,524 - P12100 - INFO - Email validado: recrutamento@hbpsantos.org.br
+2025-05-21 23:47:05,543 - P12100 - INFO - Validando complemento: ['Sala 211 Bairro: Centro Municipio: Biguacu - SC | CEP:', 'Sala 310" Bairro: Centro Municipio: Florianopolis - SC', 'Sala 212 Bairro: Centro Municipio: Florianopolis - SC ']
+2025-05-21 23:47:05,545 - P12100 - INFO - Limpando texto extenso para campo complement: Sala 211 Bairro: Centro Municipio: Biguacu - SC | ...
+2025-05-21 23:47:05,546 - P12100 - INFO - Texto limpo: Sala 211 Bairro: Centro Munici
+2025-05-21 23:47:05,548 - P12100 - INFO - Complemento validado: Sala 211 Bairro: Centro Munici
+2025-05-21 23:47:05,548 - P12100 - INFO - Descobrindo cidade
+2025-05-21 23:47:05,548 - P12100 - INFO - Buscando cidade: Rua Sao Joao Del Rey cidade PA
+2025-05-21 23:47:08,480 - P12100 - WARNING - Cidade não encontrada
+2025-05-21 23:47:08,480 - P12100 - INFO - Cidade descoberta: 
+2025-05-21 23:47:08,480 - P12100 - INFO - Tempo de execução de processamento completo do médico: 79.97 segundos
+2025-05-21 23:47:08,481 - P12100 - INFO - Resultado processado: {'CRM': '13800', 'UF': 'PA', 'Firstname': 'CLAUDIO', 'LastName': 'COSTA CARDOSO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Sao Joao Del Rey, 123', 'Address A1': 'Rua Sao Joao Del Rey', 'Numero A1': '123', 'Complement A1': 'Sala 211 Bairro: Centro Munici', 'Bairro A1': '', 'postal code A1': '', 'City A1': '', 'State A1': '', 'Phone A1': '13) 2102-3434', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'recrutamento@hbpsantos.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-21 23:47:08,482 - P12100 - INFO - Progresso: 50.0%
+2025-05-21 23:47:08,482 - P12100 - INFO - Executando coleta de lixo
+2025-05-21 23:47:08,553 - P12100 - INFO - Após coleta de lixo Uso de memória: 53.89 MB
+2025-05-21 23:47:08,555 - P12100 - INFO - Tempo de execução de processamento do médico 1: 81.49 segundos
+2025-05-21 23:47:08,555 - P12100 - INFO - 
 ==================================================
 Processando médico 2/2
-2025-05-21 22:08:06,513 - P12872 - INFO - Nome: JOSEMBERG VIEIRA DE MENEZES FILHO
-2025-05-21 22:08:06,514 - P12872 - INFO - Início do processamento Uso de memória: 51.66 MB
-2025-05-21 22:08:06,514 - P12872 - INFO - Iniciando busca para: JOSEMBERG VIEIRA DE MENEZES FILHO CRM 22035 CE telefone e-mail endereço
-2025-05-21 22:08:07,060 - P12872 - INFO - SearX results: 12 URLs
-2025-05-21 22:08:07,069 - P12872 - INFO - Após SearX Uso de memória: 51.66 MB
-2025-05-21 22:08:09,857 - P12872 - INFO - Google results: 2 URLs
-2025-05-21 22:08:09,857 - P12872 - INFO - Após Google Uso de memória: 51.90 MB
-2025-05-21 22:08:12,427 - P12872 - INFO - Bing results: 10 URLs
-2025-05-21 22:08:12,427 - P12872 - INFO - Após Bing Uso de memória: 52.59 MB
-2025-05-21 22:08:12,427 - P12872 - INFO - Total de URLs únicas: 13
-2025-05-21 22:08:12,427 - P12872 - INFO - Processando URL 1/13: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
-2025-05-21 22:08:15,507 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
-2025-05-21 22:08:15,577 - P12872 - INFO - Candidates address: 0 items
-2025-05-21 22:08:15,578 - P12872 - INFO - Candidates phone: 0 items
-2025-05-21 22:08:15,579 - P12872 - INFO - Candidates email: 0 items
-2025-05-21 22:08:15,580 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:08:15,581 - P12872 - INFO - Candidates cep: 0 items
-2025-05-21 22:08:15,582 - P12872 - INFO - Após processar URL 1 Uso de memória: 53.70 MB
-2025-05-21 22:08:15,582 - P12872 - INFO - Processando URL 2/13: https://crmvirtual.cfm.org.br/CE/servico/pesquisar-por-medico
-2025-05-21 22:08:18,069 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\45a055d6195bb8c8f36ec2660226b84e.html
-2025-05-21 22:08:18,080 - P12872 - INFO - Candidates address: 0 items
-2025-05-21 22:08:18,080 - P12872 - INFO - Candidates phone: 0 items
-2025-05-21 22:08:18,080 - P12872 - INFO - Candidates email: 1 items
-2025-05-21 22:08:18,081 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:08:18,082 - P12872 - INFO - Candidates cep: 0 items
-2025-05-21 22:08:18,082 - P12872 - INFO - Após processar URL 2 Uso de memória: 53.82 MB
-2025-05-21 22:08:18,083 - P12872 - INFO - Processando URL 3/13: https://prestadores.ipmfor.ce.gov.br/storage/LISTADEMEDICOS-IPM.pdf
-2025-05-21 22:08:18,083 - P12872 - INFO - Ignorando URL de arquivo não-HTML: https://prestadores.ipmfor.ce.gov.br/storage/LISTADEMEDICOS-IPM.pdf
-2025-05-21 22:08:18,083 - P12872 - INFO - Após processar URL 3 Uso de memória: 53.82 MB
-2025-05-21 22:08:18,083 - P12872 - INFO - Processando URL 4/13: https://auniao.pb.gov.br/servicos/doe/2023/junho/diario-oficial-08-06-2023.pdf/@@download/file/Di%C3%A1rio%20Oficial%2008-06-2023.pdf
-2025-05-21 22:08:18,083 - P12872 - INFO - Ignorando URL de arquivo não-HTML: https://auniao.pb.gov.br/servicos/doe/2023/junho/diario-oficial-08-06-2023.pdf/@@download/file/Di%C3%A1rio%20Oficial%2008-06-2023.pdf
-2025-05-21 22:08:18,084 - P12872 - INFO - Após processar URL 4 Uso de memória: 53.82 MB
-2025-05-21 22:08:18,084 - P12872 - INFO - Processando URL 5/13: https://www.consultasocio.com/q/sa/josemberg-vieira-de-menezes-filho
-2025-05-21 22:08:25,262 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\ab1b563096243425312cf6adf9b8cbfb.html
-2025-05-21 22:08:25,273 - P12872 - INFO - Candidates address: 2 items
-2025-05-21 22:08:25,273 - P12872 - INFO - Candidates phone: 0 items
-2025-05-21 22:08:25,274 - P12872 - INFO - Candidates email: 2 items
-2025-05-21 22:08:25,274 - P12872 - INFO - Candidates complement: 1 items
-2025-05-21 22:08:25,274 - P12872 - INFO - Candidates cep: 3 items
-2025-05-21 22:08:25,274 - P12872 - INFO - Após processar URL 5 Uso de memória: 53.93 MB
-2025-05-21 22:08:25,274 - P12872 - INFO - Processando URL 6/13: https://agendarconsulta.com/perfil/dr-josemberg-vieira-de-menezes-filho-1700752106
-2025-05-21 22:08:29,060 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\768eb0ebdc3c2c065c5c935067b4931b.html
-2025-05-21 22:08:29,096 - P12872 - INFO - Candidates address: 2 items
-2025-05-21 22:08:29,097 - P12872 - INFO - Candidates phone: 2 items
-2025-05-21 22:08:29,098 - P12872 - INFO - Candidates email: 0 items
-2025-05-21 22:08:29,099 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:08:29,099 - P12872 - INFO - Candidates cep: 1 items
-2025-05-21 22:08:29,099 - P12872 - INFO - Após processar URL 6 Uso de memória: 53.81 MB
-2025-05-21 22:08:29,100 - P12872 - INFO - Processando URL 7/13: https://www.boaconsulta.com/especialista/josemberg-vieira-de-menezes-filho-6105e3cea2e00a670f000cc4
-2025-05-21 22:08:32,058 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\4aeb7feca8e7c705f6c4174929b77491.html
-2025-05-21 22:08:32,135 - P12872 - INFO - Candidates address: 1 items
-2025-05-21 22:08:32,135 - P12872 - INFO - Candidates phone: 0 items
-2025-05-21 22:08:32,135 - P12872 - INFO - Candidates email: 0 items
-2025-05-21 22:08:32,135 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:08:32,135 - P12872 - INFO - Candidates cep: 0 items
-2025-05-21 22:08:32,136 - P12872 - INFO - Após processar URL 7 Uso de memória: 54.56 MB
-2025-05-21 22:08:32,136 - P12872 - INFO - Processando URL 8/13: https://cnpj.biz/11975294000193
-2025-05-21 22:08:36,230 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\4193cbb0106d6e072187168841c82669.html
-2025-05-21 22:08:36,262 - P12872 - INFO - Candidates address: 2 items
-2025-05-21 22:08:36,263 - P12872 - INFO - Candidates phone: 1 items
-2025-05-21 22:08:36,263 - P12872 - INFO - Candidates email: 1 items
-2025-05-21 22:08:36,263 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:08:36,264 - P12872 - INFO - Candidates cep: 3 items
-2025-05-21 22:08:36,267 - P12872 - INFO - Após processar URL 8 Uso de memória: 53.06 MB
-2025-05-21 22:08:36,269 - P12872 - INFO - Processando URL 9/13: https://cremec.org.br/busca-medicos
-2025-05-21 22:08:41,924 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\3c9ece8b802bc598dd007727d971a7d5.html
-2025-05-21 22:08:41,962 - P12872 - INFO - Candidates address: 1 items
-2025-05-21 22:08:41,963 - P12872 - INFO - Candidates phone: 1 items
-2025-05-21 22:08:41,963 - P12872 - INFO - Candidates email: 1 items
-2025-05-21 22:08:41,965 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:08:41,967 - P12872 - INFO - Candidates cep: 1 items
-2025-05-21 22:08:41,967 - P12872 - INFO - Após processar URL 9 Uso de memória: 53.56 MB
-2025-05-21 22:08:41,968 - P12872 - INFO - Processando URL 10/13: https://consultacrm.com.br/
-2025-05-21 22:08:45,296 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
-2025-05-21 22:08:45,312 - P12872 - INFO - Candidates address: 0 items
-2025-05-21 22:08:45,313 - P12872 - INFO - Candidates phone: 0 items
-2025-05-21 22:08:45,313 - P12872 - INFO - Candidates email: 0 items
-2025-05-21 22:08:45,313 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:08:45,313 - P12872 - INFO - Candidates cep: 0 items
-2025-05-21 22:08:45,313 - P12872 - INFO - Após processar URL 10 Uso de memória: 54.67 MB
-2025-05-21 22:08:45,314 - P12872 - INFO - Processando URL 11/13: https://www.achecerto.com.br/
-2025-05-21 22:08:50,123 - P12872 - INFO - HTML salvo para debug: data\debug_html_v10\ceb96e5663cace6f7b35fee1716d7561.html
-2025-05-21 22:08:50,154 - P12872 - INFO - Candidates address: 1 items
-2025-05-21 22:08:50,162 - P12872 - INFO - Candidates phone: 0 items
-2025-05-21 22:08:50,165 - P12872 - INFO - Candidates email: 1 items
-2025-05-21 22:08:50,166 - P12872 - INFO - Candidates complement: 0 items
-2025-05-21 22:08:50,170 - P12872 - INFO - Candidates cep: 0 items
-2025-05-21 22:08:50,171 - P12872 - INFO - Após processar URL 11 Uso de memória: 55.31 MB
-2025-05-21 22:08:50,171 - P12872 - INFO - Processando URL 12/13: https://www.sbd.org.br/mm/cms/2021/10/20/sbdcirurgioes-de-mohs2021v4.pdf
-2025-05-21 22:08:50,172 - P12872 - INFO - Ignorando URL de arquivo não-HTML: https://www.sbd.org.br/mm/cms/2021/10/20/sbdcirurgioes-de-mohs2021v4.pdf
-2025-05-21 22:08:50,173 - P12872 - INFO - Após processar URL 12 Uso de memória: 53.81 MB
-2025-05-21 22:08:50,173 - P12872 - INFO - Processando URL 13/13: https://auniao.pb.gov.br/servicos/doe/2023/junho/diario-oficial-08-06-2023.pdf
-2025-05-21 22:08:50,173 - P12872 - INFO - Ignorando URL de arquivo não-HTML: https://auniao.pb.gov.br/servicos/doe/2023/junho/diario-oficial-08-06-2023.pdf
-2025-05-21 22:08:50,177 - P12872 - INFO - Após processar URL 13 Uso de memória: 53.81 MB
-2025-05-21 22:08:50,178 - P12872 - INFO - Iniciando agregação e ranqueamento
-2025-05-21 22:08:50,179 - P12872 - INFO - Ranked address: 9 items
-2025-05-21 22:08:50,179 - P12872 - INFO - Ranked phone: 4 items
-2025-05-21 22:08:50,182 - P12872 - INFO - Ranked email: 6 items
-2025-05-21 22:08:50,182 - P12872 - INFO - Ranked complement: 1 items
-2025-05-21 22:08:50,183 - P12872 - INFO - Ranked cep: 8 items
-2025-05-21 22:08:50,184 - P12872 - INFO - Após agregação Uso de memória: 53.81 MB
-2025-05-21 22:08:50,185 - P12872 - INFO - Validando endereço: ['Rua Osvaldo Cruz, 1761', 'Rua Goncalves Ledo, 777', 'Avenida Desembargador Moreira , 760']
-2025-05-21 22:08:50,186 - P12872 - INFO - Endereço validado: Rua Osvaldo Cruz, 1761
-2025-05-21 22:08:50,186 - P12872 - INFO - Limpando texto extenso para campo address: Rua Osvaldo Cruz, 1761...
-2025-05-21 22:08:50,186 - P12872 - INFO - Texto limpo: Rua Osvaldo Cruz, 1761
-2025-05-21 22:08:50,186 - P12872 - INFO - Validando telefone: ['(85) 98679-6603', '+5585986796603', '(79) 99943-6615']
-2025-05-21 22:08:50,186 - P12872 - INFO - Limpando texto extenso para campo phone: (85) 98679-6603...
-2025-05-21 22:08:50,187 - P12872 - INFO - Texto limpo: 85) 98679-6603
-2025-05-21 22:08:50,187 - P12872 - INFO - Telefone validado: 85) 98679-6603
-2025-05-21 22:08:50,187 - P12872 - INFO - Validando email: ['pessoafisica@cremec.org.br', 'JOSEM@EDU.UNIFOR.BR', 'CONTABILIDADE@GRUPOLSMEDIC.COM.BR']
-2025-05-21 22:08:50,187 - P12872 - INFO - Limpando texto extenso para campo email: pessoafisica@cremec.org.br...
-2025-05-21 22:08:50,187 - P12872 - INFO - Texto limpo: pessoafisica@cremec.org.br
-2025-05-21 22:08:50,188 - P12872 - INFO - Email validado: pessoafisica@cremec.org.br
-2025-05-21 22:08:50,188 - P12872 - INFO - Validando complemento: ['Sala 1216 Centro']
-2025-05-21 22:08:50,192 - P12872 - INFO - Limpando texto extenso para campo complement: Sala 1216 Centro...
-2025-05-21 22:08:50,192 - P12872 - INFO - Texto limpo: Sala 1216 Centro
-2025-05-21 22:08:50,192 - P12872 - INFO - Complemento validado: Sala 1216 Centro
-2025-05-21 22:08:50,192 - P12872 - INFO - Descobrindo cidade
-2025-05-21 22:08:50,193 - P12872 - INFO - Buscando cidade: Rua Osvaldo Cruz cidade CE
-2025-05-21 22:08:52,986 - P12872 - INFO - Cidade encontrada: Fortaleza
-2025-05-21 22:08:52,987 - P12872 - INFO - Limpando texto extenso para campo city: Fortaleza...
-2025-05-21 22:08:52,987 - P12872 - INFO - Texto limpo: Fortaleza
-2025-05-21 22:08:52,987 - P12872 - INFO - Cidade descoberta: Fortaleza
-2025-05-21 22:08:52,988 - P12872 - INFO - Buscando CEP com sistema de cascata
-2025-05-21 22:08:52,988 - P12872 - INFO - Iniciando busca de CEP em cascata para: Rua Osvaldo Cruz, Fortaleza, CE
-2025-05-21 22:08:52,989 - P12872 - INFO - Método 1: ViaCEP API
-2025-05-21 22:08:52,989 - P12872 - INFO - Dados encontrados no cache: {'cep': '60125-048', 'logradouro': 'Rua Osvaldo Cruz', 'complemento': 'de 831/832 a 2069/2070', 'unidade': '', 'bairro': 'Aldeota', 'localidade': 'Fortaleza', 'uf': 'CE', 'estado': 'Ceará', 'regiao': 'Nordeste', 'ibge': '2304400', 'gia': '', 'ddd': '85', 'siafi': '1389'}
-2025-05-21 22:08:52,990 - P12872 - INFO - CEP encontrado via ViaCEP: 60125-048
-2025-05-21 22:08:52,990 - P12872 - INFO - Dados de CEP encontrados: {'cep': '60125-048', 'logradouro': 'Rua Osvaldo Cruz', 'complemento': 'de 831/832 a 2069/2070', 'unidade': '', 'bairro': 'Aldeota', 'localidade': 'Fortaleza', 'uf': 'CE', 'estado': 'Ceará', 'regiao': 'Nordeste', 'ibge': '2304400', 'gia': '', 'ddd': '85', 'siafi': '1389'}
-2025-05-21 22:08:52,990 - P12872 - INFO - Limpando texto extenso para campo bairro: Aldeota...
-2025-05-21 22:08:52,991 - P12872 - INFO - Texto limpo: Aldeota
-2025-05-21 22:08:52,991 - P12872 - INFO - Limpando texto extenso para campo city: Fortaleza...
-2025-05-21 22:08:52,991 - P12872 - INFO - Texto limpo: Fortaleza
-2025-05-21 22:08:52,991 - P12872 - INFO - Limpando texto extenso para campo state: CE...
-2025-05-21 22:08:52,991 - P12872 - INFO - Texto limpo: CE
-2025-05-21 22:08:52,992 - P12872 - INFO - Tempo de execução de processamento completo do médico: 46.48 segundos
-2025-05-21 22:08:52,992 - P12872 - INFO - Resultado processado: {'CRM': '22035', 'UF': 'CE', 'Firstname': 'JOSEMBERG', 'LastName': 'VIEIRA DE MENEZES FILHO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Osvaldo Cruz, 1761', 'Address A1': 'Rua Osvaldo Cruz', 'Numero A1': '1761', 'Complement A1': 'Sala 1216 Centro', 'Bairro A1': 'Aldeota', 'postal code A1': '60125-048', 'City A1': 'Fortaleza', 'State A1': 'CE', 'Phone A1': '85) 98679-6603', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'pessoafisica@cremec.org.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
-2025-05-21 22:08:52,993 - P12872 - INFO - Progresso: 60.0%
-2025-05-21 22:08:52,993 - P12872 - INFO - Tempo de execução de processamento do médico 2: 46.48 segundos
-2025-05-21 22:08:52,994 - P12872 - INFO - Salvando resultados finais do lote
-2025-05-21 22:08:52,995 - P12872 - INFO - Tempo de execução de processamento do lote completo: 132.06 segundos
+2025-05-21 23:47:08,556 - P12100 - INFO - Nome: JOSEMBERG VIEIRA DE MENEZES FILHO
+2025-05-21 23:47:08,556 - P12100 - INFO - Início do processamento Uso de memória: 53.89 MB
+2025-05-21 23:47:08,556 - P12100 - INFO - Iniciando busca para: JOSEMBERG VIEIRA DE MENEZES FILHO CRM 22035 CE telefone e-mail endereço
+2025-05-21 23:47:09,020 - P12100 - INFO - SearX results: 12 URLs
+2025-05-21 23:47:09,022 - P12100 - INFO - Após SearX Uso de memória: 53.90 MB
+2025-05-21 23:47:11,623 - P12100 - INFO - Google results: 2 URLs
+2025-05-21 23:47:11,623 - P12100 - INFO - Após Google Uso de memória: 54.00 MB
+2025-05-21 23:47:14,085 - P12100 - INFO - Bing results: 10 URLs
+2025-05-21 23:47:14,085 - P12100 - INFO - Após Bing Uso de memória: 56.05 MB
+2025-05-21 23:47:14,085 - P12100 - INFO - Total de URLs únicas: 14
+2025-05-21 23:47:14,085 - P12100 - INFO - Processando URL 1/14: https://consultacrm.com.br/
+2025-05-21 23:47:18,007 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\65cadeb91ac3713432c21b535990f440.html
+2025-05-21 23:47:18,020 - P12100 - INFO - Candidates address: 0 items
+2025-05-21 23:47:18,021 - P12100 - INFO - Candidates phone: 0 items
+2025-05-21 23:47:18,021 - P12100 - INFO - Candidates email: 0 items
+2025-05-21 23:47:18,022 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:47:18,022 - P12100 - INFO - Candidates cep: 0 items
+2025-05-21 23:47:18,023 - P12100 - INFO - Após processar URL 1 Uso de memória: 57.09 MB
+2025-05-21 23:47:18,023 - P12100 - INFO - Processando URL 2/14: https://www.consultasocio.com/q/sa/josemberg-vieira-de-menezes-filho
+2025-05-21 23:47:23,451 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\ab1b563096243425312cf6adf9b8cbfb.html
+2025-05-21 23:47:23,462 - P12100 - INFO - Candidates address: 2 items
+2025-05-21 23:47:23,462 - P12100 - INFO - Candidates phone: 0 items
+2025-05-21 23:47:23,462 - P12100 - INFO - Candidates email: 2 items
+2025-05-21 23:47:23,463 - P12100 - INFO - Candidates complement: 1 items
+2025-05-21 23:47:23,463 - P12100 - INFO - Candidates cep: 3 items
+2025-05-21 23:47:23,464 - P12100 - INFO - Após processar URL 2 Uso de memória: 55.49 MB
+2025-05-21 23:47:23,464 - P12100 - INFO - Processando URL 3/14: https://www.boaconsulta.com/especialista/josemberg-vieira-de-menezes-filho-6105e3cea2e00a670f000cc4
+2025-05-21 23:47:26,461 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\4aeb7feca8e7c705f6c4174929b77491.html
+2025-05-21 23:47:26,525 - P12100 - INFO - Candidates address: 1 items
+2025-05-21 23:47:26,526 - P12100 - INFO - Candidates phone: 0 items
+2025-05-21 23:47:26,526 - P12100 - INFO - Candidates email: 0 items
+2025-05-21 23:47:26,526 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:47:26,526 - P12100 - INFO - Candidates cep: 0 items
+2025-05-21 23:47:26,527 - P12100 - INFO - Após processar URL 3 Uso de memória: 56.83 MB
+2025-05-21 23:47:26,527 - P12100 - INFO - Processando URL 4/14: https://www.portaltransparencia.gov.br/pessoa-fisica/busca/lista
+2025-05-21 23:47:29,734 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\e200cdf64b71d4c9248718dd155b3edb.html
+2025-05-21 23:47:29,779 - P12100 - INFO - Candidates address: 0 items
+2025-05-21 23:47:29,780 - P12100 - INFO - Candidates phone: 0 items
+2025-05-21 23:47:29,780 - P12100 - INFO - Candidates email: 0 items
+2025-05-21 23:47:29,782 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:47:29,782 - P12100 - INFO - Candidates cep: 0 items
+2025-05-21 23:47:29,782 - P12100 - INFO - Após processar URL 4 Uso de memória: 55.30 MB
+2025-05-21 23:47:29,783 - P12100 - INFO - Processando URL 5/14: https://www.sbd.org.br/mm/cms/2021/10/20/sbdcirurgioes-de-mohs2021v4.pdf
+2025-05-21 23:47:29,783 - P12100 - INFO - Ignorando URL de arquivo não-HTML: https://www.sbd.org.br/mm/cms/2021/10/20/sbdcirurgioes-de-mohs2021v4.pdf
+2025-05-21 23:47:29,783 - P12100 - INFO - Após processar URL 5 Uso de memória: 55.30 MB
+2025-05-21 23:47:29,783 - P12100 - INFO - Processando URL 6/14: https://paginaamarela.com.br/empresa/clinica-josemberg-campos-ltda/recife/pe/8957022
+2025-05-21 23:47:33,210 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\d3d553bb3a7be3459c7a54e74d0bbc65.html
+2025-05-21 23:47:33,233 - P12100 - INFO - Candidates address: 1 items
+2025-05-21 23:47:33,234 - P12100 - INFO - Candidates phone: 2 items
+2025-05-21 23:47:33,234 - P12100 - INFO - Candidates email: 0 items
+2025-05-21 23:47:33,234 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:47:33,234 - P12100 - INFO - Candidates cep: 2 items
+2025-05-21 23:47:33,234 - P12100 - INFO - Após processar URL 6 Uso de memória: 55.29 MB
+2025-05-21 23:47:33,235 - P12100 - INFO - Processando URL 7/14: https://cremec.org.br/busca-medicos
+2025-05-21 23:47:36,030 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\3c9ece8b802bc598dd007727d971a7d5.html
+2025-05-21 23:47:36,070 - P12100 - INFO - Candidates address: 1 items
+2025-05-21 23:47:36,070 - P12100 - INFO - Candidates phone: 1 items
+2025-05-21 23:47:36,070 - P12100 - INFO - Candidates email: 1 items
+2025-05-21 23:47:36,070 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:47:36,071 - P12100 - INFO - Candidates cep: 1 items
+2025-05-21 23:47:36,071 - P12100 - INFO - Após processar URL 7 Uso de memória: 56.18 MB
+2025-05-21 23:47:36,071 - P12100 - INFO - Processando URL 8/14: https://crmvirtual.cfm.org.br/CE/servico/pesquisar-por-medico
+2025-05-21 23:47:38,325 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\45a055d6195bb8c8f36ec2660226b84e.html
+2025-05-21 23:47:38,340 - P12100 - INFO - Candidates address: 0 items
+2025-05-21 23:47:38,340 - P12100 - INFO - Candidates phone: 0 items
+2025-05-21 23:47:38,341 - P12100 - INFO - Candidates email: 1 items
+2025-05-21 23:47:38,341 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:47:38,341 - P12100 - INFO - Candidates cep: 0 items
+2025-05-21 23:47:38,342 - P12100 - INFO - Após processar URL 8 Uso de memória: 55.12 MB
+2025-05-21 23:47:38,342 - P12100 - INFO - Processando URL 9/14: https://cnpj.biz/11975294000193
+2025-05-21 23:47:40,568 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\4193cbb0106d6e072187168841c82669.html
+2025-05-21 23:47:40,570 - P12100 - INFO - Candidates address: 0 items
+2025-05-21 23:47:40,571 - P12100 - INFO - Candidates phone: 0 items
+2025-05-21 23:47:40,571 - P12100 - INFO - Candidates email: 0 items
+2025-05-21 23:47:40,571 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:47:40,571 - P12100 - INFO - Candidates cep: 0 items
+2025-05-21 23:47:40,571 - P12100 - INFO - Após processar URL 9 Uso de memória: 55.26 MB
+2025-05-21 23:47:40,571 - P12100 - INFO - Processando URL 10/14: https://agendarconsulta.com/perfil/dr-josemberg-vieira-de-menezes-filho-1700752106
+2025-05-21 23:47:48,089 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\768eb0ebdc3c2c065c5c935067b4931b.html
+2025-05-21 23:47:48,126 - P12100 - INFO - Candidates address: 2 items
+2025-05-21 23:47:48,127 - P12100 - INFO - Candidates phone: 2 items
+2025-05-21 23:47:48,127 - P12100 - INFO - Candidates email: 0 items
+2025-05-21 23:47:48,127 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:47:48,127 - P12100 - INFO - Candidates cep: 1 items
+2025-05-21 23:47:48,128 - P12100 - INFO - Após processar URL 10 Uso de memória: 56.63 MB
+2025-05-21 23:47:48,128 - P12100 - INFO - Processando URL 11/14: https://www.achecerto.com.br/
+2025-05-21 23:47:54,630 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\ceb96e5663cace6f7b35fee1716d7561.html
+2025-05-21 23:47:54,645 - P12100 - INFO - Candidates address: 1 items
+2025-05-21 23:47:54,646 - P12100 - INFO - Candidates phone: 0 items
+2025-05-21 23:47:54,646 - P12100 - INFO - Candidates email: 1 items
+2025-05-21 23:47:54,646 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:47:54,646 - P12100 - INFO - Candidates cep: 0 items
+2025-05-21 23:47:54,646 - P12100 - INFO - Após processar URL 11 Uso de memória: 57.09 MB
+2025-05-21 23:47:54,647 - P12100 - INFO - Processando URL 12/14: https://auniao.pb.gov.br/servicos/doe/2023/junho/diario-oficial-08-06-2023.pdf/@@download/file/Di%C3%A1rio%20Oficial%2008-06-2023.pdf
+2025-05-21 23:47:54,647 - P12100 - INFO - Ignorando URL de arquivo não-HTML: https://auniao.pb.gov.br/servicos/doe/2023/junho/diario-oficial-08-06-2023.pdf/@@download/file/Di%C3%A1rio%20Oficial%2008-06-2023.pdf
+2025-05-21 23:47:54,647 - P12100 - INFO - Após processar URL 12 Uso de memória: 55.81 MB
+2025-05-21 23:47:54,648 - P12100 - INFO - Processando URL 13/14: https://guiamedico.cremesp.org.br/
+2025-05-21 23:47:57,973 - P12100 - INFO - HTML salvo para debug: data\debug_html_v10\7c54969580769b63edd9abaa952e1fa2.html
+2025-05-21 23:47:57,979 - P12100 - INFO - Candidates address: 1 items
+2025-05-21 23:47:57,979 - P12100 - INFO - Candidates phone: 1 items
+2025-05-21 23:47:57,979 - P12100 - INFO - Candidates email: 0 items
+2025-05-21 23:47:57,979 - P12100 - INFO - Candidates complement: 0 items
+2025-05-21 23:47:57,979 - P12100 - INFO - Candidates cep: 1 items
+2025-05-21 23:47:57,979 - P12100 - INFO - Após processar URL 13 Uso de memória: 56.45 MB
+2025-05-21 23:47:57,980 - P12100 - INFO - Processando URL 14/14: https://auniao.pb.gov.br/servicos/doe/2023/junho/diario-oficial-08-06-2023.pdf
+2025-05-21 23:47:57,980 - P12100 - INFO - Ignorando URL de arquivo não-HTML: https://auniao.pb.gov.br/servicos/doe/2023/junho/diario-oficial-08-06-2023.pdf
+2025-05-21 23:47:57,980 - P12100 - INFO - Após processar URL 14 Uso de memória: 56.45 MB
+2025-05-21 23:47:57,980 - P12100 - INFO - Iniciando agregação e ranqueamento
+2025-05-21 23:47:57,980 - P12100 - INFO - Ranked address: 9 items
+2025-05-21 23:47:57,980 - P12100 - INFO - Ranked phone: 6 items
+2025-05-21 23:47:57,981 - P12100 - INFO - Ranked email: 5 items
+2025-05-21 23:47:57,981 - P12100 - INFO - Ranked complement: 1 items
+2025-05-21 23:47:57,981 - P12100 - INFO - Ranked cep: 8 items
+2025-05-21 23:47:57,981 - P12100 - INFO - Após agregação Uso de memória: 56.45 MB
+2025-05-21 23:47:57,981 - P12100 - INFO - Validando endereço: ['Rua Osvaldo Cruz, 1761', 'Rua Goncalves Ledo, 777', 'Rua Joaquim Nogueira Lopes, 463']
+2025-05-21 23:47:57,981 - P12100 - INFO - Endereço validado: Rua Osvaldo Cruz, 1761
+2025-05-21 23:47:57,981 - P12100 - INFO - Limpando texto extenso para campo address: Rua Osvaldo Cruz, 1761...
+2025-05-21 23:47:57,981 - P12100 - INFO - Texto limpo: Rua Osvaldo Cruz, 1761
+2025-05-21 23:47:57,982 - P12100 - INFO - Validando telefone: ['(81) 99909-4917', '081999094917', '(85) 3198-3700']
+2025-05-21 23:47:57,982 - P12100 - INFO - Limpando texto extenso para campo phone: (81) 99909-4917...
+2025-05-21 23:47:57,982 - P12100 - INFO - Texto limpo: 81) 99909-4917
+2025-05-21 23:47:57,982 - P12100 - INFO - Telefone validado: 81) 99909-4917
+2025-05-21 23:47:57,982 - P12100 - INFO - Validando email: ['JOSEM@EDU.UNIFOR.BR', 'CONTABILIDADE@GRUPOLSMEDIC.COM.BR', 'cremec@cremec.org.br']
+2025-05-21 23:47:57,982 - P12100 - INFO - Limpando texto extenso para campo email: JOSEM@EDU.UNIFOR.BR...
+2025-05-21 23:47:57,983 - P12100 - INFO - Texto limpo: josem@edu.unifor.br
+2025-05-21 23:47:57,983 - P12100 - INFO - Email validado: josem@edu.unifor.br
+2025-05-21 23:47:57,983 - P12100 - INFO - Validando complemento: ['Sala 1216 Centro']
+2025-05-21 23:47:57,983 - P12100 - INFO - Limpando texto extenso para campo complement: Sala 1216 Centro...
+2025-05-21 23:47:57,983 - P12100 - INFO - Texto limpo: Sala 1216 Centro
+2025-05-21 23:47:57,983 - P12100 - INFO - Complemento validado: Sala 1216 Centro
+2025-05-21 23:47:57,983 - P12100 - INFO - Descobrindo cidade
+2025-05-21 23:47:57,983 - P12100 - INFO - Buscando cidade: Rua Osvaldo Cruz cidade CE
+2025-05-21 23:48:00,601 - P12100 - INFO - Cidade encontrada: Fortaleza
+2025-05-21 23:48:00,601 - P12100 - INFO - Limpando texto extenso para campo city: Fortaleza...
+2025-05-21 23:48:00,602 - P12100 - INFO - Texto limpo: Fortaleza
+2025-05-21 23:48:00,602 - P12100 - INFO - Cidade descoberta: Fortaleza
+2025-05-21 23:48:00,602 - P12100 - INFO - Buscando CEP com sistema de cascata
+2025-05-21 23:48:00,602 - P12100 - INFO - Iniciando busca de CEP em cascata para: Rua Osvaldo Cruz, Fortaleza, CE
+2025-05-21 23:48:00,602 - P12100 - INFO - Método 1: ViaCEP API
+2025-05-21 23:48:00,603 - P12100 - INFO - Buscando no ViaCEP: https://viacep.com.br/ws/CE/fortaleza/rua%20osvaldo%20cruz/json/
+2025-05-21 23:48:01,353 - P12100 - INFO - Dados encontrados no ViaCEP: {'cep': '60125-048', 'logradouro': 'Rua Osvaldo Cruz', 'complemento': 'de 831/832 a 2069/2070', 'unidade': '', 'bairro': 'Aldeota', 'localidade': 'Fortaleza', 'uf': 'CE', 'estado': 'Ceará', 'regiao': 'Nordeste', 'ibge': '2304400', 'gia': '', 'ddd': '85', 'siafi': '1389'}
+2025-05-21 23:48:01,356 - P12100 - INFO - CEP encontrado via ViaCEP: 60125-048
+2025-05-21 23:48:01,356 - P12100 - INFO - Dados de CEP encontrados: {'cep': '60125-048', 'logradouro': 'Rua Osvaldo Cruz', 'complemento': 'de 831/832 a 2069/2070', 'unidade': '', 'bairro': 'Aldeota', 'localidade': 'Fortaleza', 'uf': 'CE', 'estado': 'Ceará', 'regiao': 'Nordeste', 'ibge': '2304400', 'gia': '', 'ddd': '85', 'siafi': '1389'}
+2025-05-21 23:48:01,356 - P12100 - INFO - Limpando texto extenso para campo bairro: Aldeota...
+2025-05-21 23:48:01,357 - P12100 - INFO - Texto limpo: Aldeota
+2025-05-21 23:48:01,357 - P12100 - INFO - Limpando texto extenso para campo city: Fortaleza...
+2025-05-21 23:48:01,357 - P12100 - INFO - Texto limpo: Fortaleza
+2025-05-21 23:48:01,357 - P12100 - INFO - Limpando texto extenso para campo state: CE...
+2025-05-21 23:48:01,357 - P12100 - INFO - Texto limpo: CE
+2025-05-21 23:48:01,357 - P12100 - INFO - Tempo de execução de processamento completo do médico: 52.80 segundos
+2025-05-21 23:48:01,358 - P12100 - INFO - Resultado processado: {'CRM': '22035', 'UF': 'CE', 'Firstname': 'JOSEMBERG', 'LastName': 'VIEIRA DE MENEZES FILHO', 'Medical specialty': '', 'Endereco Completo A1': 'Rua Osvaldo Cruz, 1761', 'Address A1': 'Rua Osvaldo Cruz', 'Numero A1': '1761', 'Complement A1': 'Sala 1216 Centro', 'Bairro A1': 'Aldeota', 'postal code A1': '60125-048', 'City A1': 'Fortaleza', 'State A1': 'CE', 'Phone A1': '81) 99909-4917', 'Phone A2': '', 'Cell phone A1': '', 'Cell phone A2': '', 'E-mail A1': 'josem@edu.unifor.br', 'E-mail A2': '', 'OPT-IN': '', 'STATUS': '', 'LOTE': ''}
+2025-05-21 23:48:01,360 - P12100 - INFO - Progresso: 80.0%
+2025-05-21 23:48:01,360 - P12100 - INFO - Tempo de execução de processamento do médico 2: 52.81 segundos
+2025-05-21 23:48:01,360 - P12100 - INFO - Salvando resultados finais do lote
+2025-05-21 23:48:01,361 - P12100 - INFO - Tempo de execução de processamento do lote completo: 134.30 segundos
