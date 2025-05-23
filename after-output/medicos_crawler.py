@@ -77,8 +77,8 @@ USER_AGENTS = [
 ]
 
 # URLs e endpoints (devem ser configuráveis ou descobertos)
-SEARX_URL = os.environ.get("SEARX_URL", "http://127.0.0.1:8080/search")
-OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://127.0.0.1:11434/api/generate")
+SEARX_URL = os.environ.get("SEARX_URL", "http://124.81.6.163:8092/search")
+OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://124.81.6.163:11434/api/generate")
 
 # Mapeamento de UFs para nomes completos dos estados
 UF_TO_ESTADO = {
