@@ -1,25 +1,25 @@
-nome,crm,uf,especialidade,email,telefone,fonte
-CAMILLA SILVÉRIO OLIVEIRA SANTOS,1121928,RJ,,camillasosantos@gmail.com,(21) 3184-7050 / WhatsApp: (21) 3184-7050,
-AIDALINA DE NASCIMENTO COSTA,2422,AM,telefonista,cfm@portalmedico.org.br,(61) 3445 5900,CRM
-CAROLINA CUNHA MORAES,21051,BA,nenhuma especialidade foi mencionada no texto fornecido,protocolo@cremeb.org.br,(71) 3339-2800,CRM
-JOAO CARLOS RAMOS DIAS,59153,SP,endocrinologia,,(11) 4349-9900,SearXNG
-VINICIUS ROSA CORREIA,27547,SC,clínica médica,blumenau02@crmsc.org.br,"('17', '4797', '4600')",SearXNG
-FLÁVIA DA MATA CHIACCHIO LEITE,57777,MG,psiquiatria,,(31) 3248–7700,SearXNG
-ARINA TAVARES DE SOUZA MATOS,8164,AL,,cfm@portalmedico.org.br,"('51', '93176', '1082')",CRM
-CÁSSIA CLEIA HASSEM MACIEL DE FREITAS,1979,AC,,cfm@portalmedico.org.br,"('51', '93176', '1082')",CRM
-AMANDA BIANCHI TROMBINI,52330,PR,,protocolo@crmpr.org.br,"('27', '2010', '1179')",
-JOSE ARNON CRUZ BEZERRA DE MENEZES,3355,CE,,cfm@portalmedico.org.br,"('51', '93176', '1082')",CRM
-ALITA DE MELLO TRISTÃO COSTA,14846,ES,medicina,cfm@portalmedico.org.br,(61) 3445 5900,CRM
-MARTA MARIBEL ALVARENGA PENA,5847,GO,,cfm@portalmedico.org.br,"('51', '93176', '1082')",CRM
-ANTONIO FERNANDO DE SOUSA BARROS,3298,MA,,cfm@portalmedico.org.br,"('51', '93176', '1082')",CRM
-CLÁUDIA LIDIANA SILVA LIMA,11827,PB,médicos clínicos,cfm@portalmedico.org.br,"('51', '93176', '1082')",SearXNG
-MARIA JOSE SILVA DE BRITO,3352,RN,ginecologia,cfm@portalmedico.org.br,"('51', '93176', '1082')",SearXNG
-ALBENIZ MARTINS SILVA,3667,PA,neurologia,cfm@portalmedico.org.br,(61) 3445 5900,CRM
-FILIPE COSTA RODRIGUES FURTADO,10281,MT,medicina paliativa,cfm@portalmedico.org.br,(61) 3445-5900,CRM
-ADRIANA VALENTINI,40067,RS,privacidade,não encontrado,não encontrado,CRM
-REIGINALDO MACHADO DE ANDRADE,1234,AP,,cfm@portalmedico.org.br,"('51', '93176', '1082')",CRM
-ALBANIA PINTO PEDROSA,4152,PE,pediatra,cfm@portalmedico.org.br,"('51', '93176', '1082')",SearXNG
-ADEJAIME LOPES DE ASSUNÇÃO,5507,RO,,cfm@portalmedico.org.br,"('51', '93176', '1082')",CRM
-MARCIO SOARES DA FONSECA,8001,SE,,cfm@portalmedico.org.br,"('51', '93176', '1082')",CRM
-JESSICA DA COSTA DE OLIVEIRA BRITO,8391,PI,endocrinologia,cfm@portalmedico.org.br,"('51', '93176', '1082')",SearXNG
-BRUNO FIGUEIREDO DOS SANTOS,1047,RR,clínica médica,cfm@portalmedico.org.br,"('51', '93176', '1082')",SearXNG
+﻿"firstname","lastname","crm","uf","especialidade","especialidade_final","email_final","score_email","telefone_final","fonte_especialidade","fonte_email","fonte_telefone"
+"JOAO","CARLOS RAMOS DIAS","59153","SP","","","","N/A","","Não encontrada","Não encontrado","Não encontrado"
+"CAMILLA","SILVÉRIO OLIVEIRA SANTOS","1121928","RJ","","","","N/A","","Não encontrada","Não encontrado","Não encontrado"
+"CAROLINA","CUNHA MORAES","21051","BA","","","","N/A","","Não encontrada","Não encontrado","Não encontrado"
+"FLÁVIA","DA MATA CHIACCHIO LEITE","57777","MG","","","","N/A","","Não encontrada","Não encontrado","Não encontrado"
+"AIDALINA","DE NASCIMENTO COSTA","2422","AM","","","","N/A","(92) 98421-0501","Não encontrada","Não encontrado","General SearX: www.doctoralia.com.br"
+"VINICIUS","ROSA CORREIA","27547","SC","","","Wehren4@gmail.co","0.50","(48) 99123-1131","Não encontrada","General SearX: diariomunicipal.sc.gov.br (Score: 0.50)","General SearX: diariomunicipal.sc.gov.br"
+"CÁSSIA","CLEIA HASSEM MACIEL DE FREITAS","1979","AC","","","NOVOACORDO@SAUDE.TO.GOV.BR","0.50","","Não encontrada","General SearX: cnes2.datasus.gov.br (Score: 0.50)","Não encontrado"
+"ALITA","DE MELLO TRISTÃO COSTA","14846","ES","","","lgpd@pixeon.com","0.50","(47) 95301-2120","Não encontrada","General SearX: www.boaconsulta.com (Score: 0.50)","General SearX: www.juntacomercial.pr.gov.br"
+"AMANDA","BIANCHI TROMBINI","52330","PR","","","uniexp@unisul.br","0.70","(36) 90793-1818","Não encontrada","General SearX: www.ime.usp.br (Score: 0.70)","General SearX: www.juntacomercial.pr.gov.br"
+"ARINA","TAVARES DE SOUZA MATOS","8164","AL","","","uniexp@unisul.br","0.70","","Não encontrada","General SearX: www.ime.usp.br (Score: 0.70)","Não encontrado"
+"ANTONIO","FERNANDO DE SOUSA BARROS","3298","MA","","","","N/A","(85) 99101-6034","Não encontrada","Não encontrado","General SearX: www.doctoralia.com.br"
+"CLÁUDIA","LIDIANA SILVA LIMA","11827","PB","","nutrologia","lgpd@pixeon.com","0.50","","General SearX: www.doctoralia.com.br","General SearX: www.boaconsulta.com (Score: 0.50)","Não encontrado"
+"MARTA","MARIBEL ALVARENGA PENA","5847","GO","","","inteligenteagencia@hotmail.com","0.50","(31) 94228-9863","Não encontrada","General SearX: www.ime.usp.br (Score: 0.50)","General SearX: www.transparencia.curitiba.pr.gov.br"
+"MARIA","JOSE SILVA DE BRITO","3352","RN","","medicina do trabalho","lgpd@pixeon.com","0.50","","General SearX: www.consultacrm.com.br","General SearX: www.boaconsulta.com (Score: 0.50)","Não encontrado"
+"REIGINALDO","MACHADO DE ANDRADE","1234","AP","","","","N/A","(85) 97430-7968","Não encontrada","Não encontrado","General SearX: www.juntacomercial.pr.gov.br"
+"ALBENIZ","MARTINS SILVA","3667","PA","","","","N/A","","Não encontrada","Não encontrado","Não encontrado"
+"JOSE","ARNON CRUZ BEZERRA DE MENEZES","3355","CE","","medicina esportiva","Bento@unisul.br","0.70","(47) 95993-2468","General SearX: www1.folha.uol.com.br","General SearX: www.ime.usp.br (Score: 0.70)","General SearX: www.diariomunicipal.sc.gov.br"
+"ALBANIA","PINTO PEDROSA","4152","PE","","pediatria","jbotler@ensp.fiocruz.br","0.50","","General SearX: www.doctoralia.com.br","General SearX: www.scielo.br (Score: 0.50)","Não encontrado"
+"FILIPE","COSTA RODRIGUES FURTADO","10281","MT","","","","N/A","","Não encontrada","Não encontrado","Não encontrado"
+"JESSICA","DA COSTA DE OLIVEIRA BRITO","8391","PI","","","lgpd@pixeon.com","0.50","(51) 93766-7200","Não encontrada","General SearX: www.boaconsulta.com (Score: 0.50)","General SearX: www.doctoralia.com.br"
+"BRUNO","FIGUEIREDO DOS SANTOS","1047","RR","","","","N/A","","Não encontrada","Não encontrado","Não encontrado"
+"ADEJAIME","LOPES DE ASSUNÇÃO","5507","RO","","cardiologia","pregaopma@hotmail.com","0.50","","General SearX: www.juntacomercial.pr.gov.br","General SearX: ppe.sistemas.ro.gov.br (Score: 0.50)","Não encontrado"
+"ADRIANA","VALENTINI","40067","RS","","","marianareichert@sinos.net","0.70","","Não encontrada","General SearX: www.ime.usp.br (Score: 0.70)","Não encontrado"
+"MARCIO","SOARES DA FONSECA","8001","SE","","","mec@slmandiclimeira.com.br","0.70","(69) 98484-1227","Não encontrada","General SearX: www.escolasmedicas.com.br (Score: 0.70)","General SearX: www.escolasmedicas.com.br"
