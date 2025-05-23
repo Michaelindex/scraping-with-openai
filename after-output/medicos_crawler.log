@@ -1,0 +1,922 @@
+2025-05-23 01:12:16,495 - MedicosCrawler - WARNING - Arquivo de whitelist não encontrado: Iniciar pesquisa - Iniciar pesquisa.csv
+2025-05-23 01:12:16,500 - MedicosCrawler - INFO - Carregados 24 médicos do arquivo .\input.csv
+2025-05-23 01:12:16,500 - MedicosCrawler - INFO - Processando lote 1/3
+2025-05-23 01:12:16,501 - MedicosCrawler - INFO - Processando médico: JOAO CARLOS RAMOS DIAS (CRM 59153/SP)
+2025-05-23 01:12:16,501 - MedicosCrawler - INFO - Processando médico: AIDALINA DE NASCIMENTO COSTA (CRM 2422/AM)
+2025-05-23 01:12:16,501 - MedicosCrawler - INFO - Processando médico: CAROLINA CUNHA MORAES (CRM 21051/BA)
+2025-05-23 01:12:16,502 - MedicosCrawler - INFO - Processando médico: CAMILLA SILVÉRIO OLIVEIRA SANTOS (CRM 1121928/RJ)
+2025-05-23 01:12:22,869 - MedicosCrawler - ERROR - Erro ao buscar no portal do CRM AM: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:23,278 - MedicosCrawler - ERROR - Erro ao buscar no portal do CRM RJ: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:23,650 - MedicosCrawler - INFO - Concluído: CAMILLA SILVÉRIO OLIVEIRA SANTOS - Especialidade: None - Email: camillasosantos@gmail.com
+2025-05-23 01:12:23,650 - MedicosCrawler - INFO - Processando médico: VINICIUS ROSA CORREIA (CRM 27547/SC)
+2025-05-23 01:12:23,763 - MedicosCrawler - ERROR - Erro ao buscar no portal do CRM BA: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:25,217 - MedicosCrawler - ERROR - Erro ao buscar no portal do CRM SP: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:28,030 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:29,893 - MedicosCrawler - ERROR - Erro ao buscar no portal do CRM SC: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:30,211 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:31,060 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:32,714 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:35,065 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:35,095 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:37,156 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:38,717 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:41,510 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:43,408 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:47,502 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:49,597 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:49,598 - MedicosCrawler - INFO - Concluído: AIDALINA DE NASCIMENTO COSTA - Especialidade: None - Email: contato@draaidalina.com.br
+2025-05-23 01:12:49,598 - MedicosCrawler - INFO - Processando médico: FLÁVIA DA MATA CHIACCHIO LEITE (CRM 57777/MG)
+2025-05-23 01:12:51,129 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:54,452 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:56,107 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:56,108 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:56,108 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:56,113 - MedicosCrawler - ERROR - Erro ao buscar no portal do CRM MG: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:12:58,819 - MedicosCrawler - ERROR - Erro ao inicializar Selenium: Message: Service C:\Users\Administrador\.cache\selenium\chromedriver\win64\136.0.7103.113\chromedriver.exe unexpectedly exited. Status code was: 3221225786
+
+2025-05-23 01:12:58,819 - MedicosCrawler - ERROR - Erro ao inicializar Selenium: Message: Service C:\Users\Administrador\.cache\selenium\chromedriver\win64\136.0.7103.113\chromedriver.exe unexpectedly exited. Status code was: 3221225786
+
+2025-05-23 01:12:58,819 - MedicosCrawler - ERROR - Erro ao inicializar Selenium: Message: Service C:\Users\Administrador\.cache\selenium\chromedriver\win64\136.0.7103.113\chromedriver.exe unexpectedly exited. Status code was: 3221225786
+
+2025-05-23 01:12:59,183 - MedicosCrawler - ERROR - Erro ao inicializar Selenium: Message: Service C:\Users\Administrador\.cache\selenium\chromedriver\win64\136.0.7103.113\chromedriver.exe unexpectedly exited. Status code was: 3221225786
+
+2025-05-23 01:13:02,854 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:02,855 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:02,855 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:03,248 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:03,249 - MedicosCrawler - INFO - Concluído: FLÁVIA DA MATA CHIACCHIO LEITE - Especialidade: None - Email: nan
+2025-05-23 01:13:03,249 - MedicosCrawler - INFO - Processando médico: AMANDA BIANCHI TROMBINI (CRM 52330/PR)
+2025-05-23 01:13:06,465 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:06,466 - MedicosCrawler - INFO - Concluído: CAROLINA CUNHA MORAES - Especialidade: None - Email: pfisica@cremeb.org.br
+2025-05-23 01:13:06,466 - MedicosCrawler - INFO - Processando médico: ARINA TAVARES DE SOUZA MATOS (CRM 8164/AL)
+2025-05-23 01:13:08,646 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:08,933 - MedicosCrawler - ERROR - Erro ao buscar no portal do CRM PR: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:13,936 - MedicosCrawler - ERROR - Erro ao buscar no portal do CRM AL: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:17,051 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:17,801 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:19,164 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:20,513 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:21,180 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:21,504 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:21,504 - MedicosCrawler - INFO - Concluído: AMANDA BIANCHI TROMBINI - Especialidade: None - Email: protocolo@crmpr.org.br
+2025-05-23 01:13:21,504 - MedicosCrawler - INFO - Processando médico: CÁSSIA CLEIA HASSEM MACIEL DE FREITAS (CRM 1979/AC)
+2025-05-23 01:13:24,410 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:24,547 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:27,870 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:28,188 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:28,718 - MedicosCrawler - ERROR - Erro ao buscar no portal do CRM AC: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:29,584 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000001197B570>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session
+2025-05-23 01:13:31,296 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:31,297 - MedicosCrawler - INFO - Concluído: JOAO CARLOS RAMOS DIAS - Especialidade: None - Email: nan
+2025-05-23 01:13:31,297 - MedicosCrawler - INFO - Processando médico: JOSE ARNON CRUZ BEZERRA DE MENEZES (CRM 3355/CE)
+2025-05-23 01:13:31,721 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:32,630 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:33,691 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000011A7A690>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session
+2025-05-23 01:13:35,084 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:36,420 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:37,739 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000011A797B0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session
+2025-05-23 01:13:38,526 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:38,586 - MedicosCrawler - ERROR - Erro ao buscar no portal do CRM CE: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:39,996 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:13:42,040 - MedicosCrawler - ERROR - Erro ao processar resultado de busca: 'MedicosCrawler' object has no attribute 'logger'
+2025-05-23 01:14:52,233 - MedicosCrawler - WARNING - Arquivo de whitelist não encontrado: Iniciar pesquisa - Iniciar pesquisa.csv
+2025-05-23 01:14:52,238 - MedicosCrawler - INFO - Carregados 24 médicos do arquivo .\input.csv
+2025-05-23 01:14:52,238 - MedicosCrawler - INFO - Processando lote 1/3
+2025-05-23 01:14:52,239 - MedicosCrawler - INFO - Processando médico: JOAO CARLOS RAMOS DIAS (CRM 59153/SP)
+2025-05-23 01:14:52,240 - MedicosCrawler - INFO - Processando médico: AIDALINA DE NASCIMENTO COSTA (CRM 2422/AM)
+2025-05-23 01:14:52,240 - MedicosCrawler - INFO - Processando médico: CAROLINA CUNHA MORAES (CRM 21051/BA)
+2025-05-23 01:14:52,240 - MedicosCrawler - INFO - Processando médico: CAMILLA SILVÉRIO OLIVEIRA SANTOS (CRM 1121928/RJ)
+2025-05-23 01:14:58,976 - MedicosCrawler - WARNING - Tentativa 1 falhou ao buscar https://portal.cfm.org.br/busca-medicos/: 'MedicosCrawler' object has no attribute '_playwright'
+2025-05-23 01:14:59,037 - MedicosCrawler - WARNING - Tentativa 1 falhou ao buscar https://www.cremerj.org.br/consulta/: 'MedicosCrawler' object has no attribute '_playwright'
+2025-05-23 01:14:59,476 - MedicosCrawler - WARNING - Tentativa 1 falhou ao buscar https://www.cremeb.org.br/index.php/buscar-medicos/: 'MedicosCrawler' object has no attribute '_playwright'
+2025-05-23 01:14:59,613 - MedicosCrawler - WARNING - Tentativa 1 falhou ao buscar https://www.cremesp.org.br/?siteAcao=ConsultaMedicos&numcrm=59153: 'MedicosCrawler' object has no attribute '_playwright'
+2025-05-23 01:15:03,977 - MedicosCrawler - WARNING - Tentativa 2 falhou ao buscar https://portal.cfm.org.br/busca-medicos/: 'MedicosCrawler' object has no attribute '_playwright'
+2025-05-23 01:15:04,037 - MedicosCrawler - WARNING - Tentativa 2 falhou ao buscar https://www.cremerj.org.br/consulta/: 'MedicosCrawler' object has no attribute '_playwright'
+2025-05-23 01:15:04,476 - MedicosCrawler - WARNING - Tentativa 2 falhou ao buscar https://www.cremeb.org.br/index.php/buscar-medicos/: 'MedicosCrawler' object has no attribute '_playwright'
+2025-05-23 01:15:04,613 - MedicosCrawler - WARNING - Tentativa 2 falhou ao buscar https://www.cremesp.org.br/?siteAcao=ConsultaMedicos&numcrm=59153: 'MedicosCrawler' object has no attribute '_playwright'
+2025-05-23 01:15:08,978 - MedicosCrawler - ERROR - Erro ao buscar https://portal.cfm.org.br/busca-medicos/ após 3 tentativas: 'MedicosCrawler' object has no attribute '_playwright'
+2025-05-23 01:15:09,038 - MedicosCrawler - ERROR - Erro ao buscar https://www.cremerj.org.br/consulta/ após 3 tentativas: 'MedicosCrawler' object has no attribute '_playwright'
+2025-05-23 01:15:09,413 - MedicosCrawler - INFO - Concluído: CAMILLA SILVÉRIO OLIVEIRA SANTOS - Especialidade: None - Email: camillasosantos@gmail.com
+2025-05-23 01:15:09,413 - MedicosCrawler - INFO - Processando médico: VINICIUS ROSA CORREIA (CRM 27547/SC)
+2025-05-23 01:15:09,477 - MedicosCrawler - ERROR - Erro ao buscar https://www.cremeb.org.br/index.php/buscar-medicos/ após 3 tentativas: 'MedicosCrawler' object has no attribute '_playwright'
+2025-05-23 01:15:09,614 - MedicosCrawler - ERROR - Erro ao buscar https://www.cremesp.org.br/?siteAcao=ConsultaMedicos&numcrm=59153 após 3 tentativas: 'MedicosCrawler' object has no attribute '_playwright'
+2025-05-23 01:15:12,087 - MedicosCrawler - WARNING - Tentativa 1 falhou ao buscar https://www.doctoralia.com.br/joao-carlos-ramos-dias/endocrinologista/sao-paulo: ('Connection aborted.', ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None))
+2025-05-23 01:15:12,090 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /session/9cde5f1cfce8286f85c050e20bedd99c/source
+2025-05-23 01:15:12,090 - MedicosCrawler - WARNING - Tentativa 1 falhou ao buscar https://www.escavador.com/sobre/4013648/carolina-cunha-moraes: ('Connection aborted.', ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None))
+2025-05-23 01:15:15,004 - MedicosCrawler - ERROR - Erro ao inicializar Selenium: Message: Service C:\Users\Administrador\.cache\selenium\chromedriver\win64\136.0.7103.113\chromedriver.exe unexpectedly exited. Status code was: 3221225786
+
+2025-05-23 01:15:16,154 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000011A79BF0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/9cde5f1cfce8286f85c050e20bedd99c/source
+2025-05-23 01:15:19,063 - MedicosCrawler - WARNING - Tentativa 1 falhou ao buscar https://www.portalmedico.org.br/busca-medico/: 'NoneType' object has no attribute 'set_page_load_timeout'
+2025-05-23 01:15:19,399 - MedicosCrawler - WARNING - Tentativa 1 falhou ao buscar https://www.doctoralia.com.br/joao-carlos-ramos-dias/endocrinologista/sao-paulo: 'MedicosCrawler' object has no attribute '_playwright'
+2025-05-23 01:15:20,188 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000011A7AE00>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/9cde5f1cfce8286f85c050e20bedd99c/source
+2025-05-23 01:15:21,918 - MedicosCrawler - WARNING - Tentativa 1 falhou ao buscar https://www.escavador.com/sobre/4013648/carolina-cunha-moraes: 'MedicosCrawler' object has no attribute '_playwright'
+2025-05-23 01:16:43,962 - MedicosCrawler - INFO - Playwright inicializado com sucesso
+2025-05-23 01:16:43,963 - MedicosCrawler - WARNING - Arquivo de whitelist não encontrado: Iniciar pesquisa - Iniciar pesquisa.csv
+2025-05-23 01:16:43,969 - MedicosCrawler - INFO - Carregados 24 médicos do arquivo .\input.csv
+2025-05-23 01:16:43,969 - MedicosCrawler - INFO - Processando lote 1/3
+2025-05-23 01:16:43,970 - MedicosCrawler - INFO - Processando médico: JOAO CARLOS RAMOS DIAS (CRM 59153/SP)
+2025-05-23 01:16:43,970 - MedicosCrawler - INFO - Processando médico: AIDALINA DE NASCIMENTO COSTA (CRM 2422/AM)
+2025-05-23 01:16:43,971 - MedicosCrawler - INFO - Processando médico: CAROLINA CUNHA MORAES (CRM 21051/BA)
+2025-05-23 01:16:43,971 - MedicosCrawler - INFO - Processando médico: CAMILLA SILVÉRIO OLIVEIRA SANTOS (CRM 1121928/RJ)
+2025-05-23 01:16:48,968 - MedicosCrawler - ERROR - Erro ao obter browser do Playwright: Cannot switch to a different thread
+	Current:  <greenlet.greenlet object at 0x0000000012136400 (otid=0x0000000012117810) current active started main>
+	Expected: <greenlet.greenlet object at 0x0000000011A5C680 (otid=0x000000001189B5D0) suspended active started main>
+2025-05-23 01:16:48,969 - MedicosCrawler - WARNING - Tentativa 1 falhou ao buscar https://www.cremerj.org.br/consulta/: 'NoneType' object has no attribute 'new_context'
+2025-05-23 01:16:53,970 - MedicosCrawler - WARNING - Tentativa 2 falhou ao buscar https://www.cremerj.org.br/consulta/: 'NoneType' object has no attribute 'new_context'
+2025-05-23 01:16:58,970 - MedicosCrawler - ERROR - Erro ao buscar https://www.cremerj.org.br/consulta/ após 3 tentativas: 'NoneType' object has no attribute 'new_context'
+2025-05-23 01:16:59,343 - MedicosCrawler - INFO - Concluído: CAMILLA SILVÉRIO OLIVEIRA SANTOS - Especialidade: None - Email: camillasosantos@gmail.com
+2025-05-23 01:16:59,344 - MedicosCrawler - INFO - Processando médico: VINICIUS ROSA CORREIA (CRM 27547/SC)
+2025-05-23 01:17:01,268 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama após 3 tentativas: name 'Ollama' is not defined
+2025-05-23 01:17:01,269 - MedicosCrawler - ERROR - Erro ao extrair dados do HTML: 'NoneType' object has no attribute 'get'
+2025-05-23 01:17:01,588 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama após 3 tentativas: name 'Ollama' is not defined
+2025-05-23 01:17:01,588 - MedicosCrawler - ERROR - Erro ao extrair dados do HTML: 'NoneType' object has no attribute 'get'
+2025-05-23 01:17:01,650 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama após 3 tentativas: name 'Ollama' is not defined
+2025-05-23 01:17:01,650 - MedicosCrawler - ERROR - Erro ao extrair dados do HTML: 'NoneType' object has no attribute 'get'
+2025-05-23 01:17:03,444 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-05-23 01:17:10,212 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-05-23 01:17:12,911 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama após 3 tentativas: name 'Ollama' is not defined
+2025-05-23 01:17:12,938 - MedicosCrawler - ERROR - Erro ao extrair dados do HTML: 'NoneType' object has no attribute 'get'
+2025-05-23 01:17:15,184 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama após 3 tentativas: name 'Ollama' is not defined
+2025-05-23 01:17:15,185 - MedicosCrawler - ERROR - Erro ao extrair dados do HTML: 'NoneType' object has no attribute 'get'
+2025-05-23 01:17:20,213 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama após 3 tentativas: name 'Ollama' is not defined
+2025-05-23 01:17:20,214 - MedicosCrawler - ERROR - Erro ao extrair dados do HTML: 'NoneType' object has no attribute 'get'
+2025-05-23 01:17:22,939 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama após 3 tentativas: name 'Ollama' is not defined
+2025-05-23 01:17:22,939 - MedicosCrawler - ERROR - Erro ao extrair dados do HTML: 'NoneType' object has no attribute 'get'
+2025-05-23 01:17:23,943 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-05-23 01:17:24,115 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama após 3 tentativas: name 'Ollama' is not defined
+2025-05-23 01:17:24,116 - MedicosCrawler - ERROR - Erro ao extrair dados do HTML: 'NoneType' object has no attribute 'get'
+2025-05-23 01:17:26,440 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama após 3 tentativas: name 'Ollama' is not defined
+2025-05-23 01:17:26,473 - MedicosCrawler - ERROR - Erro ao extrair dados do HTML: 'NoneType' object has no attribute 'get'
+2025-05-23 01:17:30,531 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000000011ADF230>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2bdca6fd9b77071256444af5333514ed/timeouts
+2025-05-23 01:17:33,501 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama após 3 tentativas: name 'Ollama' is not defined
+2025-05-23 01:17:33,501 - MedicosCrawler - ERROR - Erro ao extrair dados do HTML: 'NoneType' object has no attribute 'get'
+2025-05-23 01:17:34,087 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama após 3 tentativas: name 'Ollama' is not defined
+2025-05-23 01:17:34,087 - MedicosCrawler - ERROR - Erro ao extrair dados do HTML: 'NoneType' object has no attribute 'get'
+2025-05-23 01:21:23,413 - MedicosCrawler - INFO - Playwright inicializado com sucesso
+2025-05-23 01:21:23,413 - MedicosCrawler - WARNING - Nenhum arquivo de whitelist encontrado. Usando URLs padrão.
+2025-05-23 01:21:23,419 - MedicosCrawler - INFO - Carregados 24 médicos do arquivo input.csv
+2025-05-23 01:21:23,419 - MedicosCrawler - INFO - Processando lote 1/5
+2025-05-23 01:21:23,420 - MedicosCrawler - INFO - Processando médico: JOAO CARLOS RAMOS DIAS (CRM 59153/SP)
+2025-05-23 01:21:23,420 - MedicosCrawler - INFO - Processando médico: AIDALINA DE NASCIMENTO COSTA (CRM 2422/AM)
+2025-05-23 01:21:23,420 - MedicosCrawler - INFO - Processando médico: CAROLINA CUNHA MORAES (CRM 21051/BA)
+2025-05-23 01:21:23,421 - MedicosCrawler - INFO - Processando médico: CAMILLA SILVÉRIO OLIVEIRA SANTOS (CRM 1121928/RJ)
+2025-05-23 01:21:27,942 - MedicosCrawler - ERROR - Erro ao obter browser do Playwright: Cannot switch to a different thread
+	Current:  <greenlet.greenlet object at 0x0000000012137800 (otid=0x0000000011868E40) current active started main>
+	Expected: <greenlet.greenlet object at 0x0000000010FA1C80 (otid=0x000000000FB449C0) suspended active started main>
+2025-05-23 01:21:28,270 - MedicosCrawler - WARNING - Tentativa 1 falhou ao buscar https://www.doctoralia.com.brbusca?q=CAMILLA+SILV%C3%89RIO+OLIVEIRA+SANTOS&loc=Rio+de+Janeiro: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6CED8CF45+75717]
+	GetHandleVerifier [0x00007FF6CED8CFA0+75808]
+	(No symbol) [0x00007FF6CEB58F9A]
+	(No symbol) [0x00007FF6CEB559F4]
+	(No symbol) [0x00007FF6CEB46789]
+	(No symbol) [0x00007FF6CEB484F8]
+	(No symbol) [0x00007FF6CEB46A96]
+	(No symbol) [0x00007FF6CEB46516]
+	(No symbol) [0x00007FF6CEB461DA]
+	(No symbol) [0x00007FF6CEB43E8A]
+	(No symbol) [0x00007FF6CEB4465C]
+	(No symbol) [0x00007FF6CEB5CF3A]
+	(No symbol) [0x00007FF6CEC0013E]
+	(No symbol) [0x00007FF6CEBD737A]
+	(No symbol) [0x00007FF6CEBFF39C]
+	(No symbol) [0x00007FF6CEBD7153]
+	(No symbol) [0x00007FF6CEBA0421]
+	(No symbol) [0x00007FF6CEBA11B3]
+	GetHandleVerifier [0x00007FF6CF08D71D+3223453]
+	GetHandleVerifier [0x00007FF6CF087CC2+3200322]
+	GetHandleVerifier [0x00007FF6CF0A5AF3+3322739]
+	GetHandleVerifier [0x00007FF6CEDA6A1A+180890]
+	GetHandleVerifier [0x00007FF6CEDAE11F+211359]
+	GetHandleVerifier [0x00007FF6CED95294+109332]
+	GetHandleVerifier [0x00007FF6CED95442+109762]
+	GetHandleVerifier [0x00007FF6CED7BA59+4825]
+	BaseThreadInitThunk [0x00007FFC1F327344+20]
+	RtlUserThreadStart [0x00007FFC1F4226B1+33]
+
+2025-05-23 01:21:30,004 - MedicosCrawler - ERROR - Erro ao extrair dados do HTML: 'NoneType' object has no attribute 'get'
+2025-05-23 01:21:31,143 - MedicosCrawler - ERROR - Erro ao extrair dados do HTML: 'NoneType' object has no attribute 'get'
+2025-05-23 01:21:31,295 - MedicosCrawler - ERROR - Erro ao extrair dados do HTML: 'NoneType' object has no attribute 'get'
+2025-05-23 01:21:31,845 - MedicosCrawler - ERROR - Erro ao extrair dados do HTML: 'NoneType' object has no attribute 'get'
+2025-05-23 01:21:31,845 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-05-23 01:21:31,846 - MedicosCrawler - WARNING - Tentativa 1 falhou ao buscar https://www.doctoralia.com.brbusca?q=CAROLINA+CUNHA+MORAES&loc=Bahia: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6CED8CF45+75717]
+	GetHandleVerifier [0x00007FF6CED8CFA0+75808]
+	(No symbol) [0x00007FF6CEB58F9A]
+	(No symbol) [0x00007FF6CEB559F4]
+	(No symbol) [0x00007FF6CEB46789]
+	(No symbol) [0x00007FF6CEB484F8]
+	(No symbol) [0x00007FF6CEB46A96]
+	(No symbol) [0x00007FF6CEB46516]
+	(No symbol) [0x00007FF6CEB461DA]
+	(No symbol) [0x00007FF6CEB43E8A]
+	(No symbol) [0x00007FF6CEB4465C]
+	(No symbol) [0x00007FF6CEB5CF3A]
+	(No symbol) [0x00007FF6CEC0013E]
+	(No symbol) [0x00007FF6CEBD737A]
+	(No symbol) [0x00007FF6CEBFF39C]
+	(No symbol) [0x00007FF6CEBD7153]
+	(No symbol) [0x00007FF6CEBA0421]
+	(No symbol) [0x00007FF6CEBA11B3]
+	GetHandleVerifier [0x00007FF6CF08D71D+3223453]
+	GetHandleVerifier [0x00007FF6CF087CC2+3200322]
+	GetHandleVerifier [0x00007FF6CF0A5AF3+3322739]
+	GetHandleVerifier [0x00007FF6CEDA6A1A+180890]
+	GetHandleVerifier [0x00007FF6CEDAE11F+211359]
+	GetHandleVerifier [0x00007FF6CED95294+109332]
+	GetHandleVerifier [0x00007FF6CED95442+109762]
+	GetHandleVerifier [0x00007FF6CED7BA59+4825]
+	BaseThreadInitThunk [0x00007FFC1F327344+20]
+	RtlUserThreadStart [0x00007FFC1F4226B1+33]
+
+2025-05-23 01:21:31,952 - MedicosCrawler - WARNING - Tentativa 1 falhou ao buscar https://www.doctoralia.com.brbusca?q=JOAO+CARLOS+RAMOS+DIAS&loc=S%C3%A3o+Paulo: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6CED8CF45+75717]
+	GetHandleVerifier [0x00007FF6CED8CFA0+75808]
+	(No symbol) [0x00007FF6CEB58F9A]
+	(No symbol) [0x00007FF6CEB559F4]
+	(No symbol) [0x00007FF6CEB46789]
+	(No symbol) [0x00007FF6CEB484F8]
+	(No symbol) [0x00007FF6CEB46A96]
+	(No symbol) [0x00007FF6CEB46516]
+	(No symbol) [0x00007FF6CEB461DA]
+	(No symbol) [0x00007FF6CEB43E8A]
+	(No symbol) [0x00007FF6CEB4465C]
+	(No symbol) [0x00007FF6CEB5CF3A]
+	(No symbol) [0x00007FF6CEC0013E]
+	(No symbol) [0x00007FF6CEBD737A]
+	(No symbol) [0x00007FF6CEBFF39C]
+	(No symbol) [0x00007FF6CEBD7153]
+	(No symbol) [0x00007FF6CEBA0421]
+	(No symbol) [0x00007FF6CEBA11B3]
+	GetHandleVerifier [0x00007FF6CF08D71D+3223453]
+	GetHandleVerifier [0x00007FF6CF087CC2+3200322]
+	GetHandleVerifier [0x00007FF6CF0A5AF3+3322739]
+	GetHandleVerifier [0x00007FF6CEDA6A1A+180890]
+	GetHandleVerifier [0x00007FF6CEDAE11F+211359]
+	GetHandleVerifier [0x00007FF6CED95294+109332]
+	GetHandleVerifier [0x00007FF6CED95442+109762]
+	GetHandleVerifier [0x00007FF6CED7BA59+4825]
+	BaseThreadInitThunk [0x00007FFC1F327344+20]
+	RtlUserThreadStart [0x00007FFC1F4226B1+33]
+
+2025-05-23 01:21:31,952 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-05-23 01:21:34,909 - MedicosCrawler - ERROR - Erro ao extrair dados do HTML: 'NoneType' object has no attribute 'get'
+2025-05-23 01:21:34,989 - MedicosCrawler - WARNING - Tentativa 2 falhou ao buscar https://www.doctoralia.com.brbusca?q=CAMILLA+SILV%C3%89RIO+OLIVEIRA+SANTOS&loc=Rio+de+Janeiro: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6CED8CF45+75717]
+	GetHandleVerifier [0x00007FF6CED8CFA0+75808]
+	(No symbol) [0x00007FF6CEB58F9A]
+	(No symbol) [0x00007FF6CEB559F4]
+	(No symbol) [0x00007FF6CEB46789]
+	(No symbol) [0x00007FF6CEB484F8]
+	(No symbol) [0x00007FF6CEB46A96]
+	(No symbol) [0x00007FF6CEB46516]
+	(No symbol) [0x00007FF6CEB461DA]
+	(No symbol) [0x00007FF6CEB43E8A]
+	(No symbol) [0x00007FF6CEB4465C]
+	(No symbol) [0x00007FF6CEB5CF3A]
+	(No symbol) [0x00007FF6CEC0013E]
+	(No symbol) [0x00007FF6CEBD737A]
+	(No symbol) [0x00007FF6CEBFF39C]
+	(No symbol) [0x00007FF6CEBD7153]
+	(No symbol) [0x00007FF6CEBA0421]
+	(No symbol) [0x00007FF6CEBA11B3]
+	GetHandleVerifier [0x00007FF6CF08D71D+3223453]
+	GetHandleVerifier [0x00007FF6CF087CC2+3200322]
+	GetHandleVerifier [0x00007FF6CF0A5AF3+3322739]
+	GetHandleVerifier [0x00007FF6CEDA6A1A+180890]
+	GetHandleVerifier [0x00007FF6CEDAE11F+211359]
+	GetHandleVerifier [0x00007FF6CED95294+109332]
+	GetHandleVerifier [0x00007FF6CED95442+109762]
+	GetHandleVerifier [0x00007FF6CED7BA59+4825]
+	BaseThreadInitThunk [0x00007FFC1F327344+20]
+	RtlUserThreadStart [0x00007FFC1F4226B1+33]
+
+2025-05-23 01:21:34,990 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-05-23 01:21:36,370 - MedicosCrawler - ERROR - Erro ao extrair dados do HTML: 'NoneType' object has no attribute 'get'
+2025-05-23 01:21:37,351 - MedicosCrawler - ERROR - Erro ao extrair dados do HTML: 'NoneType' object has no attribute 'get'
+2025-05-23 01:21:37,461 - MedicosCrawler - WARNING - Tentativa 2 falhou ao buscar https://www.doctoralia.com.brbusca?q=JOAO+CARLOS+RAMOS+DIAS&loc=S%C3%A3o+Paulo: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6CED8CF45+75717]
+	GetHandleVerifier [0x00007FF6CED8CFA0+75808]
+	(No symbol) [0x00007FF6CEB58F9A]
+	(No symbol) [0x00007FF6CEB559F4]
+	(No symbol) [0x00007FF6CEB46789]
+	(No symbol) [0x00007FF6CEB484F8]
+	(No symbol) [0x00007FF6CEB46A96]
+	(No symbol) [0x00007FF6CEB46516]
+	(No symbol) [0x00007FF6CEB461DA]
+	(No symbol) [0x00007FF6CEB43E8A]
+	(No symbol) [0x00007FF6CEB4465C]
+	(No symbol) [0x00007FF6CEB5CF3A]
+	(No symbol) [0x00007FF6CEC0013E]
+	(No symbol) [0x00007FF6CEBD737A]
+	(No symbol) [0x00007FF6CEBFF39C]
+	(No symbol) [0x00007FF6CEBD7153]
+	(No symbol) [0x00007FF6CEBA0421]
+	(No symbol) [0x00007FF6CEBA11B3]
+	GetHandleVerifier [0x00007FF6CF08D71D+3223453]
+	GetHandleVerifier [0x00007FF6CF087CC2+3200322]
+	GetHandleVerifier [0x00007FF6CF0A5AF3+3322739]
+	GetHandleVerifier [0x00007FF6CEDA6A1A+180890]
+	GetHandleVerifier [0x00007FF6CEDAE11F+211359]
+	GetHandleVerifier [0x00007FF6CED95294+109332]
+	GetHandleVerifier [0x00007FF6CED95442+109762]
+	GetHandleVerifier [0x00007FF6CED7BA59+4825]
+	BaseThreadInitThunk [0x00007FFC1F327344+20]
+	RtlUserThreadStart [0x00007FFC1F4226B1+33]
+
+2025-05-23 01:21:37,583 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-05-23 01:21:37,583 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-05-23 01:21:37,583 - MedicosCrawler - WARNING - Tentativa 2 falhou ao buscar https://www.doctoralia.com.brbusca?q=CAROLINA+CUNHA+MORAES&loc=Bahia: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6CED8CF45+75717]
+	GetHandleVerifier [0x00007FF6CED8CFA0+75808]
+	(No symbol) [0x00007FF6CEB58F9A]
+	(No symbol) [0x00007FF6CEB559F4]
+	(No symbol) [0x00007FF6CEB46789]
+	(No symbol) [0x00007FF6CEB484F8]
+	(No symbol) [0x00007FF6CEB46A96]
+	(No symbol) [0x00007FF6CEB46516]
+	(No symbol) [0x00007FF6CEB461DA]
+	(No symbol) [0x00007FF6CEB43E8A]
+	(No symbol) [0x00007FF6CEB4465C]
+	(No symbol) [0x00007FF6CEB5CF3A]
+	(No symbol) [0x00007FF6CEC0013E]
+	(No symbol) [0x00007FF6CEBD737A]
+	(No symbol) [0x00007FF6CEBFF39C]
+	(No symbol) [0x00007FF6CEBD7153]
+	(No symbol) [0x00007FF6CEBA0421]
+	(No symbol) [0x00007FF6CEBA11B3]
+	GetHandleVerifier [0x00007FF6CF08D71D+3223453]
+	GetHandleVerifier [0x00007FF6CF087CC2+3200322]
+	GetHandleVerifier [0x00007FF6CF0A5AF3+3322739]
+	GetHandleVerifier [0x00007FF6CEDA6A1A+180890]
+	GetHandleVerifier [0x00007FF6CEDAE11F+211359]
+	GetHandleVerifier [0x00007FF6CED95294+109332]
+	GetHandleVerifier [0x00007FF6CED95442+109762]
+	GetHandleVerifier [0x00007FF6CED7BA59+4825]
+	BaseThreadInitThunk [0x00007FFC1F327344+20]
+	RtlUserThreadStart [0x00007FFC1F4226B1+33]
+
+2025-05-23 01:21:39,210 - MedicosCrawler - WARNING - Tentativa 1 falhou ao buscar https://manaus.doklist.com.br/spec/endocrinologista/: ('Connection aborted.', ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None))
+2025-05-23 01:21:44,040 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000000121199D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/9be81a6976fcc1dd7fc2018098369ced/timeouts
+2025-05-23 01:23:01,988 - MedicosCrawler - WARNING - Arquivo de whitelist não encontrado: Iniciar pesquisa - Iniciar pesquisa.csv
+2025-05-23 01:23:01,993 - MedicosCrawler - INFO - Carregados 24 médicos do arquivo .\input.csv
+2025-05-23 01:23:01,994 - MedicosCrawler - INFO - Processando lote 1/3
+2025-05-23 01:23:01,994 - MedicosCrawler - INFO - Processando médico: JOAO CARLOS RAMOS DIAS (CRM 59153/SP)
+2025-05-23 01:23:01,995 - MedicosCrawler - INFO - Processando médico: AIDALINA DE NASCIMENTO COSTA (CRM 2422/AM)
+2025-05-23 01:23:01,995 - MedicosCrawler - INFO - Processando médico: CAROLINA CUNHA MORAES (CRM 21051/BA)
+2025-05-23 01:23:01,995 - MedicosCrawler - INFO - Processando médico: CAMILLA SILVÉRIO OLIVEIRA SANTOS (CRM 1121928/RJ)
+2025-05-23 01:23:28,023 - MedicosCrawler - INFO - Concluído: CAROLINA CUNHA MORAES - Especialidade: alergia e imunologia - Email: protocolo@cremeb.org.br
+2025-05-23 01:23:28,024 - MedicosCrawler - INFO - Processando médico: VINICIUS ROSA CORREIA (CRM 27547/SC)
+2025-05-23 01:23:29,218 - MedicosCrawler - INFO - Concluído: AIDALINA DE NASCIMENTO COSTA - Especialidade: cirurgia oncológica - Email: cfm@portalmedico.org.br
+2025-05-23 01:23:29,218 - MedicosCrawler - INFO - Processando médico: FLÁVIA DA MATA CHIACCHIO LEITE (CRM 57777/MG)
+2025-05-23 01:23:30,191 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:23:30,509 - MedicosCrawler - INFO - Concluído: CAMILLA SILVÉRIO OLIVEIRA SANTOS - Especialidade: None - Email: camillasosantos@gmail.com
+2025-05-23 01:23:30,509 - MedicosCrawler - INFO - Processando médico: AMANDA BIANCHI TROMBINI (CRM 52330/PR)
+2025-05-23 01:24:24,721 - MedicosCrawler - WARNING - Arquivo de whitelist não encontrado: Iniciar pesquisa - Iniciar pesquisa.csv
+2025-05-23 01:24:24,726 - MedicosCrawler - INFO - Carregados 24 médicos do arquivo .\input.csv
+2025-05-23 01:24:24,726 - MedicosCrawler - INFO - Processando lote 1/3
+2025-05-23 01:24:24,727 - MedicosCrawler - INFO - Processando médico: JOAO CARLOS RAMOS DIAS (CRM 59153/SP)
+2025-05-23 01:24:24,728 - MedicosCrawler - INFO - Processando médico: AIDALINA DE NASCIMENTO COSTA (CRM 2422/AM)
+2025-05-23 01:24:24,728 - MedicosCrawler - INFO - Processando médico: CAROLINA CUNHA MORAES (CRM 21051/BA)
+2025-05-23 01:24:24,728 - MedicosCrawler - INFO - Processando médico: CAMILLA SILVÉRIO OLIVEIRA SANTOS (CRM 1121928/RJ)
+2025-05-23 01:24:36,570 - MedicosCrawler - INFO - Concluído: CAMILLA SILVÉRIO OLIVEIRA SANTOS - Especialidade: None - Email: camillasosantos@gmail.com
+2025-05-23 01:24:36,570 - MedicosCrawler - INFO - Processando médico: VINICIUS ROSA CORREIA (CRM 27547/SC)
+2025-05-23 01:24:54,628 - MedicosCrawler - WARNING - Arquivo de whitelist não encontrado: Iniciar pesquisa - Iniciar pesquisa.csv
+2025-05-23 01:24:54,633 - MedicosCrawler - INFO - Carregados 24 médicos do arquivo input.csv
+2025-05-23 01:24:54,633 - MedicosCrawler - INFO - Processando lote 1/5
+2025-05-23 01:24:54,634 - MedicosCrawler - INFO - Processando médico: JOAO CARLOS RAMOS DIAS (CRM 59153/SP)
+2025-05-23 01:24:54,635 - MedicosCrawler - INFO - Processando médico: AIDALINA DE NASCIMENTO COSTA (CRM 2422/AM)
+2025-05-23 01:24:54,635 - MedicosCrawler - INFO - Processando médico: CAROLINA CUNHA MORAES (CRM 21051/BA)
+2025-05-23 01:24:54,635 - MedicosCrawler - INFO - Processando médico: CAMILLA SILVÉRIO OLIVEIRA SANTOS (CRM 1121928/RJ)
+2025-05-23 01:25:14,159 - MedicosCrawler - INFO - Concluído: CAMILLA SILVÉRIO OLIVEIRA SANTOS - Especialidade: None - Email: camillasosantos@gmail.com
+2025-05-23 01:25:14,160 - MedicosCrawler - INFO - Processando médico: VINICIUS ROSA CORREIA (CRM 27547/SC)
+2025-05-23 01:25:16,855 - MedicosCrawler - INFO - Concluído: AIDALINA DE NASCIMENTO COSTA - Especialidade: telefonista - Email: cfm@portalmedico.org.br
+2025-05-23 01:25:17,684 - MedicosCrawler - INFO - Concluído: CAROLINA CUNHA MORAES - Especialidade: nenhuma especialidade foi mencionada no texto fornecido - Email: protocolo@cremeb.org.br
+2025-05-23 01:26:13,485 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:26:14,879 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:26:18,029 - MedicosCrawler - ERROR - Erro ao buscar https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1153967110.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1153967110.pdf
+Call log:
+  - navigating to "https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1153967110.pdf", waiting until "load"
+
+2025-05-23 01:26:19,472 - MedicosCrawler - ERROR - Erro ao buscar https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/102913011.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/102913011.pdf
+Call log:
+  - navigating to "https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/102913011.pdf", waiting until "load"
+
+2025-05-23 01:26:24,849 - MedicosCrawler - ERROR - Erro ao buscar https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-07-05-2025.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-07-05-2025.pdf
+Call log:
+  - navigating to "https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-07-05-2025.pdf", waiting until "load"
+
+2025-05-23 01:26:29,798 - MedicosCrawler - ERROR - Erro ao buscar https://crmvsp.gov.br/wp-content/uploads/2020/06/info_crmv_63.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://crmvsp.gov.br/wp-content/uploads/2020/06/info_crmv_63.pdf
+Call log:
+  - navigating to "https://crmvsp.gov.br/wp-content/uploads/2020/06/info_crmv_63.pdf", waiting until "load"
+
+2025-05-23 01:26:34,321 - MedicosCrawler - ERROR - Erro ao buscar https://www.gov.br/mme/pt-br/arquivos/do-19-10-2012-s1.pdf/@@download/file com Playwright: Page.goto: net::ERR_ABORTED at https://www.gov.br/mme/pt-br/arquivos/do-19-10-2012-s1.pdf/@@download/file
+Call log:
+  - navigating to "https://www.gov.br/mme/pt-br/arquivos/do-19-10-2012-s1.pdf/@@download/file", waiting until "load"
+
+2025-05-23 01:26:38,866 - MedicosCrawler - ERROR - Erro ao buscar https://dosp.com.br/exibe_do.php?i=NTU5MTE= com Playwright: Page.goto: net::ERR_ABORTED at https://dosp.com.br/exibe_do.php?i=NTU5MTE=
+Call log:
+  - navigating to "https://dosp.com.br/exibe_do.php?i=NTU5MTE=", waiting until "load"
+
+2025-05-23 01:26:43,418 - MedicosCrawler - ERROR - Erro ao buscar https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1298558885.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1298558885.pdf
+Call log:
+  - navigating to "https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1298558885.pdf", waiting until "load"
+
+2025-05-23 01:27:14,669 - MedicosCrawler - ERROR - Erro ao buscar https://sistemas.tjes.jus.br/ediario/index.php/component/ediario/?view=contents&layout=fulltext&data=20190319&idorgao=852 com Selenium: Message: timeout: Timed out receiving message from renderer: -0.011
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6CED8CF45+75717]
+	GetHandleVerifier [0x00007FF6CED8CFA0+75808]
+	(No symbol) [0x00007FF6CEB58F9A]
+	(No symbol) [0x00007FF6CEB464EC]
+	(No symbol) [0x00007FF6CEB461DA]
+	(No symbol) [0x00007FF6CEB43E8A]
+	(No symbol) [0x00007FF6CEB4483F]
+	(No symbol) [0x00007FF6CEB533AE]
+	(No symbol) [0x00007FF6CEB697E1]
+	(No symbol) [0x00007FF6CEB7091A]
+	(No symbol) [0x00007FF6CEB44FAD]
+	(No symbol) [0x00007FF6CEB694D0]
+	(No symbol) [0x00007FF6CEBFF276]
+	(No symbol) [0x00007FF6CEBD7153]
+	(No symbol) [0x00007FF6CEBA0421]
+	(No symbol) [0x00007FF6CEBA11B3]
+	GetHandleVerifier [0x00007FF6CF08D71D+3223453]
+	GetHandleVerifier [0x00007FF6CF087CC2+3200322]
+	GetHandleVerifier [0x00007FF6CF0A5AF3+3322739]
+	GetHandleVerifier [0x00007FF6CEDA6A1A+180890]
+	GetHandleVerifier [0x00007FF6CEDAE11F+211359]
+	GetHandleVerifier [0x00007FF6CED95294+109332]
+	GetHandleVerifier [0x00007FF6CED95442+109762]
+	GetHandleVerifier [0x00007FF6CED7BA59+4825]
+	BaseThreadInitThunk [0x00007FFC1F327344+20]
+	RtlUserThreadStart [0x00007FFC1F4226B1+33]
+
+2025-05-23 01:27:18,058 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:27:22,554 - MedicosCrawler - ERROR - Erro ao buscar https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/66666666.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/66666666.pdf
+Call log:
+  - navigating to "https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/66666666.pdf", waiting until "load"
+
+2025-05-23 01:27:29,371 - MedicosCrawler - ERROR - Erro ao buscar https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-18-05-2022.pdf?p=1652896800042 com Playwright: Page.goto: net::ERR_ABORTED at https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-18-05-2022.pdf?p=1652896800042
+Call log:
+  - navigating to "https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-18-05-2022.pdf?p=1652896800042", waiting until "load"
+
+2025-05-23 01:27:33,930 - MedicosCrawler - ERROR - Erro ao buscar https://www.gov.br/aids/pt-br/central-de-conteudo/publicacoes/2021/epidemiologia-e-servicos-de-saude/@@download/file/041_ress_ist.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.gov.br/aids/pt-br/central-de-conteudo/publicacoes/2021/epidemiologia-e-servicos-de-saude/@@download/file/041_ress_ist.pdf
+Call log:
+  - navigating to "https://www.gov.br/aids/pt-br/central-de-conteudo/publicacoes/2021/epidemiologia-e-servicos-de-saude/@@download/file/041_ress_ist.pdf", waiting until "load"
+
+2025-05-23 01:27:38,593 - MedicosCrawler - ERROR - Erro ao buscar https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1879581198.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1879581198.pdf
+Call log:
+  - navigating to "https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/1879581198.pdf", waiting until "load"
+
+2025-05-23 01:27:38,594 - MedicosCrawler - INFO - Concluído: JOAO CARLOS RAMOS DIAS - Especialidade: endocrinologia - Email: nan
+2025-05-23 01:27:46,751 - MedicosCrawler - ERROR - Erro ao buscar https://sistemas.tjes.jus.br/ediario/index.php/component/ediario/?view=contents&layout=fulltext&data=20190319&idorgao=852 com Playwright: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://sistemas.tjes.jus.br/ediario/index.php/component/ediario/?view=contents&layout=fulltext&data=20190319&idorgao=852", waiting until "load"
+
+2025-05-23 01:27:46,752 - MedicosCrawler - INFO - Concluído: VINICIUS ROSA CORREIA - Especialidade: clínica médica - Email: blumenau02@crmsc.org.br
+2025-05-23 01:27:46,755 - MedicosCrawler - INFO - Resultados parciais salvos em output.csv
+2025-05-23 01:27:46,755 - MedicosCrawler - INFO - Processando lote 2/5
+2025-05-23 01:27:46,755 - MedicosCrawler - INFO - Processando médico: FLÁVIA DA MATA CHIACCHIO LEITE (CRM 57777/MG)
+2025-05-23 01:27:46,756 - MedicosCrawler - INFO - Processando médico: AMANDA BIANCHI TROMBINI (CRM 52330/PR)
+2025-05-23 01:27:46,756 - MedicosCrawler - INFO - Processando médico: ARINA TAVARES DE SOUZA MATOS (CRM 8164/AL)
+2025-05-23 01:27:46,756 - MedicosCrawler - INFO - Processando médico: CÁSSIA CLEIA HASSEM MACIEL DE FREITAS (CRM 1979/AC)
+2025-05-23 01:28:03,318 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:28:03,333 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:28:09,015 - MedicosCrawler - ERROR - Erro ao buscar https://www.tjrj.jus.br/documents/d/guest/site-planilha-cadastro-de-peritos-atualizada-ate-15-01-2024 com Playwright: Page.goto: net::ERR_ABORTED at https://www.tjrj.jus.br/documents/d/guest/site-planilha-cadastro-de-peritos-atualizada-ate-15-01-2024
+Call log:
+  - navigating to "https://www.tjrj.jus.br/documents/d/guest/site-planilha-cadastro-de-peritos-atualizada-ate-15-01-2024", waiting until "load"
+
+2025-05-23 01:28:09,207 - MedicosCrawler - ERROR - Erro ao buscar https://www.unimed.coop.br/site/documents/4596069/0/Prestadores+Exclu%C3%ADdos+-+Unimed+Fr.+Beltr%C3%A3o08_23.xlsx/079a5b09-c5ce-a653-8f85-887571f3d16e?version=1.0&t=1692644142270&download=true com Playwright: Page.goto: net::ERR_ABORTED at https://www.unimed.coop.br/site/documents/4596069/0/Prestadores+Exclu%C3%ADdos+-+Unimed+Fr.+Beltr%C3%A3o08_23.xlsx/079a5b09-c5ce-a653-8f85-887571f3d16e?version=1.0&t=1692644142270&download=true
+Call log:
+  - navigating to "https://www.unimed.coop.br/site/documents/4596069/0/Prestadores+Exclu%C3%ADdos+-+Unimed+Fr.+Beltr%C3%A3o08_23.xlsx/079a5b09-c5ce-a653-8f85-887571f3d16e?version=1.0&t=1692644142270&download=true", waiting until "load"
+
+2025-05-23 01:28:11,425 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:28:13,837 - MedicosCrawler - ERROR - Erro ao buscar https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/266716446.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/266716446.pdf
+Call log:
+  - navigating to "https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/266716446.pdf", waiting until "load"
+
+2025-05-23 01:28:13,932 - MedicosCrawler - ERROR - Erro ao buscar https://www.ufpb.br/biblioteca/contents/noticias/minha-biblioteca-atualiza-catalogo-de-dezembro/Minha_Bibliotecadez2018.xlsx/@@download/file/%3Cbuilt-in%20function%20id%3E com Playwright: Page.goto: net::ERR_ABORTED at https://www.ufpb.br/biblioteca/contents/noticias/minha-biblioteca-atualiza-catalogo-de-dezembro/Minha_Bibliotecadez2018.xlsx/@@download/file/%3Cbuilt-in%20function%20id%3E
+Call log:
+  - navigating to "https://www.ufpb.br/biblioteca/contents/noticias/minha-biblioteca-atualiza-catalogo-de-dezembro/Minha_Bibliotecadez2018.xlsx/@@download/file/%3Cbuilt-in%20function%20id%3E", waiting until "load"
+
+2025-05-23 01:28:18,607 - MedicosCrawler - ERROR - Erro ao buscar https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1160669735.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1160669735.pdf
+Call log:
+  - navigating to "https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1160669735.pdf", waiting until "load"
+
+2025-05-23 01:28:18,787 - MedicosCrawler - ERROR - Erro ao buscar https://sistemas.trf1.jus.br/edj/bitstream/handle/123/49614/Caderno_JUD_MG_2015-08-31_VII_163.pdf?sequence=2&isAllowed=y com Playwright: Page.goto: net::ERR_ABORTED at https://sistemas.trf1.jus.br/edj/bitstream/handle/123/49614/Caderno_JUD_MG_2015-08-31_VII_163.pdf?sequence=2&isAllowed=y
+Call log:
+  - navigating to "https://sistemas.trf1.jus.br/edj/bitstream/handle/123/49614/Caderno_JUD_MG_2015-08-31_VII_163.pdf?sequence=2&isAllowed=y", waiting until "load"
+
+2025-05-23 01:28:23,213 - MedicosCrawler - ERROR - Erro ao buscar https://arquivocentral.unb.br/images/Artigos/indice_onomastico.xlsx com Playwright: Page.goto: net::ERR_ABORTED at https://arquivocentral.unb.br/images/Artigos/indice_onomastico.xlsx
+Call log:
+  - navigating to "https://arquivocentral.unb.br/images/Artigos/indice_onomastico.xlsx", waiting until "load"
+
+2025-05-23 01:28:26,521 - MedicosCrawler - ERROR - Erro ao buscar http://plone.ufpb.br/biblioteca/contents/noticias/minha-biblioteca-atualiza-catalogo-de-dezembro/Minha_Bibliotecadez2018.xlsx/@@download/file/%3Cbuilt-in%20function%20id%3E com Playwright: Page.goto: net::ERR_ABORTED at http://plone.ufpb.br/biblioteca/contents/noticias/minha-biblioteca-atualiza-catalogo-de-dezembro/Minha_Bibliotecadez2018.xlsx/@@download/file/%3Cbuilt-in%20function%20id%3E
+Call log:
+  - navigating to "http://plone.ufpb.br/biblioteca/contents/noticias/minha-biblioteca-atualiza-catalogo-de-dezembro/Minha_Bibliotecadez2018.xlsx/@@download/file/%3Cbuilt-in%20function%20id%3E", waiting until "load"
+
+2025-05-23 01:28:27,686 - MedicosCrawler - INFO - Concluído: FLÁVIA DA MATA CHIACCHIO LEITE - Especialidade: psiquiatria - Email: nan
+2025-05-23 01:28:27,687 - MedicosCrawler - INFO - Processando médico: JOSE ARNON CRUZ BEZERRA DE MENEZES (CRM 3355/CE)
+2025-05-23 01:28:27,895 - MedicosCrawler - ERROR - Erro ao buscar https://ioepa.com.br/pages/2019/2019.07.18.DOE.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://ioepa.com.br/pages/2019/2019.07.18.DOE.pdf
+Call log:
+  - navigating to "https://ioepa.com.br/pages/2019/2019.07.18.DOE.pdf", waiting until "load"
+
+2025-05-23 01:28:32,657 - MedicosCrawler - ERROR - Erro ao buscar https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/125871216.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/125871216.pdf
+Call log:
+  - navigating to "https://portal-api.campinas.sp.gov.br/sites/default/files/publicacoes-dom/dom/125871216.pdf", waiting until "load"
+
+2025-05-23 01:28:37,359 - MedicosCrawler - ERROR - Erro ao buscar https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/9/b/3/9b334c41899c168b537788ed9ad07f22f9af558e8d2173e1bfa76b1def0b02e1/bb56e4dd-7131-43e9-9f88-2e2910929992-17079-DOE_17423_25_06_2004_76F.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/9/b/3/9b334c41899c168b537788ed9ad07f22f9af558e8d2173e1bfa76b1def0b02e1/bb56e4dd-7131-43e9-9f88-2e2910929992-17079-DOE_17423_25_06_2004_76F.pdf
+Call log:
+  - navigating to "https://acervo.arquivopublico.sc.gov.br/uploads/r/arquivo-publico-do-estado-de-santa-catarina-apesc/9/b/3/9b334c41899c168b537788ed9ad07f22f9af558e8d2173e1bfa76b1def0b02e1/bb56e4dd-7131-43e9-9f88-2e2910929992-17079-DOE_17423_25_06_2004_76F.pdf", waiting until "load"
+
+2025-05-23 01:28:41,972 - MedicosCrawler - ERROR - Erro ao buscar https://imagem.camara.gov.br/Imagem/d/pdf/DCD29SET1964.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://imagem.camara.gov.br/Imagem/d/pdf/DCD29SET1964.pdf
+Call log:
+  - navigating to "https://imagem.camara.gov.br/Imagem/d/pdf/DCD29SET1964.pdf", waiting until "load"
+
+2025-05-23 01:28:44,418 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:28:44,433 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:28:46,277 - MedicosCrawler - ERROR - Erro ao buscar https://www.cursovigor.com.br/Editais/publicado_66109_2019-10-18_a089df759e1af770a37f7f9ec0e9b055%20(2).pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.cursovigor.com.br/Editais/publicado_66109_2019-10-18_a089df759e1af770a37f7f9ec0e9b055%20(2).pdf
+Call log:
+  - navigating to "https://www.cursovigor.com.br/Editais/publicado_66109_2019-10-18_a089df759e1af770a37f7f9ec0e9b055%20(2).pdf", waiting until "load"
+
+2025-05-23 01:28:46,483 - MedicosCrawler - ERROR - Erro ao buscar https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2015/04/4042-24-04-2015.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2015/04/4042-24-04-2015.pdf
+Call log:
+  - navigating to "https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2015/04/4042-24-04-2015.pdf", waiting until "load"
+
+2025-05-23 01:28:49,352 - MedicosCrawler - ERROR - Erro ao buscar https://static.portaldaindustria.com.br/media/filer_public/42/15/421593b9-bb4a-48a0-a12f-2d117350d10c/20120828051916613882a.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://static.portaldaindustria.com.br/media/filer_public/42/15/421593b9-bb4a-48a0-a12f-2d117350d10c/20120828051916613882a.pdf
+Call log:
+  - navigating to "https://static.portaldaindustria.com.br/media/filer_public/42/15/421593b9-bb4a-48a0-a12f-2d117350d10c/20120828051916613882a.pdf", waiting until "load"
+
+2025-05-23 01:28:51,162 - MedicosCrawler - ERROR - Erro ao buscar https://www.bertioga.sp.gov.br/wp-content/uploads/2023/02/BOM-1088_CompressPdf.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.bertioga.sp.gov.br/wp-content/uploads/2023/02/BOM-1088_CompressPdf.pdf
+Call log:
+  - navigating to "https://www.bertioga.sp.gov.br/wp-content/uploads/2023/02/BOM-1088_CompressPdf.pdf", waiting until "load"
+
+2025-05-23 01:28:51,163 - MedicosCrawler - INFO - Concluído: ARINA TAVARES DE SOUZA MATOS - Especialidade: None - Email: cfm@portalmedico.org.br
+2025-05-23 01:28:51,556 - MedicosCrawler - ERROR - Erro ao buscar https://iomat.mt.gov.br/portal/edicoes/download/3800 com Playwright: Page.goto: net::ERR_ABORTED at https://iomat.mt.gov.br/portal/edicoes/download/3800
+Call log:
+  - navigating to "https://iomat.mt.gov.br/portal/edicoes/download/3800", waiting until "load"
+
+2025-05-23 01:28:54,982 - MedicosCrawler - ERROR - Erro ao buscar https://imagem.camara.gov.br/Imagem/d/pdf/DCD20JUN2008.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://imagem.camara.gov.br/Imagem/d/pdf/DCD20JUN2008.pdf
+Call log:
+  - navigating to "https://imagem.camara.gov.br/Imagem/d/pdf/DCD20JUN2008.pdf", waiting until "load"
+
+2025-05-23 01:28:56,173 - MedicosCrawler - ERROR - Erro ao buscar https://www.altofeliz.rs.gov.br/web/imgs/arquivos/publicacao-famurs-n-41-de-30-de-novembro-de-20211638530267.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.altofeliz.rs.gov.br/web/imgs/arquivos/publicacao-famurs-n-41-de-30-de-novembro-de-20211638530267.pdf
+Call log:
+  - navigating to "https://www.altofeliz.rs.gov.br/web/imgs/arquivos/publicacao-famurs-n-41-de-30-de-novembro-de-20211638530267.pdf", waiting until "load"
+
+2025-05-23 01:28:59,546 - MedicosCrawler - ERROR - Erro ao buscar https://www.confef.org.br/confef/comunicacao/publicacoes/arquivos/boletim_eletronico_livro_vol2/volume2.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.confef.org.br/confef/comunicacao/publicacoes/arquivos/boletim_eletronico_livro_vol2/volume2.pdf
+Call log:
+  - navigating to "https://www.confef.org.br/confef/comunicacao/publicacoes/arquivos/boletim_eletronico_livro_vol2/volume2.pdf", waiting until "load"
+
+2025-05-23 01:29:08,662 - MedicosCrawler - ERROR - Erro ao buscar https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-01-02-2022.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-01-02-2022.pdf
+Call log:
+  - navigating to "https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-01-02-2022.pdf", waiting until "load"
+
+2025-05-23 01:29:11,938 - MedicosCrawler - ERROR - Erro ao buscar https://www.altofeliz.rs.gov.br/web/imgs/arquivos/publicacao-famurs-n-67-de-16-de-fevereiro-de-20221645010023.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.altofeliz.rs.gov.br/web/imgs/arquivos/publicacao-famurs-n-67-de-16-de-fevereiro-de-20221645010023.pdf
+Call log:
+  - navigating to "https://www.altofeliz.rs.gov.br/web/imgs/arquivos/publicacao-famurs-n-67-de-16-de-fevereiro-de-20221645010023.pdf", waiting until "load"
+
+2025-05-23 01:29:13,964 - MedicosCrawler - ERROR - Erro ao buscar https://www.sinj.df.gov.br/sinj/Diario/6152/8b6772d9-287b-3558-82b6-9c31714af209/arq/0/4e2fa08c.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.sinj.df.gov.br/sinj/Diario/6152/8b6772d9-287b-3558-82b6-9c31714af209/arq/0/4e2fa08c.pdf
+Call log:
+  - navigating to "https://www.sinj.df.gov.br/sinj/Diario/6152/8b6772d9-287b-3558-82b6-9c31714af209/arq/0/4e2fa08c.pdf", waiting until "load"
+
+2025-05-23 01:29:17,059 - MedicosCrawler - ERROR - Erro ao buscar https://iomat.mt.gov.br/portal/edicoes/download/3476 com Playwright: Page.goto: net::ERR_ABORTED at https://iomat.mt.gov.br/portal/edicoes/download/3476
+Call log:
+  - navigating to "https://iomat.mt.gov.br/portal/edicoes/download/3476", waiting until "load"
+
+2025-05-23 01:29:17,060 - MedicosCrawler - INFO - Concluído: CÁSSIA CLEIA HASSEM MACIEL DE FREITAS - Especialidade: None - Email: cfm@portalmedico.org.br
+2025-05-23 01:29:18,129 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:29:18,129 - MedicosCrawler - INFO - Concluído: AMANDA BIANCHI TROMBINI - Especialidade: None - Email: protocolo@crmpr.org.br
+2025-05-23 01:29:30,427 - MedicosCrawler - ERROR - Erro ao buscar https://ioepa.com.br/pages/2019/2019.06.14.DOE.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://ioepa.com.br/pages/2019/2019.06.14.DOE.pdf
+Call log:
+  - navigating to "https://ioepa.com.br/pages/2019/2019.06.14.DOE.pdf", waiting until "load"
+
+2025-05-23 01:29:35,264 - MedicosCrawler - ERROR - Erro ao buscar https://sistemadje.tjmt.jus.br/publicacoes/8759-2012.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://sistemadje.tjmt.jus.br/publicacoes/8759-2012.pdf
+Call log:
+  - navigating to "https://sistemadje.tjmt.jus.br/publicacoes/8759-2012.pdf", waiting until "load"
+
+2025-05-23 01:29:39,929 - MedicosCrawler - ERROR - Erro ao buscar https://www.ioepa.com.br/pages/2016/2016.12.20.DOE.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.ioepa.com.br/pages/2016/2016.12.20.DOE.pdf
+Call log:
+  - navigating to "https://www.ioepa.com.br/pages/2016/2016.12.20.DOE.pdf", waiting until "load"
+
+2025-05-23 01:29:56,007 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:29:56,007 - MedicosCrawler - INFO - Concluído: JOSE ARNON CRUZ BEZERRA DE MENEZES - Especialidade: None - Email: cfm@portalmedico.org.br
+2025-05-23 01:29:56,009 - MedicosCrawler - INFO - Resultados parciais salvos em output.csv
+2025-05-23 01:29:56,010 - MedicosCrawler - INFO - Processando lote 3/5
+2025-05-23 01:29:56,010 - MedicosCrawler - INFO - Processando médico: ALITA DE MELLO TRISTÃO COSTA (CRM 14846/ES)
+2025-05-23 01:29:56,010 - MedicosCrawler - INFO - Processando médico: MARTA MARIBEL ALVARENGA PENA (CRM 5847/GO)
+2025-05-23 01:29:56,010 - MedicosCrawler - INFO - Processando médico: ANTONIO FERNANDO DE SOUSA BARROS (CRM 3298/MA)
+2025-05-23 01:29:56,010 - MedicosCrawler - INFO - Processando médico: CLÁUDIA LIDIANA SILVA LIMA (CRM 11827/PB)
+2025-05-23 01:30:12,299 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:30:12,314 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:30:13,844 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:30:14,015 - MedicosCrawler - INFO - Concluído: ALITA DE MELLO TRISTÃO COSTA - Especialidade: medicina - Email: cfm@portalmedico.org.br
+2025-05-23 01:30:14,016 - MedicosCrawler - INFO - Processando médico: MARIA JOSE SILVA DE BRITO (CRM 3352/RN)
+2025-05-23 01:30:17,997 - MedicosCrawler - ERROR - Erro ao buscar https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2022/02/do_20220219_3517.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2022/02/do_20220219_3517.pdf
+Call log:
+  - navigating to "https://www2.bauru.sp.gov.br/arquivos/sist_diariooficial/2022/02/do_20220219_3517.pdf", waiting until "load"
+
+2025-05-23 01:30:21,812 - MedicosCrawler - ERROR - Erro ao buscar http://189.28.128.100/maismedicos/Lista_validadosPROVAB_2014_consolidado.pdf com Playwright: Page.goto: net::ERR_ABORTED at http://189.28.128.100/maismedicos/Lista_validadosPROVAB_2014_consolidado.pdf
+Call log:
+  - navigating to "http://189.28.128.100/maismedicos/Lista_validadosPROVAB_2014_consolidado.pdf", waiting until "load"
+
+2025-05-23 01:30:24,199 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2025-05-23 01:30:26,443 - MedicosCrawler - ERROR - Erro ao buscar https://www.unimed.coop.br/site/documents/3081577/3081853/guia-medico-julho2021.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.unimed.coop.br/site/documents/3081577/3081853/guia-medico-julho2021.pdf
+Call log:
+  - navigating to "https://www.unimed.coop.br/site/documents/3081577/3081853/guia-medico-julho2021.pdf", waiting until "load"
+
+2025-05-23 01:30:31,774 - MedicosCrawler - ERROR - Erro ao buscar https://www.unimedcampinas.com.br/ArquivosSite/GuiaMedico.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.unimedcampinas.com.br/ArquivosSite/GuiaMedico.pdf
+Call log:
+  - navigating to "https://www.unimedcampinas.com.br/ArquivosSite/GuiaMedico.pdf", waiting until "load"
+
+2025-05-23 01:30:34,074 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:30:37,251 - MedicosCrawler - ERROR - Erro ao buscar https://www.preventsenior.com.br/assets-pdf/Prevent_Senior_Rio_de_Janeiro_1000_31-05-2022_compressed.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.preventsenior.com.br/assets-pdf/Prevent_Senior_Rio_de_Janeiro_1000_31-05-2022_compressed.pdf
+Call log:
+  - navigating to "https://www.preventsenior.com.br/assets-pdf/Prevent_Senior_Rio_de_Janeiro_1000_31-05-2022_compressed.pdf", waiting until "load"
+
+2025-05-23 01:30:50,141 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:30:50,141 - MedicosCrawler - INFO - Concluído: MARTA MARIBEL ALVARENGA PENA - Especialidade: None - Email: cfm@portalmedico.org.br
+2025-05-23 01:31:05,633 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:31:06,769 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:31:10,876 - MedicosCrawler - ERROR - Erro ao buscar https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo696.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo696.pdf
+Call log:
+  - navigating to "https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo696.pdf", waiting until "load"
+
+2025-05-23 01:31:12,230 - MedicosCrawler - ERROR - Erro ao buscar https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/governo/arquivos/23_09.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/governo/arquivos/23_09.pdf
+Call log:
+  - navigating to "https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/governo/arquivos/23_09.pdf", waiting until "load"
+
+2025-05-23 01:31:15,408 - MedicosCrawler - ERROR - Erro ao buscar https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2015/01/Imprensa-Oficial-de-Jundia%C3%AD-Edi%C3%A7%C3%A3o-3028.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2015/01/Imprensa-Oficial-de-Jundia%C3%AD-Edi%C3%A7%C3%A3o-3028.pdf
+Call log:
+  - navigating to "https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2015/01/Imprensa-Oficial-de-Jundia%C3%AD-Edi%C3%A7%C3%A3o-3028.pdf", waiting until "load"
+
+2025-05-23 01:31:16,774 - MedicosCrawler - ERROR - Erro ao buscar https://osasco.sp.gov.br/site/wp-content/uploads/2016/04/httposasco.sp_.gov_.brcompsec1atosEd1237.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://osasco.sp.gov.br/site/wp-content/uploads/2016/04/httposasco.sp_.gov_.brcompsec1atosEd1237.pdf
+Call log:
+  - navigating to "https://osasco.sp.gov.br/site/wp-content/uploads/2016/04/httposasco.sp_.gov_.brcompsec1atosEd1237.pdf", waiting until "load"
+
+2025-05-23 01:31:20,132 - MedicosCrawler - ERROR - Erro ao buscar https://www.anac.gov.br/assuntos/legislacao/legislacao-1/boletim-de-pessoal/2008/36/anexo-2013-boletim-de-servico-ag-2008 com Playwright: Page.goto: net::ERR_ABORTED at https://www.anac.gov.br/assuntos/legislacao/legislacao-1/boletim-de-pessoal/2008/36/anexo-2013-boletim-de-servico-ag-2008
+Call log:
+  - navigating to "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/boletim-de-pessoal/2008/36/anexo-2013-boletim-de-servico-ag-2008", waiting until "load"
+
+2025-05-23 01:31:21,417 - MedicosCrawler - ERROR - Erro ao buscar https://camprev.campinas.sp.gov.br/sites/default/files/fas-fasc/Prestadores%20FAS%20FASC%20%283%29.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://camprev.campinas.sp.gov.br/sites/default/files/fas-fasc/Prestadores%20FAS%20FASC%20%283%29.pdf
+Call log:
+  - navigating to "https://camprev.campinas.sp.gov.br/sites/default/files/fas-fasc/Prestadores%20FAS%20FASC%20%283%29.pdf", waiting until "load"
+
+2025-05-23 01:31:24,631 - MedicosCrawler - ERROR - Erro ao buscar https://www.saobernardo.sp.gov.br/documents/10181/48617/NM+2005+1308.pdf.pdf/78684a24-5939-4451-ada8-8818cb249999 com Playwright: Page.goto: net::ERR_ABORTED at https://www.saobernardo.sp.gov.br/documents/10181/48617/NM+2005+1308.pdf.pdf/78684a24-5939-4451-ada8-8818cb249999
+Call log:
+  - navigating to "https://www.saobernardo.sp.gov.br/documents/10181/48617/NM+2005+1308.pdf.pdf/78684a24-5939-4451-ada8-8818cb249999", waiting until "load"
+
+2025-05-23 01:31:25,904 - MedicosCrawler - ERROR - Erro ao buscar https://igedes.org.br/cac3/wp-content/uploads/2024/07/PCMSO-2024-CAPS-ARTHUR-BISPO-DO-ROSARIO-SEG.-STELA-DO-PATROCINIO.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://igedes.org.br/cac3/wp-content/uploads/2024/07/PCMSO-2024-CAPS-ARTHUR-BISPO-DO-ROSARIO-SEG.-STELA-DO-PATROCINIO.pdf
+Call log:
+  - navigating to "https://igedes.org.br/cac3/wp-content/uploads/2024/07/PCMSO-2024-CAPS-ARTHUR-BISPO-DO-ROSARIO-SEG.-STELA-DO-PATROCINIO.pdf", waiting until "load"
+
+2025-05-23 01:31:30,048 - MedicosCrawler - ERROR - Erro ao buscar https://www.luz.mg.gov.br/painel/conteudo/licitacoes/isw_3_58c028df2417edbd6e3e.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.luz.mg.gov.br/painel/conteudo/licitacoes/isw_3_58c028df2417edbd6e3e.pdf
+Call log:
+  - navigating to "https://www.luz.mg.gov.br/painel/conteudo/licitacoes/isw_3_58c028df2417edbd6e3e.pdf", waiting until "load"
+
+2025-05-23 01:31:30,382 - MedicosCrawler - ERROR - Erro ao buscar https://www.unimedcampinas.com.br/assets/files/guia-medico/guia-medico-rede-basica.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.unimedcampinas.com.br/assets/files/guia-medico/guia-medico-rede-basica.pdf
+Call log:
+  - navigating to "https://www.unimedcampinas.com.br/assets/files/guia-medico/guia-medico-rede-basica.pdf", waiting until "load"
+
+2025-05-23 01:31:30,383 - MedicosCrawler - INFO - Concluído: ANTONIO FERNANDO DE SOUSA BARROS - Especialidade: None - Email: cfm@portalmedico.org.br
+2025-05-23 01:31:33,654 - MedicosCrawler - ERROR - Erro ao buscar http://adcon.rn.gov.br/ACERVO/pmrn/DOC/DOC000000000102580.PDF com Playwright: Page.goto: net::ERR_ABORTED at http://adcon.rn.gov.br/ACERVO/pmrn/DOC/DOC000000000102580.PDF
+Call log:
+  - navigating to "http://adcon.rn.gov.br/ACERVO/pmrn/DOC/DOC000000000102580.PDF", waiting until "load"
+
+2025-05-23 01:31:35,428 - MedicosCrawler - ERROR - Erro ao buscar https://wwa.tjto.jus.br/diario/diariopublicado/1773.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://wwa.tjto.jus.br/diario/diariopublicado/1773.pdf
+Call log:
+  - navigating to "https://wwa.tjto.jus.br/diario/diariopublicado/1773.pdf", waiting until "load"
+
+2025-05-23 01:31:40,131 - MedicosCrawler - ERROR - Erro ao buscar https://www.anac.gov.br/assuntos/legislacao/legislacao-1/boletim-de-pessoal/2007/50/planilha-do-mes-de-outubro com Playwright: Page.goto: net::ERR_ABORTED at https://www.anac.gov.br/assuntos/legislacao/legislacao-1/boletim-de-pessoal/2007/50/planilha-do-mes-de-outubro
+Call log:
+  - navigating to "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/boletim-de-pessoal/2007/50/planilha-do-mes-de-outubro", waiting until "load"
+
+2025-05-23 01:31:40,132 - MedicosCrawler - INFO - Concluído: CLÁUDIA LIDIANA SILVA LIMA - Especialidade: médicos clínicos - Email: cfm@portalmedico.org.br
+2025-05-23 01:31:42,582 - MedicosCrawler - ERROR - Erro ao buscar https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-22-05-2025.pdf?p=1747918800065 com Playwright: Page.goto: net::ERR_ABORTED at https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-22-05-2025.pdf?p=1747918800065
+Call log:
+  - navigating to "https://deoab.oab.org.br/assets/diarios/diario-eletronico-oab-22-05-2025.pdf?p=1747918800065", waiting until "load"
+
+2025-05-23 01:31:49,240 - MedicosCrawler - ERROR - Erro ao buscar http://189.28.128.100/maismedicos/Lista_validadosPROVAB_2014_consolidado.pdf com Playwright: Page.goto: net::ERR_ABORTED at http://189.28.128.100/maismedicos/Lista_validadosPROVAB_2014_consolidado.pdf
+Call log:
+  - navigating to "http://189.28.128.100/maismedicos/Lista_validadosPROVAB_2014_consolidado.pdf", waiting until "load"
+
+2025-05-23 01:31:53,736 - MedicosCrawler - ERROR - Erro ao buscar https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1306609531.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1306609531.pdf
+Call log:
+  - navigating to "https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/1306609531.pdf", waiting until "load"
+
+2025-05-23 01:31:58,251 - MedicosCrawler - ERROR - Erro ao buscar https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/beneficios-fiscais/programa-empresa-cidada/empresas_optantes com Playwright: Page.goto: net::ERR_ABORTED at https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/beneficios-fiscais/programa-empresa-cidada/empresas_optantes
+Call log:
+  - navigating to "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/beneficios-fiscais/programa-empresa-cidada/empresas_optantes", waiting until "load"
+
+2025-05-23 01:32:03,419 - MedicosCrawler - ERROR - Erro ao buscar http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2024/DMPF-ADMINISTRATIVO-2024-04-03.pdf com Playwright: Page.goto: net::ERR_ABORTED at http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2024/DMPF-ADMINISTRATIVO-2024-04-03.pdf
+Call log:
+  - navigating to "http://www.transparencia.mpf.mp.br/conteudo/diarios-e-boletins/diario-eletronico-dmpf-e/2024/DMPF-ADMINISTRATIVO-2024-04-03.pdf", waiting until "load"
+
+2025-05-23 01:32:03,420 - MedicosCrawler - INFO - Concluído: MARIA JOSE SILVA DE BRITO - Especialidade: ginecologia - Email: cfm@portalmedico.org.br
+2025-05-23 01:32:03,422 - MedicosCrawler - INFO - Resultados parciais salvos em output.csv
+2025-05-23 01:32:03,422 - MedicosCrawler - INFO - Processando lote 4/5
+2025-05-23 01:32:03,422 - MedicosCrawler - INFO - Processando médico: ADRIANA VALENTINI (CRM 40067/RS)
+2025-05-23 01:32:03,423 - MedicosCrawler - INFO - Processando médico: REIGINALDO MACHADO DE ANDRADE (CRM 1234/AP)
+2025-05-23 01:32:03,423 - MedicosCrawler - INFO - Processando médico: FILIPE COSTA RODRIGUES FURTADO (CRM 10281/MT)
+2025-05-23 01:32:03,423 - MedicosCrawler - INFO - Processando médico: ALBENIZ MARTINS SILVA (CRM 3667/PA)
+2025-05-23 01:32:20,464 - MedicosCrawler - INFO - Concluído: ALBENIZ MARTINS SILVA - Especialidade: neurologia - Email: cfm@portalmedico.org.br
+2025-05-23 01:32:20,464 - MedicosCrawler - INFO - Processando médico: ALBANIA PINTO PEDROSA (CRM 4152/PE)
+2025-05-23 01:32:20,609 - MedicosCrawler - INFO - Concluído: FILIPE COSTA RODRIGUES FURTADO - Especialidade: medicina paliativa - Email: cfm@portalmedico.org.br
+2025-05-23 01:32:21,407 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:32:27,440 - MedicosCrawler - ERROR - Erro ao buscar https://editor.amapa.gov.br/arquivos_portais/publicacoes/SESA_dc6035f638559bbb4c1b73d9fad535bd.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://editor.amapa.gov.br/arquivos_portais/publicacoes/SESA_dc6035f638559bbb4c1b73d9fad535bd.pdf
+Call log:
+  - navigating to "https://editor.amapa.gov.br/arquivos_portais/publicacoes/SESA_dc6035f638559bbb4c1b73d9fad535bd.pdf", waiting until "load"
+
+2025-05-23 01:32:32,869 - MedicosCrawler - ERROR - Erro ao buscar https://editor.amapa.gov.br/arquivos_portais/publicacoes/SESA_fcafaa56d412cb2334601a17df66057c.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://editor.amapa.gov.br/arquivos_portais/publicacoes/SESA_fcafaa56d412cb2334601a17df66057c.pdf
+Call log:
+  - navigating to "https://editor.amapa.gov.br/arquivos_portais/publicacoes/SESA_fcafaa56d412cb2334601a17df66057c.pdf", waiting until "load"
+
+2025-05-23 01:32:33,868 - MedicosCrawler - INFO - Concluído: ADRIANA VALENTINI - Especialidade: privacidade - Email: não encontrado
+2025-05-23 01:32:38,336 - MedicosCrawler - ERROR - Erro ao buscar https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/cgp/CGP/listagem_de_medicos_jan-2013.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/cgp/CGP/listagem_de_medicos_jan-2013.pdf
+Call log:
+  - navigating to "https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/cgp/CGP/listagem_de_medicos_jan-2013.pdf", waiting until "load"
+
+2025-05-23 01:32:38,414 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:32:42,869 - MedicosCrawler - ERROR - Erro ao buscar https://osasco.sp.gov.br/site/wp-content/uploads/2016/04/httposasco.sp_.gov_.brcompsec1atosEd1234.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://osasco.sp.gov.br/site/wp-content/uploads/2016/04/httposasco.sp_.gov_.brcompsec1atosEd1234.pdf
+Call log:
+  - navigating to "https://osasco.sp.gov.br/site/wp-content/uploads/2016/04/httposasco.sp_.gov_.brcompsec1atosEd1234.pdf", waiting until "load"
+
+2025-05-23 01:32:47,371 - MedicosCrawler - ERROR - Erro ao buscar https://www.preventsenior.com.br/images/Prevent_Senior_Brasi%CC%81lia_1000_05-2022.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.preventsenior.com.br/images/Prevent_Senior_Brasi%CC%81lia_1000_05-2022.pdf
+Call log:
+  - navigating to "https://www.preventsenior.com.br/images/Prevent_Senior_Brasi%CC%81lia_1000_05-2022.pdf", waiting until "load"
+
+2025-05-23 01:32:51,767 - MedicosCrawler - ERROR - Erro ao buscar https://www.metrus.org.br/downloads/prestadores_site.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.metrus.org.br/downloads/prestadores_site.pdf
+Call log:
+  - navigating to "https://www.metrus.org.br/downloads/prestadores_site.pdf", waiting until "load"
+
+2025-05-23 01:32:56,230 - MedicosCrawler - ERROR - Erro ao buscar https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/cgp/horario%20de%20medicos%20-%20out%20-%202014.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/cgp/horario%20de%20medicos%20-%20out%20-%202014.pdf
+Call log:
+  - navigating to "https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/saude/cgp/horario%20de%20medicos%20-%20out%20-%202014.pdf", waiting until "load"
+
+2025-05-23 01:33:02,965 - MedicosCrawler - ERROR - Erro ao buscar https://www.saude.sp.gov.br/resources/cve-centro-de-vigilancia-epidemiologica/areas-de-vigilancia/doencas-cronicas-nao-transmissiveis/observatorio-promocao-a-saude/portarias/decreto_63792_2018.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.saude.sp.gov.br/resources/cve-centro-de-vigilancia-epidemiologica/areas-de-vigilancia/doencas-cronicas-nao-transmissiveis/observatorio-promocao-a-saude/portarias/decreto_63792_2018.pdf
+Call log:
+  - navigating to "https://www.saude.sp.gov.br/resources/cve-centro-de-vigilancia-epidemiologica/areas-de-vigilancia/doencas-cronicas-nao-transmissiveis/observatorio-promocao-a-saude/portarias/decreto_63792_2018.pdf", waiting until "load"
+
+2025-05-23 01:33:07,604 - MedicosCrawler - ERROR - Erro ao buscar https://www.preventsenior.com.br/assets-pdf/Prevent_Senior_Bras%C3%ADlia_1000_03-06-2022_compressed.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.preventsenior.com.br/assets-pdf/Prevent_Senior_Bras%C3%ADlia_1000_03-06-2022_compressed.pdf
+Call log:
+  - navigating to "https://www.preventsenior.com.br/assets-pdf/Prevent_Senior_Bras%C3%ADlia_1000_03-06-2022_compressed.pdf", waiting until "load"
+
+2025-05-23 01:33:12,655 - MedicosCrawler - ERROR - Erro ao buscar https://www.trt6.jus.br/portal/sites/default/files/documents/guia_medico_-_atualizado_em_28.07.2023.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.trt6.jus.br/portal/sites/default/files/documents/guia_medico_-_atualizado_em_28.07.2023.pdf
+Call log:
+  - navigating to "https://www.trt6.jus.br/portal/sites/default/files/documents/guia_medico_-_atualizado_em_28.07.2023.pdf", waiting until "load"
+
+2025-05-23 01:33:12,655 - MedicosCrawler - INFO - Concluído: REIGINALDO MACHADO DE ANDRADE - Especialidade: None - Email: cfm@portalmedico.org.br
+2025-05-23 01:33:52,786 - MedicosCrawler - ERROR - Erro ao buscar https://arquivocentral.unb.br/images/Artigos/indice_onomastico.xlsx com Playwright: Page.goto: net::ERR_ABORTED at https://arquivocentral.unb.br/images/Artigos/indice_onomastico.xlsx
+Call log:
+  - navigating to "https://arquivocentral.unb.br/images/Artigos/indice_onomastico.xlsx", waiting until "load"
+
+2025-05-23 01:33:57,258 - MedicosCrawler - ERROR - Erro ao buscar https://sistemas.trf1.jus.br/edj/bitstream/handle/123/100041/Caderno_JUD_DF_2016-03-03_VIII_42.pdf?sequence=4&isAllowed=y com Playwright: Page.goto: net::ERR_ABORTED at https://sistemas.trf1.jus.br/edj/bitstream/handle/123/100041/Caderno_JUD_DF_2016-03-03_VIII_42.pdf?sequence=4&isAllowed=y
+Call log:
+  - navigating to "https://sistemas.trf1.jus.br/edj/bitstream/handle/123/100041/Caderno_JUD_DF_2016-03-03_VIII_42.pdf?sequence=4&isAllowed=y", waiting until "load"
+
+2025-05-23 01:34:01,809 - MedicosCrawler - ERROR - Erro ao buscar https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20240621/1-PoderExecutivo/PoderExecutivo(20240621).pdf com Playwright: Page.goto: net::ERR_ABORTED at https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20240621/1-PoderExecutivo/PoderExecutivo(20240621).pdf
+Call log:
+  - navigating to "https://cepebr-prod.s3.amazonaws.com/1/cadernos/2024/20240621/1-PoderExecutivo/PoderExecutivo(20240621).pdf", waiting until "load"
+
+2025-05-23 01:34:07,318 - MedicosCrawler - ERROR - Erro ao buscar https://www.tjmg.jus.br/data/files/8A/C2/19/DF/3F83E510B2C1B1E5A04E08A8/Edital%202-2016%20-%20Lista%201.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.tjmg.jus.br/data/files/8A/C2/19/DF/3F83E510B2C1B1E5A04E08A8/Edital%202-2016%20-%20Lista%201.pdf
+Call log:
+  - navigating to "https://www.tjmg.jus.br/data/files/8A/C2/19/DF/3F83E510B2C1B1E5A04E08A8/Edital%202-2016%20-%20Lista%201.pdf", waiting until "load"
+
+2025-05-23 01:34:14,011 - MedicosCrawler - ERROR - Erro ao buscar http://www.cespe.unb.br/concursos/_antigos/anteriores_2002/2000/TJDFT/Arquivos/ED_TJDFT_07.pdf com Playwright: Page.goto: net::ERR_ABORTED at http://www.cespe.unb.br/concursos/_antigos/anteriores_2002/2000/TJDFT/Arquivos/ED_TJDFT_07.pdf
+Call log:
+  - navigating to "http://www.cespe.unb.br/concursos/_antigos/anteriores_2002/2000/TJDFT/Arquivos/ED_TJDFT_07.pdf", waiting until "load"
+
+2025-05-23 01:34:14,011 - MedicosCrawler - INFO - Concluído: ALBANIA PINTO PEDROSA - Especialidade: pediatra - Email: cfm@portalmedico.org.br
+2025-05-23 01:34:14,013 - MedicosCrawler - INFO - Resultados parciais salvos em output.csv
+2025-05-23 01:34:14,013 - MedicosCrawler - INFO - Processando lote 5/5
+2025-05-23 01:34:14,014 - MedicosCrawler - INFO - Processando médico: JESSICA DA COSTA DE OLIVEIRA BRITO (CRM 8391/PI)
+2025-05-23 01:34:14,014 - MedicosCrawler - INFO - Processando médico: ADEJAIME LOPES DE ASSUNÇÃO (CRM 5507/RO)
+2025-05-23 01:34:14,014 - MedicosCrawler - INFO - Processando médico: MARCIO SOARES DA FONSECA (CRM 8001/SE)
+2025-05-23 01:34:14,014 - MedicosCrawler - INFO - Processando médico: BRUNO FIGUEIREDO DOS SANTOS (CRM 1047/RR)
+2025-05-23 01:34:30,936 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:34:30,936 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:34:31,511 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:34:31,542 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:34:38,014 - MedicosCrawler - ERROR - Erro ao buscar https://www.unimed.coop.br/site/documents/3081577/3081853/USR_guia-medico_geral_30-06-23.pdf/d2c9b81b-df19-8df4-2a80-5140e26c3388?t=1688149382235 com Playwright: Page.goto: net::ERR_ABORTED at https://www.unimed.coop.br/site/documents/3081577/3081853/USR_guia-medico_geral_30-06-23.pdf/d2c9b81b-df19-8df4-2a80-5140e26c3388?t=1688149382235
+Call log:
+  - navigating to "https://www.unimed.coop.br/site/documents/3081577/3081853/USR_guia-medico_geral_30-06-23.pdf/d2c9b81b-df19-8df4-2a80-5140e26c3388?t=1688149382235", waiting until "load"
+
+2025-05-23 01:34:38,616 - MedicosCrawler - ERROR - Erro ao buscar https://crasc.org.br/wp-content/uploads/2023/03/GUIA-MEDICO-NDI-SUL-ESSENCIAL-SC.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://crasc.org.br/wp-content/uploads/2023/03/GUIA-MEDICO-NDI-SUL-ESSENCIAL-SC.pdf
+Call log:
+  - navigating to "https://crasc.org.br/wp-content/uploads/2023/03/GUIA-MEDICO-NDI-SUL-ESSENCIAL-SC.pdf", waiting until "load"
+
+2025-05-23 01:34:43,112 - MedicosCrawler - ERROR - Erro ao buscar https://www.unimedcampinas.com.br/ArquivosSite/GuiaMedico.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.unimedcampinas.com.br/ArquivosSite/GuiaMedico.pdf
+Call log:
+  - navigating to "https://www.unimedcampinas.com.br/ArquivosSite/GuiaMedico.pdf", waiting until "load"
+
+2025-05-23 01:34:44,843 - MedicosCrawler - ERROR - Erro ao buscar https://www.rotaseguros.com.br/corretor/wp-content/uploads/REDE-ESSENCIAL-PR.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.rotaseguros.com.br/corretor/wp-content/uploads/REDE-ESSENCIAL-PR.pdf
+Call log:
+  - navigating to "https://www.rotaseguros.com.br/corretor/wp-content/uploads/REDE-ESSENCIAL-PR.pdf", waiting until "load"
+
+2025-05-23 01:34:49,847 - MedicosCrawler - ERROR - Erro ao buscar https://www.unimed.coop.br/site/documents/3081577/3081853/USR_Guia-Medico_10-11-21.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.unimed.coop.br/site/documents/3081577/3081853/USR_Guia-Medico_10-11-21.pdf
+Call log:
+  - navigating to "https://www.unimed.coop.br/site/documents/3081577/3081853/USR_Guia-Medico_10-11-21.pdf", waiting until "load"
+
+2025-05-23 01:34:51,999 - MedicosCrawler - ERROR - Erro ao buscar https://web.trf3.jus.br/diario/Consulta/BaixarPdf/32375 com Playwright: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://web.trf3.jus.br/diario/Consulta/BaixarPdf/32375
+Call log:
+  - navigating to "https://web.trf3.jus.br/diario/Consulta/BaixarPdf/32375", waiting until "load"
+
+2025-05-23 01:34:54,315 - MedicosCrawler - ERROR - Erro ao buscar https://web.trf3.jus.br/diario/Consulta/BaixarPdf/32655 com Playwright: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://web.trf3.jus.br/diario/Consulta/BaixarPdf/32655
+Call log:
+  - navigating to "https://web.trf3.jus.br/diario/Consulta/BaixarPdf/32655", waiting until "load"
+
+2025-05-23 01:34:57,478 - MedicosCrawler - ERROR - Erro ao buscar http://atualizacao.multicalculosaude.com.br/downloads/02062022_101255.pdf com Playwright: Page.goto: net::ERR_ABORTED at http://atualizacao.multicalculosaude.com.br/downloads/02062022_101255.pdf
+Call log:
+  - navigating to "http://atualizacao.multicalculosaude.com.br/downloads/02062022_101255.pdf", waiting until "load"
+
+2025-05-23 01:34:59,038 - MedicosCrawler - ERROR - Erro ao buscar https://portal.cfm.org.br/images/stories/pdf/clipping.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://portal.cfm.org.br/images/stories/pdf/clipping.pdf
+Call log:
+  - navigating to "https://portal.cfm.org.br/images/stories/pdf/clipping.pdf", waiting until "load"
+
+2025-05-23 01:35:01,968 - MedicosCrawler - ERROR - Erro ao buscar https://sinpofesc.org.br/wp-content/uploads/2022/10/GUIA-MEDICO-NDI-SUL-PLANO-ESSENCIAL.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://sinpofesc.org.br/wp-content/uploads/2022/10/GUIA-MEDICO-NDI-SUL-PLANO-ESSENCIAL.pdf
+Call log:
+  - navigating to "https://sinpofesc.org.br/wp-content/uploads/2022/10/GUIA-MEDICO-NDI-SUL-PLANO-ESSENCIAL.pdf", waiting until "load"
+
+2025-05-23 01:35:03,917 - MedicosCrawler - ERROR - Erro ao buscar https://extranet.hcrp.usp.br/novorh/arquivos/2321/E23211212202215220.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://extranet.hcrp.usp.br/novorh/arquivos/2321/E23211212202215220.pdf
+Call log:
+  - navigating to "https://extranet.hcrp.usp.br/novorh/arquivos/2321/E23211212202215220.pdf", waiting until "load"
+
+2025-05-23 01:35:06,807 - MedicosCrawler - ERROR - Erro ao buscar https://clinipamjoinville.com.br/arquivos/REDE%20ESSENCIAL.pdf com Playwright: Page.goto: net::ERR_CERT_DATE_INVALID at https://clinipamjoinville.com.br/arquivos/REDE%20ESSENCIAL.pdf
+Call log:
+  - navigating to "https://clinipamjoinville.com.br/arquivos/REDE%20ESSENCIAL.pdf", waiting until "load"
+
+2025-05-23 01:35:06,808 - MedicosCrawler - INFO - Concluído: ADEJAIME LOPES DE ASSUNÇÃO - Especialidade: None - Email: cfm@portalmedico.org.br
+2025-05-23 01:35:09,136 - MedicosCrawler - ERROR - Erro ao buscar https://www.plasc.org.br/wp-content/uploads/2024/01/Plasc-Institucional-Guia-Medico-2024-Alt4-Final-Web.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.plasc.org.br/wp-content/uploads/2024/01/Plasc-Institucional-Guia-Medico-2024-Alt4-Final-Web.pdf
+Call log:
+  - navigating to "https://www.plasc.org.br/wp-content/uploads/2024/01/Plasc-Institucional-Guia-Medico-2024-Alt4-Final-Web.pdf", waiting until "load"
+
+2025-05-23 01:35:13,747 - MedicosCrawler - ERROR - Erro ao buscar https://www.preventsenior.com.br/images/Prevent_Senior_Brasi%CC%81lia_1000_05-2022.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.preventsenior.com.br/images/Prevent_Senior_Brasi%CC%81lia_1000_05-2022.pdf
+Call log:
+  - navigating to "https://www.preventsenior.com.br/images/Prevent_Senior_Brasi%CC%81lia_1000_05-2022.pdf", waiting until "load"
+
+2025-05-23 01:35:18,252 - MedicosCrawler - ERROR - Erro ao buscar https://web.trf3.jus.br/diario/Consulta/BaixarPdf/32785 com Playwright: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://web.trf3.jus.br/diario/Consulta/BaixarPdf/32785
+Call log:
+  - navigating to "https://web.trf3.jus.br/diario/Consulta/BaixarPdf/32785", waiting until "load"
+
+2025-05-23 01:35:18,807 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:35:19,111 - MedicosCrawler - ERROR - Erro ao extrair dados com Ollama: HTTPConnectionPool(host='124.81.6.163', port=11434): Read timed out. (read timeout=15)
+2025-05-23 01:35:22,914 - MedicosCrawler - ERROR - Erro ao buscar https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/780465483.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/780465483.pdf
+Call log:
+  - navigating to "https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/780465483.pdf", waiting until "load"
+
+2025-05-23 01:35:22,914 - MedicosCrawler - INFO - Concluído: MARCIO SOARES DA FONSECA - Especialidade: None - Email: cfm@portalmedico.org.br
+2025-05-23 01:35:23,387 - MedicosCrawler - ERROR - Erro ao buscar https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo696.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo696.pdf
+Call log:
+  - navigating to "https://osasco.sp.gov.br/site/wp-content/uploads/2022/02/iomo696.pdf", waiting until "load"
+
+2025-05-23 01:35:28,069 - MedicosCrawler - ERROR - Erro ao buscar https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/2016071342.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/2016071342.pdf
+Call log:
+  - navigating to "https://diariooficial.guarulhos.sp.gov.br/uploads/pdf/2016071342.pdf", waiting until "load"
+
+2025-05-23 01:35:32,719 - MedicosCrawler - ERROR - Erro ao buscar https://www.bertioga.sp.gov.br/wp/wp-content/uploads/2023/12/BOM_1143-compressed.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.bertioga.sp.gov.br/wp/wp-content/uploads/2023/12/BOM_1143-compressed.pdf
+Call log:
+  - navigating to "https://www.bertioga.sp.gov.br/wp/wp-content/uploads/2023/12/BOM_1143-compressed.pdf", waiting until "load"
+
+2025-05-23 01:35:37,219 - MedicosCrawler - ERROR - Erro ao buscar https://diariooficial.santos.sp.gov.br/edicoes/inicio/download/2018-05-07 com Playwright: Page.goto: net::ERR_ABORTED at https://diariooficial.santos.sp.gov.br/edicoes/inicio/download/2018-05-07
+Call log:
+  - navigating to "https://diariooficial.santos.sp.gov.br/edicoes/inicio/download/2018-05-07", waiting until "load"
+
+2025-05-23 01:35:42,031 - MedicosCrawler - ERROR - Erro ao buscar https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2018/01/EDI%C3%87%C3%83O-4354-10-01-2018-ASSINADO.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2018/01/EDI%C3%87%C3%83O-4354-10-01-2018-ASSINADO.pdf
+Call log:
+  - navigating to "https://imprensaoficial.jundiai.sp.gov.br/wp-content/uploads/2018/01/EDI%C3%87%C3%83O-4354-10-01-2018-ASSINADO.pdf", waiting until "load"
+
+2025-05-23 01:35:46,800 - MedicosCrawler - ERROR - Erro ao buscar https://www.stf.jus.br/arquivo/djEletronico/DJE_20200513_119.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://www.stf.jus.br/arquivo/djEletronico/DJE_20200513_119.pdf
+Call log:
+  - navigating to "https://www.stf.jus.br/arquivo/djEletronico/DJE_20200513_119.pdf", waiting until "load"
+
+2025-05-23 01:35:51,468 - MedicosCrawler - ERROR - Erro ao buscar https://sistemas.trf1.jus.br/edj/bitstream/handle/123/44199/Caderno_JUD_MG_2015-08-07_VII_148.pdf?sequence=1&isAllowed=y com Playwright: Page.goto: net::ERR_ABORTED at https://sistemas.trf1.jus.br/edj/bitstream/handle/123/44199/Caderno_JUD_MG_2015-08-07_VII_148.pdf?sequence=1&isAllowed=y
+Call log:
+  - navigating to "https://sistemas.trf1.jus.br/edj/bitstream/handle/123/44199/Caderno_JUD_MG_2015-08-07_VII_148.pdf?sequence=1&isAllowed=y", waiting until "load"
+
+2025-05-23 01:35:51,469 - MedicosCrawler - INFO - Concluído: JESSICA DA COSTA DE OLIVEIRA BRITO - Especialidade: endocrinologia - Email: cfm@portalmedico.org.br
+2025-05-23 01:37:01,030 - MedicosCrawler - ERROR - Erro ao buscar https://www.reclameaqui.com.br/unimed-seguradora/seguros-unimed-demora-no-atendimentoliberacao_ioGP0oN4f4yLWzuO/ com Playwright: Timeout 30000ms exceeded.
+2025-05-23 01:37:50,621 - MedicosCrawler - ERROR - Erro ao buscar http://189.28.128.100/maismedicos/Lista_validadosPROVAB_2014_consolidado.pdf com Playwright: Page.goto: net::ERR_ABORTED at http://189.28.128.100/maismedicos/Lista_validadosPROVAB_2014_consolidado.pdf
+Call log:
+  - navigating to "http://189.28.128.100/maismedicos/Lista_validadosPROVAB_2014_consolidado.pdf", waiting until "load"
+
+2025-05-23 01:37:55,728 - MedicosCrawler - ERROR - Erro ao buscar https://imprensaoficial.rr.gov.br/app/_edicoes/2013/04/doe-20130405.pdf com Playwright: Page.goto: net::ERR_ABORTED at https://imprensaoficial.rr.gov.br/app/_edicoes/2013/04/doe-20130405.pdf
+Call log:
+  - navigating to "https://imprensaoficial.rr.gov.br/app/_edicoes/2013/04/doe-20130405.pdf", waiting until "load"
+
+2025-05-23 01:38:15,312 - MedicosCrawler - WARNING - Não foi possível decodificar JSON da resposta do Ollama
+2025-05-23 01:38:15,313 - MedicosCrawler - INFO - Concluído: BRUNO FIGUEIREDO DOS SANTOS - Especialidade: clínica médica - Email: cfm@portalmedico.org.br
+2025-05-23 01:38:15,315 - MedicosCrawler - INFO - Resultados parciais salvos em output.csv
+2025-05-23 01:38:15,315 - MedicosCrawler - INFO - Processamento concluído. 24 médicos processados.
+2025-05-23 01:38:15,316 - MedicosCrawler - ERROR - Erro ao liberar recursos: cannot switch to a different thread (which happens to have exited)

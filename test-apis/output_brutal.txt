@@ -1,0 +1,185 @@
+--- Relatório Detalhado de Testes Brutais de APIs ---
+
+Consulta: Dados do(a) médico(a) DEBORAH ANNA DUWE (CRM: 55252)
+Número de Tentativas por API: 3
+
+API: Jina DeepSearch
+Modelo: Jina DeepSearch (interno)
+Tentativa: 1
+Tempo de Resposta: 180.5118 segundos
+**Resposta Bruta (raw_answer):**
+Timeout.
+
+**Resposta JSON Analisada (parsed_answer):**
+{
+  "error": "Requisição excedeu o tempo limite (Timeout)."
+}
+Tokens de Prompt: N/A
+Tokens de Conclusão: N/A
+Total de Tokens Estimados: 10000
+Custo Estimado: $0.00050000 (aprox.)
+==================================================
+
+API: Jina DeepSearch
+Modelo: Jina DeepSearch (interno)
+Tentativa: 2
+Tempo de Resposta: 180.4026 segundos
+**Resposta Bruta (raw_answer):**
+Timeout.
+
+**Resposta JSON Analisada (parsed_answer):**
+{
+  "error": "Requisição excedeu o tempo limite (Timeout)."
+}
+Tokens de Prompt: N/A
+Tokens de Conclusão: N/A
+Total de Tokens Estimados: 10000
+Custo Estimado: $0.00050000 (aprox.)
+==================================================
+
+API: Jina DeepSearch
+Modelo: Jina DeepSearch (interno)
+Tentativa: 3
+Tempo de Resposta: 180.4640 segundos
+**Resposta Bruta (raw_answer):**
+Timeout.
+
+**Resposta JSON Analisada (parsed_answer):**
+{
+  "error": "Requisição excedeu o tempo limite (Timeout)."
+}
+Tokens de Prompt: N/A
+Tokens de Conclusão: N/A
+Total de Tokens Estimados: 10000
+Custo Estimado: $0.00050000 (aprox.)
+==================================================
+
+API: OpenAI ChatGPT
+Modelo: gpt-4o-mini-search-preview-2025-03-11
+Tentativa: 1
+Tempo de Resposta: 3.3581 segundos
+**Resposta Bruta (raw_answer):**
+```json
+{
+    "Medical specialty": "Psiquiatria",
+    "Endereco Completo A1": "R. Viveiros de Castro, 99 - Jardim São Paulo, São Paulo - SP",
+    "Address A1": "R. Viveiros de Castro",
+    "Numero A1": "99",
+    "Complement A1": "",
+    "Bairro A1": "Jardim São Paulo",
+    "postal code A1": "",
+    "City A1": "São Paulo",
+    "State A1": "SP",
+    "Phone A1": "",
+    "Cell phone A1": "",
+    "E-mail A1": ""
+}
+``` 
+
+**Resposta JSON Analisada (parsed_answer):**
+{
+  "Medical specialty": "Psiquiatria",
+  "Endereco Completo A1": "R. Viveiros de Castro, 99 - Jardim São Paulo, São Paulo - SP",
+  "Address A1": "R. Viveiros de Castro",
+  "Numero A1": "99",
+  "Complement A1": "",
+  "Bairro A1": "Jardim São Paulo",
+  "postal code A1": "",
+  "City A1": "São Paulo",
+  "State A1": "SP",
+  "Phone A1": "",
+  "Cell phone A1": "",
+  "E-mail A1": ""
+}
+Tokens de Prompt: 300
+Tokens de Conclusão: 139
+Total de Tokens Estimados: 439
+Custo Estimado: $0.00012840 (aprox.)
+==================================================
+
+API: OpenAI ChatGPT
+Modelo: gpt-4o-mini-search-preview-2025-03-11
+Tentativa: 2
+Tempo de Resposta: 4.2532 segundos
+**Resposta Bruta (raw_answer):**
+```json
+{
+    "Medical specialty": "Psiquiatria",
+    "Endereco Completo A1": "R. Viveiros de Castro, 99 - Jardim São Paulo, São Paulo - SP",
+    "Address A1": "R. Viveiros de Castro",
+    "Numero A1": "99",
+    "Complement A1": "",
+    "Bairro A1": "Jardim São Paulo",
+    "postal code A1": "",
+    "City A1": "São Paulo",
+    "State A1": "SP",
+    "Phone A1": "",
+    "Cell phone A1": "",
+    "E-mail A1": ""
+}
+``` 
+
+**Resposta JSON Analisada (parsed_answer):**
+{
+  "Medical specialty": "Psiquiatria",
+  "Endereco Completo A1": "R. Viveiros de Castro, 99 - Jardim São Paulo, São Paulo - SP",
+  "Address A1": "R. Viveiros de Castro",
+  "Numero A1": "99",
+  "Complement A1": "",
+  "Bairro A1": "Jardim São Paulo",
+  "postal code A1": "",
+  "City A1": "São Paulo",
+  "State A1": "SP",
+  "Phone A1": "",
+  "Cell phone A1": "",
+  "E-mail A1": ""
+}
+Tokens de Prompt: 300
+Tokens de Conclusão: 139
+Total de Tokens Estimados: 439
+Custo Estimado: $0.00012840 (aprox.)
+==================================================
+
+API: OpenAI ChatGPT
+Modelo: gpt-4o-mini-search-preview-2025-03-11
+Tentativa: 3
+Tempo de Resposta: 3.7309 segundos
+**Resposta Bruta (raw_answer):**
+```json
+{
+    "Medical specialty": "Psiquiatria",
+    "Endereco Completo A1": "R. Viveiros de Castro, 99 - Jardim São Paulo, São Paulo - SP",
+    "Address A1": "R. Viveiros de Castro",
+    "Numero A1": "99",
+    "Complement A1": "",
+    "Bairro A1": "Jardim São Paulo",
+    "postal code A1": "",
+    "City A1": "São Paulo",
+    "State A1": "SP",
+    "Phone A1": "",
+    "Cell phone A1": "",
+    "E-mail A1": ""
+}
+``` 
+
+**Resposta JSON Analisada (parsed_answer):**
+{
+  "Medical specialty": "Psiquiatria",
+  "Endereco Completo A1": "R. Viveiros de Castro, 99 - Jardim São Paulo, São Paulo - SP",
+  "Address A1": "R. Viveiros de Castro",
+  "Numero A1": "99",
+  "Complement A1": "",
+  "Bairro A1": "Jardim São Paulo",
+  "postal code A1": "",
+  "City A1": "São Paulo",
+  "State A1": "SP",
+  "Phone A1": "",
+  "Cell phone A1": "",
+  "E-mail A1": ""
+}
+Tokens de Prompt: 300
+Tokens de Conclusão: 139
+Total de Tokens Estimados: 439
+Custo Estimado: $0.00012840 (aprox.)
+==================================================
+

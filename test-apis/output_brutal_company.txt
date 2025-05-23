@@ -1,0 +1,179 @@
+--- Relatório Detalhado de Testes Brutais de APIs (Empresa) ---
+
+Consulta: Dados da empresa AGROFITO
+Número de Tentativas por API: 3
+
+API: Jina DeepSearch
+Modelo: Jina DeepSearch (interno)
+Tentativa: 1
+Tempo de Resposta: 180.3733 segundos
+**Resposta Bruta (raw_answer):**
+Timeout.
+
+**Resposta JSON Analisada (parsed_answer):**
+{
+  "error": "Requisição excedeu o tempo limite (Timeout)."
+}
+Tokens de Prompt: N/A
+Tokens de Conclusão: N/A
+Total de Tokens Estimados: 10000
+Custo Estimado: $0.00050000 (aprox.)
+==================================================
+
+API: Jina DeepSearch
+Modelo: Jina DeepSearch (interno)
+Tentativa: 2
+Tempo de Resposta: 180.3766 segundos
+**Resposta Bruta (raw_answer):**
+Timeout.
+
+**Resposta JSON Analisada (parsed_answer):**
+{
+  "error": "Requisição excedeu o tempo limite (Timeout)."
+}
+Tokens de Prompt: N/A
+Tokens de Conclusão: N/A
+Total de Tokens Estimados: 10000
+Custo Estimado: $0.00050000 (aprox.)
+==================================================
+
+API: Jina DeepSearch
+Modelo: Jina DeepSearch (interno)
+Tentativa: 3
+Tempo de Resposta: 180.4702 segundos
+**Resposta Bruta (raw_answer):**
+Timeout.
+
+**Resposta JSON Analisada (parsed_answer):**
+{
+  "error": "Requisição excedeu o tempo limite (Timeout)."
+}
+Tokens de Prompt: N/A
+Tokens de Conclusão: N/A
+Total de Tokens Estimados: 10000
+Custo Estimado: $0.00050000 (aprox.)
+==================================================
+
+API: OpenAI ChatGPT
+Modelo: gpt-4o-mini-search-preview-2025-03-11
+Tentativa: 1
+Tempo de Resposta: 3.6886 segundos
+**Resposta Bruta (raw_answer):**
+```json
+{
+    "Empresa": "AGROFITO-INSUMOS AGRICOLAS LTDA.",
+    "cnpj": "26.518.916/0001-21",
+    "Nome Contato TI": "",
+    "Sobrenome Contato TI": "",
+    "Cargo Contato TI": "",
+    "Telefone": "(16) 3383-8300",
+    "Celular": "",
+    "Email": "controladoria@agrofito.com.br",
+    "Cidade": "Matão",
+    "Estado": "SP",
+    "CEP": "15990-240"
+}
+``` 
+
+**Resposta JSON Analisada (parsed_answer):**
+{
+  "Empresa": "AGROFITO-INSUMOS AGRICOLAS LTDA.",
+  "cnpj": "26.518.916/0001-21",
+  "Nome Contato TI": "",
+  "Sobrenome Contato TI": "",
+  "Cargo Contato TI": "",
+  "Telefone": "(16) 3383-8300",
+  "Celular": "",
+  "Email": "controladoria@agrofito.com.br",
+  "Cidade": "Matão",
+  "Estado": "SP",
+  "CEP": "15990-240"
+}
+Tokens de Prompt: 348
+Tokens de Conclusão: 129
+Total de Tokens Estimados: 477
+Custo Estimado: $0.00012960 (aprox.)
+==================================================
+
+API: OpenAI ChatGPT
+Modelo: gpt-4o-mini-search-preview-2025-03-11
+Tentativa: 2
+Tempo de Resposta: 3.5626 segundos
+**Resposta Bruta (raw_answer):**
+```json
+{
+    "Empresa": "AGROFITO-INSUMOS AGRICOLAS LTDA.",
+    "cnpj": "26.518.916/0001-21",
+    "Nome Contato TI": "",
+    "Sobrenome Contato TI": "",
+    "Cargo Contato TI": "",
+    "Telefone": "(16) 3383-8300",
+    "Celular": "",
+    "Email": "controladoria@agrofito.com.br",
+    "Cidade": "Matão",
+    "Estado": "SP",
+    "CEP": "15990-240"
+}
+``` 
+
+**Resposta JSON Analisada (parsed_answer):**
+{
+  "Empresa": "AGROFITO-INSUMOS AGRICOLAS LTDA.",
+  "cnpj": "26.518.916/0001-21",
+  "Nome Contato TI": "",
+  "Sobrenome Contato TI": "",
+  "Cargo Contato TI": "",
+  "Telefone": "(16) 3383-8300",
+  "Celular": "",
+  "Email": "controladoria@agrofito.com.br",
+  "Cidade": "Matão",
+  "Estado": "SP",
+  "CEP": "15990-240"
+}
+Tokens de Prompt: 348
+Tokens de Conclusão: 129
+Total de Tokens Estimados: 477
+Custo Estimado: $0.00012960 (aprox.)
+==================================================
+
+API: OpenAI ChatGPT
+Modelo: gpt-4o-mini-search-preview-2025-03-11
+Tentativa: 3
+Tempo de Resposta: 3.3449 segundos
+**Resposta Bruta (raw_answer):**
+```json
+{
+    "Empresa": "AGROFITO-INSUMOS AGRICOLAS LTDA.",
+    "cnpj": "26.518.916/0001-21",
+    "Nome Contato TI": "",
+    "Sobrenome Contato TI": "",
+    "Cargo Contato TI": "",
+    "Telefone": "(16) 3383-8300",
+    "Celular": "",
+    "Email": "controladoria@agrofito.com.br",
+    "Cidade": "Matão",
+    "Estado": "SP",
+    "CEP": "15990-240"
+}
+``` 
+
+**Resposta JSON Analisada (parsed_answer):**
+{
+  "Empresa": "AGROFITO-INSUMOS AGRICOLAS LTDA.",
+  "cnpj": "26.518.916/0001-21",
+  "Nome Contato TI": "",
+  "Sobrenome Contato TI": "",
+  "Cargo Contato TI": "",
+  "Telefone": "(16) 3383-8300",
+  "Celular": "",
+  "Email": "controladoria@agrofito.com.br",
+  "Cidade": "Matão",
+  "Estado": "SP",
+  "CEP": "15990-240"
+}
+Tokens de Prompt: 348
+Tokens de Conclusão: 129
+Total de Tokens Estimados: 477
+Custo Estimado: $0.00012960 (aprox.)
+==================================================
+

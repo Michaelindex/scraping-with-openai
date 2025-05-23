@@ -1660,7 +1660,7 @@ def run_parallel(inp, outp, num_processes=None):
             pool.terminate()
             pool.join()
             raise
-
+  
 if __name__ == '__main__':
     if len(sys.argv) != 3:
         print("Uso: python buscador_medicos.v10.py input.csv output.csv")

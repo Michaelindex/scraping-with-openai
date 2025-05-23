@@ -1,0 +1,19 @@
+--- RELATÓRIO DE ANÁLISE COMPARATIVA BRUTAL DE APIs ---
+
+Data da Análise: 2025-05-22 20:54:33 UTC
+Consulta: Dados do(a) médico(a) DEBORAH ANNA DUWE (CRM: 55252)
+Número de Tentativas por API: 3
+
+### Saldos e Custos Iniciais (Informados por você antes dos testes):
+Saldo Inicial ChatGPT (OpenAI): $2.04
+Tokens Jina Disponíveis Inicialmente: 4,967,502
+Preço Jina: $50.0 por 1 bilhão de tokens
+Preço OpenAI (gpt-4o-mini-search-preview-2025-03-11): Input $0.15/M tokens, Output $0.6/M tokens
+
+### Saldos Pós-Teste (Informados por você após os testes):
+Saldo Pós-Teste ChatGPT (OpenAI): $1.93
+Tokens Jina Disponíveis Pós-Teste: 3,952,214
+
+### Resumo Agregado dos Resultados:
+#### OpenAI ChatGPT:
+Tentativas Bem-Sucedidas (JSON Válido/sem erro): 3/3

@@ -1,0 +1,19 @@
+--- RELATÓRIO DE ANÁLISE COMPARATIVA BRUTAL DE APIs (EMPRESA) ---
+
+Data da Análise: 2025-05-22 21:21:54 UTC
+Consulta: Dados da empresa AGROFITO
+Número de Tentativas por API: 3
+
+### Saldos e Custos Iniciais (Informados por você antes Deste Teste):
+Saldo Inicial ChatGPT (OpenAI): $1.93
+Tokens Jina Disponíveis Inicialmente: 3,952,214
+Preço Jina: $50.0 por 1 bilhão de tokens
+Preço OpenAI (gpt-4o-mini-search-preview-2025-03-11): Input $0.15/M tokens, Output $0.6/M tokens
+
+### Saldos Pós-Teste (Informados por você após os testes):
+Saldo Pós-Teste ChatGPT (OpenAI): $1.87
+Tokens Jina Disponíveis Pós-Teste: 2,041,971
+
+### Resumo Agregado dos Resultados:
+#### OpenAI ChatGPT:
+Tentativas Bem-Sucedidas (JSON Válido/sem erro): 3/3
