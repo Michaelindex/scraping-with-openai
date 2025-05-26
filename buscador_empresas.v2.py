@@ -58,7 +58,7 @@ MAX_SEARCH_RESULTS = 10 # Reduzir para focar em qualidade
 REQUEST_TIMEOUT = 30
 SELENIUM_TIMEOUT = 45
 OLLAMA_TIMEOUT = 120 # Aumentar timeout para Ollama
-OLLAMA_MODEL = "llama3" # Modelo a ser usado no Ollama
+OLLAMA_MODEL = "llama3.1:8b" # Modelo a ser usado no Ollama
 
 # Configurações de Paralelismo
 NUM_PROCESSES = max(1, multiprocessing.cpu_count() // 2) # Usar metade dos cores para evitar sobrecarga
